@@ -11,6 +11,9 @@ import { belgium } from "./belgium";
 import { switzerland } from "./switzerland";
 import { france } from "./france";
 import { croatia } from "./croatia";
+import { luxembourg } from "./luxembourg";
+import { albania } from "./albania";
+import { italy } from "./italy";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -19,6 +22,9 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   switzerland,
   france,
   croatia,
+  luxembourg,
+  albania,
+  italy,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

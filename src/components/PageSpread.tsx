@@ -32,7 +32,8 @@ export default function PageSpread({
       <Stack direction={{ xs: "column", md: "row" }} sx={{ height: "100%" }}>
         <Box
           sx={{
-            flex: 1,
+            flex: { xs: "0 0 auto", md: 1 },
+            minWidth: 0,
             minHeight: { xs: 260, md: 480 },
             display: "flex",
             alignItems: "center",
@@ -65,6 +66,7 @@ export default function PageSpread({
         <Box
           sx={{
             flex: 1,
+            minWidth: 0,
             p: { xs: 3, md: 6 },
             display: "flex",
             flexDirection: "column",

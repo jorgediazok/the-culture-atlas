@@ -4,6 +4,9 @@ import { belgiumIllustrations } from "./belgium";
 import { switzerlandIllustrations } from "./switzerland";
 import { franceIllustrations } from "./france";
 import { croatiaIllustrations } from "./croatia";
+import { luxembourgIllustrations } from "./luxembourg";
+import { albaniaIllustrations } from "./albania";
+import { italyIllustrations } from "./italy";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -13,6 +16,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   switzerland: switzerlandIllustrations,
   france: franceIllustrations,
   croatia: croatiaIllustrations,
+  luxembourg: luxembourgIllustrations,
+  albania: albaniaIllustrations,
+  italy: italyIllustrations,
 };
 
 export function getIllustration(

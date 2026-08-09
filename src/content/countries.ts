@@ -55,4 +55,31 @@ export const countries: Country[] = [
       en: { name: "Croatia" },
     },
   },
+  {
+    slug: "luxembourg",
+    flagEmoji: "🇱🇺",
+    accentColor: "#00A3E0",
+    translations: {
+      es: { name: "Luxemburgo" },
+      en: { name: "Luxembourg" },
+    },
+  },
+  {
+    slug: "albania",
+    flagEmoji: "🇦🇱",
+    accentColor: "#DA291C",
+    translations: {
+      es: { name: "Albania" },
+      en: { name: "Albania" },
+    },
+  },
+  {
+    slug: "italy",
+    flagEmoji: "🇮🇹",
+    accentColor: "#009246",
+    translations: {
+      es: { name: "Italia" },
+      en: { name: "Italy" },
+    },
+  },
 ];
