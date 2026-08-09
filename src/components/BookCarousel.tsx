@@ -98,8 +98,6 @@ export default function BookCarousel({
               sx={{
                 flex: "0 0 100%",
                 minWidth: 0,
-                borderRadius: 3,
-                backgroundColor: "background.paper",
                 transformOrigin: "center left",
               }}
             >

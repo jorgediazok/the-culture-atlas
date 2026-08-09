@@ -7,6 +7,7 @@ import { croatiaIllustrations } from "./croatia";
 import { luxembourgIllustrations } from "./luxembourg";
 import { albaniaIllustrations } from "./albania";
 import { italyIllustrations } from "./italy";
+import { russiaIllustrations } from "./russia";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -19,6 +20,7 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   luxembourg: luxembourgIllustrations,
   albania: albaniaIllustrations,
   italy: italyIllustrations,
+  russia: russiaIllustrations,
 };
 
 export function getIllustration(

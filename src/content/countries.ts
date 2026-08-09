@@ -82,4 +82,13 @@ export const countries: Country[] = [
       en: { name: "Italy" },
     },
   },
+  {
+    slug: "russia",
+    flagEmoji: "🇷🇺",
+    accentColor: "#0039A6",
+    translations: {
+      es: { name: "Rusia" },
+      en: { name: "Russia" },
+    },
+  },
 ];
