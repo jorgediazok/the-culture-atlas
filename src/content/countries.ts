@@ -10,4 +10,49 @@ export const countries: Country[] = [
       en: { name: "Netherlands" },
     },
   },
+  {
+    slug: "argentina",
+    flagEmoji: "🇦🇷",
+    accentColor: "#74ACDF",
+    translations: {
+      es: { name: "Argentina" },
+      en: { name: "Argentina" },
+    },
+  },
+  {
+    slug: "belgium",
+    flagEmoji: "🇧🇪",
+    accentColor: "#A0522D",
+    translations: {
+      es: { name: "Bélgica" },
+      en: { name: "Belgium" },
+    },
+  },
+  {
+    slug: "switzerland",
+    flagEmoji: "🇨🇭",
+    accentColor: "#D52B1E",
+    translations: {
+      es: { name: "Suiza" },
+      en: { name: "Switzerland" },
+    },
+  },
+  {
+    slug: "france",
+    flagEmoji: "🇫🇷",
+    accentColor: "#0055A4",
+    translations: {
+      es: { name: "Francia" },
+      en: { name: "France" },
+    },
+  },
+  {
+    slug: "croatia",
+    flagEmoji: "🇭🇷",
+    accentColor: "#DA291C",
+    translations: {
+      es: { name: "Croacia" },
+      en: { name: "Croatia" },
+    },
+  },
 ];

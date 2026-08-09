@@ -6,9 +6,19 @@ import type {
   LocalizedCultureEntry,
 } from "./types";
 import { netherlands } from "./netherlands";
+import { argentina } from "./argentina";
+import { belgium } from "./belgium";
+import { switzerland } from "./switzerland";
+import { france } from "./france";
+import { croatia } from "./croatia";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
+  argentina,
+  belgium,
+  switzerland,
+  france,
+  croatia,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {
