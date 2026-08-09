@@ -5,8 +5,18 @@ import Typography from "@mui/material/Typography";
 import Chip from "@mui/material/Chip";
 import Image from "next/image";
 import type { LocalizedCultureEntry } from "@/content/types";
+import { getIllustration } from "@/illustrations";
+import IllustrationFrame from "@/illustrations/IllustrationFrame";
 
-export default function PageSpread({ entry }: { entry: LocalizedCultureEntry }) {
+export default function PageSpread({
+  entry,
+  countrySlug,
+}: {
+  entry: LocalizedCultureEntry;
+  countrySlug: string;
+}) {
+  const illustration = getIllustration(countrySlug, entry.id);
+
   return (
     <Paper
       elevation={3}
@@ -35,6 +45,13 @@ export default function PageSpread({ entry }: { entry: LocalizedCultureEntry }) 
               fill
               style={{ objectFit: "cover" }}
             />
+          ) : illustration ? (
+            <IllustrationFrame
+              accentColor={entry.accentColor}
+              variant={illustration.variant}
+            >
+              <illustration.component accentColor={entry.accentColor} />
+            </IllustrationFrame>
           ) : (
             <Typography sx={{ fontSize: { xs: 96, md: 140 } }}>
               {entry.placeholderEmoji}

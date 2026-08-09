@@ -61,7 +61,7 @@ export default async function CountryPage({
 
       <Stack spacing={4}>
         {entries.map((entry) => (
-          <PageSpread key={entry.id} entry={entry} />
+          <PageSpread key={entry.id} entry={entry} countrySlug={slug} />
         ))}
       </Stack>
     </Container>
