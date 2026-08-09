@@ -4,9 +4,9 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Chip from "@mui/material/Chip";
 import Image from "next/image";
-import type { CultureEntry } from "@/content/types";
+import type { LocalizedCultureEntry } from "@/content/types";
 
-export default function PageSpread({ entry }: { entry: CultureEntry }) {
+export default function PageSpread({ entry }: { entry: LocalizedCultureEntry }) {
   return (
     <Paper
       elevation={3}
