@@ -19,14 +19,17 @@ export default function PageSpread({
 
   return (
     <Paper
-      elevation={3}
+      elevation={0}
       sx={{
         overflow: "hidden",
         borderRadius: 3,
+        border: "1px solid",
+        borderColor: "divider",
         width: "100%",
+        height: "100%",
       }}
     >
-      <Stack direction={{ xs: "column", md: "row" }}>
+      <Stack direction={{ xs: "column", md: "row" }} sx={{ height: "100%" }}>
         <Box
           sx={{
             flex: 1,
@@ -67,6 +70,7 @@ export default function PageSpread({
             flexDirection: "column",
             justifyContent: "center",
             gap: 2,
+            position: "relative",
           }}
         >
           <Chip
@@ -87,6 +91,20 @@ export default function PageSpread({
             sx={{ lineHeight: 1.7 }}
           >
             {entry.description}
+          </Typography>
+
+          <Typography
+            variant="caption"
+            color="text.secondary"
+            sx={{
+              position: "absolute",
+              bottom: { xs: 16, md: 24 },
+              right: { xs: 20, md: 32 },
+              fontVariantNumeric: "tabular-nums",
+              opacity: 0.6,
+            }}
+          >
+            {entry.order}
           </Typography>
         </Box>
       </Stack>

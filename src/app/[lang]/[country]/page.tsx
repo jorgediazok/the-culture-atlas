@@ -3,6 +3,7 @@ import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import BackLink from "@/components/BackLink";
+import BookCarousel from "@/components/BookCarousel";
 import PageSpread from "@/components/PageSpread";
 import { countries } from "@/content/countries";
 import { getEntriesForCountry, localizeCountry, localizeEntry } from "@/content";
@@ -59,11 +60,11 @@ export default async function CountryPage({
         </Typography>
       </Stack>
 
-      <Stack spacing={4}>
+      <BookCarousel>
         {entries.map((entry) => (
           <PageSpread key={entry.id} entry={entry} countrySlug={slug} />
         ))}
-      </Stack>
+      </BookCarousel>
     </Container>
   );
 }

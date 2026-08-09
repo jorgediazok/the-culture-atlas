@@ -15,9 +15,13 @@ export default function IllustrationFrame({
     <svg
       viewBox="0 0 400 275"
       preserveAspectRatio="xMidYMid slice"
-      width="100%"
-      height="100%"
-      style={{ display: "block" }}
+      style={{
+        display: "block",
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+      }}
     >
       <rect width="400" height="275" fill={tint(accentColor, 0.85)} />
       {variant === "ground" ? (
