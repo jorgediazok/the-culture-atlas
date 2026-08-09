@@ -251,4 +251,254 @@ export const netherlands: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "cd-philips",
+    order: 11,
+    placeholderEmoji: "💿",
+    accentColor: "#546E7A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El disco que cambió la música para siempre",
+        subtitle: "El CD (Philips)",
+        imageAlt:
+          "Caricatura de un disco compacto brillante y un cassette de cinta uno al lado del otro.",
+        description:
+          "La empresa holandesa Philips inventó en 1963 la Compact Cassette, el primer formato de cinta que se volvió un estándar mundial, usado durante décadas para grabar música, mensajes de voz y hasta software de computadora. Casi veinte años después, Philips volvió a cambiar la forma de escuchar música al desarrollar el disco compacto (CD) junto con la japonesa Sony, presentado en 1982. El diámetro del CD, 12 centímetros, se fijó —según cuenta la leyenda de la industria— para que entrara completa la Novena Sinfonía de Beethoven, la pieza favorita de un ejecutivo de Sony. Ambos formatos nacieron, en parte, en laboratorios holandeses.",
+      },
+      en: {
+        title: "The Disc That Changed Music Forever",
+        subtitle: "The CD (Philips)",
+        imageAlt:
+          "Cartoon of a shiny compact disc and a cassette tape side by side.",
+        description:
+          "Dutch company Philips invented the Compact Cassette in 1963, the first tape format to become a worldwide standard, used for decades to record music, voice memos, and even computer software. Almost twenty years later, Philips changed how the world listened to music again by developing the compact disc (CD) together with Japan's Sony, launched in 1982. The CD's diameter, 12 centimeters, was set — according to industry legend — so it could hold Beethoven's Ninth Symphony in full, a Sony executive's favorite piece. Both formats were born, in part, in Dutch labs.",
+      },
+    },
+  },
+  {
+    id: "microscopio",
+    order: 12,
+    placeholderEmoji: "🔬",
+    accentColor: "#6D4C41",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El hombre que descubrió un mundo invisible",
+        subtitle: "El microscopio",
+        imageAlt:
+          "Caricatura de un microscopio antiguo de latón sobre una mesa de laboratorio.",
+        description:
+          "Antonie van Leeuwenhoek, un comerciante de telas de Delft sin formación científica formal, perfeccionó en el siglo XVII lentes de vidrio tan precisas que le permitieron construir microscopios capaces de aumentar la imagen más de 200 veces, muy por encima de cualquier instrumento de su época. Con ellos fue la primera persona en observar y describir bacterias, glóbulos rojos y espermatozoides, abriendo la puerta a la microbiología. Nunca publicó un libro formal: describía sus hallazgos en cartas enviadas a la Royal Society de Londres, que las tradujo y difundió, y así, casi por accidente, un comerciante holandés se convirtió en el padre de una ciencia entera.",
+      },
+      en: {
+        title: "The Man Who Discovered an Invisible World",
+        subtitle: "The Microscope",
+        imageAlt:
+          "Cartoon of an antique brass microscope on a laboratory table.",
+        description:
+          "Antonie van Leeuwenhoek, a cloth merchant from Delft with no formal scientific training, perfected glass lenses in the 17th century so precise that they let him build microscopes capable of magnifying images more than 200 times, far beyond any instrument of his era. With them, he became the first person to observe and describe bacteria, red blood cells, and sperm cells, opening the door to microbiology. He never published a formal book: he described his findings in letters sent to the Royal Society of London, which translated and circulated them — and so, almost by accident, a Dutch merchant became the father of an entire science.",
+      },
+    },
+  },
+  {
+    id: "van-gogh",
+    order: 13,
+    placeholderEmoji: "🌻",
+    accentColor: "#F4C430",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pintor que el mundo entendió demasiado tarde",
+        subtitle: "Vincent van Gogh",
+        imageAlt:
+          "Caricatura de un caballete de pintor con girasoles amarillos y una paleta de colores.",
+        description:
+          "Vincent van Gogh pintó más de 2.000 obras en apenas una década, pero en vida solo logró vender una, y murió a los 37 años prácticamente desconocido fuera de un círculo chico de artistas. Nacido en Zundert en 1853, desarrolló su estilo más característico —pinceladas gruesas, colores intensos, movimiento casi vibrante— recién en sus últimos años, muchas veces atravesando crisis de salud mental severas. Hoy sus cuadros, como 'La noche estrellada' o 'Los girasoles', están entre los más reproducidos y valiosos de la historia del arte, y el museo dedicado a él en Ámsterdam es uno de los más visitados de Europa: la fama que nunca tuvo en vida llegó, casi cruelmente, un siglo después.",
+      },
+      en: {
+        title: "The Painter the World Understood Too Late",
+        subtitle: "Vincent van Gogh",
+        imageAlt:
+          "Cartoon of a painter's easel with yellow sunflowers and a color palette.",
+        description:
+          "Vincent van Gogh painted more than 2,000 works in barely a decade, but sold only one during his lifetime, and died at 37 practically unknown outside a small circle of artists. Born in Zundert in 1853, he developed his most characteristic style — thick brushstrokes, intense colors, almost vibrating movement — only in his final years, often while going through severe mental health crises. Today his paintings, like 'The Starry Night' or 'Sunflowers,' are among the most reproduced and valuable in art history, and the museum dedicated to him in Amsterdam is one of the most visited in Europe: the fame he never had in life arrived, almost cruelly, a century later.",
+      },
+    },
+  },
+  {
+    id: "siglo-de-oro",
+    order: 14,
+    placeholderEmoji: "🖼️",
+    accentColor: "#8B7355",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Cuando la pintura mundial se escribió en holandés",
+        subtitle: "El Siglo de Oro",
+        imageAlt:
+          "Caricatura de un cuadro enmarcado en dorado colgado en la pared de un museo.",
+        description:
+          "Durante el siglo XVII, en pleno auge económico gracias al comercio marítimo, los Países Bajos vivieron una explosión artística sin precedentes: pintores como Rembrandt, Vermeer y Frans Hals produjeron algunas de las obras más influyentes de la historia del arte occidental, en un momento en que la pintura dejó de depender casi exclusivamente de la Iglesia y empezó a venderse a comerciantes y familias comunes. Cuadros como 'La ronda de noche' de Rembrandt o 'La joven de la perla' de Vermeer siguen siendo, cuatro siglos después, algunas de las imágenes más reconocibles del mundo. Nunca antes, ni después, un país tan chico concentró tanto talento pictórico al mismo tiempo.",
+      },
+      en: {
+        title: "When World Painting Was Written in Dutch",
+        subtitle: "The Dutch Golden Age",
+        imageAlt:
+          "Cartoon of a gold-framed painting hanging on a museum wall.",
+        description:
+          "During the 17th century, in the middle of an economic boom driven by maritime trade, the Netherlands experienced an unprecedented artistic explosion: painters like Rembrandt, Vermeer, and Frans Hals produced some of the most influential works in the history of Western art, at a time when painting stopped depending almost exclusively on the Church and started being sold to merchants and ordinary families. Paintings like Rembrandt's 'The Night Watch' or Vermeer's 'Girl with a Pearl Earring' remain, four centuries later, some of the most recognizable images in the world. Never before, or since, has such a small country concentrated so much painting talent at the same time.",
+      },
+    },
+  },
+  {
+    id: "capital-edm",
+    order: 15,
+    placeholderEmoji: "🎧",
+    accentColor: "#9B59B6",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que exporta DJs como otros exportan futbolistas",
+        subtitle: "Capital del EDM",
+        imageAlt:
+          "Caricatura de un DJ con auriculares frente a una consola de mezcla con luces de club.",
+        description:
+          "Los Países Bajos se convirtieron, en las últimas dos décadas, en una potencia mundial de la música electrónica: DJs holandeses como Tiësto, Armin van Buuren, Hardwell y Martin Garrix ocuparon durante años los primeros puestos de los rankings mundiales de DJs. Ámsterdam organiza cada octubre el Amsterdam Dance Event (ADE), el festival y conferencia de música electrónica más grande del mundo, con cientos de shows en cientos de locales durante cinco días. La combinación de una escena de clubes muy fuerte, escuelas de producción musical y un mercado europeo cercano convirtió a un país de 17 millones de habitantes en el epicentro global de un género que hoy se escucha en estadios de todo el mundo.",
+      },
+      en: {
+        title: "The Country That Exports DJs Like Others Export Footballers",
+        subtitle: "The EDM Capital",
+        imageAlt:
+          "Cartoon of a DJ wearing headphones behind a mixing console with club lights.",
+        description:
+          "Over the last two decades, the Netherlands became a global powerhouse of electronic music: Dutch DJs like Tiësto, Armin van Buuren, Hardwell, and Martin Garrix held the top spots in world DJ rankings for years. Every October, Amsterdam hosts the Amsterdam Dance Event (ADE), the largest electronic music festival and conference in the world, with hundreds of shows across hundreds of venues over five days. The combination of a strong club scene, music production schools, and a nearby European market turned a country of 17 million people into the global epicenter of a genre now heard in stadiums worldwide.",
+      },
+    },
+  },
+  {
+    id: "ana-frank",
+    order: 16,
+    placeholderEmoji: "📔",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El diario que le puso nombre y cara a la historia",
+        subtitle: "Ana Frank",
+        imageAlt:
+          "Caricatura de una libreta de diario abierta junto a una estantería giratoria.",
+        description:
+          "Ana Frank tenía 13 años cuando empezó a escribir un diario mientras su familia, judíos alemanes refugiados en Ámsterdam, se escondía de la persecución nazi en un anexo secreto detrás de una biblioteca giratoria. Durante más de dos años documentó la vida en el encierro con una honestidad y una madurez que sorprenden todavía hoy, hasta que la familia fue descubierta y deportada en 1944; Ana murió en el campo de Bergen-Belsen apenas semanas antes de que terminara la guerra. Su padre, el único sobreviviente, publicó el diario en 1947, y hoy la Casa de Ana Frank, el edificio real donde se escondieron, es uno de los museos más visitados de Ámsterdam y un punto de referencia mundial sobre el Holocausto.",
+      },
+      en: {
+        title: "The Diary That Gave History a Name and a Face",
+        subtitle: "Anne Frank",
+        imageAlt:
+          "Cartoon of an open diary notebook next to a revolving bookcase.",
+        description:
+          "Anne Frank was 13 when she started writing a diary while her family, German Jewish refugees in Amsterdam, hid from Nazi persecution in a secret annex behind a revolving bookcase. For more than two years she documented life in hiding with an honesty and maturity that still surprise readers today, until the family was discovered and deported in 1944; Anne died at Bergen-Belsen camp just weeks before the war ended. Her father, the only survivor, published the diary in 1947, and today the Anne Frank House, the actual building where they hid, is one of Amsterdam's most visited museums and a global reference point on the Holocaust.",
+      },
+    },
+  },
+  {
+    id: "heineken",
+    order: 17,
+    placeholderEmoji: "⭐",
+    accentColor: "#00843D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La estrella verde que se volvió sinónimo de cerveza",
+        subtitle: "Heineken",
+        imageAlt:
+          "Caricatura de una botella verde de cerveza con una estrella roja en la etiqueta.",
+        description:
+          "Fundada en Ámsterdam en 1864, Heineken es una de las marcas de cerveza más reconocidas del planeta, presente en más de 190 países y con la característica estrella roja —hoy simplificada— en su etiqueta desde hace más de un siglo. La compañía sigue siendo, en gran parte, propiedad de la familia fundadora, algo poco común entre las grandes cerveceras multinacionales. Más allá del producto, Heineken se convirtió en un caso de estudio de marketing global gracias a campañas publicitarias muy reconocibles y al patrocinio de eventos deportivos como la Champions League, algo que ayudó a que una cerveza holandesa se volviera, para muchísima gente en el mundo, la primera o la única marca de cerveza extranjera que conocen por su nombre.",
+      },
+      en: {
+        title: "The Green Star That Became Synonymous With Beer",
+        subtitle: "Heineken",
+        imageAlt:
+          "Cartoon of a green beer bottle with a red star on the label.",
+        description:
+          "Founded in Amsterdam in 1864, Heineken is one of the most recognized beer brands on the planet, sold in more than 190 countries, with its characteristic red star — simplified over the decades — on the label for over a century. The company remains, largely, owned by its founding family, unusual among major multinational brewers. Beyond the product itself, Heineken became a global marketing case study thanks to highly recognizable ad campaigns and sponsorship of sporting events like the Champions League, which helped a Dutch beer become, for a huge number of people worldwide, the first or only foreign beer brand they know by name.",
+      },
+    },
+  },
+  {
+    id: "bolsa-valores",
+    order: 18,
+    placeholderEmoji: "📈",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Donde nació la bolsa de valores tal como la conocemos",
+        subtitle: "La primera bolsa",
+        imageAlt:
+          "Caricatura de un edificio antiguo de bolsa de valores con gente comerciando papeles afuera.",
+        description:
+          "En 1602, la Compañía Holandesa de las Indias Orientales (VOC) se convirtió en la primera empresa del mundo en emitir acciones que se podían comprar, vender y volver a vender libremente entre inversores particulares, no solo entre socios fundadores. Para negociar esos papeles se creó en Ámsterdam la Bolsa de Ámsterdam, considerada por muchos historiadores económicos la primera bolsa de valores moderna del mundo. La VOC llegó a valer, en términos ajustados por inflación, más que gigantes actuales como Apple o Amazon juntos, y sentó las bases de conceptos que hoy son moneda corriente en las finanzas globales: acciones, dividendos y hasta las primeras burbujas especulativas.",
+      },
+      en: {
+        title: "Where the Stock Market as We Know It Was Born",
+        subtitle: "The First Stock Exchange",
+        imageAlt:
+          "Cartoon of an old stock exchange building with people trading paper shares outside.",
+        description:
+          "In 1602, the Dutch East India Company (VOC) became the first company in the world to issue shares that could be freely bought, sold, and resold among private investors, not just among founding partners. To trade those shares, the Amsterdam Stock Exchange was created, considered by many economic historians the first modern stock exchange in the world. The VOC, in inflation-adjusted terms, came to be worth more than today's giants like Apple or Amazon combined, and it laid the groundwork for concepts now standard in global finance: shares, dividends, and even the earliest speculative bubbles.",
+      },
+    },
+  },
+  {
+    id: "delta-works",
+    order: 19,
+    placeholderEmoji: "🌊",
+    accentColor: "#1A5276",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La barrera que frenó al mar para siempre",
+        subtitle: "Delta Works",
+        imageAlt:
+          "Caricatura de una barrera móvil gigante de metal cerrando el paso al mar.",
+        description:
+          "Después de la inundación de 1953, que mató a más de 1.800 personas en el sur de los Países Bajos, el gobierno holandés lanzó uno de los proyectos de ingeniería hidráulica más ambiciosos de la historia: los Delta Works, una red de diques, esclusas y barreras móviles gigantes construida entre 1954 y 1997 para proteger al país de futuras inundaciones. La Sociedad Estadounidense de Ingenieros Civiles la declaró una de las siete maravillas de la ingeniería moderna del mundo. Gracias a este sistema, buena parte de un país donde más de un cuarto del territorio está bajo el nivel del mar puede seguir habitándose con normalidad, incluso durante las peores tormentas del Mar del Norte.",
+      },
+      en: {
+        title: "The Barrier That Stopped the Sea for Good",
+        subtitle: "The Delta Works",
+        imageAlt:
+          "Cartoon of a giant movable metal barrier closing off the sea.",
+        description:
+          "After the 1953 flood, which killed more than 1,800 people in the southern Netherlands, the Dutch government launched one of the most ambitious hydraulic engineering projects in history: the Delta Works, a network of dikes, sluices, and giant movable barriers built between 1954 and 1997 to protect the country from future flooding. The American Society of Civil Engineers named it one of the seven wonders of the modern world. Thanks to this system, much of a country where more than a quarter of the territory sits below sea level can still be inhabited normally, even during the worst North Sea storms.",
+      },
+    },
+  },
+  {
+    id: "giethoorn",
+    order: 20,
+    placeholderEmoji: "🚤",
+    accentColor: "#4B7F52",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo que se recorre solo en bote",
+        subtitle: "Giethoorn",
+        imageAlt:
+          "Caricatura de casas con techo de paja junto a un canal, conectadas por un puente de madera.",
+        description:
+          "Giethoorn, un pueblo de apenas unos 2.600 habitantes en el norte de los Países Bajos, se construyó desde el siglo XIII alrededor de canales excavados para extraer turba, y nunca desarrolló una red de calles para autos: hoy buena parte de las casas solo son accesibles en bote, bicicleta o a pie por senderos y puentecitos de madera. Apodado 'la Venecia holandesa', se volvió un fenómeno turístico global en los últimos años gracias a videos virales en redes sociales, algo que multiplicó por decenas la cantidad de visitantes y obligó al pueblo a manejar con cuidado su propio éxito. Sigue siendo, aun así, uno de los pocos lugares del mundo donde 'ir a lo de un vecino' significa literalmente remar hasta su puerta.",
+      },
+      en: {
+        title: "The Village You Can Only Get Around by Boat",
+        subtitle: "Giethoorn",
+        imageAlt:
+          "Cartoon of thatched-roof houses along a canal, connected by a small wooden bridge.",
+        description:
+          "Giethoorn, a village of barely 2,600 people in the northern Netherlands, was built from the 13th century onward around canals dug to extract peat, and never developed a road network for cars: today, most houses are only reachable by boat, bicycle, or on foot along small wooden footbridges. Nicknamed 'the Dutch Venice,' it became a global tourism phenomenon in recent years thanks to viral social media videos, which multiplied visitor numbers many times over and forced the village to carefully manage its own success. It remains, even so, one of the few places in the world where 'going to a neighbor's house' literally means rowing up to their door.",
+      },
+    },
+  },
 ];

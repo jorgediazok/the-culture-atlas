@@ -18,12 +18,22 @@ export type CultureEntry = {
 
 export type CountryTranslation = {
   name: string;
+  intro: string;
 };
+
+export type Continent =
+  | "europe"
+  | "south-america"
+  | "north-america"
+  | "asia"
+  | "africa"
+  | "oceania";
 
 export type Country = {
   slug: string;
   flagEmoji: string;
   accentColor: string;
+  continent: Continent;
   translations: Record<Locale, CountryTranslation>;
 };
 

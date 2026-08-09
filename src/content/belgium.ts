@@ -251,4 +251,254 @@ export const belgium: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "saxofon",
+    order: 11,
+    placeholderEmoji: "🎷",
+    accentColor: "#C9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El instrumento que inventó un solo hombre",
+        subtitle: "El saxofón",
+        imageAlt:
+          "Caricatura de un saxofón dorado brillante apoyado en posición vertical.",
+        description:
+          "Adolphe Sax, un inventor e instrumentista belga nacido en Dinant en 1814, patentó el saxofón en París en 1846, buscando crear un instrumento que combinara la potencia de los metales con la flexibilidad de las maderas. La idea no fue bien recibida al principio por otros fabricantes de instrumentos, que llegaron a intentar sabotear su taller, pero el saxofón terminó volviéndose central en géneros que ni siquiera existían todavía cuando se inventó, como el jazz. Hoy la ciudad natal de Sax celebra cada año un festival internacional dedicado al instrumento, y su estatua preside la plaza principal, en homenaje a un invento que un solo hombre desarrolló casi por completo.",
+      },
+      en: {
+        title: "The Instrument One Man Invented",
+        subtitle: "The Saxophone",
+        imageAlt:
+          "Cartoon of a shiny gold saxophone standing upright.",
+        description:
+          "Adolphe Sax, a Belgian inventor and instrument maker born in Dinant in 1814, patented the saxophone in Paris in 1846, trying to create an instrument that combined the power of brass with the flexibility of woodwinds. The idea wasn't well received at first by other instrument makers, some of whom reportedly tried to sabotage his workshop, but the saxophone ended up becoming central to genres that didn't even exist yet when it was invented, like jazz. Today, Sax's hometown holds an international festival dedicated to the instrument every year, and his statue presides over the main square, honoring an invention almost entirely developed by one man.",
+      },
+    },
+  },
+  {
+    id: "big-bang",
+    order: 12,
+    placeholderEmoji: "🌌",
+    accentColor: "#1B1B3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cura que calculó el origen del universo",
+        subtitle: "La teoría del Big Bang",
+        imageAlt:
+          "Caricatura de un punto de luz brillante expandiéndose en ondas hacia un cielo estrellado.",
+        description:
+          "Georges Lemaître, sacerdote católico y físico belga, propuso en 1927 que el universo se estaba expandiendo a partir de un punto inicial extremadamente denso y caliente, una idea que con el tiempo se conocería como la teoría del Big Bang. En su momento la propuesta generó resistencia, incluida la del propio Albert Einstein, que la consideró matemáticamente correcta pero físicamente 'abominable'; años después, al conocer nuevas evidencias observacionales, Einstein cambió de opinión y llegó a calificar la idea de Lemaître como 'la explicación más bella y satisfactoria de la creación que había escuchado'. Hoy la teoría es la explicación estándar aceptada por la comunidad científica sobre el origen del universo.",
+      },
+      en: {
+        title: "The Priest Who Calculated the Origin of the Universe",
+        subtitle: "The Big Bang Theory",
+        imageAlt:
+          "Cartoon of a bright point of light expanding in waves into a starry sky.",
+        description:
+          "Georges Lemaître, a Catholic priest and Belgian physicist, proposed in 1927 that the universe was expanding outward from an extremely dense, hot initial point, an idea that would eventually become known as the Big Bang theory. At the time the proposal met resistance, including from Albert Einstein himself, who considered it mathematically correct but physically 'abominable'; years later, after seeing new observational evidence, Einstein changed his mind and called Lemaître's idea 'the most beautiful and satisfactory explanation of creation' he had ever heard. Today the theory is the standard explanation accepted by the scientific community for the origin of the universe.",
+      },
+    },
+  },
+  {
+    id: "audrey-hepburn",
+    order: 13,
+    placeholderEmoji: "🕶️",
+    accentColor: "#8B7D6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La bruselense que definió la elegancia del cine",
+        subtitle: "Audrey Hepburn",
+        imageAlt:
+          "Caricatura de una mujer elegante con vestido negro y gafas de sol grandes.",
+        description:
+          "Audrey Hepburn nació en Bruselas en 1929, hija de un banquero inglés y una baronesa neerlandesa, y pasó parte de su infancia en los Países Bajos ocupados durante la Segunda Guerra Mundial, una experiencia de escasez que marcó el resto de su vida. Se convirtió en una de las actrices más icónicas de Hollywood con películas como 'Vacaciones en Roma' y 'Desayuno en Tiffany's', y su estilo —el vestido negro simple, las gafas de sol grandes— sigue siendo una referencia de moda seis décadas después. En sus últimos años se dedicó casi por completo a trabajar como embajadora de buena voluntad de UNICEF, viajando a zonas de crisis humanitaria por todo el mundo.",
+      },
+      en: {
+        title: "The Brussels-Born Icon of Cinematic Elegance",
+        subtitle: "Audrey Hepburn",
+        imageAlt:
+          "Cartoon of an elegant woman in a black dress and oversized sunglasses.",
+        description:
+          "Audrey Hepburn was born in Brussels in 1929, the daughter of an English banker and a Dutch baroness, and spent part of her childhood in the occupied Netherlands during World War II, an experience of scarcity that shaped the rest of her life. She became one of Hollywood's most iconic actresses with films like 'Roman Holiday' and 'Breakfast at Tiffany's,' and her style — the simple black dress, the oversized sunglasses — remains a fashion reference six decades later. In her final years she dedicated herself almost entirely to working as a UNICEF Goodwill Ambassador, traveling to humanitarian crisis zones around the world.",
+      },
+    },
+  },
+  {
+    id: "magritte",
+    order: 14,
+    placeholderEmoji: "🎩",
+    accentColor: "#4A6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pintor que hizo preguntas con pipas y sombreros",
+        subtitle: "René Magritte",
+        imageAlt:
+          "Caricatura de una pipa flotando sobre un cielo con nubes y un hombre con sombrero de bombín.",
+        description:
+          "René Magritte, nacido en 1898 en Lessines, se convirtió en una de las figuras centrales del surrealismo con pinturas que combinaban objetos cotidianos —pipas, manzanas, hombres con sombrero de hongo— de formas que desafiaban la lógica y el lenguaje. Su obra más famosa, 'La traición de las imágenes', muestra una pipa pintada con la leyenda en francés 'Esto no es una pipa', un juego conceptual sobre la diferencia entre un objeto y su representación que todavía se enseña en cursos de filosofía y semiótica. Su iconografía —hombres flotando, manzanas gigantes, cielos con nubes dentro de otras figuras— influyó directamente en el diseño gráfico, la publicidad y el cine, de Pink Floyd a portadas de discos de todo el mundo.",
+      },
+      en: {
+        title: "The Painter Who Asked Questions With Pipes and Hats",
+        subtitle: "René Magritte",
+        imageAlt:
+          "Cartoon of a floating pipe against a cloudy sky, with a man in a bowler hat.",
+        description:
+          "René Magritte, born in 1898 in Lessines, became one of the central figures of surrealism with paintings that combined everyday objects — pipes, apples, men in bowler hats — in ways that defied logic and language. His most famous work, 'The Treachery of Images,' shows a painted pipe with the French caption 'This is not a pipe,' a conceptual game about the difference between an object and its representation still taught in philosophy and semiotics courses. His imagery — floating men, giant apples, skies with clouds nested inside other shapes — directly influenced graphic design, advertising, and film, from Pink Floyd to album covers worldwide.",
+      },
+    },
+  },
+  {
+    id: "jacques-brel",
+    order: 15,
+    placeholderEmoji: "🎤",
+    accentColor: "#6B4E71",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cantautor que todos versionaron",
+        subtitle: "Jacques Brel",
+        imageAlt:
+          "Caricatura de un cantante con micrófono de pie sobre un escenario minimalista.",
+        description:
+          "Jacques Brel, nacido en Bruselas en 1929, es considerado uno de los cantautores más influyentes de la música en francés del siglo XX, con canciones como 'Ne me quitte pas' o 'Amsterdam' que combinaban letras poéticas con una intensidad interpretativa poco común en la canción popular de su época. Su influencia trascendió el idioma: David Bowie, Frank Sinatra, Nina Simone y Marc Almond, entre muchos otros, grabaron versiones en inglés de sus temas, y el musical 'Jacques Brel is Alive and Well and Living in Paris' llevó su repertorio a audiencias que nunca habían escuchado una palabra en francés. Dejó de dar shows en vivo en 1967, en la cima de su fama, para dedicarse al cine y, después, a navegar por el mundo en velero.",
+      },
+      en: {
+        title: "The Songwriter Everyone Covered",
+        subtitle: "Jacques Brel",
+        imageAlt:
+          "Cartoon of a singer standing at a microphone on a minimalist stage.",
+        description:
+          "Jacques Brel, born in Brussels in 1929, is considered one of the most influential French-language songwriters of the 20th century, with songs like 'Ne me quitte pas' or 'Amsterdam' that combined poetic lyrics with an interpretive intensity uncommon in the popular music of his time. His influence crossed languages: David Bowie, Frank Sinatra, Nina Simone, and Marc Almond, among many others, recorded English versions of his songs, and the musical 'Jacques Brel is Alive and Well and Living in Paris' brought his repertoire to audiences who had never heard a word of French. He stopped performing live in 1967, at the height of his fame, to focus on film and, later, on sailing around the world.",
+      },
+    },
+  },
+  {
+    id: "pitufos",
+    order: 16,
+    placeholderEmoji: "🔵",
+    accentColor: "#4A90D9",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Criaturas azules que conquistaron el mundo",
+        subtitle: "Los Pitufos",
+        imageAlt:
+          "Caricatura de una criatura azul pequeña con gorro blanco puntiagudo.",
+        description:
+          "Los Pitufos nacieron en 1958 como personajes secundarios de una historieta belga del dibujante Peyo, pero se independizaron rápido y se convirtieron en uno de los fenómenos de entretenimiento infantil más exitosos y traducidos de la historia, con series animadas, películas y merchandising vendido en más de 25 idiomas y prácticamente todos los continentes. Cada Pitufo se define por un solo rasgo de personalidad —Gruñón, Vanidoso, Filósofo, Torpe— convertido en su propio nombre, un recurso narrativo simple que ayudó a que la franquicia se tradujera fácilmente a cualquier cultura. Más de sesenta años después de su creación, siguen siendo, junto a Tintín, la exportación cultural belga más reconocida por los chicos de todo el mundo.",
+      },
+      en: {
+        title: "Blue Creatures That Conquered the World",
+        subtitle: "The Smurfs",
+        imageAlt:
+          "Cartoon of a small blue creature wearing a pointed white cap.",
+        description:
+          "The Smurfs were born in 1958 as side characters in a Belgian comic strip by cartoonist Peyo, but quickly broke out on their own and became one of the most successful and widely translated children's entertainment phenomena in history, with animated series, films, and merchandise sold in more than 25 languages across practically every continent. Each Smurf is defined by a single personality trait — Grouchy, Vanity, Brainy, Clumsy — turned into its own name, a simple narrative device that helped the franchise translate easily into any culture. More than sixty years after their creation, they remain, alongside Tintin, the most recognized Belgian cultural export among kids worldwide.",
+      },
+    },
+  },
+  {
+    id: "manneken-pis",
+    order: 17,
+    placeholderEmoji: "🗽",
+    accentColor: "#8A8A8A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La estatua más chica con la fama más grande",
+        subtitle: "Manneken Pis",
+        imageAlt:
+          "Caricatura de una pequeña estatua de bronce de un niño sobre una fuente decorativa.",
+        description:
+          "Manneken Pis, la estatua de bronce de un niño orinando en una fuente, mide apenas 61 centímetros de altura, pero es uno de los símbolos más reconocibles de Bruselas desde que se instaló en su ubicación actual en 1619. Su origen exacto se pierde entre varias leyendas populares —desde un niño que apagó una mecha de pólvora hasta uno perdido que sus padres encontraron así—, ninguna confirmada históricamente. Lo que sí es real es su enorme guardarropa: tiene más de mil trajes distintos, donados por países, instituciones y visitantes ilustres a lo largo de los siglos, que se le cambian regularmente según el calendario de fiestas y eventos, exhibidos el resto del tiempo en un museo dedicado exclusivamente a su ropero.",
+      },
+      en: {
+        title: "The Smallest Statue With the Biggest Fame",
+        subtitle: "Manneken Pis",
+        imageAlt:
+          "Cartoon of a small bronze statue of a boy atop a decorative fountain.",
+        description:
+          "Manneken Pis, the bronze statue of a small boy urinating into a fountain, stands barely 61 centimeters tall, but it's one of Brussels' most recognizable symbols since it was installed at its current spot in 1619. Its exact origin is lost among several folk legends — from a boy who put out a gunpowder fuse to a lost child his parents found just like that — none historically confirmed. What is real is its enormous wardrobe: it has more than a thousand different outfits, donated by countries, institutions, and distinguished visitors over the centuries, changed regularly according to the calendar of festivals and events, and displayed the rest of the time in a museum dedicated entirely to its closet.",
+      },
+    },
+  },
+  {
+    id: "grand-place",
+    order: 18,
+    placeholderEmoji: "🏛️",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La plaza que Víctor Hugo llamó la más hermosa de Europa",
+        subtitle: "El Grand Place",
+        imageAlt:
+          "Caricatura de una plaza medieval con fachadas doradas y un ayuntamiento con torre puntiaguda.",
+        description:
+          "El Grand Place de Bruselas, una plaza medieval rodeada de edificios gremiales del siglo XVII con fachadas doradas y el imponente Ayuntamiento gótico, fue declarada Patrimonio de la Humanidad por la UNESCO en 1998. El escritor francés Víctor Hugo, exiliado en Bruselas en el siglo XIX, la describió como posiblemente la plaza más hermosa de Europa, y desde entonces la frase se repite en cada guía turística de la ciudad. Cada dos años, en agosto, la plaza se cubre por completo con una alfombra gigante de flores hecha con cientos de miles de begonias, un espectáculo que dura apenas cuatro días y atrae a decenas de miles de visitantes.",
+      },
+      en: {
+        title: "The Square Victor Hugo Called the Most Beautiful in Europe",
+        subtitle: "The Grand Place",
+        imageAlt:
+          "Cartoon of a medieval square with gilded facades and a town hall with a pointed tower.",
+        description:
+          "Brussels' Grand Place, a medieval square surrounded by 17th-century guild halls with gilded facades and the imposing Gothic Town Hall, was declared a UNESCO World Heritage Site in 1998. French writer Victor Hugo, exiled in Brussels in the 19th century, described it as possibly the most beautiful square in Europe, and the phrase has been repeated in every city guidebook ever since. Every two years, in August, the square is completely covered with a giant flower carpet made of hundreds of thousands of begonias, a spectacle that lasts just four days and draws tens of thousands of visitors.",
+      },
+    },
+  },
+  {
+    id: "diamantes-amberes",
+    order: 19,
+    placeholderEmoji: "💎",
+    accentColor: "#B9E0E8",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad por donde pasan casi todos los diamantes del mundo",
+        subtitle: "Los diamantes de Amberes",
+        imageAlt:
+          "Caricatura de un diamante brillante tallado sobre un paño de terciopelo con una lupa de joyero.",
+        description:
+          "Amberes es, desde hace más de 500 años, la capital mundial del comercio de diamantes: se estima que hasta el 80% de los diamantes en bruto y buena parte de los diamantes tallados del planeta pasan en algún momento por su Distrito de los Diamantes, un puñado de calles custodiadas con una seguridad comparable a la de un banco central. La industria se desarrolló gracias a la llegada de comerciantes judíos e indios que establecieron redes de confianza y experiencia técnica que todavía hoy dominan el sector. El distrito tiene su propia bolsa de comercio, sus propios tribunales especializados y hasta su propio sistema de certificación, algo único en cualquier otra ciudad del mundo para un solo producto.",
+      },
+      en: {
+        title: "The City Almost Every Diamond in the World Passes Through",
+        subtitle: "Antwerp's Diamonds",
+        imageAlt:
+          "Cartoon of a sparkling cut diamond on a velvet cloth with a jeweler's loupe.",
+        description:
+          "Antwerp has been, for more than 500 years, the world capital of diamond trading: it's estimated that up to 80% of the planet's rough diamonds, and a large share of cut diamonds, pass through its Diamond District at some point, a handful of streets guarded with security comparable to a central bank. The industry developed thanks to Jewish and Indian merchants who established networks of trust and technical expertise that still dominate the sector today. The district has its own trading exchange, its own specialized courts, and even its own certification system, something unique to any other city in the world built around a single product.",
+      },
+    },
+  },
+  {
+    id: "tomorrowland",
+    order: 20,
+    placeholderEmoji: "🎪",
+    accentColor: "#E8B4E0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El festival que convirtió un pueblo chico en la capital del EDM",
+        subtitle: "Tomorrowland",
+        imageAlt:
+          "Caricatura de un escenario de festival gigante con forma de castillo de fantasía y luces de colores.",
+        description:
+          "Tomorrowland, un festival de música electrónica que se celebra desde 2005 en el pueblo de Boom, cerca de Amberes, se convirtió en uno de los eventos de música más grandes y codiciados del mundo, con entradas que se agotan en minutos y asistentes que viajan desde más de 200 países distintos cada edición. Sus escenarios, diseñados como castillos de fantasía gigantes con efectos especiales de nivel cinematográfico, cambian por completo cada año según una historia y estética temática nueva. El festival demostró tal éxito que expandió el formato con una edición hermana en Brasil y una versión invernal en los Alpes franceses, pero el original en Bélgica sigue siendo, para los fanáticos del género en todo el mundo, el peregrinaje definitivo.",
+      },
+      en: {
+        title: "The Festival That Turned a Small Town Into the EDM Capital",
+        subtitle: "Tomorrowland",
+        imageAlt:
+          "Cartoon of a giant fantasy-castle-shaped festival stage with colorful lights.",
+        description:
+          "Tomorrowland, an electronic music festival held since 2005 in the small town of Boom, near Antwerp, became one of the biggest and most sought-after music events in the world, with tickets selling out in minutes and attendees traveling from more than 200 different countries each edition. Its stages, designed as giant fantasy castles with film-level special effects, are completely redesigned every year around a new theme and storyline. The festival proved so successful it expanded the format with a sister edition in Brazil and a winter version in the French Alps, but the original in Belgium remains, for fans of the genre worldwide, the ultimate pilgrimage.",
+      },
+    },
+  },
 ];

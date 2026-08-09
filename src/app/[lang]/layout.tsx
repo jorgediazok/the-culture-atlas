@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Fraunces } from "next/font/google";
 import Link from "next/link";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
@@ -18,6 +18,13 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
+  subsets: ["latin"],
+  style: ["normal", "italic"],
+  weight: ["500", "600", "700"],
 });
 
 export function generateStaticParams() {
@@ -51,7 +58,10 @@ export default async function LangLayout({
   const dict = getDictionary(lang);
 
   return (
-    <html lang={lang} className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html
+      lang={lang}
+      className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable}`}
+    >
       <body>
         <ThemeRegistry>
           <Stack
@@ -64,7 +74,14 @@ export default async function LangLayout({
             }}
           >
             <Link href={`/${lang}`} style={{ textDecoration: "none", color: "inherit" }}>
-              <Typography sx={{ fontWeight: 700 }}>{dict.brand}</Typography>
+              <Typography
+                sx={{
+                  fontFamily: "var(--font-fraunces), serif",
+                  fontWeight: 600,
+                }}
+              >
+                {dict.brand}
+              </Typography>
             </Link>
             <LanguageSwitcher locale={lang} />
           </Stack>

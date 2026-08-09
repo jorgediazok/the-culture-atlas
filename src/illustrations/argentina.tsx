@@ -168,6 +168,131 @@ const DivanTerapia: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const Boligrafo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <rect x="188" y="100" width="16" height="70" fill={accentColor} transform="rotate(20 196 135)" />
+      <polygon points="188,168 204,168 200,186 192,186" fill={dark} transform="rotate(20 196 135)" />
+      <circle cx="200" cy="190" r="4" fill={light} transform="rotate(20 196 135)" />
+    </g>
+  );
+};
+
+const HuellaDactilar: IllustrationComponent = ({ accentColor }) => {
+  const light = tint(accentColor, 0.6);
+  return (
+    <g fill="none" stroke={light} strokeWidth="4" strokeLinecap="round">
+      <path d="M170 120 a30 40 0 0 1 60 0" />
+      <path d="M162 135 a38 45 0 0 1 76 5" />
+      <path d="M168 160 q32 -20 64 0" />
+      <path d="M175 178 q25 -14 50 0" />
+      <path d="M185 195 q15 -8 30 0" />
+    </g>
+  );
+};
+
+const Maradona: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <path d="M170 150 h60 v40 c0 14 -60 14 -60 0 Z" fill={accentColor} />
+      <rect x="194" y="110" width="12" height="42" fill={dark} />
+      <text x="200" y="180" fontSize="26" fontWeight="700" fill={light} textAnchor="middle">10</text>
+    </g>
+  );
+};
+
+const Borges: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  return (
+    <g fill="none" stroke={accentColor} strokeWidth="4">
+      <path d="M200 190 a20 20 0 1 1 0.1 0" />
+      <path d="M200 175 a10 10 0 1 1 0.1 0" fill={dark} stroke="none" />
+      <path d="M200 140 v-30 M180 150 l-14 -20 M220 150 l14 -20" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const RockNacional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <ellipse cx="195" cy="168" rx="26" ry="18" fill={accentColor} />
+      <circle cx="195" cy="168" r="8" fill={dark} />
+      <rect x="216" y="105" width="8" height="65" fill={dark} />
+      {[0, 1, 2].map((i) => (
+        <line key={i} x1={228 + i * 3} y1="112" x2={228 + i * 3} y2="150" stroke={light} strokeWidth="1.5" />
+      ))}
+    </g>
+  );
+};
+
+const CineOscar: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <rect x="192" y="150" width="16" height="36" fill={dark} />
+      <circle cx="200" cy="130" r="16" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <rect x="182" y="182" width="36" height="8" rx="2" fill={light} />
+    </g>
+  );
+};
+
+const Iguazu: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <polygon points="160,110 175,110 168,190 152,190" fill={accentColor} />
+      <polygon points="185,100 200,100 195,190 178,190" fill={dark} />
+      <polygon points="210,115 225,115 220,190 203,190" fill={accentColor} />
+      <ellipse cx="190" cy="195" rx="60" ry="10" fill={light} opacity="0.7" />
+    </g>
+  );
+};
+
+const Evita: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <rect x="160" y="170" width="80" height="14" fill={dark} />
+      <path d="M185 168 C180 140 190 120 200 112 C210 120 220 140 215 168 Z" fill={accentColor} />
+      <circle cx="200" cy="105" r="10" fill={light} />
+    </g>
+  );
+};
+
+const PeritoMoreno: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const light = tint(accentColor, 0.5);
+  return (
+    <g>
+      <polygon points="150,190 170,120 190,190" fill={light} />
+      <polygon points="185,190 205,100 225,190" fill={accentColor} />
+      <polygon points="220,190 238,135 256,190" fill={dark} />
+    </g>
+  );
+};
+
+const Ushuaia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <polygon points="140,190 170,130 200,190" fill={dark} />
+      <rect x="215" y="120" width="16" height="60" fill={light} />
+      <polygon points="210,120 236,120 223,102" fill={accentColor} />
+      <rect x="221" y="96" width="4" height="10" fill={dark} />
+    </g>
+  );
+};
+
 export const argentinaIllustrations: Record<string, IllustrationDefinition> = {
   mate: { component: Mate, variant: "medallion" },
   asado: { component: Asado },
@@ -179,4 +304,14 @@ export const argentinaIllustrations: Record<string, IllustrationDefinition> = {
   "gauchos-pampa": { component: GauchosPampa },
   fileteado: { component: Fileteado, variant: "medallion" },
   "divan-terapia": { component: DivanTerapia },
+  boligrafo: { component: Boligrafo, variant: "medallion" },
+  "huella-dactilar": { component: HuellaDactilar, variant: "medallion" },
+  maradona: { component: Maradona, variant: "medallion" },
+  borges: { component: Borges, variant: "medallion" },
+  "rock-nacional": { component: RockNacional, variant: "medallion" },
+  "cine-oscar": { component: CineOscar, variant: "medallion" },
+  iguazu: { component: Iguazu },
+  evita: { component: Evita, variant: "medallion" },
+  "perito-moreno": { component: PeritoMoreno },
+  ushuaia: { component: Ushuaia },
 };

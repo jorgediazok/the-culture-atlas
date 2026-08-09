@@ -14,8 +14,14 @@ const MAX_ROTATION_DEG = 55;
 
 export default function BookCarousel({
   children,
+  coverLabel,
 }: {
   children: React.ReactNode;
+  /** When provided, the first slide is treated as an unnumbered cover: it
+   * shows this label instead of a page number, and content pages count
+   * from 1 starting after it — matching the folio number printed on the
+   * page itself instead of the cover's raw position in the slide list. */
+  coverLabel?: string;
 }) {
   const slides = Children.toArray(children);
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false });
@@ -151,7 +157,11 @@ export default function BookCarousel({
         color="text.secondary"
         sx={{ textAlign: "center", mt: 1 }}
       >
-        {selectedIndex + 1} / {slides.length}
+        {coverLabel && selectedIndex === 0
+          ? coverLabel
+          : `${coverLabel ? selectedIndex : selectedIndex + 1} / ${
+              coverLabel ? slides.length - 1 : slides.length
+            }`}
       </Typography>
     </Box>
   );

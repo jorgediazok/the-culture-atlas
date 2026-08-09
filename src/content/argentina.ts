@@ -251,4 +251,254 @@ export const argentina: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "boligrafo",
+    order: 11,
+    placeholderEmoji: "🖊️",
+    accentColor: "#2E5C8A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La lapicera que un húngaro perfeccionó acá",
+        subtitle: "El bolígrafo (birome)",
+        imageAlt:
+          "Caricatura de una lapicera birome clásica con tinta azul goteando de la punta.",
+        description:
+          "El periodista húngaro László Bíró inventó el mecanismo de la lapicera de punta esférica en los años 30, buscando una tinta que no se corriera como la de las plumas fuente. Perseguido por el nazismo, emigró a Argentina en 1940 junto a su hermano Georg, y ahí, con el apoyo de un inversor local, perfeccionaron el diseño y lo empezaron a fabricar en serie en 1943 bajo la marca Birome —una combinación de sus apellidos, Bíró y (el inversor) Meyne—. Por eso en Argentina y Uruguay a los bolígrafos todavía se los llama 'birome', el único lugar del mundo donde el objeto conserva el nombre de su inventor real.",
+      },
+      en: {
+        title: "The Pen a Hungarian Perfected Here",
+        subtitle: "The Ballpoint Pen (Birome)",
+        imageAlt:
+          "Cartoon of a classic birome ballpoint pen with blue ink dripping from the tip.",
+        description:
+          "Hungarian journalist László Bíró invented the ball-tip pen mechanism in the 1930s, looking for an ink that wouldn't smear like fountain pen ink did. Fleeing Nazism, he emigrated to Argentina in 1940 with his brother Georg, and there, backed by a local investor, they perfected the design and began mass-producing it in 1943 under the brand Birome — a blend of their surnames, Bíró and (the investor) Meyne. That's why in Argentina and Uruguay ballpoint pens are still called 'birome' today, the only place in the world where the object keeps its actual inventor's name.",
+      },
+    },
+  },
+  {
+    id: "huella-dactilar",
+    order: 12,
+    placeholderEmoji: "👆",
+    accentColor: "#4A4238",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El sistema que le puso huellas a la justicia",
+        subtitle: "La huella dactilar",
+        imageAlt:
+          "Caricatura de una huella dactilar ampliada sobre una tarjeta de identificación policial.",
+        description:
+          "En 1891, el policía croata-argentino Juan Vucetich desarrolló en la provincia de Buenos Aires el primer sistema práctico y completo de clasificación de huellas dactilares del mundo, pensado para identificar criminales de forma más confiable que los métodos existentes. Al año siguiente, en 1892, ese sistema se usó por primera vez en la historia para resolver un crimen: el caso Rojas, en la localidad de Necochea, donde una huella dactilar ensangrentada permitió identificar a la responsable de un doble homicidio. El método de Vucetich, refinado con los años, todavía se usa como base de sistemas de identificación policial en buena parte del mundo.",
+      },
+      en: {
+        title: "The System That Put Fingerprints Into Justice",
+        subtitle: "Fingerprint Identification",
+        imageAlt:
+          "Cartoon of an enlarged fingerprint on a police identification card.",
+        description:
+          "In 1891, Croatian-Argentine police official Juan Vucetich developed, in Buenos Aires province, the first practical and complete fingerprint classification system in the world, designed to identify criminals more reliably than existing methods. The following year, in 1892, that system was used for the first time in history to solve a crime: the Rojas case, in the town of Necochea, where a bloody fingerprint identified the person responsible for a double homicide. Vucetich's method, refined over the years, is still the basis of police identification systems used across much of the world.",
+      },
+    },
+  },
+  {
+    id: "maradona",
+    order: 13,
+    placeholderEmoji: "🐐",
+    accentColor: "#0A3D91",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pibe que se volvió mito",
+        subtitle: "Diego Maradona",
+        imageAlt:
+          "Caricatura de un jugador de fútbol levantando una copa dorada con una camiseta celeste y blanca.",
+        description:
+          "Diego Armando Maradona nació en 1960 en Villa Fiorito, una zona humilde del conurbano bonaerense, y se convirtió en uno de los futbolistas más determinantes de la historia, capitán de la selección campeona del mundo en 1986, donde metió el 'Gol del Siglo' y el polémico 'Gol de la Mano de Dios' en el mismo partido contra Inglaterra. Su carrera combinó una genialidad futbolística casi sobrenatural con una vida personal turbulenta, atravesada por adicciones y escándalos, que lo volvieron una figura tan querida como controvertida. Cuando murió en 2020, Argentina decretó tres días de duelo nacional: pocas veces un deportista generó un nivel de devoción tan cercano al religioso.",
+      },
+      en: {
+        title: "The Kid Who Became a Legend",
+        subtitle: "Diego Maradona",
+        imageAlt:
+          "Cartoon of a football player lifting a golden trophy, wearing a sky-blue and white jersey.",
+        description:
+          "Diego Armando Maradona was born in 1960 in Villa Fiorito, a poor neighborhood on the outskirts of Buenos Aires, and became one of the most decisive footballers in history, captain of the team that won the 1986 World Cup, where he scored both the 'Goal of the Century' and the controversial 'Hand of God' goal in the same match against England. His career combined near-supernatural footballing genius with a turbulent personal life, marked by addiction and scandal, that made him as beloved as he was controversial. When he died in 2020, Argentina declared three days of national mourning: few athletes have ever inspired a level of devotion this close to religious.",
+      },
+    },
+  },
+  {
+    id: "borges",
+    order: 14,
+    placeholderEmoji: "📚",
+    accentColor: "#5B4636",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El escritor que convirtió las bibliotecas en universos",
+        subtitle: "Jorge Luis Borges",
+        imageAlt:
+          "Caricatura de una biblioteca infinita con estanterías que se pierden en espiral.",
+        description:
+          "Jorge Luis Borges, nacido en Buenos Aires en 1899, escribió cuentos y ensayos breves que redefinieron la literatura del siglo XX, con laberintos, espejos, bibliotecas infinitas y juegos con el tiempo como temas recurrentes en obras como 'Ficciones' o 'El Aleph'. Nunca ganó el Premio Nobel, algo que todavía se discute como una de las grandes injusticias de la historia del premio, pero su influencia sobre generaciones de escritores en el mundo entero —de Gabriel García Márquez a Umberto Eco— es prácticamente incalculable. Trabajó como director de la Biblioteca Nacional argentina durante años, mientras se quedaba progresivamente ciego, una ironía que él mismo describió como 'la lenta penumbra' que Dios le dio junto con 800.000 libros.",
+      },
+      en: {
+        title: "The Writer Who Turned Libraries Into Universes",
+        subtitle: "Jorge Luis Borges",
+        imageAlt:
+          "Cartoon of an infinite library with shelves spiraling off into the distance.",
+        description:
+          "Jorge Luis Borges, born in Buenos Aires in 1899, wrote short stories and essays that redefined 20th-century literature, with labyrinths, mirrors, infinite libraries, and games with time as recurring themes in works like 'Ficciones' or 'The Aleph.' He never won the Nobel Prize, still debated as one of the great injustices in the prize's history, but his influence on generations of writers worldwide — from Gabriel García Márquez to Umberto Eco — is practically incalculable. He worked as director of Argentina's National Library for years while gradually going blind, an irony he himself described as the 'slow twilight' God gave him along with 800,000 books.",
+      },
+    },
+  },
+  {
+    id: "rock-nacional",
+    order: 15,
+    placeholderEmoji: "🎸",
+    accentColor: "#C0392B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Un rock que se cantó siempre en español",
+        subtitle: "El rock nacional",
+        imageAlt:
+          "Caricatura de una banda de rock tocando en un escenario con luces de estadio.",
+        description:
+          "Desde fines de los años 60, Argentina desarrolló una de las escenas de rock en español más influyentes del mundo, con bandas y solistas —Almendra, Charly García, Soda Stereo, Sui Generis, Fito Páez— que llenaron estadios en toda Latinoamérica y España. A diferencia de otros países de la región, el 'rock nacional' argentino nunca fue una simple traducción del rock anglosajón: desarrolló letras propias, muy literarias, y una identidad sonora reconocible. Soda Stereo en particular, liderada por Gustavo Cerati, es considerada la banda de rock en español más influyente de la historia, con un impacto que todavía hoy se nota en músicos de México, Chile, Colombia o España.",
+      },
+      en: {
+        title: "A Rock Scene That Always Sang in Spanish",
+        subtitle: "Argentine Rock",
+        imageAlt:
+          "Cartoon of a rock band playing on a stage with stadium lights.",
+        description:
+          "Since the late 1960s, Argentina developed one of the most influential Spanish-language rock scenes in the world, with bands and solo artists — Almendra, Charly García, Soda Stereo, Sui Generis, Fito Páez — who filled stadiums across Latin America and Spain. Unlike other countries in the region, Argentine 'rock nacional' was never a simple translation of Anglo rock: it developed its own, highly literary lyrics and a recognizable sound of its own. Soda Stereo in particular, led by Gustavo Cerati, is considered the most influential Spanish-language rock band in history, with an impact still felt today among musicians in Mexico, Chile, Colombia, or Spain.",
+      },
+    },
+  },
+  {
+    id: "cine-oscar",
+    order: 16,
+    placeholderEmoji: "🏆",
+    accentColor: "#D4AF37",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cine que más veces ganó el Oscar en Latinoamérica",
+        subtitle: "Cine argentino y los Oscar",
+        imageAlt:
+          "Caricatura de un premio dorado tipo Oscar junto a un rollo de película de cine.",
+        description:
+          "Argentina ganó el premio Oscar a Mejor Película Internacional dos veces —'La historia oficial' en 1985 y 'El secreto de sus ojos' en 2009— más que cualquier otro país de América Latina, y sumó varias nominaciones adicionales en las décadas siguientes. La industria cinematográfica argentina, una de las más grandes y prolíficas de la región, combina un fuerte apoyo estatal con una tradición de directores reconocidos internacionalmente, como Lucrecia Martel o Juan José Campanella. El éxito sostenido en los Oscar convirtió al cine en una de las principales exportaciones culturales del país, comparable en prestigio internacional a lo que el fútbol o el tango representan en otros terrenos.",
+      },
+      en: {
+        title: "The Country With the Most Oscars in Latin America",
+        subtitle: "Argentine Cinema and the Oscars",
+        imageAlt:
+          "Cartoon of a golden Oscar-style award next to a reel of film.",
+        description:
+          "Argentina has won the Academy Award for Best International Feature Film twice — 'The Official Story' in 1985 and 'The Secret in Their Eyes' in 2009 — more than any other Latin American country, and has racked up several additional nominations in the decades since. Argentina's film industry, one of the largest and most prolific in the region, combines strong state support with a tradition of internationally recognized directors, like Lucrecia Martel or Juan José Campanella. Its sustained Oscar success turned cinema into one of the country's leading cultural exports, comparable in international prestige to what football or tango represent in other fields.",
+      },
+    },
+  },
+  {
+    id: "iguazu",
+    order: 17,
+    placeholderEmoji: "💦",
+    accentColor: "#1B7A3D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Más cataratas de las que se pueden contar de una vez",
+        subtitle: "Cataratas del Iguazú",
+        imageAlt:
+          "Caricatura de una gran catarata con niebla subiendo y selva verde alrededor.",
+        description:
+          "Las Cataratas del Iguazú, en la frontera entre Argentina y Brasil, están formadas por 275 saltos de agua individuales distribuidos a lo largo de casi tres kilómetros, más del doble de ancho que las Cataratas del Niágara. Su punto más impresionante, la 'Garganta del Diablo', es una U de 150 metros de ancho donde el agua cae con tanta fuerza que genera una neblina permanente visible a kilómetros de distancia. Declaradas una de las Siete Maravillas Naturales del Mundo moderno y Patrimonio de la Humanidad por la UNESCO, están rodeadas de selva subtropical que todavía alberga yaguaretés, tucanes y coatíes, convirtiendo la visita en una experiencia tanto sonora y visual como física: la humedad y el rugido del agua se sienten antes de verla.",
+      },
+      en: {
+        title: "More Waterfalls Than You Can Count at Once",
+        subtitle: "Iguazu Falls",
+        imageAlt:
+          "Cartoon of a large waterfall with mist rising and green jungle all around.",
+        description:
+          "Iguazu Falls, on the border between Argentina and Brazil, are made up of 275 individual waterfalls spread across nearly three kilometers, more than twice as wide as Niagara Falls. Its most striking point, the 'Devil's Throat,' is a 150-meter-wide U-shaped drop where the water falls with such force it generates a permanent mist visible for miles. Named one of the modern Seven Natural Wonders of the World and a UNESCO World Heritage Site, the falls are surrounded by subtropical jungle still home to jaguars, toucans, and coatis, making a visit as much a sonic and visual experience as a physical one: the humidity and the roar of the water hit you before you even see it.",
+      },
+    },
+  },
+  {
+    id: "evita",
+    order: 18,
+    placeholderEmoji: "🌹",
+    accentColor: "#8E4162",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La mujer que se volvió mito antes de morir",
+        subtitle: "Eva Perón",
+        imageAlt:
+          "Caricatura de una mujer saludando desde un balcón con los brazos extendidos, ovación de la multitud abajo.",
+        description:
+          "Eva Duarte de Perón, conocida como Evita, pasó de ser una actriz de provincia con orígenes humildes a convertirse, como primera dama entre 1946 y 1952, en una de las figuras más influyentes y divisivas de la historia argentina: impulsó el voto femenino, creó una fundación de asistencia social masiva y se ganó una devoción popular tan intensa que, tras su muerte a los 33 años, hubo pedidos formales para canonizarla como santa. Su vida inspiró el musical 'Evita' de Andrew Lloyd Webber, estrenado en Londres en 1978 y llevado al cine en 1996 con Madonna en el papel principal, lo que la convirtió en una de las argentinas más reconocidas internacionalmente, siete décadas después de su muerte.",
+      },
+      en: {
+        title: "The Woman Who Became a Legend Before She Died",
+        subtitle: "Eva Perón",
+        imageAlt:
+          "Cartoon of a woman waving from a balcony with arms outstretched, a cheering crowd below.",
+        description:
+          "Eva Duarte de Perón, known as Evita, went from a provincial actress of humble origins to becoming, as First Lady between 1946 and 1952, one of the most influential and divisive figures in Argentine history: she pushed for women's suffrage, created a massive social welfare foundation, and earned such intense popular devotion that, after her death at 33, there were formal petitions to canonize her as a saint. Her life inspired Andrew Lloyd Webber's musical 'Evita,' which premiered in London in 1978 and was adapted into a film in 1996 starring Madonna, making her one of the most internationally recognized Argentines seven decades after her death.",
+      },
+    },
+  },
+  {
+    id: "perito-moreno",
+    order: 19,
+    placeholderEmoji: "🧊",
+    accentColor: "#5DADE2",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El glaciar que crece en vez de derretirse",
+        subtitle: "Glaciar Perito Moreno",
+        imageAlt:
+          "Caricatura de un glaciar azulado gigante con un trozo de hielo desprendiéndose hacia el agua.",
+        description:
+          "Mientras la gran mayoría de los glaciares del planeta retroceden por el cambio climático, el Perito Moreno, en la Patagonia argentina, es uno de los pocos glaciares del mundo considerados estables o incluso en avance, algo que sorprende a los propios glaciólogos. Con un frente de hielo de 5 kilómetros de ancho y hasta 60 metros de altura sobre el agua, cada tanto avanza lo suficiente como para represar el lago Argentino, generando una presión que termina rompiendo el hielo en desprendimientos masivos y ruidosos, un espectáculo que atrae turistas de todo el mundo dispuestos a esperar horas frente al hielo por la posibilidad de verlo ocurrir en vivo.",
+      },
+      en: {
+        title: "The Glacier That Grows Instead of Melting",
+        subtitle: "Perito Moreno Glacier",
+        imageAlt:
+          "Cartoon of a giant bluish glacier with a chunk of ice breaking off into the water.",
+        description:
+          "While the vast majority of glaciers on the planet are retreating due to climate change, the Perito Moreno, in Argentine Patagonia, is one of the few glaciers in the world considered stable or even advancing, something that surprises glaciologists themselves. With an ice face 5 kilometers wide and up to 60 meters tall above the water, it periodically advances enough to dam Lake Argentino, building up pressure that eventually breaks the ice apart in massive, thunderous collapses — a spectacle that draws tourists from around the world willing to wait for hours in front of the ice for a chance to see it happen live.",
+      },
+    },
+  },
+  {
+    id: "ushuaia",
+    order: 20,
+    placeholderEmoji: "🚢",
+    accentColor: "#34495E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad donde termina el mapa",
+        subtitle: "Ushuaia, el fin del mundo",
+        imageAlt:
+          "Caricatura de un faro sobre rocas nevadas con montañas al fondo y un barco pequeño en el agua.",
+        description:
+          "Ushuaia, en la isla de Tierra del Fuego, es reconocida oficialmente como la ciudad más austral del mundo, apodada 'el fin del mundo' por estar más cerca de la Antártida que de la mayoría de las grandes ciudades sudamericanas. Rodeada de montañas nevadas, canales y el histórico Canal de Beagle, funciona además como puerta de entrada principal para las expediciones turísticas y científicas hacia la Antártida, un viaje de apenas dos días en barco desde su puerto. Su ubicación extrema, su historia como antigua colonia penal y su paisaje casi al borde del mapa la convirtieron en un destino que muchos viajeros describen como 'llegar literalmente al final de todo'.",
+      },
+      en: {
+        title: "The City Where the Map Ends",
+        subtitle: "Ushuaia, the End of the World",
+        imageAlt:
+          "Cartoon of a lighthouse on snowy rocks with mountains in the background and a small boat in the water.",
+        description:
+          "Ushuaia, on the island of Tierra del Fuego, is officially recognized as the southernmost city in the world, nicknamed 'the end of the world' for being closer to Antarctica than to most major South American cities. Surrounded by snow-capped mountains, channels, and the historic Beagle Channel, it also serves as the main gateway for tourist and scientific expeditions to Antarctica, just a two-day boat trip from its port. Its extreme location, its history as a former penal colony, and its landscape sitting almost at the edge of the map have turned it into a destination many travelers describe as 'literally reaching the end of everything.'",
+      },
+    },
+  },
 ];

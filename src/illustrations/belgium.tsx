@@ -151,6 +151,145 @@ const CapitalEuropea: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const Saxofon: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <path
+        d="M185 100 h14 v50 c18 0 26 14 26 28 c0 16 -14 24 -28 20 c-10 -3 -14 -12 -12 -20"
+        fill="none"
+        stroke={accentColor}
+        strokeWidth="9"
+        strokeLinecap="round"
+      />
+      <circle cx="190" cy="108" r="6" fill={light} />
+      {[0, 1, 2].map((i) => (
+        <circle key={i} cx={198} cy={140 + i * 14} r="3" fill={dark} />
+      ))}
+    </g>
+  );
+};
+
+const BigBang: IllustrationComponent = ({ accentColor }) => {
+  const light = tint(accentColor, 0.65);
+  return (
+    <g>
+      <circle cx="200" cy="140" r="10" fill={light} />
+      {[0, 45, 90, 135, 180, 225, 270, 315].map((deg, i) => (
+        <line
+          key={deg}
+          x1="200"
+          y1="140"
+          x2={200 + Math.cos((deg * Math.PI) / 180) * (28 + (i % 2) * 10)}
+          y2={140 + Math.sin((deg * Math.PI) / 180) * (28 + (i % 2) * 10)}
+          stroke={accentColor}
+          strokeWidth="3"
+          strokeLinecap="round"
+        />
+      ))}
+    </g>
+  );
+};
+
+const AudreyHepburn: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.5);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <path d="M180 180 C180 150 185 135 200 135 C215 135 220 150 220 180 Z" fill={dark} />
+      <circle cx="200" cy="118" r="18" fill={light} />
+      <path d="M182 112 a18 12 0 0 1 36 0 Z" fill={dark} />
+    </g>
+  );
+};
+
+const Magritte: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.75);
+  return (
+    <g>
+      <ellipse cx="200" cy="130" rx="30" ry="18" fill={light} />
+      <path d="M185 128 h34 c10 0 14 8 8 14 c-6 4 -30 4 -38 -2 c-6 -4 -6 -10 -4 -12 Z" fill={dark} />
+      <rect x="192" y="112" width="16" height="10" fill={dark} />
+      <path d="M188 112 q12 -8 24 0" fill="none" stroke={dark} strokeWidth="3" />
+    </g>
+  );
+};
+
+const JacquesBrel: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <ellipse cx="200" cy="122" rx="14" ry="18" fill={light} />
+      <rect x="196" y="140" width="8" height="40" fill={dark} />
+      <ellipse cx="200" cy="184" rx="18" ry="6" fill={dark} />
+    </g>
+  );
+};
+
+const Pitufos: IllustrationComponent = ({ accentColor }) => {
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <circle cx="200" cy="150" r="26" fill={accentColor} />
+      <circle cx="200" cy="120" r="18" fill={light} />
+      <polygon points="184,110 216,110 200,88" fill="#fff" />
+    </g>
+  );
+};
+
+const MannekenPis: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <ellipse cx="200" cy="182" rx="34" ry="10" fill={dark} />
+      <rect x="190" y="150" width="20" height="30" fill={accentColor} />
+      <circle cx="200" cy="138" r="13" fill={light} />
+    </g>
+  );
+};
+
+const GrandPlace: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <rect x="150" y="140" width="35" height="50" fill={accentColor} />
+      <rect x="190" y="120" width="20" height="70" fill={dark} />
+      <polygon points="190,120 200,95 210,120" fill={light} />
+      <rect x="215" y="140" width="35" height="50" fill={accentColor} />
+    </g>
+  );
+};
+
+const DiamantesAmberes: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.75);
+  return (
+    <g>
+      <polygon points="200,105 225,130 200,180 175,130" fill={light} stroke={dark} strokeWidth="2" />
+      <polygon points="175,130 225,130 200,145" fill={accentColor} />
+      <line x1="200" y1="105" x2="200" y2="145" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const Tomorrowland: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <rect x="160" y="150" width="80" height="40" fill={accentColor} />
+      <polygon points="160,150 175,120 190,150" fill={dark} />
+      <polygon points="210,150 225,120 240,150" fill={dark} />
+      <rect x="192" y="120" width="16" height="30" fill={light} />
+    </g>
+  );
+};
+
 export const belgiumIllustrations: Record<string, IllustrationDefinition> = {
   cerveza: { component: Cerveza, variant: "medallion" },
   chocolate: { component: Chocolate, variant: "medallion" },
@@ -162,4 +301,14 @@ export const belgiumIllustrations: Record<string, IllustrationDefinition> = {
   ciclismo: { component: Ciclismo },
   "carnaval-binche": { component: CarnavalBinche, variant: "medallion" },
   "capital-europea": { component: CapitalEuropea, variant: "medallion" },
+  saxofon: { component: Saxofon, variant: "medallion" },
+  "big-bang": { component: BigBang, variant: "medallion" },
+  "audrey-hepburn": { component: AudreyHepburn, variant: "medallion" },
+  magritte: { component: Magritte, variant: "medallion" },
+  "jacques-brel": { component: JacquesBrel, variant: "medallion" },
+  pitufos: { component: Pitufos, variant: "medallion" },
+  "manneken-pis": { component: MannekenPis, variant: "medallion" },
+  "grand-place": { component: GrandPlace },
+  "diamantes-amberes": { component: DiamantesAmberes, variant: "medallion" },
+  tomorrowland: { component: Tomorrowland },
 };

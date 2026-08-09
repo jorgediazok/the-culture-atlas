@@ -4,6 +4,7 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import BackLink from "@/components/BackLink";
 import BookCarousel from "@/components/BookCarousel";
+import CoverPage from "@/components/CoverPage";
 import PageSpread from "@/components/PageSpread";
 import { countries } from "@/content/countries";
 import { getEntriesForCountry, localizeCountry, localizeEntry } from "@/content";
@@ -60,7 +61,12 @@ export default async function CountryPage({
         </Typography>
       </Stack>
 
-      <BookCarousel>
+      <BookCarousel coverLabel={dict.coverLabel}>
+        <CoverPage
+          country={localizedCountry}
+          entryCount={entries.length}
+          storiesLabel={dict.storiesLabel}
+        />
         {entries.map((entry) => (
           <PageSpread key={entry.id} entry={entry} countrySlug={slug} />
         ))}

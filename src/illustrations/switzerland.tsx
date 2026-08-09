@@ -139,6 +139,130 @@ const NavajaSuiza: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const CruzRoja: IllustrationComponent = ({ accentColor }) => {
+  const light = tint(accentColor, 0.85);
+  return (
+    <g>
+      <rect x="188" y="112" width="24" height="66" fill={light} />
+      <rect x="167" y="133" width="66" height="24" fill={light} />
+    </g>
+  );
+};
+
+const Velcro: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <rect x="160" y="115" width="80" height="18" rx="4" fill={dark} />
+      {Array.from({ length: 8 }).map((_, i) => (
+        <circle key={i} cx={168 + i * 9} cy={140} r="3" fill={accentColor} />
+      ))}
+      <rect x="160" y="150" width="80" height="18" rx="4" fill={light} />
+    </g>
+  );
+};
+
+const Lsd: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <circle cx="180" cy="165" r="16" fill="none" stroke={dark} strokeWidth="6" />
+      <circle cx="222" cy="165" r="16" fill="none" stroke={dark} strokeWidth="6" />
+      <path d="M195 150 L205 118" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+      <path d="M180 130 q20 -15 40 0" fill="none" stroke={light} strokeWidth="3" opacity="0.8" />
+      <path d="M175 120 q25 -18 50 2" fill="none" stroke={accentColor} strokeWidth="3" opacity="0.6" />
+    </g>
+  );
+};
+
+const RogerFederer: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.8);
+  return (
+    <g>
+      <ellipse cx="200" cy="130" rx="22" ry="28" fill="none" stroke={dark} strokeWidth="5" />
+      <line x1="200" y1="158" x2="200" y2="192" stroke={dark} strokeWidth="6" />
+      <line x1="182" y1="118" x2="218" y2="142" stroke={dark} strokeWidth="2" />
+      <line x1="182" y1="142" x2="218" y2="118" stroke={dark} strokeWidth="2" />
+      <circle cx="228" cy="170" r="9" fill={light} />
+    </g>
+  );
+};
+
+const LeCorbusier: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <rect x="160" y="130" width="80" height="35" fill={accentColor} />
+      <rect x="168" y="165" width="8" height="20" fill={dark} />
+      <rect x="224" y="165" width="8" height="20" fill={dark} />
+      {[172, 190, 208].map((x) => (
+        <rect key={x} x={x} y="138" width="12" height="10" fill={light} />
+      ))}
+    </g>
+  );
+};
+
+const WorldWideWeb: IllustrationComponent = ({ accentColor }) => {
+  const light = tint(accentColor, 0.7);
+  return (
+    <g fill="none" stroke={light} strokeWidth="2.5">
+      <circle cx="200" cy="140" r="16" />
+      <circle cx="200" cy="140" r="30" />
+      <circle cx="200" cy="140" r="44" />
+      <line x1="156" y1="140" x2="244" y2="140" />
+      <line x1="200" y1="96" x2="200" y2="184" />
+      <path d="M170 108 Q200 140 170 172" />
+      <path d="M230 108 Q200 140 230 172" />
+    </g>
+  );
+};
+
+const Cervino: IllustrationComponent = ({ accentColor }) => {
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <polygon points="200,95 240,190 160,190" fill={accentColor} />
+      <polygon points="200,95 215,130 185,130" fill={light} />
+    </g>
+  );
+};
+
+const Gotardo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <polygon points="150,190 180,120 260,190" fill={accentColor} />
+      <path d="M175 190 a25 30 0 0 1 50 0 Z" fill={dark} />
+      <rect x="188" y="175" width="24" height="15" fill={light} />
+    </g>
+  );
+};
+
+const SecretoBancario: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const light = tint(accentColor, 0.5);
+  return (
+    <g>
+      <circle cx="200" cy="140" r="40" fill={accentColor} stroke={dark} strokeWidth="4" />
+      <circle cx="200" cy="140" r="10" fill={light} />
+      <rect x="196" y="140" width="14" height="4" fill={light} />
+    </g>
+  );
+};
+
+const Rorschach: IllustrationComponent = ({ accentColor }) => {
+  return (
+    <g fill={accentColor}>
+      <path d="M200 108 C180 108 170 128 178 140 C168 148 170 168 188 172 C192 182 208 182 212 172 C230 168 232 148 222 140 C230 128 220 108 200 108 Z" />
+    </g>
+  );
+};
+
 export const switzerlandIllustrations: Record<string, IllustrationDefinition> = {
   "chocolate-suizo": { component: ChocolateSuizo, variant: "medallion" },
   relojeria: { component: Relojeria, variant: "medallion" },
@@ -150,4 +274,14 @@ export const switzerlandIllustrations: Record<string, IllustrationDefinition> = 
   puntualidad: { component: Puntualidad, variant: "medallion" },
   trenes: { component: Trenes },
   "navaja-suiza": { component: NavajaSuiza, variant: "medallion" },
+  "cruz-roja": { component: CruzRoja, variant: "medallion" },
+  velcro: { component: Velcro, variant: "medallion" },
+  lsd: { component: Lsd, variant: "medallion" },
+  "roger-federer": { component: RogerFederer, variant: "medallion" },
+  "le-corbusier": { component: LeCorbusier },
+  "world-wide-web": { component: WorldWideWeb, variant: "medallion" },
+  cervino: { component: Cervino },
+  gotardo: { component: Gotardo },
+  "secreto-bancario": { component: SecretoBancario, variant: "medallion" },
+  rorschach: { component: Rorschach, variant: "medallion" },
 };

@@ -219,6 +219,149 @@ const Directheid: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const CdPhilips: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <circle cx="180" cy="140" r="38" fill={light} stroke={dark} strokeWidth="3" />
+      <circle cx="180" cy="140" r="8" fill={dark} />
+      <rect x="222" y="118" width="46" height="30" rx="4" fill={dark} />
+      <rect x="228" y="124" width="34" height="18" rx="3" fill={light} />
+    </g>
+  );
+};
+
+const Microscopio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <rect x="192" y="96" width="12" height="40" rx="4" fill={dark} transform="rotate(15 198 116)" />
+      <path d="M180 150 h44 l-8 30 h-28 Z" fill={accentColor} />
+      <ellipse cx="200" cy="182" rx="34" ry="8" fill={dark} />
+      <circle cx="210" cy="120" r="8" fill={light} />
+    </g>
+  );
+};
+
+const VanGogh: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const light = tint(accentColor, 0.5);
+  return (
+    <g>
+      <rect x="185" y="100" width="8" height="80" fill={dark} />
+      <rect x="150" y="150" width="80" height="8" fill={dark} />
+      <circle cx="200" cy="120" r="16" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+        <rect
+          key={deg}
+          x="197"
+          y="96"
+          width="6"
+          height="14"
+          fill={light}
+          transform={`rotate(${deg} 200 120)`}
+        />
+      ))}
+    </g>
+  );
+};
+
+const SigloDeOro: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <rect x="165" y="105" width="70" height="90" fill={dark} />
+      <rect x="174" y="114" width="52" height="72" fill={light} />
+      <rect x="185" y="130" width="30" height="40" fill={accentColor} />
+    </g>
+  );
+};
+
+const CapitalEdm: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.65);
+  return (
+    <g>
+      <path d="M170 150 a30 30 0 0 1 60 0" fill="none" stroke={dark} strokeWidth="8" />
+      <rect x="164" y="148" width="14" height="26" rx="5" fill={accentColor} />
+      <rect x="222" y="148" width="14" height="26" rx="5" fill={accentColor} />
+      <rect x="180" y="176" width="40" height="16" rx="3" fill={light} />
+    </g>
+  );
+};
+
+const AnaFrank: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <path d="M160 110 h38 v70 h-38 Z" fill={accentColor} />
+      <path d="M202 110 h38 v70 h-38 Z" fill={dark} />
+      <line x1="200" y1="108" x2="200" y2="182" stroke={light} strokeWidth="2" />
+      {[122, 134, 146].map((y) => (
+        <line key={y} x1="168" y1={y} x2="192" y2={y} stroke={light} strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
+const Heineken: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.85);
+  return (
+    <g>
+      <path d="M188 100 h24 v20 c14 6 18 24 18 40 c0 22 -14 36 -30 36 c-16 0 -30 -14 -30 -36 c0 -16 4 -34 18 -40 Z" fill={accentColor} />
+      <polygon points="200,130 206,140 217,141 209,149 211,160 200,154 189,160 191,149 183,141 194,140" fill={light} />
+      <rect x="190" y="94" width="20" height="10" fill={dark} />
+    </g>
+  );
+};
+
+const BolsaValores: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <rect x="150" y="170" width="100" height="16" fill={dark} />
+      {[160, 180, 200, 220, 236].map((x) => (
+        <rect key={x} x={x} y="130" width="10" height="40" fill={accentColor} />
+      ))}
+      <polygon points="150,130 200,104 250,130" fill={light} />
+    </g>
+  );
+};
+
+const DeltaWorks: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <rect x="150" y="150" width="100" height="20" fill={dark} />
+      {[160, 180, 200, 220, 236].map((x) => (
+        <rect key={x} x={x} y="120" width="8" height="34" fill={light} />
+      ))}
+      <path d="M120 190 q40 -16 80 0 t80 0" fill="none" stroke={accentColor} strokeWidth="6" />
+    </g>
+  );
+};
+
+const Giethoorn: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.55);
+  return (
+    <g>
+      <rect x="160" y="150" width="40" height="30" fill={accentColor} />
+      <polygon points="155,150 180,128 205,150" fill={dark} />
+      <rect x="215" y="160" width="34" height="22" fill={dark} />
+      <polygon points="211,160 232,142 253,160" fill={accentColor} />
+      <path d="M120 195 q60 -14 160 0" fill="none" stroke={light} strokeWidth="5" />
+    </g>
+  );
+};
+
 export const netherlandsIllustrations: Record<string, IllustrationDefinition> = {
   fiets: { component: Fiets },
   molens: { component: Molens },
@@ -230,4 +373,14 @@ export const netherlandsIllustrations: Record<string, IllustrationDefinition> = 
   sinterklaas: { component: Sinterklaas },
   "delfts-blauw": { component: DelftsBlauw, variant: "medallion" },
   directheid: { component: Directheid, variant: "medallion" },
+  "cd-philips": { component: CdPhilips, variant: "medallion" },
+  microscopio: { component: Microscopio },
+  "van-gogh": { component: VanGogh, variant: "medallion" },
+  "siglo-de-oro": { component: SigloDeOro, variant: "medallion" },
+  "capital-edm": { component: CapitalEdm, variant: "medallion" },
+  "ana-frank": { component: AnaFrank, variant: "medallion" },
+  heineken: { component: Heineken, variant: "medallion" },
+  "bolsa-valores": { component: BolsaValores },
+  "delta-works": { component: DeltaWorks },
+  giethoorn: { component: Giethoorn },
 };

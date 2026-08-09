@@ -1,5 +1,4 @@
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Chip from "@mui/material/Chip";
@@ -7,6 +6,7 @@ import Image from "next/image";
 import type { LocalizedCultureEntry } from "@/content/types";
 import { getIllustration } from "@/illustrations";
 import IllustrationFrame from "@/illustrations/IllustrationFrame";
+import BookPageFrame from "./BookPageFrame";
 
 export default function PageSpread({
   entry,
@@ -16,54 +16,9 @@ export default function PageSpread({
   countrySlug: string;
 }) {
   const illustration = getIllustration(countrySlug, entry.id);
-  const bookRadius = { xs: "12px", md: "4px 28px 28px 4px" };
 
   return (
-    // Slightly smaller than its slide on desktop, leaving real empty space
-    // at the bottom-right for the stacked "page edge" layers below to peek
-    // into — otherwise the carousel viewport's required overflow:hidden
-    // clips them before they're ever visible.
-    <Box
-      sx={{
-        position: "relative",
-        width: { xs: "100%", md: "calc(100% - 12px)" },
-        height: { xs: "100%", md: "calc(100% - 16px)" },
-      }}
-    >
-      <Box
-        sx={{
-          display: { xs: "none", md: "block" },
-          position: "absolute",
-          inset: 0,
-          borderRadius: bookRadius,
-          backgroundColor: "#ede4cd",
-          border: "1px solid #cdbf9c",
-          transform: "translate(10px, 14px)",
-        }}
-      />
-      <Box
-        sx={{
-          display: { xs: "none", md: "block" },
-          position: "absolute",
-          inset: 0,
-          borderRadius: bookRadius,
-          backgroundColor: "#f6efdd",
-          border: "1px solid #dccfab",
-          transform: "translate(5px, 7px)",
-        }}
-      />
-      <Paper
-        elevation={0}
-        sx={{
-          position: "relative",
-          overflow: "hidden",
-          borderRadius: bookRadius,
-          border: "1px solid",
-          borderColor: "divider",
-          width: "100%",
-          height: "100%",
-        }}
-      >
+    <BookPageFrame>
       <Stack direction={{ xs: "column", md: "row" }} sx={{ height: "100%" }}>
         <Box
           sx={{
@@ -83,7 +38,8 @@ export default function PageSpread({
               position: "absolute",
               inset: 0,
               width: "26px",
-              background: "linear-gradient(to right, rgba(0,0,0,0.22), rgba(0,0,0,0))",
+              background:
+                "linear-gradient(to right, rgba(0,0,0,0.22), rgba(0,0,0,0))",
               zIndex: 2,
               pointerEvents: "none",
             }}
@@ -156,7 +112,6 @@ export default function PageSpread({
           </Typography>
         </Box>
       </Stack>
-      </Paper>
-    </Box>
+    </BookPageFrame>
   );
 }
