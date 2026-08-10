@@ -17,7 +17,7 @@ export const thailand: CultureEntry[] = [
           "El wai, el saludo tradicional tailandés, consiste en juntar las palmas de las manos como en un gesto de oración e inclinar levemente la cabeza, pero su forma exacta —qué tan altas van las manos y qué tan profunda es la inclinación— cambia según la diferencia de edad, estatus social o jerarquía entre las dos personas que se saludan, un sistema tan detallado que a los niños tailandeses se les enseña explícitamente en la escuela. Devolver un wai es casi obligatorio por cortesía, excepto cuando lo hace, por ejemplo, un monje budista o alguien mucho más joven saludando a alguien mayor, en cuyo caso puede simplemente asentir. Aunque el apretón de manos occidental se volvió común en contextos de negocios internacionales, el wai sigue siendo la forma por defecto de saludar, agradecer y hasta pedir disculpas en la vida cotidiana tailandesa.",
       },
       en: {
-        title: "A Greeting That Says Who You Are and Who You're Greeting",
+        title: "A Greeting That Says Who You Are, Who You Greet",
         subtitle: "The Wai",
         imageAlt:
           "Cartoon of two hands pressed together in a greeting gesture at chest height.",
@@ -107,7 +107,7 @@ export const thailand: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El año nuevo que se celebra con la guerra de agua más grande del mundo",
+        title: "El año nuevo con la guerra de agua más grande del mundo",
         subtitle: "Songkran",
         imageAlt:
           "Caricatura de una persona sonriendo mientras es rociada con una pistola de agua.",
@@ -115,7 +115,7 @@ export const thailand: CultureEntry[] = [
           "Songkran, el año nuevo tradicional tailandés celebrado entre el 13 y el 15 de abril, se originó como un ritual respetuoso de purificación, en el que se rociaba con agua perfumada a las estatuas de Buda y se derramaba con suavidad sobre las manos de los mayores en señal de respeto. Con el tiempo, ese gesto se transformó en la actualidad en la batalla de agua más grande del planeta: durante tres días, calles enteras de ciudades como Chiang Mai o Bangkok se convierten en zonas de guerra festiva donde locales y turistas se empapan mutuamente con pistolas de agua, baldes y hasta mangueras de camiones, sin importar edad ni condición social. Pese a su apariencia caótica, Songkran conserva en paralelo sus rituales religiosos más tradicionales, con visitas a templos y ofrendas a los monjes durante las mismas fechas.",
       },
       en: {
-        title: "The New Year Celebrated With the World's Biggest Water Fight",
+        title: "The New Year With the World's Biggest Water Fight",
         subtitle: "Songkran",
         imageAlt: "Cartoon of a person smiling while being sprayed with a water gun.",
         description:
@@ -131,14 +131,14 @@ export const thailand: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El animal sagrado que aparece hasta en la bandera histórica",
+        title: "El animal sagrado de la antigua bandera nacional",
         subtitle: "El elefante tailandés",
         imageAlt: "Caricatura de un elefante asiático con un pequeño adorno en la cabeza.",
         description:
           "El elefante es el animal nacional de Tailandia y ocupó un lugar tan central en la identidad del país que, hasta 1917, la bandera nacional tenía un elefante blanco bordado sobre fondo rojo. Durante siglos, los elefantes trabajaron en la industria maderera arrastrando troncos por la selva, y hoy, con esa actividad prohibida desde 1989, muchos encontraron un nuevo rol en santuarios dedicados a su cuidado y observación ética, un cambio impulsado en parte por la creciente crítica internacional al turismo que los obligaba a cargar personas sobre el lomo. Los elefantes blancos, en particular, son considerados sagrados y de propiedad exclusiva del rey desde tiempos antiguos, ya que su nacimiento se interpreta tradicionalmente como una señal de buena fortuna para todo el reino.",
       },
       en: {
-        title: "The Sacred Animal That Even Appeared on the Historic Flag",
+        title: "The Sacred Animal on the Old National Flag",
         subtitle: "The Thai Elephant",
         imageAlt: "Cartoon of an Asian elephant with a small headdress ornament.",
         description:
@@ -177,7 +177,7 @@ export const thailand: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El único país del sudeste asiático que nunca fue colonizado",
+        title: "El único país del sudeste asiático nunca colonizado",
         subtitle: "Siam, el 'país libre'",
         imageAlt: "Caricatura de una corona dorada sobre un cojín decorativo.",
         description:
@@ -223,7 +223,7 @@ export const thailand: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El vehículo de tres ruedas que se convirtió en símbolo nacional",
+        title: "El vehículo de tres ruedas que es símbolo nacional",
         subtitle: "El tuk-tuk",
         imageAlt: "Caricatura de un tuk-tuk de tres ruedas con techo colorido.",
         description:
