@@ -55,14 +55,14 @@ export const venezuela: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El líder que liberó a seis países de la corona española",
+        title: "El líder que liberó a seis países de España",
         subtitle: "Simón Bolívar",
         imageAlt: "Caricatura de una espada envainada junto a una banda presidencial dorada.",
         description:
           "Simón Bolívar, nacido en Caracas en 1783 en una familia aristocrática, se convirtió en la figura más importante de las guerras de independencia sudamericanas, liderando campañas que liberaron del dominio español a los territorios que hoy son Venezuela, Colombia, Ecuador, Perú, Panamá y Bolivia, este último bautizado en su honor. Conocido como 'El Libertador', soñaba con unificar a las naciones recién independizadas en una gran confederación capaz de rivalizar con las potencias europeas, proyecto conocido como la Gran Colombia, que se disolvió pocos años después por conflictos internos. Murió en 1830, empobrecido y desilusionado por la fragmentación que había intentado evitar, pero su legado se convirtió en uno de los más venerados de América Latina, presente en la moneda venezolana, en el nombre oficial de Bolivia y en incontables plazas y monumentos del continente.",
       },
       en: {
-        title: "The Leader Who Freed Six Countries From the Spanish Crown",
+        title: "The Leader Who Freed Six Countries From Spain",
         subtitle: "Simón Bolívar",
         imageAlt: "Cartoon of a sheathed sword beside a golden presidential sash.",
         description:
@@ -78,7 +78,7 @@ export const venezuela: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El lugar con más rayos por kilómetro cuadrado del planeta",
+        title: "El lugar con más rayos por km² del planeta",
         subtitle: "El relámpago del Catatumbo",
         imageAlt: "Caricatura de un lago oscuro iluminado por varios rayos en el cielo nocturno.",
         description:
@@ -101,14 +101,14 @@ export const venezuela: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El país que convirtió los concursos de belleza en una industria nacional",
+        title: "El país que volvió industria los concursos de belleza",
         subtitle: "Miss Venezuela",
         imageAlt: "Caricatura de una corona de reina de belleza brillante sobre un cojín.",
         description:
           "Venezuela desarrolló, desde la fundación del certamen Miss Venezuela en 1952 y especialmente tras su profesionalización en los años 80 bajo Osmel Sousa, uno de los sistemas de preparación de reinas de belleza más exitosos del mundo, produciendo un número de coronas internacionales —Miss Universo, Miss Mundo y Miss Internacional— que ningún otro país latinoamericano igualó durante décadas. La preparación de una candidata suele incluir meses de entrenamiento en oratoria, pasarela, nutrición y procedimientos estéticos, un modelo tan sistematizado que se comparó con el de atletas olímpicos, y que convirtió al certamen en un evento televisado a nivel nacional seguido con fervor casi deportivo. Más allá de la controversia por los estándares de belleza que promueve, el fenómeno se volvió un componente reconocible de la identidad cultural del país, y varias ganadoras tuvieron carreras destacadas en televisión, política y negocios.",
       },
       en: {
-        title: "The Country That Turned Beauty Pageants Into a National Industry",
+        title: "The Country That Turned Pageants Into an Industry",
         subtitle: "Miss Venezuela",
         imageAlt: "Cartoon of a sparkling beauty queen crown resting on a cushion.",
         description:
@@ -124,14 +124,14 @@ export const venezuela: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El pan de maíz que se convirtió en símbolo de identidad nacional",
+        title: "El pan de maíz que es símbolo de identidad nacional",
         subtitle: "La arepa",
         imageAlt: "Caricatura de un pan de maíz redondo partido al medio con relleno asomando.",
         description:
           "La arepa, un pan plano circular de masa de maíz cocido, precede a la llegada de los españoles a Venezuela, siendo alimento básico de los pueblos indígenas de la región desde siglos antes de la conquista, y hoy sigue siendo uno de los platos más consumidos, presente en el desayuno, almuerzo y cena de millones de hogares venezolanos. A diferencia de preparaciones similares en países vecinos, la arepa venezolana se distingue por poder rellenarse con una enorme variedad de ingredientes una vez abierta como un sándwich, dando origen a combinaciones con nombre propio como la 'reina pepiada', con pollo, aguacate y mayonesa, o la 'dominó', con caraotas negras y queso blanco. La palabra viene del término indígena 'erepa', usado por el pueblo cumanagoto, y el plato se volvió tan central para la identidad nacional que los venezolanos en el exterior lo adoptaron como símbolo culinario de pertenencia.",
       },
       en: {
-        title: "The Corn Bread That Became a Symbol of National Identity",
+        title: "The Corn Bread That Became a National Symbol",
         subtitle: "The Arepa",
         imageAlt: "Cartoon of a round corn flatbread split open with filling peeking out.",
         description:
@@ -147,14 +147,14 @@ export const venezuela: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La música y el baile de los llanos que se volvió patrimonio nacional",
+        title: "La música y baile de los llanos, patrimonio nacional",
         subtitle: "El joropo",
         imageAlt: "Caricatura de un arpa llanera junto a un pequeño cuatro de cuerdas.",
         description:
           "El joropo, el género musical y de danza más representativo de Venezuela, surgió en las vastas llanuras del centro del país, conocidas como 'los llanos', ligado desde sus orígenes a la vida de los llaneros, los vaqueros encargados del manejo del ganado en las grandes haciendas de la zona. Musicalmente se caracteriza por el arpa llanera, acompañada de cuatro y maracas, instrumentos que producen un ritmo rápido y envolvente sobre el que se construye el zapateo, un paso enérgico y percusivo en el que los bailarines marcan el compás golpeando el suelo a gran velocidad. Declarado patrimonio cultural de la nación y considerado por muchos el género que mejor representa la identidad del país, el joropo se enseña en escuelas de música tradicional, se celebra en festivales dedicados en distintas regiones llaneras, y cobra especial vigencia entre la diáspora venezolana que busca reconectar con su identidad.",
       },
       en: {
-        title: "The Music and Dance of the Plains That Became National Heritage",
+        title: "The Music and Dance of the Plains, National Heritage",
         subtitle: "The Joropo",
         imageAlt: "Cartoon of a llanera harp beside a small four-stringed cuatro guitar.",
         description:
@@ -170,14 +170,14 @@ export const venezuela: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El país sudamericano obsesionado con un deporte norteamericano",
+        title: "El país sudamericano obsesionado con el béisbol",
         subtitle: "El béisbol venezolano",
         imageAlt: "Caricatura de un guante de béisbol y una pelota junto a un bate de madera.",
         description:
           "A diferencia de la mayoría de sus vecinos sudamericanos, donde el fútbol domina casi absolutamente, Venezuela desarrolló desde principios del siglo XX una pasión nacional por el béisbol comparable a la de Cuba o República Dominicana, originada con la llegada de trabajadores petroleros estadounidenses que introdujeron el deporte en las zonas de las primeras compañías petroleras. Esa temprana adopción convirtió a Venezuela en uno de los mayores exportadores de talento beisbolístico hacia las Grandes Ligas, con cientos de jugadores activos en la MLB en las últimas décadas, incluyendo a Miguel Cabrera, uno de los pocos bateadores en ganar la Triple Corona. La liga local, la Liga Venezolana de Béisbol Profesional, se juega en el invierno del hemisferio norte y atrae de regreso a muchas de esas mismas estrellas durante la temporada baja, generando una pasión comparable a la del fútbol en el resto del continente.",
       },
       en: {
-        title: "The South American Country Obsessed With a North American Sport",
+        title: "The South American Country Obsessed With Baseball",
         subtitle: "Venezuelan Baseball",
         imageAlt: "Cartoon of a baseball glove and ball beside a wooden bat.",
         description:
@@ -193,14 +193,14 @@ export const venezuela: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El país con las mayores reservas de petróleo probadas del mundo",
+        title: "El país con las mayores reservas de petróleo",
         subtitle: "Las reservas petroleras venezolanas",
         imageAlt: "Caricatura de una torre de perforación petrolera junto a un tanque de almacenamiento.",
         description:
           "Venezuela posee, según cifras de la OPEP, las mayores reservas probadas de petróleo del planeta, superando a Arabia Saudita, concentradas principalmente en la Faja Petrolífera del Orinoco, una franja al sur del río que contiene enormes depósitos de crudo extrapesado, más denso y costoso de refinar que el convencional pero presente en cantidades extraordinarias. El descubrimiento de petróleo en el lago de Maracaibo a comienzos del siglo XX transformó la economía venezolana, convirtiendo en pocas décadas a un país mayormente agrícola en una de las naciones más ricas de América Latina, período conocido como la 'Venezuela Saudita' por los altísimos ingresos petroleros del estado. Pese a esa riqueza, el país atravesó en las últimas dos décadas una severa crisis que redujo drásticamente su producción, ejemplo citado por economistas de que la abundancia de recursos no garantiza estabilidad sin una gestión institucional sólida.",
       },
       en: {
-        title: "The Country With the World's Largest Proven Oil Reserves",
+        title: "The Country With the World's Largest Oil Reserves",
         subtitle: "Venezuela's Oil Reserves",
         imageAlt: "Cartoon of an oil drilling rig beside a storage tank.",
         description:
