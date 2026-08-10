@@ -108,7 +108,7 @@ export const uruguay: CultureEntry[] = [
           "Punta del Este, una península en el extremo sureste de Uruguay, se convirtió desde mediados del siglo XX en uno de los balnearios de lujo más importantes de Sudamérica, comparado seguido con Saint-Tropez o Miami por la concentración de torres de departamentos, yates y visitantes de alto poder adquisitivo llegados de Argentina, Brasil y de todo el continente durante la temporada de verano. Su símbolo más fotografiado es 'La Mano', una escultura de cinco dedos gigantes emergiendo directamente de la arena en la playa Brava, creada por el artista chileno Mario Irarrázabal en 1982 originalmente como advertencia sobre el peligro de ahogarse, aunque hoy es sobre todo un ícono turístico que casi todos los visitantes fotografían. Fuera de la temporada alta, la ciudad reduce drásticamente su población, pasando de cientos de miles de visitantes a apenas unos pocos miles de residentes permanentes.",
       },
       en: {
-        title: "The Peninsula That Filled Up With Beachfront Skyscrapers",
+        title: "The Peninsula Filled With Beachfront Skyscrapers",
         subtitle: "Punta del Este",
         imageAlt: "Cartoon of a giant hand emerging from the sand on a beach.",
         description:
@@ -124,14 +124,14 @@ export const uruguay: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Una ciudad portuguesa frente a las costas de Buenos Aires",
+        title: "Una ciudad portuguesa frente a Buenos Aires",
         subtitle: "Colonia del Sacramento",
         imageAlt: "Caricatura de calles empedradas con casas coloniales bajas y un faro al fondo.",
         description:
           "Colonia del Sacramento, fundada por Portugal en 1680 justo enfrente de Buenos Aires al otro lado del Río de la Plata, fue durante más de un siglo un punto estratégico de disputa constante entre los imperios portugués y español, que se la disputaron militarmente en múltiples ocasiones debido a su ubicación clave para el contrabando y el comercio regional. Su Barrio Histórico, con calles empedradas irregulares, casas bajas de estilo colonial portugués y español mezclado, y un antiguo faro que todavía funciona, fue declarado Patrimonio de la Humanidad por la UNESCO en 1995, y es uno de los conjuntos urbanos coloniales mejor conservados de todo el Río de la Plata. Hoy es un destino de escapada de fin de semana muy popular entre los propios porteños, que cruzan en ferry desde Buenos Aires en poco más de una hora para recorrer sus calles a pie o en los característicos autos antiguos alquilados que circulan por el casco histórico.",
       },
       en: {
-        title: "A Portuguese Town Facing the Shores of Buenos Aires",
+        title: "A Portuguese Town Facing Buenos Aires",
         subtitle: "Colonia del Sacramento",
         imageAlt: "Cartoon of cobblestone streets with low colonial houses and a lighthouse in the background.",
         description:
@@ -147,7 +147,7 @@ export const uruguay: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Más kilos de carne por persona que casi cualquier otro país",
+        title: "Más carne por persona que casi cualquier otro país",
         subtitle: "El asado uruguayo",
         imageAlt: "Caricatura de una parrilla de hierro con cortes de carne y brasas encendidas.",
         description:
@@ -177,7 +177,7 @@ export const uruguay: CultureEntry[] = [
           "En diciembre de 2013, Uruguay se convirtió en el primer país del mundo en legalizar y regular integralmente el mercado completo de la marihuana —desde el cultivo hasta la venta al consumidor final—, bajo el gobierno de José Mujica, adelantándose por años a estados como Colorado o países como Canadá, que legalizaron después. El sistema uruguayo es particularmente estricto en su regulación: los usuarios deben registrarse ante el Estado, pueden elegir entre comprar en farmacias autorizadas, cultivar hasta seis plantas en su domicilio, o unirse a clubes cannábicos, con límites mensuales de compra fijados por ley. El objetivo declarado de la medida no fue simplemente permitir el consumo recreativo, sino sacarle el negocio al narcotráfico, generando un mercado legal, controlado y trazable. La medida generó un intenso debate internacional en su momento, y hoy Uruguay es citado con frecuencia como caso de estudio en políticas de drogas de todo el mundo.",
       },
       en: {
-        title: "The First Country in the World to Regulate the Entire Market",
+        title: "The First Country to Regulate the Entire Market",
         subtitle: "Marijuana Legalization",
         imageAlt: "Cartoon of a stylized green leaf inside a regulatory circle.",
         description:
