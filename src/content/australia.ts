@@ -124,14 +124,14 @@ export const australia: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La pasta negra que los australianos aman y el resto del mundo no entiende",
+        title: "La pasta negra que Australia ama y el mundo no entiende",
         subtitle: "Vegemite",
         imageAlt: "Caricatura de una tostada untada con una pasta negra brillante.",
         description:
           "Vegemite, una pasta untable oscura y salada hecha a partir de extracto de levadura, un subproducto de la industria cervecera, fue creada en 1922 por el químico australiano Cyril Callister, contratado específicamente para desarrollar un producto local que reemplazara al Marmite británico, del que Australia dependía de las importaciones. Rica en vitaminas del complejo B, se popularizó fuertemente durante la Segunda Guerra Mundial, cuando fue incluida en las raciones de los soldados australianos, y desde entonces se convirtió en un elemento fijo del desayuno en gran parte de los hogares del país, untada en tostadas en una capa deliberadamente fina, ya que su sabor intenso y salado resulta abrumador si se aplica en exceso, algo que casi todos los extranjeros descubren de la peor manera en su primer intento. Su eslogan publicitario de los años 50, 'Happy little Vegemites', sigue siendo parte del imaginario popular australiano.",
       },
       en: {
-        title: "The Black Paste Australians Love and the Rest of the World Doesn't Get",
+        title: "The Black Paste Australians Love, the World Doesn't",
         subtitle: "Vegemite",
         imageAlt: "Cartoon of a slice of toast spread with a dark, glossy paste.",
         description:
@@ -177,7 +177,7 @@ export const australia: CultureEntry[] = [
           "Australia alberga más especies de serpientes, arañas y medusas venenosas que cualquier otro continente, incluyendo a la serpiente marrón oriental, la segunda serpiente terrestre más venenosa del mundo, la araña de tela embudo de Sídney, capaz de matar a un humano en apenas 15 minutos sin tratamiento, y la avispa de mar, considerada el animal marino más venenoso conocido. Pese a esta reputación, las muertes reales por ataques de animales son sorprendentemente bajas —menos de dos personas por año en promedio por mordeduras de serpiente, por ejemplo—, gracias a antídotos efectivos desarrollados localmente y a una cultura de precaución bien establecida entre la población. Esta combinación de fauna extrema y baja tasa de incidentes reales se convirtió en parte del folclore nacional, alimentando tanto el miedo como la fascinación de los turistas que visitan el país por primera vez.",
       },
       en: {
-        title: "The Continent With the Most Deadly Animals on the Planet",
+        title: "The Continent With the Most Deadly Animals on Earth",
         subtitle: "Dangerous Wildlife",
         imageAlt: "Cartoon of a long-legged spider resting on a leaf.",
         description:
@@ -193,7 +193,7 @@ export const australia: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La banda de rock que puso a Australia en el mapa musical",
+        title: "La banda que puso a Australia en el mapa musical",
         subtitle: "AC/DC",
         imageAlt: "Caricatura de una guitarra eléctrica con un rayo cruzándola.",
         description:
