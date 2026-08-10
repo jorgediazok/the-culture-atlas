@@ -16,6 +16,10 @@ import { thailandIllustrations } from "./thailand";
 import { vietnamIllustrations } from "./vietnam";
 import { australiaIllustrations } from "./australia";
 import { newZealandIllustrations } from "./new-zealand";
+import { chileIllustrations } from "./chile";
+import { uruguayIllustrations } from "./uruguay";
+import { ugandaIllustrations } from "./uganda";
+import { zimbabweIllustrations } from "./zimbabwe";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -37,6 +41,10 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   vietnam: vietnamIllustrations,
   australia: australiaIllustrations,
   "new-zealand": newZealandIllustrations,
+  chile: chileIllustrations,
+  uruguay: uruguayIllustrations,
+  uganda: ugandaIllustrations,
+  zimbabwe: zimbabweIllustrations,
 };
 
 export function getIllustration(

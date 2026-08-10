@@ -231,6 +231,54 @@ const NewZealand: EmblemComponent = () => (
   </svg>
 );
 
+const Chile: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M42 20 h16 v30 a8 8 0 0 1 -16 0 Z" fill="#fff" />
+    <rect x="40" y="34" width="6" height="6" fill="#fff" />
+    <rect x="54" y="34" width="6" height="6" fill="#fff" />
+    <path d="M28 96 q22 -34 44 0 Z" fill="#fff" />
+  </svg>
+);
+
+const Uruguay: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+      <path
+        key={deg}
+        d="M50 26 L54 38 L50 50 L46 38 Z"
+        fill="#fff"
+        transform={`rotate(${deg} 50 55)`}
+      />
+    ))}
+    <circle cx="50" cy="55" r="16" fill="#fff" />
+    <circle cx="44" cy="51" r="2.4" fill={accentColor} />
+    <circle cx="56" cy="51" r="2.4" fill={accentColor} />
+    <path d="M43 61 q7 6 14 0" fill="none" stroke={accentColor} strokeWidth="2.4" strokeLinecap="round" />
+  </svg>
+);
+
+const Uganda: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <ellipse cx="52" cy="62" rx="16" ry="20" fill="#fff" />
+    <path d="M40 48 C34 40 34 30 40 24" fill="none" stroke="#fff" strokeWidth="5" strokeLinecap="round" />
+    <circle cx="40" cy="22" r="6" fill={accentColor} />
+    <path d="M34 22 h-10" stroke="#fff" strokeWidth="4" strokeLinecap="round" />
+    <path d="M60 55 l16 -6 M60 62 l18 2 M60 68 l16 8" stroke="#fff" strokeWidth="4" strokeLinecap="round" fill="none" />
+    <rect x="48" y="80" width="4" height="16" fill="#fff" />
+    <rect x="56" y="80" width="4" height="16" fill="#fff" />
+  </svg>
+);
+
+const Zimbabwe: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="46" y="60" width="8" height="30" fill="#fff" />
+    <ellipse cx="50" cy="48" rx="20" ry="15" fill="#fff" />
+    <polygon points="68,44 84,40 68,52" fill="#fff" />
+    <circle cx="58" cy="42" r="3" fill={accentColor} />
+    <rect x="34" y="94" width="32" height="6" fill="#fff" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -250,6 +298,10 @@ export const emblems: Record<string, EmblemComponent> = {
   thailand: Thailand,
   australia: Australia,
   "new-zealand": NewZealand,
+  chile: Chile,
+  uruguay: Uruguay,
+  uganda: Uganda,
+  zimbabwe: Zimbabwe,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

@@ -325,4 +325,94 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "chile",
+    flagEmoji: "🇨🇱",
+    accentColor: "#8B2942",
+    continent: "south-america",
+    translations: {
+      es: {
+        name: "Chile",
+        intro:
+          "El país más largo y angosto del mundo, con el desierto más seco del planeta al norte, glaciares patagónicos al sur, y una isla polinesia con gigantes de piedra en el medio del Pacífico. Estas páginas son para descubrir un Chile de extremos geográficos.",
+      },
+      en: {
+        name: "Chile",
+        intro:
+          "The longest, narrowest country in the world, with the driest desert on the planet to the north, Patagonian glaciers to the south, and a Polynesian island with stone giants in the middle of the Pacific. These pages are here to discover a Chile of geographic extremes.",
+      },
+    },
+  },
+  {
+    slug: "uruguay",
+    flagEmoji: "🇺🇾",
+    accentColor: "#4A7C59",
+    continent: "south-america",
+    translations: {
+      es: {
+        name: "Uruguay",
+        intro:
+          "Un país chico que ganó el primer Mundial de fútbol de la historia, legalizó la marihuana antes que nadie, y todavía comparte un mate de mano en mano como ritual social diario. Estas páginas son para descubrir un Uruguay más grande que su tamaño.",
+      },
+      en: {
+        name: "Uruguay",
+        intro:
+          "A small country that won the first World Cup in history, legalized marijuana before anyone else, and still passes a mate gourd hand to hand as a daily social ritual. These pages are here to discover a Uruguay bigger than its size.",
+      },
+    },
+  },
+  {
+    slug: "uganda",
+    flagEmoji: "🇺🇬",
+    accentColor: "#1B6B93",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Uganda",
+        intro:
+          "El país que Winston Churchill bautizó 'la perla de África', donde nace el Nilo, viven la mitad de los gorilas de montaña que quedan en el mundo, y un rey tradicional todavía convive con la república. Estas páginas son para descubrir una Uganda de una diversidad geográfica poco habitual.",
+      },
+      en: {
+        name: "Uganda",
+        intro:
+          "The country Winston Churchill named 'the pearl of Africa,' where the Nile is born, half the world's remaining mountain gorillas live, and a traditional king still coexists with the republic. These pages are here to discover a Uganda of unusually rich geographic diversity.",
+      },
+    },
+  },
+  {
+    slug: "zimbabwe",
+    flagEmoji: "🇿🇼",
+    accentColor: "#1D6FA5",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Zimbabwe",
+        intro:
+          "El país que tomó su nombre de una ciudad de piedra medieval, hogar de las cataratas más grandes del mundo y de un espíritu serpiente que todavía habita el fondo de un lago artificial gigante. Estas páginas son para descubrir un Zimbabwe de historia profunda y naturaleza imponente.",
+      },
+      en: {
+        name: "Zimbabwe",
+        intro:
+          "The country that took its name from a medieval stone city, home to the world's largest waterfall and a snake spirit still said to live at the bottom of a giant man-made lake. These pages are here to discover a Zimbabwe of deep history and imposing nature.",
+      },
+    },
+  },
+  {
+    slug: "china",
+    flagEmoji: "🇨🇳",
+    accentColor: "#B8860B",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "China",
+        intro:
+          "El país que inventó el papel, la pólvora y la brújula, enterró a un ejército entero de terracota para proteger a un emperador, y hoy conecta ciudades enteras con trenes más rápidos que cualquier otro país del mundo. Estas páginas son para descubrir una China de miles de años de historia continua.",
+      },
+      en: {
+        name: "China",
+        intro:
+          "The country that invented paper, gunpowder, and the compass, buried an entire terracotta army to protect an emperor, and today connects its cities with faster trains than anywhere else in the world. These pages are here to discover a China of thousands of years of continuous history.",
+      },
+    },
+  },
 ];
