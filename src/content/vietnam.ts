@@ -170,14 +170,14 @@ export const vietnam: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Un país con más motos que casi cualquier otro lugar del mundo",
+        title: "Un país con más motos que casi cualquier otro lugar",
         subtitle: "La cultura de la moto",
         imageAlt: "Caricatura de una motoneta cargada con varias cajas y bolsas.",
         description:
           "Vietnam tiene una de las densidades de motocicletas más altas del planeta, con más de 70 millones de motos en un país de apenas 100 millones de habitantes, y en ciudades como Ciudad Ho Chi Minh o Hanói son, por lejos, el medio de transporte dominante, usadas para trasladar desde familias enteras hasta refrigeradores o pilas de mercadería que desafían cualquier noción occidental de capacidad de carga. Cruzar una calle en Vietnam, con un flujo constante de motos que rara vez se detienen por completo, sorprende a cualquier turista, y la técnica recomendada —caminar despacio y de forma predecible— se volvió casi un rito de iniciación. El gobierno empezó a promover el transporte público y a restringir las motos en zonas centrales, pero por ahora siguen siendo el símbolo más visible de la vida urbana.",
       },
       en: {
-        title: "A Country With More Motorbikes Than Almost Anywhere Else",
+        title: "A Country With More Motorbikes Than Almost Anywhere",
         subtitle: "Motorbike Culture",
         imageAlt: "Cartoon of a scooter loaded with several boxes and bags.",
         description:

@@ -331,7 +331,7 @@ export const france: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La única persona con dos premios Nobel en ciencias distintas",
+        title: "La única persona con Nobel en dos ciencias distintas",
         subtitle: "Marie Curie",
         imageAlt:
           "Caricatura de un frasco de laboratorio brillando con un tono verdoso.",
@@ -339,7 +339,7 @@ export const france: CultureEntry[] = [
           "Marie Curie, nacida en Polonia en 1867 y nacionalizada francesa tras mudarse a París para estudiar en la Sorbona, se convirtió en la primera mujer en ganar un Premio Nobel (Física, 1903, compartido con su esposo Pierre) y, ocho años más tarde, en la primera persona en ganar un segundo Nobel en una disciplina científica distinta (Química, 1911), un logro que hasta hoy nadie más repitió. Sus investigaciones sobre la radiactividad —término que ella misma acuñó— llevaron al descubrimiento de dos nuevos elementos químicos, el polonio (nombrado en honor a su país natal) y el radio, y sentaron las bases de tratamientos médicos que todavía se usan contra el cáncer. Murió en 1934 por complicaciones de una anemia causada por décadas de exposición a la radiación, sin protección alguna, ya que en su época no se conocían los riesgos; en 1995 se convirtió en la primera mujer en ser enterrada en el Panteón de París por sus propios méritos.",
       },
       en: {
-        title: "The Only Person With Two Nobel Prizes in Different Sciences",
+        title: "The Only Person With Nobels in Two Different Sciences",
         subtitle: "Marie Curie",
         imageAlt: "Cartoon of a laboratory flask glowing with a greenish tint.",
         description:

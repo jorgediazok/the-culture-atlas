@@ -484,7 +484,7 @@ export const switzerland: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El test que convirtió las manchas en un espejo de la mente",
+        title: "El test que hizo de las manchas un espejo de la mente",
         subtitle: "El test de Rorschach",
         imageAlt:
           "Caricatura de una mancha de tinta negra simétrica sobre una tarjeta blanca.",
@@ -492,7 +492,7 @@ export const switzerland: CultureEntry[] = [
           "El psiquiatra suizo Hermann Rorschach desarrolló en 1921 un test psicológico basado en diez láminas con manchas de tinta simétricas, pidiéndole a la persona evaluada que describiera qué veía en cada una. La idea era que las interpretaciones, más que la mancha en sí, revelaran aspectos de la personalidad y el funcionamiento psicológico de quien las observaba. Rorschach murió apenas un año después de publicar su método, sin llegar a ver el impacto que tendría: durante décadas fue una de las herramientas más usadas en psicología clínica y forense en todo el mundo, y aunque hoy su validez científica es objeto de debate, las 'manchas de Rorschach' se volvieron un símbolo cultural tan fuerte que se usan como referencia en el cine, el arte y hasta el diseño de logos, mucho más allá del consultorio de un psicólogo.",
       },
       en: {
-        title: "The Test That Turned Ink Blots Into a Mirror of the Mind",
+        title: "The Test That Turned Ink Blots Into a Mental Mirror",
         subtitle: "The Rorschach Test",
         imageAlt:
           "Cartoon of a symmetrical black inkblot on a white card.",

@@ -328,7 +328,7 @@ export const italy: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El hombre que le dio la razón a Copérnico y pagó por eso",
+        title: "El hombre que le dio la razón a Copérnico y lo pagó",
         subtitle: "Galileo Galilei",
         imageAlt: "Caricatura de un telescopio antiguo apuntando hacia un cielo estrellado.",
         description:

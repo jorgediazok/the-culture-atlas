@@ -305,14 +305,14 @@ export const albania: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El escritor que le dio a Albania su primer gran premio literario",
+        title: "El escritor que le dio a Albania su primer gran premio",
         subtitle: "Ismail Kadare",
         imageAlt: "Caricatura de una pila de libros con una pluma de escribir cruzada encima.",
         description:
           "Ismail Kadare, nacido en Gjirokastra en 1936, es el escritor albanés más traducido y reconocido internacionalmente, autor de novelas como 'El general del ejército muerto' o 'El palacio de los sueños', que retratan con una mezcla de realismo, mito e ironía la vida bajo la dictadura de Enver Hoxha sin caer nunca en la censura directa gracias a un uso hábil de alegorías históricas. En 2005 se convirtió en el primer ganador del Premio Booker Internacional, el equivalente internacional del prestigioso Man Booker Prize británico, consolidando su reputación como uno de los grandes escritores europeos contemporáneos y poniendo a la literatura albanesa, hasta entonces prácticamente desconocida fuera de los Balcanes, en el radar mundial. Considerado durante años uno de los candidatos habituales al Premio Nobel de Literatura, murió en 2024 sin haberlo recibido, aunque su obra sigue siendo la puerta de entrada más habitual a la literatura albanesa para lectores de todo el mundo.",
       },
       en: {
-        title: "The Writer Who Gave Albania Its First Major Literary Prize",
+        title: "The Writer Who Gave Albania Its First Major Prize",
         subtitle: "Ismail Kadare",
         imageAlt: "Cartoon of a stack of books with a quill pen crossed over it.",
         description:

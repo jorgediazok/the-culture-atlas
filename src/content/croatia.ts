@@ -376,7 +376,7 @@ export const croatia: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Dos violonchelos que se hicieron virales antes de que existiera esa palabra",
+        title: "Virales antes de que existiera la palabra 'viral'",
         subtitle: "2Cellos",
         imageAlt: "Caricatura de dos violonchelos cruzados sobre un escenario con luces.",
         description:

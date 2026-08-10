@@ -113,7 +113,7 @@ export const southAfrica: CultureEntry[] = [
           "Sudáfrica reconoce oficialmente once idiomas —entre ellos el zulú, el xhosa, el afrikáans, el inglés, el sesoto y el tsonga—, más que cualquier otro país del planeta, un reflejo directo de la enorme diversidad étnica del país y de un intento constitucional, tras el fin del apartheid en 1994, de no privilegiar a ninguna lengua sobre las demás como había ocurrido durante décadas con el inglés y el afrikáans. En la práctica, el inglés funciona como lengua franca en el gobierno, los negocios y los medios, mientras que el zulú y el xhosa son las lenguas maternas más habladas, cada una por más de ocho millones de personas. No es raro que un mismo sudafricano hable con fluidez tres o cuatro de estos idiomas, alternando entre ellos según con quién esté hablando.",
       },
       en: {
-        title: "The Country With the Most Official Languages in the World",
+        title: "The Country With the Most Official Languages",
         subtitle: "Eleven Official Languages",
         imageAlt:
           "Cartoon of several overlapping speech bubbles in different shapes.",

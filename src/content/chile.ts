@@ -55,14 +55,14 @@ export const chile: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El poeta que ganó el Nobel escribiendo sobre lo cotidiano",
+        title: "El poeta que ganó el Nobel escribiendo lo cotidiano",
         subtitle: "Pablo Neruda",
         imageAlt: "Caricatura de una pluma de escribir junto a una cebolla y un par de calcetines.",
         description:
           "Pablo Neruda, seudónimo de Ricardo Eliécer Neftalí Reyes Basoalto, es el escritor chileno más reconocido internacionalmente y uno de los poetas en español más leídos del siglo XX, autor de obras como 'Veinte poemas de amor y una canción desesperada' (1924), escrita cuando tenía apenas 19 años, y 'Odas elementales', una colección de poemas dedicados a objetos y experiencias cotidianas —una cebolla, un par de calcetines, la alcachofa— que convirtió lo ordinario en materia poética. En 1971 recibió el Premio Nobel de Literatura, y además de escritor fue diplomático y senador, con una vida marcada por el exilio político durante distintos períodos. Sus tres casas en Chile —La Chascona en Santiago, La Sebastiana en Valparaíso e Isla Negra en la costa— se convirtieron en museos que reciben miles de visitantes al año, llenas de objetos coleccionados por el propio poeta, desde mascarones de proa hasta caracolas marinas.",
       },
       en: {
-        title: "The Poet Who Won the Nobel Writing About Everyday Things",
+        title: "The Poet Who Won the Nobel Writing About Daily Life",
         subtitle: "Pablo Neruda",
         imageAlt: "Cartoon of a quill pen next to an onion and a pair of socks.",
         description:

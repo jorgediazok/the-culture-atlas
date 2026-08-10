@@ -367,7 +367,7 @@ export const netherlands: CultureEntry[] = [
           "Los Países Bajos se convirtieron, en las últimas dos décadas, en una potencia mundial de la música electrónica: DJs holandeses como Tiësto, Armin van Buuren, Hardwell y Martin Garrix ocuparon durante años los primeros puestos de los rankings mundiales de DJs. Ámsterdam organiza cada octubre el Amsterdam Dance Event (ADE), el festival y conferencia de música electrónica más grande del mundo, con cientos de shows en cientos de locales durante cinco días. La combinación de una escena de clubes muy fuerte, escuelas de producción musical y un mercado europeo cercano convirtió a un país de 17 millones de habitantes en el epicentro global de un género que hoy se escucha en estadios de todo el mundo.",
       },
       en: {
-        title: "The Country That Exports DJs Like Others Export Footballers",
+        title: "The Country That Exports DJs Like Others Export Stars",
         subtitle: "The EDM Capital",
         imageAlt:
           "Cartoon of a DJ wearing headphones behind a mixing console with club lights.",
