@@ -32,7 +32,7 @@ export const peru: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Figuras gigantes que solo se ven completas desde el aire",
+        title: "Figuras gigantes que solo se ven desde el aire",
         subtitle: "Las líneas de Nazca",
         imageAlt: "Caricatura de la silueta de un colibrí trazada con líneas sobre tierra desértica.",
         description:
@@ -78,7 +78,7 @@ export const peru: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El origen de un alimento que hoy se come en todo el mundo",
+        title: "El origen de un alimento que hoy come todo el mundo",
         subtitle: "La papa peruana",
         imageAlt: "Caricatura de varias papas de formas y colores distintos sobre una tela andina.",
         description:
@@ -193,14 +193,14 @@ export const peru: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El escritor que retrató el poder y la corrupción latinoamericana",
+        title: "El escritor que retrató el poder latinoamericano",
         subtitle: "Mario Vargas Llosa",
         imageAlt: "Caricatura de una pila de libros junto a una pluma de escritura.",
         description:
           "Mario Vargas Llosa, nacido en Arequipa en 1936, es uno de los escritores en español más importantes de la segunda mitad del siglo XX, figura central del 'boom latinoamericano' junto a autores como Gabriel García Márquez y Julio Cortázar, y autor de novelas como 'La ciudad y los perros' o 'Conversación en La Catedral', que retratan con crudeza el poder y la corrupción en distintos contextos latinoamericanos. En 2010 recibió el Premio Nobel de Literatura 'por su cartografía de las estructuras del poder y sus imágenes mordaces de la resistencia, revuelta y derrota del individuo'. Más allá de la literatura, tuvo una carrera política activa, incluyendo una candidatura presidencial en Perú en 1990 que perdió frente a Alberto Fujimori, y una sonada ruptura personal con García Márquez que duró más de tres décadas.",
       },
       en: {
-        title: "The Writer Who Portrayed Power and Corruption in Latin America",
+        title: "The Writer Who Portrayed Power in Latin America",
         subtitle: "Mario Vargas Llosa",
         imageAlt: "Cartoon of a stack of books next to a writing quill.",
         description:
@@ -216,7 +216,7 @@ export const peru: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Hilos de alpaca tejidos con patrones que cuentan historias",
+        title: "Hilos de alpaca en patrones que cuentan historias",
         subtitle: "Los textiles andinos",
         imageAlt: "Caricatura de un telar tradicional con un patrón geométrico colorido a medio tejer.",
         description:
