@@ -9,14 +9,14 @@ export const turkmenistan: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El cráter de gas en llamas que arde desde hace más de cincuenta años",
+        title: "El cráter de gas que arde hace más de cincuenta años",
         subtitle: "La Puerta al Infierno",
         imageAlt: "Caricatura de un cráter circular en el desierto envuelto en llamas anaranjadas.",
         description:
           "El cráter de Darvaza, apodado 'la Puerta al Infierno', es un enorme agujero de gas natural en llamas en pleno desierto de Karakum, que según la versión más difundida se formó en 1971 cuando un equipo de perforación soviético provocó el colapso del terreno sobre una cavidad subterránea y decidió prenderle fuego para evitar la liberación de gas metano tóxico, calculando que se extinguiría en pocos días. Más de cinco décadas después, el cráter, de unos 70 metros de diámetro, sigue ardiendo casi sin interrupción, alimentado por un yacimiento mucho más extenso de lo calculado. El sitio se convirtió en una de las atracciones turísticas más visualmente impactantes de Turkmenistán, visible de noche desde varios kilómetros, aunque el gobierno anunció más de una vez planes para apagarlo sin concretarlos.",
       },
       en: {
-        title: "The Burning Gas Crater That's Been Ablaze for More Than Fifty Years",
+        title: "The Gas Crater That's Been Burning for Fifty Years",
         subtitle: "The Gates of Hell",
         imageAlt: "Cartoon of a circular desert crater engulfed in orange flames.",
         description:
@@ -55,14 +55,14 @@ export const turkmenistan: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La ciudad con más edificios de mármol blanco por metro cuadrado del mundo",
+        title: "La ciudad con más mármol blanco del mundo",
         subtitle: "El mármol blanco de Asjabat",
         imageAlt: "Caricatura de edificios blancos idénticos alineados junto a una fuente dorada.",
         description:
           "Asjabat, la capital de Turkmenistán, ostenta el récord Guinness a la mayor concentración de edificios revestidos en mármol blanco de toda una ciudad del mundo, con cientos de estructuras construidas o renovadas casi en su totalidad a partir de 1991 siguiendo directivas estatales que exigían mármol blanco importado, principalmente de Italia y Turquía, en la fachada de casi toda nueva construcción. Esta política, impulsada por el expresidente Saparmurat Niyazov y continuada por su sucesor, transformó el perfil visual de la ciudad en pocas décadas, con avenidas flanqueadas por edificios idénticamente blancos, fuentes monumentales y estatuas doradas. El costo resultó extraordinariamente elevado, financiado en gran parte por las reservas de gas del país, y generó críticas por priorizar proyectos monumentales sobre un país con indicadores de desarrollo humano mucho más modestos que su capital reluciente.",
       },
       en: {
-        title: "The City With the Highest Concentration of White Marble Buildings in the World",
+        title: "The City With the Most White Marble in the World",
         subtitle: "Ashgabat's White Marble",
         imageAlt: "Cartoon of identical white buildings lined up beside a golden fountain.",
         description:
@@ -78,14 +78,14 @@ export const turkmenistan: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El libro que un presidente escribió y convirtió en lectura casi obligatoria",
+        title: "El libro que un presidente volvió lectura obligatoria",
         subtitle: "El Ruhnama",
         imageAlt: "Caricatura de un libro grueso abierto sobre un atril dorado.",
         description:
           "El Ruhnama, o 'Libro del Alma', escrito por el expresidente Saparmurat Niyazov y publicado en 2001, combina reflexiones filosóficas, una versión oficial de la historia turcomana y consejos de conducta moral, y durante su mandato alcanzó un estatus casi obligatorio en el sistema educativo, exigiéndose su lectura y memorización en escuelas e incluso como requisito para obtener la licencia de conducir. El gobierno colocó ejemplares gigantes del libro como monumentos públicos, incluyendo uno en Asjabat que se abría mecánicamente cada noche para proyectar pasajes sobre pantallas, y llegó a declarar que leerlo tres veces bastaba para alcanzar el paraíso. Tras la muerte de Niyazov en 2006, su sucesor redujo gradualmente su omnipresencia en la vida pública, aunque el libro siguió siendo un recordatorio del culto personal alcanzado por su autor.",
       },
       en: {
-        title: "The Book a President Wrote and Made Almost Mandatory Reading",
+        title: "The Book a President Made Mandatory Reading",
         subtitle: "The Ruhnama",
         imageAlt: "Cartoon of a thick open book resting on a golden stand.",
         description:
@@ -101,14 +101,14 @@ export const turkmenistan: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El país cuya neutralidad quedó reconocida oficialmente por la ONU",
+        title: "El país cuya neutralidad reconoció oficialmente la ONU",
         subtitle: "La neutralidad permanente turcomana",
         imageAlt: "Caricatura de una rama de olivo estilizada junto a un documento sellado.",
         description:
           "Turkmenistán es uno de los pocos países cuya neutralidad permanente fue formalmente reconocida por una resolución de la Asamblea General de la ONU, adoptada en 1995 apenas cuatro años después de la independencia, un estatus que el gobierno incorporó como principio central de su política exterior y que resultó en la negativa a unirse a alianzas militares internacionales, incluida la organización de seguridad liderada por Rusia que sí integran sus vecinos exsoviéticos. Esta neutralidad estricta llevó al país a mantener un aislamiento diplomático mucho más pronunciado que otros de la región, restringiendo severamente el acceso de periodistas y organizaciones de derechos humanos, lo que llevó a analistas a describirlo como uno de los países más cerrados del mundo, comparable en opacidad a Corea del Norte.",
       },
       en: {
-        title: "The Country Whose Neutrality Was Officially Recognized by the UN",
+        title: "The Country Whose Neutrality the UN Recognized",
         subtitle: "Turkmenistan's Permanent Neutrality",
         imageAlt: "Cartoon of a stylized olive branch beside a sealed document.",
         description:
@@ -124,14 +124,14 @@ export const turkmenistan: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La ciudad que llegó a ser, brevemente, la más grande del mundo",
+        title: "La ciudad que fue, brevemente, la más grande del mundo",
         subtitle: "La antigua Merv",
         imageAlt: "Caricatura de ruinas de adobe antiguas con una cúpula desmoronada.",
         description:
           "Merv, una antigua ciudad en el territorio del actual Turkmenistán y considerada durante siglos una de las paradas más importantes de la Ruta de la Seda entre China, Europa y Medio Oriente, alcanzó tal tamaño que algunos historiadores la consideran, durante un breve período del siglo XII bajo el imperio selyúcida, la ciudad más grande del mundo, con varios cientos de miles de habitantes en una época en que pocas ciudades superaban los cien mil. Funcionó durante siglos como centro cultural y comercial del mundo islámico medieval, con bibliotecas y observatorios que atrajeron eruditos de toda la región, hasta la devastadora invasión mongola de 1221, cuando las fuerzas de Genghis Khan arrasaron la ciudad y masacraron a la mayoría de su población. Sus extensas ruinas, Patrimonio de la Humanidad desde 1999, siguen siendo de las menos visitadas entre las grandes ciudades perdidas de la Ruta de la Seda.",
       },
       en: {
-        title: "The City That Briefly Became the Largest in the World",
+        title: "The City That Was Briefly the World's Largest",
         subtitle: "Ancient Merv",
         imageAlt: "Cartoon of ancient adobe ruins with a crumbling dome.",
         description:
@@ -147,14 +147,14 @@ export const turkmenistan: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El tejido que aparece tallado en el propio escudo nacional del país",
+        title: "El tejido tallado en el propio escudo nacional",
         subtitle: "Las alfombras turcomanas",
         imageAlt: "Caricatura de una alfombra roja con un patrón geométrico repetido.",
         description:
           "Las alfombras turcomanas, tejidas a mano con lana teñida en tonos predominantemente rojos y granates, representan una de las expresiones artesanales más antiguas de Asia Central, con técnicas de anudado y patrones geométricos transmitidos dentro de las tribus durante generaciones, usadas históricamente para revestir el interior de las yurtas y proteger del frío del desierto. Cada tribu, incluyendo tekke, yomut y saryk, desarrolló un patrón distintivo conocido como 'gul', que servía como firma de la tribu de origen, y uno de estos motivos aparece hoy incorporado en el diseño de la bandera nacional. Turkmenistán celebra cada año un feriado dedicado a la alfombra, y el Museo Nacional en Asjabat exhibe una de las alfombras tejidas a mano más grandes del mundo.",
       },
       en: {
-        title: "The Textile That Appears Woven Into the Country's National Emblem",
+        title: "The Textile Woven Into the National Emblem",
         subtitle: "Turkmen Carpets",
         imageAlt: "Cartoon of a red carpet with a repeated geometric pattern.",
         description:
@@ -170,14 +170,14 @@ export const turkmenistan: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El país con el cuarto yacimiento de gas natural más grande del mundo",
+        title: "El cuarto mayor yacimiento de gas natural del mundo",
         subtitle: "Las reservas de gas turcomanas",
         imageAlt: "Caricatura de una llama de gas azul sobre una torre de perforación.",
         description:
           "Turkmenistán posee, según organismos energéticos internacionales, las cuartas reservas probadas de gas natural más grandes del planeta, superadas solo por Rusia, Irán y Catar, concentradas en el yacimiento de Galkynysh, descubierto en 2006 y considerado uno de los depósitos individuales más grandes jamás encontrados. A diferencia de otros grandes exportadores, mantuvo durante décadas una dependencia casi exclusiva de gasoductos terrestres hacia mercados limitados, primero Rusia y luego, cada vez más, China, que se volvió el principal comprador tras un gasoducto directo inaugurado en 2009, lo que limitó su capacidad de diversificar exportaciones. Pese a esta riqueza, gran parte de la población no experimentó una mejora proporcional en su nivel de vida, algo que organizaciones internacionales atribuyeron a la falta de transparencia y a un gasto estatal concentrado en proyectos monumentales.",
       },
       en: {
-        title: "The Country With the Fourth-Largest Natural Gas Field in the World",
+        title: "The World's Fourth-Largest Natural Gas Field",
         subtitle: "Turkmenistan's Gas Reserves",
         imageAlt: "Cartoon of a blue gas flame atop a drilling tower.",
         description:
@@ -216,14 +216,14 @@ export const turkmenistan: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El pueblo nómada del desierto que sigue viviendo en tiendas circulares de fieltro",
+        title: "El pueblo nómada que aún vive en tiendas de fieltro",
         subtitle: "La cultura nómada turcomana",
         imageAlt: "Caricatura de una tienda circular de fieltro en medio de un paisaje desértico.",
         description:
           "El pueblo turcomano desciende de tribus nómadas túrquicas que habitaron durante siglos las estepas y desiertos de Asia Central, con un modo de vida seminómada organizado alrededor del pastoreo de camellos, ovejas y los caballos akhal-teke, y una vivienda adaptada a esa movilidad: la yurta, una estructura circular desmontable cubierta de fieltro de lana, diseñada para armarse y desarmarse en apenas unas horas. Aunque hoy la mayoría vive en ciudades, resultado de la sedentarización forzada soviética, la yurta se mantiene como símbolo cultural, usada todavía por comunidades pastoriles remanentes y reproducida en hoteles y eventos oficiales. La organización tribal tradicional, con tribus como tekke, yomut, ersari y saryk manteniendo territorios y tradiciones propias, sigue influyendo en la política y la identidad regional del país.",
       },
       en: {
-        title: "The Desert Nomads Who Still Live in Circular Felt Tents",
+        title: "The Desert Nomads Who Still Live in Felt Tents",
         subtitle: "Turkmen Nomadic Culture",
         imageAlt: "Cartoon of a circular felt tent set against a desert landscape.",
         description:

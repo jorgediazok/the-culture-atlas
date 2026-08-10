@@ -9,14 +9,14 @@ export const paraguay: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La represa que generó más energía limpia que ninguna otra en su tipo",
+        title: "La represa con más energía limpia del mundo",
         subtitle: "La represa de Itaipú",
         imageAlt: "Caricatura de una represa gigante liberando agua entre dos orillas.",
         description:
           "La represa de Itaipú, construida por Paraguay y Brasil sobre el río Paraná e inaugurada en 1984, es una de las centrales hidroeléctricas más grandes del mundo y durante años tuvo el récord de mayor producción anual de energía de cualquier planta del planeta, superando incluso a la represa china de las Tres Gargantas. Para Paraguay, un país con consumo energético modesto, Itaipú genera mucha más electricidad de la que necesita, por lo que exporta la mayoría de su parte a Brasil bajo un tratado binacional que Paraguay renegoció activamente por considerarlo desfavorable frente al poder de negociación de su vecino mucho más grande. Gracias a Itaipú y a otra represa binacional compartida con Argentina, Paraguay se convirtió en uno de los pocos países que genera casi el 100% de su electricidad con fuentes renovables.",
       },
       en: {
-        title: "The Dam That Generated More Clean Energy Than Any Other of Its Kind",
+        title: "The Dam With the Most Clean Energy of Its Kind",
         subtitle: "The Itaipu Dam",
         imageAlt: "Cartoon of a giant dam releasing water between two banks.",
         description:
@@ -32,7 +32,7 @@ export const paraguay: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La planta que los guaraníes cultivaban antes de que existiera Paraguay",
+        title: "La planta que los guaraníes ya cultivaban",
         subtitle: "El origen de la yerba mate",
         imageAlt: "Caricatura de un mate con bombilla junto a hojas de yerba verde.",
         description:
@@ -55,14 +55,14 @@ export const paraguay: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El único país de América donde una lengua indígena es mayoritaria",
+        title: "Donde una lengua indígena es mayoría en América",
         subtitle: "El idioma guaraní",
         imageAlt: "Caricatura de dos globos de diálogo entrelazados con patrones tradicionales.",
         description:
           "Paraguay es el único país del continente americano donde una lengua indígena, el guaraní, es hablada por la mayoría de la población y mantiene estatus oficial junto al español, con más del 90% de los paraguayos capaces de comunicarse en guaraní en algún nivel. Esta situación se explica en parte por la historia colonial de la región: la escasez de mujeres españolas llevó a una mezcla étnica temprana y extendida, y las misiones jesuitas, lejos de imponer el español, usaron activamente el guaraní como lengua de evangelización y educación, contribuyendo involuntariamente a su preservación. La mayoría de los paraguayos crece hablando ambas lenguas y las alterna según el contexto, dando origen al 'jopara', una mezcla híbrida de español y guaraní que domina la conversación cotidiana, mientras el guaraní puro se reserva para contextos familiares o de mayor carga emocional.",
       },
       en: {
-        title: "The Only Country in the Americas Where an Indigenous Language Is Majority",
+        title: "Where an Indigenous Language Is the Majority Tongue",
         subtitle: "The Guaraní Language",
         imageAlt: "Cartoon of two interlocking speech bubbles with traditional patterns.",
         description:
@@ -78,14 +78,14 @@ export const paraguay: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La guerra que redujo la población masculina del país a una fracción",
+        title: "La guerra que diezmó la población masculina del país",
         subtitle: "La Guerra de la Triple Alianza",
         imageAlt: "Caricatura de una bandera desgarrada ondeando sobre un terreno vacío.",
         description:
           "La Guerra de la Triple Alianza, librada entre 1864 y 1870 entre Paraguay y una coalición formada por Argentina, Brasil y Uruguay, es considerada el conflicto interestatal más devastador en proporción a la población de toda la historia americana, con estimaciones de que Paraguay perdió entre el 50% y el 70% de su población total, y hasta un 90% de su población masculina adulta. El conflicto se originó de disputas territoriales, tensiones por la navegación fluvial regional y ambiciones expansionistas del presidente Francisco Solano López, cuya negativa a rendirse incluso ante la derrota inevitable prolongó años de sufrimiento civil. Las consecuencias demográficas fueron tan extremas que Paraguay legalizó y fomentó la poligamia informal como respuesta al desequilibrio entre la escasa población masculina sobreviviente y una población femenina que llegó a representar hasta el 80% de los adultos.",
       },
       en: {
-        title: "The War That Reduced the Country's Male Population to a Fraction",
+        title: "The War That Decimated the Country's Male Population",
         subtitle: "The War of the Triple Alliance",
         imageAlt: "Cartoon of a torn flag waving over an empty field.",
         description:
@@ -124,14 +124,14 @@ export const paraguay: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Las ciudades utópicas que los jesuitas construyeron junto al pueblo guaraní",
+        title: "Las ciudades utópicas que construyeron los jesuitas",
         subtitle: "Las reducciones jesuíticas guaraníes",
         imageAlt: "Caricatura de ruinas de piedra coloniales con arcos y columnas.",
         description:
           "Entre 1609 y 1767, la Compañía de Jesús estableció en el territorio que hoy ocupan Paraguay, Argentina y Brasil una red de más de treinta 'reducciones', comunidades donde misioneros jesuitas y miles de guaraníes convivían con una autosuficiencia económica y cultural notable, combinando agricultura comunitaria, producción artesanal, música orquestal adaptada y protección frente a la esclavitud que sufrían los indígenas fuera de estos asentamientos. Las reducciones desarrollaron una arquitectura y arte propios, mezclando técnicas europeas con la mano de obra guaraní, y alcanzaron niveles de organización que algunos historiadores describieron como uno de los experimentos sociales más ambiciosos de la época colonial. El sistema colapsó en 1767, cuando la corona española expulsó a los jesuitas, dejando a las comunidades sin sostén; hoy, las ruinas de Trinidad y Jesús de Tavarangüe, Patrimonio de la Humanidad, permiten apreciar los restos de ese experimento.",
       },
       en: {
-        title: "The Utopian Towns Jesuits Built Alongside the Guaraní People",
+        title: "The Utopian Towns Jesuits Built With the Guaraní",
         subtitle: "The Jesuit Guaraní Reductions",
         imageAlt: "Cartoon of colonial stone ruins with arches and columns.",
         description:
@@ -147,14 +147,14 @@ export const paraguay: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El pan de queso que se volvió parte del ritual de Semana Santa",
+        title: "El pan de queso ligado al ritual de Semana Santa",
         subtitle: "La chipa",
         imageAlt: "Caricatura de panecillos dorados con forma de anillo sobre una bandeja.",
         description:
           "La chipa, un pan horneado a base de almidón de mandioca, queso y huevo, sin harina de trigo, combina la tradición guaraní del cultivo de mandioca con técnicas de horneado coloniales, y se convirtió en uno de los alimentos más identitarios de Paraguay. Su consumo alcanza su punto más alto en Semana Santa, cuando la tradición católica paraguaya prohíbe la carne roja en ciertos días, y las familias preparan grandes cantidades en hornos de barro llamados 'tatakuá', reuniéndose para amasar y hornear el pan comunitariamente como parte de un ritual que se repite generación tras generación. Existen decenas de variantes regionales y familiares, desde versiones densas hasta otras más livianas, y aunque hoy se vende todo el año en panaderías, muchos paraguayos insisten en que la chipa auténtica solo puede seguir la receta transmitida en cada familia.",
       },
       en: {
-        title: "The Cheese Bread That Became Part of the Holy Week Ritual",
+        title: "The Cheese Bread Tied to the Holy Week Ritual",
         subtitle: "Chipa",
         imageAlt: "Cartoon of golden ring-shaped rolls on a tray.",
         description:
@@ -170,14 +170,14 @@ export const paraguay: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El instrumento europeo que se convirtió en símbolo musical nacional",
+        title: "El instrumento europeo que se volvió símbolo nacional",
         subtitle: "El arpa paraguaya",
         imageAlt: "Caricatura de un arpa de madera con cuerdas doradas tensadas.",
         description:
           "El arpa, introducida en Paraguay por misioneros españoles durante la época colonial como parte de la formación musical impartida en las reducciones jesuíticas, se transformó en uno de los instrumentos más identificados con la identidad musical paraguaya, adaptada por músicos locales con modificaciones en su construcción, afinación y técnica hasta desarrollar un estilo claramente distinto del arpa clásica europea. El arpa paraguaya se distingue por un sonido brillante y un rasgueo rápido con las uñas, en lugar de las yemas de los dedos, permitiendo ejecutar géneros como la polca paraguaya y la guarania con un ritmo vivo y virtuoso. El músico Félix Pérez Cardozo es reconocido como la figura más influyente en la popularización internacional del arpa paraguaya durante el siglo XX, llevando el instrumento a giras y salas de concierto de todo el mundo como embajador cultural del país.",
       },
       en: {
-        title: "The European Instrument That Became a National Musical Symbol",
+        title: "The European Instrument That Became a National Symbol",
         subtitle: "The Paraguayan Harp",
         imageAlt: "Cartoon of a wooden harp with taut golden strings.",
         description:
@@ -193,14 +193,14 @@ export const paraguay: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La región semiárida que ocupa el 60% del país y casi nadie habita",
+        title: "El 60% del país que casi nadie habita",
         subtitle: "El Chaco paraguayo",
         imageAlt: "Caricatura de un paisaje seco con arbustos espinosos y tierra agrietada.",
         description:
           "El Chaco paraguayo, la porción occidental del país dentro del Gran Chaco sudamericano compartido con Argentina y Bolivia, ocupa cerca del 60% del territorio de Paraguay pero alberga apenas alrededor del 3% de su población, debido al clima semiárido, temperaturas que superan los 45 grados en verano, y una escasez histórica de agua dulce que dificultó el asentamiento humano. Pese a estas condiciones, el Chaco alberga una biodiversidad excepcional, con bosques secos entre los ecosistemas menos estudiados de Sudamérica, y es hogar de pueblos indígenas como los ayoreo, que hasta hace pocas décadas mantenían un aislamiento voluntario, así como de comunidades menonitas que emigraron desde 1920 y desarrollaron una economía agrícola próspera. En las últimas décadas, el Chaco sufrió una de las tasas de deforestación más altas del planeta, impulsada por la ganadería extensiva.",
       },
       en: {
-        title: "The Semi-Arid Region That Covers 60% of the Country and Almost No One Inhabits",
+        title: "The 60% of the Country Almost No One Inhabits",
         subtitle: "The Paraguayan Chaco",
         imageAlt: "Cartoon of a dry landscape with thorny shrubs and cracked earth.",
         description:
@@ -216,14 +216,14 @@ export const paraguay: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El río que le da nombre al país y lo conecta con el océano",
+        title: "El río que le da nombre al país y su salida al mar",
         subtitle: "El río Paraguay",
         imageAlt: "Caricatura de una barcaza fluvial navegando un río ancho y tranquilo.",
         description:
           "El río Paraguay, que recorre el país de norte a sur y le da su nombre, es la arteria fluvial que permite a Paraguay, un país completamente rodeado de tierra, mantener una conexión comercial marítima a través de un sistema de navegación interior que conecta con el río Paraná y desemboca en el Atlántico por el estuario del Río de la Plata, miles de kilómetros al sur. Esta dependencia fluvial convirtió a Paraguay en uno de los países sin litoral con mayor tráfico de barcazas del mundo, transportando soja, carne y otras materias primas que constituyen buena parte de sus exportaciones, una situación que obliga al país a mantener acuerdos diplomáticos constantes con Argentina, Uruguay y Brasil. La capital, Asunción, se fundó en 1537 sobre la orilla del río, y este sigue siendo hoy el eje geográfico central de la vida económica y cotidiana del país.",
       },
       en: {
-        title: "The River That Names the Country and Connects It to the Ocean",
+        title: "The River That Names the Country and Reaches the Sea",
         subtitle: "The Paraguay River",
         imageAlt: "Cartoon of a river barge sailing along a wide, calm river.",
         description:
