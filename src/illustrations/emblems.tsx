@@ -456,6 +456,29 @@ const Turkmenistan: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const Laos: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 14 L54 34 L46 34 Z" fill="#fff" />
+    <rect x="47" y="34" width="6" height="10" fill="#fff" />
+    <path d="M38 44 L62 44 L57 62 L43 62 Z" fill="#fff" />
+    <path d="M32 62 L68 62 L61 84 L39 84 Z" fill="#fff" />
+    <rect x="28" y="84" width="44" height="8" fill="#fff" />
+    <circle cx="50" cy="20" r="2.4" fill={accentColor} />
+  </svg>
+);
+
+const Botswana: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <ellipse cx="58" cy="56" rx="24" ry="17" fill="#fff" />
+    <path d="M34 40 C18 38 10 52 18 64 C26 60 34 50 34 40 Z" fill="#fff" />
+    <path d="M26 52 C16 58 14 72 22 82 C27 78 28 68 26 52 Z" fill="#fff" />
+    <circle cx="28" cy="46" r="2.2" fill={accentColor} />
+    <rect x="42" y="70" width="7" height="18" fill="#fff" />
+    <rect x="56" y="72" width="7" height="18" fill="#fff" />
+    <rect x="68" y="70" width="7" height="18" fill="#fff" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -494,6 +517,8 @@ export const emblems: Record<string, EmblemComponent> = {
   paraguay: Paraguay,
   "north-korea": NorthKorea,
   turkmenistan: Turkmenistan,
+  laos: Laos,
+  botswana: Botswana,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {
