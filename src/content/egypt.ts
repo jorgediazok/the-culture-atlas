@@ -185,4 +185,50 @@ export const egypt: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "canal-suez",
+    order: 9,
+    placeholderEmoji: "🚢",
+    accentColor: "#1D6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El atajo artificial que cambió el comercio mundial",
+        subtitle: "El canal de Suez",
+        imageAlt: "Caricatura de un barco de carga navegando por un canal angosto de arena.",
+        description:
+          "El canal de Suez, inaugurado en 1869 tras diez años de construcción, conecta el mar Mediterráneo con el mar Rojo a través de 193 kilómetros excavados en el desierto egipcio, eliminando la necesidad de rodear todo el continente africano para viajar entre Europa y Asia y reduciendo drásticamente los tiempos de navegación comercial. Aunque fue construido y operado inicialmente por una compañía franco-británica, el presidente egipcio Gamal Abdel Nasser lo nacionalizó en 1956, un episodio que desató una breve guerra internacional y consolidó al canal como símbolo de soberanía nacional egipcia. Hoy por el canal pasa cerca del 12% del comercio marítimo mundial, y su importancia estratégica quedó demostrada en 2021, cuando el enorme portacontenedores Ever Given quedó encallado durante seis días, bloqueando por completo el tráfico y generando pérdidas globales estimadas en miles de millones de dólares diarios.",
+      },
+      en: {
+        title: "The Artificial Shortcut That Changed World Trade",
+        subtitle: "The Suez Canal",
+        imageAlt: "Cartoon of a cargo ship sailing through a narrow desert canal.",
+        description:
+          "The Suez Canal, opened in 1869 after ten years of construction, connects the Mediterranean and Red Seas through 193 kilometers cut across the Egyptian desert, removing the need to sail around the entire African continent to travel between Europe and Asia and drastically cutting commercial shipping times. Though initially built and operated by a French-British company, Egyptian president Gamal Abdel Nasser nationalized it in 1956, an episode that triggered a brief international war and cemented the canal as a symbol of Egyptian national sovereignty. Today about 12% of world maritime trade passes through the canal, and its strategic importance was made clear in 2021, when the massive container ship Ever Given ran aground for six days, completely blocking traffic and causing global losses estimated at billions of dollars a day.",
+      },
+    },
+  },
+  {
+    id: "faro-alejandria",
+    order: 10,
+    placeholderEmoji: "🗼",
+    accentColor: "#8B7355",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El faro antiguo que guio barcos durante 1.600 años",
+        subtitle: "El faro de Alejandría",
+        imageAlt: "Caricatura de una torre de piedra con una llama encendida en la punta.",
+        description:
+          "El faro de Alejandría, construido alrededor del año 280 a.C. en la isla de Faros frente a la costa egipcia, fue una de las siete maravillas del mundo antiguo y, con una altura estimada de entre 100 y 130 metros, la estructura más alta construida por el ser humano después de las pirámides de Guiza durante más de mil años. Su luz, generada por un fuego reflejado con espejos de bronce pulido, era visible a decenas de kilómetros de distancia y guio de forma segura a barcos hacia el puerto de Alejandría durante más de un milenio y medio, un servicio prácticamente sin precedentes en la ingeniería antigua. Una serie de terremotos entre los siglos XIV y XV lo dañó de forma progresiva hasta su colapso definitivo, y sus restos permanecieron sumergidos frente a la costa hasta que arqueólogos submarinos comenzaron a redescubrir bloques del faro original en la década de 1990.",
+      },
+      en: {
+        title: "The Ancient Lighthouse That Guided Ships 1,600 Years",
+        subtitle: "The Lighthouse of Alexandria",
+        imageAlt: "Cartoon of a stone tower with a burning flame at the top.",
+        description:
+          "The Lighthouse of Alexandria, built around 280 BCE on the island of Pharos off the Egyptian coast, was one of the Seven Wonders of the Ancient World and, at an estimated height of 100 to 130 meters, the tallest structure built by humans after the pyramids of Giza for more than a thousand years. Its light, produced by a fire reflected with polished bronze mirrors, was visible for dozens of kilometers and safely guided ships into Alexandria's harbor for more than a millennium and a half, a feat with virtually no precedent in ancient engineering. A series of earthquakes between the 14th and 15th centuries progressively damaged it until its final collapse, and its remains lay submerged off the coast until underwater archaeologists began rediscovering blocks of the original lighthouse in the 1990s.",
+      },
+    },
+  },
 ];

@@ -185,4 +185,50 @@ export const morocco: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "hassan-ii-mezquita",
+    order: 9,
+    placeholderEmoji: "🕌",
+    accentColor: "#1D6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La mezquita con el minarete más alto de África",
+        subtitle: "La mezquita Hassan II",
+        imageAlt: "Caricatura de un minarete alto junto al mar con olas rompiendo cerca.",
+        description:
+          "La mezquita Hassan II, terminada en 1993 en Casablanca, tiene el minarete más alto de África con 210 metros, y fue construida en parte sobre el océano Atlántico, con una porción de su piso de cristal que permite ver el agua debajo, en referencia a un versículo del Corán que describe el trono de Dios flotando sobre el agua. Miles de artesanos marroquíes trabajaron durante años en sus mosaicos de zellige, sus tallas de yeso y sus techos de cedro tallado a mano, aplicando técnicas artesanales tradicionales a una escala monumental poco habitual en la construcción religiosa moderna. Con capacidad para más de veinticinco mil fieles dentro y otros ochenta mil en su explanada exterior, es una de las pocas mezquitas del país abierta a visitantes no musulmanes, financiada en gran parte con suscripción pública entre los ciudadanos marroquíes.",
+      },
+      en: {
+        title: "The Mosque With Africa's Tallest Minaret",
+        subtitle: "The Hassan II Mosque",
+        imageAlt: "Cartoon of a tall minaret beside the sea with waves breaking nearby.",
+        description:
+          "The Hassan II Mosque, completed in 1993 in Casablanca, has Africa's tallest minaret at 210 meters, and was built partly over the Atlantic Ocean, with a section of glass flooring that lets visitors see the water below, referencing a Quranic verse describing God's throne as floating over water. Thousands of Moroccan artisans worked for years on its zellige mosaics, plaster carvings, and hand-carved cedar wood ceilings, applying traditional craft techniques at a monumental scale unusual for modern religious construction. With capacity for more than twenty-five thousand worshippers inside and another eighty thousand on its outdoor plaza, it's one of the few mosques in Morocco open to non-Muslim visitors, funded largely through mandatory public subscription among Moroccan citizens.",
+      },
+    },
+  },
+  {
+    id: "argan-aceite",
+    order: 10,
+    placeholderEmoji: "🌳",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El aceite que crece en árboles trepados por cabras",
+        subtitle: "El aceite de argán",
+        imageAlt: "Caricatura de cabras trepadas sobre las ramas de un árbol nudoso.",
+        description:
+          "El árbol de argán crece de forma silvestre casi exclusivamente en el suroeste de Marruecos, y una de las imágenes más fotografiadas del país son las cabras que trepan entre sus ramas retorcidas para comer los frutos, un espectáculo que hoy también se aprovecha comercialmente aunque ocurre naturalmente desde hace siglos. El aceite se extrae de la semilla mediante un proceso artesanal muy laborioso, que puede requerir hasta treinta horas de trabajo manual para producir apenas un litro, tradicionalmente a cargo de cooperativas de mujeres bereberes que encontraron en su producción una fuente de independencia económica poco común en zonas rurales. Usado por generaciones en la cocina marroquí y como remedio de belleza, el aceite de argán ganó en las últimas décadas gran demanda internacional en cosmética, lo que disparó su precio y llevó a la UNESCO a declarar en 2014 los saberes ligados al argán Patrimonio Cultural Inmaterial.",
+      },
+      en: {
+        title: "The Oil That Grows in Trees Goats Climb",
+        subtitle: "Argan Oil",
+        imageAlt: "Cartoon of goats perched in the branches of a gnarled tree.",
+        description:
+          "The argan tree grows wild almost exclusively in southwestern Morocco, and one of the country's most photographed sights is goats literally climbing among its gnarled branches to eat the fruit, a spectacle now also exploited commercially even though it has occurred naturally for centuries. The oil is extracted from the seed inside the fruit through a traditionally handmade, highly labor-intensive process that can take up to thirty hours of manual work to produce just one liter, traditionally carried out by Berber women's cooperatives that found in its production a rare source of economic independence in rural areas. Used for generations in Moroccan cooking and as a beauty remedy for skin and hair, argan oil gained huge international demand in cosmetics in recent decades, driving up its price and leading UNESCO to declare the knowledge tied to argan Intangible Cultural Heritage in 2014.",
+      },
+    },
+  },
 ];

@@ -102,6 +102,31 @@ const BasarwaArte: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const Makgadikgadi: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <path d="M150 185 L250 185 L235 165 L165 165 Z" fill={light} />
+      <path d="M155 165 h90" stroke={dark} strokeWidth="1.6" strokeDasharray="4 4" />
+      <ellipse cx="215" cy="150" rx="9" ry="14" fill={accentColor} />
+    </g>
+  );
+};
+
+const GanadoRiqueza: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <ellipse cx="200" cy="165" rx="28" ry="18" fill={accentColor} />
+      <path d="M178 152 Q170 138 178 128 Q182 140 184 152 Z" fill={dark} />
+      <path d="M222 152 Q230 138 222 128 Q218 140 216 152 Z" fill={dark} />
+      <circle cx="188" cy="155" r="2.2" fill={light} />
+    </g>
+  );
+};
+
 export const botswanaIllustrations: Record<string, IllustrationDefinition> = {
   "delta-okavango": { component: DeltaOkavango },
   "diamantes-botswana": { component: DiamantesBotswana, variant: "medallion" },
@@ -111,4 +136,6 @@ export const botswanaIllustrations: Record<string, IllustrationDefinition> = {
   "chobe-safari": { component: ChobeSafari, variant: "medallion" },
   "seretse-khama": { component: SeretseKhama, variant: "medallion" },
   "basarwa-arte": { component: BasarwaArte },
+  makgadikgadi: { component: Makgadikgadi },
+  "ganado-riqueza": { component: GanadoRiqueza, variant: "medallion" },
 };

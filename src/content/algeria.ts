@@ -185,4 +185,50 @@ export const algeria: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "couscous-argelia",
+    order: 9,
+    placeholderEmoji: "🍽️",
+    accentColor: "#D4A017",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El plato que cuatro países se disputan como propio",
+        subtitle: "El cuscús argelino",
+        imageAlt: "Caricatura de un plato de cuscús humeante con verduras coloridas.",
+        description:
+          "El cuscús, hecho con sémola de trigo enrollada a mano en pequeños gránulos y cocido al vapor sobre un guiso de verduras y carne, es un plato tan central en la identidad culinaria argelina que suele prepararse los viernes como comida familiar tradicional, aunque su origen exacto se disputa históricamente entre Argelia, Marruecos, Túnez y Libia, todos los cuales lo reivindican como parte esencial de su propia cultura. Ante esta rivalidad, en 2020 los cuatro países presentaron una solicitud conjunta poco habitual ante la UNESCO, que terminó reconociendo los 'conocimientos, saber-hacer y prácticas' vinculados al cuscús como Patrimonio Cultural Inmaterial compartido de toda la región del Magreb, un gesto diplomático inusual en una zona con tensiones políticas frecuentes. Cada familia y cada región argelina tiene su propia variante, desde el cuscús con cordero y garbanzos hasta versiones dulces con pasas y canela servidas en ocasiones especiales.",
+      },
+      en: {
+        title: "The Dish Four Countries Claim as Their Own",
+        subtitle: "Algerian Couscous",
+        imageAlt: "Cartoon of a steaming plate of couscous with colorful vegetables.",
+        description:
+          "Couscous, made from wheat semolina hand-rolled into small granules and steamed over a stew of vegetables and meat, is such a central part of Algerian culinary identity that it's traditionally prepared as a family meal on Fridays, though its exact origin is historically disputed among Algeria, Morocco, Tunisia, and Libya, all of which claim it as an essential part of their own culture. Faced with this rivalry, in 2020 the four countries filed an unusual joint application with UNESCO, which ended up recognizing the 'knowledge, know-how, and practices' tied to couscous as shared Intangible Cultural Heritage of the entire Maghreb region, an unusual diplomatic gesture in an area with frequent political tensions. Every Algerian family and region has its own variation, from couscous with lamb and chickpeas to sweet versions with raisins and cinnamon served on special occasions.",
+      },
+    },
+  },
+  {
+    id: "kabilia-amazigh",
+    order: 10,
+    placeholderEmoji: "🏔️",
+    accentColor: "#2E7D5B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La región que logró que su idioma fuera oficial",
+        subtitle: "Cabilia y la identidad amazigh",
+        imageAlt: "Caricatura de una aldea de piedra en la ladera de una montaña verde.",
+        description:
+          "Cabilia, una región montañosa al este de Argel poblada mayoritariamente por bereberes cabilios, fue durante décadas el centro del movimiento cultural y político amazigh que reclamó el reconocimiento del idioma tamazight frente a la política de arabización impulsada por el Estado argelino tras la independencia en 1962. Tras años de protestas, entre ellas la llamada 'Primavera Bereber' de 1980 y disturbios masivos en 2001, el gobierno argelino reconoció el tamazight como idioma nacional en 2002 y finalmente como idioma oficial en 2016, junto al árabe. Cada 12 de enero, muchos argelinos amazigh celebran Yennayer, el año nuevo bereber basado en un antiguo calendario agrícola, una fecha que en 2018 pasó a ser feriado nacional oficial en Argelia, un reconocimiento simbólico importante para una identidad cultural que había sido marginada durante gran parte del siglo XX.",
+      },
+      en: {
+        title: "The Region That Got Its Language Made Official",
+        subtitle: "Kabylia and Amazigh Identity",
+        imageAlt: "Cartoon of a stone village on a green mountainside.",
+        description:
+          "Kabylia, a mountainous region east of Algiers populated mainly by Kabyle Berbers, was for decades the center of the Amazigh cultural and political movement that demanded recognition of the Tamazight language against the arabization policy pursued by the Algerian state after independence in 1962. After years of protest, including the so-called 'Berber Spring' of 1980 and mass unrest in 2001, the Algerian government recognized Tamazight as a national language in 2002 and finally as an official language in 2016, alongside Arabic. Every January 12th, many Amazigh Algerians celebrate Yennayer, the Berber New Year based on an ancient agricultural calendar, a date that became an official national holiday in Algeria in 2018, an important symbolic recognition for a cultural identity that had been marginalized for much of the 20th century.",
+      },
+    },
+  },
 ];

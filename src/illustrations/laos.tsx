@@ -117,6 +117,31 @@ const HmongLaos: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const LanXang: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <ellipse cx="200" cy="160" rx="26" ry="18" fill={accentColor} />
+      <path d="M178 150 C165 148 158 158 165 168 Q174 165 178 150 Z" fill={dark} />
+      <path d="M170 156 C162 160 160 172 168 180 Q173 176 172 156 Z" fill={light} />
+      <path d="M205 140 h6 l-2 -16 h-2 Z" fill={dark} />
+    </g>
+  );
+};
+
+const BounBangFai: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <rect x="193" y="130" width="14" height="45" rx="4" fill={accentColor} />
+      <path d="M193 130 Q200 112 207 130 Z" fill={dark} />
+      <path d="M193 175 L185 190 M207 175 L215 190 M200 175 L200 192" stroke={light} strokeWidth="2.4" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const laosIllustrations: Record<string, IllustrationDefinition> = {
   "luang-prabang": { component: LuangPrabang },
   "llanura-de-las-jarras": { component: LlanuraDeLasJarras },
@@ -126,4 +151,6 @@ export const laosIllustrations: Record<string, IllustrationDefinition> = {
   "arroz-pegajoso": { component: ArrozPegajoso },
   "that-luang": { component: ThatLuang, variant: "medallion" },
   "hmong-laos": { component: HmongLaos },
+  "lan-xang": { component: LanXang },
+  "boun-bang-fai": { component: BounBangFai, variant: "medallion" },
 };

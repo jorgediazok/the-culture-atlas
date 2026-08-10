@@ -106,6 +106,30 @@ const AtlasBereber: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const HassanIIMezquita: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <rect x="192" y="110" width="16" height="60" fill={accentColor} />
+      <path d="M192 110 Q200 98 208 110 Z" fill={dark} />
+      <path d="M155 185 Q200 165 245 185 L245 190 L155 190 Z" fill={light} />
+    </g>
+  );
+};
+
+const ArganAceite: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <path d="M196 185 V150 Q196 130 210 118" stroke={dark} strokeWidth="5" fill="none" strokeLinecap="round" />
+      <ellipse cx="216" cy="112" rx="12" ry="9" fill={accentColor} />
+      <circle cx="212" cy="110" r="3" fill={light} />
+    </g>
+  );
+};
+
 export const moroccoIllustrations: Record<string, IllustrationDefinition> = {
   "medina-fez": { component: MedinaFez },
   chefchaouen: { component: Chefchaouen },
@@ -115,4 +139,6 @@ export const moroccoIllustrations: Record<string, IllustrationDefinition> = {
   gnawa: { component: Gnawa, variant: "medallion" },
   tayin: { component: Tayin, variant: "medallion" },
   "atlas-bereber": { component: AtlasBereber },
+  "hassan-ii-mezquita": { component: HassanIIMezquita },
+  "argan-aceite": { component: ArganAceite, variant: "medallion" },
 };

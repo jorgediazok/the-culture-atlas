@@ -108,6 +108,32 @@ const GasArgelia: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const CouscousArgelia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <ellipse cx="200" cy="170" rx="35" ry="10" fill={dark} />
+      <path d="M170 170 Q170 145 200 145 Q230 145 230 170 Z" fill={light} />
+      {[[188, 155], [200, 150], [212, 156]].map(([cx, cy], i) => (
+        <circle key={i} cx={cx} cy={cy} r="4" fill={accentColor} />
+      ))}
+    </g>
+  );
+};
+
+const KabiliaAmazigh: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <path d="M155 185 L180 140 L200 165 L220 130 L245 185 Z" fill={accentColor} />
+      <rect x="188" y="155" width="12" height="30" fill={light} />
+      <rect x="204" y="145" width="12" height="40" fill={dark} />
+    </g>
+  );
+};
+
 export const algeriaIllustrations: Record<string, IllustrationDefinition> = {
   "mayor-pais-africa": { component: MayorPaisAfrica },
   "casbah-argel": { component: CasbahArgel },
@@ -117,4 +143,6 @@ export const algeriaIllustrations: Record<string, IllustrationDefinition> = {
   "guerra-independencia": { component: GuerraIndependencia },
   "valle-mzab": { component: ValleMzab, variant: "medallion" },
   "gas-argelia": { component: GasArgelia, variant: "medallion" },
+  "couscous-argelia": { component: CouscousArgelia },
+  "kabilia-amazigh": { component: KabiliaAmazigh },
 };

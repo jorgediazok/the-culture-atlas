@@ -105,6 +105,30 @@ const Tutankamon: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const CanalSuez: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <path d="M155 178 h90 v10 h-90 Z" fill={light} />
+      <path d="M175 178 L175 160 L215 160 L215 178 Z" fill={accentColor} />
+      <path d="M188 160 L188 145 L202 145 L202 160" fill="none" stroke={dark} strokeWidth="3" />
+    </g>
+  );
+};
+
+const FaroAlejandria: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <path d="M188 185 L192 120 L208 120 L212 185 Z" fill={accentColor} />
+      <rect x="190" y="108" width="20" height="14" fill={dark} />
+      <path d="M195 100 q5 -10 10 0 q-5 6 -10 0 Z" fill={light} />
+    </g>
+  );
+};
+
 export const egyptIllustrations: Record<string, IllustrationDefinition> = {
   "piramides-giza": { component: PiramidesGiza },
   "piedra-rosetta": { component: PiedraRosetta, variant: "medallion" },
@@ -114,4 +138,6 @@ export const egyptIllustrations: Record<string, IllustrationDefinition> = {
   "khan-el-khalili": { component: KhanElKhalili },
   "papiro-egipcio": { component: PapiroEgipcio, variant: "medallion" },
   tutankamon: { component: Tutankamon, variant: "medallion" },
+  "canal-suez": { component: CanalSuez },
+  "faro-alejandria": { component: FaroAlejandria },
 };

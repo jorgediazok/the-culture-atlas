@@ -185,4 +185,50 @@ export const botswana: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "makgadikgadi",
+    order: 9,
+    placeholderEmoji: "🦓",
+    accentColor: "#C4A66B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El lago prehistórico que hoy es sal blanca infinita",
+        subtitle: "El salar de Makgadikgadi",
+        imageAlt: "Caricatura de una llanura blanca de sal que se extiende hasta el horizonte.",
+        description:
+          "El salar de Makgadikgadi, uno de los más grandes del mundo, es el lecho seco de un lago prehistórico que hace decenas de miles de años cubría buena parte del actual Botswana antes de que cambios climáticos y tectónicos lo secaran casi por completo, dejando una superficie blanca y agrietada que se extiende hasta donde alcanza la vista. Durante la breve temporada de lluvias, parte del salar se inunda y atrae a una de las últimas grandes migraciones de cebras de África, junto con ñus y flamencos que llegan a reproducirse en las charcas temporales, mientras que en la estación seca la zona se vuelve casi inhabitable, salvo para especialistas adaptados como los suricatas. La inmensidad y el silencio del paisaje, que de noche ofrece uno de los cielos más oscuros y despejados del continente para observar estrellas, convirtieron a Makgadikgadi en un destino de turismo de naturaleza cada vez más buscado.",
+      },
+      en: {
+        title: "The Prehistoric Lake That's Now an Endless Salt Pan",
+        subtitle: "The Makgadikgadi Pan",
+        imageAlt: "Cartoon of a white salt flat stretching to the horizon.",
+        description:
+          "The Makgadikgadi Pan, one of the largest salt flats in the world, is the dry bed of a prehistoric lake that tens of thousands of years ago covered much of present-day Botswana before climatic and tectonic shifts dried it up almost entirely, leaving a cracked white surface stretching as far as the eye can see. During the short rainy season, part of the pan floods and draws one of Africa's last great zebra migrations, along with wildebeest and flamingos that come to breed in the temporary pools, while in the dry season the area becomes nearly uninhabitable except for adapted specialists like meerkats. The immensity and silence of the landscape, which at night offers one of the continent's clearest, darkest skies for stargazing, has turned Makgadikgadi into an increasingly sought-after nature tourism destination.",
+      },
+    },
+  },
+  {
+    id: "ganado-riqueza",
+    order: 10,
+    placeholderEmoji: "🐄",
+    accentColor: "#6B4B3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ganado que todavía funciona como cuenta bancaria",
+        subtitle: "El ganado como riqueza tswana",
+        imageAlt: "Caricatura de una vaca con cuernos largos frente a una cerca de madera.",
+        description:
+          "Entre la etnia tswana, mayoritaria en Botswana, el ganado bovino ocupó tradicionalmente un rol que iba mucho más allá de la alimentación: era la principal medida de riqueza y estatus social, la base de la dote matrimonial ('bogadi'), y el eje de un sistema de préstamo comunitario llamado 'mafisa', en el que familias con más cabezas de ganado prestaban animales a familias más pobres a cambio de su cuidado, fortaleciendo lazos sociales y redistribuyendo recursos sin necesidad de dinero. Aunque hoy la economía de Botswana depende sobre todo de los diamantes, el ganado sigue siendo una inversión y un símbolo de estatus muy valorado, y muchas familias urbanas mantienen animales en el campo administrados por parientes rurales. Esta tradición ganadera también explica por qué el escudo nacional de Botswana incluye una cabeza de toro, un símbolo de la importancia histórica y continua del ganado en la identidad del país.",
+      },
+      en: {
+        title: "The Cattle That Still Work as a Bank Account",
+        subtitle: "Cattle as Tswana Wealth",
+        imageAlt: "Cartoon of a long-horned cow in front of a wooden fence.",
+        description:
+          "Among the Tswana, Botswana's largest ethnic group, cattle traditionally served a role that went far beyond food: they were the main measure of wealth and social status, the basis of the marriage dowry ('bogadi'), and the core of a communal lending system called 'mafisa,' in which families with more cattle lent animals to poorer families in exchange for their care, strengthening social bonds and redistributing resources without money changing hands. Although Botswana's economy today depends mainly on diamonds, cattle remain a highly valued investment and status symbol, and many urban families keep animals in the countryside managed by rural relatives. This cattle-herding tradition also explains why Botswana's national coat of arms includes a bull's head, a symbol of cattle's historic and continuing importance to the country's identity.",
+      },
+    },
+  },
 ];

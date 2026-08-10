@@ -185,4 +185,50 @@ export const laos: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "lan-xang",
+    order: 9,
+    placeholderEmoji: "🐘",
+    accentColor: "#4A6741",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El reino de la 'Tierra del Millón de Elefantes'",
+        subtitle: "El reino de Lan Xang",
+        imageAlt: "Caricatura de un elefante decorado con telas doradas.",
+        description:
+          "Lan Xang, que significa literalmente 'tierra del millón de elefantes', fue el reino que unificó por primera vez el territorio laosiano en 1353 bajo el rey Fa Ngum, y se mantuvo como una potencia regional durante más de tres siglos gracias en parte a su ejército de elefantes de guerra, un animal tan central en la identidad del reino que llegó a darle su nombre. El elefante siguió siendo un símbolo nacional mucho después de la fragmentación de Lan Xang en reinos rivales en el siglo XVIII y de la posterior colonización francesa, y hoy aparece en monumentos, billetes y el escudo de la actual República Democrática Popular Lao. Aunque la población real de elefantes cayó drásticamente por la deforestación y la caza furtiva, con apenas unos cientos de ejemplares salvajes y domesticados restantes, el país sigue promoviendo su antiguo apodo en el turismo y la identidad cultural.",
+      },
+      en: {
+        title: "The 'Land of a Million Elephants' Kingdom",
+        subtitle: "The Kingdom of Lan Xang",
+        imageAlt: "Cartoon of an elephant decorated with golden cloth.",
+        description:
+          "Lan Xang, which literally means 'land of a million elephants,' was the kingdom that first unified Laotian territory in 1353 under King Fa Ngum, and remained a regional power for more than three centuries thanks partly to its war elephant corps, an animal so central to the kingdom's identity that it gave the realm its name. The elephant remained a national symbol long after Lan Xang fragmented into rival kingdoms in the 18th century and after later French colonization, and today appears on monuments, banknotes, and the emblem of the current Lao People's Democratic Republic. Although the actual elephant population has fallen sharply due to deforestation and poaching, with only a few hundred wild and domesticated animals remaining, the country still promotes its old nickname in tourism and cultural identity.",
+      },
+    },
+  },
+  {
+    id: "boun-bang-fai",
+    order: 10,
+    placeholderEmoji: "🎆",
+    accentColor: "#D4A017",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El festival de cohetes de bambú para pedir lluvia",
+        subtitle: "El festival Boun Bang Fai",
+        imageAlt: "Caricatura de un cohete de bambú decorado despegando hacia el cielo.",
+        description:
+          "Boun Bang Fai, el festival del cohete, se celebra en Laos y en el noreste de Tailandia justo antes del inicio de la temporada de lluvias, cuando comunidades enteras construyen cohetes artesanales de bambú rellenos de pólvora casera y los lanzan al cielo en un ritual pensado para pedirle al dios de la lluvia Thaen que envíe agua suficiente para el arroz recién plantado. El festival combina elementos budistas y creencias animistas preexistentes, y mezcla el ritual religioso con música, baile y un ambiente festivo, incluidas rivalidades amistosas entre aldeas por lanzar el cohete que vuele más alto. Los cohetes, algunos de varios metros de largo y construidos durante semanas por equipos comunitarios, representan una combinación de destreza técnica y devoción religiosa, y los accidentes ocasionales por explosiones prematuras son parte del riesgo aceptado de una tradición que se mantiene viva pese a la modernización agrícola.",
+      },
+      en: {
+        title: "The Bamboo Rocket Festival That Calls for Rain",
+        subtitle: "The Boun Bang Fai Festival",
+        imageAlt: "Cartoon of a decorated bamboo rocket launching into the sky.",
+        description:
+          "Boun Bang Fai, the rocket festival, is celebrated in Laos and northeastern Thailand just before the start of the rainy season, when entire communities build handmade bamboo rockets packed with homemade gunpowder and launch them skyward in a ritual meant to ask the rain god Thaen to send enough water for the newly planted rice. The festival blends Buddhist elements with pre-existing animist beliefs, mixing religious ritual with music, dance, and a festive atmosphere, including friendly rivalries between villages over whose rocket flies highest. The rockets, some several meters long and built over weeks by community teams, represent a mix of technical skill and religious devotion, and occasional accidents from premature explosions are an accepted risk of a tradition that stays alive despite agricultural modernization.",
+      },
+    },
+  },
 ];
