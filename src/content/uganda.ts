@@ -32,7 +32,7 @@ export const uganda: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La mitad de los gorilas de montaña que quedan en el mundo",
+        title: "La mitad de los gorilas de montaña del mundo",
         subtitle: "Los gorilas de Bwindi",
         imageAlt: "Caricatura de un gorila sentado entre hojas densas de un bosque tropical.",
         description:
@@ -55,14 +55,14 @@ export const uganda: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El apodo que le puso un futuro primer ministro británico",
+        title: "El apodo de un futuro primer ministro británico",
         subtitle: "La Perla de África",
         imageAlt: "Caricatura de una perla verde brillante sobre un mapa de colinas y lagos.",
         description:
           "Winston Churchill, décadas antes de convertirse en primer ministro del Reino Unido, visitó Uganda en 1907 como joven subsecretario de las colonias y quedó tan impresionado por la variedad de paisajes del país —lagos, montañas nevadas cerca del ecuador, selvas y sabanas, todo dentro de un territorio relativamente compacto— que la describió en su libro de viajes 'My African Journey' como 'la perla de África', un apodo que el país adoptó con orgullo y que todavía usa activamente en su promoción turística más de un siglo después. A diferencia de otros países africanos conocidos principalmente por un solo tipo de paisaje —desierto, selva o sabana—, Uganda concentra una diversidad geográfica poco habitual: desde las montañas nevadas Rwenzori, cerca del ecuador, hasta el lago Victoria, pasando por sabanas con la mayor concentración de vida silvestre de África oriental después de Tanzania y Kenia.",
       },
       en: {
-        title: "The Nickname a Future British Prime Minister Gave It",
+        title: "A Nickname From a Future British Prime Minister",
         subtitle: "The Pearl of Africa",
         imageAlt: "Cartoon of a shiny green pearl over a map of hills and lakes.",
         description:
@@ -78,14 +78,14 @@ export const uganda: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Del escenario musical a la primera línea de la oposición",
+        title: "Del escenario musical a la oposición política",
         subtitle: "Bobi Wine",
         imageAlt: "Caricatura de un micrófono de escenario junto a un puño levantado.",
         description:
           "Robert Kyagulanyi Ssentamu, conocido artísticamente como Bobi Wine, empezó como uno de los músicos de afrobeat y dancehall más populares de Uganda en los años 2000, con canciones que combinaban ritmos bailables con letras sobre la vida en los barrios populares de Kampala, antes de convertirse, a partir de 2017, en una de las principales figuras de la oposición política del país, elegido diputado y luego candidato presidencial en las elecciones de 2021. Su transición de músico a político no fue casual: buena parte de su base de apoyo proviene de la generación joven ugandesa —más del 75% de la población tiene menos de 30 años— que se identificó con sus letras críticas sobre desigualdad, corrupción y la falta de oportunidades bajo un gobierno que lleva décadas en el poder. Su carrera política estuvo marcada por arrestos, censura y denuncias de fraude electoral, convirtiéndolo en una figura seguida internacionalmente como símbolo de la resistencia política juvenil en África oriental.",
       },
       en: {
-        title: "From the Music Stage to the Front Line of the Opposition",
+        title: "From the Music Stage to the Political Opposition",
         subtitle: "Bobi Wine",
         imageAlt: "Cartoon of a stage microphone next to a raised fist.",
         description:
@@ -101,14 +101,14 @@ export const uganda: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El lago tropical más grande del mundo, compartido por tres países",
+        title: "El lago tropical más grande del mundo",
         subtitle: "El lago Victoria",
         imageAlt: "Caricatura de un lago enorme con pequeñas islas y botes de pesca.",
         description:
           "El lago Victoria, con una superficie de casi 70.000 kilómetros cuadrados, es el lago tropical más grande del mundo y el segundo lago de agua dulce más extenso del planeta después del lago Superior en Norteamérica, compartido entre Uganda, Kenia y Tanzania, con la mayor porción de su costa perteneciendo a territorio ugandés. Bautizado en 1858 por el explorador británico John Hanning Speke en honor a la reina Victoria, el lago sostiene a millones de personas que dependen directamente de la pesca, aunque su ecosistema sufrió una transformación drástica desde los años 50, cuando se introdujo la perca del Nilo, un pez depredador de gran tamaño que terminó por extinguir o desplazar a cientos de especies nativas de peces más pequeños, alterando de forma permanente el equilibrio biológico original del lago. Hoy sus orillas ugandesas combinan puertos pesqueros activos con un creciente turismo de avistamiento de aves y recorridos en bote entre pequeñas islas.",
       },
       en: {
-        title: "The World's Largest Tropical Lake, Shared by Three Countries",
+        title: "The World's Largest Tropical Lake",
         subtitle: "Lake Victoria",
         imageAlt: "Cartoon of a huge lake with small islands and fishing boats.",
         description:
@@ -147,14 +147,14 @@ export const uganda: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Un reino tradicional que sigue existiendo dentro de una república",
+        title: "Un reino tradicional que sigue vivo en una república",
         subtitle: "El Reino de Buganda",
         imageAlt: "Caricatura de una corona tradicional africana sobre un cojín decorado.",
         description:
           "El Reino de Buganda, el más grande y poderoso de los reinos tradicionales que existían en el territorio de la actual Uganda antes de la colonización británica, sigue existiendo hoy como institución cultural y ceremonial dentro de la república ugandesa, con su propio rey (el Kabaka), su propia corte y su propio parlamento tradicional (el Lukiiko), aunque sin poder político formal. El reino fue abolido por el gobierno central en 1966 tras un conflicto con el entonces primer ministro, y recién fue restaurado en su forma ceremonial en 1993, reflejando lo arraigada que seguía la lealtad popular hacia la institución. El idioma luganda, todavía la lengua local más hablada de Uganda, sigue siendo un fuerte marcador de identidad cultural para millones de personas dentro y fuera de Kampala, que históricamente formó parte de Buganda.",
       },
       en: {
-        title: "A Traditional Kingdom That Still Exists Inside a Republic",
+        title: "A Traditional Kingdom Still Alive Inside a Republic",
         subtitle: "The Kingdom of Buganda",
         imageAlt: "Cartoon of a traditional African crown resting on a decorated cushion.",
         description:
