@@ -497,8 +497,9 @@ const Egypt: EmblemComponent = ({ accentColor }) => (
 
 const Algeria: EmblemComponent = ({ accentColor }) => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <path d="M62 30 A24 24 0 1 0 62 80 A19 19 0 1 1 62 30 Z" fill="#fff" />
-    <path d="M68 46 L71 54 L80 54 L73 59 L76 68 L68 62 L60 68 L63 59 L56 54 L65 54 Z" fill={accentColor} />
+    <circle cx="52" cy="55" r="24" fill="#fff" />
+    <circle cx="61" cy="51" r="20" fill={accentColor} />
+    <path d="M68 46 L71 54 L80 54 L73 59 L76 68 L68 62 L60 68 L63 59 L56 54 L65 54 Z" fill="#fff" />
   </svg>
 );
 
