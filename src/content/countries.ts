@@ -686,6 +686,60 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "morocco",
+    flagEmoji: "🇲🇦",
+    accentColor: "#C1272D",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Marruecos",
+        intro:
+          "Un país de medinas laberínticas, montañas beréberes y dunas doradas al borde del Sahara, donde el té de menta se sirve como ritual de bienvenida en cualquier puerta. Estas páginas son para descubrir un Marruecos de ciudades imperiales, música ancestral y una identidad amazigh que resiste con orgullo.",
+      },
+      en: {
+        name: "Morocco",
+        intro:
+          "A country of labyrinthine medinas, Berber mountains, and golden dunes at the edge of the Sahara, where mint tea is served as a welcome ritual at every door. These pages are here to discover a Morocco of imperial cities, ancestral music, and an Amazigh identity carried with pride.",
+      },
+    },
+  },
+  {
+    slug: "egypt",
+    flagEmoji: "🇪🇬",
+    accentColor: "#D4A017",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Egipto",
+        intro:
+          "La cuna de una de las civilizaciones más influyentes de la historia, con pirámides que siguen en pie después de 4.500 años y un río cuyas crecidas hicieron posible la vida en medio del desierto. Estas páginas son para descubrir un Egipto de faraones, jeroglíficos y bazares que llevan siglos funcionando.",
+      },
+      en: {
+        name: "Egypt",
+        intro:
+          "The cradle of one of history's most influential civilizations, with pyramids still standing after 4,500 years and a river whose floods made life possible in the middle of a desert. These pages are here to discover an Egypt of pharaohs, hieroglyphs, and bazaars that have run for centuries.",
+      },
+    },
+  },
+  {
+    slug: "algeria",
+    flagEmoji: "🇩🇿",
+    accentColor: "#006233",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Argelia",
+        intro:
+          "El país más grande de África, cubierto en su mayor parte por el Sahara, con pinturas rupestres milenarias, hombres azules del desierto y una guerra de independencia que marcó al siglo XX. Estas páginas son para descubrir una Argelia de ciudades fortificadas, música raï y un pasado que sigue muy presente.",
+      },
+      en: {
+        name: "Algeria",
+        intro:
+          "Africa's largest country, mostly covered by the Sahara, home to ancient rock art, the desert's blue-veiled men, and a war of independence that marked the 20th century. These pages are here to discover an Algeria of fortified towns, raï music, and a past that still feels very present.",
+      },
+    },
+  },
+  {
     slug: "papua-new-guinea",
     flagEmoji: "🇵🇬",
     accentColor: "#2E8B57",

@@ -37,6 +37,9 @@ import { northKoreaIllustrations } from "./north-korea";
 import { turkmenistanIllustrations } from "./turkmenistan";
 import { laosIllustrations } from "./laos";
 import { botswanaIllustrations } from "./botswana";
+import { moroccoIllustrations } from "./morocco";
+import { egyptIllustrations } from "./egypt";
+import { algeriaIllustrations } from "./algeria";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -79,6 +82,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   turkmenistan: turkmenistanIllustrations,
   laos: laosIllustrations,
   botswana: botswanaIllustrations,
+  morocco: moroccoIllustrations,
+  egypt: egyptIllustrations,
+  algeria: algeriaIllustrations,
 };
 
 export function getIllustration(

@@ -479,6 +479,29 @@ const Botswana: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const Morocco: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="34" y="39" width="32" height="32" fill="#fff" />
+    <rect x="34" y="39" width="32" height="32" fill="#fff" transform="rotate(45 50 55)" />
+    <circle cx="50" cy="55" r="6" fill={accentColor} />
+  </svg>
+);
+
+const Egypt: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <circle cx="50" cy="32" r="9" fill={accentColor} />
+    <path d="M30 86 L50 40 L70 86 Z" fill="#fff" />
+    <path d="M40 86 L50 58 L60 86 Z" fill={accentColor} opacity="0.4" />
+  </svg>
+);
+
+const Algeria: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M62 30 A24 24 0 1 0 62 80 A19 19 0 1 1 62 30 Z" fill="#fff" />
+    <path d="M68 46 L71 54 L80 54 L73 59 L76 68 L68 62 L60 68 L63 59 L56 54 L65 54 Z" fill={accentColor} />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -519,6 +542,9 @@ export const emblems: Record<string, EmblemComponent> = {
   turkmenistan: Turkmenistan,
   laos: Laos,
   botswana: Botswana,
+  morocco: Morocco,
+  egypt: Egypt,
+  algeria: Algeria,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {
