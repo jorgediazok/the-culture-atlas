@@ -251,4 +251,236 @@ export const croatia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "paracaidas-vrancic",
+    order: 11,
+    placeholderEmoji: "🪂",
+    accentColor: "#5C4033",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El primer paracaídas probado en el aire",
+        subtitle: "Faust Vrančić",
+        imageAlt:
+          "Caricatura de una figura sostenida por una lona tensa cayendo desde una torre.",
+        description:
+          "El inventor croata Faust Vrančić diseñó en 1595 un dispositivo llamado 'Homo Volans' (hombre volador), una lona tensada sobre un armazón de madera pensada para frenar la caída de una persona desde una altura considerable, publicado en su libro de inventos 'Machinae Novae' en 1616. Según relatos de la época —cuya veracidad histórica sigue debatida—, el propio Vrančić, ya anciano, se habría lanzado con su invento desde la torre de la catedral de San Marcos en Venecia alrededor de 1617, sobreviviendo al salto ante la mirada de una multitud, casi 200 años antes de que se popularizara el término 'paracaídas'. Sea cierta o no la anécdota del salto, sus dibujos técnicos son considerados uno de los primeros diseños documentados de un paracaídas funcional en la historia occidental, y hoy es una de las figuras más celebradas de la ciencia croata.",
+      },
+      en: {
+        title: "The First Parachute Tested in the Air",
+        subtitle: "Faust Vrančić",
+        imageAlt:
+          "Cartoon of a figure held by a taut sheet of canvas falling from a tower.",
+        description:
+          "Croatian inventor Faust Vrančić designed in 1595 a device called 'Homo Volans' (flying man), a canvas stretched over a wooden frame meant to slow a person's fall from a considerable height, published in his book of inventions 'Machinae Novae' in 1616. According to accounts from the time — whose historical accuracy remains debated — Vrančić himself, by then elderly, is said to have jumped with his invention from the tower of St Mark's Cathedral in Venice around 1617, surviving the leap in front of a watching crowd, nearly 200 years before the term 'parachute' became popular. Whether or not the jump itself really happened, his technical drawings are considered one of the earliest documented designs of a functional parachute in Western history, and he remains one of the most celebrated figures in Croatian science.",
+      },
+    },
+  },
+  {
+    id: "penkala",
+    order: 12,
+    placeholderEmoji: "🖊️",
+    accentColor: "#1F3A5F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El invento que le dio nombre a la lapicera",
+        subtitle: "Slavoljub Penkala",
+        imageAlt: "Caricatura de una lapicera antigua de tinta apoyada sobre papel.",
+        description:
+          "El ingeniero croata-húngaro Slavoljub Eduard Penkala patentó en 1906 el primer lápiz mecánico funcional, y poco después una lapicera de tinta sólida que no necesitaba tintero, dos inventos que revolucionaron la forma de escribir cotidiana a comienzos del siglo XX. Su apellido quedó tan asociado al objeto que en croata, hasta el día de hoy, 'penkala' es la palabra coloquial más usada para referirse a una lapicera, de forma similar a como 'kleenex' se volvió sinónimo de pañuelo descartable en inglés. Penkala, que llegó a registrar más de 80 patentes a lo largo de su vida —incluyendo un modelo temprano de avión que voló sobre Zagreb en 1910—, es considerado uno de los inventores más prolíficos de Europa central de su época, aunque fuera de Croacia su nombre es prácticamente desconocido.",
+      },
+      en: {
+        title: "The Invention That Gave the Pen Its Name",
+        subtitle: "Slavoljub Penkala",
+        imageAlt: "Cartoon of an antique ink pen resting on paper.",
+        description:
+          "Croatian-Hungarian engineer Slavoljub Eduard Penkala patented the first functional mechanical pencil in 1906, and shortly after a solid-ink pen that needed no inkwell, two inventions that revolutionized everyday writing in the early 20th century. His surname became so tied to the object that in Croatian, to this day, 'penkala' is the everyday word for pen, similar to how 'kleenex' became a synonym for tissue in English. Penkala, who filed more than 80 patents over his lifetime — including an early aircraft model that flew over Zagreb in 1910 — is considered one of Central Europe's most prolific inventors of his era, even though his name is practically unknown outside Croatia.",
+      },
+    },
+  },
+  {
+    id: "nikola-tesla",
+    order: 13,
+    placeholderEmoji: "⚡",
+    accentColor: "#2E4057",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Nacido en un pueblo que hoy es Croacia",
+        subtitle: "Nikola Tesla",
+        imageAlt: "Caricatura de una bobina eléctrica generando chispas de energía.",
+        description:
+          "Nikola Tesla nació en 1856 en el pequeño pueblo de Smiljan, dentro del Imperio Austríaco, un territorio que forma parte de la Croacia actual, aunque Tesla era étnicamente serbio, un origen doble que todavía genera debates amistosos —y no tan amistosos— entre Croacia y Serbia sobre a qué país 'pertenece' su legado. Sus investigaciones en electricidad de corriente alterna, motores eléctricos y transmisión inalámbrica de energía sentaron buena parte de las bases de la infraestructura eléctrica moderna, y aunque murió en 1943 sin el reconocimiento financiero que merecía, hoy es una de las figuras científicas más veneradas del mundo. La casa natal de Tesla en Smiljan fue restaurada como museo, y es uno de los sitios de peregrinaje científico más visitados de Croacia, presentado oficialmente por el país como parte de su propia herencia cultural.",
+      },
+      en: {
+        title: "Born in a Village That's Now Croatia",
+        subtitle: "Nikola Tesla",
+        imageAlt: "Cartoon of an electrical coil generating sparks of energy.",
+        description:
+          "Nikola Tesla was born in 1856 in the small village of Smiljan, within the Austrian Empire, a territory that's part of present-day Croatia, although Tesla was ethnically Serbian, a dual origin that still sparks friendly — and not-so-friendly — debate between Croatia and Serbia over which country his legacy 'belongs' to. His research into alternating current electricity, electric motors, and wireless energy transmission laid much of the groundwork for modern electrical infrastructure, and although he died in 1943 without the financial recognition he deserved, he's now one of the most revered scientific figures in the world. Tesla's birth home in Smiljan was restored as a museum and is one of Croatia's most-visited sites of scientific pilgrimage, officially presented by the country as part of its own cultural heritage.",
+      },
+    },
+  },
+  {
+    id: "marco-polo",
+    order: 14,
+    placeholderEmoji: "🧭",
+    accentColor: "#B5651D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El explorador que Croacia reclama como propio",
+        subtitle: "Marco Polo",
+        imageAlt: "Caricatura de una brújula antigua sobre un mapa enrollado.",
+        description:
+          "Aunque los libros de historia lo presentan casi siempre como un veneciano, existe una tradición local muy arraigada —y disputada por historiadores— que sostiene que el explorador Marco Polo nació en 1254 en la isla croata de Korčula, entonces bajo dominio de la República de Venecia, y no en la propia Venecia. En la ciudad de Korčula todavía se puede visitar una torre presentada como su supuesta casa natal, convertida en un pequeño museo dedicado a su figura, y el apellido Polo o variantes similares eran, según defensores de la teoría, relativamente comunes en la isla durante esa época. Más allá de si la conexión es histórica o una leyenda local bien aprovechada turísticamente, Korčula construyó buena parte de su identidad y su atractivo turístico alrededor de esta reivindicación, celebrando cada año festivales dedicados al explorador.",
+      },
+      en: {
+        title: "The Explorer Croatia Claims as Its Own",
+        subtitle: "Marco Polo",
+        imageAlt: "Cartoon of an antique compass on top of a rolled-up map.",
+        description:
+          "Although history books almost always present him as Venetian, there's a deeply rooted local tradition — disputed by historians — holding that explorer Marco Polo was born in 1254 on the Croatian island of Korčula, then under the rule of the Republic of Venice, rather than in Venice itself. In the town of Korčula, visitors can still see a tower presented as his supposed birth home, turned into a small museum dedicated to him, and the surname Polo or similar variants were, according to defenders of the theory, relatively common on the island at the time. Whether or not the connection is historically accurate or a well-marketed local legend, Korčula built much of its identity and tourist appeal around this claim, holding festivals dedicated to the explorer every year.",
+      },
+    },
+  },
+  {
+    id: "arte-naif-hlebine",
+    order: 15,
+    placeholderEmoji: "🎨",
+    accentColor: "#7A9D54",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte campesino que conquistó las galerías del mundo",
+        subtitle: "La Escuela de Hlebine",
+        imageAlt: "Caricatura de un lienzo con una escena rural pintada en colores vivos y simples.",
+        description:
+          "La Escuela de Hlebine, surgida en los años 30 en un pequeño pueblo agrícola del norte de Croacia, es uno de los movimientos de arte naíf más reconocidos internacionalmente, caracterizado por pintores autodidactas —muchos de ellos campesinos sin formación artística formal— que representaban escenas de la vida rural con colores intensos, perspectivas simplificadas y un estilo directo y sin pretensiones académicas. El pintor Ivan Generalić, descubierto por el artista Krsto Hegedušić, se convirtió en la figura más célebre del movimiento, exponiendo su obra en ciudades como París, Nueva York y Tokio y demostrando que el arte 'ingenuo' podía convivir en las mismas galerías que las corrientes más sofisticadas del arte moderno. Hoy Hlebine tiene su propia galería permanente dedicada al movimiento, y el estilo sigue influyendo en artistas naíf de todo el mundo.",
+      },
+      en: {
+        title: "The Peasant Art That Conquered the World's Galleries",
+        subtitle: "The Hlebine School",
+        imageAlt: "Cartoon of a canvas with a rural scene painted in bold, simple colors.",
+        description:
+          "The Hlebine School, which emerged in the 1930s in a small farming village in northern Croatia, is one of the most internationally recognized naive art movements, characterized by self-taught painters — many of them peasants with no formal art training — who depicted rural life scenes in intense colors, simplified perspectives, and a direct style free of academic pretension. Painter Ivan Generalić, discovered by artist Krsto Hegedušić, became the movement's most celebrated figure, exhibiting his work in cities like Paris, New York, and Tokyo and proving that 'naive' art could hang in the same galleries as modern art's more sophisticated currents. Today Hlebine has its own permanent gallery dedicated to the movement, and the style continues to influence naive artists around the world.",
+      },
+    },
+  },
+  {
+    id: "2cellos",
+    order: 16,
+    placeholderEmoji: "🎻",
+    accentColor: "#1A1A2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Dos violonchelos que se hicieron virales antes de que existiera esa palabra",
+        subtitle: "2Cellos",
+        imageAlt: "Caricatura de dos violonchelos cruzados sobre un escenario con luces.",
+        description:
+          "2Cellos, el dúo formado por los croatas Luka Šulić y Stjepan Hauser, se hizo mundialmente conocido en 2011 cuando un video de ambos tocando una versión a puro violonchelo de 'Smooth Criminal' de Michael Jackson se volvió viral en YouTube, acumulando millones de reproducciones casi de la noche a la mañana. Ambos habían estudiado música clásica formalmente desde chicos, pero decidieron romper con las convenciones del género interpretando covers de rock y pop —de Guns N' Roses a Coldplay— con una energía y una teatralidad poco habituales en la música clásica tradicional, lo que les permitió firmar con Sony Music y salir de gira con Elton John. El éxito del dúo ayudó a demostrar que la música clásica podía alcanzar audiencias masivas si se la presentaba de una forma completamente distinta a la habitual.",
+      },
+      en: {
+        title: "Two Cellos That Went Viral Before That Word Existed",
+        subtitle: "2Cellos",
+        imageAlt: "Cartoon of two cellos crossed over a lit-up stage.",
+        description:
+          "2Cellos, the duo formed by Croatians Luka Šulić and Stjepan Hauser, became world-famous in 2011 when a video of the two of them playing an all-cello version of Michael Jackson's 'Smooth Criminal' went viral on YouTube, racking up millions of views almost overnight. Both had studied classical music formally since childhood, but decided to break with genre conventions by performing rock and pop covers — from Guns N' Roses to Coldplay — with an energy and theatricality unusual in traditional classical music, which landed them a deal with Sony Music and a tour with Elton John. The duo's success helped prove that classical music could reach mass audiences if presented in a completely different way than usual.",
+      },
+    },
+  },
+  {
+    id: "sahovnica",
+    order: 17,
+    placeholderEmoji: "🏁",
+    accentColor: "#DA291C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tablero de ajedrez que se convirtió en bandera",
+        subtitle: "La šahovnica",
+        imageAlt: "Caricatura de un patrón de cuadros rojos y blancos alternados en forma de escudo.",
+        description:
+          "El escudo croata, formado por un patrón de 25 cuadros rojos y blancos alternados conocido como 'šahovnica' (literalmente, 'tablero de ajedrez'), es uno de los símbolos nacionales más reconocibles internacionalmente, sobre todo desde que aparece en la camiseta de la selección de fútbol, muy visible en cada Mundial. El diseño tiene raíces medievales y aparece documentado en escudos croatas desde el siglo XV, aunque el patrón exacto de colores alternados que se usa hoy se estandarizó recién en el siglo XX. Durante la Segunda Guerra Mundial, el símbolo fue utilizado también por el régimen fascista croata, lo que generó cierta sensibilidad histórica sobre su uso; hoy, sin embargo, la šahovnica está firmemente resignificada como emblema deportivo y de orgullo nacional, y es uno de los pocos escudos nacionales del mundo directamente inspirado en un juego de mesa.",
+      },
+      en: {
+        title: "The Chessboard That Became a Flag",
+        subtitle: "The Šahovnica",
+        imageAlt: "Cartoon of an alternating red-and-white checkered pattern shaped like a shield.",
+        description:
+          "Croatia's coat of arms, made up of a pattern of 25 alternating red and white squares known as the 'šahovnica' (literally, 'chessboard'), is one of the country's most internationally recognizable symbols, especially since it appears on the national football team's jersey, highly visible at every World Cup. The design has medieval roots and appears documented on Croatian coats of arms as early as the 15th century, though the exact alternating color pattern used today was only standardized in the 20th century. During World War II, the symbol was also used by Croatia's fascist regime, which created some historical sensitivity around its use; today, however, the šahovnica is firmly reclaimed as a sports emblem and symbol of national pride, and it's one of the few national coats of arms in the world directly inspired by a board game.",
+      },
+    },
+  },
+  {
+    id: "lavanda-hvar",
+    order: 18,
+    placeholderEmoji: "💜",
+    accentColor: "#8E7CC3",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Una isla que se pinta de violeta cada verano",
+        subtitle: "La lavanda de Hvar",
+        imageAlt: "Caricatura de campos de lavanda en flor bajo un sol brillante.",
+        description:
+          "La isla de Hvar, en particular el valle conocido como Velo Grablje, se convirtió desde el siglo XIX en uno de los principales centros de cultivo de lavanda de Europa, gracias a un microclima mediterráneo especialmente favorable para la planta. Cada julio, cuando los campos florecen, la isla se cubre de franjas violetas que atrajeron a fotógrafos y turistas de todo el mundo, generando comparaciones constantes con los campos de lavanda de Provenza, en Francia, aunque a menor escala. La producción de aceite esencial de lavanda, usado en perfumería, cosmética y medicina alternativa, sigue siendo una actividad artesanal importante en la isla, con pequeños productores familiares vendiendo directamente sus botellas de aceite y ramos secos en los mercados locales de la ciudad de Hvar.",
+      },
+      en: {
+        title: "An Island That Turns Purple Every Summer",
+        subtitle: "Hvar's Lavender",
+        imageAlt: "Cartoon of blooming lavender fields under a bright sun.",
+        description:
+          "The island of Hvar, particularly the valley known as Velo Grablje, became one of Europe's main lavender-growing centers starting in the 19th century, thanks to a Mediterranean microclimate especially favorable to the plant. Every July, when the fields bloom, the island is covered in purple stripes that draw photographers and tourists from around the world, prompting constant comparisons to the lavender fields of Provence, France, albeit on a smaller scale. Producing lavender essential oil, used in perfumery, cosmetics, and alternative medicine, remains an important artisanal activity on the island, with small family producers selling their oil bottles and dried bouquets directly at local markets in the town of Hvar.",
+      },
+    },
+  },
+  {
+    id: "organo-mar-zadar",
+    order: 19,
+    placeholderEmoji: "🌊",
+    accentColor: "#1B4B6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Un instrumento musical que toca el mar",
+        subtitle: "El órgano marino de Zadar",
+        imageAlt: "Caricatura de escalones de piedra junto al mar con ondas de sonido saliendo del agua.",
+        description:
+          "El órgano marino de Zadar, inaugurado en 2005, es una instalación arquitectónica única en el mundo: una serie de tubos y cámaras resonantes construidos bajo unos escalones de mármol junto al mar Adriático, diseñados de tal forma que el movimiento de las olas empuja aire a través de los tubos y genera sonidos armónicos aleatorios, siempre distintos, en una escala musical predefinida por el arquitecto Nikola Bašić. No hay ningún otro instrumento musical en el mundo que funcione exactamente con este mecanismo —el mar como único intérprete—, y el resultado es una melodía ambiental impredecible que cambia según la intensidad del oleaje, el viento y la marea. La instalación fue tan exitosa que inspiró al mismo arquitecto a crear, unos años después, el 'Saludo al Sol' junto al órgano: un círculo de paneles solares en el piso que se ilumina de noche siguiendo un patrón sincronizado con el ritmo del mar.",
+      },
+      en: {
+        title: "A Musical Instrument That Plays the Sea",
+        subtitle: "The Zadar Sea Organ",
+        imageAlt: "Cartoon of stone steps by the sea with sound waves rising from the water.",
+        description:
+          "The Zadar Sea Organ, opened in 2005, is a one-of-a-kind architectural installation: a series of tubes and resonating chambers built beneath marble steps beside the Adriatic Sea, designed so that the movement of the waves pushes air through the tubes and generates random harmonic sounds, always different, within a musical scale predefined by architect Nikola Bašić. There's no other musical instrument anywhere in the world that works exactly this way — the sea as the sole performer — and the result is an unpredictable ambient melody that changes with the intensity of the waves, wind, and tide. The installation was so successful that it inspired the same architect to create, a few years later, the 'Greeting to the Sun' next to the organ: a circle of solar panels set into the ground that lights up at night in a pattern synchronized with the rhythm of the sea.",
+      },
+    },
+  },
+  {
+    id: "zlatni-rat",
+    order: 20,
+    placeholderEmoji: "🏖️",
+    accentColor: "#E8D3A0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La playa que cambia de forma con el viento",
+        subtitle: "Zlatni Rat",
+        imageAlt: "Caricatura de una playa en forma de lengua angosta extendiéndose hacia el mar.",
+        description:
+          "Zlatni Rat ('el cabo dorado'), en la isla de Brač, es una de las playas más fotografiadas de Croacia por una razón muy particular: no tiene una forma fija. Su punta, formada por guijarros finos que se extiende hacia el mar como una lengua angosta, cambia de dirección y de longitud según la corriente marina, el viento y las mareas, de forma que la silueta exacta de la playa en una foto de hace diez años puede ser bastante distinta a la de hoy. Rodeada de pinares que ofrecen sombra natural directamente sobre la arena, y con aguas poco profundas ideales para windsurf gracias a vientos constantes, Zlatni Rat se convirtió en el símbolo turístico más reconocible de la isla de Brač y aparece en casi cualquier lista internacional de las playas más singulares de Europa, precisamente por ser, en esencia, una playa viva que nunca deja de moverse.",
+      },
+      en: {
+        title: "The Beach That Changes Shape With the Wind",
+        subtitle: "Zlatni Rat",
+        imageAlt: "Cartoon of a narrow, tongue-shaped beach stretching out into the sea.",
+        description:
+          "Zlatni Rat ('the golden cape'), on the island of Brač, is one of Croatia's most photographed beaches for a very particular reason: it has no fixed shape. Its tip, made of fine pebbles stretching out into the sea like a narrow tongue, shifts direction and length depending on the sea current, wind, and tides, so the exact silhouette of the beach in a photo from ten years ago can look quite different from today's. Surrounded by pine forests offering natural shade right up to the sand, and with shallow waters ideal for windsurfing thanks to steady winds, Zlatni Rat became the most recognizable tourist symbol of the island of Brač and appears on nearly every international list of Europe's most unique beaches, precisely because it's, in essence, a living beach that never stops moving.",
+      },
+    },
+  },
 ];

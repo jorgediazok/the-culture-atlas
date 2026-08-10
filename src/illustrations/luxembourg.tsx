@@ -148,6 +148,165 @@ const CastillosRurales: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const SesAstra: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <rect x="188" y="130" width="24" height="24" fill={accentColor} transform="rotate(45 200 142)" />
+      <rect x="160" y="135" width="24" height="14" fill={dark} transform="rotate(45 172 142)" />
+      <rect x="216" y="135" width="24" height="14" fill={dark} transform="rotate(-45 228 142)" />
+      <path d="M200 154 q-20 20 -30 45 M200 154 q20 20 30 45" fill="none" stroke={light} strokeWidth="3" />
+    </g>
+  );
+};
+
+const VilleroyBoch: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <path d="M180 110 h40 v20 q20 10 20 35 q0 30 -40 30 q-40 0 -40 -30 q0 -25 20 -35 Z" fill={accentColor} />
+      <ellipse cx="200" cy="130" rx="20" ry="6" fill={light} />
+      <path d="M185 150 q15 10 30 0" fill="none" stroke={dark} strokeWidth="3" />
+    </g>
+  );
+};
+
+const RobertSchuman: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <path d="M175 140 q10 -20 25 -10 q15 -10 25 10 q-15 25 -25 35 q-10 -10 -25 -35 Z" fill={light} />
+      <path d="M200 130 q-8 15 0 40" fill="none" stroke={dark} strokeWidth="3" />
+      {[0, 60, 120, 180, 240, 300].map((deg) => (
+        <circle
+          key={deg}
+          cx={200 + Math.cos((deg * Math.PI) / 180) * 34}
+          cy={110 + Math.sin((deg * Math.PI) / 180) * 12}
+          r="3"
+          fill={accentColor}
+        />
+      ))}
+    </g>
+  );
+};
+
+const GranDuquesaCharlotte: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <rect x="180" y="140" width="40" height="30" rx="4" fill={dark} />
+      <circle cx="200" cy="140" r="16" fill={accentColor} />
+      <polygon points="188,128 192,116 200,124 208,116 212,128" fill={light} />
+    </g>
+  );
+};
+
+const EdwardSteichen: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.65);
+  return (
+    <g>
+      <rect x="160" y="130" width="80" height="50" rx="6" fill={accentColor} />
+      <circle cx="200" cy="155" r="18" fill={dark} />
+      <circle cx="200" cy="155" r="9" fill={light} />
+      <rect x="188" y="118" width="24" height="14" fill={dark} />
+    </g>
+  );
+};
+
+const LuxembourgCine: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <rect x="160" y="120" width="80" height="14" fill={dark} />
+      {[0, 1, 2, 3].map((i) => (
+        <polygon key={i} points={`${168 + i * 18},120 ${178 + i * 18},120 ${174 + i * 18},134 ${164 + i * 18},134`} fill={i % 2 === 0 ? light : accentColor} />
+      ))}
+      <rect x="160" y="134" width="80" height="46" fill={accentColor} />
+    </g>
+  );
+};
+
+const CapitalInstitucionesUe: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <rect x="175" y="110" width="50" height="80" fill={accentColor} />
+      {[0, 1, 2, 3].map((i) => (
+        <rect key={i} x="183" y={120 + i * 16} width="34" height="8" fill={dark} />
+      ))}
+      {[0, 60, 120, 180, 240, 300].map((deg) => (
+        <circle
+          key={deg}
+          cx={200 + Math.cos((deg * Math.PI) / 180) * 24}
+          cy={95 + Math.sin((deg * Math.PI) / 180) * 10}
+          r="3"
+          fill={light}
+        />
+      ))}
+    </g>
+  );
+};
+
+const CementerioAmericanoPatton: IllustrationComponent = ({ accentColor }) => {
+  const light = tint(accentColor, 0.85);
+  return (
+    <g>
+      {[170, 190, 210, 230].map((x) => (
+        <g key={x}>
+          <rect x={x - 2} y="130" width="4" height="30" fill={light} />
+          <rect x={x - 10} y="140" width="20" height="4" fill={light} />
+        </g>
+      ))}
+      <rect x="150" y="185" width="100" height="8" fill={accentColor} />
+    </g>
+  );
+};
+
+const Sprangprozessioun: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      {[170, 200, 230].map((x, i) => (
+        <g key={x}>
+          <circle cx={x} cy={110 + (i % 2) * 10} r="9" fill={light} />
+          <line x1={x} y1={120 + (i % 2) * 10} x2={x} y2={155 + (i % 2) * 10} stroke={accentColor} strokeWidth="5" />
+          <line x1={x - 8} y1={175 + (i % 2) * 10} x2={x} y2={155 + (i % 2) * 10} stroke={dark} strokeWidth="5" />
+          <line x1={x + 8} y1={165 + (i % 2) * 10} x2={x} y2={155 + (i % 2) * 10} stroke={dark} strokeWidth="5" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const Schueberfouer: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <circle cx="200" cy="140" r="38" fill="none" stroke={accentColor} strokeWidth="6" />
+      {[0, 45, 90, 135, 180, 225, 270, 315].map((deg, i) => (
+        <circle
+          key={deg}
+          cx={200 + Math.cos((deg * Math.PI) / 180) * 38}
+          cy={140 + Math.sin((deg * Math.PI) / 180) * 38}
+          r="5"
+          fill={i % 2 === 0 ? accentColor : dark}
+        />
+      ))}
+      <rect x="196" y="178" width="8" height="18" fill={dark} />
+      <circle cx="200" cy="140" r="8" fill={light} />
+    </g>
+  );
+};
+
 export const luxembourgIllustrations: Record<string, IllustrationDefinition> = {
   trilinguismo: { component: Trilinguismo, variant: "medallion" },
   casamatas: { component: Casamatas },
@@ -159,4 +318,14 @@ export const luxembourgIllustrations: Record<string, IllustrationDefinition> = {
   "gran-ducado": { component: GranDucado, variant: "medallion" },
   peckvillercher: { component: Peckvillercher, variant: "medallion" },
   "castillos-rurales": { component: CastillosRurales },
+  "ses-astra": { component: SesAstra, variant: "medallion" },
+  "villeroy-boch": { component: VilleroyBoch },
+  "robert-schuman": { component: RobertSchuman, variant: "medallion" },
+  "gran-duquesa-charlotte": { component: GranDuquesaCharlotte },
+  "edward-steichen": { component: EdwardSteichen },
+  "luxembourg-cine": { component: LuxembourgCine },
+  "capital-instituciones-ue": { component: CapitalInstitucionesUe },
+  "cementerio-americano-patton": { component: CementerioAmericanoPatton },
+  sprangprozessioun: { component: Sprangprozessioun, variant: "medallion" },
+  schueberfouer: { component: Schueberfouer, variant: "medallion" },
 };

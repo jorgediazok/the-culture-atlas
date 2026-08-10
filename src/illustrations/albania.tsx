@@ -160,6 +160,139 @@ const MadreTeresa: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const MeshariBuzuku: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <path d="M155 115 h85 v65 h-85 Z" fill={accentColor} />
+      <line x1="200" y1="115" x2="200" y2="180" stroke={dark} strokeWidth="3" />
+      <line x1="163" y1="130" x2="192" y2="130" stroke={light} strokeWidth="3" />
+      <line x1="163" y1="145" x2="192" y2="145" stroke={light} strokeWidth="3" />
+      <line x1="163" y1="160" x2="185" y2="160" stroke={light} strokeWidth="3" />
+    </g>
+  );
+};
+
+const AlfabetoManastir: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  const letters = ["A", "B", "C", "D"];
+  return (
+    <g>
+      {letters.map((l, i) => (
+        <g key={l}>
+          <rect x={162 + i * 20} y="125" width="16" height="16" fill={i % 2 === 0 ? accentColor : light} />
+          <text x={170 + i * 20} y="138" fontSize="10" fill={dark} textAnchor="middle">
+            {l}
+          </text>
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const IsmailKadare: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      {[0, 1, 2].map((i) => (
+        <rect key={i} x={165 + i * 6} y={175 - i * 12} width="70" height="12" fill={i % 2 === 0 ? accentColor : dark} />
+      ))}
+      <line x1="205" y1="130" x2="230" y2="105" stroke={light} strokeWidth="4" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const DuaLipa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.75);
+  return (
+    <g>
+      <rect x="196" y="150" width="8" height="35" fill={dark} />
+      <circle cx="200" cy="135" r="20" fill="none" stroke={accentColor} strokeWidth="6" />
+      <circle cx="200" cy="140" r="8" fill={light} />
+    </g>
+  );
+};
+
+const KangeKreshnike: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <path d="M180 120 a20 30 0 1 0 0.1 0" fill={light} stroke={accentColor} strokeWidth="4" />
+      <line x1="180" y1="90" x2="230" y2="180" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const Kinostudio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  return (
+    <g>
+      <circle cx="200" cy="140" r="46" fill={accentColor} />
+      <circle cx="200" cy="140" r="12" fill={dark} />
+      {[0, 60, 120, 180, 240, 300].map((deg) => (
+        <circle key={deg} cx={200 + Math.cos((deg * Math.PI) / 180) * 28} cy={140 + Math.sin((deg * Math.PI) / 180) * 28} r="6" fill={dark} />
+      ))}
+    </g>
+  );
+};
+
+const TiranaColores: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <rect x="155" y="110" width="90" height="80" fill="#e8e2d5" />
+      {[0, 1, 2, 3].map((i) => (
+        <rect key={i} x={162 + i * 22} y="118" width="16" height="64" fill={i % 2 === 0 ? accentColor : light} />
+      ))}
+      <rect x="155" y="182" width="90" height="8" fill={dark} />
+    </g>
+  );
+};
+
+const VloraExodo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <polygon points="150,180 250,180 235,155 165,155" fill={accentColor} />
+      {Array.from({ length: 8 }).map((_, i) => (
+        <circle key={i} cx={170 + i * 9} cy={148} r="4" fill={light} />
+      ))}
+      <rect x="196" y="130" width="8" height="20" fill={dark} />
+    </g>
+  );
+};
+
+const GestosInvertidos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.75);
+  return (
+    <g>
+      <circle cx="200" cy="135" r="22" fill={light} stroke={accentColor} strokeWidth="4" />
+      <path d="M200 160 v25" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <path d="M180 145 q20 15 40 0" fill="none" stroke={accentColor} strokeWidth="4" />
+    </g>
+  );
+};
+
+const SyriIKalter: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <circle cx="200" cy="140" r="42" fill={light} />
+      <circle cx="200" cy="140" r="24" fill={accentColor} />
+      <circle cx="200" cy="140" r="10" fill={dark} />
+    </g>
+  );
+};
+
 export const albaniaIllustrations: Record<string, IllustrationDefinition> = {
   bunkers: { component: Bunkers },
   riviera: { component: Riviera },
@@ -171,4 +304,14 @@ export const albaniaIllustrations: Record<string, IllustrationDefinition> = {
   raki: { component: Raki, variant: "medallion" },
   byrek: { component: Byrek, variant: "medallion" },
   "madre-teresa": { component: MadreTeresa, variant: "medallion" },
+  "meshari-buzuku": { component: MeshariBuzuku },
+  "alfabeto-manastir": { component: AlfabetoManastir },
+  "ismail-kadare": { component: IsmailKadare },
+  "dua-lipa": { component: DuaLipa, variant: "medallion" },
+  "kange-kreshnike": { component: KangeKreshnike, variant: "medallion" },
+  kinostudio: { component: Kinostudio, variant: "medallion" },
+  "tirana-colores": { component: TiranaColores },
+  "vlora-exodo": { component: VloraExodo },
+  "gestos-invertidos": { component: GestosInvertidos, variant: "medallion" },
+  "syri-i-kalter": { component: SyriIKalter, variant: "medallion" },
 };

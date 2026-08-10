@@ -251,4 +251,234 @@ export const luxembourg: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "ses-astra",
+    order: 11,
+    placeholderEmoji: "🛰️",
+    accentColor: "#1B4B6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que puso los satélites de TV en el cielo de Europa",
+        subtitle: "SES y Astra",
+        imageAlt: "Caricatura de un satélite orbitando con señales curvas apuntando hacia la Tierra.",
+        description:
+          "En 1985, un pequeño grupo de inversores creó en Luxemburgo la empresa Société Européenne des Satellites (SES), apostando a un negocio que en ese momento parecía casi una locura: lanzar satélites de comunicación privados para transmitir televisión directamente a los hogares europeos, sin depender de los monopolios estatales de radiodifusión que dominaban el continente. El primer satélite de la serie Astra se lanzó en 1988 y su éxito fue tan grande que terminó de romper el modelo estatal de televisión en gran parte de Europa occidental, abriendo paso a los canales privados que hoy damos por sentado. Décadas después, SES sigue operando desde Luxemburgo y es una de las mayores operadoras de satélites de comunicación del mundo, un dato que sorprende a cualquiera que asocie al país únicamente con bancos y no con la industria espacial.",
+      },
+      en: {
+        title: "The Country That Put TV Satellites in Europe's Sky",
+        subtitle: "SES and Astra",
+        imageAlt: "Cartoon of a satellite orbiting with curved signals pointing toward Earth.",
+        description:
+          "In 1985, a small group of investors founded the Société Européenne des Satellites (SES) in Luxembourg, betting on a business that seemed almost crazy at the time: launching private communication satellites to broadcast television directly into European homes, without relying on the state broadcasting monopolies that dominated the continent. The first satellite in the Astra series launched in 1988, and its success was so great that it helped break the state-run television model across much of Western Europe, paving the way for the private channels we now take for granted. Decades later, SES still operates out of Luxembourg and is one of the world's largest communication satellite operators, a fact that surprises anyone who associates the country only with banks rather than the space industry.",
+      },
+    },
+  },
+  {
+    id: "villeroy-boch",
+    order: 12,
+    placeholderEmoji: "🏺",
+    accentColor: "#4A6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Casi 300 años haciendo porcelana",
+        subtitle: "Villeroy & Boch",
+        imageAlt: "Caricatura de un jarrón de porcelana decorado sobre una rueda de alfarero.",
+        description:
+          "Villeroy & Boch, una de las fábricas de cerámica y porcelana más antiguas de Europa, tiene una de sus raíces históricas en Luxemburgo: en 1767 se fundó una manufactura de cerámica en Septfontaines, cerca de la Ciudad de Luxemburgo, que con el tiempo se fusionó con otras fábricas familiares alemanas para formar la empresa que hoy conocemos, con sede binacional entre Luxemburgo y Alemania. Durante el siglo XIX, la compañía fue pionera en la producción industrial en serie de vajillas y azulejos de calidad, en un momento en que la mayoría de la cerámica fina todavía se hacía de forma completamente artesanal y a pequeña escala. Hoy la fábrica original de Septfontaines sigue funcionando parcialmente como sede administrativa, y la marca exporta vajillas, sanitarios y azulejos a más de 125 países.",
+      },
+      en: {
+        title: "Nearly 300 Years Making Porcelain",
+        subtitle: "Villeroy & Boch",
+        imageAlt: "Cartoon of a decorated porcelain vase on a potter's wheel.",
+        description:
+          "Villeroy & Boch, one of Europe's oldest ceramics and porcelain manufacturers, has one of its historical roots in Luxembourg: a ceramics workshop was founded in Septfontaines, near Luxembourg City, in 1767, which over time merged with other German family-run factories to form the company known today, with a binational headquarters split between Luxembourg and Germany. During the 19th century, the company pioneered industrial-scale production of quality tableware and tiles, at a time when most fine ceramics were still made entirely by hand on a small scale. Today the original Septfontaines factory still partially operates as an administrative site, and the brand exports tableware, bathroom fixtures, and tiles to more than 125 countries.",
+      },
+    },
+  },
+  {
+    id: "robert-schuman",
+    order: 13,
+    placeholderEmoji: "🕊️",
+    accentColor: "#003399",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El padre de Europa nació acá",
+        subtitle: "Robert Schuman",
+        imageAlt: "Caricatura de una paloma sosteniendo una rama de olivo sobre un anillo de estrellas.",
+        description:
+          "Robert Schuman, considerado uno de los padres fundadores de la Unión Europea, nació en 1886 en Clausen, un barrio de la Ciudad de Luxemburgo, en un momento en que la nacionalidad de su familia era un asunto complicado entre Luxemburgo, Francia y Alemania. Como ministro de Relaciones Exteriores de Francia, presentó en 1950 la 'Declaración Schuman', un plan para poner en común la producción de carbón y acero entre Francia y Alemania —enemigos históricos apenas cinco años después de terminada la Segunda Guerra Mundial— con el objetivo explícito de hacer 'materialmente imposible' otra guerra entre ambos países. Ese acuerdo se convirtió en la Comunidad Europea del Carbón y del Acero, el germen directo de lo que hoy es la Unión Europea, y el 9 de mayo, fecha de la declaración, se celebra hasta hoy como el Día de Europa.",
+      },
+      en: {
+        title: "The Father of Europe Was Born Here",
+        subtitle: "Robert Schuman",
+        imageAlt: "Cartoon of a dove holding an olive branch over a ring of stars.",
+        description:
+          "Robert Schuman, considered one of the founding fathers of the European Union, was born in 1886 in Clausen, a neighborhood of Luxembourg City, at a time when his family's nationality was a complicated matter between Luxembourg, France, and Germany. As France's Minister of Foreign Affairs, he presented the 'Schuman Declaration' in 1950, a plan to pool coal and steel production between France and Germany — historic enemies just five years after the end of World War II — with the explicit goal of making another war between the two countries 'materially impossible.' That agreement became the European Coal and Steel Community, the direct seed of what is now the European Union, and May 9th, the date of the declaration, is still celebrated today as Europe Day.",
+      },
+    },
+  },
+  {
+    id: "gran-duquesa-charlotte",
+    order: 14,
+    placeholderEmoji: "📻",
+    accentColor: "#7B1F3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La voz que resistió desde el exilio",
+        subtitle: "La Gran Duquesa Charlotte",
+        imageAlt: "Caricatura de una corona sobre un micrófono antiguo de radio.",
+        description:
+          "La Gran Duquesa Charlotte, que gobernó Luxemburgo entre 1919 y 1964, se convirtió en un símbolo nacional de resistencia cuando, tras la invasión alemana en 1940, se negó a colaborar con los ocupantes y se exilió junto a su gobierno, primero a Portugal y Estados Unidos y luego a Londres, desde donde transmitió mensajes de aliento a su pueblo a través de la BBC durante toda la guerra. Su decisión de no quedarse ni colaborar, a diferencia de otros monarcas europeos en situaciones similares, reforzó enormemente el vínculo emocional entre la monarquía y la identidad nacional luxemburguesa. Cuando regresó al país en 1945 tras la liberación, fue recibida como una heroína, y hoy sigue siendo, décadas después de su muerte, una de las figuras históricas más queridas y respetadas del Gran Ducado.",
+      },
+      en: {
+        title: "The Voice That Resisted From Exile",
+        subtitle: "Grand Duchess Charlotte",
+        imageAlt: "Cartoon of a crown resting on top of an old radio microphone.",
+        description:
+          "Grand Duchess Charlotte, who ruled Luxembourg from 1919 to 1964, became a national symbol of resistance when, after the German invasion of 1940, she refused to collaborate with the occupiers and went into exile with her government, first to Portugal and the United States and later to London, from where she broadcast messages of encouragement to her people via the BBC throughout the war. Her decision not to stay or collaborate, unlike other European monarchs in similar situations, greatly strengthened the emotional bond between the monarchy and Luxembourgish national identity. When she returned to the country in 1945 after liberation, she was welcomed as a hero, and decades after her death, she remains one of the Grand Duchy's most beloved and respected historical figures.",
+      },
+    },
+  },
+  {
+    id: "edward-steichen",
+    order: 15,
+    placeholderEmoji: "📸",
+    accentColor: "#4B4B4B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El fotógrafo que definió cómo el mundo mira una foto",
+        subtitle: "Edward Steichen",
+        imageAlt: "Caricatura de una cámara fotográfica antigua sobre un trípode de madera.",
+        description:
+          "Edward Steichen, nacido en Luxemburgo en 1879 y emigrado de niño a Estados Unidos, se convirtió en uno de los fotógrafos más influyentes del siglo XX, primero como pionero de la fotografía como forma de arte a comienzos de 1900, y más tarde como director del departamento de fotografía del MoMA de Nueva York durante 15 años. En 1955 curó 'The Family of Man', una exposición con más de 500 fotografías de 68 países que buscaba retratar la experiencia humana universal más allá de las diferencias culturales; la muestra fue vista por más de nueve millones de personas en su gira mundial y sigue considerada una de las exposiciones fotográficas más influyentes de la historia. Hoy la colección permanente de 'The Family of Man' está exhibida de forma fija en el Castillo de Clervaux, en Luxemburgo, declarada Patrimonio Documental de la Humanidad por la UNESCO.",
+      },
+      en: {
+        title: "The Photographer Who Defined How the World Looks at a Photo",
+        subtitle: "Edward Steichen",
+        imageAlt: "Cartoon of an antique camera resting on a wooden tripod.",
+        description:
+          "Edward Steichen, born in Luxembourg in 1879 and raised in the United States from childhood, became one of the most influential photographers of the 20th century, first as a pioneer of photography as an art form in the early 1900s, and later as the director of MoMA's photography department in New York for 15 years. In 1955 he curated 'The Family of Man,' an exhibition of more than 500 photographs from 68 countries aiming to portray universal human experience beyond cultural differences; the show was seen by more than nine million people on its world tour and is still considered one of the most influential photography exhibitions in history. Today, the permanent collection of 'The Family of Man' is on permanent display at Clervaux Castle in Luxembourg, designated a UNESCO Memory of the World.",
+      },
+    },
+  },
+  {
+    id: "luxembourg-cine",
+    order: 16,
+    placeholderEmoji: "🎬",
+    accentColor: "#2B2B52",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pequeño país detrás de grandes películas",
+        subtitle: "Cine luxemburgués",
+        imageAlt: "Caricatura de un clapperboard de cine junto a un rollo de película.",
+        description:
+          "Aunque Luxemburgo no suele venir a la mente cuando se piensa en industria cinematográfica, el país desarrolló en las últimas décadas un sistema de incentivos fiscales tan atractivo para la coproducción audiovisual que se convirtió en un socio habitual de estudios europeos y ocasionalmente de Hollywood, participando en la financiación de decenas de largometrajes y series de animación con reconocimiento internacional. El Fondo Nacional de Apoyo a la Producción Audiovisual, creado en 1988, financia una parte significativa de esta actividad, y estudios de animación instalados en el país produjeron contenido hoy disponible en las principales plataformas de streaming globales. Para un país de menos de 700.000 habitantes, la huella per cápita de Luxemburgo en la industria audiovisual europea es notablemente desproporcionada, y buena parte de esa producción se filma o se anima en estudios instalados a pocos minutos de la capital.",
+      },
+      en: {
+        title: "The Small Country Behind Big Movies",
+        subtitle: "Luxembourgish Cinema",
+        imageAlt: "Cartoon of a film clapperboard next to a reel of film.",
+        description:
+          "Although Luxembourg doesn't usually come to mind when thinking about the film industry, the country developed over recent decades a tax incentive system so attractive for audiovisual co-production that it became a regular partner for European studios and occasionally Hollywood, helping finance dozens of feature films and internationally recognized animated series. The National Fund for Support of Audiovisual Production, created in 1988, funds a significant share of this activity, and animation studios based in the country have produced content now available on major global streaming platforms. For a country of fewer than 700,000 people, Luxembourg's per capita footprint in the European audiovisual industry is remarkably disproportionate, with much of that production filmed or animated in studios just minutes from the capital.",
+      },
+    },
+  },
+  {
+    id: "capital-instituciones-ue",
+    order: 17,
+    placeholderEmoji: "🏢",
+    accentColor: "#274690",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Una de las tres capitales oficiales de la Unión Europea",
+        subtitle: "Capital institucional europea",
+        imageAlt: "Caricatura de un rascacielos de vidrio con un anillo de estrellas doradas encima.",
+        description:
+          "Aunque Bruselas suele ser la primera ciudad que la gente asocia con la Unión Europea, Luxemburgo es, junto a Bruselas y Estrasburgo, una de las tres capitales oficiales de las instituciones europeas, un estatus fijado por los propios tratados fundacionales. La Ciudad de Luxemburgo alberga el Tribunal de Justicia de la Unión Europea, el Tribunal de Cuentas Europeo, el Banco Europeo de Inversiones y buena parte del personal administrativo del Parlamento Europeo, concentrados en un barrio moderno de rascacielos conocido como Kirchberg, construido casi específicamente para este propósito desde los años 60. Esta condición explica en parte por qué un país tan pequeño tiene una población tan internacional: miles de funcionarios europeos de los 27 países miembros viven y trabajan en Luxemburgo, dándole a la capital una diversidad diplomática poco habitual para su tamaño.",
+      },
+      en: {
+        title: "One of the European Union's Three Official Capitals",
+        subtitle: "European Institutional Capital",
+        imageAlt: "Cartoon of a glass skyscraper with a ring of golden stars above it.",
+        description:
+          "Although Brussels is usually the first city people associate with the European Union, Luxembourg is, alongside Brussels and Strasbourg, one of the three official capitals of the European institutions, a status set out in the founding treaties themselves. Luxembourg City is home to the Court of Justice of the European Union, the European Court of Auditors, the European Investment Bank, and much of the European Parliament's administrative staff, concentrated in a modern skyscraper district known as Kirchberg, built almost specifically for this purpose since the 1960s. This status partly explains why such a small country has such an international population: thousands of European civil servants from all 27 member states live and work in Luxembourg, giving the capital an unusual diplomatic diversity for its size.",
+      },
+    },
+  },
+  {
+    id: "cementerio-americano-patton",
+    order: 18,
+    placeholderEmoji: "🎖️",
+    accentColor: "#556B2F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Donde descansa el general Patton",
+        subtitle: "El Cementerio Americano",
+        imageAlt: "Caricatura de hileras de cruces blancas sobre un césped cuidado.",
+        description:
+          "El Cementerio y Memorial Americano de Luxemburgo, en las afueras de la capital, alberga las tumbas de 5.076 soldados estadounidenses caídos durante la Batalla de las Ardenas y otras operaciones de la Segunda Guerra Mundial en la región, con hileras perfectamente alineadas de cruces blancas de mármol sobre un césped cuidado con precisión. El sitio es especialmente conocido porque ahí está enterrado el general George S. Patton, uno de los comandantes militares estadounidenses más famosos de la guerra, que murió en un accidente automovilístico en Alemania poco después del fin del conflicto y pidió específicamente ser enterrado junto a los soldados de su propio ejército en lugar de en un cementerio de honor separado. Administrado por Estados Unidos bajo un acuerdo permanente con el gobierno luxemburgués, el cementerio recibe miles de visitantes cada año, muchos de ellos peregrinando específicamente hasta la tumba de Patton.",
+      },
+      en: {
+        title: "Where General Patton Is Buried",
+        subtitle: "The American Cemetery",
+        imageAlt: "Cartoon of rows of white crosses over a manicured lawn.",
+        description:
+          "The Luxembourg American Cemetery and Memorial, on the outskirts of the capital, holds the graves of 5,076 American soldiers killed during the Battle of the Bulge and other World War II operations in the region, with perfectly aligned rows of white marble crosses over precisely manicured lawn. The site is especially known because General George S. Patton, one of the most famous American military commanders of the war, is buried there; he died in a car accident in Germany shortly after the conflict ended and specifically asked to be buried alongside the soldiers of his own army rather than in a separate cemetery of honor. Managed by the United States under a permanent agreement with the Luxembourgish government, the cemetery receives thousands of visitors every year, many of them making a point of visiting Patton's grave specifically.",
+      },
+    },
+  },
+  {
+    id: "sprangprozessioun",
+    order: 19,
+    placeholderEmoji: "💃",
+    accentColor: "#8B7355",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La procesión que se camina dando saltitos",
+        subtitle: "La Sprangprozessioun",
+        imageAlt: "Caricatura de una fila de personas dando pequeños saltos por una calle empedrada.",
+        description:
+          "Cada año, el martes después de Pentecostés, la ciudad de Echternach es escenario de la Sprangprozessioun o 'procesión saltarina', una tradición religiosa única en el mundo en la que miles de participantes recorren las calles del casco histórico avanzando literalmente a los saltos —tres pasos hacia adelante y dos hacia atrás, o dando pequeños brincos rítmicos según la versión de la coreografía—, siguiendo el compás de bandas de música tradicional, en honor a San Willibrordo, el monje que fundó la abadía de la ciudad en el siglo VII. No existe otra celebración religiosa documentada en el mundo con esta forma tan particular de procesión, y la UNESCO la reconoció como Patrimonio Cultural Inmaterial de la Humanidad en 2010. La tradición se remonta, según los registros, al menos al siglo XV, y hoy combina fe católica con una identidad cultural profundamente local que atrae a miles de visitantes cada año.",
+      },
+      en: {
+        title: "The Procession You Walk by Hopping",
+        subtitle: "The Sprangprozessioun",
+        imageAlt: "Cartoon of a line of people hopping down a cobblestone street.",
+        description:
+          "Every year, on the Tuesday after Pentecost, the town of Echternach hosts the Sprangprozessioun, or 'hopping procession,' a religious tradition unique in the world in which thousands of participants make their way through the streets of the old town literally hopping — three steps forward and two back, or small rhythmic skips depending on the version of the choreography — keeping time with traditional brass bands, in honor of Saint Willibrord, the monk who founded the town's abbey in the 7th century. There's no other documented religious celebration anywhere in the world with this particular form of procession, and UNESCO recognized it as Intangible Cultural Heritage in 2010. The tradition dates back, according to records, to at least the 15th century, and today it blends Catholic faith with a deeply local cultural identity that draws thousands of visitors every year.",
+      },
+    },
+  },
+  {
+    id: "schueberfouer",
+    order: 20,
+    placeholderEmoji: "🎡",
+    accentColor: "#C1440E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Una feria con casi 700 años de antigüedad",
+        subtitle: "La Schueberfouer",
+        imageAlt: "Caricatura de una noria y puestos de feria iluminados de noche.",
+        description:
+          "La Schueberfouer, la feria popular más grande de Luxemburgo, se celebra cada año en agosto y septiembre desde que el conde Juan el Ciego de Bohemia otorgó una carta real en 1340 autorizando un mercado anual en las afueras de la Ciudad de Luxemburgo, lo que la convierte en una de las ferias itinerantes de origen documentado más antiguas de Europa. Con el paso de los siglos pasó de ser un mercado de ganado y textiles a convertirse en un parque de diversiones temporal con montañas rusas, noria y puestos de comida, que hoy atrae a más de dos millones de visitantes durante sus casi tres semanas de duración, una cifra enorme para un país de menos de 700.000 habitantes. Una tradición asociada es el 'Hämmelsmarsch', un desfile de bandas musicales que recorre la ciudad antes de la apertura oficial, acompañado tradicionalmente por ovejas decoradas con cintas.",
+      },
+      en: {
+        title: "A Fair Almost 700 Years Old",
+        subtitle: "The Schueberfouer",
+        imageAlt: "Cartoon of a Ferris wheel and lit-up fair stalls at night.",
+        description:
+          "The Schueberfouer, Luxembourg's largest popular fair, has been held every year in August and September since Count John the Blind of Bohemia granted a royal charter in 1340 authorizing an annual market on the outskirts of Luxembourg City, making it one of the oldest documented traveling fairs in Europe. Over the centuries it went from a livestock and textile market to a temporary amusement park with roller coasters, a Ferris wheel, and food stalls, today drawing more than two million visitors over its nearly three-week run, an enormous figure for a country of fewer than 700,000 people. An associated tradition is the 'Hämmelsmarsch,' a parade of marching bands through the city before the official opening, traditionally accompanied by ribbon-decorated sheep.",
+      },
+    },
+  },
 ];

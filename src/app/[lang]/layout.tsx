@@ -6,6 +6,7 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import ThemeRegistry from "@/components/ThemeRegistry";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import Footer from "@/components/Footer";
 import { locales, isValidLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import "../globals.css";
@@ -86,6 +87,15 @@ export default async function LangLayout({
             <LanguageSwitcher locale={lang} />
           </Stack>
           {children}
+          <Footer
+            brand={dict.brand}
+            countriesLabel={dict.countriesLabel}
+            storiesLabel={dict.storiesLabel}
+            locationLabel={dict.footerLocation}
+            tagline={dict.tagline}
+            madeByLabel={dict.madeBy}
+            locale={lang}
+          />
         </ThemeRegistry>
       </body>
     </html>

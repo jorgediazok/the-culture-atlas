@@ -146,6 +146,149 @@ const VodkaBrindis: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const TablaPeriodica: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      {Array.from({ length: 3 }).map((_, row) =>
+        Array.from({ length: 4 }).map((_, col) => (
+          <rect
+            key={`${row}-${col}`}
+            x={160 + col * 20}
+            y={115 + row * 20}
+            width="16"
+            height="16"
+            fill={(row + col) % 2 === 0 ? accentColor : light}
+            stroke={dark}
+            strokeWidth="1"
+          />
+        ))
+      )}
+    </g>
+  );
+};
+
+const Tetris: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <rect x="175" y="120" width="14" height="14" fill={accentColor} />
+      <rect x="189" y="120" width="14" height="14" fill={accentColor} />
+      <rect x="189" y="134" width="14" height="14" fill={dark} />
+      <rect x="203" y="134" width="14" height="14" fill={dark} />
+      <rect x="175" y="150" width="14" height="14" fill={light} />
+      <rect x="189" y="150" width="14" height="14" fill={light} />
+      <rect x="203" y="150" width="14" height="14" fill={light} />
+    </g>
+  );
+};
+
+const YuriGagarin: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.75);
+  return (
+    <g>
+      <circle cx="200" cy="140" r="35" fill={light} stroke={accentColor} strokeWidth="6" />
+      <circle cx="200" cy="140" r="18" fill={dark} />
+      <path d="M180 175 q20 15 40 0" fill="none" stroke={accentColor} strokeWidth="4" />
+    </g>
+  );
+};
+
+const Tchaikovsky: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <line x1="180" y1="180" x2="220" y2="105" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+      <ellipse cx="180" cy="180" rx="10" ry="6" fill={accentColor} />
+      <path d="M220 105 q14 4 10 16" fill="none" stroke={accentColor} strokeWidth="4" />
+    </g>
+  );
+};
+
+const VanguardiaRusa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <rect x="160" y="115" width="55" height="55" fill={dark} />
+      <circle cx="235" cy="150" r="24" fill={accentColor} />
+      <rect x="205" y="160" width="18" height="40" fill={light} transform="rotate(20 214 180)" />
+    </g>
+  );
+};
+
+const EisensteinMontaje: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <rect x="155" y="120" width="35" height="45" fill={accentColor} transform="rotate(-8 172 142)" />
+      <rect x="205" y="125" width="35" height="45" fill={dark} transform="rotate(6 222 147)" />
+      <circle cx="172" cy="142" r="4" fill={light} />
+      <circle cx="222" cy="147" r="4" fill={light} />
+    </g>
+  );
+};
+
+const RusiaMasGrande: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <ellipse cx="200" cy="140" rx="65" ry="30" fill={light} />
+      <path d="M145 135 q60 -20 110 5 q-55 25 -110 -5 Z" fill={accentColor} />
+      {[165, 195, 225].map((x) => (
+        <line key={x} x1={x} y1="115" x2={x} y2="165" stroke={dark} strokeWidth="2" opacity="0.5" />
+      ))}
+    </g>
+  );
+};
+
+const Caviar: IllustrationComponent = ({ accentColor }) => {
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <ellipse cx="200" cy="150" rx="35" ry="20" fill={accentColor} />
+      {Array.from({ length: 14 }).map((_, i) => (
+        <circle key={i} cx={175 + (i % 7) * 7} cy={143 + Math.floor(i / 7) * 12} r="3" fill={light} />
+      ))}
+    </g>
+  );
+};
+
+const LagoBaikal: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const light = tint(accentColor, 0.55);
+  return (
+    <g>
+      <ellipse cx="200" cy="150" rx="55" ry="35" fill={light} stroke={accentColor} strokeWidth="4" />
+      <ellipse cx="200" cy="150" rx="30" ry="16" fill={dark} opacity="0.5" />
+      <polygon points="160,120 170,105 180,120" fill={accentColor} />
+      <polygon points="215,115 225,100 235,115" fill={accentColor} />
+    </g>
+  );
+};
+
+const KizhiPogost: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const light = tint(accentColor, 0.6);
+  const domes = [162, 178, 194, 210, 226];
+  return (
+    <g>
+      <rect x="150" y="185" width="100" height="15" fill={dark} />
+      {domes.map((x, i) => (
+        <g key={x}>
+          <rect x={x - 4} y={165 - (i % 2) * 8} width="8" height="20" fill={accentColor} />
+          <circle cx={x} cy={160 - (i % 2) * 8} r="7" fill={i % 2 === 0 ? accentColor : light} />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const russiaIllustrations: Record<string, IllustrationDefinition> = {
   samovar: { component: Samovar, variant: "medallion" },
   matrioska: { component: Matrioska, variant: "medallion" },
@@ -157,4 +300,14 @@ export const russiaIllustrations: Record<string, IllustrationDefinition> = {
   "gran-novela-rusa": { component: GranNovelaRusa, variant: "medallion" },
   "ded-moroz": { component: DedMoroz },
   "vodka-brindis": { component: VodkaBrindis, variant: "medallion" },
+  "tabla-periodica": { component: TablaPeriodica },
+  tetris: { component: Tetris },
+  "yuri-gagarin": { component: YuriGagarin, variant: "medallion" },
+  tchaikovsky: { component: Tchaikovsky },
+  "vanguardia-rusa": { component: VanguardiaRusa },
+  "eisenstein-montaje": { component: EisensteinMontaje },
+  "rusia-mas-grande": { component: RusiaMasGrande },
+  caviar: { component: Caviar, variant: "medallion" },
+  "lago-baikal": { component: LagoBaikal },
+  "kizhi-pogost": { component: KizhiPogost },
 };

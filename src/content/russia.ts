@@ -251,4 +251,234 @@ export const russia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "tabla-periodica",
+    order: 11,
+    placeholderEmoji: "🧪",
+    accentColor: "#1B4B6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cuadro que ordenó toda la química",
+        subtitle: "La tabla periódica",
+        imageAlt: "Caricatura de una grilla de casillas numeradas con símbolos químicos.",
+        description:
+          "El químico ruso Dmitri Mendeléyev presentó en 1869 la primera versión ampliamente aceptada de la tabla periódica de los elementos, organizando los elementos químicos conocidos hasta entonces según su peso atómico y sus propiedades recurrentes, en un sistema tan preciso que le permitió predecir la existencia de elementos que todavía no se habían descubierto, dejando espacios vacíos en su tabla para ellos. Cuenta la leyenda —probablemente exagerada, pero muy repetida— que la estructura final del ordenamiento se le ocurrió en un sueño, después de días trabajando obsesivamente en el problema. Décadas después, varios de los elementos que Mendeléyev había predicho con huecos vacíos, como el galio y el germanio, fueron efectivamente descubiertos con propiedades casi idénticas a las que él había anticipado, confirmando la validez de su sistema y convirtiéndolo en una de las herramientas más universales y reconocibles de toda la ciencia.",
+      },
+      en: {
+        title: "The Chart That Organized All of Chemistry",
+        subtitle: "The Periodic Table",
+        imageAlt: "Cartoon of a grid of numbered boxes with chemical symbols.",
+        description:
+          "Russian chemist Dmitri Mendeleev presented in 1869 the first widely accepted version of the periodic table of elements, organizing the chemical elements known at the time by atomic weight and recurring properties, in a system precise enough to let him predict the existence of elements not yet discovered, leaving empty gaps in his table for them. Legend has it — probably exaggerated, but often repeated — that the final structure came to him in a dream, after days of obsessively working on the problem. Decades later, several of the elements Mendeleev had predicted with empty gaps, like gallium and germanium, were indeed discovered with properties almost identical to what he had anticipated, confirming the validity of his system and making it one of the most universal and recognizable tools in all of science.",
+      },
+    },
+  },
+  {
+    id: "tetris",
+    order: 12,
+    placeholderEmoji: "🎮",
+    accentColor: "#3D5A80",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El videojuego que se creó dentro de una academia de ciencias",
+        subtitle: "Tetris",
+        imageAlt: "Caricatura de piezas de bloques geométricos cayendo y encastrando entre sí.",
+        description:
+          "Tetris, uno de los videojuegos más vendidos y reconocibles de la historia, fue creado en 1984 por el programador soviético Alexéi Pázhitnov, que trabajaba en la Academia de Ciencias de la URSS y desarrolló el juego en sus ratos libres usando una computadora Electronika 60, sin ninguna intención comercial inicial. El nombre combina 'tetra' (por las piezas de cuatro bloques) con 'tenis', el deporte favorito de Pázhitnov. Debido a las leyes soviéticas de la época, los derechos del juego pertenecían inicialmente al Estado, y su exportación y licenciamiento a Occidente involucró una negociación tan compleja y opaca que todavía hoy es estudiada como un caso particular de la Guerra Fría aplicada a la industria del entretenimiento. Pázhitnov recién empezó a recibir regalías por su propia creación en 1996, siete años después de que el juego se hubiera vuelto un fenómeno mundial.",
+      },
+      en: {
+        title: "The Video Game Created Inside a Science Academy",
+        subtitle: "Tetris",
+        imageAlt: "Cartoon of geometric block pieces falling and fitting together.",
+        description:
+          "Tetris, one of the best-selling and most recognizable video games in history, was created in 1984 by Soviet programmer Alexey Pajitnov, who worked at the USSR Academy of Sciences and developed the game in his spare time using an Electronika 60 computer, with no commercial intention at first. The name combines 'tetra' (for the four-block pieces) with 'tennis,' Pajitnov's favorite sport. Because of Soviet law at the time, the rights to the game initially belonged to the state, and its export and licensing to the West involved a negotiation so complex and opaque that it's still studied today as a particular case of the Cold War applied to the entertainment industry. Pajitnov only started receiving royalties from his own creation in 1996, seven years after the game had already become a worldwide phenomenon.",
+      },
+    },
+  },
+  {
+    id: "yuri-gagarin",
+    order: 13,
+    placeholderEmoji: "🚀",
+    accentColor: "#0B3D91",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El primer ser humano en salir de la Tierra",
+        subtitle: "Yuri Gagarin",
+        imageAlt: "Caricatura de un casco de cosmonauta redondo con una pequeña nave despegando al fondo.",
+        description:
+          "El 12 de abril de 1961, el cosmonauta soviético Yuri Gagarin se convirtió en el primer ser humano en viajar al espacio, completando una órbita completa alrededor de la Tierra a bordo de la nave Vostok 1 en apenas 108 minutos. Gagarin, hijo de campesinos y ex piloto de caza, fue elegido entre veinte candidatos finalistas en parte por su carisma y su estatura relativamente baja, ideal para la cabina reducida de la nave. Su vuelo se convirtió en un triunfo propagandístico monumental para la Unión Soviética en plena Guerra Fría, y su frase 'Poyejali!' ('¡Vamos!'), pronunciada justo antes del despegue, quedó grabada como una de las citas más recordadas de la historia de la exploración espacial. Gagarin murió en 1968 en un accidente durante un vuelo de entrenamiento rutinario, sin volver a ir al espacio, pero su nombre sigue siendo sinónimo mundial del inicio de la era espacial humana.",
+      },
+      en: {
+        title: "The First Human Being to Leave Earth",
+        subtitle: "Yuri Gagarin",
+        imageAlt: "Cartoon of a round cosmonaut helmet with a small spacecraft launching in the background.",
+        description:
+          "On April 12, 1961, Soviet cosmonaut Yuri Gagarin became the first human being to travel into space, completing a full orbit of the Earth aboard the Vostok 1 spacecraft in just 108 minutes. Gagarin, the son of farmers and a former fighter pilot, was chosen among twenty finalist candidates partly for his charisma and his relatively short stature, ideal for the spacecraft's cramped cabin. His flight became a monumental propaganda triumph for the Soviet Union in the middle of the Cold War, and his phrase 'Poyekhali!' ('Let's go!'), said right before liftoff, has gone down as one of the most remembered lines in the history of space exploration. Gagarin died in 1968 in an accident during a routine training flight, never returning to space, but his name remains a worldwide synonym for the dawn of the human space age.",
+      },
+    },
+  },
+  {
+    id: "tchaikovsky",
+    order: 14,
+    placeholderEmoji: "🎼",
+    accentColor: "#5C4B99",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El compositor que le puso música a los cuentos de hadas",
+        subtitle: "Chaikovski",
+        imageAlt: "Caricatura de una batuta de director de orquesta apoyada sobre una partitura abierta.",
+        description:
+          "Piotr Ilich Chaikovski, el compositor ruso más interpretado en escenarios de todo el mundo, escribió partituras que se volvieron tan universales que muchas personas las reconocen sin saber su origen: 'El lago de los cisnes', 'La bella durmiente' y 'El cascanueces', tres de los ballets más representados de la historia, salen todos de su pluma. La suite de 'El cascanueces' en particular se volvió sinónimo de las fiestas de fin de año en buena parte del mundo occidental, programada casi automáticamente por orquestas y compañías de danza cada diciembre desde hace más de un siglo. Su 'Obertura 1812', compuesta para conmemorar la resistencia rusa contra la invasión napoleónica, incluye disparos de cañón reales en su partitura original y se convirtió en una de las piezas de música clásica más reconocibles fuera del ámbito específicamente clásico, usada hasta en fuegos artificiales y eventos deportivos.",
+      },
+      en: {
+        title: "The Composer Who Put Music to Fairy Tales",
+        subtitle: "Tchaikovsky",
+        imageAlt: "Cartoon of a conductor's baton resting on an open musical score.",
+        description:
+          "Pyotr Ilyich Tchaikovsky, the most performed Russian composer on stages around the world, wrote scores that became so universal that many people recognize them without knowing their origin: 'Swan Lake,' 'The Sleeping Beauty,' and 'The Nutcracker,' three of the most performed ballets in history, all come from his pen. The 'Nutcracker' suite in particular became synonymous with year-end holidays across much of the Western world, programmed almost automatically by orchestras and dance companies every December for over a century. His '1812 Overture,' composed to commemorate Russian resistance against Napoleon's invasion, includes actual cannon fire in its original score and became one of the most recognizable pieces of classical music outside strictly classical circles, used everywhere from fireworks displays to sporting events.",
+      },
+    },
+  },
+  {
+    id: "vanguardia-rusa",
+    order: 15,
+    placeholderEmoji: "⬛",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cuadrado negro que quiso terminar con toda la pintura anterior",
+        subtitle: "La vanguardia rusa",
+        imageAlt: "Caricatura de formas geométricas simples y planas de colores primarios superpuestas.",
+        description:
+          "A comienzos del siglo XX, un grupo de artistas rusos —entre ellos Kazimir Malévich, Wassily Kandinsky y Alexander Ródchenko— protagonizó una de las rupturas artísticas más radicales de la historia moderna, dando origen a movimientos como el suprematismo y el constructivismo que influyeron profundamente en el diseño gráfico, la arquitectura y el arte abstracto de todo el siglo XX. La obra más emblemática de ese momento es probablemente 'Cuadrado negro' (1915), de Malévich: literalmente un cuadrado negro pintado sobre un fondo blanco, presentado como el punto cero absoluto de la pintura, un rechazo total a representar cualquier objeto reconocible del mundo real. Aunque el régimen soviético terminó reprimiendo estas corrientes a favor del realismo socialista a partir de los años 30, su influencia visual —tipografías geométricas, formas puras, colores planos— sigue siendo hoy una referencia constante en el diseño gráfico y la publicidad de todo el mundo.",
+      },
+      en: {
+        title: "The Black Square That Wanted to End All Previous Painting",
+        subtitle: "The Russian Avant-Garde",
+        imageAlt: "Cartoon of simple, flat geometric shapes in primary colors overlapping each other.",
+        description:
+          "In the early 20th century, a group of Russian artists — including Kazimir Malevich, Wassily Kandinsky, and Alexander Rodchenko — led one of the most radical artistic breaks in modern history, giving rise to movements like Suprematism and Constructivism that deeply influenced graphic design, architecture, and abstract art throughout the entire 20th century. The most emblematic work of that moment is probably Malevich's 'Black Square' (1915): literally a black square painted on a white background, presented as the absolute zero point of painting, a total refusal to represent any recognizable object from the real world. Although the Soviet regime eventually suppressed these movements in favor of Socialist Realism starting in the 1930s, their visual influence — geometric typography, pure shapes, flat colors — remains a constant reference in graphic design and advertising worldwide today.",
+      },
+    },
+  },
+  {
+    id: "eisenstein-montaje",
+    order: 16,
+    placeholderEmoji: "🎞️",
+    accentColor: "#1B1B1B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El director que enseñó al cine a cortar",
+        subtitle: "Serguéi Eisenstein",
+        imageAlt: "Caricatura de tiras de película cortadas y superpuestas sobre una mesa de edición.",
+        description:
+          "El director soviético Serguéi Eisenstein revolucionó el lenguaje del cine en los años 20 con su teoría del 'montaje', la idea de que el verdadero significado de una película no está en cada toma individual sino en cómo se combinan y chocan entre sí al ser editadas una detrás de otra. Su película 'El acorazado Potemkin' (1925) incluye la secuencia de la escalinata de Odesa, en la que soldados masacran a civiles bajando unas escaleras, considerada hasta hoy una de las secuencias mejor editadas de toda la historia del cine y estudiada obligatoriamente en escuelas de cine de todo el mundo. Directores tan distintos entre sí como Alfred Hitchcock, Francis Ford Coppola o Brian De Palma citaron directamente la influencia de Eisenstein en su forma de construir tensión narrativa a través del corte, convirtiendo a un cineasta formado en la propaganda soviética temprana en una de las referencias técnicas más citadas de toda la historia del cine mundial.",
+      },
+      en: {
+        title: "The Director Who Taught Cinema How to Cut",
+        subtitle: "Sergei Eisenstein",
+        imageAlt: "Cartoon of cut film strips overlapping on an editing table.",
+        description:
+          "Soviet director Sergei Eisenstein revolutionized cinematic language in the 1920s with his theory of 'montage,' the idea that a film's true meaning doesn't lie in each individual shot but in how shots collide and combine with one another when edited together in sequence. His film 'Battleship Potemkin' (1925) includes the Odessa Steps sequence, in which soldiers massacre civilians on a staircase, still considered one of the best-edited sequences in the entire history of cinema and required study at film schools worldwide. Directors as different from one another as Alfred Hitchcock, Francis Ford Coppola, and Brian De Palma directly credited Eisenstein's influence on how they build narrative tension through editing, turning a filmmaker trained in early Soviet propaganda into one of the most cited technical references in the entire history of world cinema.",
+      },
+    },
+  },
+  {
+    id: "rusia-mas-grande",
+    order: 17,
+    placeholderEmoji: "🗺️",
+    accentColor: "#2E5339",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Un país tan grande que abarca once husos horarios",
+        subtitle: "El país más grande del mundo",
+        imageAlt: "Caricatura de un mapa con un territorio enorme cubriendo la mayor parte del globo.",
+        description:
+          "Rusia es, por lejos, el país más grande del planeta: con más de 17 millones de kilómetros cuadrados, ocupa cerca del 11% de toda la superficie terrestre habitable y es casi el doble de extensa que el segundo país más grande, Canadá. Su territorio abarca once husos horarios distintos, tantos que cuando en Kaliningrado, en el extremo oeste, recién está amaneciendo, en Chukotka, en el extremo este, ya casi está anocheciendo del día siguiente. Esta escala genera situaciones prácticas poco habituales en cualquier otro país: un vuelo interno entre Moscú y Vladivostok puede durar más de ocho horas, y es técnicamente posible celebrar el Año Nuevo once veces distintas dentro del mismo país, a medida que la medianoche va avanzando de este a oeste a lo largo de todo el territorio ruso.",
+      },
+      en: {
+        title: "A Country So Big It Spans Eleven Time Zones",
+        subtitle: "The Largest Country in the World",
+        imageAlt: "Cartoon of a map with an enormous territory covering most of the globe.",
+        description:
+          "Russia is, by far, the largest country on the planet: with more than 17 million square kilometers, it covers around 11% of all habitable land on Earth and is nearly twice the size of the second-largest country, Canada. Its territory spans eleven different time zones, so many that when the sun is just rising in Kaliningrad, on the far western edge, it's almost sunset the next day in Chukotka, on the far eastern edge. This scale creates practical situations rare in any other country: a domestic flight between Moscow and Vladivostok can take more than eight hours, and it's technically possible to celebrate New Year eleven separate times within the same country, as midnight sweeps from east to west across the entire Russian territory.",
+      },
+    },
+  },
+  {
+    id: "caviar",
+    order: 18,
+    placeholderEmoji: "🥄",
+    accentColor: "#1A1A1A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Huevas de pescado convertidas en símbolo de lujo",
+        subtitle: "El caviar ruso",
+        imageAlt: "Caricatura de un pequeño frasco de caviar negro brillante con una cuchara de nácar al lado.",
+        description:
+          "El caviar, las huevas saladas de esturión, se asocia mundialmente con el lujo y con Rusia en particular gracias a la histórica pesca de esturión en el mar Caspio, compartido con Irán, Kazajistán y otros países vecinos, que durante siglos produjo el caviar más cotizado del planeta, con variedades como el beluga alcanzando precios de miles de dólares por kilo. La sobrepesca y la construcción de represas que interrumpieron las rutas migratorias del esturión llevaron a la especie al borde de la extinción durante el siglo XX, obligando a Rusia y a los países vecinos a imponer estrictas cuotas y, en muchos casos, prohibiciones totales de pesca salvaje. Hoy la mayor parte del caviar 'ruso' que se consume en el mundo proviene en realidad de esturiones criados en granjas de acuicultura, no de pesca silvestre, aunque la asociación cultural entre el caviar, el lujo y Rusia sigue tan firme como siempre en el imaginario popular internacional.",
+      },
+      en: {
+        title: "Fish Eggs Turned Into a Symbol of Luxury",
+        subtitle: "Russian Caviar",
+        imageAlt: "Cartoon of a small jar of glossy black caviar with a mother-of-pearl spoon beside it.",
+        description:
+          "Caviar, the salted eggs of sturgeon, is associated worldwide with luxury and with Russia in particular thanks to the historic sturgeon fishery of the Caspian Sea, shared with Iran, Kazakhstan, and other neighboring countries, which for centuries produced the most prized caviar on the planet, with varieties like beluga reaching prices of thousands of dollars per kilo. Overfishing and dam construction that disrupted sturgeon migration routes drove the species to the brink of extinction during the 20th century, forcing Russia and neighboring countries to impose strict quotas and, in many cases, total bans on wild fishing. Today most of the 'Russian' caviar consumed around the world actually comes from sturgeon raised on aquaculture farms rather than wild fishing, though the cultural association between caviar, luxury, and Russia remains as strong as ever in the international popular imagination.",
+      },
+    },
+  },
+  {
+    id: "lago-baikal",
+    order: 19,
+    placeholderEmoji: "🌊",
+    accentColor: "#1D6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El lago que guarda una quinta parte del agua dulce del planeta",
+        subtitle: "El lago Baikal",
+        imageAlt: "Caricatura de un lago profundo y azul rodeado de montañas nevadas.",
+        description:
+          "El lago Baikal, en el sur de Siberia, es el lago de agua dulce más profundo y más antiguo del mundo, con más de 1.600 metros de profundidad máxima y una edad estimada de al menos 25 millones de años, muchísimo más viejo que la inmensa mayoría de los lagos del planeta, que suelen desaparecer geológicamente en apenas algunos miles de años. Contiene aproximadamente el 20% de toda el agua dulce no congelada disponible en la superficie terrestre, un volumen tan grande que, si de repente desaparecieran todos los demás lagos del mundo, el agua del Baikal sola tardaría casi un año en llenar el hueco. Su aislamiento geológico durante millones de años permitió la evolución de miles de especies endémicas que no existen en ningún otro lugar, entre ellas la nerpa o foca del Baikal, la única especie de foca del mundo que vive exclusivamente en agua dulce, a miles de kilómetros del océano más cercano.",
+      },
+      en: {
+        title: "The Lake That Holds a Fifth of the World's Fresh Water",
+        subtitle: "Lake Baikal",
+        imageAlt: "Cartoon of a deep blue lake surrounded by snowy mountains.",
+        description:
+          "Lake Baikal, in southern Siberia, is the world's deepest and oldest freshwater lake, with a maximum depth of more than 1,600 meters and an estimated age of at least 25 million years, far older than the vast majority of lakes on the planet, which typically vanish geologically within just a few thousand years. It holds roughly 20% of all the unfrozen fresh surface water on Earth, a volume so large that if every other lake in the world suddenly vanished, Baikal's water alone would take nearly a year to fill the gap. Its geological isolation over millions of years allowed thousands of endemic species to evolve that exist nowhere else, including the Baikal seal, or nerpa, the world's only seal species that lives exclusively in fresh water, thousands of kilometers from the nearest ocean.",
+      },
+    },
+  },
+  {
+    id: "kizhi-pogost",
+    order: 20,
+    placeholderEmoji: "⛪",
+    accentColor: "#8B7355",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Una iglesia de 22 cúpulas construida sin un solo clavo",
+        subtitle: "Kizhi Pogost",
+        imageAlt: "Caricatura de una iglesia de madera con múltiples cúpulas escalonadas y bulbosas.",
+        description:
+          "En la isla de Kizhi, en el lago Onega, al norte de Rusia, se levanta la Iglesia de la Transfiguración, una estructura de madera de casi 37 metros de altura coronada por 22 cúpulas bulbosas, construida en 1714 según la tradición local sin usar un solo clavo de metal, ensamblando todas sus piezas mediante técnicas de carpintería tradicional rusa de encastre y talla. La leyenda popular, imposible de confirmar históricamente, cuenta que el carpintero principal tiró su hacha al lago al terminar la obra, declarando que nunca más se construiría algo igual. Declarado Patrimonio de la Humanidad por la UNESCO en 1990, el conjunto arquitectónico de Kizhi requirió, décadas después, una restauración estructural interna con soportes de acero ocultos para garantizar su estabilidad a largo plazo, aunque manteniendo intacta su apariencia exterior original de madera tallada sin un solo clavo visible.",
+      },
+      en: {
+        title: "A 22-Domed Church Built Without a Single Nail",
+        subtitle: "Kizhi Pogost",
+        imageAlt: "Cartoon of a wooden church with multiple tiered, bulbous domes.",
+        description:
+          "On the island of Kizhi, on Lake Onega in northern Russia, stands the Church of the Transfiguration, a wooden structure nearly 37 meters tall crowned by 22 bulbous domes, built in 1714 according to local tradition without using a single metal nail, assembling every piece using traditional Russian joinery and carving techniques. A popular legend, impossible to confirm historically, claims the master carpenter threw his axe into the lake upon finishing the work, declaring that nothing like it would ever be built again. Declared a UNESCO World Heritage Site in 1990, the Kizhi architectural ensemble required, decades later, an internal structural restoration with hidden steel supports to guarantee its long-term stability, while keeping its original exterior appearance of carved wood with not a single visible nail intact.",
+      },
+    },
+  },
 ];

@@ -132,6 +132,132 @@ const DolceVita: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const Piano: IllustrationComponent = ({ accentColor }) => {
+  const light = tint(accentColor, 0.9);
+  return (
+    <g>
+      <rect x="155" y="130" width="90" height="40" fill={accentColor} />
+      {[0, 1, 2, 3, 4, 5, 6].map((i) => (
+        <rect key={i} x={160 + i * 12} y="130" width="10" height="26" fill={light} />
+      ))}
+    </g>
+  );
+};
+
+const Anteojos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g fill="none" stroke={accentColor} strokeWidth="6">
+      <circle cx="178" cy="150" r="22" fill={light} />
+      <circle cx="222" cy="150" r="22" fill={light} />
+      <line x1="200" y1="150" x2="200" y2="150" stroke={dark} strokeWidth="4" />
+      <path d="M156 148 h-12 M244 148 h12" />
+    </g>
+  );
+};
+
+const LeonardoDaVinci: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <rect x="160" y="115" width="80" height="60" fill={light} stroke={accentColor} strokeWidth="3" />
+      <circle cx="200" cy="145" r="24" fill="none" stroke={dark} strokeWidth="2" />
+      <line x1="176" y1="145" x2="224" y2="145" stroke={dark} strokeWidth="2" />
+      <line x1="200" y1="121" x2="200" y2="169" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const GalileoGalilei: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.75);
+  return (
+    <g>
+      <rect x="185" y="150" width="40" height="12" rx="4" fill={accentColor} transform="rotate(-30 200 156)" />
+      <circle cx="180" cy="170" r="12" fill={dark} />
+      <circle cx="225" cy="115" r="4" fill={light} />
+      <circle cx="240" cy="130" r="3" fill={light} />
+    </g>
+  );
+};
+
+const Opera: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <ellipse cx="200" cy="155" rx="22" ry="30" fill={accentColor} />
+      <circle cx="200" cy="118" r="14" fill={light} />
+      <path d="M170 130 q-10 20 10 35 M230 130 q10 20 -10 35" fill="none" stroke={dark} strokeWidth="4" />
+    </g>
+  );
+};
+
+const Renacimiento: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <circle cx="200" cy="140" r="42" fill="none" stroke={accentColor} strokeWidth="4" />
+      <circle cx="200" cy="140" r="26" fill={light} />
+      <circle cx="200" cy="140" r="10" fill={dark} />
+    </g>
+  );
+};
+
+const PizzaNapoletana: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <circle cx="200" cy="145" r="45" fill="#f4d58d" stroke={dark} strokeWidth="6" />
+      <circle cx="200" cy="145" r="34" fill={accentColor} />
+      {[[188, 132], [212, 138], [195, 155], [215, 158]].map(([cx, cy], i) => (
+        <circle key={i} cx={cx} cy={cy} r="6" fill={light} />
+      ))}
+    </g>
+  );
+};
+
+const TorrePisa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  return (
+    <g transform="rotate(8 200 150)">
+      <rect x="185" y="100" width="30" height="90" fill={accentColor} />
+      {[110, 125, 140, 155, 170].map((y) => (
+        <rect key={y} x="182" y={y} width="36" height="4" fill={dark} />
+      ))}
+    </g>
+  );
+};
+
+const Vaticano: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <path d="M200 100 a35 35 0 0 1 35 35 h-70 a35 35 0 0 1 35 -35 Z" fill={light} stroke={accentColor} strokeWidth="4" />
+      <rect x="185" y="135" width="30" height="45" fill={accentColor} />
+      <circle cx="200" cy="95" r="6" fill={dark} />
+    </g>
+  );
+};
+
+const SassiMatera: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const light = tint(accentColor, 0.55);
+  return (
+    <g>
+      <polygon points="150,190 160,140 250,140 250,190" fill={dark} />
+      {[0, 1, 2].map((i) => (
+        <rect key={i} x={165 + i * 28} y={150 + (i % 2) * 12} width="20" height="18" fill={i % 2 === 0 ? accentColor : light} />
+      ))}
+    </g>
+  );
+};
+
 export const italyIllustrations: Record<string, IllustrationDefinition> = {
   pasta: { component: Pasta, variant: "medallion" },
   espresso: { component: Espresso, variant: "medallion" },
@@ -143,4 +269,14 @@ export const italyIllustrations: Record<string, IllustrationDefinition> = {
   "motor-valley": { component: MotorValley },
   "venecia-gondolas": { component: VeneciaGondolas },
   "dolce-vita": { component: DolceVita },
+  piano: { component: Piano },
+  anteojos: { component: Anteojos, variant: "medallion" },
+  "leonardo-da-vinci": { component: LeonardoDaVinci },
+  "galileo-galilei": { component: GalileoGalilei },
+  opera: { component: Opera, variant: "medallion" },
+  renacimiento: { component: Renacimiento, variant: "medallion" },
+  "pizza-napoletana": { component: PizzaNapoletana, variant: "medallion" },
+  "torre-pisa": { component: TorrePisa },
+  vaticano: { component: Vaticano },
+  "sassi-matera": { component: SassiMatera },
 };

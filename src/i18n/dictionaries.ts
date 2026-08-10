@@ -9,6 +9,9 @@ const dictionaries = {
     backToFirstPage: "← Volver a la primera página",
     storiesLabel: "historias",
     coverLabel: "Portada",
+    countriesLabel: "países",
+    footerLocation: "Compuesto en Buenos Aires, Argentina",
+    madeBy: "Hecho por",
     continents: {
       europe: "Europa",
       "south-america": "Sudamérica",
@@ -26,6 +29,9 @@ const dictionaries = {
     backToFirstPage: "← Back to first page",
     storiesLabel: "stories",
     coverLabel: "Cover",
+    countriesLabel: "countries",
+    footerLocation: "Set in Buenos Aires, Argentina",
+    madeBy: "Made by",
     continents: {
       europe: "Europe",
       "south-america": "South America",

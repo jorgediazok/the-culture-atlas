@@ -124,6 +124,139 @@ const SavoirVivre: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const Braille: IllustrationComponent = ({ accentColor }) => {
+  const light = tint(accentColor, 0.7);
+  const dots = [
+    [180, 115],
+    [180, 138],
+    [180, 161],
+    [220, 115],
+    [220, 138],
+    [220, 161],
+  ];
+  return (
+    <g>
+      <rect x="160" y="100" width="80" height="76" rx="8" fill={accentColor} />
+      {dots.map(([cx, cy], i) => (
+        <circle key={i} cx={cx} cy={cy} r="8" fill={light} />
+      ))}
+    </g>
+  );
+};
+
+const Daguerrotipo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <rect x="155" y="130" width="90" height="55" rx="6" fill={accentColor} />
+      <circle cx="200" cy="157" r="22" fill={dark} />
+      <circle cx="200" cy="157" r="12" fill={light} />
+      <rect x="180" y="118" width="40" height="16" fill={dark} />
+    </g>
+  );
+};
+
+const Napoleon: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <path d="M150 145 Q200 110 250 145 Q220 130 200 132 Q180 130 150 145 Z" fill={dark} />
+      <rect x="192" y="150" width="16" height="45" fill={accentColor} />
+      <circle cx="200" cy="145" r="6" fill={light} />
+    </g>
+  );
+};
+
+const MarieCurie: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <path d="M180 190 v-50 a20 30 0 0 1 40 0 v50 Z" fill={light} stroke={accentColor} strokeWidth="4" />
+      <circle cx="200" cy="140" r="14" fill={dark} opacity="0.7" />
+      <circle cx="192" cy="150" r="6" fill={dark} opacity="0.5" />
+      <circle cx="210" cy="155" r="5" fill={dark} opacity="0.5" />
+    </g>
+  );
+};
+
+const Impresionismo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <circle cx="180" cy="130" r="18" fill={accentColor} opacity="0.8" />
+      <circle cx="215" cy="150" r="22" fill={light} opacity="0.8" />
+      <circle cx="195" cy="170" r="16" fill={dark} opacity="0.7" />
+      <circle cx="235" cy="120" r="10" fill={dark} opacity="0.6" />
+    </g>
+  );
+};
+
+const EdithPiaf: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.75);
+  return (
+    <g>
+      <ellipse cx="200" cy="150" rx="20" ry="28" fill={accentColor} />
+      <circle cx="200" cy="114" r="14" fill={light} />
+      <rect x="196" y="178" width="8" height="16" fill={dark} />
+      <circle cx="225" cy="118" r="4" fill={light} />
+    </g>
+  );
+};
+
+const Louvre: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.7);
+  return (
+    <g>
+      <rect x="150" y="178" width="100" height="10" fill={dark} />
+      <polygon points="200,120 240,178 160,178" fill={light} stroke={accentColor} strokeWidth="3" />
+    </g>
+  );
+};
+
+const PerfumeGrasse: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <path d="M185 140 h30 v45 a15 12 0 0 1 -30 0 Z" fill={light} stroke={accentColor} strokeWidth="3" />
+      <rect x="192" y="122" width="16" height="18" fill={dark} />
+      <rect x="188" y="114" width="24" height="10" rx="3" fill={accentColor} />
+    </g>
+  );
+};
+
+const AcademiaFrancesa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      <path d="M155 120 h85 v65 h-85 Z" fill={accentColor} />
+      <rect x="163" y="130" width="69" height="6" fill={light} />
+      <rect x="163" y="145" width="69" height="6" fill={light} />
+      <rect x="163" y="160" width="45" height="6" fill={light} />
+      <line x1="220" y1="115" x2="245" y2="90" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const Semana35Horas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.75);
+  return (
+    <g>
+      <circle cx="200" cy="145" r="42" fill={light} stroke={accentColor} strokeWidth="6" />
+      <line x1="200" y1="145" x2="200" y2="118" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+      <line x1="200" y1="145" x2="222" y2="145" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const franceIllustrations: Record<string, IllustrationDefinition> = {
   baguette: { component: Baguette, variant: "medallion" },
   vino: { component: Vino, variant: "medallion" },
@@ -135,4 +268,14 @@ export const franceIllustrations: Record<string, IllustrationDefinition> = {
   cine: { component: Cine, variant: "medallion" },
   "tour-de-francia": { component: TourDeFrancia },
   "savoir-vivre": { component: SavoirVivre, variant: "medallion" },
+  braille: { component: Braille },
+  daguerrotipo: { component: Daguerrotipo },
+  napoleon: { component: Napoleon },
+  "marie-curie": { component: MarieCurie },
+  impresionismo: { component: Impresionismo, variant: "medallion" },
+  "edith-piaf": { component: EdithPiaf, variant: "medallion" },
+  louvre: { component: Louvre },
+  "perfume-grasse": { component: PerfumeGrasse, variant: "medallion" },
+  "academia-francesa": { component: AcademiaFrancesa },
+  "semana-35-horas": { component: Semana35Horas, variant: "medallion" },
 };
