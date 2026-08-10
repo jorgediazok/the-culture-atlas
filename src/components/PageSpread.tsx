@@ -22,10 +22,8 @@ export default function PageSpread({
   // well under this threshold and render at full size — this only kicks in
   // for the rare outlier that's still long after trimming the copy itself.
   const descriptionLength = entry.description.length;
-  const descriptionFontSize =
-    descriptionLength > 1300 ? 13.5 : descriptionLength > 1100 ? 15 : 16;
-  const descriptionLineHeight =
-    descriptionLength > 1300 ? 1.5 : descriptionLength > 1100 ? 1.6 : 1.7;
+  const descriptionFontSize = descriptionLength > 1400 ? 14.5 : 16;
+  const descriptionLineHeight = descriptionLength > 1400 ? 1.6 : 1.7;
 
   return (
     <BookPageFrame>
@@ -87,19 +85,14 @@ export default function PageSpread({
           sx={{
             flex: { xs: 1, md: "1 1 50%" },
             minWidth: 0,
-            pt: { xs: 3, md: 5 },
-            pr: { xs: 3, md: 5 },
-            pb: { xs: 3, md: 5 },
-            pl: { xs: 3, md: 7 },
+            pt: { xs: 3, md: 6 },
+            pr: { xs: 3, md: 6 },
+            pb: { xs: 3, md: 6 },
+            pl: { xs: 3, md: 9 },
             display: "flex",
             flexDirection: "column",
-            // Top-aligned, not centered: a centered flex column with
-            // overflow clips content from BOTH ends when it's too tall,
-            // which was hiding the chip and title at the top. Starting
-            // from the top guarantees they're always visible, and only
-            // the tail of a long description can ever get cut.
-            justifyContent: { xs: "center", md: "flex-start" },
-            gap: 1.5,
+            justifyContent: "center",
+            gap: 2,
             position: "relative",
             overflowY: { md: "auto" },
           }}
@@ -122,7 +115,6 @@ export default function PageSpread({
           />
           <Chip
             label={entry.subtitle}
-            size="small"
             sx={{
               alignSelf: "flex-start",
               backgroundColor: entry.accentColor,
@@ -130,15 +122,7 @@ export default function PageSpread({
               fontWeight: 600,
             }}
           />
-          <Typography
-            variant="h4"
-            component="h2"
-            sx={{
-              fontWeight: 700,
-              fontSize: { md: descriptionLength > 1100 ? "1.5rem" : "2.125rem" },
-              lineHeight: { md: 1.25 },
-            }}
-          >
+          <Typography variant="h4" component="h2" sx={{ fontWeight: 700 }}>
             {entry.title}
           </Typography>
           <Typography
