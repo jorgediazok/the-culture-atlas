@@ -282,7 +282,7 @@ export const russia: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El videojuego que se creó dentro de una academia de ciencias",
+        title: "El videojuego creado en una academia de ciencias",
         subtitle: "Tetris",
         imageAlt: "Caricatura de piezas de bloques geométricos cayendo y encastrando entre sí.",
         description:
@@ -351,14 +351,14 @@ export const russia: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El cuadrado negro que quiso terminar con toda la pintura anterior",
+        title: "El cuadrado negro que quiso terminar con la pintura",
         subtitle: "La vanguardia rusa",
         imageAlt: "Caricatura de formas geométricas simples y planas de colores primarios superpuestas.",
         description:
           "A comienzos del siglo XX, un grupo de artistas rusos —entre ellos Kazimir Malévich, Wassily Kandinsky y Alexander Ródchenko— protagonizó una de las rupturas artísticas más radicales de la historia moderna, dando origen a movimientos como el suprematismo y el constructivismo que influyeron profundamente en el diseño gráfico, la arquitectura y el arte abstracto de todo el siglo XX. La obra más emblemática de ese momento es probablemente 'Cuadrado negro' (1915), de Malévich: literalmente un cuadrado negro pintado sobre un fondo blanco, presentado como el punto cero absoluto de la pintura, un rechazo total a representar cualquier objeto reconocible del mundo real. Aunque el régimen soviético terminó reprimiendo estas corrientes a favor del realismo socialista a partir de los años 30, su influencia visual —tipografías geométricas, formas puras, colores planos— sigue siendo hoy una referencia constante en el diseño gráfico y la publicidad de todo el mundo.",
       },
       en: {
-        title: "The Black Square That Wanted to End All Previous Painting",
+        title: "The Black Square That Tried to End All Painting",
         subtitle: "The Russian Avant-Garde",
         imageAlt: "Cartoon of simple, flat geometric shapes in primary colors overlapping each other.",
         description:
@@ -443,7 +443,7 @@ export const russia: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El lago que guarda una quinta parte del agua dulce del planeta",
+        title: "El lago con una quinta parte del agua dulce del planeta",
         subtitle: "El lago Baikal",
         imageAlt: "Caricatura de un lago profundo y azul rodeado de montañas nevadas.",
         description:
