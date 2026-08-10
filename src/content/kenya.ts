@@ -32,14 +32,14 @@ export const kenya: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El pueblo guerrero que preservó su forma de vida durante siglos",
+        title: "El pueblo guerrero que preservó su forma de vida",
         subtitle: "El pueblo masái",
         imageAlt: "Caricatura de una manta roja masái junto a un collar de cuentas de colores.",
         description:
           "El pueblo masái, una etnia seminómada que habita las llanuras del sur de Kenia y el norte de Tanzania, mantiene buena parte de su forma de vida tradicional centrada en el pastoreo de ganado, considerado no solo un recurso económico sino un elemento espiritual, ya que según sus creencias tradicionales todo el ganado del mundo fue entregado a su pueblo por el dios Enkai. Reconocibles por sus mantas rojas 'shuka' y sus elaborados collares de cuentas que cada mujer confecciona a mano, los masái desarrollaron también una tradición de salto vertical conocida como 'adumu', ejecutada por guerreros jóvenes en ceremonias de paso a la adultez. Pese a la presión del turismo y de políticas de conservación que restringieron su acceso a zonas hoy convertidas en reservas naturales, la comunidad mantiene un fuerte sentido de identidad, y muchas aldeas combinan el pastoreo con visitas turísticas guiadas que les permiten preservar económicamente su cultura.",
       },
       en: {
-        title: "The Warrior People Who Preserved Their Way of Life for Centuries",
+        title: "The Warrior People Who Preserved Their Way of Life",
         subtitle: "The Maasai People",
         imageAlt: "Cartoon of a red Maasai blanket beside a colorful beaded necklace.",
         description:
@@ -55,14 +55,14 @@ export const kenya: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El sistema de dinero móvil que Kenia inventó antes que nadie",
+        title: "El dinero móvil que Kenia inventó antes que nadie",
         subtitle: "M-Pesa",
         imageAlt: "Caricatura de un teléfono celular básico con un ícono de dinero en la pantalla.",
         description:
           "M-Pesa, lanzado en Kenia en 2007 por la compañía Safaricom, permitió a millones de kenianos enviar, recibir y guardar dinero desde un teléfono celular básico, sin cuenta bancaria tradicional, en un país donde la mayoría no tenía acceso a servicios financieros formales por la escasez de sucursales bancarias fuera de las grandes ciudades. El sistema resultó tan exitoso que en pocos años se convirtió en una infraestructura financiera prácticamente paralela al sistema bancario tradicional, usada hoy por la gran mayoría de los adultos kenianos para pagar desde el transporte público hasta salarios y facturas, un nivel de adopción que convirtió a Kenia en un caso de estudio internacional. La innovación resultó tan influyente que investigadores de países mucho más ricos viajaron a Kenia a estudiar el modelo, en un ejemplo poco habitual de un país en desarrollo liderando una innovación que otros luego intentaron replicar.",
       },
       en: {
-        title: "The Mobile Money System Kenya Invented Before Anyone Else",
+        title: "The Mobile Money Kenya Invented Before Anyone Else",
         subtitle: "M-Pesa",
         imageAlt: "Cartoon of a basic mobile phone with a money icon on the screen.",
         description:
@@ -124,7 +124,7 @@ export const kenya: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El grano que se convirtió en referencia mundial de calidad",
+        title: "El grano que es referencia mundial de calidad",
         subtitle: "El café keniano",
         imageAlt: "Caricatura de una taza de café humeante junto a granos de café tostados.",
         description:
@@ -147,14 +147,14 @@ export const kenya: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La lengua franca que unió a millones más allá de las fronteras",
+        title: "La lengua franca que unió a millones de personas",
         subtitle: "El idioma suajili",
         imageAlt: "Caricatura de dos globos de diálogo entrelazados con patrones costeros.",
         description:
           "El suajili, idioma oficial de Kenia junto al inglés y hablado por más de 100 millones de personas en África oriental, surgió a lo largo de varios siglos como una lengua de comercio en la costa del océano Índico, combinando una base gramatical bantú con vocabulario árabe, resultado de siglos de intercambio entre comerciantes árabes y las poblaciones bantúes locales. La propia palabra 'suajili' deriva del árabe 'sawahil', que significa 'costas', y el idioma se propagó tierra adentro junto con las rutas de caravanas que conectaban la costa con el interior del continente antes de la colonización europea. A diferencia de otros idiomas africanos limitados a un solo grupo étnico, el suajili funciona hoy como lengua franca regional en Kenia, Tanzania, Uganda y países vecinos, y fue reconocido en 2022 como idioma oficial de trabajo de la Unión Africana.",
       },
       en: {
-        title: "The Lingua Franca That United Millions Across Borders",
+        title: "The Lingua Franca That United Millions of People",
         subtitle: "The Swahili Language",
         imageAlt: "Cartoon of two overlapping speech bubbles with coastal patterns.",
         description:
@@ -193,14 +193,14 @@ export const kenya: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La ciudad puerto que conectó África con Arabia, India y China",
+        title: "La ciudad puerto que conectó África con Asia",
         subtitle: "Mombasa y la costa suajili",
         imageAlt: "Caricatura de un fuerte costero de piedra junto a un dhow de vela triangular.",
         description:
           "Mombasa, fundada alrededor del siglo IX en una isla natural frente a la costa keniana del océano Índico, se convirtió durante siglos en uno de los puertos comerciales más importantes de la costa oriental africana, un nodo de una extensa red que conectaba África con la península arábiga, la India y hasta China, por donde circulaban marfil, oro, especias y, trágicamente, también personas esclavizadas. Esa posición estratégica atrajo sucesivas oleadas de dominación extranjera: comerciantes árabes y persas primero, luego los portugueses en 1498, que construyeron el Fuerte Jesús, hasta que comerciantes de Omán retomaron el control en el siglo XVIII, cada oleada dejando una huella todavía visible en la ciudad vieja. Esta historia de intercambio dio origen a la cultura suajili, una identidad costera híbrida que combina elementos bantúes, árabes, persas e indios en su arquitectura y gastronomía, con Mombasa manteniéndose hasta hoy como el puerto más importante de Kenia.",
       },
       en: {
-        title: "The Port City That Connected Africa With Arabia, India, and China",
+        title: "The Port City That Connected Africa With Asia",
         subtitle: "Mombasa and the Swahili Coast",
         imageAlt: "Cartoon of a stone coastal fort beside a triangular-sailed dhow.",
         description:
@@ -216,14 +216,14 @@ export const kenya: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La grieta gigante donde se encontraron los primeros humanos",
+        title: "La grieta donde se encontraron los primeros humanos",
         subtitle: "El Gran Valle del Rift",
         imageAlt: "Caricatura de un valle escarpado con una grieta y lagos a lo lejos.",
         description:
           "El Gran Valle del Rift, una enorme fractura geológica que atraviesa Kenia de norte a sur como parte de un sistema que se extiende por miles de kilómetros por África oriental, se formó por el lento desplazamiento de placas tectónicas que están separando el continente en dos, un proceso tan activo que todavía se ven grietas que se ensanchan año tras año. Más allá de su importancia geológica, el Valle del Rift keniano es considerado por muchos paleoantropólogos una de las regiones más importantes del mundo para entender el origen de la humanidad, ya que sus sedimentos preservaron fósiles de homínidos de millones de años, incluyendo hallazgos de la familia Leakey en el lago Turkana. El valle alberga además una cadena de lagos con ecosistemas muy distintos entre sí, desde lagos rosados por flamencos hasta cráteres convertidos en bosques densos.",
       },
       en: {
-        title: "The Giant Crack Where the First Humans Were Found",
+        title: "The Rift Where the First Humans Were Found",
         subtitle: "The Great Rift Valley",
         imageAlt: "Cartoon of a steep valley with a visible crack and lakes in the distance.",
         description:
