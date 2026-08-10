@@ -374,18 +374,18 @@ export const albania: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Cientos de películas hechas en total aislamiento",
+        title: "Cientos de películas en total aislamiento",
         subtitle: "Kinostudio",
         imageAlt: "Caricatura de un rollo de película y una vieja cámara de cine.",
         description:
-          "Entre 1952 y 1990, el estudio estatal 'Shqipëria e Re' (Nueva Albania), conocido simplemente como Kinostudio, produjo cientos de películas bajo estricto control del régimen comunista de Enver Hoxha, en un país que durante décadas estuvo prácticamente aislado del resto del mundo, sin apenas intercambio cultural con el exterior. El resultado fue un cine nacional completo y autosuficiente —dramas históricos, propaganda partisana, comedias, adaptaciones literarias—, desarrollado casi sin ninguna influencia externa directa, algo extremadamente inusual en la historia del cine mundial. Tras la caída del comunismo, buena parte de este archivo quedó olvidado o en mal estado durante años, pero en la última década festivales internacionales y restauradores empezaron a redescubrir y digitalizar estas películas, presentándolas como una cápsula del tiempo cinematográfica única, producida en un aislamiento que ningún otro país europeo experimentó con esa intensidad.",
+          "Entre 1952 y 1990, el estudio estatal 'Shqipëria e Re' (Nueva Albania), conocido simplemente como Kinostudio, produjo cientos de películas bajo estricto control del régimen comunista de Enver Hoxha, en un país que durante décadas estuvo prácticamente aislado del resto del mundo, sin apenas intercambio cultural con el exterior. El resultado fue un cine nacional completo y autosuficiente —dramas históricos, propaganda partisana, comedias, adaptaciones literarias—, desarrollado casi sin ninguna influencia externa directa, algo extremadamente inusual en la historia del cine mundial. Tras la caída del comunismo, buena parte de este archivo quedó olvidado durante años, pero en la última década festivales y restauradores empezaron a redescubrir y digitalizar estas películas, presentándolas como una cápsula del tiempo cinematográfica única.",
       },
       en: {
         title: "Hundreds of Films Made in Total Isolation",
         subtitle: "Kinostudio",
         imageAlt: "Cartoon of a film reel next to an old movie camera.",
         description:
-          "Between 1952 and 1990, the state studio 'Shqipëria e Re' (New Albania), known simply as Kinostudio, produced hundreds of films under the strict control of Enver Hoxha's communist regime, in a country that for decades was practically isolated from the rest of the world, with almost no cultural exchange abroad. The result was a complete, self-sufficient national cinema — historical dramas, partisan propaganda, comedies, literary adaptations — developed with almost no direct outside influence, something extremely unusual in the history of world cinema. After the fall of communism, much of this archive was forgotten or fell into disrepair for years, but over the last decade international festivals and restorers have begun rediscovering and digitizing these films, presenting them as a unique cinematic time capsule, produced in an isolation no other European country experienced with the same intensity.",
+          "Between 1952 and 1990, the state studio 'Shqipëria e Re' (New Albania), known simply as Kinostudio, produced hundreds of films under the strict control of Enver Hoxha's communist regime, in a country that for decades was practically isolated from the rest of the world, with almost no cultural exchange abroad. The result was a complete, self-sufficient national cinema — historical dramas, partisan propaganda, comedies, literary adaptations — developed with almost no direct outside influence, something extremely unusual in film history. After the fall of communism, much of this archive was forgotten for years, but over the last decade international festivals and restorers have begun rediscovering and digitizing these films, presenting them as a unique cinematic time capsule.",
       },
     },
   },

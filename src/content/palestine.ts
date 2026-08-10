@@ -170,14 +170,14 @@ export const palestine: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La ciudad que venera el lugar exacto de un nacimiento",
+        title: "La ciudad que venera el sitio de un nacimiento",
         subtitle: "Belén y la Basílica de la Natividad",
         imageAlt: "Caricatura de una estrella plateada incrustada en el piso de piedra de una gruta.",
         description:
           "Belén, una ciudad de Cisjordania a pocos kilómetros de Jerusalén, es venerada por la tradición cristiana como el lugar de nacimiento de Jesús, y alberga la Basílica de la Natividad, una de las iglesias en funcionamiento continuo más antiguas del mundo, construida en el siglo IV por orden del emperador Constantino y reconstruida en el siglo VI tras un incendio. Dentro de la basílica, una estrella de plata incrustada en el piso de una gruta subterránea marca el sitio tradicionalmente identificado como el lugar exacto del nacimiento, un punto de peregrinación constante, especialmente numeroso en Nochebuena. El edificio tiene una entrada excepcionalmente baja, la 'Puerta de la Humildad', reducida hace siglos para impedir que jinetes armados entraran a caballo. Declarada Patrimonio de la Humanidad en 2012, la basílica es administrada conjuntamente por las iglesias católica, ortodoxa griega y armenia.",
       },
       en: {
-        title: "The City That Venerates an Exact Birthplace Spot",
+        title: "The City That Venerates a Birthplace Spot",
         subtitle: "Bethlehem and the Church of the Nativity",
         imageAlt: "Cartoon of a silver star embedded in the stone floor of a grotto.",
         description:
