@@ -32,14 +32,14 @@ export const ecuador: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El país que le da nombre a la línea que divide el planeta",
+        title: "El país que le da nombre a la línea del planeta",
         subtitle: "La Mitad del Mundo",
         imageAlt: "Caricatura de un monumento de piedra con una línea amarilla cruzando el suelo.",
         description:
           "Ecuador debe su nombre a su ubicación sobre la línea ecuatorial, y a pocos kilómetros al norte de Quito se encuentra el monumento 'La Mitad del Mundo', construido para marcar el punto calculado en 1736 por una expedición geodésica francesa liderada por Charles-Marie de La Condamine, cuya misión era medir la forma real de la Tierra en medio de un intenso debate científico sobre si el planeta era una esfera perfecta o estaba achatado en los polos. Con los instrumentos del siglo XVIII, la expedición logró una precisión notable pero no exacta, y mediciones satelitales modernas determinaron que la línea real está unos 240 metros al norte del monumento original, lo que llevó a construir un segundo sitio cercano, el Museo Intiñan, donde los guías hacen demostraciones populares como el equilibrio de un huevo sobre un clavo. Ambos sitios atraen a visitantes que quieren pararse, literalmente, con un pie en cada hemisferio.",
       },
       en: {
-        title: "The Country That Names the Line Dividing the Planet",
+        title: "The Country That Names the Line Dividing Earth",
         subtitle: "The Middle of the World",
         imageAlt: "Cartoon of a stone monument with a yellow line crossing the ground.",
         description:
@@ -101,7 +101,7 @@ export const ecuador: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El cacao que los chocolateros de lujo del mundo buscan por su nombre",
+        title: "El cacao que buscan los chocolateros de lujo",
         subtitle: "El cacao fino de aroma",
         imageAlt: "Caricatura de una mazorca de cacao abierta con granos frescos visibles.",
         description:
@@ -124,14 +124,14 @@ export const ecuador: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El mercado indígena que resistió cinco siglos de cambios",
+        title: "El mercado indígena que resistió cinco siglos",
         subtitle: "El mercado de Otavalo",
         imageAlt: "Caricatura de un puesto de tapices y ponchos tejidos de colores en un mercado.",
         description:
           "El mercado de Otavalo, en las tierras altas del norte de Ecuador, es uno de los mercados indígenas más grandes y antiguos de Sudamérica, con raíces comerciales que se remontan a la época preincaica, cuando la región ya era un punto de intercambio natural entre comunidades de la sierra, la costa y la Amazonía. El pueblo otavaleño, un grupo kichwa reconocido internacionalmente por su habilidad textil, mantiene técnicas de tejido transmitidas de generación en generación, produciendo tapices, ponchos y textiles de lana con patrones tradicionales vendidos a turistas y, cada vez más, a compradores internacionales que exportan estos productos a tiendas de diseño en Europa y Estados Unidos. A diferencia de otras comunidades indígenas empobrecidas tras siglos de colonización, los otavaleños desarrollaron una prosperidad económica inusual gracias al comercio textil, y la comunidad se distingue por conservar con orgullo su vestimenta tradicional y su idioma kichwa en la vida cotidiana.",
       },
       en: {
-        title: "The Indigenous Market That Outlasted Five Centuries of Change",
+        title: "The Market That Outlasted Five Centuries of Change",
         subtitle: "Otavalo Market",
         imageAlt: "Cartoon of a market stall with colorful woven tapestries and ponchos.",
         description:
@@ -147,14 +147,14 @@ export const ecuador: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El corredor con la mayor concentración de volcanes altos del mundo",
+        title: "El corredor con más volcanes altos del mundo",
         subtitle: "La Avenida de los Volcanes",
         imageAlt: "Caricatura de dos conos volcánicos nevados a ambos lados de un valle verde.",
         description:
           "El naturalista alemán Alexander von Humboldt bautizó en 1802 como 'Avenida de los Volcanes' al corredor montañoso que atraviesa el centro de Ecuador entre las cordilleras oriental y occidental de los Andes, un valle de apenas unos 300 kilómetros de largo flanqueado por más de veinte volcanes, varios superando los 5.000 metros, una concentración tan densa que no tiene comparación en ninguna otra región del planeta. El Cotopaxi, uno de los volcanes activos más altos del mundo con 5.897 metros, domina el corredor con su cono casi perfectamente simétrico cubierto de nieve, mientras que el Chimborazo, el más alto de Ecuador con 6.263 metros, es, debido al abultamiento ecuatorial de la Tierra, el punto de la superficie terrestre más alejado del centro del planeta, por encima incluso del Everest medido desde ahí. Esta cadena representa tanto un riesgo geológico constante como una fuente fundamental de identidad nacional, con varios picos apareciendo en la bandera y el escudo del país.",
       },
       en: {
-        title: "The Corridor With the World's Densest Cluster of Tall Volcanoes",
+        title: "The Corridor With the World's Densest Volcanoes",
         subtitle: "The Avenue of the Volcanoes",
         imageAlt: "Cartoon of two snow-capped volcanic cones on either side of a green valley.",
         description:
@@ -177,7 +177,7 @@ export const ecuador: CultureEntry[] = [
           "Ecuador adoptó el dólar estadounidense como su moneda oficial en el año 2000, en medio de una de las peores crisis económicas de su historia, cuando la moneda anterior, el sucre, había perdido más de dos tercios de su valor en apenas un año debido a una crisis bancaria, inestabilidad política e hiperinflación galopante que destruía los ahorros de la población. La decisión, tomada de forma abrupta por el entonces presidente Jamil Mahuad en medio de una presión social que terminaría derrocándolo días después, convirtió a Ecuador en una de las pocas economías de tamaño considerable que renunció por completo a su política monetaria, cediendo el control sobre la impresión de dinero y las tasas de interés a la Reserva Federal de Estados Unidos. Pese a la pérdida de soberanía monetaria, la dolarización logró estabilizar rápidamente la inflación y generó una confianza que el país no había tenido en años, llevando a la mayoría a apoyar mantener el dólar incluso dos décadas después.",
       },
       en: {
-        title: "The South American Country That Gave Up Its Own Currency",
+        title: "The South American Country That Gave Up Its Currency",
         subtitle: "Ecuadorian Dollarization",
         imageAlt: "Cartoon of a green dollar bill beside coins.",
         description:
@@ -193,14 +193,14 @@ export const ecuador: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Un parque nacional con más especies que todo Estados Unidos y Canadá juntos",
+        title: "Más especies que Estados Unidos y Canadá juntos",
         subtitle: "El parque nacional Yasuní",
         imageAlt: "Caricatura de una mariposa de colores brillantes sobre hojas de selva densa.",
         description:
           "El parque nacional Yasuní, en la Amazonía ecuatoriana, es considerado uno de los lugares con mayor biodiversidad por unidad de área del planeta: una sola hectárea puede albergar más especies de árboles que todo Estados Unidos y Canadá juntos, además de la mayor diversidad documentada de anfibios. Esta biodiversidad coexiste en tensión con la explotación petrolera, ya que bajo el parque hay importantes reservas de crudo, lo que llevó al gobierno a proponer en 2007 la iniciativa 'Yasuní-ITT', que ofrecía dejar el petróleo bajo tierra a cambio de compensación internacional, un experimento que fracasó en 2013 por falta de fondos. El parque es hogar de los pueblos tagaeri y taromenane, dos de los últimos grupos en aislamiento voluntario casi total, lo que en 2023 llevó a los ecuatorianos a votar en referéndum a favor de detener toda nueva extracción petrolera en el bloque más sensible.",
       },
       en: {
-        title: "A National Park With More Species Than the US and Canada Combined",
+        title: "More Species Than the US and Canada Combined",
         subtitle: "Yasuní National Park",
         imageAlt: "Cartoon of a brightly colored butterfly on dense jungle leaves.",
         description:
@@ -216,14 +216,14 @@ export const ecuador: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Las rosas de tallo largo que conquistaron los mercados de lujo",
+        title: "Las rosas de tallo largo que conquistaron el lujo",
         subtitle: "Las rosas ecuatorianas",
         imageAlt: "Caricatura de una rosa roja de tallo largo con pétalos grandes y abiertos.",
         description:
           "Ecuador se convirtió en las últimas décadas en uno de los mayores exportadores de rosas de alta calidad del mundo, un logro sorprendente sin tradición previa de floricultura a gran escala, posible gracias a una combinación geográfica: su ubicación sobre la línea ecuatorial garantiza casi doce horas de luz solar todo el año, mientras que la altitud de los valles andinos donde se cultivan, por encima de los 2.500 metros, ofrece temperaturas estables que favorecen tallos largos, gruesos y resistentes. Estas condiciones, combinadas con inversiones en tecnología de invernadero, permitieron desarrollar rosas de una durabilidad notablemente superior a la de otros países productores, un factor por el que floristas de lujo en Europa y Estados Unidos pagan precios más altos. La floricultura es hoy una fuente laboral fundamental para miles de familias andinas, aunque la industria enfrentó críticas por las condiciones laborales y el uso intensivo de agroquímicos.",
       },
       en: {
-        title: "The Long-Stem Roses That Conquered Luxury Markets",
+        title: "The Roses That Conquered Luxury Markets",
         subtitle: "Ecuadorian Roses",
         imageAlt: "Cartoon of a red long-stemmed rose with large, open petals.",
         description:

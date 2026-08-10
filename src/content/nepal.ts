@@ -32,14 +32,14 @@ export const nepal: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El lugar de nacimiento de Buda, cuna de una de las grandes religiones del mundo",
+        title: "El lugar de nacimiento de Buda",
         subtitle: "Lumbini",
         imageAlt: "Caricatura de un pilar de piedra antiguo junto a una hoja de bodhi.",
         description:
           "Lumbini, un pequeño poblado en el sur de Nepal cerca de la frontera con la India, es reconocido como el lugar de nacimiento de Siddhartha Gautama alrededor del siglo VI antes de nuestra era, la figura histórica que tras alcanzar la iluminación se convertiría en Buda y cuyas enseñanzas darían origen al budismo. La identificación del sitio se confirmó gracias a un pilar de piedra erigido en el año 249 antes de nuestra era por el emperador indio Asoka, quien tras convertirse al budismo mandó marcar los sitios sagrados asociados a la vida de Buda por todo su imperio, y cuya inscripción, descubierta recién en 1896, corroboró la tradición oral budista sobre la ubicación exacta del nacimiento. Reconocido por la UNESCO en 1997, Lumbini se convirtió en un destino de peregrinación, y países como Japón, Tailandia y Corea del Sur construyeron allí sus propios templos con sus estilos nacionales.",
       },
       en: {
-        title: "The Buddha's Birthplace, Cradle of One of the World's Great Religions",
+        title: "The Buddha's Birthplace",
         subtitle: "Lumbini",
         imageAlt: "Cartoon of an ancient stone pillar beside a bodhi leaf.",
         description:
@@ -55,14 +55,14 @@ export const nepal: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La única bandera nacional del mundo que no es rectangular",
+        title: "La única bandera del mundo que no es rectangular",
         subtitle: "La bandera de Nepal",
         imageAlt: "Caricatura de una bandera roja con forma de dos triángulos apilados.",
         description:
           "La bandera de Nepal es la única bandera nacional oficial del mundo que no tiene forma rectangular, compuesta por dos triángulos apilados con bordes ligeramente curvos, un diseño tan inusual que obligó a estandarizar sus proporciones mediante una fórmula matemática incluida directamente en la Constitución de Nepal. El diseño surgió de la unión de dos banderas triangulares separadas, una de la dinastía real Shah y otra del primer ministro hereditario de la familia Rana, combinadas en un solo estandarte durante el siglo XIX, y aunque Nepal abolió la monarquía en 2008, el diseño tradicional se mantuvo intacto por su significado histórico. Los dos símbolos dentro de los triángulos, una luna creciente arriba y un sol abajo, representan la esperanza de que la nación perdure tanto como el sol y la luna permanezcan en el cielo, y el color rojo predominante, extraído de la flor nacional del rododendro, simboliza la valentía del pueblo nepalí.",
       },
       en: {
-        title: "The Only National Flag in the World That Isn't Rectangular",
+        title: "The Only Flag in the World That Isn't Rectangular",
         subtitle: "Nepal's Flag",
         imageAlt: "Cartoon of a red flag shaped like two stacked triangles.",
         description:
@@ -101,14 +101,14 @@ export const nepal: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Los soldados nepalíes cuya reputación militar recorrió el mundo",
+        title: "Los soldados nepalíes cuya fama recorrió el mundo",
         subtitle: "Los gurkhas",
         imageAlt: "Caricatura de un cuchillo curvo ceremonial junto a una boina militar.",
         description:
           "Los gurkhas, soldados nepalíes reclutados por el ejército británico tras la guerra anglo-nepalí de 1814 a 1816, impresionaron tanto a las fuerzas coloniales por su ferocidad y disciplina que decidieron incorporarlos a sus propias filas en lugar de seguir enfrentándolos, desarrollando desde entonces una reputación de excepcional coraje reconocida en conflictos que van desde ambas guerras mundiales hasta operaciones británicas contemporáneas. Los regimientos gurkha, hoy integrados al ejército británico y al indio, siguen reclutando mediante un proceso extraordinariamente competitivo en el que miles de jóvenes compiten cada año por un puñado de plazas, atraídos por salarios muy superiores a las oportunidades rurales de origen. Cada gurkha porta el 'kukri', un cuchillo curvo símbolo de su identidad militar, y su desempeño en combate les valió un número desproporcionado de las más altas condecoraciones británicas, incluida la Cruz Victoria.",
       },
       en: {
-        title: "The Nepali Soldiers Whose Military Reputation Spread Worldwide",
+        title: "The Nepali Soldiers Whose Fame Spread Worldwide",
         subtitle: "The Gurkhas",
         imageAlt: "Cartoon of a curved ceremonial knife beside a military beret.",
         description:
@@ -124,14 +124,14 @@ export const nepal: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Un valle con siete conjuntos de monumentos declarados patrimonio mundial",
+        title: "Un valle con siete sitios patrimonio de la humanidad",
         subtitle: "El valle de Katmandú",
         imageAlt: "Caricatura de un templo de madera tallada con techos de varios niveles.",
         description:
           "El valle de Katmandú, hogar de la capital nepalí y de las antiguas ciudades reales de Patan y Bhaktapur, concentra siete conjuntos monumentales declarados Patrimonio de la Humanidad por la UNESCO, una densidad que refleja siglos de rivalidad artística entre los antiguos reinos de la región. La arquitectura tradicional newar, el grupo étnico indígena del valle, desarrolló técnicas constructivas distintivas basadas en ladrillo cocido, madera tallada y techos de múltiples niveles apilados, un estilo tan influyente que artesanos newar fueron contratados para construir templos en el Tíbet. El terremoto de 2015 dañó numerosos monumentos históricos del valle, lo que desencadenó un extenso proyecto internacional de restauración con métodos constructivos tradicionales newar.",
       },
       en: {
-        title: "A Valley With Seven Monument Complexes Declared World Heritage",
+        title: "A Valley With Seven World Heritage Sites",
         subtitle: "The Kathmandu Valley",
         imageAlt: "Cartoon of a carved wooden temple with multiple stacked tiered roofs.",
         description:
@@ -147,14 +147,14 @@ export const nepal: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El pueblo cuyo nombre se volvió sinónimo de guía de montaña",
+        title: "El pueblo cuyo nombre significa guía de montaña",
         subtitle: "El pueblo sherpa",
         imageAlt: "Caricatura de una cuerda enrollada junto a un piolet de montaña.",
         description:
           "Los sherpas, un grupo étnico originario de las regiones montañosas del este de Nepal cercanas al Everest, descienden de migrantes tibetanos, y desarrollaron una adaptación fisiológica notable a la altitud extrema, incluyendo una capacidad pulmonar superior a la de la mayoría de las poblaciones humanas, un rasgo que los científicos atribuyen a siglos de vida sostenida por encima de los 3.000 metros. Esta adaptación convirtió a los sherpas en guías indispensables para casi todas las expediciones comerciales, un rol tan central que la palabra 'sherpa' se incorporó al vocabulario internacional como sinónimo de guía de alta montaña. Pese a su rol fundamental, asumen una proporción desproporcionadamente alta de los riesgos de cada expedición, reflejado en tasas de mortalidad más altas entre guías sherpas que entre los montañistas extranjeros que contratan sus servicios.",
       },
       en: {
-        title: "The People Whose Name Became Synonymous With Mountain Guide",
+        title: "The People Whose Name Means Mountain Guide",
         subtitle: "The Sherpa People",
         imageAlt: "Cartoon of a coiled climbing rope beside a mountaineering ice axe.",
         description:
@@ -170,14 +170,14 @@ export const nepal: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El plato de origen tibetano que se convirtió en comida callejera nacional",
+        title: "El plato tibetano que se volvió comida callejera",
         subtitle: "Los momos",
         imageAlt: "Caricatura de una vaporera de bambú con empanadillas dentro.",
         description:
           "Los momos, pequeñas empanadillas rellenas generalmente de carne picada, verduras o queso y cocinadas al vapor, llegaron a Nepal a través de comunidades tibetanas y newar que migraron y comerciaron por las rutas del Himalaya durante siglos, y con el tiempo se convirtieron en uno de los platos callejeros más queridos del país, presente en prácticamente cualquier esquina de Katmandú, desde carritos ambulantes hasta restaurantes de alta cocina. A diferencia de preparaciones similares en otras cocinas asiáticas, los momos nepalíes se distinguen por acompañarse casi siempre de una salsa picante llamada 'achar', cuya receta varía de una familia a otra y que muchos consideran tan importante como el propio momo. Su preparación se convirtió además en una actividad social habitual en los hogares nepalíes, donde la familia se reúne para amasar y doblar a mano decenas de piezas, una tradición que muchos nepalíes de la diáspora reproducen en el exterior para mantener un vínculo con su cultura.",
       },
       en: {
-        title: "The Tibetan-Origin Dish That Became a National Street Food",
+        title: "The Tibetan Dish That Became a National Street Food",
         subtitle: "Momos",
         imageAlt: "Cartoon of a bamboo steamer basket with dumplings inside.",
         description:
@@ -193,14 +193,14 @@ export const nepal: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El parque que rescató al rinoceronte de un solo cuerno de la extinción",
+        title: "El parque que rescató al rinoceronte de un cuerno",
         subtitle: "El Parque Nacional de Chitwan",
         imageAlt: "Caricatura de un rinoceronte de un solo cuerno junto a pasto alto de la sabana.",
         description:
           "El Parque Nacional de Chitwan, en las tierras bajas del sur de Nepal, alberga una de las poblaciones más importantes del mundo de rinoceronte indio de un solo cuerno, una especie que llegó a estar al borde de la extinción durante el siglo XX por la caza furtiva impulsada por la demanda de su cuerno en mercados asiáticos, donde se le atribuían propiedades medicinales sin evidencia científica. Gracias a décadas de programas de conservación, con patrullas antifurtivas y la participación de comunidades locales, la población de rinocerontes se recuperó de forma notable, y el parque se convirtió en un caso de estudio citado como ejemplo exitoso de conservación. Además del rinoceronte, Chitwan alberga tigres de Bengala, cocodrilos gaviales y elefantes asiáticos salvajes, convirtiendo al parque, Patrimonio de la Humanidad desde 1984, en uno de los pocos lugares del subcontinente indio donde observar esta megafauna en su hábitat natural.",
       },
       en: {
-        title: "The Park That Rescued the One-Horned Rhino From Extinction",
+        title: "The Park That Rescued the One-Horned Rhino",
         subtitle: "Chitwan National Park",
         imageAlt: "Cartoon of a one-horned rhinoceros beside tall savanna grass.",
         description:
@@ -216,14 +216,14 @@ export const nepal: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El país que alberga ocho de las catorce montañas más altas del mundo",
+        title: "El país con ocho de las catorce montañas más altas",
         subtitle: "Nepal y los ochomiles",
         imageAlt: "Caricatura de una cadena de picos montañosos nevados de distintas alturas.",
         description:
           "De las catorce montañas del planeta que superan los 8.000 metros de altura, conocidas como 'ochomiles', ocho se encuentran total o parcialmente dentro del territorio nepalí, incluyendo al propio Everest, el Kanchenjunga, el Lhotse, el Makalu, el Cho Oyu, el Dhaulagiri, el Manaslu y el Annapurna, una concentración que convierte a Nepal en el destino obligado para cualquier montañista que busque ascender los catorce ochomiles del mundo. El Annapurna en particular, pese a ser más bajo que el Everest, es reconocido como uno de los ochomiles estadísticamente más peligrosos de escalar, con una de las tasas de mortalidad más altas por la frecuencia de avalanchas en sus rutas habituales, contrastando con la percepción de que el Everest es automáticamente el más peligroso por ser el más alto. Esta concentración de picos convirtió al turismo de montaña en un pilar de la economía nepalí, sosteniendo económicamente a comunidades enteras en las regiones más remotas del país.",
       },
       en: {
-        title: "The Country Home to Eight of the World's Fourteen Tallest Mountains",
+        title: "Home to Eight of the World's Fourteen Tallest Peaks",
         subtitle: "Nepal and the Eight-Thousanders",
         imageAlt: "Cartoon of a chain of snow-capped mountain peaks of varying heights.",
         description:
