@@ -452,6 +452,96 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "turkmenistan",
+    flagEmoji: "🇹🇲",
+    accentColor: "#8B2942",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Turkmenistán",
+        intro:
+          "El país de un cráter de gas que arde desde hace más de cincuenta años, una capital revestida casi por completo de mármol blanco, y un caballo de pelaje dorado venerado como tesoro nacional. Estas páginas son para descubrir un Turkmenistán de desierto, tribus nómadas y una identidad forjada entre la Ruta de la Seda y un aislamiento poco comparable en el mundo actual.",
+      },
+      en: {
+        name: "Turkmenistan",
+        intro:
+          "The country with a gas crater that's been burning for more than fifty years, a capital clad almost entirely in white marble, and a golden-coated horse venerated as a national treasure. These pages are here to discover a Turkmenistan of desert, nomadic tribes, and an identity forged between the Silk Road and an isolation with few comparisons in the world today.",
+      },
+    },
+  },
+  {
+    slug: "north-korea",
+    flagEmoji: "🇰🇵",
+    accentColor: "#024FA2",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Corea del Norte",
+        intro:
+          "El país que reconstruyó su capital desde cero con una arquitectura monumental propia, organiza el espectáculo coreografiado más grande jamás realizado, y comparte con su vecino del sur una montaña sagrada y un plato de fideos fríos pese a más de setenta años de separación. Estas páginas son para descubrir una Corea del Norte de historia compartida, aislamiento extremo y una identidad forjada bajo un control estatal poco comparable en el mundo actual.",
+      },
+      en: {
+        name: "North Korea",
+        intro:
+          "The country that rebuilt its capital from scratch with its own monumental architecture, stages the largest choreographed spectacle ever performed, and shares with its southern neighbor a sacred mountain and a cold noodle dish despite more than seventy years of separation. These pages are here to discover a North Korea of shared history, extreme isolation, and an identity forged under a degree of state control with few comparisons in the world today.",
+      },
+    },
+  },
+  {
+    slug: "paraguay",
+    flagEmoji: "🇵🇾",
+    accentColor: "#1E88E5",
+    continent: "south-america",
+    translations: {
+      es: {
+        name: "Paraguay",
+        intro:
+          "El único país de América donde una lengua indígena es mayoritaria, hogar de una de las represas más grandes del mundo, y cuna del mate que hoy se toma en medio continente. Estas páginas son para descubrir un Paraguay de reducciones jesuíticas, encajes que imitan telarañas y un río que le da nombre al país entero.",
+      },
+      en: {
+        name: "Paraguay",
+        intro:
+          "The only country in the Americas where an Indigenous language is spoken by the majority, home to one of the world's largest dams, and the birthplace of the mate now drunk across half a continent. These pages are here to discover a Paraguay of Jesuit missions, lace that imitates spiderwebs, and a river that names the entire country.",
+      },
+    },
+  },
+  {
+    slug: "nepal",
+    flagEmoji: "🇳🇵",
+    accentColor: "#DC143C",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Nepal",
+        intro:
+          "El país que alberga ocho de las catorce montañas más altas del mundo, incluyendo el propio techo del planeta, y la única bandera nacional que no es rectangular. Estas páginas son para descubrir un Nepal de picos imposibles, templos tallados en madera y una diosa viviente venerada en el corazón de Katmandú.",
+      },
+      en: {
+        name: "Nepal",
+        intro:
+          "The country home to eight of the world's fourteen tallest mountains, including the planet's own roof, and the only national flag that isn't rectangular. These pages are here to discover a Nepal of impossible peaks, wood-carved temples, and a living goddess venerated at the heart of Kathmandu.",
+      },
+    },
+  },
+  {
+    slug: "ecuador",
+    flagEmoji: "🇪🇨",
+    accentColor: "#2E7D5B",
+    continent: "south-america",
+    translations: {
+      es: {
+        name: "Ecuador",
+        intro:
+          "El país que le da nombre a la línea que divide el planeta, cuna de las islas que inspiraron la teoría de la evolución, y hogar de la mayor concentración de volcanes altos del mundo. Estas páginas son para descubrir un Ecuador de tortugas gigantes, sombreros mal llamados panameños y una biodiversidad amazónica sin comparación.",
+      },
+      en: {
+        name: "Ecuador",
+        intro:
+          "The country that names the line dividing the planet, home to the islands that inspired the theory of evolution, and to the world's densest cluster of tall volcanoes. These pages are here to discover an Ecuador of giant tortoises, hats wrongly called Panamanian, and an Amazonian biodiversity without comparison.",
+      },
+    },
+  },
+  {
     slug: "indonesia",
     flagEmoji: "🇮🇩",
     accentColor: "#B8860B",

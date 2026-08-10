@@ -30,6 +30,11 @@ import { germanyIllustrations } from "./germany";
 import { venezuelaIllustrations } from "./venezuela";
 import { kenyaIllustrations } from "./kenya";
 import { indonesiaIllustrations } from "./indonesia";
+import { ecuadorIllustrations } from "./ecuador";
+import { nepalIllustrations } from "./nepal";
+import { paraguayIllustrations } from "./paraguay";
+import { northKoreaIllustrations } from "./north-korea";
+import { turkmenistanIllustrations } from "./turkmenistan";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -65,6 +70,11 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   venezuela: venezuelaIllustrations,
   kenya: kenyaIllustrations,
   indonesia: indonesiaIllustrations,
+  ecuador: ecuadorIllustrations,
+  nepal: nepalIllustrations,
+  paraguay: paraguayIllustrations,
+  "north-korea": northKoreaIllustrations,
+  turkmenistan: turkmenistanIllustrations,
 };
 
 export function getIllustration(

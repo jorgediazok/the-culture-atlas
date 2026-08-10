@@ -393,6 +393,69 @@ const Indonesia: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const Ecuador: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+      <rect
+        key={deg}
+        x="47"
+        y="18"
+        width="6"
+        height="13"
+        rx="2"
+        fill="#fff"
+        opacity="0.85"
+        transform={`rotate(${deg} 50 55)`}
+      />
+    ))}
+    <circle cx="50" cy="55" r="11" fill={accentColor} />
+    <circle cx="50" cy="55" r="15" fill="none" stroke="#fff" strokeWidth="3" />
+    <line x1="20" y1="82" x2="80" y2="82" stroke="#fff" strokeWidth="3" strokeDasharray="6 5" />
+  </svg>
+);
+
+const Nepal: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M28 80 L45 40 L58 65 L70 30 L84 80 Z" fill="#fff" />
+    <circle cx="70" cy="26" r="6" fill={accentColor} />
+    <path d="M40 32 a8 8 0 1 0 10 -10 a10 10 0 1 1 -10 10 Z" fill="#fff" />
+  </svg>
+);
+
+const Paraguay: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <circle cx="50" cy="55" r="30" fill="none" stroke="#fff" strokeWidth="3" />
+    {Array.from({ length: 5 }, (_, i) => {
+      const angle = (i * 144 - 90) * (Math.PI / 180);
+      const x = 50 + 16 * Math.cos(angle);
+      const y = 55 + 16 * Math.sin(angle);
+      return <circle key={i} cx={x} cy={y} r="4" fill="#fff" />;
+    })}
+    <circle cx="50" cy="55" r="6" fill={accentColor} />
+  </svg>
+);
+
+const NorthKorea: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path
+      d="M50 24 L58 46 L82 46 L62 60 L70 82 L50 68 L30 82 L38 60 L18 46 L42 46 Z"
+      fill="#fff"
+    />
+    <circle cx="50" cy="53" r="10" fill={accentColor} />
+  </svg>
+);
+
+const Turkmenistan: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path
+      d="M28 78 Q30 50 48 42 Q68 34 76 48 L64 52 Q58 44 48 50 Q38 56 36 78 Z"
+      fill="#fff"
+    />
+    <path d="M48 42 L62 22 L68 30 L54 48 Z" fill="#fff" />
+    <circle cx="60" cy="27" r="2.6" fill={accentColor} />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -426,6 +489,11 @@ export const emblems: Record<string, EmblemComponent> = {
   venezuela: Venezuela,
   kenya: Kenya,
   indonesia: Indonesia,
+  ecuador: Ecuador,
+  nepal: Nepal,
+  paraguay: Paraguay,
+  "north-korea": NorthKorea,
+  turkmenistan: Turkmenistan,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {
