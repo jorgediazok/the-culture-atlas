@@ -42,6 +42,8 @@ import { nepal } from "./nepal";
 import { paraguay } from "./paraguay";
 import { northKorea } from "./north-korea";
 import { turkmenistan } from "./turkmenistan";
+import { laos } from "./laos";
+import { botswana } from "./botswana";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -81,6 +83,8 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   paraguay,
   "north-korea": northKorea,
   turkmenistan,
+  laos,
+  botswana,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

@@ -650,6 +650,42 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "laos",
+    flagEmoji: "🇱🇦",
+    accentColor: "#B8860B",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Laos",
+        intro:
+          "El único país del sudeste asiático sin salida al mar, donde monjes budistas caminan descalzos al amanecer, miles de jarras de piedra milenarias siguen sin explicación, y el arroz pegajoso se come con las manos en casi todas las comidas. Estas páginas son para descubrir un Laos de templos dorados, ríos y montañas poco transitadas por el turismo masivo.",
+      },
+      en: {
+        name: "Laos",
+        intro:
+          "The only landlocked country in Southeast Asia, where Buddhist monks walk barefoot at dawn, thousands of ancient stone jars remain unexplained, and sticky rice is eaten by hand at nearly every meal. These pages are here to discover a Laos of golden temples, rivers, and mountains still largely untouched by mass tourism.",
+      },
+    },
+  },
+  {
+    slug: "botswana",
+    flagEmoji: "🇧🇼",
+    accentColor: "#75AADB",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Botsuana",
+        intro:
+          "El país que convirtió sus diamantes en una de las democracias más estables de África, hogar del delta del Okavango y de la mayor población de elefantes salvajes del planeta. Estas páginas son para descubrir un Botsuana de sabana, tradición san y un modelo de conservación citado en todo el mundo.",
+      },
+      en: {
+        name: "Botswana",
+        intro:
+          "The country that turned its diamonds into one of Africa's most stable democracies, home to the Okavango Delta and the largest population of wild elephants on the planet. These pages are here to discover a Botswana of savanna, San tradition, and a conservation model cited around the world.",
+      },
+    },
+  },
+  {
     slug: "papua-new-guinea",
     flagEmoji: "🇵🇬",
     accentColor: "#2E8B57",
