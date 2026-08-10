@@ -259,7 +259,7 @@ export const luxembourg: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El país que puso los satélites de TV en el cielo de Europa",
+        title: "El país que puso los satélites de TV en el cielo",
         subtitle: "SES y Astra",
         imageAlt: "Caricatura de un satélite orbitando con señales curvas apuntando hacia la Tierra.",
         description:
@@ -358,7 +358,7 @@ export const luxembourg: CultureEntry[] = [
           "Edward Steichen, nacido en Luxemburgo en 1879 y emigrado de niño a Estados Unidos, se convirtió en uno de los fotógrafos más influyentes del siglo XX, primero como pionero de la fotografía como forma de arte a comienzos de 1900, y más tarde como director del departamento de fotografía del MoMA de Nueva York durante 15 años. En 1955 curó 'The Family of Man', una exposición con más de 500 fotografías de 68 países que buscaba retratar la experiencia humana universal más allá de las diferencias culturales; la muestra fue vista por más de nueve millones de personas en su gira mundial y sigue considerada una de las exposiciones fotográficas más influyentes de la historia. Hoy la colección permanente de 'The Family of Man' está exhibida de forma fija en el Castillo de Clervaux, en Luxemburgo, declarada Patrimonio Documental de la Humanidad por la UNESCO.",
       },
       en: {
-        title: "The Photographer Who Defined How the World Looks at a Photo",
+        title: "The Photographer Who Defined How We Look at Photos",
         subtitle: "Edward Steichen",
         imageAlt: "Cartoon of an antique camera resting on a wooden tripod.",
         description:
