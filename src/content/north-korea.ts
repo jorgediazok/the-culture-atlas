@@ -9,14 +9,14 @@ export const northKorea: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El espectáculo con más de 100.000 artistas actuando al mismo tiempo",
+        title: "El espectáculo con más de 100.000 artistas",
         subtitle: "Los Juegos Masivos Arirang",
         imageAlt: "Caricatura de un estadio lleno con tarjetas de colores formando un patrón gigante.",
         description:
           "Los Juegos Masivos, conocidos popularmente como Arirang por la canción folclórica coreana que a menudo los acompaña, son un espectáculo de gimnasia coreografiada y arte escénico masivo que llegó a reunir en sus ediciones más grandes a más de 100.000 participantes actuando de forma sincronizada, el evento de este tipo más grande jamás realizado según el Libro Guinness de los Récords. Una de sus secciones más características es el 'cartel humano', formado por decenas de miles de estudiantes que voltean en conjunto tarjetas de colores para formar imágenes gigantes y cambiantes, funcionando como una pantalla humana que requiere meses de ensayo. Los participantes, muchos niños y adolescentes reclutados desde escuelas de todo el país, entrenan intensamente fuera del horario escolar, y el espectáculo combina gimnasia rítmica, danza tradicional, música orquestal en vivo y elementos narrativos sobre la historia y mitología del país.",
       },
       en: {
-        title: "The Show With More Than 100,000 Performers Acting at Once",
+        title: "The Show With More Than 100,000 Performers",
         subtitle: "The Arirang Mass Games",
         imageAlt: "Cartoon of a packed stadium with colored cards forming a giant pattern.",
         description:
@@ -78,14 +78,14 @@ export const northKorea: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La montaña sagrada que ambas Coreas consideran su lugar de origen",
+        title: "La montaña sagrada que ambas Coreas comparten",
         subtitle: "El monte Paektu",
         imageAlt: "Caricatura de un lago de cráter azul intenso rodeado de laderas volcánicas.",
         description:
           "El monte Paektu, un volcán activo de 2.744 metros ubicado en la frontera entre Corea del Norte y China, es considerado tanto por surcoreanos como por norcoreanos la montaña más sagrada de la península, asociada en la mitología coreana con el nacimiento legendario de Dangun, la figura que según la tradición fundó el primer reino coreano hace más de cuatro mil años, un mito de origen que ambas Coreas reconocen pese a sus diferencias políticas. En la cima se encuentra el lago Chon, un lago de cráter de aguas extraordinariamente claras formado tras una erupción masiva en el año 946, una de las más potentes registradas en la historia humana, considerado sitio de profunda importancia espiritual donde se realizan rituales chamánicos. El gobierno norcoreano incorporó además un significado político adicional, presentando al monte como lugar de nacimiento del exlíder Kim Jong-il, pese a que registros independientes indican que nació en la Unión Soviética.",
       },
       en: {
-        title: "The Sacred Mountain Both Koreas Consider Their Place of Origin",
+        title: "The Sacred Mountain Both Koreas Share",
         subtitle: "Mount Paektu",
         imageAlt: "Cartoon of a deep blue crater lake surrounded by volcanic slopes.",
         description:
@@ -101,14 +101,14 @@ export const northKorea: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La filosofía estatal de autosuficiencia que guía la ideología oficial del país",
+        title: "La filosofía que se volvió la ideología de un estado",
         subtitle: "La ideología Juche",
         imageAlt: "Caricatura de un libro cerrado junto a una antorcha estilizada.",
         description:
           "El Juche, formulado como ideología estatal norcoreana a partir de las ideas atribuidas al fundador del país, Kim Il-sung, se traduce aproximadamente como 'autosuficiencia', y postula que una nación debe alcanzar independencia plena en tres dimensiones: política, económica y de defensa militar, minimizando la dependencia de potencias extranjeras. Aunque sus raíces se remontan a discursos atribuidos a Kim Il-sung desde la década de 1950, el Juche se sistematizó formalmente recién en décadas posteriores, y terminó reemplazando al marxismo-leninismo convencional como marco filosófico central del estado, reflejado incluso en el calendario oficial, que cuenta los años a partir del nacimiento de Kim Il-sung en 1912 en lugar del calendario gregoriano. La ideología impregna la vida pública, política y educativa norcoreana, desde el sistema económico hasta el currículo escolar, y se enseña como materia obligatoria en todos los niveles educativos.",
       },
       en: {
-        title: "The State Philosophy of Self-Reliance Guiding the Country's Official Ideology",
+        title: "The Philosophy That Became a State's Ideology",
         subtitle: "Juche Ideology",
         imageAlt: "Cartoon of a closed book beside a stylized torch.",
         description:
@@ -124,14 +124,14 @@ export const northKorea: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Una ciudad reconstruida desde cero con una arquitectura monumental propia",
+        title: "Una ciudad reconstruida con arquitectura monumental",
         subtitle: "La arquitectura de Pyongyang",
         imageAlt: "Caricatura de una torre piramidal alta junto a edificios simétricos.",
         description:
           "Pyongyang, prácticamente destruida durante la guerra de Corea de 1950 a 1953 tras intensos bombardeos aéreos, fue reconstruida desde cero siguiendo un plan urbanístico centralizado que combinó influencias del urbanismo soviético con elementos arquitectónicos coreanos y una estética monumental propia orientada a proyectar poder estatal, resultando en una ciudad de amplias avenidas, edificios simétricos de gran escala y monumentos conmemorativos de dimensiones extraordinarias. Entre sus construcciones más distintivas está el Hotel Ryugyong, una estructura piramidal de 105 pisos cuya construcción comenzó en 1987 y que, tras décadas de interrupciones por dificultades económicas, permaneció sin terminar pese a dominar visualmente el perfil urbano. La ciudad se caracteriza además por la ausencia de publicidad comercial, reemplazada por murales políticos, y por un control estricto sobre qué población puede residir en la capital, reservada a ciudadanos considerados políticamente confiables.",
       },
       en: {
-        title: "A City Rebuilt From Scratch With Its Own Monumental Architecture",
+        title: "A City Rebuilt With Its Own Monumental Architecture",
         subtitle: "Pyongyang's Architecture",
         imageAlt: "Cartoon of a tall pyramidal tower beside symmetrical buildings.",
         description:
@@ -147,14 +147,14 @@ export const northKorea: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El arte marcial coreano que se dividió junto con el país",
+        title: "El arte marcial que se dividió junto con el país",
         subtitle: "El Taekwon-Do norcoreano",
         imageAlt: "Caricatura de un cinturón de artes marciales anudado junto a una tabla de madera partida.",
         description:
           "El taekwondo, arte marcial de origen coreano practicado hoy por millones de personas y reconocido como deporte olímpico desde 2000, existe en dos ramas institucionales separadas que reflejan la división política de la península: el 'Taekwon-Do' promovido por la Federación Internacional de Taekwon-Do, con base histórica vinculada a Corea del Norte, y el 'taekwondo' promovido por la World Taekwondo, con sede en Corea del Sur y reconocida por el Comité Olímpico Internacional. Esta división se originó con el general surcoreano Choi Hong-hi, considerado el padre fundador moderno del taekwondo, quien tras desavenencias políticas con Corea del Sur en los años setenta trasladó su federación a Canadá, manteniendo vínculos con Corea del Norte que llevaron a ese país a adoptar su propia rama del arte marcial. La versión norcoreana mantiene diferencias técnicas identificables respecto de la surcoreana, aunque ambas comparten el mismo origen histórico.",
       },
       en: {
-        title: "The Korean Martial Art That Split Along With the Country",
+        title: "The Martial Art That Split Along With the Country",
         subtitle: "North Korean Taekwon-Do",
         imageAlt: "Cartoon of a knotted martial arts belt beside a split wooden board.",
         description:
@@ -170,14 +170,14 @@ export const northKorea: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El sistema de clasificación social que determina el destino de cada ciudadano al nacer",
+        title: "El sistema que determina el destino de cada ciudadano",
         subtitle: "El sistema songbun",
         imageAlt: "Caricatura de una carpeta de archivo cerrada con un sello sobre la tapa.",
         description:
           "Corea del Norte mantiene desde la década de 1950 un sistema de clasificación social conocido como 'songbun', que categoriza a los ciudadanos según el historial político y de lealtad ideológica de sus antepasados, particularmente durante la fundación del estado y la guerra de Corea, un sistema hereditario que determina el acceso de cada persona a oportunidades educativas, laborales, de residencia y hasta matrimoniales. El sistema clasifica a la población en tres grandes categorías —núcleo leal, clase vacilante y clase hostil— subdivididas en decenas de subcategorías, documentadas en registros que las autoridades consultan de forma rutinaria, aunque el estado nunca publicó de forma transparente los criterios exactos. Investigadores, basándose en testimonios de personas que abandonaron el país, documentaron que las familias de categorías más bajas enfrentan restricciones de movilidad ascendente, mientras el núcleo leal concentra el acceso al poder político, económico y militar.",
       },
       en: {
-        title: "The Social Classification System That Decides Each Citizen's Fate at Birth",
+        title: "The System That Decides Each Citizen's Fate at Birth",
         subtitle: "The Songbun System",
         imageAlt: "Cartoon of a closed file folder with a stamp on the cover.",
         description:
@@ -193,14 +193,14 @@ export const northKorea: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Uno de los países más difíciles y controlados del mundo para visitar",
+        title: "Uno de los países más difíciles de visitar",
         subtitle: "El turismo restringido en Corea del Norte",
         imageAlt: "Caricatura de un pasaporte cerrado junto a una cámara fotográfica.",
         description:
           "Corea del Norte mantiene uno de los sistemas de turismo más controlados del planeta, permitiendo el ingreso de extranjeros únicamente mediante viajes organizados y supervisados por guías estatales, sin posibilidad legal de recorrer el país de forma independiente. Los visitantes deben entregar sus pasaportes al ingresar, transitar solo por rutas aprobadas de antemano, y respetar normas estrictas sobre fotografía, vestimenta al visitar monumentos de la familia gobernante y trato respetuoso hacia los líderes, cuyo incumplimiento puede derivar en consecuencias legales severas, un riesgo ilustrado por el caso del estudiante estadounidense Otto Warmbier, detenido en 2016 y fallecido poco después de su liberación. Pese a estas restricciones, el país recibió antes de la pandemia un número creciente pero reducido de turistas, principalmente de China, aunque cerró completamente sus fronteras al turismo internacional durante varios años a partir de 2020.",
       },
       en: {
-        title: "One of the Hardest, Most Controlled Countries in the World to Visit",
+        title: "One of the Hardest Countries in the World to Visit",
         subtitle: "Restricted Tourism in North Korea",
         imageAlt: "Cartoon of a closed passport beside a camera.",
         description:
