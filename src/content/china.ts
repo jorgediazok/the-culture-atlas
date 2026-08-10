@@ -55,7 +55,7 @@ export const china: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El filósofo cuyas ideas todavía ordenan la vida cotidiana",
+        title: "El filósofo cuyas ideas aún ordenan la vida diaria",
         subtitle: "Confucio",
         imageAlt: "Caricatura de un pergamino enrollado junto a una pluma de escritura tradicional.",
         description:
@@ -78,7 +78,7 @@ export const china: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Un ejército entero enterrado para proteger a un emperador",
+        title: "Un ejército enterrado para proteger a un emperador",
         subtitle: "El Ejército de Terracota",
         imageAlt: "Caricatura de filas de soldados de arcilla con expresiones y uniformes distintos.",
         description:
@@ -147,14 +147,14 @@ export const china: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Un sistema de escritura con miles de símbolos, no letras",
+        title: "Una escritura con miles de símbolos, no letras",
         subtitle: "La caligrafía china",
         imageAlt: "Caricatura de un pincel de tinta trazando un carácter chino sobre papel.",
         description:
           "El chino escrito no usa un alfabeto de letras sino miles de caracteres individuales, cada uno representando una palabra o idea completa en lugar de un sonido, un sistema que permite que hablantes de mandarín y cantonés —lenguas mutuamente incomprensibles— puedan leerse sin problema, ya que comparten el mismo sistema escrito aunque pronuncien las palabras distinto. Aprender a leer con fluidez requiere memorizar entre 3.000 y 4.000 caracteres, muy por encima de las 26 letras de un alfabeto occidental. Más allá de su función comunicativa, la caligrafía china —el arte de escribir estos caracteres con pincel y tinta— se considera una de las bellas artes más elevadas de la cultura china, con maestros cuyo estilo se estudia y se imita hasta hoy, y cuya obra se subasta con el mismo respeto que una pintura de gran valor.",
       },
       en: {
-        title: "A Writing System With Thousands of Symbols, Not Letters",
+        title: "A Writing System With Thousands of Symbols",
         subtitle: "Chinese Calligraphy",
         imageAlt: "Cartoon of an ink brush tracing a Chinese character on paper.",
         description:
@@ -200,7 +200,7 @@ export const china: CultureEntry[] = [
           "Los pandas gigantes viven en estado salvaje únicamente en un puñado de cadenas montañosas del centro de China, principalmente en Sichuan, donde dependen casi exclusivamente del bambú, comiendo hasta 12 horas por día y consumiendo entre 12 y 38 kilos diarios, pese a que su sistema digestivo, heredado de ancestros carnívoros, procesa la celulosa de forma muy ineficiente. China nunca vende sus pandas a otros países, sino que los presta bajo acuerdos conocidos como 'diplomacia del panda', con contratos que suelen durar diez años y establecen que cualquier cría nacida en el extranjero es propiedad china y debe regresar al país. Considerado en peligro de extinción por décadas, el panda gigante fue reclasificado en 2016 como especie 'vulnerable' gracias a programas de conservación y reproducción en cautiverio entre los más exitosos del mundo.",
       },
       en: {
-        title: "The Animal That Only Eats Bamboo and Only Lives in One Place",
+        title: "The Animal That Only Eats Bamboo, Only Lives Here",
         subtitle: "Giant Pandas",
         imageAlt: "Cartoon of a panda sitting and eating a bamboo stalk.",
         description:
@@ -216,14 +216,14 @@ export const china: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Más kilómetros de tren rápido que el resto del mundo junto",
+        title: "Más tren rápido que el resto del mundo junto",
         subtitle: "El tren de alta velocidad",
         imageAlt: "Caricatura de un tren bala de nariz alargada cruzando el paisaje a gran velocidad.",
         description:
           "China construyó, en poco más de una década y media, la red de trenes de alta velocidad más extensa del planeta, con más de 45.000 kilómetros de vías —más que todos los demás países del mundo combinados—, permitiendo viajar entre ciudades separadas por más de 1.000 kilómetros en apenas unas horas a velocidades de hasta 350 km/h. El primer tramo se inauguró recién en 2008, poco antes de los Juegos Olímpicos de Beijing, una infraestructura masiva construida en un período extraordinariamente corto comparado con redes ferroviarias de otros países que tardaron décadas en llegar a una fracción de ese tamaño. El impacto fue enorme: ciudades antes remotas se conectaron con los principales centros económicos, y el tren de alta velocidad se volvió una alternativa habitual frente al avión para millones de personas.",
       },
       en: {
-        title: "More High-Speed Rail Than the Rest of the World Combined",
+        title: "More High-Speed Rail Than the Rest of the World",
         subtitle: "High-Speed Rail",
         imageAlt: "Cartoon of a long-nosed bullet train speeding across the landscape.",
         description:
