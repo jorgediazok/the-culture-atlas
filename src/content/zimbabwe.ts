@@ -101,7 +101,7 @@ export const zimbabwe: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El instrumento que conecta con los espíritus ancestrales",
+        title: "El instrumento que conecta con los ancestros",
         subtitle: "La mbira",
         imageAlt: "Caricatura de un instrumento de láminas metálicas sobre una caja de madera.",
         description:
@@ -124,7 +124,7 @@ export const zimbabwe: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El movimiento escultórico que sorprendió al mundo del arte",
+        title: "El movimiento escultórico que sorprendió al arte",
         subtitle: "La escultura shona",
         imageAlt: "Caricatura de una escultura de piedra negra con una forma humana estilizada.",
         description:
@@ -147,7 +147,7 @@ export const zimbabwe: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El músico que le puso guitarra eléctrica a la resistencia",
+        title: "El músico que electrificó la resistencia",
         subtitle: "Thomas Mapfumo",
         imageAlt: "Caricatura de una guitarra eléctrica junto a un león estilizado.",
         description:
@@ -170,14 +170,14 @@ export const zimbabwe: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Una de las mayores concentraciones de elefantes del planeta",
+        title: "Una de las mayores concentraciones de elefantes",
         subtitle: "Los elefantes de Hwange",
         imageAlt: "Caricatura de una manada de elefantes reunida alrededor de un pozo de agua.",
         description:
           "El Parque Nacional Hwange, el más grande de Zimbabwe, alberga a una de las poblaciones de elefantes africanos más numerosas del continente, con estimaciones que superan los 40.000 ejemplares dentro de un área que, sin embargo, carece de ríos permanentes, lo que obligó a desarrollar desde la época colonial una extensa red de más de 60 pozos de agua artificiales, muchos originalmente bombeados con motores diésel y hoy convertidos progresivamente a energía solar, sin los cuales buena parte de la fauna del parque no podría sobrevivir durante la temporada seca. Esa dependencia hídrica artificial convierte a los pozos de agua en uno de los mejores puntos del mundo para observar de cerca manadas enteras de elefantes, búfalos, cebras y otros herbívoros congregándose en el mismo lugar, especialmente durante los meses de sequía cuando las fuentes naturales de agua desaparecen casi por completo del paisaje circundante.",
       },
       en: {
-        title: "One of the Largest Elephant Concentrations on the Planet",
+        title: "One of the Largest Elephant Concentrations on Earth",
         subtitle: "The Elephants of Hwange",
         imageAlt: "Cartoon of a herd of elephants gathered around a water hole.",
         description:
