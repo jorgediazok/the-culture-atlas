@@ -434,7 +434,7 @@ export const belgium: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La plaza que Víctor Hugo llamó la más hermosa de Europa",
+        title: "La plaza que Víctor Hugo llamó la más hermosa",
         subtitle: "El Grand Place",
         imageAlt:
           "Caricatura de una plaza medieval con fachadas doradas y un ayuntamiento con torre puntiaguda.",
@@ -442,7 +442,7 @@ export const belgium: CultureEntry[] = [
           "El Grand Place de Bruselas, una plaza medieval rodeada de edificios gremiales del siglo XVII con fachadas doradas y el imponente Ayuntamiento gótico, fue declarada Patrimonio de la Humanidad por la UNESCO en 1998. El escritor francés Víctor Hugo, exiliado en Bruselas en el siglo XIX, la describió como posiblemente la plaza más hermosa de Europa, y desde entonces la frase se repite en cada guía turística de la ciudad. Cada dos años, en agosto, la plaza se cubre por completo con una alfombra gigante de flores hecha con cientos de miles de begonias, un espectáculo que dura apenas cuatro días y atrae a decenas de miles de visitantes.",
       },
       en: {
-        title: "The Square Victor Hugo Called the Most Beautiful in Europe",
+        title: "The Square Victor Hugo Called the Most Beautiful",
         subtitle: "The Grand Place",
         imageAlt:
           "Cartoon of a medieval square with gilded facades and a town hall with a pointed tower.",
@@ -459,7 +459,7 @@ export const belgium: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La ciudad por donde pasan casi todos los diamantes del mundo",
+        title: "La ciudad por donde pasan casi todos los diamantes",
         subtitle: "Los diamantes de Amberes",
         imageAlt:
           "Caricatura de un diamante brillante tallado sobre un paño de terciopelo con una lupa de joyero.",
@@ -467,7 +467,7 @@ export const belgium: CultureEntry[] = [
           "Amberes es, desde hace más de 500 años, la capital mundial del comercio de diamantes: se estima que hasta el 80% de los diamantes en bruto y buena parte de los diamantes tallados del planeta pasan en algún momento por su Distrito de los Diamantes, un puñado de calles custodiadas con una seguridad comparable a la de un banco central. La industria se desarrolló gracias a la llegada de comerciantes judíos e indios que establecieron redes de confianza y experiencia técnica que todavía hoy dominan el sector. El distrito tiene su propia bolsa de comercio, sus propios tribunales especializados y hasta su propio sistema de certificación, algo único en cualquier otra ciudad del mundo para un solo producto.",
       },
       en: {
-        title: "The City Almost Every Diamond in the World Passes Through",
+        title: "The City Almost Every Diamond Passes Through",
         subtitle: "Antwerp's Diamonds",
         imageAlt:
           "Cartoon of a sparkling cut diamond on a velvet cloth with a jeweler's loupe.",
@@ -484,7 +484,7 @@ export const belgium: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El festival que convirtió un pueblo chico en la capital del EDM",
+        title: "El festival que hizo de un pueblo la capital del EDM",
         subtitle: "Tomorrowland",
         imageAlt:
           "Caricatura de un escenario de festival gigante con forma de castillo de fantasía y luces de colores.",
@@ -492,7 +492,7 @@ export const belgium: CultureEntry[] = [
           "Tomorrowland, un festival de música electrónica que se celebra desde 2005 en el pueblo de Boom, cerca de Amberes, se convirtió en uno de los eventos de música más grandes y codiciados del mundo, con entradas que se agotan en minutos y asistentes que viajan desde más de 200 países distintos cada edición. Sus escenarios, diseñados como castillos de fantasía gigantes con efectos especiales de nivel cinematográfico, cambian por completo cada año según una historia y estética temática nueva. El festival demostró tal éxito que expandió el formato con una edición hermana en Brasil y una versión invernal en los Alpes franceses, pero el original en Bélgica sigue siendo, para los fanáticos del género en todo el mundo, el peregrinaje definitivo.",
       },
       en: {
-        title: "The Festival That Turned a Small Town Into the EDM Capital",
+        title: "The Festival That Made a Small Town the EDM Capital",
         subtitle: "Tomorrowland",
         imageAlt:
           "Cartoon of a giant fantasy-castle-shaped festival stage with colorful lights.",
