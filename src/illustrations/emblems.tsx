@@ -553,6 +553,24 @@ const Vanuatu: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const Ethiopia: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 30 Q30 35 30 55 Q30 75 50 82 Q70 75 70 55 Q70 35 50 30 Z" fill="#fff" />
+    <path d="M68 48 Q82 45 82 55 Q82 62 70 60 Z" fill="#fff" />
+    <rect x="46" y="20" width="8" height="12" fill={accentColor} />
+  </svg>
+);
+
+const Kiribati: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path
+      d="M50 55 Q20 40 10 50 Q28 52 42 58 Q26 62 14 74 Q34 70 50 60 Q66 70 86 74 Q74 62 58 58 Q72 52 90 50 Q80 40 50 55 Z"
+      fill="#fff"
+    />
+    <circle cx="50" cy="30" r="8" fill={accentColor} />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -602,6 +620,8 @@ export const emblems: Record<string, EmblemComponent> = {
   nauru: Nauru,
   tonga: Tonga,
   vanuatu: Vanuatu,
+  ethiopia: Ethiopia,
+  kiribati: Kiribati,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

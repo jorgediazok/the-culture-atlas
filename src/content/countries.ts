@@ -740,6 +740,42 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "ethiopia",
+    flagEmoji: "🇪🇹",
+    accentColor: "#4A2C2A",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Etiopía",
+        intro:
+          "Una de las dos únicas naciones africanas que nunca fue colonizada, cuna del café, del fósil Lucy y de iglesias talladas hacia abajo desde una sola roca en Lalibela. Estas páginas son para descubrir una Etiopía de calendario propio, alfabeto milenario y corredores que dominan el atletismo mundial.",
+      },
+      en: {
+        name: "Ethiopia",
+        intro:
+          "One of only two African nations never colonized, birthplace of coffee, of the Lucy fossil, and of churches carved downward from a single rock in Lalibela. These pages are here to discover an Ethiopia of its own calendar, an ancient alphabet, and runners who dominate world athletics.",
+      },
+    },
+  },
+  {
+    slug: "kiribati",
+    flagEmoji: "🇰🇮",
+    accentColor: "#E8912D",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Kiribati",
+        intro:
+          "El único país presente en los cuatro hemisferios del planeta, que movió la línea internacional de cambio de fecha y hasta compró tierra en otro país por si el mar se lo lleva todo. Estas páginas son para descubrir un Kiribati de atolones dispersos, danzas que imitan aves marinas y una historia marcada por la Segunda Guerra Mundial.",
+      },
+      en: {
+        name: "Kiribati",
+        intro:
+          "The only country present in all four hemispheres of the planet, which moved the International Date Line and even bought land abroad in case the sea takes everything. These pages are here to discover a Kiribati of scattered atolls, dances imitating seabirds, and a history marked by World War II.",
+      },
+    },
+  },
+  {
     slug: "nauru",
     flagEmoji: "🇳🇷",
     accentColor: "#8B5A2B",
