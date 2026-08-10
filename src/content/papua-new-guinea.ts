@@ -32,14 +32,14 @@ export const papuaNewGuinea: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El idioma que nació para que miles de lenguas pudieran entenderse",
+        title: "El idioma que unió a miles de lenguas distintas",
         subtitle: "Tok Pisin",
         imageAlt: "Caricatura de dos personas conversando con globos de diálogo entrelazados.",
         description:
           "Con más de 840 idiomas conviviendo en el país, Papúa Nueva Guinea necesitaba una lengua común, y esa función la cumple el Tok Pisin, una lengua criolla nacida en el siglo XIX del contacto entre trabajadores locales y comerciantes de habla inglesa y alemana, que combinó vocabulario mayormente inglés con una gramática propia muy distinta de sus lenguas de origen. Hoy es uno de los tres idiomas oficiales del país —junto al inglés y al hiri motu— y funciona como lengua franca en el parlamento y los medios, aunque para la mayoría sigue siendo una segunda lengua aprendida después del idioma materno local. Palabras como 'gutpela' (bueno, de 'good fellow') o 'meri' (mujer, de 'Mary') muestran cómo tomó elementos del inglés y los transformó en un sistema lingüístico completamente nuevo.",
       },
       en: {
-        title: "The Language Born So Thousands of Tongues Could Understand Each Other",
+        title: "The Language Built to Unite Thousands of Tongues",
         subtitle: "Tok Pisin",
         imageAlt: "Cartoon of two people talking with interlocking speech bubbles.",
         description:
@@ -55,14 +55,14 @@ export const papuaNewGuinea: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Cientos de tribus pintadas de colores en un mismo festival",
+        title: "Cientos de tribus pintadas en un mismo festival",
         subtitle: "Los sing-sing",
         imageAlt: "Caricatura de una persona con el rostro pintado y un tocado de plumas coloridas.",
         description:
           "Los 'sing-sing', festivales tradicionales donde distintos grupos tribales de Papúa Nueva Guinea se reúnen para cantar, bailar y competir mostrando sus trajes ceremoniales, son de los eventos culturales más espectaculares del país, con los participantes cubriendo cuerpo y rostro con pinturas de colores intensos, plumas de aves del paraíso y tocados elaborados con meses de anticipación. El Mount Hagen Cultural Show y el Goroka Show, los dos festivales más grandes, reúnen a más de cien grupos tribales distintos, muchos con poco o ningún contacto entre sí, para mostrar bailes y vestimentas que varían drásticamente de una tribu a otra pese a la cercanía geográfica. Originados en parte para reemplazar conflictos tribales históricos con una competencia pacífica, hoy son también una de las principales atracciones turísticas del país.",
       },
       en: {
-        title: "Hundreds of Tribes Painted in Color at the Same Festival",
+        title: "Hundreds of Tribes Painted for the Same Festival",
         subtitle: "The Sing-Sings",
         imageAlt: "Cartoon of a person with a painted face and a colorful feathered headdress.",
         description:
@@ -101,7 +101,7 @@ export const papuaNewGuinea: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El sistema de intercambio que fascinó a la antropología mundial",
+        title: "El intercambio que fascinó a la antropología mundial",
         subtitle: "El anillo Kula",
         imageAlt: "Caricatura de un collar y un brazalete de conchas marinas conectados en círculo.",
         description:
@@ -124,14 +124,14 @@ export const papuaNewGuinea: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Un millón de personas que el resto del mundo desconocía hasta los años 30",
+        title: "Un millón de personas invisibles hasta los años 30",
         subtitle: "El primer contacto en las tierras altas",
         imageAlt: "Caricatura de un avión pequeño sobrevolando valles montañosos densos.",
         description:
           "Las tierras altas centrales de Papúa Nueva Guinea, rodeadas de montañas escarpadas y selva densa prácticamente inaccesibles por tierra, permanecieron desconocidas para el resto del mundo hasta los años 1930, cuando exploradores australianos buscando oro ingresaron por primera vez a la región y descubrieron, para su sorpresa, que albergaba a más de un millón de personas viviendo en valles fértiles, organizadas en cientos de grupos tribales con agricultura desarrollada, de los que no existía registro previo alguno. Este episodio, considerado uno de los últimos grandes 'primeros contactos' documentados en la historia, fue registrado en fotografías y filmaciones que hoy se conservan como testimonio de ese encuentro. Muchas personas que vivieron ese contacto siendo niños llegaron a presenciar, en una sola vida, la transición completa hacia la era de los teléfonos celulares e internet.",
       },
       en: {
-        title: "A Million People the Rest of the World Didn't Know About Until the 1930s",
+        title: "A Million People Unknown to the World Until the 1930s",
         subtitle: "First Contact in the Highlands",
         imageAlt: "Cartoon of a small airplane flying over dense mountain valleys.",
         description:
@@ -177,7 +177,7 @@ export const papuaNewGuinea: CultureEntry[] = [
           "Las comunidades que viven a orillas del río Sepik, el más largo de Papúa Nueva Guinea, desarrollaron una de las tradiciones de arte tribal más admiradas del mundo, con máscaras ceremoniales y tallas de madera que representan espíritus ancestrales, usadas tradicionalmente en rituales de iniciación realizados dentro de las 'casas de los espíritus' (haus tambaran), grandes estructuras comunales que albergan objetos sagrados prohibidos para mujeres y niños. Cada aldea a lo largo del río desarrolló estilos ligeramente distintos, y muchas de estas piezas, esculpidas tradicionalmente con herramientas de piedra, terminaron en colecciones de importantes museos del mundo, desde el Quai Branly en París hasta el Metropolitan de Nueva York. Aunque muchos rituales originales se transformaron con el tiempo, el oficio de tallado sigue transmitiéndose de generación en generación en las comunidades del Sepik.",
       },
       en: {
-        title: "The Carved Masks Made Beside the Country's Biggest River",
+        title: "The Carved Masks Made Beside the Biggest River",
         subtitle: "Sepik River Art",
         imageAlt: "Cartoon of a wood-carved ceremonial mask with exaggerated features.",
         description:
@@ -193,14 +193,14 @@ export const papuaNewGuinea: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El único país del mundo donde este deporte es la pasión nacional",
+        title: "El único país donde este deporte es pasión nacional",
         subtitle: "El rugby league",
         imageAlt: "Caricatura de un balón de rugby ovalado con líneas de movimiento.",
         description:
           "Papúa Nueva Guinea es el único país del mundo donde el rugby league —una variante con 13 jugadores por equipo, distinta del rugby union más conocido internacionalmente— es oficialmente el deporte nacional, con una pasión popular comparable a la del fútbol en Sudamérica. Introducido por misioneros y administradores australianos a comienzos del siglo XX, se expandió rápidamente gracias a la radio y luego la televisión, y hoy casi cualquier persona en el país sigue de cerca la liga profesional australiana (NRL), pese a que Papúa Nueva Guinea todavía no tiene equipo propio compitiendo de forma permanente en esa competencia. Los días de partidos importantes, buena parte de la actividad comercial del país se detiene, con miles de personas reunidas alrededor de televisores comunitarios en pueblos sin electricidad garantizada las 24 horas.",
       },
       en: {
-        title: "The Only Country in the World Where This Sport Is the National Passion",
+        title: "The Only Country Where This Sport Rules All",
         subtitle: "Rugby League",
         imageAlt: "Cartoon of an oval rugby ball with motion lines.",
         description:
