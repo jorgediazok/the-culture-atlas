@@ -78,7 +78,7 @@ export const palestine: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El pañuelo de agricultor que se convirtió en símbolo mundial",
+        title: "El pañuelo de agricultor que fue símbolo mundial",
         subtitle: "La keffiyeh",
         imageAlt: "Caricatura de un pañuelo con estampado a cuadros blanco y negro.",
         description:
@@ -124,7 +124,7 @@ export const palestine: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El poeta cuyos versos se convirtieron en voz de un pueblo",
+        title: "El poeta cuyos versos fueron la voz de un pueblo",
         subtitle: "Mahmoud Darwish",
         imageAlt: "Caricatura de una pluma de escribir junto a un libro de poesía abierto.",
         description:
@@ -147,7 +147,7 @@ export const palestine: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El jabón de oliva que se fabrica igual desde hace siglos",
+        title: "El jabón de oliva fabricado igual desde hace siglos",
         subtitle: "El jabón de Nablus",
         imageAlt: "Caricatura de barras de jabón verde pálido apiladas en una torre.",
         description:
@@ -170,14 +170,14 @@ export const palestine: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La ciudad donde se venera el lugar exacto de un nacimiento",
+        title: "La ciudad que venera el lugar exacto de un nacimiento",
         subtitle: "Belén y la Basílica de la Natividad",
         imageAlt: "Caricatura de una estrella plateada incrustada en el piso de piedra de una gruta.",
         description:
           "Belén, una ciudad de Cisjordania a pocos kilómetros de Jerusalén, es venerada por la tradición cristiana como el lugar de nacimiento de Jesús, y alberga la Basílica de la Natividad, una de las iglesias en funcionamiento continuo más antiguas del mundo, construida en el siglo IV por orden del emperador Constantino y reconstruida en el siglo VI tras un incendio. Dentro de la basílica, una estrella de plata incrustada en el piso de una gruta subterránea marca el sitio tradicionalmente identificado como el lugar exacto del nacimiento, un punto de peregrinación constante, especialmente numeroso en Nochebuena. El edificio tiene una entrada excepcionalmente baja, la 'Puerta de la Humildad', reducida hace siglos para impedir que jinetes armados entraran a caballo. Declarada Patrimonio de la Humanidad en 2012, la basílica es administrada conjuntamente por las iglesias católica, ortodoxa griega y armenia.",
       },
       en: {
-        title: "The City Where a Birthplace Is Venerated Down to the Exact Spot",
+        title: "The City That Venerates an Exact Birthplace Spot",
         subtitle: "Bethlehem and the Church of the Nativity",
         imageAlt: "Cartoon of a silver star embedded in the stone floor of a grotto.",
         description:
@@ -193,14 +193,14 @@ export const palestine: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El niño descalzo que se convirtió en símbolo sin decir una palabra",
+        title: "El niño descalzo que es símbolo sin decir palabra",
         subtitle: "Handala",
         imageAlt: "Caricatura de un niño pequeño de espaldas con las manos cruzadas detrás.",
         description:
           "Handala es un personaje de historieta creado en 1969 por el caricaturista palestino Naji al-Ali: un niño de diez años, descalzo, con ropa remendada y las manos cruzadas detrás de la espalda, dibujado siempre de espaldas al lector, sin mostrar nunca su rostro. Al-Ali explicó que el personaje tenía diez años porque esa era su propia edad cuando su familia dejó su aldea natal en 1948, y que permanecería con esa edad hasta poder regresar, negándose a dibujarlo crecer como forma de rechazar el olvido de esa historia. Las manos cruzadas representaban, según el autor, un rechazo a las soluciones impuestas desde afuera y una espera activa antes que una resignación pasiva. Tras el asesinato de Naji al-Ali en Londres en 1987, Handala se convirtió en un símbolo ampliamente reproducido en murales, calcomanías y arte callejero.",
       },
       en: {
-        title: "The Barefoot Boy Who Became a Symbol Without Saying a Word",
+        title: "The Barefoot Boy Who Is a Symbol Without a Word",
         subtitle: "Handala",
         imageAlt: "Cartoon of a small child seen from behind with hands clasped behind his back.",
         description:
@@ -216,14 +216,14 @@ export const palestine: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La cerámica azul que llegó de Armenia y se quedó en Jerusalén",
+        title: "La cerámica azul que llegó de Armenia a Jerusalén",
         subtitle: "La cerámica armenio-palestina",
         imageAlt: "Caricatura de un plato de cerámica blanco pintado con motivos florales azules.",
         description:
           "La cerámica pintada a mano con motivos florales azules y turquesas sobre fondo blanco, hoy vendida en tiendas de toda Jerusalén y asociada visualmente a la ciudad, tiene un origen relativamente reciente: llegó en 1919 de la mano de ceramistas armenios invitados por las autoridades británicas para restaurar los azulejos históricos de la Cúpula de la Roca, que en ese momento se encontraban en mal estado. Los artesanos armenios, en lugar de regresar a su país, se establecieron en la ciudad y abrieron sus propios talleres, fusionando técnicas armenias tradicionales con motivos decorativos de la región palestina e islámica, dando origen a un estilo híbrido que no existía antes. Talleres familiares siguen operando hoy en el Barrio Armenio de la Ciudad Vieja, y sus platos y azulejos se convirtieron en uno de los souvenirs más buscados de la ciudad.",
       },
       en: {
-        title: "The Blue Pottery That Came From Armenia and Stayed in Jerusalem",
+        title: "The Blue Pottery That Traveled From Armenia",
         subtitle: "Armenian-Palestinian Ceramics",
         imageAlt: "Cartoon of a white ceramic plate painted with blue floral motifs.",
         description:
