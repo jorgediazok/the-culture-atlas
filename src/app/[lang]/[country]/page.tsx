@@ -1,8 +1,5 @@
 import { notFound } from "next/navigation";
 import Container from "@mui/material/Container";
-import Stack from "@mui/material/Stack";
-import Typography from "@mui/material/Typography";
-import BackLink from "@/components/BackLink";
 import BookCarousel from "@/components/BookCarousel";
 import CoverPage from "@/components/CoverPage";
 import PageSpread from "@/components/PageSpread";
@@ -53,15 +50,15 @@ export default async function CountryPage({
     .map((entry) => localizeEntry(entry, lang));
 
   return (
-    <Container maxWidth="md" sx={{ py: { xs: 6, md: 10 } }}>
-      <Stack spacing={2} sx={{ mb: 4 }}>
-        <BackLink href={`/${lang}`}>{dict.backToIndex}</BackLink>
-        <Typography variant="h4" component="h1" sx={{ fontWeight: 700 }}>
-          {localizedCountry.flagEmoji} {localizedCountry.name}
-        </Typography>
-      </Stack>
-
-      <BookCarousel coverLabel={dict.coverLabel}>
+    <Container maxWidth="lg" sx={{ py: { xs: 6, md: 10 } }}>
+      <BookCarousel
+        coverLabel={dict.coverLabel}
+        backToIndexHref={`/${lang}`}
+        backToIndexLabel={dict.backToIndex}
+        backToFirstPageLabel={dict.backToFirstPage}
+        countryName={localizedCountry.name}
+        countryFlagEmoji={localizedCountry.flagEmoji}
+      >
         <CoverPage
           country={localizedCountry}
           entryCount={entries.length}

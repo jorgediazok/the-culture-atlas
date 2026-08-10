@@ -6,6 +6,7 @@ const dictionaries = {
     eyebrow: "Un libro cultural digital",
     tagline: "País por país · página por página",
     backToIndex: "← Volver al índice",
+    backToFirstPage: "← Volver a la primera página",
     storiesLabel: "historias",
     coverLabel: "Portada",
     continents: {
@@ -22,6 +23,7 @@ const dictionaries = {
     eyebrow: "A digital culture book",
     tagline: "Country by country · page by page",
     backToIndex: "← Back to index",
+    backToFirstPage: "← Back to first page",
     storiesLabel: "stories",
     coverLabel: "Cover",
     continents: {

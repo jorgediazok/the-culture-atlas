@@ -7,6 +7,7 @@ import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
+import Link from "next/link";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
@@ -15,6 +16,11 @@ const MAX_ROTATION_DEG = 55;
 export default function BookCarousel({
   children,
   coverLabel,
+  backToIndexHref,
+  backToIndexLabel,
+  backToFirstPageLabel,
+  countryName,
+  countryFlagEmoji,
 }: {
   children: React.ReactNode;
   /** When provided, the first slide is treated as an unnumbered cover: it
@@ -22,6 +28,13 @@ export default function BookCarousel({
    * from 1 starting after it — matching the folio number printed on the
    * page itself instead of the cover's raw position in the slide list. */
   coverLabel?: string;
+  backToIndexHref: string;
+  backToIndexLabel: string;
+  /** Shown on the same row as the "back to index" link, only once the
+   * reader reaches the last page — a quick way back to the cover. */
+  backToFirstPageLabel: string;
+  countryName: string;
+  countryFlagEmoji: string;
 }) {
   const slides = Children.toArray(children);
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false });
@@ -91,8 +104,46 @@ export default function BookCarousel({
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [scrollPrev, scrollNext]);
 
+  const isLastSlide = selectedIndex === slides.length - 1;
+
   return (
     <Box>
+      <Stack
+        direction="row"
+        sx={{ alignItems: "center", justifyContent: "space-between", mb: 2 }}
+      >
+        <Typography
+          component={Link}
+          href={backToIndexHref}
+          color="text.secondary"
+          sx={{
+            textDecoration: "none",
+            width: "fit-content",
+            "&:hover": { textDecoration: "underline" },
+          }}
+        >
+          {backToIndexLabel}
+        </Typography>
+
+        <Typography
+          component="button"
+          onClick={() => emblaApi?.scrollTo(0)}
+          sx={{
+            all: "unset",
+            cursor: "pointer",
+            color: "text.secondary",
+            visibility: isLastSlide ? "visible" : "hidden",
+            "&:hover": { textDecoration: "underline" },
+          }}
+        >
+          {backToFirstPageLabel}
+        </Typography>
+      </Stack>
+
+      <Typography variant="h4" component="h1" sx={{ fontWeight: 700, mb: 4 }}>
+        {countryFlagEmoji} {countryName}
+      </Typography>
+
       <Box ref={emblaRef} sx={{ overflow: "hidden" }}>
         <Box sx={{ display: "flex" }}>
           {slides.map((slide, index) => (

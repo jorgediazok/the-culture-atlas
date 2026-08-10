@@ -18,6 +18,11 @@ import { russia } from "./russia";
 import { brazil } from "./brazil";
 import { colombia } from "./colombia";
 import { capeVerde } from "./cape-verde";
+import { southAfrica } from "./south-africa";
+import { thailand } from "./thailand";
+import { vietnam } from "./vietnam";
+import { australia } from "./australia";
+import { newZealand } from "./new-zealand";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -33,6 +38,11 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   brazil,
   colombia,
   "cape-verde": capeVerde,
+  "south-africa": southAfrica,
+  thailand,
+  vietnam,
+  australia,
+  "new-zealand": newZealand,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

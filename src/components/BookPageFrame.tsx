@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 
-const BOOK_RADIUS = { xs: "12px", md: "4px 28px 28px 4px" };
+const BOOK_RADIUS = { xs: "12px", md: "14px 28px 28px 14px" };
 
 export default function BookPageFrame({
   children,

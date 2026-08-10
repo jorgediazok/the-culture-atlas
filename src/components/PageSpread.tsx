@@ -19,10 +19,13 @@ export default function PageSpread({
 
   return (
     <BookPageFrame>
-      <Stack direction={{ xs: "column", md: "row" }} sx={{ height: "100%" }}>
+      <Stack
+        direction={{ xs: "column", md: "row" }}
+        sx={{ height: "100%", position: "relative" }}
+      >
         <Box
           sx={{
-            flex: { xs: "0 0 auto", md: 1 },
+            flex: { xs: "0 0 auto", md: "1 1 50%" },
             minWidth: 0,
             minHeight: { xs: 260, md: 480 },
             display: "flex",
@@ -32,18 +35,6 @@ export default function PageSpread({
             backgroundColor: entry.accentColor,
           }}
         >
-          <Box
-            sx={{
-              display: { xs: "none", md: "block" },
-              position: "absolute",
-              inset: 0,
-              width: "26px",
-              background:
-                "linear-gradient(to right, rgba(0,0,0,0.22), rgba(0,0,0,0))",
-              zIndex: 2,
-              pointerEvents: "none",
-            }}
-          />
           {entry.imageUrl ? (
             <Image
               src={entry.imageUrl}
@@ -63,13 +54,33 @@ export default function PageSpread({
               {entry.placeholderEmoji}
             </Typography>
           )}
+          {/* Gutter shadow, half A: anchored to this box's own right edge
+              (not the stack's midpoint) so it can never drift into a gap
+              against the illustration, whatever its rendered width is. */}
+          <Box
+            sx={{
+              display: { xs: "none", md: "block" },
+              position: "absolute",
+              top: 0,
+              bottom: 0,
+              right: 0,
+              width: "10px",
+              background:
+                "linear-gradient(to left, rgba(20,14,6,0.28), rgba(20,14,6,0))",
+              zIndex: 2,
+              pointerEvents: "none",
+            }}
+          />
         </Box>
 
         <Box
           sx={{
-            flex: 1,
+            flex: { xs: 1, md: "1 1 50%" },
             minWidth: 0,
-            p: { xs: 3, md: 6 },
+            pt: { xs: 3, md: 6 },
+            pr: { xs: 3, md: 6 },
+            pb: { xs: 3, md: 6 },
+            pl: { xs: 3, md: 9 },
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
@@ -77,6 +88,22 @@ export default function PageSpread({
             position: "relative",
           }}
         >
+          {/* Gutter shadow, half B: anchored to this box's own left edge,
+              matching the illustration side's half at the seam. */}
+          <Box
+            sx={{
+              display: { xs: "none", md: "block" },
+              position: "absolute",
+              top: 0,
+              bottom: 0,
+              left: 0,
+              width: "10px",
+              background:
+                "linear-gradient(to right, rgba(20,14,6,0.28), rgba(20,14,6,0))",
+              zIndex: 2,
+              pointerEvents: "none",
+            }}
+          />
           <Chip
             label={entry.subtitle}
             sx={{

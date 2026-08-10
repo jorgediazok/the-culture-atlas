@@ -235,4 +235,94 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "south-africa",
+    flagEmoji: "🇿🇦",
+    accentColor: "#007A4D",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Sudáfrica",
+        intro:
+          "El país de los once idiomas oficiales y la 'nación arcoíris', donde el largo camino hacia la libertad de Nelson Mandela cambió la historia del siglo XX. Estas páginas son para descubrir una Sudáfrica de montañas, safaris y reconciliación.",
+      },
+      en: {
+        name: "South Africa",
+        intro:
+          "The country of eleven official languages and the 'rainbow nation,' where Nelson Mandela's long walk to freedom changed the course of the 20th century. These pages are here to discover a South Africa of mountains, safaris, and reconciliation.",
+      },
+    },
+  },
+  {
+    slug: "thailand",
+    flagEmoji: "🇹🇭",
+    accentColor: "#D4AF37",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Tailandia",
+        intro:
+          "El único país del sudeste asiático que nunca fue colonizado, con templos dorados, mercados sobre el agua y una guerra de agua gigante para recibir el año nuevo. Estas páginas son para descubrir una Tailandia mucho más allá de sus playas.",
+      },
+      en: {
+        name: "Thailand",
+        intro:
+          "The only country in Southeast Asia never colonized, with golden temples, markets floating on water, and a giant water fight to ring in the new year. These pages are here to discover a Thailand that goes far beyond its beaches.",
+      },
+    },
+  },
+  {
+    slug: "vietnam",
+    flagEmoji: "🇻🇳",
+    accentColor: "#DA251D",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Vietnam",
+        intro:
+          "Un país de sopas humeantes, motos por todas partes y paisajes que van desde bahías de piedra caliza hasta arrozales tallados en las montañas. Estas páginas son para descubrir un Vietnam que va mucho más allá de su historia reciente.",
+      },
+      en: {
+        name: "Vietnam",
+        intro:
+          "A country of steaming soups, motorbikes everywhere, and landscapes ranging from limestone bays to rice fields carved into the mountains. These pages are here to discover a Vietnam that goes far beyond its recent history.",
+      },
+    },
+  },
+  {
+    slug: "australia",
+    flagEmoji: "🇦🇺",
+    accentColor: "#0B5563",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Australia",
+        intro:
+          "Un continente entero convertido en país, con más canguros que habitantes, una barrera de coral visible desde el espacio y un desierto rojo sagrado en el centro de todo. Estas páginas son para descubrir una Australia mucho más grande que sus playas.",
+      },
+      en: {
+        name: "Australia",
+        intro:
+          "An entire continent turned into a country, with more kangaroos than people, a coral reef visible from space, and a sacred red desert at the center of it all. These pages are here to discover an Australia far bigger than its beaches.",
+      },
+    },
+  },
+  {
+    slug: "new-zealand",
+    flagEmoji: "🇳🇿",
+    accentColor: "#1A1A1A",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Nueva Zelanda",
+        intro:
+          "El país que se convirtió en la Tierra Media, donde el haka maorí desafía antes de cada partido y las aves gobernaron la tierra durante millones de años sin un solo mamífero terrestre. Estas páginas son para descubrir una Nueva Zelanda de fiordos, tradición y aventura.",
+      },
+      en: {
+        name: "New Zealand",
+        intro:
+          "The country that became Middle-earth, where the Māori haka issues a challenge before every match and birds ruled the land for millions of years without a single land mammal in sight. These pages are here to discover a New Zealand of fjords, tradition, and adventure.",
+      },
+    },
+  },
 ];

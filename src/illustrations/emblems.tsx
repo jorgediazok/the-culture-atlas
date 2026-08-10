@@ -160,6 +160,77 @@ const CapeVerde: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const SouthAfrica: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {[0, 51, 102, 153, 204, 255, 306].map((deg) => (
+      <ellipse
+        key={deg}
+        cx="50"
+        cy="30"
+        rx="9"
+        ry="24"
+        fill="#fff"
+        opacity="0.9"
+        transform={`rotate(${deg} 50 60)`}
+      />
+    ))}
+    <circle cx="50" cy="60" r="13" fill={accentColor} />
+  </svg>
+);
+
+const Thailand: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="50,18 58,36 42,36" fill="#fff" />
+    <polygon points="38,36 62,36 68,54 32,54" fill="#fff" opacity="0.92" />
+    <polygon points="26,54 74,54 82,96 18,96" fill="#fff" opacity="0.85" />
+    <rect x="46" y="10" width="8" height="10" fill="#fff" />
+  </svg>
+);
+
+const Vietnam: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <ellipse cx="50" cy="65" rx="10" ry="24" fill="#fff" />
+    <ellipse cx="50" cy="65" rx="10" ry="24" fill="#fff" transform="rotate(60 50 65)" />
+    <ellipse cx="50" cy="65" rx="10" ry="24" fill="#fff" transform="rotate(120 50 65)" />
+    <ellipse cx="50" cy="65" rx="10" ry="24" fill="#fff" transform="rotate(180 50 65)" />
+    <ellipse cx="50" cy="65" rx="10" ry="24" fill="#fff" transform="rotate(240 50 65)" />
+    <ellipse cx="50" cy="65" rx="10" ry="24" fill="#fff" transform="rotate(300 50 65)" />
+    <circle cx="50" cy="65" r="10" fill={accentColor} />
+  </svg>
+);
+
+const Australia: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path
+      d="M50 24 C58 24 60 34 56 40 C64 42 70 50 66 58 C74 62 74 72 66 76 C68 84 62 90 54 88 C52 96 44 96 42 88 C34 90 28 84 30 76 C22 72 22 62 30 58 C26 50 32 42 40 40 C36 34 42 24 50 24 Z"
+      fill={accentColor}
+    />
+    {[
+      [50, 32],
+      [66, 50],
+      [58, 78],
+      [38, 78],
+      [30, 50],
+    ].map(([cx, cy], i) => (
+      <path
+        key={i}
+        d="M0 -5 L1.5 -1.5 L5 -1.5 L2 1 L3 5 L0 2.5 L-3 5 L-2 1 L-5 -1.5 L-1.5 -1.5 Z"
+        fill="#fff"
+        transform={`translate(${cx} ${cy})`}
+      />
+    ))}
+  </svg>
+);
+
+const NewZealand: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path
+      d="M50 20 C54 40 54 55 50 70 C58 60 66 56 76 56 C64 62 56 70 52 80 C62 80 70 84 78 92 C64 90 54 92 46 98 C48 82 44 68 34 58 C44 60 50 56 52 46 C46 52 38 52 30 48 C40 44 46 36 46 24 C48 22 49 21 50 20 Z"
+      fill="#fff"
+    />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -170,10 +241,15 @@ export const emblems: Record<string, EmblemComponent> = {
   luxembourg: Luxembourg,
   albania: Albania,
   russia: Russia,
+  vietnam: Vietnam,
   argentina: Argentina,
   brazil: Brazil,
   colombia: Colombia,
   "cape-verde": CapeVerde,
+  "south-africa": SouthAfrica,
+  thailand: Thailand,
+  australia: Australia,
+  "new-zealand": NewZealand,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {
