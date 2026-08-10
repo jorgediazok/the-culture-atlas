@@ -420,18 +420,18 @@ export const albania: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El barco que mostró al mundo el fin del aislamiento",
+        title: "El barco que mostró el fin del aislamiento",
         subtitle: "El éxodo del Vlora",
         imageAlt: "Caricatura de un barco cargado con muchísima gente sobre la cubierta navegando hacia el horizonte.",
         description:
-          "El 8 de agosto de 1991, un carguero llamado Vlora, diseñado para transportar unas 3.000 toneladas de azúcar, zarpó del puerto albanés de Durrës hacia Italia con más de 20.000 personas a bordo, apiñadas en cubierta y en las bodegas, en la que se convertiría en una de las imágenes más icónicas del colapso del régimen comunista albanés apenas meses después de su caída. Las fotografías aéreas del barco, cubierto de gente de punta a punta, dieron la vuelta al mundo y se convirtieron en un símbolo instantáneo de la desesperación y las ganas de libertad de una población que había vivido casi medio siglo prácticamente aislada del resto de Europa. El episodio marcó el inicio de una ola migratoria masiva de albaneses hacia Italia y Grecia durante los años 90, y hoy la imagen del Vlora sigue siendo, en la memoria colectiva albanesa, el símbolo más potente del quiebre entre el aislamiento comunista y la apertura al mundo.",
+          "El 8 de agosto de 1991, un carguero llamado Vlora, diseñado para transportar unas 3.000 toneladas de azúcar, zarpó del puerto albanés de Durrës hacia Italia con más de 20.000 personas a bordo, apiñadas en cubierta y en las bodegas, en lo que se convertiría en una de las imágenes más icónicas del colapso del régimen comunista albanés apenas meses después de su caída. Las fotografías aéreas del barco, cubierto de gente de punta a punta, dieron la vuelta al mundo y se convirtieron en un símbolo instantáneo de la desesperación y las ganas de libertad de una población que había vivido casi medio siglo aislada del resto de Europa. El episodio marcó el inicio de una ola migratoria masiva de albaneses hacia Italia y Grecia durante los años 90.",
       },
       en: {
-        title: "The Ship That Showed the World the End of Isolation",
+        title: "The Ship That Showed the End of Isolation",
         subtitle: "The Vlora Exodus",
         imageAlt: "Cartoon of a ship packed with people on its deck sailing toward the horizon.",
         description:
-          "On August 8, 1991, a cargo ship called the Vlora, designed to carry about 3,000 tons of sugar, set sail from the Albanian port of Durrës toward Italy with more than 20,000 people crammed onto its deck and in its holds, in what would become one of the most iconic images of the collapse of Albania's communist regime just months after its fall. Aerial photographs of the ship, covered end to end with people, went around the world and became an instant symbol of the desperation and hunger for freedom of a population that had lived nearly half a century practically isolated from the rest of Europe. The episode marked the beginning of a mass wave of Albanian migration to Italy and Greece throughout the 1990s, and today the image of the Vlora remains, in Albanian collective memory, the most powerful symbol of the break between communist isolation and openness to the world.",
+          "On August 8, 1991, a cargo ship called the Vlora, designed to carry about 3,000 tons of sugar, set sail from the Albanian port of Durrës toward Italy with more than 20,000 people crammed onto its deck and in its holds, in what would become one of the most iconic images of the collapse of Albania's communist regime just months after its fall. Aerial photographs of the ship, covered end to end with people, went around the world and became an instant symbol of the desperation and hunger for freedom of a population that had lived nearly half a century isolated from the rest of Europe. The episode marked the start of a mass wave of Albanian migration to Italy and Greece throughout the 1990s.",
       },
     },
   },
