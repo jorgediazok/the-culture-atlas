@@ -20,6 +20,16 @@ import { chileIllustrations } from "./chile";
 import { uruguayIllustrations } from "./uruguay";
 import { ugandaIllustrations } from "./uganda";
 import { zimbabweIllustrations } from "./zimbabwe";
+import { chinaIllustrations } from "./china";
+import { iranIllustrations } from "./iran";
+import { palestineIllustrations } from "./palestine";
+import { papuaNewGuineaIllustrations } from "./papua-new-guinea";
+import { peruIllustrations } from "./peru";
+import { boliviaIllustrations } from "./bolivia";
+import { germanyIllustrations } from "./germany";
+import { venezuelaIllustrations } from "./venezuela";
+import { kenyaIllustrations } from "./kenya";
+import { indonesiaIllustrations } from "./indonesia";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -45,6 +55,16 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   uruguay: uruguayIllustrations,
   uganda: ugandaIllustrations,
   zimbabwe: zimbabweIllustrations,
+  china: chinaIllustrations,
+  iran: iranIllustrations,
+  palestine: palestineIllustrations,
+  "papua-new-guinea": papuaNewGuineaIllustrations,
+  peru: peruIllustrations,
+  bolivia: boliviaIllustrations,
+  germany: germanyIllustrations,
+  venezuela: venezuelaIllustrations,
+  kenya: kenyaIllustrations,
+  indonesia: indonesiaIllustrations,
 };
 
 export function getIllustration(

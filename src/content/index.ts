@@ -27,6 +27,16 @@ import { chile } from "./chile";
 import { uruguay } from "./uruguay";
 import { uganda } from "./uganda";
 import { zimbabwe } from "./zimbabwe";
+import { china } from "./china";
+import { iran } from "./iran";
+import { palestine } from "./palestine";
+import { papuaNewGuinea } from "./papua-new-guinea";
+import { peru } from "./peru";
+import { bolivia } from "./bolivia";
+import { germany } from "./germany";
+import { venezuela } from "./venezuela";
+import { kenya } from "./kenya";
+import { indonesia } from "./indonesia";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -51,6 +61,16 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   uruguay,
   uganda,
   zimbabwe,
+  china,
+  iran,
+  palestine,
+  "papua-new-guinea": papuaNewGuinea,
+  peru,
+  bolivia,
+  germany,
+  venezuela,
+  kenya,
+  indonesia,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

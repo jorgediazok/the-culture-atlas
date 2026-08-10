@@ -279,6 +279,120 @@ const Zimbabwe: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const China: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="18" y="70" width="64" height="10" fill="#fff" />
+    {[18, 30, 42, 54, 66, 78].map((x) => (
+      <rect key={x} x={x} y="58" width="10" height="12" fill="#fff" />
+    ))}
+    <rect x="42" y="40" width="16" height="30" fill="#fff" />
+    <polygon points="34,40 66,40 50,26" fill="#fff" />
+    <circle cx="50" cy="20" r="4" fill={accentColor} />
+  </svg>
+);
+
+const Iran: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 22 L58 42 L50 62 L42 42 Z" fill="#fff" />
+    {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+      <path
+        key={deg}
+        d="M50 42 L54 48 L50 54 L46 48 Z"
+        fill="#fff"
+        opacity="0.85"
+        transform={`rotate(${deg} 50 65)`}
+      />
+    ))}
+    <circle cx="50" cy="65" r="8" fill={accentColor} />
+    <circle cx="50" cy="65" r="14" fill="none" stroke="#fff" strokeWidth="3" />
+  </svg>
+);
+
+const Palestine: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 30 C40 45 30 55 30 68 C30 80 39 88 50 88 C61 88 70 80 70 68 C70 55 60 45 50 30 Z" fill="#fff" />
+    <path d="M50 45 C44 55 38 62 38 70 C38 78 43 83 50 83" fill="none" stroke={accentColor} strokeWidth="3" strokeLinecap="round" />
+  </svg>
+);
+
+const PapuaNewGuinea: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <ellipse cx="46" cy="55" rx="10" ry="14" fill="#fff" />
+    <path d="M56 50 C72 40 84 44 86 52 C74 54 64 58 56 62 Z" fill="#fff" />
+    <path d="M56 58 C70 64 78 76 76 86 C64 82 56 70 54 60 Z" fill="#fff" />
+    <circle cx="42" cy="50" r="2.4" fill={accentColor} />
+    <path d="M36 55 q-8 2 -12 -2" fill="none" stroke="#fff" strokeWidth="3" strokeLinecap="round" />
+  </svg>
+);
+
+const Peru: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M30 70 L45 42 L58 62 L68 46 L82 70 Z" fill="#fff" />
+    {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+      <rect
+        key={deg}
+        x="47"
+        y="14"
+        width="6"
+        height="14"
+        rx="2"
+        fill="#fff"
+        opacity="0.85"
+        transform={`rotate(${deg} 50 34)`}
+      />
+    ))}
+    <circle cx="50" cy="34" r="10" fill={accentColor} />
+    <circle cx="50" cy="34" r="14" fill="none" stroke="#fff" strokeWidth="3" />
+  </svg>
+);
+
+const Bolivia: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M22 72 L38 46 L48 60 L62 38 L78 72 Z" fill="#fff" />
+    <path d="M22 78 h56 v8 h-56 Z" fill="#fff" opacity="0.85" />
+    <circle cx="60" cy="30" r="9" fill={accentColor} />
+    <circle cx="60" cy="30" r="13" fill="none" stroke="#fff" strokeWidth="3" />
+  </svg>
+);
+
+const Germany: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 24 C40 30 36 42 40 54 C34 56 30 62 32 70 C40 66 44 60 46 54 C44 64 46 76 54 86 C58 76 56 64 54 54 C56 60 60 66 68 70 C70 62 66 56 60 54 C64 42 60 30 50 24 Z" fill="#fff" />
+    <circle cx="50" cy="52" r="5" fill={accentColor} />
+  </svg>
+);
+
+const Venezuela: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {[0, 72, 144, 216, 288].map((deg) => (
+      <path
+        key={deg}
+        d="M50 22 L54 40 L50 48 L46 40 Z"
+        fill="#fff"
+        transform={`rotate(${deg} 50 55)`}
+      />
+    ))}
+    <circle cx="50" cy="55" r="9" fill={accentColor} />
+    <circle cx="50" cy="55" r="13" fill="none" stroke="#fff" strokeWidth="3" />
+  </svg>
+);
+
+const Kenya: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 26 L64 52 L50 44 L36 52 Z" fill="#fff" />
+    <path d="M36 52 L64 52 L58 84 L42 84 Z" fill="#fff" />
+    <path d="M50 60 L50 78" stroke={accentColor} strokeWidth="3" strokeLinecap="round" />
+    <circle cx="50" cy="52" r="4" fill={accentColor} />
+  </svg>
+);
+
+const Indonesia: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 20 C62 40 70 50 70 66 C70 80 61 90 50 90 C39 90 30 80 30 66 C30 50 38 40 50 20 Z" fill="#fff" />
+    <path d="M50 38 C57 50 62 58 62 68 C62 76 57 82 50 82 C43 82 38 76 38 68 C38 58 43 50 50 38 Z" fill={accentColor} />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -302,6 +416,16 @@ export const emblems: Record<string, EmblemComponent> = {
   uruguay: Uruguay,
   uganda: Uganda,
   zimbabwe: Zimbabwe,
+  china: China,
+  iran: Iran,
+  palestine: Palestine,
+  "papua-new-guinea": PapuaNewGuinea,
+  peru: Peru,
+  bolivia: Bolivia,
+  germany: Germany,
+  venezuela: Venezuela,
+  kenya: Kenya,
+  indonesia: Indonesia,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

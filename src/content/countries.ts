@@ -415,4 +415,166 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "iran",
+    flagEmoji: "🇮🇷",
+    accentColor: "#1D6FA5",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Irán",
+        intro:
+          "La antigua Persia, cuna de un imperio que gobernó medio mundo antiguo, de jardines que le dieron al mundo la palabra 'paraíso', y de una tradición poética donde los versos se recitan de memoria generación tras generación. Estas páginas son para descubrir un Irán de miles de años de arte y pensamiento.",
+      },
+      en: {
+        name: "Iran",
+        intro:
+          "Ancient Persia, birthplace of an empire that ruled half the ancient world, of gardens that gave the world the word 'paradise,' and of a poetic tradition where verses are recited from memory generation after generation. These pages are here to discover an Iran of thousands of years of art and thought.",
+      },
+    },
+  },
+  {
+    slug: "palestine",
+    flagEmoji: "🇵🇸",
+    accentColor: "#6B7A3A",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Palestina",
+        intro:
+          "Una identidad cultural sostenida por bordados que cuentan de dónde es cada mujer, olivos milenarios, y un poeta cuyos versos se recitan de memoria generación tras generación. Estas páginas son para descubrir un patrimonio cultural transmitido con el mismo cuidado que un tesoro de familia.",
+      },
+      en: {
+        name: "Palestine",
+        intro:
+          "A cultural identity carried through embroidery that tells where each woman is from, ancient olive trees, and a poet whose verses are recited from memory generation after generation. These pages are here to discover a cultural heritage passed down with the same care as a family treasure.",
+      },
+    },
+  },
+  {
+    slug: "indonesia",
+    flagEmoji: "🇮🇩",
+    accentColor: "#B8860B",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Indonesia",
+        intro:
+          "El país con más islas que ningún otro en el mundo, más volcanes activos que cualquiera, y un templo budista tan grande que estuvo perdido bajo la selva durante siglos. Estas páginas son para descubrir una Indonesia de sombras proyectadas, dragones gigantes y una diversidad cultural repartida entre miles de islas.",
+      },
+      en: {
+        name: "Indonesia",
+        intro:
+          "The country with more islands than any other in the world, more active volcanoes than anywhere else, and a Buddhist temple so large it was lost beneath the jungle for centuries. These pages are here to discover an Indonesia of projected shadows, giant dragons, and a cultural diversity spread across thousands of islands.",
+      },
+    },
+  },
+  {
+    slug: "kenya",
+    flagEmoji: "🇰🇪",
+    accentColor: "#C68642",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Kenia",
+        intro:
+          "El país donde se cruza cada año la migración de mamíferos más grande del planeta, donde nació el dinero móvil como lo conocemos hoy, y donde el Gran Valle del Rift guarda algunos de los fósiles más antiguos de la humanidad. Estas páginas son para descubrir una Kenia de sabana, montaña y una cultura masái que resiste el paso del tiempo.",
+      },
+      en: {
+        name: "Kenya",
+        intro:
+          "The country where the planet's largest mammal migration crosses every year, where mobile money as we know it today was born, and where the Great Rift Valley holds some of humanity's oldest fossils. These pages are here to discover a Kenya of savanna, mountain, and a Maasai culture that endures the passage of time.",
+      },
+    },
+  },
+  {
+    slug: "venezuela",
+    flagEmoji: "🇻🇪",
+    accentColor: "#FFD700",
+    continent: "south-america",
+    translations: {
+      es: {
+        name: "Venezuela",
+        intro:
+          "La tierra de la catarata más alta del mundo, un cielo que se ilumina con más rayos que cualquier otro lugar del planeta, y el líder que ayudó a liberar a seis países de la corona española. Estas páginas son para descubrir una Venezuela de tepuyes, llanos y una identidad cultural que resiste incluso en la distancia.",
+      },
+      en: {
+        name: "Venezuela",
+        intro:
+          "The land of the world's tallest waterfall, a sky that lights up with more lightning than anywhere else on the planet, and the leader who helped free six countries from the Spanish crown. These pages are here to discover a Venezuela of tepuis, plains, and a cultural identity that endures even at a distance.",
+      },
+    },
+  },
+  {
+    slug: "germany",
+    flagEmoji: "🇩🇪",
+    accentColor: "#DD0000",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Alemania",
+        intro:
+          "El país que inventó la imprenta, cerró en catorce años una escuela de diseño que definió lo moderno, y todavía convive con los fragmentos de un muro que dividió su capital durante 28 años. Estas páginas son para descubrir una Alemania de cerveza, ingeniería y una memoria histórica que se toma muy en serio.",
+      },
+      en: {
+        name: "Germany",
+        intro:
+          "The country that invented the printing press, ran a design school for just fourteen years that defined what modern means, and still lives alongside fragments of a wall that divided its capital for 28 years. These pages are here to discover a Germany of beer, engineering, and a historical memory taken very seriously.",
+      },
+    },
+  },
+  {
+    slug: "bolivia",
+    flagEmoji: "🇧🇴",
+    accentColor: "#5EC8D8",
+    continent: "south-america",
+    translations: {
+      es: {
+        name: "Bolivia",
+        intro:
+          "El país del salar más grande del mundo, un lago sagrado navegable a más de 3.800 metros de altura, y una constitución que reconoce 37 idiomas oficiales. Estas páginas son para descubrir una Bolivia de altiplano, minas de plata legendarias y una identidad indígena que hoy se vive con orgullo.",
+      },
+      en: {
+        name: "Bolivia",
+        intro:
+          "The country with the world's largest salt flat, a sacred navigable lake more than 3,800 meters above sea level, and a constitution recognizing 37 official languages. These pages are here to discover a Bolivia of altiplano, legendary silver mines, and an Indigenous identity now lived with pride.",
+      },
+    },
+  },
+  {
+    slug: "peru",
+    flagEmoji: "🇵🇪",
+    accentColor: "#D4AF37",
+    continent: "south-america",
+    translations: {
+      es: {
+        name: "Perú",
+        intro:
+          "El corazón del imperio inca, con una ciudadela perdida en las nubes, líneas gigantes en el desierto que solo se ven desde el aire, y la mayor diversidad genética de papa del planeta. Estas páginas son para descubrir un Perú de Andes, Amazonía y una cocina que conquistó el mundo.",
+      },
+      en: {
+        name: "Peru",
+        intro:
+          "The heart of the Inca Empire, home to a citadel lost in the clouds, giant desert lines only visible from the air, and the planet's greatest genetic diversity of potatoes. These pages are here to discover a Peru of Andes, Amazon, and a cuisine that conquered the world.",
+      },
+    },
+  },
+  {
+    slug: "papua-new-guinea",
+    flagEmoji: "🇵🇬",
+    accentColor: "#2E8B57",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Papúa Nueva Guinea",
+        intro:
+          "El país con más idiomas que cualquier otro del planeta, donde cientos de tribus todavía se reúnen pintadas de colores para bailar, y unas montañas tan aisladas que permanecieron desconocidas para el resto del mundo hasta los años 30. Estas páginas son para descubrir una diversidad cultural sin comparación.",
+      },
+      en: {
+        name: "Papua New Guinea",
+        intro:
+          "The country with more languages than any other on the planet, where hundreds of tribes still gather painted in color to dance, and mountains so isolated they remained unknown to the rest of the world until the 1930s. These pages are here to discover a cultural diversity without comparison.",
+      },
+    },
+  },
 ];
