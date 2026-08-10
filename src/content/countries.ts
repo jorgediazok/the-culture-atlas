@@ -740,6 +740,60 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "tuvalu",
+    flagEmoji: "🇹🇻",
+    accentColor: "#4A90D9",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Tuvalu",
+        intro:
+          "El país más bajo del planeta, tan pequeño que su pista de aterrizaje funciona como plaza pública y su dominio web de internet financia buena parte del presupuesto nacional. Estas páginas son para descubrir un Tuvalu de atolones diminutos, marineros que sostienen la economía desde el mar y una lucha existencial contra la subida del nivel del mar.",
+      },
+      en: {
+        name: "Tuvalu",
+        intro:
+          "The lowest-lying country on the planet, so small its airport runway doubles as the town square and its internet domain funds a large share of the national budget. These pages are here to discover a Tuvalu of tiny atolls, sailors who keep the economy afloat, and an existential fight against rising seas.",
+      },
+    },
+  },
+  {
+    slug: "fiji",
+    flagEmoji: "🇫🇯",
+    accentColor: "#00A99D",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Fiyi",
+        intro:
+          "Un archipiélago de 330 islas donde el kava se comparte en ceremonia, el rugby es casi una religión y una marca de agua embotellada se volvió más famosa que el país mismo. Estas páginas son para descubrir un Fiyi de arrecifes de colores, danzas narrativas y una historia mucho más compleja que sus playas de postal.",
+      },
+      en: {
+        name: "Fiji",
+        intro:
+          "An archipelago of 330 islands where kava is shared in ceremony, rugby is nearly a religion, and a bottled water brand became more famous than the country itself. These pages are here to discover a Fiji of colorful reefs, storytelling dances, and a history far more complex than its postcard beaches.",
+      },
+    },
+  },
+  {
+    slug: "micronesia",
+    flagEmoji: "🇫🇲",
+    accentColor: "#2E5E8C",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Micronesia",
+        intro:
+          "Un país de cuatro estados dispersos por el Pacífico, con una ciudad de piedra construida sobre un arrecife, dinero hecho de discos de piedra gigantes y navegantes que cruzaban el océano sin instrumentos. Estas páginas son para descubrir una Micronesia de idiomas diversos, pecios de guerra y una relación única con Estados Unidos.",
+      },
+      en: {
+        name: "Micronesia",
+        intro:
+          "A country of four states scattered across the Pacific, with a stone city built on a reef, money made from giant stone discs, and navigators who once crossed the ocean without instruments. These pages are here to discover a Micronesia of diverse languages, wartime wrecks, and a unique relationship with the United States.",
+      },
+    },
+  },
+  {
     slug: "papua-new-guinea",
     flagEmoji: "🇵🇬",
     accentColor: "#2E8B57",

@@ -503,6 +503,34 @@ const Algeria: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const Tuvalu: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <ellipse cx="50" cy="88" rx="30" ry="6" fill="#fff" />
+    <rect x="47" y="40" width="6" height="48" fill="#fff" />
+    <path d="M50 40 Q30 30 20 42 Q35 42 50 46 Z" fill="#fff" />
+    <path d="M50 40 Q70 30 80 42 Q65 42 50 46 Z" fill="#fff" />
+    <circle cx="50" cy="34" r="4" fill={accentColor} />
+  </svg>
+);
+
+const Fiji: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {[0, 72, 144, 216, 288].map((deg) => (
+      <ellipse key={deg} cx="50" cy="38" rx="10" ry="18" fill="#fff" transform={`rotate(${deg} 50 55)`} />
+    ))}
+    <circle cx="50" cy="55" r="8" fill={accentColor} />
+  </svg>
+);
+
+const Micronesia: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M25 40 L75 70 M25 70 L75 40 M50 25 L50 90" stroke="#fff" strokeWidth="3" fill="none" strokeLinecap="round" />
+    <circle cx="50" cy="55" r="5" fill={accentColor} />
+    <circle cx="30" cy="45" r="2.6" fill="#fff" />
+    <circle cx="70" cy="65" r="2.6" fill="#fff" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -546,6 +574,9 @@ export const emblems: Record<string, EmblemComponent> = {
   morocco: Morocco,
   egypt: Egypt,
   algeria: Algeria,
+  tuvalu: Tuvalu,
+  fiji: Fiji,
+  micronesia: Micronesia,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

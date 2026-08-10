@@ -40,6 +40,9 @@ import { botswanaIllustrations } from "./botswana";
 import { moroccoIllustrations } from "./morocco";
 import { egyptIllustrations } from "./egypt";
 import { algeriaIllustrations } from "./algeria";
+import { tuvaluIllustrations } from "./tuvalu";
+import { fijiIllustrations } from "./fiji";
+import { micronesiaIllustrations } from "./micronesia";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -85,6 +88,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   morocco: moroccoIllustrations,
   egypt: egyptIllustrations,
   algeria: algeriaIllustrations,
+  tuvalu: tuvaluIllustrations,
+  fiji: fijiIllustrations,
+  micronesia: micronesiaIllustrations,
 };
 
 export function getIllustration(
