@@ -50,6 +50,9 @@ import { algeria } from "./algeria";
 import { tuvalu } from "./tuvalu";
 import { fiji } from "./fiji";
 import { micronesia } from "./micronesia";
+import { nauru } from "./nauru";
+import { tonga } from "./tonga";
+import { vanuatu } from "./vanuatu";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -97,6 +100,9 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   tuvalu,
   fiji,
   micronesia,
+  nauru,
+  tonga,
+  vanuatu,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

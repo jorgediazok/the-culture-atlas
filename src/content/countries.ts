@@ -740,6 +740,60 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "nauru",
+    flagEmoji: "🇳🇷",
+    accentColor: "#8B5A2B",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Nauru",
+        intro:
+          "El país más pequeño del Pacífico, que pasó de ser uno de los más ricos del mundo por su fosfato a depender casi por completo de la ayuda externa, con un interior devastado que parece la superficie de la Luna. Estas páginas son para descubrir un Nauru de auge y caída, sin capital oficial y con una lucha constante por reinventarse.",
+      },
+      en: {
+        name: "Nauru",
+        intro:
+          "The smallest country in the Pacific, which went from one of the richest in the world thanks to phosphate to depending almost entirely on foreign aid, with an interior devastated into something resembling the surface of the Moon. These pages are here to discover a Nauru of boom and bust, with no official capital and a constant struggle to reinvent itself.",
+      },
+    },
+  },
+  {
+    slug: "tonga",
+    flagEmoji: "🇹🇴",
+    accentColor: "#C8102E",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Tonga",
+        intro:
+          "El único reino del Pacífico que nunca fue colonizado, donde se nada junto a ballenas jorobadas y una erupción submarina hizo temblar al planeta entero en 2022. Estas páginas son para descubrir un Tonga de monarquía milenaria, rugby de élite y una diáspora más grande que el propio reino.",
+      },
+      en: {
+        name: "Tonga",
+        intro:
+          "The only Pacific kingdom never colonized, where people swim alongside humpback whales and an underwater eruption shook the entire planet in 2022. These pages are here to discover a Tonga of thousand-year-old monarchy, elite rugby, and a diaspora larger than the kingdom itself.",
+      },
+    },
+  },
+  {
+    slug: "vanuatu",
+    flagEmoji: "🇻🇺",
+    accentColor: "#8B2942",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Vanuatu",
+        intro:
+          "El país que inspiró el bungee jumping con un ritual ancestral, encabezó el índice del planeta más feliz y reúne más de 110 idiomas en apenas 320.000 habitantes. Estas páginas son para descubrir un Vanuatu de volcanes accesibles, cultos únicos en el mundo y una resiliencia forjada por desastres constantes.",
+      },
+      en: {
+        name: "Vanuatu",
+        intro:
+          "The country that inspired bungee jumping with an ancestral ritual, topped the Happy Planet Index, and packs more than 110 languages into just 320,000 people. These pages are here to discover a Vanuatu of walkable volcanoes, one-of-a-kind cults, and a resilience forged by constant disasters.",
+      },
+    },
+  },
+  {
     slug: "tuvalu",
     flagEmoji: "🇹🇻",
     accentColor: "#4A90D9",

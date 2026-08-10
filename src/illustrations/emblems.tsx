@@ -531,6 +531,28 @@ const Micronesia: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const Nauru: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M22 85 L30 52 L37 68 L44 42 L50 66 L57 38 L64 66 L71 48 L78 85 Z" fill="#fff" />
+    <circle cx="50" cy="28" r="6" fill={accentColor} />
+  </svg>
+);
+
+const Tonga: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="30" y="30" width="40" height="40" fill="#fff" />
+    <rect x="44" y="36" width="12" height="28" fill={accentColor} />
+    <rect x="36" y="44" width="28" height="12" fill={accentColor} />
+  </svg>
+);
+
+const Vanuatu: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M32 78 Q18 50 40 28 Q56 18 68 32" fill="none" stroke="#fff" strokeWidth="7" strokeLinecap="round" />
+    <path d="M50 42 L50 78 M50 55 L40 47 M50 55 L60 47 M50 66 L42 60 M50 66 L58 60" stroke={accentColor} strokeWidth="2.6" strokeLinecap="round" fill="none" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -577,6 +599,9 @@ export const emblems: Record<string, EmblemComponent> = {
   tuvalu: Tuvalu,
   fiji: Fiji,
   micronesia: Micronesia,
+  nauru: Nauru,
+  tonga: Tonga,
+  vanuatu: Vanuatu,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

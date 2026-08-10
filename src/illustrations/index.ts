@@ -43,6 +43,9 @@ import { algeriaIllustrations } from "./algeria";
 import { tuvaluIllustrations } from "./tuvalu";
 import { fijiIllustrations } from "./fiji";
 import { micronesiaIllustrations } from "./micronesia";
+import { nauruIllustrations } from "./nauru";
+import { tongaIllustrations } from "./tonga";
+import { vanuatuIllustrations } from "./vanuatu";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -91,6 +94,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   tuvalu: tuvaluIllustrations,
   fiji: fijiIllustrations,
   micronesia: micronesiaIllustrations,
+  nauru: nauruIllustrations,
+  tonga: tongaIllustrations,
+  vanuatu: vanuatuIllustrations,
 };
 
 export function getIllustration(
