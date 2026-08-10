@@ -144,8 +144,13 @@ export default function BookCarousel({
         {countryFlagEmoji} {countryName}
       </Typography>
 
-      <Box ref={emblaRef} sx={{ overflow: "hidden" }}>
-        <Box sx={{ display: "flex" }}>
+      {/* Fixed height on desktop so every page renders at the same size
+          regardless of how much text an entry has — otherwise a long
+          description stretches the whole row (including the illustration
+          side) to match it. Mobile stays auto-height since pages stack
+          the image above the text instead of side by side. */}
+      <Box ref={emblaRef} sx={{ overflow: "hidden", height: { md: 680 } }}>
+        <Box sx={{ display: "flex", height: { md: "100%" } }}>
           {slides.map((slide, index) => (
             <Box
               key={index}
@@ -155,6 +160,7 @@ export default function BookCarousel({
               sx={{
                 flex: "0 0 100%",
                 minWidth: 0,
+                height: { md: "100%" },
                 transformOrigin: "center left",
               }}
             >

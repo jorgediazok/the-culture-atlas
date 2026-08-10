@@ -17,6 +17,14 @@ export default function PageSpread({
 }) {
   const illustration = getIllustration(countrySlug, entry.id);
 
+  // The page now has a fixed height on desktop (set in BookCarousel), so a
+  // long description can't just grow the page anymore. Most entries are
+  // well under this threshold and render at full size — this only kicks in
+  // for the rare outlier that's still long after trimming the copy itself.
+  const descriptionLength = entry.description.length;
+  const descriptionFontSize = descriptionLength > 1400 ? 14.5 : 16;
+  const descriptionLineHeight = descriptionLength > 1400 ? 1.6 : 1.7;
+
   return (
     <BookPageFrame>
       <Stack
@@ -86,6 +94,7 @@ export default function PageSpread({
             justifyContent: "center",
             gap: 2,
             position: "relative",
+            overflowY: { md: "auto" },
           }}
         >
           {/* Gutter shadow, half B: anchored to this box's own left edge,
@@ -119,7 +128,10 @@ export default function PageSpread({
           <Typography
             variant="body1"
             color="text.secondary"
-            sx={{ lineHeight: 1.7 }}
+            sx={{
+              fontSize: { md: descriptionFontSize },
+              lineHeight: { xs: 1.7, md: descriptionLineHeight },
+            }}
           >
             {entry.description}
           </Typography>
