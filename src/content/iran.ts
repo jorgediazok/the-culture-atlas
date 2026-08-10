@@ -9,14 +9,14 @@ export const iran: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La capital ceremonial de un imperio que gobernó medio mundo antiguo",
+        title: "La capital ceremonial de un imperio milenario",
         subtitle: "Persépolis",
         imageAlt: "Caricatura de columnas de piedra talladas con figuras sobre una plataforma elevada.",
         description:
           "Persépolis, fundada alrededor del año 518 a.C. por el emperador Darío I, fue la capital ceremonial del Imperio aqueménida, el primer gran imperio persa, que en su apogeo llegó a controlar territorios desde los Balcanes hasta el valle del Indo, una extensión sin precedentes hasta ese momento. La ciudad, construida sobre una plataforma monumental con escalinatas dobles, columnas gigantes y relieves que representan a delegaciones de pueblos súbditos trayendo tributos al rey, funcionaba principalmente como escenario del Nowruz, el año nuevo persa. En 330 a.C. fue incendiada por las tropas de Alejandro Magno, un episodio que los historiadores debaten si fue venganza calculada o un accidente. Sus ruinas, Patrimonio de la Humanidad desde 1979, siguen siendo uno de los sitios arqueológicos más impresionantes de Medio Oriente.",
       },
       en: {
-        title: "The Ceremonial Capital of an Empire That Ruled Half the Ancient World",
+        title: "The Ceremonial Capital of an Ancient Empire",
         subtitle: "Persepolis",
         imageAlt: "Cartoon of carved stone columns with figures on an elevated platform.",
         description:
@@ -78,14 +78,14 @@ export const iran: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El año nuevo que se celebra en el equinoccio de primavera",
+        title: "El año nuevo del equinoccio de primavera",
         subtitle: "Nowruz",
         imageAlt: "Caricatura de una mesa decorada con brotes verdes y una manzana roja.",
         description:
           "Nowruz, que literalmente significa 'nuevo día', es el año nuevo persa y se celebra en el momento exacto del equinoccio de primavera, generalmente el 20 o 21 de marzo, una fecha calculada astronómicamente que puede variar de un año a otro según el minuto exacto en que el sol cruza el ecuador celeste. Con más de 3.000 años de antigüedad y raíces en la tradición zoroástrica, Nowruz se celebra hoy no solo en Irán sino en toda Asia Central, Afganistán, partes de Turquía y el Cáucaso, y fue reconocido por Naciones Unidas como Día Internacional en 2010. Una de sus tradiciones centrales es el 'haft-sin', una mesa decorada con siete elementos simbólicos cuyos nombres en persa empiezan con la letra 'sin' (S) —brotes de trigo, ajo, manzana, vinagre, entre otros—, cada uno representando conceptos como renovación, salud o abundancia, montada en cada hogar durante los trece días que dura la celebración.",
       },
       en: {
-        title: "The New Year Celebrated at the Spring Equinox",
+        title: "The New Year at the Spring Equinox",
         subtitle: "Nowruz",
         imageAlt: "Cartoon of a table decorated with green sprouts and a red apple.",
         description:
@@ -101,14 +101,14 @@ export const iran: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El cine que ganó premios internacionales pese a la censura",
+        title: "El cine que triunfa pese a la censura",
         subtitle: "El cine iraní",
         imageAlt: "Caricatura de una claqueta de cine junto a un rollo de película.",
         description:
           "Pese a operar bajo un sistema de censura estatal estricto, el cine iraní se convirtió desde los años 90 en uno de los más respetados del circuito de festivales internacionales, con directores como Abbas Kiarostami, cuya película 'El sabor de las cerezas' ganó la Palma de Oro en Cannes en 1997, y Asghar Farhadi, que ganó dos premios Oscar a mejor película extranjera con 'Una separación' (2012) y 'El viajante' (2017). Muchos directores desarrollaron un estilo particular, mezclando ficción y documental con actores no profesionales y tramas sobre dilemas morales cotidianos, en parte para esquivar restricciones sobre temas políticos. Farhadi se negó a asistir a los Oscar de 2017 en protesta por una prohibición de viaje del gobierno estadounidense a países de mayoría musulmana, un gesto que reforzó la reputación del cine iraní.",
       },
       en: {
-        title: "The Cinema That Won International Awards Despite Censorship",
+        title: "The Cinema That Thrives Despite Censorship",
         subtitle: "Iranian Cinema",
         imageAlt: "Cartoon of a film clapperboard next to a reel of film.",
         description:
@@ -147,14 +147,14 @@ export const iran: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Una de las religiones monoteístas más antiguas del mundo",
+        title: "Una de las religiones monoteístas más antiguas",
         subtitle: "El zoroastrismo",
         imageAlt: "Caricatura de una llama encendida sobre un pedestal de piedra.",
         description:
           "El zoroastrismo, fundado por el profeta Zoroastro (Zaratustra) hace más de 3.000 años en la antigua Persia, es una de las religiones monoteístas más antiguas del mundo todavía practicadas, centrada en la lucha eterna entre el bien (representado por el dios Ahura Mazda) y el mal, y en la idea de que cada persona tiene libre albedrío para elegir entre buenos pensamientos, palabras y acciones. Fue la religión oficial de varios imperios persas durante más de mil años, hasta que la conquista árabe-islámica del siglo VII inició un proceso de conversión al islam que redujo drásticamente sus seguidores en la región. El fuego ocupa un lugar central en el culto como símbolo de pureza divina, mantenido encendido en 'templos del fuego', y aunque hoy quedan pocos zoroastrianos en Irán —la mayoría vive en India, donde se los conoce como parsis—, sus ideas influyeron de forma documentada en el judaísmo, el cristianismo y el islam.",
       },
       en: {
-        title: "One of the Oldest Monotheistic Religions in the World",
+        title: "One of the World's Oldest Monotheistic Religions",
         subtitle: "Zoroastrianism",
         imageAlt: "Cartoon of a lit flame on a stone pedestal.",
         description:
@@ -193,14 +193,14 @@ export const iran: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La plaza que resume la arquitectura persa en un solo lugar",
+        title: "La plaza que resume la arquitectura persa",
         subtitle: "Isfahan y sus azulejos",
         imageAlt: "Caricatura de una cúpula de mezquita cubierta de mosaicos azules y turquesa.",
         description:
           "La plaza Naqsh-e Jahan, en el centro de Isfahan, es una de las plazas más grandes del mundo y está rodeada por algunos de los ejemplos más espectaculares de arquitectura islámica persa, incluida la mezquita del Shah, cubierta casi por completo de azulejos de mosaico en tonos turquesa, azul cobalto y amarillo que forman intrincados patrones geométricos y caligráficos. La técnica de mosaico ('kashi kari'), perfeccionada durante la dinastía safávida en los siglos XVI y XVII, consistía en cortar a mano miles de piezas de cerámica y ensamblarlas como un rompecabezas, un método más costoso que pintar sobre azulejos grandes, pero con colores más intensos y duraderos. La plaza, Patrimonio de la Humanidad, combina la mezquita principal con un palacio real, un mercado cubierto y otra mezquita más pequeña alrededor del mismo espacio.",
       },
       en: {
-        title: "The Square That Sums Up Persian Architecture in One Place",
+        title: "The Square That Sums Up Persian Architecture",
         subtitle: "Isfahan and Its Tilework",
         imageAlt: "Cartoon of a mosque dome covered in blue and turquoise mosaic tiles.",
         description:
@@ -216,14 +216,14 @@ export const iran: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El rey cuyo cilindro de arcilla se considera un antecedente de los derechos humanos",
+        title: "El rey cuyo cilindro anticipó los derechos humanos",
         subtitle: "Ciro el Grande",
         imageAlt: "Caricatura de un cilindro de arcilla cubierto de escritura cuneiforme.",
         description:
           "Ciro el Grande, fundador del Imperio aqueménida en el siglo VI a.C., es recordado no solo por haber construido el imperio más grande que el mundo había visto hasta ese momento, sino también por un objeto encontrado en 1879: el Cilindro de Ciro, una tablilla de arcilla con escritura cuneiforme que documenta la liberación de los pueblos esclavizados en Babilonia tras su conquista, incluidos los judíos exiliados, a quienes permitió regresar a Jerusalén y reconstruir su templo, un episodio también narrado en la Biblia hebrea. Aunque los historiadores debaten si debe interpretarse como una genuina declaración de derechos humanos o como propaganda política, Naciones Unidas lo tradujo a todos sus idiomas oficiales en 1971 y lo presentó como uno de los primeros documentos en promover la tolerancia religiosa. Una réplica se exhibe en la sede de la ONU en Nueva York, y el original, propiedad del Museo Británico, sigue siendo objeto de pedidos de repatriación por parte de Irán.",
       },
       en: {
-        title: "The King Whose Clay Cylinder Is Considered an Early Human Rights Document",
+        title: "The King Whose Clay Cylinder Preceded Human Rights",
         subtitle: "Cyrus the Great",
         imageAlt: "Cartoon of a clay cylinder covered in cuneiform writing.",
         description:
