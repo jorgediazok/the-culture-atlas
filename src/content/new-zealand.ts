@@ -9,14 +9,14 @@ export const newZealand: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El desafío ceremonial que intimida antes de cada partido",
+        title: "El desafío ceremonial antes de cada partido",
         subtitle: "El haka",
         imageAlt: "Caricatura de una persona con la lengua afuera y los ojos bien abiertos en gesto de desafío.",
         description:
           "El haka es una danza ceremonial maorí, tradicionalmente ejecutada en grupo con movimientos fuertes de piernas, golpes en el pecho, gestos vigorosos con las manos y expresiones faciales exageradas —ojos muy abiertos y la lengua afuera—, usada originalmente antes de entrar en batalla para demostrar fuerza, unidad y coraje, así como también en ceremonias de bienvenida o duelo. El más conocido internacionalmente es el 'Ka Mate', compuesto en el siglo XIX por el jefe Te Rauparaha tras escapar de una emboscada, y popularizado mundialmente porque el seleccionado de rugby neozelandés, los All Blacks, lo ejecuta antes de cada partido internacional desde 1905, frente a frente con el equipo rival, en una de las tradiciones deportivas más reconocibles del planeta. Hoy el haka también se realiza en graduaciones escolares, funerales y celebraciones familiares, manteniendo su función original de expresar emoción colectiva intensa.",
       },
       en: {
-        title: "The Ceremonial Challenge That Intimidates Before Every Match",
+        title: "The Ceremonial Challenge Before Every Match",
         subtitle: "The Haka",
         imageAlt: "Cartoon of a person with their tongue out and eyes wide in a gesture of challenge.",
         description:
@@ -55,14 +55,14 @@ export const newZealand: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El pájaro que no puede volar y le dio nombre a todo un pueblo",
+        title: "El pájaro que no vuela y le dio nombre a un pueblo",
         subtitle: "El kiwi",
         imageAlt: "Caricatura de un pájaro redondo sin alas visibles y un pico largo hacia abajo.",
         description:
           "El kiwi, un ave no voladora del tamaño de una gallina con plumas parecidas al pelaje y un largo pico usado para detectar insectos bajo tierra mediante el olfato —algo inusual entre las aves, que normalmente dependen de la vista—, es tan central en la identidad nacional que los propios neozelandeses se llaman a sí mismos 'kiwis', sin importar su origen étnico. El ave, en peligro de extinción debido a la introducción de depredadores como zarigüeyas, ratas y comadrejas tras la colonización europea, es también nocturna y prácticamente ciega, por lo que se orienta casi enteramente con el olfato y el tacto de sus bigotes, comportándose de forma más parecida a un mamífero que a la mayoría de las aves. Programas de conservación intensivos, incluyendo santuarios libres de depredadores, buscan hoy revertir su declive poblacional, y su imagen aparece en monedas, el ejército y hasta en el apodo informal de la moneda nacional, el 'dólar kiwi'.",
       },
       en: {
-        title: "The Bird That Can't Fly and Gave Its Name to an Entire People",
+        title: "The Flightless Bird That Named an Entire People",
         subtitle: "The Kiwi",
         imageAlt: "Cartoon of a round, wingless-looking bird with a long downward beak.",
         description:
@@ -78,14 +78,14 @@ export const newZealand: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El equipo con el mejor porcentaje de victorias del deporte",
+        title: "El equipo con el mejor récord del deporte",
         subtitle: "Los All Blacks",
         imageAlt: "Caricatura de un jugador de rugby con camiseta negra en pose de definición.",
         description:
           "Los All Blacks, el seleccionado nacional de rugby de Nueva Zelanda, tienen el porcentaje de victorias más alto en la historia de cualquier deporte de equipo a nivel internacional, superando el 75% de partidos ganados desde su primera gira en 1905, un dominio sostenido durante más de un siglo que no tiene equivalente en ningún otro deporte de conjunto. Ganaron la Copa del Mundo de rugby en tres ocasiones (1987, 2011 y 2015) y su uniforme completamente negro, adoptado desde los primeros años del equipo, se convirtió en un símbolo tan poderoso que la propia palabra 'All Blacks' es hoy una marca registrada. Con una población de apenas cinco millones de habitantes, Nueva Zelanda logró convertir al rugby en un deporte de identidad casi religiosa, con jugadores maoríes y de origen polinesio representando una parte desproporcionadamente alta del plantel, reflejo de la importancia cultural que el juego físico y colectivo tiene en las tradiciones de esos pueblos.",
       },
       en: {
-        title: "The Team With the Best Win Percentage in Sports",
+        title: "The Team With the Best Win Record in Sports",
         subtitle: "The All Blacks",
         imageAlt: "Cartoon of a rugby player in a black jersey in a scoring pose.",
         description:
@@ -124,14 +124,14 @@ export const newZealand: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El octavo lugar más lluvioso del planeta, y uno de los más bellos",
+        title: "Uno de los lugares más lluviosos y bellos del planeta",
         subtitle: "Milford Sound",
         imageAlt: "Caricatura de un fiordo con paredes rocosas verticales y una cascada.",
         description:
           "Milford Sound, un fiordo ubicado en el extremo suroeste de la Isla Sur de Nueva Zelanda, dentro del Parque Nacional Fiordland, fue descrito por el escritor Rudyard Kipling como la 'octava maravilla del mundo' tras visitarlo a fines del siglo XIX, y recibe en promedio más de seis metros de lluvia al año, lo que lo convierte en uno de los lugares más húmedos del planeta y, paradójicamente, en parte de su atractivo: la lluvia constante alimenta decenas de cascadas temporales que caen directamente desde acantilados de hasta 1.200 metros de altura. Formado por la erosión de glaciares durante la última era de hielo, el fiordo alberga colonias de leones marinos, delfines y pingüinos de Fiordland, una de las especies de pingüino más raras del mundo. Pese a estar entre los destinos turísticos más fotografiados de Nueva Zelanda, permanece prácticamente sin desarrollo urbano alrededor, protegido dentro de una de las áreas silvestres más extensas y mejor conservadas del hemisferio sur.",
       },
       en: {
-        title: "The Eighth Rainiest Place on Earth, and One of the Most Beautiful",
+        title: "One of the Rainiest, Most Beautiful Places on Earth",
         subtitle: "Milford Sound",
         imageAlt: "Cartoon of a fjord with vertical rock walls and a waterfall.",
         description:
@@ -170,7 +170,7 @@ export const newZealand: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El primer país del mundo donde las mujeres pudieron votar",
+        title: "El primer país donde las mujeres pudieron votar",
         subtitle: "Sufragio femenino",
         imageAlt: "Caricatura de una mano depositando una papeleta en una urna de votación.",
         description:
@@ -193,14 +193,14 @@ export const newZealand: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El país que convirtió el salto al vacío en industria turística",
+        title: "El país que volvió el salto al vacío una industria",
         subtitle: "El bungee jumping",
         imageAlt: "Caricatura de una persona saltando desde un puente atada a una cuerda elástica.",
         description:
           "Aunque saltar atado a una cuerda elástica tiene antecedentes en rituales ancestrales de la isla de Pentecostés, en Vanuatu, el bungee jumping como industria turística nació en Nueva Zelanda en 1988, cuando A.J. Hackett y Henry van Asch abrieron el primer sitio comercial de salto permanente del mundo en el puente Kawarau, cerca de Queenstown, tras saltos publicitarios que incluyeron uno desde la Torre Eiffel. Queenstown, en la Isla Sur, se convirtió desde entonces en la 'capital mundial de los deportes de aventura', ofreciendo bungee, rafting, parapente y saltos en helicóptero, gracias a paisajes montañosos espectaculares y una cultura que adoptó tempranamente el turismo de adrenalina. La empresa de Hackett expandió el bungee a docenas de países, pero Nueva Zelanda mantiene su lugar simbólico como origen de la actividad.",
       },
       en: {
-        title: "The Country That Turned Jumping Into a Tourism Industry",
+        title: "The Country That Made Jumping Off Cliffs an Industry",
         subtitle: "Bungee Jumping",
         imageAlt: "Cartoon of a person leaping from a bridge attached to an elastic cord.",
         description:
