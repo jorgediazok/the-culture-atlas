@@ -9,14 +9,14 @@ export const indonesia: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El templo budista más grande del mundo, olvidado durante siglos",
+        title: "El templo budista más grande del mundo",
         subtitle: "Borobudur",
         imageAlt: "Caricatura de un templo piramidal de piedra escalonado con pequeñas estupas.",
         description:
           "Borobudur, construido en la isla de Java entre los siglos VIII y IX por la dinastía Sailendra, es el templo budista más grande del mundo, una estructura piramidal de nueve niveles decorada con más de 2.670 paneles en relieve y coronada por 72 estupas con forma de campana, cada una con una estatua de Buda visible a través de sus aberturas caladas. El templo fue abandonado y quedó oculto bajo ceniza volcánica y vegetación densa durante siglos, hasta que en 1814 el gobernador colonial británico Thomas Stamford Raffles organizó su redescubrimiento formal a partir de rumores locales sobre un monumento perdido en la selva. La estructura está diseñada como un mandala tridimensional que representa el camino budista hacia la iluminación: los peregrinos ascienden en espiral por los niveles inferiores, decorados con relieves sobre el sufrimiento humano, hasta llegar a los niveles superiores circulares, mucho más austeros, que simbolizan el desapego del mundo material antes del nirvana.",
       },
       en: {
-        title: "The World's Largest Buddhist Temple, Forgotten for Centuries",
+        title: "The World's Largest Buddhist Temple",
         subtitle: "Borobudur",
         imageAlt: "Cartoon of a stepped stone pyramid temple with small bell-shaped stupas.",
         description:
@@ -32,14 +32,14 @@ export const indonesia: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El teatro de sombras que narra epopeyas durante toda la noche",
+        title: "El teatro de sombras que narra epopeyas",
         subtitle: "El wayang kulit",
         imageAlt: "Caricatura de una marioneta de sombras proyectada sobre una pantalla blanca.",
         description:
           "El wayang kulit, forma tradicional de teatro de sombras originaria de Java, utiliza marionetas planas talladas en cuero de búfalo, manipuladas por un único titiritero maestro llamado 'dalang', que proyecta sus siluetas sobre una pantalla de tela iluminada desde atrás mientras narra los diálogos de docenas de personajes, canta y dirige a la orquesta de gamelan que acompaña la función. Las representaciones, basadas en las epopeyas hindúes del Mahabharata y el Ramayana con siglos de adaptaciones javanesas, pueden extenderse toda una noche, desde el atardecer hasta el amanecer, con el público tradicionalmente libre de ir y venir o dormir siestas durante la función. Reconocido por la UNESCO como Obra Maestra del Patrimonio Oral e Inmaterial de la Humanidad en 2003, el dominio del arte de dalang requiere años de entrenamiento en música, narrativa y manipulación de marionetas.",
       },
       en: {
-        title: "The Shadow Theater That Tells Epics All Night Long",
+        title: "The Shadow Theater That Tells Epics All Night",
         subtitle: "Wayang Kulit",
         imageAlt: "Cartoon of a shadow puppet projected onto a white screen.",
         description:
@@ -55,14 +55,14 @@ export const indonesia: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El lagarto más grande del mundo, exclusivo de unas pocas islas",
+        title: "El lagarto más grande del mundo",
         subtitle: "El dragón de Komodo",
         imageAlt: "Caricatura de un lagarto gigante con lengua bífida sobre terreno seco.",
         description:
           "El dragón de Komodo, el lagarto vivo más grande del mundo, con ejemplares que superan los tres metros de largo y los 70 kilogramos de peso, habita exclusivamente un puñado de islas indonesias dentro del Parque Nacional de Komodo, incluyendo la isla de Komodo que le da nombre. Estos lagartos son depredadores formidables capaces de cazar presas mucho más grandes que ellos, incluyendo búfalos de agua, gracias a una combinación de fuerza física, una mordida cargada de bacterias y glándulas de veneno que provocan pérdida de presión sanguínea y shock, tras lo cual el dragón sigue pacientemente a la víctima durante horas o días hasta que colapsa. Pese a su reputación de depredadores temibles, hoy enfrentan amenazas serias derivadas del cambio climático, que reduce su hábitat al elevar el nivel del mar, llevando a la UICN a reclasificar la especie como en peligro de extinción en 2021.",
       },
       en: {
-        title: "The World's Largest Lizard, Found on Only a Few Islands",
+        title: "The World's Largest Lizard",
         subtitle: "The Komodo Dragon",
         imageAlt: "Cartoon of a giant lizard with a forked tongue on dry ground.",
         description:
@@ -78,7 +78,7 @@ export const indonesia: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La técnica textil que se convirtió en patrimonio de la humanidad",
+        title: "La técnica textil que es patrimonio de la humanidad",
         subtitle: "El batik",
         imageAlt: "Caricatura de una tela con patrones geométricos detallados en azul y blanco.",
         description:
@@ -108,7 +108,7 @@ export const indonesia: CultureEntry[] = [
           "Indonesia está formada por más de 17.000 islas repartidas a lo largo de casi 5.000 kilómetros entre los océanos Índico y Pacífico, más que cualquier otro país del mundo, aunque solo unas 6.000 están habitadas de forma permanente, y el gobierno continúa registrando y nombrando oficialmente nuevas islas dentro de su territorio. Esta geografía fragmentada convirtió a Indonesia en uno de los países con mayor diversidad étnica y lingüística del planeta, con más de 300 grupos étnicos y más de 700 lenguas vivas registradas, diversidad que el país gestiona mediante el bahasa indonesia, un idioma nacional adoptado como lengua franca precisamente porque no pertenecía al grupo étnico dominante. La enorme dispersión geográfica también generó desafíos logísticos únicos, ya que coordinar servicios básicos e infraestructura a través de miles de islas separadas por agua sigue siendo uno de los mayores retos estructurales del estado indonesio.",
       },
       en: {
-        title: "The Country With More Islands Than Any Other in the World",
+        title: "The Country With More Islands Than Any Other",
         subtitle: "The Indonesian Archipelago",
         imageAlt: "Cartoon of several small green islands scattered across a blue sea.",
         description:
@@ -124,14 +124,14 @@ export const indonesia: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La orquesta de percusión que suena como ningún otro conjunto musical",
+        title: "La orquesta que no suena como ninguna otra",
         subtitle: "El gamelan",
         imageAlt: "Caricatura de gongs y metalófonos de bronce dispuestos en fila.",
         description:
           "El gamelan, conjunto musical tradicional de Java y Bali compuesto principalmente por instrumentos de percusión metálicos afinados —gongs, metalófonos y xilófonos de bronce— produce un sonido tan distintivo y estratificado que resulta prácticamente inconfundible, construido sobre escalas propias, la 'slendro' y la 'pelog', que no corresponden a la afinación occidental de doce tonos. A diferencia de una orquesta occidental dirigida por un director central, el gamelan funciona como un sistema interdependiente donde distintos instrumentos tocan variaciones simultáneas de una misma melodía a distintas velocidades, entrelazándose en capas sonoras que los músicos indonesios describen frecuentemente en términos comunitarios y espirituales. El compositor francés Claude Debussy escuchó un gamelan javanés en la Exposición Universal de París de 1889 y quedó tan impresionado por sus texturas armónicas que la experiencia influyó de manera reconocida en composiciones posteriores de su obra.",
       },
       en: {
-        title: "The Percussion Orchestra That Sounds Like No Other Ensemble",
+        title: "The Percussion Orchestra Unlike Any Other",
         subtitle: "The Gamelan",
         imageAlt: "Cartoon of bronze gongs and metallophones arranged in a row.",
         description:
@@ -216,14 +216,14 @@ export const indonesia: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El deporte que despierta la mayor pasión deportiva del país",
+        title: "El deporte que despierta mayor pasión en el país",
         subtitle: "El bádminton indonesio",
         imageAlt: "Caricatura de una raqueta de bádminton junto a un volante en pleno vuelo.",
         description:
           "El bádminton se convirtió en Indonesia en un deporte con un nivel de pasión popular comparable al fútbol en Brasil o Argentina, un fenómeno que se consolidó tras la primera medalla de oro olímpica de la historia del país, obtenida en bádminton en los Juegos Olímpicos de Barcelona 1992, un logro que provocó celebraciones masivas en todo el territorio y lo convirtió en fuente central de orgullo nacional. Desde entonces, Indonesia se mantuvo entre las potencias mundiales del bádminton, produciendo generación tras generación de jugadores de élite en individual y dobles, con partidos importantes de campeonatos mundiales o la Thomas Cup capaces de paralizar al país entero, con calles vacías y comercios con televisores mostrando el partido. La infraestructura deportiva refleja esta obsesión nacional: existen miles de clubes y academias distribuidas por el archipiélago, muchas reclutando jugadores talentosos desde edades muy tempranas.",
       },
       en: {
-        title: "The Sport That Sparks the Country's Greatest Sporting Passion",
+        title: "The Sport That Sparks the Country's Greatest Passion",
         subtitle: "Indonesian Badminton",
         imageAlt: "Cartoon of a badminton racket beside a shuttlecock mid-flight.",
         description:
