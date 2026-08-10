@@ -170,14 +170,14 @@ export const germany: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La escuela de diseño que todavía define lo que llamamos 'moderno'",
+        title: "La escuela que todavía define lo que llamamos 'moderno'",
         subtitle: "La Bauhaus",
         imageAlt: "Caricatura de una silla geométrica de líneas limpias y colores primarios.",
         description:
           "La Bauhaus, fundada en 1919 en Weimar por el arquitecto Walter Gropius, fue una escuela de arte, diseño y arquitectura que existió apenas catorce años antes de ser cerrada a la fuerza por el régimen nazi en 1933, pero en ese tiempo corto transformó de manera radical cómo se piensa el diseño de objetos cotidianos, edificios y tipografía en todo el mundo. Su filosofía central proponía eliminar la separación entre arte y artesanía, buscando que la forma de cada objeto siguiera su función, sin ornamentación innecesaria, un principio que dio origen a sillas, lámparas y edificios de líneas limpias que hoy resultan tan familiares que cuesta imaginar que fueron radicalmente nuevos. Tras su cierre, muchos profesores y alumnos emigraron a Estados Unidos huyendo del nazismo, entre ellos Gropius y Mies van der Rohe, llevando la filosofía Bauhaus a escuelas como Harvard, desde donde moldeó buena parte de la arquitectura del siglo XX.",
       },
       en: {
-        title: "The Design School That Still Defines What We Call 'Modern'",
+        title: "The School That Still Defines What We Call 'Modern'",
         subtitle: "The Bauhaus",
         imageAlt: "Cartoon of a geometric chair with clean lines and primary colors.",
         description:
@@ -193,14 +193,14 @@ export const germany: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El sistema de depósito que convirtió reciclar en un hábito rentable",
+        title: "El depósito que hizo rentable reciclar en Alemania",
         subtitle: "El sistema Pfand",
         imageAlt: "Caricatura de una máquina de devolución de botellas con envases de vidrio y plástico.",
         description:
           "Alemania implementó en 2003 un sistema obligatorio de depósito conocido como 'Pfand': cada botella o lata incluye un pequeño recargo en el precio, que el consumidor recupera al devolver el envase en máquinas automáticas de casi todos los supermercados. El sistema resultó tan efectivo que Alemania alcanza tasas de retorno superiores al 98%, de las más altas del mundo, y generó un fenómeno social particular: es común ver a personas recolectando botellas abandonadas en parques o estaciones para cambiarlas por dinero, práctica tan normalizada que muchos dejan sus botellas junto a los cestos, en lugar de tirarlas dentro, para facilitar que otra persona las recoja. Más allá del Pfand, Alemania mantiene uno de los sistemas de separación de residuos más estrictos de Europa, con contenedores de colores para papel, vidrio, envases y orgánicos, una disciplina que muchos extranjeros describen como de las adaptaciones más difíciles al mudarse.",
       },
       en: {
-        title: "The Deposit System That Turned Recycling Into a Profitable Habit",
+        title: "The Deposit System That Made Recycling Profitable",
         subtitle: "The Pfand System",
         imageAlt: "Cartoon of a bottle return machine with glass and plastic containers.",
         description:
@@ -216,7 +216,7 @@ export const germany: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La ley alimentaria más antigua todavía vigente en el mundo",
+        title: "La ley alimentaria más antigua todavía vigente",
         subtitle: "El Reinheitsgebot",
         imageAlt: "Caricatura de dos jarras de cerveza chocando junto a espigas de cebada y lúpulo.",
         description:
@@ -308,14 +308,14 @@ export const germany: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El país que reescribió las preguntas fundamentales de la filosofía",
+        title: "El país que reescribió las preguntas de la filosofía",
         subtitle: "La filosofía alemana",
         imageAlt: "Caricatura de un busto de pensador clásico junto a una pila de libros gruesos.",
         description:
           "Pocas tradiciones intelectuales moldearon tan profundamente el pensamiento occidental moderno como la filosofía alemana, que en apenas dos siglos produjo a Immanuel Kant, cuya 'Crítica de la razón pura' de 1781 replanteó los límites del conocimiento humano, a Georg Wilhelm Friedrich Hegel, cuya teoría dialéctica influyó en el idealismo y, más tarde, en el marxismo, y a Friedrich Nietzsche, cuyas ideas sobre la moral y el poder todavía generan debate un siglo después de su muerte. Kant, que según la leyenda llevaba una rutina tan estricta que los vecinos de Königsberg ajustaban sus relojes según su paseo vespertino, desarrolló un sistema tan influyente que casi toda la filosofía posterior se define en relación con sus ideas. Esta tradición no quedó confinada a la academia: sus ideas terminaron influyendo en movimientos políticos y en cómo Occidente entiende la libertad individual y el deber moral.",
       },
       en: {
-        title: "The Country That Rewrote Philosophy's Fundamental Questions",
+        title: "The Country That Rewrote Philosophy's Big Questions",
         subtitle: "German Philosophy",
         imageAlt: "Cartoon of a classical thinker's bust beside a stack of thick books.",
         description:
@@ -331,7 +331,7 @@ export const germany: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La banda que inventó buena parte de la música electrónica moderna",
+        title: "La banda que inventó gran parte de la electrónica",
         subtitle: "Kraftwerk",
         imageAlt: "Caricatura de un sintetizador con luces y perillas sobre un fondo geométrico.",
         description:
@@ -354,7 +354,7 @@ export const germany: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El reloj de madera que se convirtió en símbolo artesanal",
+        title: "El reloj de madera que es símbolo artesanal",
         subtitle: "El reloj cucú de la Selva Negra",
         imageAlt: "Caricatura de un reloj de pared de madera tallada con un pajarito asomando.",
         description:
@@ -384,7 +384,7 @@ export const germany: CultureEntry[] = [
           "Alemania cuenta con más de 3.200 variedades de pan registradas oficialmente, una diversidad tan notable que la UNESCO reconoció en 2014 la 'Brotkultur' alemana, la cultura del pan, como parte de su Patrimonio Cultural Inmaterial, un reconocimiento poco habitual para un alimento tan cotidiano. Esta diversidad surge de factores regionales: cada zona del país desarrolló sus propias recetas según el grano disponible localmente, las técnicas de fermentación y los hornos específicos de cada región, dando origen a panes tan distintos como el denso pan de centeno del norte, fermentado durante días, y los panes blancos más ligeros del sur. Un panadero tradicional puede pasar años dominando apenas una fracción de esta diversidad, y aunque las cadenas industriales fueron ganando terreno, muchas panaderías artesanales familiares, algunas con siglos de historia, siguen siendo un punto de encuentro social cotidiano en pueblos y ciudades de todo el país.",
       },
       en: {
-        title: "The Country With More Than 3,000 Registered Bread Varieties",
+        title: "The Country With 3,000 Registered Bread Varieties",
         subtitle: "Germany's Bread Culture",
         imageAlt: "Cartoon of several differently shaped loaves of bread on a wooden table.",
         description:
@@ -400,7 +400,7 @@ export const germany: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "Un río custodiado por más de cuarenta castillos medievales",
+        title: "Un río custodiado por más de cuarenta castillos",
         subtitle: "El valle del Rin",
         imageAlt: "Caricatura de un castillo sobre un acantilado junto a un río con viñedos en terrazas.",
         description:
@@ -423,14 +423,14 @@ export const germany: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El pensador alemán que más influyó en la política del siglo XX",
+        title: "El pensador alemán que más influyó en el siglo XX",
         subtitle: "Karl Marx",
         imageAlt: "Caricatura de un libro rojo grueso junto a una pluma sobre un escritorio.",
         description:
           "Karl Marx, nacido en Tréveris en 1818, desarrolló junto a Friedrich Engels una crítica sistemática del capitalismo industrial que, a través de obras como 'El manifiesto comunista' de 1848 y 'El capital', publicado desde 1867, se convirtió en la base teórica de movimientos políticos, revoluciones y sistemas de gobierno que llegaron a controlar, en distintos momentos del siglo XX, a más de un tercio de la población mundial. Marx pasó buena parte de su vida en el exilio, expulsado de Alemania, Francia y Bélgica por sus actividades políticas, y terminó en Londres, donde vivió en gran pobreza mientras escribía su obra más ambiciosa en la sala de lectura del Museo Británico, dependiendo del apoyo de Engels, su amigo de toda la vida. Historiadores y economistas coinciden en que pocos pensadores del siglo XIX tuvieron un impacto tan directo en el siglo siguiente, dando forma a estados marxistas y a políticas de bienestar que democracias capitalistas adoptaron en respuesta a sus críticas.",
       },
       en: {
-        title: "The German Thinker Who Most Shaped 20th-Century Politics",
+        title: "The German Thinker Who Shaped 20th-Century Politics",
         subtitle: "Karl Marx",
         imageAlt: "Cartoon of a thick red book beside a quill on a desk.",
         description:
@@ -446,14 +446,14 @@ export const germany: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "El auto que salió de un encargo de Hitler y se volvió símbolo hippie",
+        title: "El auto de un encargo de Hitler que fue símbolo hippie",
         subtitle: "El Volkswagen Escarabajo",
         imageAlt: "Caricatura de un auto pequeño y redondeado de estilo clásico visto de perfil.",
         description:
           "El Volkswagen Escarabajo nació de un encargo directo de Adolf Hitler al ingeniero Ferdinand Porsche en 1934: diseñar un 'auto del pueblo' ('Volkswagen', literalmente) simple y barato que cualquier familia pudiera pagar, un proyecto que apenas produjo unas pocas unidades civiles antes de que la fábrica se reconvirtiera a la producción militar en la Segunda Guerra Mundial. Tras la guerra, con la fábrica bajo control militar británico y en ruinas, un oficial reactivó la producción del pequeño auto como parte de la reconstrucción alemana, y lo que había comenzado como propaganda nazi terminó convirtiéndose, paradójicamente, en símbolo del movimiento hippie de los sesenta y setenta, gracias a su diseño accesible y antiestético frente a los autos grandes de la época. Producido casi sin interrupción entre 1938 y 2003, con más de 21 millones de unidades, el Escarabajo se convirtió en el auto de un solo diseño más vendido de la historia, superando al Ford Modelo T.",
       },
       en: {
-        title: "The Car Born From a Hitler Commission That Became a Hippie Symbol",
+        title: "A Hitler Commission That Became a Hippie Symbol",
         subtitle: "The Volkswagen Beetle",
         imageAlt: "Cartoon of a small, rounded classic-style car seen from the side.",
         description:
