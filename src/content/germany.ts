@@ -124,18 +124,18 @@ export const germany: CultureEntry[] = [
     imageUrl: null,
     translations: {
       es: {
-        title: "La tradición que inventó la Navidad como la conocemos",
+        title: "La tradición que inventó la Navidad moderna",
         subtitle: "Los mercados navideños",
         imageAlt: "Caricatura de puestos de madera decorados con luces cálidas y un árbol de Navidad.",
         description:
-          "Los mercados navideños alemanes, o 'Weihnachtsmärkte', tienen raíces que se remontan al siglo XIV, con el mercado de Dresde considerado uno de los más antiguos documentados de Europa, y funcionan como el corazón social del invierno alemán, con puestos de madera que venden desde adornos artesanales hasta 'glühwein', vino caliente especiado que muchos visitantes coleccionan en tazas de recuerdo. Alemania exportó buena parte de la iconografía navideña hoy universal: el árbol de Navidad decorado es una tradición de origen germánico que se popularizó recién en el siglo XIX, en parte gracias a la familia real británica, con raíces alemanas, que adoptó la costumbre y la hizo visible en toda Europa. Ciudades como Núremberg, con su famoso 'Christkindlesmarkt', reciben cada diciembre a millones de visitantes bajo luces cálidas, en una tradición que sigue las reglas gremiales medievales que regulaban qué comerciantes podían vender.",
+          "Los mercados navideños alemanes, o 'Weihnachtsmärkte', tienen raíces que se remontan al siglo XIV, con el mercado de Dresde considerado uno de los más antiguos documentados de Europa, y funcionan como el corazón social del invierno alemán, con puestos de madera que venden desde adornos artesanales hasta 'glühwein', vino caliente especiado que muchos visitantes coleccionan en tazas de recuerdo. Alemania exportó buena parte de la iconografía navideña hoy universal: el árbol decorado es de origen germánico y se popularizó recién en el siglo XIX, en parte gracias a la familia real británica, de raíces alemanas, que adoptó la costumbre. Ciudades como Núremberg, con su famoso 'Christkindlesmarkt', reciben cada diciembre a millones de visitantes bajo luces cálidas.",
       },
       en: {
-        title: "The Tradition That Invented Christmas as We Know It",
+        title: "The Tradition That Invented Modern Christmas",
         subtitle: "Christmas Markets",
         imageAlt: "Cartoon of decorated wooden market stalls with warm lights and a Christmas tree.",
         description:
-          "German Christmas markets, or 'Weihnachtsmärkte,' have roots stretching back to the 14th century, with Dresden's market considered one of the oldest documented in Europe, and they function as the social heart of the German winter, with wooden stalls selling everything from handcrafted ornaments to 'glühwein,' hot spiced wine many visitors collect in souvenir mugs. Germany exported much of the Christmas iconography now considered universal: the decorated indoor tree is itself of Germanic origin, only becoming internationally popular in the 19th century, partly thanks to the British royal family, with its German roots, adopting the custom and making it visible across Europe. Cities like Nuremberg, with its famous 'Christkindlesmarkt,' welcome millions of visitors every December under warm lights, in a tradition still following the medieval guild rules that once regulated which merchants could sell there.",
+          "German Christmas markets, or 'Weihnachtsmärkte,' have roots stretching back to the 14th century, with Dresden's market considered one of the oldest documented in Europe, and they function as the social heart of the German winter, with wooden stalls selling everything from handcrafted ornaments to 'glühwein,' hot spiced wine many visitors collect in souvenir mugs. Germany exported much of the Christmas iconography now considered universal: the decorated indoor tree is itself of Germanic origin, only becoming internationally popular in the 19th century, partly thanks to the British royal family, with its German roots, adopting the custom. Cities like Nuremberg, with its famous 'Christkindlesmarkt,' welcome millions of visitors every December under warm lights.",
       },
     },
   },
