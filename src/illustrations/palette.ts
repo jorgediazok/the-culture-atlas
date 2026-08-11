@@ -51,6 +51,12 @@ export function shade(hex: string, amount: number): string {
   return hslToHex(h, s, l * (1 - amount));
 }
 
+/** Picks white or near-black text so it stays readable against a given background color. */
+export function readableTextColor(hex: string): string {
+  const [, , l] = hexToHsl(hex);
+  return l > 65 ? "#1a1a1a" : "#fff";
+}
+
 /** Averages a list of hex colors channel-by-channel (RGB space). */
 export function averageColor(hexColors: string[]): string {
   const [r, g, b] = hexColors

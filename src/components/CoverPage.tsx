@@ -3,6 +3,7 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import type { LocalizedCountry } from "@/content/types";
 import { getEmblem } from "@/illustrations/emblems";
+import { readableTextColor } from "@/illustrations/palette";
 import BookPageFrame from "./BookPageFrame";
 
 export default function CoverPage({
@@ -15,6 +16,7 @@ export default function CoverPage({
   storiesLabel: string;
 }) {
   const Emblem = getEmblem(country.slug);
+  const textColor = readableTextColor(country.accentColor);
 
   return (
     <BookPageFrame>
@@ -36,7 +38,7 @@ export default function CoverPage({
             p: { xs: 4, md: 6 },
             position: "relative",
             backgroundColor: country.accentColor,
-            color: "#fff",
+            color: textColor,
           }}
         >
           <Typography sx={{ fontSize: 40 }}>{country.flagEmoji}</Typography>
@@ -82,7 +84,7 @@ export default function CoverPage({
             pl: { xs: 4, md: 9 },
             position: "relative",
             backgroundColor: country.accentColor,
-            color: "#fff",
+            color: textColor,
           }}
         >
           {/* Gutter shadow, half B: anchored to this box's own left edge. */}
