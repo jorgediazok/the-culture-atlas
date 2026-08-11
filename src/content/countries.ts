@@ -346,7 +346,7 @@ export const countries: Country[] = [
   {
     slug: "uruguay",
     flagEmoji: "🇺🇾",
-    accentColor: "#4A7C59",
+    accentColor: "#5B9BD5",
     continent: "south-america",
     translations: {
       es: {
