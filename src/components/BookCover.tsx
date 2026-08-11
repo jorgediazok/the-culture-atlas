@@ -7,7 +7,14 @@ import type { Locale, LocalizedCountry } from "@/content/types";
 import { getEmblem } from "@/illustrations/emblems";
 import { shade } from "@/illustrations/palette";
 
-const RADIUS = "2px 12px 12px 2px";
+const FRONT_RADIUS = "3px 10px 10px 3px";
+const BACK_RADIUS = "10px 3px 3px 10px";
+const PAGE_COLOR = "#f1e8d4";
+const WIDTH = 122;
+const THICKNESS = 20;
+const HALF_THICKNESS = THICKNESS / 2;
+const HALF_WIDTH = WIDTH / 2;
+const SIDE_OFFSET = (WIDTH - THICKNESS) / 2;
 
 function hashOf(slug: string): number {
   return [...slug].reduce((acc, c) => acc + c.charCodeAt(0), 0);
@@ -22,126 +29,200 @@ export default function BookCover({
 }) {
   const Emblem = getEmblem(country.slug);
   const hash = hashOf(country.slug);
-  const rotation = (hash % 5) - 2; // -2..2deg, stable per country
-  const height = 196 + (hash % 34); // 196..230px, stable per country
-  const stackFar = shade(country.accentColor, 0.4);
-  const stackNear = shade(country.accentColor, 0.22);
+  const height = 178 + (hash % 24); // 178..201px, stable per country
+  const tilt = 16 + (hash % 8); // 16..23deg, stable per country
+  const duration = 2.6 + (hash % 5) * 0.25; // 2.6..3.6s, stable per country
+  const spineColor = shade(country.accentColor, 0.32);
+  const backColor = shade(country.accentColor, 0.15);
+  const spinName = `book-spin-${country.slug}`;
 
   return (
-    <Box
-      sx={{
-        position: "relative",
-        flexShrink: 0,
-        width: 104,
-        height,
-        transform: `rotate(${rotation}deg)`,
-        transition: "transform 0.28s cubic-bezier(.2,.8,.2,1)",
-        "&:hover": {
-          transform: `translateY(-10px) rotate(${rotation - 1}deg)`,
-        },
-        "&:hover .book-face": {
-          boxShadow: "0 22px 26px -14px rgba(0,0,0,0.55)",
-        },
-      }}
-    >
-      <Box
-        sx={{
-          position: "absolute",
-          inset: 0,
-          borderRadius: RADIUS,
-          backgroundColor: stackFar,
-          transform: "translate(4px, 5px)",
-        }}
-      />
-      <Box
-        sx={{
-          position: "absolute",
-          inset: 0,
-          borderRadius: RADIUS,
-          backgroundColor: stackNear,
-          transform: "translate(2px, 2.5px)",
-        }}
-      />
-
+    <Box sx={{ perspective: "900px", flexShrink: 0 }}>
       <Box
         component={Link}
         href={`/${locale}/${country.slug}`}
-        className="book-face"
         sx={{
           position: "relative",
-          display: "flex",
-          flexDirection: "column",
-          width: "100%",
-          height: "100%",
-          borderRadius: RADIUS,
-          overflow: "hidden",
-          backgroundColor: country.accentColor,
-          boxShadow: "0 14px 20px -12px rgba(0,0,0,0.5)",
-          transition: "box-shadow 0.28s ease",
+          display: "block",
+          width: WIDTH,
+          height,
           textDecoration: "none",
+          transformStyle: "preserve-3d",
+          transform: `rotateY(-${tilt}deg)`,
+          transition: "transform 0.5s ease",
+          [`@keyframes ${spinName}`]: {
+            from: { transform: `rotateY(-${tilt}deg)` },
+            to: { transform: `rotateY(-${tilt + 360}deg)` },
+          },
+          "&:hover": {
+            animation: `${spinName} ${duration}s linear infinite`,
+          },
+          "@media (prefers-reduced-motion: reduce)": {
+            "&:hover": {
+              animation: "none",
+              transform: `rotateY(-${tilt - 10}deg)`,
+            },
+          },
         }}
       >
-        <Box sx={{ height: 6, backgroundColor: "rgba(0,0,0,0.18)" }} />
+        {/* right face: page block */}
         <Box
           sx={{
             position: "absolute",
-            left: 0,
             top: 0,
-            bottom: 0,
-            width: 9,
-            backgroundColor: "rgba(0,0,0,0.22)",
+            left: SIDE_OFFSET,
+            width: THICKNESS,
+            height: "100%",
+            backfaceVisibility: "hidden",
+            transform: `rotateY(90deg) translateZ(${HALF_WIDTH}px)`,
+            backgroundColor: PAGE_COLOR,
+            backgroundImage:
+              "repeating-linear-gradient(to right, rgba(0,0,0,0.14) 0 1px, transparent 1px 2.4px)",
+            boxShadow: "inset -2px 0 3px rgba(0,0,0,0.25)",
           }}
         />
-        <Typography
-          component="span"
+        {/* left face: spine */}
+        <Box
           sx={{
             position: "absolute",
-            top: 10,
-            right: 9,
-            fontSize: 13,
-            filter: "drop-shadow(0 1px 2px rgba(0,0,0,0.4))",
+            top: 0,
+            left: SIDE_OFFSET,
+            width: THICKNESS,
+            height: "100%",
+            backfaceVisibility: "hidden",
+            transform: `rotateY(-90deg) translateZ(${HALF_WIDTH}px)`,
+            backgroundColor: spineColor,
+            boxShadow: "inset 2px 0 3px rgba(0,0,0,0.3)",
           }}
-        >
-          {country.flagEmoji}
-        </Typography>
-
+        />
+        {/* front cover face */}
         <Box
           sx={{
-            flex: 1,
+            position: "absolute",
+            inset: 0,
+            backfaceVisibility: "hidden",
+            transform: `translateZ(${HALF_THICKNESS}px)`,
             display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            p: "10px 10px 2px 16px",
+            flexDirection: "column",
+            borderRadius: FRONT_RADIUS,
+            overflow: "hidden",
+            backgroundColor: country.accentColor,
+            boxShadow: "6px 14px 22px -10px rgba(0,0,0,0.55)",
           }}
         >
-          {Emblem ? (
-            <Box sx={{ width: "100%", height: "100%" }}>
-              <Emblem accentColor={country.accentColor} />
-            </Box>
-          ) : (
-            <Typography sx={{ fontSize: 32 }}>{country.flagEmoji}</Typography>
-          )}
-        </Box>
-
-        <Box
-          sx={{
-            backgroundColor: "rgba(0,0,0,0.26)",
-            p: "9px 8px 11px 16px",
-            textAlign: "center",
-          }}
-        >
+          <Box
+            sx={{
+              position: "absolute",
+              inset: 0,
+              background:
+                "linear-gradient(120deg, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0) 45%)",
+              pointerEvents: "none",
+            }}
+          />
+          <Box sx={{ height: 6, backgroundColor: "rgba(0,0,0,0.16)" }} />
+          <Box
+            sx={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              bottom: 0,
+              width: 8,
+              backgroundColor: "rgba(0,0,0,0.2)",
+            }}
+          />
           <Typography
             component="span"
             sx={{
-              fontFamily: "var(--font-fraunces), serif",
-              fontSize: 12.5,
-              fontWeight: 600,
-              color: "#fff",
-              lineHeight: 1.2,
-              display: "block",
+              position: "absolute",
+              top: 10,
+              right: 10,
+              fontSize: 13,
+              filter: "drop-shadow(0 1px 2px rgba(0,0,0,0.4))",
             }}
           >
-            {country.name}
+            {country.flagEmoji}
+          </Typography>
+          <Box
+            sx={{
+              flex: 1,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              p: "10px 12px 2px 16px",
+            }}
+          >
+            {Emblem ? (
+              <Box sx={{ width: "100%", height: "100%" }}>
+                <Emblem accentColor={country.accentColor} />
+              </Box>
+            ) : (
+              <Typography sx={{ fontSize: 32 }}>{country.flagEmoji}</Typography>
+            )}
+          </Box>
+          <Box
+            sx={{
+              backgroundColor: "rgba(0,0,0,0.26)",
+              p: "9px 10px 11px 16px",
+              textAlign: "center",
+            }}
+          >
+            <Typography
+              component="span"
+              sx={{
+                fontFamily: "var(--font-fraunces), serif",
+                fontSize: 12.5,
+                fontWeight: 600,
+                color: "#fff",
+                lineHeight: 1.2,
+                display: "block",
+              }}
+            >
+              {country.name}
+            </Typography>
+          </Box>
+        </Box>
+        {/* back cover face */}
+        <Box
+          sx={{
+            position: "absolute",
+            inset: 0,
+            backfaceVisibility: "hidden",
+            transform: `rotateY(180deg) translateZ(${HALF_THICKNESS}px)`,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            borderRadius: BACK_RADIUS,
+            overflow: "hidden",
+            backgroundColor: backColor,
+            boxShadow: "-6px 14px 22px -10px rgba(0,0,0,0.55)",
+          }}
+        >
+          <Box
+            sx={{
+              position: "absolute",
+              inset: 8,
+              border: "1px solid rgba(255,255,255,0.28)",
+              borderRadius: "8px 2px 2px 8px",
+            }}
+          />
+          <Box
+            sx={{
+              position: "absolute",
+              right: 0,
+              top: 0,
+              bottom: 0,
+              width: 8,
+              backgroundColor: "rgba(0,0,0,0.2)",
+            }}
+          />
+          <Typography
+            component="span"
+            sx={{
+              fontSize: 46,
+              filter: "drop-shadow(0 2px 4px rgba(0,0,0,0.35))",
+            }}
+          >
+            {country.flagEmoji}
           </Typography>
         </Box>
       </Box>
