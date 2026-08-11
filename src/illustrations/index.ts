@@ -62,6 +62,10 @@ import { surinameIllustrations } from "./suriname";
 import { guyanaIllustrations } from "./guyana";
 import { austriaIllustrations } from "./austria";
 import { spainIllustrations } from "./spain";
+import { haitiIllustrations } from "./haiti";
+import { trinidadAndTobagoIllustrations } from "./trinidad-and-tobago";
+import { japanIllustrations } from "./japan";
+import { myanmarIllustrations } from "./myanmar";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -129,6 +133,10 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   guyana: guyanaIllustrations,
   austria: austriaIllustrations,
   spain: spainIllustrations,
+  haiti: haitiIllustrations,
+  "trinidad-and-tobago": trinidadAndTobagoIllustrations,
+  japan: japanIllustrations,
+  myanmar: myanmarIllustrations,
 };
 
 export function getIllustration(

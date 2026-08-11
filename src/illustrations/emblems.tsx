@@ -640,6 +640,43 @@ const Panama: EmblemComponent = () => (
   </svg>
 );
 
+const Haiti: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <circle cx="40" cy="55" r="12" fill="none" stroke="#B0B8BF" strokeWidth="6" />
+    <path d="M62 45 Q72 45 72 55 Q72 62 65 64" fill="none" stroke="#B0B8BF" strokeWidth="6" strokeLinecap="round" />
+  </svg>
+);
+
+const TrinidadAndTobago: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M20 50 L24 78 L76 78 L80 50 Z" fill="#37474F" />
+    <ellipse cx="50" cy="50" rx="30" ry="12" fill="#1A1A1A" />
+    <circle cx="40" cy="46" r="5" fill="none" stroke="#C1272D" strokeWidth="2" />
+    <circle cx="58" cy="48" r="7" fill="none" stroke="#4CAF50" strokeWidth="2" />
+    <circle cx="50" cy="40" r="4" fill="none" stroke="#1565C0" strokeWidth="2" />
+  </svg>
+);
+
+const Japan: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 90 L30 40 Q50 30 70 40 Z" fill="#D4AF37" />
+    <line x1="50" y1="90" x2="35" y2="45" stroke="#8B1A1A" strokeWidth="1.4" opacity="0.6" />
+    <line x1="50" y1="90" x2="50" y2="35" stroke="#8B1A1A" strokeWidth="1.4" opacity="0.6" />
+    <line x1="50" y1="90" x2="65" y2="45" stroke="#8B1A1A" strokeWidth="1.4" opacity="0.6" />
+    <circle cx="50" cy="90" r="4" fill="#8B1A1A" />
+  </svg>
+);
+
+const Myanmar: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M35 95 L35 75 Q35 55 50 45 Q65 55 65 75 L65 95 Z" fill="#E8912D" />
+    <path d="M45 45 L50 25 L55 45 Z" fill="#F4C430" />
+    <circle cx="50" cy="23" r="2.5" fill="#C1272D" />
+    <ellipse cx="50" cy="75" rx="16" ry="4" fill="#A85E1E" opacity="0.7" />
+    <path d="M35 95 L35 75 Q35 55 50 45 Q65 55 65 75 L65 95 Z" fill="none" stroke="#B8860B" strokeWidth="1.5" />
+  </svg>
+);
+
 const Suriname: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
     <ellipse cx="46" cy="66" rx="15" ry="19" fill="#1A1A1A" />
@@ -812,6 +849,10 @@ export const emblems: Record<string, EmblemComponent> = {
   guyana: Guyana,
   austria: Austria,
   spain: Spain,
+  haiti: Haiti,
+  "trinidad-and-tobago": TrinidadAndTobago,
+  japan: Japan,
+  myanmar: Myanmar,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

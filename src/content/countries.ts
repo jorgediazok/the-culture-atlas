@@ -1153,4 +1153,76 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "haiti",
+    flagEmoji: "🇭🇹",
+    accentColor: "#1A1A1A",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Haití",
+        intro:
+          "La única nación nacida de una rebelión exitosa de esclavizados, obligada a pagarle a Francia una deuda por su propia libertad durante 122 años. Estas páginas son para descubrir un Haití de vudú reconocido oficialmente, criollo hablado por todos, la fortaleza más grande de América y un arte naíf de colores vibrantes que llegó a los museos del mundo.",
+      },
+      en: {
+        name: "Haiti",
+        intro:
+          "The only nation born from a successful rebellion of enslaved people, forced to pay France a debt for its own freedom for 122 years. These pages are here to discover a Haiti of officially recognized Vodou, Creole spoken by everyone, the largest fortress in the Americas, and vibrantly colored naive art that made its way into museums worldwide.",
+      },
+    },
+  },
+  {
+    slug: "trinidad-and-tobago",
+    flagEmoji: "🇹🇹",
+    accentColor: "#D4A017",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Trinidad y Tobago",
+        intro:
+          "La cuna del steelpan, el único instrumento acústico realmente nuevo del siglo XX, y del baile del limbo, en un país que se siente más caribeño que sudamericano pese a estar hecho de dos islas con personalidades opuestas. Estas páginas son para descubrir un Trinidad y Tobago de calipso, un lago de asfalto natural y un ibis escarlata que tiñe el cielo cada atardecer.",
+      },
+      en: {
+        name: "Trinidad and Tobago",
+        intro:
+          "The birthplace of the steelpan, the only truly new acoustic instrument of the 20th century, and of the limbo dance, a country that feels more Caribbean than South American despite being made of two islands with opposite personalities. These pages are here to discover a Trinidad and Tobago of calypso, a natural asphalt lake, and a scarlet ibis that turns the sky red every sunset.",
+      },
+    },
+  },
+  {
+    slug: "japan",
+    flagEmoji: "🇯🇵",
+    accentColor: "#BF360C",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Japón",
+        intro:
+          "La monarquía más antigua del mundo sin cambio de dinastía, dueña de trenes bala que se retrasan segundos por año y de un arte que repara la cerámica rota con oro. Estas páginas son para descubrir un Japón de sumo sagrado, onsen termales, la fugacidad de la flor de cerezo y un cómic que se lee al revés y conquistó al planeta entero.",
+      },
+      en: {
+        name: "Japan",
+        intro:
+          "The world's oldest monarchy with no dynasty change, home to bullet trains that run seconds late per year and an art that repairs broken pottery with gold. These pages are here to discover a Japan of sacred sumo, hot spring onsen culture, the fleeting cherry blossom, and a comic read back to front that conquered the entire planet.",
+      },
+    },
+  },
+  {
+    slug: "myanmar",
+    flagEmoji: "🇲🇲",
+    accentColor: "#D4AF37",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Myanmar",
+        intro:
+          "La llanura sembrada de más de dos mil templos antiguos, hogar de una pagoda cubierta de oro real y de una roca dorada que nunca cae de su borde. Estas páginas son para descubrir un Myanmar de 135 etnias reconocidas, pescadores que reman con una sola pierna sobre el lago Inle, y un deporte nacional en el que nadie compite contra nadie.",
+      },
+      en: {
+        name: "Myanmar",
+        intro:
+          "The plain scattered with more than two thousand ancient temples, home to a pagoda coated in real gold and a golden boulder that never falls off its edge. These pages are here to discover a Myanmar of 135 recognized ethnicities, fishermen who row with one leg on Inle Lake, and a national sport where no one competes against anyone.",
+      },
+    },
+  },
 ];
