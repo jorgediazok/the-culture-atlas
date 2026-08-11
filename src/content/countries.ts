@@ -202,7 +202,7 @@ export const countries: Country[] = [
   {
     slug: "colombia",
     flagEmoji: "🇨🇴",
-    accentColor: "#003893",
+    accentColor: "#FCD116",
     continent: "south-america",
     translations: {
       es: {
@@ -364,7 +364,7 @@ export const countries: Country[] = [
   {
     slug: "uganda",
     flagEmoji: "🇺🇬",
-    accentColor: "#1B6B93",
+    accentColor: "#D21034",
     continent: "africa",
     translations: {
       es: {
@@ -382,7 +382,7 @@ export const countries: Country[] = [
   {
     slug: "zimbabwe",
     flagEmoji: "🇿🇼",
-    accentColor: "#1D6FA5",
+    accentColor: "#1C1C1C",
     continent: "africa",
     translations: {
       es: {
@@ -418,7 +418,7 @@ export const countries: Country[] = [
   {
     slug: "iran",
     flagEmoji: "🇮🇷",
-    accentColor: "#1D6FA5",
+    accentColor: "#239F40",
     continent: "asia",
     translations: {
       es: {
@@ -526,7 +526,7 @@ export const countries: Country[] = [
   {
     slug: "ecuador",
     flagEmoji: "🇪🇨",
-    accentColor: "#2E7D5B",
+    accentColor: "#C9A227",
     continent: "south-america",
     translations: {
       es: {
@@ -562,7 +562,7 @@ export const countries: Country[] = [
   {
     slug: "kenya",
     flagEmoji: "🇰🇪",
-    accentColor: "#C68642",
+    accentColor: "#00722F",
     continent: "africa",
     translations: {
       es: {
@@ -598,7 +598,7 @@ export const countries: Country[] = [
   {
     slug: "germany",
     flagEmoji: "🇩🇪",
-    accentColor: "#DD0000",
+    accentColor: "#1A1A1A",
     continent: "europe",
     translations: {
       es: {
@@ -616,7 +616,7 @@ export const countries: Country[] = [
   {
     slug: "bolivia",
     flagEmoji: "🇧🇴",
-    accentColor: "#5EC8D8",
+    accentColor: "#F4C430",
     continent: "south-america",
     translations: {
       es: {
@@ -634,7 +634,7 @@ export const countries: Country[] = [
   {
     slug: "peru",
     flagEmoji: "🇵🇪",
-    accentColor: "#D4AF37",
+    accentColor: "#D91023",
     continent: "south-america",
     translations: {
       es: {
@@ -652,7 +652,7 @@ export const countries: Country[] = [
   {
     slug: "laos",
     flagEmoji: "🇱🇦",
-    accentColor: "#B8860B",
+    accentColor: "#002868",
     continent: "asia",
     translations: {
       es: {
@@ -976,7 +976,7 @@ export const countries: Country[] = [
   {
     slug: "mexico",
     flagEmoji: "🇲🇽",
-    accentColor: "#E4007C",
+    accentColor: "#006341",
     continent: "north-america",
     translations: {
       es: {
@@ -1006,6 +1006,78 @@ export const countries: Country[] = [
         name: "Greenland",
         intro:
           "The island covered almost entirely by an eternal ice sheet, where the sun doesn't set for weeks in summer and the sky lights up with northern lights in winter. These pages are here to discover a Greenland of dog sleds, kayaks invented by Inuit hunters, and a territory that is today the most closely watched thermometer of global climate change.",
+      },
+    },
+  },
+  {
+    slug: "costa-rica",
+    flagEmoji: "🇨🇷",
+    accentColor: "#002B7F",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Costa Rica",
+        intro:
+          "El país que abolió su ejército para invertir en educación y naturaleza, hoy hogar del 5% de la biodiversidad del planeta y cuna de la filosofía 'Pura Vida'. Estas páginas son para descubrir una Costa Rica de quetzales resplandecientes, carretas pintadas a mano, perezosos embajadores y un modelo de ecoturismo que el mundo entero intenta copiar.",
+      },
+      en: {
+        name: "Costa Rica",
+        intro:
+          "The country that abolished its army to invest in education and nature, today home to 5% of the planet's biodiversity and birthplace of the 'Pura Vida' philosophy. These pages are here to discover a Costa Rica of resplendent quetzals, hand-painted oxcarts, ambassador sloths, and an ecotourism model the whole world tries to copy.",
+      },
+    },
+  },
+  {
+    slug: "panama",
+    flagEmoji: "🇵🇦",
+    accentColor: "#D21034",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Panamá",
+        intro:
+          "El puente de tierra que partieron para unir el Atlántico con el Pacífico, hogar del canal más transitado del planeta y de un pueblo guna que ganó su propia autonomía hace un siglo. Estas páginas son para descubrir un Panamá de ranas doradas, molas tejidas a mano, rascacielos junto a calles coloniales y el único tramo sin carretera de toda América.",
+      },
+      en: {
+        name: "Panama",
+        intro:
+          "The land bridge they split open to join the Atlantic with the Pacific, home to the busiest canal on the planet and a Guna people who won their own autonomy a century ago. These pages are here to discover a Panama of golden frogs, hand-woven molas, skyscrapers beside colonial streets, and the only roadless stretch in all the Americas.",
+      },
+    },
+  },
+  {
+    slug: "belize",
+    flagEmoji: "🇧🇿",
+    accentColor: "#003F87",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Belice",
+        intro:
+          "El único país centroamericano que habla inglés, dueño del segundo arrecife más grande del mundo y del Gran Hoyo Azul que se ve desde el espacio. Estas páginas son para descubrir un Belice de ruinas mayas escondidas en la selva, cultura garífuna resiliente, la primera reserva de jaguares del mundo y comunidades menonitas que aún viven sin electricidad.",
+      },
+      en: {
+        name: "Belize",
+        intro:
+          "The only English-speaking country in Central America, home to the world's second-largest reef and the Great Blue Hole visible from space. These pages are here to discover a Belize of Maya ruins hidden in the jungle, resilient Garifuna culture, the world's first jaguar reserve, and Mennonite communities still living without electricity.",
+      },
+    },
+  },
+  {
+    slug: "curacao",
+    flagEmoji: "🇨🇼",
+    accentColor: "#1565C0",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Curazao",
+        intro:
+          "La isla caribeña de fachadas coloridas frente al mar, país constituyente del Reino de los Países Bajos y cuna del licor azul que lleva su nombre. Estas páginas son para descubrir un Curazao de papiamento propio, arrecifes que empiezan en la orilla, un puente flotante que se abre para dejar pasar barcos y la memoria viva de la rebelión de esclavizados liderada por Tula en 1795.",
+      },
+      en: {
+        name: "Curaçao",
+        intro:
+          "The Caribbean island of colorful waterfront facades, a constituent country of the Kingdom of the Netherlands and birthplace of the blue liqueur that bears its name. These pages are here to discover a Curaçao with its own Papiamento language, reefs that begin right at the shore, a swinging pontoon bridge that opens for passing ships, and the living memory of Tula's 1795 rebellion of enslaved people.",
       },
     },
   },

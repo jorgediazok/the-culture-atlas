@@ -61,6 +61,10 @@ import { canada } from "./canada";
 import { unitedStates } from "./united-states";
 import { mexico } from "./mexico";
 import { greenland } from "./greenland";
+import { costaRica } from "./costa-rica";
+import { panama } from "./panama";
+import { belize } from "./belize";
+import { curacao } from "./curacao";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -119,6 +123,10 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   "united-states": unitedStates,
   mexico,
   greenland,
+  "costa-rica": costaRica,
+  panama,
+  belize,
+  curacao,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

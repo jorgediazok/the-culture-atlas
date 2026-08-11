@@ -54,6 +54,10 @@ import { canadaIllustrations } from "./canada";
 import { unitedStatesIllustrations } from "./united-states";
 import { mexicoIllustrations } from "./mexico";
 import { greenlandIllustrations } from "./greenland";
+import { costaRicaIllustrations } from "./costa-rica";
+import { panamaIllustrations } from "./panama";
+import { belizeIllustrations } from "./belize";
+import { curacaoIllustrations } from "./curacao";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -113,6 +117,10 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   "united-states": unitedStatesIllustrations,
   mexico: mexicoIllustrations,
   greenland: greenlandIllustrations,
+  "costa-rica": costaRicaIllustrations,
+  panama: panamaIllustrations,
+  belize: belizeIllustrations,
+  curacao: curacaoIllustrations,
 };
 
 export function getIllustration(
