@@ -20,22 +20,64 @@ export default function CoverPage({
 
   return (
     <BookPageFrame>
+      {/* Mobile: a single cover panel. The desktop spread (icon side +
+          text side) doesn't translate to a stacked layout — it just reads
+          as two disconnected slabs with dead space between them. */}
+      <Box
+        sx={{
+          display: { xs: "flex", md: "none" },
+          flexDirection: "column",
+          alignItems: "center",
+          textAlign: "center",
+          gap: 1.5,
+          p: 4,
+          backgroundColor: country.accentColor,
+          color: textColor,
+        }}
+      >
+        {Emblem ? (
+          <Box sx={{ width: 168, height: 168 }}>
+            <Emblem accentColor={country.accentColor} />
+          </Box>
+        ) : null}
+
+        <Typography variant="h3" component="h1" sx={{ fontWeight: 700 }}>
+          {country.name}
+        </Typography>
+
+        <Typography sx={{ lineHeight: 1.7, opacity: 0.92, mt: 1 }}>
+          {country.intro}
+        </Typography>
+
+        <Typography
+          sx={{
+            fontSize: 12,
+            letterSpacing: "0.14em",
+            textTransform: "uppercase",
+            opacity: 0.75,
+            mt: 1,
+          }}
+        >
+          {entryCount} {storiesLabel}
+        </Typography>
+      </Box>
+
       <Stack
-        direction={{ xs: "column", md: "row" }}
-        sx={{ height: "100%", position: "relative" }}
+        direction="row"
+        sx={{ display: { xs: "none", md: "flex" }, height: "100%", position: "relative" }}
       >
         <Box
           sx={{
-            flex: { xs: "0 0 auto", md: "1 1 50%" },
+            flex: "1 1 50%",
             minWidth: 0,
-            minHeight: { xs: 220, md: 480 },
+            minHeight: 480,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
             textAlign: "center",
             gap: 2,
-            p: { xs: 4, md: 6 },
+            p: 6,
             position: "relative",
             backgroundColor: country.accentColor,
             color: textColor,
@@ -44,7 +86,7 @@ export default function CoverPage({
           <Typography sx={{ fontSize: 40 }}>{country.flagEmoji}</Typography>
 
           {Emblem ? (
-            <Box sx={{ width: { xs: 92, md: 128 }, height: { xs: 92, md: 128 } }}>
+            <Box sx={{ width: 128, height: 128 }}>
               <Emblem accentColor={country.accentColor} />
             </Box>
           ) : null}
@@ -56,7 +98,6 @@ export default function CoverPage({
           {/* Gutter shadow, half A: anchored to this box's own right edge. */}
           <Box
             sx={{
-              display: { xs: "none", md: "block" },
               position: "absolute",
               top: 0,
               bottom: 0,
@@ -72,16 +113,16 @@ export default function CoverPage({
 
         <Box
           sx={{
-            flex: { xs: 1, md: "1 1 50%" },
+            flex: "1 1 50%",
             minWidth: 0,
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
             gap: 2,
-            pt: { xs: 4, md: 6 },
-            pr: { xs: 4, md: 6 },
-            pb: { xs: 4, md: 6 },
-            pl: { xs: 4, md: 9 },
+            pt: 6,
+            pr: 6,
+            pb: 6,
+            pl: 9,
             position: "relative",
             backgroundColor: country.accentColor,
             color: textColor,
@@ -90,7 +131,6 @@ export default function CoverPage({
           {/* Gutter shadow, half B: anchored to this box's own left edge. */}
           <Box
             sx={{
-              display: { xs: "none", md: "block" },
               position: "absolute",
               top: 0,
               bottom: 0,
@@ -110,8 +150,8 @@ export default function CoverPage({
           <Typography
             sx={{
               position: "absolute",
-              bottom: { xs: 16, md: 24 },
-              right: { xs: 20, md: 32 },
+              bottom: 24,
+              right: 32,
               fontSize: 12,
               letterSpacing: "0.14em",
               textTransform: "uppercase",

@@ -8,7 +8,8 @@ import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
-import { keyframes } from "@mui/material/styles";
+import { keyframes, useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
@@ -91,32 +92,51 @@ export default function BookCarousel({
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [flip, setFlip] = useState<Flip | null>(null);
   const slideNodes = useRef<HTMLElement[]>([]);
+  const theme = useTheme();
+  // Desktop (mouse) users only page-turn via click or the arrow buttons —
+  // Embla's own drag/swipe is switched off there below. Mobile keeps plain
+  // carousel-style drag, since the real flip overlay only ever renders at
+  // md+ (it needs the fixed-height desktop frame to fill).
+  const isDesktop = useMediaQuery(theme.breakpoints.up("md"));
 
-  // Raw drag/swipe keeps using Embla's own filmstrip + tilt-tween below,
-  // completely untouched. Discrete moves (click, arrow keys, buttons, dots)
-  // play a real single-page turn instead, then hand the final position to
-  // Embla so drag state stays in sync.
+  // On desktop, discrete moves (click, arrow keys, buttons, dots) play a
+  // real single-page turn, then hand the final position to Embla. On
+  // mobile there's no flip overlay to play, so these just move Embla
+  // directly — the reader's actual page-turning there is the swipe/drag.
   const goNext = useCallback(() => {
-    if (flip) return;
     const to = selectedIndex + 1;
     if (to >= slides.length) return;
+    if (!isDesktop) {
+      emblaApi?.scrollNext();
+      return;
+    }
+    if (flip) return;
     setFlip({ dir: "next", from: selectedIndex, to });
-  }, [flip, selectedIndex, slides.length]);
+  }, [flip, selectedIndex, slides.length, isDesktop, emblaApi]);
 
   const goPrev = useCallback(() => {
-    if (flip) return;
     const to = selectedIndex - 1;
     if (to < 0) return;
+    if (!isDesktop) {
+      emblaApi?.scrollPrev();
+      return;
+    }
+    if (flip) return;
     setFlip({ dir: "prev", from: selectedIndex, to });
-  }, [flip, selectedIndex]);
+  }, [flip, selectedIndex, isDesktop, emblaApi]);
 
   const jumpTo = useCallback(
     (index: number) => {
-      if (flip || index === selectedIndex) return;
+      if (index === selectedIndex) return;
+      if (!isDesktop) {
+        emblaApi?.scrollTo(index);
+        return;
+      }
+      if (flip) return;
       emblaApi?.scrollTo(index, true);
       setSelectedIndex(index);
     },
-    [flip, selectedIndex, emblaApi]
+    [flip, selectedIndex, isDesktop, emblaApi]
   );
 
   const finishFlip = useCallback(() => {
@@ -125,6 +145,12 @@ export default function BookCarousel({
     setSelectedIndex(flip.to);
     setFlip(null);
   }, [flip, emblaApi]);
+
+  // Mouse drag/swipe only ever moves pages on mobile — desktop readers
+  // page-turn by clicking or using the arrow buttons instead.
+  useEffect(() => {
+    emblaApi?.reInit({ watchDrag: !isDesktop });
+  }, [emblaApi, isDesktop]);
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -241,7 +267,17 @@ export default function BookCarousel({
           the image above the text instead of side by side. */}
       <Box sx={{ position: "relative", height: { md: 680 } }}>
         <Box ref={emblaRef} sx={{ overflow: "hidden", height: "100%" }}>
-          <Box sx={{ display: "flex", height: { md: "100%" } }}>
+          {/* alignItems stretch is the flex default — fine on desktop where
+              every slide already has a fixed height, but on mobile it would
+              stretch every slide (including the cover) to match whichever
+              sibling page has the longest text, leaving huge empty gaps. */}
+          <Box
+            sx={{
+              display: "flex",
+              height: { md: "100%" },
+              alignItems: { xs: "flex-start", md: "stretch" },
+            }}
+          >
             {slides.map((slide, index) => (
               <Box
                 key={index}
@@ -249,7 +285,7 @@ export default function BookCarousel({
                   if (el) slideNodes.current[index] = el;
                 }}
                 onClick={(event) => {
-                  if (flip) return;
+                  if (!isDesktop || flip) return;
                   const target = event.target as HTMLElement;
                   if (target.closest("a, button, [role='button']")) return;
                   const rect = event.currentTarget.getBoundingClientRect();
