@@ -3,7 +3,7 @@ import type { Continent, Locale } from "@/content/types";
 const dictionaries = {
   es: {
     brand: "Atlas de la Cultura",
-    eyebrow: "Un libro cultural digital",
+    eyebrow: "Un atlas cultural digital",
     tagline: "País por país · página por página",
     backToIndex: "← Volver al índice",
     backToFirstPage: "← Volver a la primera página",
@@ -23,7 +23,7 @@ const dictionaries = {
   },
   en: {
     brand: "The Culture Atlas",
-    eyebrow: "A digital culture book",
+    eyebrow: "A digital culture atlas",
     tagline: "Country by country · page by page",
     backToIndex: "← Back to index",
     backToFirstPage: "← Back to first page",

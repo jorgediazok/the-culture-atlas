@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
-// The book's target scope: every country in the world, 20 entries each —
+// The project's target scope: every country in the world, 20 entries each —
 // not the current in-progress count, which keeps growing with every batch.
 const TARGET_COUNTRIES = 195;
 const TARGET_ENTRIES_PER_COUNTRY = 20;
