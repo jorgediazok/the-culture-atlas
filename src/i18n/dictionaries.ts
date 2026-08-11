@@ -5,6 +5,10 @@ const dictionaries = {
     brand: "Atlas de la Cultura",
     eyebrow: "Un atlas cultural digital",
     tagline: "País por país · página por página",
+    intro:
+      "Un libro ilustrado por país, con historias breves para conocer una cultura de a poco.",
+    searchPlaceholder: "Buscar un país...",
+    exploreByContinent: "o explorá por continente",
     backToIndex: "← Volver al índice",
     backToFirstPage: "← Volver a la primera página",
     storiesLabel: "historias",
@@ -25,6 +29,10 @@ const dictionaries = {
     brand: "The Culture Atlas",
     eyebrow: "A digital culture atlas",
     tagline: "Country by country · page by page",
+    intro:
+      "An illustrated book for every country, with short stories to get to know a culture bit by bit.",
+    searchPlaceholder: "Search a country...",
+    exploreByContinent: "or explore by continent",
     backToIndex: "← Back to index",
     backToFirstPage: "← Back to first page",
     storiesLabel: "stories",

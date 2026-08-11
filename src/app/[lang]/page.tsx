@@ -5,10 +5,13 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import BookCover from "@/components/BookCover";
 import ShelfRow from "@/components/ShelfRow";
+import ContinentChips from "@/components/ContinentChips";
+import CountrySearch from "@/components/CountrySearch";
 import { countries } from "@/content/countries";
 import { localizeCountry } from "@/content";
 import { isValidLocale, locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
+import { averageColor } from "@/illustrations/palette";
 import type { Continent } from "@/content/types";
 
 export function generateStaticParams() {
@@ -38,13 +41,29 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
       .sort((a, b) => a.name.localeCompare(b.name, lang)),
   })).filter((shelf) => shelf.countries.length > 0);
 
+  const counts = Object.fromEntries(
+    CONTINENT_ORDER.map((c) => [c, 0])
+  ) as Record<Continent, number>;
+  const colors = {} as Record<Continent, string>;
+  for (const shelf of shelves) {
+    counts[shelf.continent] = shelf.countries.length;
+    colors[shelf.continent] = averageColor(
+      shelf.countries.map((c) => c.accentColor)
+    );
+  }
+
+  const searchIndex = shelves
+    .flatMap((s) => s.countries)
+    .map((c) => ({ slug: c.slug, name: c.name, flagEmoji: c.flagEmoji }))
+    .sort((a, b) => a.name.localeCompare(b.name, lang));
+
   return (
     <Container maxWidth="lg" sx={{ py: { xs: 6, md: 10 } }}>
       <Box
         sx={{
           maxWidth: 560,
           mx: "auto",
-          mb: { xs: 7, md: 9 },
+          mb: { xs: 5, md: 6 },
           textAlign: "center",
           px: { xs: 4, md: 5 },
           py: { xs: 4, md: 5 },
@@ -95,14 +114,66 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
             letterSpacing: "0.14em",
             textTransform: "uppercase",
             color: "text.secondary",
+            mb: 2,
           }}
         >
           {dict.tagline}
         </Typography>
+        <Typography sx={{ fontSize: 14.5, color: "text.secondary", lineHeight: 1.5 }}>
+          {dict.intro}
+        </Typography>
+      </Box>
+
+      <Box
+        sx={{
+          mb: { xs: 7, md: 9 },
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: 3,
+        }}
+      >
+        <CountrySearch
+          locale={lang}
+          countries={searchIndex}
+          placeholder={dict.searchPlaceholder}
+        />
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            gap: 1.5,
+            width: "100%",
+            maxWidth: 560,
+          }}
+        >
+          <Box sx={{ flex: 1, height: "1px", backgroundColor: "divider" }} />
+          <Typography
+            sx={{
+              fontSize: 11,
+              color: "text.secondary",
+              textTransform: "uppercase",
+              letterSpacing: "0.12em",
+            }}
+          >
+            {dict.exploreByContinent}
+          </Typography>
+          <Box sx={{ flex: 1, height: "1px", backgroundColor: "divider" }} />
+        </Box>
+        <ContinentChips
+          labels={dict.continents}
+          counts={counts}
+          colors={colors}
+          countriesLabel={dict.countriesLabel}
+        />
       </Box>
 
       {shelves.map(({ continent, countries: shelfCountries }) => (
-        <Box key={continent} sx={{ mb: { xs: 7, md: 8 } }}>
+        <Box
+          key={continent}
+          id={`shelf-${continent}`}
+          sx={{ mb: { xs: 7, md: 8 }, scrollMarginTop: 24 }}
+        >
           <Stack
             direction="row"
             spacing={1.5}

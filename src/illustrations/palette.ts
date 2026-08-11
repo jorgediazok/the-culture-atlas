@@ -50,3 +50,18 @@ export function shade(hex: string, amount: number): string {
   const [h, s, l] = hexToHsl(hex);
   return hslToHex(h, s, l * (1 - amount));
 }
+
+/** Averages a list of hex colors channel-by-channel (RGB space). */
+export function averageColor(hexColors: string[]): string {
+  const [r, g, b] = hexColors
+    .reduce(
+      (sums, hex) => [
+        sums[0] + parseInt(hex.slice(1, 3), 16),
+        sums[1] + parseInt(hex.slice(3, 5), 16),
+        sums[2] + parseInt(hex.slice(5, 7), 16),
+      ],
+      [0, 0, 0]
+    )
+    .map((sum) => Math.round(sum / hexColors.length));
+  return `#${[r, g, b].map((n) => n.toString(16).padStart(2, "0")).join("")}`;
+}
