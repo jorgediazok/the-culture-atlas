@@ -58,6 +58,10 @@ import { costaRicaIllustrations } from "./costa-rica";
 import { panamaIllustrations } from "./panama";
 import { belizeIllustrations } from "./belize";
 import { curacaoIllustrations } from "./curacao";
+import { surinameIllustrations } from "./suriname";
+import { guyanaIllustrations } from "./guyana";
+import { austriaIllustrations } from "./austria";
+import { spainIllustrations } from "./spain";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -121,6 +125,10 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   panama: panamaIllustrations,
   belize: belizeIllustrations,
   curacao: curacaoIllustrations,
+  suriname: surinameIllustrations,
+  guyana: guyanaIllustrations,
+  austria: austriaIllustrations,
+  spain: spainIllustrations,
 };
 
 export function getIllustration(

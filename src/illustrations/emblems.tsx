@@ -33,7 +33,7 @@ const Switzerland: EmblemComponent = () => (
 
 const France: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <path d="M50 8 L54 42 L60 62 L82 96 L18 96 L40 62 L46 42 Z" fill="#5C4A3A" />
+    <path d="M50 8 L54 42 L60 62 L82 96 L66 96 L58 78 L50 72 L42 78 L34 96 L18 96 L40 62 L46 42 Z" fill="#5C4A3A" />
     <rect x="40" y="41" width="20" height="3" fill="#3E3226" opacity="0.8" />
     <rect x="32" y="61" width="36" height="3" fill="#3E3226" opacity="0.8" />
     <line x1="50" y1="8" x2="50" y2="2" stroke="#5C4A3A" strokeWidth="2" />
@@ -640,6 +640,50 @@ const Panama: EmblemComponent = () => (
   </svg>
 );
 
+const Suriname: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <ellipse cx="46" cy="66" rx="15" ry="19" fill="#1A1A1A" />
+    <circle cx="42" cy="44" r="10" fill="#1A1A1A" />
+    <path d="M48 40 Q76 36 80 46 Q76 52 48 50 Z" fill="#F4A623" />
+    <path d="M74 44 Q80 45 80 47 Q76 48 74 47 Z" fill="#C1272D" />
+    <ellipse cx="40" cy="54" rx="6" ry="8" fill="#fff" />
+    <circle cx="38" cy="40" r="2" fill="#fff" />
+    <circle cx="38.5" cy="40" r="1" fill="#000" />
+    <rect x="42" y="84" width="4" height="10" fill="#8B5A2B" />
+  </svg>
+);
+
+const Guyana: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="20,40 60,55 20,70" fill="#1A1A1A" />
+    <polygon points="26,44 62,55 26,66" fill="#fff" />
+    <polygon points="30,47 68,55 30,63" fill="#FFD700" />
+    <polygon points="30,47 50,55 30,63" fill="#C1272D" opacity="0.85" />
+  </svg>
+);
+
+const Austria: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M30 60 L30 76 L70 76 L70 60 L58 68 L50 54 L42 68 Z" fill="#D4AF37" />
+    <rect x="30" y="76" width="40" height="6" fill="#B8901E" />
+    <circle cx="50" cy="52" r="4" fill="#8B1A3A" />
+    <circle cx="36" cy="64" r="2" fill="#1565C0" opacity="0.85" />
+    <circle cx="64" cy="64" r="2" fill="#1565C0" opacity="0.85" />
+  </svg>
+);
+
+const Spain: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <ellipse cx="54" cy="56" rx="24" ry="14" fill="#1A1A1A" />
+    <path d="M32 66 L36 84 L44 84 L42 66 Z" fill="#1A1A1A" />
+    <path d="M64 66 L68 84 L76 84 L72 66 Z" fill="#1A1A1A" />
+    <path d="M30 50 Q18 44 20 32 Q30 36 38 46 Z" fill="#1A1A1A" />
+    <path d="M20 32 Q14 24 20 20 M26 30 Q28 20 36 22" stroke="#1A1A1A" strokeWidth="4" fill="none" strokeLinecap="round" />
+    <path d="M78 52 Q90 58 86 70 Q84 74 80 72" stroke="#1A1A1A" strokeWidth="3" fill="none" strokeLinecap="round" />
+    <circle cx="86" cy="71" r="3" fill="#1A1A1A" />
+  </svg>
+);
+
 const CostaRica: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
     <path d="M50 70 Q42 74 44 94 Q46 80 50 76 Q54 80 56 94 Q58 74 50 70 Z" fill="#0F8A5F" />
@@ -764,6 +808,10 @@ export const emblems: Record<string, EmblemComponent> = {
   panama: Panama,
   belize: Belize,
   curacao: Curacao,
+  suriname: Suriname,
+  guyana: Guyana,
+  austria: Austria,
+  spain: Spain,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

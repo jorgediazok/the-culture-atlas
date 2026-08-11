@@ -1081,4 +1081,76 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "suriname",
+    flagEmoji: "🇸🇷",
+    accentColor: "#1B5E20",
+    continent: "south-america",
+    translations: {
+      es: {
+        name: "Surinam",
+        intro:
+          "El país con más selva intacta del planeta, el único de Sudamérica donde se habla neerlandés, y un mosaico de más de veinte lenguas donde una mezquita y una sinagoga comparten la misma cuadra. Estas páginas son para descubrir un Surinam de cimarrones que fundaron sus propias naciones, herencia javanesa e hindostaní, y una capital de madera colonial casi intacta.",
+      },
+      en: {
+        name: "Suriname",
+        intro:
+          "The country with the most intact rainforest on Earth, South America's only Dutch-speaking nation, and a mosaic of more than twenty languages where a mosque and a synagogue share the same block. These pages are here to discover a Suriname of Maroons who founded their own nations, Javanese and Hindustani heritage, and a capital of nearly untouched colonial wood.",
+      },
+    },
+  },
+  {
+    slug: "guyana",
+    flagEmoji: "🇬🇾",
+    accentColor: "#B8541C",
+    continent: "south-america",
+    translations: {
+      es: {
+        name: "Guyana",
+        intro:
+          "El único país sudamericano que habla inglés y juega cricket, dueño de una catarata de caída única más alta que las del Niágara y de un territorio en disputa que es dos tercios de su superficie. Estas páginas son para descubrir una Guyana que mira al Caribe más que a sus vecinos continentales, transformada de golpe por un reciente boom petrolero.",
+      },
+      en: {
+        name: "Guyana",
+        intro:
+          "The only South American country that speaks English and plays cricket, home to a single-drop waterfall taller than Niagara and a disputed territory that makes up two-thirds of its land. These pages are here to discover a Guyana that looks toward the Caribbean more than its continental neighbors, suddenly transformed by a recent oil boom.",
+      },
+    },
+  },
+  {
+    slug: "austria",
+    flagEmoji: "🇦🇹",
+    accentColor: "#7A1F2B",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Austria",
+        intro:
+          "La capital donde vivieron casi todos los grandes de la música clásica, cuna del psicoanálisis y de una emperatriz convertida en mito, con montañas que cubren más de la mitad del país. Estas páginas son para descubrir una Austria de cafés centenarios, palacios imperiales, un pastel de chocolate que terminó en juicio y una bestia peluda que asusta a los chicos antes de Navidad.",
+      },
+      en: {
+        name: "Austria",
+        intro:
+          "The capital where almost every great classical composer lived, birthplace of psychoanalysis and of an empress turned legend, with mountains covering more than half the country. These pages are here to discover an Austria of century-old cafés, imperial palaces, a chocolate cake that ended up in court, and a furry beast that scares children before Christmas.",
+      },
+    },
+  },
+  {
+    slug: "spain",
+    flagEmoji: "🇪🇸",
+    accentColor: "#E8B923",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "España",
+        intro:
+          "Cuna del flamenco y del euskera, la lengua más antigua de Europa, hogar de una catedral que lleva más de 140 años sin terminarse y de un pueblo que se cubre entero de tomate por diversión. Estas páginas son para descubrir una España de peregrinos hacia Santiago, palacios andalusíes, encierros de toros y un horario nocturno que arrastra desde 1940.",
+      },
+      en: {
+        name: "Spain",
+        intro:
+          "Birthplace of flamenco and of Basque, Europe's oldest language, home to a cathedral that's been unfinished for over 140 years and a town that covers itself in tomatoes for fun. These pages are here to discover a Spain of pilgrims walking to Santiago, Andalusian palaces, bull runs, and a late-night schedule that has lingered since 1940.",
+      },
+    },
+  },
 ];
