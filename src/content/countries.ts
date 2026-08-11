@@ -1225,4 +1225,76 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "ghana",
+    flagEmoji: "🇬🇭",
+    accentColor: "#D4A017",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Ghana",
+        intro:
+          "El primer país al sur del Sahara en romper el dominio colonial, cuna del kente tejido en telares angostos y de ataúdes de fantasía con forma de auto o de pez. Estas páginas son para descubrir un Ghana de taburetes dorados que nunca tocan el suelo, tambores que hablan como personas y castillos de piedra frente al mar cargados de historia.",
+      },
+      en: {
+        name: "Ghana",
+        intro:
+          "The first country south of the Sahara to break colonial rule, home of kente cloth woven on narrow looms and fantasy coffins shaped like cars or fish. These pages are here to discover a Ghana of golden stools that never touch the ground, drums that talk like people, and stone seaside castles heavy with history.",
+      },
+    },
+  },
+  {
+    slug: "eritrea",
+    flagEmoji: "🇪🇷",
+    accentColor: "#C1272D",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Eritrea",
+        intro:
+          "La capital que parece un museo art déco entero, superviviente de treinta años de guerra por su independencia y dueña de un puerto donde se cruzan tres imperios. Estas páginas son para descubrir una Eritrea de ceremonias de café que duran horas, nueve lenguas sin ninguna oficial por encima de las demás, y un mercado de camellos que se arma cada lunes.",
+      },
+      en: {
+        name: "Eritrea",
+        intro:
+          "The capital that reads like an entire art deco museum, survivor of a thirty-year war for independence, home to a port where three empires overlap. These pages are here to discover an Eritrea of hours-long coffee ceremonies, nine languages with none ranked above the rest, and a camel market that sets up every Monday.",
+      },
+    },
+  },
+  {
+    slug: "solomon-islands",
+    flagEmoji: "🇸🇧",
+    accentColor: "#1565C0",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Islas Salomón",
+        intro:
+          "Un archipiélago de casi mil islas donde se hablan más de setenta idiomas y donde el dinero todavía se talla a mano en conchas marinas. Estas páginas son para descubrir unas Islas Salomón de pueblos enteros construidos sobre islas de piedra, orquestas de flautas de bambú y una bahía tan llena de barcos hundidos que le pusieron un apodo propio.",
+      },
+      en: {
+        name: "Solomon Islands",
+        intro:
+          "An archipelago of nearly a thousand islands where more than seventy languages are spoken and money is still hand-carved from sea shells. These pages are here to discover a Solomon Islands of entire villages built on artificial stone islets, bamboo panpipe orchestras, and a strait so full of sunken ships it earned its own nickname.",
+      },
+    },
+  },
+  {
+    slug: "new-caledonia",
+    flagEmoji: "🇳🇨",
+    accentColor: "#0097A7",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Nueva Caledonia",
+        intro:
+          "El territorio del Pacífico que iza dos banderas a la vez, guarda un cuarto del níquel del planeta y le dio nombre a un ave que ladra como perro. Estas páginas son para descubrir una Nueva Caledonia de chozas kanak coronadas con flechas talladas, pinos que se inclinan hacia el ecuador y una laguna protegida por la segunda barrera de coral más larga del mundo.",
+      },
+      en: {
+        name: "New Caledonia",
+        intro:
+          "The Pacific territory that flies two flags at once, holds a quarter of the planet's nickel, and gave its name to a bird that barks like a dog. These pages are here to discover a New Caledonia of Kanak huts crowned with carved spears, pine trees that lean toward the equator, and a lagoon guarded by the world's second-longest barrier reef.",
+      },
+    },
+  },
 ];

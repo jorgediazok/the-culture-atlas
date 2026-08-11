@@ -73,6 +73,10 @@ import { haiti } from "./haiti";
 import { trinidadAndTobago } from "./trinidad-and-tobago";
 import { japan } from "./japan";
 import { myanmar } from "./myanmar";
+import { ghana } from "./ghana";
+import { eritrea } from "./eritrea";
+import { solomonIslands } from "./solomon-islands";
+import { newCaledonia } from "./new-caledonia";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -143,6 +147,10 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   "trinidad-and-tobago": trinidadAndTobago,
   japan,
   myanmar,
+  ghana,
+  eritrea,
+  "solomon-islands": solomonIslands,
+  "new-caledonia": newCaledonia,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {
