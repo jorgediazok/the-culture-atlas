@@ -571,6 +571,35 @@ const Kiribati: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const Cuba: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="20" y="48" width="66" height="14" rx="7" fill="#fff" transform="rotate(-18 50 55)" />
+    <rect x="30" y="48" width="10" height="14" fill={accentColor} transform="rotate(-18 50 55)" />
+    <path d="M78 35 Q84 28 78 20 Q84 22 82 14" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" />
+  </svg>
+);
+
+const Canada: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path
+      d="M50 15 L54 32 L68 24 L64 38 L82 40 L68 50 L78 62 L62 58 L60 74 L50 62 L40 74 L38 58 L22 62 L32 50 L18 40 L36 38 L32 24 L46 32 Z"
+      fill="#fff"
+    />
+    <rect x="46" y="74" width="8" height="16" fill="#fff" />
+  </svg>
+);
+
+const Jamaica: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="15,20 85,20 50,55" fill="#1B5E20" />
+    <polygon points="15,90 85,90 50,55" fill="#1B5E20" />
+    <polygon points="15,20 15,90 50,55" fill="#1a1a1a" />
+    <polygon points="85,20 85,90 50,55" fill="#1a1a1a" />
+    <line x1="15" y1="20" x2="85" y2="90" stroke="#D4A017" strokeWidth="11" />
+    <line x1="85" y1="20" x2="15" y2="90" stroke="#D4A017" strokeWidth="11" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -622,6 +651,9 @@ export const emblems: Record<string, EmblemComponent> = {
   vanuatu: Vanuatu,
   ethiopia: Ethiopia,
   kiribati: Kiribati,
+  jamaica: Jamaica,
+  cuba: Cuba,
+  canada: Canada,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

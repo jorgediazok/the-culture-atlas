@@ -901,4 +901,58 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "jamaica",
+    flagEmoji: "🇯🇲",
+    accentColor: "#1E8449",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Jamaica",
+        intro:
+          "La isla que le dio al mundo el reggae, a Bob Marley y a los velocistas más rápidos del planeta, con una bandera que rompe todas las reglas y una fruta nacional que puede ser mortal si se come antes de tiempo. Estas páginas son para descubrir una Jamaica de cimarrones rebeldes, ciudades piratas hundidas y un idioma criollo propio que convive con el inglés.",
+      },
+      en: {
+        name: "Jamaica",
+        intro:
+          "The island that gave the world reggae, Bob Marley, and the fastest sprinters on the planet, with a flag that breaks all the rules and a national fruit that can be deadly if eaten too soon. These pages are here to discover a Jamaica of rebel Maroons, a sunken pirate city, and its own Creole language living alongside English.",
+      },
+    },
+  },
+  {
+    slug: "cuba",
+    flagEmoji: "🇨🇺",
+    accentColor: "#C0392B",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Cuba",
+        intro:
+          "La isla de los autos de los años cincuenta que todavía circulan, el ron, los habanos legendarios y una revolución que cambió su historia para siempre. Estas páginas son para descubrir una Cuba de santería, béisbol apasionado, ballet de clase mundial y médicos que el país envió a medio planeta.",
+      },
+      en: {
+        name: "Cuba",
+        intro:
+          "The island of 1950s cars still on the road, rum, legendary cigars, and a revolution that changed its history forever. These pages are here to discover a Cuba of Santería, passionate baseball, world-class ballet, and doctors the country sent to half the planet.",
+      },
+    },
+  },
+  {
+    slug: "canada",
+    flagEmoji: "🇨🇦",
+    accentColor: "#B71C1C",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Canadá",
+        intro:
+          "El país del jarabe de arce con reserva estratégica, el hockey nacido en sus patios helados y una política de multiculturalismo que fue la primera del mundo en volverse ley. Estas páginas son para descubrir un Canadá bilingüe, de tótems indígenas, poutine y un profesor que inventó el básquetbol sin darse cuenta de lo que estaba creando.",
+      },
+      en: {
+        name: "Canada",
+        intro:
+          "The land of maple syrup with a strategic reserve, hockey born in frozen backyards, and a multiculturalism policy that was the first in the world to become law. These pages are here to discover a bilingual Canada of Indigenous totem poles, poutine, and a teacher who invented basketball without realizing what he was creating.",
+      },
+    },
+  },
 ];

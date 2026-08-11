@@ -48,6 +48,9 @@ import { tongaIllustrations } from "./tonga";
 import { vanuatuIllustrations } from "./vanuatu";
 import { ethiopiaIllustrations } from "./ethiopia";
 import { kiribatiIllustrations } from "./kiribati";
+import { jamaicaIllustrations } from "./jamaica";
+import { cubaIllustrations } from "./cuba";
+import { canadaIllustrations } from "./canada";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -101,6 +104,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   vanuatu: vanuatuIllustrations,
   ethiopia: ethiopiaIllustrations,
   kiribati: kiribatiIllustrations,
+  jamaica: jamaicaIllustrations,
+  cuba: cubaIllustrations,
+  canada: canadaIllustrations,
 };
 
 export function getIllustration(
