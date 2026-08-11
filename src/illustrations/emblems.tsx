@@ -711,8 +711,10 @@ const Spain: EmblemComponent = () => (
     <ellipse cx="54" cy="56" rx="24" ry="14" fill="#1A1A1A" />
     <path d="M32 66 L36 84 L44 84 L42 66 Z" fill="#1A1A1A" />
     <path d="M64 66 L68 84 L76 84 L72 66 Z" fill="#1A1A1A" />
-    <path d="M30 50 Q18 44 20 32 Q30 36 38 46 Z" fill="#1A1A1A" />
-    <path d="M20 32 Q14 24 20 20 M26 30 Q28 20 36 22" stroke="#1A1A1A" strokeWidth="4" fill="none" strokeLinecap="round" />
+    <ellipse cx="26" cy="40" rx="13" ry="11" fill="#1A1A1A" />
+    <ellipse cx="13" cy="45" rx="7" ry="5.5" fill="#1A1A1A" />
+    <path d="M20 32 Q8 24 6 12 Q14 20 18 30 Z" fill="#1A1A1A" />
+    <path d="M32 31 Q36 18 36 8 Q28 16 26 28 Z" fill="#1A1A1A" />
     <path d="M78 52 Q90 58 86 70 Q84 74 80 72" stroke="#1A1A1A" strokeWidth="3" fill="none" strokeLinecap="round" />
     <circle cx="86" cy="71" r="3" fill="#1A1A1A" />
   </svg>
