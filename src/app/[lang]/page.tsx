@@ -4,6 +4,7 @@ import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import BookCover from "@/components/BookCover";
+import ShelfRow from "@/components/ShelfRow";
 import { countries } from "@/content/countries";
 import { localizeCountry } from "@/content";
 import { isValidLocale, locales } from "@/i18n/config";
@@ -116,50 +117,11 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
             <Box sx={{ flex: 1, height: "1px", backgroundColor: "divider" }} />
           </Stack>
 
-          <Box sx={{ position: "relative" }}>
-            <Stack
-              direction="row"
-              sx={{
-                alignItems: "flex-end",
-                gap: 3.5,
-                overflowX: "auto",
-                scrollSnapType: "x proximity",
-                pb: 4,
-                pt: 1,
-                px: 0.5,
-                "&::-webkit-scrollbar": { display: "none" },
-                scrollbarWidth: "none",
-              }}
-            >
-              {shelfCountries.map((country) => (
-                <BookCover key={country.slug} country={country} locale={lang} />
-              ))}
-            </Stack>
-            <Box
-              sx={{
-                position: "absolute",
-                left: 0,
-                right: 0,
-                bottom: 0,
-                height: 14,
-                background:
-                  "linear-gradient(to bottom, #cabb98 0%, #cabb98 35%, #a4926c 100%)",
-                borderRadius: "0 0 2px 2px",
-                boxShadow: "0 6px 10px -4px rgba(0,0,0,0.35)",
-              }}
-            />
-            <Box
-              sx={{
-                position: "absolute",
-                top: 0,
-                bottom: 14,
-                right: 0,
-                width: 44,
-                background: "linear-gradient(to left, #e7e2d3, rgba(0,0,0,0))",
-                pointerEvents: "none",
-              }}
-            />
-          </Box>
+          <ShelfRow>
+            {shelfCountries.map((country) => (
+              <BookCover key={country.slug} country={country} locale={lang} />
+            ))}
+          </ShelfRow>
         </Box>
       ))}
     </Container>
