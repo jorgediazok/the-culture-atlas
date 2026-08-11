@@ -642,8 +642,9 @@ const Panama: EmblemComponent = () => (
 
 const Haiti: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <circle cx="40" cy="55" r="12" fill="none" stroke="#B0B8BF" strokeWidth="6" />
-    <path d="M62 45 Q72 45 72 55 Q72 62 65 64" fill="none" stroke="#B0B8BF" strokeWidth="6" strokeLinecap="round" />
+    <rect x="22" y="42" width="16" height="26" rx="8" fill="none" stroke="#B0B8BF" strokeWidth="5" transform="rotate(10 30 55)" />
+    <rect x="36" y="42" width="16" height="26" rx="8" fill="none" stroke="#B0B8BF" strokeWidth="5" transform="rotate(-10 44 55)" />
+    <rect x="62" y="46" width="14" height="22" rx="7" fill="none" stroke="#B0B8BF" strokeWidth="5" transform="rotate(25 69 57)" />
   </svg>
 );
 
@@ -659,11 +660,7 @@ const TrinidadAndTobago: EmblemComponent = () => (
 
 const Japan: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <path d="M50 90 L30 40 Q50 30 70 40 Z" fill="#D4AF37" />
-    <line x1="50" y1="90" x2="35" y2="45" stroke="#8B1A1A" strokeWidth="1.4" opacity="0.6" />
-    <line x1="50" y1="90" x2="50" y2="35" stroke="#8B1A1A" strokeWidth="1.4" opacity="0.6" />
-    <line x1="50" y1="90" x2="65" y2="45" stroke="#8B1A1A" strokeWidth="1.4" opacity="0.6" />
-    <circle cx="50" cy="90" r="4" fill="#8B1A1A" />
+    <circle cx="50" cy="55" r="26" fill="#BC002D" />
   </svg>
 );
 

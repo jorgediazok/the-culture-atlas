@@ -1192,7 +1192,7 @@ export const countries: Country[] = [
   {
     slug: "japan",
     flagEmoji: "🇯🇵",
-    accentColor: "#BF360C",
+    accentColor: "#FFFFFF",
     continent: "asia",
     translations: {
       es: {
