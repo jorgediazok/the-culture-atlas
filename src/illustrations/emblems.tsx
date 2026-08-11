@@ -31,14 +31,10 @@ const Switzerland: EmblemComponent = () => (
 
 const France: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <path
-      d="M50 14 L28 96 M50 14 L72 96 M36 66 L64 66 M40 44 L60 44"
-      stroke="#fff"
-      strokeWidth="4"
-      strokeLinecap="round"
-      fill="none"
-    />
-    <rect x="20" y="94" width="60" height="5" fill="#fff" />
+    <path d="M50 8 L54 42 L60 62 L82 96 L18 96 L40 62 L46 42 Z" fill="#fff" />
+    <rect x="40" y="41" width="20" height="3" fill="#8B7355" opacity="0.6" />
+    <rect x="32" y="61" width="36" height="3" fill="#8B7355" opacity="0.6" />
+    <line x1="50" y1="8" x2="50" y2="2" stroke="#fff" strokeWidth="2" />
   </svg>
 );
 
@@ -98,13 +94,17 @@ const Albania: EmblemComponent = () => (
 
 const Russia: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <path d="M22 48 Q14 48 14 58 Q14 66 22 69 Q30 66 30 58 Q30 48 22 48 Z" fill="#fff" opacity="0.85" />
-    <rect x="18" y="69" width="8" height="17" fill="#fff" opacity="0.85" />
-    <path d="M78 48 Q70 48 70 58 Q70 66 78 69 Q86 66 86 58 Q86 48 78 48 Z" fill="#fff" opacity="0.85" />
-    <rect x="74" y="69" width="8" height="17" fill="#fff" opacity="0.85" />
-    <path d="M50 20 Q34 20 34 38 Q34 50 50 56 Q66 50 66 38 Q66 20 50 20 Z" fill="#fff" />
-    <rect x="43" y="56" width="14" height="30" fill="#fff" />
-    <path d="M50 12 L54 20 L46 20 Z" fill="#fff" />
+    <rect x="16" y="70" width="14" height="20" fill="#fff" />
+    <path d="M23 46 Q13 46 13 58 Q13 68 23 71 Q33 68 33 58 Q33 46 23 46 Z" fill="#4CAF50" />
+    <path d="M23 38 L26 46 L20 46 Z" fill="#4CAF50" />
+
+    <rect x="43" y="62" width="14" height="28" fill="#fff" />
+    <path d="M50 30 Q36 30 36 46 Q36 58 50 62 Q64 58 64 46 Q64 30 50 30 Z" fill="#C1272D" />
+    <path d="M50 20 L54 30 L46 30 Z" fill="#C1272D" />
+
+    <rect x="70" y="70" width="14" height="20" fill="#fff" />
+    <path d="M77 46 Q67 46 67 58 Q67 68 77 71 Q87 68 87 58 Q87 46 77 46 Z" fill="#E8912D" />
+    <path d="M77 38 L80 46 L74 46 Z" fill="#E8912D" />
   </svg>
 );
 
@@ -219,9 +219,6 @@ const Uruguay: EmblemComponent = () => (
       />
     ))}
     <circle cx="50" cy="55" r="18" fill="#F4C430" />
-    <circle cx="43" cy="50" r="3" fill="#8B5A2B" />
-    <circle cx="57" cy="50" r="3" fill="#8B5A2B" />
-    <path d="M41 62 q9 8 18 0" fill="none" stroke="#8B5A2B" strokeWidth="3" strokeLinecap="round" />
   </svg>
 );
 
@@ -256,6 +253,8 @@ const China: EmblemComponent = ({ accentColor }) => (
     <circle cx="70" cy="36" r="5.5" fill={accentColor} />
     <ellipse cx="40" cy="54" rx="7" ry="9" fill={accentColor} />
     <ellipse cx="60" cy="54" rx="7" ry="9" fill={accentColor} />
+    <circle cx="42" cy="51" r="1.8" fill="#fff" />
+    <circle cx="62" cy="51" r="1.8" fill="#fff" />
     <ellipse cx="50" cy="64" rx="4" ry="3" fill={accentColor} />
   </svg>
 );
@@ -306,11 +305,11 @@ const Peru: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
-const Bolivia: EmblemComponent = ({ accentColor }) => (
+const Bolivia: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <ellipse cx="50" cy="62" rx="26" ry="7" fill="#fff" />
-    <path d="M32 62 Q32 32 50 32 Q68 32 68 62 Z" fill="#fff" />
-    <rect x="32" y="56" width="36" height="6" fill={accentColor} />
+    <ellipse cx="50" cy="62" rx="26" ry="7" fill="#3B2A1E" />
+    <path d="M32 62 Q32 32 50 32 Q68 32 68 62 Z" fill="#3B2A1E" />
+    <rect x="32" y="56" width="36" height="6" fill="#8B1E3F" />
   </svg>
 );
 
@@ -566,6 +565,32 @@ const Cuba: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const Mexico: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path
+      d="M36 62 Q28 62 28 74 Q28 86 40 90 L40 96 L60 96 L60 90 Q72 86 72 74 Q72 62 64 62 Q64 50 50 48 Q36 50 36 62 Z"
+      fill="#4A8C3F"
+    />
+    <circle cx="40" cy="68" r="1.6" fill="#2E5B26" />
+    <circle cx="50" cy="74" r="1.6" fill="#2E5B26" />
+    <circle cx="60" cy="68" r="1.6" fill="#2E5B26" />
+    <path d="M50 48 L26 26 L50 34 L74 26 Z" fill="#B8860B" />
+  </svg>
+);
+
+const Greenland: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path
+      d="M26 52 L74 52 L82 74 L18 74 Z"
+      fill="#3A7CA5"
+      stroke="#EAF6FB"
+      strokeWidth="1.5"
+      opacity="0.9"
+    />
+    <path d="M40 30 L58 26 L72 50 L60 46 L50 68 L38 48 L26 52 Z" fill="#EAF6FB" />
+  </svg>
+);
+
 const Canada: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
     <path
@@ -573,6 +598,16 @@ const Canada: EmblemComponent = () => (
       fill="#fff"
     />
     <rect x="47" y="66" width="6" height="20" fill="#fff" />
+  </svg>
+);
+
+const UnitedStates: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 10 Q34 22 38 40 Q41 52 50 56 Q59 52 62 40 Q66 22 50 10 Z" fill="#F4A623" />
+    <path d="M50 20 Q40 30 43 40" fill="none" stroke="#FFD966" strokeWidth="3" opacity="0.75" />
+    <rect x="38" y="56" width="24" height="11" rx="3" fill="#8FBFA0" />
+    <path d="M28 67 L72 67 L62 84 L38 84 Z" fill="#8FBFA0" />
+    <rect x="38" y="84" width="24" height="16" fill="#6FA98A" />
   </svg>
 );
 
@@ -641,6 +676,9 @@ export const emblems: Record<string, EmblemComponent> = {
   jamaica: Jamaica,
   cuba: Cuba,
   canada: Canada,
+  "united-states": UnitedStates,
+  mexico: Mexico,
+  greenland: Greenland,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

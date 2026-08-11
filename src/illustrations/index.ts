@@ -51,6 +51,9 @@ import { kiribatiIllustrations } from "./kiribati";
 import { jamaicaIllustrations } from "./jamaica";
 import { cubaIllustrations } from "./cuba";
 import { canadaIllustrations } from "./canada";
+import { unitedStatesIllustrations } from "./united-states";
+import { mexicoIllustrations } from "./mexico";
+import { greenlandIllustrations } from "./greenland";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -107,6 +110,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   jamaica: jamaicaIllustrations,
   cuba: cubaIllustrations,
   canada: canadaIllustrations,
+  "united-states": unitedStatesIllustrations,
+  mexico: mexicoIllustrations,
+  greenland: greenlandIllustrations,
 };
 
 export function getIllustration(

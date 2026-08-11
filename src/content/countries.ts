@@ -400,7 +400,7 @@ export const countries: Country[] = [
   {
     slug: "china",
     flagEmoji: "🇨🇳",
-    accentColor: "#B8860B",
+    accentColor: "#C1272D",
     continent: "asia",
     translations: {
       es: {
@@ -544,7 +544,7 @@ export const countries: Country[] = [
   {
     slug: "indonesia",
     flagEmoji: "🇮🇩",
-    accentColor: "#B8860B",
+    accentColor: "#A0522D",
     continent: "asia",
     translations: {
       es: {
@@ -580,7 +580,7 @@ export const countries: Country[] = [
   {
     slug: "venezuela",
     flagEmoji: "🇻🇪",
-    accentColor: "#FFD700",
+    accentColor: "#D9A521",
     continent: "south-america",
     translations: {
       es: {
@@ -952,6 +952,60 @@ export const countries: Country[] = [
         name: "Canada",
         intro:
           "The land of maple syrup with a strategic reserve, hockey born in frozen backyards, and a multiculturalism policy that was the first in the world to become law. These pages are here to discover a bilingual Canada of Indigenous totem poles, poutine, and a teacher who invented basketball without realizing what he was creating.",
+      },
+    },
+  },
+  {
+    slug: "united-states",
+    flagEmoji: "🇺🇸",
+    accentColor: "#1B3A5C",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Estados Unidos",
+        intro:
+          "El país del jazz nacido en Nueva Orleans, de Hollywood y la carrera a la Luna, con una torre Eiffel que se repite en la Estatua de la Libertad. Estas páginas son para descubrir unos Estados Unidos de rutas interminables, jeans que se volvieron uniforme mundial y un rock and roll que sacudió al planeta entero.",
+      },
+      en: {
+        name: "United States",
+        intro:
+          "The country of jazz born in New Orleans, of Hollywood and the race to the Moon, with an echo of the Eiffel Tower in the Statue of Liberty. These pages are here to discover a United States of endless highways, jeans that became a global uniform, and a rock and roll that shook the entire planet.",
+      },
+    },
+  },
+  {
+    slug: "mexico",
+    flagEmoji: "🇲🇽",
+    accentColor: "#E4007C",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "México",
+        intro:
+          "La cuna del chocolate y el taco, con pirámides mayas que dibujan serpientes de sombra y un águila devorando una serpiente que le dio nombre a una capital construida sobre un lago. Estas páginas son para descubrir un México de calaveras de colores, luchadores enmascarados, murales gigantes y una pintora que convirtió su dolor en arte.",
+      },
+      en: {
+        name: "Mexico",
+        intro:
+          "The birthplace of chocolate and the taco, with Maya pyramids that draw shadow serpents and an eagle devouring a snake that gave its name to a capital built on a lake. These pages are here to discover a Mexico of colorful skulls, masked wrestlers, giant murals, and a painter who turned her pain into art.",
+      },
+    },
+  },
+  {
+    slug: "greenland",
+    flagEmoji: "🇬🇱",
+    accentColor: "#4A90D9",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Groenlandia",
+        intro:
+          "La isla cubierta casi por completo de una capa de hielo eterno, donde el sol no se pone durante semanas en verano y el cielo se enciende de auroras boreales en invierno. Estas páginas son para descubrir una Groenlandia de trineos de perros, kayaks inventados por cazadores inuit, y un territorio que hoy es el termómetro más vigilado del cambio climático mundial.",
+      },
+      en: {
+        name: "Greenland",
+        intro:
+          "The island covered almost entirely by an eternal ice sheet, where the sun doesn't set for weeks in summer and the sky lights up with northern lights in winter. These pages are here to discover a Greenland of dog sleds, kayaks invented by Inuit hunters, and a territory that is today the most closely watched thermometer of global climate change.",
       },
     },
   },
