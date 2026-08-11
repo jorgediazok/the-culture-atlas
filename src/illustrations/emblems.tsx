@@ -18,7 +18,7 @@ const Belgium: EmblemComponent = () => (
     <polygon points="38,50 62,50 59,44 41,44" fill="#c23b2e" />
     <rect x="40" y="18" width="7" height="38" fill="#ffce6b" transform="rotate(-8 43 36)" />
     <rect x="49" y="14" width="7" height="42" fill="#ffce6b" />
-    <rect x="58" y="18" width="7" height="38" fill="#ffce6b" transform="rotate(8 61 36)" />
+    <rect x="53" y="18" width="7" height="38" fill="#ffce6b" transform="rotate(8 57 36)" />
   </svg>
 );
 
