@@ -256,7 +256,7 @@ export const countries: Country[] = [
   {
     slug: "thailand",
     flagEmoji: "🇹🇭",
-    accentColor: "#D4AF37",
+    accentColor: "#A51931",
     continent: "asia",
     translations: {
       es: {
@@ -328,7 +328,7 @@ export const countries: Country[] = [
   {
     slug: "chile",
     flagEmoji: "🇨🇱",
-    accentColor: "#8B2942",
+    accentColor: "#C0392B",
     continent: "south-america",
     translations: {
       es: {
@@ -490,7 +490,7 @@ export const countries: Country[] = [
   {
     slug: "paraguay",
     flagEmoji: "🇵🇾",
-    accentColor: "#1E88E5",
+    accentColor: "#0039A6",
     continent: "south-america",
     translations: {
       es: {
@@ -544,7 +544,7 @@ export const countries: Country[] = [
   {
     slug: "indonesia",
     flagEmoji: "🇮🇩",
-    accentColor: "#A0522D",
+    accentColor: "#8B4226",
     continent: "asia",
     translations: {
       es: {
