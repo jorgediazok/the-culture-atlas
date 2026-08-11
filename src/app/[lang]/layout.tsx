@@ -40,7 +40,7 @@ export async function generateMetadata({
   const dict = getDictionary(lang);
 
   return {
-    metadataBase: new URL("https://the-culture-book.vercel.app"),
+    metadataBase: new URL("https://the-culture-atlas.vercel.app"),
     title: dict.brand,
     description: dict.tagline,
   };
