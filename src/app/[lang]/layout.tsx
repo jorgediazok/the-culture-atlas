@@ -94,6 +94,7 @@ export default async function LangLayout({
             locationLabel={dict.footerLocation}
             tagline={dict.tagline}
             madeByLabel={dict.madeBy}
+            disclaimer={dict.disclaimer}
             locale={lang}
           />
         </ThemeRegistry>

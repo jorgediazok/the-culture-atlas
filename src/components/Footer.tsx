@@ -23,6 +23,7 @@ export default function Footer({
   locationLabel,
   tagline,
   madeByLabel,
+  disclaimer,
   locale,
 }: {
   brand: string;
@@ -31,6 +32,7 @@ export default function Footer({
   locationLabel: string;
   tagline: string;
   madeByLabel: string;
+  disclaimer: string;
   locale: string;
 }) {
   const countryCount = formatNumber(TARGET_COUNTRIES, locale);
@@ -81,6 +83,19 @@ export default function Footer({
 
       <Typography sx={{ fontSize: 11, color: "text.disabled", mt: 1.5 }}>
         {madeByLabel} Jorge Dev
+      </Typography>
+
+      <Typography
+        sx={{
+          fontSize: 10.5,
+          color: "text.disabled",
+          mt: 2,
+          maxWidth: 420,
+          mx: "auto",
+          lineHeight: 1.5,
+        }}
+      >
+        {disclaimer}
       </Typography>
     </Box>
   );

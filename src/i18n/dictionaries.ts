@@ -16,6 +16,8 @@ const dictionaries = {
     countriesLabel: "países",
     footerLocation: "Hecho en Buenos Aires, Argentina",
     madeBy: "Hecho por",
+    disclaimer:
+      "El contenido de este sitio fue generado con asistencia de IA y puede contener imprecisiones. No reemplaza fuentes verificadas.",
     continents: {
       europe: "Europa",
       "south-america": "Sudamérica",
@@ -40,6 +42,8 @@ const dictionaries = {
     countriesLabel: "countries",
     footerLocation: "Made in Buenos Aires, Argentina",
     madeBy: "Made by",
+    disclaimer:
+      "This site's content was generated with AI assistance and may contain inaccuracies. It is not a substitute for verified sources.",
     continents: {
       europe: "Europe",
       "south-america": "South America",
