@@ -10,7 +10,7 @@ const dictionaries = {
     storiesLabel: "historias",
     coverLabel: "Portada",
     countriesLabel: "países",
-    footerLocation: "Compuesto en Buenos Aires, Argentina",
+    footerLocation: "Hecho en Buenos Aires, Argentina",
     madeBy: "Hecho por",
     continents: {
       europe: "Europa",
@@ -30,7 +30,7 @@ const dictionaries = {
     storiesLabel: "stories",
     coverLabel: "Cover",
     countriesLabel: "countries",
-    footerLocation: "Set in Buenos Aires, Argentina",
+    footerLocation: "Made in Buenos Aires, Argentina",
     madeBy: "Made by",
     continents: {
       europe: "Europe",
