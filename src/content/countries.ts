@@ -40,7 +40,7 @@ export const countries: Country[] = [
   {
     slug: "belgium",
     flagEmoji: "🇧🇪",
-    accentColor: "#A0522D",
+    accentColor: "#1B1B1B",
     continent: "europe",
     translations: {
       es: {
