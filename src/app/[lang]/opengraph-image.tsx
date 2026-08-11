@@ -6,7 +6,7 @@ export function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
 }
 
-export const alt = "The Culture Book";
+export const alt = "The Culture Atlas";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

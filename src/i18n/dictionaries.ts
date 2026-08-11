@@ -2,7 +2,7 @@ import type { Continent, Locale } from "@/content/types";
 
 const dictionaries = {
   es: {
-    brand: "The Culture Book",
+    brand: "Atlas de la Cultura",
     eyebrow: "Un libro cultural digital",
     tagline: "País por país · página por página",
     backToIndex: "← Volver al índice",
@@ -22,7 +22,7 @@ const dictionaries = {
     } satisfies Record<Continent, string>,
   },
   en: {
-    brand: "The Culture Book",
+    brand: "The Culture Atlas",
     eyebrow: "A digital culture book",
     tagline: "Country by country · page by page",
     backToIndex: "← Back to index",
