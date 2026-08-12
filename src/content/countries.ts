@@ -1603,4 +1603,22 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "liechtenstein",
+    flagEmoji: "🇱🇮",
+    accentColor: "#1B4B91",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Liechtenstein",
+        intro:
+          "Uno de los dos únicos países del mundo doblemente sin salida al mar, gobernado por un príncipe que todavía conserva poder político real. Estas páginas son para descubrir un Liechtenstein sin ejército desde 1868, un castillo donde la familia principesca realmente vive, y un país tan pequeño que se puede alquilar entero o recorrer a pie de punta a punta.",
+      },
+      en: {
+        name: "Liechtenstein",
+        intro:
+          "One of only two doubly landlocked countries in the world, ruled by a prince who still holds real political power. These pages are here to discover a Liechtenstein with no army since 1868, a castle where the princely family actually lives, and a country so small you can rent it whole or walk across it end to end.",
+      },
+    },
+  },
 ];

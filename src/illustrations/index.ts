@@ -87,6 +87,7 @@ import { lesothoIllustrations } from "./lesotho";
 import { burundiIllustrations } from "./burundi";
 import { hungaryIllustrations } from "./hungary";
 import { gambiaIllustrations } from "./gambia";
+import { liechtensteinIllustrations } from "./liechtenstein";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -179,6 +180,7 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   burundi: burundiIllustrations,
   hungary: hungaryIllustrations,
   gambia: gambiaIllustrations,
+  liechtenstein: liechtensteinIllustrations,
 };
 
 export function getIllustration(

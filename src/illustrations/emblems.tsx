@@ -698,11 +698,10 @@ const Guyana: EmblemComponent = () => (
 
 const Austria: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <path d="M30 60 L30 76 L70 76 L70 60 L58 68 L50 54 L42 68 Z" fill="#D4AF37" />
-    <rect x="30" y="76" width="40" height="6" fill="#B8901E" />
-    <circle cx="50" cy="52" r="4" fill="#8B1A3A" />
-    <circle cx="36" cy="64" r="2" fill="#1565C0" opacity="0.85" />
-    <circle cx="64" cy="64" r="2" fill="#1565C0" opacity="0.85" />
+    <path d="M28 58 L28 76 Q28 84 40 84 L52 84 Q64 84 64 76 L64 58 Z" fill="#F5EFE0" stroke="#8B6914" strokeWidth="2" />
+    <path d="M64 62 Q76 62 76 70 Q76 78 64 76" fill="none" stroke="#F5EFE0" strokeWidth="3.5" />
+    <rect x="24" y="84" width="44" height="4" fill="#D4AF37" />
+    <path d="M36 52 Q38 46 34 42 M46 50 Q48 44 44 40 M56 52 Q58 46 54 42" stroke="#F5EFE0" strokeWidth="2" fill="none" opacity="0.7" />
   </svg>
 );
 
@@ -1081,6 +1080,18 @@ const Gambia: EmblemComponent = () => (
   </svg>
 );
 
+const Liechtenstein: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="30" y="60" width="40" height="26" fill="#D4AF37" stroke="#8B6914" strokeWidth="2" />
+    <rect x="26" y="46" width="14" height="18" fill="#B8901E" stroke="#8B6914" strokeWidth="2" />
+    <path d="M26 46 L33 38 L40 46 Z" fill="#8B6914" />
+    <rect x="60" y="46" width="14" height="18" fill="#B8901E" stroke="#8B6914" strokeWidth="2" />
+    <path d="M60 46 L67 38 L74 46 Z" fill="#8B6914" />
+    <rect x="45" y="70" width="10" height="16" fill="#8B6914" />
+    <ellipse cx="50" cy="88" rx="30" ry="4" fill="#8B6914" opacity="0.4" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1171,6 +1182,7 @@ export const emblems: Record<string, EmblemComponent> = {
   burundi: Burundi,
   hungary: Hungary,
   gambia: Gambia,
+  liechtenstein: Liechtenstein,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {
