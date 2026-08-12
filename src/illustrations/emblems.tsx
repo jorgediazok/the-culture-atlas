@@ -754,15 +754,22 @@ const Greenland: EmblemComponent = () => (
 
 const Canada: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <g fill="#FFFFFF">
-      <circle cx="50" cy="52" r="15" />
-      <path d="M50 54 Q36 51 39 30 Q41 14 50 6 Q59 14 61 30 Q64 51 50 54 Z" />
-      <path d="M50 54 Q50 42 30 36 Q12 30 6 36 Q11 45 30 50 Q44 54 50 54 Z" />
-      <path d="M50 54 Q50 42 70 36 Q88 30 94 36 Q89 45 70 50 Q56 54 50 54 Z" />
-      <path d="M48 56 Q40 55 30 65 Q19 75 21 84 Q32 82 41 70 Q47 62 48 56 Z" />
-      <path d="M52 56 Q60 55 70 65 Q81 75 79 84 Q68 82 59 70 Q53 62 52 56 Z" />
-      <path d="M45 80 Q45 90 43 100 L57 100 Q55 90 55 80 Z" />
-    </g>
+    <path d="M46 68 L54 68 L57 98 L43 98 Z" fill="#FFFFFF" />
+    <path
+      d="M50 8
+         L54 20 L52 24 L58 26 L68 16 L66 28 L70 30 L86 24 L78 38 L82 40 L92 40
+         L78 50 L82 53 L64 56 L68 62 L72 78 L58 66 L60 74 L50 68 L40 74 L42 66
+         L28 78 L32 62 L36 56 L18 53 L22 50 L8 40 L18 40 L22 38 L14 24 L30 30
+         L34 28 L32 16 L42 26 L48 24 L46 20 Z"
+      fill="#FFFFFF"
+    />
+    <path
+      d="M50 40 L50 66 M50 45 L34 55 M50 45 L66 55"
+      stroke="#B71C1C"
+      strokeWidth="1.5"
+      fill="none"
+      opacity="0.85"
+    />
   </svg>
 );
 
