@@ -1006,6 +1006,23 @@ const VaticanCity: EmblemComponent = () => (
   </svg>
 );
 
+const Serbia: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M40 95 Q30 80 36 62 Q42 48 50 46 Q58 48 64 62 Q70 80 60 95 Q50 100 40 95 Z" fill="#8B5A2B" stroke="#5D3A1A" strokeWidth="1.5" />
+    <path d="M50 46 L50 14" stroke="#5D3A1A" strokeWidth="3" />
+    <path d="M50 14 Q42 8 42 18 Q42 26 50 24 Q58 26 58 18 Q58 8 50 14 Z" fill="#8B5A2B" stroke="#5D3A1A" strokeWidth="1.5" />
+    <line x1="50" y1="18" x2="50" y2="90" stroke="#F5E6C8" strokeWidth="1.5" />
+  </svg>
+);
+
+const Kosovo: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M24 76 Q22 40 50 30 Q78 40 76 76 Z" fill="#F5F0E6" stroke="#B0A98F" strokeWidth="1.5" />
+    <line x1="50" y1="30" x2="50" y2="76" stroke="#B0A98F" strokeWidth="1" opacity="0.6" />
+    <rect x="22" y="74" width="56" height="8" rx="2" fill="#F5F0E6" stroke="#B0A98F" strokeWidth="1.5" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1089,6 +1106,8 @@ export const emblems: Record<string, EmblemComponent> = {
   mongolia: Mongolia,
   philippines: Philippines,
   "vatican-city": VaticanCity,
+  serbia: Serbia,
+  kosovo: Kosovo,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

@@ -1477,4 +1477,40 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "serbia",
+    flagEmoji: "🇷🇸",
+    accentColor: "#9C1C2E",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Serbia",
+        intro:
+          "El país donde ofrecer rakija casera es un ritual de hospitalidad y donde un pueblo entero se rinde cada año ante cientos de trompetas. Estas páginas son para descubrir una Serbia que guarda las cenizas de Tesla en una esfera dorada, celebra el santo propio de cada familia, escribe con dos alfabetos y exporta más frambuesas que cualquier otro país del mundo.",
+      },
+      en: {
+        name: "Serbia",
+        intro:
+          "The country where offering homemade rakija is a hospitality ritual, and where an entire town surrenders every year to hundreds of trumpets. These pages are here to discover a Serbia that keeps Tesla's ashes in a golden sphere, celebrates each family's own patron saint, writes in two alphabets, and exports more raspberries than any other country in the world.",
+      },
+    },
+  },
+  {
+    slug: "kosovo",
+    flagEmoji: "🇽🇰",
+    accentColor: "#244AA9",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Kosovo",
+        intro:
+          "Uno de los países más jóvenes del mundo, dueño de un monumento urbano que se repinta cada aniversario y de una bandera diseñada a propósito para no representar a ningún grupo en particular. Estas páginas son para descubrir un Kosovo de cuevas de mármol halladas por accidente, gorros blancos de fieltro y una de las poblaciones más jóvenes de toda Europa.",
+      },
+      en: {
+        name: "Kosovo",
+        intro:
+          "One of the youngest countries in the world, home to a city monument repainted every anniversary and a flag deliberately designed to represent no single group. These pages are here to discover a Kosovo of marble caves found by accident, white felt caps, and one of the youngest populations anywhere in Europe.",
+      },
+    },
+  },
 ];
