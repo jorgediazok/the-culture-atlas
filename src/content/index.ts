@@ -81,6 +81,9 @@ import { andorra } from "./andorra";
 import { sanMarino } from "./san-marino";
 import { palau } from "./palau";
 import { marshallIslands } from "./marshall-islands";
+import { india } from "./india";
+import { bangladesh } from "./bangladesh";
+import { pakistan } from "./pakistan";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -159,6 +162,9 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   "san-marino": sanMarino,
   palau,
   "marshall-islands": marshallIslands,
+  india,
+  bangladesh,
+  pakistan,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

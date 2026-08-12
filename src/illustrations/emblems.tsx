@@ -879,6 +879,74 @@ const MarshallIslands: EmblemComponent = () => (
   </svg>
 );
 
+// 24 spoke endpoints spaced 15° apart around (50, 55) at radius 28, precomputed
+// so rendering never calls Math.sin/cos: those aren't guaranteed bit-identical
+// across CPU architectures, and the tiny difference between the server's and
+// the browser's rounding was enough to fail hydration on this attribute.
+const ASHOKA_CHAKRA_SPOKES: [number, number][] = [
+  [50, 27],
+  [57.25, 27.95],
+  [64, 30.75],
+  [69.8, 35.2],
+  [74.25, 41],
+  [77.05, 47.75],
+  [78, 55],
+  [77.05, 62.25],
+  [74.25, 69],
+  [69.8, 74.8],
+  [64, 79.25],
+  [57.25, 82.05],
+  [50, 83],
+  [42.75, 82.05],
+  [36, 79.25],
+  [30.2, 74.8],
+  [25.75, 69],
+  [22.95, 62.25],
+  [22, 55],
+  [22.95, 47.75],
+  [25.75, 41],
+  [30.2, 35.2],
+  [36, 30.75],
+  [42.75, 27.95],
+];
+
+const India: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <circle cx="50" cy="55" r="30" fill="none" stroke="#0D1B4C" strokeWidth="4" />
+    <circle cx="50" cy="55" r="4" fill="#0D1B4C" />
+    {ASHOKA_CHAKRA_SPOKES.map(([x2, y2], i) => (
+      <line key={i} x1="50" y1="55" x2={x2} y2={y2} stroke="#0D1B4C" strokeWidth="1.6" />
+    ))}
+  </svg>
+);
+
+const Bangladesh: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <circle cx="42" cy="86" r="9" fill="none" stroke="#1A1A1A" strokeWidth="3.5" />
+    <circle cx="76" cy="86" r="9" fill="none" stroke="#1A1A1A" strokeWidth="3.5" />
+    <circle cx="18" cy="86" r="7" fill="none" stroke="#1A1A1A" strokeWidth="3" />
+    <path d="M34 78 L84 78 L78 52 L40 52 Z" fill="#0288D1" />
+    <path d="M40 52 Q60 40 78 52" fill="none" stroke="#1A1A1A" strokeWidth="3" />
+    <circle cx="58" cy="64" r="7" fill="#F57C00" />
+    <path d="M52 64 L64 64 M58 58 L58 70" stroke="#FFEB3B" strokeWidth="2" />
+    <line x1="18" y1="86" x2="34" y2="78" stroke="#1A1A1A" strokeWidth="3" strokeLinecap="round" />
+  </svg>
+);
+
+const Pakistan: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="26" y="34" width="48" height="30" rx="3" fill="#D4A017" />
+    <rect x="32" y="40" width="36" height="14" rx="2" fill="#01411C" />
+    <circle cx="50" cy="47" r="5" fill="#F5E6C8" />
+    <rect x="26" y="64" width="48" height="8" fill="#C1272D" />
+    {[30, 38, 46, 54, 62, 70].map((x) => (
+      <path key={x} d={`M${x} 72 Q${x} 82 ${x + 2} 90`} stroke="#78706A" strokeWidth="2" fill="none" strokeLinecap="round" />
+    ))}
+    <circle cx="34" cy="80" r="6" fill="none" stroke="#1A1A1A" strokeWidth="3" />
+    <circle cx="66" cy="80" r="6" fill="none" stroke="#1A1A1A" strokeWidth="3" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -956,6 +1024,9 @@ export const emblems: Record<string, EmblemComponent> = {
   "san-marino": SanMarino,
   palau: Palau,
   "marshall-islands": MarshallIslands,
+  india: India,
+  bangladesh: Bangladesh,
+  pakistan: Pakistan,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

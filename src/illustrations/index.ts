@@ -74,6 +74,9 @@ import { andorraIllustrations } from "./andorra";
 import { sanMarinoIllustrations } from "./san-marino";
 import { palauIllustrations } from "./palau";
 import { marshallIslandsIllustrations } from "./marshall-islands";
+import { indiaIllustrations } from "./india";
+import { bangladeshIllustrations } from "./bangladesh";
+import { pakistanIllustrations } from "./pakistan";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -153,6 +156,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   "san-marino": sanMarinoIllustrations,
   palau: palauIllustrations,
   "marshall-islands": marshallIslandsIllustrations,
+  india: indiaIllustrations,
+  bangladesh: bangladeshIllustrations,
+  pakistan: pakistanIllustrations,
 };
 
 export function getIllustration(

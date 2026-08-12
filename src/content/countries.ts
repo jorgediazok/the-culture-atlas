@@ -1369,4 +1369,58 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "india",
+    flagEmoji: "🇮🇳",
+    accentColor: "#FF9933",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "India",
+        intro:
+          "La cuna del cero y el sistema decimal, dueña de la reunión humana más grande jamás vista y de un ejército de repartidores de viandas que casi nunca se equivoca. Estas páginas son para descubrir una India de pozos escalonados tallados bajo tierra, una misión a Marte más barata que una película y veintidós lenguas oficiales sin ninguna nacional.",
+      },
+      en: {
+        name: "India",
+        intro:
+          "The birthplace of zero and the decimal system, home to the largest human gathering ever recorded and an army of lunchbox couriers who almost never get it wrong. These pages are here to discover an India of stepwells carved deep underground, a Mars mission cheaper than a movie, and 22 official languages with not one declared national.",
+      },
+    },
+  },
+  {
+    slug: "bangladesh",
+    flagEmoji: "🇧🇩",
+    accentColor: "#006A4E",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Bangladesh",
+        intro:
+          "El país del mayor bosque de manglares del mundo, cuna de escuelas flotantes que esquivan la inundación y del microcrédito que le prestó a los más pobres. Estas páginas son para descubrir un Bangladesh de vapores de rueda que todavía navegan, rickshaws pintados a mano en Dhaka y una tela tan fina que la llamaban aire tejido.",
+      },
+      en: {
+        name: "Bangladesh",
+        intro:
+          "The country of the world's largest mangrove forest, home to floating schools that dodge the flood season and the microcredit model that lent to the poorest. These pages are here to discover a Bangladesh of paddle steamers still sailing, hand-painted rickshaws in Dhaka, and a cloth so fine it was called woven air.",
+      },
+    },
+  },
+  {
+    slug: "pakistan",
+    flagEmoji: "🇵🇰",
+    accentColor: "#01411C",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Pakistán",
+        intro:
+          "El hogar de una de las ciudades más antiguas con cloacas propias, del K2, la montaña más difícil de escalar del mundo, y de camiones que se convierten en arte rodante. Estas páginas son para descubrir un Pakistán de mezquitas mogolas gigantes, una mina de sal con una mezquita adentro y la red de ambulancias voluntarias más grande del planeta.",
+      },
+      en: {
+        name: "Pakistan",
+        intro:
+          "Home to one of the oldest cities with its own sewers, to K2, the world's toughest mountain to climb, and to trucks that turn into rolling art. These pages are here to discover a Pakistan of giant Mughal mosques, a salt mine with a mosque inside it, and the largest volunteer ambulance network on the planet.",
+      },
+    },
+  },
 ];
