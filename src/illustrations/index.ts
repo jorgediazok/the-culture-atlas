@@ -84,6 +84,9 @@ import { serbiaIllustrations } from "./serbia";
 import { kosovoIllustrations } from "./kosovo";
 import { ivoryCoastIllustrations } from "./ivory-coast";
 import { lesothoIllustrations } from "./lesotho";
+import { burundiIllustrations } from "./burundi";
+import { hungaryIllustrations } from "./hungary";
+import { gambiaIllustrations } from "./gambia";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -173,6 +176,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   kosovo: kosovoIllustrations,
   "ivory-coast": ivoryCoastIllustrations,
   lesotho: lesothoIllustrations,
+  burundi: burundiIllustrations,
+  hungary: hungaryIllustrations,
+  gambia: gambiaIllustrations,
 };
 
 export function getIllustration(

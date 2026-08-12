@@ -91,6 +91,9 @@ import { serbia } from "./serbia";
 import { kosovo } from "./kosovo";
 import { ivoryCoast } from "./ivory-coast";
 import { lesotho } from "./lesotho";
+import { burundi } from "./burundi";
+import { hungary } from "./hungary";
+import { gambia } from "./gambia";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -179,6 +182,9 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   kosovo,
   "ivory-coast": ivoryCoast,
   lesotho,
+  burundi,
+  hungary,
+  gambia,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

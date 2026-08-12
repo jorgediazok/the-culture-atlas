@@ -1549,4 +1549,58 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "burundi",
+    flagEmoji: "🇧🇮",
+    accentColor: "#A6192E",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Burundi",
+        intro:
+          "El país de los tamborileros reales que llegan al escenario con el tambor sobre la cabeza, a orillas de uno de los lagos más antiguos y profundos del mundo. Estas páginas son para descubrir un Burundi de una pirámide que marca una fuente del Nilo, una capital trasladada recién en 2019 y un consejo de sabios que resuelve disputas sin pasar por los tribunales.",
+      },
+      en: {
+        name: "Burundi",
+        intro:
+          "The country of royal drummers who arrive on stage carrying the drum on their heads, on the shores of one of the world's oldest and deepest lakes. These pages are here to discover a Burundi of a pyramid marking a source of the Nile, a capital moved as recently as 2019, and a council of wise elders who settle disputes without ever going to court.",
+      },
+    },
+  },
+  {
+    slug: "hungary",
+    flagEmoji: "🇭🇺",
+    accentColor: "#478559",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Hungría",
+        intro:
+          "El país que le dio al mundo el cubo Rubik y un idioma sin parientes cercanos en toda Europa, construido literalmente sobre un mar de agua caliente. Estas páginas son para descubrir una Hungría de vinos clasificados antes que los de Burdeos, una especia que también ganó un Nobel y un parlamento neogótico que domina el Danubio.",
+      },
+      en: {
+        name: "Hungary",
+        intro:
+          "The country that gave the world the Rubik's Cube and a language with no close relatives anywhere in Europe, built literally over a sea of hot water. These pages are here to discover a Hungary of wines classified before Bordeaux's, a spice that also won a Nobel Prize, and a Gothic Revival parliament towering over the Danube.",
+      },
+    },
+  },
+  {
+    slug: "gambia",
+    flagEmoji: "🇬🇲",
+    accentColor: "#1F6FA5",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Gambia",
+        intro:
+          "El país continental más pequeño de África, una franja de tierra tan angosta que sigue el curso de un único río del que depende casi todo. Estas páginas son para descubrir una Gambia de círculos de piedra sin propósito confirmado, un espíritu cubierto de hojas que vigila iniciaciones y más de 560 especies de aves repartidas en un territorio diminuto.",
+      },
+      en: {
+        name: "The Gambia",
+        intro:
+          "Africa's smallest mainland country, a strip of land so narrow it simply follows the course of the single river almost everything depends on. These pages are here to discover a Gambia of stone circles with no confirmed purpose, a leaf-covered spirit that guards initiations, and more than 560 bird species packed into a tiny territory.",
+      },
+    },
+  },
 ];

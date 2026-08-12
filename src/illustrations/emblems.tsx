@@ -1040,6 +1040,47 @@ const Lesotho: EmblemComponent = () => (
   </svg>
 );
 
+const Burundi: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M28 90 L32 42 L68 42 L72 90 Z" fill="#8B5A2B" stroke="#5D3A1A" strokeWidth="2" />
+    <ellipse cx="50" cy="42" rx="20" ry="7" fill="#F5E6C8" stroke="#5D3A1A" strokeWidth="2" />
+    <path d="M30 60 L70 60 M29 74 L71 74" stroke="#5D3A1A" strokeWidth="1.5" opacity="0.5" />
+    <ellipse cx="50" cy="90" rx="22" ry="4" fill="#5D3A1A" opacity="0.4" />
+  </svg>
+);
+
+const RUBIK_COLORS = ["#C1272D", "#F9A825", "#FFFFFF", "#1565C0", "#2E7D32", "#F5F0E6", "#C1272D", "#FFFFFF", "#F9A825"];
+
+const Hungary: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {[0, 1, 2].map((row) =>
+      [0, 1, 2].map((col) => (
+        <rect
+          key={`${row}-${col}`}
+          x={26 + col * 16}
+          y={34 + row * 16}
+          width="14"
+          height="14"
+          rx="1.5"
+          fill={RUBIK_COLORS[row * 3 + col]}
+          stroke="#1A1A1A"
+          strokeWidth="1.5"
+        />
+      ))
+    )}
+  </svg>
+);
+
+const GAMBIA_RIVER_PATH = "M18 30 Q40 34 38 46 Q36 58 58 60 Q80 62 78 76 Q76 88 50 90";
+
+const Gambia: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d={GAMBIA_RIVER_PATH} fill="none" stroke="#F5F0E6" strokeWidth="10" strokeLinecap="round" />
+    <path d={GAMBIA_RIVER_PATH} fill="none" stroke="#8FBFE0" strokeWidth="1.4" strokeLinecap="round" opacity="0.9" transform="translate(0,-2.5)" />
+    <path d={GAMBIA_RIVER_PATH} fill="none" stroke="#8FBFE0" strokeWidth="1.4" strokeLinecap="round" opacity="0.9" transform="translate(0,2.5)" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1127,6 +1168,9 @@ export const emblems: Record<string, EmblemComponent> = {
   kosovo: Kosovo,
   "ivory-coast": IvoryCoast,
   lesotho: Lesotho,
+  burundi: Burundi,
+  hungary: Hungary,
+  gambia: Gambia,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {
