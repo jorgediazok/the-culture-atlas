@@ -960,9 +960,9 @@ const Mongolia: EmblemComponent = () => (
 const Philippines: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
     <rect x="18" y="52" width="64" height="24" rx="4" fill="#C1272D" />
-    <rect x="28" y="36" width="44" height="18" rx="2" fill="#0038A8" />
+    <rect x="28" y="36" width="44" height="18" rx="2" fill="#D6E9F5" stroke="#1A1A1A" strokeWidth="1.5" />
+    <line x1="50" y1="36" x2="50" y2="54" stroke="#1A1A1A" strokeWidth="1.5" />
     <rect x="18" y="62" width="64" height="6" fill="#FFCC00" />
-    <path d="M50 36 L47 26 L50 20 L53 26 Z" fill="#F5E6C8" />
     <circle cx="28" cy="56" r="4" fill="#F5E6C8" stroke="#8D6E63" strokeWidth="1" />
     <circle cx="72" cy="56" r="4" fill="#F5E6C8" stroke="#8D6E63" strokeWidth="1" />
     <circle cx="30" cy="80" r="7" fill="none" stroke="#1A1A1A" strokeWidth="4" />
