@@ -947,6 +947,16 @@ const Pakistan: EmblemComponent = () => (
   </svg>
 );
 
+const Mongolia: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M30 90 L30 62 Q30 44 50 40 Q70 44 70 62 L70 90 Z" fill="#F5EFE0" stroke="#D4A017" strokeWidth="2" />
+    <rect x="30" y="70" width="40" height="8" fill="#C1272D" opacity="0.85" />
+    <rect x="43" y="78" width="14" height="12" fill="#8B5A2B" />
+    <line x1="50" y1="40" x2="50" y2="30" stroke="#D4A017" strokeWidth="2.5" />
+    <circle cx="50" cy="28" r="4" fill="#D4A017" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1027,6 +1037,7 @@ export const emblems: Record<string, EmblemComponent> = {
   india: India,
   bangladesh: Bangladesh,
   pakistan: Pakistan,
+  mongolia: Mongolia,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

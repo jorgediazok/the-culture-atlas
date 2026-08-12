@@ -77,6 +77,7 @@ import { marshallIslandsIllustrations } from "./marshall-islands";
 import { indiaIllustrations } from "./india";
 import { bangladeshIllustrations } from "./bangladesh";
 import { pakistanIllustrations } from "./pakistan";
+import { mongoliaIllustrations } from "./mongolia";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -159,6 +160,7 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   india: indiaIllustrations,
   bangladesh: bangladeshIllustrations,
   pakistan: pakistanIllustrations,
+  mongolia: mongoliaIllustrations,
 };
 
 export function getIllustration(

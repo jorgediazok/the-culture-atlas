@@ -1423,4 +1423,22 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "mongolia",
+    flagEmoji: "🇲🇳",
+    accentColor: "#1C6FB0",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Mongolia",
+        intro:
+          "Hogar de la estatua ecuestre más grande del mundo, del canto que produce dos notas desde una sola garganta y de un emperador cuya tumba nadie logró encontrar. Estas páginas son para descubrir una Mongolia de casas portátiles diseñadas para el viento, cazadores que entrenan águilas doradas y más caballos que habitantes.",
+      },
+      en: {
+        name: "Mongolia",
+        intro:
+          "Home to the world's largest equestrian statue, a chant that produces two notes from a single throat, and an emperor whose tomb no one ever found. These pages are here to discover a Mongolia of portable homes engineered for the wind, hunters who train golden eagles, and more horses than people.",
+      },
+    },
+  },
 ];
