@@ -1513,4 +1513,40 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "ivory-coast",
+    flagEmoji: "🇨🇮",
+    accentColor: "#D2691E",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Costa de Marfil",
+        intro:
+          "El mayor productor de cacao del mundo, dueño de una basílica más grande que la de San Pedro y de unos cocodrilos que alguna vez vivieron junto al propio presidente. Estas páginas son para descubrir una Costa de Marfil de máscaras que inspiraron al arte moderno, un capitán de fútbol que ayudó a frenar una guerra civil y una semana al año en la que se invierte todo el orden social.",
+      },
+      en: {
+        name: "Ivory Coast",
+        intro:
+          "The world's leading cocoa producer, home to a basilica bigger than St. Peter's and crocodiles that once lived right beside the president. These pages are here to discover an Ivory Coast of masks that shaped modern art, a football captain who helped pause a civil war, and one week a year when the whole social order flips.",
+      },
+    },
+  },
+  {
+    slug: "lesotho",
+    flagEmoji: "🇱🇸",
+    accentColor: "#00209F",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Lesoto",
+        intro:
+          "El único país del mundo enteramente por encima de los mil metros de altura, rodeado por completo por Sudáfrica como si fuera una isla en tierra firme. Estas páginas son para descubrir un Lesoto de mantas que marcan cada etapa de la vida, un rey que negoció con todos para sobrevivir, el bar más alto de África y un sombrero de paja que terminó en su propia bandera.",
+      },
+      en: {
+        name: "Lesotho",
+        intro:
+          "The only country in the world entirely above 1,000 meters, completely surrounded by South Africa like an island on dry land. These pages are here to discover a Lesotho of blankets marking every stage of life, a king who negotiated with everyone to survive, Africa's highest pub, and a woven straw hat that ended up on its own flag.",
+      },
+    },
+  },
 ];

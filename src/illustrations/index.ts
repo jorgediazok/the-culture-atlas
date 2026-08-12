@@ -82,6 +82,8 @@ import { philippinesIllustrations } from "./philippines";
 import { vaticanCityIllustrations } from "./vatican-city";
 import { serbiaIllustrations } from "./serbia";
 import { kosovoIllustrations } from "./kosovo";
+import { ivoryCoastIllustrations } from "./ivory-coast";
+import { lesothoIllustrations } from "./lesotho";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -169,6 +171,8 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   "vatican-city": vaticanCityIllustrations,
   serbia: serbiaIllustrations,
   kosovo: kosovoIllustrations,
+  "ivory-coast": ivoryCoastIllustrations,
+  lesotho: lesothoIllustrations,
 };
 
 export function getIllustration(
