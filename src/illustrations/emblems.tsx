@@ -833,6 +833,52 @@ const NewCaledonia: EmblemComponent = () => (
   </svg>
 );
 
+const Andorra: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M26 70 L26 52 L34 60 L40 46 L46 60 L54 52 L54 70 Z" fill="#D4AF37" />
+    <rect x="26" y="70" width="28" height="5" fill="#B8901E" />
+    <path d="M62 70 L62 54 Q70 34 78 54 L78 70 Z" fill="#F5F0E6" stroke="#8B1A3A" strokeWidth="2" />
+    <line x1="70" y1="38" x2="70" y2="70" stroke="#8B1A3A" strokeWidth="1.5" />
+    <rect x="62" y="70" width="16" height="4" fill="#8B1A3A" />
+  </svg>
+);
+
+const SanMarino: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M14 88 L28 62 L40 78 L50 50 L60 78 L72 60 L86 88 Z" fill="#8D9CA8" />
+    <rect x="20" y="52" width="10" height="18" fill="#78909C" />
+    <path d="M20 52 L22 46 L24 52 M26 52 L28 46 L30 52" stroke="#546E7A" strokeWidth="2" fill="none" />
+    <rect x="44" y="34" width="12" height="24" fill="#78909C" />
+    <path d="M44 34 L46.5 27 L49 34 M51 34 L53.5 27 L56 34" stroke="#546E7A" strokeWidth="2" fill="none" />
+    <rect x="66" y="46" width="10" height="20" fill="#78909C" />
+    <path d="M66 46 L68 40 L70 46 M72 46 L74 40 L76 46" stroke="#546E7A" strokeWidth="2" fill="none" />
+  </svg>
+);
+
+const Palau: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M20 80 L50 20 L80 80 Z" fill="#8B5A2B" />
+    <path d="M32 80 L50 40 L68 80 Z" fill="#F5E6C8" />
+    <circle cx="50" cy="64" r="8" fill="#C1272D" />
+    <rect x="16" y="80" width="68" height="7" fill="#9E9E9E" />
+    <rect x="24" y="87" width="6" height="10" fill="#78706A" />
+    <rect x="70" y="87" width="6" height="10" fill="#78706A" />
+  </svg>
+);
+
+const MarshallIslands: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <line x1="18" y1="32" x2="82" y2="88" stroke="#A1795D" strokeWidth="2.5" />
+    <line x1="18" y1="88" x2="82" y2="32" stroke="#A1795D" strokeWidth="2.5" />
+    <path d="M14 48 Q50 38 86 56" fill="none" stroke="#8A6448" strokeWidth="2.5" />
+    <path d="M16 72 Q50 82 84 66" fill="none" stroke="#8A6448" strokeWidth="2.5" />
+    <circle cx="36" cy="46" r="3.4" fill="#F0E6D2" stroke="#5D4536" strokeWidth="1" />
+    <circle cx="62" cy="42" r="3.4" fill="#F0E6D2" stroke="#5D4536" strokeWidth="1" />
+    <circle cx="48" cy="66" r="3.4" fill="#F0E6D2" stroke="#5D4536" strokeWidth="1" />
+    <circle cx="68" cy="70" r="3.4" fill="#F0E6D2" stroke="#5D4536" strokeWidth="1" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -906,6 +952,10 @@ export const emblems: Record<string, EmblemComponent> = {
   eritrea: Eritrea,
   "solomon-islands": SolomonIslands,
   "new-caledonia": NewCaledonia,
+  andorra: Andorra,
+  "san-marino": SanMarino,
+  palau: Palau,
+  "marshall-islands": MarshallIslands,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

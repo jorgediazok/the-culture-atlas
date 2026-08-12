@@ -1297,4 +1297,76 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "andorra",
+    flagEmoji: "🇦🇩",
+    accentColor: "#0018A8",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Andorra",
+        intro:
+          "El único país con dos jefes de estado extranjeros a la vez, sin ejército propio desde hace siglos y con el catalán como único idioma oficial del mundo. Estas páginas son para descubrir una Andorra de parlamentos que funcionan sin parar desde 1419, la capital más alta de Europa y un dominio esquiable que se volvió el corazón de su economía.",
+      },
+      en: {
+        name: "Andorra",
+        intro:
+          "The only country with two foreign heads of state at once, no standing army for centuries, and the world's only sole official Catalan language. These pages are here to discover an Andorra of parliaments running nonstop since 1419, Europe's highest-altitude capital, and a ski domain that became the heart of its economy.",
+      },
+    },
+  },
+  {
+    slug: "san-marino",
+    flagEmoji: "🇸🇲",
+    accentColor: "#2E6DA4",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "San Marino",
+        intro:
+          "La república más antigua del mundo todavía en pie, gobernada por dos capitanes regentes que cambian cada seis meses desde el año 1243. Estas páginas son para descubrir un San Marino de tres torres medievales vigilando el monte Titano, un país que refugió a más gente de la que tenía y el gol más rápido en la historia de los mundiales.",
+      },
+      en: {
+        name: "San Marino",
+        intro:
+          "The world's oldest republic still standing, governed by two Captains Regent who change every six months in a tradition dating to 1243. These pages are here to discover a San Marino of three medieval towers watching over Monte Titano, a country that sheltered more people than it had, and the fastest goal in World Cup qualifying history.",
+      },
+    },
+  },
+  {
+    slug: "palau",
+    flagEmoji: "🇵🇼",
+    accentColor: "#4FC3F7",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Palaos",
+        intro:
+          "El primer país del mundo en declarar la totalidad de sus aguas santuario de tiburones, dueño de un lago lleno de medusas que perdieron el aguijón. Estas páginas son para descubrir unas Palaos de islas de piedra caliza con forma de hongo, casas comunales pintadas con leyendas y un sello ecológico que cada turista debe firmar al llegar.",
+      },
+      en: {
+        name: "Palau",
+        intro:
+          "The first country in the world to declare all its waters a shark sanctuary, home to a lake full of jellyfish that lost their sting. These pages are here to discover a Palau of mushroom-shaped limestone islands, community houses painted with legends, and an eco-pledge every tourist must sign on arrival.",
+      },
+    },
+  },
+  {
+    slug: "marshall-islands",
+    flagEmoji: "🇲🇭",
+    accentColor: "#F57C00",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Islas Marshall",
+        intro:
+          "El atolón donde Estados Unidos detonó su mayor bomba nuclear, y la nación con menos altura sobre el mar en un planeta que se calienta. Estas páginas son para descubrir unas Islas Marshall de mapas de palitos para navegar sin instrumentos, canoas asimétricas veloces y una comunidad entera que terminó floreciendo en Arkansas.",
+      },
+      en: {
+        name: "Marshall Islands",
+        intro:
+          "The atoll where the US detonated its largest nuclear bomb, and the lowest-lying nation on a warming planet's rising sea. These pages are here to discover a Marshall Islands of stick charts for navigating without instruments, fast asymmetric canoes, and an entire community that ended up flourishing in Arkansas.",
+      },
+    },
+  },
 ];

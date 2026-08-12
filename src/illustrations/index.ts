@@ -70,6 +70,10 @@ import { ghanaIllustrations } from "./ghana";
 import { eritreaIllustrations } from "./eritrea";
 import { solomonIslandsIllustrations } from "./solomon-islands";
 import { newCaledoniaIllustrations } from "./new-caledonia";
+import { andorraIllustrations } from "./andorra";
+import { sanMarinoIllustrations } from "./san-marino";
+import { palauIllustrations } from "./palau";
+import { marshallIslandsIllustrations } from "./marshall-islands";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -145,6 +149,10 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   eritrea: eritreaIllustrations,
   "solomon-islands": solomonIslandsIllustrations,
   "new-caledonia": newCaledoniaIllustrations,
+  andorra: andorraIllustrations,
+  "san-marino": sanMarinoIllustrations,
+  palau: palauIllustrations,
+  "marshall-islands": marshallIslandsIllustrations,
 };
 
 export function getIllustration(
