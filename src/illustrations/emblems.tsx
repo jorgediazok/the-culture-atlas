@@ -957,6 +957,35 @@ const Mongolia: EmblemComponent = () => (
   </svg>
 );
 
+const Philippines: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="18" y="52" width="64" height="24" rx="4" fill="#C1272D" />
+    <rect x="28" y="36" width="44" height="18" rx="2" fill="#0038A8" />
+    <rect x="18" y="62" width="64" height="6" fill="#FFCC00" />
+    <path d="M50 36 L47 26 L50 20 L53 26 Z" fill="#F5E6C8" />
+    <circle cx="28" cy="56" r="4" fill="#F5E6C8" stroke="#8D6E63" strokeWidth="1" />
+    <circle cx="72" cy="56" r="4" fill="#F5E6C8" stroke="#8D6E63" strokeWidth="1" />
+    <circle cx="30" cy="80" r="7" fill="none" stroke="#1A1A1A" strokeWidth="4" />
+    <circle cx="70" cy="80" r="7" fill="none" stroke="#1A1A1A" strokeWidth="4" />
+  </svg>
+);
+
+const VaticanCity: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <line x1="30" y1="90" x2="66" y2="54" stroke="#8B6914" strokeWidth="4" strokeLinecap="round" />
+    <circle cx="30" cy="90" r="7" fill="none" stroke="#8B6914" strokeWidth="4" />
+    <path d="M60 60 L70 50 L70 58 L64 64 Z" fill="#8B6914" />
+    <line x1="70" y1="90" x2="34" y2="54" stroke="#8D8D8D" strokeWidth="4" strokeLinecap="round" />
+    <circle cx="70" cy="90" r="7" fill="none" stroke="#8D8D8D" strokeWidth="4" />
+    <path d="M40 60 L30 50 L30 58 L36 64 Z" fill="#8D8D8D" />
+    <path d="M36 34 Q50 16 64 34 L64 40 L36 40 Z" fill="#FDF6E3" stroke="#8B6914" strokeWidth="1.5" />
+    <rect x="34" y="30" width="32" height="4" fill="#8B6914" />
+    <circle cx="50" cy="16" r="2.5" fill="#8B6914" />
+    <line x1="50" y1="16" x2="50" y2="8" stroke="#8B6914" strokeWidth="2" />
+    <line x1="46" y1="10" x2="54" y2="10" stroke="#8B6914" strokeWidth="2" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1038,6 +1067,8 @@ export const emblems: Record<string, EmblemComponent> = {
   bangladesh: Bangladesh,
   pakistan: Pakistan,
   mongolia: Mongolia,
+  philippines: Philippines,
+  "vatican-city": VaticanCity,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

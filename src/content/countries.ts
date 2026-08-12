@@ -1441,4 +1441,40 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "philippines",
+    flagEmoji: "🇵🇭",
+    accentColor: "#0038A8",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Filipinas",
+        intro:
+          "Cuna de los jeepneys, arte popular sobre ruedas nacido de jeeps militares abandonados, y de la temporada navideña más larga del mundo. Estas páginas son para descubrir unas Filipinas de colinas que se vuelven chocolate, primates de ojos enormes, terrazas de arroz de 2.000 años y un río subterráneo que desemboca en el mar.",
+      },
+      en: {
+        name: "Philippines",
+        intro:
+          "Birthplace of jeepneys, folk art on wheels born from abandoned military jeeps, and of the world's longest Christmas season. These pages are here to discover a Philippines of hills that turn chocolate brown, primates with enormous eyes, 2,000-year-old rice terraces, and an underground river that flows into the sea.",
+      },
+    },
+  },
+  {
+    slug: "vatican-city",
+    flagEmoji: "🇻🇦",
+    accentColor: "#FFCC00",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Ciudad del Vaticano",
+        intro:
+          "El país soberano más pequeño del mundo, gobernado por la última monarquía absoluta de Europa y protegido por el ejército activo más antiguo del planeta. Estas páginas son para descubrir un Vaticano donde nadie nace ciudadano, un techo que Miguel Ángel tardó cuatro años en pintar y unos archivos secretos que en realidad solo eran privados.",
+      },
+      en: {
+        name: "Vatican City",
+        intro:
+          "The world's smallest sovereign country, ruled by Europe's last absolute monarchy and guarded by the oldest active army on the planet. These pages are here to discover a Vatican where no one is born a citizen, a ceiling Michelangelo took four years to paint, and a secret archive that was actually just private.",
+      },
+    },
+  },
 ];
