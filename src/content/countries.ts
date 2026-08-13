@@ -1621,4 +1621,40 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "bulgaria",
+    flagEmoji: "🇧🇬",
+    accentColor: "#C2185B",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Bulgaria",
+        intro:
+          "El país donde asentir con la cabeza puede significar que no, cuna del alfabeto cirílico y del valle que perfuma al mundo entero con aceite de rosas. Estas páginas son para descubrir una Bulgaria de tesoros de oro tracios, un monasterio a rayas en la montaña, figuras cubiertas de cascabeles y un monumento comunista con forma de platillo volador.",
+      },
+      en: {
+        name: "Bulgaria",
+        intro:
+          "The country where nodding your head can mean no, birthplace of the Cyrillic alphabet and of the valley that perfumes the entire world with rose oil. These pages are here to discover a Bulgaria of Thracian gold treasures, a striped monastery in the mountains, bell-covered figures, and a communist monument shaped like a flying saucer.",
+      },
+    },
+  },
+  {
+    slug: "romania",
+    flagEmoji: "🇷🇴",
+    accentColor: "#8A6D1E",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Rumania",
+        intro:
+          "El país del castillo que se volvió la casa de Drácula y de la ciudadela medieval donde realmente nació Vlad el Empalador. Estas páginas son para descubrir una Rumania del edificio administrativo más pesado del planeta, monasterios pintados por fuera, un cementerio donde las tumbas hacen reír y una mina de sal convertida en parque de diversiones.",
+      },
+      en: {
+        name: "Romania",
+        intro:
+          "The country with the castle that became Dracula's home and the medieval citadel where Vlad the Impaler was actually born. These pages are here to discover a Romania of the heaviest administrative building on the planet, monasteries painted on the outside, a cemetery where the graves make you laugh, and a salt mine turned into an amusement park.",
+      },
+    },
+  },
 ];

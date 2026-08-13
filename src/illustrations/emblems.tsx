@@ -1092,6 +1092,30 @@ const Liechtenstein: EmblemComponent = () => (
   </svg>
 );
 
+const Bulgaria: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <circle cx="50" cy="36" r="15" fill="#FFF8F0" />
+    <circle cx="50" cy="36" r="10" fill="#F8BBD0" />
+    <circle cx="50" cy="36" r="5" fill="#AD1457" />
+    <path d="M40 30 Q34 26 36 20 Q42 22 42 30 Z" fill="#FFF8F0" />
+    <path d="M60 30 Q66 26 64 20 Q58 22 58 30 Z" fill="#FFF8F0" />
+    <path d="M40 42 Q34 46 36 52 Q42 50 42 42 Z" fill="#FFF8F0" />
+    <path d="M60 42 Q66 46 64 52 Q58 50 58 42 Z" fill="#FFF8F0" />
+    <path d="M50 51 L50 86" stroke="#2E7D32" strokeWidth="3.5" />
+    <path d="M50 62 Q38 58 32 66 Q42 68 50 62 Z" fill="#2E7D32" />
+    <path d="M50 72 Q62 68 68 76 Q58 78 50 72 Z" fill="#2E7D32" />
+  </svg>
+);
+
+const Romania: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M22 26 Q22 20 50 20 Q78 20 78 26 L78 34 L22 34 Z" fill="#4A0E0E" />
+    <path d="M30 34 L42 34 L36 62 Z" fill="#FFF8F0" stroke="#4A0E0E" strokeWidth="1.5" />
+    <path d="M58 34 L70 34 L64 62 Z" fill="#FFF8F0" stroke="#4A0E0E" strokeWidth="1.5" />
+    <circle cx="36" cy="66" r="2.4" fill="#C1272D" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1183,6 +1207,8 @@ export const emblems: Record<string, EmblemComponent> = {
   hungary: Hungary,
   gambia: Gambia,
   liechtenstein: Liechtenstein,
+  bulgaria: Bulgaria,
+  romania: Romania,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {
