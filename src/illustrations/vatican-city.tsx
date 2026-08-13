@@ -2,136 +2,269 @@ import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const ElPaisSoberanoMasPequenoDelMundo: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.45);
+  const light = tint(accentColor, 0.6);
+  const stone = tint(shade(accentColor, 0.2), 0.7);
   return (
     <g>
-      <rect x="188" y="160" width="24" height="18" fill={accentColor} />
-      {[186, 192, 198, 204, 210].map((x) => (
-        <rect key={x} x={x} y="156" width="4" height="4" fill={dark} />
+      {/* ground */}
+      <path d="M120 220 Q200 208 280 220 L280 240 L120 240 Z" fill={light} opacity="0.5" />
+      {/* walled enclosure */}
+      <rect x="145" y="165" width="110" height="55" fill={stone} stroke={dark} strokeWidth="2" />
+      {/* crenellations along the top of the wall */}
+      {[148, 160, 172, 184, 196, 208, 220, 232, 244].map((x) => (
+        <rect key={x} x={x} y="159" width="7" height="8" fill={stone} stroke={dark} strokeWidth="1.5" />
       ))}
+      {/* gate */}
+      <path d="M195 220 L195 200 Q200 194 205 200 L205 220 Z" fill={dark} />
+      {/* the single building the enclosure surrounds */}
+      <rect x="185" y="176" width="30" height="26" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <path d="M185 176 Q200 152 215 176 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <line x1="200" y1="152" x2="200" y2="142" stroke={dark} strokeWidth="2" />
+      <line x1="196" y1="145" x2="204" y2="145" stroke={dark} strokeWidth="2" />
+      {/* small flag marking sovereignty over such a tiny territory */}
+      <line x1="252" y1="159" x2="252" y2="142" stroke={dark} strokeWidth="1.5" />
+      <path d="M252 142 L264 146 L252 150 Z" fill={dark} />
     </g>
   );
 };
 
 const ElPapaLaUltimaMonarquiaAbsolutaDeEuropa: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
   const light = tint(accentColor, 0.6);
+  const gold = tint(shade(accentColor, 0.1), 0.35);
+  const goldDark = shade(gold, 0.3);
   return (
     <g>
-      <path d="M188 174 Q188 166 200 166 Q212 166 212 174 Z" fill={accentColor} />
-      <path d="M190 166 Q190 160 200 160 Q210 160 210 166 Z" fill={dark} />
-      <circle cx="200" cy="156" r="2.4" fill={light} />
+      {/* tasseled cushion */}
+      <path d="M150 210 Q150 194 200 194 Q250 194 250 210 Q250 222 200 222 Q150 222 150 210 Z" fill={dark} />
+      <circle cx="150" cy="212" r="4" fill={dark} />
+      <circle cx="250" cy="212" r="4" fill={dark} />
+      <line x1="150" y1="216" x2="150" y2="226" stroke={dark} strokeWidth="2" />
+      <line x1="250" y1="216" x2="250" y2="226" stroke={dark} strokeWidth="2" />
+      {/* three-tiered papal tiara, tapering upward */}
+      <path d="M172 194 Q172 180 200 178 Q228 180 228 194 Z" fill={gold} stroke={goldDark} strokeWidth="1.5" />
+      <path d="M178 178 Q178 166 200 164 Q222 166 222 178 Z" fill={gold} stroke={goldDark} strokeWidth="1.5" />
+      <path d="M184 164 Q184 154 200 152 Q216 154 216 164 Z" fill={gold} stroke={goldDark} strokeWidth="1.5" />
+      {/* jewel band */}
+      <circle cx="188" cy="187" r="2" fill={light} />
+      <circle cx="200" cy="187" r="2" fill={light} />
+      <circle cx="212" cy="187" r="2" fill={light} />
+      {/* orb and cross on top */}
+      <circle cx="200" cy="148" r="3.5" fill={gold} stroke={goldDark} strokeWidth="1.2" />
+      <line x1="200" y1="144" x2="200" y2="134" stroke={goldDark} strokeWidth="2" />
+      <line x1="195" y1="138" x2="205" y2="138" stroke={goldDark} strokeWidth="2" />
     </g>
   );
 };
 
 const LaGuardiaSuizaElEjercitoMasAntiguoActivo: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.5);
+  const light = tint(accentColor, 0.6);
+  const steel = tint(shade(accentColor, 0.35), 0.6);
   return (
     <g>
-      <line x1="188" y1="176" x2="212" y2="154" stroke={dark} strokeWidth="2.5" />
-      <path d="M204 154 L214 152 L210 162 Z" fill={accentColor} />
+      {/* two crossed halberd poles */}
+      <line x1="152" y1="230" x2="188" y2="108" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <line x1="248" y1="230" x2="212" y2="108" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      {/* halberd blade heads: spike + axe blade, well clear of the helmet below */}
+      <path d="M188 108 L184 88 L192 108 Z" fill={steel} stroke={dark} strokeWidth="1.2" />
+      <path d="M188 112 Q166 108 162 124 Q178 122 188 132 Z" fill={steel} stroke={dark} strokeWidth="1.2" />
+      <path d="M212 108 L208 88 L216 108 Z" fill={steel} stroke={dark} strokeWidth="1.2" />
+      <path d="M212 112 Q234 108 238 124 Q222 122 212 132 Z" fill={steel} stroke={dark} strokeWidth="1.2" />
+      {/* plumed helmet, resting lower and clear of the crossing blades */}
+      <path d="M178 210 Q178 190 200 188 Q222 190 222 210 L217 222 L183 222 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <rect x="184" y="222" width="32" height="7" fill={dark} />
+      <path d="M200 188 Q192 168 202 148 Q208 168 200 188 Z" fill={light} stroke={dark} strokeWidth="1" />
     </g>
   );
 };
 
 const NadieNaceSiendoCiudadanoVaticano: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
   const light = tint(accentColor, 0.6);
   return (
     <g>
-      <rect x="186" y="158" width="28" height="18" rx="2" fill={light} stroke={accentColor} strokeWidth="1.5" />
-      <circle cx="194" cy="167" r="3" fill={dark} />
-      <line x1="200" y1="164" x2="210" y2="164" stroke={dark} strokeWidth="1.2" />
-      <line x1="200" y1="169" x2="208" y2="169" stroke={dark} strokeWidth="1.2" />
+      {/* open passport booklet */}
+      <path d="M140 165 L198 158 L198 205 L140 212 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <path d="M198 158 L256 165 L256 212 L198 205 Z" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="1.5" />
+      <circle cx="169" cy="182" r="9" fill="none" stroke={light} strokeWidth="1.5" />
+      <line x1="210" y1="175" x2="246" y2="177" stroke={light} strokeWidth="1.5" />
+      <line x1="210" y1="183" x2="246" y2="185" stroke={light} strokeWidth="1.5" />
+      <line x1="210" y1="191" x2="238" y2="193" stroke={light} strokeWidth="1.5" />
+      {/* round stamp with an expiration mark, overlapping the passport */}
+      <circle cx="222" cy="145" r="20" fill="none" stroke={dark} strokeWidth="3" opacity="0.85" />
+      <line x1="208" y1="145" x2="236" y2="145" stroke={dark} strokeWidth="2" opacity="0.85" />
+      <line x1="222" y1="131" x2="222" y2="159" stroke={dark} strokeWidth="1.2" opacity="0.6" transform="rotate(35 222 145)" />
     </g>
   );
 };
 
 const MonedaSelloPostalYRadioPropios: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.45);
   const light = tint(accentColor, 0.6);
   return (
     <g>
-      <line x1="200" y1="176" x2="200" y2="158" stroke={dark} strokeWidth="2" />
-      <path d="M200 158 Q206 160 200 164 Q194 168 200 170" fill="none" stroke={accentColor} strokeWidth="2" />
-      <circle cx="200" cy="176" r="2" fill={light} />
+      {/* radio tower */}
+      <path d="M235 100 L223 210 M235 100 L247 210 M227 150 L243 150 M225 180 L245 180" stroke={dark} strokeWidth="2.5" strokeLinecap="round" fill="none" />
+      {/* broadcast waves fanning from the tower top */}
+      <path d="M247 118 Q259 106 271 118" fill="none" stroke={light} strokeWidth="2.5" strokeLinecap="round" />
+      <path d="M251 129 Q259 121 267 129" fill="none" stroke={light} strokeWidth="2" strokeLinecap="round" />
+      <path d="M223 118 Q211 106 199 118" fill="none" stroke={light} strokeWidth="2.5" strokeLinecap="round" />
+      <path d="M219 129 Q211 121 203 129" fill="none" stroke={light} strokeWidth="2" strokeLinecap="round" />
+      {/* stamped envelope beside the tower */}
+      <rect x="138" y="196" width="46" height="30" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <path d="M138 196 L161 214 L184 196" fill="none" stroke={dark} strokeWidth="1.5" />
+      <rect x="160" y="184" width="17" height="18" fill={light} stroke={dark} strokeWidth="1.2" />
     </g>
   );
 };
 
 const ElTechoDeLaCapillaSixtinaCuatroAnosPintando: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.45);
   const light = tint(accentColor, 0.6);
+  const skin = tint(shade(accentColor, 0.1), 0.55);
   return (
     <g>
-      <line x1="190" y1="176" x2="204" y2="156" stroke={dark} strokeWidth="2.5" strokeLinecap="round" />
-      <circle cx="206" cy="153" r="4" fill={accentColor} />
-      <circle cx="206" cy="153" r="4" fill="none" stroke={light} strokeWidth="1" />
+      {/* hint of the fresco overhead: the famous almost-touching hands */}
+      <path d="M140 118 Q200 96 260 118" fill="none" stroke={dark} strokeWidth="1.2" opacity="0.45" />
+      <path d="M162 116 Q174 110 187 114" stroke={skin} strokeWidth="4" strokeLinecap="round" fill="none" />
+      <path d="M238 116 Q226 109 213 114" stroke={skin} strokeWidth="4" strokeLinecap="round" fill="none" />
+      {/* palette */}
+      <path d="M146 200 Q136 178 164 170 Q196 161 208 184 Q213 199 196 206 Q189 209 182 201 Q175 209 158 206 Q144 204 146 200 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="1.5" />
+      <circle cx="166" cy="185" r="4.5" fill={accentColor} />
+      <circle cx="180" cy="178" r="4.5" fill={light} />
+      <circle cx="193" cy="189" r="4.5" fill={dark} />
+      <circle cx="176" cy="197" r="4.5" fill={tint(dark, 0.4)} />
+      {/* paintbrush resting across it */}
+      <g transform="rotate(35 225 165)">
+        <rect x="222" y="130" width="6" height="55" rx="2" fill={dark} />
+        <rect x="220" y="150" width="10" height="10" fill={light} />
+        <path d="M218 190 L232 190 L225 205 Z" fill={accentColor} />
+      </g>
     </g>
   );
 };
 
 const LosArchivosSecretosQueEnRealidadSonPrivados: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.45);
   const light = tint(accentColor, 0.55);
+  const wood = tint(shade(accentColor, 0.25), 0.55);
+  const bookColors = [accentColor, dark, light, shade(accentColor, 0.2), tint(accentColor, 0.4)];
   return (
     <g>
-      {[188, 195, 202, 209].map((x, i) => (
-        <rect key={x} x={x} y={160 + (i % 2) * 3} width="5" height={16 - (i % 2) * 3} fill={i % 2 === 0 ? accentColor : light} />
-      ))}
-      <line x1="185" y1="178" x2="215" y2="178" stroke={dark} strokeWidth="1.5" />
+      {/* two shelf tiers */}
+      <rect x="140" y="150" width="120" height="8" fill={wood} />
+      <rect x="140" y="200" width="120" height="8" fill={wood} />
+      <rect x="140" y="150" width="6" height="58" fill={wood} />
+      <rect x="254" y="150" width="6" height="58" fill={wood} />
+      {/* top row of books, resting on the upper shelf */}
+      {[148, 158, 168, 178, 188, 198, 208, 218, 228, 238].map((x, i) => {
+        const h = 40 + (i % 3) * 4;
+        return <rect key={`t${x}`} x={x} y={158 - h} width="8" height={h} fill={bookColors[i % bookColors.length]} />;
+      })}
+      {/* bottom row of books, resting on the lower shelf */}
+      {[148, 158, 168, 178, 188, 198, 208, 218, 228, 238].map((x, i) => {
+        const h = 26 + (i % 2) * 3;
+        return <rect key={`b${x}`} x={x} y={208 - h} width="8" height={h} fill={bookColors[(i + 2) % bookColors.length]} />;
+      })}
+      {/* ladder leaning against the shelving */}
+      <line x1="256" y1="146" x2="270" y2="222" stroke={wood} strokeWidth="3" strokeLinecap="round" />
+      <line x1="248" y1="150" x2="262" y2="222" stroke={wood} strokeWidth="3" strokeLinecap="round" />
+      <line x1="253" y1="170" x2="265" y2="169" stroke={wood} strokeWidth="2" />
+      <line x1="251" y1="190" x2="263" y2="189" stroke={wood} strokeWidth="2" />
     </g>
   );
 };
 
 const LaBasilicaDeSanPedroLaIglesiaMasGrande: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
   const light = tint(accentColor, 0.6);
   return (
     <g>
-      <path d="M186 178 Q186 160 200 158 Q214 160 214 178 Z" fill={accentColor} />
-      <line x1="200" y1="158" x2="200" y2="148" stroke={dark} strokeWidth="2" />
-      <line x1="196" y1="151" x2="204" y2="151" stroke={dark} strokeWidth="2" />
-      <circle cx="200" cy="166" r="2" fill={light} />
+      {/* facade */}
+      <rect x="168" y="190" width="64" height="30" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      {[174, 186, 198, 210, 222].map((x) => (
+        <rect key={x} x={x} y="196" width="6" height="24" fill={light} />
+      ))}
+      {/* drum and dome */}
+      <rect x="180" y="168" width="40" height="22" fill={shade(accentColor, 0.1)} stroke={dark} strokeWidth="1.5" />
+      <path d="M180 168 Q200 128 220 168 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <path d="M186 168 Q200 138 214 168 Z" fill="none" stroke={dark} strokeWidth="1" opacity="0.5" />
+      {/* lantern and cross on top */}
+      <rect x="196" y="118" width="8" height="10" fill={light} stroke={dark} strokeWidth="1" />
+      <line x1="200" y1="118" x2="200" y2="104" stroke={dark} strokeWidth="2" />
+      <line x1="195" y1="109" x2="205" y2="109" stroke={dark} strokeWidth="2" />
+      {/* Bernini's colonnade, sweeping out from the facade in curving rows of columns */}
+      {[0, 1, 2, 3, 4, 5].map((i) => (
+        <rect key={`l${i}`} x={160 - i * 11} y={210 + i * 3} width="4" height="16" fill={dark} opacity={0.85 - i * 0.08} />
+      ))}
+      {[0, 1, 2, 3, 4, 5].map((i) => (
+        <rect key={`r${i}`} x={240 + i * 11} y={210 + i * 3} width="4" height="16" fill={dark} opacity={0.85 - i * 0.08} />
+      ))}
     </g>
   );
 };
 
 const ElBancoVaticanoUnaInstitucionFinancieraUnica: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.45);
+  const gold = tint(shade(accentColor, 0.05), 0.35);
+  const goldDark = shade(gold, 0.35);
   return (
     <g>
-      <circle cx="196" cy="166" r="7" fill="none" stroke={accentColor} strokeWidth="2.5" />
-      <line x1="201" y1="171" x2="212" y2="182" stroke={accentColor} strokeWidth="2.5" />
-      <circle cx="196" cy="166" r="2" fill={light} />
-      <line x1="207" y1="177" x2="211" y2="173" stroke={dark} strokeWidth="1.5" />
+      {/* stack of coins */}
+      <ellipse cx="200" cy="206" rx="26" ry="8" fill={gold} stroke={goldDark} strokeWidth="1.5" />
+      <ellipse cx="200" cy="198" rx="26" ry="8" fill={tint(gold, 0.15)} stroke={goldDark} strokeWidth="1.5" />
+      <ellipse cx="200" cy="190" rx="26" ry="8" fill={gold} stroke={goldDark} strokeWidth="1.5" />
+      <circle cx="200" cy="190" r="9" fill="none" stroke={goldDark} strokeWidth="1.2" />
+      {/* two crossed keys, the Vatican's own emblem */}
+      <g transform="rotate(-35 175 155)">
+        <line x1="175" y1="120" x2="175" y2="185" stroke={goldDark} strokeWidth="3.5" strokeLinecap="round" />
+        <circle cx="175" cy="118" r="9" fill="none" stroke={goldDark} strokeWidth="3.5" />
+        <line x1="175" y1="178" x2="184" y2="178" stroke={goldDark} strokeWidth="3" />
+        <line x1="175" y1="170" x2="182" y2="170" stroke={goldDark} strokeWidth="3" />
+      </g>
+      <g transform="rotate(35 225 155)">
+        <line x1="225" y1="120" x2="225" y2="185" stroke={dark} strokeWidth="3.5" strokeLinecap="round" />
+        <circle cx="225" cy="118" r="9" fill="none" stroke={dark} strokeWidth="3.5" />
+        <line x1="225" y1="178" x2="216" y2="178" stroke={dark} strokeWidth="3" />
+        <line x1="225" y1="170" x2="218" y2="170" stroke={dark} strokeWidth="3" />
+      </g>
     </g>
   );
 };
 
 const LaMayorTasaDeDelitosPerCapitaDelMundo: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.45);
   const light = tint(accentColor, 0.6);
   return (
     <g>
-      <path d="M186 168 L212 168 L212 178 L186 178 Z" fill={accentColor} />
-      <path d="M186 168 Q186 160 194 160 L200 160 L200 168" fill="none" stroke={dark} strokeWidth="2" />
-      <circle cx="204" cy="173" r="1.6" fill={light} />
+      {/* open wallet */}
+      <path d="M145 185 L145 215 Q145 221 151 221 L225 221 Q231 221 231 215 L231 185 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <path d="M145 185 Q188 170 231 185" fill="none" stroke={dark} strokeWidth="1.5" />
+      <path d="M158 185 Q188 174 218 185" fill={light} opacity="0.7" />
+      <line x1="160" y1="203" x2="216" y2="203" stroke={dark} strokeWidth="1" opacity="0.5" />
+      {/* cash sticking out */}
+      <g transform="rotate(-8 191 173)">
+        <rect x="168" y="160" width="46" height="26" rx="2" fill={tint(accentColor, 0.35)} stroke={dark} strokeWidth="1.5" />
+        <circle cx="191" cy="173" r="6" fill="none" stroke={dark} strokeWidth="1.2" />
+      </g>
+      {/* the puzzling question mark */}
+      <path d="M252 175 Q252 162 264 162 Q276 162 276 174 Q276 182 266 186 L266 192" fill="none" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <circle cx="266" cy="202" r="3" fill={dark} />
     </g>
   );
 };
 
 export const vaticanCityIllustrations: Record<string, IllustrationDefinition> = {
   "el-pais-soberano-mas-pequeno-del-mundo": { component: ElPaisSoberanoMasPequenoDelMundo },
-  "el-papa-la-ultima-monarquia-absoluta-de-europa": { component: ElPapaLaUltimaMonarquiaAbsolutaDeEuropa, variant: "medallion" },
+  "el-papa-la-ultima-monarquia-absoluta-de-europa": { component: ElPapaLaUltimaMonarquiaAbsolutaDeEuropa },
   "la-guardia-suiza-el-ejercito-mas-antiguo-activo": { component: LaGuardiaSuizaElEjercitoMasAntiguoActivo },
   "nadie-nace-siendo-ciudadano-vaticano": { component: NadieNaceSiendoCiudadanoVaticano },
   "moneda-sello-postal-y-radio-propios": { component: MonedaSelloPostalYRadioPropios },
   "el-techo-de-la-capilla-sixtina-cuatro-anos-pintando": { component: ElTechoDeLaCapillaSixtinaCuatroAnosPintando },
   "los-archivos-secretos-que-en-realidad-son-privados": { component: LosArchivosSecretosQueEnRealidadSonPrivados },
-  "la-basilica-de-san-pedro-la-iglesia-mas-grande": { component: LaBasilicaDeSanPedroLaIglesiaMasGrande, variant: "medallion" },
+  "la-basilica-de-san-pedro-la-iglesia-mas-grande": { component: LaBasilicaDeSanPedroLaIglesiaMasGrande },
   "el-banco-vaticano-una-institucion-financiera-unica": { component: ElBancoVaticanoUnaInstitucionFinancieraUnica },
   "la-mayor-tasa-de-delitos-per-capita-del-mundo": { component: LaMayorTasaDeDelitosPerCapitaDelMundo },
 };
