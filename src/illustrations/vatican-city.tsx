@@ -60,22 +60,24 @@ const ElPapaLaUltimaMonarquiaAbsolutaDeEuropa: IllustrationComponent = ({ accent
 
 const LaGuardiaSuizaElEjercitoMasAntiguoActivo: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.5);
-  const light = tint(accentColor, 0.6);
-  const steel = tint(shade(accentColor, 0.35), 0.6);
+  const steel = "#B0B4B8";
+  const steelDark = shade(steel, 0.35);
+  const plume = "#F4A300";
   return (
     <g>
       {/* two crossed halberd poles */}
-      <line x1="152" y1="230" x2="188" y2="108" stroke={dark} strokeWidth="4" strokeLinecap="round" />
-      <line x1="248" y1="230" x2="212" y2="108" stroke={dark} strokeWidth="4" strokeLinecap="round" />
-      {/* halberd blade heads: spike + axe blade, well clear of the helmet below */}
-      <path d="M188 108 L184 88 L192 108 Z" fill={steel} stroke={dark} strokeWidth="1.2" />
-      <path d="M188 112 Q166 108 162 124 Q178 122 188 132 Z" fill={steel} stroke={dark} strokeWidth="1.2" />
-      <path d="M212 108 L208 88 L216 108 Z" fill={steel} stroke={dark} strokeWidth="1.2" />
-      <path d="M212 112 Q234 108 238 124 Q222 122 212 132 Z" fill={steel} stroke={dark} strokeWidth="1.2" />
+      <line x1="150" y1="232" x2="185" y2="100" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+      <line x1="250" y1="232" x2="215" y2="100" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+      {/* halberd heads: a top spike plus a solid crescent axe blade, clearly metallic */}
+      <polygon points="185,100 178,78 192,78" fill={steel} stroke={steelDark} strokeWidth="1.5" />
+      <path d="M185 104 L182 118 Q162 128 148 112 Q150 96 168 96 Q178 96 185 104 Z" fill={steel} stroke={steelDark} strokeWidth="1.5" />
+      <polygon points="215,100 208,78 222,78" fill={steel} stroke={steelDark} strokeWidth="1.5" />
+      <path d="M215 104 L218 118 Q238 128 252 112 Q250 96 232 96 Q222 96 215 104 Z" fill={steel} stroke={steelDark} strokeWidth="1.5" />
       {/* plumed helmet, resting lower and clear of the crossing blades */}
-      <path d="M178 210 Q178 190 200 188 Q222 190 222 210 L217 222 L183 222 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
-      <rect x="184" y="222" width="32" height="7" fill={dark} />
-      <path d="M200 188 Q192 168 202 148 Q208 168 200 188 Z" fill={light} stroke={dark} strokeWidth="1" />
+      <path d="M178 212 Q178 190 200 188 Q222 190 222 212 L217 224 L183 224 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <rect x="182" y="224" width="36" height="8" fill={dark} />
+      <path d="M200 188 Q188 172 194 152 Q200 168 200 188 Z" fill={plume} stroke={shade(plume, 0.3)} strokeWidth="1.2" />
+      <path d="M200 188 Q212 170 206 150 Q200 166 200 188 Z" fill={shade(plume, 0.15)} stroke={shade(plume, 0.3)} strokeWidth="1.2" />
     </g>
   );
 };

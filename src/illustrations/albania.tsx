@@ -3,292 +3,449 @@ import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const Bunkers: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.5);
+  const field = "#4C7A3D";
+  const fieldLight = tint(field, 0.3);
   return (
     <g>
-      <path d="M140 220 a60 45 0 0 1 120 0 Z" fill={accentColor} />
-      <rect x="192" y="195" width="16" height="25" fill={dark} />
-      <ellipse cx="200" cy="220" rx="70" ry="10" fill={light} />
+      {/* green field */}
+      <rect x="90" y="205" width="220" height="45" fill={fieldLight} />
+      <path d="M90 210 q55 -14 110 0 t110 0 v40 h-220 Z" fill={field} opacity="0.6" />
+      {/* round concrete bunker dome */}
+      <path d="M130 205 a70 55 0 0 1 140 0 Z" fill={accentColor} stroke={dark} strokeWidth="5" />
+      {/* gun slit */}
+      <rect x="188" y="178" width="24" height="10" rx="2" fill={dark} />
+      {/* seam line on the concrete */}
+      <path d="M150 205 Q150 165 200 155 Q250 165 250 205" fill="none" stroke={dark} strokeWidth="2" opacity="0.4" />
     </g>
   );
 };
+
+const UMBRELLAS: [number, string][] = [
+  [140, "#E63946"],
+  [200, "#F4A300"],
+  [260, "#2A9D8F"],
+];
 
 const Riviera: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.3);
-  const light = tint(accentColor, 0.55);
-  return (
-    <g>
-      <path
-        d="M160 150 C160 130 240 130 240 150 L200 150 Z"
-        fill={accentColor}
-      />
-      <line x1="200" y1="150" x2="200" y2="210" stroke={dark} strokeWidth="5" />
-      <path d="M120 225 q20 -10 40 0 t40 0 t40 0 t40 0" fill="none" stroke={light} strokeWidth="5" />
-    </g>
-  );
-};
-
-const Besa: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
-  return (
-    <g>
-      <path d="M150 160 h35 l20 18 -20 18 h-35 Z" fill={accentColor} />
-      <path d="M250 160 h-35 l-20 18 20 18 h35 Z" fill={dark} />
-      <circle cx="200" cy="178" r="8" fill={light} />
-    </g>
-  );
-};
-
-const Aguila: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.3);
-  return (
-    <g fill={dark}>
-      <polygon points="200,120 210,150 240,140 215,165 235,190 205,175 200,205 195,175 165,190 185,165 160,140 190,150" />
-      <circle cx="192" cy="140" r="5" />
-      <circle cx="208" cy="140" r="5" />
-    </g>
-  );
-};
-
-const GjirokastraBerat: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.35);
   const light = tint(accentColor, 0.55);
+  const sand = "#E8D5A8";
   return (
     <g>
-      <rect x="140" y="170" width="130" height="60" fill={light} />
-      {Array.from({ length: 5 }).map((_, row) =>
-        Array.from({ length: 6 }).map((_, col) => (
-          <rect
-            key={`${row}-${col}`}
-            x={148 + col * 20}
-            y={178 + row * 10}
-            width="10"
-            height="7"
-            fill={dark}
-          />
-        ))
-      )}
-      <polygon points="140,170 205,140 270,170" fill={accentColor} />
-    </g>
-  );
-};
-
-const IsoPolifonia: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  return (
-    <g fill={accentColor}>
-      <circle cx="200" cy="138" r="6" />
-      <circle cx="230" cy="150" r="6" />
-      <circle cx="238" cy="130" r="6" />
-      <circle cx="170" cy="150" r="6" />
-      <circle cx="162" cy="130" r="6" />
-      <circle cx="200" cy="108" r="6" />
-      <path
-        d="M200 138 v20 M230 150 v16 M238 130 v14 M170 150 v16 M162 130 v14 M200 108 v14"
-        stroke={dark}
-        strokeWidth="3"
-      />
-    </g>
-  );
-};
-
-const Skanderbeg: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.3);
-  const light = tint(accentColor, 0.6);
-  return (
-    <g>
-      <path d="M170 180 a30 26 0 0 1 60 0 Z" fill={accentColor} />
-      <rect x="168" y="176" width="64" height="10" rx="4" fill={dark} />
-      <path d="M180 176 C176 156 186 140 200 176" fill={light} />
-      <path d="M220 176 C224 156 214 140 200 176" fill={light} />
-    </g>
-  );
-};
-
-const Raki: IllustrationComponent = ({ accentColor }) => {
-  const light = tint(accentColor, 0.85);
-  return (
-    <g>
-      <path d="M186 100 h28 v18 c16 6 20 24 20 40 c0 22 -14 36 -34 36 c-20 0 -34 -14 -34 -36 c0 -16 4 -34 20 -40 Z" fill={accentColor} />
-      <rect x="190" y="92" width="20" height="12" fill="#5a3d1f" />
-      <ellipse cx="200" cy="140" rx="18" ry="10" fill={light} opacity="0.5" />
-    </g>
-  );
-};
-
-const Byrek: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.3);
-  return (
-    <g>
-      <path
-        d="M200 138 m-50 0 a50 50 0 1 1 100 0 a50 50 0 1 1 -100 0"
-        fill={accentColor}
-      />
-      <path
-        d="M200 138 m-38 0 a38 38 0 1 1 76 0"
-        fill="none"
-        stroke={dark}
-        strokeWidth="4"
-      />
-      <path
-        d="M200 138 m-24 0 a24 24 0 1 1 48 0"
-        fill="none"
-        stroke={dark}
-        strokeWidth="4"
-      />
-    </g>
-  );
-};
-
-const MadreTeresa: IllustrationComponent = ({ accentColor }) => {
-  const light = tint(accentColor, 0.7);
-  return (
-    <g>
-      <path
-        d="M200 120 C185 128 178 142 186 154 C178 160 178 172 190 176 C196 184 210 184 216 176 C226 172 226 160 218 154 C226 142 219 128 204 120 Z"
-        fill={light}
-      />
-      <path
-        d="M180 148 C170 142 168 130 176 122 C170 118 172 110 182 110"
-        fill="none"
-        stroke={accentColor}
-        strokeWidth="4"
-        strokeLinecap="round"
-      />
-    </g>
-  );
-};
-
-const MeshariBuzuku: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.7);
-  return (
-    <g>
-      <path d="M155 115 h85 v65 h-85 Z" fill={accentColor} />
-      <line x1="200" y1="115" x2="200" y2="180" stroke={dark} strokeWidth="3" />
-      <line x1="163" y1="130" x2="192" y2="130" stroke={light} strokeWidth="3" />
-      <line x1="163" y1="145" x2="192" y2="145" stroke={light} strokeWidth="3" />
-      <line x1="163" y1="160" x2="185" y2="160" stroke={light} strokeWidth="3" />
-    </g>
-  );
-};
-
-const AlfabetoManastir: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.7);
-  const letters = ["A", "B", "C", "D"];
-  return (
-    <g>
-      {letters.map((l, i) => (
-        <g key={l}>
-          <rect x={162 + i * 20} y="125" width="16" height="16" fill={i % 2 === 0 ? accentColor : light} />
-          <text x={170 + i * 20} y="138" fontSize="10" fill={dark} textAnchor="middle">
-            {l}
-          </text>
+      {/* mountains behind the bay */}
+      <polygon points="100,175 150,110 200,175" fill={dark} opacity="0.55" />
+      <polygon points="180,175 240,100 300,175" fill={dark} opacity="0.75" />
+      {/* turquoise water */}
+      <rect x="90" y="175" width="220" height="45" fill={accentColor} />
+      <path d="M90 185 q20 -8 40 0 t40 0 t40 0 t40 0 t40 0" fill="none" stroke={light} strokeWidth="4" />
+      {/* sand */}
+      <rect x="90" y="220" width="220" height="25" fill={sand} />
+      {/* colorful umbrellas */}
+      {UMBRELLAS.map(([x, c]) => (
+        <g key={x}>
+          <line x1={x} y1="205" x2={x} y2="230" stroke={dark} strokeWidth="3" />
+          <path d={`M${x - 20} 205 Q${x} 185 ${x + 20} 205 Z`} fill={c} />
         </g>
       ))}
     </g>
   );
 };
 
-const IsmailKadare: IllustrationComponent = ({ accentColor }) => {
+const Besa: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.7);
+  const stone = tint(shade(accentColor, 0.15), 0.6);
+  const skin = tint(shade(accentColor, 0.1), 0.55);
+  const skinDark = shade(skin, 0.15);
   return (
     <g>
-      {[0, 1, 2].map((i) => (
-        <rect key={i} x={165 + i * 6} y={175 - i * 12} width="70" height="12" fill={i % 2 === 0 ? accentColor : dark} />
+      {/* traditional stone house behind */}
+      <rect x="120" y="130" width="160" height="70" fill={stone} stroke={dark} strokeWidth="3" />
+      <polygon points="112,130 200,85 288,130" fill={dark} />
+      <rect x="192" y="160" width="20" height="40" fill={dark} opacity="0.6" />
+      {/* two forearms meeting at chest height, clasping hands */}
+      <path d="M110 218 L178 210" stroke={skin} strokeWidth="20" strokeLinecap="round" />
+      <path d="M290 218 L222 210" stroke={skinDark} strokeWidth="20" strokeLinecap="round" />
+      {/* clasped fists */}
+      <path d="M178 197 Q200 188 222 197 L222 224 Q200 234 178 224 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <line x1="192" y1="196" x2="192" y2="226" stroke={dark} strokeWidth="2" opacity="0.4" />
+      <line x1="208" y1="196" x2="208" y2="226" stroke={dark} strokeWidth="2" opacity="0.4" />
+    </g>
+  );
+};
+
+const Aguila: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.5);
+  const red = "#DA291C";
+  return (
+    <g>
+      {/* red field */}
+      <circle cx="200" cy="165" r="95" fill={red} />
+      {/* wings spread wide */}
+      <polygon points="200,190 120,120 130,175 90,155 115,205 150,205" fill={dark} />
+      <polygon points="200,190 280,120 270,175 310,155 285,205 250,205" fill={dark} />
+      {/* body */}
+      <polygon points="185,150 215,150 220,215 200,235 180,215" fill={dark} />
+      {/* two heads with beaks */}
+      <circle cx="178" cy="140" r="16" fill={dark} />
+      <polygon points="160,140 145,135 160,150" fill={dark} />
+      <circle cx="222" cy="140" r="16" fill={dark} />
+      <polygon points="240,140 255,135 240,150" fill={dark} />
+    </g>
+  );
+};
+
+const GJIROKASTRA_HOUSES = [
+  { x: 100, y: 190, w: 70, h: 55 },
+  { x: 160, y: 160, w: 70, h: 70 },
+  { x: 220, y: 130, w: 70, h: 85 },
+];
+
+const GjirokastraBerat: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const white = "#F5F0E6";
+  const roof = shade(accentColor, 0.25);
+  return (
+    <g>
+      {/* steep hillside */}
+      <polygon points="90,250 320,250 320,160 90,235" fill={accentColor} opacity="0.3" />
+      {GJIROKASTRA_HOUSES.map((h) => (
+        <g key={h.x}>
+          <rect x={h.x} y={h.y} width={h.w} height={h.h} fill={white} stroke={dark} strokeWidth="2" />
+          <polygon points={`${h.x - 6},${h.y} ${h.x + h.w / 2},${h.y - 20} ${h.x + h.w + 6},${h.y}`} fill={roof} />
+          {[0, 1, 2].map((row) =>
+            [0, 1].map((col) => (
+              <rect
+                key={`${row}-${col}`}
+                x={h.x + 10 + col * (h.w - 30)}
+                y={h.y + 12 + row * 18}
+                width="10"
+                height="12"
+                fill={dark}
+              />
+            ))
+          )}
+        </g>
       ))}
-      <line x1="205" y1="130" x2="230" y2="105" stroke={light} strokeWidth="4" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const SINGER_POSITIONS: [number, number][] = [
+  [200, 110],
+  [255, 130],
+  [275, 185],
+  [235, 225],
+  [165, 225],
+  [125, 185],
+  [145, 130],
+];
+
+const IsoPolifonia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = tint(shade(accentColor, 0.1), 0.55);
+  return (
+    <g>
+      {/* village square ground */}
+      <ellipse cx="200" cy="178" rx="110" ry="70" fill={accentColor} opacity="0.15" />
+      {SINGER_POSITIONS.map(([x, y]) => (
+        <g key={`${x}-${y}`}>
+          <circle cx={x} cy={y} r="14" fill={skin} />
+          <path d={`M${x - 14} ${y + 30} Q${x} ${y + 8} ${x + 14} ${y + 30} Z`} fill={accentColor} stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const Skanderbeg: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const stone = tint(shade(accentColor, 0.15), 0.55);
+  return (
+    <g>
+      {/* stone pedestal */}
+      <rect x="150" y="215" width="100" height="35" fill={stone} stroke={dark} strokeWidth="3" />
+      <rect x="140" y="205" width="120" height="14" fill={dark} />
+      {/* helmet dome */}
+      <path d="M160 205 a40 38 0 0 1 80 0 Z" fill={accentColor} stroke={dark} strokeWidth="4" />
+      {/* nose guard */}
+      <rect x="194" y="205" width="12" height="30" fill={dark} />
+      {/* thick goat horns, sweeping outward almost sideways from the helmet base */}
+      <path d="M175 180 Q145 178 118 165 Q108 158 112 148 Q135 158 165 172 Z" fill={dark} />
+      <path d="M225 180 Q255 178 282 165 Q292 158 288 148 Q265 158 235 172 Z" fill={dark} />
+    </g>
+  );
+};
+
+const Raki: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      {/* wooden table */}
+      <rect x="100" y="220" width="220" height="16" fill={wood} />
+      {/* door frame behind */}
+      <rect x="230" y="90" width="70" height="140" fill="none" stroke={dark} strokeWidth="5" opacity="0.5" />
+      {/* homemade bottle */}
+      <path d="M170 220 L170 165 Q170 155 178 150 L178 130 L192 130 L192 150 Q200 155 200 165 L200 220 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* two small glasses */}
+      <path d="M130 220 L134 195 L156 195 L160 220 Z" fill={light} stroke={dark} strokeWidth="2" />
+      <path d="M205 220 L209 200 L227 200 L231 220 Z" fill={light} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const Byrek: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.5);
+  return (
+    <g>
+      {/* whole pie, spiral pattern */}
+      <circle cx="200" cy="175" r="75" fill={accentColor} stroke={dark} strokeWidth="4" />
+      <path d="M200 175 m-55 0 a55 55 0 1 1 110 0" fill="none" stroke={dark} strokeWidth="4" opacity="0.6" />
+      <path d="M200 175 m-38 0 a38 38 0 1 1 76 0" fill="none" stroke={dark} strokeWidth="4" opacity="0.6" />
+      <path d="M200 175 m-20 0 a20 20 0 1 1 40 0" fill="none" stroke={dark} strokeWidth="4" opacity="0.6" />
+      {/* one slice pulled out, cut into a triangle */}
+      <polygon points="200,175 275,155 285,205" fill={light} stroke={dark} strokeWidth="3" />
+    </g>
+  );
+};
+
+const MadreTeresa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const white = "#F5F0E6";
+  return (
+    <g>
+      {/* veiled figure, serene silhouette */}
+      <path d="M200 250 Q150 250 150 210 Q150 165 175 150 Q170 130 200 122 Q230 130 225 150 Q250 165 250 210 Q250 250 200 250 Z" fill={accentColor} opacity="0.85" />
+      <path d="M182 155 Q200 170 218 155" fill="none" stroke={dark} strokeWidth="2" opacity="0.4" />
+      {/* white dove flying above */}
+      <ellipse cx="200" cy="105" rx="16" ry="8" fill={white} stroke={dark} strokeWidth="1.5" transform="rotate(-10 200 105)" />
+      <circle cx="216" cy="100" r="5" fill={white} stroke={dark} strokeWidth="1.5" />
+      <path d="M200 105 Q180 95 165 100 Q182 104 192 110 Z" fill={white} stroke={dark} strokeWidth="1.2" />
+      <path d="M204 108 Q190 118 178 128 Q195 120 208 114 Z" fill={white} stroke={dark} strokeWidth="1.2" opacity="0.8" />
+    </g>
+  );
+};
+
+const MeshariBuzuku: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const paper = tint(shade(accentColor, 0.1), 0.65);
+  return (
+    <g>
+      <path d="M110 130 L200 118 L200 225 L110 240 Z" fill={paper} stroke={dark} strokeWidth="2" />
+      <path d="M200 118 L290 130 L290 240 L200 225 Z" fill={tint(paper, 0.15)} stroke={dark} strokeWidth="2" />
+      <line x1="200" y1="118" x2="200" y2="225" stroke={dark} strokeWidth="2.5" />
+      {[145, 165, 185].map((y) => (
+        <line key={`l-${y}`} x1="125" y1={y} x2="180" y2={y - 3} stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      ))}
+      {[150, 170, 190].map((y) => (
+        <line key={`r-${y}`} x1="220" y1={y} x2="270" y2={y + 3} stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      ))}
+      {/* worn, torn edge on the left page */}
+      <path d="M110 130 L118 140 L112 152 L120 165 L114 178 L122 195 L110 240" fill="none" stroke={dark} strokeWidth="1" opacity="0.3" />
+    </g>
+  );
+};
+
+const MANASTIR_FOREIGN_GLYPHS = [
+  { char: "Α", x: 130, y: 125, rot: -20 },
+  { char: "ا", x: 160, y: 115, rot: 15 },
+  { char: "Ж", x: 275, y: 200, rot: -10 },
+];
+
+const AlfabetoManastir: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.55);
+  return (
+    <g>
+      {/* baseline the letters are aligning to */}
+      <line x1="110" y1="175" x2="290" y2="175" stroke={dark} strokeWidth="2" opacity="0.3" />
+      {MANASTIR_FOREIGN_GLYPHS.map((g) => (
+        <text
+          key={g.char}
+          x={g.x}
+          y={g.y}
+          fontSize="26"
+          fontWeight="700"
+          fill={light}
+          fontFamily="serif"
+          opacity="0.5"
+          transform={`rotate(${g.rot} ${g.x} ${g.y})`}
+        >
+          {g.char}
+        </text>
+      ))}
+      {["A", "B", "C", "D"].map((l, i) => (
+        <text key={l} x={175 + i * 22} y="185" fontSize="26" fontWeight="700" fill={accentColor} fontFamily="serif">
+          {l}
+        </text>
+      ))}
+    </g>
+  );
+};
+
+const KADARE_BOOKS = [
+  { y: 205, w: 140, x: 130 },
+  { y: 187, w: 120, x: 140 },
+  { y: 169, w: 130, x: 135 },
+];
+
+const IsmailKadare: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.5);
+  const fills = [accentColor, dark, light];
+  return (
+    <g>
+      {KADARE_BOOKS.map((b, i) => (
+        <rect key={b.y} x={b.x} y={b.y} width={b.w} height="18" fill={fills[i]} stroke={dark} strokeWidth="1.5" />
+      ))}
+      {/* quill pen crossed over the stack */}
+      <path d="M255 120 L165 205" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <path d="M255 120 Q270 105 262 90 Q248 100 245 118 Z" fill={light} stroke={dark} strokeWidth="2" />
     </g>
   );
 };
 
 const DuaLipa: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
-  const light = tint(accentColor, 0.75);
+  const skin = tint(shade(accentColor, 0.1), 0.55);
   return (
     <g>
-      <rect x="196" y="150" width="8" height="35" fill={dark} />
-      <circle cx="200" cy="135" r="20" fill="none" stroke={accentColor} strokeWidth="6" />
-      <circle cx="200" cy="140" r="8" fill={light} />
+      {/* mic stand */}
+      <line x1="200" y1="250" x2="200" y2="150" stroke={dark} strokeWidth="5" />
+      <line x1="175" y1="250" x2="225" y2="250" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      {/* studio mic head, shockmount ring */}
+      <ellipse cx="200" cy="150" rx="24" ry="14" fill="none" stroke={dark} strokeWidth="5" />
+      <rect x="184" y="138" width="32" height="24" rx="8" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* singer silhouette leaning toward the mic */}
+      <circle cx="150" cy="130" r="18" fill={skin} />
+      <path d="M132 148 Q150 138 170 150 L165 200 L135 200 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
     </g>
   );
 };
 
 const KangeKreshnike: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.7);
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  const skin = tint(shade(accentColor, 0.1), 0.55);
   return (
     <g>
-      <path d="M180 120 a20 30 0 1 0 0.1 0" fill={light} stroke={accentColor} strokeWidth="4" />
-      <line x1="180" y1="90" x2="230" y2="180" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      {/* seated musician silhouette */}
+      <circle cx="160" cy="130" r="16" fill={skin} />
+      <path d="M144 148 Q160 140 178 150 L178 230 L142 230 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      {/* lahuta body */}
+      <ellipse cx="225" cy="195" rx="26" ry="34" fill={wood} stroke={dark} strokeWidth="3" />
+      <line x1="225" y1="161" x2="225" y2="120" stroke={wood} strokeWidth="8" />
+      <line x1="225" y1="120" x2="225" y2="230" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      {/* bow */}
+      <path d="M180 130 Q215 150 250 165" fill="none" stroke={dark} strokeWidth="3" strokeLinecap="round" />
     </g>
   );
 };
+
+// Hexagon vertices around (200, 167), radius 28, precomputed offline (0°, 60°, ... 300°).
+const FILM_REEL_HOLES: [number, number][] = [
+  [228, 167],
+  [214, 191],
+  [186, 191],
+  [172, 167],
+  [186, 143],
+  [214, 143],
+];
 
 const Kinostudio: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.3);
+  const dark = shade(accentColor, 0.35);
   return (
     <g>
-      <circle cx="200" cy="140" r="46" fill={accentColor} />
-      <circle cx="200" cy="140" r="12" fill={dark} />
-      {[0, 60, 120, 180, 240, 300].map((deg) => (
-        <circle key={deg} cx={200 + Math.cos((deg * Math.PI) / 180) * 28} cy={140 + Math.sin((deg * Math.PI) / 180) * 28} r="6" fill={dark} />
+      {/* film reel */}
+      <circle cx="200" cy="167" r="52" fill={accentColor} stroke={dark} strokeWidth="4" />
+      <circle cx="200" cy="167" r="13" fill={dark} />
+      {FILM_REEL_HOLES.map(([x, y]) => (
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="7" fill={dark} />
       ))}
+      {/* old movie camera beside it */}
+      <rect x="260" y="180" width="55" height="35" fill={dark} />
+      <rect x="290" y="165" width="28" height="20" fill={dark} />
+      <circle cx="318" cy="197" r="10" fill="none" stroke={dark} strokeWidth="3" />
     </g>
   );
 };
 
+const TIRANA_STRIPE_COLORS = ["#E63946", "#2A9D8F", "#F4A300", "#457B9D"];
+
 const TiranaColores: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <rect x="155" y="110" width="90" height="80" fill="#e8e2d5" />
-      {[0, 1, 2, 3].map((i) => (
-        <rect key={i} x={162 + i * 22} y="118" width="16" height="64" fill={i % 2 === 0 ? accentColor : light} />
+      <rect x="120" y="110" width="160" height="130" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
+      {TIRANA_STRIPE_COLORS.map((c, i) => (
+        <rect key={c} x={128 + i * 36} y="118" width="28" height="114" fill={c} />
       ))}
-      <rect x="155" y="182" width="90" height="8" fill={dark} />
+      {/* window grid across the stripes */}
+      {[0, 1, 2, 3].map((row) =>
+        [0, 1, 2, 3].map((col) => (
+          <rect key={`${row}-${col}`} x={130 + col * 36} y={128 + row * 26} width="14" height="16" fill="#fff" opacity="0.85" />
+        ))
+      )}
     </g>
   );
 };
 
 const VloraExodo: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.7);
+  const dark = shade(accentColor, 0.4);
+  const skin = tint(shade(accentColor, 0.1), 0.55);
   return (
     <g>
-      <polygon points="150,180 250,180 235,155 165,155" fill={accentColor} />
-      {Array.from({ length: 8 }).map((_, i) => (
-        <circle key={i} cx={170 + i * 9} cy={148} r="4" fill={light} />
-      ))}
-      <rect x="196" y="130" width="8" height="20" fill={dark} />
+      {/* horizon and water */}
+      <line x1="90" y1="215" x2="310" y2="215" stroke={dark} strokeWidth="2" opacity="0.4" />
+      <path d="M90 225 q20 -6 40 0 t40 0 t40 0 t40 0 t40 0" fill="none" stroke={dark} strokeWidth="2" opacity="0.3" />
+      {/* ship hull */}
+      <polygon points="120,215 280,215 260,240 140,240" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* funnel */}
+      <rect x="285" y="175" width="16" height="40" fill={dark} />
+      {/* people packed on deck */}
+      {Array.from({ length: 5 }).map((_, row) =>
+        Array.from({ length: 7 }).map((_, col) => (
+          <circle key={`${row}-${col}`} cx={135 + col * 18} cy={205 - row * 10} r="5" fill={row % 2 === 0 ? skin : dark} opacity="0.9" />
+        ))
+      )}
     </g>
   );
 };
 
 const GestosInvertidos: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.4);
-  const light = tint(accentColor, 0.75);
+  const dark = shade(accentColor, 0.45);
+  const skin = tint(shade(accentColor, 0.1), 0.55);
   return (
     <g>
-      <circle cx="200" cy="135" r="22" fill={light} stroke={accentColor} strokeWidth="4" />
-      <path d="M200 160 v25" stroke={dark} strokeWidth="6" strokeLinecap="round" />
-      <path d="M180 145 q20 15 40 0" fill="none" stroke={accentColor} strokeWidth="4" />
+      <circle cx="185" cy="175" r="34" fill={skin} stroke={dark} strokeWidth="3" />
+      <path d="M212 168 L228 178 L212 188 Z" fill={skin} stroke={dark} strokeWidth="3" />
+      <circle cx="192" cy="165" r="4" fill={dark} />
+      {/* up-down nod arrow */}
+      <line x1="185" y1="110" x2="185" y2="145" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+      <path d="M172 120 L185 105 L198 120" fill="none" stroke={dark} strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M172 138 L185 153 L198 138" fill="none" stroke={dark} strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      {/* question mark */}
+      <text x="240" y="200" fontSize="56" fontWeight="700" fill={accentColor} fontFamily="serif">
+        ?
+      </text>
     </g>
   );
 };
 
 const SyriIKalter: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.55);
+  const deep = shade(accentColor, 0.25);
   return (
     <g>
-      <circle cx="200" cy="140" r="42" fill={light} />
-      <circle cx="200" cy="140" r="24" fill={accentColor} />
-      <circle cx="200" cy="140" r="10" fill={dark} />
+      {/* rocky rim */}
+      <ellipse cx="200" cy="180" rx="105" ry="60" fill={dark} opacity="0.25" />
+      {/* rings of water, lighter outward */}
+      <ellipse cx="200" cy="180" rx="85" ry="48" fill={light} />
+      <ellipse cx="200" cy="180" rx="58" ry="33" fill={accentColor} />
+      <ellipse cx="200" cy="180" rx="30" ry="17" fill={deep} />
     </g>
   );
 };
@@ -296,22 +453,22 @@ const SyriIKalter: IllustrationComponent = ({ accentColor }) => {
 export const albaniaIllustrations: Record<string, IllustrationDefinition> = {
   bunkers: { component: Bunkers },
   riviera: { component: Riviera },
-  besa: { component: Besa, variant: "medallion" },
-  aguila: { component: Aguila, variant: "medallion" },
+  besa: { component: Besa },
+  aguila: { component: Aguila },
   "gjirokastra-berat": { component: GjirokastraBerat },
-  "iso-polifonia": { component: IsoPolifonia, variant: "medallion" },
-  skanderbeg: { component: Skanderbeg, variant: "medallion" },
-  raki: { component: Raki, variant: "medallion" },
-  byrek: { component: Byrek, variant: "medallion" },
-  "madre-teresa": { component: MadreTeresa, variant: "medallion" },
+  "iso-polifonia": { component: IsoPolifonia },
+  skanderbeg: { component: Skanderbeg },
+  raki: { component: Raki },
+  byrek: { component: Byrek },
+  "madre-teresa": { component: MadreTeresa },
   "meshari-buzuku": { component: MeshariBuzuku },
   "alfabeto-manastir": { component: AlfabetoManastir },
   "ismail-kadare": { component: IsmailKadare },
-  "dua-lipa": { component: DuaLipa, variant: "medallion" },
-  "kange-kreshnike": { component: KangeKreshnike, variant: "medallion" },
-  kinostudio: { component: Kinostudio, variant: "medallion" },
+  "dua-lipa": { component: DuaLipa },
+  "kange-kreshnike": { component: KangeKreshnike },
+  kinostudio: { component: Kinostudio },
   "tirana-colores": { component: TiranaColores },
   "vlora-exodo": { component: VloraExodo },
-  "gestos-invertidos": { component: GestosInvertidos, variant: "medallion" },
-  "syri-i-kalter": { component: SyriIKalter, variant: "medallion" },
+  "gestos-invertidos": { component: GestosInvertidos },
+  "syri-i-kalter": { component: SyriIKalter },
 };
