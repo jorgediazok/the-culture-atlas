@@ -210,9 +210,11 @@ const DedMoroz: IllustrationComponent = ({ accentColor }) => {
       <circle cx="232" cy="220" r="4" fill="#F4A300" />
       <circle cx="248" cy="200" r="4" fill="#C1272D" />
       <circle cx="238" cy="185" r="3" fill="#F4A300" />
-      {/* Ded Moroz figure */}
-      <circle cx="160" cy="150" r="14" fill={skin} />
-      <path d="M148 145 Q160 130 172 145 Q176 155 160 158 Q144 155 148 145 Z" fill="#fff" />
+      {/* Ded Moroz figure: face, then a white beard hanging below the chin, then the fur-trimmed hat on top */}
+      <circle cx="160" cy="148" r="14" fill={skin} />
+      <path d="M147 154 Q160 178 173 154 Q173 168 160 172 Q147 168 147 154 Z" fill="#fff" stroke={dark} strokeWidth="1" />
+      <path d="M147 140 Q160 118 173 140 Q176 132 160 126 Q144 132 147 140 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <path d="M144 138 Q160 132 176 138 Q176 144 160 144 Q144 144 144 138 Z" fill="#fff" />
       <path d="M140 165 Q160 155 180 165 L176 235 L144 235 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
       <rect x="150" y="200" width="20" height="8" fill="#fff" />
       {/* staff */}
