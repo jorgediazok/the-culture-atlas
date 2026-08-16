@@ -1299,10 +1299,11 @@ const Belarus: EmblemComponent = ({ accentColor }) => (
 
 const Denmark: EmblemComponent = ({ accentColor }) => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <polygon points="25,55 75,55 90,40 40,40" fill="#F4B400" stroke="#8A6200" strokeWidth="2.5" />
-    <rect x="25" y="55" width="50" height="35" fill="#C98F00" stroke="#8A6200" strokeWidth="2.5" />
-    <ellipse cx="52" cy="46" rx="8" ry="5" fill={accentColor} stroke="#8A6200" strokeWidth="2" />
-    <ellipse cx="72" cy="42" rx="8" ry="5" fill={accentColor} stroke="#8A6200" strokeWidth="2" />
+    <polygon points="25,50 55,65 55,95 25,80" fill="#C98F00" stroke="#8A6200" strokeWidth="2.5" />
+    <polygon points="55,65 85,50 85,80 55,95" fill="#A87200" stroke="#8A6200" strokeWidth="2.5" />
+    <polygon points="55,35 85,50 55,65 25,50" fill="#F4B400" stroke="#8A6200" strokeWidth="2.5" />
+    <ellipse cx="45" cy="47" rx="8" ry="4.5" fill={accentColor} stroke="#8A6200" strokeWidth="2" />
+    <ellipse cx="65" cy="47" rx="8" ry="4.5" fill={accentColor} stroke="#8A6200" strokeWidth="2" />
   </svg>
 );
 
@@ -1319,19 +1320,13 @@ const Norway: EmblemComponent = ({ accentColor }) => (
 
 const Sweden: EmblemComponent = ({ accentColor }) => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <path d="M14 78 Q10 88 18 92 L26 92 Q22 84 24 76 Z" fill="#6B1A1A" />
-    <ellipse cx="40" cy="78" rx="27" ry="16" fill="#A02C2C" stroke="#6B1A1A" strokeWidth="2.5" />
-    <rect x="48" y="48" width="18" height="26" rx="8" fill="#A02C2C" stroke="#6B1A1A" strokeWidth="2.5" transform="rotate(-15 57 61)" />
-    <ellipse cx="70" cy="42" rx="15" ry="12" fill="#A02C2C" stroke="#6B1A1A" strokeWidth="2.5" transform="rotate(-8 70 42)" />
-    <ellipse cx="84" cy="40" rx="8" ry="6" fill="#A02C2C" stroke="#6B1A1A" strokeWidth="2" transform="rotate(-4 84 40)" />
-    <path d="M62 32 L57 16 L70 28 Z" fill="#A02C2C" stroke="#6B1A1A" strokeWidth="2" />
-    <circle cx="76" cy="38" r="2.2" fill="#1A1A1A" />
-    {[16, 32, 50, 64].map((x) => (
-      <rect key={x} x={x} y="88" width="9" height="16" fill="#6B1A1A" />
-    ))}
-    <circle cx="38" cy="76" r="7" fill={accentColor} opacity="0.75" />
-    <circle cx="24" cy="72" r="2.5" fill="#F5F0E6" opacity="0.85" />
-    <circle cx="52" cy="72" r="2.5" fill="#F5F0E6" opacity="0.85" />
+    <rect x="30" y="15" width="40" height="45" rx="10" fill="#D9BE8F" stroke="#8B6F47" strokeWidth="2.5" />
+    <rect x="22" y="55" width="56" height="14" rx="5" fill="#D9BE8F" stroke="#8B6F47" strokeWidth="2.5" />
+    <line x1="28" y1="68" x2="20" y2="100" stroke="#8B6F47" strokeWidth="4" strokeLinecap="round" />
+    <line x1="72" y1="68" x2="80" y2="100" stroke="#8B6F47" strokeWidth="4" strokeLinecap="round" />
+    <line x1="36" y1="68" x2="32" y2="100" stroke="#8B6F47" strokeWidth="3.5" strokeLinecap="round" opacity="0.8" />
+    <line x1="64" y1="68" x2="68" y2="100" stroke="#8B6F47" strokeWidth="3.5" strokeLinecap="round" opacity="0.8" />
+    <rect x="28" y="57" width="44" height="9" rx="4" fill={accentColor} opacity="0.85" />
   </svg>
 );
 
