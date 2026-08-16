@@ -1367,6 +1367,45 @@ const Latvia: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const Slovakia: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="30" y="45" width="40" height="45" fill="#F5F0E6" stroke="#4A4A4A" strokeWidth="2.5" />
+    <rect x="22" y="30" width="16" height="20" fill="#F5F0E6" stroke="#4A4A4A" strokeWidth="2.5" />
+    <rect x="62" y="30" width="16" height="20" fill="#F5F0E6" stroke="#4A4A4A" strokeWidth="2.5" />
+    <rect x="46" y="70" width="8" height="20" fill="#4A4A4A" opacity="0.5" />
+    <rect x="35" y="55" width="8" height="8" fill={accentColor} opacity="0.85" />
+    <rect x="57" y="55" width="8" height="8" fill={accentColor} opacity="0.85" />
+  </svg>
+);
+
+const Slovenia: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M45 62 Q30 52 25 68 Q10 65 8 50 Q6 40 15 34" fill="none" stroke="#2E6B5E" strokeWidth="9" strokeLinecap="round" />
+    <path d="M12 32 L4 22 L18 28 Z" fill="#2E6B5E" stroke="#1B3A2E" strokeWidth="1.5" />
+    <ellipse cx="48" cy="68" rx="24" ry="13" fill="#2E6B5E" stroke="#1B3A2E" strokeWidth="2.5" transform="rotate(-12 48 68)" />
+    <path d="M35 58 Q45 30 68 22 Q58 38 60 48 Q72 34 84 30 Q68 46 62 56 Q76 50 86 54 Q68 62 52 63 Z" fill="#1B3A2E" opacity="0.8" />
+    <path d="M64 52 L83 40 L90 49 L80 60 L66 63 Z" fill="#2E6B5E" stroke="#1B3A2E" strokeWidth="2.5" />
+    <path d="M80 60 L93 65 L82 68 L70 62 Z" fill="#1B3A2E" />
+    <path d="M76 38 L73 24 L84 34 Z" fill="#1B3A2E" />
+    <circle cx="75" cy="49" r="2.3" fill="#1A1A1A" />
+    <path d="M32 78 L28 92 M42 80 L40 94" stroke="#1B3A2E" strokeWidth="4.5" strokeLinecap="round" />
+    <ellipse cx="45" cy="70" rx="9" ry="5" fill={accentColor} opacity="0.65" transform="rotate(-12 45 70)" />
+  </svg>
+);
+
+const Iceland: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <ellipse cx="46" cy="68" rx="22" ry="26" fill="#1A1A1A" />
+    <ellipse cx="44" cy="78" rx="14" ry="17" fill="#F5F0E6" />
+    <ellipse cx="62" cy="52" rx="13" ry="12" fill="#F5F0E6" />
+    <path d="M70 44 L92 36 Q98 40 96 48 L90 56 Q84 60 76 56 L68 52 Z" fill="#F4A300" stroke="#B7410E" strokeWidth="2" />
+    <path d="M92 36 Q98 40 96 48 L90 46 Q92 41 88 38 Z" fill="#5C8FA8" opacity="0.85" />
+    <circle cx="66" cy="50" r="2.6" fill="#1A1A1A" />
+    <path d="M40 94 L36 104 M52 94 L56 104" stroke="#F4A300" strokeWidth="4" strokeLinecap="round" />
+    <rect x="20" y="102" width="55" height="7" fill={accentColor} opacity="0.7" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1422,6 +1461,9 @@ export const emblems: Record<string, EmblemComponent> = {
   estonia: Estonia,
   lithuania: Lithuania,
   latvia: Latvia,
+  slovakia: Slovakia,
+  slovenia: Slovenia,
+  iceland: Iceland,
   turkmenistan: Turkmenistan,
   laos: Laos,
   botswana: Botswana,

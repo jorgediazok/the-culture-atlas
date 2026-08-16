@@ -776,6 +776,60 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "slovakia",
+    flagEmoji: "🇸🇰",
+    accentColor: "#0B4EA2",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Eslovaquia",
+        intro:
+          "El país del castillo blanco con forma de mesa dada vuelta, de iglesias de madera construidas sin un solo clavo, y de la cordillera alpina más pequeña del planeta. Estas páginas son para descubrir una Eslovaquia de ruinas que Napoleón voló con explosivos, un plato nacional de papa y queso de oveja fermentado, una flauta pastoril de más de dos metros, un divorcio de país sin un solo acto de violencia, y las raíces eslovacas de Andy Warhol.",
+      },
+      en: {
+        name: "Slovakia",
+        intro:
+          "The country of the white castle shaped like an upside-down table, wooden churches built without a single nail, and the smallest alpine mountain range on the planet. These pages are here to discover a Slovakia of ruins Napoleon blew up with explosives, a national dish of potato and fermented sheep cheese, a shepherd's flute over two meters long, a country split in two without a single act of violence, and Andy Warhol's Slovak roots.",
+      },
+    },
+  },
+  {
+    slug: "slovenia",
+    flagEmoji: "🇸🇮",
+    accentColor: "#A2001D",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Eslovenia",
+        intro:
+          "El país de un lago con una isla que solo se alcanza remando, una cueva tan grande que se recorre en tren subterráneo, y una capital que adoptó a un dragón como símbolo oficial. Estas páginas son para descubrir una Eslovenia de una criatura ciega de cueva a la que llaman 'bebé dragón', colmenas decoradas con pinturas populares, una montaña estampada en la propia bandera, un pueblo costero que parece trasplantado de Venecia, y la vid productiva más vieja del mundo.",
+      },
+      en: {
+        name: "Slovenia",
+        intro:
+          "The country with a lake you can only reach by rowing to its island, a cave so big it's toured by underground train, and a capital that adopted a dragon as its official symbol. These pages are here to discover a Slovenia of a blind cave creature nicknamed 'baby dragon,' beehives decorated with folk paintings, a mountain printed right on the flag, a coastal town that looks transplanted from Venice, and the world's oldest producing grapevine.",
+      },
+    },
+  },
+  {
+    slug: "iceland",
+    flagEmoji: "🇮🇸",
+    accentColor: "#0247A6",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Islandia",
+        intro:
+          "El país que le dio nombre a los géiseres del mundo entero, paralizó vuelos en toda Europa con una sola erupción volcánica, y convirtió el agua sobrante de una planta geotérmica en uno de sus destinos turísticos más visitados. Estas páginas son para descubrir una Islandia de sagas medievales todavía legibles hoy, nombres sin apellidos heredados, una aplicación para no salir con un pariente cercano, un país sin ejército propio, y la mayor colonia de frailecillos de todo el Atlántico.",
+      },
+      en: {
+        name: "Iceland",
+        intro:
+          "The country that gave its name to geysers worldwide, halted flights across Europe with a single volcanic eruption, and turned leftover water from a geothermal plant into one of its most visited tourist spots. These pages are here to discover an Iceland of medieval sagas still readable today, names with no inherited surnames, an app for not dating a close relative, a country with no army of its own, and the largest puffin colony anywhere in the Atlantic.",
+      },
+    },
+  },
+  {
     slug: "north-korea",
     flagEmoji: "🇰🇵",
     accentColor: "#024FA2",

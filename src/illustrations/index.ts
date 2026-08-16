@@ -52,6 +52,9 @@ import { swedenIllustrations } from "./sweden";
 import { estoniaIllustrations } from "./estonia";
 import { lithuaniaIllustrations } from "./lithuania";
 import { latviaIllustrations } from "./latvia";
+import { slovakiaIllustrations } from "./slovakia";
+import { sloveniaIllustrations } from "./slovenia";
+import { icelandIllustrations } from "./iceland";
 import { turkmenistanIllustrations } from "./turkmenistan";
 import { laosIllustrations } from "./laos";
 import { botswanaIllustrations } from "./botswana";
@@ -165,6 +168,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   estonia: estoniaIllustrations,
   lithuania: lithuaniaIllustrations,
   latvia: latviaIllustrations,
+  slovakia: slovakiaIllustrations,
+  slovenia: sloveniaIllustrations,
+  iceland: icelandIllustrations,
   turkmenistan: turkmenistanIllustrations,
   laos: laosIllustrations,
   botswana: botswanaIllustrations,
