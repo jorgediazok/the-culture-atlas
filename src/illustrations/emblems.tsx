@@ -1211,11 +1211,11 @@ const Romania: EmblemComponent = () => (
 
 const Qatar: EmblemComponent = ({ accentColor }) => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <path d="M14 76 Q50 92 86 76 L86 88 L14 88 Z" fill="#3D8FB0" opacity="0.6" />
-    <path d="M22 72 Q35 60 62 65 Q78 68 82 76 L78 82 L26 82 Q18 78 22 72 Z" fill="#F5F0E6" stroke="#8B7355" strokeWidth="2" />
-    <line x1="46" y1="65" x2="46" y2="24" stroke="#8B7355" strokeWidth="3" />
-    <path d="M46 24 L74 60 L46 60 Z" fill="#F5F0E6" stroke="#8B7355" strokeWidth="2" />
-    <line x1="46" y1="34" x2="66" y2="52" stroke={accentColor} strokeWidth="1.5" opacity="0.85" />
+    <path d="M10 84 Q50 96 90 84 L90 92 L10 92 Z" fill="#3D8FB0" opacity="0.65" />
+    <path d="M14 78 Q30 90 50 90 Q70 90 84 74 Q88 68 84 66 Q68 78 50 79 Q32 78 18 70 Q12 73 14 78 Z" fill="#F5F0E6" stroke="#5C4630" strokeWidth="2.5" />
+    <line x1="46" y1="72" x2="46" y2="16" stroke="#5C4630" strokeWidth="3.5" />
+    <path d="M46 16 Q78 32 82 62 Q64 54 46 60 Z" fill="#F5F0E6" stroke="#5C4630" strokeWidth="2.5" />
+    <path d="M50 32 Q64 44 68 58" fill="none" stroke={accentColor} strokeWidth="2" opacity="0.85" />
   </svg>
 );
 
