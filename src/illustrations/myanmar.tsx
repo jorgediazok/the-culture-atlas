@@ -2,139 +2,207 @@ import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const BaganMilesDeTemplos: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const mist = "#E8E4DC";
   return (
     <g>
-      <path d="M184 178 L184 162 L190 152 L196 162 L196 178 Z" fill={accentColor} />
-      <path d="M200 178 L200 156 L208 144 L216 156 L216 178 Z" fill={dark} />
-      <path d="M180 178 L220 178" stroke={light} strokeWidth="2" opacity="0.6" />
+      {[[110, 235, 30, 65], [155, 240, 42, 90], [215, 238, 36, 78], [265, 242, 34, 72]].map(([x, y, w, h], i) => (
+        <g key={x}>
+          <rect x={(x as number) - (w as number) / 2} y={(y as number) - (h as number)} width={w} height={h} fill={i % 2 === 0 ? accentColor : dark} stroke={dark} strokeWidth="2" />
+          <path d={`M${(x as number) - (w as number) / 2 - 6} ${(y as number) - (h as number)} L${x} ${(y as number) - (h as number) - 34} L${(x as number) + (w as number) / 2 + 6} ${(y as number) - (h as number)} Z`} fill={i % 2 === 0 ? accentColor : dark} stroke={dark} strokeWidth="2" />
+          <path d={`M${x} ${(y as number) - (h as number) - 34} L${x} ${(y as number) - (h as number) - 52}`} stroke={dark} strokeWidth="3" />
+        </g>
+      ))}
+      <rect x="90" y="175" width="230" height="30" fill={mist} opacity="0.75" />
+      <rect x="90" y="150" width="230" height="18" fill={mist} opacity="0.55" />
     </g>
   );
 };
 
 const PagodaShwedagonDeOro: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const gold = "#D4AF37";
   return (
     <g>
-      <path d="M188 178 Q188 156 200 150 Q212 156 212 178 Z" fill={accentColor} />
-      <path d="M196 150 L200 132 L204 150 Z" fill={light} />
-      <circle cx="200" cy="130" r="2.2" fill={dark} />
-      <ellipse cx="200" cy="164" rx="14" ry="3" fill={dark} opacity="0.5" />
+      <path d="M150 240 L260 240 L250 205 L160 205 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2.5" />
+      <path d="M160 205 L250 205 L240 175 L170 175 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2.5" />
+      <ellipse cx="205" cy="175" rx="42" ry="14" fill={shade(gold, 0.15)} stroke={shade(gold, 0.3)} strokeWidth="2" />
+      <path d="M178 175 Q178 130 205 118 Q232 130 232 175 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2.5" />
+      <path d="M195 118 Q205 95 215 118 Q210 108 205 105 Q200 108 195 118 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+      <line x1="205" y1="105" x2="205" y2="85" stroke={dark} strokeWidth="2.5" />
+      <circle cx="205" cy="82" r="4" fill="#C1272D" />
+      {[[168, 150], [242, 150], [180, 195], [230, 195]].map(([x, y]) => (
+        <path key={x} d={`M${x} ${y} L${(x as number) - 4} ${(y as number) - 10} L${(x as number) + 4} ${(y as number) - 10} Z`} fill="#fff" opacity="0.85" />
+      ))}
     </g>
   );
 };
 
 const LongyiVestimentaTradicional: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.55);
   return (
     <g>
-      <path d="M186 152 L214 152 L210 178 L190 178 Z" fill={accentColor} />
-      <rect x="192" y="156" width="6" height="6" fill={light} opacity="0.8" />
-      <rect x="202" y="164" width="6" height="6" fill={light} opacity="0.8" />
-      <rect x="192" y="164" width="6" height="6" fill={dark} opacity="0.5" />
-      <path d="M186 152 Q200 146 214 152" fill="none" stroke={dark} strokeWidth="2" />
+      <path d="M155 235 Q155 175 165 140 Q205 128 245 140 Q255 175 255 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[0, 1, 2, 3, 4].map((i) => (
+        <line key={i} x1={170 + i * 18} y1="145" x2={170 + i * 18} y2="232" stroke={i % 2 === 0 ? light : dark} strokeWidth="4" opacity="0.6" />
+      ))}
+      <path d="M175 140 Q205 155 235 140 Q225 130 205 128 Q185 130 175 140 Z" fill={dark} />
+      <path d="M195 140 L185 165 L215 160 L205 140 Z" fill={light} opacity="0.9" />
     </g>
   );
 };
 
 const ThanakaMaquillajeTradicional: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  const paste = accentColor;
   return (
     <g>
-      <rect x="188" y="150" width="8" height="26" fill={dark} />
-      <circle cx="210" cy="164" r="11" fill={light} />
-      <circle cx="210" cy="164" r="5" fill={accentColor} />
+      <path d="M120 210 L120 165 Q120 155 132 155 L175 155 Q187 155 187 165 L187 210 Z" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2.5" />
+      {[165, 178, 191, 204].map((y) => (
+        <line key={y} x1="120" y1={y} x2="187" y2={y} stroke={shade(wood, 0.4)} strokeWidth="1.5" opacity="0.5" />
+      ))}
+      <ellipse cx="255" cy="225" rx="45" ry="14" fill="#B0B8BF" stroke={dark} strokeWidth="2" />
+      <ellipse cx="255" cy="218" rx="34" ry="12" fill={paste} stroke={dark} strokeWidth="2" />
+      <path d="M215 175 L245 200" stroke={wood} strokeWidth="7" strokeLinecap="round" />
     </g>
   );
 };
 
 const LagoInleRemerosDePierna: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
+  const sky = "#F4C87A";
+  const skin = "#D9A46A";
   return (
     <g>
-      <path d="M180 172 Q200 164 220 172 L214 178 L186 178 Z" fill={accentColor} />
-      <line x1="200" y1="172" x2="196" y2="146" stroke={dark} strokeWidth="2.2" />
-      <path d="M182 172 Q200 178 218 172" fill="none" stroke={light} strokeWidth="1.6" opacity="0.6" />
+      <rect x="90" y="80" width="230" height="95" fill={sky} opacity="0.55" />
+      <circle cx="290" cy="115" r="24" fill="#F4A300" opacity="0.85" />
+      <path d="M90 178 Q205 165 320 178 L320 250 L90 250 Z" fill={water} />
+      <path d="M130 205 Q140 175 200 172 Q245 170 250 190 L245 210 L135 215 Z" fill={dark} stroke={shade(dark, 0.2)} strokeWidth="2" />
+      {/* standing figure rowing with one leg */}
+      <circle cx="205" cy="150" r="10" fill={skin} />
+      <path d="M198 158 L212 158 L216 195 L194 195 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <path d="M198 175 Q170 180 165 165" stroke={skin} strokeWidth="5" strokeLinecap="round" fill="none" />
+      <path d="M212 195 Q225 210 240 225" stroke={skin} strokeWidth="6" strokeLinecap="round" fill="none" />
+      <path d="M199 195 Q195 215 205 235" stroke={accentColor} strokeWidth="6" strokeLinecap="round" fill="none" />
+      <line x1="220" y1="150" x2="250" y2="230" stroke={dark} strokeWidth="3" />
+      {/* cone fishing net */}
+      <path d="M165 165 L145 200 L185 200 Z" fill="none" stroke={dark} strokeWidth="2" opacity="0.7" />
     </g>
   );
 };
 
 const RocaDoradaKyaiktiyo: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const gold = "#D4AF37";
   return (
     <g>
-      <path d="M182 178 L218 178 L212 168 L188 168 Z" fill={dark} />
-      <ellipse cx="200" cy="156" rx="15" ry="12" fill={accentColor} />
-      <path d="M196 148 L200 138 L204 148 Z" fill={light} />
+      <path d="M95 240 L165 165 L245 195 L320 240 Z" fill={dark} />
+      <path d="M150 220 Q155 175 205 165 Q255 155 265 195 Q270 220 240 228 Q195 236 165 228 Q148 224 150 220 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="3" />
+      <path d="M175 200 Q185 185 210 183" stroke="#fff" strokeWidth="3" opacity="0.5" fill="none" />
+      <rect x="196" y="150" width="18" height="18" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+      <path d="M196 150 L205 132 L214 150 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+      <line x1="205" y1="132" x2="205" y2="118" stroke={dark} strokeWidth="2" />
+      {[[130, 245], [290, 250]].map(([x, y]) => (
+        <g key={x}>
+          <circle cx={x} cy={(y as number) - 16} r="7" fill="#D9A46A" />
+          <path d={`M${(x as number) - 8} ${(y as number) - 6} L${x} ${(y as number) - 12} L${(x as number) + 8} ${(y as number) - 6} L${(x as number) + 5} ${y} L${(x as number) - 5} ${y} Z`} fill={accentColor} />
+        </g>
+      ))}
     </g>
   );
 };
 
 const MosaicoDe135Etnias: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const colors = [accentColor, "#C1272D", "#00838F"];
   return (
     <g>
-      <rect x="184" y="148" width="14" height="28" fill={accentColor} />
-      <rect x="200" y="148" width="14" height="28" fill={dark} />
-      <line x1="184" y1="156" x2="198" y2="156" stroke={light} strokeWidth="1.4" opacity="0.7" />
-      <line x1="200" y1="164" x2="214" y2="164" stroke={light} strokeWidth="1.4" opacity="0.7" />
+      {[[110, 100, colors[0]], [175, 90, colors[1]], [240, 100, colors[2]]].map(([x, y, c], idx) => (
+        <g key={x as number}>
+          <rect x={x} y={y} width="70" height="130" fill={c as string} stroke={dark} strokeWidth="2.5" />
+          {[0, 1, 2, 3, 4].map((row) => (
+            <rect key={row} x={(x as number) + 8} y={(y as number) + 10 + row * 24} width="54" height="14" fill={idx % 2 === 0 ? "#fff" : shade(c as string, 0.3)} opacity="0.55" />
+          ))}
+          {[0, 1, 2].map((col) => (
+            <rect key={col} x={(x as number) + 10 + col * 20} y={(y as number) + 8} width="10" height="118" fill={"#fff"} opacity="0.25" />
+          ))}
+        </g>
+      ))}
     </g>
   );
 };
 
 const GatosBirmanos: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const brown = "#4E342E";
+  const gold = "#D4AF37";
   return (
     <g>
-      <ellipse cx="200" cy="164" rx="14" ry="10" fill={accentColor} />
-      <path d="M190 156 L186 146 L196 152 Z" fill={accentColor} />
-      <path d="M210 156 L214 146 L204 152 Z" fill={accentColor} />
-      <circle cx="195" cy="160" r="1.8" fill={light} />
-      <circle cx="205" cy="160" r="1.8" fill={light} />
-      <line x1="200" y1="176" x2="212" y2="180" stroke={dark} strokeWidth="1.8" strokeLinecap="round" />
+      <ellipse cx="205" cy="215" rx="70" ry="24" fill={brown} stroke={dark} strokeWidth="2.5" />
+      <path d="M175 205 Q170 165 205 155 Q240 165 235 205 Z" fill={brown} stroke={dark} strokeWidth="2.5" />
+      <path d="M180 165 L172 145 L192 158 Z" fill={brown} stroke={dark} strokeWidth="2" />
+      <path d="M230 165 L238 145 L218 158 Z" fill={brown} stroke={dark} strokeWidth="2" />
+      <circle cx="192" cy="183" r="7" fill={gold} />
+      <circle cx="218" cy="183" r="7" fill={gold} />
+      <circle cx="192" cy="183" r="3" fill="#1A1A1A" />
+      <circle cx="218" cy="183" r="3" fill="#1A1A1A" />
+      <path d="M205 192 L200 198 L210 198 Z" fill="#2A1A15" />
+      <path d="M175 198 L150 195 M175 202 L150 205 M235 198 L260 195 M235 202 L260 205" stroke={dark} strokeWidth="1.5" />
+      <path d="M270 225 Q290 210 285 180" fill="none" stroke={brown} strokeWidth="10" strokeLinecap="round" />
     </g>
   );
 };
 
 const ShinbyuNoviciosBudistas: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <path d="M190 178 L190 150 Q200 144 210 150 L210 178 Z" fill={accentColor} />
-      <ellipse cx="188" cy="172" rx="6" ry="4" fill={dark} />
-      <circle cx="188" cy="164" r="2" fill={light} />
+      <path d="M175 235 Q170 190 180 155 Q185 140 205 138 Q225 140 230 155 Q240 190 235 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="205" cy="128" r="14" fill="#D9A46A" stroke={dark} strokeWidth="2" />
+      <path d="M180 165 Q160 175 155 200" stroke={accentColor} strokeWidth="10" strokeLinecap="round" fill="none" />
+      <path d="M230 165 Q250 175 255 200" stroke={accentColor} strokeWidth="10" strokeLinecap="round" fill="none" />
+      <path d="M185 155 Q205 165 225 155" stroke={dark} strokeWidth="2" opacity="0.5" fill="none" />
+      {/* alms bowl beside */}
+      <path d="M255 225 Q255 245 285 245 Q315 245 315 225 L310 210 L260 210 Z" fill={dark} />
+      <ellipse cx="285" cy="210" rx="27" ry="9" fill={shade(dark, 0.15)} stroke={dark} strokeWidth="2" />
     </g>
   );
 };
 
 const ChinloneDeporteSinCompetencia: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
   return (
     <g>
-      <circle cx="200" cy="158" r="16" fill="none" stroke={accentColor} strokeWidth="3" />
-      <path d="M188 148 Q200 158 188 168 M212 148 Q200 158 212 168" fill="none" stroke={dark} strokeWidth="2" opacity="0.7" />
-      <circle cx="200" cy="158" r="3" fill={light} />
+      {/* woven wicker ball mid-air */}
+      <circle cx="205" cy="130" r="26" fill="none" stroke={accentColor} strokeWidth="4" />
+      {[0, 30, 60, 90, 120, 150].map((deg) => (
+        <line key={deg} x1="179" y1="130" x2="231" y2="130" stroke={accentColor} strokeWidth="3" transform={`rotate(${deg} 205 130)`} />
+      ))}
+      <circle cx="205" cy="130" r="26" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      {/* three figures in a circle, mid-motion */}
+      {[[130, 225], [205, 240], [280, 225]].map(([x, y], i) => (
+        <g key={x as number}>
+          <circle cx={x} cy={(y as number) - 42} r="9" fill={skin} />
+          <path d={`M${(x as number) - 10} ${(y as number) - 32} Q${x} ${(y as number) - 38} ${(x as number) + 10} ${(y as number) - 32} L${(x as number) + 8} ${y} L${(x as number) - 8} ${y} Z`} fill={i === 1 ? dark : accentColor} />
+          <path d={`M${(x as number) - 8} ${(y as number) - 20} L${(x as number) - 22} ${(y as number) - 30}`} stroke={skin} strokeWidth="5" strokeLinecap="round" />
+          <path d={`M${(x as number) + 8} ${(y as number) - 20} L${(x as number) + 22} ${(y as number) - 8}`} stroke={skin} strokeWidth="5" strokeLinecap="round" />
+        </g>
+      ))}
     </g>
   );
 };
 
 export const myanmarIllustrations: Record<string, IllustrationDefinition> = {
   "bagan-miles-de-templos": { component: BaganMilesDeTemplos },
-  "pagoda-shwedagon-de-oro": { component: PagodaShwedagonDeOro, variant: "medallion" },
+  "pagoda-shwedagon-de-oro": { component: PagodaShwedagonDeOro },
   "longyi-vestimenta-tradicional": { component: LongyiVestimentaTradicional },
   "thanaka-maquillaje-tradicional": { component: ThanakaMaquillajeTradicional },
   "lago-inle-remeros-de-pierna": { component: LagoInleRemerosDePierna },
-  "roca-dorada-kyaiktiyo": { component: RocaDoradaKyaiktiyo, variant: "medallion" },
+  "roca-dorada-kyaiktiyo": { component: RocaDoradaKyaiktiyo },
   "mosaico-de-135-etnias": { component: MosaicoDe135Etnias },
   "gatos-birmanos": { component: GatosBirmanos },
   "shinbyu-novicios-budistas": { component: ShinbyuNoviciosBudistas },

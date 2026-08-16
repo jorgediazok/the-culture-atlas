@@ -237,12 +237,37 @@ that entry, not a full-country pass.
   compact bulging head mass with its own eye/muzzle/jaw, from which the
   lyre-shaped horns emerge) and committed in `64b1653` along with unrelated
   cover-page work from the same session. User confirmed it looks right.
+- **Asia — all 17 countries rewritten to the bold standard**: Thailand,
+  Vietnam, China, Iran, Palestine, Turkmenistan, North Korea, Nepal,
+  Indonesia, Laos, Japan, Myanmar, India, Bangladesh, Pakistan, Mongolia,
+  Philippines. All pass `tsc`, `eslint`, and the id-matching audit. Per the
+  same standing user instruction as South/North America, no full
+  screenshot-every-entry pass was run — the user reviews personally in the
+  running dev server and names specific entries to fix. Not yet committed.
+- **Africa — all 16 countries rewritten to the bold standard**: Algeria,
+  Botswana, Burundi, Cape Verde, Egypt, Eritrea, Ethiopia, Gambia, Ghana,
+  Ivory Coast, Kenya, Lesotho, Morocco, South Africa, Uganda, Zimbabwe. All
+  pass `tsc` and `eslint` (each fixed for unused-var warnings immediately
+  after writing) and the id-matching audit. Same as Asia/Americas, no
+  screenshot pass — user reviews personally. Committed.
+- **Oceania — all 14 countries rewritten to the bold standard**: Australia,
+  New Zealand, Fiji, Kiribati, Marshall Islands, Micronesia, Nauru, New
+  Caledonia, Palau, Papua New Guinea, Solomon Islands, Tonga, Tuvalu,
+  Vanuatu. All pass `tsc` and `eslint` and the id-matching audit. Australia's
+  `Canguros` (kangaroo) was flagged by the user immediately after the first
+  pass as not reading as a kangaroo and was redesigned with a clear silhouette
+  (thick balancing tail, powerful hind leg/foot extended mid-hop, small
+  tucked front paws, upright pointed ears, joey peeking from the pouch) —
+  confirmed fixed, see the accuracy-fixes checklist pattern above. One
+  Solomon Islands component (`DineroDeConchasDeLangaLanga`) originally used
+  `Math.sin` at render time to lay out shell beads along a curve — caught and
+  fixed per the no-trig-at-render rule by precomputing the point array
+  offline (`SHELL_STRAND_POINTS`). Same no-screenshot-pass policy. Committed.
 
-**Not yet touched at all** (still on the old tiny/abstract style): whatever
-remains in `src/content/` outside Europe/South America/North America —
-mainly Asia, Africa, and Oceania. No specific request yet — wait for the
-user to name the next country/countries/continent rather than proactively
-working through the whole list, per the pattern established this session.
+**All continents are now done to the bold standard** (Europe, South America,
+North America, Asia, Africa, Oceania). No countries remain on the old
+tiny/abstract style. Next steps are the two deferred larger-scope tasks below,
+to be started only when the user explicitly says so.
 
 ## Deferred, larger-scope tasks (explicitly NOT started — user said to wait)
 

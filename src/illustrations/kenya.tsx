@@ -2,28 +2,38 @@ import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const GranMigracionMasaiMara: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
   return (
     <g>
-      <path d="M160 165 h80 v14 h-80 Z" fill={light} />
-      {[170, 190, 210, 225].map((x, i) => (
-        <path key={x} d={`M${x} 165 l6 -14 l6 14 Z`} fill={i % 2 === 0 ? accentColor : dark} />
+      <path d="M90 235 Q205 220 320 235 L320 250 L90 250 Z" fill={water} />
+      {[[130, 220, 0], [170, 210, 1], [210, 225, 0], [250, 208, 1], [280, 222, 0]].map(([x, y, stripes]) => (
+        <g key={x}>
+          <path d={`M${x} ${y} Q${x - 8} ${y - 18} ${x + 4} ${y - 20} Q${x + 16} ${y - 18} ${x + 10} ${y} Z`} fill={stripes ? "#F5F0E6" : accentColor} stroke={dark} strokeWidth="2" />
+          {stripes === 1 && [0, 1, 2].map((s) => (
+            <line key={s} x1={x + s * 3} y1={y - 5} x2={x + s * 3} y2={y - 16} stroke={dark} strokeWidth="1.5" />
+          ))}
+          <line x1={x + 5} y1={y} x2={x + 3} y2={y + 12} stroke={dark} strokeWidth="3" />
+          <line x1={x + 8} y1={y} x2={x + 10} y2={y + 12} stroke={dark} strokeWidth="3" />
+        </g>
       ))}
     </g>
   );
 };
 
 const PuebloMasai: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const colors = ["#F4A300", "#00838F", "#2E7D32", "#fff"];
   return (
     <g>
-      <rect x="170" y="120" width="60" height="55" fill={accentColor} />
-      {[0, 1, 2].map((row) => (
-        <line key={row} x1="170" y1={135 + row * 15} x2="230" y2={135 + row * 15} stroke={dark} strokeWidth="3" />
+      <path d="M150 235 L150 155 Q150 145 205 145 Q260 145 260 155 L260 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[165, 190, 215, 240].map((x) => (
+        <line key={x} x1={x} y1="150" x2={x} y2="235" stroke={dark} strokeWidth="1.5" opacity="0.4" />
       ))}
-      <circle cx="200" cy="147" r="6" fill={light} />
+      <circle cx="290" cy="180" r="34" fill="none" stroke={dark} strokeWidth="3" />
+      {[0, 45, 90, 135, 180, 225, 270, 315].map((deg, i) => (
+        <circle key={deg} cx="290" cy="150" r="5" fill={colors[i % colors.length]} transform={`rotate(${deg} 290 180)`} />
+      ))}
     </g>
   );
 };
@@ -33,106 +43,130 @@ const MPesa: IllustrationComponent = ({ accentColor }) => {
   const light = tint(accentColor, 0.6);
   return (
     <g>
-      <rect x="180" y="115" width="40" height="65" rx="6" fill={dark} />
-      <rect x="185" y="122" width="30" height="45" fill={light} />
-      <circle cx="200" cy="150" r="10" fill={accentColor} />
+      <rect x="165" y="120" width="80" height="140" rx="10" fill="#1A1A1A" stroke={dark} strokeWidth="3" />
+      <rect x="175" y="135" width="60" height="95" fill={light} />
+      <circle cx="205" cy="180" r="26" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <text x="205" y="188" fontSize="24" fontWeight="700" fill="#fff" textAnchor="middle">$</text>
+      <circle cx="205" cy="245" r="6" fill={dark} />
     </g>
   );
 };
 
 const CorredoresKeniatas: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const skin = "#6B4B3A";
+  const dirt = "#B5651D";
   return (
     <g>
-      <path d="M175 185 L190 155 L182 140 L200 130 L205 150 L220 145" fill="none" stroke={accentColor} strokeWidth="6" strokeLinecap="round" />
-      <circle cx="203" cy="120" r="8" fill={dark} />
-      <path d="M155 185 h90" stroke={light} strokeWidth="3" strokeDasharray="6 6" />
+      <path d="M90 240 Q205 225 320 240 L320 250 L90 250 Z" fill={dirt} opacity="0.5" />
+      <circle cx="180" cy="150" r="12" fill={skin} />
+      <path d="M170 165 Q182 160 194 165 L188 200 L198 235 L186 235 L178 205 L170 235 L158 235 L164 195 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M194 170 Q220 160 235 135" stroke={skin} strokeWidth="6" strokeLinecap="round" fill="none" />
+      <path d="M170 170 Q150 180 145 205" stroke={skin} strokeWidth="6" strokeLinecap="round" fill="none" />
+      <polygon points="150,220 205,145 260,220" fill={dark} opacity="0.25" />
     </g>
   );
 };
 
 const MonteKenia: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.7);
+  const snow = "#F5F0E6";
   return (
     <g>
-      <path d="M160 185 L195 115 L230 185 Z" fill={accentColor} />
-      <path d="M182 145 L195 115 L208 145 L195 155 Z" fill={light} />
-      <path d="M170 185 L195 140 L220 185 Z" fill={dark} opacity="0.3" />
+      <polygon points="100,240 205,110 310,240" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <polygon points="165,190 205,110 245,190" fill={snow} />
+      <path d="M90 245 Q205 235 320 245" stroke={dark} strokeWidth="2" opacity="0.3" fill="none" />
+      {[[135, 220], [275, 215]].map(([x, y]) => (
+        <path key={x as number} d={`M${x} ${y} Q${(x as number) - 10} ${(y as number) - 20} ${x} ${(y as number) - 40} Q${(x as number) + 10} ${(y as number) - 20} ${x} ${y} Z`} fill="#2E7D32" opacity="0.6" />
+      ))}
     </g>
   );
 };
 
 const CafeKeniata: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const bean = "#4A2C2A";
   return (
     <g>
-      <path d="M175 140 h35 v25 a17.5 17.5 0 0 1 -35 0 Z" fill={accentColor} />
-      <path d="M212 145 h10 a8 10 0 0 1 0 20 h-10 Z" fill={dark} />
-      <path d="M185 130 q3 -8 -2 -14 M198 130 q3 -8 -2 -14" stroke={light} strokeWidth="2" fill="none" />
+      <path d="M170 195 Q165 235 205 238 Q245 235 240 195 L235 175 L175 175 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="205" cy="175" rx="30" ry="10" fill={accentColor} />
+      <path d="M235 185 Q255 188 258 205 Q255 220 238 216" fill="none" stroke="#F5F0E6" strokeWidth="6" strokeLinecap="round" />
+      <path d="M195 165 Q190 150 198 138" fill="none" stroke="#B0AFA8" strokeWidth="2.5" opacity="0.6" />
+      {[[130, 220], [150, 235], [115, 235]].map(([x, y]) => (
+        <ellipse key={x as number} cx={x} cy={y} rx="9" ry="6" fill={bean} stroke={shade(bean, 0.3)} strokeWidth="1" transform={`rotate(15 ${x} ${y})`} />
+      ))}
     </g>
   );
 };
 
 const LenguaSwahili: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
   return (
     <g>
-      <path d="M165 130 h45 v26 h-16 l-8 11 v-11 h-21 Z" fill={accentColor} />
-      <path d="M212 150 h30 v20 h-11 l-6 9 v-9 h-13 Z" fill={light} />
-      <circle cx="182" cy="143" r="2.5" fill={dark} />
-      <circle cx="193" cy="143" r="2.5" fill={dark} />
+      <path d="M120 130 Q120 115 140 115 L185 115 Q195 115 193 128 L195 150 L172 130 L140 130 Q120 130 120 130 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M290 160 Q290 145 270 145 L225 145 Q215 145 217 158 L215 180 L238 160 L270 160 Q290 160 290 160 Z" fill={water} stroke={dark} strokeWidth="2.5" />
+      <path d="M90 245 Q205 235 320 245" stroke={dark} strokeWidth="2" opacity="0.3" fill="none" />
     </g>
   );
 };
 
 const FlamencosLagoNakuru: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.55);
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
   return (
     <g>
-      <ellipse cx="200" cy="180" rx="45" ry="8" fill={light} opacity="0.5" />
-      <path d="M185 180 V150 Q185 140 195 140 Q200 140 198 148 L188 180 Z" fill={accentColor} />
-      <circle cx="197" cy="139" r="5" fill={dark} />
-      <path d="M215 180 V158 Q215 148 223 150 L212 180 Z" fill={light} />
+      <path d="M90 220 Q205 205 320 220 L320 250 L90 250 Z" fill={water} />
+      {[[130, 205, 1], [165, 195, 0.9], [200, 210, 0.85], [235, 198, 0.95], [270, 212, 0.8]].map(([x, y, scale], i) => (
+        <g key={x as number} transform={`translate(${x} ${y}) scale(${scale})`}>
+          <ellipse cx="0" cy="0" rx="10" ry="15" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+          <path d="M-2 -12 Q-2 -30 -14 -38" stroke={accentColor} strokeWidth="4" strokeLinecap="round" fill="none" />
+          <path d="M-14 -38 L-22 -35 L-15 -30 Z" fill={dark} opacity={0.7 - i * 0.05} />
+          <line x1="0" y1="12" x2="-3" y2="30" stroke={dark} strokeWidth="2" />
+          <line x1="4" y1="12" x2="7" y2="30" stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
     </g>
   );
 };
 
 const CostaSwahiliMombasa: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
   return (
     <g>
-      <rect x="165" y="155" width="30" height="30" fill={dark} />
-      <path d="M210 185 L210 130 L235 155 Z" fill={light} />
-      <rect x="207" y="150" width="6" height="35" fill={accentColor} />
+      <path d="M90 235 Q205 245 320 235 L320 250 L90 250 Z" fill={water} />
+      <rect x="120" y="150" width="90" height="85" fill="#D9BE8F" stroke={shade("#D9BE8F", 0.3)} strokeWidth="3" />
+      {[135, 165, 195].map((x) => (
+        <rect key={x} x={x - 6} y="130" width="12" height="20" fill="#D9BE8F" stroke={shade("#D9BE8F", 0.3)} strokeWidth="2" />
+      ))}
+      <path d="M250 235 L250 165 L295 190 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <line x1="250" y1="235" x2="250" y2="155" stroke={dark} strokeWidth="3" />
+      <path d="M235 232 L250 220 L265 232 Z" fill="#8B5A2B" />
     </g>
   );
 };
 
 const GranValleDelRift: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.55);
+  const water = "#3D8FB0";
   return (
     <g>
-      <path d="M155 185 L185 120 L200 150 L215 120 L245 185 Z" fill={accentColor} />
-      <path d="M195 185 L200 160 L205 185 Z" fill={dark} />
-      <circle cx="200" cy="150" r="4" fill={light} />
+      <polygon points="90,240 165,120 210,240" fill={accentColor} opacity="0.6" />
+      <polygon points="200,240 250,110 320,240" fill={dark} opacity="0.6" />
+      <polygon points="175,240 205,150 235,240" fill="#5C3A1E" opacity="0.85" />
+      <ellipse cx="205" cy="235" rx="20" ry="8" fill={water} />
     </g>
   );
 };
 
 export const kenyaIllustrations: Record<string, IllustrationDefinition> = {
   "gran-migracion-masai-mara": { component: GranMigracionMasaiMara },
-  "pueblo-masai": { component: PuebloMasai, variant: "medallion" },
+  "pueblo-masai": { component: PuebloMasai },
   "m-pesa": { component: MPesa },
   "corredores-keniatas": { component: CorredoresKeniatas },
   "monte-kenia": { component: MonteKenia },
-  "cafe-keniata": { component: CafeKeniata, variant: "medallion" },
+  "cafe-keniata": { component: CafeKeniata },
   "lengua-swahili": { component: LenguaSwahili },
   "flamencos-lago-nakuru": { component: FlamencosLagoNakuru },
   "costa-swahili-mombasa": { component: CostaSwahiliMombasa },

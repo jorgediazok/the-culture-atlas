@@ -2,15 +2,23 @@ import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const Persepolis: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.3);
+  const dark = shade(accentColor, 0.35);
   const light = tint(accentColor, 0.6);
   return (
     <g>
-      <rect x="150" y="180" width="100" height="10" fill={dark} />
-      {[160, 180, 200, 220, 240].map((x) => (
+      {/* elevated stone platform */}
+      <rect x="95" y="220" width="225" height="20" fill={dark} />
+      {[0, 1, 2].map((i) => (
+        <rect key={i} x={100 + i * 8} y={225 + i * 5} width={215 - i * 16} height="4" fill={shade(dark, 0.15)} />
+      ))}
+      {/* columns with carved capitals */}
+      {[130, 175, 220, 265].map((x) => (
         <g key={x}>
-          <rect x={x} y="130" width="10" height="50" fill={accentColor} />
-          <rect x={x - 4} y="122" width="18" height="10" fill={light} />
+          <rect x={x} y="120" width="16" height="100" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+          <rect x={x - 6} y="108" width="28" height="14" fill={light} stroke={dark} strokeWidth="1.5" />
+          {[135, 155, 175, 195].map((y) => (
+            <line key={y} x1={x} y1={y} x2={x + 16} y2={y} stroke={dark} strokeWidth="1" opacity="0.3" />
+          ))}
         </g>
       ))}
     </g>
@@ -18,54 +26,77 @@ const Persepolis: IllustrationComponent = ({ accentColor }) => {
 };
 
 const PoesiaPersa: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
   const light = tint(accentColor, 0.7);
+  const red = "#C1272D";
   return (
     <g>
-      <path d="M160 120 h75 v55 h-75 Z" fill={accentColor} />
-      <line x1="197" y1="120" x2="197" y2="175" stroke={dark} strokeWidth="2" />
-      <path d="M172 140 q10 15 0 30 M222 140 q-10 15 0 30" fill="none" stroke={light} strokeWidth="3" />
+      {/* open book */}
+      <path d="M205 150 L120 165 L120 225 L205 215 Z" fill={accentColor} />
+      <path d="M205 150 L290 165 L290 225 L205 215 Z" fill={dark} />
+      <line x1="205" y1="150" x2="205" y2="215" stroke={light} strokeWidth="2" />
+      {[170, 185, 200].map((y) => (
+        <line key={y} x1="135" y1={y} x2="190" y2={y - 3} stroke={light} strokeWidth="1.5" opacity="0.7" />
+      ))}
+      {/* rose beside it */}
+      <path d="M255 200 L255 240" stroke="#4A8F4E" strokeWidth="4" />
+      <circle cx="255" cy="185" r="18" fill={red} />
+      <circle cx="255" cy="185" r="10" fill={shade(red, 0.15)} />
     </g>
   );
 };
 
 const AlfombrasPersas: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.3);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  const red = "#8B2942";
   return (
     <g>
-      <rect x="155" y="115" width="90" height="60" fill={accentColor} />
-      <rect x="165" y="125" width="70" height="40" fill="none" stroke={light} strokeWidth="3" />
-      <circle cx="200" cy="145" r="10" fill={dark} />
-      {[170, 230].map((x) => (
-        <circle key={x} cx={x} cy="145" r="5" fill={light} />
+      <rect x="105" y="105" width="200" height="140" fill={red} stroke={dark} strokeWidth="3" />
+      <rect x="120" y="120" width="170" height="110" fill="none" stroke={gold} strokeWidth="4" />
+      <path d="M205 145 L225 175 L205 205 L185 175 Z" fill={gold} />
+      <circle cx="205" cy="175" r="10" fill={accentColor} />
+      {[[140, 140], [270, 140], [140, 210], [270, 210]].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="10" fill={gold} opacity="0.8" />
       ))}
     </g>
   );
 };
 
 const Nowruz: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.7);
+  const dark = shade(accentColor, 0.4);
+  const green = "#4A8F4E";
+  const red = "#C1272D";
   return (
     <g>
-      <rect x="160" y="165" width="80" height="8" fill={dark} />
-      {[172, 192, 212, 228].map((x, i) => (
-        <path key={x} d={`M${x} 165 q0 -${20 + (i % 2) * 8} 8 -${28 + (i % 2) * 8}`} fill="none" stroke={accentColor} strokeWidth="5" strokeLinecap="round" />
-      ))}
-      <circle cx="220" cy="130" r="8" fill={light} />
+      {/* table */}
+      <rect x="105" y="195" width="215" height="12" fill={dark} />
+      <rect x="115" y="207" width="10" height="35" fill={dark} />
+      <rect x="290" y="207" width="10" height="35" fill={dark} />
+      {/* wheat/green sprouts */}
+      <path d="M150 195 Q145 170 150 145 M158 195 Q163 172 158 148" stroke={green} strokeWidth="4" strokeLinecap="round" fill="none" />
+      <path d="M240 195 Q235 168 240 142 M248 195 Q253 170 248 146" stroke={green} strokeWidth="4" strokeLinecap="round" fill="none" />
+      {/* red apple */}
+      <circle cx="205" cy="175" r="22" fill={red} />
+      <path d="M205 153 Q200 145 205 140" stroke="#4A8F4E" strokeWidth="3" fill="none" />
     </g>
   );
 };
 
 const CineIrani: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.3);
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.6);
   return (
     <g>
-      <circle cx="200" cy="140" r="46" fill={accentColor} />
-      <circle cx="200" cy="140" r="12" fill={dark} />
-      {[0, 60, 120, 180, 240, 300].map((deg) => (
-        <circle key={deg} cx={200 + Math.cos((deg * Math.PI) / 180) * 28} cy={140 + Math.sin((deg * Math.PI) / 180) * 28} r="6" fill={dark} />
+      <rect x="115" y="150" width="120" height="90" fill={dark} />
+      <path d="M115 150 L235 150 L225 122 L105 122 Z" fill={accentColor} />
+      {[0, 1, 2, 3, 4].map((i) => (
+        <rect key={i} x={108 + i * 24} y="122" width="12" height="28" fill={i % 2 === 0 ? "#1A1A1A" : "#F5F0E6"} transform="skewX(-20)" />
+      ))}
+      <rect x="130" y="175" width="90" height="10" fill={light} opacity="0.6" />
+      <circle cx="280" cy="195" r="40" fill="none" stroke={dark} strokeWidth="8" />
+      {[0, 72, 144, 216, 288].map((deg) => (
+        <circle key={deg} cx="280" cy="168" r="8" fill={dark} transform={`rotate(${deg} 280 195)`} />
       ))}
     </g>
   );
@@ -73,77 +104,81 @@ const CineIrani: IllustrationComponent = ({ accentColor }) => {
 
 const JardinesPersas: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.3);
-  const light = tint(accentColor, 0.6);
+  const water = "#3D8FB0";
   return (
     <g>
-      <rect x="150" y="115" width="100" height="65" fill={light} />
-      <rect x="196" y="115" width="8" height="65" fill={dark} />
-      <rect x="150" y="143" width="100" height="8" fill={dark} />
-      {[170, 225].map((x) => (
-        <circle key={x} cx={x} cy="128" r="8" fill={accentColor} />
+      <rect x="105" y="105" width="200" height="140" fill={accentColor} opacity="0.5" />
+      <rect x="195" y="105" width="20" height="140" fill={water} />
+      <rect x="105" y="165" width="200" height="20" fill={water} />
+      {[[150, 130], [255, 130], [150, 220], [255, 220]].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="18" fill={dark} opacity="0.6" />
       ))}
     </g>
   );
 };
 
 const Zoroastrismo: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.3);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const flame = "#F4A300";
   return (
     <g>
-      <path d="M200 108 C180 108 170 128 178 140 C168 148 170 168 188 172 C192 182 208 182 212 172 C230 168 232 148 222 140 C230 128 220 108 200 108 Z" fill={accentColor} />
-      <rect x="180" y="180" width="40" height="10" fill={dark} />
-      <circle cx="200" cy="140" r="8" fill={light} />
+      <path d="M155 240 L165 195 L245 195 L255 240 Z" fill={dark} />
+      <rect x="170" y="220" width="70" height="12" fill={shade(dark, 0.2)} />
+      <ellipse cx="205" cy="195" rx="45" ry="12" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <path d="M205 195 Q190 170 200 145 Q205 155 205 145 Q210 155 210 145 Q220 170 205 195 Z" fill={flame} />
     </g>
   );
 };
 
 const Azafran: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.75);
+  const dark = shade(accentColor, 0.4);
+  const purple = "#8B5FBF";
+  const red = "#C1272D";
   return (
     <g>
-      {[0, 72, 144, 216, 288].map((deg) => (
-        <ellipse
-          key={deg}
-          cx="200"
-          cy="118"
-          rx="9"
-          ry="20"
-          fill={light}
-          transform={`rotate(${deg} 200 140)`}
-        />
+      {[0, 60, 120, 180, 240, 300].map((deg) => (
+        <ellipse key={deg} cx="205" cy="150" rx="14" ry="34" fill={purple} transform={`rotate(${deg} 205 195)`} />
       ))}
-      <circle cx="200" cy="140" r="7" fill={accentColor} />
-      <path d="M195 140 l-4 12 M200 140 l0 14 M205 140 l4 12" stroke={dark} strokeWidth="3" strokeLinecap="round" />
+      <circle cx="205" cy="195" r="16" fill={accentColor} />
+      {[-15, 0, 15].map((deg) => (
+        <line key={deg} x1="205" y1="195" x2="205" y2="155" stroke={red} strokeWidth="4" strokeLinecap="round" transform={`rotate(${deg} 205 195)`} />
+      ))}
+      <line x1="205" y1="195" x2="205" y2="240" stroke={dark} strokeWidth="4" />
     </g>
   );
 };
 
 const AzulejosIsfahan: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.3);
-  const light = tint(accentColor, 0.55);
+  const dark = shade(accentColor, 0.4);
+  const teal = "#1D8FA5";
+  const gold = "#D4A017";
   return (
     <g>
-      <path d="M200 108 a35 35 0 0 1 35 35 h-70 a35 35 0 0 1 35 -35 Z" fill={accentColor} />
-      {Array.from({ length: 5 }).map((_, i) => (
-        <circle key={i} cx={175 + i * 12} cy="140" r="4" fill={i % 2 === 0 ? light : dark} />
-      ))}
-      <rect x="185" y="143" width="30" height="40" fill={dark} />
+      <path d="M115 235 L115 175 Q115 120 205 105 Q295 120 295 175 L295 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[0, 1, 2, 3].map((row) =>
+        [0, 1, 2, 3, 4].map((col) => (
+          <rect key={`${row}-${col}`} x={130 + col * 32} y={130 + row * 24} width="26" height="20" fill={(row + col) % 2 === 0 ? teal : gold} opacity="0.85" />
+        ))
+      )}
     </g>
   );
 };
 
 const CiroElGrande: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
   const light = tint(accentColor, 0.6);
   return (
     <g>
-      <rect x="175" y="115" width="20" height="60" rx="8" fill={accentColor} />
-      <line x1="181" y1="128" x2="189" y2="128" stroke={dark} strokeWidth="2" />
-      <line x1="181" y1="140" x2="189" y2="140" stroke={dark} strokeWidth="2" />
-      <line x1="181" y1="152" x2="189" y2="152" stroke={dark} strokeWidth="2" />
-      <circle cx="220" cy="130" r="14" fill={light} />
+      <path d="M155 235 L155 130 Q155 118 175 118 L235 118 Q255 118 255 130 L255 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="130" rx="50" ry="12" fill={light} stroke={dark} strokeWidth="2" />
+      <ellipse cx="205" cy="235" rx="50" ry="12" fill={dark} />
+      {[150, 165, 180, 195, 210].map((y) => (
+        <g key={y}>
+          {[170, 190, 210, 230].map((x) => (
+            <line key={x} x1={x} y1={y} x2={x + 6} y2={y + 4} stroke={dark} strokeWidth="1.5" opacity="0.6" />
+          ))}
+        </g>
+      ))}
     </g>
   );
 };
@@ -153,10 +188,10 @@ export const iranIllustrations: Record<string, IllustrationDefinition> = {
   "poesia-persa": { component: PoesiaPersa },
   "alfombras-persas": { component: AlfombrasPersas },
   nowruz: { component: Nowruz },
-  "cine-irani": { component: CineIrani, variant: "medallion" },
+  "cine-irani": { component: CineIrani },
   "jardines-persas": { component: JardinesPersas },
-  zoroastrismo: { component: Zoroastrismo, variant: "medallion" },
-  azafran: { component: Azafran, variant: "medallion" },
+  zoroastrismo: { component: Zoroastrismo },
+  azafran: { component: Azafran },
   "azulejos-isfahan": { component: AzulejosIsfahan },
   "ciro-el-grande": { component: CiroElGrande },
 };

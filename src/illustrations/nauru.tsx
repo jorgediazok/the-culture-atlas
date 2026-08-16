@@ -2,121 +2,155 @@ import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const FosfatoNauru: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const rock = "#E8E4DC";
   return (
     <g>
-      <path d="M165 185 Q165 160 200 158 Q235 160 235 185 Z" fill={light} />
-      <rect x="196" y="120" width="8" height="45" fill={dark} />
-      <path d="M204 122 L228 110 L226 122 L204 132 Z" fill={accentColor} />
+      <polygon points="120,240 175,150 230,240" fill={rock} stroke={shade(rock, 0.3)} strokeWidth="3" />
+      <polygon points="180,240 230,170 280,240" fill={tint(rock, 0.1)} stroke={shade(rock, 0.3)} strokeWidth="2.5" opacity="0.85" />
+      <rect x="250" y="205" width="10" height="35" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <path d="M255 205 Q280 195 295 165" fill="none" stroke={accentColor} strokeWidth="8" strokeLinecap="round" />
+      <path d="M290 155 L305 148 L298 168 Z" fill={dark} />
     </g>
   );
 };
 
-const TopografiaLunar: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+const TopografiaLunar: IllustrationComponent = () => {
+  const rock = "#B0AFA8";
   return (
     <g>
-      <path d="M160 185 L168 150 L176 170 L184 140 L192 170 L200 145 L208 170 L216 150 L224 185 Z" fill={accentColor} />
-      <path d="M172 185 L178 165 L184 185 Z" fill={dark} opacity="0.5" />
+      <rect x="90" y="80" width="230" height="90" fill="#F4C87A" opacity="0.3" />
+      {[[120, 240, 150], [160, 240, 130], [200, 240, 165], [240, 240, 140], [280, 240, 155]].map(([x, base, peak]) => (
+        <polygon key={x as number} points={`${(x as number) - 16},${base} ${x},${peak} ${(x as number) + 16},${base}`} fill={rock} stroke={shade(rock, 0.3)} strokeWidth="1.5" />
+      ))}
+      <circle cx="270" cy="110" r="16" fill="#F4A300" opacity="0.6" />
     </g>
   );
 };
 
 const DiabetesObesidad: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const food = "#E8A33D";
   return (
     <g>
-      <ellipse cx="195" cy="165" rx="30" ry="10" fill={light} />
-      <rect x="215" y="130" width="16" height="26" rx="3" fill={accentColor} />
-      <rect x="219" y="136" width="8" height="6" fill={dark} />
+      <ellipse cx="175" cy="200" rx="55" ry="18" fill="#F5EFE0" stroke={dark} strokeWidth="2.5" />
+      {[[150, 195], [175, 190], [200, 197]].map(([x, y]) => (
+        <ellipse key={x as number} cx={x} cy={y} rx="14" ry="8" fill={food} stroke={shade(food, 0.3)} strokeWidth="1.5" />
+      ))}
+      <rect x="255" y="165" width="34" height="60" rx="6" fill="#1A1A1A" stroke={dark} strokeWidth="2.5" />
+      <rect x="262" y="175" width="20" height="14" fill={accentColor} opacity="0.6" />
+      <circle cx="272" cy="205" r="4" fill="#C1272D" />
     </g>
   );
 };
 
 const CentroDetencionRefugiados: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const sand = "#D9BE8F";
   return (
     <g>
-      {[170, 190, 210, 230].map((x) => (
-        <line key={x} x1={x} y1="130" x2={x} y2="185" stroke={dark} strokeWidth="3" />
+      <rect x="90" y="200" width="230" height="50" fill={sand} opacity="0.6" />
+      {[110, 140, 170, 200, 230, 260, 290].map((x) => (
+        <line key={x} x1={x} y1="165" x2={x} y2="220" stroke="#5C5C5C" strokeWidth="2" />
       ))}
-      <path d="M170 145 L230 155 M170 165 L230 145 M170 175 L230 165" stroke={light} strokeWidth="1.6" />
+      <line x1="110" y1="180" x2="290" y2="180" stroke="#5C5C5C" strokeWidth="1.5" />
+      <line x1="110" y1="200" x2="290" y2="200" stroke="#5C5C5C" strokeWidth="1.5" />
+      {[[130, 220], [220, 218]].map(([x, y]) => (
+        <path key={x as number} d={`M${x} ${y} L${(x as number) + 25} ${(y as number) - 25} L${(x as number) + 50} ${y} Z`} fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      ))}
     </g>
   );
 };
 
 const SinCapitalOficial: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
   return (
     <g>
-      <rect x="175" y="150" width="50" height="35" fill={accentColor} />
-      <path d="M170 150 L200 130 L230 150 Z" fill={dark} />
-      <rect x="192" y="165" width="16" height="20" fill={light} />
+      <path d="M90 240 Q205 250 320 240 L320 250 L90 250 Z" fill={water} />
+      <path d="M90 220 Q205 210 320 220" fill="none" stroke="#5C5C5C" strokeWidth="8" />
+      <rect x="175" y="180" width="60" height="40" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <polygon points="170,180 205,155 240,180" fill={dark} opacity="0.5" />
+      <rect x="195" y="195" width="12" height="25" fill={dark} opacity="0.5" />
     </g>
   );
 };
 
 const PecesDomesticadosLaguna: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
   return (
     <g>
-      <ellipse cx="200" cy="170" rx="40" ry="14" fill={light} />
-      <path d="M185 168 Q195 160 205 168 Q195 176 185 168 Z" fill={accentColor} />
-      <path d="M205 168 L215 162 L215 174 Z" fill={dark} />
+      <ellipse cx="205" cy="180" rx="95" ry="55" fill={water} opacity="0.55" stroke={dark} strokeWidth="2.5" />
+      {[[160, 175], [210, 195], [250, 165], [190, 155]].map(([x, y], i) => (
+        <g key={x as number}>
+          <ellipse cx={x} cy={y} rx="14" ry="7" fill="#C9D3DB" stroke={dark} strokeWidth="1.5" opacity={0.95 - i * 0.05} />
+          <path d={`M${(x as number) - 14} ${y} L${(x as number) - 22} ${(y as number) - 5} M${(x as number) - 14} ${y} L${(x as number) - 22} ${(y as number) + 5}`} stroke={dark} strokeWidth="1.5" />
+        </g>
+      ))}
     </g>
   );
 };
 
 const RefugioFiscalNauru: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
   return (
     <g>
-      <rect x="178" y="130" width="44" height="44" rx="4" fill={accentColor} />
-      <circle cx="200" cy="152" r="10" fill={light} />
-      <circle cx="200" cy="152" r="3" fill={dark} />
+      <rect x="90" y="80" width="230" height="170" fill={water} opacity="0.5" />
+      <ellipse cx="205" cy="205" rx="70" ry="30" fill={accentColor} opacity="0.5" />
+      <rect x="170" y="150" width="70" height="65" rx="6" fill="#455A64" stroke={dark} strokeWidth="3" />
+      <circle cx="205" cy="182" r="14" fill="#78909C" stroke={dark} strokeWidth="2" />
+      <circle cx="205" cy="182" r="4" fill={dark} />
     </g>
   );
 };
 
 const IdiomaNauruano: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <path d="M170 140 h30 v35 l-15 -6 l-15 6 Z" fill={accentColor} />
-      <path d="M230 140 h-30 v35 l15 -6 l15 6 Z" fill={light} />
-      <line x1="200" y1="140" x2="200" y2="175" stroke={dark} strokeWidth="2" />
+      <path d="M130 160 Q130 145 150 145 L260 145 Q280 145 280 160 L280 220 Q280 235 260 235 L150 235 Q130 235 130 220 Z" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
+      <line x1="205" y1="145" x2="205" y2="235" stroke={dark} strokeWidth="1.5" opacity="0.3" />
+      {[165, 180].map((y) => (
+        <g key={y}>
+          <line x1="145" y1={y} x2="195" y2={y} stroke={dark} strokeWidth="1.2" opacity="0.4" />
+          <line x1="215" y1={y} x2="265" y2={y} stroke={dark} strokeWidth="1.2" opacity="0.4" />
+        </g>
+      ))}
+      {[[175, 120], [235, 115], [155, 105]].map(([x, y]) => (
+        <text key={x as number} x={x} y={y} fontSize="20" fontWeight="700" fill={accentColor} fontFamily="serif">Aa</text>
+      ))}
     </g>
   );
 };
 
 const CambioClimaticoNauru: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const water = "#3D8FB0";
   return (
     <g>
-      <path d="M155 180 Q200 172 245 180 L245 185 L155 185 Z" fill={light} />
-      <path d="M160 165 Q180 155 200 165 Q220 175 240 165" fill="none" stroke={accentColor} strokeWidth="3" />
-      <path d="M170 150 Q190 140 210 150 Q225 158 240 150" fill="none" stroke={dark} strokeWidth="2" opacity="0.6" />
+      <rect x="90" y="80" width="230" height="120" fill={water} opacity="0.55" />
+      <rect x="90" y="200" width="230" height="50" fill={accentColor} opacity="0.5" />
+      {[[130, 195], [190, 190], [250, 198], [290, 192]].map(([x, y]) => (
+        <path key={x as number} d={`M${x} ${y} Q${(x as number) + 12} ${(y as number) - 10} ${(x as number) + 24} ${y}`} fill="none" stroke="#fff" strokeWidth="3" opacity="0.6" />
+      ))}
     </g>
   );
 };
 
 const RecuperacionAmbiental: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const rock = "#B0AFA8";
   return (
     <g>
-      <path d="M175 185 L185 160 L195 185 Z" fill={dark} />
-      <path d="M205 185 L215 155 L225 185 Z" fill={dark} />
-      <path d="M200 185 V165 Q200 155 208 152" stroke={accentColor} strokeWidth="3" fill="none" strokeLinecap="round" />
-      <circle cx="208" cy="150" r="4" fill={light} />
+      {[[130, 240, 190], [180, 240, 200], [230, 240, 195], [275, 240, 205]].map(([x, base, peak]) => (
+        <polygon key={x as number} points={`${(x as number) - 14},${base} ${x},${peak} ${(x as number) + 14},${base}`} fill={rock} stroke={shade(rock, 0.3)} strokeWidth="1.5" />
+      ))}
+      {[[150, 235], [205, 232], [255, 236]].map(([x, y]) => (
+        <path key={x as number} d={`M${x} ${y} Q${(x as number) - 4} ${(y as number) - 14} ${x} ${(y as number) - 24}`} stroke={accentColor} strokeWidth="4" strokeLinecap="round" fill="none" />
+      ))}
+      {[[150, 211], [205, 208], [255, 212]].map(([x, y]) => (
+        <path key={`l${x}`} d={`M${x} ${y} Q${(x as number) - 8} ${(y as number) - 3} ${(x as number) - 12} ${(y as number) - 10}`} stroke={accentColor} strokeWidth="3" fill="none" />
+      ))}
     </g>
   );
 };
@@ -128,7 +162,7 @@ export const nauruIllustrations: Record<string, IllustrationDefinition> = {
   "centro-detencion-refugiados": { component: CentroDetencionRefugiados },
   "sin-capital-oficial": { component: SinCapitalOficial },
   "peces-domesticados-laguna": { component: PecesDomesticadosLaguna },
-  "refugio-fiscal-nauru": { component: RefugioFiscalNauru, variant: "medallion" },
+  "refugio-fiscal-nauru": { component: RefugioFiscalNauru },
   "idioma-nauruano": { component: IdiomaNauruano },
   "cambio-climatico-nauru": { component: CambioClimaticoNauru },
   "recuperacion-ambiental": { component: RecuperacionAmbiental },

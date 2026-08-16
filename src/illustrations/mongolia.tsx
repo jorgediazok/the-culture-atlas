@@ -2,116 +2,159 @@ import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const ElNaadamLosTresJuegosViriles: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
   return (
     <g>
-      <path d="M186 176 Q186 156 200 150 Q214 156 214 176" fill="none" stroke={accentColor} strokeWidth="2.5" />
-      <line x1="186" y1="176" x2="214" y2="176" stroke={accentColor} strokeWidth="2" />
-      <path d="M196 166 L204 174 M204 166 L196 174" stroke={dark} strokeWidth="1.5" />
-      <circle cx="200" cy="158" r="2" fill={light} />
+      <path d="M150 235 Q120 190 150 145 Q160 130 175 130" fill="none" stroke={wood} strokeWidth="7" strokeLinecap="round" />
+      <line x1="150" y1="145" x2="150" y2="220" stroke={dark} strokeWidth="2" opacity="0.6" />
+      <path d="M140 145 L150 130 L160 145 Z" fill={dark} />
+      <line x1="145" y1="185" x2="200" y2="185" stroke={dark} strokeWidth="2.5" />
+      <path d="M240 130 L215 235 M280 130 L305 235" stroke={accentColor} strokeWidth="16" strokeLinecap="round" />
+      <path d="M240 130 Q262 145 280 130" fill="none" stroke={dark} strokeWidth="4" />
     </g>
   );
 };
 
 const LaEstatuaDeGenghisKhanMasGrandeDelMundo: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.3);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const steel = "#B0B8BF";
   return (
     <g>
-      <path d="M186 178 Q188 164 200 162 Q212 164 214 178 Z" fill={accentColor} />
-      <path d="M200 162 L200 148" stroke={dark} strokeWidth="2.5" />
-      <path d="M196 152 L206 152" stroke={light} strokeWidth="2" />
+      <path d="M120 235 Q115 195 150 185 Q195 172 245 190 Q275 200 278 220 L272 235 L255 235 L250 220 L155 220 L148 235 Z" fill={steel} stroke={dark} strokeWidth="2.5" />
+      <path d="M120 200 Q100 205 90 225 Q88 235 100 238 Q112 235 116 220" fill="none" stroke={steel} strokeWidth="13" strokeLinecap="round" />
+      <ellipse cx="120" cy="192" rx="10" ry="14" fill={steel} stroke={dark} strokeWidth="2" />
+      <path d="M180 172 Q195 150 220 155 L228 190 L175 195 Z" fill={dark} opacity="0.6" />
+      <circle cx="228" cy="155" r="10" fill={steel} stroke={dark} strokeWidth="2" />
+      <path d="M215 145 L242 145" stroke={dark} strokeWidth="3" />
+      <path d="M220 148 L215 130" stroke={dark} strokeWidth="2" />
+      {[[170, 100], [200, 90], [230, 100]].map(([x, y]) => (
+        <path key={x as number} d={`M${x} ${y} L${(x as number) - 3} ${(y as number) + 12} L${(x as number) + 3} ${(y as number) + 12} Z`} fill={accentColor} opacity="0.4" />
+      ))}
     </g>
   );
 };
 
 const ElGerLaCasaPortatilDisenadaParaElViento: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
   return (
     <g>
-      <path d="M184 178 L188 160 L212 160 L216 178 Z" fill={light} stroke={accentColor} strokeWidth="1.5" />
-      <path d="M188 160 Q200 150 212 160" fill="none" stroke={accentColor} strokeWidth="2" />
-      <circle cx="200" cy="153" r="2" fill={dark} />
+      <path d="M130 235 L130 195 Q130 185 145 185 L265 185 Q280 185 280 195 L280 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M130 195 Q205 130 280 195 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+      {[160, 190, 220, 250].map((x) => (
+        <line key={x} x1={x} y1="195" x2="205" y2="145" stroke={wood} strokeWidth="2" opacity="0.6" />
+      ))}
+      <circle cx="205" cy="145" r="10" fill={dark} />
+      <rect x="195" y="210" width="20" height="25" fill={wood} />
     </g>
   );
 };
 
 const ElKhoomiiDosNotasDesdeUnaSolaGarganta: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
   return (
     <g>
-      <ellipse cx="200" cy="172" rx="6" ry="8" fill={accentColor} />
-      <path d="M206 166 Q216 162 218 152" fill="none" stroke={dark} strokeWidth="1.5" />
-      <path d="M206 172 Q216 172 220 166" fill="none" stroke={light} strokeWidth="1.5" />
+      <ellipse cx="185" cy="180" rx="34" ry="42" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="185" cy="200" rx="12" ry="9" fill="#5C3A2E" />
+      <path d="M215 195 Q245 175 275 178 Q295 180 300 165" fill="none" stroke={accentColor} strokeWidth="4" strokeLinecap="round" />
+      <path d="M215 205 Q250 210 285 220 Q300 224 310 212" fill="none" stroke={dark} strokeWidth="4" strokeLinecap="round" />
     </g>
   );
 };
 
 const UlanBatorLaCapitalMasFriaDelMundo: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const red = "#C1272D";
   return (
     <g>
-      <rect x="196" y="150" width="6" height="22" rx="3" fill={light} stroke={accentColor} strokeWidth="1.5" />
-      <circle cx="199" cy="176" r="5" fill={accentColor} />
-      <line x1="196" y1="158" x2="192" y2="158" stroke={dark} strokeWidth="1.2" />
-      <line x1="196" y1="164" x2="192" y2="164" stroke={dark} strokeWidth="1.2" />
+      <rect x="195" y="100" width="18" height="120" rx="9" fill="#fff" stroke={dark} strokeWidth="2.5" />
+      <circle cx="204" cy="228" r="22" fill={red} stroke={dark} strokeWidth="2.5" />
+      <rect x="199" y="150" width="10" height="75" fill={red} />
+      {[120, 140, 160, 180, 200].map((y) => (
+        <line key={y} x1="213" y1={y} x2="225" y2={y} stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      ))}
+      {[[130, 130], [155, 150], [265, 140], [280, 165]].map(([x, y]) => (
+        <g key={x as number}>
+          {[0, 60, 120].map((deg) => (
+            <line key={deg} x1={x} y1={(y as number) - 6} x2={x} y2={(y as number) + 6} stroke={accentColor} strokeWidth="1.5" opacity="0.6" transform={`rotate(${deg} ${x} ${y})`} />
+          ))}
+        </g>
+      ))}
     </g>
   );
 };
 
 const ElYamElCorreoMasVelozDelImperioMongol: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
   return (
     <g>
-      <path d="M184 176 Q196 170 200 158 Q204 170 216 176" fill="none" stroke={dark} strokeWidth="1.2" opacity="0.4" />
-      <path d="M192 172 L200 156 L200 172 Z" fill={accentColor} />
-      <circle cx="200" cy="156" r="2" fill={light} />
+      <path d="M110 230 Q140 215 165 225 Q185 232 210 220 Q235 210 265 218 Q290 224 300 210" fill="none" stroke={dark} strokeWidth="3" opacity="0.5" strokeDasharray="1 8" strokeLinecap="round" />
+      <path d="M150 220 Q145 195 175 190 Q210 185 225 200 L225 225 L150 225 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M225 205 Q240 195 250 205" stroke={accentColor} strokeWidth="10" strokeLinecap="round" fill="none" />
+      <path d="M150 220 Q130 218 120 230 L118 240 L155 240 Z" fill={dark} />
+      <circle cx="130" cy="240" r="10" fill="none" stroke={dark} strokeWidth="4" />
+      <circle cx="200" cy="240" r="10" fill="none" stroke={dark} strokeWidth="4" />
+      <circle cx="200" cy="175" r="10" fill={skin} />
+      <path d="M215 185 Q235 175 250 185 L245 200 Z" fill={dark} />
     </g>
   );
 };
 
 const LosCazadoresConAguilasDoradasDelOeste: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  const skin = "#D9A46A";
   return (
     <g>
-      <path d="M200 176 Q182 168 184 156 Q198 160 200 176 Q202 160 216 156 Q218 168 200 176 Z" fill={accentColor} />
-      <path d="M200 176 L200 166" stroke={dark} strokeWidth="1.5" />
+      <path d="M115 225 L115 205 Q115 195 130 195 L215 195 Q225 195 225 205 L225 235 L115 235 Z" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="230" cy="180" rx="22" ry="18" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2.5" />
+      <path d="M230 180 Q195 150 155 160 Q190 168 208 185 Z" fill={dark} />
+      <path d="M230 180 Q265 150 305 160 Q270 168 252 185 Z" fill={dark} />
+      <path d="M215 172 L200 168 L210 178 Z" fill="#F4A300" />
+      <circle cx="238" cy="176" r="3" fill="#1A1A1A" />
     </g>
   );
 };
 
 const LaTumbaDeGenghisKhanNuncaEncontrada: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
+  const grass = "#8FA05A";
   return (
     <g>
-      <line x1="184" y1="178" x2="216" y2="178" stroke={accentColor} strokeWidth="2" />
-      <path d="M196 178 L200 168 L204 178 Z" fill={dark} opacity="0.6" />
-      <path d="M186 176 Q200 172 214 176" fill="none" stroke={dark} strokeWidth="1" opacity="0.3" />
+      <path d="M90 230 Q205 215 320 230 L320 250 L90 250 Z" fill={grass} opacity="0.55" />
+      <path d="M90 205 Q205 192 320 205" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.3" />
+      <path d="M195 230 L200 195 L215 197 L212 232 Z" fill={dark} stroke={shade(dark, 0.2)} strokeWidth="2" />
+      <ellipse cx="205" cy="232" rx="20" ry="6" fill={dark} opacity="0.3" />
     </g>
   );
 };
 
 const MasCaballosQuePersonasYElUltimoCaballoSalvaje: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <path d="M188 178 L190 164 Q192 156 200 158 Q206 160 204 168 L210 178 Z" fill={accentColor} />
-      <path d="M192 158 L188 150 M195 157 L193 149 M198 157 L198 149" stroke={dark} strokeWidth="1.4" />
+      <path d="M130 235 Q125 195 155 180 Q170 172 185 180 L215 175 Q230 172 235 185 Q245 195 240 210 L235 235 L220 235 L218 218 L155 218 L150 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M215 178 Q225 165 240 168 L235 190 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[0, 1, 2, 3, 4].map((i) => (
+        <path key={i} d={`M${150 + i * 8} 178 L${146 + i * 8} 158`} stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      ))}
+      <path d="M130 200 Q105 210 95 235" stroke={accentColor} strokeWidth="10" strokeLinecap="round" fill="none" />
     </g>
   );
 };
 
 const ElPaisMenosDensamentePobladoDelMundo: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.3);
+  const dark = shade(accentColor, 0.4);
+  const green = "#8FA05A";
   return (
     <g>
-      <path d="M184 178 Q200 174 216 178" fill="none" stroke={dark} strokeWidth="1" opacity="0.4" />
-      <circle cx="200" cy="168" r="3.5" fill={accentColor} />
+      <rect x="90" y="80" width="230" height="170" fill={green} opacity="0.4" />
+      <path d="M90 165 Q205 150 320 165" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.3" />
+      <path d="M90 200 Q205 188 320 200" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.3" />
+      <circle cx="205" cy="180" r="8" fill={accentColor} stroke={dark} strokeWidth="2" />
     </g>
   );
 };
@@ -120,10 +163,10 @@ export const mongoliaIllustrations: Record<string, IllustrationDefinition> = {
   "el-naadam-los-tres-juegos-viriles": { component: ElNaadamLosTresJuegosViriles },
   "la-estatua-de-genghis-khan-mas-grande-del-mundo": { component: LaEstatuaDeGenghisKhanMasGrandeDelMundo },
   "el-ger-la-casa-portatil-disenada-para-el-viento": { component: ElGerLaCasaPortatilDisenadaParaElViento },
-  "el-khoomii-dos-notas-desde-una-sola-garganta": { component: ElKhoomiiDosNotasDesdeUnaSolaGarganta, variant: "medallion" },
+  "el-khoomii-dos-notas-desde-una-sola-garganta": { component: ElKhoomiiDosNotasDesdeUnaSolaGarganta },
   "ulan-bator-la-capital-mas-fria-del-mundo": { component: UlanBatorLaCapitalMasFriaDelMundo },
   "el-yam-el-correo-mas-veloz-del-imperio-mongol": { component: ElYamElCorreoMasVelozDelImperioMongol },
-  "los-cazadores-con-aguilas-doradas-del-oeste": { component: LosCazadoresConAguilasDoradasDelOeste, variant: "medallion" },
+  "los-cazadores-con-aguilas-doradas-del-oeste": { component: LosCazadoresConAguilasDoradasDelOeste },
   "la-tumba-de-genghis-khan-nunca-encontrada": { component: LaTumbaDeGenghisKhanNuncaEncontrada },
   "mas-caballos-que-personas-y-el-ultimo-caballo-salvaje": { component: MasCaballosQuePersonasYElUltimoCaballoSalvaje },
   "el-pais-menos-densamente-poblado-del-mundo": { component: ElPaisMenosDensamentePobladoDelMundo },

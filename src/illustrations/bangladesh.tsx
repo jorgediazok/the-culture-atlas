@@ -2,125 +2,187 @@ import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const ElMayorBosqueDeManglaresDelMundo: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const mud = "#8B6F47";
   return (
     <g>
-      <path d="M188 178 L188 164 M196 178 L196 158 M204 178 L204 164 M212 178 L212 158" stroke={accentColor} strokeWidth="2.5" strokeLinecap="round" />
-      <path d="M188 164 Q184 168 182 174 M196 158 Q192 164 190 172 M204 164 Q208 168 210 174 M212 158 Q216 164 218 172" stroke={dark} strokeWidth="2" fill="none" strokeLinecap="round" />
-      <ellipse cx="200" cy="179" rx="20" ry="2" fill={light} opacity="0.6" />
+      <rect x="90" y="190" width="230" height="60" fill={mud} opacity="0.6" />
+      {[[120, 245], [160, 248], [200, 244], [240, 248], [280, 245]].map(([x, y], i) => (
+        <g key={x as number}>
+          <path d={`M${x} ${y} Q${(x as number) - 14} ${(y as number) - 30} ${(x as number) - 6} ${(y as number) - 55}`} fill="none" stroke={i % 2 === 0 ? accentColor : dark} strokeWidth="5" strokeLinecap="round" />
+          <path d={`M${x} ${y} Q${(x as number) + 6} ${(y as number) - 26} ${(x as number) + 14} ${(y as number) - 50}`} fill="none" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+          <path d={`M${x} ${y} Q${x} ${(y as number) - 20} ${x} ${(y as number) - 40}`} fill="none" stroke={i % 2 === 0 ? dark : accentColor} strokeWidth="5" strokeLinecap="round" />
+        </g>
+      ))}
+      {/* tiger eyes peering through the roots */}
+      <ellipse cx="240" cy="165" rx="8" ry="6" fill="#F4A300" opacity="0.9" />
+      <circle cx="237" cy="165" r="2" fill="#1A1A1A" />
+      <circle cx="243" cy="165" r="2" fill="#1A1A1A" />
+      <path d="M225 158 L235 162 M255 158 L245 162" stroke="#1A1A1A" strokeWidth="2" opacity="0.6" />
     </g>
   );
 };
 
 const LasEscuelasFlotantesQueEsquivanLaInundacion: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
   const light = tint(accentColor, 0.6);
   return (
     <g>
-      <path d="M184 172 Q200 180 216 172 L212 178 L188 178 Z" fill={accentColor} />
-      <rect x="192" y="158" width="16" height="12" fill={light} stroke={dark} strokeWidth="1" />
-      <line x1="200" y1="158" x2="200" y2="150" stroke={dark} strokeWidth="1.5" />
+      <path d="M110 225 Q205 240 300 225 L285 240 L125 240 Z" fill={water} />
+      <path d="M120 220 L290 220 L275 240 L135 240 Z" fill={dark} />
+      <rect x="140" y="160" width="130" height="55" fill={light} stroke={dark} strokeWidth="2.5" />
+      <path d="M130 160 L280 160 L260 140 L150 140 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[165, 195, 225, 255].map((x) => (
+        <rect key={x} x={x} y="170" width="18" height="20" fill="#fff" opacity="0.7" />
+      ))}
+      <rect x="195" y="128" width="12" height="12" fill={dark} transform="rotate(15 201 134)" />
+      <line x1="201" y1="128" x2="201" y2="112" stroke={dark} strokeWidth="2" />
     </g>
   );
 };
 
 const LosViejosVaporesDeRuedaQueSiguenNavegando: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const water = "#1D6FA5";
   return (
     <g>
-      <rect x="186" y="160" width="24" height="14" fill={accentColor} />
-      <circle cx="214" cy="167" r="8" fill="none" stroke={dark} strokeWidth="2" />
-      <line x1="214" y1="159" x2="214" y2="175" stroke={dark} strokeWidth="1" opacity="0.6" />
-      <line x1="206" y1="167" x2="222" y2="167" stroke={dark} strokeWidth="1" opacity="0.6" />
-      <rect x="192" y="152" width="4" height="8" fill={light} />
+      <path d="M115 225 Q205 240 295 225 L280 240 L130 240 Z" fill={water} />
+      <path d="M120 220 L290 220 L270 200 L140 200 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="155" y="165" width="100" height="38" fill={dark} stroke={shade(dark, 0.2)} strokeWidth="2" />
+      <rect x="195" y="130" width="20" height="40" fill={dark} />
+      <ellipse cx="205" cy="128" rx="12" ry="5" fill="#B0AFA8" opacity="0.7" />
+      <circle cx="255" cy="200" r="30" fill="none" stroke={dark} strokeWidth="6" />
+      {[0, 45, 90, 135].map((deg) => (
+        <line key={deg} x1="255" y1="170" x2="255" y2="230" stroke={dark} strokeWidth="5" transform={`rotate(${deg} 255 200)`} />
+      ))}
     </g>
   );
 };
 
 const ElMovimientoPorElIdiomaQueSeVolvioGlobal: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
   const light = tint(accentColor, 0.6);
+  const red = "#C1272D";
   return (
     <g>
-      <path d="M186 156 L200 156 L200 178 L186 178 Z" fill={light} stroke={dark} strokeWidth="1" />
-      <path d="M200 156 L214 156 L214 178 L200 178 Z" fill={dark} opacity="0.15" stroke={dark} strokeWidth="1" />
-      <circle cx="200" cy="166" r="4" fill={accentColor} />
+      <path d="M110 155 L205 145 L205 235 L110 225 Z" fill={light} stroke={dark} strokeWidth="2.5" />
+      <path d="M300 155 L205 145 L205 235 L300 225 Z" fill={light} stroke={dark} strokeWidth="2.5" />
+      {[165, 185, 205].map((y) => (
+        <line key={y} x1="125" y1={y} x2="190" y2={y - 5} stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      ))}
+      {[165, 185, 205].map((y) => (
+        <line key={`r${y}`} x1="220" y1={y - 5} x2="285" y2={y} stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      ))}
+      <path d="M205 145 L205 235" stroke={dark} strokeWidth="2" />
+      {[0, 72, 144, 216, 288].map((deg) => (
+        <ellipse key={deg} cx="205" cy="163" rx="7" ry="10" fill={red} transform={`rotate(${deg} 205 170)`} />
+      ))}
     </g>
   );
 };
 
 const ElJamdaniLaTelaQueLlamabanAireTejido: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.5);
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.85);
   return (
     <g>
-      <rect x="186" y="156" width="28" height="22" fill={light} opacity="0.5" stroke={accentColor} strokeWidth="1" />
-      <circle cx="194" cy="164" r="2" fill={accentColor} />
-      <circle cx="206" cy="164" r="2" fill={dark} />
-      <circle cx="194" cy="172" r="2" fill={dark} />
-      <circle cx="206" cy="172" r="2" fill={accentColor} />
+      <rect x="115" y="105" width="180" height="140" fill={light} stroke={dark} strokeWidth="2.5" opacity="0.9" />
+      {[0, 1, 2].map((row) =>
+        [0, 1, 2, 3].map((col) => (
+          <g key={`${row}-${col}`} transform={`translate(${150 + col * 40}, ${140 + row * 40})`}>
+            {[0, 72, 144, 216, 288].map((deg) => (
+              <ellipse key={deg} cx="0" cy="-6" rx="5" ry="7" fill={accentColor} opacity="0.75" transform={`rotate(${deg} 0 0)`} />
+            ))}
+          </g>
+        ))
+      )}
+      <rect x="115" y="105" width="180" height="140" fill="none" stroke={dark} strokeWidth="2.5" />
     </g>
   );
 };
 
 const DhakaLaCapitalMundialDelRickshawPintado: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const colors = ["#F4A300", "#C1272D", "#2E7D32"];
   return (
     <g>
-      <circle cx="192" cy="178" r="5" fill="none" stroke={dark} strokeWidth="2" />
-      <circle cx="212" cy="178" r="5" fill="none" stroke={dark} strokeWidth="2" />
-      <path d="M188 170 L216 170 L212 158 L192 158 Z" fill={accentColor} />
-      <circle cx="200" cy="164" r="2.2" fill={light} />
+      <path d="M150 235 L150 175 Q150 165 165 165 L235 165 Q250 165 250 175 L250 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[[180, 200], [220, 195], [200, 215]].map(([x, y], i) => (
+        <g key={x as number}>
+          {[0, 72, 144, 216, 288].map((deg) => (
+            <ellipse key={deg} cx={x as number} cy={(y as number) - 6} rx="6" ry="8" fill={colors[i % colors.length]} transform={`rotate(${deg} ${x} ${y})`} />
+          ))}
+        </g>
+      ))}
+      <path d="M150 175 Q200 150 250 175" fill="none" stroke={dark} strokeWidth="4" />
+      <circle cx="170" cy="240" r="20" fill="none" stroke={dark} strokeWidth="5" />
+      <circle cx="240" cy="240" r="20" fill="none" stroke={dark} strokeWidth="5" />
+      <circle cx="205" cy="240" r="20" fill="none" stroke={dark} strokeWidth="5" />
     </g>
   );
 };
 
 const ElHilsaElPezNacionalQueDefineUnaCocina: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const silver = "#C9D3DB";
   return (
     <g>
-      <path d="M186 166 Q200 156 214 166 Q200 176 186 166 Z" fill={light} stroke={accentColor} strokeWidth="1.5" />
-      <path d="M186 166 L178 160 L180 172 Z" fill={dark} />
-      <circle cx="206" cy="163" r="1.4" fill={dark} />
+      <path d="M130 180 Q170 150 240 165 Q275 172 285 185 Q275 198 240 205 Q170 220 130 190 Z" fill={silver} stroke={dark} strokeWidth="2.5" />
+      <path d="M285 185 L310 165 L305 185 L310 205 Z" fill={dark} />
+      <circle cx="160" cy="178" r="4" fill="#1A1A1A" />
+      <path d="M155 190 Q190 195 225 190 M150 175 Q190 165 230 172" stroke={dark} strokeWidth="1.5" opacity="0.4" fill="none" />
+      {[[180, 130], [210, 115], [150, 140], [240, 235]].map(([x, y]) => (
+        <circle key={x as number} cx={x} cy={y} r="5" fill={accentColor} opacity="0.5" />
+      ))}
     </g>
   );
 };
 
 const LaMezquitaDeSesentaCupulasDeBagerhat: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
+  const brick = "#B5651D";
   return (
     <g>
-      <rect x="186" y="164" width="28" height="14" fill={accentColor} />
-      <circle cx="192" cy="160" r="4" fill={dark} />
-      <circle cx="200" cy="158" r="5" fill={accentColor} />
-      <circle cx="208" cy="160" r="4" fill={dark} />
+      <rect x="115" y="180" width="180" height="60" fill={brick} stroke={dark} strokeWidth="2.5" />
+      {[135, 165, 195, 225, 255, 275].map((x, i) => (
+        <g key={x}>
+          <ellipse cx={x} cy="178" rx="16" ry={i % 2 === 0 ? 16 : 12} fill={brick} stroke={dark} strokeWidth="2" />
+          <path d={`M${x - 16} 178 Q${x} 155 ${x + 16} 178`} fill={brick} stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
+      {[135, 195, 255].map((x) => (
+        <rect key={x} x={x - 8} y="205" width="16" height="30" fill={dark} opacity="0.4" />
+      ))}
     </g>
   );
 };
 
 const ElMicrocreditoQueNacioParaLosMasPobres: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4AF37";
+  const skin = "#D9A46A";
   return (
     <g>
-      <circle cx="200" cy="164" r="9" fill={light} stroke={accentColor} strokeWidth="1.5" />
-      <text x="200" y="168" fontSize="9" fill={dark} textAnchor="middle" fontFamily="serif">৳</text>
-      <path d="M186 176 Q193 182 200 176 M200 176 Q207 182 214 176" fill="none" stroke={accentColor} strokeWidth="2" strokeLinecap="round" />
+      <circle cx="205" cy="150" r="26" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="3" />
+      <text x="205" y="159" fontSize="22" fontWeight="700" fill={shade(gold, 0.4)} textAnchor="middle">৳</text>
+      <path d="M120 235 Q125 200 165 195 L210 210 L165 220 Z" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M290 235 Q285 200 245 195 L200 210 L245 220 Z" fill={skin} stroke={dark} strokeWidth="2.5" />
     </g>
   );
 };
 
 const ElMayorDeltaFluvialDelMundo: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
+  const land = tint(accentColor, 0.55);
   return (
     <g>
-      <path d="M200 148 L200 162 M200 162 L188 178 M200 162 L200 178 M200 162 L212 178" stroke={accentColor} strokeWidth="2.5" fill="none" />
-      <path d="M188 178 L212 178" stroke={light} strokeWidth="3" opacity="0.6" />
+      <rect x="90" y="80" width="230" height="170" fill={land} opacity="0.5" />
+      <path d="M205 90 L205 140 Q205 155 185 165 L150 200 Q135 215 140 235" fill="none" stroke={water} strokeWidth="12" strokeLinecap="round" />
+      <path d="M205 140 Q220 155 250 165 L285 200 Q300 215 295 235" fill="none" stroke={water} strokeWidth="12" strokeLinecap="round" />
+      <path d="M205 155 Q205 190 205 235" fill="none" stroke={water} strokeWidth="10" strokeLinecap="round" />
+      <path d="M90 245 Q205 235 320 245 L320 250 L90 250 Z" fill={dark} opacity="0.6" />
     </g>
   );
 };
@@ -129,11 +191,11 @@ export const bangladeshIllustrations: Record<string, IllustrationDefinition> = {
   "el-mayor-bosque-de-manglares-del-mundo": { component: ElMayorBosqueDeManglaresDelMundo },
   "las-escuelas-flotantes-que-esquivan-la-inundacion": { component: LasEscuelasFlotantesQueEsquivanLaInundacion },
   "los-viejos-vapores-de-rueda-que-siguen-navegando": { component: LosViejosVaporesDeRuedaQueSiguenNavegando },
-  "el-movimiento-por-el-idioma-que-se-volvio-global": { component: ElMovimientoPorElIdiomaQueSeVolvioGlobal, variant: "medallion" },
+  "el-movimiento-por-el-idioma-que-se-volvio-global": { component: ElMovimientoPorElIdiomaQueSeVolvioGlobal },
   "el-jamdani-la-tela-que-llamaban-aire-tejido": { component: ElJamdaniLaTelaQueLlamabanAireTejido },
   "dhaka-la-capital-mundial-del-rickshaw-pintado": { component: DhakaLaCapitalMundialDelRickshawPintado },
   "el-hilsa-el-pez-nacional-que-define-una-cocina": { component: ElHilsaElPezNacionalQueDefineUnaCocina },
   "la-mezquita-de-sesenta-cupulas-de-bagerhat": { component: LaMezquitaDeSesentaCupulasDeBagerhat },
-  "el-microcredito-que-nacio-para-los-mas-pobres": { component: ElMicrocreditoQueNacioParaLosMasPobres, variant: "medallion" },
+  "el-microcredito-que-nacio-para-los-mas-pobres": { component: ElMicrocreditoQueNacioParaLosMasPobres },
   "el-mayor-delta-fluvial-del-mundo": { component: ElMayorDeltaFluvialDelMundo },
 };

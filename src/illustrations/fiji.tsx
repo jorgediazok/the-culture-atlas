@@ -1,141 +1,173 @@
-import { shade, tint } from "./palette";
+import { shade } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const KavaYaqona: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const liquid = "#8B5A2B";
   return (
     <g>
-      <path d="M165 155 Q200 175 235 155 L228 165 Q200 180 172 165 Z" fill={accentColor} />
-      <ellipse cx="200" cy="155" rx="35" ry="10" fill={light} />
-      <ellipse cx="200" cy="155" rx="35" ry="10" fill="none" stroke={dark} strokeWidth="2" />
+      <path d="M140 195 Q140 225 205 228 Q270 225 270 195 L262 195 Q255 215 205 217 Q155 215 148 195 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="195" rx="65" ry="16" fill={liquid} stroke={shade(liquid, 0.3)} strokeWidth="2.5" />
+      <path d="M135 195 Q125 195 122 205 Q125 215 138 212" fill="none" stroke={accentColor} strokeWidth="6" strokeLinecap="round" />
+      <ellipse cx="280" cy="215" rx="20" ry="12" fill="#F5EFE0" stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="280" cy="212" rx="14" ry="6" fill={liquid} />
     </g>
   );
 };
 
 const RugbyOroOlimpico: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4AF37";
   return (
     <g>
-      <circle cx="195" cy="150" r="18" fill={accentColor} />
-      <circle cx="195" cy="150" r="11" fill={light} />
-      <ellipse cx="222" cy="168" rx="14" ry="9" fill={dark} transform="rotate(-20 222 168)" />
+      <circle cx="180" cy="180" r="38" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="4" />
+      <circle cx="180" cy="180" r="26" fill="none" stroke={shade(gold, 0.3)} strokeWidth="1.5" />
+      <path d="M175 190 L185 190 L182 172 Q186 168 182 165 Q178 162 174 165 Q170 168 174 172 Z" fill={shade(gold, 0.35)} />
+      <ellipse cx="270" cy="200" rx="34" ry="18" fill={accentColor} stroke={dark} strokeWidth="2.5" transform="rotate(-20 270 200)" />
+      <line x1="252" y1="205" x2="288" y2="195" stroke={dark} strokeWidth="1.5" opacity="0.5" />
     </g>
   );
 };
 
 const AguaEmbotelladaFiji: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const water = "#4A90D9";
   return (
     <g>
-      <rect x="182" y="140" width="36" height="45" rx="4" fill={accentColor} />
-      <rect x="192" y="122" width="16" height="20" fill={dark} />
-      <rect x="188" y="150" width="24" height="16" fill={light} />
+      <path d="M255 235 Q245 215 250 190 Q262 178 285 178 Q305 178 305 200 Q305 220 295 235 Z" fill="#4A8F4E" stroke={dark} strokeWidth="2.5" />
+      <path d="M263 230 Q258 215 270 205" fill="none" stroke="#4A8F4E" strokeWidth="6" strokeLinecap="round" />
+      <rect x="150" y="150" width="60" height="90" fill={water} opacity="0.55" stroke={dark} strokeWidth="2.5" />
+      <rect x="160" y="135" width="40" height="18" fill={dark} opacity="0.5" />
+      <rect x="155" y="180" width="50" height="35" fill="#fff" opacity="0.5" />
     </g>
   );
 };
 
 const Archipielago330Islas: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
   return (
     <g>
-      {[
-        [170, 170, 14],
-        [200, 178, 20],
-        [225, 165, 10],
-        [190, 150, 8],
-      ].map(([cx, cy, r], i) => (
-        <ellipse key={i} cx={cx} cy={cy} rx={r} ry={r * 0.4} fill={i % 2 === 0 ? accentColor : light} />
+      <rect x="90" y="80" width="230" height="170" fill={water} opacity="0.5" />
+      {[[130, 160, 22], [175, 195, 28], [220, 150, 18], [260, 190, 24], [290, 140, 14], [150, 220, 16]].map(([x, y, r]) => (
+        <path key={x as number} d={`M${(x as number) - (r as number)} ${y} Q${x} ${(y as number) - (r as number) * 1.3} ${(x as number) + (r as number)} ${y} Q${x} ${(y as number) + (r as number) * 0.4} ${(x as number) - (r as number)} ${y} Z`} fill={accentColor} stroke={dark} strokeWidth="1.5" />
       ))}
     </g>
   );
 };
 
 const IndoFiyianos: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const skin1 = "#8B5A2B";
+  const skin2 = "#D9A46A";
   return (
     <g>
-      <path d="M170 140 h30 v30 h-30 Z" fill={accentColor} />
-      <path d="M200 155 h30 v30 h-30 Z" fill={dark} />
-      <circle cx="200" cy="155" r="6" fill={light} />
+      <path d="M140 220 Q135 195 160 190 L200 195 L200 205 L165 205 Q158 208 155 220 Z" fill={skin1} stroke={dark} strokeWidth="2.5" />
+      <path d="M270 220 Q275 195 250 190 L210 195 L210 205 L245 205 Q252 208 255 220 Z" fill={skin2} stroke={dark} strokeWidth="2.5" />
+      {[0, 1, 2].map((i) => (
+        <rect key={i} x={165 + i * 12} y="198" width="10" height="8" fill={accentColor} opacity="0.7" />
+      ))}
+      {[0, 1, 2].map((i) => (
+        <rect key={`r${i}`} x={225 + i * 12} y="198" width="10" height="8" fill="#C1272D" opacity="0.6" />
+      ))}
     </g>
   );
 };
 
 const ArrecifeArcoiris: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const colors = ["#E91E8C", "#8E24AA", "#F4A300"];
   return (
     <g>
-      <path d="M170 185 Q170 160 190 160 Q195 145 210 155 Q225 150 225 170 Q225 185 200 185 Z" fill={light} />
-      <circle cx="190" cy="170" r="4" fill={accentColor} />
-      <circle cx="210" cy="168" r="4" fill={dark} />
+      <rect x="90" y="80" width="230" height="170" fill="#1D6FA5" opacity="0.5" />
+      {[[130, 210], [190, 225], [250, 205], [280, 220]].map(([x, y], i) => (
+        <path key={x as number} d={`M${x} ${y} Q${(x as number) - 12} ${(y as number) - 22} ${x} ${(y as number) - 38} Q${(x as number) + 12} ${(y as number) - 22} ${x} ${y} Z`} fill={colors[i % colors.length]} stroke={dark} strokeWidth="1.5" opacity="0.85" />
+      ))}
+      {[[150, 160], [210, 175], [260, 155]].map(([x, y]) => (
+        <g key={x as number}>
+          <ellipse cx={x} cy={y} rx="12" ry="7" fill="#F4C430" stroke={dark} strokeWidth="1.2" />
+          <path d={`M${(x as number) - 12} ${y} L${(x as number) - 20} ${(y as number) - 5} M${(x as number) - 12} ${y} L${(x as number) - 20} ${(y as number) + 5}`} stroke={dark} strokeWidth="1.2" />
+        </g>
+      ))}
     </g>
   );
 };
 
 const GolpesEstado: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <line x1="200" y1="120" x2="200" y2="175" stroke={dark} strokeWidth="4" />
-      <path d="M170 135 L200 128 L230 140" fill="none" stroke={accentColor} strokeWidth="3" />
-      <circle cx="170" cy="140" r="8" fill={light} />
-      <circle cx="230" cy="146" r="8" fill={light} />
+      <line x1="205" y1="130" x2="205" y2="220" stroke={dark} strokeWidth="4" />
+      <line x1="150" y1="155" x2="260" y2="185" stroke={dark} strokeWidth="4" />
+      <path d="M150 155 L135 190 L165 190 Z" fill="none" stroke={accentColor} strokeWidth="3" />
+      <path d="M260 185 L248 210 L272 214 Z" fill="none" stroke={accentColor} strokeWidth="3" />
+      <rect x="185" y="220" width="40" height="15" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="150" y="128" width="14" height="10" fill={dark} />
+      <rect x="242" y="128" width="14" height="10" fill={dark} />
     </g>
   );
 };
 
 const BureTradicional: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const thatch = "#D4A017";
   return (
     <g>
-      <rect x="175" y="155" width="50" height="30" fill={light} />
-      <path d="M165 155 L200 120 L235 155 Z" fill={accentColor} />
-      <path d="M165 155 L200 130 L235 155" fill="none" stroke={dark} strokeWidth="2" />
+      <path d="M135 195 Q205 135 275 195 Z" fill={thatch} stroke={shade(thatch, 0.3)} strokeWidth="2.5" />
+      <path d="M150 195 Q205 150 260 195 Z" fill={thatch} opacity="0.6" />
+      <rect x="150" y="195" width="110" height="45" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[160, 175, 190, 205, 220, 235, 250].map((x) => (
+        <line key={x} x1={x} y1="197" x2={x} y2="238" stroke={dark} strokeWidth="1" opacity="0.4" />
+      ))}
+      <rect x="195" y="210" width="20" height="30" fill={dark} opacity="0.5" />
     </g>
   );
 };
 
 const IslasCanibalesHistoria: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const map = "#E8DCC0";
   return (
     <g>
-      <rect x="197" y="150" width="6" height="35" fill={accentColor} />
-      <path d="M188 120 v30 M194 118 v32 M200 117 v33 M206 118 v32" stroke={dark} strokeWidth="3" strokeLinecap="round" />
-      <path d="M188 150 q12 8 24 0" fill="none" stroke={light} strokeWidth="2" />
+      <rect x="115" y="110" width="180" height="130" fill={map} stroke={shade(map, 0.3)} strokeWidth="3" />
+      <path d="M150 165 Q200 145 250 170" fill="none" stroke={shade(map, 0.5)} strokeWidth="1.5" opacity="0.5" />
+      <path d="M140 200 Q190 220 260 195" fill="none" stroke={shade(map, 0.5)} strokeWidth="1.5" opacity="0.5" />
+      <rect x="195" y="130" width="10" height="80" fill="#5C3A1E" />
+      {[0, 1, 2, 3].map((i) => (
+        <path key={i} d={`M${185 + i * 7} 130 L${185 + i * 7} 150 L${188 + i * 7} 155 L${182 + i * 7} 155 Z`} fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      ))}
     </g>
   );
 };
 
 const MekeDanza: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
   return (
     <g>
-      <path d="M195 185 V150 Q195 135 205 135 Q215 135 210 150 L212 185 Z" fill={accentColor} />
-      <circle cx="205" cy="128" r="8" fill={dark} />
-      <path d="M215 145 L235 130" stroke={light} strokeWidth="3" strokeLinecap="round" />
+      {[[155, 220], [255, 220]].map(([x, y], i) => (
+        <g key={x as number}>
+          <circle cx={x} cy={(y as number) - 62} r="10" fill={skin} />
+          <path d={`M${(x as number) - 16} ${(y as number) - 25} Q${x} ${(y as number) - 40} ${(x as number) + 16} ${(y as number) - 25} L${(x as number) + 12} ${y} L${(x as number) - 12} ${y} Z`} fill={accentColor} stroke={dark} strokeWidth="2" />
+          {[0, 1, 2, 3, 4].map((s) => (
+            <line key={s} x1={(x as number) - 10 + s * 5} y1={(y as number) - 12} x2={(x as number) - 10 + s * 5} y2={y} stroke={dark} strokeWidth="1.2" opacity="0.5" />
+          ))}
+          <line x1={x} y1={(y as number) - 40} x2={x} y2={(y as number) - 90} stroke="#6B4423" strokeWidth="4" strokeLinecap="round" transform={`rotate(${i === 0 ? -10 : 10} ${x} ${(y as number) - 40})`} />
+        </g>
+      ))}
     </g>
   );
 };
 
 export const fijiIllustrations: Record<string, IllustrationDefinition> = {
   "kava-yaqona": { component: KavaYaqona },
-  "rugby-oro-olimpico": { component: RugbyOroOlimpico, variant: "medallion" },
-  "agua-embotellada-fiji": { component: AguaEmbotelladaFiji, variant: "medallion" },
+  "rugby-oro-olimpico": { component: RugbyOroOlimpico },
+  "agua-embotellada-fiji": { component: AguaEmbotelladaFiji },
   "archipielago-330-islas": { component: Archipielago330Islas },
-  "indo-fiyianos": { component: IndoFiyianos, variant: "medallion" },
+  "indo-fiyianos": { component: IndoFiyianos },
   "arrecife-arcoiris": { component: ArrecifeArcoiris },
-  "golpes-estado": { component: GolpesEstado, variant: "medallion" },
+  "golpes-estado": { component: GolpesEstado },
   "bure-tradicional": { component: BureTradicional },
-  "islas-canibales-historia": { component: IslasCanibalesHistoria, variant: "medallion" },
+  "islas-canibales-historia": { component: IslasCanibalesHistoria },
   "meke-danza": { component: MekeDanza },
 };
