@@ -51,10 +51,16 @@ export function shade(hex: string, amount: number): string {
   return hslToHex(h, s, l * (1 - amount));
 }
 
-/** Picks white or near-black text so it stays readable against a given background color. */
+/** Picks white or near-black text so it stays readable against a given background color.
+ *  Uses perceived brightness (YIQ) rather than HSL lightness, since HSL lightness badly
+ *  underestimates how bright saturated yellows/oranges look (e.g. #FFCC00 has HSL L=50%
+ *  but reads as near-white to the eye) — it was picking white text on those covers. */
 export function readableTextColor(hex: string): string {
-  const [, , l] = hexToHsl(hex);
-  return l > 65 ? "#1a1a1a" : "#fff";
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  const brightness = (r * 299 + g * 587 + b * 114) / 1000;
+  return brightness > 150 ? "#1a1a1a" : "#fff";
 }
 
 /** Averages a list of hex colors channel-by-channel (RGB space). */
