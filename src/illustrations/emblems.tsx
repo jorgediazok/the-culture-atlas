@@ -1219,6 +1219,41 @@ const Qatar: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const Armenia: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M12 88 Q35 40 50 20 Q65 40 88 88 Z" fill="#7A8A9A" stroke="#4A5A6A" strokeWidth="2" />
+    <path d="M50 20 Q40 38 34 52 Q42 46 50 46 Q58 46 66 52 Q60 38 50 20 Z" fill="#F5F0E6" stroke="#4A5A6A" strokeWidth="1.5" />
+    <path d="M12 88 Q28 55 38 45 Q30 66 26 88 Z" fill="#5C6E80" opacity="0.7" />
+    <rect x="44" y="86" width="12" height="18" fill={accentColor} stroke="#4A5A6A" strokeWidth="1.5" />
+    <line x1="50" y1="86" x2="50" y2="104" stroke="#4A5A6A" strokeWidth="1.5" />
+    <line x1="44" y1="95" x2="56" y2="95" stroke="#4A5A6A" strokeWidth="1.5" />
+  </svg>
+);
+
+const Azerbaijan: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M25 95 Q20 60 50 55 Q80 60 75 95 Z" fill="#5C4A3A" stroke="#3E2712" strokeWidth="2" />
+    <path d="M50 55 Q40 30 50 12 Q60 30 50 55 Z" fill="#F4A300" stroke="#B7410E" strokeWidth="1.5" />
+    <path d="M50 50 Q44 32 50 20 Q56 32 50 50 Z" fill="#FFD166" />
+    <circle cx="50" cy="75" r="6" fill={accentColor} opacity="0.9" />
+  </svg>
+);
+
+const Finland: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 14 L66 40 L58 40 L72 62 L62 62 L78 88 L22 88 L38 62 L28 62 L42 40 L34 40 Z" fill="#3C7A5C" stroke="#1B3A2E" strokeWidth="2" />
+    <rect x="45" y="88" width="10" height="14" fill="#5C4A3A" />
+    <ellipse cx="50" cy="20" rx="5" ry="3" fill="#F5F0E6" opacity="0.9" />
+    <ellipse cx="38" cy="40" rx="6" ry="3" fill="#F5F0E6" opacity="0.9" />
+    <ellipse cx="66" cy="40" rx="6" ry="3" fill="#F5F0E6" opacity="0.9" />
+    <ellipse cx="28" cy="62" rx="7" ry="3.5" fill="#F5F0E6" opacity="0.9" />
+    <ellipse cx="72" cy="62" rx="7" ry="3.5" fill="#F5F0E6" opacity="0.9" />
+    <circle cx="50" cy="30" r="3.5" fill={accentColor} />
+    <circle cx="42" cy="50" r="3" fill={accentColor} opacity="0.85" />
+    <circle cx="58" cy="50" r="3" fill={accentColor} opacity="0.85" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1262,6 +1297,9 @@ export const emblems: Record<string, EmblemComponent> = {
   kyrgyzstan: Kyrgyzstan,
   "united-arab-emirates": UnitedArabEmirates,
   qatar: Qatar,
+  armenia: Armenia,
+  azerbaijan: Azerbaijan,
+  finland: Finland,
   turkmenistan: Turkmenistan,
   laos: Laos,
   botswana: Botswana,

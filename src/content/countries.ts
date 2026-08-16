@@ -560,6 +560,60 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "armenia",
+    flagEmoji: "🇦🇲",
+    accentColor: "#B75D3E",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Armenia",
+        intro:
+          "El país que fue el primero del mundo en adoptar el cristianismo como religión de estado, inventó un alfabeto propio para no perder su idioma, y guarda en una cueva la bodega de vino más antigua jamás descubierta. Estas páginas son para descubrir una Armenia de piedras-cruz talladas a mano, un instrumento de madera de albaricoque con sonido de llanto, ajedrez obligatorio en la escuela y un teleférico que cruza un cañón entero sin escalas.",
+      },
+      en: {
+        name: "Armenia",
+        intro:
+          "The country that was the first in the world to adopt Christianity as a state religion, invented its own alphabet to keep its language from disappearing, and holds inside a cave the oldest winery ever discovered. These pages are here to discover an Armenia of hand-carved cross-stones, an apricot-wood instrument that sounds like crying, mandatory school chess, and a cable car that crosses an entire canyon without a single stop.",
+      },
+    },
+  },
+  {
+    slug: "azerbaijan",
+    flagEmoji: "🇦🇿",
+    accentColor: "#9E3610",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Azerbaiyán",
+        intro:
+          "El país conocido como la 'Tierra del Fuego', con una ladera que arde sin apagarse desde hace décadas, la única capital del mundo construida bajo el nivel del mar y más volcanes de lodo que ningún otro lugar del planeta. Estas páginas son para descubrir un Azerbaiyán de rascacielos con forma de llama, alfombras tejidas a mano durante siglos, bardos que improvisan versos con laúd, y el primer pozo petrolero industrial de la historia.",
+      },
+      en: {
+        name: "Azerbaijan",
+        intro:
+          "The country known as the 'Land of Fire,' with a hillside that's been burning nonstop for decades, the world's only capital built below sea level, and more mud volcanoes than anywhere else on the planet. These pages are here to discover an Azerbaijan of flame-shaped skyscrapers, carpets hand-woven for centuries, traveling bards who improvise verses on a lute, and history's first industrial oil well.",
+      },
+    },
+  },
+  {
+    slug: "finland",
+    flagEmoji: "🇫🇮",
+    accentColor: "#0B3D68",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Finlandia",
+        intro:
+          "El país con más saunas que autos, donde Papá Noel tiene un domicilio postal oficial sobre el Círculo Polar Ártico y una fábrica de papel del siglo XIX terminó fabricando los celulares más vendidos del mundo. Estas páginas son para descubrir una Finlandia de casi 188.000 lagos, una escuela sin exámenes considerada la mejor del mundo, personajes con forma de hipopótamo que conquistaron Japón, y un Mundial donde se corre cargando a la pareja.",
+      },
+      en: {
+        name: "Finland",
+        intro:
+          "The country with more saunas than cars, where Santa Claus has an official mailing address right on the Arctic Circle, and a 19th-century paper mill ended up making the world's best-selling cellphones. These pages are here to discover a Finland of nearly 188,000 lakes, a test-free school system considered the best in the world, hippo-shaped characters that conquered Japan, and a World Championship where you race while carrying your partner.",
+      },
+    },
+  },
+  {
     slug: "north-korea",
     flagEmoji: "🇰🇵",
     accentColor: "#024FA2",
