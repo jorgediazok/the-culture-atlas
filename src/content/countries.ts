@@ -836,14 +836,14 @@ export const countries: Country[] = [
     continent: "europe",
     translations: {
       es: {
-        name: "República Checa",
+        name: "Chequia",
         intro:
-          "El país del reloj astronómico que funciona sin parar desde 1410, la cerveza que inventó el estilo copiado en todo el mundo, y la revolución que tumbó un régimen agitando llaveros sin derramar una sola gota de sangre. Estas páginas son para descubrir una República Checa de Praga, la ciudad de las cien torres, la palabra 'robot' nacida de una obra de teatro checa, el vidrio de Bohemia que encargaban los reyes, y el escritor que pidió quemar la obra que lo hizo famoso.",
+          "El país del reloj astronómico que funciona sin parar desde 1410, la cerveza que inventó el estilo copiado en todo el mundo, y la revolución que tumbó un régimen agitando llaveros sin derramar una sola gota de sangre. Estas páginas son para descubrir una Chequia de Praga, la ciudad de las cien torres, la palabra 'robot' nacida de una obra de teatro checa, el vidrio de Bohemia que encargaban los reyes, y el escritor que pidió quemar la obra que lo hizo famoso.",
       },
       en: {
-        name: "Czech Republic",
+        name: "Czechia",
         intro:
-          "The country with the astronomical clock that's run nonstop since 1410, the beer that invented a style copied worldwide, and the revolution that toppled a regime by jangling keys without spilling a single drop of blood. These pages are here to discover a Czech Republic of Prague, the city of a hundred spires, the word 'robot' born from a Czech play, Bohemian glass that kings once commissioned, and the writer who asked for his own work to be burned.",
+          "The country with the astronomical clock that's run nonstop since 1410, the beer that invented a style copied worldwide, and the revolution that toppled a regime by jangling keys without spilling a single drop of blood. These pages are here to discover a Czechia of Prague, the city of a hundred spires, the word 'robot' born from a Czech play, Bohemian glass that kings once commissioned, and the writer who asked for his own work to be burned.",
       },
     },
   },

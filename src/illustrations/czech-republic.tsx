@@ -5,12 +5,14 @@ const RelojAstronomicoQueSigueFuncionando: IllustrationComponent = ({ accentColo
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <circle cx="205" cy="165" r="65" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
-      <circle cx="205" cy="165" r="45" fill="none" stroke={accentColor} strokeWidth="2.5" />
-      <line x1="205" y1="165" x2="205" y2="125" stroke={dark} strokeWidth="3" />
-      <line x1="205" y1="165" x2="235" y2="175" stroke={dark} strokeWidth="2.5" />
-      <circle cx="205" cy="165" r="5" fill={dark} />
-      <rect x="190" y="235" width="30" height="12" fill={dark} opacity="0.6" />
+      <rect x="90" y="120" width="35" height="130" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="3" />
+      <rect x="285" y="120" width="35" height="130" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="3" />
+      <circle cx="205" cy="160" r="88" fill="#F5F0E6" stroke={dark} strokeWidth="4" />
+      <circle cx="205" cy="160" r="62" fill="none" stroke={accentColor} strokeWidth="3" />
+      <line x1="205" y1="160" x2="205" y2="105" stroke={dark} strokeWidth="4" />
+      <line x1="205" y1="160" x2="248" y2="178" stroke={dark} strokeWidth="3.5" />
+      <circle cx="205" cy="160" r="7" fill={dark} />
+      <rect x="175" y="248" width="60" height="16" fill={dark} opacity="0.6" />
     </g>
   );
 };
@@ -19,9 +21,11 @@ const PilsnerLaCervezaQueLeDioNombreAUnEstilo: IllustrationComponent = ({ accent
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <path d="M175 150 L235 150 L228 240 L182 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
-      <path d="M180 165 Q205 155 230 165 Q225 175 205 173 Q185 175 180 165 Z" fill="#F5F0E6" />
-      <path d="M235 175 Q255 175 255 195 Q255 210 235 205" fill="none" stroke={dark} strokeWidth="4" />
+      <path d="M150 130 L230 130 L220 250 L160 250 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M158 150 Q190 138 222 150 Q214 165 190 162 Q166 165 158 150 Z" fill="#F5F0E6" />
+      <path d="M230 155 Q262 155 262 185 Q262 208 230 202" fill="none" stroke={dark} strokeWidth="5" />
+      <rect x="255" y="200" width="55" height="50" fill="#8B5A2B" opacity="0.8" stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="282" cy="200" rx="27" ry="8" fill="#5C4A3A" />
     </g>
   );
 };
@@ -30,11 +34,11 @@ const PragaLaCiudadDeLasCienTorres: IllustrationComponent = ({ accentColor }) =>
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <path d="M90 250 Q205 240 320 250 L320 255 L90 255 Z" fill="#3D8FB0" opacity="0.5" />
-      {[[140, 220, 50], [180, 190, 70], [225, 200, 60], [265, 210, 55]].map(([x, y, h], i) => (
+      <path d="M85 250 Q205 238 325 250 L325 258 L85 258 Z" fill="#3D8FB0" opacity="0.5" />
+      {[[110, 220, 55], [155, 185, 80], [205, 200, 65], [255, 180, 85], [300, 210, 60]].map(([x, y, h], i) => (
         <g key={x as number}>
-          <rect x={(x as number) - 15} y={y as number} width="28" height={h} fill={i % 2 === 0 ? accentColor : tint(accentColor, 0.25)} stroke={dark} strokeWidth="2" />
-          <polygon points={`${(x as number) - 15},${y} ${x},${(y as number) - 20} ${(x as number) + 13},${y}`} fill={dark} />
+          <rect x={(x as number) - 18} y={y as number} width="34" height={h} fill={i % 2 === 0 ? accentColor : tint(accentColor, 0.25)} stroke={dark} strokeWidth="2.5" />
+          <polygon points={`${(x as number) - 18},${y} ${x},${(y as number) - 26} ${(x as number) + 16},${y}`} fill={dark} />
         </g>
       ))}
     </g>
@@ -45,13 +49,14 @@ const RevolucionDeTerciopeloSinDerramarSangre: IllustrationComponent = ({ accent
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <ellipse cx="205" cy="150" rx="18" ry="14" fill={accentColor} stroke={dark} strokeWidth="2.5" />
-      <circle cx="205" cy="150" r="6" fill="none" stroke={dark} strokeWidth="2" />
-      <line x1="205" y1="164" x2="205" y2="210" stroke={dark} strokeWidth="4" />
-      {[170, 240].map((x) => (
+      <ellipse cx="205" cy="130" rx="24" ry="18" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="205" cy="130" r="8" fill="none" stroke={dark} strokeWidth="2.5" />
+      <line x1="205" y1="148" x2="205" y2="220" stroke={dark} strokeWidth="5" />
+      {[120, 290].map((x) => (
         <g key={x}>
-          <ellipse cx={x} cy="170" rx="14" ry="11" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
-          <line x1={x} y1="181" x2={x} y2="215" stroke={dark} strokeWidth="3" />
+          <ellipse cx={x} cy="160" rx="22" ry="17" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+          <circle cx={x} cy="160" r="6" fill="none" stroke={dark} strokeWidth="2" />
+          <line x1={x} y1="177" x2={x} y2="235" stroke={dark} strokeWidth="4.5" />
         </g>
       ))}
     </g>
@@ -62,13 +67,14 @@ const ElOrigenChecoDeLaPalabraRobot: IllustrationComponent = ({ accentColor }) =
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <rect x="175" y="150" width="60" height="70" fill={accentColor} stroke={dark} strokeWidth="2.5" />
-      <rect x="185" y="130" width="40" height="25" fill={tint(accentColor, 0.25)} stroke={dark} strokeWidth="2" />
-      <circle cx="197" cy="142" r="4" fill={dark} />
-      <circle cx="213" cy="142" r="4" fill={dark} />
-      <rect x="190" y="165" width="30" height="8" fill={dark} opacity="0.5" />
-      <line x1="175" y1="180" x2="155" y2="200" stroke={accentColor} strokeWidth="6" strokeLinecap="round" />
-      <line x1="235" y1="180" x2="255" y2="200" stroke={accentColor} strokeWidth="6" strokeLinecap="round" />
+      <rect x="155" y="150" width="100" height="100" fill={accentColor} stroke={dark} strokeWidth="3.5" />
+      <rect x="170" y="115" width="70" height="40" fill={tint(accentColor, 0.25)} stroke={dark} strokeWidth="3" />
+      <circle cx="190" cy="133" r="7" fill={dark} />
+      <circle cx="220" cy="133" r="7" fill={dark} />
+      <rect x="178" y="185" width="54" height="14" fill={dark} opacity="0.5" />
+      <line x1="155" y1="185" x2="115" y2="225" stroke={accentColor} strokeWidth="10" strokeLinecap="round" />
+      <line x1="255" y1="185" x2="295" y2="225" stroke={accentColor} strokeWidth="10" strokeLinecap="round" />
+      <circle cx="205" cy="97" r="8" fill={dark} />
     </g>
   );
 };
@@ -77,10 +83,12 @@ const ElArsenalDeVidrioDeBohemia: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <path d="M190 150 L220 150 L215 200 Q225 210 220 225 Q205 235 190 225 Q185 210 195 200 Z" fill={accentColor} opacity="0.75" stroke={dark} strokeWidth="2.5" />
-      <line x1="192" y1="160" x2="218" y2="160" stroke="#F5F0E6" strokeWidth="1.5" opacity="0.6" />
-      <line x1="195" y1="175" x2="215" y2="175" stroke="#F5F0E6" strokeWidth="1.5" opacity="0.6" />
-      <path d="M175 240 L235 240" stroke={dark} strokeWidth="3" />
+      <path d="M175 120 L235 120 L226 200 Q242 214 234 236 Q205 252 176 236 Q168 214 184 200 Z" fill={accentColor} opacity="0.8" stroke={dark} strokeWidth="3" />
+      <line x1="180" y1="140" x2="230" y2="140" stroke="#F5F0E6" strokeWidth="2" opacity="0.6" />
+      <line x1="185" y1="165" x2="225" y2="165" stroke="#F5F0E6" strokeWidth="2" opacity="0.6" />
+      <path d="M110 245 L300 245" stroke={dark} strokeWidth="4" />
+      <ellipse cx="130" cy="230" rx="26" ry="15" fill={tint(accentColor, 0.3)} opacity="0.7" stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="285" cy="228" rx="24" ry="14" fill={tint(accentColor, 0.15)} opacity="0.7" stroke={dark} strokeWidth="2.5" />
     </g>
   );
 };
@@ -89,13 +97,15 @@ const KafkaElEscritorQueNuncaVioSuObraPublicada: IllustrationComponent = ({ acce
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <rect x="160" y="200" width="90" height="12" fill="#8B5A2B" />
-      <rect x="185" y="150" width="40" height="50" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
-      <line x1="192" y1="160" x2="218" y2="160" stroke={dark} strokeWidth="1.5" opacity="0.4" />
-      <line x1="192" y1="170" x2="218" y2="170" stroke={dark} strokeWidth="1.5" opacity="0.4" />
-      <ellipse cx="255" cy="195" rx="14" ry="6" fill="#1A1A1A" />
-      <line x1="245" y1="192" x2="240" y2="188" stroke="#1A1A1A" strokeWidth="2" />
-      <line x1="245" y1="198" x2="240" y2="202" stroke="#1A1A1A" strokeWidth="2" />
+      <rect x="100" y="205" width="205" height="16" fill="#8B5A2B" />
+      <rect x="150" y="130" width="55" height="75" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <line x1="160" y1="145" x2="195" y2="145" stroke={dark} strokeWidth="2" opacity="0.4" />
+      <line x1="160" y1="160" x2="195" y2="160" stroke={dark} strokeWidth="2" opacity="0.4" />
+      <line x1="160" y1="175" x2="195" y2="175" stroke={dark} strokeWidth="2" opacity="0.4" />
+      <ellipse cx="270" cy="195" rx="26" ry="12" fill="#1A1A1A" />
+      <line x1="250" y1="188" x2="240" y2="180" stroke="#1A1A1A" strokeWidth="3" />
+      <line x1="250" y1="200" x2="240" y2="208" stroke="#1A1A1A" strokeWidth="3" />
+      <rect x="215" y="160" width="10" height="45" fill={accentColor} opacity="0.7" />
     </g>
   );
 };
@@ -104,22 +114,23 @@ const ElPaisQueMasCervezaTomaPorPersona: IllustrationComponent = ({ accentColor 
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <path d="M165 160 L195 160 L190 235 L170 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" transform="rotate(-8 180 197)" />
-      <path d="M215 155 L245 155 L240 230 L220 230 Z" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" transform="rotate(8 230 192)" />
-      <path d="M175 165 Q180 155 190 158" fill="#F5F0E6" opacity="0.9" />
-      <path d="M225 160 Q230 150 240 153" fill="#F5F0E6" opacity="0.9" />
+      <path d="M130 140 L175 140 L167 245 L138 245 Z" fill={accentColor} stroke={dark} strokeWidth="3" transform="rotate(-10 152 192)" />
+      <path d="M235 132 L280 132 L272 240 L243 240 Z" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="3" transform="rotate(10 258 186)" />
+      <path d="M135 155 Q142 140 158 145" fill="#F5F0E6" opacity="0.9" />
+      <path d="M240 148 Q247 132 263 137" fill="#F5F0E6" opacity="0.9" />
+      <path d="M100 250 Q205 260 310 250" fill="none" stroke={dark} strokeWidth="3" opacity="0.4" />
     </g>
   );
 };
 
 const KrtekElTopoQueConquistoMedioMundo: IllustrationComponent = () => (
   <g>
-    <ellipse cx="205" cy="200" rx="45" ry="35" fill="#1A1A1A" />
-    <path d="M180 175 Q170 155 185 145 Q195 155 190 172 Z" fill="#1A1A1A" />
-    <circle cx="195" cy="190" r="5" fill="#F5F0E6" />
-    <circle cx="220" cy="190" r="5" fill="#F5F0E6" />
-    <ellipse cx="207" cy="205" rx="8" ry="5" fill="#C68642" />
-    <path d="M195 215 Q207 222 219 215" fill="none" stroke="#F5F0E6" strokeWidth="2.5" />
+    <ellipse cx="205" cy="195" rx="82" ry="60" fill="#1A1A1A" />
+    <path d="M160 155 Q142 118 172 100 Q192 118 182 150 Z" fill="#1A1A1A" />
+    <circle cx="182" cy="175" r="9" fill="#F5F0E6" />
+    <circle cx="228" cy="175" r="9" fill="#F5F0E6" />
+    <ellipse cx="205" cy="200" rx="14" ry="8" fill="#C68642" />
+    <path d="M182 220 Q205 232 228 220" fill="none" stroke="#F5F0E6" strokeWidth="4" strokeLinecap="round" />
   </g>
 );
 
@@ -127,11 +138,12 @@ const KarlovyVaryElBalnearioDeLasAguasTermales: IllustrationComponent = ({ accen
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <rect x="150" y="180" width="110" height="15" fill={accentColor} stroke={dark} strokeWidth="2" />
-      {[165, 205, 245].map((x) => (
-        <rect key={x} x={x - 6} y="140" width="12" height="40" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <rect x="95" y="195" width="220" height="20" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[125, 175, 235, 285].map((x) => (
+        <rect key={x} x={x - 9} y="130" width="18" height="65" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
       ))}
-      <path d="M205 130 Q200 115 210 100 Q218 115 208 130 Z" fill="#3D8FB0" opacity="0.7" />
+      <path d="M205 110 Q195 88 210 62 Q222 88 208 110 Z" fill="#3D8FB0" opacity="0.7" />
+      <path d="M100 245 Q205 258 310 245" fill="none" stroke={dark} strokeWidth="3" opacity="0.4" />
     </g>
   );
 };

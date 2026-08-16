@@ -5,13 +5,14 @@ const CastilloDeBratislavaLaMesaInvertida: IllustrationComponent = ({ accentColo
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <rect x="150" y="150" width="110" height="80" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
-      {[150, 232].map((x) => (
-        <rect key={x} x={x} y="130" width="28" height="30" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <rect x="120" y="145" width="170" height="100" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
+      {[105, 265].map((x) => (
+        <rect key={x} x={x} y="115" width="40" height="40" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
       ))}
-      <rect x="197" y="200" width="16" height="30" fill={dark} opacity="0.5" />
-      <rect x="165" y="170" width="16" height="16" fill={accentColor} opacity="0.7" />
-      <rect x="230" y="170" width="16" height="16" fill={accentColor} opacity="0.7" />
+      <rect x="190" y="205" width="24" height="40" fill={dark} opacity="0.5" />
+      <rect x="145" y="170" width="22" height="22" fill={accentColor} opacity="0.75" />
+      <rect x="237" y="170" width="22" height="22" fill={accentColor} opacity="0.75" />
+      <path d="M95 250 Q205 262 315 250" fill="none" stroke="#3D8FB0" strokeWidth="4" opacity="0.5" />
     </g>
   );
 };
@@ -20,11 +21,12 @@ const IglesiasDeMaderaDeLosCarpatos: IllustrationComponent = ({ accentColor }) =
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <rect x="175" y="185" width="60" height="55" fill={accentColor} stroke={dark} strokeWidth="2.5" />
-      <polygon points="175,185 235,185 220,160 190,160" fill={tint(accentColor, 0.25)} stroke={dark} strokeWidth="2" />
-      <rect x="195" y="145" width="20" height="20" fill={accentColor} stroke={dark} strokeWidth="2" />
-      <polygon points="195,145 215,145 205,125" fill={dark} />
-      <rect x="197" y="210" width="16" height="30" fill={dark} opacity="0.5" />
+      <rect x="140" y="185" width="130" height="65" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <polygon points="140,185 270,185 245,148 165,148" fill={tint(accentColor, 0.25)} stroke={dark} strokeWidth="2.5" />
+      <rect x="178" y="118" width="54" height="35" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <polygon points="178,118 232,118 205,80" fill={dark} />
+      <rect x="190" y="215" width="20" height="35" fill={dark} opacity="0.5" />
+      <path d="M95 250 Q205 262 315 250" fill="none" stroke="#3D8FB0" strokeWidth="4" opacity="0.4" />
     </g>
   );
 };
@@ -58,11 +60,11 @@ const BryndzoveHaluskyElPlatoNacional: IllustrationComponent = ({ accentColor })
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <ellipse cx="205" cy="225" rx="75" ry="16" fill="#E8E4DC" stroke={dark} strokeWidth="2.5" />
-      {[[155, 205], [180, 195], [205, 200], [230, 193], [255, 205]].map(([x, y], i) => (
-        <ellipse key={x as number} cx={x} cy={y} rx="14" ry="10" fill={i % 2 === 0 ? "#F5F0E6" : tint(accentColor, 0.35)} stroke={dark} strokeWidth="1.5" />
+      <ellipse cx="205" cy="215" rx="115" ry="30" fill="#E8E4DC" stroke={dark} strokeWidth="3" />
+      {[[125, 195], [160, 178], [195, 188], [230, 175], [265, 190], [290, 205]].map(([x, y], i) => (
+        <ellipse key={x as number} cx={x} cy={y} rx="20" ry="15" fill={i % 2 === 0 ? "#F5F0E6" : tint(accentColor, 0.35)} stroke={dark} strokeWidth="2" />
       ))}
-      <ellipse cx="205" cy="215" rx="60" ry="10" fill={accentColor} opacity="0.5" />
+      <ellipse cx="205" cy="198" rx="95" ry="16" fill={accentColor} opacity="0.5" />
     </g>
   );
 };
@@ -72,12 +74,13 @@ const FujaraLaFlautaGigante: IllustrationComponent = ({ accentColor }) => {
   const skin = "#C68642";
   return (
     <g>
-      <circle cx="175" cy="140" r="13" fill={skin} />
-      <path d="M165 155 Q175 148 190 158 L185 200 L160 200 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
-      <line x1="185" y1="160" x2="255" y2="245" stroke="#8B5A2B" strokeWidth="8" strokeLinecap="round" />
-      {[190, 205, 220].map((v, i) => (
-        <circle key={v} cx={190 + i * 22} cy={175 + i * 22} r="3" fill={dark} opacity="0.6" />
+      <circle cx="140" cy="120" r="20" fill={skin} />
+      <path d="M124 145 Q140 133 162 148 L152 220 L112 220 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <line x1="152" y1="155" x2="290" y2="248" stroke="#8B5A2B" strokeWidth="13" strokeLinecap="round" />
+      {[175, 205, 235, 262].map((v, i) => (
+        <circle key={v} cx={v} cy={155 + i * 24} r="4.5" fill={dark} opacity="0.6" />
       ))}
+      <path d="M95 250 Q205 260 315 250" fill="none" stroke="#3D8FB0" strokeWidth="4" opacity="0.4" />
     </g>
   );
 };
@@ -86,9 +89,10 @@ const HockeySobreHieloPasionNacional: IllustrationComponent = ({ accentColor }) 
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <rect x="90" y="220" width="230" height="20" fill="#B0D8E8" opacity="0.7" />
-      <path d="M180 130 L175 220 L200 220 L235 145 L215 145 L200 190 L195 130 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
-      <ellipse cx="250" cy="222" rx="14" ry="6" fill="#1A1A1A" />
+      <rect x="88" y="222" width="235" height="26" fill="#B0D8E8" opacity="0.7" />
+      <path d="M155 100 L148 222 L182 222 L228 130 L200 130 L182 178 L175 100 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="270" cy="228" rx="20" ry="8" fill="#1A1A1A" />
+      <path d="M100 235 Q205 245 310 235" fill="none" stroke="#fff" strokeWidth="2" opacity="0.5" />
     </g>
   );
 };
@@ -119,10 +123,10 @@ const AndyWarholRaicesEslovacas: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <rect x="150" y="130" width="110" height="110" fill={accentColor} stroke={dark} strokeWidth="3" />
-      <circle cx="205" cy="175" r="28" fill="#F5F0E6" />
-      <path d="M180 205 Q205 195 230 205 L225 235 L185 235 Z" fill="#F5F0E6" />
-      <path d="M180 155 Q205 145 230 155" fill="none" stroke={dark} strokeWidth="4" opacity="0.6" />
+      <rect x="110" y="110" width="190" height="140" fill={accentColor} stroke={dark} strokeWidth="3.5" />
+      <circle cx="205" cy="170" r="42" fill="#F5F0E6" />
+      <path d="M170 210 Q205 195 240 210 L232 250 L178 250 Z" fill="#F5F0E6" />
+      <path d="M170 145 Q205 130 240 145" fill="none" stroke={dark} strokeWidth="5" opacity="0.6" />
     </g>
   );
 };

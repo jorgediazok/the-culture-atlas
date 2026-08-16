@@ -5,11 +5,12 @@ const LagoDeBledLaIslaConIglesia: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <ellipse cx="205" cy="220" rx="110" ry="30" fill="#3D8FB0" opacity="0.6" />
-      <ellipse cx="205" cy="215" rx="35" ry="14" fill="#2E6B5E" stroke={dark} strokeWidth="2" />
-      <rect x="195" y="190" width="20" height="25" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
-      <polygon points="195,190 215,190 205,175" fill="#B71C1C" />
-      <path d="M270 210 L280 160 L300 160 L310 210 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="205" cy="220" rx="125" ry="35" fill="#3D8FB0" opacity="0.6" />
+      <ellipse cx="185" cy="212" rx="48" ry="18" fill="#2E6B5E" stroke={dark} strokeWidth="2.5" />
+      <rect x="170" y="175" width="30" height="38" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <polygon points="170,175 200,175 185,150" fill="#B71C1C" />
+      <path d="M255 218 L270 130 L300 130 L315 218 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <rect x="278" y="150" width="14" height="20" fill={dark} opacity="0.5" />
     </g>
   );
 };
@@ -34,10 +35,11 @@ const ElPezHumanoQueViveCienAnos: IllustrationComponent = ({ accentColor }) => {
   return (
     <g>
       <rect x="90" y="80" width="230" height="170" fill="#3D8FB0" opacity="0.35" />
-      <path d="M140 190 Q170 175 210 185 Q250 195 260 210 Q245 220 210 210 Q170 205 140 190 Z" fill="#F0D8C8" stroke={dark} strokeWidth="2.5" />
-      <circle cx="150" cy="188" r="4" fill="#1A1A1A" opacity="0.4" />
-      <line x1="180" y1="200" x2="172" y2="212" stroke="#F0D8C8" strokeWidth="4" />
-      <line x1="200" y1="203" x2="196" y2="216" stroke="#F0D8C8" strokeWidth="4" />
+      <path d="M105 195 Q150 170 210 185 Q270 198 288 218 Q265 232 210 218 Q150 210 105 195 Z" fill="#F0D8C8" stroke={dark} strokeWidth="3" />
+      <circle cx="120" cy="192" r="6" fill="#1A1A1A" opacity="0.4" />
+      <line x1="165" y1="208" x2="152" y2="228" stroke="#F0D8C8" strokeWidth="6" />
+      <line x1="200" y1="214" x2="192" y2="234" stroke="#F0D8C8" strokeWidth="6" />
+      <line x1="235" y1="216" x2="230" y2="236" stroke="#F0D8C8" strokeWidth="6" />
     </g>
   );
 };
@@ -46,10 +48,11 @@ const LiublianaLaCiudadDelDragon: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <rect x="150" y="220" width="110" height="10" fill="#8B7355" />
-      <path d="M170 220 Q160 200 175 185 Q185 195 185 210 Q195 195 210 200 Q205 212 195 220 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
-      <path d="M210 195 Q225 185 235 195 Q225 200 218 205 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
-      <circle cx="178" cy="195" r="2.5" fill="#1A1A1A" />
+      <rect x="110" y="225" width="200" height="18" fill="#8B7355" />
+      <path d="M150 225 Q130 185 160 155 Q178 172 178 202 Q195 172 222 180 Q212 200 190 214 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M222 180 Q250 160 272 178 Q252 190 236 198 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="164" cy="180" r="4.5" fill="#1A1A1A" />
+      <path d="M150 225 Q145 200 155 190" fill="none" stroke={dark} strokeWidth="4" strokeLinecap="round" />
     </g>
   );
 };
@@ -58,13 +61,13 @@ const ColmenasPintadasArteApicola: IllustrationComponent = ({ accentColor }) => 
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <rect x="160" y="150" width="90" height="90" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
-      <rect x="175" y="165" width="60" height="30" fill={accentColor} opacity="0.8" />
-      <path d="M185 210 Q205 200 225 210" fill="none" stroke={dark} strokeWidth="2" opacity="0.6" />
-      {[[110, 130], [300, 150]].map(([x, y]) => (
-        <g key={x as number}>
-          <ellipse cx={x} cy={y} rx="8" ry="5" fill="#F4A300" />
-          <path d="M-6 0 L6 0" stroke="#1A1A1A" strokeWidth="1.5" transform={`translate(${x} ${y})`} />
+      <rect x="130" y="130" width="150" height="115" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
+      <rect x="152" y="152" width="106" height="45" fill={accentColor} opacity="0.85" />
+      <path d="M162 210 Q205 195 248 210" fill="none" stroke={dark} strokeWidth="2.5" opacity="0.6" />
+      {[[95, 165], [315, 190], [205, 100]].map(([x, y]) => (
+        <g key={`${x}-${y}`}>
+          <ellipse cx={x} cy={y} rx="13" ry="8" fill="#F4A300" />
+          <path d="M-9 0 L9 0" stroke="#1A1A1A" strokeWidth="2" transform={`translate(${x} ${y})`} />
         </g>
       ))}
     </g>
@@ -108,10 +111,11 @@ const LaVidMasViejaDelMundo: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <rect x="150" y="130" width="110" height="120" fill="#E8DCC0" stroke={dark} strokeWidth="2.5" />
-      <path d="M170 240 Q160 200 180 175 Q170 150 190 135" fill="none" stroke="#5C4A3A" strokeWidth="6" strokeLinecap="round" />
-      {[[190, 150], [175, 175], [188, 195], [172, 215]].map(([x, y]) => (
-        <circle key={x as number} cx={x} cy={y} r="8" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <rect x="110" y="105" width="190" height="145" fill="#E8DCC0" stroke={dark} strokeWidth="3" />
+      <path d="M150 245 Q135 190 165 155 Q150 115 180 90" fill="none" stroke="#5C4A3A" strokeWidth="9" strokeLinecap="round" />
+      <path d="M165 155 Q195 165 210 145" fill="none" stroke="#5C4A3A" strokeWidth="7" strokeLinecap="round" />
+      {[[180, 90], [150, 130], [172, 150], [140, 175], [200, 155], [160, 205]].map(([x, y]) => (
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="13" fill={accentColor} stroke={dark} strokeWidth="2" />
       ))}
     </g>
   );
@@ -121,10 +125,10 @@ const DondeSeCruzanCuatroMundosCulturales: IllustrationComponent = ({ accentColo
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <circle cx="205" cy="180" r="16" fill={accentColor} stroke={dark} strokeWidth="2.5" />
-      <path d="M205 164 L205 130 M205 196 L205 230 M189 180 L155 180 M221 180 L255 180" stroke={dark} strokeWidth="4" strokeLinecap="round" />
-      {[[205, 125], [205, 235], [150, 180], [260, 180]].map(([x, y]) => (
-        <circle key={`${x}-${y}`} cx={x} cy={y} r="8" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+      <circle cx="205" cy="165" r="26" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M205 139 L205 90 M205 191 L205 240 M179 165 L120 165 M231 165 L290 165" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      {[[205, 82], [205, 248], [110, 165], [300, 165]].map(([x, y]) => (
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="14" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
       ))}
     </g>
   );
