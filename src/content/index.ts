@@ -50,6 +50,9 @@ import { qatar } from "./qatar";
 import { armenia } from "./armenia";
 import { azerbaijan } from "./azerbaijan";
 import { finland } from "./finland";
+import { kazakhstan } from "./kazakhstan";
+import { afghanistan } from "./afghanistan";
+import { belarus } from "./belarus";
 import { turkmenistan } from "./turkmenistan";
 import { laos } from "./laos";
 import { botswana } from "./botswana";
@@ -153,6 +156,9 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   armenia,
   azerbaijan,
   finland,
+  kazakhstan,
+  afghanistan,
+  belarus,
   turkmenistan,
   laos,
   botswana,

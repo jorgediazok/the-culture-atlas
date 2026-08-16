@@ -614,6 +614,60 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "kazakhstan",
+    flagEmoji: "🇰🇿",
+    accentColor: "#1478A8",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Kazajistán",
+        intro:
+          "El país sin salida al mar más grande del mundo, desde donde partió el primer humano rumbo al espacio y donde cazadores todavía entrenan águilas doradas a caballo sobre la estepa. Estas páginas son para descubrir un Kazajistán de armaduras doradas enterradas hace dos mil quinientos años, casas de fieltro que se arman en una hora, un cañón rojizo comparado con el Gran Cañón, y la pista de patinaje sobre hielo más alta del planeta.",
+      },
+      en: {
+        name: "Kazakhstan",
+        intro:
+          "The world's largest landlocked country, the place the first human launched into space, and where hunters still train golden eagles on horseback across the steppe. These pages are here to discover a Kazakhstan of golden armor buried twenty-five hundred years ago, felt houses raised in under an hour, a red canyon compared to the Grand Canyon, and the highest-altitude ice skating rink on the planet.",
+      },
+    },
+  },
+  {
+    slug: "afghanistan",
+    flagEmoji: "🇦🇫",
+    accentColor: "#241C15",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Afganistán",
+        intro:
+          "El país cruzado por la Ruta de la Seda durante dos mil años, cuna del poeta más leído en inglés y dueño de una mina de piedra azul explotada desde hace seis mil años. Estas páginas son para descubrir un Afganistán de budas gigantes tallados en un acantilado, batallas de cometas con hilos cubiertos de vidrio, un deporte nacional jugado a caballo con una carcasa de cabra, y una torre del siglo XII perdida durante ochocientos años en un valle remoto.",
+      },
+      en: {
+        name: "Afghanistan",
+        intro:
+          "The country crossed by the Silk Road for two thousand years, birthplace of the best-selling poet in the English language, and home to a blue stone mine worked for six thousand years. These pages are here to discover an Afghanistan of giant Buddhas carved into a cliff face, kite battles fought with glass-coated string, a national sport played on horseback with a goat carcass, and a 12th-century tower lost for eight hundred years in a remote valley.",
+      },
+    },
+  },
+  {
+    slug: "belarus",
+    flagEmoji: "🇧🇾",
+    accentColor: "#A61C2C",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Bielorrusia",
+        intro:
+          "El país que guarda el último fragmento del bosque que cubrió toda Europa, salvó al bisonte europeo de la extinción y recibió la mayor parte de la radiactividad de Chernóbil pese a que la central está en Ucrania. Estas páginas son para descubrir una Bielorrusia de fortalezas que resistieron semanas sin refuerzos, cinturones tejidos con hilos de oro, una capital reconstruida entera tras la Segunda Guerra Mundial, y tortitas de papa que definen cada mesa familiar.",
+      },
+      en: {
+        name: "Belarus",
+        intro:
+          "The country that holds the last fragment of the forest that once covered Europe, saved the European bison from extinction, and received most of Chernobyl's radioactive fallout even though the plant sits in Ukraine. These pages are here to discover a Belarus of fortresses that held out for weeks with no reinforcements, belts woven with gold thread, a capital rebuilt entirely after World War II, and potato pancakes that define every family table.",
+      },
+    },
+  },
+  {
     slug: "north-korea",
     flagEmoji: "🇰🇵",
     accentColor: "#024FA2",

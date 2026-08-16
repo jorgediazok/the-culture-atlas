@@ -1254,6 +1254,49 @@ const Finland: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const Kazakhstan: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M30 95 L38 75 L62 75 L70 95 Z" fill="#D9BE8F" stroke="#8B7355" strokeWidth="2" />
+    <circle cx="50" cy="55" r="26" fill="none" stroke="#D4AF37" strokeWidth="4" />
+    {/* 8 spokes at 45° increments, radius 26 around (50,55), precomputed offline */}
+    <line x1="50" y1="55" x2="76" y2="55" stroke="#D4AF37" strokeWidth="3" />
+    <line x1="50" y1="55" x2="68.4" y2="73.4" stroke="#D4AF37" strokeWidth="3" />
+    <line x1="50" y1="55" x2="50" y2="81" stroke="#D4AF37" strokeWidth="3" />
+    <line x1="50" y1="55" x2="31.6" y2="73.4" stroke="#D4AF37" strokeWidth="3" />
+    <line x1="50" y1="55" x2="24" y2="55" stroke="#D4AF37" strokeWidth="3" />
+    <line x1="50" y1="55" x2="31.6" y2="36.6" stroke="#D4AF37" strokeWidth="3" />
+    <line x1="50" y1="55" x2="50" y2="29" stroke="#D4AF37" strokeWidth="3" />
+    <line x1="50" y1="55" x2="68.4" y2="36.6" stroke="#D4AF37" strokeWidth="3" />
+    <circle cx="50" cy="55" r="5" fill="#D4AF37" />
+  </svg>
+);
+
+const Afghanistan: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="50,15 72,55 50,55" fill="#C1272D" stroke="#3A2A1A" strokeWidth="1.5" />
+    <polygon points="72,55 50,95 50,55" fill="#0B6E4F" stroke="#3A2A1A" strokeWidth="1.5" />
+    <polygon points="50,95 28,55 50,55" fill="#C1272D" stroke="#3A2A1A" strokeWidth="1.5" />
+    <polygon points="28,55 50,15 50,55" fill="#0B6E4F" stroke="#3A2A1A" strokeWidth="1.5" />
+    <line x1="50" y1="15" x2="50" y2="95" stroke="#3A2A1A" strokeWidth="1.5" />
+    <line x1="28" y1="55" x2="72" y2="55" stroke="#3A2A1A" strokeWidth="1.5" />
+    <circle cx="50" cy="55" r="6" fill={accentColor} stroke="#3A2A1A" strokeWidth="1.5" />
+    <path d="M50 95 Q46 102 50 108 Q54 102 50 95 Z" fill="#D4AF37" />
+  </svg>
+);
+
+const Belarus: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M28 92 L28 72 Q28 50 48 44 Q68 38 82 48 Q90 54 88 64 L84 92 Z" fill="#4A3C2E" stroke="#2E241A" strokeWidth="2" />
+    <path d="M34 58 Q20 55 15 68 Q12 78 22 80 Q31 78 35 68 Z" fill="#2E241A" opacity="0.85" />
+    <path d="M22 70 Q17 80 19 90 Q24 93 28 88 Q26 78 22 70 Z" fill="#2E241A" opacity="0.6" />
+    <path d="M32 58 Q22 53 14 57" fill="none" stroke="#2E241A" strokeWidth="4" strokeLinecap="round" />
+    <circle cx="22" cy="68" r="2" fill="#1A1A1A" />
+    <rect x="38" y="80" width="7" height="14" fill="#2E241A" />
+    <rect x="60" y="76" width="7" height="18" fill="#2E241A" />
+    <ellipse cx="60" cy="56" rx="8" ry="5" fill={accentColor} opacity="0.55" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1300,6 +1343,9 @@ export const emblems: Record<string, EmblemComponent> = {
   armenia: Armenia,
   azerbaijan: Azerbaijan,
   finland: Finland,
+  kazakhstan: Kazakhstan,
+  afghanistan: Afghanistan,
+  belarus: Belarus,
   turkmenistan: Turkmenistan,
   laos: Laos,
   botswana: Botswana,

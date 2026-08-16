@@ -43,6 +43,9 @@ import { qatarIllustrations } from "./qatar";
 import { armeniaIllustrations } from "./armenia";
 import { azerbaijanIllustrations } from "./azerbaijan";
 import { finlandIllustrations } from "./finland";
+import { kazakhstanIllustrations } from "./kazakhstan";
+import { afghanistanIllustrations } from "./afghanistan";
+import { belarusIllustrations } from "./belarus";
 import { turkmenistanIllustrations } from "./turkmenistan";
 import { laosIllustrations } from "./laos";
 import { botswanaIllustrations } from "./botswana";
@@ -147,6 +150,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   armenia: armeniaIllustrations,
   azerbaijan: azerbaijanIllustrations,
   finland: finlandIllustrations,
+  kazakhstan: kazakhstanIllustrations,
+  afghanistan: afghanistanIllustrations,
+  belarus: belarusIllustrations,
   turkmenistan: turkmenistanIllustrations,
   laos: laosIllustrations,
   botswana: botswanaIllustrations,
