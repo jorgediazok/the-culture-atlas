@@ -668,6 +668,60 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "denmark",
+    flagEmoji: "🇩🇰",
+    accentColor: "#BC2A3F",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Dinamarca",
+        intro:
+          "El país donde nació LEGO en un taller de carpintería, una pequeña estatua de sirena se convirtió en símbolo nacional, y una piedra tallada en el siglo X contiene la primera mención escrita del propio nombre del país. Estas páginas son para descubrir una Dinamarca de parques eólicos pioneros, una capital con más bicicletas que habitantes, barcos vikingos que llegaron hasta el Mediterráneo, y un concepto de calidez cotidiana que el mundo entero terminó adoptando como propio.",
+      },
+      en: {
+        name: "Denmark",
+        intro:
+          "The country where LEGO was born in a carpentry workshop, a small mermaid statue became a national symbol, and a 10th-century carved stone holds the first written mention of the country's own name. These pages are here to discover a Denmark of pioneering wind farms, a capital with more bicycles than residents, Viking ships that reached the Mediterranean, and a concept of everyday coziness the whole world ended up adopting as its own.",
+      },
+    },
+  },
+  {
+    slug: "norway",
+    flagEmoji: "🇳🇴",
+    accentColor: "#00205B",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Noruega",
+        intro:
+          "El país que talló sus fiordos con glaciares milenarios, ahorró su riqueza petrolera en el fondo soberano más grande del mundo, y guarda semillas de todo el planeta dentro de una bóveda helada del Ártico. Estas páginas son para descubrir una Noruega cuna del esquí, hogar de un explorador vikingo que llegó a América quinientos años antes que Colón, un muelle hanseático de casas de colores en Bergen, y cielos que cada invierno se llenan de auroras boreales.",
+      },
+      en: {
+        name: "Norway",
+        intro:
+          "The country that carved its fjords with ancient glaciers, saved its oil wealth in the world's largest sovereign wealth fund, and stores seeds from around the planet inside a frozen Arctic vault. These pages are here to discover a Norway that is the birthplace of skiing, home to a Viking explorer who reached America five hundred years before Columbus, a colorful Hanseatic wharf in Bergen, and skies that fill with the northern lights every winter.",
+      },
+    },
+  },
+  {
+    slug: "sweden",
+    flagEmoji: "🇸🇪",
+    accentColor: "#006AA7",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Suecia",
+        intro:
+          "El país donde un adolescente fundó IKEA, una aplicación de Estocolmo cambió para siempre la manera de escuchar música, y un ingeniero regaló al mundo entero el diseño del cinturón de seguridad que hoy salva millones de vidas. Estas páginas son para descubrir una Suecia de barcos de guerra hundidos y rescatados siglos después, un derecho legal que permite acampar en casi cualquier terreno, pausas de café casi obligatorias, y un cuarteto de pop que conquistó el mundo entero desde Eurovisión.",
+      },
+      en: {
+        name: "Sweden",
+        intro:
+          "The country where a teenager founded IKEA, a Stockholm app forever changed how the world listens to music, and an engineer gave away the seatbelt design that now saves millions of lives every year. These pages are here to discover a Sweden of warships sunk and rescued centuries later, a legal right to camp on almost any land, near-mandatory coffee breaks, and a pop quartet that conquered the world starting from Eurovision.",
+      },
+    },
+  },
+  {
     slug: "north-korea",
     flagEmoji: "🇰🇵",
     accentColor: "#024FA2",

@@ -46,6 +46,9 @@ import { finlandIllustrations } from "./finland";
 import { kazakhstanIllustrations } from "./kazakhstan";
 import { afghanistanIllustrations } from "./afghanistan";
 import { belarusIllustrations } from "./belarus";
+import { denmarkIllustrations } from "./denmark";
+import { norwayIllustrations } from "./norway";
+import { swedenIllustrations } from "./sweden";
 import { turkmenistanIllustrations } from "./turkmenistan";
 import { laosIllustrations } from "./laos";
 import { botswanaIllustrations } from "./botswana";
@@ -153,6 +156,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   kazakhstan: kazakhstanIllustrations,
   afghanistan: afghanistanIllustrations,
   belarus: belarusIllustrations,
+  denmark: denmarkIllustrations,
+  norway: norwayIllustrations,
+  sweden: swedenIllustrations,
   turkmenistan: turkmenistanIllustrations,
   laos: laosIllustrations,
   botswana: botswanaIllustrations,

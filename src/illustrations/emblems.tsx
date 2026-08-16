@@ -1297,6 +1297,37 @@ const Belarus: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const Denmark: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="22" y="48" width="56" height="38" fill="#F5F0E6" stroke="#00000022" strokeWidth="1.5" />
+    <circle cx="38" cy="48" r="9" fill="#F5F0E6" stroke="#00000022" strokeWidth="1.5" />
+    <circle cx="62" cy="48" r="9" fill="#F5F0E6" stroke="#00000022" strokeWidth="1.5" />
+    <circle cx="38" cy="48" r="4" fill={accentColor} />
+    <circle cx="62" cy="48" r="4" fill={accentColor} />
+    <rect x="30" y="62" width="40" height="4" fill={accentColor} opacity="0.55" />
+  </svg>
+);
+
+const Norway: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M10 95 L10 40 L35 20 L35 95 Z" fill="#4A5A6A" stroke="#2A3540" strokeWidth="2" />
+    <path d="M90 95 L90 35 L65 15 L65 95 Z" fill="#5C6E80" stroke="#2A3540" strokeWidth="2" />
+    <path d="M35 95 L35 60 Q50 55 65 60 L65 95 Z" fill="#3D8FB0" opacity="0.85" />
+    <path d="M72 40 L72 70" stroke={accentColor} strokeWidth="3" opacity="0.85" strokeLinecap="round" />
+  </svg>
+);
+
+const Sweden: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M20 85 Q18 65 35 60 Q40 45 55 48 Q62 38 75 42 Q85 46 82 58 Q88 62 85 70 L78 72 Q75 85 60 87 L58 98 L50 98 L49 87 Q38 89 28 87 L26 98 L18 98 L22 82 Q17 84 20 85 Z" fill="#A02C2C" stroke="#6B1A1A" strokeWidth="2" />
+    <path d="M72 42 Q75 34 70 30" stroke="#6B1A1A" strokeWidth="3" fill="none" strokeLinecap="round" />
+    <circle cx="70" cy="47" r="2" fill="#1A1A1A" />
+    <circle cx="50" cy="62" r="6" fill={accentColor} opacity="0.7" />
+    <circle cx="35" cy="70" r="3" fill="#F5F0E6" opacity="0.8" />
+    <circle cx="65" cy="68" r="3" fill="#F5F0E6" opacity="0.8" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1346,6 +1377,9 @@ export const emblems: Record<string, EmblemComponent> = {
   kazakhstan: Kazakhstan,
   afghanistan: Afghanistan,
   belarus: Belarus,
+  denmark: Denmark,
+  norway: Norway,
+  sweden: Sweden,
   turkmenistan: Turkmenistan,
   laos: Laos,
   botswana: Botswana,
