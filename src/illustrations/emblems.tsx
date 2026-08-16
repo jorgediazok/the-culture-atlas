@@ -1406,6 +1406,43 @@ const Iceland: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
+const CzechRepublic: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <circle cx="50" cy="55" r="38" fill="#F5F0E6" stroke="#4A2C2A" strokeWidth="3" />
+    <circle cx="50" cy="55" r="26" fill="none" stroke={accentColor} strokeWidth="2.5" />
+    <line x1="50" y1="17" x2="50" y2="23" stroke="#4A2C2A" strokeWidth="2" />
+    <line x1="50" y1="87" x2="50" y2="93" stroke="#4A2C2A" strokeWidth="2" />
+    <line x1="12" y1="55" x2="18" y2="55" stroke="#4A2C2A" strokeWidth="2" />
+    <line x1="82" y1="55" x2="88" y2="55" stroke="#4A2C2A" strokeWidth="2" />
+    <line x1="50" y1="55" x2="50" y2="30" stroke="#4A2C2A" strokeWidth="3" />
+    <line x1="50" y1="55" x2="68" y2="62" stroke="#4A2C2A" strokeWidth="2.5" />
+    <circle cx="50" cy="55" r="4" fill="#4A2C2A" />
+    <rect x="38" y="93" width="24" height="10" fill="#4A2C2A" opacity="0.6" />
+  </svg>
+);
+
+const Monaco: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <circle cx="50" cy="55" r="38" fill="#1A1A1A" stroke="#F5F0E6" strokeWidth="2.5" />
+    {[0, 45, 90, 135, 180, 225, 270, 315].map((deg, i) => (
+      <rect key={deg} x="47" y="20" width="6" height="16" fill={i % 2 === 0 ? "#B71C1C" : "#F5F0E6"} transform={`rotate(${deg} 50 55)`} />
+    ))}
+    <circle cx="50" cy="55" r="14" fill={accentColor} stroke="#8B6F00" strokeWidth="2" />
+    <circle cx="50" cy="40" r="4" fill="#F5F0E6" stroke="#4A4A4A" strokeWidth="1.5" />
+  </svg>
+);
+
+const Moldova: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M45 25 Q35 30 38 40 Q30 42 32 52" fill="none" stroke="#2E7D32" strokeWidth="4" strokeLinecap="round" />
+    <path d="M30 30 Q45 20 60 30 Q65 35 58 40 Q45 32 32 40 Q25 35 30 30 Z" fill="#2E7D32" stroke="#1B5E20" strokeWidth="2" />
+    {[[45, 50], [58, 50], [38, 62], [51, 62], [64, 62], [45, 74], [58, 74], [51, 86]].map(([x, y]) => (
+      <circle key={`${x}-${y}`} cx={x} cy={y} r="8" fill="#5B2C6B" stroke="#3A1B45" strokeWidth="1.8" />
+    ))}
+    <ellipse cx="42" cy="47" rx="2.5" ry="3.5" fill="#B08FC0" opacity="0.7" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1464,6 +1501,9 @@ export const emblems: Record<string, EmblemComponent> = {
   slovakia: Slovakia,
   slovenia: Slovenia,
   iceland: Iceland,
+  "czech-republic": CzechRepublic,
+  monaco: Monaco,
+  moldova: Moldova,
   turkmenistan: Turkmenistan,
   laos: Laos,
   botswana: Botswana,

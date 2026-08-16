@@ -830,6 +830,60 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "czech-republic",
+    flagEmoji: "🇨🇿",
+    accentColor: "#B31942",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "República Checa",
+        intro:
+          "El país del reloj astronómico que funciona sin parar desde 1410, la cerveza que inventó el estilo copiado en todo el mundo, y la revolución que tumbó un régimen agitando llaveros sin derramar una sola gota de sangre. Estas páginas son para descubrir una República Checa de Praga, la ciudad de las cien torres, la palabra 'robot' nacida de una obra de teatro checa, el vidrio de Bohemia que encargaban los reyes, y el escritor que pidió quemar la obra que lo hizo famoso.",
+      },
+      en: {
+        name: "Czech Republic",
+        intro:
+          "The country with the astronomical clock that's run nonstop since 1410, the beer that invented a style copied worldwide, and the revolution that toppled a regime by jangling keys without spilling a single drop of blood. These pages are here to discover a Czech Republic of Prague, the city of a hundred spires, the word 'robot' born from a Czech play, Bohemian glass that kings once commissioned, and the writer who asked for his own work to be burned.",
+      },
+    },
+  },
+  {
+    slug: "monaco",
+    flagEmoji: "🇲🇨",
+    accentColor: "#CE1126",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Mónaco",
+        intro:
+          "El segundo país más pequeño del mundo, con un casino de lujo donde los propios ciudadanos tienen prohibido apostar, y una carrera de Fórmula 1 que se corre por las calles reales de la ciudad. Estas páginas son para descubrir un Mónaco sin impuesto a la renta desde hace más de 150 años, gobernado por la misma familia desde hace 700 años, con más policías por habitante que ningún otro lugar del planeta, y una estrella de Hollywood que dejó el cine para convertirse en princesa.",
+      },
+      en: {
+        name: "Monaco",
+        intro:
+          "The world's second-smallest country, with a luxury casino its own citizens are legally barred from entering, and a Formula 1 race run right through the city's actual public streets. These pages are here to discover a Monaco with no income tax for more than 150 years, ruled by the same family for 700 years, with more police per resident than anywhere else on the planet, and a Hollywood star who left film behind to become a princess.",
+      },
+    },
+  },
+  {
+    slug: "moldova",
+    flagEmoji: "🇲🇩",
+    accentColor: "#003DA5",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Moldavia",
+        intro:
+          "El país con la bodega más grande del mundo, con más de ciento veinte kilómetros de calles subterráneas, y más viñedos por habitante que cualquier otro lugar del planeta. Estas páginas son para descubrir una Moldavia de un territorio que se declaró país sin que nadie lo reconozca, un monasterio excavado dentro de un acantilado de piedra, un idioma que generó un debate sobre si realmente existe, y un país candidato a la Unión Europea desde que estalló la guerra en la vecina Ucrania.",
+      },
+      en: {
+        name: "Moldova",
+        intro:
+          "The country with the world's largest wine cellar, holding more than one hundred twenty kilometers of underground streets, and more vineyard area per capita than anywhere else on the planet. These pages are here to discover a Moldova with a territory that declared itself a country nobody recognizes, a monastery carved into a limestone cliff, a language people debated whether it even exists, and an EU candidacy that began the moment war broke out in neighboring Ukraine.",
+      },
+    },
+  },
+  {
     slug: "north-korea",
     flagEmoji: "🇰🇵",
     accentColor: "#024FA2",
