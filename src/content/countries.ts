@@ -722,6 +722,60 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "estonia",
+    flagEmoji: "🇪🇪",
+    accentColor: "#1B5FAE",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Estonia",
+        intro:
+          "El país donde se programó Skype, se puede votar y fundar una empresa desde el celular, y donde cientos de miles de personas cantaron para conseguir su independencia sin disparar un solo tiro. Estas páginas son para descubrir una Estonia de bosques y turberas que cubren la mitad del territorio, un casco medieval casi intacto en Tallin, dos fortalezas que se miran cara a cara sobre un río frontera, y una noche de verano que se celebra saltando sobre fogatas.",
+      },
+      en: {
+        name: "Estonia",
+        intro:
+          "The country where Skype was coded, where you can vote and start a company from your phone, and where hundreds of thousands of people sang their way to independence without firing a shot. These pages are here to discover an Estonia of forests and bogs covering half its territory, an almost untouched medieval old town in Tallinn, two fortresses staring each other down across a border river, and a summer night celebrated by jumping over bonfires.",
+      },
+    },
+  },
+  {
+    slug: "lithuania",
+    flagEmoji: "🇱🇹",
+    accentColor: "#D4941E",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Lituania",
+        intro:
+          "El país que llegó a ser el estado más grande de la Europa medieval, el último de todo el continente en cristianizarse, y cuya cadena humana de dos millones de personas ayudó a tumbar a la Unión Soviética. Estas páginas son para descubrir una Lituania donde el baloncesto funciona como segunda religión, un castillo rojo se levanta en medio de un lago, una colina acumula cien mil cruces pese a haber sido arrasada tres veces, y un barrio bohemio se declaró en broma república independiente.",
+      },
+      en: {
+        name: "Lithuania",
+        intro:
+          "The country that once was the largest state in medieval Europe, the last on the continent to convert to Christianity, and whose two-million-person human chain helped bring down the Soviet Union. These pages are here to discover a Lithuania where basketball functions as a second religion, a red castle rises in the middle of a lake, a hill holds a hundred thousand crosses despite being bulldozed three times, and a bohemian neighborhood jokingly declared itself an independent republic.",
+      },
+    },
+  },
+  {
+    slug: "latvia",
+    flagEmoji: "🇱🇻",
+    accentColor: "#9E1B32",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Letonia",
+        intro:
+          "El país con la mayor colección de edificios Art Nouveau del mundo, dueño de una de las banderas más antiguas documentadas, y hogar de un archivo con más de un millón de canciones populares catalogadas a mano. Estas páginas son para descubrir una Letonia de un mercado gigante construido en hangares de dirigibles, un licor negro que se recetaba como remedio medicinal, acantilados de arenisca apodados la 'Suiza letona', y la mayor densidad de cigüeñas de toda Europa.",
+      },
+      en: {
+        name: "Latvia",
+        intro:
+          "The country with the largest collection of Art Nouveau buildings in the world, one of the oldest documented flags anywhere, and home to an archive of more than a million hand-catalogued folk songs. These pages are here to discover a Latvia of a giant market built inside airship hangars, a black liqueur once prescribed as medicine, sandstone cliffs nicknamed 'Latvian Switzerland,' and the highest density of storks anywhere in Europe.",
+      },
+    },
+  },
+  {
     slug: "north-korea",
     flagEmoji: "🇰🇵",
     accentColor: "#024FA2",

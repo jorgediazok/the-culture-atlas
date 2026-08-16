@@ -56,6 +56,9 @@ import { belarus } from "./belarus";
 import { denmark } from "./denmark";
 import { norway } from "./norway";
 import { sweden } from "./sweden";
+import { estonia } from "./estonia";
+import { lithuania } from "./lithuania";
+import { latvia } from "./latvia";
 import { turkmenistan } from "./turkmenistan";
 import { laos } from "./laos";
 import { botswana } from "./botswana";
@@ -165,6 +168,9 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   denmark,
   norway,
   sweden,
+  estonia,
+  lithuania,
+  latvia,
   turkmenistan,
   laos,
   botswana,
