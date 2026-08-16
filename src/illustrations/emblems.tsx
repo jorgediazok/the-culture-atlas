@@ -1299,11 +1299,10 @@ const Belarus: EmblemComponent = ({ accentColor }) => (
 
 const Denmark: EmblemComponent = ({ accentColor }) => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <rect x="20" y="52" width="60" height="34" rx="2" fill="#F5F0E6" stroke="#6B5B4A" strokeWidth="2.5" />
-    <circle cx="35" cy="52" r="11" fill={accentColor} stroke="#6B5B4A" strokeWidth="2.5" />
-    <circle cx="65" cy="52" r="11" fill={accentColor} stroke="#6B5B4A" strokeWidth="2.5" />
-    <circle cx="35" cy="52" r="4" fill="#F5F0E6" opacity="0.5" />
-    <circle cx="65" cy="52" r="4" fill="#F5F0E6" opacity="0.5" />
+    <polygon points="25,55 75,55 90,40 40,40" fill="#F4B400" stroke="#8A6200" strokeWidth="2.5" />
+    <rect x="25" y="55" width="50" height="35" fill="#C98F00" stroke="#8A6200" strokeWidth="2.5" />
+    <ellipse cx="52" cy="46" rx="8" ry="5" fill={accentColor} stroke="#8A6200" strokeWidth="2" />
+    <ellipse cx="72" cy="42" rx="8" ry="5" fill={accentColor} stroke="#8A6200" strokeWidth="2" />
   </svg>
 );
 
