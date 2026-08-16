@@ -799,16 +799,17 @@ const Austria: EmblemComponent = () => (
 );
 
 const Spain: EmblemComponent = () => (
-  <svg viewBox="-2 -9 100 110" width="100%" height="100%">
-    <ellipse cx="54" cy="56" rx="24" ry="14" fill="#1A1A1A" />
-    <path d="M32 66 L36 84 L44 84 L42 66 Z" fill="#1A1A1A" />
-    <path d="M64 66 L68 84 L76 84 L72 66 Z" fill="#1A1A1A" />
-    <ellipse cx="26" cy="40" rx="13" ry="11" fill="#1A1A1A" />
-    <ellipse cx="13" cy="45" rx="7" ry="5.5" fill="#1A1A1A" />
-    <path d="M20 32 Q8 24 6 12 Q14 20 18 30 Z" fill="#1A1A1A" />
-    <path d="M32 31 Q36 18 36 8 Q28 16 26 28 Z" fill="#1A1A1A" />
-    <path d="M78 52 Q90 58 86 70 Q84 74 80 72" stroke="#1A1A1A" strokeWidth="3" fill="none" strokeLinecap="round" />
-    <circle cx="86" cy="71" r="3" fill="#1A1A1A" />
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <ellipse cx="50" cy="48" rx="30" ry="16" fill="#1A1A1A" />
+    <circle cx="24" cy="40" r="11" fill="#1A1A1A" />
+    <path d="M14 42 L4 46 L14 48 Z" fill="#1A1A1A" />
+    <path d="M18 32 Q8 26 2 30 Q10 34 16 38 Z" fill="#1A1A1A" />
+    <path d="M30 32 Q34 22 30 14 Q24 24 24 34 Z" fill="#1A1A1A" />
+    <rect x="30" y="58" width="8" height="24" fill="#1A1A1A" />
+    <rect x="46" y="58" width="8" height="24" fill="#1A1A1A" />
+    <rect x="62" y="58" width="8" height="24" fill="#1A1A1A" />
+    <rect x="76" y="55" width="8" height="24" fill="#1A1A1A" />
+    <path d="M78 44 Q92 46 90 60 Q88 66 82 62" fill="none" stroke="#1A1A1A" strokeWidth="4" strokeLinecap="round" />
   </svg>
 );
 
@@ -1443,6 +1444,91 @@ const Moldova: EmblemComponent = () => (
   </svg>
 );
 
+const BosniaAndHerzegovina: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="10" y="70" width="80" height="14" fill="#3D8FB0" opacity="0.6" />
+    <path d="M15 72 Q50 35 85 72 L85 80 Q50 46 15 80 Z" fill="#F5F0E6" stroke="#4A2C2A" strokeWidth="2.5" />
+    <rect x="10" y="64" width="12" height="16" fill="#F5F0E6" stroke="#4A2C2A" strokeWidth="1.8" />
+    <rect x="78" y="64" width="12" height="16" fill="#F5F0E6" stroke="#4A2C2A" strokeWidth="1.8" />
+  </svg>
+);
+
+const Montenegro: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <line x1="50" y1="72" x2="50" y2="45" stroke="#D4AF37" strokeWidth="5" />
+    <path d="M50 48 Q25 38 12 50 Q26 60 42 55 Q28 66 15 68 Q30 76 45 62" fill="#D4AF37" stroke="#8A6A10" strokeWidth="1.5" />
+    <path d="M50 48 Q75 38 88 50 Q74 60 58 55 Q72 66 85 68 Q70 76 55 62" fill="#D4AF37" stroke="#8A6A10" strokeWidth="1.5" />
+    <circle cx="42" cy="40" r="7" fill="#D4AF37" stroke="#8A6A10" strokeWidth="1.5" />
+    <circle cx="58" cy="40" r="7" fill="#D4AF37" stroke="#8A6A10" strokeWidth="1.5" />
+    <rect x="44" y="62" width="12" height="14" fill="#F5F0E6" stroke="#8A6A10" strokeWidth="1.5" />
+  </svg>
+);
+
+const NorthMacedonia: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="10" y="80" width="80" height="16" fill="#1B5E7A" opacity="0.55" />
+    <path d="M10 75 L30 60 L30 96 L10 96 Z" fill="#8B8378" opacity="0.65" />
+    <rect x="52" y="55" width="30" height="28" fill="#F5F0E6" stroke="#4A2C2A" strokeWidth="2.2" />
+    <polygon points="48,55 67,38 86,55" fill="#B71C1C" stroke="#4A2C2A" strokeWidth="2.2" />
+    <line x1="67" y1="38" x2="67" y2="28" stroke="#4A2C2A" strokeWidth="2" />
+    <line x1="62" y1="32" x2="72" y2="32" stroke="#4A2C2A" strokeWidth="2" />
+  </svg>
+);
+
+const Ireland: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M30 92 Q25 48 42 24 Q52 12 66 20" fill="none" stroke="#D4AF37" strokeWidth="5" strokeLinecap="round" />
+    <path d="M30 92 L30 30" stroke="#D4AF37" strokeWidth="5" strokeLinecap="round" />
+    <path d="M22 92 L38 92 L36 100 L24 100 Z" fill="#8A6A10" />
+    {[[34, 30, 62, 40], [34, 42, 58, 50], [32, 54, 54, 61], [31, 66, 50, 72]].map(([x1, y1, x2, y2]) => (
+      <line key={y1} x1={x1} y1={y1} x2={x2} y2={y2} stroke="#8A6A10" strokeWidth="1.6" opacity="0.7" />
+    ))}
+  </svg>
+);
+
+const NorthernIreland: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="10" y="85" width="80" height="10" fill="#1B5E7A" opacity="0.4" />
+    {[[20, 55], [35, 68], [50, 48], [65, 62], [80, 52]].map(([x, h], i) => (
+      <g key={x}>
+        <rect x={x - 6} y={95 - h} width="12" height={h} fill={i % 2 === 0 ? "#4A4A4A" : "#3A3A3A"} stroke="#1A1A1A" strokeWidth="1.5" />
+        <polygon points={`${x - 6},${95 - h} ${x},${89 - h} ${x + 6},${95 - h}`} fill={i % 2 === 0 ? "#5A5A5A" : "#4A4A4A"} stroke="#1A1A1A" strokeWidth="1.2" />
+      </g>
+    ))}
+  </svg>
+);
+
+const England: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {[0, 72, 144, 216, 288].map((deg) => (
+      <ellipse key={deg} cx="50" cy="38" rx="10" ry="18" fill="#CE1124" stroke="#8B0E19" strokeWidth="1.8" transform={`rotate(${deg} 50 55)`} />
+    ))}
+    {[36, 108, 180, 252, 324].map((deg) => (
+      <ellipse key={deg} cx="50" cy="42" rx="7" ry="13" fill="#F5F0E6" stroke="#8B0E19" strokeWidth="1.5" transform={`rotate(${deg} 50 55)`} />
+    ))}
+    <circle cx="50" cy="55" r="9" fill="#D4AF37" stroke="#8B0E19" strokeWidth="1.8" />
+  </svg>
+);
+
+const Scotland: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <line x1="50" y1="98" x2="50" y2="65" stroke="#F5F0E6" strokeWidth="5" />
+    <path d="M50 80 Q30 78 25 65 Q40 70 50 80 Z" fill="#F5F0E6" stroke="#0065BD" strokeWidth="2" />
+    <path d="M50 80 Q70 78 75 65 Q60 70 50 80 Z" fill="#F5F0E6" stroke="#0065BD" strokeWidth="2" />
+    <circle cx="50" cy="50" r="16" fill="#0065BD" stroke="#00408A" strokeWidth="2" />
+    {[0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330].map((deg) => (
+      <line key={deg} x1="50" y1="50" x2="50" y2="30" stroke="#F5F0E6" strokeWidth="2.5" strokeLinecap="round" transform={`rotate(${deg} 50 50)`} />
+    ))}
+  </svg>
+);
+
+const Wales: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M35 85 Q30 60 45 50 Q40 40 48 30 Q52 40 55 48 Q65 42 75 50 Q68 58 58 60 Q65 68 62 82 Q52 78 47 66 Q42 80 35 85 Z" fill="#C8102E" stroke="#7A0E1C" strokeWidth="2.2" />
+    <circle cx="45" cy="45" r="2.5" fill="#1A1A1A" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1560,6 +1646,14 @@ export const emblems: Record<string, EmblemComponent> = {
   liechtenstein: Liechtenstein,
   bulgaria: Bulgaria,
   romania: Romania,
+  "bosnia-and-herzegovina": BosniaAndHerzegovina,
+  montenegro: Montenegro,
+  "north-macedonia": NorthMacedonia,
+  ireland: Ireland,
+  "northern-ireland": NorthernIreland,
+  england: England,
+  scotland: Scotland,
+  wales: Wales,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

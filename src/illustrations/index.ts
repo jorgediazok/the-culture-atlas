@@ -114,6 +114,14 @@ import { gambiaIllustrations } from "./gambia";
 import { liechtensteinIllustrations } from "./liechtenstein";
 import { bulgariaIllustrations } from "./bulgaria";
 import { romaniaIllustrations } from "./romania";
+import { bosniaAndHerzegovinaIllustrations } from "./bosnia-and-herzegovina";
+import { montenegroIllustrations } from "./montenegro";
+import { northMacedoniaIllustrations } from "./north-macedonia";
+import { irelandIllustrations } from "./ireland";
+import { northernIrelandIllustrations } from "./northern-ireland";
+import { englandIllustrations } from "./england";
+import { scotlandIllustrations } from "./scotland";
+import { walesIllustrations } from "./wales";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -233,6 +241,14 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   liechtenstein: liechtensteinIllustrations,
   bulgaria: bulgariaIllustrations,
   romania: romaniaIllustrations,
+  "bosnia-and-herzegovina": bosniaAndHerzegovinaIllustrations,
+  montenegro: montenegroIllustrations,
+  "north-macedonia": northMacedoniaIllustrations,
+  ireland: irelandIllustrations,
+  "northern-ireland": northernIrelandIllustrations,
+  england: englandIllustrations,
+  scotland: scotlandIllustrations,
+  wales: walesIllustrations,
 };
 
 export function getIllustration(

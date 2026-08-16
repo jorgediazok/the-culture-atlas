@@ -2089,4 +2089,148 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "bosnia-and-herzegovina",
+    flagEmoji: "🇧🇦",
+    accentColor: "#1B3B6F",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Bosnia y Herzegovina",
+        intro:
+          "El país donde una mezquita, una catedral y una sinagoga conviven a pocos metros de distancia, y donde un puente reconstruido piedra por piedra sigue viendo saltar a jóvenes desde sus veinticuatro metros de altura. Estas páginas son para descubrir una Bosnia de rosas de asfalto que recuerdan un asedio, un ritual de café que dura horas y colinas que algunos insisten en llamar pirámides.",
+      },
+      en: {
+        name: "Bosnia and Herzegovina",
+        intro:
+          "The country where a mosque, a cathedral, and a synagogue coexist a few meters apart, and where a bridge rebuilt stone by stone still watches young men dive from its twenty-four-meter height. These pages are here to discover a Bosnia of asphalt roses that remember a siege, a coffee ritual that lasts for hours, and hills some insist on calling pyramids.",
+      },
+    },
+  },
+  {
+    slug: "montenegro",
+    flagEmoji: "🇲🇪",
+    accentColor: "#A6192E",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Montenegro",
+        intro:
+          "Un país tan pequeño que se cruza en pocas horas, con una bahía que parece fiordo, un monasterio incrustado en un acantilado y una moneda que usa sin siquiera pertenecer al club que la emite. Estas páginas son para descubrir un Montenegro de águilas bicéfalas heredadas de Bizancio, jamones curados con viento de montaña y un mausoleo al que se llega subiendo cuatrocientos sesenta y un escalones.",
+      },
+      en: {
+        name: "Montenegro",
+        intro:
+          "A country so small you can cross it in a few hours, with a bay that looks like a fjord, a monastery embedded in a cliff, and a currency it uses without even belonging to the club that issues it. These pages are here to discover a Montenegro of double-headed eagles inherited from Byzantium, ham cured with mountain wind, and a mausoleum reached by climbing four hundred sixty-one steps.",
+      },
+    },
+  },
+  {
+    slug: "north-macedonia",
+    flagEmoji: "🇲🇰",
+    accentColor: "#CE1126",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Macedonia del Norte",
+        intro:
+          "El país que cambió su propio nombre para resolver una disputa diplomática, cuna de la Madre Teresa y de la escritura eslava, y hogar de un lago tan antiguo que se cuenta en millones de años. Estas páginas son para descubrir una Macedonia del Norte de estatuas gigantes en su capital, pimientos asados cada otoño y un pueblo de montaña que revive una boda tradicional una sola vez al año.",
+      },
+      en: {
+        name: "North Macedonia",
+        intro:
+          "The country that changed its own name to resolve a diplomatic dispute, birthplace of Mother Teresa and of Slavic writing, and home to a lake so old it's measured in millions of years. These pages are here to discover a North Macedonia of giant statues in its capital, peppers roasted every autumn, and a mountain village that revives a traditional wedding just once a year.",
+      },
+    },
+  },
+  {
+    slug: "ireland",
+    flagEmoji: "🇮🇪",
+    accentColor: "#169B62",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Irlanda",
+        intro:
+          "El país de un manuscrito iluminado que sobrevivió a los vikingos, una fiesta celta que se convirtió en Halloween y una diáspora hoy mucho más grande que su propia población. Estas páginas son para descubrir una Irlanda de pubs donde la música empieza sin aviso, un monumento más viejo que las pirámides de Egipto y montículos que nadie se anima a tocar por las dudas.",
+      },
+      en: {
+        name: "Ireland",
+        intro:
+          "The country of an illuminated manuscript that survived Viking raids, a Celtic festival that became Halloween, and a diaspora far bigger today than its own population. These pages are here to discover an Ireland of pubs where the music starts without warning, a monument older than the pyramids of Egypt, and mounds nobody dares to touch just in case.",
+      },
+    },
+  },
+  {
+    slug: "northern-ireland",
+    flagEmoji: "🇬🇧",
+    accentColor: "#0F7173",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Irlanda del Norte",
+        intro:
+          "La tierra de columnas de piedra que parecen talladas a mano, el astillero donde nació el Titanic y un acuerdo de paz de 1998 que sigue siendo modelo en el mundo. Estas páginas son para descubrir una Irlanda del Norte de muros pintados con murales que todavía separan barrios, un lago nacido de la mano de un gigante y un desayuno con dos panes que no existen en ningún otro lado.",
+      },
+      en: {
+        name: "Northern Ireland",
+        intro:
+          "The land of stone columns that look handmade, the shipyard where the Titanic was born, and a 1998 peace agreement still cited as a model worldwide. These pages are here to discover a Northern Ireland of murals still separating neighborhoods, a lake born from a giant's own hand, and a breakfast with two breads found nowhere else.",
+      },
+    },
+  },
+  {
+    slug: "england",
+    flagEmoji: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    accentColor: "#CE1124",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Inglaterra",
+        intro:
+          "El país de un círculo de piedras milenario, el metro más antiguo del mundo y un pub donde se escribieron las reglas del deporte más jugado del planeta. Estas páginas son para descubrir una Inglaterra del té de la tarde nacido para llenar una tarde larga, un cruce peatonal que terminó en una portada de disco y una cultura de hacer fila que nadie se atreve a romper.",
+      },
+      en: {
+        name: "England",
+        intro:
+          "The country of an ancient stone circle, the world's oldest subway, and a pub where the rules of the planet's most played sport were written down. These pages are here to discover an England of afternoon tea invented to fill a long afternoon, a crosswalk that ended up on an album cover, and a queuing culture nobody dares to break.",
+      },
+    },
+  },
+  {
+    slug: "scotland",
+    flagEmoji: "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    accentColor: "#0065BD",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Escocia",
+        intro:
+          "La tierra de un lago con su propio monstruo, un whisky que se escribe sin la 'e' y un festival de artes que se volvió el más grande del planeta. Estas páginas son para descubrir una Escocia de cuadros de tela que identifican a cada clan, un plato al que se le recita un poema antes de comerlo y un animal nacional que, técnicamente, no existe.",
+      },
+      en: {
+        name: "Scotland",
+        intro:
+          "The land of a lake with its own monster, a whisky spelled without the 'e', and an arts festival that became the biggest on the planet. These pages are here to discover a Scotland of checkered fabric patterns that identify each clan, a dish recited a poem to before it's eaten, and a national animal that, technically, doesn't exist.",
+      },
+    },
+  },
+  {
+    slug: "wales",
+    flagEmoji: "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    accentColor: "#00843D",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Gales",
+        intro:
+          "El país con la bandera nacional más antigua todavía en uso, un idioma celta que se negó a desaparecer y un pueblo diminuto con más librerías que casi cualquier otro lugar del mundo. Estas páginas son para descubrir un Gales de coros mineros que cantan desde hace más de un siglo, un festival que corona a un poeta con espada envainada y un pueblo italiano que en realidad está sobre la costa galesa.",
+      },
+      en: {
+        name: "Wales",
+        intro:
+          "The country with the oldest national flag still in use, a Celtic language that refused to disappear, and a tiny village with more bookshops than almost anywhere else in the world. These pages are here to discover a Wales of mining choirs still singing after more than a century, a festival that crowns a poet with a sheathed sword, and an Italian village that's actually sitting on the Welsh coast.",
+      },
+    },
+  },
 ];

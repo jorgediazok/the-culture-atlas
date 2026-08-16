@@ -88,9 +88,12 @@ const KarstLaPalabraQueNacioAqui: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <path d="M90 240 Q140 220 170 240 Q200 260 230 240 Q260 220 320 240 L320 250 L90 250 Z" fill={accentColor} opacity="0.5" stroke={dark} strokeWidth="2" />
-      <ellipse cx="170" cy="235" rx="30" ry="14" fill="#2E241A" opacity="0.6" />
-      <ellipse cx="255" cy="230" rx="24" ry="12" fill="#2E241A" opacity="0.5" />
+      <path d="M90 250 L90 190 Q130 160 160 185 Q185 145 215 180 Q250 150 280 185 Q305 165 320 190 L320 250 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="150" cy="220" rx="34" ry="20" fill="#2E241A" opacity="0.65" />
+      <ellipse cx="150" cy="214" rx="26" ry="14" fill="#4A3A28" opacity="0.5" />
+      <ellipse cx="250" cy="228" rx="28" ry="17" fill="#2E241A" opacity="0.6" />
+      <ellipse cx="250" cy="223" rx="20" ry="11" fill="#4A3A28" opacity="0.45" />
+      <path d="M110 200 Q120 185 135 195 M270 195 Q282 180 298 192" fill="none" stroke={dark} strokeWidth="2.5" opacity="0.4" />
     </g>
   );
 };
