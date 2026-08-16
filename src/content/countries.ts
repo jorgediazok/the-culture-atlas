@@ -470,6 +470,96 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "uzbekistan",
+    flagEmoji: "🇺🇿",
+    accentColor: "#0099B5",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Uzbekistán",
+        intro:
+          "El corazón de la antigua Ruta de la Seda, con las cúpulas turquesas de Samarcanda, el imperio que forjó Tamerlán y un mar que se secó hasta convertirse en desierto. Estas páginas son para descubrir un Uzbekistán de bazares, astrónomos y una identidad que sobrevivió a imperios, zares y comisarios soviéticos.",
+      },
+      en: {
+        name: "Uzbekistan",
+        intro:
+          "The heart of the ancient Silk Road, with Samarkand's turquoise domes, the empire Tamerlane forged, and a sea that dried into a desert. These pages are here to discover an Uzbekistan of bazaars, astronomers, and an identity that outlasted empires, tsars, and Soviet commissars.",
+      },
+    },
+  },
+  {
+    slug: "tajikistan",
+    flagEmoji: "🇹🇯",
+    accentColor: "#37474F",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Tayikistán",
+        intro:
+          "El país más montañoso de Asia central, con una carretera que roza el techo del mundo, un lago represado por un terremoto y casas de cinco pilares que representan el universo entero. Estas páginas son para descubrir un Tayikistán de poetas persas, ruinas sogdianas y una identidad forjada en las alturas del Pamir.",
+      },
+      en: {
+        name: "Tajikistan",
+        intro:
+          "Central Asia's most mountainous country, with a highway that skims the roof of the world, a lake dammed by an earthquake, and five-pillar houses representing the entire universe. These pages are here to discover a Tajikistan of Persian poets, Sogdian ruins, and an identity forged high in the Pamirs.",
+      },
+    },
+  },
+  {
+    slug: "kyrgyzstan",
+    flagEmoji: "🇰🇬",
+    accentColor: "#C1272D",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Kirguistán",
+        intro:
+          "El país de los pastores nómadas, con el poema oral más largo jamás compuesto, un lago que nunca se congela y familias que todavía suben cada verano a pastos de montaña con sus yurtas. Estas páginas son para descubrir un Kirguistán de juegos ecuestres, caravasares perdidos y una tradición nómada que se resiste a desaparecer.",
+      },
+      en: {
+        name: "Kyrgyzstan",
+        intro:
+          "The land of nomadic herders, home to the longest oral poem ever composed, a lake that never freezes, and families who still move up to mountain pastures with their yurts every summer. These pages are here to discover a Kyrgyzstan of equestrian games, lost caravanserais, and a nomadic tradition that refuses to fade.",
+      },
+    },
+  },
+  {
+    slug: "united-arab-emirates",
+    flagEmoji: "🇦🇪",
+    accentColor: "#006233",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Emiratos Árabes Unidos",
+        intro:
+          "El país que pasó de aldea de pescadores de perlas a hogar del edificio más alto del mundo en apenas medio siglo, con islas artificiales visibles desde el espacio y halcones que viajan con pasaporte propio. Estas páginas son para descubrir unos Emiratos de siete reinos unidos, tradición beduina y una apuesta constante por reinventarse antes de que se acabe el petróleo.",
+      },
+      en: {
+        name: "United Arab Emirates",
+        intro:
+          "The country that went from a pearl-diving village to home of the world's tallest building in barely half a century, with artificial islands visible from space and falcons that travel with their own passports. These pages are here to discover an Emirates of seven united kingdoms, Bedouin tradition, and a constant bet on reinventing itself before the oil runs out.",
+      },
+    },
+  },
+  {
+    slug: "qatar",
+    flagEmoji: "🇶🇦",
+    accentColor: "#8A1538",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Qatar",
+        intro:
+          "El país diminuto que organizó el primer Mundial de fútbol del mundo árabe, transformó su ganancia gasífera en la propiedad de medio Londres, y cura a sus halcones enfermos en un hospital dedicado solo a ellos. Estas páginas son para descubrir un Qatar de perlas antes del petróleo, un bloqueo respondido con vacas voladas por avión, y una península que decidió reinventarse por completo en apenas dos generaciones.",
+      },
+      en: {
+        name: "Qatar",
+        intro:
+          "The tiny country that hosted the Arab world's first World Cup, turned its natural-gas windfall into ownership of half of London, and treats its sick falcons in a hospital built just for them. These pages are here to discover a Qatar of pearls before oil, a blockade answered by flying in cows, and a peninsula that decided to reinvent itself completely in barely two generations.",
+      },
+    },
+  },
+  {
     slug: "north-korea",
     flagEmoji: "🇰🇵",
     accentColor: "#024FA2",

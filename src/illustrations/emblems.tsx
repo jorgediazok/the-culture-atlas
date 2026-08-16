@@ -501,6 +501,50 @@ const SouthKorea: EmblemComponent = () => (
   </svg>
 );
 
+const Uzbekistan: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {/* a Registan-style peshtaq gateway, sandy brick with turquoise tile inlay, the pointed portal arch of a Samarkand madrasa */}
+    <rect x="20" y="16" width="60" height="86" fill="#D9BE8F" stroke="#8B7355" strokeWidth="2" />
+    <rect x="27" y="23" width="46" height="72" fill="#0097A7" stroke="#00695C" strokeWidth="2" />
+    <path d="M36 100 L36 54 Q36 28 50 22 Q64 28 64 54 L64 100 Z" fill="#1A2340" />
+    <path d="M32 100 L32 20 L36 20 L36 100 Z M64 100 L64 20 L68 20 L68 100 Z" fill="#D4AF37" opacity="0.7" />
+    {[26, 34, 66, 74].map((x) => (
+      <rect key={x} x={x} y="26" width="6" height="6" fill="#D4AF37" opacity="0.7" />
+    ))}
+    <line x1="50" y1="22" x2="50" y2="10" stroke="#D4AF37" strokeWidth="2.5" />
+    <circle cx="50" cy="8" r="3" fill="#D4AF37" />
+  </svg>
+);
+
+const Tajikistan: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {/* the chorkhona, the stepped skylight of a Pamiri five-pillar house, seen from below */}
+    <rect x="8" y="13" width="84" height="84" fill="#5C3A1E" stroke="#3E2712" strokeWidth="2" />
+    <rect x="20" y="25" width="60" height="60" fill={accentColor} />
+    <rect x="32" y="37" width="36" height="36" fill="#D4AF37" opacity="0.9" />
+    <rect x="43" y="48" width="14" height="14" fill="#7EC8E3" />
+  </svg>
+);
+
+const Kyrgyzstan: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {/* the kalpak, Kyrgyzstan's traditional pointed felt hat */}
+    <path d="M20 72 Q20 30 50 18 Q80 30 80 72 Q65 63 50 61 Q35 63 20 72 Z" fill="#F5F0E6" stroke="#00000022" strokeWidth="1" />
+    <path d="M20 72 Q35 63 50 61 Q65 63 80 72 L80 85 Q65 76 50 74 Q35 76 20 85 Z" fill="#1A1A1A" />
+    <path d="M30 79 Q50 70 70 79" fill="none" stroke={accentColor} strokeWidth="3" opacity="0.9" />
+  </svg>
+);
+
+const UnitedArabEmirates: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {/* the sail-shaped silhouette of Dubai's Burj Al Arab, rising from the gulf */}
+    <path d="M35 95 Q28 55 42 25 Q46 15 50 22 Q68 55 62 95 Z" fill="#F5F0E6" stroke="#00000022" strokeWidth="1.5" />
+    <path d="M42 95 L42 60 Q46 45 50 45 Q50 70 46 95 Z" fill={accentColor} opacity="0.35" />
+    <line x1="48" y1="95" x2="48" y2="102" stroke="#455A64" strokeWidth="3" />
+    <path d="M20 100 Q35 94 50 100 Q65 94 80 100" fill="none" stroke="#0288D1" strokeWidth="3" opacity="0.7" />
+  </svg>
+);
+
 const Turkmenistan: EmblemComponent = () => (
   <svg viewBox="0 4 100 110" width="100%" height="100%">
     <rect x="18" y="56" width="46" height="20" rx="8" fill="#C9A227" />
@@ -1165,6 +1209,16 @@ const Romania: EmblemComponent = () => (
   </svg>
 );
 
+const Qatar: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M14 76 Q50 92 86 76 L86 88 L14 88 Z" fill="#3D8FB0" opacity="0.6" />
+    <path d="M22 72 Q35 60 62 65 Q78 68 82 76 L78 82 L26 82 Q18 78 22 72 Z" fill="#F5F0E6" stroke="#8B7355" strokeWidth="2" />
+    <line x1="46" y1="65" x2="46" y2="24" stroke="#8B7355" strokeWidth="3" />
+    <path d="M46 24 L74 60 L46 60 Z" fill="#F5F0E6" stroke="#8B7355" strokeWidth="2" />
+    <line x1="46" y1="34" x2="66" y2="52" stroke={accentColor} strokeWidth="1.5" opacity="0.85" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1203,6 +1257,11 @@ export const emblems: Record<string, EmblemComponent> = {
   paraguay: Paraguay,
   "north-korea": NorthKorea,
   "south-korea": SouthKorea,
+  uzbekistan: Uzbekistan,
+  tajikistan: Tajikistan,
+  kyrgyzstan: Kyrgyzstan,
+  "united-arab-emirates": UnitedArabEmirates,
+  qatar: Qatar,
   turkmenistan: Turkmenistan,
   laos: Laos,
   botswana: Botswana,

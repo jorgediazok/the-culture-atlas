@@ -42,6 +42,11 @@ import { nepal } from "./nepal";
 import { paraguay } from "./paraguay";
 import { northKorea } from "./north-korea";
 import { southKorea } from "./south-korea";
+import { uzbekistan } from "./uzbekistan";
+import { tajikistan } from "./tajikistan";
+import { kyrgyzstan } from "./kyrgyzstan";
+import { unitedArabEmirates } from "./united-arab-emirates";
+import { qatar } from "./qatar";
 import { turkmenistan } from "./turkmenistan";
 import { laos } from "./laos";
 import { botswana } from "./botswana";
@@ -137,6 +142,11 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   paraguay,
   "north-korea": northKorea,
   "south-korea": southKorea,
+  uzbekistan,
+  tajikistan,
+  kyrgyzstan,
+  "united-arab-emirates": unitedArabEmirates,
+  qatar,
   turkmenistan,
   laos,
   botswana,

@@ -35,6 +35,11 @@ import { nepalIllustrations } from "./nepal";
 import { paraguayIllustrations } from "./paraguay";
 import { northKoreaIllustrations } from "./north-korea";
 import { southKoreaIllustrations } from "./south-korea";
+import { uzbekistanIllustrations } from "./uzbekistan";
+import { tajikistanIllustrations } from "./tajikistan";
+import { kyrgyzstanIllustrations } from "./kyrgyzstan";
+import { unitedArabEmiratesIllustrations } from "./united-arab-emirates";
+import { qatarIllustrations } from "./qatar";
 import { turkmenistanIllustrations } from "./turkmenistan";
 import { laosIllustrations } from "./laos";
 import { botswanaIllustrations } from "./botswana";
@@ -131,6 +136,11 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   paraguay: paraguayIllustrations,
   "north-korea": northKoreaIllustrations,
   "south-korea": southKoreaIllustrations,
+  uzbekistan: uzbekistanIllustrations,
+  tajikistan: tajikistanIllustrations,
+  kyrgyzstan: kyrgyzstanIllustrations,
+  "united-arab-emirates": unitedArabEmiratesIllustrations,
+  qatar: qatarIllustrations,
   turkmenistan: turkmenistanIllustrations,
   laos: laosIllustrations,
   botswana: botswanaIllustrations,
