@@ -103,6 +103,18 @@ browser's renderer applies those deterministically. The banned thing is only
   each figure a proper robed-body silhouette with the hem coming to a point
   at the ground and small leg/foot lines below it, alternating head height to
   convey the motion. Fixed in Luxembourg's `Sprangprozessioun`.
+- **Generic blob instead of the object's one defining feature**: a rounded
+  lump with no distinguishing silhouette reads as "nothing in particular,"
+  even when the alt text names a specific object. Guitars need a waisted
+  figure-eight body (acoustic) or pointed double-cutaway horns (electric) —
+  a plain round bout with a neck stub reads as nothing. Pointe ballet shoes
+  need a flat/blocked toe end plus ribbons crossing up the ankle in an X — a
+  plain almond shape reads as a pebble. A rifle needs an angled buttstock
+  silhouette plus a trigger-guard loop — two bare diagonal bars read as
+  sticks. Fixed this way in Jamaica's `ReggaeBobMarley`, Mexico's `Mariachi`,
+  Cuba's `BalletNacionalCuba`, and Costa Rica's `AbolicionDelEjercito`, all
+  flagged by the user after the first pass looked plausible in isolation but
+  didn't survive being looked at next to the real object.
 
 ## Workflow used for every country (repeat this exactly)
 
@@ -187,6 +199,26 @@ Bolivia, Argentina, Austria, Vatican City (incl. a later Swiss Guard halberd
 fix), Bulgaria (incl. rose-petal and kukeri-mask fixes), Andorra, Albania,
 Germany, San Marino, Spain, Hungary, Italy, Kosovo, Liechtenstein, Luxembourg.
 
+**Rewritten to the bold standard this session — all of South America and
+North America** (Argentina and Bolivia were already done above; these are the
+remaining countries on each continent). All pass `tsc`, `eslint`, a full
+`npm run build`, and the id-matching audit, but — per an explicit user
+request this session to stop running the full screenshot-every-entry pass
+(it was burning too much review time/credit) — they did **not** get the
+step-7 screenshot review. The user is reviewing them personally in the
+running dev server at their own pace and naming specific entries to fix.
+Four were flagged and fixed this way so far (see the new "generic blob"
+bullet above): Jamaica's `ReggaeBobMarley`, Mexico's `Mariachi`, Cuba's
+`BalletNacionalCuba`, Costa Rica's `AbolicionDelEjercito`. Expect more
+fix requests to come in the same piecemeal way — when one arrives, read the
+flagged component, diagnose against the accuracy-fixes checklist above, fix,
+`tsc`, and (only if asked to verify) a single targeted screenshot of just
+that entry, not a full-country pass.
+- South America (10): Brazil, Colombia, Chile, Uruguay, Paraguay, Ecuador,
+  Venezuela, Peru, Suriname, Guyana.
+- North America (12): Jamaica, Cuba, Canada, United States, Mexico,
+  Greenland, Costa Rica, Panama, Belize, Curaçao, Haiti, Trinidad and Tobago.
+
 **In progress / not yet committed:**
 - **Russia** — all 20 components rewritten to the bold standard; all 20
   entries screenshotted and reviewed page-by-page. Pages 1–17 confirmed good.
@@ -197,20 +229,20 @@ Germany, San Marino, Spain, Hungary, Italy, Kosovo, Liechtenstein, Luxembourg.
   18, 19, 20** (San Basilio-style multi-dome `KizhiPogost`, `LagoBaikal`,
   `Caviar` — these were written but not yet eyeballed), then run the full
   tsc/build/id-audit sequence one more time before considering Russia done.
-- **Spain** — the user flagged on 2026-08-15 that `SanFerminEncierro` (the
-  bull) "no parece un toro" (doesn't look like a bull). This was actually
-  flagged as borderline during my own review earlier ("reads as some
-  four-legged horned animal... reasonably in context") but left as-is; the
-  user disagrees. **Needs a redesign** — give it a clearer bull silhouette:
-  more distinct head/snout shape, visible horns curving forward-up (not just
-  two thin lines), a heavier front-shoulder hump, and better leg placement.
-  Current component is in `src/illustrations/spain.tsx`.
+- **Spain** — `SanFerminEncierro` (the bull) was flagged by the user on
+  2026-08-15 as "no parece un toro". Redesigned (took two passes: the first
+  attempt still read as a headless creature because the neck/head path
+  stretched thin from the shoulder down to a snout near the ground, with the
+  horns rooted at the shoulder instead of on a head; fixed by giving it a
+  compact bulging head mass with its own eye/muzzle/jaw, from which the
+  lyre-shaped horns emerge) and committed in `64b1653` along with unrelated
+  cover-page work from the same session. User confirmed it looks right.
 
-**Not yet touched at all this round** (still on the old tiny/abstract style,
-i.e. every other country in `src/content/` not listed above). No specific
-request yet — wait for the user to name the next country/countries rather
-than proactively working through the whole list, per the pattern established
-this session (the user has been naming 1–4 countries at a time).
+**Not yet touched at all** (still on the old tiny/abstract style): whatever
+remains in `src/content/` outside Europe/South America/North America —
+mainly Asia, Africa, and Oceania. No specific request yet — wait for the
+user to name the next country/countries/continent rather than proactively
+working through the whole list, per the pattern established this session.
 
 ## Deferred, larger-scope tasks (explicitly NOT started — user said to wait)
 

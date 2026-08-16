@@ -2,138 +2,204 @@ import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const PaisMasBoscosoDelMundo: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.3);
+  const light = tint(accentColor, 0.4);
   return (
     <g>
-      <ellipse cx="188" cy="158" rx="16" ry="12" fill={accentColor} />
-      <ellipse cx="200" cy="148" rx="20" ry="15" fill={dark} />
-      <ellipse cx="214" cy="160" rx="16" ry="12" fill={accentColor} />
-      <ellipse cx="200" cy="168" rx="14" ry="10" fill={light} opacity="0.85" />
+      {/* dense canopy seen from above, filling the whole canvas */}
+      <circle cx="130" cy="120" r="38" fill={dark} />
+      <circle cx="170" cy="95" r="34" fill={accentColor} />
+      <circle cx="120" cy="175" r="36" fill={accentColor} />
+      <circle cx="200" cy="140" r="40" fill={light} opacity="0.9" />
+      <circle cx="255" cy="105" r="36" fill={dark} />
+      <circle cx="285" cy="160" r="38" fill={accentColor} />
+      <circle cx="230" cy="200" r="34" fill={dark} opacity="0.85" />
+      <circle cx="165" cy="220" r="30" fill={light} opacity="0.8" />
+      <circle cx="300" cy="215" r="26" fill={accentColor} opacity="0.85" />
     </g>
   );
 };
 
 const ParamariboPatrimonioColonial: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const green = "#2E7D32";
   return (
     <g>
-      <rect x="184" y="148" width="32" height="30" fill={light} />
-      <path d="M180 148 L200 132 L220 148 Z" fill={dark} />
-      <rect x="196" y="160" width="8" height="18" fill={accentColor} />
-      <rect x="188" y="154" width="6" height="6" fill={accentColor} opacity="0.7" />
-      <rect x="206" y="154" width="6" height="6" fill={accentColor} opacity="0.7" />
+      {/* white wooden colonial house */}
+      <rect x="140" y="140" width="130" height="95" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <polygon points="130,140 205,95 280,140" fill={accentColor} />
+      <rect x="188" y="180" width="34" height="55" fill={dark} />
+      {/* green shutters flanking each window */}
+      {[[150, 155], [230, 155]].map(([x, y]) => (
+        <g key={x}>
+          <rect x={x} y={y} width="26" height="34" fill="#EAF2E8" stroke={dark} strokeWidth="1.5" />
+          <rect x={x - 10} y={y} width="9" height="34" fill={green} />
+          <rect x={x + 27} y={y} width="9" height="34" fill={green} />
+        </g>
+      ))}
+      <line x1="140" y1="180" x2="270" y2="180" stroke={dark} strokeWidth="2" opacity="0.4" />
     </g>
   );
 };
 
 const MezquitaYSinagogaVecinas: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
   const light = tint(accentColor, 0.6);
+  const gold = "#D4A017";
   return (
     <g>
-      <path d="M182 178 L182 156 Q182 146 190 146 Q198 146 198 156 L198 178 Z" fill={accentColor} />
-      <circle cx="190" cy="140" r="5" fill={dark} />
-      <path d="M202 178 L202 158 L210 158 L210 148 L218 158 L218 178 Z" fill={light} />
-      <circle cx="210" cy="144" r="2.4" fill={dark} />
+      {/* mosque with a dome and minaret */}
+      <rect x="118" y="185" width="60" height="55" fill={accentColor} />
+      <path d="M118 185 a30 26 0 0 1 60 0 Z" fill={light} />
+      <circle cx="148" cy="150" r="7" fill={gold} />
+      <rect x="100" y="150" width="10" height="90" fill={dark} />
+      <path d="M100 150 a5 8 0 0 1 10 0 Z" fill={gold} />
+      {/* synagogue beside it, with a Star of David */}
+      <rect x="200" y="175" width="80" height="65" fill={dark} />
+      <polygon points="192,175 240,140 288,175" fill={shade(accentColor, 0.55)} />
+      <path d="M240 148 L246 158 L257 158 L248 165 L251 176 L240 169 L229 176 L232 165 L223 158 L234 158 Z" fill="none" stroke={gold} strokeWidth="2.5" />
+      <rect x="228" y="195" width="24" height="45" fill={light} />
     </g>
   );
 };
 
 const CimarronesCulturaMarron: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.55);
+  const gold = "#D4A017";
   return (
     <g>
-      <path d="M188 145 L212 145 L208 178 L192 178 Z" fill={accentColor} />
-      <ellipse cx="200" cy="145" rx="12" ry="4" fill={light} />
-      <line x1="192" y1="155" x2="208" y2="155" stroke={dark} strokeWidth="1.5" opacity="0.6" />
-      <line x1="190" y1="165" x2="210" y2="165" stroke={dark} strokeWidth="1.5" opacity="0.6" />
+      {/* carved wooden drum */}
+      <path d="M130 235 L145 145 L200 145 L215 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="172" cy="145" rx="27" ry="10" fill={light} stroke={dark} strokeWidth="2" />
+      {[160, 175, 190].map((y) => (
+        <path key={y} d={`M136 ${y} Q172 ${y + 10} 208 ${y}`} fill="none" stroke={dark} strokeWidth="2" opacity="0.6" />
+      ))}
+      {/* colorful folded fabric beside it */}
+      <path d="M235 165 L295 165 L288 235 L242 235 Z" fill={gold} />
+      <path d="M235 165 L295 165 L292 185 L238 185 Z" fill={dark} opacity="0.4" />
+      <path d="M240 200 L290 200 L287 215 L243 215 Z" fill={tint(gold, 0.3)} />
     </g>
   );
 };
 
 const HindustanosDeLaIndia: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
   const light = tint(accentColor, 0.6);
   return (
     <g>
-      <ellipse cx="200" cy="165" rx="20" ry="8" fill={light} />
-      <path d="M188 158 Q200 148 212 158 Q206 162 200 158 Q194 162 188 158 Z" fill={accentColor} />
-      <circle cx="185" cy="150" r="2.4" fill={dark} />
-      <circle cx="215" cy="150" r="2.4" fill={dark} />
-      <circle cx="200" cy="146" r="2.4" fill={dark} />
+      {/* plate with a stack of roti */}
+      <ellipse cx="185" cy="215" rx="70" ry="18" fill={light} stroke={dark} strokeWidth="2" />
+      <ellipse cx="185" cy="200" rx="52" ry="14" fill={accentColor} />
+      <ellipse cx="185" cy="188" rx="48" ry="12" fill={tint(accentColor, 0.2)} />
+      {/* steam */}
+      <path d="M170 180 Q162 155 174 130" fill="none" stroke={light} strokeWidth="4" strokeLinecap="round" opacity="0.7" />
+      <path d="M195 180 Q188 155 200 130" fill="none" stroke={light} strokeWidth="4" strokeLinecap="round" opacity="0.55" />
+      {/* small piles of spices beside the plate */}
+      <ellipse cx="280" cy="220" rx="18" ry="8" fill="#C1272D" />
+      <ellipse cx="270" cy="195" rx="15" ry="7" fill="#D4A017" />
     </g>
   );
 };
 
 const JavanesesDeIndonesia: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.75);
   return (
     <g>
-      <path d="M198 132 L198 178" stroke={dark} strokeWidth="2" />
-      <path d="M186 140 Q200 132 214 140 Q210 158 200 172 Q190 158 186 140 Z" fill={accentColor} />
-      <path d="M194 148 L198 156 L204 146" fill="none" stroke={light} strokeWidth="1.8" opacity="0.8" />
+      {/* screen backdrop */}
+      <rect x="110" y="95" width="200" height="145" fill={light} opacity="0.6" />
+      {/* wayang shadow puppet silhouette on a stick */}
+      <line x1="205" y1="240" x2="205" y2="115" stroke={dark} strokeWidth="4" />
+      <path d="M195 118 Q195 100 210 100 Q222 100 220 115 Q235 108 238 96" fill="none" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <ellipse cx="207" cy="140" rx="18" ry="30" fill={dark} />
+      <path d="M195 165 Q170 175 160 200" fill="none" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <path d="M220 165 Q248 158 258 130" fill="none" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <path d="M198 168 L192 220" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <path d="M216 168 L222 220" stroke={dark} strokeWidth="6" strokeLinecap="round" />
     </g>
   );
 };
 
 const SrananTongoLenguaFranca: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const colors = [accentColor, "#D4A017", "#C1272D", "#2E7D32", "#6A1B9A"];
   return (
     <g>
+      {/* big speech bubble */}
       <path
-        d="M178 148 Q178 135 195 135 L212 135 Q222 135 222 148 Q222 159 212 159 L190 159 L182 168 L186 158 Q178 156 178 148 Z"
-        fill={light}
+        d="M105 110 Q105 90 128 90 L282 90 Q305 90 305 110 L305 165 Q305 185 282 185 L200 185 L175 210 L182 185 L128 185 Q105 185 105 165 Z"
+        fill={tint(accentColor, 0.7)}
+        stroke={dark}
+        strokeWidth="3"
       />
-      <circle cx="192" cy="147" r="2.6" fill={dark} />
-      <circle cx="200" cy="147" r="2.6" fill={accentColor} />
-      <circle cx="208" cy="147" r="2.6" fill={dark} />
+      {/* mixed colorful letters */}
+      {["S", "R", "A", "N", "A", "N"].map((letter, i) => (
+        <text key={i} x={140 + i * 30} y="150" fontSize="34" fontWeight="700" fill={colors[i % colors.length]} textAnchor="middle" fontFamily="sans-serif">
+          {letter}
+        </text>
+      ))}
     </g>
   );
 };
 
 const UnicoPaisNeerlandofonoDeSudamerica: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.55);
+  const green = "#2E7D32";
   return (
     <g>
-      <rect x="197" y="140" width="6" height="38" fill={dark} />
-      <path d="M200 142 L182 132 L200 148 Z" fill={accentColor} />
-      <path d="M200 142 L218 136 L200 152 Z" fill={accentColor} />
-      <path d="M200 142 L192 158 L200 154 Z" fill={light} />
-      <path d="M200 142 L208 158 L200 154 Z" fill={light} />
+      {/* small windmill */}
+      <path d="M180 240 L188 150 L200 150 L206 240 Z" fill={dark} />
+      <circle cx="193" cy="150" r="8" fill={light} />
+      <line x1="193" y1="150" x2="160" y2="118" stroke={accentColor} strokeWidth="7" strokeLinecap="round" />
+      <line x1="193" y1="150" x2="226" y2="118" stroke={accentColor} strokeWidth="7" strokeLinecap="round" />
+      <line x1="193" y1="150" x2="160" y2="182" stroke={accentColor} strokeWidth="7" strokeLinecap="round" />
+      <line x1="193" y1="150" x2="226" y2="182" stroke={accentColor} strokeWidth="7" strokeLinecap="round" />
+      {/* tropical palm tree beside it */}
+      <path d="M260 240 Q255 190 268 150" fill="none" stroke="#8B5A2B" strokeWidth="8" strokeLinecap="round" />
+      <path d="M268 150 Q240 135 225 148" fill={green} />
+      <path d="M268 150 Q296 135 311 148" fill={green} />
+      <path d="M268 150 Q250 120 255 100" fill={green} />
+      <path d="M268 150 Q286 120 281 100" fill={green} />
+      <path d="M268 150 Q268 118 268 98" fill={green} />
     </g>
   );
 };
 
 const ReservaNaturalCentralSuriname: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const blue = "#3D8FB0";
   return (
     <g>
-      <path d="M200 150 Q182 140 178 152 Q192 154 200 150 Z" fill={accentColor} />
-      <path d="M200 150 Q218 140 222 152 Q208 154 200 150 Z" fill={dark} />
-      <path d="M200 150 Q182 160 178 148 Q192 146 200 150 Z" fill={dark} />
-      <path d="M200 150 Q218 160 222 148 Q208 146 200 150 Z" fill={accentColor} />
-      <circle cx="200" cy="150" r="3" fill={light} />
-      <line x1="200" y1="153" x2="200" y2="172" stroke={dark} strokeWidth="1.6" />
+      {/* large tropical leaf */}
+      <path d="M205 240 Q160 220 155 165 Q150 115 205 95 Q260 115 255 165 Q250 220 205 240 Z" fill={dark} opacity="0.4" />
+      <line x1="205" y1="235" x2="205" y2="100" stroke={dark} strokeWidth="2" opacity="0.5" />
+      {/* blue morpho butterfly */}
+      <line x1="205" y1="160" x2="205" y2="190" stroke={shade(blue, 0.5)} strokeWidth="3" />
+      <path d="M205 165 Q165 135 150 158 Q160 190 205 178 Z" fill={blue} />
+      <path d="M205 165 Q245 135 260 158 Q250 190 205 178 Z" fill={blue} />
+      <path d="M205 178 Q175 195 168 215 Q188 217 205 195 Z" fill={shade(blue, 0.15)} />
+      <path d="M205 178 Q235 195 242 215 Q222 217 205 195 Z" fill={shade(blue, 0.15)} />
+      <circle cx="205" cy="160" r="4" fill={shade(blue, 0.5)} />
     </g>
   );
 };
 
 const AntonDeKomIndependencia: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.65);
+  const gold = "#D4A017";
   return (
     <g>
-      <rect x="186" y="152" width="28" height="22" fill={light} />
-      <rect x="186" y="152" width="28" height="4" fill={dark} />
-      <path d="M214 140 L218 168 L210 160 L206 168 Z" fill={accentColor} />
-      <path d="M192 130 L184 148" stroke={dark} strokeWidth="2" strokeLinecap="round" />
+      {/* open book */}
+      <path d="M205 145 L120 158 L120 220 L205 210 Z" fill={accentColor} />
+      <path d="M205 145 L290 158 L290 220 L205 210 Z" fill={dark} />
+      <line x1="205" y1="145" x2="205" y2="210" stroke={light} strokeWidth="2" />
+      {/* quill resting on the book */}
+      <path d="M255 110 Q278 118 262 145 L238 190 L228 186 L250 145 Q238 122 255 110 Z" fill={dark} />
+      {/* star above */}
+      <path d="M160 100 L166 116 L183 116 L169 126 L175 143 L160 133 L145 143 L151 126 L137 116 L154 116 Z" fill={gold} />
     </g>
   );
 };
@@ -143,10 +209,10 @@ export const surinameIllustrations: Record<string, IllustrationDefinition> = {
   "paramaribo-patrimonio-colonial": { component: ParamariboPatrimonioColonial },
   "mezquita-y-sinagoga-vecinas": { component: MezquitaYSinagogaVecinas },
   "cimarrones-cultura-marron": { component: CimarronesCulturaMarron },
-  "hindustanos-de-la-india": { component: HindustanosDeLaIndia, variant: "medallion" },
+  "hindustanos-de-la-india": { component: HindustanosDeLaIndia },
   "javaneses-de-indonesia": { component: JavanesesDeIndonesia },
   "sranan-tongo-lengua-franca": { component: SrananTongoLenguaFranca },
   "unico-pais-neerlandofono-de-sudamerica": { component: UnicoPaisNeerlandofonoDeSudamerica },
-  "reserva-natural-central-suriname": { component: ReservaNaturalCentralSuriname, variant: "medallion" },
+  "reserva-natural-central-suriname": { component: ReservaNaturalCentralSuriname },
   "anton-de-kom-independencia": { component: AntonDeKomIndependencia },
 };

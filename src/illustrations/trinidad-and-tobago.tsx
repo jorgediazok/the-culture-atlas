@@ -2,142 +2,171 @@ import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const CunaDelSteelpan: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const colors = ["#C1272D", "#1565C0", "#2E7D32", "#6A1B9A"];
   return (
     <g>
-      <ellipse cx="200" cy="158" rx="20" ry="8" fill={accentColor} />
-      <path d="M180 158 L184 176 L216 176 L220 158 Z" fill={dark} />
-      <circle cx="192" cy="156" r="3" fill="none" stroke={light} strokeWidth="1.4" />
-      <circle cx="206" cy="158" r="3.6" fill="none" stroke={light} strokeWidth="1.4" />
-      <circle cx="199" cy="150" r="2.4" fill="none" stroke={light} strokeWidth="1.4" />
+      {/* metal drum body */}
+      <path d="M130 240 L120 150 Q120 130 145 128 L265 128 Q290 130 290 150 L280 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* concave top with colorful dents/notes */}
+      <ellipse cx="205" cy="128" rx="85" ry="18" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="3" />
+      {[[170, 122, colors[0]], [205, 116, colors[1]], [240, 122, colors[2]], [205, 132, colors[3]]].map(([x, y, c], i) => (
+        <ellipse key={i} cx={x as number} cy={y as number} rx="16" ry="8" fill={c as string} opacity="0.85" />
+      ))}
     </g>
   );
 };
 
 const CarnavalDeTrinidad: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const colors = [accentColor, "#F4C430", "#C1272D", "#1565C0"];
   return (
     <g>
-      <path d="M200 176 L196 140 Q200 132 204 140 Z" fill={accentColor} />
-      <path d="M188 172 L182 138 Q188 130 192 140 Z" fill={dark} />
-      <path d="M212 172 L218 138 Q212 130 208 140 Z" fill={light} />
+      {[-70, -35, 0, 35, 70].map((deg, i) => (
+        <path key={deg} d="M205 175 Q195 130 205 75 Q215 130 205 175 Z" fill={colors[i % colors.length]} transform={`rotate(${deg} 205 175)`} />
+      ))}
+      <circle cx="205" cy="180" r="26" fill={dark} />
     </g>
   );
 };
 
 const DosIslasUnaNacion: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.3);
+  const water = "#3D8FB0";
   return (
     <g>
-      <ellipse cx="190" cy="162" rx="16" ry="12" fill={accentColor} />
-      <ellipse cx="216" cy="150" rx="8" ry="6" fill={dark} />
-      <path d="M180 172 Q200 178 220 172" fill="none" stroke={light} strokeWidth="2" opacity="0.7" />
+      <rect x="95" y="80" width="225" height="170" fill={water} opacity="0.5" />
+      <path d="M100 150 Q140 110 195 130 Q230 145 210 185 Q170 210 125 195 Q95 180 100 150 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <path d="M280 190 Q305 175 312 195 Q318 215 298 222 Q278 225 272 208 Q270 195 280 190 Z" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="2" />
     </g>
   );
 };
 
 const CalypsoYSoca: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
+  const dark = shade(accentColor, 0.4);
   const light = tint(accentColor, 0.6);
   return (
     <g>
-      <ellipse cx="200" cy="148" rx="9" ry="12" fill={accentColor} />
-      <rect x="197" y="158" width="6" height="16" fill={dark} />
-      <path d="M190 178 Q200 172 210 178" fill="none" stroke={dark} strokeWidth="2.4" />
-      <circle cx="216" cy="146" r="1.6" fill={light} />
-      <circle cx="222" cy="152" r="1.6" fill={light} />
+      {/* vintage microphone */}
+      <ellipse cx="200" cy="160" rx="24" ry="30" fill={dark} />
+      {[145, 154, 163, 172].map((y) => (
+        <line key={y} x1="180" y1={y} x2="220" y2={y} stroke={light} strokeWidth="1.5" opacity="0.6" />
+      ))}
+      <rect x="193" y="190" width="14" height="42" fill={dark} />
+      <path d="M172 232 L228 232" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      {/* musical notes */}
+      <g transform="translate(255,120)">
+        <circle cx="0" cy="20" r="7" fill={accentColor} />
+        <line x1="7" y1="20" x2="7" y2="-15" stroke={accentColor} strokeWidth="3" />
+        <path d="M7 -15 Q18 -12 16 -2" fill="none" stroke={accentColor} strokeWidth="3" />
+      </g>
+      <g transform="translate(285,155) scale(0.8)">
+        <circle cx="0" cy="20" r="7" fill={dark} />
+        <line x1="7" y1="20" x2="7" y2="-15" stroke={dark} strokeWidth="3" />
+        <path d="M7 -15 Q18 -12 16 -2" fill="none" stroke={dark} strokeWidth="3" />
+      </g>
     </g>
   );
 };
 
 const MosaicoIndoYAfrotrinitense: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const skinA = "#C97C4A";
+  const skinB = "#5C4033";
   return (
     <g>
-      <path d="M182 168 Q190 150 200 156 L200 172 Q190 178 182 168 Z" fill={accentColor} />
-      <path d="M218 168 Q210 150 200 156 L200 172 Q210 178 218 168 Z" fill={dark} />
-      <rect x="196" y="134" width="8" height="24" fill={light} />
+      <path d="M130 200 Q150 175 175 190 Q195 200 195 220 L195 235 L130 235 Z" fill={skinA} stroke={dark} strokeWidth="2" />
+      <path d="M280 200 Q260 175 235 190 Q215 200 215 220 L215 235 L280 235 Z" fill={skinB} stroke={dark} strokeWidth="2" />
+      <path d="M195 220 Q205 210 215 220" fill="none" stroke={dark} strokeWidth="4" />
     </g>
   );
 };
 
 const LagoDeBrea: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.5);
+  const shine = "#5A5652";
   return (
     <g>
-      <ellipse cx="200" cy="160" rx="24" ry="14" fill={dark} />
-      <path d="M182 156 Q192 152 200 156 Q208 160 218 156" fill="none" stroke={light} strokeWidth="1.6" opacity="0.5" />
-      <path d="M186 164 Q196 160 204 164 Q212 168 216 164" fill="none" stroke={accentColor} strokeWidth="1.6" opacity="0.6" />
+      <ellipse cx="205" cy="180" rx="110" ry="55" fill={dark} />
+      <path d="M115 165 Q160 150 205 165 Q250 180 295 160" fill="none" stroke={shine} strokeWidth="4" opacity="0.6" />
+      <path d="M125 195 Q170 210 215 195 Q260 180 285 200" fill="none" stroke={shine} strokeWidth="4" opacity="0.5" />
+      <ellipse cx="170" cy="160" rx="18" ry="7" fill={shine} opacity="0.3" />
     </g>
   );
 };
 
 const CunaDelLimbo: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const flame = "#F4A300";
   return (
     <g>
-      <line x1="182" y1="158" x2="218" y2="158" stroke={dark} strokeWidth="4" strokeLinecap="round" />
-      <path d="M182 150 Q178 158 182 166" fill="none" stroke={accentColor} strokeWidth="2.4" strokeLinecap="round" />
-      <path d="M218 150 Q222 158 218 166" fill="none" stroke={light} strokeWidth="2.4" strokeLinecap="round" />
+      <line x1="130" y1="165" x2="280" y2="165" stroke={accentColor} strokeWidth="8" strokeLinecap="round" />
+      <line x1="130" y1="165" x2="130" y2="235" stroke={dark} strokeWidth="6" />
+      <line x1="280" y1="165" x2="280" y2="235" stroke={dark} strokeWidth="6" />
+      <path d="M130 165 Q122 150 130 132 Q138 150 130 165 Z" fill={flame} />
+      <path d="M280 165 Q272 150 280 132 Q288 150 280 165 Z" fill={flame} />
     </g>
   );
 };
 
 const RiquezaPetroleraCaribena: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.3);
+  const water = "#3D8FB0";
   return (
     <g>
-      <rect x="192" y="140" width="16" height="6" fill={dark} />
-      <line x1="200" y1="146" x2="200" y2="168" stroke={dark} strokeWidth="3" />
-      <path d="M186 168 L214 168 L210 178 L190 178 Z" fill={accentColor} />
-      <path d="M184 178 Q200 184 216 178" fill="none" stroke={light} strokeWidth="2" opacity="0.7" />
+      <rect x="95" y="205" width="225" height="35" fill={water} opacity="0.6" />
+      <rect x="165" y="150" width="70" height="18" fill={dark} />
+      <line x1="175" y1="168" x2="160" y2="230" stroke={dark} strokeWidth="6" />
+      <line x1="225" y1="168" x2="240" y2="230" stroke={dark} strokeWidth="6" />
+      <line x1="200" y1="168" x2="200" y2="230" stroke={dark} strokeWidth="6" />
+      <rect x="192" y="120" width="8" height="32" fill={accentColor} />
+      <path d="M200 118 L214 108" stroke={accentColor} strokeWidth="4" strokeLinecap="round" />
     </g>
   );
 };
 
 const DiwaliYHosay: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const flame = "#F4A300";
   return (
     <g>
-      <ellipse cx="188" cy="172" rx="8" ry="5" fill={accentColor} />
-      <ellipse cx="200" cy="172" rx="8" ry="5" fill={dark} />
-      <ellipse cx="212" cy="172" rx="8" ry="5" fill={accentColor} />
-      <path d="M188 167 Q190 160 188 156 Q186 160 188 167 Z" fill={light} />
-      <path d="M200 167 Q202 160 200 156 Q198 160 200 167 Z" fill={light} />
-      <path d="M212 167 Q214 160 212 156 Q210 160 212 167 Z" fill={light} />
+      {[130, 175, 220, 265].map((x) => (
+        <g key={x}>
+          <path d={`M${x - 22} 220 Q${x} 200 ${x + 22} 220 L${x + 18} 232 L${x - 18} 232 Z`} fill={accentColor} stroke={dark} strokeWidth="2" />
+          <path d={`M${x} 200 Q${x - 6} 185 ${x} 170 Q${x + 6} 185 ${x} 200 Z`} fill={flame} />
+        </g>
+      ))}
     </g>
   );
 };
 
 const IbisEscarlataCaroni: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const dark = shade(accentColor, 0.4);
+  const green = "#2E7D32";
   return (
     <g>
-      <ellipse cx="200" cy="158" rx="12" ry="9" fill={accentColor} />
-      <path d="M210 156 L222 154 L212 160 Z" fill={dark} />
-      <line x1="196" y1="166" x2="192" y2="178" stroke={dark} strokeWidth="2" strokeLinecap="round" />
-      <line x1="204" y1="166" x2="208" y2="178" stroke={dark} strokeWidth="2" strokeLinecap="round" />
-      <path d="M186 172 Q200 178 214 172" fill="none" stroke={light} strokeWidth="1.6" opacity="0.6" />
+      {/* mangrove branch */}
+      <path d="M95 235 Q210 220 320 235" stroke="#5C4033" strokeWidth="10" fill="none" strokeLinecap="round" />
+      <path d="M150 235 L150 210 M250 235 L250 205" stroke="#5C4033" strokeWidth="7" fill="none" />
+      <circle cx="150" cy="200" r="20" fill={green} />
+      <circle cx="250" cy="195" r="24" fill={green} />
+      {/* scarlet ibis perched */}
+      <ellipse cx="205" cy="180" rx="34" ry="24" fill={accentColor} />
+      <circle cx="245" cy="165" r="14" fill={accentColor} />
+      <path d="M259 165 L278 160 L262 172 Z" fill={dark} />
+      <circle cx="250" cy="160" r="2" fill="#1A1A1A" />
+      <path d="M185 200 L178 232 M195 202 L190 234" stroke={dark} strokeWidth="4" strokeLinecap="round" />
     </g>
   );
 };
 
 export const trinidadAndTobagoIllustrations: Record<string, IllustrationDefinition> = {
-  "cuna-del-steelpan": { component: CunaDelSteelpan, variant: "medallion" },
+  "cuna-del-steelpan": { component: CunaDelSteelpan },
   "carnaval-de-trinidad": { component: CarnavalDeTrinidad },
   "dos-islas-una-nacion": { component: DosIslasUnaNacion },
   "calypso-y-soca": { component: CalypsoYSoca },
   "mosaico-indo-y-afrotrinitense": { component: MosaicoIndoYAfrotrinitense },
-  "lago-de-brea": { component: LagoDeBrea, variant: "medallion" },
+  "lago-de-brea": { component: LagoDeBrea },
   "cuna-del-limbo": { component: CunaDelLimbo },
   "riqueza-petrolera-caribena": { component: RiquezaPetroleraCaribena },
   "diwali-y-hosay": { component: DiwaliYHosay },
