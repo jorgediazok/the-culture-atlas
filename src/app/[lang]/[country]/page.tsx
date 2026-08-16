@@ -56,8 +56,6 @@ export default async function CountryPage({
         backToIndexHref={`/${lang}`}
         backToIndexLabel={dict.backToIndex}
         backToFirstPageLabel={dict.backToFirstPage}
-        countryName={localizedCountry.name}
-        countryFlagEmoji={localizedCountry.flagEmoji}
       >
         <CoverPage
           country={localizedCountry}

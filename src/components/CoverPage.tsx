@@ -28,38 +28,109 @@ export default function CoverPage({
           display: { xs: "flex", md: "none" },
           flexDirection: "column",
           alignItems: "center",
+          justifyContent: "space-evenly",
           textAlign: "center",
-          gap: 1.5,
-          p: 4,
+          gap: 3,
+          pt: 7,
+          pb: 6,
+          px: 4,
+          minHeight: { xs: 1000 },
           backgroundColor: country.accentColor,
           color: textColor,
         }}
       >
         {Emblem ? (
-          <Box sx={{ width: 168, height: 168 }}>
-            <Emblem accentColor={country.accentColor} />
+          <Box
+            sx={{
+              width: 260,
+              height: 260,
+              borderRadius: "50%",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              position: "relative",
+              backgroundColor: "rgba(0,0,0,0.08)",
+              boxShadow: "inset 0 0 0 2px rgba(0,0,0,0.28)",
+              "&::before": {
+                content: '""',
+                position: "absolute",
+                inset: "13px",
+                borderRadius: "50%",
+                border: "1px solid rgba(0,0,0,0.22)",
+              },
+              "&::after": {
+                content: '""',
+                position: "absolute",
+                bottom: -7,
+                left: "50%",
+                transform: "translateX(-50%)",
+                width: "2.5px",
+                height: "15px",
+                backgroundColor: textColor,
+                opacity: 0.4,
+              },
+            }}
+          >
+            <Box
+              sx={{
+                position: "absolute",
+                top: -7,
+                left: "50%",
+                transform: "translateX(-50%)",
+                width: "2.5px",
+                height: "15px",
+                backgroundColor: textColor,
+                opacity: 0.4,
+              }}
+            />
+            <Box sx={{ width: 178, height: 178 }}>
+              <Emblem accentColor={country.accentColor} />
+            </Box>
           </Box>
         ) : null}
 
-        <Typography variant="h3" component="h1" sx={{ fontWeight: 700 }}>
-          {country.name}
-        </Typography>
-
-        <Typography sx={{ lineHeight: 1.7, opacity: 0.92, mt: 1 }}>
-          {country.intro}
-        </Typography>
-
-        <Typography
+        <Box
           sx={{
-            fontSize: 12,
-            letterSpacing: "0.14em",
-            textTransform: "uppercase",
-            opacity: 0.75,
-            mt: 1,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: 2.5,
           }}
         >
-          {entryCount} {storiesLabel}
-        </Typography>
+          <Box sx={{ width: 48, height: "2px", backgroundColor: textColor, opacity: 0.35 }} />
+
+          <Typography variant="h3" component="h1" sx={{ fontWeight: 700 }}>
+            {country.name}
+          </Typography>
+
+          <Typography sx={{ lineHeight: 1.7, opacity: 0.92, maxWidth: 340 }}>
+            {country.intro}
+          </Typography>
+        </Box>
+
+        <Box
+          sx={{
+            display: "inline-flex",
+            alignItems: "center",
+            border: "1px solid",
+            borderColor: textColor,
+            borderRadius: 999,
+            px: 2.5,
+            py: 0.75,
+            opacity: 0.85,
+          }}
+        >
+          <Typography
+            sx={{
+              fontSize: 12,
+              letterSpacing: "0.14em",
+              textTransform: "uppercase",
+              fontWeight: 600,
+            }}
+          >
+            {entryCount} {storiesLabel}
+          </Typography>
+        </Box>
       </Box>
 
       <Stack
@@ -83,11 +154,53 @@ export default function CoverPage({
             color: textColor,
           }}
         >
-          <Typography sx={{ fontSize: 40 }}>{country.flagEmoji}</Typography>
-
           {Emblem ? (
-            <Box sx={{ width: 128, height: 128 }}>
-              <Emblem accentColor={country.accentColor} />
+            <Box
+              sx={{
+                width: 210,
+                height: 210,
+                borderRadius: "50%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                position: "relative",
+                backgroundColor: "rgba(0,0,0,0.08)",
+                boxShadow: "inset 0 0 0 2px rgba(0,0,0,0.28)",
+                "&::before": {
+                  content: '""',
+                  position: "absolute",
+                  inset: "10px",
+                  borderRadius: "50%",
+                  border: "1px solid rgba(0,0,0,0.22)",
+                },
+                "&::after": {
+                  content: '""',
+                  position: "absolute",
+                  bottom: -5,
+                  left: "50%",
+                  transform: "translateX(-50%)",
+                  width: "2px",
+                  height: "12px",
+                  backgroundColor: textColor,
+                  opacity: 0.4,
+                },
+              }}
+            >
+              <Box
+                sx={{
+                  position: "absolute",
+                  top: -5,
+                  left: "50%",
+                  transform: "translateX(-50%)",
+                  width: "2px",
+                  height: "12px",
+                  backgroundColor: textColor,
+                  opacity: 0.4,
+                }}
+              />
+              <Box sx={{ width: 140, height: 140 }}>
+                <Emblem accentColor={country.accentColor} />
+              </Box>
             </Box>
           ) : null}
 

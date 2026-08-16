@@ -136,20 +136,40 @@ const LaTomatina: IllustrationComponent = ({ accentColor }) => {
 
 const SanFerminEncierro: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
   const red = "#C1272D";
   return (
     <g>
-      {/* bull, side profile, charging */}
-      <path d="M140 210 Q135 180 165 172 Q190 165 210 178 L225 170 L232 180 L222 188 Q225 200 218 210 L150 210 Z" fill={dark} />
-      {/* horns */}
-      <path d="M162 172 Q150 158 140 155 Q148 168 158 178 Z" fill={dark} />
-      <path d="M178 168 Q172 150 178 138 Q188 152 186 170 Z" fill={dark} />
-      {/* legs */}
-      <line x1="160" y1="210" x2="158" y2="235" stroke={dark} strokeWidth="7" strokeLinecap="round" />
-      <line x1="200" y1="210" x2="204" y2="235" stroke={dark} strokeWidth="7" strokeLinecap="round" />
-      {/* red neckerchief */}
-      <path d="M250 150 L280 150 L272 175 L258 175 Z" fill={red} stroke={shade(red, 0.3)} strokeWidth="2" />
-      <circle cx="265" cy="150" r="6" fill={shade(red, 0.2)} />
+      {/* cobbled street ground line */}
+      <path d="M85 230 Q210 222 320 230" stroke={shade(accentColor, 0.2)} strokeWidth="3" fill="none" opacity="0.5" />
+      {/* bull torso: long stocky barrel with a pronounced shoulder hump and sloping rump */}
+      <path d="M112 190 Q108 158 145 148 Q175 140 200 148 Q210 152 212 166 Q214 180 206 192 L200 208 Q160 215 130 210 L118 202 Q108 198 112 190 Z" fill={dark} />
+      {/* head: a compact bulging skull (not a thin neck stretch) so horns, eye and muzzle all sit on one recognizable head mass */}
+      <path d="M202 160 Q205 142 226 138 Q246 138 256 152 Q264 164 260 178 Q256 190 244 194 L230 198 Q214 196 206 184 Q198 172 202 160 Z" fill={dark} />
+      {/* muzzle patch and nostril for contrast */}
+      <ellipse cx="255" cy="167" rx="11" ry="8" fill={light} opacity="0.85" />
+      <circle cx="262" cy="164" r="2.2" fill={shade(accentColor, 0.6)} />
+      {/* eye */}
+      <circle cx="236" cy="151" r="3.2" fill={light} />
+      <circle cx="237" cy="151" r="1.4" fill={shade(accentColor, 0.6)} />
+      {/* ear, just behind the horns */}
+      <path d="M222 140 L210 126 L228 134 Z" fill={dark} />
+      {/* horns: wide lyre spread rooted on top of the head — one sweeps back, one sweeps forward, both thick */}
+      <path d="M228 140 Q206 130 202 108 Q206 94 217 99 Q216 116 234 138 Z" fill={dark} />
+      <path d="M242 138 Q252 114 278 102 Q291 100 287 111 Q262 120 248 140 Z" fill={dark} />
+      {/* dewlap under the throat */}
+      <path d="M206 186 Q200 196 204 206" stroke={dark} strokeWidth="5" strokeLinecap="round" fill="none" />
+      {/* tail, raised and whipping mid-charge */}
+      <path d="M115 168 Q98 158 92 138" stroke={dark} strokeWidth="5" strokeLinecap="round" fill="none" />
+      <path d="M86 130 Q92 136 96 146 Q86 144 80 136 Q80 128 86 130 Z" fill={dark} />
+      {/* four legs, offset front/back so the running gait reads clearly */}
+      <path d="M128 208 L120 236 M150 212 L158 238 M188 205 L182 233 M204 198 L216 222" stroke={dark} strokeWidth="7" strokeLinecap="round" />
+      {/* motion dust behind the charging bull */}
+      <ellipse cx="85" cy="226" rx="15" ry="5" fill={light} opacity="0.35" />
+      <ellipse cx="65" cy="217" rx="10" ry="4" fill={light} opacity="0.3" />
+      {/* red pañuelo, small and fluttering, dropped along the run */}
+      <path d="M290 96 Q302 90 313 98 Q308 109 314 118 Q300 121 292 113 Q285 104 290 96 Z" fill={red} stroke={shade(red, 0.3)} strokeWidth="2" />
+      <circle cx="301" cy="105" r="3" fill={shade(red, 0.2)} />
     </g>
   );
 };

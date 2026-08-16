@@ -70,8 +70,6 @@ export default function BookCarousel({
   backToIndexHref,
   backToIndexLabel,
   backToFirstPageLabel,
-  countryName,
-  countryFlagEmoji,
 }: {
   children: React.ReactNode;
   /** When provided, the first slide is treated as an unnumbered cover: it
@@ -84,14 +82,15 @@ export default function BookCarousel({
   /** Shown on the same row as the "back to index" link, only once the
    * reader reaches the last page — a quick way back to the cover. */
   backToFirstPageLabel: string;
-  countryName: string;
-  countryFlagEmoji: string;
 }) {
   const slides = Children.toArray(children);
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false });
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [flip, setFlip] = useState<Flip | null>(null);
   const slideNodes = useRef<HTMLElement[]>([]);
+  const [mobileHeight, setMobileHeight] = useState<number | undefined>(
+    undefined
+  );
   const theme = useTheme();
   // Desktop (mouse) users only page-turn via click or the arrow buttons —
   // Embla's own drag/swipe is switched off there below. Mobile keeps plain
@@ -162,6 +161,22 @@ export default function BookCarousel({
       emblaApi.off("select", onSelect);
     };
   }, [emblaApi]);
+
+  // Mobile has no fixed slide height (see the comment below), so a plain
+  // flex row sizes itself to the *tallest* slide in the whole book — every
+  // page, including the cover, was inheriting scroll height from whichever
+  // entry has the longest description, even while showing a much shorter
+  // page. Pin the row to the current slide's own measured height instead.
+  useEffect(() => {
+    if (isDesktop) return;
+    const node = slideNodes.current[selectedIndex];
+    if (!node) return;
+    const update = () => setMobileHeight(node.getBoundingClientRect().height);
+    update();
+    const observer = new ResizeObserver(update);
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [isDesktop, selectedIndex, slides.length]);
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -256,16 +271,14 @@ export default function BookCarousel({
         </Typography>
       </Stack>
 
-      <Typography variant="h4" component="h1" sx={{ fontWeight: 700, mb: 4 }}>
-        {countryFlagEmoji} {countryName}
-      </Typography>
-
       {/* Fixed height on desktop so every page renders at the same size
           regardless of how much text an entry has — otherwise a long
           description stretches the whole row (including the illustration
-          side) to match it. Mobile stays auto-height since pages stack
-          the image above the text instead of side by side. */}
-      <Box sx={{ position: "relative", height: { md: 680 } }}>
+          side) to match it. Mobile pins to the current slide's own
+          measured height (see the effect above) instead of a plain
+          flexbox auto-height, which would size to the tallest slide in
+          the book even while showing a much shorter one. */}
+      <Box sx={{ position: "relative", height: { xs: mobileHeight, md: 680 } }}>
         <Box ref={emblaRef} sx={{ overflow: "hidden", height: "100%" }}>
           {/* alignItems stretch is the flex default — fine on desktop where
               every slide already has a fixed height, but on mobile it would
