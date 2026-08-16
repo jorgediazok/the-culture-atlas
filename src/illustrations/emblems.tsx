@@ -1299,32 +1299,40 @@ const Belarus: EmblemComponent = ({ accentColor }) => (
 
 const Denmark: EmblemComponent = ({ accentColor }) => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <rect x="22" y="48" width="56" height="38" fill="#F5F0E6" stroke="#00000022" strokeWidth="1.5" />
-    <circle cx="38" cy="48" r="9" fill="#F5F0E6" stroke="#00000022" strokeWidth="1.5" />
-    <circle cx="62" cy="48" r="9" fill="#F5F0E6" stroke="#00000022" strokeWidth="1.5" />
-    <circle cx="38" cy="48" r="4" fill={accentColor} />
-    <circle cx="62" cy="48" r="4" fill={accentColor} />
-    <rect x="30" y="62" width="40" height="4" fill={accentColor} opacity="0.55" />
+    <rect x="20" y="52" width="60" height="34" rx="2" fill="#F5F0E6" stroke="#6B5B4A" strokeWidth="2.5" />
+    <circle cx="35" cy="52" r="11" fill={accentColor} stroke="#6B5B4A" strokeWidth="2.5" />
+    <circle cx="65" cy="52" r="11" fill={accentColor} stroke="#6B5B4A" strokeWidth="2.5" />
+    <circle cx="35" cy="52" r="4" fill="#F5F0E6" opacity="0.5" />
+    <circle cx="65" cy="52" r="4" fill="#F5F0E6" opacity="0.5" />
   </svg>
 );
 
 const Norway: EmblemComponent = ({ accentColor }) => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <path d="M10 95 L10 40 L35 20 L35 95 Z" fill="#4A5A6A" stroke="#2A3540" strokeWidth="2" />
-    <path d="M90 95 L90 35 L65 15 L65 95 Z" fill="#5C6E80" stroke="#2A3540" strokeWidth="2" />
-    <path d="M35 95 L35 60 Q50 55 65 60 L65 95 Z" fill="#3D8FB0" opacity="0.85" />
-    <path d="M72 40 L72 70" stroke={accentColor} strokeWidth="3" opacity="0.85" strokeLinecap="round" />
+    <rect x="30" y="70" width="40" height="28" fill="#4A3426" stroke="#2A1C12" strokeWidth="2.5" />
+    <polygon points="18,70 50,44 82,70" fill="#3A2A1C" stroke="#2A1C12" strokeWidth="2.5" />
+    <rect x="40" y="44" width="20" height="16" fill="#4A3426" stroke="#2A1C12" strokeWidth="2.5" />
+    <polygon points="34,44 50,22 66,44" fill="#3A2A1C" stroke="#2A1C12" strokeWidth="2.5" />
+    <path d="M50 22 Q44 12 34 15 Q40 20 46 23 Z" fill="#2A1C12" />
+    <rect x="45" y="80" width="10" height="18" fill={accentColor} />
   </svg>
 );
 
 const Sweden: EmblemComponent = ({ accentColor }) => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <path d="M20 85 Q18 65 35 60 Q40 45 55 48 Q62 38 75 42 Q85 46 82 58 Q88 62 85 70 L78 72 Q75 85 60 87 L58 98 L50 98 L49 87 Q38 89 28 87 L26 98 L18 98 L22 82 Q17 84 20 85 Z" fill="#A02C2C" stroke="#6B1A1A" strokeWidth="2" />
-    <path d="M72 42 Q75 34 70 30" stroke="#6B1A1A" strokeWidth="3" fill="none" strokeLinecap="round" />
-    <circle cx="70" cy="47" r="2" fill="#1A1A1A" />
-    <circle cx="50" cy="62" r="6" fill={accentColor} opacity="0.7" />
-    <circle cx="35" cy="70" r="3" fill="#F5F0E6" opacity="0.8" />
-    <circle cx="65" cy="68" r="3" fill="#F5F0E6" opacity="0.8" />
+    <path d="M14 78 Q10 88 18 92 L26 92 Q22 84 24 76 Z" fill="#6B1A1A" />
+    <ellipse cx="40" cy="78" rx="27" ry="16" fill="#A02C2C" stroke="#6B1A1A" strokeWidth="2.5" />
+    <rect x="48" y="48" width="18" height="26" rx="8" fill="#A02C2C" stroke="#6B1A1A" strokeWidth="2.5" transform="rotate(-15 57 61)" />
+    <ellipse cx="70" cy="42" rx="15" ry="12" fill="#A02C2C" stroke="#6B1A1A" strokeWidth="2.5" transform="rotate(-8 70 42)" />
+    <ellipse cx="84" cy="40" rx="8" ry="6" fill="#A02C2C" stroke="#6B1A1A" strokeWidth="2" transform="rotate(-4 84 40)" />
+    <path d="M62 32 L57 16 L70 28 Z" fill="#A02C2C" stroke="#6B1A1A" strokeWidth="2" />
+    <circle cx="76" cy="38" r="2.2" fill="#1A1A1A" />
+    {[16, 32, 50, 64].map((x) => (
+      <rect key={x} x={x} y="88" width="9" height="16" fill="#6B1A1A" />
+    ))}
+    <circle cx="38" cy="76" r="7" fill={accentColor} opacity="0.75" />
+    <circle cx="24" cy="72" r="2.5" fill="#F5F0E6" opacity="0.85" />
+    <circle cx="52" cy="72" r="2.5" fill="#F5F0E6" opacity="0.85" />
   </svg>
 );
 
