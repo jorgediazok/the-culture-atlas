@@ -41,6 +41,7 @@ import { ecuador } from "./ecuador";
 import { nepal } from "./nepal";
 import { paraguay } from "./paraguay";
 import { northKorea } from "./north-korea";
+import { southKorea } from "./south-korea";
 import { turkmenistan } from "./turkmenistan";
 import { laos } from "./laos";
 import { botswana } from "./botswana";
@@ -135,6 +136,7 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   nepal,
   paraguay,
   "north-korea": northKorea,
+  "south-korea": southKorea,
   turkmenistan,
   laos,
   botswana,

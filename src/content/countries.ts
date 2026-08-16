@@ -488,6 +488,24 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "south-korea",
+    flagEmoji: "🇰🇷",
+    accentColor: "#C60C30",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Corea del Sur",
+        intro:
+          "El país que pasó de la posguerra a las pantallas del mundo entero, con un alfabeto diseñado por un rey, ídolos de K-pop entrenados desde la adolescencia y una frontera vigilada que se volvió sin querer un santuario de vida salvaje. Estas páginas son para descubrir una Corea del Sur de tradición milenaria y modernidad acelerada.",
+      },
+      en: {
+        name: "South Korea",
+        intro:
+          "The country that went from postwar ruins to the world's screens, with an alphabet designed by a king, K-pop idols trained since their teens, and a heavily guarded border that accidentally became a wildlife sanctuary. These pages are here to discover a South Korea of ancient tradition and accelerated modernity.",
+      },
+    },
+  },
+  {
     slug: "paraguay",
     flagEmoji: "🇵🇾",
     accentColor: "#0039A6",

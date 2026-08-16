@@ -424,11 +424,17 @@ const Nepal: EmblemComponent = () => (
 
 const Paraguay: EmblemComponent = () => (
   <svg viewBox="-7 1 100 110" width="100%" height="100%">
-    <path d="M30 20 Q18 55 32 92" fill="none" stroke="#fff" strokeWidth="7" strokeLinecap="round" />
-    <path d="M30 20 L68 26 L38 92" fill="none" stroke="#fff" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
-    <line x1="38" y1="34" x2="35" y2="80" stroke="#fff" strokeWidth="2.5" opacity="0.55" />
-    <line x1="46" y1="36" x2="38" y2="78" stroke="#fff" strokeWidth="2.5" opacity="0.55" />
-    <line x1="54" y1="38" x2="41" y2="76" stroke="#fff" strokeWidth="2.5" opacity="0.55" />
+    {/* arpa paraguaya: a curved resonator body, an arching neck, and a front pillar with strings between them */}
+    <path d="M35 20 Q23 42 25 68 Q27 90 38 96 Q45 90 42 68 Q40 42 35 20 Z" fill="#F5F0E6" stroke="#00287A" strokeWidth="1.5" opacity="0.95" />
+    <path d="M35 20 Q55 6 74 26" fill="none" stroke="#F5F0E6" strokeWidth="7" strokeLinecap="round" />
+    <path d="M74 26 Q64 65 50 92" fill="none" stroke="#F5F0E6" strokeWidth="4" strokeLinecap="round" />
+    <line x1="40" y1="24" x2="44" y2="88" stroke="#D4AF37" strokeWidth="1.5" opacity="0.85" />
+    <line x1="48" y1="17" x2="49" y2="80" stroke="#D4AF37" strokeWidth="1.5" opacity="0.85" />
+    <line x1="56" y1="12" x2="54" y2="72" stroke="#D4AF37" strokeWidth="1.5" opacity="0.85" />
+    <line x1="64" y1="15" x2="59" y2="60" stroke="#D4AF37" strokeWidth="1.5" opacity="0.85" />
+    <line x1="71" y1="22" x2="63" y2="48" stroke="#D4AF37" strokeWidth="1.5" opacity="0.85" />
+    {/* small red rosette, nodding to the flag's third color */}
+    <circle cx="32" cy="58" r="3.5" fill="#C1272D" />
   </svg>
 );
 
@@ -452,6 +458,46 @@ const NorthKorea: EmblemComponent = () => (
       d="M50 26 L58 46 L80 46 L62 58 L69 80 L50 67 L31 80 L38 58 L20 46 L42 46 Z"
       fill="#C1272D"
     />
+  </svg>
+);
+
+const SouthKorea: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {/* circular medallion backing so the taegeuk reads against any cover color */}
+    <circle cx="50" cy="58" r="29" fill="#F5F0E6" stroke="#00000022" strokeWidth="1" />
+    {/* taegeuk, the swirl from the center of the Korean flag */}
+    <path d="M50 32 A26 26 0 0 1 50 84 A13 13 0 0 1 50 58 A13 13 0 0 0 50 32 Z" fill="#C60C30" />
+    <path d="M50 84 A26 26 0 0 1 50 32 A13 13 0 0 1 50 58 A13 13 0 0 0 50 84 Z" fill="#003478" />
+    {/* geon trigram, three solid bars, top-left */}
+    <g stroke="#1A1A1A" strokeWidth="2.5">
+      <line x1="8" y1="14" x2="22" y2="14" />
+      <line x1="8" y1="20" x2="22" y2="20" />
+      <line x1="8" y1="26" x2="22" y2="26" />
+    </g>
+    {/* gam trigram, broken-solid-broken, top-right */}
+    <g stroke="#1A1A1A" strokeWidth="2.5">
+      <line x1="78" y1="14" x2="83" y2="14" />
+      <line x1="87" y1="14" x2="92" y2="14" />
+      <line x1="78" y1="20" x2="92" y2="20" />
+      <line x1="78" y1="26" x2="83" y2="26" />
+      <line x1="87" y1="26" x2="92" y2="26" />
+    </g>
+    {/* ri trigram, solid-broken-solid, bottom-left */}
+    <g stroke="#1A1A1A" strokeWidth="2.5">
+      <line x1="8" y1="88" x2="22" y2="88" />
+      <line x1="8" y1="94" x2="13" y2="94" />
+      <line x1="17" y1="94" x2="22" y2="94" />
+      <line x1="8" y1="100" x2="22" y2="100" />
+    </g>
+    {/* gon trigram, three broken bars, bottom-right */}
+    <g stroke="#1A1A1A" strokeWidth="2.5">
+      <line x1="78" y1="88" x2="83" y2="88" />
+      <line x1="87" y1="88" x2="92" y2="88" />
+      <line x1="78" y1="94" x2="83" y2="94" />
+      <line x1="87" y1="94" x2="92" y2="94" />
+      <line x1="78" y1="100" x2="83" y2="100" />
+      <line x1="87" y1="100" x2="92" y2="100" />
+    </g>
   </svg>
 );
 
@@ -688,11 +734,14 @@ const Suriname: EmblemComponent = () => (
 );
 
 const Guyana: EmblemComponent = () => (
-  <svg viewBox="-6 0 100 110" width="100%" height="100%">
-    <polygon points="20,40 60,55 20,70" fill="#1A1A1A" />
-    <polygon points="26,44 62,55 26,66" fill="#fff" />
-    <polygon points="30,47 68,55 30,63" fill="#FFD700" />
-    <polygon points="30,47 50,55 30,63" fill="#C1272D" opacity="0.85" />
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {/* Kaieteur Falls: a wide single-drop curtain off a jungle plateau */}
+    <path d="M15 30 L85 30 L80 42 L20 42 Z" fill="#5C4A3A" />
+    <path d="M35 42 L65 42 L60 95 L40 95 Z" fill="#BFD9E8" opacity="0.9" />
+    <path d="M35 42 L65 42 L62 60 L38 60 Z" fill="#E8F2F7" opacity="0.6" />
+    <ellipse cx="50" cy="97" rx="30" ry="9" fill="#E8F2F7" opacity="0.7" />
+    <path d="M15 60 Q8 75 14 95 Q22 90 24 75 Q20 65 15 60 Z" fill="#2E7D32" />
+    <path d="M85 60 Q92 75 86 95 Q78 90 76 75 Q80 65 85 60 Z" fill="#2E7D32" />
   </svg>
 );
 
@@ -1153,6 +1202,7 @@ export const emblems: Record<string, EmblemComponent> = {
   nepal: Nepal,
   paraguay: Paraguay,
   "north-korea": NorthKorea,
+  "south-korea": SouthKorea,
   turkmenistan: Turkmenistan,
   laos: Laos,
   botswana: Botswana,
