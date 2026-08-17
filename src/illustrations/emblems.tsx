@@ -1700,6 +1700,44 @@ const Maldives: EmblemComponent = () => (
   </svg>
 );
 
+const EastTimor: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon
+      points="10,82 17,60 27,58 36,45 46,58 56,45 66,58 76,60 88,64 95,73 88,80 78,80 73,86 18,86"
+      fill="#3F7D2E"
+      stroke="#1F4A1A"
+      strokeWidth="2.5"
+    />
+    <polygon points="10,82 2,77 4,90 10,88" fill="#3F7D2E" stroke="#1F4A1A" strokeWidth="2" />
+    <circle cx="83" cy="70" r="3.5" fill="#1A1A1A" />
+    <line x1="80" y1="78" x2="92" y2="76" stroke="#1F4A1A" strokeWidth="1.8" />
+    <polygon points="30,86 24,96 34,96" fill="#1F4A1A" opacity="0.6" />
+    <polygon points="60,86 54,96 64,96" fill="#1F4A1A" opacity="0.6" />
+  </svg>
+);
+
+const SaudiArabia: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="22" y="20" width="56" height="65" fill="#1A1A1A" stroke="#000" strokeWidth="2.5" />
+    <rect x="22" y="42" width="56" height="12" fill="#D9A521" />
+    <rect x="46" y="20" width="8" height="65" fill="#2A2A2A" opacity="0.6" />
+    <rect x="40" y="60" width="20" height="25" fill="#0D0D0D" stroke="#D9A521" strokeWidth="1.5" />
+    <ellipse cx="50" cy="92" rx="42" ry="7" fill="#1E5631" opacity="0.5" />
+  </svg>
+);
+
+const Oman: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="25" y="75" width="50" height="15" fill="#8A6A42" stroke="#5C3E22" strokeWidth="2.2" />
+    <circle cx="50" cy="55" r="28" fill="#A0522D" stroke="#5C3E22" strokeWidth="3" />
+    <circle cx="50" cy="55" r="19" fill="#C1694F" opacity="0.6" />
+    {[[50, 25], [72, 33], [82, 55], [72, 77], [50, 85], [28, 77], [18, 55], [28, 33]].map(([x, y], i) => (
+      <rect key={i} x={x - 5} y={y - 5} width="10" height="10" fill="#A0522D" stroke="#5C3E22" strokeWidth="1.3" />
+    ))}
+    <rect x="42" y="65" width="16" height="20" fill="#5C3E22" opacity="0.5" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1840,6 +1878,9 @@ export const emblems: Record<string, EmblemComponent> = {
   bhutan: Bhutan,
   "sri-lanka": SriLanka,
   maldives: Maldives,
+  "east-timor": EastTimor,
+  "saudi-arabia": SaudiArabia,
+  oman: Oman,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

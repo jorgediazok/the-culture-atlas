@@ -137,6 +137,9 @@ import { jordanIllustrations } from "./jordan";
 import { bhutanIllustrations } from "./bhutan";
 import { sriLankaIllustrations } from "./sri-lanka";
 import { maldivesIllustrations } from "./maldives";
+import { eastTimorIllustrations } from "./east-timor";
+import { saudiArabiaIllustrations } from "./saudi-arabia";
+import { omanIllustrations } from "./oman";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -279,6 +282,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   bhutan: bhutanIllustrations,
   "sri-lanka": sriLankaIllustrations,
   maldives: maldivesIllustrations,
+  "east-timor": eastTimorIllustrations,
+  "saudi-arabia": saudiArabiaIllustrations,
+  oman: omanIllustrations,
 };
 
 export function getIllustration(

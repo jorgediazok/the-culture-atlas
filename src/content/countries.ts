@@ -2503,4 +2503,58 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "east-timor",
+    flagEmoji: "🇹🇱",
+    accentColor: "#6B3F2A",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Timor Oriental",
+        intro:
+          "El país más joven de Asia, independiente recién en 2002, cuna de un tejido que cuenta de dónde es cada persona y de un mito fundador donde un cocodrilo se convirtió en la isla. Estas páginas son para descubrir un Timor Oriental de casas sagradas de los ancestros, un café orgánico que crece a la sombra de la selva, y el único país católico rodeado de vecinos musulmanes.",
+      },
+      en: {
+        name: "East Timor",
+        intro:
+          "Asia's youngest country, independent only since 2002, birthplace of a weave that tells where someone is from and a founding myth where a crocodile became the island. These pages are here to discover an East Timor of sacred ancestral houses, organic coffee grown in jungle shade, and a Catholic country surrounded by Muslim neighbors.",
+      },
+    },
+  },
+  {
+    slug: "saudi-arabia",
+    flagEmoji: "🇸🇦",
+    accentColor: "#1E5631",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Arabia Saudita",
+        intro:
+          "La ciudad donde solo pueden entrar los musulmanes, cuna de tumbas talladas en roca que copian a Petra y de una danza de espadas que baila hasta el propio rey. Estas páginas son para descubrir una Arabia Saudita del desierto de arena continuo más grande del mundo, un halcón que viaja con pasaporte propio, y un concurso de belleza donde compiten camellos.",
+      },
+      en: {
+        name: "Saudi Arabia",
+        intro:
+          "The city only Muslims are allowed to enter, home to rock-carved tombs that echo Petra and a sword dance even the king joins in. These pages are here to discover a Saudi Arabia of the world's largest continuous sand desert, a falcon that travels with its own passport, and a beauty pageant where the contestants are camels.",
+      },
+    },
+  },
+  {
+    slug: "oman",
+    flagEmoji: "🇴🇲",
+    accentColor: "#A0522D",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Omán",
+        intro:
+          "La resina que hizo rica a Omán en la Antigüedad, cuna de una daga curva que aparece hasta en el escudo del país y de los fiordos de la península de Musandam. Estas páginas son para descubrir un Omán de fortalezas circulares, barcos cosidos con cuerda que navegaron hasta China, y la mezquita con la alfombra tejida más grande del mundo.",
+      },
+      en: {
+        name: "Oman",
+        intro:
+          "The resin that made ancient Oman rich, home to a curved dagger that even appears on the national emblem and the fjords of the Musandam Peninsula. These pages are here to discover an Oman of circular fortresses, rope-sewn boats that sailed all the way to China, and the mosque with the world's largest woven carpet.",
+      },
+    },
+  },
 ];
