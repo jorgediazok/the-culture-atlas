@@ -129,6 +129,9 @@ import { northernIreland } from "./northern-ireland";
 import { england } from "./england";
 import { scotland } from "./scotland";
 import { wales } from "./wales";
+import { poland } from "./poland";
+import { malta } from "./malta";
+import { cyprus } from "./cyprus";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -255,6 +258,9 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   england,
   scotland,
   wales,
+  poland,
+  malta,
+  cyprus,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

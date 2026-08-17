@@ -2233,4 +2233,58 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "poland",
+    flagEmoji: "🇵🇱",
+    accentColor: "#DC143C",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Polonia",
+        intro:
+          "El país de una mina de sal con una catedral tallada adentro, un sindicato obrero que ayudó a tumbar al comunismo y una ciudad reconstruida copiando pinturas del siglo XVIII. Estas páginas son para descubrir una Polonia del bosque más salvaje de Europa, un corazón guardado dentro de una columna de iglesia y una estatua de dragón que escupe fuego de verdad.",
+      },
+      en: {
+        name: "Poland",
+        intro:
+          "The country of a salt mine with a cathedral carved inside it, a workers' union that helped bring down communism, and a city rebuilt by copying 18th-century paintings. These pages are here to discover a Poland of Europe's wildest forest, a heart kept sealed inside a church column, and a dragon statue that really breathes fire.",
+      },
+    },
+  },
+  {
+    slug: "malta",
+    flagEmoji: "🇲🇹",
+    accentColor: "#CF142B",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Malta",
+        intro:
+          "La isla con templos más viejos que las pirámides de Egipto, el único idioma semítico oficial de toda la Unión Europea y una ciudad entera construida por una orden de caballeros. Estas páginas son para descubrir una Malta de botes pintados con ojos en la proa, un templo subterráneo descubierto por accidente y el único país condecorado en bloque por un rey.",
+      },
+      en: {
+        name: "Malta",
+        intro:
+          "The island with temples older than the pyramids of Egypt, the only Semitic language official across the entire European Union, and a whole city built by an order of knights. These pages are here to discover a Malta of boats painted with eyes on the bow, an underground temple found by accident, and the only country ever decorated as a whole by a king.",
+      },
+    },
+  },
+  {
+    slug: "cyprus",
+    flagEmoji: "🇨🇾",
+    accentColor: "#C36F26",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Chipre",
+        intro:
+          "La isla donde, según el mito, nació Afrodita de la espuma del mar, cuna del cobre y hogar de la última capital dividida en dos que queda en el mundo. Estas páginas son para descubrir un Chipre de queso que se fríe sin derretirse, un vino que ya bebían los cruzados y tumbas magníficas que nunca pertenecieron a ningún rey.",
+      },
+      en: {
+        name: "Cyprus",
+        intro:
+          "The island where, according to myth, Aphrodite was born from sea foam, birthplace of copper, and home to the world's last remaining divided capital. These pages are here to discover a Cyprus of cheese that fries without melting, a wine the Crusaders already drank, and magnificent tombs that never belonged to any king.",
+      },
+    },
+  },
 ];

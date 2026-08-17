@@ -122,6 +122,9 @@ import { northernIrelandIllustrations } from "./northern-ireland";
 import { englandIllustrations } from "./england";
 import { scotlandIllustrations } from "./scotland";
 import { walesIllustrations } from "./wales";
+import { polandIllustrations } from "./poland";
+import { maltaIllustrations } from "./malta";
+import { cyprusIllustrations } from "./cyprus";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -249,6 +252,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   england: englandIllustrations,
   scotland: scotlandIllustrations,
   wales: walesIllustrations,
+  poland: polandIllustrations,
+  malta: maltaIllustrations,
+  cyprus: cyprusIllustrations,
 };
 
 export function getIllustration(

@@ -1525,8 +1525,41 @@ const Scotland: EmblemComponent = () => (
 
 const Wales: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <path d="M35 85 Q30 60 45 50 Q40 40 48 30 Q52 40 55 48 Q65 42 75 50 Q68 58 58 60 Q65 68 62 82 Q52 78 47 66 Q42 80 35 85 Z" fill="#C8102E" stroke="#7A0E1C" strokeWidth="2.2" />
-    <circle cx="45" cy="45" r="2.5" fill="#1A1A1A" />
+    <path d="M50 95 L38 70 Q30 55 40 40 Q45 30 55 30 Q65 30 70 40 Q80 55 72 70 L60 95 Z" fill="#C8102E" stroke="#7A0E1C" strokeWidth="2.5" />
+    <path d="M40 40 L28 25 L38 35 Z M70 40 L82 25 L72 35 Z" fill="#C8102E" stroke="#7A0E1C" strokeWidth="2" />
+    <circle cx="45" cy="48" r="3" fill="#1A1A1A" />
+    <circle cx="65" cy="48" r="3" fill="#1A1A1A" />
+    <path d="M35 62 L45 62 L40 72 Z M48 65 L58 65 L53 76 Z M60 62 L70 62 L65 72 Z" fill="#F5F0E6" stroke="#7A0E1C" strokeWidth="1.5" />
+  </svg>
+);
+
+const Poland: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="50,50 15,30 30,55 15,75 50,60" fill="#F5F0E6" stroke="#8B0E19" strokeWidth="2" />
+    <polygon points="50,50 85,30 70,55 85,75 50,60" fill="#F5F0E6" stroke="#8B0E19" strokeWidth="2" />
+    <circle cx="50" cy="48" r="9" fill="#F5F0E6" stroke="#8B0E19" strokeWidth="2" />
+    <polygon points="50,55 44,66 56,66" fill="#F5F0E6" stroke="#8B0E19" strokeWidth="2" />
+    <rect x="40" y="30" width="20" height="8" fill="#D4AF37" stroke="#8B0E19" strokeWidth="1.5" />
+    <polygon points="40,30 45,18 50,30" fill="#D4AF37" stroke="#8B0E19" strokeWidth="1.2" />
+    <polygon points="45,30 50,16 55,30" fill="#D4AF37" stroke="#8B0E19" strokeWidth="1.2" />
+    <polygon points="50,30 55,18 60,30" fill="#D4AF37" stroke="#8B0E19" strokeWidth="1.2" />
+    <line x1="50" y1="60" x2="50" y2="90" stroke="#8B0E19" strokeWidth="4" />
+  </svg>
+);
+
+const Malta: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 55 L38 20 L50 30 L62 20 Z" fill="#F5F0E6" stroke="#8B8378" strokeWidth="2" />
+    <path d="M50 55 L38 90 L50 80 L62 90 Z" fill="#F5F0E6" stroke="#8B8378" strokeWidth="2" />
+    <path d="M50 55 L15 43 L25 55 L15 67 Z" fill="#F5F0E6" stroke="#8B8378" strokeWidth="2" />
+    <path d="M50 55 L85 43 L75 55 L85 67 Z" fill="#F5F0E6" stroke="#8B8378" strokeWidth="2" />
+  </svg>
+);
+
+const Cyprus: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 95 Q20 85 20 55 Q20 30 50 20 Q80 30 80 55 Q80 85 50 95 Z" fill="#F5F0E6" stroke="#8B8378" strokeWidth="2.5" />
+    <path d="M30 88 L50 30 M38 92 L50 30 M50 94 L50 28 M62 92 L50 30 M70 88 L50 30" stroke="#8B8378" strokeWidth="1.8" opacity="0.6" fill="none" />
   </svg>
 );
 
@@ -1655,6 +1688,9 @@ export const emblems: Record<string, EmblemComponent> = {
   england: England,
   scotland: Scotland,
   wales: Wales,
+  poland: Poland,
+  malta: Malta,
+  cyprus: Cyprus,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {
