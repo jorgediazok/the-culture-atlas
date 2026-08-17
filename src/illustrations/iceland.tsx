@@ -22,7 +22,8 @@ const IslandiaSobreLaDorsalMesoatlantica: IllustrationComponent = () => (
     <circle cx="185" cy="75" r="14" fill="#9E9A92" opacity="0.65" />
     <circle cx="225" cy="72" r="16" fill="#9E9A92" opacity="0.65" />
     <circle cx="205" cy="60" r="13" fill="#B0ACA2" opacity="0.6" />
-    <path d="M205 130 Q195 170 190 210 Q188 230 200 250 L215 250 Q222 225 212 195 Q206 165 215 135 Z" fill="#F4A300" stroke="#B7410E" strokeWidth="2" />
+    <path d="M205 130 Q190 175 178 215 Q173 235 185 250 L225 250 Q233 232 220 200 Q212 165 220 135 Z" fill="#F4A300" stroke="#B7410E" strokeWidth="2.5" />
+    <path d="M205 145 Q196 180 198 220 L200 250" stroke="#FFD166" strokeWidth="5" fill="none" opacity="0.8" strokeLinecap="round" />
   </g>
 );
 

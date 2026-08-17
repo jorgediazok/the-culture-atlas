@@ -1394,17 +1394,13 @@ const Slovenia: EmblemComponent = ({ accentColor }) => (
   </svg>
 );
 
-const Iceland: EmblemComponent = ({ accentColor }) => (
+const Iceland: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <rect x="18" y="100" width="55" height="7" fill={accentColor} opacity="0.7" />
-    <ellipse cx="40" cy="76" rx="17" ry="20" fill="#1A1A1A" />
-    <ellipse cx="36" cy="86" rx="11" ry="13" fill="#F5F0E6" />
-    <circle cx="52" cy="42" r="13" fill="#F5F0E6" stroke="#1A1A1A" strokeWidth="1.5" />
-    <path d="M62 32 L92 17 Q98 25 94 35 L86 47 Q78 53 66 45 L58 38 Z" fill="#F4A300" stroke="#B7410E" strokeWidth="2.5" />
-    <path d="M92 17 Q98 25 94 35 L80 30 Q84 23 76 19 Z" fill="#5C8FA8" opacity="0.9" />
-    <line x1="66" y1="27" x2="69" y2="41" stroke="#B7410E" strokeWidth="1.5" opacity="0.5" />
-    <circle cx="58" cy="37" r="3" fill="#1A1A1A" />
-    <path d="M34 104 L30 109 M46 104 L50 109" stroke="#F4A300" strokeWidth="4" strokeLinecap="round" />
+    <circle cx="45" cy="58" r="30" fill="#F5F0E6" stroke="#1A1A1A" strokeWidth="2" />
+    <circle cx="45" cy="22" r="26" fill="#1A1A1A" />
+    <path d="M70 48 L98 35 Q103 43 99 52 L92 61 Q84 66 74 59 L65 53 Z" fill="#F4A300" stroke="#B7410E" strokeWidth="2.5" />
+    <path d="M98 35 Q103 43 99 52 L86 47 Q90 40 82 36 Z" fill="#5C8FA8" opacity="0.9" />
+    <circle cx="60" cy="53" r="3.5" fill="#1A1A1A" />
   </svg>
 );
 
