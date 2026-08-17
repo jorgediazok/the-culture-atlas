@@ -1396,11 +1396,10 @@ const Slovenia: EmblemComponent = ({ accentColor }) => (
 
 const Iceland: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <circle cx="45" cy="58" r="30" fill="#F5F0E6" stroke="#1A1A1A" strokeWidth="2" />
-    <circle cx="45" cy="22" r="26" fill="#1A1A1A" />
-    <path d="M70 48 L98 35 Q103 43 99 52 L92 61 Q84 66 74 59 L65 53 Z" fill="#F4A300" stroke="#B7410E" strokeWidth="2.5" />
-    <path d="M98 35 Q103 43 99 52 L86 47 Q90 40 82 36 Z" fill="#5C8FA8" opacity="0.9" />
-    <circle cx="60" cy="53" r="3.5" fill="#1A1A1A" />
+    <path d="M12 88 Q35 40 50 20 Q65 40 88 88 Z" fill="#3E3A2F" stroke="#1A1710" strokeWidth="2" />
+    <path d="M12 88 Q28 55 38 45 Q30 66 26 88 Z" fill="#2E2A1F" opacity="0.7" />
+    <path d="M50 20 Q40 38 34 52 Q42 46 50 46 Q58 46 66 52 Q60 38 50 20 Z" fill="#B7410E" stroke="#7A2A0A" strokeWidth="1.5" />
+    <path d="M50 46 Q46 65 48 88 L52 88 Q54 65 50 46 Z" fill="#F4A300" stroke="#B7410E" strokeWidth="1.5" />
   </svg>
 );
 
