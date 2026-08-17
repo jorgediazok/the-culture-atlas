@@ -16,10 +16,13 @@ const GeysirLaPalabraQueNacioEnIslandia: IllustrationComponent = ({ accentColor 
 
 const IslandiaSobreLaDorsalMesoatlantica: IllustrationComponent = () => (
   <g>
-    <path d="M90 250 L170 100 L205 130 L240 100 L320 250 Z" fill="#2E2A1F" stroke="#1A1710" strokeWidth="3" />
-    <path d="M195 115 Q205 80 215 115 Q225 90 235 120 Q245 100 250 130" fill="none" stroke="#8B8378" strokeWidth="14" opacity="0.6" strokeLinecap="round" />
-    <path d="M195 130 Q185 170 165 210 Q160 230 175 250 L235 250 Q245 230 235 205 Q220 165 215 130 Z" fill="#B7410E" opacity="0.85" />
-    <path d="M205 130 Q195 160 200 190 Q205 215 210 250" stroke="#F4A300" strokeWidth="8" fill="none" opacity="0.9" />
+    <path d="M90 250 L205 100 L320 250 Z" fill="#3E3A2F" stroke="#1A1710" strokeWidth="3" />
+    <path d="M180 140 L205 100 L230 140 L215 140 L205 120 L195 140 Z" fill="#B7410E" />
+    <circle cx="205" cy="90" r="18" fill="#8B8378" opacity="0.7" />
+    <circle cx="185" cy="75" r="14" fill="#9E9A92" opacity="0.65" />
+    <circle cx="225" cy="72" r="16" fill="#9E9A92" opacity="0.65" />
+    <circle cx="205" cy="60" r="13" fill="#B0ACA2" opacity="0.6" />
+    <path d="M205 130 Q195 170 190 210 Q188 230 200 250 L215 250 Q222 225 212 195 Q206 165 215 135 Z" fill="#F4A300" stroke="#B7410E" strokeWidth="2" />
   </g>
 );
 
