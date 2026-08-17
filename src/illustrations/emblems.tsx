@@ -1642,6 +1642,64 @@ const Yemen: EmblemComponent = () => (
   </svg>
 );
 
+const Cambodia: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="10" y="80" width="80" height="14" fill="#8A6A42" stroke="#5C3E22" strokeWidth="2.2" />
+    <rect x="14.5" y="64" width="11" height="16" fill="#B8935F" stroke="#6B4A2A" strokeWidth="2" />
+    <polygon points="14.5,64 12,57 20,48 28,57 25.5,64" fill="#B8935F" stroke="#6B4A2A" strokeWidth="2" />
+    <rect x="27.5" y="55" width="13" height="25" fill="#B8935F" stroke="#6B4A2A" strokeWidth="2" />
+    <polygon points="27.5,55 24,45 34,35 44,45 40.5,55" fill="#B8935F" stroke="#6B4A2A" strokeWidth="2" />
+    <rect x="42" y="45" width="16" height="35" fill="#C9A96E" stroke="#6B4A2A" strokeWidth="2.5" />
+    <polygon points="42,45 38,32 50,20 62,32 58,45" fill="#C9A96E" stroke="#6B4A2A" strokeWidth="2.5" />
+    <rect x="59.5" y="55" width="13" height="25" fill="#B8935F" stroke="#6B4A2A" strokeWidth="2" />
+    <polygon points="59.5,55 56,45 66,35 76,45 72.5,55" fill="#B8935F" stroke="#6B4A2A" strokeWidth="2" />
+    <rect x="74.5" y="64" width="11" height="16" fill="#B8935F" stroke="#6B4A2A" strokeWidth="2" />
+    <polygon points="74.5,64 72,57 80,48 88,57 85.5,64" fill="#B8935F" stroke="#6B4A2A" strokeWidth="2" />
+  </svg>
+);
+
+const Jordan: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="24,45 50,25 76,45" fill="#C1694F" stroke="#7A3E2C" strokeWidth="2.5" />
+    <rect x="30" y="45" width="40" height="45" fill="#C1694F" stroke="#7A3E2C" strokeWidth="2.5" />
+    {[38, 50, 62].map((x) => (
+      <rect key={x} x={x - 3} y="45" width="6" height="45" fill="#D98F72" stroke="#7A3E2C" strokeWidth="1.2" />
+    ))}
+    <rect x="46" y="65" width="8" height="25" fill="#7A3E2C" opacity="0.6" />
+    <ellipse cx="50" cy="20" rx="5" ry="7" fill="#C1694F" stroke="#7A3E2C" strokeWidth="1.8" />
+  </svg>
+);
+
+const Bhutan: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="30,90 35,55 65,55 70,90" fill="#F5F0E6" stroke="#5C3E22" strokeWidth="2.2" />
+    <polygon points="35,55 50,42 65,55" fill="#8B1A2B" stroke="#5C3E22" strokeWidth="2" />
+    <rect x="42" y="25" width="16" height="22" fill="#F5F0E6" stroke="#5C3E22" strokeWidth="2" />
+    <polygon points="40,25 50,15 60,25" fill="#8B1A2B" stroke="#5C3E22" strokeWidth="2" />
+    <rect x="44" y="68" width="12" height="22" fill="#8B1A2B" opacity="0.5" />
+  </svg>
+);
+
+const SriLanka: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="50,15 72,35 65,80 35,80 28,35" fill="#1B4F91" stroke="#0D2C52" strokeWidth="2.5" />
+    <polygon points="50,15 65,80 35,80" fill="#2E6BB8" opacity="0.5" />
+    <line x1="50" y1="15" x2="50" y2="80" stroke="#0D2C52" strokeWidth="1.5" opacity="0.6" />
+    <line x1="28" y1="35" x2="72" y2="35" stroke="#0D2C52" strokeWidth="1.5" opacity="0.6" />
+    <line x1="50" y1="15" x2="28" y2="35" stroke="#0D2C52" strokeWidth="1" opacity="0.4" />
+    <line x1="50" y1="15" x2="72" y2="35" stroke="#0D2C52" strokeWidth="1" opacity="0.4" />
+  </svg>
+);
+
+const Maldives: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M20 78 Q30 90 50 90 Q70 90 80 78 L75 65 Q60 72 50 72 Q40 72 25 65 Z" fill="#0E7C9E" stroke="#0A4A5E" strokeWidth="2.5" />
+    <path d="M20 78 Q10 68 18 52 Q25 60 25 65 Z" fill="#0E7C9E" stroke="#0A4A5E" strokeWidth="2.5" />
+    <line x1="55" y1="70" x2="55" y2="30" stroke="#5C3E22" strokeWidth="3" />
+    <polygon points="55,32 78,45 55,50" fill="#F5F0E6" stroke="#0A4A5E" strokeWidth="1.8" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1777,6 +1835,11 @@ export const emblems: Record<string, EmblemComponent> = {
   iraq: Iraq,
   syria: Syria,
   yemen: Yemen,
+  cambodia: Cambodia,
+  jordan: Jordan,
+  bhutan: Bhutan,
+  "sri-lanka": SriLanka,
+  maldives: Maldives,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

@@ -132,6 +132,11 @@ import { turkeyIllustrations } from "./turkey";
 import { iraqIllustrations } from "./iraq";
 import { syriaIllustrations } from "./syria";
 import { yemenIllustrations } from "./yemen";
+import { cambodiaIllustrations } from "./cambodia";
+import { jordanIllustrations } from "./jordan";
+import { bhutanIllustrations } from "./bhutan";
+import { sriLankaIllustrations } from "./sri-lanka";
+import { maldivesIllustrations } from "./maldives";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -269,6 +274,11 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   iraq: iraqIllustrations,
   syria: syriaIllustrations,
   yemen: yemenIllustrations,
+  cambodia: cambodiaIllustrations,
+  jordan: jordanIllustrations,
+  bhutan: bhutanIllustrations,
+  "sri-lanka": sriLankaIllustrations,
+  maldives: maldivesIllustrations,
 };
 
 export function getIllustration(

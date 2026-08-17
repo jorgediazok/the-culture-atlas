@@ -2413,4 +2413,94 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "cambodia",
+    flagEmoji: "🇰🇭",
+    accentColor: "#B8763F",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Camboya",
+        intro:
+          "El monumento religioso más grande jamás construido, cuna de una danza que revive a ninfas talladas en piedra y de un lago que invierte su curso dos veces al año. Estas páginas son para descubrir una Camboya de templos devorados por la selva, un curry cocinado en hoja de banano y una bufanda de cuadros con mil usos distintos.",
+      },
+      en: {
+        name: "Cambodia",
+        intro:
+          "The largest religious monument ever built, birthplace of a dance that brings stone nymphs to life and a lake that reverses its course twice a year. These pages are here to discover a Cambodia of jungle-swallowed temples, a curry steamed inside a banana leaf, and a checkered scarf with a thousand uses.",
+      },
+    },
+  },
+  {
+    slug: "jordan",
+    flagEmoji: "🇯🇴",
+    accentColor: "#B5654A",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Jordania",
+        intro:
+          "La ciudad rosada tallada directamente en la roca, cuna del punto más bajo de la Tierra y de un desierto tan marciano que la NASA lo usó de set. Estas páginas son para descubrir una Jordania de teatros romanos en pleno centro de la capital, un café que se sirve tres veces y nunca cuatro, y un castillo cruzado con calabozos tallados en la roca.",
+      },
+      en: {
+        name: "Jordan",
+        intro:
+          "The rose-colored city carved directly into the rock, home to the lowest point on Earth and a desert so Martian that NASA used it as a film set. These pages are here to discover a Jordan of Roman theaters right in the capital's center, a coffee served three times and never four, and a Crusader castle with dungeons carved into the rock.",
+      },
+    },
+  },
+  {
+    slug: "bhutan",
+    flagEmoji: "🇧🇹",
+    accentColor: "#7A1F2B",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Bután",
+        intro:
+          "El único país del mundo que mide la felicidad en vez del PBI, cuna de un monasterio colgado de un acantilado a 900 metros y del único país carbono negativo del planeta. Estas páginas son para descubrir un Bután de fortalezas que son a la vez templo y gobierno, un deporte nacional donde se burlan del rival, y un guiso de chile y queso que come todo el país.",
+      },
+      en: {
+        name: "Bhutan",
+        intro:
+          "The only country in the world that measures happiness instead of GDP, home to a monastery clinging to a 900-meter cliff and the only carbon-negative country on Earth. These pages are here to discover a Bhutan of fortresses that are both temple and government, a national sport where mocking the rival is part of the game, and a chili-and-cheese stew the whole country eats.",
+      },
+    },
+  },
+  {
+    slug: "sri-lanka",
+    flagEmoji: "🇱🇰",
+    accentColor: "#1F6B4A",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Sri Lanka",
+        intro:
+          "La fortaleza de piedra sobre una roca de 200 metros, cuna del té que le dio su nombre al país que lo exporta y de una montaña sagrada venerada por cuatro religiones. Estas páginas son para descubrir un Sri Lanka de pescadores sentados sobre postes en el mar, un desfile con cien elefantes por una reliquia sagrada, y los mejores zafiros azules del mundo.",
+      },
+      en: {
+        name: "Sri Lanka",
+        intro:
+          "The stone fortress on a 650-foot rock, birthplace of the tea that named the country that exports it and a sacred mountain venerated by four religions. These pages are here to discover a Sri Lanka of fishermen perched on poles in the sea, a parade of a hundred elephants for a sacred relic, and the world's best blue sapphires.",
+      },
+    },
+  },
+  {
+    slug: "maldives",
+    flagEmoji: "🇲🇻",
+    accentColor: "#0E7C9E",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Maldivas",
+        intro:
+          "El país más bajo y más plano del planeta, formado por 1.192 islas nacidas sobre volcanes hundidos y hogar de una playa que brilla de noche sola. Estas páginas son para descubrir unas Maldivas de barcos de proa curva y alta, una mezquita tallada en bloques de coral macizo, y el país que inventó la casa de lujo sobre el agua.",
+      },
+      en: {
+        name: "Maldives",
+        intro:
+          "The lowest, flattest country on the planet, made up of 1,192 islands born on sunken volcanoes and home to a beach that glows blue all on its own at night. These pages are here to discover a Maldives of boats with tall curved bows, a mosque carved from solid blocks of coral, and the country that invented the luxury house on water.",
+      },
+    },
+  },
 ];
