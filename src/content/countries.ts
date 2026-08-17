@@ -2287,4 +2287,76 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "georgia",
+    flagEmoji: "🇬🇪",
+    accentColor: "#E4032E",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Georgia",
+        intro:
+          "El país donde nació el vino hace ocho mil años, con un alfabeto que no se parece a ningún otro y una revolución que tumbó a un gobierno sin disparar un solo tiro. Estas páginas son para descubrir una Georgia de banquetes con un maestro de brindis, una ciudad entera tallada en un acantilado y un canto de tres voces declarado patrimonio de la humanidad.",
+      },
+      en: {
+        name: "Georgia",
+        intro:
+          "The country where wine was born eight thousand years ago, with an alphabet unlike any other and a revolution that toppled a government without firing a single shot. These pages are here to discover a Georgia of feasts run by a toastmaster, a whole city carved into a cliff, and a three-voice singing tradition declared a treasure of humanity.",
+      },
+    },
+  },
+  {
+    slug: "portugal",
+    flagEmoji: "🇵🇹",
+    accentColor: "#046A38",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Portugal",
+        intro:
+          "El reino diminuto que construyó un imperio global, cuna del fado y dueño de las fronteras más viejas de toda Europa. Estas páginas son para descubrir un Portugal de fachadas cubiertas de azulejos, un dulce cuya receta original solo conocen cinco personas y un terremoto que cambió la forma en que Europa entendía a Dios.",
+      },
+      en: {
+        name: "Portugal",
+        intro:
+          "The tiny kingdom that built a global empire, birthplace of fado, and holder of the oldest borders in all of Europe. These pages are here to discover a Portugal of facades covered in tiles, a pastry whose original recipe only five people know, and an earthquake that changed how Europe understood God.",
+      },
+    },
+  },
+  {
+    slug: "greece",
+    flagEmoji: "🇬🇷",
+    accentColor: "#0D5EAF",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Grecia",
+        intro:
+          "La cuna de la democracia, de los Juegos Olímpicos y de un alfabeto que terminó dándole letras a medio mundo. Estas páginas son para descubrir una Grecia de monasterios construidos sobre columnas de roca, una isla con forma de luna nacida de una erupción volcánica y una bandera cuyas franjas cuentan una frase entera.",
+      },
+      en: {
+        name: "Greece",
+        intro:
+          "The cradle of democracy, of the Olympic Games, and of an alphabet that ended up giving letters to half the world. These pages are here to discover a Greece of monasteries built atop rock pillars, a crescent-shaped island born from a volcanic eruption, and a flag whose stripes spell out an entire sentence.",
+      },
+    },
+  },
+  {
+    slug: "turkey",
+    flagEmoji: "🇹🇷",
+    accentColor: "#E30A17",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Turquía",
+        intro:
+          "El único país del mundo repartido en dos continentes, hogar de un templo que cambió de religión cuatro veces y de un mercado techado con más de cuatro mil tiendas. Estas páginas son para descubrir una Turquía de chimeneas de hadas talladas por la erosión, un café que se lee en la borra y un amuleto azul colgado en cada rincón.",
+      },
+      en: {
+        name: "Turkey",
+        intro:
+          "The only country in the world split across two continents, home to a temple that changed religion four times and a covered market with more than four thousand shops. These pages are here to discover a Turkey of fairy chimneys carved by erosion, a coffee read from its grounds, and a blue amulet hung in every corner.",
+      },
+    },
+  },
 ];

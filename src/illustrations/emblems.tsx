@@ -1556,6 +1556,57 @@ const Cyprus: EmblemComponent = () => (
   </svg>
 );
 
+const Georgia: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <line x1="50" y1="20" x2="50" y2="45" stroke="#5C3A21" strokeWidth="3" />
+    <path d="M50 30 Q30 20 20 30 Q30 40 50 35 Q70 20 80 30 Q70 40 50 35" fill="#4A7A3E" stroke="#2E4A26" strokeWidth="1.5" />
+    {[[38, 48], [50, 52], [62, 48], [32, 62], [44, 66], [56, 66], [68, 62], [38, 78], [50, 82], [62, 78], [44, 92], [56, 92]].map(([x, y]) => (
+      <circle key={`${x}-${y}`} cx={x} cy={y} r="7" fill={accentColor} stroke="#4A1A2A" strokeWidth="1.5" />
+    ))}
+  </svg>
+);
+
+const Portugal: EmblemComponent = ({ accentColor }) => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {[[70, 30, -35], [78, 35, -15], [82, 45, 5], [80, 58, 25], [72, 68, 45]].map(([x, y, rot]) => (
+      <ellipse key={`${x}-${y}`} cx={x} cy={y} rx="9" ry="20" fill={accentColor} stroke="#1A1A1A" strokeWidth="2" transform={`rotate(${rot} ${x} ${y})`} />
+    ))}
+    <ellipse cx="42" cy="65" rx="18" ry="24" fill={accentColor} stroke="#1A1A1A" strokeWidth="2.5" />
+    <circle cx="35" cy="34" r="11" fill={accentColor} stroke="#1A1A1A" strokeWidth="2.5" />
+    <path d="M25 30 L15 25 L24 37 Z" fill="#D4AF37" stroke="#1A1A1A" strokeWidth="1.8" />
+    <path d="M28 24 L25 14 M34 22 L33 12 M40 24 L42 14" stroke="#B71C1C" strokeWidth="3" strokeLinecap="round" />
+    <circle cx="31" cy="32" r="2" fill="#1A1A1A" />
+    <line x1="35" y1="86" x2="28" y2="98" stroke="#1A1A1A" strokeWidth="3" strokeLinecap="round" />
+    <line x1="48" y1="86" x2="54" y2="98" stroke="#1A1A1A" strokeWidth="3" strokeLinecap="round" />
+  </svg>
+);
+
+const Greece: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M30 90 Q15 70 20 45 Q24 25 40 15" fill="none" stroke="#4A6A3A" strokeWidth="4" strokeLinecap="round" />
+    <path d="M70 90 Q85 70 80 45 Q76 25 60 15" fill="none" stroke="#4A6A3A" strokeWidth="4" strokeLinecap="round" />
+    {[[26, 80, -40], [20, 65, -25], [19, 50, -10], [24, 35, 10], [33, 22, 30]].map(([x, y, rot]) => (
+      <ellipse key={`l-${x}-${y}`} cx={x} cy={y} rx="8" ry="4" fill="#7AAA5E" stroke="#2E4A26" strokeWidth="1.3" transform={`rotate(${rot} ${x} ${y})`} />
+    ))}
+    {[[74, 80, 40], [80, 65, 25], [81, 50, 10], [76, 35, -10], [67, 22, -30]].map(([x, y, rot]) => (
+      <ellipse key={`r-${x}-${y}`} cx={x} cy={y} rx="8" ry="4" fill="#7AAA5E" stroke="#2E4A26" strokeWidth="1.3" transform={`rotate(${rot} ${x} ${y})`} />
+    ))}
+  </svg>
+);
+
+const Turkey: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path
+      fillRule="evenodd"
+      d="M 55 20 A 35 35 0 1 1 55 90 A 35 35 0 1 1 55 20 Z M 68 25 A 30 30 0 1 1 68 85 A 30 30 0 1 1 68 25 Z"
+      fill="#F5F0E6"
+      stroke="#7A0E1C"
+      strokeWidth="2"
+    />
+    <path d="M74 42 L78 53 L90 53 L80 60 L84 72 L74 65 L64 72 L68 60 L58 53 L70 53 Z" fill="#F5F0E6" stroke="#7A0E1C" strokeWidth="1.5" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1684,6 +1735,10 @@ export const emblems: Record<string, EmblemComponent> = {
   poland: Poland,
   malta: Malta,
   cyprus: Cyprus,
+  georgia: Georgia,
+  portugal: Portugal,
+  greece: Greece,
+  turkey: Turkey,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {
