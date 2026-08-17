@@ -13,9 +13,11 @@ component per entry, keyed by the entry's `id`, registered in an
 `export const {slug}Illustrations: Record<string, IllustrationDefinition>`
 at the bottom). The illustrations render inside `IllustrationFrame.tsx`
 (`viewBox="0 0 400 275"`, `preserveAspectRatio="xMidYMid slice"`) at roughly
-half a book page — much bigger than the small ~100–128px cover emblems in
-`src/illustrations/emblems.tsx` (a separate, already-finished system; don't
-confuse the two).
+half a book page — much bigger than the small ~100×110px cover emblems in
+`src/illustrations/emblems.tsx` (a separate system; don't confuse the two).
+Emblems need their own pass of scrutiny — see "Emblem-specific gotchas"
+below — they are not a solved problem, several shipped-and-seemingly-fine
+emblems turned out unreadable once the user actually looked at them.
 
 **The problem being fixed:** most countries' illustrations were originally
 tiny, abstract, 2–4 shape doodles occupying a ~90×90px corner of the 400×275
@@ -115,6 +117,71 @@ browser's renderer applies those deterministically. The banned thing is only
   Cuba's `BalletNacionalCuba`, and Costa Rica's `AbolicionDelEjercito`, all
   flagged by the user after the first pass looked plausible in isolation but
   didn't survive being looked at next to the real object.
+
+## Emblem-specific gotchas (learned the hard way, new-countries session)
+
+Emblems live in `src/illustrations/emblems.tsx`, one `EmblemComponent` per
+country slug, `viewBox="0 0 100 110"`, rendered at ~140px inside a circular
+ring on `CoverPage.tsx`. At that tiny scale, mistakes that are invisible in
+a 400×275 illustration become the whole picture:
+
+- **Self-intersecting paths silently render as holes or thin outlines.**
+  A single `<path>` built from two curves that wind in *opposite* directions
+  toward the same region (e.g. two `Q` curves meant to form a solid
+  "hood" shape, or a crescent moon hand-built from two arcs with mismatched
+  large-arc/sweep flags) can produce a shape whose fill area evaluates to
+  near-zero under the browser's fill-rule, leaving only a stroke-thin
+  sliver visible — indistinguishable from "broken" to the user, and *not*
+  a caching issue even though it looks like one. This bit Iceland's puffin
+  hood (rebuilt as two plain overlapping `<circle>`s) and Turkey's crescent
+  moon (rebuilt as two complete non-self-intersecting circles combined via
+  `fillRule="evenodd"` — the reliable way to do a boolean "circle minus
+  offset circle" subtraction; don't hand-tune a single path's arc flags to
+  fake a lune shape, it's very easy to get subtly wrong). If an emblem
+  renders as an outline, a sliver, or a hole where a solid shape was
+  intended, suspect this before anything else.
+- **Soft organic curves collapse into an unreadable blob at this scale;
+  bold geometric shapes (triangles, zigzags, angular polygons) survive.**
+  Poland's eagle read as a dove until its wings became jagged zigzag
+  polygons and the crown became three literal triangles. Wales's dragon
+  went through three complete rewrites — a single soft-curved silhouette
+  (looked like a cat/crab), a multi-piece body-with-wing-and-tail (still
+  unreadable) — before landing on a bold front-facing *head* alone
+  (cropped cheek horns + visible teeth), which finally read clearly.
+  When a creature/animal emblem isn't landing, try cropping to just its
+  single most distinctive feature rendered large, rather than a small
+  complete body.
+- **Quadrupeds need side profile, not a front-facing symmetric pose.**
+  Poland's bison read as a pig/rabbit head-on with two vertical horns
+  (the exact bunny-ear anti-pattern from the illustration section above,
+  applies equally at emblem scale); rebuilt in side silhouette with the
+  bison's characteristic shoulder hump, it read correctly on the first
+  redo.
+- **"No literal flags" can be overridden by explicit user instruction.**
+  The project's standing rule is emblems should never be literal miniature
+  flags. Turkey's emblem was deliberately built as a crescent-and-star
+  (which *is* the flag) only because the user explicitly asked for exactly
+  that after a tulip design didn't read — a one-off exception, not a
+  precedent to reuse without being asked.
+- **A fixed accent color touching the emblem's own ring background can
+  vanish.** `CoverPage.tsx` renders the emblem inside a ring tinted with
+  the country's own `accentColor`. Any emblem shape that also uses
+  `fill={accentColor}` (or a close relative of it) and touches the
+  emblem's outer boundary risks blending into its own backdrop. Prefer a
+  fixed, unrelated hex for large boundary-touching shapes, saving
+  `accentColor` for small interior details already framed by contrast
+  (same rule as the illustration frame, just easier to trigger by
+  accident here since the backdrop *is* `accentColor`).
+- **When the user says "I still see the old version" after a confirmed
+  fix**, check `git log` to confirm the commit actually landed and was
+  pushed before assuming it's a live-site cache/deploy-lag issue (most
+  likely if they're viewing a deployed URL rather than something you
+  control) — but also seriously consider a self-intersecting-path bug
+  producing a *visually different but still wrong* result, since from the
+  user's side both look like "nothing changed." Rebuilding with a
+  structurally different technique (not just tweaked numbers) is a good
+  diagnostic either way — if the user then sees a genuinely different
+  (if still imperfect) shape, that confirms it was never a caching issue.
 
 ## Workflow used for every country (repeat this exactly)
 
@@ -264,21 +331,69 @@ that entry, not a full-country pass.
   fixed per the no-trig-at-render rule by precomputing the point array
   offline (`SHELL_STRAND_POINTS`). Same no-screenshot-pass policy. Committed.
 
-**All continents are now done to the bold standard** (Europe, South America,
-North America, Asia, Africa, Oceania). No countries remain on the old
-tiny/abstract style. Next steps are the two deferred larger-scope tasks below,
-to be started only when the user explicitly says so.
+**All continents were done to the bold standard** (Europe, South America,
+North America, Asia, Africa, Oceania) as of 2026-08-16. No countries from
+that original pass remain on the old tiny/abstract style.
 
-## Deferred, larger-scope tasks (explicitly NOT started — user said to wait)
+**New-countries session (2026-08-16/17) — 15 countries added from scratch,
+all built to the bold standard from the start** (content + illustrations +
+emblem + full 6-point registry wiring, per the workflow below), bringing
+the atlas from 84 to 99 countries:
+- Balkans: Bosnia and Herzegovina, Montenegro, North Macedonia.
+- British Isles: Ireland, Northern Ireland, England, Scotland, Wales.
+- Rest of Europe (completing the continent): Poland, Malta, Cyprus,
+  Georgia, Portugal, Greece, Turkey.
 
-The user's own words (2026-08-15, before this illustration push began):
+All screenshotted entry-by-entry and reviewed against `imageAlt`/content
+this time (not the "no full pass" policy from the original redesign
+project — the user actively reviewed every new-country illustration and
+flagged specific bugs, most of which were the same failure patterns
+documented above: bunny-ear horns, blob/unclear objects,
+background-matching low-contrast fills, big empty canvas space). Emblems
+got the most iteration — see "Emblem-specific gotchas" above; Wales's
+dragon and Poland's bison/eagle each took 2–3 full rebuilds before landing.
+Everything through Turkey is committed and pushed as of the last commit in
+this session.
+
+**Middle East session (2026-08-17) — Iraq, Syria, Yemen added from scratch**,
+bringing the atlas from 99 to 102 countries, all built to the bold standard
+from the start (content + illustrations + emblem + full 6-point registry
+wiring). Content leans on ancient Mesopotamia/Levant/South Arabia history
+(cuneiform, the Code of Hammurabi, the Ishtar Gate, the House of Wisdom, the
+Malwiya spiral minaret, Ugarit's alphabet, Palmyra, Damascus steel, the Marib
+Dam/Queen of Sheba, Socotra's dragon blood trees) alongside living culture
+(masgouf, the Marsh Arabs' mudhif houses, Iraqi maqam, Aleppo soap, the
+Damascene rose, tawle/backgammon, Aghabani embroidery, Sana'a's tower houses,
+Shibam, the jambiya dagger, sidr honey, Yemeni silver filigree, saltah) —
+deliberately avoiding recent-conflict framing, consistent with how
+Iran/Palestine/Turkmenistan were handled earlier. Titles and descriptions
+needed a real trim pass to fit the ≤55/≤1000-char limits (see
+[[content_length_constraints]]) — nearly every drafted title came in
+5–15 chars over on the first pass; budget for that when drafting Middle
+East/long-place-name content going forward. Emblems: Iraq is a stepped
+ziggurat silhouette (terracotta trapezoids, gold shrine box on top), Syria
+is Palmyra's columns and arch (stone columns, gold capitals), Yemen is a
+jambiya dagger (curved gold blade, dark sheath, green belt) — all built with
+fixed hardcoded colors rather than `accentColor`, following the safer
+recent pattern (Turkey/Greece/Cyprus/Malta) that avoids the ring-blending
+risk documented in "Emblem-specific gotchas." Passed `tsc`, `eslint`, the
+id-matching audit, and a full `rm -rf .next && npm run build` (278 static
+paths). Per the standing "no full screenshot pass" policy plus the explicit
+user instruction not to Puppeteer-screenshot to self-verify (burns
+review credit), no screenshot review was run — the user reviews personally
+in the running dev server and names specific entries to fix, same as the
+Asia/Africa/Oceania batches. Not yet committed as of the end of this batch.
+
+## Deferred, larger-scope task (explicitly NOT started — user said to wait)
+
+The user's own words (2026-08-15, before the original redesign push began):
 "Tengo pendiente algo, pienso dejarlo para despues que ya tengamos todos los
-paises." Two things to only pick up once **all** countries exist and the user
-says to start:
+paises." Originally two tasks; the second (redesign every remaining
+country's illustrations) is now moot since no countries remain on the old
+style — every country, old and newly added, is at the bold standard. Only
+one task remains, to pick up once the user explicitly says to start:
 1. Expand every country from 10 to 20 culture entries each (some small
    countries may be hard to stretch to 20 — that's expected/accepted).
-2. Redesign every remaining country's illustrations to this same standard
-   (this file's checklist applies then too).
 
 ## Content constraints (unrelated to illustrations, but relevant if adding
 entries)

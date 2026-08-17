@@ -2359,4 +2359,58 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "iraq",
+    flagEmoji: "🇮🇶",
+    accentColor: "#A6321F",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Iraq",
+        intro:
+          "La cuna de la civilización, donde nació la escritura, el primer código de leyes escrito y una biblioteca que tradujo el saber de medio mundo antiguo. Estas páginas son para descubrir un Iraq de zigurats milenarios, marismas de juncos y un dátil que se sigue compartiendo como ofrenda de hospitalidad.",
+      },
+      en: {
+        name: "Iraq",
+        intro:
+          "The cradle of civilization, where writing itself was born, along with the first written code of laws and a library that translated the knowledge of half the ancient world. These pages are here to discover an Iraq of ancient ziggurats, reed marshes, and a date still shared today as an offering of hospitality.",
+      },
+    },
+  },
+  {
+    slug: "syria",
+    flagEmoji: "🇸🇾",
+    accentColor: "#3F7D4A",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Siria",
+        intro:
+          "La ciudad habitada más antigua del mundo, cuna de un jabón de aceite de oliva que se cura durante un año entero y de un acero legendario cuyo patrón ondulado nunca se replicó del todo. Estas páginas son para descubrir una Siria de ruinas de caravanas en pleno desierto, rosas que le dieron nombre a un color y un mercado con un techo agujereado por la historia.",
+      },
+      en: {
+        name: "Syria",
+        intro:
+          "The world's oldest inhabited city, birthplace of an olive-oil soap cured for a full year and a legendary steel whose wavy pattern was never fully replicated. These pages are here to discover a Syria of desert caravan ruins, roses that named a color, and a market with a roof pierced by history.",
+      },
+    },
+  },
+  {
+    slug: "yemen",
+    flagEmoji: "🇾🇪",
+    accentColor: "#C1440E",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Yemen",
+        intro:
+          "La 'Arabia Feliz' de los romanos, cuna del comercio mundial del café y hogar de una isla tan aislada que un tercio de sus plantas no existe en ningún otro lugar del planeta. Estas páginas son para descubrir un Yemen de rascacielos de barro, dagas ceremoniales y una miel considerada entre las más caras del mundo.",
+      },
+      en: {
+        name: "Yemen",
+        intro:
+          "The Romans' 'Arabia Felix,' birthplace of the world coffee trade and home to an island so isolated that a third of its plants exist nowhere else on the planet. These pages are here to discover a Yemen of mudbrick skyscrapers, ceremonial daggers, and a honey ranked among the most expensive in the world.",
+      },
+    },
+  },
 ];

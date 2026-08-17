@@ -1598,12 +1598,47 @@ const Turkey: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
     <path
       fillRule="evenodd"
-      d="M 55 20 A 35 35 0 1 1 55 90 A 35 35 0 1 1 55 20 Z M 68 25 A 30 30 0 1 1 68 85 A 30 30 0 1 1 68 25 Z"
+      d="M 55 20 A 35 35 0 1 1 55 90 A 35 35 0 1 1 55 20 Z M 63 30 A 25 25 0 1 1 63 80 A 25 25 0 1 1 63 30 Z"
       fill="#F5F0E6"
       stroke="#7A0E1C"
       strokeWidth="2"
     />
-    <path d="M74 42 L78 53 L90 53 L80 60 L84 72 L74 65 L64 72 L68 60 L58 53 L70 53 Z" fill="#F5F0E6" stroke="#7A0E1C" strokeWidth="1.5" />
+    <path d="M70 45 L73 53 L82 53 L75 58 L78 66 L70 61 L62 66 L65 58 L58 53 L67 53 Z" fill="#F5F0E6" stroke="#7A0E1C" strokeWidth="1.5" />
+  </svg>
+);
+
+const Iraq: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="15,95 85,95 75,80 25,80" fill="#9C6B3E" stroke="#5C3E22" strokeWidth="2" />
+    <polygon points="25,80 75,80 67,65 33,65" fill="#8B5A2B" stroke="#5C3E22" strokeWidth="2" />
+    <polygon points="33,65 67,65 60,50 40,50" fill="#9C6B3E" stroke="#5C3E22" strokeWidth="2" />
+    <polygon points="40,50 60,50 55,38 45,38" fill="#8B5A2B" stroke="#5C3E22" strokeWidth="2" />
+    <rect x="46" y="26" width="8" height="12" fill="#C9A227" stroke="#5C3E22" strokeWidth="1.5" />
+    <polygon points="44,26 50,18 56,26" fill="#C9A227" stroke="#5C3E22" strokeWidth="1.2" />
+    <polygon points="46,95 54,95 50,80" fill="#5C3E22" opacity="0.45" />
+  </svg>
+);
+
+const Syria: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="20" y="45" width="10" height="50" fill="#D9C9A3" stroke="#8B7355" strokeWidth="2" />
+    <rect x="45" y="35" width="10" height="60" fill="#D9C9A3" stroke="#8B7355" strokeWidth="2" />
+    <rect x="70" y="45" width="10" height="50" fill="#D9C9A3" stroke="#8B7355" strokeWidth="2" />
+    <path d="M45 35 Q50 20 55 35" fill="none" stroke="#D9C9A3" strokeWidth="6" />
+    <rect x="16" y="40" width="18" height="6" fill="#C9A227" stroke="#8B7355" strokeWidth="1.5" />
+    <rect x="41" y="30" width="18" height="6" fill="#C9A227" stroke="#8B7355" strokeWidth="1.5" />
+    <rect x="66" y="40" width="18" height="6" fill="#C9A227" stroke="#8B7355" strokeWidth="1.5" />
+    <rect x="12" y="95" width="76" height="8" fill="#8B7355" opacity="0.5" />
+  </svg>
+);
+
+const Yemen: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 15 Q62 40 56 62 Q50 72 44 62 Q38 40 50 15 Z" fill="#C9A227" stroke="#5C3E22" strokeWidth="2.2" />
+    <rect x="42" y="60" width="16" height="10" fill="#8B1A1A" stroke="#5C3E22" strokeWidth="2" />
+    <path d="M38 70 Q50 88 62 70 L58 96 Q50 102 42 96 Z" fill="#7A5230" stroke="#5C3E22" strokeWidth="2.2" />
+    <rect x="20" y="88" width="60" height="10" rx="2" fill="#3E5C40" stroke="#1A1A1A" strokeWidth="2" />
+    <circle cx="50" cy="93" r="4" fill="#C9A227" stroke="#5C3E22" strokeWidth="1.2" />
   </svg>
 );
 
@@ -1739,6 +1774,9 @@ export const emblems: Record<string, EmblemComponent> = {
   portugal: Portugal,
   greece: Greece,
   turkey: Turkey,
+  iraq: Iraq,
+  syria: Syria,
+  yemen: Yemen,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {
