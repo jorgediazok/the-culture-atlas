@@ -1345,13 +1345,11 @@ const Estonia: EmblemComponent = ({ accentColor }) => (
 
 const Lithuania: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <circle cx="50" cy="20" r="7" fill="none" stroke="#6B3E0A" strokeWidth="3.5" />
-    <rect x="47" y="25" width="6" height="10" fill="#6B3E0A" />
-    <path d="M50 33 Q26 50 30 72 Q34 95 50 98 Q66 95 70 72 Q74 50 50 33 Z" fill="#C1791E" stroke="#6B3E0A" strokeWidth="2.5" />
-    <path d="M35 55 L65 55 M32 68 L68 68 M38 82 L62 82 M50 33 L50 98" stroke="#6B3E0A" strokeWidth="1.3" opacity="0.35" />
-    <ellipse cx="50" cy="65" rx="8" ry="4.5" fill="#4A2A0A" opacity="0.7" transform="rotate(20 50 65)" />
-    <circle cx="57" cy="69" r="2.5" fill="#4A2A0A" opacity="0.7" />
-    <ellipse cx="42" cy="45" rx="6" ry="11" fill="#F0C070" opacity="0.65" transform="rotate(-15 42 45)" />
+    <circle cx="50" cy="18" r="7" fill="none" stroke="#6B3E0A" strokeWidth="4" />
+    <line x1="50" y1="25" x2="50" y2="38" stroke="#6B3E0A" strokeWidth="3" />
+    <path d="M50 35 L72 55 L64 90 L36 90 L28 55 Z" fill="#D4941E" stroke="#6B3E0A" strokeWidth="3" />
+    <path d="M50 35 L64 90 M50 35 L36 90 M28 55 L72 55" stroke="#F0C070" strokeWidth="2" opacity="0.8" />
+    <path d="M50 35 L58 55 L54 80 L50 35 Z" fill="#F0C070" opacity="0.5" />
   </svg>
 );
 
