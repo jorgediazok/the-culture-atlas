@@ -140,6 +140,7 @@ import { maldivesIllustrations } from "./maldives";
 import { eastTimorIllustrations } from "./east-timor";
 import { saudiArabiaIllustrations } from "./saudi-arabia";
 import { omanIllustrations } from "./oman";
+import { ukraineIllustrations } from "./ukraine";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -285,6 +286,7 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   "east-timor": eastTimorIllustrations,
   "saudi-arabia": saudiArabiaIllustrations,
   oman: omanIllustrations,
+  ukraine: ukraineIllustrations,
 };
 
 export function getIllustration(

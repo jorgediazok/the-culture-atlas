@@ -1738,6 +1738,17 @@ const Oman: EmblemComponent = () => (
   </svg>
 );
 
+const Ukraine: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M40 78 Q32 58 18 46 Q12 41 18 30" fill="none" stroke="#F5C518" strokeWidth="10" strokeLinecap="round" />
+    <path d="M60 78 Q68 58 82 46 Q88 41 82 30" fill="none" stroke="#F5C518" strokeWidth="10" strokeLinecap="round" />
+    <polygon points="50,14 57,22 53,78 47,78 43,22" fill="#F5C518" stroke="#8A6A10" strokeWidth="2.2" />
+    <polygon points="34,78 66,78 72,92 28,92" fill="#F5C518" stroke="#8A6A10" strokeWidth="2.2" />
+    <path d="M40 78 Q32 58 18 46 Q12 41 18 30" fill="none" stroke="#8A6A10" strokeWidth="1.6" strokeLinecap="round" opacity="0.5" />
+    <path d="M60 78 Q68 58 82 46 Q88 41 82 30" fill="none" stroke="#8A6A10" strokeWidth="1.6" strokeLinecap="round" opacity="0.5" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1881,6 +1892,7 @@ export const emblems: Record<string, EmblemComponent> = {
   "east-timor": EastTimor,
   "saudi-arabia": SaudiArabia,
   oman: Oman,
+  ukraine: Ukraine,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

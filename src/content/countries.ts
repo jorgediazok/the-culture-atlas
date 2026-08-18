@@ -2557,4 +2557,22 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "ukraine",
+    flagEmoji: "🇺🇦",
+    accentColor: "#1B5FAE",
+    continent: "europe",
+    translations: {
+      es: {
+        name: "Ucrania",
+        intro:
+          "El monasterio con catacumbas de monjes momificados, cuna de una camisa bordada que identifica cada región y de una danza cosaca con patadas y saltos imposibles. Estas páginas son para descubrir una Ucrania de huevos de Pascua pintados con símbolos de hace 3.000 años, un bosque que renació sin humanos tras el desastre de Chernóbil, y el país que produce más aceite de girasol del mundo.",
+      },
+      en: {
+        name: "Ukraine",
+        intro:
+          "The monastery with catacombs of mummified monks, birthplace of an embroidered shirt that identifies each region and a Cossack dance of impossible kicks and leaps. These pages are here to discover a Ukraine of Easter eggs painted with symbols 3,000 years old, a forest reborn without humans after the Chernobyl disaster, and the country that makes the world's most sunflower oil.",
+      },
+    },
+  },
 ];
