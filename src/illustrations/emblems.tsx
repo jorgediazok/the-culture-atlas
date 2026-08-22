@@ -1958,6 +1958,101 @@ const Lebanon: EmblemComponent = () => (
   </svg>
 );
 
+const Dominica: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M25 75 Q20 45 45 35 Q70 25 78 40 Q85 50 75 55 Q80 65 70 75 Q55 90 35 85 Q22 82 25 75 Z" fill="#2E6B3A" stroke="#123322" strokeWidth="2.4" />
+    <circle cx="72" cy="38" r="12" fill="#2E6B3A" stroke="#123322" strokeWidth="2.2" />
+    <path d="M55 60 Q45 70 40 85 Q55 90 65 78 Q68 65 55 60 Z" fill="#5B3A9E" stroke="#3A2266" strokeWidth="2" />
+    <polygon points="82,38 96,34 86,48" fill="#C9A227" stroke="#8A6A10" strokeWidth="1.8" />
+    <circle cx="76" cy="34" r="2.5" fill="#0A0A0A" />
+    <path d="M25 75 Q15 80 12 95 Q25 92 30 82 Z" fill="#1F5C3A" stroke="#123322" strokeWidth="2" />
+  </svg>
+);
+
+const Grenada: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M20 45 Q50 15 80 45 Q65 40 50 42 Q35 40 20 45 Z" fill="#5C3A21" stroke="#2E1D10" strokeWidth="2.4" />
+    <path d="M20 45 Q50 85 80 45 Q65 55 50 53 Q35 55 20 45 Z" fill="#8B5A2B" stroke="#2E1D10" strokeWidth="2.4" />
+    <ellipse cx="50" cy="47" rx="17" ry="22" fill="#C1272D" stroke="#7A1818" strokeWidth="2.2" />
+    <circle cx="50" cy="47" r="11" fill="#2E1D10" stroke="#1A1208" strokeWidth="1.8" />
+    <path d="M38 30 Q44 40 38 50 M50 25 Q56 37 50 49 M62 30 Q56 40 62 50" fill="none" stroke="#E8A9BC" strokeWidth="2" opacity="0.8" />
+  </svg>
+);
+
+const SaintVincentAndTheGrenadines: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M15 75 L85 75 L72 90 L28 90 Z" fill="#1B4F72" stroke="#0D2A3D" strokeWidth="2.4" />
+    <rect x="48" y="30" width="4" height="48" fill="#3A2418" />
+    <path d="M52 32 L82 68 L52 68 Z" fill="#F5F0E6" stroke="#0D2A3D" strokeWidth="2" />
+    <path d="M48 40 L28 70 L48 70 Z" fill="#7A9AB0" stroke="#0D2A3D" strokeWidth="2" />
+    <path d="M10 82 Q30 75 50 82 Q70 75 90 82" fill="none" stroke="#1B4F72" strokeWidth="3" opacity="0.7" />
+  </svg>
+);
+
+const DominicanRepublic: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="50,15 75,35 68,75 32,75 25,35" fill="#3FA9B8" stroke="#1F6F7A" strokeWidth="2.6" />
+    <polygon points="50,15 68,75 50,95 32,75" fill="#7ED0DB" stroke="#1F6F7A" strokeWidth="2.2" opacity="0.85" />
+    <polygon points="50,15 75,35 50,50 25,35" fill="#B8E8ED" stroke="#1F6F7A" strokeWidth="1.8" opacity="0.7" />
+    <path d="M38 55 Q50 60 62 55" stroke="#F5F0E6" strokeWidth="2" fill="none" opacity="0.6" />
+  </svg>
+);
+
+const Samoa: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M15 55 Q50 20 85 55 Q50 45 15 55 Z" fill="#8B5A2B" stroke="#2E1D10" strokeWidth="2.6" />
+    <rect x="22" y="55" width="4" height="30" fill="#5C3A21" />
+    <rect x="38" y="55" width="4" height="30" fill="#5C3A21" />
+    <rect x="58" y="55" width="4" height="30" fill="#5C3A21" />
+    <rect x="74" y="55" width="4" height="30" fill="#5C3A21" />
+    <ellipse cx="50" cy="88" rx="42" ry="7" fill="#D9C9A3" stroke="#8A6A4A" strokeWidth="1.8" />
+  </svg>
+);
+
+const Angola: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M15 70 Q20 50 40 45 Q60 40 75 50 Q85 55 80 62 Q70 58 60 60 Q65 68 55 75 Q35 85 20 78 Q13 75 15 70 Z" fill="#1A1A1A" stroke="#000000" strokeWidth="2.2" />
+    <circle cx="68" cy="48" r="9" fill="#1A1A1A" stroke="#000000" strokeWidth="2" />
+    <path d="M70 40 Q78 22 72 10 Q68 24 62 34" fill="none" stroke="#C9A227" strokeWidth="5" strokeLinecap="round" />
+    <path d="M76 42 Q88 26 84 12 Q76 28 66 38" fill="none" stroke="#C9A227" strokeWidth="5" strokeLinecap="round" />
+    <line x1="25" y1="78" x2="22" y2="92" stroke="#1A1A1A" strokeWidth="4" />
+    <line x1="65" y1="78" x2="68" y2="92" stroke="#1A1A1A" strokeWidth="4" />
+  </svg>
+);
+
+const Benin: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="72,20 78,32 66,32" fill="#8B5A2B" />
+    <polygon points="88,28 90,42 78,36" fill="#8B5A2B" />
+    <polygon points="95,50 88,58 84,44" fill="#8B5A2B" />
+    <polygon points="92,68 80,66 88,56" fill="#8B5A2B" />
+    <polygon points="78,78 70,68 82,70" fill="#8B5A2B" />
+    <polygon points="60,76 62,62 70,72" fill="#8B5A2B" />
+    <polygon points="52,58 62,54 58,42" fill="#8B5A2B" />
+    <polygon points="60,30 68,38 56,34" fill="#8B5A2B" />
+    <circle cx="72" cy="52" r="16" fill="#C9A227" stroke="#8A6A10" strokeWidth="2.2" />
+    <ellipse cx="45" cy="70" rx="28" ry="18" fill="#C9A227" stroke="#8A6A10" strokeWidth="2.2" />
+    <circle cx="65" cy="48" r="2" fill="#1A1A1A" />
+    <path d="M14 78 Q8 90 18 95" fill="none" stroke="#8B5A2B" strokeWidth="4" strokeLinecap="round" />
+  </svg>
+);
+
+const BurkinaFaso: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M10 58 L90 48 L90 60 L10 70 Z" fill="#8B5A2B" stroke="#3A2418" strokeWidth="2.2" />
+    <ellipse cx="22" cy="85" rx="10" ry="14" fill="#C9A227" stroke="#8A6A10" strokeWidth="2" />
+    <ellipse cx="42" cy="82" rx="10" ry="14" fill="#C9A227" stroke="#8A6A10" strokeWidth="2" />
+    <ellipse cx="62" cy="79" rx="10" ry="14" fill="#C9A227" stroke="#8A6A10" strokeWidth="2" />
+    <ellipse cx="80" cy="76" rx="10" ry="14" fill="#C9A227" stroke="#8A6A10" strokeWidth="2" />
+    <line x1="22" y1="85" x2="30" y2="63" stroke="#3A2418" strokeWidth="2" />
+    <line x1="42" y1="82" x2="48" y2="61" stroke="#3A2418" strokeWidth="2" />
+    <line x1="62" y1="79" x2="66" y2="59" stroke="#3A2418" strokeWidth="2" />
+    <line x1="80" y1="76" x2="82" y2="57" stroke="#3A2418" strokeWidth="2" />
+    <circle cx="35" cy="35" r="7" fill="#C1272D" />
+    <line x1="35" y1="42" x2="35" y2="52" stroke="#3A2418" strokeWidth="3" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -2118,6 +2213,14 @@ export const emblems: Record<string, EmblemComponent> = {
   "antigua-and-barbuda": AntiguaAndBarbuda,
   bahamas: Bahamas,
   barbados: Barbados,
+  dominica: Dominica,
+  grenada: Grenada,
+  "saint-vincent-and-the-grenadines": SaintVincentAndTheGrenadines,
+  "dominican-republic": DominicanRepublic,
+  samoa: Samoa,
+  angola: Angola,
+  benin: Benin,
+  "burkina-faso": BurkinaFaso,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

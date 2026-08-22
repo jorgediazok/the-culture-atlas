@@ -164,6 +164,14 @@ import { saintKittsAndNevis } from "./saint-kitts-and-nevis";
 import { antiguaAndBarbuda } from "./antigua-and-barbuda";
 import { bahamas } from "./bahamas";
 import { barbados } from "./barbados";
+import { dominica } from "./dominica";
+import { grenada } from "./grenada";
+import { saintVincentAndTheGrenadines } from "./saint-vincent-and-the-grenadines";
+import { dominicanRepublic } from "./dominican-republic";
+import { samoa } from "./samoa";
+import { angola } from "./angola";
+import { benin } from "./benin";
+import { burkinaFaso } from "./burkina-faso";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -325,6 +333,14 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   "antigua-and-barbuda": antiguaAndBarbuda,
   bahamas,
   barbados,
+  dominica,
+  grenada,
+  "saint-vincent-and-the-grenadines": saintVincentAndTheGrenadines,
+  "dominican-republic": dominicanRepublic,
+  samoa,
+  angola,
+  benin,
+  "burkina-faso": burkinaFaso,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

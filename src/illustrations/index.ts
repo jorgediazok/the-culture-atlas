@@ -157,6 +157,14 @@ import { saintKittsAndNevisIllustrations } from "./saint-kitts-and-nevis";
 import { antiguaAndBarbudaIllustrations } from "./antigua-and-barbuda";
 import { bahamasIllustrations } from "./bahamas";
 import { barbadosIllustrations } from "./barbados";
+import { dominicaIllustrations } from "./dominica";
+import { grenadaIllustrations } from "./grenada";
+import { saintVincentAndTheGrenadinesIllustrations } from "./saint-vincent-and-the-grenadines";
+import { dominicanRepublicIllustrations } from "./dominican-republic";
+import { samoaIllustrations } from "./samoa";
+import { angolaIllustrations } from "./angola";
+import { beninIllustrations } from "./benin";
+import { burkinaFasoIllustrations } from "./burkina-faso";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -319,6 +327,14 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   "antigua-and-barbuda": antiguaAndBarbudaIllustrations,
   bahamas: bahamasIllustrations,
   barbados: barbadosIllustrations,
+  dominica: dominicaIllustrations,
+  grenada: grenadaIllustrations,
+  "saint-vincent-and-the-grenadines": saintVincentAndTheGrenadinesIllustrations,
+  "dominican-republic": dominicanRepublicIllustrations,
+  samoa: samoaIllustrations,
+  angola: angolaIllustrations,
+  benin: beninIllustrations,
+  "burkina-faso": burkinaFasoIllustrations,
 };
 
 export function getIllustration(

@@ -2863,4 +2863,148 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "dominica",
+    flagEmoji: "🇩🇲",
+    accentColor: "#5B3A9E",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Dominica",
+        intro:
+          "El segundo lago hirviente más grande del mundo escondido en un cráter, el único loro que vive nada más que en esta isla y le dio a su bandera el único morado del planeta, y el último territorio indígena con tierra propia de todo el Caribe. Estas páginas son para descubrir una Dominica de un sendero de 185 kilómetros bautizado con el nombre original de la isla, un arrecife donde el mar burbujea como champán, y la isla que se propuso reconstruirse a prueba del próximo huracán.",
+      },
+      en: {
+        name: "Dominica",
+        intro:
+          "The world's second-largest boiling lake hidden inside a crater, the only parrot found nowhere else on Earth that gave its flag the planet's only purple, and the Caribbean's last indigenous territory with land of its own. These pages are here to discover a Dominica of a 185-kilometer trail named after the island's original name, a reef where the sea bubbles like champagne, and the island that set out to rebuild itself to withstand the next hurricane.",
+      },
+    },
+  },
+  {
+    slug: "grenada",
+    flagEmoji: "🇬🇩",
+    accentColor: "#8B5A2B",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Granada",
+        intro:
+          "La especia dibujada dentro de su propia bandera, el primer parque de esculturas bajo el mar de todo el planeta, y un lago que duerme dentro de un cráter volcánico rodeado de monos. Estas páginas son para descubrir una Granada de un carnaval donde la gente se cubre entera de aceite y pintura negra, un pueblo pesquero que se vuelve fiesta cada viernes, y tortugas gigantes que regresan cada año a la misma playa a poner sus huevos.",
+      },
+      en: {
+        name: "Grenada",
+        intro:
+          "The spice drawn right into its own flag, the world's first underwater sculpture park, and a lake sleeping inside a volcanic crater ringed by monkeys. These pages are here to discover a Grenada of a carnival where people cover themselves head to toe in oil and black paint, a fishing town that turns into a party every Friday, and giant turtles that return to the same beach every year to lay their eggs.",
+      },
+    },
+  },
+  {
+    slug: "saint-vincent-and-the-grenadines",
+    flagEmoji: "🇻🇨",
+    accentColor: "#1B4F72",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "San Vicente y las Granadinas",
+        intro:
+          "La isla con permiso para cazar apenas una ballena al año con arpón lanzado a mano, un archipiélago de 32 islas de aguas turquesas, y la bahía que Hollywood convirtió en el pueblo pirata de una película. Estas páginas son para descubrir un San Vicente y las Granadinas del árbol que trajo el mismísimo capitán del motín del Bounty, un carnaval que se mudó de fecha para no competir con el de Trinidad, y la isla privada donde veranea la realeza europea.",
+      },
+      en: {
+        name: "Saint Vincent and the Grenadines",
+        intro:
+          "The island permitted to hunt just one whale a year with a hand-thrown harpoon, an archipelago of 32 turquoise-water islands, and the bay Hollywood turned into a fictional pirate town. These pages are here to discover a Saint Vincent and the Grenadines of the tree brought over by the very captain of the mutiny on the Bounty, a carnival that moved dates to avoid competing with Trinidad's, and the private island where European royalty summers.",
+      },
+    },
+  },
+  {
+    slug: "dominican-republic",
+    flagEmoji: "🇩🇴",
+    accentColor: "#3FA9B8",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "República Dominicana",
+        intro:
+          "La primera ciudad europea fundada en América, con la primera catedral y la primera universidad de todo el continente, los dos ritmos musicales declarados Patrimonio de la Humanidad, y una piedra azul que no existe en ningún otro lugar del mundo. Estas páginas son para descubrir una República Dominicana del pueblo que exporta más peloteros de béisbol que nadie, una basílica con forma de manos unidas en oración, y los diablos enmascarados del carnaval más antiguo del país.",
+      },
+      en: {
+        name: "Dominican Republic",
+        intro:
+          "The first European city founded in the Americas, home to the continent's first cathedral and first university, the two musical rhythms declared World Heritage, and a blue stone found nowhere else on Earth. These pages are here to discover a Dominican Republic of the town that exports more baseball players than anywhere else, a basilica shaped like hands joined in prayer, and the masked devils of the country's oldest carnival.",
+      },
+    },
+  },
+  {
+    slug: "samoa",
+    flagEmoji: "🇼🇸",
+    accentColor: "#8B1A1A",
+    continent: "oceania",
+    translations: {
+      es: {
+        name: "Samoa",
+        intro:
+          "El sistema de jefes matai que la Constitución reconoce por encima del propio Estado, el tatuaje tradicional que se aplica a mano durante semanas de dolor compartido, y el pozo volcánico convertido en jardín hundido junto al mar. Estas páginas son para descubrir una Samoa del día que directamente borró del calendario para cambiar de lado del planeta, un escritor escocés que pidió que lo enterraran en la cima de una colina samoana, y un equipo de rugby de apenas doscientos mil habitantes capaz de vencer a las potencias del deporte.",
+      },
+      en: {
+        name: "Samoa",
+        intro:
+          "The matai chief system the constitution recognizes above the state itself, the traditional tattoo hand-applied over weeks of shared pain, and the volcanic pit turned into a sunken garden by the sea. These pages are here to discover a Samoa of the day it erased from the calendar to switch sides of the planet, a Scottish writer who asked to be buried atop a Samoan hill, and a rugby team from a country of barely two hundred thousand people capable of beating the sport's giants.",
+      },
+    },
+  },
+  {
+    slug: "angola",
+    flagEmoji: "🇦🇴",
+    accentColor: "#8B1A1A",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Angola",
+        intro:
+          "La cascada que se escucha antes de verse, apenas por detrás de las Victoria en tamaño, el antílope que Angola dio por extinto durante años de guerra y resultó estar escondido, y el baile que cruzó el Atlántico en barcos de esclavizados y se convirtió en samba brasileña. Estas páginas son para descubrir una Angola de dibujos trazados en la arena que codifican matemática sin saberlo, un género electrónico nacido de computadoras pirateadas en los barrios de Luanda, y un parque nacional que trajo de vuelta en barcaza a los elefantes que la guerra había hecho desaparecer.",
+      },
+      en: {
+        name: "Angola",
+        intro:
+          "The waterfall you hear before you see it, just behind Victoria Falls in size, the antelope Angola gave up for extinct during years of war and turned out to be hiding all along, and the dance that crossed the Atlantic on slave ships and became Brazilian samba. These pages are here to discover an Angola of sand drawings that encode mathematics without knowing it, an electronic genre born from pirated computers in Luanda's neighborhoods, and a national park that ferried its vanished elephants back home by barge.",
+      },
+    },
+  },
+  {
+    slug: "benin",
+    flagEmoji: "🇧🇯",
+    accentColor: "#C9A227",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Benín",
+        intro:
+          "El país donde nació el vudú, reconocido hoy con un feriado nacional propio, los palacios de barro de un reino que gobernó buena parte del golfo de Guinea, y el ejército de mujeres guerreras que inspiró una película de Hollywood. Estas páginas son para descubrir un Benín de un pueblo entero construido sobre pilotes en medio de un lago para escapar de las razias esclavistas, casas fortaleza con torres de barro en las montañas del norte, y un templo de pitones sagradas que queda justo enfrente de una catedral católica.",
+      },
+      en: {
+        name: "Benin",
+        intro:
+          "The country where Voodoo was born, honored today with its own national holiday, the mud palaces of a kingdom that ruled much of the Gulf of Guinea, and the army of women warriors who inspired a Hollywood film. These pages are here to discover a Benin of an entire village built on stilts in the middle of a lake to escape slave raids, fortress houses with mud towers in the northern mountains, and a temple of sacred pythons sitting directly across from a Catholic cathedral.",
+      },
+    },
+  },
+  {
+    slug: "burkina-faso",
+    flagEmoji: "🇧🇫",
+    accentColor: "#1F5C3A",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Burkina Faso",
+        intro:
+          "El festival de cine más grande de toda África, celebrado cada dos años desde 1969, las ruinas de piedra de una ruta del oro olvidada, y las agujas rocosas que parecen un paisaje lunar en pleno bosque. Estas páginas son para descubrir un Burkina Faso de máscaras de madera más altas que una persona, un rey tradicional que cada viernes finge partir hacia la guerra antes de que sus consejeros lo convenzan de quedarse, y el país que en 1984 eligió su propio nombre para llamarse 'la tierra de la gente íntegra'.",
+      },
+      en: {
+        name: "Burkina Faso",
+        intro:
+          "Africa's biggest film festival, held every two years since 1969, the stone ruins of a forgotten gold route, and rock needles that look like a lunar landscape in the middle of the forest. These pages are here to discover a Burkina Faso of wooden masks taller than a person, a traditional king who fakes riding off to war every Friday before his advisors talk him into staying, and the country that in 1984 chose its own name to call itself 'the land of upright people.'",
+      },
+    },
+  },
 ];
