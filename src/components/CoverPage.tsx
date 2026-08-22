@@ -1,22 +1,46 @@
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
-import type { LocalizedCountry } from "@/content/types";
+import type { Locale, LocalizedCountry } from "@/content/types";
 import { getEmblem } from "@/illustrations/emblems";
 import { readableTextColor } from "@/illustrations/palette";
+import { formatNumber } from "@/i18n/format";
 import BookPageFrame from "./BookPageFrame";
 
 export default function CoverPage({
   country,
   entryCount,
   storiesLabel,
+  locale,
+  capitalLabel,
+  languageLabel,
+  populationLabel,
+  currencyLabel,
 }: {
   country: LocalizedCountry;
   entryCount: number;
   storiesLabel: string;
+  locale: Locale;
+  capitalLabel: string;
+  languageLabel: string;
+  populationLabel: string;
+  currencyLabel: string;
 }) {
   const Emblem = getEmblem(country.slug);
   const textColor = readableTextColor(country.accentColor);
+
+  // A country either has all four quick facts or none — no partial grids.
+  const hasFacts =
+    country.capital && country.language && country.population && country.currency;
+
+  const factRows = hasFacts
+    ? [
+        { label: capitalLabel, value: country.capital! },
+        { label: languageLabel, value: country.language! },
+        { label: populationLabel, value: formatNumber(country.population!, locale) },
+        { label: currencyLabel, value: country.currency! },
+      ]
+    : [];
 
   return (
     <BookPageFrame>
@@ -42,8 +66,8 @@ export default function CoverPage({
         {Emblem ? (
           <Box
             sx={{
-              width: 260,
-              height: 260,
+              width: 220,
+              height: 220,
               borderRadius: "50%",
               display: "flex",
               alignItems: "center",
@@ -54,18 +78,18 @@ export default function CoverPage({
               "&::before": {
                 content: '""',
                 position: "absolute",
-                inset: "13px",
+                inset: "11px",
                 borderRadius: "50%",
                 border: "1px solid rgba(0,0,0,0.22)",
               },
               "&::after": {
                 content: '""',
                 position: "absolute",
-                bottom: -7,
+                bottom: -6,
                 left: "50%",
                 transform: "translateX(-50%)",
-                width: "2.5px",
-                height: "15px",
+                width: "2.2px",
+                height: "13px",
                 backgroundColor: textColor,
                 opacity: 0.4,
               },
@@ -74,16 +98,16 @@ export default function CoverPage({
             <Box
               sx={{
                 position: "absolute",
-                top: -7,
+                top: -6,
                 left: "50%",
                 transform: "translateX(-50%)",
-                width: "2.5px",
-                height: "15px",
+                width: "2.2px",
+                height: "13px",
                 backgroundColor: textColor,
                 opacity: 0.4,
               }}
             />
-            <Box sx={{ width: 178, height: 178 }}>
+            <Box sx={{ width: 150, height: 150 }}>
               <Emblem accentColor={country.accentColor} />
             </Box>
           </Box>
@@ -107,6 +131,64 @@ export default function CoverPage({
             {country.intro}
           </Typography>
         </Box>
+
+        {hasFacts ? (
+          <Box sx={{ width: "100%", maxWidth: 300, mb: 1 }}>
+            <Box
+              sx={{
+                width: 40,
+                height: "1.5px",
+                backgroundColor: textColor,
+                opacity: 0.35,
+                mx: "auto",
+                mb: 2.5,
+              }}
+            />
+            <Box
+              sx={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                rowGap: 1.5,
+                textAlign: "left",
+              }}
+            >
+              {factRows.map((row) => (
+                <Box
+                  key={row.label}
+                  sx={{
+                    display: "flex",
+                    alignItems: "baseline",
+                    justifyContent: "space-between",
+                    gap: 2,
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: 10,
+                      letterSpacing: "0.12em",
+                      textTransform: "uppercase",
+                      opacity: 0.62,
+                      whiteSpace: "nowrap",
+                    }}
+                  >
+                    {row.label}
+                  </Typography>
+                  <Typography
+                    sx={{
+                      fontFamily: "var(--font-fraunces), serif",
+                      fontWeight: 600,
+                      fontSize: 15,
+                      lineHeight: 1.3,
+                      textAlign: "right",
+                    }}
+                  >
+                    {row.value}
+                  </Typography>
+                </Box>
+              ))}
+            </Box>
+          </Box>
+        ) : null}
 
         <Box
           sx={{
@@ -207,6 +289,55 @@ export default function CoverPage({
           <Typography variant="h3" component="h1" sx={{ fontWeight: 700 }}>
             {country.name}
           </Typography>
+
+          {hasFacts ? (
+            <Box sx={{ mt: 0.5 }}>
+              <Box
+                sx={{
+                  width: 40,
+                  height: "1.5px",
+                  backgroundColor: textColor,
+                  opacity: 0.35,
+                  mx: "auto",
+                  mb: 2,
+                }}
+              />
+              <Box
+                sx={{
+                  display: "grid",
+                  gridTemplateColumns: "repeat(2, 1fr)",
+                  columnGap: 3.5,
+                  rowGap: 2,
+                  textAlign: "left",
+                }}
+              >
+                {factRows.map((row) => (
+                  <Box key={row.label}>
+                    <Typography
+                      sx={{
+                        fontSize: 9.5,
+                        letterSpacing: "0.12em",
+                        textTransform: "uppercase",
+                        opacity: 0.62,
+                        mb: 0.5,
+                      }}
+                    >
+                      {row.label}
+                    </Typography>
+                    <Typography
+                      sx={{
+                        fontFamily: "var(--font-fraunces), serif",
+                        fontWeight: 600,
+                        fontSize: 16,
+                      }}
+                    >
+                      {row.value}
+                    </Typography>
+                  </Box>
+                ))}
+              </Box>
+            </Box>
+          ) : null}
 
           {/* Gutter shadow, half A: anchored to this box's own right edge. */}
           <Box

@@ -170,6 +170,11 @@ import { tunisiaIllustrations } from "./tunisia";
 import { eswatiniIllustrations } from "./eswatini";
 import { namibiaIllustrations } from "./namibia";
 import { zambiaIllustrations } from "./zambia";
+import { cameroonIllustrations } from "./cameroon";
+import { centralAfricanRepublicIllustrations } from "./central-african-republic";
+import { chadIllustrations } from "./chad";
+import { comorosIllustrations } from "./comoros";
+import { democraticRepublicOfTheCongoIllustrations } from "./democratic-republic-of-the-congo";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -345,6 +350,11 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   eswatini: eswatiniIllustrations,
   namibia: namibiaIllustrations,
   zambia: zambiaIllustrations,
+  cameroon: cameroonIllustrations,
+  "central-african-republic": centralAfricanRepublicIllustrations,
+  chad: chadIllustrations,
+  comoros: comorosIllustrations,
+  "democratic-republic-of-the-congo": democraticRepublicOfTheCongoIllustrations,
 };
 
 export function getIllustration(

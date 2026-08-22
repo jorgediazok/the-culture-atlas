@@ -2103,6 +2103,57 @@ const Zambia: EmblemComponent = () => (
   </svg>
 );
 
+const Cameroon: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="20,95 50,25 80,95" fill="#3A5F3A" stroke="#1F3D1F" strokeWidth="2.4" />
+    <polygon points="38,62 50,28 62,62" fill="#8B1A1A" opacity="0.85" />
+    <path d="M43 62 Q50 46 57 62" fill="none" stroke="#F5A623" strokeWidth="3" strokeLinecap="round" />
+    <rect x="10" y="95" width="80" height="8" fill="#2E6B8C" opacity="0.55" />
+  </svg>
+);
+
+const CentralAfricanRepublic: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="10" y="95" width="80" height="8" fill="#C9A227" opacity="0.4" />
+    <rect x="24" y="48" width="15" height="52" fill="#8B5A2B" stroke="#5C3A21" strokeWidth="2.4" />
+    <rect x="43" y="30" width="15" height="70" fill="#A0703F" stroke="#5C3A21" strokeWidth="2.4" />
+    <rect x="62" y="52" width="15" height="48" fill="#8B5A2B" stroke="#5C3A21" strokeWidth="2.4" />
+  </svg>
+);
+
+const Chad: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M8 95 Q28 82 48 95 Q68 82 92 95" fill="none" stroke="#C9A227" strokeWidth="6" opacity="0.5" />
+    <ellipse cx="48" cy="65" rx="24" ry="13" fill="#B8860B" stroke="#6B4A10" strokeWidth="2.4" />
+    <path d="M36 58 Q31 44 40 38 Q49 44 43 58 Z" fill="#B8860B" stroke="#6B4A10" strokeWidth="2.2" />
+    <path d="M68 60 Q80 48 78 32 Q71 34 67 48 Q64 56 68 60 Z" fill="#B8860B" stroke="#6B4A10" strokeWidth="2.2" />
+    <path d="M38 76 L36 95 M48 76 L46 95 M58 76 L56 95 M66 74 L64 93" stroke="#6B4A10" strokeWidth="3" strokeLinecap="round" />
+  </svg>
+);
+
+const Comoros: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {[0, 60, 120, 180, 240, 300].map((deg) => (
+      <g key={deg} transform={`rotate(${deg} 50 55)`}>
+        <path d="M50 55 C60 42 74 46 77 58 C71 66 56 63 50 55 Z" fill="#D9A227" stroke="#8A6A10" strokeWidth="1.8" />
+      </g>
+    ))}
+    <circle cx="50" cy="55" r="9" fill="#8B5A2B" stroke="#5C3A21" strokeWidth="2" />
+  </svg>
+);
+
+const DemocraticRepublicOfTheCongo: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <circle cx="50" cy="55" r="38" fill="#D9C9A3" stroke="#5C3A21" strokeWidth="2.6" />
+    {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+      <g key={deg} transform={`rotate(${deg} 50 55)`}>
+        <rect x="47" y="20" width="6" height="16" fill="#8B5A2B" />
+      </g>
+    ))}
+    <circle cx="50" cy="55" r="12" fill="#8B5A2B" stroke="#5C3A21" strokeWidth="2.2" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -2276,6 +2327,11 @@ export const emblems: Record<string, EmblemComponent> = {
   eswatini: Eswatini,
   namibia: Namibia,
   zambia: Zambia,
+  cameroon: Cameroon,
+  "central-african-republic": CentralAfricanRepublic,
+  chad: Chad,
+  comoros: Comoros,
+  "democratic-republic-of-the-congo": DemocraticRepublicOfTheCongo,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

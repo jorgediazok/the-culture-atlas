@@ -19,6 +19,12 @@ export type CultureEntry = {
 export type CountryTranslation = {
   name: string;
   intro: string;
+  // Quick facts — optional while the atlas rolls these out country by
+  // country, same as imageUrl/illustrations. Only render them as a group:
+  // a country either has all four or none, never a partial set.
+  capital?: string;
+  language?: string;
+  currency?: string;
 };
 
 export type Continent =
@@ -34,6 +40,7 @@ export type Country = {
   flagEmoji: string;
   accentColor: string;
   continent: Continent;
+  population?: number;
   translations: Record<Locale, CountryTranslation>;
 };
 

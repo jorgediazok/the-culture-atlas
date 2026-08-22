@@ -177,6 +177,11 @@ import { tunisia } from "./tunisia";
 import { eswatini } from "./eswatini";
 import { namibia } from "./namibia";
 import { zambia } from "./zambia";
+import { cameroon } from "./cameroon";
+import { centralAfricanRepublic } from "./central-african-republic";
+import { chad } from "./chad";
+import { comoros } from "./comoros";
+import { democraticRepublicOfTheCongo } from "./democratic-republic-of-the-congo";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -351,6 +356,11 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   eswatini,
   namibia,
   zambia,
+  cameroon,
+  "central-african-republic": centralAfricanRepublic,
+  chad,
+  comoros,
+  "democratic-republic-of-the-congo": democraticRepublicOfTheCongo,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

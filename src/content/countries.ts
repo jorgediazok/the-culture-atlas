@@ -294,16 +294,23 @@ export const countries: Country[] = [
     flagEmoji: "🇦🇺",
     accentColor: "#0B5563",
     continent: "oceania",
+    population: 26600000,
     translations: {
       es: {
         name: "Australia",
         intro:
           "Un continente entero convertido en país, con más canguros que habitantes, una barrera de coral visible desde el espacio y un desierto rojo sagrado en el centro de todo. Estas páginas son para descubrir una Australia mucho más grande que sus playas.",
+        capital: "Canberra",
+        language: "Inglés",
+        currency: "Dólar australiano (AUD)",
       },
       en: {
         name: "Australia",
         intro:
           "An entire continent turned into a country, with more kangaroos than people, a coral reef visible from space, and a sacred red desert at the center of it all. These pages are here to discover an Australia far bigger than its beaches.",
+        capital: "Canberra",
+        language: "English",
+        currency: "Australian Dollar (AUD)",
       },
     },
   },
@@ -312,16 +319,23 @@ export const countries: Country[] = [
     flagEmoji: "🇳🇿",
     accentColor: "#1A1A1A",
     continent: "oceania",
+    population: 5200000,
     translations: {
       es: {
         name: "Nueva Zelanda",
         intro:
           "El país que se convirtió en la Tierra Media, donde el haka maorí desafía antes de cada partido y las aves gobernaron la tierra durante millones de años sin un solo mamífero terrestre. Estas páginas son para descubrir una Nueva Zelanda de fiordos, tradición y aventura.",
+        capital: "Wellington",
+        language: "Inglés y maorí",
+        currency: "Dólar neozelandés (NZD)",
       },
       en: {
         name: "New Zealand",
         intro:
           "The country that became Middle-earth, where the Māori haka issues a challenge before every match and birds ruled the land for millions of years without a single land mammal in sight. These pages are here to discover a New Zealand of fjords, tradition, and adventure.",
+        capital: "Wellington",
+        language: "English and Māori",
+        currency: "New Zealand Dollar (NZD)",
       },
     },
   },
@@ -1194,16 +1208,23 @@ export const countries: Country[] = [
     flagEmoji: "🇰🇮",
     accentColor: "#E8912D",
     continent: "oceania",
+    population: 133000,
     translations: {
       es: {
         name: "Kiribati",
         intro:
           "El único país presente en los cuatro hemisferios del planeta, que movió la línea internacional de cambio de fecha y hasta compró tierra en otro país por si el mar se lo lleva todo. Estas páginas son para descubrir un Kiribati de atolones dispersos, danzas que imitan aves marinas y una historia marcada por la Segunda Guerra Mundial.",
+        capital: "Tarawa Sur",
+        language: "Inglés y gilbertés",
+        currency: "Dólar australiano (AUD)",
       },
       en: {
         name: "Kiribati",
         intro:
           "The only country present in all four hemispheres of the planet, which moved the International Date Line and even bought land abroad in case the sea takes everything. These pages are here to discover a Kiribati of scattered atolls, dances imitating seabirds, and a history marked by World War II.",
+        capital: "South Tarawa",
+        language: "English and Gilbertese",
+        currency: "Australian Dollar (AUD)",
       },
     },
   },
@@ -1212,16 +1233,23 @@ export const countries: Country[] = [
     flagEmoji: "🇳🇷",
     accentColor: "#8B5A2B",
     continent: "oceania",
+    population: 12800,
     translations: {
       es: {
         name: "Nauru",
         intro:
           "El país más pequeño del Pacífico, que pasó de ser uno de los más ricos del mundo por su fosfato a depender casi por completo de la ayuda externa, con un interior devastado que parece la superficie de la Luna. Estas páginas son para descubrir un Nauru de auge y caída, sin capital oficial y con una lucha constante por reinventarse.",
+        capital: "Yaren (sede de facto)",
+        language: "Nauruano e inglés",
+        currency: "Dólar australiano (AUD)",
       },
       en: {
         name: "Nauru",
         intro:
           "The smallest country in the Pacific, which went from one of the richest in the world thanks to phosphate to depending almost entirely on foreign aid, with an interior devastated into something resembling the surface of the Moon. These pages are here to discover a Nauru of boom and bust, with no official capital and a constant struggle to reinvent itself.",
+        capital: "Yaren (de facto seat)",
+        language: "Nauruan and English",
+        currency: "Australian Dollar (AUD)",
       },
     },
   },
@@ -1230,16 +1258,23 @@ export const countries: Country[] = [
     flagEmoji: "🇹🇴",
     accentColor: "#C8102E",
     continent: "oceania",
+    population: 107000,
     translations: {
       es: {
         name: "Tonga",
         intro:
           "El único reino del Pacífico que nunca fue colonizado, donde se nada junto a ballenas jorobadas y una erupción submarina hizo temblar al planeta entero en 2022. Estas páginas son para descubrir un Tonga de monarquía milenaria, rugby de élite y una diáspora más grande que el propio reino.",
+        capital: "Nuku'alofa",
+        language: "Tongano e inglés",
+        currency: "Paʻanga tongano (TOP)",
       },
       en: {
         name: "Tonga",
         intro:
           "The only Pacific kingdom never colonized, where people swim alongside humpback whales and an underwater eruption shook the entire planet in 2022. These pages are here to discover a Tonga of thousand-year-old monarchy, elite rugby, and a diaspora larger than the kingdom itself.",
+        capital: "Nuku'alofa",
+        language: "Tongan and English",
+        currency: "Tongan Paʻanga (TOP)",
       },
     },
   },
@@ -1248,16 +1283,23 @@ export const countries: Country[] = [
     flagEmoji: "🇻🇺",
     accentColor: "#8B2942",
     continent: "oceania",
+    population: 334000,
     translations: {
       es: {
         name: "Vanuatu",
         intro:
           "El país que inspiró el bungee jumping con un ritual ancestral, encabezó el índice del planeta más feliz y reúne más de 110 idiomas en apenas 320.000 habitantes. Estas páginas son para descubrir un Vanuatu de volcanes accesibles, cultos únicos en el mundo y una resiliencia forjada por desastres constantes.",
+        capital: "Port Vila",
+        language: "Bislama, inglés y francés",
+        currency: "Vatu vanuatuense (VUV)",
       },
       en: {
         name: "Vanuatu",
         intro:
           "The country that inspired bungee jumping with an ancestral ritual, topped the Happy Planet Index, and packs more than 110 languages into just 320,000 people. These pages are here to discover a Vanuatu of walkable volcanoes, one-of-a-kind cults, and a resilience forged by constant disasters.",
+        capital: "Port Vila",
+        language: "Bislama, English, and French",
+        currency: "Vanuatu Vatu (VUV)",
       },
     },
   },
@@ -1266,16 +1308,23 @@ export const countries: Country[] = [
     flagEmoji: "🇹🇻",
     accentColor: "#4A90D9",
     continent: "oceania",
+    population: 11200,
     translations: {
       es: {
         name: "Tuvalu",
         intro:
           "El país más bajo del planeta, tan pequeño que su pista de aterrizaje funciona como plaza pública y su dominio web de internet financia buena parte del presupuesto nacional. Estas páginas son para descubrir un Tuvalu de atolones diminutos, marineros que sostienen la economía desde el mar y una lucha existencial contra la subida del nivel del mar.",
+        capital: "Funafuti",
+        language: "Tuvaluano e inglés",
+        currency: "Dólar australiano (AUD)",
       },
       en: {
         name: "Tuvalu",
         intro:
           "The lowest-lying country on the planet, so small its airport runway doubles as the town square and its internet domain funds a large share of the national budget. These pages are here to discover a Tuvalu of tiny atolls, sailors who keep the economy afloat, and an existential fight against rising seas.",
+        capital: "Funafuti",
+        language: "Tuvaluan and English",
+        currency: "Australian Dollar (AUD)",
       },
     },
   },
@@ -1284,16 +1333,23 @@ export const countries: Country[] = [
     flagEmoji: "🇫🇯",
     accentColor: "#00A99D",
     continent: "oceania",
+    population: 925000,
     translations: {
       es: {
         name: "Fiyi",
         intro:
           "Un archipiélago de 330 islas donde el kava se comparte en ceremonia, el rugby es casi una religión y una marca de agua embotellada se volvió más famosa que el país mismo. Estas páginas son para descubrir un Fiyi de arrecifes de colores, danzas narrativas y una historia mucho más compleja que sus playas de postal.",
+        capital: "Suva",
+        language: "Inglés, fiyiano e hindi fiyiano",
+        currency: "Dólar fiyiano (FJD)",
       },
       en: {
         name: "Fiji",
         intro:
           "An archipelago of 330 islands where kava is shared in ceremony, rugby is nearly a religion, and a bottled water brand became more famous than the country itself. These pages are here to discover a Fiji of colorful reefs, storytelling dances, and a history far more complex than its postcard beaches.",
+        capital: "Suva",
+        language: "English, Fijian, and Fiji Hindi",
+        currency: "Fijian Dollar (FJD)",
       },
     },
   },
@@ -1302,16 +1358,23 @@ export const countries: Country[] = [
     flagEmoji: "🇫🇲",
     accentColor: "#2E5E8C",
     continent: "oceania",
+    population: 113000,
     translations: {
       es: {
         name: "Micronesia",
         intro:
           "Un país de cuatro estados dispersos por el Pacífico, con una ciudad de piedra construida sobre un arrecife, dinero hecho de discos de piedra gigantes y navegantes que cruzaban el océano sin instrumentos. Estas páginas son para descubrir una Micronesia de idiomas diversos, pecios de guerra y una relación única con Estados Unidos.",
+        capital: "Palikir",
+        language: "Inglés",
+        currency: "Dólar estadounidense (USD)",
       },
       en: {
         name: "Micronesia",
         intro:
           "A country of four states scattered across the Pacific, with a stone city built on a reef, money made from giant stone discs, and navigators who once crossed the ocean without instruments. These pages are here to discover a Micronesia of diverse languages, wartime wrecks, and a unique relationship with the United States.",
+        capital: "Palikir",
+        language: "English",
+        currency: "United States Dollar (USD)",
       },
     },
   },
@@ -1320,16 +1383,23 @@ export const countries: Country[] = [
     flagEmoji: "🇵🇬",
     accentColor: "#2E8B57",
     continent: "oceania",
+    population: 10300000,
     translations: {
       es: {
         name: "Papúa Nueva Guinea",
         intro:
           "El país con más idiomas que cualquier otro del planeta, donde cientos de tribus todavía se reúnen pintadas de colores para bailar, y unas montañas tan aisladas que permanecieron desconocidas para el resto del mundo hasta los años 30. Estas páginas son para descubrir una diversidad cultural sin comparación.",
+        capital: "Port Moresby",
+        language: "Tok pisin, hiri motu e inglés",
+        currency: "Kina de Papúa Nueva Guinea (PGK)",
       },
       en: {
         name: "Papua New Guinea",
         intro:
           "The country with more languages than any other on the planet, where hundreds of tribes still gather painted in color to dance, and mountains so isolated they remained unknown to the rest of the world until the 1930s. These pages are here to discover a cultural diversity without comparison.",
+        capital: "Port Moresby",
+        language: "Tok Pisin, Hiri Motu, and English",
+        currency: "Papua New Guinean Kina (PGK)",
       },
     },
   },
@@ -1698,16 +1768,23 @@ export const countries: Country[] = [
     flagEmoji: "🇸🇧",
     accentColor: "#1565C0",
     continent: "oceania",
+    population: 740000,
     translations: {
       es: {
         name: "Islas Salomón",
         intro:
           "Un archipiélago de casi mil islas donde se hablan más de setenta idiomas y donde el dinero todavía se talla a mano en conchas marinas. Estas páginas son para descubrir unas Islas Salomón de pueblos enteros construidos sobre islas de piedra, orquestas de flautas de bambú y una bahía tan llena de barcos hundidos que le pusieron un apodo propio.",
+        capital: "Honiara",
+        language: "Inglés",
+        currency: "Dólar de las Islas Salomón (SBD)",
       },
       en: {
         name: "Solomon Islands",
         intro:
           "An archipelago of nearly a thousand islands where more than seventy languages are spoken and money is still hand-carved from sea shells. These pages are here to discover a Solomon Islands of entire villages built on artificial stone islets, bamboo panpipe orchestras, and a strait so full of sunken ships it earned its own nickname.",
+        capital: "Honiara",
+        language: "English",
+        currency: "Solomon Islands Dollar (SBD)",
       },
     },
   },
@@ -1716,16 +1793,23 @@ export const countries: Country[] = [
     flagEmoji: "🇳🇨",
     accentColor: "#0097A7",
     continent: "oceania",
+    population: 271000,
     translations: {
       es: {
         name: "Nueva Caledonia",
         intro:
           "El territorio del Pacífico que iza dos banderas a la vez, guarda un cuarto del níquel del planeta y le dio nombre a un ave que ladra como perro. Estas páginas son para descubrir una Nueva Caledonia de chozas kanak coronadas con flechas talladas, pinos que se inclinan hacia el ecuador y una laguna protegida por la segunda barrera de coral más larga del mundo.",
+        capital: "Numea",
+        language: "Francés",
+        currency: "Franco CFP (XPF)",
       },
       en: {
         name: "New Caledonia",
         intro:
           "The Pacific territory that flies two flags at once, holds a quarter of the planet's nickel, and gave its name to a bird that barks like a dog. These pages are here to discover a New Caledonia of Kanak huts crowned with carved spears, pine trees that lean toward the equator, and a lagoon guarded by the world's second-longest barrier reef.",
+        capital: "Nouméa",
+        language: "French",
+        currency: "CFP Franc (XPF)",
       },
     },
   },
@@ -1770,16 +1854,23 @@ export const countries: Country[] = [
     flagEmoji: "🇵🇼",
     accentColor: "#4FC3F7",
     continent: "oceania",
+    population: 18000,
     translations: {
       es: {
         name: "Palaos",
         intro:
           "El primer país del mundo en declarar la totalidad de sus aguas santuario de tiburones, dueño de un lago lleno de medusas que perdieron el aguijón. Estas páginas son para descubrir unas Palaos de islas de piedra caliza con forma de hongo, casas comunales pintadas con leyendas y un sello ecológico que cada turista debe firmar al llegar.",
+        capital: "Ngerulmud",
+        language: "Palauano e inglés",
+        currency: "Dólar estadounidense (USD)",
       },
       en: {
         name: "Palau",
         intro:
           "The first country in the world to declare all its waters a shark sanctuary, home to a lake full of jellyfish that lost their sting. These pages are here to discover a Palau of mushroom-shaped limestone islands, community houses painted with legends, and an eco-pledge every tourist must sign on arrival.",
+        capital: "Ngerulmud",
+        language: "Palauan and English",
+        currency: "United States Dollar (USD)",
       },
     },
   },
@@ -1788,16 +1879,23 @@ export const countries: Country[] = [
     flagEmoji: "🇲🇭",
     accentColor: "#F57C00",
     continent: "oceania",
+    population: 42000,
     translations: {
       es: {
         name: "Islas Marshall",
         intro:
           "El atolón donde Estados Unidos detonó su mayor bomba nuclear, y la nación con menos altura sobre el mar en un planeta que se calienta. Estas páginas son para descubrir unas Islas Marshall de mapas de palitos para navegar sin instrumentos, canoas asimétricas veloces y una comunidad entera que terminó floreciendo en Arkansas.",
+        capital: "Majuro",
+        language: "Marshalés e inglés",
+        currency: "Dólar estadounidense (USD)",
       },
       en: {
         name: "Marshall Islands",
         intro:
           "The atoll where the US detonated its largest nuclear bomb, and the lowest-lying nation on a warming planet's rising sea. These pages are here to discover a Marshall Islands of stick charts for navigating without instruments, fast asymmetric canoes, and an entire community that ended up flourishing in Arkansas.",
+        capital: "Majuro",
+        language: "Marshallese and English",
+        currency: "United States Dollar (USD)",
       },
     },
   },
@@ -2940,16 +3038,23 @@ export const countries: Country[] = [
     flagEmoji: "🇼🇸",
     accentColor: "#8B1A1A",
     continent: "oceania",
+    population: 222000,
     translations: {
       es: {
         name: "Samoa",
         intro:
           "El sistema de jefes matai que la Constitución reconoce por encima del propio Estado, el tatuaje tradicional que se aplica a mano durante semanas de dolor compartido, y el pozo volcánico convertido en jardín hundido junto al mar. Estas páginas son para descubrir una Samoa del día que directamente borró del calendario para cambiar de lado del planeta, un escritor escocés que pidió que lo enterraran en la cima de una colina samoana, y un equipo de rugby de apenas doscientos mil habitantes capaz de vencer a las potencias del deporte.",
+        capital: "Apia",
+        language: "Samoano e inglés",
+        currency: "Tala samoano (WST)",
       },
       en: {
         name: "Samoa",
         intro:
           "The matai chief system the constitution recognizes above the state itself, the traditional tattoo hand-applied over weeks of shared pain, and the volcanic pit turned into a sunken garden by the sea. These pages are here to discover a Samoa of the day it erased from the calendar to switch sides of the planet, a Scottish writer who asked to be buried atop a Samoan hill, and a rugby team from a country of barely two hundred thousand people capable of beating the sport's giants.",
+        capital: "Apia",
+        language: "Samoan and English",
+        currency: "Samoan Tala (WST)",
       },
     },
   },
@@ -3094,6 +3199,96 @@ export const countries: Country[] = [
         name: "Zambia",
         intro:
           "The smoke that thunders, the waterfall shared with Zimbabwe you hear before you see, the natural pool where people swim right at the edge of the precipice, and the valley where the walking safari as it's known today was born. These pages are here to discover a Zambia of the red metal that named an entire mining region, a royal barge that moves the king's residence every year ahead of the flood, and the tallest single-drop waterfall on the entire African continent.",
+      },
+    },
+  },
+  {
+    slug: "cameroon",
+    flagEmoji: "🇨🇲",
+    accentColor: "#007A5E",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Camerún",
+        intro:
+          "África en miniatura, con playas, selva, sabana y montañas nevadas en un solo país, el volcán que los navegantes cartagineses bautizaron 'Carro de los Dioses', y el baile junto al banderín de córner que catapultó al fútbol africano a la fama mundial. Estas páginas son para descubrir un Camerún de tronos reales cubiertos de cuentas de vidrio en las Grassfields, el lago que liberó una nube de gas invisible y mortal en 1986, y una pimienta blanca de tierra volcánica considerada entre las mejores del mundo.",
+      },
+      en: {
+        name: "Cameroon",
+        intro:
+          "Africa in miniature, with beaches, rainforest, savanna, and snow-capped mountains in one country, the volcano Carthaginian sailors named the 'Chariot of the Gods,' and the corner-flag dance that catapulted African football to global fame. These pages are here to discover a Cameroon of beaded royal thrones in the Grassfields kingdoms, the lake that released an invisible, deadly gas cloud in 1986, and a white pepper from volcanic soil considered among the finest in the world.",
+      },
+    },
+  },
+  {
+    slug: "central-african-republic",
+    flagEmoji: "🇨🇫",
+    accentColor: "#1B4F9C",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "República Centroafricana",
+        intro:
+          "El claro de selva donde un centenar de elefantes de bosque se reúne a diario a beber agua rica en sales, el canto polifónico baaka reconocido por la Unesco como obra maestra de la humanidad, y las misteriosas piedras paradas de Bouar que nadie sabe bien quién levantó. Estas páginas son para descubrir una República Centroafricana del sango, la lengua que unifica a un país de decenas de pueblos, la caza tradicional con redes tejidas a mano donde participan mujeres, hombres y niños por igual, y los gorilas de tierras bajas que habitan la selva más densa del país.",
+      },
+      en: {
+        name: "Central African Republic",
+        intro:
+          "The forest clearing where a hundred forest elephants gather daily to drink mineral-rich water, the BaAka polyphonic singing recognized by UNESCO as a masterpiece of humanity, and the mysterious standing stones of Bouar nobody quite knows who raised. These pages are here to discover a Central African Republic of Sango, the language unifying a country of dozens of peoples, traditional net hunting where women, men, and children all take part equally, and the lowland gorillas living in the country's densest rainforest.",
+      },
+    },
+  },
+  {
+    slug: "chad",
+    flagEmoji: "🇹🇩",
+    accentColor: "#002664",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Chad",
+        intro:
+          "El mar del Sahara que se está quedando sin agua, compartido entre cuatro países y navegado en pequeñas canoas entre islotes flotantes, los arcos de piedra que el viento esculpió durante millones de años en la meseta de Ennedi, y el volcán más alto de todo el desierto del Sahara. Estas páginas son para descubrir un Chad de bronces de una civilización perdida junto al lago, caravanas de sal que cruzaban el desierto en lomo de camello, y el festival wodaabe donde son los hombres quienes se maquillan para seducir.",
+      },
+      en: {
+        name: "Chad",
+        intro:
+          "The Saharan sea running out of water, shared by four countries and navigated in small canoes among floating islets, the stone arches carved by wind over millions of years on the Ennedi Plateau, and the highest volcano in the entire Sahara Desert. These pages are here to discover a Chad of the bronzes of a civilization lost beside the lake, salt caravans that crossed the desert on camelback, and the Wodaabe festival where it's the men who paint themselves to seduce.",
+      },
+    },
+  },
+  {
+    slug: "comoros",
+    flagEmoji: "🇰🇲",
+    accentColor: "#2F8F5B",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Comoras",
+        intro:
+          "Cuatro islas volcánicas nacidas de un mismo archipiélago en el canal de Mozambique, el perfume de ylang-ylang que perfuma frascos de lujo en todo el mundo, y el celacanto, un pez que se creía extinto junto a los dinosaurios y sigue nadando frente a sus costas. Estas páginas son para descubrir unas Comoras del gran matrimonio que puede tardar años en organizarse, una medina de coral blanco frente al océano Índico, y los veleros dhow de madera que todavía cruzan el canal como hace siglos.",
+      },
+      en: {
+        name: "Comoros",
+        intro:
+          "Four volcanic islands born of the same archipelago in the Mozambique Channel, the ylang-ylang perfume scenting luxury bottles worldwide, and the coelacanth, a fish once thought extinct alongside the dinosaurs that still swims off its coasts. These pages are here to discover a Comoros of the grand marriage that can take years to organize, a white coral medina facing the Indian Ocean, and the wooden dhow sailboats still crossing the channel as they have for centuries.",
+      },
+    },
+  },
+  {
+    slug: "democratic-republic-of-the-congo",
+    flagEmoji: "🇨🇩",
+    accentColor: "#0072BC",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "República Democrática del Congo",
+        intro:
+          "El río más profundo jamás medido del planeta, la segunda selva tropical más extensa del mundo después de la Amazonía, y el parque más antiguo de África, hogar de los gorilas de montaña. Estas páginas son para descubrir una República Democrática del Congo del lago de lava activo más grande jamás observado, la rumba congoleña que hizo bailar a todo un continente, y los bonobos, primates pacíficos liderados por hembras que solo existen en estado salvaje aquí.",
+      },
+      en: {
+        name: "Democratic Republic of the Congo",
+        intro:
+          "The deepest river ever measured on the planet, the second-largest tropical rainforest in the world after the Amazon, and Africa's oldest park, home to the mountain gorilla. These pages are here to discover a Democratic Republic of the Congo of the largest active lava lake ever observed, the Congolese rumba that set an entire continent dancing, and the bonobos, peaceful primates led by females that exist in the wild nowhere else.",
       },
     },
   },

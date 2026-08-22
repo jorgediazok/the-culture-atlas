@@ -14,6 +14,10 @@ const dictionaries = {
     storiesLabel: "historias",
     coverLabel: "Portada",
     countriesLabel: "países",
+    capitalLabel: "Capital",
+    languageLabel: "Idioma",
+    populationLabel: "Población",
+    currencyLabel: "Moneda",
     footerLocation: "Hecho en Buenos Aires, Argentina",
     madeBy: "Hecho por",
     disclaimer:
@@ -40,6 +44,10 @@ const dictionaries = {
     storiesLabel: "stories",
     coverLabel: "Cover",
     countriesLabel: "countries",
+    capitalLabel: "Capital",
+    languageLabel: "Language",
+    populationLabel: "Population",
+    currencyLabel: "Currency",
     footerLocation: "Made in Buenos Aires, Argentina",
     madeBy: "Made by",
     disclaimer:

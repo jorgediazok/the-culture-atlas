@@ -1,20 +1,12 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { formatNumber } from "@/i18n/format";
 
 // The project's target scope: every country in the world, 20 entries each —
 // not the current in-progress count, which keeps growing with every batch.
 const TARGET_COUNTRIES = 195;
 const TARGET_ENTRIES_PER_COUNTRY = 20;
 const TARGET_STORIES = TARGET_COUNTRIES * TARGET_ENTRIES_PER_COUNTRY;
-
-// Node's default (small-icu) build only ships full number-formatting data
-// for "en", so `toLocaleString("es")` silently drops the thousands
-// separator. Formatting it by hand sidesteps that instead of depending on
-// the runtime's ICU data.
-function formatNumber(value: number, locale: string): string {
-  const separator = locale === "es" ? "." : ",";
-  return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, separator);
-}
 
 export default function Footer({
   brand,

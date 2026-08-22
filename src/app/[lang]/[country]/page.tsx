@@ -61,6 +61,11 @@ export default async function CountryPage({
           country={localizedCountry}
           entryCount={entries.length}
           storiesLabel={dict.storiesLabel}
+          locale={lang}
+          capitalLabel={dict.capitalLabel}
+          languageLabel={dict.languageLabel}
+          populationLabel={dict.populationLabel}
+          currencyLabel={dict.currencyLabel}
         />
         {entries.map((entry) => (
           <PageSpread key={entry.id} entry={entry} countrySlug={slug} />
