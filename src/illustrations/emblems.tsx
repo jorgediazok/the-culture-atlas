@@ -2053,6 +2053,56 @@ const BurkinaFaso: EmblemComponent = () => (
   </svg>
 );
 
+const Libya: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="15" y="70" width="20" height="30" fill="#C9A227" stroke="#8A6A10" strokeWidth="2.2" />
+    <rect x="65" y="70" width="20" height="30" fill="#C9A227" stroke="#8A6A10" strokeWidth="2.2" />
+    <path d="M15 70 L15 40 Q50 15 85 40 L85 70 L70 70 L70 45 Q50 30 30 45 L30 70 Z" fill="#D9A85A" stroke="#8A6A10" strokeWidth="2.4" />
+    <rect x="10" y="98" width="80" height="8" fill="#B8860B" opacity="0.6" />
+  </svg>
+);
+
+const Tunisia: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {[0, 72, 144, 216, 288].map((deg) => (
+      <g key={deg} transform={`rotate(${deg} 50 60)`}>
+        <ellipse cx="50" cy="32" rx="9" ry="18" fill="#F5F0E6" stroke="#B0A88C" strokeWidth="2" />
+      </g>
+    ))}
+    <circle cx="50" cy="60" r="11" fill="#C9A227" stroke="#8A6A10" strokeWidth="2" />
+    <path d="M50 78 Q40 90 30 88" fill="none" stroke="#2F6B3A" strokeWidth="4" strokeLinecap="round" />
+    <path d="M50 78 Q60 92 72 90" fill="none" stroke="#2F6B3A" strokeWidth="4" strokeLinecap="round" />
+  </svg>
+);
+
+const Eswatini: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="50,90 42,50 50,20 58,50" fill="#C1272D" stroke="#7A1818" strokeWidth="2" />
+    <polygon points="30,92 28,55 40,25 42,58" fill="#8B1A1A" stroke="#5C1010" strokeWidth="2" />
+    <polygon points="70,92 72,55 60,25 58,58" fill="#8B1A1A" stroke="#5C1010" strokeWidth="2" />
+    <rect x="42" y="88" width="16" height="14" fill="#3A2418" stroke="#1A1208" strokeWidth="2" />
+  </svg>
+);
+
+const Namibia: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M20 75 Q25 55 45 50 Q65 45 78 55 Q70 60 60 58 Q65 65 55 72 Q40 85 25 80 Q18 78 20 75 Z" fill="#8C7B6B" stroke="#5C4A3A" strokeWidth="2.4" />
+    <circle cx="72" cy="52" r="9" fill="#8C7B6B" stroke="#5C4A3A" strokeWidth="2" />
+    <path d="M75 45 L90 12" stroke="#F5F0E6" strokeWidth="4" strokeLinecap="round" />
+    <path d="M80 48 L95 18" stroke="#F5F0E6" strokeWidth="4" strokeLinecap="round" />
+    <path d="M20 80 L15 95 M35 85 L32 98" stroke="#5C4A3A" strokeWidth="4" />
+    <polygon points="60,45 75,40 75,48" fill="#1A1A1A" />
+  </svg>
+);
+
+const Zambia: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="50,15 75,40 65,85 35,85 25,40" fill="#B8571F" stroke="#7A3A10" strokeWidth="2.6" />
+    <polygon points="50,15 65,85 50,100 35,85" fill="#D97A3A" stroke="#7A3A10" strokeWidth="2.2" opacity="0.85" />
+    <polygon points="50,15 75,40 50,55 25,40" fill="#E8956B" stroke="#7A3A10" strokeWidth="1.8" opacity="0.7" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -2221,6 +2271,11 @@ export const emblems: Record<string, EmblemComponent> = {
   angola: Angola,
   benin: Benin,
   "burkina-faso": BurkinaFaso,
+  libya: Libya,
+  tunisia: Tunisia,
+  eswatini: Eswatini,
+  namibia: Namibia,
+  zambia: Zambia,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

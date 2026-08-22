@@ -165,6 +165,11 @@ import { samoaIllustrations } from "./samoa";
 import { angolaIllustrations } from "./angola";
 import { beninIllustrations } from "./benin";
 import { burkinaFasoIllustrations } from "./burkina-faso";
+import { libyaIllustrations } from "./libya";
+import { tunisiaIllustrations } from "./tunisia";
+import { eswatiniIllustrations } from "./eswatini";
+import { namibiaIllustrations } from "./namibia";
+import { zambiaIllustrations } from "./zambia";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -335,6 +340,11 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   angola: angolaIllustrations,
   benin: beninIllustrations,
   "burkina-faso": burkinaFasoIllustrations,
+  libya: libyaIllustrations,
+  tunisia: tunisiaIllustrations,
+  eswatini: eswatiniIllustrations,
+  namibia: namibiaIllustrations,
+  zambia: zambiaIllustrations,
 };
 
 export function getIllustration(

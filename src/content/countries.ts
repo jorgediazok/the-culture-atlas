@@ -3007,4 +3007,94 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "libya",
+    flagEmoji: "🇱🇾",
+    accentColor: "#C9A227",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Libia",
+        intro:
+          "La ciudad romana que el desierto sepultó y conservó casi intacta, la ciudad blanca construida enteramente bajo pasajes cubiertos para esconderse del sol, y el arte rupestre que demuestra que el Sahara alguna vez fue una sabana verde llena de elefantes. Estas páginas son para descubrir una Libia del río artificial más grande jamás construido bajo el desierto, una ciudad griega que rivalizó culturalmente con Atenas, y un cráter volcánico escondido con lagos de colores imposibles en pleno Sahara.",
+      },
+      en: {
+        name: "Libya",
+        intro:
+          "The Roman city the desert buried and kept nearly intact, the white city built entirely under covered passages to hide from the sun, and rock art proving the Sahara was once a green savanna full of elephants. These pages are here to discover a Libya of the largest artificial river ever built beneath the desert, a Greek city that rivaled Athens culturally, and a volcanic crater hiding lakes of impossible colors deep in the Sahara.",
+      },
+    },
+  },
+  {
+    slug: "tunisia",
+    flagEmoji: "🇹🇳",
+    accentColor: "#C1272D",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Túnez",
+        intro:
+          "La ciudad que desafió a Roma con elefantes de guerra cruzando los Alpes, el anfiteatro romano más grande de toda África, y el pueblo excavado bajo tierra que se volvió el planeta natal de una familia de la Guerra de las Galaxias. Estas páginas son para descubrir una Túnez de la mezquita que fundó el islam en el continente africano, un lago de sal que se convierte en espejo perfecto, y el país árabe donde las mujeres votaron antes que en la mayoría del mundo.",
+      },
+      en: {
+        name: "Tunisia",
+        intro:
+          "The city that defied Rome with war elephants crossing the Alps, Africa's largest Roman amphitheater, and the village dug underground that became a Star Wars family's home planet. These pages are here to discover a Tunisia of the mosque that founded Islam on the African continent, a salt lake that turns into a perfect mirror, and the Arab country where women voted earlier than in most of the world.",
+      },
+    },
+  },
+  {
+    slug: "eswatini",
+    flagEmoji: "🇸🇿",
+    accentColor: "#8B1A1A",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Esuatini",
+        intro:
+          "El país que cambió su propio nombre por decreto real para dejar de confundirse con Suiza, la mina más antigua que conoce la humanidad, tallada hace cuarenta y tres mil años, y la danza de las cañas donde decenas de miles de jóvenes desfilan ante la reina madre. Estas páginas son para descubrir un Esuatini del segundo monolito de roca expuesta más grande del mundo, una ceremonia real tan secreta que nadie fuera de la corte conoce todos sus detalles, y un santuario donde los rinocerontes caminan libres junto a los turistas.",
+      },
+      en: {
+        name: "Eswatini",
+        intro:
+          "The country that changed its own name by royal decree to stop being confused with Switzerland, the oldest mine known to humanity, worked forty-three thousand years ago, and the reed dance where tens of thousands of young women parade before the queen mother. These pages are here to discover an Eswatini of the world's second-largest exposed rock monolith, a royal ceremony so secret nobody outside the court knows all its details, and a sanctuary where rhinos walk freely alongside tourists.",
+      },
+    },
+  },
+  {
+    slug: "namibia",
+    flagEmoji: "🇳🇦",
+    accentColor: "#8C7B6B",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Namibia",
+        intro:
+          "El desierto más antiguo del planeta, con algunas de las dunas de arena más altas del mundo, el llano de árboles negros muertos hace novecientos años que sigue en pie sobre arcilla blanca, y la costa donde naufragaron decenas de barcos entre la niebla. Estas páginas son para descubrir una Namibia de un pueblo diamantero que el desierto se está tragando casa por casa, el pueblo que se cubre la piel de ocre rojo, y el país con la mayor población de guepardos en libertad de todo el mundo.",
+      },
+      en: {
+        name: "Namibia",
+        intro:
+          "The oldest desert on the planet, home to some of the tallest sand dunes in the world, the plain of trees that died nine hundred years ago and still stand black atop white clay, and the coast where dozens of ships wrecked in the fog. These pages are here to discover a Namibia of a diamond town the desert is swallowing house by house, the people who cover their skin in red ochre, and the country with the largest free-roaming cheetah population in the world.",
+      },
+    },
+  },
+  {
+    slug: "zambia",
+    flagEmoji: "🇿🇲",
+    accentColor: "#B8571F",
+    continent: "africa",
+    translations: {
+      es: {
+        name: "Zambia",
+        intro:
+          "El humo que truena, la cascada compartida con Zimbabue que se escucha antes de verse, la piscina natural donde la gente nada al borde mismo del precipicio, y el valle donde nació el safari a pie tal como se conoce hoy. Estas páginas son para descubrir una Zambia del metal rojo que le dio nombre a toda una región minera, una barcaza real que muda al rey de residencia cada año antes de la inundación, y la cascada de caída libre más alta de todo el continente africano.",
+      },
+      en: {
+        name: "Zambia",
+        intro:
+          "The smoke that thunders, the waterfall shared with Zimbabwe you hear before you see, the natural pool where people swim right at the edge of the precipice, and the valley where the walking safari as it's known today was born. These pages are here to discover a Zambia of the red metal that named an entire mining region, a royal barge that moves the king's residence every year ahead of the flood, and the tallest single-drop waterfall on the entire African continent.",
+      },
+    },
+  },
 ];

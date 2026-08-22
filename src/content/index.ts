@@ -172,6 +172,11 @@ import { samoa } from "./samoa";
 import { angola } from "./angola";
 import { benin } from "./benin";
 import { burkinaFaso } from "./burkina-faso";
+import { libya } from "./libya";
+import { tunisia } from "./tunisia";
+import { eswatini } from "./eswatini";
+import { namibia } from "./namibia";
+import { zambia } from "./zambia";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -341,6 +346,11 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   angola,
   benin,
   "burkina-faso": burkinaFaso,
+  libya,
+  tunisia,
+  eswatini,
+  namibia,
+  zambia,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {
