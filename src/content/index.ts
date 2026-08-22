@@ -159,6 +159,11 @@ import { guatemala } from "./guatemala";
 import { honduras } from "./honduras";
 import { elSalvador } from "./el-salvador";
 import { nicaragua } from "./nicaragua";
+import { saintLucia } from "./saint-lucia";
+import { saintKittsAndNevis } from "./saint-kitts-and-nevis";
+import { antiguaAndBarbuda } from "./antigua-and-barbuda";
+import { bahamas } from "./bahamas";
+import { barbados } from "./barbados";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -315,6 +320,11 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   honduras,
   "el-salvador": elSalvador,
   nicaragua,
+  "saint-lucia": saintLucia,
+  "saint-kitts-and-nevis": saintKittsAndNevis,
+  "antigua-and-barbuda": antiguaAndBarbuda,
+  bahamas,
+  barbados,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

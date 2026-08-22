@@ -152,6 +152,11 @@ import { guatemalaIllustrations } from "./guatemala";
 import { hondurasIllustrations } from "./honduras";
 import { elSalvadorIllustrations } from "./el-salvador";
 import { nicaraguaIllustrations } from "./nicaragua";
+import { saintLuciaIllustrations } from "./saint-lucia";
+import { saintKittsAndNevisIllustrations } from "./saint-kitts-and-nevis";
+import { antiguaAndBarbudaIllustrations } from "./antigua-and-barbuda";
+import { bahamasIllustrations } from "./bahamas";
+import { barbadosIllustrations } from "./barbados";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -309,6 +314,11 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   honduras: hondurasIllustrations,
   "el-salvador": elSalvadorIllustrations,
   nicaragua: nicaraguaIllustrations,
+  "saint-lucia": saintLuciaIllustrations,
+  "saint-kitts-and-nevis": saintKittsAndNevisIllustrations,
+  "antigua-and-barbuda": antiguaAndBarbudaIllustrations,
+  bahamas: bahamasIllustrations,
+  barbados: barbadosIllustrations,
 };
 
 export function getIllustration(

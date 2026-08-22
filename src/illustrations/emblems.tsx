@@ -1885,6 +1885,68 @@ const Nicaragua: EmblemComponent = () => (
   </svg>
 );
 
+const SaintLucia: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <line x1="50" y1="70" x2="50" y2="105" stroke="#2E6B3A" strokeWidth="4" />
+    <path d="M50 85 Q35 82 30 92 Q42 92 50 85 Z" fill="#3E8B4A" stroke="#1F4D2A" strokeWidth="1.8" />
+    <path d="M50 92 Q65 90 70 100 Q58 100 50 92 Z" fill="#3E8B4A" stroke="#1F4D2A" strokeWidth="1.8" />
+    <ellipse cx="50" cy="33" rx="13" ry="19" fill="#C1272D" stroke="#7A1818" strokeWidth="2" transform="rotate(0 50 52)" />
+    <ellipse cx="50" cy="33" rx="13" ry="19" fill="#C1272D" stroke="#7A1818" strokeWidth="2" transform="rotate(72 50 52)" />
+    <ellipse cx="50" cy="33" rx="13" ry="19" fill="#C1272D" stroke="#7A1818" strokeWidth="2" transform="rotate(144 50 52)" />
+    <ellipse cx="50" cy="33" rx="13" ry="19" fill="#C1272D" stroke="#7A1818" strokeWidth="2" transform="rotate(216 50 52)" />
+    <ellipse cx="50" cy="33" rx="13" ry="19" fill="#C1272D" stroke="#7A1818" strokeWidth="2" transform="rotate(288 50 52)" />
+    <circle cx="50" cy="52" r="10" fill="#E8A227" stroke="#8A6A10" strokeWidth="1.8" />
+  </svg>
+);
+
+const SaintKittsAndNevis: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="10" y="98" width="80" height="6" fill="#2E2A20" opacity="0.5" />
+    <polygon points="15,98 35,55 65,55 85,98" fill="#8C8C74" opacity="0.55" />
+    <rect x="28" y="62" width="44" height="34" fill="#6B6458" stroke="#2E2A20" strokeWidth="2.4" />
+    {[30, 42, 54, 66].map((x) => (
+      <rect key={x} x={x} y="54" width="8" height="9" fill="#6B6458" stroke="#2E2A20" strokeWidth="1.8" />
+    ))}
+    <rect x="44" y="76" width="12" height="20" fill="#2E2A20" opacity="0.7" />
+    <rect x="18" y="86" width="14" height="7" fill="#3A3A3A" stroke="#1A1A1A" strokeWidth="1.6" />
+    <circle cx="22" cy="90" r="4" fill="#3A3A3A" />
+  </svg>
+);
+
+const AntiguaAndBarbuda: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 55 L70 90 L58 85 L50 100 L42 85 L30 90 Z" fill="#1A1A1A" stroke="#0A0A0A" strokeWidth="2.2" />
+    <path d="M50 45 L10 30 L22 48 L48 52 Z" fill="#1A1A1A" stroke="#0A0A0A" strokeWidth="2.2" />
+    <path d="M50 45 L90 30 L78 48 L52 52 Z" fill="#1A1A1A" stroke="#0A0A0A" strokeWidth="2.2" />
+    <circle cx="50" cy="30" r="9" fill="#1A1A1A" stroke="#0A0A0A" strokeWidth="2" />
+    <polygon points="42,28 28,25 42,33" fill="#3A3A3A" stroke="#0A0A0A" strokeWidth="1.5" />
+    <ellipse cx="50" cy="48" rx="11" ry="17" fill="#C1272D" stroke="#7A1818" strokeWidth="2.2" />
+  </svg>
+);
+
+const Bahamas: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <ellipse cx="50" cy="55" rx="30" ry="40" fill="#E8A9BC" stroke="#B06B82" strokeWidth="2.6" />
+    <ellipse cx="45" cy="40" rx="16" ry="20" fill="#F0C4D0" stroke="#B06B82" strokeWidth="2" />
+    <ellipse cx="45" cy="40" rx="8" ry="10" fill="#B06B82" opacity="0.5" />
+    <path d="M62 55 Q75 60 72 85 Q68 100 55 98 Q45 96 48 80 Q50 65 62 55 Z" fill="#F5D6DE" stroke="#B06B82" strokeWidth="2.2" />
+    <polygon points="75,40 84,36 78,48" fill="#E8A9BC" stroke="#B06B82" strokeWidth="1.6" />
+    <polygon points="72,60 82,60 75,70" fill="#E8A9BC" stroke="#B06B82" strokeWidth="1.6" />
+    <polygon points="30,30 22,25 30,20" fill="#E8A9BC" stroke="#B06B82" strokeWidth="1.6" />
+  </svg>
+);
+
+const Barbados: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M15 85 Q30 75 50 85 Q70 75 90 85 L90 95 L15 95 Z" fill="#1B5E7A" opacity="0.6" />
+    <path d="M25 68 Q50 35 78 52 Q62 58 50 55 Q56 63 46 66 Q35 68 25 68 Z" fill="#C1272D" stroke="#7A1818" strokeWidth="2.4" />
+    <polygon points="78,52 92,44 90,60" fill="#C1272D" stroke="#7A1818" strokeWidth="2" />
+    <path d="M38 55 Q15 48 10 30 Q28 36 44 52 Z" fill="#2E6B8C" stroke="#123048" strokeWidth="2" />
+    <path d="M45 60 Q28 68 18 85 Q35 76 50 65 Z" fill="#2E6B8C" stroke="#123048" strokeWidth="2" />
+    <circle cx="32" cy="60" r="2.8" fill="#0A0A0A" />
+  </svg>
+);
+
 const Lebanon: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
     <rect x="20" y="98" width="60" height="8" rx="2" fill="#3E5C40" stroke="#1A1A1A" strokeWidth="2" />
@@ -2051,6 +2113,11 @@ export const emblems: Record<string, EmblemComponent> = {
   honduras: Honduras,
   "el-salvador": ElSalvador,
   nicaragua: Nicaragua,
+  "saint-lucia": SaintLucia,
+  "saint-kitts-and-nevis": SaintKittsAndNevis,
+  "antigua-and-barbuda": AntiguaAndBarbuda,
+  bahamas: Bahamas,
+  barbados: Barbados,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

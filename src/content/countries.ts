@@ -2773,4 +2773,94 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "saint-lucia",
+    flagEmoji: "🇱🇨",
+    accentColor: "#1F6F6B",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Santa Lucía",
+        intro:
+          "Las dos agujas volcánicas que definen la isla, el único volcán del mundo al que se entra en auto, y la isla con más premios Nobel por habitante de todo el planeta. Estas páginas son para descubrir una Santa Lucía que es el único país del mundo nombrado en honor a una mujer real, una fiesta callejera que convierte un pueblo entero en pista de baile, y un fuerte que cambió catorce veces de dueño.",
+      },
+      en: {
+        name: "Saint Lucia",
+        intro:
+          "The twin volcanic spires that define the island, the only drive-in volcano in the world, and the island with the most Nobel Prizes per capita on the planet. These pages are here to discover a Saint Lucia that's the only country in the world named after a real woman, a street party that turns an entire town into a dance floor, and a fort that changed owners fourteen times.",
+      },
+    },
+  },
+  {
+    slug: "saint-kitts-and-nevis",
+    flagEmoji: "🇰🇳",
+    accentColor: "#8C8C74",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "San Cristóbal y Nieves",
+        intro:
+          "La fortaleza tallada en un volcán, la isla diminuta donde nació un padre fundador de Estados Unidos, y el país soberano más pequeño de todo el continente americano. Estas páginas son para descubrir un San Cristóbal y Nieves de monos que ya superan en número a sus habitantes, la única federación del mundo donde una isla puede separarse por ley, y un guiso de cabra heredado de inmigrantes irlandeses.",
+      },
+      en: {
+        name: "Saint Kitts and Nevis",
+        intro:
+          "The fortress carved from a volcano, the tiny island where a US founding father was born, and the smallest sovereign country in the entire American continent. These pages are here to discover a Saint Kitts and Nevis of monkeys that already outnumber its residents, the only federation in the world where an island can legally secede, and a goat stew inherited from Irish immigrants.",
+      },
+    },
+  },
+  {
+    slug: "antigua-and-barbuda",
+    flagEmoji: "🇦🇬",
+    accentColor: "#1B7A8C",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Antigua y Barbuda",
+        intro:
+          "365 playas, una para cada día del año, el único astillero de la era georgiana todavía en uso, y la mayor colonia de aves de pecho rojo inflado del hemisferio. Estas páginas son para descubrir una Antigua y Barbuda de arena teñida de rosa por conchas molidas, un deporte casi religioso con un estadio a su nombre, y un nombre indígena que sobrevive hoy en la etiqueta de una cerveza.",
+      },
+      en: {
+        name: "Antigua and Barbuda",
+        intro:
+          "365 beaches, one for every day of the year, the only Georgian-era dockyard still in working use, and the hemisphere's largest colony of birds with inflatable red pouches. These pages are here to discover an Antigua and Barbuda of sand tinted pink by ground-up shells, a near-religious sport with a stadium named for it, and an indigenous name still living on today in a beer label.",
+      },
+    },
+  },
+  {
+    slug: "bahamas",
+    flagEmoji: "🇧🇸",
+    accentColor: "#1F6F8B",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Bahamas",
+        intro:
+          "Un archipiélago de más de 700 islas y cayos, un desfile de disfraces que arranca antes del alba, y el tercer arrecife de coral más grande del mundo con pozos sin fondo escondidos debajo. Estas páginas son para descubrir unas Bahamas de cerdos que nadan hasta los botes turísticos, un género musical que convirtió una sierra de carpintero en instrumento, y el puerto sin ley donde gobernaron los piratas más famosos de la historia.",
+      },
+      en: {
+        name: "The Bahamas",
+        intro:
+          "An archipelago of more than 700 islands and cays, a costume parade that starts before dawn, and the world's third-largest coral reef hiding bottomless pits beneath it. These pages are here to discover a Bahamas of pigs that swim out to tourist boats, a music genre that turned a carpenter's handsaw into an instrument, and the lawless port once ruled by history's most famous pirates.",
+      },
+    },
+  },
+  {
+    slug: "barbados",
+    flagEmoji: "🇧🇧",
+    accentColor: "#8B1A6E",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Barbados",
+        intro:
+          "La cantante que su país nombró héroe nacional en vida, la cueva de cristal por la que corre un río subterráneo, y la destilería que produce el ron más antiguo del mundo sin parar desde 1703. Estas páginas son para descubrir un Barbados del día en que la isla dejó de tener rey, tres bateadores de críquet legendarios nacidos a pocas cuadras, y la única vez que George Washington salió de Norteamérica en toda su vida.",
+      },
+      en: {
+        name: "Barbados",
+        intro:
+          "The singer her country named a national hero while still alive, the crystal cave with an underground river running through it, and the distillery making the world's oldest rum nonstop since 1703. These pages are here to discover a Barbados of the day the island stopped having a king, three legendary cricket batsmen born blocks apart, and the only time George Washington ever left North America in his life.",
+      },
+    },
+  },
 ];
