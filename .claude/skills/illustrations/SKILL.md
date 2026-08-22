@@ -122,6 +122,27 @@ browser's renderer applies those deterministically. The banned thing is only
   Cuba's `BalletNacionalCuba`, and Costa Rica's `AbolicionDelEjercito`, all
   flagged by the user after the first pass looked plausible in isolation but
   didn't survive being looked at next to the real object.
+- **Whole-batch regression to "just circles and lines" when adding several
+  new countries quickly**: writing 10 illustrations × 5 countries in one push
+  (Cameroon, Central African Republic, Chad, Comoros, DR Congo, 2026-08-22)
+  silently drifted into a default of "ellipse + one squiggle path" per scene —
+  technically 2-4 shapes, but none of them figurative. Concretely: three
+  circle-heads-with-no-bodies for a "people talking" scene; elephants as a
+  single ellipse blob with a curved line for a trunk (no ears, no legs, no
+  head distinct from body — user called this out immediately, "¿te parecen
+  elefantes?"); three separate scenes captioned as "musicians playing an
+  instrument" that drew the instrument alone with zero human figure. The user
+  had to say explicitly "en república centroafricana fallan TODAS" before a
+  full rework happened. **Do not let batch size lower the detail bar** — the
+  Netherlands/Andorra standard from the top of this file applies identically
+  whether it's country #3 or country #103. Concretely, a person or animal
+  scene needs an actual body, not a head/blob alone: for repeated human
+  figures across many entries, write one small local helper (e.g.
+  `function person(x, y, scale, dark, robe) { … }` returning a head circle +
+  a trapezoid robe/torso + two curved arms) and call it per figure instead of
+  drawing a floating head each time; same idea for a recurring animal (a
+  `camel`/`elephant` helper with real anatomy: legs, distinct head, ears,
+  trunk/neck, tail) reused with different `x`/`y`/`scale` across a herd.
 
 ## Emblem-specific gotchas (learned the hard way, new-countries session)
 
@@ -407,3 +428,29 @@ Titles ≤55 chars, descriptions ≤1000 chars (target ~700–850). There's an
 existing audit-script pattern for this referenced in prior memory — grep the
 conversation history or just write a quick Node one-liner checking
 `.length` on every `title`/`description` field per language.
+
+## Quick facts (capital / language / population / currency) — added 2026-08-22
+
+Every country page's cover (`CoverPage.tsx`) can show a small capital/
+language/population/currency grid, sourced from `src/content/countries.ts`.
+As of 2026-08-22 **all 177 loaded countries have this filled in** — so when
+adding a new country going forward, fill it in too, in the same pass as the
+rest of `countries.ts`, not as a separate follow-up:
+
+- `population` is a plain `number` on the top-level `Country` object (not
+  translated; formatted per-locale at render time via
+  `src/i18n/format.ts`'s `formatNumber`).
+- `capital`, `language`, `currency` are strings inside each locale's
+  `CountryTranslation` (`es`/`en`), e.g.
+  `currency: "Euro (€)"` / `currency: "Euro (€)"`,
+  `currency: "Dólar estadounidense (USD)"` / `"United States Dollar (USD)"`.
+- All four fields are optional on the type (`population?`, `capital?`, …)
+  specifically so partially-migrated countries don't break — but
+  `CoverPage.tsx` only renders the grid when a country has **all four**, so
+  a half-filled country silently shows nothing instead of a broken grid.
+  Always fill in all four together, never just one or two.
+- Keep values short: the grid has a fixed width and shrinks the value's font
+  size automatically past 16/26 characters, but anything much longer than
+  Switzerland's `"Alemán, francés, italiano y romanche"` (36 chars) risks a
+  third line, which the user explicitly rejected — see `CoverPage.tsx`'s
+  `factValueFontSize` and don't fight it by writing longer strings than that.

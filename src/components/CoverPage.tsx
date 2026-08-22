@@ -42,6 +42,15 @@ export default function CoverPage({
       ]
     : [];
 
+  // The facts grid has a fixed width so every country lines up the same way,
+  // but currency/language values range from "Euro (€)" to "Alemán, francés,
+  // italiano y romanche" — shrinking long ones keeps every value to 2 lines.
+  function factValueFontSize(value: string, base: number): number {
+    if (value.length > 26) return base - 3.5;
+    if (value.length > 16) return base - 2;
+    return base;
+  }
+
   return (
     <BookPageFrame>
       {/* Mobile: a single cover panel. The desktop spread (icon side +
@@ -177,8 +186,8 @@ export default function CoverPage({
                     sx={{
                       fontFamily: "var(--font-fraunces), serif",
                       fontWeight: 600,
-                      fontSize: 15,
-                      lineHeight: 1.3,
+                      fontSize: factValueFontSize(row.value, 15),
+                      lineHeight: 1.25,
                       textAlign: "right",
                     }}
                   >
@@ -291,7 +300,7 @@ export default function CoverPage({
           </Typography>
 
           {hasFacts ? (
-            <Box sx={{ mt: 0.5 }}>
+            <Box sx={{ width: 320, mt: 0.5 }}>
               <Box
                 sx={{
                   width: 40,
@@ -328,7 +337,8 @@ export default function CoverPage({
                       sx={{
                         fontFamily: "var(--font-fraunces), serif",
                         fontWeight: 600,
-                        fontSize: 16,
+                        fontSize: factValueFontSize(row.value, 16),
+                        lineHeight: 1.25,
                       }}
                     >
                       {row.value}

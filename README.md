@@ -25,6 +25,7 @@ Un libro ilustrado interactivo donde cada país del mundo tiene su propia "estan
 - [Estructura del proyecto](#-estructura-del-proyecto)
 - [Modelo de contenido](#-modelo-de-contenido)
 - [Sistema de ilustraciones](#-sistema-de-ilustraciones)
+- [Ficha de datos rápidos](#-ficha-de-datos-rápidos)
 - [Internacionalización](#-internacionalización)
 - [Cómo agregar un país nuevo](#-cómo-agregar-un-país-nuevo)
 - [Empezar a desarrollar](#-empezar-a-desarrollar)
@@ -207,6 +208,30 @@ No se usan imágenes ni librerías de íconos externas para las escenas: **cada 
 
 Si una historia no tiene ilustración todavía, `PageSpread` cae automáticamente al `placeholderEmoji` de esa entrada — el contenido nunca queda bloqueado esperando arte.
 
+## 📇 Ficha de datos rápidos
+
+La portada de cada país (`CoverPage.tsx`) puede mostrar una pequeña grilla 2×2 con **capital, idioma, población y moneda**, debajo del emblema en escritorio y en formato lista en mobile. Es un campo opcional pensado para completarse por lotes, igual que las ilustraciones:
+
+```ts
+export type CountryTranslation = {
+  name: string;
+  intro: string;
+  capital?: string;   // traducible: "Ámsterdam" / "Amsterdam"
+  language?: string;  // traducible: "Neerlandés" / "Dutch"
+  currency?: string;  // traducible: "Euro (€)" / "Euro (€)"
+};
+
+export type Country = {
+  // ...
+  population?: number; // no traducible; se formatea por locale al renderizar
+};
+```
+
+- **Todo o nada**: `CoverPage` solo renderiza la grilla si el país tiene los cuatro campos (`capital`, `language`, `population`, `currency`) — nunca una ficha a medias.
+- **Ancho fijo, tipografía dinámica**: la grilla usa un ancho constante (no se achica ni se estira según el contenido) y el tamaño de fuente del valor baja automáticamente en textos largos (más de 16 o 26 caracteres), para que ningún dato pase de dos líneas — mismo patrón que ya usa `PageSpread.tsx` con descripciones largas.
+- La población se formatea con separador de miles por locale vía `src/i18n/format.ts` (`formatNumber`), reusado también en el `Footer`.
+- Estado actual: **los 177 países cargados ya tienen su ficha completa.**
+
 ## 🌐 Internacionalización
 
 El sitio es bilingüe (**es** por defecto, **en**) sin librerías de i18n:
@@ -219,7 +244,7 @@ El sitio es bilingüe (**es** por defecto, **en**) sin librerías de i18n:
 ## ➕ Cómo agregar un país nuevo
 
 1. Crear `src/content/{slug}.ts` con **exactamente 10** `CultureEntry`, en ES y EN, respetando los límites de longitud.
-2. Registrar el país en `src/content/countries.ts` (slug, bandera, continente, color, traducciones de nombre/intro).
+2. Registrar el país en `src/content/countries.ts` (slug, bandera, continente, color, traducciones de nombre/intro, **y la ficha de datos rápidos**: `population` a nivel país, más `capital`/`language`/`currency` dentro de cada traducción — ver [Ficha de datos rápidos](#-ficha-de-datos-rápidos)).
 3. Importarlo en `src/content/index.ts` y sumarlo al mapa `contentByCountry`.
 4. Crear `src/illustrations/{slug}.tsx` con una escena SVG por historia (mismo `id`), y sumar un emblema nuevo y visualmente distinto en `emblems.tsx`.
 5. Registrar las ilustraciones en `src/illustrations/index.ts`.
@@ -248,7 +273,7 @@ npm run dev       # http://localhost:3000
 
 El objetivo es cubrir los **195 países** del mundo con **20 historias** cada uno. Estado actual (visible también en el pie del sitio, calculado en vivo):
 
-- **172** países cargados, repartidos en 6 continentes (Europa, África, Asia, Norteamérica, Sudamérica, Oceanía).
+- **177** países cargados, repartidos en 6 continentes (Europa, África, Asia, Norteamérica, Sudamérica, Oceanía) — **los 177 tienen también su ficha de datos rápidos completa** (capital, idioma, población, moneda).
 - **11** países ya llegaron a las 20 historias completas; el resto arranca con 10 y se va ampliando por lotes.
 
 ---
