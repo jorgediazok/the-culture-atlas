@@ -141,6 +141,17 @@ import { eastTimorIllustrations } from "./east-timor";
 import { saudiArabiaIllustrations } from "./saudi-arabia";
 import { omanIllustrations } from "./oman";
 import { ukraineIllustrations } from "./ukraine";
+import { lebanonIllustrations } from "./lebanon";
+import { bahrainIllustrations } from "./bahrain";
+import { kuwaitIllustrations } from "./kuwait";
+import { singaporeIllustrations } from "./singapore";
+import { malaysiaIllustrations } from "./malaysia";
+import { bruneiIllustrations } from "./brunei";
+import { taiwanIllustrations } from "./taiwan";
+import { guatemalaIllustrations } from "./guatemala";
+import { hondurasIllustrations } from "./honduras";
+import { elSalvadorIllustrations } from "./el-salvador";
+import { nicaraguaIllustrations } from "./nicaragua";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -287,6 +298,17 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   "saudi-arabia": saudiArabiaIllustrations,
   oman: omanIllustrations,
   ukraine: ukraineIllustrations,
+  lebanon: lebanonIllustrations,
+  bahrain: bahrainIllustrations,
+  kuwait: kuwaitIllustrations,
+  singapore: singaporeIllustrations,
+  malaysia: malaysiaIllustrations,
+  brunei: bruneiIllustrations,
+  taiwan: taiwanIllustrations,
+  guatemala: guatemalaIllustrations,
+  honduras: hondurasIllustrations,
+  "el-salvador": elSalvadorIllustrations,
+  nicaragua: nicaraguaIllustrations,
 };
 
 export function getIllustration(

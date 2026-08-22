@@ -1,3 +1,8 @@
+---
+name: illustrations
+description: Illustration redesign project for The Culture Atlas — standards, gotchas, workflow, and progress tracker for src/illustrations/*.tsx and src/content/*.ts. Load before adding a country, editing any file under src/illustrations/, or touching culture-entry content/emblems.
+---
+
 # Illustration redesign project — continuation notes
 
 This file exists so a fresh Claude Code session can pick up the illustration

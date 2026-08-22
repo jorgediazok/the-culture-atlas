@@ -2575,4 +2575,202 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "lebanon",
+    flagEmoji: "🇱🇧",
+    accentColor: "#1F5C3A",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Líbano",
+        intro:
+          "La cuna del alfabeto que terminó dándole nombre a la Biblia, hogar de los cedros milenarios que construyeron templos y barcos fenicios, y origen de un tinte púrpura tan caro que solo podían vestirlo los emperadores. Estas páginas son para descubrir un Líbano de templos romanos con las piedras más grandes jamás talladas, palacios de montaña y una voz que unió a todo un país en una sola canción.",
+      },
+      en: {
+        name: "Lebanon",
+        intro:
+          "The birthplace of the alphabet that gave the Bible its name, home to the ancient cedars that built Phoenician temples and ships, and origin of a purple dye once so costly only emperors could wear it. These pages are here to discover a Lebanon of Roman temples built from the largest stones ever cut, mountain palaces, and a voice that once united an entire country in a single song.",
+      },
+    },
+  },
+  {
+    slug: "bahrain",
+    flagEmoji: "🇧🇭",
+    accentColor: "#2E8B8B",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Baréin",
+        intro:
+          "El país que prohibió por ley las perlas cultivadas para proteger las suyas, hogar de un fuerte que oculta cuatro mil años de capitales superpuestas y de un árbol solitario que lleva siglos vivo en pleno desierto sin agua visible cerca. Estas páginas son para descubrir un Baréin de cementerios con más de cien mil túmulos antiguos, casas de coral enfriadas por torres de viento y un circuito construido sobre dunas que trajo la Fórmula 1 al golfo.",
+      },
+      en: {
+        name: "Bahrain",
+        intro:
+          "The country that banned cultured pearls by law to protect its own, home to a fort hiding four thousand years of stacked capitals and a lone tree that has survived centuries in the middle of the desert with no visible water nearby. These pages are here to discover a Bahrain of burial fields with more than a hundred thousand ancient mounds, coral-stone houses cooled by wind towers, and a dune-built circuit that brought Formula 1 to the Gulf.",
+      },
+    },
+  },
+  {
+    slug: "kuwait",
+    flagEmoji: "🇰🇼",
+    accentColor: "#0F4C75",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Kuwait",
+        intro:
+          "Los depósitos de agua que se volvieron símbolo nacional, el mercado centenario que resistió el auge de los rascacielos y el primer parlamento electo de todo el golfo, con techo diseñado como una carpa beduina. Estas páginas son para descubrir un Kuwait de salas de reunión donde se discute media vida social del país, una isla con ruinas griegas y dilmunitas, y una de las mejores colecciones privadas de arte islámico del mundo.",
+      },
+      en: {
+        name: "Kuwait",
+        intro:
+          "The water tanks that became a national symbol, the century-old market that outlasted the rise of skyscrapers, and the Gulf's first elected parliament, roofed like a Bedouin tent. These pages are here to discover a Kuwait of gathering rooms where much of the country's social life gets decided, an island with both Greek and Dilmun-era ruins, and one of the world's finest private collections of Islamic art.",
+      },
+    },
+  },
+  {
+    slug: "singapore",
+    flagEmoji: "🇸🇬",
+    accentColor: "#1B4F72",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Singapur",
+        intro:
+          "La estatua mitad león, mitad pez que se convirtió en símbolo de la ciudad, los árboles gigantes de metal que iluminan de noche y los mercados de comida callejera declarados Patrimonio de la Unesco. Estas páginas son para descubrir un Singapur de fachadas de colores que mezclan China y Malasia, una lengua criolla propia con partículas intraducibles, y el país que prohibió mascar chicle en la calle.",
+      },
+      en: {
+        name: "Singapore",
+        intro:
+          "The half-lion, half-fish statue that became the city's symbol, the giant metal trees that light up at night, and the street food markets declared UNESCO heritage. These pages are here to discover a Singapore of colorful facades blending China and Malaya, its own creole language with untranslatable particles, and the country that banned chewing gum on the street.",
+      },
+    },
+  },
+  {
+    slug: "malaysia",
+    flagEmoji: "🇲🇾",
+    accentColor: "#1B4F72",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Malasia",
+        intro:
+          "Las torres gemelas más altas del mundo unidas por un puente en el aire, una estatua dorada gigante al final de 272 escalones sagrados y la montaña donde, según la leyenda, descansan las almas. Estas páginas son para descubrir una Malasia de orangutanes rehabilitados en la selva de Borneo, un tejido de la realeza entretejido con hilo de oro, y el único rey del mundo elegido por turno entre nueve sultanes.",
+      },
+      en: {
+        name: "Malaysia",
+        intro:
+          "The world's tallest twin towers, joined by a bridge in midair, a giant golden statue at the top of 272 sacred steps, and the mountain where legend says souls come to rest. These pages are here to discover a Malaysia of orangutans rehabilitated in the Bornean rainforest, a royal weave threaded with gold, and the only king in the world chosen by turns among nine sultans.",
+      },
+    },
+  },
+  {
+    slug: "brunei",
+    flagEmoji: "🇧🇳",
+    accentColor: "#C9A227",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Brunéi",
+        intro:
+          "El palacio habitado más grande del mundo, un pueblo entero construido sobre pilotes desde hace seiscientos años y la colección de autos de lujo más grande jamás reunida por una sola persona. Estas páginas son para descubrir un Brunéi de selva prística recorrida por encima del dosel, un engrudo de sagú que se come con palitos especiales, y el país que vive del petróleo y no cobra impuestos a sus ciudadanos.",
+      },
+      en: {
+        name: "Brunei",
+        intro:
+          "The world's largest inhabited palace, an entire village built on stilts for six hundred years, and the largest luxury car collection ever assembled by one person. These pages are here to discover a Brunei of pristine rainforest explored above the canopy, a sago starch paste eaten with special sticks, and the country that runs on oil and charges its citizens no income tax.",
+      },
+    },
+  },
+  {
+    slug: "taiwan",
+    flagEmoji: "🇹🇼",
+    accentColor: "#1F6F6B",
+    continent: "asia",
+    translations: {
+      es: {
+        name: "Taiwán",
+        intro:
+          "El rascacielos con una esfera gigante que lo mantiene firme durante tifones, el museo con casi setecientas mil piezas imperiales y la isla que dio origen a una familia de idiomas hablada hoy a miles de kilómetros de distancia. Estas páginas son para descubrir un Taiwán de mercados nocturnos con tofu apestoso, un lago con forma de sol y luna, y el teatro de títeres que se maneja con una sola mano.",
+      },
+      en: {
+        name: "Taiwan",
+        intro:
+          "The skyscraper with a giant sphere that keeps it steady through typhoons, the museum with nearly 700,000 imperial pieces, and the island behind a family of languages spoken today thousands of kilometers away. These pages are here to discover a Taiwan of night markets serving stinky tofu, a lake shaped like the sun and the moon, and the puppet theater worked with a single hand.",
+      },
+    },
+  },
+  {
+    slug: "guatemala",
+    flagEmoji: "🇬🇹",
+    accentColor: "#2E8B6E",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Guatemala",
+        intro:
+          "La ciudad maya cuyos templos asoman sobre la selva, el ave sagrada que muere si la encierran en una jaula y el libro que narra cómo se creó el mundo a partir del maíz. Estas páginas son para descubrir una Guatemala de mercados con textiles que identifican cada pueblo, alfombras de arte efímero que su propio desfile destruye, y una piedra que los mayas valoraban más que el oro.",
+      },
+      en: {
+        name: "Guatemala",
+        intro:
+          "The Maya city whose temples rise above the jungle, the sacred bird that dies when caged, and the book that tells how the world was made from corn. These pages are here to discover a Guatemala of markets with textiles that identify each village, ephemeral carpets destroyed by their own procession, and a stone the Maya valued more than gold.",
+      },
+    },
+  },
+  {
+    slug: "honduras",
+    flagEmoji: "🇭🇳",
+    accentColor: "#C1272D",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Honduras",
+        intro:
+          "La escalinata con el texto maya más largo jamás hallado, el segundo arrecife de coral más grande del planeta y el pueblo afroindígena que nació de un naufragio. Estas páginas son para descubrir una Honduras de guacamayas rescatadas devueltas al cielo, un reloj morisco que sigue andando tras 800 años, y el carnaval más grande de toda Centroamérica.",
+      },
+      en: {
+        name: "Honduras",
+        intro:
+          "The staircase with the longest Maya text ever found, the world's second-largest coral reef, and the Afro-indigenous people born from a shipwreck. These pages are here to discover a Honduras of rescued macaws returned to the sky, a Moorish clock still running after 800 years, and Central America's biggest carnival.",
+      },
+    },
+  },
+  {
+    slug: "el-salvador",
+    flagEmoji: "🇸🇻",
+    accentColor: "#C1440E",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "El Salvador",
+        intro:
+          "La tortilla rellena que se volvió embajadora del país, el pueblo maya que la ceniza congeló en el tiempo y el volcán que sirvió de faro natural a los barcos por siglos. Estas páginas son para descubrir un El Salvador de tintes azules revividos en talleres artesanales, un pueblo entero convertido en galería de arte naif, y el suelo que le dio a la capital el apodo de 'Valle de las Hamacas'.",
+      },
+      en: {
+        name: "El Salvador",
+        intro:
+          "The stuffed tortilla that became a national ambassador, the Maya village frozen in time by volcanic ash, and the volcano that served as a natural lighthouse for ships for centuries. These pages are here to discover an El Salvador of blue dyes revived in craft workshops, an entire town turned into a naive-art gallery, and the ground that gave its capital the nickname 'Valley of the Hammocks.'",
+      },
+    },
+  },
+  {
+    slug: "nicaragua",
+    flagEmoji: "🇳🇮",
+    accentColor: "#5C6B6E",
+    continent: "north-america",
+    translations: {
+      es: {
+        name: "Nicaragua",
+        intro:
+          "La isla con dos volcanes unida por un istmo angosto, el único tiburón que vive toda su vida en agua dulce y la catedral más grande de Centroamérica con un poeta enterrado bajo su piso. Estas páginas son para descubrir una Nicaragua de teatro colonial que se burlaba de España en su propia cara, una muñeca gigante que baila junto a un enano, y un lago de lava visible desde el borde de un cráter.",
+      },
+      en: {
+        name: "Nicaragua",
+        intro:
+          "The island with two volcanoes and a narrow isthmus, the only shark that lives its whole life in fresh water, and Central America's largest cathedral with a poet buried beneath its floor. These pages are here to discover a Nicaragua of colonial theater that mocked Spain to its face, a giant puppet dancing beside a dwarf, and a lava lake visible from the rim of a crater.",
+      },
+    },
+  },
 ];

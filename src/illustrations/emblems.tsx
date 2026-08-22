@@ -1749,6 +1749,153 @@ const Ukraine: EmblemComponent = () => (
   </svg>
 );
 
+const Bahrain: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M15 55 Q50 28 85 55 L85 62 Q75 96 50 101 Q25 96 15 62 Z" fill="#D9D2C0" stroke="#7A6A50" strokeWidth="2.2" />
+    <line x1="50" y1="42" x2="25" y2="90" stroke="#7A6A50" strokeWidth="1.6" opacity="0.55" />
+    <line x1="50" y1="42" x2="38" y2="96" stroke="#7A6A50" strokeWidth="1.6" opacity="0.55" />
+    <line x1="50" y1="42" x2="50" y2="99" stroke="#7A6A50" strokeWidth="1.6" opacity="0.55" />
+    <line x1="50" y1="42" x2="62" y2="96" stroke="#7A6A50" strokeWidth="1.6" opacity="0.55" />
+    <line x1="50" y1="42" x2="75" y2="90" stroke="#7A6A50" strokeWidth="1.6" opacity="0.55" />
+    <path d="M20 50 Q50 20 80 50 Q65 56 50 46 Q35 56 20 50 Z" fill="#EDE6D6" stroke="#7A6A50" strokeWidth="2.2" />
+    <circle cx="50" cy="56" r="15" fill="#F5F0E6" stroke="#7A6A50" strokeWidth="2.2" />
+    <circle cx="45" cy="51" r="4" fill="#FFFFFF" opacity="0.85" />
+  </svg>
+);
+
+const Kuwait: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="16" y="100" width="68" height="6" fill="#0D3A42" opacity="0.55" />
+    <polygon points="40,100 60,100 55,80 45,80" fill="#0D3A42" opacity="0.45" />
+    <rect x="45" y="70" width="10" height="12" fill="#D9D2C0" stroke="#0D3A42" strokeWidth="2.4" />
+    <circle cx="50" cy="46" r="25" fill="#1B7A8C" stroke="#0D3A42" strokeWidth="2.8" />
+    <circle cx="50" cy="46" r="18" fill="none" stroke="#0D3A42" strokeWidth="1.8" opacity="0.5" />
+    <circle cx="50" cy="46" r="10" fill="none" stroke="#0D3A42" strokeWidth="1.8" opacity="0.5" />
+    <rect x="47" y="16" width="6" height="7" fill="#D9D2C0" stroke="#0D3A42" strokeWidth="2.2" />
+    <circle cx="50" cy="11" r="9" fill="#2E96A8" stroke="#0D3A42" strokeWidth="2.4" />
+    <circle cx="50" cy="2" r="2.5" fill="#C9A227" stroke="#0D3A42" strokeWidth="1.4" />
+  </svg>
+);
+
+const Singapore: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="20" y="100" width="60" height="6" fill="#0D2E44" opacity="0.5" />
+    <polygon points="45,100 55,100 53,44 47,44" fill="#5C4A3A" stroke="#3A2E22" strokeWidth="2.2" />
+    <ellipse cx="50" cy="46" rx="40" ry="15" fill="#2E8B57" stroke="#1A5C38" strokeWidth="2.4" />
+    <ellipse cx="50" cy="46" rx="28" ry="10" fill="#3EA86B" opacity="0.6" />
+    <ellipse cx="50" cy="27" rx="28" ry="11" fill="#2E8B57" stroke="#1A5C38" strokeWidth="2.2" />
+    <ellipse cx="50" cy="12" rx="16" ry="7" fill="#2E8B57" stroke="#1A5C38" strokeWidth="2.2" />
+    <circle cx="18" cy="46" r="3.5" fill="#C9A227" />
+    <circle cx="82" cy="46" r="3.5" fill="#C9A227" />
+    <circle cx="28" cy="27" r="3" fill="#C9A227" />
+    <circle cx="72" cy="27" r="3" fill="#C9A227" />
+    <circle cx="50" cy="6" r="3" fill="#C9A227" />
+  </svg>
+);
+
+const Malaysia: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="15" y="100" width="70" height="6" fill="#0D2E44" opacity="0.5" />
+    <polygon points="28,100 42,100 40,60 38,40 34,20 30,40 28,60" fill="#1B4F72" stroke="#0D2E44" strokeWidth="2.2" />
+    <line x1="34" y1="20" x2="34" y2="8" stroke="#0D2E44" strokeWidth="2.6" />
+    <polygon points="58,100 72,100 70,60 68,40 64,20 60,40 58,60" fill="#1B4F72" stroke="#0D2E44" strokeWidth="2.2" />
+    <line x1="64" y1="20" x2="64" y2="8" stroke="#0D2E44" strokeWidth="2.6" />
+    <rect x="42" y="55" width="16" height="8" fill="#2E96A8" stroke="#0D2E44" strokeWidth="1.8" />
+  </svg>
+);
+
+const Brunei: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="20" y="80" width="60" height="14" rx="3" fill="#5C3A21" stroke="#2E1D10" strokeWidth="2.2" />
+    <circle cx="32" cy="94" r="10" fill="#5C3A21" stroke="#2E1D10" strokeWidth="2" />
+    <circle cx="68" cy="94" r="10" fill="#5C3A21" stroke="#2E1D10" strokeWidth="2" />
+    <circle cx="32" cy="94" r="3.5" fill="#8A6A10" />
+    <circle cx="68" cy="94" r="3.5" fill="#8A6A10" />
+    <path d="M25 78 L75 78 L70 50 Q70 40 60 38 L40 38 Q30 40 30 50 Z" fill="#C9A227" stroke="#8A6A10" strokeWidth="2.4" />
+    <ellipse cx="50" cy="38" rx="10" ry="4" fill="#8A6A10" />
+    <rect x="30" y="55" width="40" height="6" fill="#8A6A10" opacity="0.6" />
+    <rect x="33" y="65" width="34" height="5" fill="#8A6A10" opacity="0.5" />
+  </svg>
+);
+
+const Taiwan: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <ellipse cx="35" cy="62" rx="22" ry="30" fill="#3E7D4A" stroke="#1F4D2A" strokeWidth="2.2" transform="rotate(-15 35 62)" />
+    <ellipse cx="65" cy="62" rx="22" ry="30" fill="#3E7D4A" stroke="#1F4D2A" strokeWidth="2.2" transform="rotate(15 65 62)" />
+    <ellipse cx="50" cy="57" rx="24" ry="34" fill="#5FA35F" stroke="#1F4D2A" strokeWidth="2.4" />
+    <ellipse cx="50" cy="64" rx="14" ry="22" fill="#B8D98A" opacity="0.85" />
+    <ellipse cx="65" cy="35" rx="9" ry="4" fill="#8B6F2E" stroke="#5C4A1E" strokeWidth="1.6" transform="rotate(-20 65 35)" />
+    <line x1="60" y1="33" x2="52" y2="26" stroke="#5C4A1E" strokeWidth="1.6" />
+    <line x1="70" y1="36" x2="78" y2="30" stroke="#5C4A1E" strokeWidth="1.6" />
+  </svg>
+);
+
+const Guatemala: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <line x1="15" y1="95" x2="85" y2="95" stroke="#5C3A21" strokeWidth="4" />
+    <path d="M55 55 Q75 70 68 95 Q80 78 78 100" fill="none" stroke="#1F5C3A" strokeWidth="5" strokeLinecap="round" />
+    <path d="M55 58 Q80 65 85 90" fill="none" stroke="#2E8B6E" strokeWidth="5" strokeLinecap="round" />
+    <path d="M55 60 Q85 62 92 82" fill="none" stroke="#1F5C3A" strokeWidth="4" strokeLinecap="round" />
+    <ellipse cx="42" cy="60" rx="20" ry="24" fill="#2E8B6E" stroke="#123322" strokeWidth="2.4" />
+    <circle cx="35" cy="35" r="14" fill="#2E8B6E" stroke="#123322" strokeWidth="2.4" />
+    <path d="M28 24 L30 14 L34 24 M34 22 L38 12 L40 23" stroke="#123322" strokeWidth="2" fill="none" />
+    <polygon points="22,35 10,32 22,40" fill="#C9A227" stroke="#8A6A10" strokeWidth="1.6" />
+    <circle cx="32" cy="33" r="2.5" fill="#0A1A0F" />
+    <ellipse cx="42" cy="70" rx="12" ry="16" fill="#C1272D" />
+    <line x1="35" y1="84" x2="33" y2="95" stroke="#123322" strokeWidth="2.5" />
+    <line x1="48" y1="84" x2="50" y2="95" stroke="#123322" strokeWidth="2.5" />
+  </svg>
+);
+
+const Honduras: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <line x1="15" y1="95" x2="85" y2="95" stroke="#5C3A21" strokeWidth="4" />
+    <path d="M55 55 L95 62 L92 72 L55 65 Z" fill="#C1272D" stroke="#7A1818" strokeWidth="2" />
+    <path d="M55 60 L90 78 L85 88 L55 70 Z" fill="#1B4F72" stroke="#123048" strokeWidth="2" />
+    <path d="M50 65 L78 90 L70 98 L50 72 Z" fill="#D9A441" stroke="#8A6A10" strokeWidth="2" />
+    <ellipse cx="42" cy="60" rx="20" ry="24" fill="#C1272D" stroke="#7A1818" strokeWidth="2.4" />
+    <path d="M30 55 Q40 50 48 58 Q42 68 30 65 Z" fill="#1B4F72" stroke="#123048" strokeWidth="1.8" />
+    <circle cx="34" cy="36" r="14" fill="#C1272D" stroke="#7A1818" strokeWidth="2.4" />
+    <path d="M22 36 Q8 34 8 44 Q8 50 18 48 Q24 46 24 40 Z" fill="#3A3A3A" stroke="#1A1A1A" strokeWidth="1.8" />
+    <ellipse cx="30" cy="32" rx="8" ry="6" fill="#F5F0E6" opacity="0.85" />
+    <circle cx="30" cy="33" r="2.2" fill="#0A0A0A" />
+    <line x1="35" y1="84" x2="33" y2="95" stroke="#7A1818" strokeWidth="2.5" />
+    <line x1="48" y1="84" x2="50" y2="95" stroke="#7A1818" strokeWidth="2.5" />
+  </svg>
+);
+
+const ElSalvador: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="10" y="100" width="80" height="6" fill="#1F140C" opacity="0.5" />
+    <polygon points="20,100 50,20 80,100" fill="#3A2418" stroke="#1F140C" strokeWidth="2.4" />
+    <polygon points="38,55 50,20 62,55" fill="#C1272D" opacity="0.9" />
+    <path d="M50 20 Q44 8 50 0 Q56 8 50 20 Z" fill="#8C8C8C" opacity="0.6" />
+    <path d="M30 90 Q40 80 50 90 Q60 80 70 90" fill="none" stroke="#C1440E" strokeWidth="4" opacity="0.85" />
+  </svg>
+);
+
+const Nicaragua: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="5" y="85" width="90" height="20" fill="#1B5E7A" opacity="0.6" />
+    <polygon points="15,90 40,25 62,90" fill="#5C6B6E" stroke="#2E3B3D" strokeWidth="2.2" />
+    <polygon points="55,90 78,40 100,90" fill="#6B7A7C" stroke="#2E3B3D" strokeWidth="2.2" />
+    <path d="M40 25 Q36 15 40 8 Q44 15 40 25 Z" fill="#8C8C8C" opacity="0.6" />
+    <ellipse cx="30" cy="93" rx="10" ry="3" fill="#F5F0E6" opacity="0.4" />
+    <ellipse cx="70" cy="95" rx="10" ry="3" fill="#F5F0E6" opacity="0.4" />
+  </svg>
+);
+
+const Lebanon: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="20" y="98" width="60" height="8" rx="2" fill="#3E5C40" stroke="#1A1A1A" strokeWidth="2" />
+    <rect x="46" y="84" width="8" height="16" fill="#5C3A21" stroke="#2E1D10" strokeWidth="2.2" />
+    <polygon points="14,86 86,86 74,66 26,66" fill="#1F5C3A" stroke="#123322" strokeWidth="2.2" />
+    <polygon points="22,68 78,68 66,50 34,50" fill="#2A6B45" stroke="#123322" strokeWidth="2.2" />
+    <polygon points="30,52 70,52 60,36 40,36" fill="#1F5C3A" stroke="#123322" strokeWidth="2.2" />
+    <polygon points="38,38 62,38 50,20" fill="#2A6B45" stroke="#123322" strokeWidth="2.2" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -1893,6 +2040,17 @@ export const emblems: Record<string, EmblemComponent> = {
   "saudi-arabia": SaudiArabia,
   oman: Oman,
   ukraine: Ukraine,
+  lebanon: Lebanon,
+  bahrain: Bahrain,
+  kuwait: Kuwait,
+  singapore: Singapore,
+  malaysia: Malaysia,
+  brunei: Brunei,
+  taiwan: Taiwan,
+  guatemala: Guatemala,
+  honduras: Honduras,
+  "el-salvador": ElSalvador,
+  nicaragua: Nicaragua,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

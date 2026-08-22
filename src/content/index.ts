@@ -148,6 +148,17 @@ import { eastTimor } from "./east-timor";
 import { saudiArabia } from "./saudi-arabia";
 import { oman } from "./oman";
 import { ukraine } from "./ukraine";
+import { lebanon } from "./lebanon";
+import { bahrain } from "./bahrain";
+import { kuwait } from "./kuwait";
+import { singapore } from "./singapore";
+import { malaysia } from "./malaysia";
+import { brunei } from "./brunei";
+import { taiwan } from "./taiwan";
+import { guatemala } from "./guatemala";
+import { honduras } from "./honduras";
+import { elSalvador } from "./el-salvador";
+import { nicaragua } from "./nicaragua";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -293,6 +304,17 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   "saudi-arabia": saudiArabia,
   oman,
   ukraine,
+  lebanon,
+  bahrain,
+  kuwait,
+  singapore,
+  malaysia,
+  brunei,
+  taiwan,
+  guatemala,
+  honduras,
+  "el-salvador": elSalvador,
+  nicaragua,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {
