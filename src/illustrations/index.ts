@@ -189,6 +189,10 @@ import { sudanIllustrations } from "./sudan";
 import { southSudanIllustrations } from "./south-sudan";
 import { tanzaniaIllustrations } from "./tanzania";
 import { togoIllustrations } from "./togo";
+import { mauritaniaIllustrations } from "./mauritania";
+import { mauritiusIllustrations } from "./mauritius";
+import { mozambiqueIllustrations } from "./mozambique";
+import { nigerIllustrations } from "./niger";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -383,6 +387,10 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   "south-sudan": southSudanIllustrations,
   tanzania: tanzaniaIllustrations,
   togo: togoIllustrations,
+  mauritania: mauritaniaIllustrations,
+  mauritius: mauritiusIllustrations,
+  mozambique: mozambiqueIllustrations,
+  niger: nigerIllustrations,
 };
 
 export function getIllustration(

@@ -410,6 +410,37 @@ review credit), no screenshot review was run — the user reviews personally
 in the running dev server and names specific entries to fix, same as the
 Asia/Africa/Oceania batches. Not yet committed as of the end of this batch.
 
+**Africa session (2026-08-23) — Mauritania, Mauritius, Mozambique, Niger
+added from scratch**, bringing the atlas to 195 countries. Built via four
+parallel background agents (one per country) instead of sequentially, since
+each country is fully self-contained — every agent was restricted to only
+creating its two standalone files (`src/content/{slug}.ts`,
+`src/illustrations/{slug}.tsx`) and reporting back its emblem code +
+`countries.ts` block as text rather than editing shared files itself, to
+avoid concurrent-edit races on `src/content/index.ts`,
+`src/illustrations/index.ts`, `src/content/countries.ts`, and
+`src/illustrations/emblems.tsx`; the main session then merged all four sets
+of registry edits into those shared files in one pass afterward. This
+worked cleanly with zero conflicts — a viable pattern for future
+multi-country batches. Content: Mauritania (Chinguetti's manuscript
+libraries, iggawin griots/tidinit/ardin, Sahara salt caravans, Banc
+d'Arguin's dolphin-fishermen, Oualata's painted facades, khaima hospitality),
+Mauritius (the dodo, sega music/dance, Le Morne Brabant, Aapravasi Ghat,
+Chamarel's Seven Coloured Earths, model shipbuilding), Mozambique (timbila
+xylophone orchestras, capulana cloth, Island of Mozambique, Makonde mapiko
+masks, dhow sailing boats, the Transforming Arms into Art project), Niger
+(the last West African wild giraffes near Kouré, Tuareg salt caravans, the
+Great Mosque of Agadez, the Agadez Cross, the Wodaabe Gerewol festival, the
+Tree of Ténéré) — all avoiding recent conflict/instability framing per the
+established policy. Emblems: Mauritania is a camel silhouette on a dune
+under a crescent (crescent built via two circles + `fillRule="evenodd"`,
+not hand-tuned arc flags), Mauritius is a dodo in side profile, Mozambique
+is a stepped timbila xylophone with crossed mallets, Niger is a giraffe in
+side profile (checked first that no other emblem among ~180 already used a
+giraffe). All four passed `tsc`, `eslint`, the id-matching audit, and a
+full `rm -rf .next && npm run build` (390 static paths). Not committed as
+of the end of this batch — awaiting explicit user request to commit.
+
 ## Deferred, larger-scope task (explicitly NOT started — user said to wait)
 
 The user's own words (2026-08-15, before the original redesign push began):

@@ -4776,4 +4776,104 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "mauritania",
+    flagEmoji: "🇲🇷",
+    accentColor: "#C9A227",
+    continent: "africa",
+    population: 4900000,
+    translations: {
+      es: {
+        name: "Mauritania",
+        intro:
+          "Chinguetti, una de las siete ciudades más santas del islam que guarda manuscritos árabes de setecientos años, los iggawin, griots que cantan la historia con el laúd tidinit y el arpa ardin, y los imraguen del Banc d'Arguin, pescadores que llaman a delfines salvajes para arrear peces hacia la orilla. Estas páginas son para descubrir una Mauritania de caravanas de camellos que aún cruzan el Sahara cargadas de sal, casas de Oualata pintadas por mujeres con geometría en blanco y rojo, y el zrig, la leche de camella espumosa que sella cada visita a una jaima.",
+        capital: "Nuakchot",
+        language: "Árabe",
+        currency: "Uguiya mauritana (MRU)",
+      },
+      en: {
+        name: "Mauritania",
+        intro:
+          "Chinguetti, one of Islam's seven holiest cities, home to seven-hundred-year-old Arabic manuscripts, the iggawin, griots who sing history with the tidinit lute and the ardin harp, and the Imraguen of Banc d'Arguin, fishermen who call wild dolphins to herd fish toward shore. These pages are here to discover a Mauritania of camel caravans still crossing the Sahara loaded with salt, Oualata houses painted by women in white and red geometry, and zrig, the frothy camel milk that seals every visit to a khaima tent.",
+        capital: "Nouakchott",
+        language: "Arabic",
+        currency: "Mauritanian Ouguiya (MRU)",
+      },
+    },
+  },
+  {
+    slug: "mauritius",
+    flagEmoji: "🇲🇺",
+    accentColor: "#1B7A9C",
+    continent: "africa",
+    population: 1300000,
+    translations: {
+      es: {
+        name: "Mauricio",
+        intro:
+          "El dodo, el ave extinta que solo existió en esta isla y hoy vive en su escudo nacional, el sega, el baile afrocriollo nacido del dolor de la esclavitud y bailado descalzo sobre la arena al atardecer, y Le Morne Brabant, la montaña que refugió a esclavos fugitivos y hoy es Patrimonio de la Humanidad. Estas páginas son para descubrir un Mauricio donde conviven cuatro religiones en paz, donde las Tierras de Siete Colores de Chamarel nunca se mezclan pese a la lluvia, y donde artesanos siguen construyendo, hilo por hilo, réplicas en miniatura de veleros históricos.",
+        capital: "Port Louis",
+        language: "Inglés",
+        currency: "Rupia mauriciana (MUR)",
+      },
+      en: {
+        name: "Mauritius",
+        intro:
+          "The dodo, the extinct bird that lived only on this island and now lives on in its national coat of arms, sega, the Afro-Creole dance born from the pain of slavery and danced barefoot on the sand at sunset, and Le Morne Brabant, the mountain that once sheltered escaped slaves and is now a UNESCO World Heritage Site. These pages are here to discover a Mauritius where four faiths live side by side in peace, where the Seven Coloured Earths of Chamarel never blend despite the rain, and where craftsmen still build, thread by thread, miniature replicas of historic sailing ships.",
+        capital: "Port Louis",
+        language: "English",
+        currency: "Mauritian Rupee (MUR)",
+      },
+    },
+  },
+  {
+    slug: "mozambique",
+    flagEmoji: "🇲🇿",
+    accentColor: "#B5651D",
+    continent: "africa",
+    population: 33000000,
+    translations: {
+      es: {
+        name: "Mozambique",
+        intro:
+          "Un país de costa infinita donde las orquestas de xilófonos chopi suenan junto a dhows de vela artesanal, y una isla de coral guardó durante siglos la capital de un imperio.",
+        capital: "Maputo",
+        language: "Portugués",
+        currency: "Metical mozambiqueño (MZN)",
+      },
+      en: {
+        name: "Mozambique",
+        intro:
+          "A country of endless coastline where Chopi xylophone orchestras play alongside handbuilt sailing dhows, and a coral island once held the capital of an empire for centuries.",
+        capital: "Maputo",
+        language: "Portuguese",
+        currency: "Mozambican Metical (MZN)",
+      },
+    },
+  },
+  {
+    slug: "niger",
+    flagEmoji: "🇳🇪",
+    accentColor: "#D9822B",
+    continent: "africa",
+    population: 27000000,
+    translations: {
+      es: {
+        name: "Níger",
+        intro:
+          "Las últimas jirafas salvajes de África Occidental, que pastan en libertad junto a los pueblos de la zona de Kouré, el azalai, la caravana de camellos tuareg que todavía cruza el Sahara hasta los oasis de sal de Bilma, y la Gran Mezquita de Agadez, el minarete de barro más alto del mundo. Estas páginas son para descubrir un Níger del Gerewol wodaabe, el festival donde los hombres se pintan el rostro para ser elegidos por las mujeres, la Cruz de Agadez, la joyería de plata tuareg que identifica a cada clan, y el Árbol del Ténéré, la acacia solitaria que durante generaciones guio a las caravanas en pleno desierto.",
+        capital: "Niamey",
+        language: "Francés",
+        currency: "Franco CFA de África Occidental (XOF)",
+      },
+      en: {
+        name: "Niger",
+        intro:
+          "The last wild giraffes of West Africa, grazing freely beside the villages of the Kouré giraffe zone, the azalai, the Tuareg camel caravan that still crosses the Sahara to the salt oases of Bilma, and the Great Mosque of Agadez, the tallest mud-brick minaret in the world. These pages are here to discover a Niger of the Wodaabe Gerewol, the festival where men paint their faces to be chosen by women, the Agadez Cross, the Tuareg silver jewelry that marks each clan, and the Tree of Ténéré, the solitary acacia that for generations guided caravans across the open desert.",
+        capital: "Niamey",
+        language: "French",
+        currency: "West African CFA Franc (XOF)",
+      },
+    },
+  },
 ];

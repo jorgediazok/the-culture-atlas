@@ -2318,6 +2318,77 @@ const Togo: EmblemComponent = () => (
   </svg>
 );
 
+const Mauritania: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M0 110 L0 88 Q30 68 50 82 Q70 94 100 74 L100 110 Z" fill="#C9A277" stroke="#7A4A20" strokeWidth="2.2" />
+    <path
+      fillRule="evenodd"
+      d="M9 20 A13 13 0 1 0 35 20 A13 13 0 1 0 9 20 Z M16 17 A11 11 0 1 0 38 17 A11 11 0 1 0 16 17 Z"
+      fill="#D9A227"
+      stroke="#8A6A10"
+      strokeWidth="1.6"
+    />
+    <g transform="translate(45 54) scale(0.74)">
+      <path d="M-30 10 Q-20 -18 0 -12 Q10 -22 22 -14 Q30 -10 28 6 L26 20 L-28 20 Z" fill="#6B4226" stroke="#3A2410" strokeWidth="4" />
+      <path d="M22 -14 Q34 -26 40 -20 Q44 -14 36 -6 L28 6" fill="#6B4226" stroke="#3A2410" strokeWidth="3.6" />
+      <ellipse cx="42" cy="-24" rx="7" ry="6" fill="#6B4226" stroke="#3A2410" strokeWidth="3" />
+      <path d="M-28 20 L-30 38 M-14 20 L-16 38 M14 20 L16 38 M24 20 L26 38" stroke="#3A2410" strokeWidth="5" strokeLinecap="round" />
+      <path d="M40 -22 Q42 -28 38 -30" fill="none" stroke="#3A2410" strokeWidth="2.4" />
+    </g>
+  </svg>
+);
+
+const Mauritius: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M14 64 Q10 38 40 33 Q64 29 74 48 Q80 60 70 73 Q62 85 40 85 Q16 85 14 64 Z" fill="#8C7B6B" stroke="#3A2A1E" strokeWidth="3" />
+    <path d="M16 60 Q4 54 6 42 Q13 50 22 53 Z" fill="#5C4A3A" stroke="#3A2A1E" strokeWidth="2.2" />
+    <path d="M12 68 Q2 66 2 56 Q9 62 17 64 Z" fill="#5C4A3A" stroke="#3A2A1E" strokeWidth="2.2" />
+    <path d="M34 52 Q24 46 22 58 Q32 63 42 57 Z" fill="#5C4A3A" stroke="#3A2A1E" strokeWidth="2.2" />
+    <circle cx="74" cy="36" r="13" fill="#8C7B6B" stroke="#3A2A1E" strokeWidth="3" />
+    <circle cx="78" cy="32" r="2.6" fill="#1A1A1A" />
+    <ellipse cx="86" cy="39" rx="10" ry="7" fill="#D9A227" stroke="#8A6A10" strokeWidth="2.2" transform="rotate(-8 86 39)" />
+    <path d="M94 35 Q99 39 94 44" fill="none" stroke="#8A6A10" strokeWidth="3" strokeLinecap="round" />
+    <path d="M36 84 L34 102 M56 84 L58 102" stroke="#3A2A1E" strokeWidth="5.5" strokeLinecap="round" />
+    <path d="M25 102 L43 102 M48 103 L68 103" stroke="#D9A227" strokeWidth="4.5" strokeLinecap="round" />
+  </svg>
+);
+
+const Mozambique: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="15" y="75" width="70" height="9" fill="#C9973A" stroke="#6B4A1E" strokeWidth="2.4" />
+    <rect x="20" y="63" width="60" height="9" fill="#D9A94A" stroke="#6B4A1E" strokeWidth="2.2" />
+    <rect x="25" y="51" width="50" height="9" fill="#C9973A" stroke="#6B4A1E" strokeWidth="2.2" />
+    <rect x="30" y="39" width="40" height="9" fill="#D9A94A" stroke="#6B4A1E" strokeWidth="2" />
+    <rect x="35" y="27" width="30" height="9" fill="#C9973A" stroke="#6B4A1E" strokeWidth="2" />
+    <ellipse cx="26" cy="93" rx="7" ry="5" fill="#8B5A2B" stroke="#5C3A21" strokeWidth="2" />
+    <ellipse cx="50" cy="95" rx="8" ry="5.5" fill="#8B5A2B" stroke="#5C3A21" strokeWidth="2" />
+    <ellipse cx="74" cy="93" rx="7" ry="5" fill="#8B5A2B" stroke="#5C3A21" strokeWidth="2" />
+    <path d="M22 22 L44 42" stroke="#3A2A1E" strokeWidth="3" strokeLinecap="round" />
+    <circle cx="20" cy="19" r="4.5" fill="#3A2A1E" />
+    <path d="M78 22 L56 42" stroke="#3A2A1E" strokeWidth="3" strokeLinecap="round" />
+    <circle cx="80" cy="19" r="4.5" fill="#3A2A1E" />
+  </svg>
+);
+
+const Niger: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M26 64 L24 95 M34 64 L33 95 M50 62 L52 95 M58 60 L61 95" stroke="#8A5A10" strokeWidth="5" strokeLinecap="round" />
+    <path d="M20 62 Q18 40 38 36 Q54 34 60 44 Q64 52 58 60 Q40 68 24 64 Z" fill="#D9A227" stroke="#8A5A10" strokeWidth="3" />
+    <path d="M52 42 Q58 26 66 14 Q70 8 74 8 Q78 8 76 14 Q70 24 62 40 Z" fill="#D9A227" stroke="#8A5A10" strokeWidth="3" />
+    <ellipse cx="76" cy="10" rx="9" ry="7" fill="#D9A227" stroke="#8A5A10" strokeWidth="2.6" />
+    <circle cx="72" cy="2" r="2.4" fill="#8A5A10" />
+    <circle cx="80" cy="2" r="2.4" fill="#8A5A10" />
+    <circle cx="79" cy="9" r="1.3" fill="#2A1A0E" />
+    <path d="M84 12 L88 14 L84 17 Z" fill="#8A5A10" />
+    <path d="M28 46 L36 44 L38 52 L30 54 Z" fill="#8A5A10" opacity="0.9" />
+    <path d="M42 40 L50 39 L51 47 L43 48 Z" fill="#8A5A10" opacity="0.9" />
+    <path d="M60 28 L66 25 L68 32 L62 34 Z" fill="#8A5A10" opacity="0.9" />
+    <path d="M22 56 L29 55 L30 61 L23 62 Z" fill="#8A5A10" opacity="0.9" />
+    <path d="M20 58 Q12 62 14 72" stroke="#8A5A10" strokeWidth="3" fill="none" strokeLinecap="round" />
+    <circle cx="14" cy="74" r="2.6" fill="#8A5A10" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -2510,6 +2581,10 @@ export const emblems: Record<string, EmblemComponent> = {
   "south-sudan": SouthSudan,
   tanzania: Tanzania,
   togo: Togo,
+  mauritania: Mauritania,
+  mauritius: Mauritius,
+  mozambique: Mozambique,
+  niger: Niger,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {
