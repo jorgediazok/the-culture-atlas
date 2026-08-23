@@ -77,6 +77,31 @@ browser's renderer applies those deterministically. The banned thing is only
 
 ## Other recurring accuracy fixes (apply this level of scrutiny by default)
 
+- **Disconnected joints (neck/limb/tail floating away from the body):** when
+  a figure is built from more than one path/shape meant to connect (neck to
+  body, limb to torso, arm to shoulder, tail to body, shell to head/legs),
+  it's easy to write coordinates that nearly-but-don't-quite meet, leaving a
+  visible gap where the two pieces should join — the shape reads as
+  literally detached, floating a few pixels off the body it's supposed to
+  be part of. This bit Niger's `LasUltimasJirafasSalvajesDeAfricaOccidental`
+  giraffe (2026-08-23): the neck path's bottom endpoint sat 10px above the
+  body ellipse's top edge, so the neck looked severed from the body — caught
+  by the user visually, not by any automated check. **Fix pattern:** don't
+  just make two paths touch at a shared coordinate — extend the piece being
+  attached (the neck, limb, etc.) 15–25 units *into* the interior of the
+  piece it attaches to, then draw the attaching piece *first* and the larger
+  core shape it joins *second*, so the core shape's opaque fill paints over
+  the overlap and cleanly absorbs the seam (including hiding the attaching
+  piece's own stroke where it would otherwise cross visibly). A second,
+  subtler version of this bug hit Seychelles' Aldabra tortoise shortly after:
+  the legs were checked against the shell ellipse's bounding-box edge rather
+  than its actual curved boundary, so at the ellipse's sides (where the
+  curve rises above the bounding box) the real overlap was only 2–8px
+  instead of the intended 15–25px — always check against the true curve/path
+  of the shape being joined, not a rough box around it. When a figure has
+  multiple joints, check every single one numerically (endpoint coordinates
+  of both pieces, and their true geometry at that point) before finishing —
+  don't eyeball one and assume the rest are fine.
 - **Horse + rider compositions:** a horse silhouette and its rider tend to
   merge into one blob if drawn as two overlapping same-toned shapes. Fix:
   give the horse a distinct elongated body + separately-drawn neck/head
@@ -438,8 +463,39 @@ not hand-tuned arc flags), Mauritius is a dodo in side profile, Mozambique
 is a stepped timbila xylophone with crossed mallets, Niger is a giraffe in
 side profile (checked first that no other emblem among ~180 already used a
 giraffe). All four passed `tsc`, `eslint`, the id-matching audit, and a
-full `rm -rf .next && npm run build` (390 static paths). Not committed as
-of the end of this batch — awaiting explicit user request to commit.
+full `rm -rf .next && npm run build` (390 static paths). Committed
+(`b813cc8`) and pushed same session. The giraffe's neck-body gap (see the
+new "Disconnected joints" bullet above) was caught by the user right after
+and fixed in a follow-up commit (`498b329`).
+
+**Africa session continued (2026-08-23) — Senegal, Seychelles, Sierra
+Leone added from scratch**, bringing the atlas to 198 countries, using the
+same parallel-background-agent pattern as the Mauritania/Mauritius/
+Mozambique/Niger batch above. This round's agent prompts explicitly cited
+the giraffe neck-gap bug and required a mandatory numeric joint-overlap
+self-check pass over every multi-part figure before finishing (see the
+"Disconnected joints" bullet above, added as a direct result of this
+batch). It worked: Senegal's agent caught and fixed a ~2px gap in a
+drummer's leg-to-torso join, and Seychelles' agent caught and fixed the
+bounding-box-vs-true-curve mistake in its Aldabra tortoise's leg overlaps,
+both before reporting back rather than shipping first and fixing after.
+Content: Senegal (Gorée Island/Door of No Return, laamb wrestling, mbalax/
+sabar drumming, teranga hospitality, thieboudienne, the boubou robe, the
+Senegambian stone circles, griots and the kora, Lac Rose, Saint-Louis
+colonial architecture), Seychelles (the coco de mer palm, Aldabra giant
+tortoises, the pink granite boulder beaches, moutya music/dance, Creole
+cuisine, La Digue's ox-carts, gingerbread architecture, vanilla, pirogue
+boat-building), Sierra Leone (Freetown's founding/Krio identity, Bunce
+Island told in the same memorial tone as Togo's Aného and Senegal's Gorée,
+the Cotton Tree, Sowei masks, Tacugama chimpanzee sanctuary, gara cloth,
+rice culture, palm wine, Fourah Bay College) — Sierra Leone deliberately
+avoided the 1991–2002 civil war and "blood diamond" framing entirely, same
+policy as other difficult-history countries. Emblems: Senegal is a kora
+harp-lute, Seychelles is an Aldabra tortoise in side profile, Sierra Leone
+is a stylized Cotton Tree. All three passed `tsc`, `eslint`, the
+id-matching audit, and a full `rm -rf .next && npm run build` (198
+countries × 2 langs = 396 static country paths). Not committed as of the
+end of this batch — awaiting explicit user request to commit.
 
 ## Deferred, larger-scope task (explicitly NOT started — user said to wait)
 

@@ -193,6 +193,9 @@ import { mauritaniaIllustrations } from "./mauritania";
 import { mauritiusIllustrations } from "./mauritius";
 import { mozambiqueIllustrations } from "./mozambique";
 import { nigerIllustrations } from "./niger";
+import { senegalIllustrations } from "./senegal";
+import { seychellesIllustrations } from "./seychelles";
+import { sierraLeoneIllustrations } from "./sierra-leone";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -391,6 +394,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   mauritius: mauritiusIllustrations,
   mozambique: mozambiqueIllustrations,
   niger: nigerIllustrations,
+  senegal: senegalIllustrations,
+  seychelles: seychellesIllustrations,
+  "sierra-leone": sierraLeoneIllustrations,
 };
 
 export function getIllustration(

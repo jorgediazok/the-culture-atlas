@@ -2389,6 +2389,40 @@ const Niger: EmblemComponent = () => (
   </svg>
 );
 
+const Senegal: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M50 100 L50 15" stroke="#5C3A21" strokeWidth="5" strokeLinecap="round" />
+    <ellipse cx="50" cy="72" rx="26" ry="20" fill="#B5651D" stroke="#5C3A21" strokeWidth="2.4" />
+    <path d="M28 66 Q50 56 72 66" fill="none" stroke="#E8C97A" strokeWidth="3" opacity="0.85" />
+    <path d="M34 58 L34 88 M42 55 L42 91 M50 54 L50 92 M58 55 L58 91 M66 58 L66 88" stroke="#E8C97A" strokeWidth="1.6" opacity="0.9" />
+    <circle cx="50" cy="17" r="4" fill="#5C3A21" />
+  </svg>
+);
+
+const Seychelles: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M20 62 L18 98 M35 66 L33 100 M55 66 L57 100 M68 60 L70 96" stroke="#4A3A1E" strokeWidth="6" strokeLinecap="round" />
+    <path d="M20 55 Q8 58 5 66 Q3 71 9 72 Q16 66 22 57 Z" fill="#4A3A1E" stroke="#2A1E0E" strokeWidth="1.8" />
+    <path d="M58 40 Q75 34 85 28 Q92 25 94 30 Q95 35 88 39 Q76 46 62 50 Z" fill="#5C6B3A" stroke="#2A1E0E" strokeWidth="1.8" />
+    <path d="M10 66 Q8 40 35 34 Q60 30 72 46 Q78 55 72 64 Q50 74 28 70 Q14 70 10 66 Z" fill="#6B7A45" stroke="#2A1E0E" strokeWidth="2.4" />
+    <path d="M22 44 Q30 58 24 68 M40 38 Q42 56 38 70 M56 40 Q54 54 52 64" stroke="#2A1E0E" strokeWidth="1.4" fill="none" opacity="0.55" />
+    <ellipse cx="90" cy="32" rx="10" ry="8" fill="#5C6B3A" stroke="#2A1E0E" strokeWidth="1.8" />
+    <path d="M80 38 Q90 42 98 37" stroke="#2A1E0E" strokeWidth="1.3" fill="none" />
+    <circle cx="94" cy="28" r="1.8" fill="#1A1A1A" />
+  </svg>
+);
+
+const SierraLeone: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M0 110 L0 94 Q50 80 100 94 L100 110 Z" fill="#3A7A45" stroke="#1B4B1E" strokeWidth="2.4" />
+    <path d="M40 96 Q35 80 42 66 L44 40 L56 40 L58 66 Q65 80 60 96 Z" fill="#6B4A2E" stroke="#2A1A0E" strokeWidth="2.6" />
+    <circle cx="50" cy="32" r="22" fill="#2F6B3A" stroke="#123322" strokeWidth="2.4" />
+    <circle cx="29" cy="37" r="15" fill="#2F6B3A" stroke="#123322" strokeWidth="2.4" />
+    <circle cx="71" cy="37" r="15" fill="#2F6B3A" stroke="#123322" strokeWidth="2.4" />
+    <circle cx="50" cy="15" r="14" fill="#2F6B3A" stroke="#123322" strokeWidth="2.4" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -2585,6 +2619,9 @@ export const emblems: Record<string, EmblemComponent> = {
   mauritius: Mauritius,
   mozambique: Mozambique,
   niger: Niger,
+  senegal: Senegal,
+  seychelles: Seychelles,
+  "sierra-leone": SierraLeone,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

@@ -4876,4 +4876,79 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "senegal",
+    flagEmoji: "🇸🇳",
+    accentColor: "#00853F",
+    continent: "africa",
+    population: 18000000,
+    translations: {
+      es: {
+        name: "Senegal",
+        intro:
+          "Gorée y la Puerta del No Retorno, símbolo de memoria frente a la costa de Dakar, el laamb, la lucha tradicional que llena estadios y convierte a sus campeones en ídolos nacionales, y la teranga, la palabra wólof que resume la hospitalidad legendaria del país. Estas páginas son para descubrir un Senegal del thieboudienne, el plato de arroz y pescado nacido en Saint-Louis, los griots que tocan la kora de veintiuna cuerdas para cantar la historia de cada linaje, y el Lago Rosa, el lago que una diminuta bacteria tiñe de un color imposible.",
+        capital: "Dakar",
+        language: "Francés",
+        currency: "Franco CFA de África Occidental (XOF)",
+      },
+      en: {
+        name: "Senegal",
+        intro:
+          "Gorée and the Door of No Return, a symbol of memory off the coast of Dakar, laamb, the traditional wrestling that fills stadiums and turns its champions into national idols, and teranga, the Wolof word that sums up the country's legendary hospitality. These pages are here to discover a Senegal of thieboudienne, the rice and fish dish born in Saint-Louis, the griots who play the twenty-one-string kora to sing each lineage's history, and Lac Rose, the lake a tiny bacterium tints an impossible color.",
+        capital: "Dakar",
+        language: "French",
+        currency: "West African CFA Franc (XOF)",
+      },
+    },
+  },
+  {
+    slug: "seychelles",
+    flagEmoji: "🇸🇨",
+    accentColor: "#1B7A9C",
+    continent: "africa",
+    population: 100000,
+    translations: {
+      es: {
+        name: "Seychelles",
+        intro:
+          "Un archipiélago de granito rosado y selva tropical perdido en el océano Índico, hogar de la semilla más grande del mundo y de tortugas gigantes centenarias. Cada isla guarda su propio ritmo, entre playas esculpidas por el tiempo y una cultura criolla que canta, cocina y navega a su manera.",
+        capital: "Victoria",
+        language: "Criollo seychellense",
+        currency: "Rupia seychellense (SCR)",
+      },
+      en: {
+        name: "Seychelles",
+        intro:
+          "A pink-granite archipelago of tropical rainforest scattered across the Indian Ocean, home to the world's largest seed and centuries-old giant tortoises. Each island keeps its own rhythm, between beaches sculpted by time and a Creole culture that sings, cooks, and sails its own way.",
+        capital: "Victoria",
+        language: "Seychellois Creole",
+        currency: "Seychellois Rupee (SCR)",
+      },
+    },
+  },
+  {
+    slug: "sierra-leone",
+    flagEmoji: "🇸🇱",
+    accentColor: "#1B4B7A",
+    continent: "africa",
+    population: 8500000,
+    translations: {
+      es: {
+        name: "Sierra Leona",
+        intro:
+          "Un país que nació como refugio para personas liberadas de la esclavitud y terminó forjando una identidad criolla única, la de los krios, bajo un árbol centenario que todavía preside el centro de Freetown. Estas páginas son para descubrir sus máscaras talladas por mujeres, sus chimpancés rescatados, su tela teñida a mano y su relación profunda, casi sagrada, con el arroz.",
+        capital: "Freetown",
+        language: "Inglés",
+        currency: "Leone de Sierra Leona (SLE)",
+      },
+      en: {
+        name: "Sierra Leone",
+        intro:
+          "A country born as a refuge for people freed from slavery that went on to forge a unique Creole identity, the Krio, under a centuries-old tree that still presides over downtown Freetown. These pages are here to discover its women-carved masks, its rescued chimpanzees, its hand-dyed cloth, and its deep, almost sacred relationship with rice.",
+        capital: "Freetown",
+        language: "English",
+        currency: "Sierra Leonean Leone (SLE)",
+      },
+    },
+  },
 ];
