@@ -192,6 +192,10 @@ import { liberia } from "./liberia";
 import { madagascar } from "./madagascar";
 import { malawi } from "./malawi";
 import { mali } from "./mali";
+import { sudan } from "./sudan";
+import { southSudan } from "./south-sudan";
+import { tanzania } from "./tanzania";
+import { togo } from "./togo";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -381,6 +385,10 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   madagascar,
   malawi,
   mali,
+  sudan,
+  "south-sudan": southSudan,
+  tanzania,
+  togo,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

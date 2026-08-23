@@ -2274,6 +2274,50 @@ const Mali: EmblemComponent = () => (
   </svg>
 );
 
+const Sudan: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="30,88 50,20 70,88" fill="#B5651D" stroke="#7A4A20" strokeWidth="2.6" />
+    <path d="M44.1 40 L55.9 40 M40.6 52 L59.4 52 M37.1 64 L62.9 64 M33.5 76 L66.5 76" stroke="#7A4A20" strokeWidth="1.8" opacity="0.65" />
+    <rect x="45" y="76" width="10" height="12" fill="#4A2E12" />
+    <circle cx="74" cy="22" r="9" fill="#D9A227" stroke="#8A6A10" strokeWidth="2" />
+    <path d="M74 6 L74 12 M90 22 L84 22 M86 8 L82 12 M86 36 L82 32 M62 32 L66 36" stroke="#D9A227" strokeWidth="3" strokeLinecap="round" />
+  </svg>
+);
+
+const SouthSudan: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M35 42 Q15 38 10 18 Q8 12 14 14 Q22 28 38 40 Q40 44 35 42 Z" fill="#C9B48A" stroke="#8B7355" strokeWidth="2.4" />
+    <path d="M65 42 Q85 38 90 18 Q92 12 86 14 Q78 28 62 40 Q60 44 65 42 Z" fill="#C9B48A" stroke="#8B7355" strokeWidth="2.4" />
+    <path d="M26 50 L18 44 L30 56 Z" fill="#D9C9A3" stroke="#8B7355" strokeWidth="2" />
+    <path d="M74 50 L82 44 L70 56 Z" fill="#D9C9A3" stroke="#8B7355" strokeWidth="2" />
+    <path d="M50 38 Q30 42 28 63 Q26 80 40 88 Q50 93 60 88 Q74 80 72 63 Q70 42 50 38 Z" fill="#D9C9A3" stroke="#8B7355" strokeWidth="2.6" />
+    <circle cx="38" cy="63" r="3" fill="#1A1A1A" />
+    <circle cx="62" cy="63" r="3" fill="#1A1A1A" />
+    <ellipse cx="50" cy="86" rx="10" ry="6" fill="#8B7355" />
+    <circle cx="45" cy="85" r="1.4" fill="#1A1A1A" />
+    <circle cx="55" cy="85" r="1.4" fill="#1A1A1A" />
+  </svg>
+);
+
+const Tanzania: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="15,88 35,58 46,74 55,28 66,64 76,52 88,88" fill="#8C7B6B" stroke="#5C4A3A" strokeWidth="2.6" />
+    <polygon points="45,50 55,28 65,50 55,44 Z" fill="#F5F0E6" stroke="#C9C2B0" strokeWidth="2" />
+    <ellipse cx="34" cy="63" rx="13" ry="5" fill="#F5F0E6" opacity="0.75" />
+    <ellipse cx="72" cy="58" rx="14" ry="5" fill="#F5F0E6" opacity="0.75" />
+  </svg>
+);
+
+const Togo: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M26 26 L74 26 L70 88 Q50 96 30 88 Z" fill="#F5F0E6" stroke="#5C4A3A" strokeWidth="2.6" />
+    {[0, 1, 2, 3, 4].map((i) => (
+      <rect key={i} x={28 + i * 9.2} y="28" width="9.2" height="58" fill={["#C8102E", "#D9A227", "#3A7A45", "#1B7A9C", "#C8102E"][i]} opacity="0.9" />
+    ))}
+    <path d="M30 88 Q50 96 70 88 L68 92 Q50 100 32 92 Z" fill="#5C4A3A" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -2462,6 +2506,10 @@ export const emblems: Record<string, EmblemComponent> = {
   madagascar: Madagascar,
   malawi: Malawi,
   mali: Mali,
+  sudan: Sudan,
+  "south-sudan": SouthSudan,
+  tanzania: Tanzania,
+  togo: Togo,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

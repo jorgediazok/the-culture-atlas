@@ -185,6 +185,10 @@ import { liberiaIllustrations } from "./liberia";
 import { madagascarIllustrations } from "./madagascar";
 import { malawiIllustrations } from "./malawi";
 import { maliIllustrations } from "./mali";
+import { sudanIllustrations } from "./sudan";
+import { southSudanIllustrations } from "./south-sudan";
+import { tanzaniaIllustrations } from "./tanzania";
+import { togoIllustrations } from "./togo";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -375,6 +379,10 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   madagascar: madagascarIllustrations,
   malawi: malawiIllustrations,
   mali: maliIllustrations,
+  sudan: sudanIllustrations,
+  "south-sudan": southSudanIllustrations,
+  tanzania: tanzaniaIllustrations,
+  togo: togoIllustrations,
 };
 
 export function getIllustration(

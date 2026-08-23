@@ -4676,4 +4676,104 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "sudan",
+    flagEmoji: "🇸🇩",
+    accentColor: "#C97C3D",
+    continent: "africa",
+    population: 48100000,
+    translations: {
+      es: {
+        name: "Sudán",
+        intro:
+          "Más de doscientas pirámides, muchas más que Egipto, construidas por los faraones negros del reino de Kush, el punto exacto de Jartum donde el Nilo Azul y el Nilo Blanco se encuentran sin mezclarse del todo, y los derviches sufíes que giran en éxtasis cada viernes en Omdurmán. Estas páginas son para descubrir un Sudán de luchadores nuba cubiertos de ceniza blanca, pueblos nubios pintados de colores brillantes junto al río, y el toub, la única tela que una mujer envuelve alrededor de todo el cuerpo sin una sola costura.",
+        capital: "Jartum",
+        language: "Árabe e inglés",
+        currency: "Libra sudanesa (SDG)",
+      },
+      en: {
+        name: "Sudan",
+        intro:
+          "More than two hundred pyramids, far more than Egypt, built by the Black Pharaohs of the Kingdom of Kush, the exact spot in Khartoum where the Blue Nile and White Nile meet without fully blending, and the Sufi dervishes who spin in ecstasy every Friday in Omdurman. These pages are here to discover a Sudan of Nuba wrestlers covered in white ash, Nubian villages painted in bright colors along the river, and the toub, the single cloth a woman wraps around her entire body without a single seam.",
+        capital: "Khartoum",
+        language: "Arabic and English",
+        currency: "Sudanese Pound (SDG)",
+      },
+    },
+  },
+  {
+    slug: "south-sudan",
+    flagEmoji: "🇸🇸",
+    accentColor: "#1B4F2E",
+    continent: "africa",
+    population: 11100000,
+    translations: {
+      es: {
+        name: "Sudán del Sur",
+        intro:
+          "El país más joven del mundo, independiente recién desde 2011, el Sudd, un pantano tan vasto que detuvo durante siglos a los exploradores europeos, y el ganado que para el pueblo dinka vale más que cualquier otra riqueza, con canciones compuestas para un solo buey. Estas páginas son para descubrir un Sudán del Sur de pastores mundari cubiertos de ceniza de estiércol, la migración de más de un millón de antílopes kob que casi nadie conoce, y los corsés de cuentas que cuentan, con su color, la edad exacta de una mujer.",
+        capital: "Yuba",
+        language: "Inglés",
+        currency: "Libra sursudanesa (SSP)",
+      },
+      en: {
+        name: "South Sudan",
+        intro:
+          "The world's youngest country, independent only since 2011, the Sudd, a swamp so vast it stopped European explorers for centuries, and the cattle that, for the Dinka, matter more than any other wealth, each one worth its own composed song. These pages are here to discover a South Sudan of Mundari herders covered in dung ash, the migration of more than a million kob antelope that almost no one knows about, and beaded corsets that track, through their color, a woman's exact age.",
+        capital: "Juba",
+        language: "English",
+        currency: "South Sudanese Pound (SSP)",
+      },
+    },
+  },
+  {
+    slug: "tanzania",
+    flagEmoji: "🇹🇿",
+    accentColor: "#D9A227",
+    continent: "africa",
+    population: 67400000,
+    translations: {
+      es: {
+        name: "Tanzania",
+        intro:
+          "El Kilimanjaro, la montaña independiente más alta del mundo con nieve a pocos grados del ecuador, la Gran Migración del Serengeti, con más de un millón y medio de ñus cruzando el río Mara, y el cráter del Ngorongoro, la caldera volcánica intacta más grande del planeta. Estas páginas son para descubrir una Tanzania de Stone Town en Zanzíbar, una ciudad de piedra con quinientas puertas talladas a mano, la garganta de Olduvai, donde se encontraron algunos de los primeros humanos, y el adumu masái, el salto ritual que mide el prestigio de un guerrero.",
+        capital: "Dodoma",
+        language: "Suajili e inglés",
+        currency: "Chelín tanzano (TZS)",
+      },
+      en: {
+        name: "Tanzania",
+        intro:
+          "Kilimanjaro, the tallest freestanding mountain in the world, snow-capped just a few degrees from the equator, the Great Serengeti Migration, with more than a million and a half wildebeest crossing the Mara River, and Ngorongoro Crater, the largest intact volcanic caldera on the planet. These pages are here to discover a Tanzania of Stone Town in Zanzibar, a stone city with five hundred hand-carved doors, Olduvai Gorge, where some of the first humans were found, and the Maasai adumu, the ritual jump that measures a warrior's standing.",
+        capital: "Dodoma",
+        language: "Swahili and English",
+        currency: "Tanzanian Shilling (TZS)",
+      },
+    },
+  },
+  {
+    slug: "togo",
+    flagEmoji: "🇹🇬",
+    accentColor: "#C8102E",
+    continent: "africa",
+    population: 8900000,
+    translations: {
+      es: {
+        name: "Togo",
+        intro:
+          "El mercado de Akodessewa, la mayor farmacia vudú del mundo, con cráneos, hierbas y amuletos vendidos por sacerdotes tradicionales, Togoville, el pueblo lacustre que le dio nombre a todo el país, y el evala, la lucha ritual que convierte a un adolescente kabiyè en hombre. Estas páginas son para descubrir un Togo de las nana benz, las comerciantes que construyeron un imperio con tela estampada, el kente ewe, tejido en tiras angostas que se pueden leer como un texto, y el monte Agou, la montaña más alta del país cubierta de plantaciones de café y cacao.",
+        capital: "Lomé",
+        language: "Francés",
+        currency: "Franco CFA de África Occidental (XOF)",
+      },
+      en: {
+        name: "Togo",
+        intro:
+          "The Akodessewa market, the world's largest voodoo pharmacy, with skulls, herbs, and amulets sold by traditional priests, Togoville, the lakeside village that gave the whole country its name, and evala, the ritual wrestling that turns a Kabye teenager into a man. These pages are here to discover a Togo of the nana benz, the businesswomen who built an empire out of printed cloth, Ewe kente, woven in narrow strips that can be read like a text, and Mount Agou, the country's highest peak, covered in coffee and cacao plantations.",
+        capital: "Lomé",
+        language: "French",
+        currency: "West African CFA Franc (XOF)",
+      },
+    },
+  },
 ];
