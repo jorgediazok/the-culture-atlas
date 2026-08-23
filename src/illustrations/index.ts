@@ -181,6 +181,10 @@ import { equatorialGuineaIllustrations } from "./equatorial-guinea";
 import { gabonIllustrations } from "./gabon";
 import { guineaIllustrations } from "./guinea";
 import { guineaBissauIllustrations } from "./guinea-bissau";
+import { liberiaIllustrations } from "./liberia";
+import { madagascarIllustrations } from "./madagascar";
+import { malawiIllustrations } from "./malawi";
+import { maliIllustrations } from "./mali";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -367,6 +371,10 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   gabon: gabonIllustrations,
   guinea: guineaIllustrations,
   "guinea-bissau": guineaBissauIllustrations,
+  liberia: liberiaIllustrations,
+  madagascar: madagascarIllustrations,
+  malawi: malawiIllustrations,
+  mali: maliIllustrations,
 };
 
 export function getIllustration(

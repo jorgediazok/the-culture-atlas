@@ -2404,7 +2404,7 @@ export const countries: Country[] = [
   {
     slug: "andorra",
     flagEmoji: "🇦🇩",
-    accentColor: "#0018A8",
+    accentColor: "#2451A4",
     continent: "europe",
     population: 81000,
     translations: {
@@ -4572,6 +4572,106 @@ export const countries: Country[] = [
           "The Bijagós Archipelago, where hippos swim in the sea and women traditionally choose their husbands, Bissau Carnival with its horned cow masks, and the cashew, the fruit sustaining an entire country's economy. These pages are here to discover a Guinea-Bissau of gumbe, the rhythm born on the streets of the capital, Kriol, the language uniting a country of more than twenty ethnic groups, and Amílcar Cabral, the thinker who imagined the liberation of an entire region of Africa.",
         capital: "Bissau",
         language: "Portuguese",
+        currency: "West African CFA Franc (XOF)",
+      },
+    },
+  },
+  {
+    slug: "liberia",
+    flagEmoji: "🇱🇷",
+    accentColor: "#BF0A30",
+    continent: "africa",
+    population: 5400000,
+    translations: {
+      es: {
+        name: "Liberia",
+        intro:
+          "La primera república independiente de África, fundada en 1822 por esclavos liberados, una bandera que se parece a la estadounidense pero cuenta su propia historia, y las máscaras sowei, las únicas de todo el continente hechas para ser usadas solo por mujeres. Estas páginas son para descubrir una Liberia de casas palava donde el pueblo entero resuelve sus conflictos hablando, el hipopótamo pigmeo que se esconde en la selva del Parque Sapo, y los bailarines dan que caminan sobre zancos como espíritus del bosque.",
+        capital: "Monrovia",
+        language: "Inglés",
+        currency: "Dólar liberiano (LRD)",
+      },
+      en: {
+        name: "Liberia",
+        intro:
+          "Africa's first independent republic, founded in 1822 by freed slaves, a flag that resembles the American one but tells its own story, and sowei masks, the only masks on the entire continent made to be worn exclusively by women. These pages are here to discover a Liberia of palava huts, where the whole village resolves its conflicts by talking, the pygmy hippo hiding deep in Sapo Park's rainforest, and Dan stilt dancers who walk as forest spirits among the community.",
+        capital: "Monrovia",
+        language: "English",
+        currency: "Liberian Dollar (LRD)",
+      },
+    },
+  },
+  {
+    slug: "madagascar",
+    flagEmoji: "🇲🇬",
+    accentColor: "#C1440E",
+    continent: "africa",
+    population: 30300000,
+    translations: {
+      es: {
+        name: "Madagascar",
+        intro:
+          "La Avenida de los Baobabs, árboles gigantes que parecen tener las raíces hacia el cielo, los lémures, primates que no existen en ningún otro lugar del planeta, y la famadihana, la fiesta donde familias enteras vuelven a bailar con los huesos de sus antepasados. Estas páginas son para descubrir una Madagascar del Tsingy de Bemaraha, un bosque de piedra donde nadie puede caminar descalzo, el cebú de cuernos largos que mide la riqueza de una familia, y la valiha, el instrumento de bambú que suena como un arpa.",
+        capital: "Antananarivo",
+        language: "Malgache y francés",
+        currency: "Ariary malgache (MGA)",
+      },
+      en: {
+        name: "Madagascar",
+        intro:
+          "The Avenue of the Baobabs, giant trees that look like their roots grow toward the sky, lemurs, primates found nowhere else on the planet, and famadihana, the celebration where entire families dance again with their ancestors' bones. These pages are here to discover a Madagascar of the Tsingy de Bemaraha, a stone forest where no one can walk barefoot, the long-horned zebu that measures a family's wealth, and the valiha, the bamboo instrument that sounds like a harp.",
+        capital: "Antananarivo",
+        language: "Malagasy and French",
+        currency: "Malagasy Ariary (MGA)",
+      },
+    },
+  },
+  {
+    slug: "malawi",
+    flagEmoji: "🇲🇼",
+    accentColor: "#0EA5B8",
+    continent: "africa",
+    population: 20900000,
+    translations: {
+      es: {
+        name: "Malaui",
+        intro:
+          "El lago Malaui, con más especies de peces que ningún otro lago del planeta, el gule wamkulu, el gran baile de máscaras que solo los iniciados de la sociedad nyau conocen, y el monte Mulanje, una isla de roca que flota sobre un mar de nubes. Estas páginas son para descubrir un Malaui de arte rupestre con miles de años de antigüedad, John Chilembwe, el predicador que desafió al imperio británico mucho antes que otros líderes africanos, y un país que se ganó el apodo de 'corazón cálido de África' por cómo recibe a cualquiera.",
+        capital: "Lilongüe",
+        language: "Inglés y chichewa",
+        currency: "Kwacha malauí (MWK)",
+      },
+      en: {
+        name: "Malawi",
+        intro:
+          "Lake Malawi, home to more fish species than any other lake on the planet, gule wamkulu, the great masked dance only initiates of the Nyau society understand, and Mount Mulanje, an island of rock floating above a sea of clouds. These pages are here to discover a Malawi of rock art thousands of years old, John Chilembwe, the preacher who defied the British empire long before other African leaders, and a country that earned the nickname 'warm heart of Africa' for how it welcomes anyone.",
+        capital: "Lilongwe",
+        language: "English and Chichewa",
+        currency: "Malawian Kwacha (MWK)",
+      },
+    },
+  },
+  {
+    slug: "mali",
+    flagEmoji: "🇲🇱",
+    accentColor: "#B5651D",
+    continent: "africa",
+    population: 22600000,
+    translations: {
+      es: {
+        name: "Malí",
+        intro:
+          "Tombuctú, la ciudad legendaria de los manuscritos dorados, la Gran Mezquita de Djenné, el edificio de barro más grande del mundo que toda una comunidad repara a mano cada año, y Mansa Musa, el hombre más rico que existió jamás. Estas páginas son para descubrir un Malí de los dogón, un pueblo que construyó su hogar en un acantilado, la Carta de Manden, una de las primeras declaraciones de derechos humanos del mundo, y el azalai, las caravanas de camellos que todavía cruzan el Sahara en busca de sal.",
+        capital: "Bamako",
+        language: "Francés",
+        currency: "Franco CFA de África Occidental (XOF)",
+      },
+      en: {
+        name: "Mali",
+        intro:
+          "Timbuktu, the legendary city of golden manuscripts, the Great Mosque of Djenné, the largest mud-brick building in the world, replastered by hand by an entire community each year, and Mansa Musa, the richest person who ever lived. These pages are here to discover a Mali of the Dogon, a people who built their home into a cliff, the Manden Charter, one of the world's earliest human rights declarations, and the azalai, the camel caravans still crossing the Sahara in search of salt.",
+        capital: "Bamako",
+        language: "French",
         currency: "West African CFA Franc (XOF)",
       },
     },
