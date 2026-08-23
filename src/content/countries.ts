@@ -4951,4 +4951,79 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "nigeria",
+    flagEmoji: "🇳🇬",
+    accentColor: "#1F7A3D",
+    continent: "africa",
+    population: 223000000,
+    translations: {
+      es: {
+        name: "Nigeria",
+        intro:
+          "Nollywood, la segunda industria de cine más grande del mundo por volumen, el afrobeat de Fela Kuti y el afrobeats global de Wizkid y Burna Boy, y las cabezas de bronce del antiguo reino de Benín, fundidas durante siglos por el gremio real de Benin City. Estas páginas son para descubrir una Nigeria del adire añil teñido a mano por mujeres yorubas, el mmanwu, la mascarada igbo de espíritus ancestrales, el durbar, el desfile ecuestre que honra a los emires del norte, y Lagos, la megaciudad más grande de África.",
+        capital: "Abuja",
+        language: "Inglés",
+        currency: "Naira nigeriana (NGN)",
+      },
+      en: {
+        name: "Nigeria",
+        intro:
+          "Nollywood, the world's second-largest film industry by volume, Fela Kuti's Afrobeat and the global Afrobeats of Wizkid and Burna Boy, and the bronze heads of the ancient Kingdom of Benin, cast for centuries by the royal guild of Benin City. These pages are here to discover a Nigeria of hand-dyed indigo adire cloth woven by Yoruba women, mmanwu, the Igbo masquerade of ancestral spirits, durbar, the horseback parade honoring the northern emirs, and Lagos, Africa's largest megacity.",
+        capital: "Abuja",
+        language: "English",
+        currency: "Nigerian Naira (NGN)",
+      },
+    },
+  },
+  {
+    slug: "rwanda",
+    flagEmoji: "🇷🇼",
+    accentColor: "#00A1DE",
+    continent: "africa",
+    population: 14000000,
+    translations: {
+      es: {
+        name: "Ruanda",
+        intro:
+          "El Parque Nacional de los Volcanes, refugio de los últimos gorilas de montaña del planeta, el umuganda, la jornada mensual en la que todo el país se detiene para trabajar junto a sus vecinos, y el imigongo, el arte geométrico pintado con estiércol de vaca en espirales de negro, blanco y rojo. Estas páginas son para descubrir un Ruanda de café de altura premiado internacionalmente, tambores reales ingoma, cestas agaseke tejidas como símbolo de paz y Kigali, una de las ciudades más limpias de África.",
+        capital: "Kigali",
+        language: "Kinyaruanda",
+        currency: "Franco ruandés (RWF)",
+      },
+      en: {
+        name: "Rwanda",
+        intro:
+          "Volcanoes National Park, refuge of the planet's last wild mountain gorillas, umuganda, the monthly day when the whole country stops to work alongside its neighbors, and imigongo, the geometric art painted with cow dung in bold spirals of black, white, and red. These pages are here to discover a Rwanda of internationally acclaimed high-altitude coffee, royal ingoma drums, agaseke baskets woven as a symbol of peace, and Kigali, one of Africa's cleanest cities.",
+        capital: "Kigali",
+        language: "Kinyarwanda",
+        currency: "Rwandan Franc (RWF)",
+      },
+    },
+  },
+  {
+    slug: "sao-tome-and-principe",
+    flagEmoji: "🇸🇹",
+    accentColor: "#2E7D32",
+    continent: "africa",
+    population: 230000,
+    translations: {
+      es: {
+        name: "Santo Tomé y Príncipe",
+        intro:
+          "El Pico Cão Grande, una aguja volcánica de seiscientos sesenta y tres metros que perfora la selva del Parque Natural Obô, hogar de aves que no existen en ningún otro lugar del mundo, y las roças, antiguas mansiones cacaoteras coloniales hoy convertidas en sitios de memoria y turismo. Estas páginas son para descubrir un Santo Tomé y Príncipe de teatro Tchiloli representado en plazas de pueblo, calulu servido en cada celebración familiar, y el ecuador cruzando literalmente el pequeño islote de Ilhéu das Rolas.",
+        capital: "São Tomé",
+        language: "Portugués",
+        currency: "Dobra santotomense (STN)",
+      },
+      en: {
+        name: "São Tomé and Príncipe",
+        intro:
+          "Pico Cão Grande, a six-hundred-sixty-three-meter volcanic needle piercing the rainforest of Obô Natural Park, home to birds found nowhere else on Earth, and the roças, old colonial cacao manors now reborn as heritage and tourism sites. These pages are here to discover a São Tomé and Príncipe of Tchiloli folk theater staged in village squares, calulu stew served at every family celebration, and the equator literally crossing the tiny islet of Ilhéu das Rolas.",
+        capital: "São Tomé",
+        language: "Portuguese",
+        currency: "São Tomé and Príncipe Dobra (STN)",
+      },
+    },
+  },
 ];

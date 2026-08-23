@@ -2423,6 +2423,63 @@ const SierraLeone: EmblemComponent = () => (
   </svg>
 );
 
+const Nigeria: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="30" y="92" width="40" height="14" fill="#4A4A4A" stroke="#2A2A2A" strokeWidth="2" />
+    <path d="M35 60 Q30 78 28 92 Q50 100 72 92 Q70 78 65 60 Z" fill="#8A6A10" stroke="#5C4A10" strokeWidth="2" />
+    <ellipse cx="50" cy="48" rx="20" ry="28" fill="#B5872A" stroke="#6B4A10" strokeWidth="2.4" />
+    <path d="M38 30 Q40 12 50 8 Q60 12 62 30 Z" fill="#8A6A10" stroke="#5C4A10" strokeWidth="2" />
+    {[40, 45, 50, 55, 60].map((cx, i) => (
+      <circle key={`crown-${i}`} cx={cx} cy="29" r="1.6" fill={i % 2 === 0 ? "#C1272D" : "#D9A227"} />
+    ))}
+    {[35, 42, 50, 58, 65].map((cx, i) => (
+      <circle key={`beadA-${i}`} cx={cx} cy="64" r="2.4" fill={i % 2 === 0 ? "#C1272D" : "#D9A227"} stroke="#5C4A10" strokeWidth="0.8" />
+    ))}
+    {[32, 42, 50, 58, 68].map((cx, i) => (
+      <circle key={`beadB-${i}`} cx={cx} cy="86" r="2.6" fill={i % 2 === 0 ? "#D9A227" : "#C1272D"} stroke="#5C4A10" strokeWidth="0.8" />
+    ))}
+    <ellipse cx="30" cy="46" rx="4" ry="6" fill="#B5872A" stroke="#6B4A10" strokeWidth="1.6" />
+    <ellipse cx="70" cy="46" rx="4" ry="6" fill="#B5872A" stroke="#6B4A10" strokeWidth="1.6" />
+    <ellipse cx="43" cy="44" rx="3" ry="4" fill="#3A2A10" />
+    <ellipse cx="57" cy="44" rx="3" ry="4" fill="#3A2A10" />
+    <path d="M44 58 Q50 62 56 58" stroke="#3A2A10" strokeWidth="2" fill="none" strokeLinecap="round" />
+  </svg>
+);
+
+const Rwanda: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path
+      d="M55 8 Q38 12 32 24 Q22 28 18 42 Q10 52 16 62 Q12 72 22 76 Q26 84 36 84 Q42 92 54 90 Q66 92 72 100 Q88 85 84 60 Q86 38 72 24 Q64 10 55 8 Z"
+      fill="#2E2E2E"
+      stroke="#141414"
+      strokeWidth="2.6"
+    />
+    <ellipse cx="76" cy="37" rx="9" ry="12" fill="#2E2E2E" stroke="#141414" strokeWidth="2.2" />
+    <path d="M30 26 Q22 34 20 44" stroke="#141414" strokeWidth="2" fill="none" opacity="0.6" />
+    <circle cx="26" cy="36" r="3.6" fill="#141414" />
+    <circle cx="26" cy="36" r="1.4" fill="#8C8C8C" />
+    <ellipse cx="18" cy="60" rx="4" ry="5" fill="#141414" />
+    <path d="M24 70 Q30 74 38 72" stroke="#141414" strokeWidth="2" fill="none" opacity="0.5" />
+  </svg>
+);
+
+const SaoTomeAndPrincipe: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path
+      d="M50 8 Q76 18 80 48 Q84 74 62 96 Q55 103 50 104 Q45 103 38 96 Q16 74 20 48 Q24 18 50 8 Z"
+      fill="#D9A227"
+      stroke="#8A5A10"
+      strokeWidth="2.8"
+    />
+    <path d="M50 12 Q46 55 50 100 M38 20 Q28 55 40 92 M62 20 Q72 55 60 92" fill="none" stroke="#8A5A10" strokeWidth="1.8" opacity="0.55" />
+    <path d="M62 30 Q84 40 78 66 Q73 84 58 92 Q64 68 62 30 Z" fill="#B5651D" stroke="#7A4010" strokeWidth="2.2" />
+    {[[64, 45], [70, 51], [66, 59], [72, 64], [65, 72], [71, 77]].map(([cx, cy], i) => (
+      <ellipse key={i} cx={cx} cy={cy} rx="5" ry="4" fill="#F5E0A8" stroke="#B8860B" strokeWidth="1.2" />
+    ))}
+    <rect x="46" y="1" width="8" height="10" fill="#5C3A21" stroke="#3A2410" strokeWidth="1.6" />
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -2622,6 +2679,9 @@ export const emblems: Record<string, EmblemComponent> = {
   senegal: Senegal,
   seychelles: Seychelles,
   "sierra-leone": SierraLeone,
+  nigeria: Nigeria,
+  rwanda: Rwanda,
+  "sao-tome-and-principe": SaoTomeAndPrincipe,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

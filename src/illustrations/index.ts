@@ -196,6 +196,9 @@ import { nigerIllustrations } from "./niger";
 import { senegalIllustrations } from "./senegal";
 import { seychellesIllustrations } from "./seychelles";
 import { sierraLeoneIllustrations } from "./sierra-leone";
+import { nigeriaIllustrations } from "./nigeria";
+import { rwandaIllustrations } from "./rwanda";
+import { saoTomeAndPrincipeIllustrations } from "./sao-tome-and-principe";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -397,6 +400,9 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   senegal: senegalIllustrations,
   seychelles: seychellesIllustrations,
   "sierra-leone": sierraLeoneIllustrations,
+  nigeria: nigeriaIllustrations,
+  rwanda: rwandaIllustrations,
+  "sao-tome-and-principe": saoTomeAndPrincipeIllustrations,
 };
 
 export function getIllustration(

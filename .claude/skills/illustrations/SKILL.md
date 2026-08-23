@@ -494,8 +494,63 @@ policy as other difficult-history countries. Emblems: Senegal is a kora
 harp-lute, Seychelles is an Aldabra tortoise in side profile, Sierra Leone
 is a stylized Cotton Tree. All three passed `tsc`, `eslint`, the
 id-matching audit, and a full `rm -rf .next && npm run build` (198
-countries × 2 langs = 396 static country paths). Not committed as of the
-end of this batch — awaiting explicit user request to commit.
+countries × 2 langs = 396 static country paths). Committed (`d956262`) and
+pushed same session.
+
+**Africa completed (2026-08-23) — Nigeria, Rwanda, São Tomé and Príncipe
+added from scratch**, bringing the atlas to 201 countries and completing
+all 54 African countries. Same parallel-background-agent pattern as the
+prior two batches. **New failure mode encountered and recovered from:**
+all three agents hit the session's API usage limit mid-task (a
+"You've hit your session limit" error, unrelated to the illustration work
+itself) and were killed before finishing. Recovery: checked file
+timestamps/content directly rather than trusting the last status message —
+one file (`sao-tome-and-principe.tsx`) had a real syntax error (a missing
+closing paren) from being cut off mid-edit, fixed by hand; one country's
+(Nigeria) illustration file had two of three joint-overlap fixes the agent
+had identified but not yet applied (a horn floating 3.6px from a mouth, and
+bridge piers floating ~10px below a bridge deck because their y-coordinates
+didn't account for the deck's quadratic-Bezier curve at that x — computed
+the true curve position and fixed both by hand); Sao Tomé's content also
+had 16 of 20 descriptions between 851–955 chars, over the 850 soft target
+though under the 1000 hard cap, trimmed down by hand. None of the three
+agents had sent their final report (emblem code + countries.ts block)
+before being cut off — recovered by using `SendMessage` to the dead
+agents' own `agentId`s once the rate limit window had passed (per
+`ListAgents`' resume note, sending a message to a completed/failed agent
+resumes it from its transcript with full context); all three picked back
+up and produced their final emblem/countries.ts blocks without needing to
+redo any actual content or illustration work. **Lesson: when a background
+agent's status shows `failed` due to a session/rate limit rather than a
+real task error, don't assume the work is lost or start over — check what
+files it already wrote (agents write files directly, not just at the end),
+verify/fix them directly, and try resuming the agent via SendMessage to
+its agentId to recover any remaining output (like a final report) once the
+limit window has passed.** Content: Nigeria (Nollywood, Fela Kuti's
+Afrobeat and the global Afrobeats wave, the Benin Bronzes, Yoruba adire
+indigo cloth, Igbo mmanwu masquerade, jollof rice, northern durbar
+festivals, Lagos, the dundun talking drum, Zuma Rock), Rwanda (mountain
+gorilla trekking in Volcanoes National Park, umuganda community service
+day, imigongo cow-dung geometric art, Intore royal dance, agaseke peace
+baskets, high-altitude coffee, the Nyungwe canopy walkway, Kigali's
+plastic-bag ban, royal ingoma drums, banana beer), São Tomé and Príncipe
+(the roça cocoa-plantation manors, Pico Cão Grande's volcanic spire, the
+equator crossing Ilhéu das Rolas, Tchiloli folk theater, Obô Natural
+Park's endemic birds, calulu stew, ússua/socopé dance, colorful pirogues,
+São Tomé's colonial old town, today's shade-grown single-origin cocoa) —
+Rwanda's content deliberately excluded any mention of the 1994 genocide
+entirely (a harder line than the "respectful memorial" treatment used for
+older histories like Gorée or Bunce Island, given how recent and sensitive
+it is). Emblems: Nigeria is a Benin Bronze-style cast head, Rwanda is a
+mountain gorilla cropped to just its head (per the Wales-dragon lesson:
+crop to the single most distinctive feature at this tiny scale), São Tomé
+and Príncipe is Pico Cão Grande's rock spire over green hills. All three
+passed `tsc`, `eslint`, the id-matching audit, and a full
+`rm -rf .next && npm run build` (201 countries × 2 langs = 402 static
+country paths). Not committed as of the end of this batch — awaiting
+explicit user request to commit.
+
+**All 54 African countries are now in the atlas.**
 
 ## Deferred, larger-scope task (explicitly NOT started — user said to wait)
 
