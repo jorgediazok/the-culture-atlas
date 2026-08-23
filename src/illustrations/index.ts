@@ -175,6 +175,12 @@ import { centralAfricanRepublicIllustrations } from "./central-african-republic"
 import { chadIllustrations } from "./chad";
 import { comorosIllustrations } from "./comoros";
 import { democraticRepublicOfTheCongoIllustrations } from "./democratic-republic-of-the-congo";
+import { republicOfTheCongoIllustrations } from "./republic-of-the-congo";
+import { djiboutiIllustrations } from "./djibouti";
+import { equatorialGuineaIllustrations } from "./equatorial-guinea";
+import { gabonIllustrations } from "./gabon";
+import { guineaIllustrations } from "./guinea";
+import { guineaBissauIllustrations } from "./guinea-bissau";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -355,6 +361,12 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   chad: chadIllustrations,
   comoros: comorosIllustrations,
   "democratic-republic-of-the-congo": democraticRepublicOfTheCongoIllustrations,
+  "republic-of-the-congo": republicOfTheCongoIllustrations,
+  djibouti: djiboutiIllustrations,
+  "equatorial-guinea": equatorialGuineaIllustrations,
+  gabon: gabonIllustrations,
+  guinea: guineaIllustrations,
+  "guinea-bissau": guineaBissauIllustrations,
 };
 
 export function getIllustration(

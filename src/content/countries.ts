@@ -4426,4 +4426,154 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "republic-of-the-congo",
+    flagEmoji: "🇨🇬",
+    accentColor: "#009543",
+    continent: "africa",
+    population: 5800000,
+    translations: {
+      es: {
+        name: "República del Congo",
+        intro:
+          "Brazzaville y Kinshasa, las dos capitales nacionales más cercanas del mundo, separadas apenas por un tramo del río Congo, los sapeurs de Bacongo que convierten el vestir en arte, y los gorilas de Odzala-Kokoua que viven sin miedo a la presencia humana. Estas páginas son para descubrir una República del Congo de la rumba congoleña declarada patrimonio de la humanidad, la Basílica de Santa Ana con su techo de tejas verdes, y las gargantas de Diosso, un cañón de tierra roja que crece un poco más cada temporada de lluvias.",
+        capital: "Brazzaville",
+        language: "Francés",
+        currency: "Franco CFA centroafricano (XAF)",
+      },
+      en: {
+        name: "Republic of the Congo",
+        intro:
+          "Brazzaville and Kinshasa, the two closest national capitals in the world, separated by little more than a stretch of the Congo River, the sapeurs of Bacongo who turn dressing into art, and the gorillas of Odzala-Kokoua living without fear of people. These pages are here to discover a Republic of the Congo of Congolese rumba declared a world treasure, the Sainte-Anne Basilica with its green-tiled roof, and the Diosso Gorges, a red-earth canyon that grows a little more with every rainy season.",
+        capital: "Brazzaville",
+        language: "French",
+        currency: "Central African CFA Franc (XAF)",
+      },
+    },
+  },
+  {
+    slug: "djibouti",
+    flagEmoji: "🇩🇯",
+    accentColor: "#0EA5B8",
+    continent: "africa",
+    population: 1100000,
+    translations: {
+      es: {
+        name: "Yibuti",
+        intro:
+          "El lago Assal, el punto más bajo de África y una de las aguas más saladas del planeta, las chimeneas de piedra del lago Abbé que parecen sacadas de otro mundo, y los tiburones ballena que visitan el golfo de Tadjoura cada invierno. Estas páginas son para descubrir un Yibuti del estrecho de Bab-el-Mandeb por donde cruza buena parte del comercio mundial, las caravanas de camellos que todavía cargan sal del desierto de Danakil, y el skoudehkaris, el arroz especiado que se sirve en cada boda y celebración familiar.",
+        capital: "Yibuti",
+        language: "Francés y árabe",
+        currency: "Franco yibutiano (DJF)",
+      },
+      en: {
+        name: "Djibouti",
+        intro:
+          "Lake Assal, the lowest point in Africa and one of the saltiest waters on the planet, the stone chimneys of Lake Abbé that look pulled from another world, and the whale sharks that visit the Gulf of Tadjoura every winter. These pages are here to discover a Djibouti of the Bab-el-Mandeb strait, through which much of world trade passes, the camel caravans still hauling salt across the Danakil Desert, and skoudehkaris, the spiced rice served at every wedding and family celebration.",
+        capital: "Djibouti",
+        language: "French and Arabic",
+        currency: "Djiboutian Franc (DJF)",
+      },
+    },
+  },
+  {
+    slug: "equatorial-guinea",
+    flagEmoji: "🇬🇶",
+    accentColor: "#1D4E89",
+    continent: "africa",
+    population: 1700000,
+    translations: {
+      es: {
+        name: "Guinea Ecuatorial",
+        intro:
+          "La selva de la isla de Bioko, hogar de monos que no existen en ningún otro lugar del planeta, los byeri fang que fascinaron a Picasso, y el único país de África subsahariana donde el español es idioma oficial. Estas páginas son para descubrir una Guinea Ecuatorial de Annobón, una isla tan aislada que desarrolló su propia lengua criolla, la ceremonia del abira que purificaba a comunidades enteras, y las plantaciones de cacao que durante décadas perfumaron la economía de Bioko.",
+        capital: "Malabo",
+        language: "Español, francés y portugués",
+        currency: "Franco CFA centroafricano (XAF)",
+      },
+      en: {
+        name: "Equatorial Guinea",
+        intro:
+          "The rainforest of Bioko Island, home to monkeys found nowhere else on the planet, the Fang byeri figures that fascinated Picasso, and the only country in Sub-Saharan Africa where Spanish is an official language. These pages are here to discover an Equatorial Guinea of Annobón, an island so isolated it developed its own creole language, the abira ceremony that once purified entire communities, and the cacao plantations that for decades scented Bioko's economy.",
+        capital: "Malabo",
+        language: "Spanish, French, and Portuguese",
+        currency: "Central African CFA Franc (XAF)",
+      },
+    },
+  },
+  {
+    slug: "gabon",
+    flagEmoji: "🇬🇦",
+    accentColor: "#F4C430",
+    continent: "africa",
+    population: 2400000,
+    translations: {
+      es: {
+        name: "Gabón",
+        intro:
+          "El bwiti y la raíz de iboga, un ritual capaz de abrir la puerta a los antepasados, los hipopótamos que abandonan sus ríos para surfear en el océano Atlántico, y las máscaras blancas mukudj que fascinaron al arte moderno europeo. Estas páginas son para descubrir un Gabón de Libreville, una ciudad fundada por esclavos liberados, el mvet, la epopeya cantada que guarda toda la historia del pueblo fang, y las cataratas de Kongou, escondidas en el corazón de una de las selvas mejor conservadas de África central.",
+        capital: "Libreville",
+        language: "Francés",
+        currency: "Franco CFA centroafricano (XAF)",
+      },
+      en: {
+        name: "Gabon",
+        intro:
+          "Bwiti and the iboga root, a ritual said to open a door to the ancestors, the hippos that leave their rivers to surf the Atlantic Ocean, and the white mukudj masks that fascinated European modern art. These pages are here to discover a Gabon of Libreville, a city founded by freed slaves, mvet, the sung epic that holds the entire history of the Fang people, and Kongou Falls, hidden in the heart of one of Central Africa's best-preserved rainforests.",
+        capital: "Libreville",
+        language: "French",
+        currency: "Central African CFA Franc (XAF)",
+      },
+    },
+  },
+  {
+    slug: "guinea",
+    flagEmoji: "🇬🇳",
+    accentColor: "#CE1126",
+    continent: "africa",
+    population: 14200000,
+    translations: {
+      es: {
+        name: "Guinea",
+        intro:
+          "El macizo del Fouta Djallon, el 'castillo de agua' donde nacen tres de los grandes ríos de África occidental, el djembe malinké que hizo bailar al mundo entero, y el d'mba, la gran máscara baga que representa a la madre ideal. Estas páginas son para descubrir una Guinea de griots que memorizan la epopeya de Sundiata Keita, el Sosso-Bala, un xilófono sagrado que solo se toca una vez al año, y las montañas del Nimba, donde los chimpancés usan piedras como herramientas.",
+        capital: "Conakry",
+        language: "Francés",
+        currency: "Franco guineano (GNF)",
+      },
+      en: {
+        name: "Guinea",
+        intro:
+          "The Fouta Djallon highlands, the 'water tower' where three of West Africa's great rivers begin, the Malinké djembe that made the whole world dance, and the d'mba, the great Baga mask representing the ideal mother. These pages are here to discover a Guinea of griots who memorize the epic of Sundiata Keita, the Sosso-Bala, a sacred xylophone played only once a year, and the Nimba mountains, where chimpanzees use stones as tools.",
+        capital: "Conakry",
+        language: "French",
+        currency: "Guinean Franc (GNF)",
+      },
+    },
+  },
+  {
+    slug: "guinea-bissau",
+    flagEmoji: "🇬🇼",
+    accentColor: "#00A651",
+    continent: "africa",
+    population: 2200000,
+    translations: {
+      es: {
+        name: "Guinea-Bisáu",
+        intro:
+          "El archipiélago de Bijagós, donde hipopótamos nadan en el mar y las mujeres eligen tradicionalmente a sus esposos, el carnaval de Bisáu con sus máscaras de vaca con cuernos, y el anacardo, la fruta que sostiene la economía de todo un país. Estas páginas son para descubrir una Guinea-Bisáu del gumbe, el ritmo nacido en las calles de la capital, el kriol, la lengua que une a un país de más de veinte etnias, y Amílcar Cabral, el pensador que imaginó la liberación de toda una región de África.",
+        capital: "Bisáu",
+        language: "Portugués",
+        currency: "Franco CFA de África Occidental (XOF)",
+      },
+      en: {
+        name: "Guinea-Bissau",
+        intro:
+          "The Bijagós Archipelago, where hippos swim in the sea and women traditionally choose their husbands, Bissau Carnival with its horned cow masks, and the cashew, the fruit sustaining an entire country's economy. These pages are here to discover a Guinea-Bissau of gumbe, the rhythm born on the streets of the capital, Kriol, the language uniting a country of more than twenty ethnic groups, and Amílcar Cabral, the thinker who imagined the liberation of an entire region of Africa.",
+        capital: "Bissau",
+        language: "Portuguese",
+        currency: "West African CFA Franc (XOF)",
+      },
+    },
+  },
 ];

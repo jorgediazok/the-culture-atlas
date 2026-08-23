@@ -182,6 +182,12 @@ import { centralAfricanRepublic } from "./central-african-republic";
 import { chad } from "./chad";
 import { comoros } from "./comoros";
 import { democraticRepublicOfTheCongo } from "./democratic-republic-of-the-congo";
+import { republicOfTheCongo } from "./republic-of-the-congo";
+import { djibouti } from "./djibouti";
+import { equatorialGuinea } from "./equatorial-guinea";
+import { gabon } from "./gabon";
+import { guinea } from "./guinea";
+import { guineaBissau } from "./guinea-bissau";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -361,6 +367,12 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   chad,
   comoros,
   "democratic-republic-of-the-congo": democraticRepublicOfTheCongo,
+  "republic-of-the-congo": republicOfTheCongo,
+  djibouti,
+  "equatorial-guinea": equatorialGuinea,
+  gabon,
+  guinea,
+  "guinea-bissau": guineaBissau,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {

@@ -2086,12 +2086,13 @@ const Eswatini: EmblemComponent = () => (
 
 const Namibia: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <path d="M20 75 Q25 55 45 50 Q65 45 78 55 Q70 60 60 58 Q65 65 55 72 Q40 85 25 80 Q18 78 20 75 Z" fill="#8C7B6B" stroke="#5C4A3A" strokeWidth="2.4" />
-    <circle cx="72" cy="52" r="9" fill="#8C7B6B" stroke="#5C4A3A" strokeWidth="2" />
-    <path d="M75 45 L90 12" stroke="#F5F0E6" strokeWidth="4" strokeLinecap="round" />
-    <path d="M80 48 L95 18" stroke="#F5F0E6" strokeWidth="4" strokeLinecap="round" />
-    <path d="M20 80 L15 95 M35 85 L32 98" stroke="#5C4A3A" strokeWidth="4" />
-    <polygon points="60,45 75,40 75,48" fill="#1A1A1A" />
+    <path d="M30 69 Q25 51 40 41 Q53 32 64 42 Q73 50 67 62 Q76 68 67 79 Q58 90 45 87 Q32 84 30 69 Z" fill="#C9A063" stroke="#5C4A3A" strokeWidth="2.6" />
+    <path d="M41 43 Q34 33 39 23" fill="none" stroke="#8C7B6B" strokeWidth="3" strokeLinecap="round" />
+    <path d="M43 42 L29 23" stroke="#2A1F1A" strokeWidth="5" strokeLinecap="round" />
+    <path d="M53 37 L44 20" stroke="#2A1F1A" strokeWidth="5" strokeLinecap="round" />
+    <path d="M42 44 Q51 59 57 77 L47 82 Q39 62 33 49 Z" fill="#1A1A1A" />
+    <circle cx="46" cy="55" r="2.6" fill="#F5F0E6" />
+    <ellipse cx="65" cy="75" rx="5" ry="3.4" fill="#1A1A1A" />
   </svg>
 );
 
@@ -2151,6 +2152,68 @@ const DemocraticRepublicOfTheCongo: EmblemComponent = () => (
       </g>
     ))}
     <circle cx="50" cy="55" r="12" fill="#8B5A2B" stroke="#5C3A21" strokeWidth="2.2" />
+  </svg>
+);
+
+const RepublicOfTheCongo: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <polygon points="26,78 50,22 74,78" fill="#2F8F5B" stroke="#1B4F2E" strokeWidth="2.6" />
+    <polygon points="34,78 50,36 66,78" fill="none" stroke="#1B4F2E" strokeWidth="1.6" opacity="0.5" />
+    <rect x="44" y="16" width="12" height="14" fill="#2F8F5B" stroke="#1B4F2E" strokeWidth="2" />
+    <polygon points="44,16 50,4 56,16" fill="#2F8F5B" stroke="#1B4F2E" strokeWidth="2" />
+    <rect x="47" y="86" width="6" height="18" fill="#D9C9A3" stroke="#1B4F2E" strokeWidth="1.6" />
+  </svg>
+);
+
+const Djibouti: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M20 90 Q34 82 48 90 Q62 98 76 90 Q82 87 84 90" fill="none" stroke="#0EA5B8" strokeWidth="3.5" opacity="0.85" />
+    <path d="M40 92 L50 34 Q56 42 54 92 Z" fill="#F5F0E6" stroke="#8B7355" strokeWidth="2.2" />
+    <path d="M50 34 L48 20" stroke="#D9D2C0" strokeWidth="3" strokeLinecap="round" opacity="0.6" />
+    <path d="M62 90 L70 46 Q76 54 74 90 Z" fill="#F5F0E6" stroke="#8B7355" strokeWidth="2" />
+    <circle cx="30" cy="30" r="7" fill="#D9A227" />
+  </svg>
+);
+
+const EquatorialGuinea: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <rect x="47" y="70" width="6" height="26" fill="#5C3A21" />
+    <path d="M40 32 Q28 52 40 78 Q50 86 60 78 Q72 52 60 32 Q50 20 40 32 Z" fill="#D9A227" stroke="#8B5A2B" strokeWidth="2.6" />
+    <path d="M43 40 Q48 58 43 74 M57 40 Q52 58 57 74" fill="none" stroke="#B8860B" strokeWidth="1.8" opacity="0.6" />
+    <path d="M32 24 Q40 12 52 18" fill="none" stroke="#3A7A45" strokeWidth="4" strokeLinecap="round" />
+  </svg>
+);
+
+const Gabon: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <ellipse cx="50" cy="50" rx="22" ry="30" fill="#F5F0E6" stroke="#C9C2B0" strokeWidth="2.6" />
+    <path d="M32 32 Q50 22 68 32 Q71 42 64 40 Q50 32 36 40 Q29 42 32 32 Z" fill="#1B1B1B" />
+    <path d="M40 50 Q46 44 52 50" fill="none" stroke="#1B1B1B" strokeWidth="2.4" />
+    <path d="M56 50 Q62 44 68 50" fill="none" stroke="#1B1B1B" strokeWidth="2.4" />
+    <path d="M38 68 Q50 76 62 68 Q59 80 50 82 Q41 80 38 68 Z" fill="#C1272D" stroke="#8B1A1A" strokeWidth="1.6" />
+  </svg>
+);
+
+const Guinea: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M34 88 L37 40 Q50 22 63 40 L66 88 Z" fill="#D9A227" stroke="#8B5A2B" strokeWidth="2.6" />
+    <ellipse cx="50" cy="36" rx="14" ry="6" fill="#F5F0E6" stroke="#8B5A2B" strokeWidth="2.2" />
+    <path d="M37 88 L27 96 M45 88 L43 98 M55 88 L57 98 M63 88 L73 96" stroke="#5C3A21" strokeWidth="2.6" strokeLinecap="round" />
+  </svg>
+);
+
+const GuineaBissau: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <ellipse cx="41" cy="54" rx="26" ry="17" fill="#4A5A5C" stroke="#2A3A3A" strokeWidth="2.6" />
+    <ellipse cx="70" cy="48" rx="14" ry="11" fill="#4A5A5C" stroke="#2A3A3A" strokeWidth="2.4" />
+    <ellipse cx="64" cy="36" rx="4" ry="5" fill="#4A5A5C" stroke="#2A3A3A" strokeWidth="2" />
+    <ellipse cx="75" cy="35" rx="4" ry="5" fill="#4A5A5C" stroke="#2A3A3A" strokeWidth="2" />
+    <circle cx="66" cy="40" r="2.2" fill="#1B1B1B" />
+    <circle cx="77" cy="39" r="2.2" fill="#1B1B1B" />
+    <ellipse cx="84" cy="48" rx="3" ry="2" fill="#1B1B1B" />
+    <rect x="26" y="66" width="8" height="14" rx="3" fill="#4A5A5C" stroke="#2A3A3A" strokeWidth="2" />
+    <rect x="46" y="68" width="8" height="14" rx="3" fill="#4A5A5C" stroke="#2A3A3A" strokeWidth="2" />
+    <path d="M11 76 Q26 70 41 76 Q56 82 71 76 Q81 72 86 76" fill="none" stroke="#1B7A9C" strokeWidth="3.5" strokeLinecap="round" opacity="0.75" />
   </svg>
 );
 
@@ -2332,6 +2395,12 @@ export const emblems: Record<string, EmblemComponent> = {
   chad: Chad,
   comoros: Comoros,
   "democratic-republic-of-the-congo": DemocraticRepublicOfTheCongo,
+  "republic-of-the-congo": RepublicOfTheCongo,
+  djibouti: Djibouti,
+  "equatorial-guinea": EquatorialGuinea,
+  gabon: Gabon,
+  guinea: Guinea,
+  "guinea-bissau": GuineaBissau,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {
