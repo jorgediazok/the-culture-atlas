@@ -50,8 +50,8 @@ const LasUltimasJirafasSalvajesDeAfricaOccidental: IllustrationComponent = () =>
     <ellipse cx="155" cy="108" rx="20" ry="15" fill="#6B8A45" stroke="#3A5222" strokeWidth="2" />
     <g transform="translate(235 165)">
       <path d="M-40 45 L-42 78 M-20 48 L-22 82 M15 48 L17 82 M35 45 L38 78" stroke="#B5651D" strokeWidth="6" strokeLinecap="round" />
+      <path d="M-15 22 Q-25 -55 -18 -85 Q-14 -95 -8 -95 Q-2 -95 -4 -80 Q2 -50 10 22 Z" fill="#D9A227" stroke="#8A5A10" strokeWidth="3" />
       <ellipse cx="-5" cy="35" rx="50" ry="30" fill="#D9A227" stroke="#8A5A10" strokeWidth="3" />
-      <path d="M-15 -5 Q-25 -55 -18 -85 Q-14 -95 -8 -95 Q-2 -95 -4 -80 Q2 -50 10 -5 Z" fill="#D9A227" stroke="#8A5A10" strokeWidth="3" />
       <ellipse cx="-10" cy="-95" rx="16" ry="13" fill="#D9A227" stroke="#8A5A10" strokeWidth="2.6" />
       <circle cx="-4" cy="-108" r="4" fill="#B5651D" stroke="#8A5A10" strokeWidth="1.4" />
       <circle cx="-16" cy="-108" r="4" fill="#B5651D" stroke="#8A5A10" strokeWidth="1.4" />
