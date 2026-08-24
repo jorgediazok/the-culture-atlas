@@ -160,6 +160,136 @@ const IbisEscarlataCaroni: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const DoublesYRoti: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const bread = tint(accentColor, 0.15);
+  const chickpea = "#C68E17";
+  const sauce = "#B23A1C";
+  return (
+    <g>
+      {/* bottom fried bread layer */}
+      <path d="M110 195 Q205 245 300 195 Q300 175 205 170 Q110 175 110 195 Z" fill={bread} stroke={dark} strokeWidth="3" />
+      {/* top fried bread layer, folded over */}
+      <path d="M115 170 Q205 115 295 170 Q295 195 205 200 Q115 195 115 170 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* spiced chickpeas peeking between the layers */}
+      {[[160, 175], [185, 180], [210, 172], [235, 180], [260, 175]].map(([x, y], i) => (
+        <circle key={i} cx={x} cy={y} r="8" fill={chickpea} stroke={dark} strokeWidth="1.5" />
+      ))}
+      {/* tamarind sauce drizzle */}
+      <path d="M130 150 Q160 140 190 152 Q220 164 250 150 Q270 142 285 152" fill="none" stroke={sauce} strokeWidth="3" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const TortugasBaulaMatura: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const flipperColor = shade(accentColor, 0.15);
+  const sand = "#D9C27E";
+  const water = "#3D8FB0";
+  return (
+    <g>
+      {/* ocean horizon behind */}
+      <path d="M90 100 Q205 85 320 100" fill="none" stroke={water} strokeWidth="6" opacity="0.5" />
+      {/* sand */}
+      <rect x="90" y="225" width="230" height="25" fill={sand} opacity="0.7" />
+      {/* front flipper — drawn first so the shell painted after seals the joint (verified overlap: ~20 units past the shell's true ellipse boundary) */}
+      <path d="M135 180 Q95 165 55 178 Q90 198 135 196 Z" fill={flipperColor} stroke={dark} strokeWidth="2" />
+      {/* rear flippers — same 20-unit overlap check against the ellipse boundary */}
+      <path d="M268 186 Q300 196 322 206 Q304 216 272 200 Z" fill={flipperColor} stroke={dark} strokeWidth="2" />
+      <path d="M268 144 Q300 130 322 121 Q304 111 272 128 Z" fill={flipperColor} stroke={dark} strokeWidth="2" />
+      {/* head — right edge reaches 20 units inside the shell's left boundary (x=110) */}
+      <circle cx="102" cy="165" r="28" fill={flipperColor} stroke={dark} strokeWidth="2" />
+      <circle cx="88" cy="160" r="3.5" fill="#1A1A1A" />
+      {/* shell / carapace, drawn last to cleanly seal every joint above */}
+      <ellipse cx="205" cy="165" rx="95" ry="55" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* carapace ridge lines */}
+      <path d="M125 150 Q205 130 285 150" fill="none" stroke={dark} strokeWidth="2" opacity="0.6" />
+      <path d="M125 180 Q205 200 285 180" fill="none" stroke={dark} strokeWidth="2" opacity="0.6" />
+    </g>
+  );
+};
+
+const ArrecifeBuccoo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = tint(accentColor, 0.55);
+  const fishColors = ["#FF7043", "#FFCA28", "#EC407A"];
+  const coral = "#F06292";
+  const coral2 = "#8E24AA";
+  return (
+    <g>
+      {/* water tint */}
+      <rect x="90" y="80" width="230" height="170" fill={water} opacity="0.35" />
+      {/* coral formations at the base */}
+      <path d="M110 250 Q100 210 125 195 Q135 215 130 235 Q150 215 160 195 Q170 220 155 250 Z" fill={coral} stroke={dark} strokeWidth="2" />
+      <path d="M240 250 Q235 220 255 205 Q265 225 260 245 Q280 225 295 210 Q300 235 280 250 Z" fill={coral2} stroke={dark} strokeWidth="2" />
+      {/* fish 1 — tail drawn first, body ellipse over it (20-unit overlap past the boundary at x=122) */}
+      <path d="M142 140 L108 123 L108 157 Z" fill={fishColors[0]} stroke={dark} strokeWidth="1.5" />
+      <ellipse cx="150" cy="140" rx="28" ry="16" fill={fishColors[0]} stroke={dark} strokeWidth="2" />
+      <circle cx="168" cy="136" r="2.5" fill="#1A1A1A" />
+      {/* fish 2, facing left — tail overlap past the boundary at x=264 */}
+      <path d="M244 105 L282 90 L282 120 Z" fill={fishColors[1]} stroke={dark} strokeWidth="1.5" />
+      <ellipse cx="240" cy="105" rx="24" ry="14" fill={fishColors[1]} stroke={dark} strokeWidth="2" />
+      <circle cx="224" cy="102" r="2.2" fill="#1A1A1A" />
+      {/* fish 3 — tail overlap past the boundary at x=199 */}
+      <path d="M219 178 L182 163 L182 193 Z" fill={fishColors[2]} stroke={dark} strokeWidth="1.5" />
+      <ellipse cx="225" cy="178" rx="26" ry="15" fill={fishColors[2]} stroke={dark} strokeWidth="2" />
+      <circle cx="246" cy="174" r="2.4" fill="#1A1A1A" />
+    </g>
+  );
+};
+
+const CalindaTradicionStickfighting: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8D5A2B";
+  const stick = "#6B4423";
+  const robeB = shade(accentColor, 0.2);
+  return (
+    <g>
+      {/* fighting ring */}
+      <ellipse cx="205" cy="245" rx="115" ry="14" fill="none" stroke={dark} strokeWidth="2" strokeDasharray="6 5" opacity="0.5" />
+      {/* figure A: head drawn first, torso second (covers the 20-unit overlap at the shoulder line y=190), stick/arm drawn last on top */}
+      <circle cx="160" cy="192" r="18" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M150 190 Q140 220 130 250 L190 250 Q180 220 170 190 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M165 195 L225 95" stroke={stick} strokeWidth="7" strokeLinecap="round" />
+      {/* figure B, mirrored */}
+      <circle cx="240" cy="192" r="18" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M250 190 Q260 220 270 250 L210 250 Q220 220 230 190 Z" fill={robeB} stroke={dark} strokeWidth="3" />
+      <path d="M235 195 L175 95" stroke={stick} strokeWidth="7" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const ChutneyElOtroSonido: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8D5A2B";
+  const keys = "#F5F0E6";
+  const laceX = [150, 175, 200, 225, 250];
+  const keyIndexes = [0, 1, 2, 3, 4, 5, 6, 7];
+  return (
+    <g>
+      {/* dholak drum body */}
+      <path d="M120 195 Q205 178 290 195 L290 220 Q205 237 120 220 Z" fill={wood} stroke={dark} strokeWidth="3" />
+      <ellipse cx="120" cy="207" rx="13" ry="24" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <ellipse cx="290" cy="207" rx="13" ry="24" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="2" />
+      {/* lacing pattern */}
+      {laceX.map((x, i) => (
+        <path key={i} d={`M${x} 195 L${x + 12} 207 L${x} 220`} fill="none" stroke={dark} strokeWidth="2" opacity="0.7" />
+      ))}
+      {/* harmonium box */}
+      <rect x="150" y="110" width="100" height="55" rx="4" fill={dark} stroke={shade(accentColor, 0.5)} strokeWidth="2" />
+      {keyIndexes.map((i) => (
+        <rect key={i} x={158 + i * 11} y="118" width="9" height="30" fill={keys} stroke={dark} strokeWidth="1" />
+      ))}
+      {/* musical note */}
+      <g transform="translate(275,100)">
+        <circle cx="0" cy="20" r="6" fill={accentColor} />
+        <line x1="6" y1="20" x2="6" y2="-8" stroke={accentColor} strokeWidth="3" />
+        <path d="M6 -8 Q16 -6 14 4" fill="none" stroke={accentColor} strokeWidth="3" />
+      </g>
+    </g>
+  );
+};
+
 export const trinidadAndTobagoIllustrations: Record<string, IllustrationDefinition> = {
   "cuna-del-steelpan": { component: CunaDelSteelpan },
   "carnaval-de-trinidad": { component: CarnavalDeTrinidad },
@@ -171,4 +301,9 @@ export const trinidadAndTobagoIllustrations: Record<string, IllustrationDefiniti
   "riqueza-petrolera-caribena": { component: RiquezaPetroleraCaribena },
   "diwali-y-hosay": { component: DiwaliYHosay },
   "ibis-escarlata-caroni": { component: IbisEscarlataCaroni },
+  "doubles-y-roti": { component: DoublesYRoti },
+  "tortugas-baula-matura": { component: TortugasBaulaMatura },
+  "arrecife-buccoo": { component: ArrecifeBuccoo },
+  "calinda-tradicion-stickfighting": { component: CalindaTradicionStickfighting },
+  "chutney-el-otro-sonido": { component: ChutneyElOtroSonido },
 };

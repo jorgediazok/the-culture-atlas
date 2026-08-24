@@ -231,4 +231,119 @@ export const costaRica: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "tortugas-tortuguero",
+    order: 11,
+    placeholderEmoji: "🐢",
+    accentColor: "#00838F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La playa donde miles de tortugas llegan a desovar",
+        subtitle: "Las tortugas de Tortuguero",
+        imageAlt: "Caricatura de una tortuga marina cavando su nido en la arena de noche.",
+        description:
+          "En las playas de Tortuguero, en el Caribe costarricense, miles de tortugas verdes llegan cada año entre julio y octubre para desovar en la arena oscura, formando uno de los sitios de anidación más importantes del hemisferio occidental para esta especie. Las investigaciones del biólogo Archie Carr desde los años cincuenta documentaron por primera vez estos patrones de anidación y sentaron las bases de la conservación moderna de tortugas marinas, lo que llevó a la creación del Parque Nacional Tortuguero en 1970. El pueblo, accesible solo por bote o avioneta al no tener carreteras que lo conecten, organiza recorridos nocturnos guiados y estrictamente regulados, sin flashes ni luces blancas, para que los visitantes observen el desove sin perturbar a las tortugas ni a las crías que después emergen hacia el mar.",
+      },
+      en: {
+        title: "The Beach Where Thousands of Turtles Come to Nest",
+        subtitle: "The Sea Turtles of Tortuguero",
+        imageAlt: "Cartoon of a sea turtle digging its nest in the sand at night.",
+        description:
+          "On the beaches of Tortuguero, on Costa Rica's Caribbean coast, thousands of green sea turtles arrive each year between July and October to nest in the dark sand, forming one of the most important nesting sites in the Western Hemisphere for the species. Research by biologist Archie Carr starting in the 1950s first documented these nesting patterns and laid the groundwork for modern sea turtle conservation, leading to the creation of Tortuguero National Park in 1970. The village, reachable only by boat or small plane since no roads connect it to the rest of the country, runs strictly regulated night tours, without flashes or white lights, so visitors can watch the nesting without disturbing the turtles or the hatchlings that later emerge toward the sea.",
+      },
+    },
+  },
+  {
+    id: "marimba-costarricense",
+    order: 12,
+    placeholderEmoji: "🎶",
+    accentColor: "#EF6C00",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El instrumento de madera declarado símbolo nacional",
+        subtitle: "La marimba costarricense",
+        imageAlt: "Caricatura de una marimba de madera con dos mazos golpeando las teclas.",
+        description:
+          "La marimba, un instrumento de percusión de teclas de madera resonantes sobre tubos de bambú o metal, llegó a Costa Rica durante la época colonial a través de una fusión de tradiciones indígenas, africanas y españolas, y se arraigó con especial fuerza en la provincia de Guanacaste, cuna de buena parte de la música folclórica del país. Las marimbas costarricenses suelen construirse y tocarse en conjunto, con dos o más músicos golpeando simultáneamente las teclas con mazos forrados, produciendo melodías alegres que acompañan bailes tradicionales, fiestas patronales y actos cívicos en plazas de todo el territorio. El instrumento se convirtió en un símbolo sonoro tan reconocible de la identidad costarricense que orquestas de marimba reciben a los visitantes en el aeropuerto internacional como primera impresión musical del país.",
+      },
+      en: {
+        title: "The Wooden Instrument Declared a National Symbol",
+        subtitle: "The Costa Rican Marimba",
+        imageAlt: "Cartoon of a wooden marimba with two mallets striking the keys.",
+        description:
+          "The marimba, a percussion instrument of resonant wooden keys set over bamboo or metal tubes, arrived in Costa Rica during the colonial era through a fusion of Indigenous, African, and Spanish traditions, and took particularly deep root in the province of Guanacaste, birthplace of much of the country's folk music. Costa Rican marimbas are typically built and played in ensembles, with two or more musicians striking the keys simultaneously with padded mallets, producing bright melodies that accompany traditional dances, patron saint festivals, and civic events in town plazas across the country. The instrument became such a recognizable sonic symbol of Costa Rican identity that marimba ensembles greet visitors at the international airport as their first musical impression of the country.",
+      },
+    },
+  },
+  {
+    id: "mascaras-boruca",
+    order: 13,
+    placeholderEmoji: "🎭",
+    accentColor: "#AD1457",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las máscaras que representan la resistencia indígena",
+        subtitle: "Los diablitos de Boruca",
+        imageAlt: "Caricatura de una máscara de madera tallada con cuernos y colores vivos.",
+        description:
+          "Cada fin de año, la comunidad indígena boruca, en el sur de Costa Rica, celebra el 'Juego de los Diablitos', una fiesta que dramatiza en clave simbólica la resistencia indígena frente a la conquista española: hombres disfrazados de 'diablitos' con máscaras de madera tallada se enfrentan durante varios días a otro participante que representa un toro español, en una representación que termina, según la tradición, con la victoria simbólica de los diablitos. Las máscaras, talladas artesanalmente en madera de balsa y pintadas con colores vivos y motivos de animales de la selva, son hoy una de las expresiones de arte indígena más reconocidas del país y una fuente central de ingresos para la comunidad boruca, que las vende como artesanía sin dejar de usarlas cada año en la ceremonia original.",
+      },
+      en: {
+        title: "The Masks That Reenact Indigenous Resistance",
+        subtitle: "Boruca's Diablitos",
+        imageAlt: "Cartoon of a carved wooden mask with horns and vivid colors.",
+        description:
+          "Every year at the turn of the new year, the Indigenous Boruca community in southern Costa Rica celebrates the 'Juego de los Diablitos' (Game of the Little Devils), a festival that symbolically dramatizes Indigenous resistance to the Spanish conquest: men disguised as 'diablitos' wearing carved wooden masks confront another participant representing a Spanish bull over several days, a reenactment that traditionally ends with the diablitos' symbolic victory. The masks, hand-carved from balsa wood and painted in bright colors with jungle-animal motifs, are today one of the country's most recognized forms of Indigenous art and a key source of income for the Boruca community, who sell them as folk art while still using them each year in the original ceremony.",
+      },
+    },
+  },
+  {
+    id: "ceramica-chorotega",
+    order: 14,
+    placeholderEmoji: "🏺",
+    accentColor: "#BF360C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El barro con técnicas de más de mil años",
+        subtitle: "La cerámica chorotega",
+        imageAlt: "Caricatura de una vasija de barro pintada con motivos geométricos.",
+        description:
+          "En los pueblos de Guaitil y San Vicente, en la provincia de Guanacaste, artesanas descendientes del pueblo indígena chorotega mantienen vivas técnicas de alfarería que se remontan a más de mil años antes de la llegada española, moldeando el barro sin torno mediante la técnica del enrollado, y extrayendo la arcilla de yacimientos locales considerados sagrados dentro de la tradición. Las piezas se pulen con piedras semipreciosas heredadas de generación en generación y se pintan con pigmentos minerales naturales en tonos rojizos, negros y blancos, con motivos geométricos y animales como jaguares y monos que remiten a la cosmovisión precolombina de la región. El oficio, transmitido de madres a hijas, sigue siendo hoy el sustento económico de buena parte de estas comunidades rurales de Guanacaste.",
+      },
+      en: {
+        title: "The Clay With Techniques Over a Thousand Years Old",
+        subtitle: "Chorotega Pottery",
+        imageAlt: "Cartoon of a clay vessel painted with geometric patterns.",
+        description:
+          "In the villages of Guaitil and San Vicente, in the province of Guanacaste, women artisans descended from the Indigenous Chorotega people keep alive pottery techniques dating back more than a thousand years before the Spanish arrival, shaping clay without a wheel using the coiling technique, and extracting the clay itself from local deposits considered sacred within the tradition. Finished pieces are polished with semiprecious stones passed down through generations and painted with natural mineral pigments in reddish, black, and white tones, featuring geometric patterns and animals like jaguars and monkeys that reference the region's pre-Columbian worldview. The craft, traditionally passed from mothers to daughters, remains today the economic backbone of much of these rural Guanacaste communities.",
+      },
+    },
+  },
+  {
+    id: "antorcha-independencia",
+    order: 15,
+    placeholderEmoji: "🔥",
+    accentColor: "#FBC02D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La antorcha que cruza Centroamérica cada septiembre",
+        subtitle: "La Antorcha de la Independencia",
+        imageAlt: "Caricatura de una antorcha encendida junto a un farol de papel colorido.",
+        description:
+          "Cada 14 de septiembre por la noche, la Antorcha de la Independencia llega a Costa Rica tras un relevo que arrancó días antes en Guatemala, donde en 1821 se firmó el acta que declaró la independencia centroamericana de España, y que estudiantes corredores llevan a través de los cinco países del istmo hasta la ciudad de Cartago, antigua capital colonial. Esa misma noche, niños y familias de todo el país participan en el Desfile de Faroles, recorriendo las calles con farolitos de papel hechos a mano mientras cantan el himno nacional, en una tradición escolar repetida generación tras generación. A las seis en punto de la tarde del 15 de septiembre, el país entero se detiene un minuto al sonido del himno nacional transmitido por radio y televisión, cerrando la celebración cívica más importante del calendario costarricense.",
+      },
+      en: {
+        title: "The Torch That Crosses Central America Each September",
+        subtitle: "The Independence Torch",
+        imageAlt: "Cartoon of a lit torch beside a colorful paper lantern.",
+        description:
+          "Every year on the night of September 14, the Independence Torch reaches Costa Rica after a relay that began days earlier in Guatemala, where the act declaring Central American independence from Spain was signed in 1821, carried by student runners across all five countries of the isthmus to the city of Cartago, Costa Rica's former colonial capital. That same night, children and families across the country take part in the Desfile de Faroles, walking through the streets with handmade paper lanterns while singing the national anthem, a school tradition repeated generation after generation. At exactly six in the evening on September 15, the entire country pauses for a minute as the national anthem plays on radio and television, closing out the most important civic celebration on the Costa Rican calendar.",
+      },
+    },
+  },
 ];

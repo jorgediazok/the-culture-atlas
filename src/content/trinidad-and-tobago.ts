@@ -231,4 +231,119 @@ export const trinidadAndTobago: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "doubles-y-roti",
+    order: 11,
+    placeholderEmoji: "🫓",
+    accentColor: "#A0522D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El bocado callejero que se volvió comida nacional",
+        subtitle: "Doubles y roti",
+        imageAlt: "Caricatura de dos panes fritos rellenos de garbanzos con salsa.",
+        description:
+          "Doubles, dos discos de pan frito bara rellenos de garbanzos especiados (channa) y bañados en salsas de tamarindo, pepino en escabeche y chile picante, es el bocado callejero más emblemático de Trinidad y Tobago, vendido desde carritos ambulantes desde el amanecer hasta la noche y consumido indistintamente como desayuno, almuerzo o refrigerio a cualquier hora. Junto al roti, un pan plano que envuelve curry de pollo, cabra, camarón o vegetales sazonado con especias traídas por los trabajadores contratados indios del siglo XIX, ambos platos son la prueba culinaria más cotidiana de la herencia indotrinitense del país. Lejos de quedar confinados a restaurantes indios, doubles y roti se integraron tan profundamente a la vida diaria que hoy se consideran comida nacional trinitense sin distinción étnica, vendidos en prácticamente cada esquina.",
+      },
+      en: {
+        title: "The Street Snack That Became the National Breakfast",
+        subtitle: "Doubles and Roti",
+        imageAlt: "Cartoon of two fried flatbreads filled with curried chickpeas and sauce.",
+        description:
+          "Doubles, two fried bara flatbreads filled with spiced curried chickpeas (channa) and topped with tamarind, pickled cucumber, and pepper sauces, is Trinidad and Tobago's most emblematic street food, sold from mobile carts from dawn until night and eaten indiscriminately as breakfast, lunch, or a snack at any hour. Alongside roti, a flatbread wrapped around curried chicken, goat, shrimp, or vegetables seasoned with spices brought by 19th-century Indian indentured laborers, both dishes are the most everyday culinary proof of the country's Indo-Trinidadian heritage. Far from staying confined to Indian restaurants, doubles and roti became so deeply woven into daily life that they are now considered Trinidadian national food without ethnic distinction, sold on practically every corner.",
+      },
+    },
+  },
+  {
+    id: "tortugas-baula-matura",
+    order: 12,
+    placeholderEmoji: "🐢",
+    accentColor: "#1B5E20",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las playas donde nacen las tortugas gigantes del mundo",
+        subtitle: "Las tortugas baula de Matura y Grande Riviere",
+        imageAlt: "Caricatura de una tortuga marina gigante sobre arena junto al mar.",
+        description:
+          "Cada año entre marzo y agosto, las playas de Matura y Grande Riviere, en la costa noreste de Trinidad, reciben una de las mayores concentraciones de desove de tortuga laúd (baula) del hemisferio occidental, la especie de tortuga marina más grande del planeta, capaz de superar los 500 kilogramos y desovar varias veces por temporada tras nadar miles de kilómetros desde sus zonas de alimentación. Comunidades locales, antes dedicadas en parte a la caza furtiva de huevos, se reconvirtieron en guías y guardianes de conservación certificados que acompañan de noche a los visitantes para observar el desove sin perturbarlo, un modelo de ecoturismo comunitario que ayudó a revertir el declive de la población y convirtió a Trinidad en uno de los principales santuarios mundiales para esta especie amenazada.",
+      },
+      en: {
+        title: "The Beaches Where the World's Largest Turtles Nest",
+        subtitle: "The Leatherback Turtles of Matura and Grande Riviere",
+        imageAlt: "Cartoon of a giant sea turtle on sand beside the ocean.",
+        description:
+          "Every year between March and August, the beaches of Matura and Grande Riviere on Trinidad's northeast coast host one of the largest leatherback turtle nesting concentrations in the Western Hemisphere, the largest sea turtle species on the planet, able to exceed 500 kilograms and nest multiple times per season after swimming thousands of kilometers from its feeding grounds. Local communities, once partly engaged in poaching turtle eggs, reconverted into certified conservation guides and guardians who accompany visitors at night to watch the nesting without disturbing it, a community ecotourism model that helped reverse the population's decline and turned Trinidad into one of the world's leading sanctuaries for this threatened species.",
+      },
+    },
+  },
+  {
+    id: "arrecife-buccoo",
+    order: 13,
+    placeholderEmoji: "🐠",
+    accentColor: "#0277BD",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arrecife de coral que convirtió a Tobago en paraíso",
+        subtitle: "El Arrecife de Buccoo",
+        imageAlt: "Caricatura de peces de colores nadando sobre un arrecife de coral.",
+        description:
+          "El Arrecife de Buccoo, frente a la costa suroeste de Tobago, es uno de los ecosistemas coralinos mejor conservados del Caribe oriental y el corazón del primer parque marino protegido legalmente establecido en Trinidad y Tobago, hogar de más de treinta especies de coral duro y una enorme diversidad de peces tropicales, estrellas de mar y la vecina laguna poco profunda conocida como Nylon Pool, famosa por sus aguas turquesa transparentes en pleno mar abierto. Los recorridos en bote de fondo transparente hacia el arrecife y la laguna se convirtieron en la actividad turística más popular de Tobago, y la protección del área, vigente desde los años setenta, buscó equilibrar el turismo masivo con la fragilidad de un ecosistema amenazado por el calentamiento oceánico y el blanqueamiento coralino.",
+      },
+      en: {
+        title: "The Coral Reef That Turned Tobago Into a Paradise",
+        subtitle: "Buccoo Reef",
+        imageAlt: "Cartoon of colorful fish swimming over a coral reef.",
+        description:
+          "Buccoo Reef, off Tobago's southwest coast, is one of the best-preserved coral ecosystems in the eastern Caribbean and the heart of the first legally protected marine park established in Trinidad and Tobago, home to more than thirty species of hard coral and enormous diversity of tropical fish, starfish, and the neighboring shallow lagoon known as the Nylon Pool, famous for its transparent turquoise waters far out at sea. Glass-bottom boat tours to the reef and lagoon became Tobago's most popular tourist activity, and the area's protection, in place since the 1970s, sought to balance mass tourism with the fragility of an ecosystem threatened by ocean warming and coral bleaching.",
+      },
+    },
+  },
+  {
+    id: "calinda-tradicion-stickfighting",
+    order: 14,
+    placeholderEmoji: "🪵",
+    accentColor: "#5D4037",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte marcial con varas que dio origen al carnaval",
+        subtitle: "El calinda, la tradición de la pelea de varas",
+        imageAlt: "Caricatura de dos hombres enfrentados con varas de madera en alto.",
+        description:
+          "El calinda, una disciplina de combate ritual con varas de madera desarrollada por personas esclavizadas y sus descendientes en Trinidad, se practicaba tradicionalmente al ritmo de tambores y cantos llamados 'chantwell' en encuentros donde dos contrincantes (llamados 'batonniers') se enfrentaban dentro de un círculo hasta que uno cayera o sangrara, una expresión de destreza física y honor comunitario que las autoridades coloniales prohibieron repetidamente por temor a que sirviera de entrenamiento para rebeliones. Aunque la práctica del combate en sí decayó tras las prohibiciones del siglo XIX, sus cantos, ritmos de tambor y estructura de enfrentamiento influyeron directamente en la música de calipso temprana y en las dinámicas de las bandas de Carnaval, y hoy algunos grupos culturales mantienen viva la tradición en exhibiciones ceremoniales.",
+      },
+      en: {
+        title: "The Stick-Fighting Art That Helped Shape Carnival",
+        subtitle: "Calinda, the Stick-Fighting Tradition",
+        imageAlt: "Cartoon of two men facing off with wooden sticks raised.",
+        description:
+          "Calinda, a ritual combat discipline with wooden sticks developed by enslaved people and their descendants in Trinidad, was traditionally practiced to the rhythm of drums and songs called 'chantwell' in encounters where two opponents (called 'batonniers') faced off inside a circle until one fell or drew blood, an expression of physical skill and communal honor that colonial authorities repeatedly banned for fear it served as training for rebellion. Although the combat practice itself declined after 19th-century bans, its songs, drum rhythms, and confrontation structure directly influenced early calypso music and the dynamics of Carnival bands, and today some cultural groups keep the tradition alive through ceremonial exhibitions.",
+      },
+    },
+  },
+  {
+    id: "chutney-el-otro-sonido",
+    order: 15,
+    placeholderEmoji: "🎶",
+    accentColor: "#AD1457",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ritmo indio que se fusionó con el soca caribeño",
+        subtitle: "La música chutney",
+        imageAlt: "Caricatura de un dholak y un armonio junto a notas musicales.",
+        description:
+          "La música chutney surgió entre la comunidad indotrinitense a partir de canciones folclóricas devocionales en hindi y bhojpuri cantadas tradicionalmente en celebraciones como bodas, y se transformó a partir de los años setenta y ochenta al fusionarse con los ritmos del soca y la instrumentación caribeña, dando origen al 'chutney soca', un género bailable con letras que alternan entre hindi, bhojpuri e inglés criollo. Artistas como Sundar Popo, considerado el padre del género, popularizaron el chutney fuera de los círculos religiosos y domésticos hasta convertirlo en un componente reconocido de la temporada de Carnaval, con su propia competencia anual llamada Chutney Soca Monarch, un ejemplo sonoro de cómo las tradiciones indotrinitense y afrotrinitense se entrelazaron para crear algo genuinamente nuevo.",
+      },
+      en: {
+        title: "The Indian Rhythm That Fused With Caribbean Soca",
+        subtitle: "Chutney Music",
+        imageAlt: "Cartoon of a dholak drum and harmonium beside musical notes.",
+        description:
+          "Chutney music emerged among the Indo-Trinidadian community from devotional folk songs in Hindi and Bhojpuri traditionally sung at celebrations like weddings, and transformed starting in the 1970s and 1980s by fusing with soca rhythms and Caribbean instrumentation, giving rise to 'chutney soca,' a danceable genre with lyrics alternating between Hindi, Bhojpuri, and Creole English. Artists like Sundar Popo, considered the genre's father, popularized chutney beyond religious and domestic circles until it became a recognized component of the Carnival season, with its own annual competition called Chutney Soca Monarch, a sonic example of how Indo-Trinidadian and Afro-Trinidadian traditions intertwined to create something genuinely new.",
+      },
+    },
+  },
 ];

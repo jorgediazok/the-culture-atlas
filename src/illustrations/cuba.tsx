@@ -208,6 +208,192 @@ const MedicosCubanosMundo: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const JoseMartiIndependencia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const steel = "#B0B8BF";
+  const steelDark = shade(steel, 0.35);
+  const gold = "#D4A017";
+  // Ten-point star (5 outer @ r=30, 5 inner @ r=12), center (290,155), starting
+  // straight up and stepping every 36deg, precomputed offline — no trig at render time.
+  const STAR_POINTS: [number, number][] = [
+    [290, 125], [297.05, 145.29], [318.53, 145.73], [301.41, 158.71], [307.63, 179.27],
+    [290, 167], [272.37, 179.27], [278.59, 158.71], [261.47, 145.73], [282.95, 145.29],
+  ];
+  const starPath = `M${STAR_POINTS.map((p) => p.join(",")).join(" L")} Z`;
+  return (
+    <g>
+      {/* machete handle, sharing exact vertices with the blade below so the two meet with no gap */}
+      <path d="M148 225 L165 240 L142 250 L128 240 Z" fill={shade("#6D4C41", 0.2)} stroke={dark} strokeWidth="2" />
+      {/* machete blade crossing diagonally */}
+      <path d="M148 225 L270 108 L284 121 L165 240 Z" fill={steel} stroke={steelDark} strokeWidth="3" />
+      {/* writer's quill crossing the other way, nib sharing an exact vertex with the feather */}
+      <path d="M247 233 L132 106 L121 114 L236 246 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M225 210 L155 132 M212 196 L145 120 M199 182 L160 140" stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      <path d="M247 233 L259 246 L241 251 Z" fill={dark} />
+      {/* lone star from the Cuban flag */}
+      <path d={starPath} fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+    </g>
+  );
+};
+
+const CastilloMorroHabana: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const stone = tint(accentColor, 0.2);
+  const sea = "#5DA9C7";
+  const light = "#FFF4C2";
+  return (
+    <g>
+      {/* lighthouse tower drawn first: its base sits 20 units inside the wall's y-range
+          (tower bottom y=190, wall top y=170), so the wall's fill painted after covers the seam */}
+      <rect x="180" y="90" width="40" height="100" fill={stone} stroke={dark} strokeWidth="2.5" />
+      {/* lantern gallery: bottom edge at y=105 overlaps the tower top (y=90) by 15 units */}
+      <rect x="182" y="70" width="36" height="35" fill={tint(stone, 0.35)} stroke={dark} strokeWidth="2" />
+      {/* roof cone shares its base corners exactly with the lantern's top edge */}
+      <path d="M182 70 L200 52 L218 70 Z" fill={dark} />
+      <path d="M218 82 L258 60 L258 73 L218 92 Z" fill={light} opacity="0.6" />
+      {/* fortress wall, painted over the tower's base to hide the join */}
+      <path d="M100 170 L310 170 L310 225 L100 225 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* crenellations: bottom edge at y=185 overlaps the wall top (y=170) by 15 units, invisible since fill matches the wall */}
+      {[110, 138, 166, 194, 222, 250, 278].map((x) => (
+        <rect key={x} x={x} y="155" width="16" height="30" fill={accentColor} stroke={dark} strokeWidth="2" />
+      ))}
+      {/* embrasure openings cut into the wall */}
+      {[140, 190, 240, 270].map((x) => (
+        <rect key={x} x={x} y="185" width="10" height="18" fill={dark} opacity="0.5" />
+      ))}
+      {/* sea waves lapping at the base */}
+      <path d="M90 232 Q120 218 150 232 Q180 246 210 232 Q240 218 270 232 Q300 246 320 232" fill="none" stroke={sea} strokeWidth="5" strokeLinecap="round" />
+      <path d="M95 240 Q130 232 165 240 Q200 248 235 240 Q270 232 305 240" fill="none" stroke={sea} strokeWidth="4" strokeLinecap="round" opacity="0.6" />
+    </g>
+  );
+};
+
+const RumbaAfrocubana: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  const woodDark = shade(wood, 0.35);
+  const skin = "#E8C39E";
+  const drums = [
+    { cx: 140, topY: 150, botY: 235, topW: 46, botW: 34, fill: shade(accentColor, 0.1) },
+    { cx: 200, topY: 125, botY: 235, topW: 52, botW: 38, fill: accentColor },
+    { cx: 262, topY: 108, botY: 235, topW: 58, botW: 42, fill: shade(accentColor, 0.2) },
+  ];
+  return (
+    <g>
+      {drums.map((d) => (
+        <g key={d.cx}>
+          <path
+            d={`M${d.cx - d.topW / 2} ${d.topY} L${d.cx + d.topW / 2} ${d.topY} L${d.cx + d.botW / 2} ${d.botY} L${d.cx - d.botW / 2} ${d.botY} Z`}
+            fill={d.fill}
+            stroke={dark}
+            strokeWidth="2.5"
+          />
+          {/* tuning lugs, fully contained within the drum body */}
+          {[0.22, 0.5, 0.78].map((t) => (
+            <rect key={t} x={d.cx - d.topW / 2 + t * d.topW - 3} y={d.topY + 14} width="6" height="14" fill={woodDark} />
+          ))}
+          {/* drumhead cap: centered 4 units below the body's top edge with ry=15, so it
+              penetrates 19 units into the body (well past the 15-25 target) while still
+              rising 11 units above the rim, reading as a raised skin, not a floating disk */}
+          <ellipse cx={d.cx} cy={d.topY + 4} rx={d.topW / 2 + 2} ry="15" fill={skin} stroke={dark} strokeWidth="2.5" />
+        </g>
+      ))}
+      {/* crossed claves in front */}
+      <g transform="rotate(18 200 220)">
+        <rect x="150" y="214" width="100" height="12" rx="6" fill={wood} stroke={woodDark} strokeWidth="2" />
+      </g>
+      <g transform="rotate(-18 200 220)">
+        <rect x="150" y="214" width="100" height="12" rx="6" fill={shade(wood, 0.12)} stroke={woodDark} strokeWidth="2" />
+      </g>
+    </g>
+  );
+};
+
+const TrinidadCiudadColonial: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const facade = "#F2C46D";
+  const facadeDark = shade(facade, 0.35);
+  const roof = "#A63A2E";
+  const iron = "#3E3E3E";
+  return (
+    <g>
+      {/* colonial bell tower: one continuous tiered path, so there are no internal joints to gap */}
+      <path
+        d="M110 235 L165 235 L165 170 L155 170 L155 115 L147 115 L147 90 L137.5 68 L128 90 L128 115 L120 115 L120 170 L110 170 Z"
+        fill={accentColor}
+        stroke={dark}
+        strokeWidth="3"
+      />
+      {/* bell, fully contained inside the belfry opening */}
+      <path d="M132 96 Q137.5 90 143 96 L145 110 L130 110 Z" fill={dark} />
+      {/* cross starting exactly at the tower's apex vertex (137.5,68), so it meets with no gap */}
+      <path d="M137.5 68 L137.5 50 M128 58 L147 58" stroke={dark} strokeWidth="3" strokeLinecap="round" />
+      {/* pitched roof over the facade: its base spans y150-165, overlapping the wall's top
+          edge (y150) by 15 units once the wall is painted over it */}
+      <path d="M180 165 L245 128 L310 165 Z" fill={roof} stroke={shade(roof, 0.3)} strokeWidth="2" />
+      {/* colorful facade wall */}
+      <path d="M190 150 L300 150 L300 235 L190 235 Z" fill={facade} stroke={facadeDark} strokeWidth="3" />
+      <rect x="230" y="195" width="20" height="40" fill={facadeDark} />
+      <rect x="205" y="165" width="18" height="20" fill={tint(facade, 0.4)} stroke={facadeDark} strokeWidth="2" />
+      <rect x="265" y="165" width="18" height="20" fill={tint(facade, 0.4)} stroke={facadeDark} strokeWidth="2" />
+      {/* iron balcony: spans x175-225, so it overlaps the wall (x190-300) by 25 units while
+          the x175-190 portion protrudes visibly to the left as the ledge */}
+      <rect x="175" y="183" width="50" height="13" fill={iron} />
+      {[180, 190, 200, 210, 220].map((x) => (
+        <line key={x} x1={x} y1="183" x2={x} y2="170" stroke={iron} strokeWidth="2.5" />
+      ))}
+      {/* cobblestone street in the foreground */}
+      {[100, 130, 160, 190, 220, 250, 280, 305].map((x, i) => (
+        <ellipse key={x} cx={x} cy={245 + (i % 2) * 4} rx="10" ry="4" fill={dark} opacity="0.35" />
+      ))}
+    </g>
+  );
+};
+
+const CafeCubanoCultura: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const cream = "#F5F0E6";
+  const bean = "#3E2723";
+  const steam = tint(accentColor, 0.55);
+  return (
+    <g>
+      {/* moka pot: one continuous silhouette (bottom chamber + waist + top chamber), so
+          there are no internal joints to gap */}
+      <path
+        d="M220 210 L300 210 L290 170 L285 170 L280 120 L240 120 L235 170 L230 170 Z"
+        fill={accentColor}
+        stroke={dark}
+        strokeWidth="3"
+      />
+      {/* spout, sharing an exact vertex (280,120) with the pot's top-right corner */}
+      <path d="M280 120 L305 108 L292 128 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* handle: endpoints computed on the pot's true left edge (not its bounding box) —
+          (223.75,195) lies on segment (220,210)-(230,170); (238,140) lies on segment
+          (235,170)-(240,120) — so both ends sit flush on the pot wall with no gap */}
+      <path d="M223.75 195 Q195 155 238 140" fill="none" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+      <circle cx="260" cy="120" r="7" fill={dark} />
+      {/* saucer and cup: the saucer ellipse's true top boundary under the cup (x145-180)
+          sits at y≈210.5-211, not the y=210 bounding-box edge, so the cup's bottom is
+          extended to y=226 for a verified ~15-16 unit overlap into the saucer, drawn
+          after it so the seam is fully covered */}
+      <ellipse cx="160" cy="222" rx="50" ry="12" fill={shade(cream, 0.1)} stroke={dark} strokeWidth="2" />
+      <path d="M145 175 L180 175 L180 226 L145 226 Z" fill={cream} stroke={dark} strokeWidth="2.5" />
+      {/* cup handle, endpoints exactly on the cup's straight right wall (x=180) so it meets with no gap */}
+      <path d="M180 182 Q205 182 205 193.5 Q205 205 180 205" fill="none" stroke={dark} strokeWidth="4" />
+      {/* steam curling up from the rim */}
+      <path d="M155 175 Q148 155 158 140 Q166 128 158 112" fill="none" stroke={steam} strokeWidth="4" strokeLinecap="round" opacity="0.7" />
+      <path d="M172 175 Q178 158 170 145" fill="none" stroke={steam} strokeWidth="3" strokeLinecap="round" opacity="0.6" />
+      {/* scattered coffee beans */}
+      {[[110, 205], [95, 190], [118, 225]].map(([x, y]) => (
+        <g key={x}>
+          <ellipse cx={x} cy={y} rx="9" ry="6" fill={bean} transform={`rotate(20 ${x} ${y})`} />
+          <line x1={x - 6} y1={y} x2={x + 6} y2={y} stroke={shade(bean, 0.4)} strokeWidth="1.5" transform={`rotate(20 ${x} ${y})`} />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const cubaIllustrations: Record<string, IllustrationDefinition> = {
   "autos-clasicos-cuba": { component: AutosClasicosCuba },
   "habanos-tabaco": { component: HabanosTabaco },
@@ -219,4 +405,9 @@ export const cubaIllustrations: Record<string, IllustrationDefinition> = {
   "campana-alfabetizacion": { component: CampanaAlfabetizacion },
   "ron-cuba-libre": { component: RonCubaLibre },
   "medicos-cubanos-mundo": { component: MedicosCubanosMundo },
+  "jose-marti-independencia": { component: JoseMartiIndependencia },
+  "castillo-morro-habana": { component: CastilloMorroHabana },
+  "rumba-afrocubana": { component: RumbaAfrocubana },
+  "trinidad-ciudad-colonial": { component: TrinidadCiudadColonial },
+  "cafe-cubano-cultura": { component: CafeCubanoCultura },
 };

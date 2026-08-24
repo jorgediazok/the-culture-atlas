@@ -231,4 +231,119 @@ export const dominicanRepublic: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "los-trinitarios-y-el-nacimiento-de-la-republica",
+    order: 11,
+    placeholderEmoji: "🚩",
+    accentColor: "#002D62",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los Trinitarios y el nacimiento de la República",
+        subtitle: "Juan Pablo Duarte y la independencia de 1844",
+        imageAlt: "Caricatura de una puerta de piedra con arco y una bandera dominicana ondeando sobre ella.",
+        description:
+          "El 27 de febrero de 1844, un grupo de jóvenes liderados por Juan Pablo Duarte, fundador de la sociedad secreta La Trinitaria en 1838, proclamó la independencia de la parte oriental de la isla de La Española frente a Haití, que había ocupado el territorio desde 1822, dando origen a la República Dominicana. El levantamiento, organizado en el más absoluto secreto por Duarte junto a Francisco del Rosario Sánchez y Ramón Matías Mella, culminó esa noche con un disparo de trabuco frente a la Puerta del Conde, la antigua puerta de la muralla colonial de Santo Domingo, señal acordada para iniciar el alzamiento contra las tropas haitianas apostadas en la ciudad. Duarte, exiliado en Venezuela en el momento exacto de la proclamación y sin poder participar directamente, es hoy venerado como Padre de la Patria, y la Puerta del Conde, donde ondea permanentemente la bandera nacional, sigue siendo el sitio cívico más solemne del país, escenario obligado de los actos oficiales cada 27 de febrero.",
+      },
+      en: {
+        title: "The Trinitarios and the Birth of the Republic",
+        subtitle: "Juan Pablo Duarte and the 1844 Independence",
+        imageAlt: "Cartoon of a stone archway gate with a Dominican flag flying above it.",
+        description:
+          "On February 27, 1844, a group of young men led by Juan Pablo Duarte, founder of the secret society La Trinitaria in 1838, proclaimed the independence of the eastern part of the island of Hispaniola from Haiti, which had occupied the territory since 1822, giving birth to the Dominican Republic. The uprising, organized in complete secrecy by Duarte together with Francisco del Rosario Sánchez and Ramón Matías Mella, culminated that night with a blunderbuss shot fired in front of the Puerta del Conde, the old gate in Santo Domingo's colonial city wall, the agreed signal to launch the revolt against the Haitian troops stationed in the city. Duarte, in exile in Venezuela at the exact moment of the proclamation and unable to take part directly, is revered today as Father of the Nation, and the Puerta del Conde, where the national flag flies permanently, remains the country's most solemn civic site, the obligatory setting for official ceremonies every February 27th.",
+      },
+    },
+  },
+  {
+    id: "el-pais-lider-mundial-en-cacao-organico",
+    order: 12,
+    placeholderEmoji: "🍫",
+    accentColor: "#4A2C17",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país líder mundial en cacao orgánico",
+        subtitle: "El cacao dominicano",
+        imageAlt: "Caricatura de una mazorca de cacao abierta mostrando sus semillas junto a hojas verdes.",
+        description:
+          "República Dominicana es hoy el mayor productor y exportador mundial de cacao orgánico certificado, un cultivo introducido en la isla desde el siglo dieciocho y concentrado en la región del Cibao y provincias del noreste, donde pequeños productores mantienen sistemas agroforestales tradicionales que combinan árboles de cacao con sombra de plátano, aguacate y maderables, un método que favorece tanto la biodiversidad como la calidad del grano. El país es reconocido por su cacao Sánchez y por variedades finas de aroma, muy valoradas por chocolateros artesanales de Europa y Estados Unidos que pagan sobreprecios por lotes de origen único trazable hasta la finca. Cooperativas fundadas en los años noventa impulsaron la transición hacia certificaciones orgánicas y de comercio justo que hoy sostienen a decenas de miles de familias campesinas, mientras una creciente industria de chocolate artesanal dominicano gana reconocimiento internacional.",
+      },
+      en: {
+        title: "The World's Leading Organic Cacao Producer",
+        subtitle: "Dominican Cacao",
+        imageAlt: "Cartoon of an open cacao pod showing its seeds beside green leaves.",
+        description:
+          "The Dominican Republic is today the world's largest producer and exporter of certified organic cacao, a crop introduced to the island in the eighteenth century that is concentrated mainly in the Cibao region and the northeastern provinces, where small farmers maintain traditional agroforestry systems combining cacao trees with shade from plantain, avocado, and timber trees, a method that favors both biodiversity and bean quality. The country is recognized for its Sánchez cacao and for fine-aroma varieties highly valued by artisanal chocolate makers in Europe and the United States, who pay premiums for single-origin lots traceable to the farm. Farmer cooperatives, many founded in the 1990s, drove the shift toward organic and fair-trade certifications that today sustain the incomes of tens of thousands of farming families, while a growing Dominican artisanal chocolate industry is gaining recognition at international fine-chocolate fairs.",
+      },
+    },
+  },
+  {
+    id: "el-plato-que-todo-dominicano-llama-la-bandera",
+    order: 13,
+    placeholderEmoji: "🍽️",
+    accentColor: "#D97B29",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El plato que todo dominicano llama 'la bandera'",
+        subtitle: "Mangú y la bandera dominicana",
+        imageAlt: "Caricatura de un plato con puré de plátano, arroz, habichuelas rojas y carne, con cebolla encima.",
+        description:
+          "La comida dominicana gira en torno a dos pilares diarios: el mangú, un puré de plátano verde hervido y machacado que suele comerse en el desayuno acompañado de huevo frito, queso frito y salami en lo que se conoce como 'los tres golpes', y 'la bandera dominicana', el almuerzo tradicional de arroz blanco, habichuelas rojas guisadas y carne, generalmente de pollo o res, servido casi a diario en hogares de todo el país y llamado así porque sus colores evocan los de la bandera nacional. El mangú, de raíz africana y adaptado con ingredientes autóctonos tras la llegada de los esclavizados africanos durante la colonia, se corona tradicionalmente con finas rodajas de cebolla encurtida en vinagre. Ambos platos, servidos por igual en comedores humildes, restaurantes turísticos y mesas familiares de fin de semana, se consideran el corazón de la identidad culinaria dominicana, y ningún visitante se marcha del país sin haber probado al menos uno de los dos.",
+      },
+      en: {
+        title: "The Dish Every Dominican Calls 'La Bandera'",
+        subtitle: "Mangú and the Dominican Flag Plate",
+        imageAlt: "Cartoon of a plate with mashed plantain, rice, red beans, and meat, topped with onion.",
+        description:
+          "Dominican food revolves around two daily pillars: mangú, a purée of boiled and mashed green plantain usually eaten at breakfast alongside fried egg, fried cheese, and salami in what's known as 'los tres golpes' ('the three hits'), and 'la bandera dominicana' ('the Dominican flag'), the traditional lunch of white rice, stewed red beans, and meat, usually chicken or beef, served in homes across the country almost daily and named for how its colors echo the national flag. Mangú, of African origin and adapted with local ingredients after the arrival of enslaved Africans during the colonial period, is traditionally topped with thin slices of vinegar-pickled onion. Both dishes, served equally in humble diners, tourist restaurants, and weekend family tables, are considered the heart of Dominican culinary identity, and no visitor leaves the country without trying at least one of the two.",
+      },
+    },
+  },
+  {
+    id: "las-playas-que-convirtieron-al-pais-en-destino-global",
+    order: 14,
+    placeholderEmoji: "🏖️",
+    accentColor: "#1CADE4",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las playas que convirtieron al país en destino global",
+        subtitle: "Punta Cana y la costa este",
+        imageAlt: "Caricatura de una playa de arena blanca con palmeras inclinadas y aguas turquesas.",
+        description:
+          "Punta Cana, en el extremo oriental de República Dominicana, era hasta los años setenta una zona prácticamente despoblada de manglares y arrecifes hasta que un grupo de inversionistas dominicanos y extranjeros, entre ellos el empresario estadounidense Frank Rainieri, comenzó a desarrollar allí resorts sobre más de treinta kilómetros de playas de arena blanca bordeadas por cocoteros inclinados hacia el mar y aguas turquesas de calma excepcional gracias a una barrera de arrecifes de coral. La región se convirtió en pocas décadas en el principal motor turístico del país, con un aeropuerto internacional privado inaugurado en 1984, el primero de su tipo en el mundo operado por una empresa privada en lugar del Estado, que hoy recibe millones de visitantes al año, sobre todo de Estados Unidos, Canadá y Europa. El turismo de Punta Cana y la costa este es hoy una de las mayores fuentes de divisas del país, sosteniendo cientos de miles de empleos dominicanos.",
+      },
+      en: {
+        title: "The Beaches That Made the Country a Global Destination",
+        subtitle: "Punta Cana and the Eastern Coast",
+        imageAlt: "Cartoon of a white sand beach with leaning palm trees and turquoise water.",
+        description:
+          "Punta Cana, on the easternmost tip of the Dominican Republic, was until the 1970s a largely unpopulated stretch of mangroves and reefs until a group of Dominican and foreign investors, including American businessman Frank Rainieri, began developing resorts there along more than thirty kilometers of white sand beaches lined with coconut palms leaning toward the sea and turquoise waters of exceptional calm, protected by a barrier of coral reefs. Within a few decades the region became the country's main tourism engine, with a private international airport opened in 1984, the first of its kind in the world built and operated by a private company rather than a government, today welcoming millions of visitors a year, mostly from the United States, Canada, and Europe. The tourism generated by Punta Cana and the eastern coast is now one of the country's largest sources of foreign currency, directly or indirectly sustaining hundreds of thousands of Dominican jobs.",
+      },
+    },
+  },
+  {
+    id: "las-palabras-tainas-que-el-mundo-habla-sin-saberlo",
+    order: 15,
+    placeholderEmoji: "🗣️",
+    accentColor: "#6B8E4E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las palabras taínas que el mundo habla sin saberlo",
+        subtitle: "El legado lingüístico taíno",
+        imageAlt: "Caricatura de una hamaca colgada entre dos árboles junto a una fogata y nubes de humo.",
+        description:
+          "El taíno, la lengua arahuaca hablada por los habitantes originarios de La Española antes de la llegada europea y extinguida como idioma vivo pocas décadas después de la conquista, dejó un legado sorprendentemente amplio en el vocabulario mundial, con palabras que pasaron al español y de ahí a decenas de otros idiomas: 'hamaca', la red tejida para dormir que los colonizadores adoptaron de inmediato por resultar más fresca que las camas europeas; 'huracán', nombre del dios taíno de las tormentas convertido en el término científico para los ciclones tropicales; y 'barbacoa', la técnica de cocción sobre madera que dio origen a la palabra inglesa 'barbecue'. Otras voces taínas cotidianas incluyen 'canoa', 'tabaco', 'maíz' y 'yuca', esta última la raíz base de la dieta taína y aún alimento fundamental en la mesa dominicana, prueba de que esa cultura indígena permanece viva en el lenguaje de miles de millones de personas.",
+      },
+      en: {
+        title: "The Taíno Words the World Speaks Without Knowing",
+        subtitle: "The Taíno Linguistic Legacy",
+        imageAlt: "Cartoon of a hammock hanging between two trees beside a bonfire and clouds of smoke.",
+        description:
+          "Taíno, the Arawakan language spoken by Hispaniola's original inhabitants before European arrival and extinct as a living language within decades of the conquest, nonetheless left a surprisingly wide legacy across the world's vocabulary, with words that passed into Spanish and from there into dozens of other languages: 'hamaca,' the woven sleeping net colonizers adopted immediately for being cooler than European beds in the Caribbean climate; 'huracán,' the name of the Taíno storm god that became the universal scientific term for tropical cyclones; and 'barbacoa,' the wooden-structure cooking technique behind the English word 'barbecue.' Other everyday Taíno words include 'canoa' (canoe), 'tabaco' (tobacco), 'maíz' (corn), and 'yuca' (cassava), the root that formed the base of the Taíno diet and remains a staple on Dominican tables, proof that this Indigenous culture lives on in the language of billions.",
+      },
+    },
+  },
 ];

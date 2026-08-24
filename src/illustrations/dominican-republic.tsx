@@ -154,6 +154,112 @@ const LaCuevaConArteTainoDeHaceMilAnos: IllustrationComponent = ({ accentColor }
   );
 };
 
+const LosTrinitariosYElNacimientoDeLaRepublica: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const stone = tint(accentColor, 0.12);
+  return (
+    <g>
+      <rect x="120" y="150" width="35" height="90" fill={stone} stroke={dark} strokeWidth="3" />
+      <rect x="245" y="150" width="35" height="90" fill={stone} stroke={dark} strokeWidth="3" />
+      <line x1="200" y1="58" x2="200" y2="140" stroke="#5C3A21" strokeWidth="4" />
+      <path d="M155 150 Q200 95 245 150 L245 165 Q200 140 155 165 Z" fill={stone} stroke={dark} strokeWidth="3" />
+      <rect x="170" y="200" width="60" height="40" fill="#3A2418" stroke={dark} strokeWidth="2" />
+      <g>
+        <rect x="173" y="40" width="55" height="35" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+        <rect x="173" y="40" width="27.5" height="17.5" fill="#C1272D" />
+        <rect x="200.5" y="57.5" width="27.5" height="17.5" fill="#C1272D" />
+        <rect x="173" y="54.5" width="55" height="6" fill="#F5F0E6" />
+        <rect x="197.5" y="40" width="6" height="35" fill="#F5F0E6" />
+      </g>
+      <rect x="90" y="240" width="230" height="8" fill="#8C8C74" opacity="0.6" />
+    </g>
+  );
+};
+
+const ElPaisLiderMundialEnCacaoOrganico: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M205 78 Q165 50 140 55 Q160 85 205 78 Z" fill="#2F6B3A" stroke={dark} strokeWidth="2.2" />
+      <path d="M205 78 Q245 50 270 55 Q250 85 205 78 Z" fill="#2F6B3A" stroke={dark} strokeWidth="2.2" />
+      <rect x="200" y="60" width="10" height="58" fill="#5C3A21" stroke={dark} strokeWidth="1.8" />
+      <ellipse cx="205" cy="170" rx="60" ry="75" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="230" cy="170" rx="32" ry="55" fill="#F5F0E6" stroke={dark} strokeWidth="2.4" />
+      <path d="M170 130 Q158 170 172 210 M185 120 Q172 170 188 218" fill="none" stroke={dark} strokeWidth="2" opacity="0.5" />
+      {[[215, 140], [230, 150], [244, 145], [218, 172], [238, 178], [224, 200]].map(([x, y], i) => (
+        <ellipse key={i} cx={x} cy={y} rx="10" ry="13" fill="#8B5A2B" stroke={dark} strokeWidth="1.6" />
+      ))}
+    </g>
+  );
+};
+
+const ElPlatoQueTodoDominicanoLlamaLaBandera: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <ellipse cx="205" cy="195" rx="115" ry="42" fill="#D8D2C4" stroke={dark} strokeWidth="3" />
+      <ellipse cx="150" cy="165" rx="45" ry="30" fill="#F5F0E6" stroke={dark} strokeWidth="2.4" />
+      <ellipse cx="260" cy="165" rx="45" ry="30" fill="#8B1A1A" stroke={dark} strokeWidth="2.4" />
+      <ellipse cx="205" cy="130" rx="55" ry="32" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <ellipse cx="205" cy="195" rx="35" ry="18" fill="#5C3A21" stroke={dark} strokeWidth="2.2" />
+      {[[190, 118], [206, 112], [221, 120]].map(([x, y], i) => (
+        <ellipse key={i} cx={x} cy={y} rx="10" ry="6" fill="none" stroke="#F5F0E6" strokeWidth="3" />
+      ))}
+    </g>
+  );
+};
+
+const LasPlayasQueConvirtieronAlPaisEnDestinoGlobal: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const frondAngles = [-70, -35, 0, 35, 70];
+  return (
+    <g>
+      <path d="M90 235 Q140 212 190 226 Q240 242 320 218 L320 250 L90 250 Z" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <rect x="90" y="240" width="230" height="10" fill="#E8D4A0" stroke={dark} strokeWidth="2" />
+      <path d="M140 246 Q128 180 150 110" fill="none" stroke="#6B4423" strokeWidth="9" strokeLinecap="round" />
+      {frondAngles.map((deg) => (
+        <path
+          key={deg}
+          d="M150 110 Q125 92 100 100 Q122 116 150 110 Z"
+          fill="#2F6B3A"
+          stroke={dark}
+          strokeWidth="1.8"
+          transform={`rotate(${deg} 150 110)`}
+        />
+      ))}
+      <circle cx="150" cy="110" r="19" fill="#6B4423" stroke={dark} strokeWidth="2" />
+      <path d="M262 250 Q252 190 260 105" fill="none" stroke="#6B4423" strokeWidth="8" strokeLinecap="round" />
+      {frondAngles.map((deg) => (
+        <path
+          key={deg}
+          d="M260 105 Q235 87 210 95 Q232 111 260 105 Z"
+          fill="#2F6B3A"
+          stroke={dark}
+          strokeWidth="1.8"
+          transform={`rotate(${deg} 260 105)`}
+        />
+      ))}
+      <circle cx="260" cy="105" r="19" fill="#6B4423" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const LasPalabrasTainasQueElMundoHablaSinSaberlo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M130 150 Q205 175 280 160 Q205 230 130 150 Z" fill="#C9A227" stroke={dark} strokeWidth="2.6" />
+      <rect x="120" y="130" width="16" height="110" fill="#6B4423" stroke={dark} strokeWidth="2" />
+      <circle cx="128" cy="122" r="26" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <rect x="272" y="135" width="16" height="105" fill="#6B4423" stroke={dark} strokeWidth="2" />
+      <circle cx="280" cy="128" r="26" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M195 236 L185 216 L225 216 L215 236 Z" fill="#5C3A21" stroke={dark} strokeWidth="2" />
+      <path d="M195 232 Q205 210 200 195 Q215 212 210 232 Q205 218 195 232 Z" fill="#E8952B" stroke={dark} strokeWidth="1.8" />
+      <path d="M198 195 Q190 175 200 155 M215 200 Q225 178 212 160" fill="none" stroke="#8C8C8C" strokeWidth="3" opacity="0.5" />
+    </g>
+  );
+};
+
 export const dominicanRepublicIllustrations: Record<string, IllustrationDefinition> = {
   "la-primera-ciudad-europea-fundada-en-america": { component: LaPrimeraCiudadEuropeaFundadaEnAmerica },
   "los-dos-ritmos-declarados-patrimonio-de-la-humanidad": { component: LosDosRitmosDeclaradosPatrimonioDeLaHumanidad },
@@ -165,4 +271,9 @@ export const dominicanRepublicIllustrations: Record<string, IllustrationDefiniti
   "el-palacio-donde-vivio-el-hijo-de-cristobal-colon": { component: ElPalacioDondeVivioElHijoDeCristobalColon },
   "los-puros-enrollados-a-mano-que-compiten-con-cuba": { component: LosPurosEnrolladosAManoQueCompitenConCuba },
   "la-cueva-con-arte-taino-de-hace-mil-anos": { component: LaCuevaConArteTainoDeHaceMilAnos },
+  "los-trinitarios-y-el-nacimiento-de-la-republica": { component: LosTrinitariosYElNacimientoDeLaRepublica },
+  "el-pais-lider-mundial-en-cacao-organico": { component: ElPaisLiderMundialEnCacaoOrganico },
+  "el-plato-que-todo-dominicano-llama-la-bandera": { component: ElPlatoQueTodoDominicanoLlamaLaBandera },
+  "las-playas-que-convirtieron-al-pais-en-destino-global": { component: LasPlayasQueConvirtieronAlPaisEnDestinoGlobal },
+  "las-palabras-tainas-que-el-mundo-habla-sin-saberlo": { component: LasPalabrasTainasQueElMundoHablaSinSaberlo },
 };

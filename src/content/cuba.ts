@@ -231,4 +231,119 @@ export const cuba: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "jose-marti-independencia",
+    order: 11,
+    placeholderEmoji: "🖋️",
+    accentColor: "#154360",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El poeta que murió peleando por la independencia",
+        subtitle: "José Martí y la independencia de Cuba",
+        imageAlt: "Caricatura de una pluma de escritor cruzada con un machete junto a una estrella solitaria.",
+        description:
+          "José Martí dedicó buena parte de su vida a organizar, desde el exilio en Nueva York, la guerra que finalmente logró la independencia de Cuba del imperio español, fundando el Partido Revolucionario Cubano y recorriendo comunidades de emigrados para reunir apoyo político y económico a la causa. Además de estratega político, fue un poeta y ensayista reconocido en toda América Latina: su poemario 'Versos sencillos' inspiró décadas después la letra de 'Guantanamera', una de las canciones cubanas más conocidas del mundo. Martí regresó a la isla para unirse a la lucha armada y murió en su primer combate, en Dos Ríos, en mayo de 1895, apenas semanas después de desembarcar, sin llegar a ver la independencia que había ayudado a organizar. Hoy es recordado como 'El Apóstol' y su estatua preside la plaza principal de prácticamente todos los pueblos cubanos.",
+      },
+      en: {
+        title: "The Poet Who Died Fighting for Independence",
+        subtitle: "José Martí and Cuban Independence",
+        imageAlt: "Cartoon of a writer's quill crossed with a machete beside a lone star.",
+        description:
+          "José Martí spent much of his life organizing, from exile in New York, the war that eventually won Cuba's independence from the Spanish empire, founding the Cuban Revolutionary Party and traveling among émigré communities to gather political and financial support for the cause. Beyond being a political strategist, he was a poet and essayist celebrated across Latin America: his poetry collection 'Versos Sencillos' later inspired the lyrics of 'Guantanamera,' one of the best-known Cuban songs in the world. Martí returned to the island to join the armed struggle and died in his very first battle, at Dos Ríos, in May 1895, just weeks after landing, without living to see the independence he had helped organize. Today he is remembered as 'El Apóstol,' and his statue presides over the main square of practically every Cuban town.",
+      },
+    },
+  },
+  {
+    id: "castillo-morro-habana",
+    order: 12,
+    placeholderEmoji: "🏰",
+    accentColor: "#455A64",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La fortaleza que vigila la entrada a La Habana",
+        subtitle: "El Castillo del Morro",
+        imageAlt: "Caricatura de un faro cilíndrico sobre una fortaleza con almenas junto al mar.",
+        description:
+          "El Castillo de los Tres Reyes Magos del Morro se construyó entre 1589 y 1630 en el promontorio rocoso que domina la entrada al puerto de La Habana, diseñado por el ingeniero italiano Giovanni Battista Antonelli para proteger la ciudad de los ataques constantes de piratas y corsarios que asediaban el Caribe español. Sus gruesos muros de piedra, fosos y baterías de cañones lograron resistir durante más de un siglo hasta que una fuerza británica logró tomarlo en 1762 tras un largo asedio, en un episodio que llevó a la corona española a reforzar aún más las defensas de la isla. En 1845 se añadió el faro que corona la fortaleza y que todavía guía a los barcos que entran a la bahía. Declarado Patrimonio de la Humanidad por la UNESCO junto al resto de La Habana Vieja, el Morro es hoy uno de los símbolos visuales más reconocibles de Cuba.",
+      },
+      en: {
+        title: "The Fortress Guarding Havana's Harbor Entrance",
+        subtitle: "The Castillo del Morro",
+        imageAlt: "Cartoon of a cylindrical lighthouse atop a crenellated fortress beside the sea.",
+        description:
+          "The Castillo de los Tres Reyes Magos del Morro was built between 1589 and 1630 on the rocky promontory overlooking the entrance to Havana's harbor, designed by Italian engineer Giovanni Battista Antonelli to protect the city from the constant pirate and privateer attacks that plagued the Spanish Caribbean. Its thick stone walls, moats, and cannon batteries held for more than a century until a British force managed to capture it in 1762 after a long siege, an episode that pushed the Spanish crown to further reinforce the island's defenses. In 1845 a lighthouse was added atop the fortress, and it still guides ships entering the bay today. Declared a UNESCO World Heritage Site along with the rest of Old Havana, the Morro remains one of Cuba's most recognizable visual symbols.",
+      },
+    },
+  },
+  {
+    id: "rumba-afrocubana",
+    order: 13,
+    placeholderEmoji: "🥁",
+    accentColor: "#EF6C00",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ritmo afrocubano que nació en los puertos",
+        subtitle: "La rumba cubana",
+        imageAlt: "Caricatura de tres tumbadoras de distinto tamaño junto a un par de claves cruzadas.",
+        description:
+          "La rumba surgió a fines del siglo XIX entre comunidades afrocubanas de los barrios portuarios de La Habana y Matanzas, como una expresión musical y de baile que combinaba tambores tumbadora, claves y cantos de llamada y respuesta heredados de tradiciones africanas traídas por personas esclavizadas y sus descendientes. El género se dividió en tres estilos principales: el yambú, más lento y de pasos suaves; el guaguancó, con un juego de cortejo entre el hombre y la mujer conocido como 'vacunao'; y la columbia, más rápida y acrobática, tradicionalmente bailada solo por hombres. Nacida fuera de los salones formales, en patios y esquinas de barrios populares, la rumba fue durante décadas vista con desdén por las clases altas cubanas antes de ganar reconocimiento como una de las expresiones culturales más originales de la isla. En 2016 la UNESCO la declaró Patrimonio Cultural Inmaterial de la Humanidad.",
+      },
+      en: {
+        title: "The Afro-Cuban Rhythm Born in the Docks",
+        subtitle: "Cuban Rumba",
+        imageAlt: "Cartoon of three differently sized conga drums beside a pair of crossed claves.",
+        description:
+          "Rumba emerged in the late 19th century among Afro-Cuban communities in the port neighborhoods of Havana and Matanzas, a musical and dance form combining tumbadora drums, claves, and call-and-response singing inherited from African traditions brought by enslaved people and their descendants. The genre split into three main styles: yambú, slower and gentler in its steps; guaguancó, built around a flirtatious chase between man and woman known as the 'vacunao'; and columbia, faster and more acrobatic, traditionally danced only by men. Born outside formal ballrooms, in the patios and street corners of working-class neighborhoods, rumba was for decades looked down on by Cuba's upper classes before earning recognition as one of the island's most original cultural expressions. In 2016 UNESCO declared it part of the Intangible Cultural Heritage of Humanity.",
+      },
+    },
+  },
+  {
+    id: "trinidad-ciudad-colonial",
+    order: 14,
+    placeholderEmoji: "🏘️",
+    accentColor: "#7E57C2",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo colonial que el tiempo dejó intacto",
+        subtitle: "Trinidad, ciudad museo",
+        imageAlt: "Caricatura de un campanario colonial junto a una fachada colorida con balcón de hierro.",
+        description:
+          "Fundada en 1514 por Diego Velázquez, Trinidad se convirtió en el siglo XIX en una de las ciudades más ricas de Cuba gracias al auge azucarero del cercano Valle de los Ingenios, donde decenas de plantaciones trabajadas por personas esclavizadas producían buena parte del azúcar que se exportaba desde la isla. La caída del precio del azúcar y el aislamiento geográfico de la ciudad, apartada de las principales rutas comerciales del siglo XX, frenaron su crecimiento urbano, un estancamiento económico que paradójicamente terminó preservando casi intacto su trazado de calles empedradas, fachadas de colores pastel y balcones de hierro forjado de la época colonial. En 1988 la UNESCO declaró a Trinidad y al Valle de los Ingenios Patrimonio de la Humanidad, y hoy la ciudad vive en gran parte del turismo que llega a recorrer sus calles convertidas prácticamente en un museo al aire libre.",
+      },
+      en: {
+        title: "The Colonial Town Time Left Untouched",
+        subtitle: "Trinidad, the Museum City",
+        imageAlt: "Cartoon of a colonial bell tower beside a colorful facade with an iron balcony.",
+        description:
+          "Founded in 1514 by Diego Velázquez, Trinidad became one of Cuba's wealthiest cities in the 19th century thanks to the sugar boom of the nearby Valle de los Ingenios, where dozens of plantations worked by enslaved people produced a large share of the sugar exported from the island. Falling sugar prices and the city's geographic isolation from the main 20th-century trade routes slowed its growth, an economic stagnation that paradoxically ended up preserving its cobblestone streets, pastel-colored facades, and wrought-iron balconies from the colonial era almost intact. In 1988 UNESCO declared Trinidad and the Valle de los Ingenios a World Heritage Site, and today the city lives largely off tourism drawn to streets that have become practically an open-air museum.",
+      },
+    },
+  },
+  {
+    id: "cafe-cubano-cultura",
+    order: 15,
+    placeholderEmoji: "☕",
+    accentColor: "#8D6E63",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cafecito fuerte y dulce que marca el día",
+        subtitle: "La cultura del café cubano",
+        imageAlt: "Caricatura de una tacita de café cubano junto a una cafetera y granos de café.",
+        description:
+          "El cultivo del café llegó a Cuba a fines del siglo XVIII de la mano de colonos franceses que huyeron de Haití durante la revolución que puso fin a la esclavitud en esa isla, y encontró en las montañas de la Sierra Maestra y el Escambray un clima ideal para prosperar. Con el tiempo se desarrolló una forma particular de prepararlo: el café cubano se endulza con azúcar durante el propio proceso de colado, batiendo las primeras gotas del café hasta lograr una espuma dulce y espesa llamada 'espumita' que después se mezcla con el resto de la bebida. Tomar un 'cafecito' fuerte en una tacita pequeña, muchas veces compartido entre varias personas en una 'colada', se volvió un ritual social que marca pausas en la jornada laboral y una forma habitual de recibir visitas en cualquier casa cubana. La variante con leche caliente, el 'cortadito', es igual de popular como desayuno.",
+      },
+      en: {
+        title: "The Strong, Sweet Coffee That Punctuates the Day",
+        subtitle: "Cuban Coffee Culture",
+        imageAlt: "Cartoon of a small Cuban coffee cup beside a coffee pot and coffee beans.",
+        description:
+          "Coffee cultivation arrived in Cuba in the late 18th century with French planters who fled Haiti during the revolution that ended slavery on that island, and found ideal growing conditions in the mountains of the Sierra Maestra and the Escambray range. Over time a distinctive preparation method developed: Cuban coffee is sweetened with sugar during the brewing process itself, whipping the first drops of coffee into a thick, sweet foam called 'espumita' that is then folded into the rest of the drink. Drinking a strong 'cafecito' from a tiny cup, often shared among several people from one shared serving called a 'colada,' became a social ritual marking pauses in the workday and a standard way to welcome visitors into any Cuban home. The version with hot milk, the 'cortadito,' is just as popular as a breakfast drink.",
+      },
+    },
+  },
 ];

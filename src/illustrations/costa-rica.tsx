@@ -123,7 +123,6 @@ const QuetzalResplandeciente: IllustrationComponent = ({ accentColor }) => {
 };
 
 const PeninsulaNicoyaLongevidad: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.4);
   const sand = "#E8C87A";
   const sun = "#F4A300";
   return (
@@ -194,6 +193,168 @@ const EcoturismoPionero: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const TortugasTortuguero: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const sand = "#C9A66B";
+  const sandDark = shade("#C9A66B", 0.25);
+  const moon = "#F4E9C9";
+  return (
+    <g>
+      {/* night sky: moon and stars */}
+      <circle cx="300" cy="95" r="18" fill={moon} opacity="0.9" />
+      {[[110, 95], [250, 65], [135, 58], [270, 130]].map(([x, y]) => (
+        <circle key={`star-${x}-${y}`} cx={x} cy={y} r="2.2" fill={moon} opacity="0.8" />
+      ))}
+      {/* sand mound, drawn first so the shell and flippers sit into it */}
+      <path d="M105 250 Q120 195 200 200 Q280 195 295 250 Z" fill={sand} />
+      <path d="M105 250 Q120 195 200 200 Q280 195 295 250 Z" fill="none" stroke={sandDark} strokeWidth="1.5" opacity="0.4" />
+      {/* four flippers, drawn before the shell so their roots sit underneath it */}
+      <path d="M165 149 L128 108 L138 98 L179 135 Z" fill={dark} />
+      <path d="M235 149 L272 108 L262 98 L221 135 Z" fill={dark} />
+      <path d="M169 194 L141 236 L153 244 L185 206 Z" fill={dark} />
+      <path d="M231 194 L259 236 L247 244 L215 206 Z" fill={dark} />
+      {/* shell, painted over the flipper roots to keep the joins seamless */}
+      <ellipse cx="200" cy="170" rx="65" ry="55" fill={accentColor} />
+      <path d="M155 140 Q200 155 245 140" fill="none" stroke={dark} strokeWidth="3" opacity="0.5" />
+      <path d="M150 185 Q200 205 250 185" fill="none" stroke={dark} strokeWidth="3" opacity="0.5" />
+      <path d="M200 120 L200 220" fill="none" stroke={dark} strokeWidth="3" opacity="0.4" />
+      {/* head, drawn last so it reads as a complete shape at the front of the shell */}
+      <circle cx="200" cy="113" r="22" fill={accentColor} />
+      <circle cx="192" cy="108" r="3" fill="#1A1A1A" />
+      <circle cx="208" cy="108" r="3" fill="#1A1A1A" />
+      {/* half-buried eggs beside the nest */}
+      <ellipse cx="130" cy="238" rx="9" ry="7" fill={moon} />
+      <ellipse cx="272" cy="236" rx="9" ry="7" fill={moon} />
+    </g>
+  );
+};
+
+const MarimbaCostarricense: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const wood = "#8B5A2B";
+  const woodDark = shade("#8B5A2B", 0.3);
+  const keys = [
+    { x: 104, w: 26, tube: 50 },
+    { x: 132, w: 24, tube: 45 },
+    { x: 158, w: 23, tube: 41 },
+    { x: 183, w: 21, tube: 37 },
+    { x: 206, w: 20, tube: 33 },
+    { x: 228, w: 19, tube: 29 },
+    { x: 249, w: 18, tube: 25 },
+    { x: 269, w: 17, tube: 21 },
+  ];
+  return (
+    <g>
+      {/* stand: two legs and a crossbar */}
+      <path d="M128 248 L150 248 L144 198 L134 198 Z" fill={woodDark} />
+      <path d="M248 248 L270 248 L264 198 L254 198 Z" fill={woodDark} />
+      <rect x="108" y="206" width="180" height="9" fill={woodDark} />
+      {/* resonator tubes, hanging beneath the keys */}
+      {keys.map((k) => (
+        <rect key={`tube-${k.x}`} x={k.x - (k.w - 4) / 2} y="170" width={k.w - 4} height={k.tube} rx="4" fill={wood} opacity="0.85" />
+      ))}
+      {/* wooden keys */}
+      {keys.map((k) => (
+        <rect key={`key-${k.x}`} x={k.x - k.w / 2} y="150" width={k.w} height="18" rx="3" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      ))}
+      {/* two mallets mid-strike */}
+      <line x1="95" y1="85" x2="170" y2="152" stroke={woodDark} strokeWidth="5" strokeLinecap="round" />
+      <circle cx="170" cy="152" r="10" fill={dark} />
+      <line x1="303" y1="80" x2="232" y2="150" stroke={woodDark} strokeWidth="5" strokeLinecap="round" />
+      <circle cx="232" cy="150" r="10" fill={dark} />
+      {/* small motion arcs suggesting sound at the point of impact */}
+      <path d="M155 140 Q170 130 185 140" fill="none" stroke={dark} strokeWidth="2.5" opacity="0.6" />
+      <path d="M217 138 Q232 128 247 138" fill="none" stroke={dark} strokeWidth="2.5" opacity="0.6" />
+    </g>
+  );
+};
+
+const MascarasBoruca: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const wood = "#7B4B2A";
+  const woodDark = shade("#7B4B2A", 0.3);
+  const palette = [accentColor, "#F4A300", "#2E7D32", "#1565C0"];
+  const dots: [number, number][] = [[150, 130], [250, 130], [150, 195], [250, 195]];
+  return (
+    <g>
+      {/* mask base, drawn first so the horns can be painted over its top edge */}
+      <ellipse cx="200" cy="165" rx="68" ry="62" fill={wood} />
+      <ellipse cx="200" cy="165" rx="68" ry="62" fill="none" stroke={accentColor} strokeWidth="7" opacity="0.85" />
+      {dots.map(([x, y], i) => (
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="6" fill={palette[i % palette.length]} />
+      ))}
+      {/* horns, short, thick, and swept almost sideways so they read as horns, not ears */}
+      <path d="M159 137 Q120 118 95 124 L91 136 Q125 145 151 163 Z" fill={dark} />
+      <path d="M241 137 Q280 118 305 124 L309 136 Q275 145 249 163 Z" fill={dark} />
+      {/* eyes */}
+      <circle cx="175" cy="150" r="16" fill="#F4E9C9" />
+      <circle cx="225" cy="150" r="16" fill="#F4E9C9" />
+      <circle cx="175" cy="150" r="7" fill="#1A1A1A" />
+      <circle cx="225" cy="150" r="7" fill="#1A1A1A" />
+      {/* nose */}
+      <path d="M200 158 L188 195 L212 195 Z" fill={woodDark} />
+      {/* mouth with carved teeth */}
+      <path d="M170 194 Q200 210 230 194 L230 203 Q200 218 170 203 Z" fill="#1A1A1A" />
+      {[180, 192, 204, 216].map((x) => (
+        <rect key={x} x={x - 4} y="195" width="8" height="8" fill="#F4E9C9" />
+      ))}
+    </g>
+  );
+};
+
+const CeramicaChorotega: IllustrationComponent = ({ accentColor }) => {
+  const clay = "#C97B4A";
+  const clayDark = shade("#C97B4A", 0.3);
+  const dark = "#3E2412";
+  return (
+    <g>
+      {/* ground shadow */}
+      <ellipse cx="200" cy="245" rx="100" ry="8" fill={clayDark} opacity="0.25" />
+      {/* small secondary vessel, each drawn as one continuous outline so no seam is needed */}
+      <path d="M100 240 Q88 240 88 226 Q88 205 96 195 Q100 180 96 168 Q108 162 120 168 Q116 180 120 195 Q128 205 128 226 Q128 240 116 240 Z" fill={shade(accentColor, 0.15)} />
+      {/* main vessel, one continuous outline */}
+      <path d="M170 240 Q150 240 150 220 Q150 180 165 160 Q170 130 165 110 Q163 95 175 90 L225 90 Q237 95 235 110 Q230 130 235 160 Q250 180 250 220 Q250 240 230 240 Z" fill={clay} stroke={clayDark} strokeWidth="2" />
+      {/* painted geometric bands, sized to stay inside the vessel's true silhouette */}
+      <path d="M172 145 L184 136 L196 152 L208 136 L220 152 L228 145" fill="none" stroke={accentColor} strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M160 190 L175 180 L190 200 L205 180 L220 200 L240 190" fill="none" stroke={dark} strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      {[172, 192, 212].map((x) => (
+        <polygon key={x} points={`${x},218 ${x + 12},218 ${x + 6},204`} fill={accentColor} />
+      ))}
+    </g>
+  );
+};
+
+const AntorchaIndependencia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const handle = "#5D4037";
+  const handleDark = shade("#5D4037", 0.3);
+  const glow = "#FFF3C4";
+  return (
+    <g>
+      {/* torch handle, drawn first so the flame can be painted over its top */}
+      <rect x="152" y="170" width="16" height="80" rx="4" fill={handle} />
+      <rect x="148" y="242" width="24" height="10" rx="3" fill={handleDark} />
+      {/* layered flame, rooted well inside the handle's top edge */}
+      <path d="M150 190 Q138 145 162 92 Q186 145 174 190 Z" fill="#C1272D" />
+      <path d="M156 190 Q148 150 162 108 Q176 150 168 190 Z" fill="#F4A300" />
+      <path d="M160 190 Q156 158 162 128 Q168 158 164 190 Z" fill="#FFEB3B" />
+      {[[122, 120], [200, 100], [130, 150]].map(([x, y]) => (
+        <circle key={`spark-${x}-${y}`} cx={x} cy={y} r="2.4" fill="#F4A300" opacity="0.75" />
+      ))}
+      {/* hanging paper lantern beside the torch */}
+      <line x1="255" y1="82" x2="255" y2="108" stroke={handleDark} strokeWidth="2" />
+      {/* tassel drawn first so the lantern body sits over its root */}
+      <path d="M240 178 L270 178 L255 218 Z" fill={dark} />
+      <path d="M242 108 L268 108 L263 133 L247 133 Z" fill={dark} />
+      <ellipse cx="255" cy="155" rx="32" ry="42" fill={accentColor} />
+      <circle cx="255" cy="155" r="14" fill={glow} opacity="0.75" />
+      <line x1="240" y1="122" x2="240" y2="188" stroke={dark} strokeWidth="2" opacity="0.5" />
+      <line x1="255" y1="118" x2="255" y2="192" stroke={dark} strokeWidth="2" opacity="0.5" />
+      <line x1="270" y1="122" x2="270" y2="188" stroke={dark} strokeWidth="2" opacity="0.5" />
+    </g>
+  );
+};
+
 export const costaRicaIllustrations: Record<string, IllustrationDefinition> = {
   "abolicion-del-ejercito": { component: AbolicionDelEjercito },
   "pura-vida": { component: PuraVida },
@@ -205,4 +366,9 @@ export const costaRicaIllustrations: Record<string, IllustrationDefinition> = {
   "volcan-arenal": { component: VolcanArenal },
   "perezosos-embajadores": { component: PerezososEmbajadores },
   "ecoturismo-pionero": { component: EcoturismoPionero },
+  "tortugas-tortuguero": { component: TortugasTortuguero },
+  "marimba-costarricense": { component: MarimbaCostarricense },
+  "mascaras-boruca": { component: MascarasBoruca },
+  "ceramica-chorotega": { component: CeramicaChorotega },
+  "antorcha-independencia": { component: AntorchaIndependencia },
 };

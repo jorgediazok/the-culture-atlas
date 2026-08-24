@@ -231,4 +231,122 @@ export const jamaica: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "dominos-jamaicanos",
+    order: 11,
+    placeholderEmoji: "🁢",
+    accentColor: "#3E2723",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El dominó que se juega golpeando la mesa",
+        subtitle: "El dominó jamaicano",
+        imageAlt:
+          "Caricatura de fichas de dominó alineadas sobre una mesa, con una ficha cayendo con fuerza y líneas de movimiento.",
+        description:
+          "En Jamaica el dominó no se juega en silencio: los jugadores golpean cada ficha contra la mesa con fuerza, tanto para celebrar una jugada ganadora como para intimidar al rival, un estilo tan característico que se conoce simplemente como 'slamming'. El juego se organiza en parejas sentadas enfrentadas, usando un set de fichas dobles hasta el seis, y se practica en cualquier esquina: patios de casas, ventas callejeras, bares improvisados y parques públicos, donde partidas acaloradas suelen atraer espectadores que opinan en voz alta sobre cada jugada. Lejos de ser un simple pasatiempo, el dominó tiene ligas organizadas, campeonatos nacionales y torneos que se disputan en las comunidades jamaicanas de Londres, Toronto y Nueva York, donde la diáspora mantiene viva la tradición con la misma pasión y el mismo ruido que en la isla.",
+      },
+      en: {
+        title: "The Domino Game Played by Slamming the Table",
+        subtitle: "Jamaican Dominoes",
+        imageAlt:
+          "Cartoon of domino tiles lined up on a table, with one tile slamming down and motion lines around it.",
+        description:
+          "In Jamaica, dominoes is never a quiet game: players slam each tile onto the table as hard as they can, both to celebrate a winning move and to psych out an opponent, a style so distinctive it's simply known as 'slamming.' The game is played in facing pairs using a double-six tile set, and matches break out anywhere: house yards, street stalls, makeshift bars, and public parks, where heated games routinely draw spectators who loudly weigh in on every move. Far from a casual pastime, dominoes has organized leagues, national championships, and tournaments contested in Jamaican communities across London, Toronto, and New York, where the diaspora keeps the tradition alive with the same passion and the same noise as back home on the island.",
+      },
+    },
+  },
+  {
+    id: "cocina-jerk",
+    order: 12,
+    placeholderEmoji: "🍖",
+    accentColor: "#BF360C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El jerk: cómo el humo se convirtió en receta nacional",
+        subtitle: "La cocina jerk",
+        imageAlt: "Caricatura de trozos de carne humeante sobre una parrilla improvisada con leña.",
+        description:
+          "El jerk nació entre los cimarrones jamaiquinos, que adobaban carne de cerdo salvaje con pimienta scotch bonnet, pimienta de Jamaica molida, tomillo y otras especias, y la cocinaban lentamente sobre brasas de madera de pimento en fosas cavadas en el monte, un método que además de dar sabor producía un humo que ayudaba a disimular su presencia ante las patrullas británicas que los perseguían. Hoy la técnica sigue centrada en la costa de Portland, sobre todo en el pueblo de Boston Bay, donde puestos callejeros cocinan pollo y cerdo dentro de tambores de metal cortados a la mitad y usados como parrillas improvisadas, dejando que el humo aromático se filtre durante horas. El equilibrio entre el picante intenso del scotch bonnet y el dulzor especiado de la pimienta de Jamaica volvió al jerk una de las exportaciones culinarias más reconocibles del país.",
+      },
+      en: {
+        title: "How Smoke Became Jamaica's National Cooking Style",
+        subtitle: "Jerk Cooking",
+        imageAlt: "Cartoon of smoking meat pieces over an improvised wood-fired grill.",
+        description:
+          "Jerk cooking began with Jamaica's Maroons, who marinated wild hog meat in scotch bonnet pepper, ground allspice (pimento), thyme, and other spices, then slow-cooked it over pimento-wood coals in pits dug into the forest floor, a method that not only built flavor but produced smoke that helped mask their presence from the British patrols hunting them. The technique is still centered on Jamaica's Portland coast today, especially the town of Boston Bay, where roadside stands cook chicken and pork inside metal drums cut in half and repurposed as makeshift grills, letting the fragrant smoke seep in for hours. The balance between the scotch bonnet's intense heat and the sweet warmth of Jamaican allspice turned jerk into one of the country's most recognizable culinary exports.",
+      },
+    },
+  },
+  {
+    id: "cascadas-dunns-river",
+    order: 13,
+    placeholderEmoji: "🏞️",
+    accentColor: "#0277BD",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cascada que se sube tomados de la mano",
+        subtitle: "Las cataratas de Dunn's River",
+        imageAlt: "Caricatura de una cascada escalonada cayendo sobre rocas junto al mar.",
+        description:
+          "Las cataratas de Dunn's River, cerca de Ocho Ríos, son una escalera natural de piedra caliza de unos 180 metros que desciende en terrazas escalonadas hasta desembocar directamente en el mar Caribe, algo poco común entre las cascadas del mundo. Lo que las volvió famosas no es solo el paisaje sino la manera en que se recorren: guías locales organizan a los visitantes en largas cadenas humanas tomados de la mano para subir juntos por las rocas resbaladizas, contra la corriente del agua, en un ritual colectivo que mezcla aventura y trabajo en equipo. El lugar ganó reconocimiento internacional en 1962 al aparecer en 'Dr. No', la primera película de James Bond, y desde entonces se convirtió en una de las atracciones naturales más visitadas de Jamaica, recibiendo a cientos de miles de turistas cada año.",
+      },
+      en: {
+        title: "The Waterfall Climbed Hand in Hand",
+        subtitle: "Dunn's River Falls",
+        imageAlt: "Cartoon of a tiered waterfall cascading over rocks beside the sea.",
+        description:
+          "Dunn's River Falls, near Ocho Rios, is a natural limestone staircase roughly 180 meters long that descends in stepped terraces straight into the Caribbean Sea, an unusual feature among the world's waterfalls. What made the falls famous isn't just the scenery but the way people experience them: local guides organize visitors into long human chains, holding hands to climb the slippery rock terraces together against the current, a shared ritual that mixes adventure with teamwork. The site gained international recognition in 1962 when it appeared in 'Dr. No,' the first James Bond film, and has since become one of Jamaica's most visited natural attractions, drawing hundreds of thousands of tourists every year.",
+      },
+    },
+  },
+  {
+    id: "jonkonnu-mascaradas",
+    order: 14,
+    placeholderEmoji: "🎭",
+    accentColor: "#8E24AA",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las máscaras que desfilan en Navidad",
+        subtitle: "Las mascaradas jonkonnu",
+        imageAlt: "Caricatura de una máscara de madera con cuernos y cintas de colores colgando.",
+        description:
+          "El jonkonnu, también escrito 'John Canoe', es una mascarada callejera navideña que se remonta a la esclavitud, cuando a las personas esclavizadas se les concedían unos pocos días libres alrededor de Navidad y aprovechaban para desfilar por las plantaciones disfrazadas con máscaras y trajes elaborados, una de las pocas expresiones culturales africanas toleradas por los propietarios. El desfile incluye personajes fijos: Pitchy Patchy, cubierto de tiras de tela de colores que se agitan al bailar; el Hombre Caballo, con una cabeza de caballo tallada; el Diablo, de cuernos y cola; y el 'House John Canoe', que lleva sobre la cabeza una maqueta de casa colonial, todos acompañados por tambores y fife. La tradición estuvo a punto de desaparecer, pero festivales culturales la revivieron y hoy vuelve a desfilar cada diciembre.",
+      },
+      en: {
+        title: "The Masked Parade That Marks Christmas",
+        subtitle: "Jonkonnu Masquerade",
+        imageAlt: "Cartoon of a wooden mask with horns and colorful ribbons hanging below.",
+        description:
+          "Jonkonnu, also spelled 'John Canoe,' is a Christmas street masquerade tradition dating back to slavery, when enslaved people were granted a few days off around Christmas and used the occasion to parade through the plantations in elaborate masks and costumes, one of the few African-rooted cultural expressions tolerated by plantation owners. The parade features fixed characters: Pitchy Patchy, covered head to toe in strips of colorful cloth that flare as he dances; Horsehead, wearing a carved wooden horse's head; the Devil, with horns and a tail; and House John Canoe, who carries a model of a colonial house on his head, all accompanied by drums and fife music. The tradition nearly died out, but cultural festivals revived it, and it once again parades through communities every December.",
+      },
+    },
+  },
+  {
+    id: "cricket-sabina-park",
+    order: 15,
+    placeholderEmoji: "🏏",
+    accentColor: "#558B2F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El deporte de la era colonial que se volvió propio",
+        subtitle: "El cricket y Sabina Park",
+        imageAlt:
+          "Caricatura de un bate de cricket junto a una pelota roja y postes de wicket con travesaños.",
+        description:
+          "El cricket llegó a Jamaica con los colonizadores británicos en el siglo XIX, pero se convirtió en una pasión genuinamente propia, al punto de que la isla comparte con el resto del Caribe angloparlante un mismo equipo nacional, el West Indies, uno de los pocos combinados deportivos del mundo formado por varios países independientes. Jamaica aportó a ese equipo figuras legendarias como George Headley, apodado 'el Bradman negro' por un bateo comparable al del mejor jugador australiano de la historia, y hoy sigue formando jugadores para la región. Sabina Park, en Kingston, es el estadio de cricket más antiguo del Caribe, escenario de partidos históricos y sede de la Copa Mundial de 2007, donde el ambiente de las tribunas, con música y baile constante, se volvió tan famoso como el juego mismo.",
+      },
+      en: {
+        title: "The Colonial-Era Sport Jamaica Made Its Own",
+        subtitle: "Cricket and Sabina Park",
+        imageAlt: "Cartoon of a cricket bat beside a red ball and wicket stumps with bails.",
+        description:
+          "Cricket arrived in Jamaica with British colonizers in the 19th century, but it grew into a genuinely homegrown passion, to the point that the island shares a single national team, the West Indies, with the rest of the English-speaking Caribbean — one of the few sports teams in the world made up of players from several independent countries. Jamaica produced legendary figures for that team, including George Headley, nicknamed 'the Black Bradman' for a batting record that rivaled history's greatest Australian batsman, and the island still develops players for the region today. Sabina Park in Kingston is the oldest cricket ground in the Caribbean, the stage for historic matches and a host venue of the 2007 World Cup, where the stands' nonstop music and dancing became almost as famous as the cricket itself.",
+      },
+    },
+  },
 ];

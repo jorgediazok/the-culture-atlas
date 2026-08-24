@@ -188,6 +188,136 @@ const GastronomiaHaitiana: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const JeanJacquesDessalines: IllustrationComponent = () => {
+  const dark = "#1A1A1A";
+  const blue = "#2E4C9C";
+  const red = "#C1272D";
+  const white = "#F5F0E6";
+  return (
+    <g>
+      {/* old French tricolor, torn apart */}
+      <line x1="120" y1="235" x2="120" y2="95" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <rect x="118" y="100" width="20" height="115" fill={blue} stroke={dark} strokeWidth="2" />
+      <rect x="170" y="100" width="20" height="115" fill={red} stroke={dark} strokeWidth="2" />
+      {/* torn white fragment falling away, mid-tear */}
+      <polygon
+        points="144,150 162,144 158,175 140,178"
+        fill={white}
+        stroke={dark}
+        strokeWidth="2"
+        transform="rotate(18 150 162)"
+      />
+      {/* new bicolor Haitian flag */}
+      <line x1="270" y1="235" x2="270" y2="95" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <rect x="270" y="100" width="45" height="42" fill={blue} stroke={dark} strokeWidth="2" />
+      <rect x="270" y="142" width="45" height="42" fill={red} stroke={dark} strokeWidth="2" />
+      <path d="M315 100 Q327 121 315 184 Q325 142 315 100 Z" fill={blue} opacity="0.6" />
+    </g>
+  );
+};
+
+const PalacioSansSouci: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const light = tint(accentColor, 0.55);
+  const stone = shade(accentColor, 0.15);
+  return (
+    <g>
+      {/* pediment (drawn first, base hidden under the building) */}
+      <polygon points="133,153 210,85 287,153" fill={dark} />
+      {/* main facade block (covers the pediment's lower 18 units) */}
+      <rect x="145" y="135" width="130" height="100" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* arched windows */}
+      {[172, 232].map((x) => (
+        <g key={x}>
+          <rect x={x} y="175" width="18" height="30" fill={light} stroke={dark} strokeWidth="2" />
+          <path d={`M${x} 175 Q${x + 9} 160 ${x + 18} 175 Z`} fill={light} stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
+      {/* solid stone staircase mass */}
+      <polygon points="150,235 270,235 285,260 135,260" fill={stone} stroke={dark} strokeWidth="2" />
+      <line x1="140" y1="248" x2="280" y2="248" stroke={dark} strokeWidth="2" opacity="0.5" />
+      {/* columns, drawn last so they visibly run from the facade down into the staircase */}
+      {[160, 190, 220, 250].map((x) => (
+        <rect key={x} x={x} y="150" width="12" height="103" fill={light} stroke={dark} strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
+const CuentosKrikKrak: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const flameOuter = "#D9531E";
+  const flameInner = "#F4B942";
+  const moon = "#F4D35E";
+  const starColor = "#F4D35E";
+  return (
+    <g>
+      {/* crossed logs */}
+      <rect x="140" y="222" width="110" height="14" fill="#6B4226" stroke={dark} strokeWidth="2" transform="rotate(-8 195 229)" />
+      <rect x="150" y="222" width="110" height="14" fill="#4A2E17" stroke={dark} strokeWidth="2" transform="rotate(6 205 229)" />
+      {/* flames rising from the logs */}
+      <path d="M195 222 Q160 195 178 155 Q195 178 195 132 Q213 178 212 155 Q232 195 195 222 Z" fill={flameOuter} />
+      <path d="M195 222 Q175 198 188 168 Q195 185 195 150 Q205 185 202 168 Q217 198 195 222 Z" fill={flameInner} />
+      {/* crescent moon: cutout circle (r19, offset 5) fully contained in the main circle (r26), so evenodd leaves a clean crescent with no stray blob */}
+      <path
+        fillRule="evenodd"
+        d="M244 110 a26 26 0 1 0 52 0 a26 26 0 1 0 -52 0 Z M256 110 a19 19 0 1 0 38 0 a19 19 0 1 0 -38 0 Z"
+        fill={moon}
+      />
+      {/* stars */}
+      {[[140, 95], [230, 78], [300, 140]].map(([x, y]) => (
+        <g key={x} stroke={starColor} strokeWidth="2.5" strokeLinecap="round">
+          <line x1={x - 6} y1={y} x2={x + 6} y2={y} />
+          <line x1={x} y1={y - 6} x2={x} y2={y + 6} />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const ArteMetalRecuperado: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = "#F5F0E6";
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      {/* flattened metal disc */}
+      <circle cx="190" cy="160" r="78" fill={accentColor} stroke={dark} strokeWidth="4" />
+      <circle cx="190" cy="160" r="68" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      {/* cut-out tree silhouette, trunk drawn first so the foliage covers its top */}
+      <rect x="183" y="155" width="14" height="55" fill={light} />
+      <circle cx="190" cy="140" r="34" fill={light} />
+      {/* hammer leaning beside the disc: handle first, head drawn over its top */}
+      <rect x="280" y="155" width="10" height="90" fill={wood} stroke={dark} strokeWidth="2" />
+      <rect x="260" y="150" width="50" height="22" fill={dark} stroke={shade(dark, 0.2)} strokeWidth="2" />
+    </g>
+  );
+};
+
+const LiteraturaHaitiana: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const cream = "#F5F0E6";
+  const quillDark = "#3A2E27";
+  return (
+    <g>
+      {/* small tree sprouting from the spine: trunk drawn first, hidden under the pages */}
+      <rect x="202" y="100" width="6" height="68" fill={accentColor} />
+      <circle cx="205" cy="95" r="22" fill={accentColor} stroke={dark} strokeWidth="2" />
+      {/* open book pages, drawn over the trunk's base */}
+      <polygon points="100,230 100,150 205,150 205,235" fill={cream} stroke={dark} strokeWidth="3" />
+      <polygon points="310,230 310,150 205,150 205,235" fill={shade(cream, 0.05)} stroke={dark} strokeWidth="3" />
+      <line x1="205" y1="150" x2="205" y2="235" stroke={dark} strokeWidth="3" />
+      {/* text lines */}
+      <line x1="118" y1="185" x2="180" y2="182" stroke={dark} strokeWidth="2.5" opacity="0.5" />
+      <line x1="230" y1="182" x2="292" y2="185" stroke={dark} strokeWidth="2.5" opacity="0.5" />
+      {/* quill resting on the page */}
+      <line x1="238" y1="95" x2="264" y2="195" stroke={quillDark} strokeWidth="3.5" strokeLinecap="round" />
+      <path d="M238 95 Q225 108 236 122 Q244 108 238 95 Z" fill={dark} />
+      <path d="M243 100 Q232 112 241 124 Q248 112 243 100 Z" fill={dark} opacity="0.7" />
+    </g>
+  );
+};
+
 export const haitiIllustrations: Record<string, IllustrationDefinition> = {
   "primera-republica-negra-independiente": { component: PrimeraRepublicaNegraIndependiente },
   "deuda-de-la-independencia": { component: DeudaDeLaIndependencia },
@@ -199,4 +329,9 @@ export const haitiIllustrations: Record<string, IllustrationDefinition> = {
   "konpa-musica-nacional": { component: KonpaMusicaNacional },
   "carnaval-y-rara": { component: CarnavalYRara },
   "gastronomia-haitiana": { component: GastronomiaHaitiana },
+  "jean-jacques-dessalines": { component: JeanJacquesDessalines },
+  "palacio-sans-souci": { component: PalacioSansSouci },
+  "cuentos-krik-krak": { component: CuentosKrikKrak },
+  "arte-metal-recuperado": { component: ArteMetalRecuperado },
+  "literatura-haitiana": { component: LiteraturaHaitiana },
 };

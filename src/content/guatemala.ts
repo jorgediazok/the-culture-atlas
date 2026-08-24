@@ -231,4 +231,119 @@ export const guatemala: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-calendario-maya-de-cuenta-larga",
+    order: 11,
+    placeholderEmoji: "📅",
+    accentColor: "#5C4A7A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El calendario maya con ciclos de miles de años",
+        subtitle: "El calendario maya de cuenta larga",
+        imageAlt: "Caricatura de una piedra circular tallada con glifos y símbolos alrededor del borde.",
+        description:
+          "Los mayas desarrollaron varios calendarios que operaban en paralelo: el Tzolk'in, un ciclo ritual de doscientos sesenta días que combina veinte signos con trece números, el Haab', un año solar de trescientos sesenta y cinco días repartido en dieciocho meses, y la Cuenta Larga, que registraba fechas absolutas contando los días transcurridos desde un origen mítico situado miles de años atrás. En observatorios como el de Uaxactún, en el Petén, los astrónomos mayas alinearon templos enteros con la salida del sol en los equinoccios y solsticios, con una precisión que todavía sorprende a los arqueólogos. Una fecha de la Cuenta Larga equivalente al veintiuno de diciembre de 2012 generó rumores globales de un fin del mundo que los propios epigrafistas mayas descartaron desde el inicio: la inscripción solo marcaba el cierre de un ciclo de trece baktunes, un punto de reinicio festejado, no una profecía apocalíptica.",
+      },
+      en: {
+        title: "The Maya Calendar With Cycles Spanning Millennia",
+        subtitle: "The Maya Long Count Calendar",
+        imageAlt: "Cartoon of a carved circular stone with glyphs and symbols around its rim.",
+        description:
+          "The Maya developed several calendars that ran in parallel: the Tzolk'in, a two-hundred-sixty-day ritual cycle combining twenty day-signs with thirteen numbers, the Haab', a three-hundred-sixty-five-day solar year divided into eighteen months, and the Long Count, which tracked absolute dates by counting the days elapsed since a mythical starting point set thousands of years earlier. At observatories such as Uaxactún, in the Petén, Maya astronomers aligned entire temples with the sunrise on the equinoxes and solstices, with a precision that still surprises archaeologists today. A Long Count date equivalent to December 21, 2012, sparked worldwide rumors of an approaching apocalypse that Maya epigraphers themselves dismissed from the start: the inscription simply marked the close of a thirteen-baktun cycle, a celebrated turning point, not a doomsday prophecy.",
+      },
+    },
+  },
+  {
+    id: "el-rabinal-achi-el-teatro-mas-antiguo",
+    order: 12,
+    placeholderEmoji: "🎭",
+    accentColor: "#8C2F2F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La obra maya que sigue en escena después de siglos",
+        subtitle: "El Rabinal Achí, el teatro maya más antiguo",
+        imageAlt: "Caricatura de dos bailarines con tocados de plumas y máscaras frente a frente, con un escudo entre ambos.",
+        description:
+          "El Rabinal Achí es un drama dancístico de origen prehispánico que se representa cada veinticinco de enero en Rabinal, en el departamento de Baja Verapaz, durante la fiesta patronal de San Pablo, y narra en lengua achi el enfrentamiento y la condena de un guerrero rival capturado en batalla. Los bailarines, todos hombres, interpretan a los personajes con máscaras talladas en madera, tocados de plumas y trajes bordados, mientras un tambor vertical llamado tun marca el ritmo de danzas y parlamentos que pueden extenderse durante horas. Transmitida oralmente de generación en generación hasta que fue puesta por escrito en el siglo diecinueve, la obra es considerada el testimonio teatral prehispánico más completo que sobrevive en América, y la Unesco la declaró Obra Maestra del Patrimonio Oral e Inmaterial de la Humanidad en 2005, reconociendo tanto su antigüedad como el riesgo de que dejara de representarse.",
+      },
+      en: {
+        title: "The Maya Drama Still Performed After Centuries",
+        subtitle: "The Rabinal Achí, the Oldest Maya Theater",
+        imageAlt: "Cartoon of two dancers facing each other in feathered headdresses and masks, with a shield between them.",
+        description:
+          "The Rabinal Achí is a pre-Hispanic dance-drama performed every January twenty-fifth in Rabinal, in the department of Baja Verapaz, during the patron saint festival of San Pablo, narrating in the Achi language the capture, trial, and condemnation of a rival warrior taken in battle. The dancers, all men, portray the characters wearing masks carved from wood, feathered headdresses, and embroidered costumes, while a vertical drum called a tun sets the rhythm for dances and spoken verses that can stretch on for hours. Passed down orally from generation to generation until it was first written down in the nineteenth century, the work is considered the most complete surviving pre-Hispanic theatrical testimony in the Americas, and UNESCO declared it a Masterpiece of the Oral and Intangible Heritage of Humanity in 2005, recognizing both its antiquity and the risk that it might stop being performed.",
+      },
+    },
+  },
+  {
+    id: "el-pepian-el-plato-nacional-de-guatemala",
+    order: 13,
+    placeholderEmoji: "🍲",
+    accentColor: "#B5541F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El guiso que Guatemala eligió como su plato nacional",
+        subtitle: "El pepián, el plato nacional de Guatemala",
+        imageAlt: "Caricatura de un tazón humeante de guiso rojizo espeso con trozos de pollo y verduras, junto a tortillas.",
+        description:
+          "El pepián, considerado por muchos guatemaltecos el plato nacional del país, es un guiso espeso de origen prehispánico elaborado con semillas de calabaza y ajonjolí tostadas y molidas, que se combinan con chiles secos, tomate, especias y trozos de pollo, res o cerdo, junto con verduras como güisquil, papa y ejote. Su base de semillas molidas, una técnica de espesado que los mayas usaban mucho antes de la llegada española, se fusionó con ingredientes y especias traídos de Europa y Asia durante la colonia, dando origen a uno de los ejemplos más claros de mestizaje culinario en la cocina guatemalteca. Cada región del país tiene su propia variante, con recetas transmitidas dentro de las familias y reservadas para celebraciones y fiestas patronales, servido tradicionalmente con arroz y tortillas de maíz recién hechas. En 2007 el Ministerio de Cultura lo declaró parte del patrimonio cultural intangible de Guatemala.",
+      },
+      en: {
+        title: "The Stew Guatemala Chose As Its National Dish",
+        subtitle: "Pepián, Guatemala's National Dish",
+        imageAlt: "Cartoon of a steaming bowl of thick reddish stew with pieces of chicken and vegetables, next to tortillas.",
+        description:
+          "Pepián, considered by many Guatemalans to be the country's national dish, is a thick pre-Hispanic-rooted stew made from toasted, ground pumpkin and sesame seeds combined with dried chiles, tomato, spices, and chunks of chicken, beef, or pork, along with vegetables such as chayote, potato, and green beans. Its base of ground seeds, a thickening technique the Maya used long before the Spanish arrived, merged with ingredients and spices brought over from Europe and Asia during the colonial period, making it one of the clearest examples of culinary blending in Guatemalan cuisine. Every region of the country has its own variant, with recipes passed down within families and typically reserved for celebrations and patron saint festivals, traditionally served with rice and freshly made corn tortillas. In 2007 Guatemala's Ministry of Culture declared it part of the country's intangible cultural heritage.",
+      },
+    },
+  },
+  {
+    id: "el-cafe-de-altura-de-las-tierras-volcanicas",
+    order: 14,
+    placeholderEmoji: "☕",
+    accentColor: "#6F4E37",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El café que crece a la sombra de los volcanes",
+        subtitle: "El café de altura de las tierras volcánicas",
+        imageAlt: "Caricatura de una rama de café con granos rojos maduros frente a un volcán al fondo.",
+        description:
+          "El café llegó a Guatemala a mediados del siglo diecinueve como sustituto de la grana cochinilla, un tinte rojo natural que perdió valor comercial frente a los colorantes sintéticos, y se convirtió rápidamente en el motor de la economía del país durante más de un siglo. Cultivado a la sombra de árboles nativos en laderas volcánicas que superan los mil trescientos metros de altura, el café guatemalteco crece en suelos ricos en minerales que le aportan una acidez y complejidad de sabor reconocidas internacionalmente, con ocho regiones productoras bien diferenciadas, entre ellas Antigua, Huehuetenango y Cobán, cada una con su propio microclima y perfil de taza. Miles de familias de pequeños productores, muchas de ellas indígenas, cultivan y cosechan el grano a mano en parcelas familiares, un modelo que convive con fincas de mayor escala y que en las últimas décadas impulsó una creciente producción de cafés especiales orientados a la exportación directa.",
+      },
+      en: {
+        title: "The Coffee That Grows in the Shadow of Volcanoes",
+        subtitle: "Highland Coffee from the Volcanic Slopes",
+        imageAlt: "Cartoon of a coffee branch with ripe red cherries in front of a volcano in the background.",
+        description:
+          "Coffee arrived in Guatemala in the mid-nineteenth century as a replacement for cochineal dye, a natural red pigment that lost commercial value once synthetic dyes appeared, and quickly became the engine of the country's economy for more than a century. Grown in the shade of native trees on volcanic slopes above thirteen hundred meters, Guatemalan coffee thrives in mineral-rich soils that give it an acidity and flavor complexity recognized worldwide, with eight distinct growing regions, including Antigua, Huehuetenango, and Cobán, each with its own microclimate and cup profile. Thousands of smallholder families, many of them Indigenous, grow and hand-harvest the beans on family plots, a model that coexists with larger estates and that in recent decades has driven a growing production of specialty coffees aimed at direct export.",
+      },
+    },
+  },
+  {
+    id: "la-ceiba-el-arbol-sagrado-maya",
+    order: 15,
+    placeholderEmoji: "🌳",
+    accentColor: "#4F7942",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El árbol que los mayas creían sostenía el universo",
+        subtitle: "La ceiba, el árbol sagrado maya",
+        imageAlt: "Caricatura de un árbol enorme de tronco espinoso con raíces tabulares y una copa ancha extendida como paraguas.",
+        description:
+          "La ceiba, un árbol de tronco recto cubierto de espinas cónicas y copa ancha que se extiende como un paraguas por encima del resto del bosque, fue considerada por los mayas el árbol sagrado del mundo, conocido como Yaxche, cuyas raíces se hundían en el inframundo de Xibalbá, cuyo tronco atravesaba el plano terrenal, y cuyas ramas más altas sostenían los distintos niveles del cielo. Por esa razón se plantaba tradicionalmente en el centro de plazas y pueblos, marcando simbólicamente el punto donde se unían los tres niveles del cosmos maya, una práctica que continúa hoy en numerosas comunidades de Guatemala. Declarada árbol nacional en 1955, la ceiba puede superar los cuarenta metros de altura y produce vainas llenas de una fibra sedosa e impermeable llamada kapok, usada históricamente para rellenar colchones y salvavidas antes de la aparición de las fibras sintéticas.",
+      },
+      en: {
+        title: "The Tree the Maya Believed Held Up the Universe",
+        subtitle: "The Ceiba, Guatemala's Sacred Maya Tree",
+        imageAlt: "Cartoon of a huge tree with a thorny trunk, tabular buttress roots, and a wide crown spread like an umbrella.",
+        description:
+          "The ceiba, a straight-trunked tree covered in conical thorns with a wide crown that spreads like an umbrella above the rest of the forest, was considered by the Maya to be the sacred tree of the world, known as Yaxche, whose roots reached down into the underworld of Xibalba, whose trunk passed through the earthly plane, and whose highest branches held up the different levels of the sky. For that reason it was traditionally planted at the center of plazas and towns, symbolically marking the point where the three levels of the Maya cosmos met, a practice that continues today in many communities across Guatemala. Declared the national tree in 1955, the ceiba can grow past forty meters tall and produces pods full of a silky, water-resistant fiber called kapok, historically used to stuff mattresses and life vests before synthetic fibers appeared.",
+      },
+    },
+  },
 ];

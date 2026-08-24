@@ -231,4 +231,119 @@ export const panama: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "embera-wounaan",
+    order: 11,
+    placeholderEmoji: "🛶",
+    accentColor: "#795548",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo del río que pinta su piel con jagua",
+        subtitle: "El pueblo emberá",
+        imageAlt: "Caricatura de una piragua con un remero navegando por un río selvático.",
+        description:
+          "El pueblo emberá, que junto a los wounaan habita las riberas de los ríos del este de Panamá, especialmente en la provincia del Darién y a orillas del río Chagres, construye sus viviendas sobre pilotes de madera para protegerse de las crecidas y se desplaza principalmente en piraguas, canoas talladas a mano en un solo tronco. Una de sus tradiciones más reconocibles es pintarse la piel con jagua, un tinte negro extraído del fruto homónimo que forma intrincados diseños geométricos y se desvanece de forma natural en pocas semanas, usado tanto en ocasiones ceremoniales como en la vida cotidiana. Las mujeres emberá también son célebres por tejer canastas de fibra de chunga con una densidad y precisión tan altas que algunas piezas tardan meses en completarse y se cotizan internacionalmente como arte textil de alto valor.",
+      },
+      en: {
+        title: "The River People Who Paint Their Skin With Jagua",
+        subtitle: "The Emberá People",
+        imageAlt: "Cartoon of a dugout canoe with a paddler traveling down a jungle river.",
+        description:
+          "The Emberá people, who along with the Wounaan inhabit the riverbanks of eastern Panama, especially in Darién province and along the Chagres River, build their homes on wooden stilts to guard against flooding and travel mainly by piragua, canoes hand-carved from a single tree trunk. One of their most recognizable traditions is painting the skin with jagua, a black dye extracted from the fruit of the same name that forms intricate geometric designs and fades naturally within a few weeks, used both for ceremonial occasions and everyday life. Emberá women are also celebrated for weaving baskets from chunga palm fiber with such density and precision that some pieces take months to complete and are prized internationally as fine textile art.",
+      },
+    },
+  },
+  {
+    id: "tamborito-y-pollera",
+    order: 12,
+    placeholderEmoji: "💃",
+    accentColor: "#AD1457",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El baile nacional que gira al ritmo de los tambores",
+        subtitle: "El tamborito y la pollera",
+        imageAlt: "Caricatura de una bailarina girando con un vestido de pollera bordado y peinetas doradas.",
+        description:
+          "El tamborito, declarado baile nacional de Panamá, es una danza de pareja suelta en la que una mujer gira y se contonea al ritmo de tambores mientras un coro responde en un canto de llamada y respuesta llamado 'tonada', una tradición que mezcla raíces españolas, indígenas y africanas heredadas de la época colonial. Las bailarinas visten la pollera, un vestido de dos piezas bordado a mano con motivos florales que puede tardar más de un año en confeccionarse, complementado con las 'tembleques', peinetas doradas que tiemblan con cada movimiento de la cabeza, mientras los hombres bailan con el sombrero montuno y el machete al cinto. Cada región panameña conserva variantes propias del tamborito, y el vestido de pollera se considera hoy una de las expresiones más costosas y admiradas del folclore centroamericano.",
+      },
+      en: {
+        title: "The National Dance That Spins to the Beat of Drums",
+        subtitle: "The Tamborito and the Pollera",
+        imageAlt: "Cartoon of a dancer twirling in an embroidered pollera dress with golden hairpins.",
+        description:
+          "The tamborito, Panama's officially designated national dance, is a couple's dance in which a woman turns and sways to the beat of drums while a chorus answers in a call-and-response song called 'tonada,' a tradition blending Spanish, Indigenous, and African roots inherited from the colonial era. Dancers wear the pollera, a two-piece dress hand-embroidered with floral motifs that can take more than a year to make, paired with 'tembleques,' golden hairpins that tremble with every movement of the head, while men dance wearing the montuno straw hat and a machete at the waist. Each Panamanian region preserves its own variations of the tamborito, and the pollera dress is considered one of the most costly and admired folk costumes in Central America.",
+      },
+    },
+  },
+  {
+    id: "carnaval-de-las-tablas",
+    order: 13,
+    placeholderEmoji: "🎉",
+    accentColor: "#8E24AA",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las dos calles rivales que arman el carnaval más grande",
+        subtitle: "El Carnaval de Las Tablas",
+        imageAlt: "Caricatura de una reina de carnaval con un tocado de plumas y confeti cayendo.",
+        description:
+          "En el pequeño pueblo de Las Tablas, en la provincia de Los Santos, se celebra el carnaval más multitudinario de Panamá, protagonizado por la rivalidad histórica entre dos comparsas vecinas, Calle Arriba y Calle Abajo, que compiten cada año por presentar la reina, el carro alegórico y la música más espectaculares, una preparación que ocupa a ambos bandos durante meses. Durante los cuatro días de fiesta, camiones cisterna recorren las calles rociando agua a la multitud en los llamados 'culecos', una tradición que ayuda a soportar el calor tropical mientras suenan las murgas y los tambores. La rivalidad entre las dos calles, siempre amistosa pero intensamente competitiva, convirtió a Las Tablas en el destino obligado del carnaval panameño, atrayendo a cientos de miles de visitantes cada año.",
+      },
+      en: {
+        title: "The Two Rival Streets Behind Panama's Biggest Carnival",
+        subtitle: "The Carnival of Las Tablas",
+        imageAlt: "Cartoon of a carnival queen with a feathered headdress and falling confetti.",
+        description:
+          "In the small town of Las Tablas, in Los Santos province, Panama's largest and most crowded carnival takes place, driven by the long-standing rivalry between two neighboring groups, Calle Arriba and Calle Abajo, which compete every year to present the most spectacular queen, float, and music, a rivalry that keeps both sides preparing for months beforehand. Over the four days of celebration, water trucks drive through the streets spraying crowds in what are called 'culecos,' a tradition that helps people cope with the tropical heat while murga bands and drums play nonstop. The friendly but intensely competitive rivalry between the two streets turned Las Tablas into Panama's must-visit carnival destination, drawing hundreds of thousands of visitors every year.",
+      },
+    },
+  },
+  {
+    id: "congos-de-portobelo",
+    order: 14,
+    placeholderEmoji: "👹",
+    accentColor: "#B71C1C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo cimarrón que convirtió su historia en teatro",
+        subtitle: "Los Congos de Portobelo",
+        imageAlt: "Caricatura de una máscara de diablo congo con cuernos curvos y colores vivos.",
+        description:
+          "En Portobelo y otras poblaciones de la costa caribeña panameña, los descendientes de cimarrones, africanos esclavizados que escaparon y fundaron comunidades libres en la época colonial, mantienen viva la cultura congo, una tradición teatral que representa de forma satírica la resistencia contra los colonizadores mediante personajes como el Rey y la Reina Congo y los diablos enmascarados de cuernos. Durante el festival, celebrado especialmente entre enero y marzo, los congos invierten el significado de las palabras como forma histórica de burlar a sus amos, visten trajes coloridos con volantes y máscaras de diablo talladas en madera, y bailan al ritmo de tambores por las calles del pueblo. En 2018 la UNESCO declaró esta cultura Patrimonio Cultural Inmaterial de la Humanidad, como memoria viva de la resistencia afrodescendiente.",
+      },
+      en: {
+        title: "The Runaway Community That Turned History Into Theater",
+        subtitle: "The Congos of Portobelo",
+        imageAlt: "Cartoon of a horned Congo devil mask with curved horns in bright colors.",
+        description:
+          "In Portobelo and other towns along Panama's Caribbean coast, the descendants of cimarrones, enslaved Africans who escaped and founded free communities during the colonial era, keep alive Congo culture, a theatrical and musical tradition that satirically reenacts resistance against Spanish colonizers through characters like the Congo King and Queen and horned devil dancers wearing carved masks. During the festival, celebrated especially between January and March, Congo performers speak by inverting the meaning of words, a historical way of mocking their enslavers, wear colorful ruffled costumes and devil masks, and dance to drums through the town's streets. In 2018, UNESCO declared the Congo culture of Panama's Caribbean coast an Intangible Cultural Heritage of Humanity, recognizing it as a living memory of Afro-descendant resistance.",
+      },
+    },
+  },
+  {
+    id: "sancocho-panameno",
+    order: 15,
+    placeholderEmoji: "🍲",
+    accentColor: "#EF6C00",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El caldo de gallina que cura hasta la resaca",
+        subtitle: "El sancocho panameño",
+        imageAlt: "Caricatura de una olla humeante de sancocho con trozos de pollo y una mazorca.",
+        description:
+          "El sancocho es el plato más representativo de la cocina panameña, un caldo espeso preparado con gallina de patio, ñame, y culantro coyote (o culantro cimarrón), una hierba local que le da su sabor característico e inconfundible, distinto de cualquier otro sancocho de la región. Tradicionalmente se cocina en ollas grandes durante horas, se sirve en reuniones familiares, fiestas patronales y celebraciones importantes, y goza fama de ser un remedio infalible contra la resaca y los resfriados gracias a su caldo caliente y reconfortante. Cada provincia panameña añade sus propias variantes, desde el maíz hasta el otoe, pero la combinación de gallina criolla y culantro coyote se mantiene como el sello distintivo que separa al sancocho panameño de sus primos colombianos, venezolanos o dominicanos.",
+      },
+      en: {
+        title: "The Chicken Soup Said to Cure Even a Hangover",
+        subtitle: "Panamanian Sancocho",
+        imageAlt: "Cartoon of a steaming pot of sancocho with chicken pieces and a corn cob.",
+        description:
+          "Sancocho is Panama's most representative dish, a thick broth made with free-range chicken, yams, and culantro coyote (or wild culantro), a local herb that gives it its distinctive, unmistakable flavor, setting it apart from any other sancocho in the region. Traditionally simmered for hours in large pots, it is served at family gatherings, patron saint festivals, and major celebrations, and enjoys a reputation as an infallible cure for hangovers and colds thanks to its hot, comforting broth. Each Panamanian province adds its own variations, from corn to otoe root, but the combination of free-range chicken and culantro coyote remains the signature that sets Panamanian sancocho apart from its Colombian, Venezuelan, or Dominican cousins.",
+      },
+    },
+  },
 ];

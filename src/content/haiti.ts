@@ -231,4 +231,119 @@ export const haiti: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "jean-jacques-dessalines",
+    order: 11,
+    placeholderEmoji: "🚩",
+    accentColor: "#1D3E8C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El general que le arrancó el blanco a una bandera",
+        subtitle: "Jean-Jacques Dessalines",
+        imageAlt: "Caricatura de una bandera tricolor rasgada junto a una nueva bandera bicolor ondeante.",
+        description:
+          "Jean-Jacques Dessalines, antiguo esclavizado convertido en general, tomó el mando del ejército independentista tras la deportación de Toussaint Louverture y lideró la victoria decisiva en la batalla de Vertières en noviembre de 1803, la última gran confrontación contra las tropas francesas en la colonia. El 1 de enero de 1804, Dessalines proclamó la independencia de Haití en Gonaïves y, según la tradición, arrancó personalmente la franja blanca de la bandera tricolor francesa, cosiendo el azul y el rojo restantes para crear la primera bandera haitiana, un gesto que resumía visualmente la ruptura definitiva con el poder colonial. Dessalines gobernó como el primer jefe de estado de la nación independiente antes de ser asesinado en 1806, pero su figura sigue siendo honrada como el líder que completó la revolución que Toussaint no vivió para ver.",
+      },
+      en: {
+        title: "The General Who Tore the White From a Flag",
+        subtitle: "Jean-Jacques Dessalines",
+        imageAlt: "Cartoon of a torn tricolor flag beside a new waving bicolor flag.",
+        description:
+          "Jean-Jacques Dessalines, a formerly enslaved man turned general, took command of the independence army after Toussaint Louverture's deportation and led the decisive victory at the Battle of Vertières in November 1803, the last major confrontation against French troops in the colony. On January 1, 1804, Dessalines proclaimed Haiti's independence in Gonaïves and, according to tradition, personally tore the white stripe from the French tricolor, stitching together the remaining blue and red to create the first Haitian flag, a gesture that visually summed up the definitive break from colonial power. Dessalines ruled as the independent nation's first head of state before being assassinated in 1806, but he remains honored as the leader who completed the revolution Toussaint did not live to see.",
+      },
+    },
+  },
+  {
+    id: "palacio-sans-souci",
+    order: 12,
+    placeholderEmoji: "🏛️",
+    accentColor: "#8C6239",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El 'Versalles caribeño' que hoy está en ruinas",
+        subtitle: "El Palacio Sans-Souci",
+        imageAlt: "Caricatura de una fachada de palacio con columnas y una gran escalinata.",
+        description:
+          "Cerca de la Citadelle Laferrière, en Milot, el rey Henri Christophe mandó construir entre 1810 y 1813 el Palacio Sans-Souci, una residencia real de columnas, fuentes, jardines escalonados y salones ricamente decorados que buscaba rivalizar en esplendor con los palacios europeos y demostrar que la nueva monarquía haitiana no tenía nada que envidiarle a ninguna corte del Viejo Mundo. Su nombre, que en francés significa 'sin preocupación', resultó irónico: el edificio quedó severamente dañado por un terremoto en 1842 y nunca fue reconstruido, quedando reducido a las imponentes ruinas que se conservan hoy. Junto con la Citadelle, el Palacio Sans-Souci fue declarado Patrimonio de la Humanidad por la UNESCO en 1982, y sus arcos y escalinatas de piedra siguen recibiendo visitantes que recorren lo que alguna vez fue el centro del poder del reino de Christophe.",
+      },
+      en: {
+        title: "The Palace They Called the Caribbean Versailles",
+        subtitle: "Sans-Souci Palace",
+        imageAlt: "Cartoon of a palace facade with columns and a grand staircase.",
+        description:
+          "Near the Citadelle Laferrière, in Milot, King Henri Christophe had the Sans-Souci Palace built between 1810 and 1813, a royal residence of columns, fountains, terraced gardens, and richly decorated halls meant to rival the splendor of European palaces and prove that the new Haitian monarchy had nothing to envy in any Old World court. Its name, French for 'without worry,' turned out ironic: the building was severely damaged by an earthquake in 1842 and was never rebuilt, leaving only the imposing ruins that survive today. Along with the Citadelle, Sans-Souci Palace was declared a UNESCO World Heritage Site in 1982, and its stone arches and staircases still draw visitors through what was once the seat of power of Christophe's kingdom.",
+      },
+    },
+  },
+  {
+    id: "cuentos-krik-krak",
+    order: 13,
+    placeholderEmoji: "🔥",
+    accentColor: "#B85C38",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "'¡Krik!' '¡Krak!': cómo empieza cada cuento haitiano",
+        subtitle: "La tradición oral haitiana",
+        imageAlt: "Caricatura de una fogata encendida bajo una luna creciente y estrellas.",
+        description:
+          "En Haití, contar un cuento tradicional comienza casi siempre con un ritual de llamada y respuesta: el narrador exclama '¡Krik!' y el público, sentado en círculo al anochecer, responde '¡Krak!' para señalar que está listo para escuchar. Estas historias, llamadas lodyans, se transmitieron oralmente durante generaciones y giran con frecuencia en torno a dos personajes recurrentes de la tradición campesina: Bouki, torpe y crédulo, y Ti Malice, astuto y burlón, cuyas peripecias entretenían mientras enseñaban lecciones sobre el ingenio necesario para sobrevivir en tiempos difíciles. La figura del narrador itinerante, heredera de los griots de África occidental, sigue viva hoy en reuniones familiares y comunitarias de todo el país, transmitiendo de generación en generación un repertorio de cuentos, adivinanzas y proverbios que constituye una de las bases más profundas de la identidad cultural haitiana.",
+      },
+      en: {
+        title: "'Krik? Krak!' Starts Every Haitian Folktale",
+        subtitle: "Haitian Oral Storytelling",
+        imageAlt: "Cartoon of a lit campfire under a crescent moon and stars.",
+        description:
+          "In Haiti, telling a traditional story almost always begins with a call-and-response ritual: the storyteller calls out 'Krik?' and the audience, gathered in a circle at dusk, answers 'Krak!' to signal they are ready to listen. These stories, called lodyans, were passed down orally for generations and often center on two recurring characters from rural tradition: Bouki, clumsy and gullible, and Ti Malice, clever and mocking, whose antics entertained while teaching lessons about the wit needed to survive hard times. The figure of the traveling storyteller, an inheritance from West African griots, remains alive today at family and community gatherings across the country, passing down a repertoire of tales, riddles, and proverbs from generation to generation that forms one of the deepest foundations of Haitian cultural identity.",
+      },
+    },
+  },
+  {
+    id: "arte-metal-recuperado",
+    order: 14,
+    placeholderEmoji: "🔨",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte que nace de tambores de aceite reciclados",
+        subtitle: "El arte en metal de Croix-des-Bouquets",
+        imageAlt: "Caricatura de un disco de metal recortado con la silueta de un árbol junto a un martillo.",
+        description:
+          "En el pueblo de Croix-des-Bouquets, cerca de Puerto Príncipe, generaciones de artesanos convierten tambores de aceite de 55 galones, desechados por la industria, en esculturas de metal recortado de extraordinario detalle: árboles de la vida, animales, escenas de mercado y espíritus vudú cobran forma a golpe de martillo y cincel sobre el metal previamente calentado al fuego y aplanado. La tradición nació a mediados del siglo XX con el herrero Georges Liautaud, quien empezó fabricando cruces para tumbas antes de que un galerista lo animara a crear piezas decorativas más elaboradas, dando origen a un oficio que hoy sostiene a cientos de familias en el barrio de Noailles. Las piezas de Croix-des-Bouquets se exportan a galerías y colecciones de todo el mundo, convirtiendo el reciclaje de un desecho industrial en una de las expresiones artesanales más reconocibles de Haití.",
+      },
+      en: {
+        title: "The Art Made From Recycled Oil Drums",
+        subtitle: "Croix-des-Bouquets Metal Art",
+        imageAlt: "Cartoon of a cut metal disc with a tree silhouette beside a hammer.",
+        description:
+          "In the town of Croix-des-Bouquets, near Port-au-Prince, generations of artisans have turned discarded 55-gallon oil drums into strikingly detailed cut-metal sculptures: trees of life, animals, market scenes, and Vodou spirits take shape under hammer and chisel on metal first heated over fire and flattened. The tradition began in the mid-20th century with blacksmith Georges Liautaud, who started out making crosses for graves before a gallery owner encouraged him to create more elaborate decorative pieces, giving rise to a craft that today supports hundreds of families in the Noailles neighborhood. Croix-des-Bouquets pieces are now exported to galleries and collections around the world, turning the recycling of industrial waste into one of Haiti's most recognizable craft traditions.",
+      },
+    },
+  },
+  {
+    id: "literatura-haitiana",
+    order: 15,
+    placeholderEmoji: "📖",
+    accentColor: "#1B6E4F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El haitiano que entró a la Academia Francesa en 2013",
+        subtitle: "La literatura haitiana",
+        imageAlt: "Caricatura de un libro abierto con una pluma y un pequeño árbol brotando de las páginas.",
+        description:
+          "La novela Gouverneurs de la rosée, publicada en 1944 por Jacques Roumain poco antes de su muerte, se considera la obra fundacional de la literatura haitiana moderna: narra el regreso de un campesino a su aldea sedienta y su lucha por reconciliar a dos clanes rivales mediante el coumbite, la tradición de trabajo colectivo agrícola. Esa tradición literaria, que incluye también a autoras como Marie Vieux-Chauvet, alcanzó un hito simbólico en 2013 cuando el escritor Dany Laferrière se convirtió en el primer haitiano elegido miembro de la Academia Francesa, la institución más antigua y prestigiosa encargada de velar por la lengua francesa, ocupando un asiento que antes perteneció a figuras como Montesquieu. Su elección, celebrada como un reconocimiento tardío a siglos de creación literaria haitiana en francés y en criollo, reafirmó la posición del país como una potencia literaria desproporcionada a su tamaño.",
+      },
+      en: {
+        title: "The Haitian Elected to the French Academy in 2013",
+        subtitle: "Haitian Literature",
+        imageAlt: "Cartoon of an open book with a quill pen and a small tree sprouting from its pages.",
+        description:
+          "The novel Gouverneurs de la rosée (Masters of the Dew), published in 1944 by Jacques Roumain shortly before his death, is considered the founding work of modern Haitian literature: it tells of a peasant's return to his drought-stricken village and his struggle to reconcile two rival clans through the coumbite, the tradition of collective agricultural labor. That literary tradition, which also includes writers like Marie Vieux-Chauvet, reached a symbolic milestone in 2013 when author Dany Laferrière became the first Haitian elected to the Académie Française, the oldest and most prestigious institution charged with safeguarding the French language, taking a seat once held by figures like Montesquieu. His election, celebrated as belated recognition of centuries of Haitian literary creation in both French and Creole, reaffirmed the country's standing as a literary power disproportionate to its size.",
+      },
+    },
+  },
 ];
