@@ -547,10 +547,112 @@ crop to the single most distinctive feature at this tiny scale), São Tomé
 and Príncipe is Pico Cão Grande's rock spire over green hills. All three
 passed `tsc`, `eslint`, the id-matching audit, and a full
 `rm -rf .next && npm run build` (201 countries × 2 langs = 402 static
-country paths). Not committed as of the end of this batch — awaiting
-explicit user request to commit.
+country paths). Committed (`1f59214`) and pushed same session — that
+commit also fixed the two Nigeria joint-overlap gaps a background agent
+had identified but not applied before being cut off (see below), and
+redesigned the São Tomé and Príncipe emblem after the user flagged that
+the original spire-over-hills design read unintentionally suggestive;
+replaced with an open cacao pod showing beans, tying to the country's
+cocoa content instead.
 
-**All 54 African countries are now in the atlas.**
+**Recurring new failure mode across this whole session: background agents
+hitting the account's API session-usage limit mid-task** (a
+"You've hit your session limit · resets HH:MMpm" error — nothing to do
+with the illustration work itself). This hit 3 of 4 agents in the Nigeria/
+Rwanda/São Tomé batch and 3 of 4 in the Somalia/Faroe/Aruba/Sint Maarten
+batch below. **Recovery procedure that worked reliably both times:**
+(1) check wall-clock time against the error's stated reset time before
+doing anything else; (2) do NOT trust the agent's last status message as
+the final state — check the actual files it wrote directly (`ls -la` for
+timestamps, then read/tsc/eslint/audit them), since agents write files
+throughout the task, not just at the end; (3) fix anything broken or
+left half-done directly by hand (a cut-off mid-edit can leave a syntax
+error; a self-check that found a problem right as it was interrupted may
+not have had time to apply the fix — always re-derive the specific
+numeric claim, like a joint's true overlap distance, rather than assuming
+the agent's diagnosis-in-progress was both correct and applied); (4) once
+past the reset time, resume the dead agent via `SendMessage` to its
+`agentId` (works even after a `failed` status — resuming pulls its full
+transcript context back), and ask specifically for the pieces never
+delivered (the emblem code + `countries.ts` block, in this project's
+pattern) rather than having it redo already-verified work. This recovered
+full context-aware output from every interrupted agent without repeating
+any actual content/illustration work. One wrinkle: an agent can
+misremember whether a message actually reached the coordinator before the
+cutoff (Aruba's agent claimed "sent above in the prior message" for
+content that had in fact never arrived) — if a deliverable is missing,
+just ask again plainly rather than assuming it exists somewhere.
+
+**Scope decision (2026-08-23): which non-sovereign-but-culturally-distinct
+territories to include.** After finishing Africa, the user asked whether
+it was "correct" to include entries like Kosovo, the four constituent
+countries of the UK, Greenland, Curaçao, and New Caledonia — entities
+included in the atlas alongside full UN member states because they have
+genuinely distinct cultures from their parent country, even though they
+aren't sovereign. Given the choice of how far to extend that criterion
+(offered as options: just the direct siblings of what's already included,
+siblings plus other iconic non-sovereign territories like Hong Kong/Macau/
+French Polynesia/Puerto Rico, or freeze the extra list as-is), **the user
+chose the narrowest option: only add the direct siblings of territories
+already in the atlas** — Faroe Islands (Denmark, sibling of Greenland),
+Aruba and Sint Maarten (Kingdom of the Netherlands, siblings of Curaçao).
+Hong Kong, Macau, French Polynesia, and Puerto Rico were discussed but
+explicitly NOT added — don't add them without the user revisiting this
+decision. Separately, Israel was proposed (as one of only two UN member
+states missing from the entire atlas, alongside Somalia) but the user
+said explicitly **"No hagas Israel, borralo"** — do not add Israel, full
+stop; this was specifically because of the difficulty of neutrally
+labeling its capital (Jerusalem vs. Tel Aviv is genuinely disputed, unlike
+any other country in the atlas) — don't revisit this unless the user
+raises it again themselves.
+
+**Somalia, Faroe Islands, Aruba, and Sint Maarten added from scratch
+(2026-08-23)**, bringing the atlas to 205 countries/territories, completing
+Somalia as Africa's last missing country. Same parallel-background-agent
+pattern, same standalone-files-only restriction to avoid shared-file
+conflicts. Somalia's content deliberately excluded the 1991–present civil
+war, state collapse, Al-Shabaab, and piracy entirely (same hard-line
+treatment as Rwanda's genocide exclusion), focusing instead on the ancient
+Land of Punt frankincense/myrrh trade, Laas Geel's Neolithic rock art,
+the Somali oral-poetry tradition ("nation of poets"), the world's largest
+camel population, the portable aqal nomadic hut, the Osmanya script, xeer
+customary law, and shaah tea. A real joint-overlap bug was caught by the
+agent's own final self-check right as it got cut off by the session limit
+(a Laas Geel cow's horn starting ~1 unit outside the head shape's true
+boundary) — recovered and fixed per the procedure above. Faroe Islands
+covered turf-roofed houses, Ólavsøka, the medieval chain dance, puffin
+fleyging, wool/sheep culture, the Sørvágsvatn "floating lake" illusion,
+skerpikjøt fermented lamb, and — handled factually and even-handedly on
+both sides, like Spain's San Fermín bull-running elsewhere in the atlas —
+grindadráp, the traditional pilot-whale drive hunt; its own agent caught
+and fixed two real joint bugs (a turf-house roof with an actual unfilled
+gap plus an off-center chimney, and a whale dorsal fin sitting almost
+exactly on its body's boundary curve with ~0.02 units of margin). Aruba
+covered the wind-bent divi-divi tree, Papiamento, Carnival, Arikok's
+desert landscape, its historic aloe vera export trade, Arawak petroglyphs,
+and windsurfing; its agent caught and fixed four real joint bugs (a
+windsurfer board drawn on top of and hiding the rider entirely — a
+draw-order bug, not just a gap; the same windsurfer's mast floating 10
+units above the board; carnival dancer legs/robe with only ~1 unit of
+overlap plus a color mismatch between one dancer's arm and robe; an aloe
+rosette whose most-rotated leaves lost overlap at extreme angles because
+rotation was computed around the group origin instead of the hub's own
+center — a new failure sub-pattern worth watching for). Sint Maarten
+covered the peaceful two-nation single-island split (Treaty of Concordia),
+Maho Beach's low-flying jets, Carnival, guavaberry liqueur, and Simpson
+Bay Lagoon; its agent fixed a sea turtle's flipper/tail joints using the
+same true-curve-not-bounding-box method as the Seychelles tortoise lesson,
+and built the jet-plane emblem/illustration as a single continuous
+non-self-intersecting outline specifically to sidestep the joint-seam
+failure mode rather than assembling it from separate pieces — a good
+general technique worth reusing for other rigid mechanical objects.
+Emblems: Somalia is a frankincense/myrrh branch (a camel was the first
+instinct but Mauritania already uses one), Faroe Islands is a puffin in
+side profile, Aruba is the wind-bent divi-divi tree, Sint Maarten is a jet
+over a beach referencing Maho Beach. All four passed `tsc`, `eslint`, the
+id-matching audit, and a full `rm -rf .next && npm run build` (205
+countries/territories × 2 langs = 410 static country paths). Not committed
+as of the end of this batch — awaiting explicit user request to commit.
 
 ## Deferred, larger-scope task (explicitly NOT started — user said to wait)
 

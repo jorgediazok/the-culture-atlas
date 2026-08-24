@@ -5026,4 +5026,104 @@ export const countries: Country[] = [
       },
     },
   },
+  {
+    slug: "somalia",
+    flagEmoji: "🇸🇴",
+    accentColor: "#B5651D",
+    continent: "africa",
+    population: 18000000,
+    translations: {
+      es: {
+        name: "Somalia",
+        intro:
+          "La legendaria tierra de Punt que comerciaba incienso y mirra con los faraones egipcios, Laas Geel, con pinturas rupestres de hasta once mil años de antigüedad, y una tradición oral tan rica que Somalia es conocida como la 'nación de poetas'. Estas páginas son para descubrir un Somalia de camellos, la mayor población del mundo, del aqal nómada que se desarma y se lleva a cuestas, y del té shaah que se sirve a cada visitante que llega.",
+        capital: "Mogadiscio",
+        language: "Somalí",
+        currency: "Chelín somalí (SOS)",
+      },
+      en: {
+        name: "Somalia",
+        intro:
+          "The legendary land of Punt that traded frankincense and myrrh with Egyptian pharaohs, Laas Geel, with rock paintings up to eleven thousand years old, and an oral tradition so rich that Somalia is known as the 'nation of poets.' These pages are here to discover a Somalia of camels, the largest population on Earth, the nomadic aqal that folds up and rides along, and the shaah tea served to every visitor who arrives.",
+        capital: "Mogadishu",
+        language: "Somali",
+        currency: "Somali Shilling (SOS)",
+      },
+    },
+  },
+  {
+    slug: "faroe-islands",
+    flagEmoji: "🇫🇴",
+    accentColor: "#1B4B6B",
+    continent: "europe",
+    population: 54000,
+    translations: {
+      es: {
+        name: "Islas Feroe",
+        intro:
+          "Las casas con techo de césped que se confunden con las colinas de Saksun y Kirkjubøur, Ólavsøka, la fiesta nacional que llena Tórshavn de remo, desfiles y danza en cadena feroesa, y Sørvágsvatn, el lago que desde ciertos ángulos parece flotar cientos de metros sobre el océano. Estas páginas son para descubrir unas islas Feroe del skerpikjøt, el cordero fermentado que cuelga meses al viento en cobertizos de madera, la lana de unas ovejas que le dieron nombre al archipiélago, y un idioma vikingo sostenido, contra todo pronóstico, por puro orgullo cultural.",
+        capital: "Tórshavn",
+        language: "Feroés",
+        currency: "Corona danesa (DKK)",
+      },
+      en: {
+        name: "Faroe Islands",
+        intro:
+          "The turf-roofed houses that blend into the hills of Saksun and Kirkjubøur, Ólavsøka, the national holiday that fills Tórshavn with rowing races, parades, and Faroese chain dancing, and Sørvágsvatn, the lake that from certain angles seems to float hundreds of meters above the ocean. These pages are here to discover a Faroe Islands of skerpikjøt, fermented lamb hung for months to cure in wooden sheds, the wool of sheep that gave the archipelago its name, and a Viking-age language kept alive, against the odds, by sheer cultural pride.",
+        capital: "Tórshavn",
+        language: "Faroese",
+        currency: "Danish Krone (DKK)",
+      },
+    },
+  },
+  {
+    slug: "aruba",
+    flagEmoji: "🇦🇼",
+    accentColor: "#0097A7",
+    continent: "north-america",
+    population: 107000,
+    translations: {
+      es: {
+        name: "Aruba",
+        intro:
+          "El divi-divi, el árbol que el viento dobla hacia un costado para siempre, y el Carnaval que termina con la quema del Rey Momo entre música calypso y trajes de plumas. Estas páginas son para descubrir un Aruba del papiamento, la lengua criolla que se convirtió en idioma oficial, el desierto de cactus y dunas del Parque Nacional Arikok, y los vientos constantes que hicieron de la isla un destino mundial de windsurf.",
+        capital: "Oranjestad",
+        language: "Papiamento, neerlandés e inglés",
+        currency: "Florín arubeño (AWG)",
+      },
+      en: {
+        name: "Aruba",
+        intro:
+          "The divi-divi, the tree the wind bends permanently to one side, and Carnival, which ends with the burning of King Momo amid calypso music and feathered costumes. These pages are here to discover an Aruba of Papiamento, the Creole tongue that became an official language, the cactus-and-dune desert of Arikok National Park, and the steady winds that made the island a world windsurfing destination.",
+        capital: "Oranjestad",
+        language: "Papiamento, Dutch, and English",
+        currency: "Aruban Florin (AWG)",
+      },
+    },
+  },
+  {
+    slug: "sint-maarten",
+    flagEmoji: "🇸🇽",
+    accentColor: "#00A9A5",
+    continent: "north-america",
+    population: 44000,
+    translations: {
+      es: {
+        name: "Sint Maarten",
+        intro:
+          "Una isla diminuta partida en dos entre Holanda y Francia sin un solo muro, famosa por los aviones que pasan rozando la playa al aterrizar y por un carnaval que enciende Philipsburg cada primavera. Estas páginas son para descubrir Sint Maarten más allá de esa imagen viral.",
+        capital: "Philipsburg",
+        language: "Neerlandés e inglés",
+        currency: "Florín antillano (ANG)",
+      },
+      en: {
+        name: "Sint Maarten",
+        intro:
+          "A tiny island split between the Netherlands and France with no wall in sight, known worldwide for jets skimming the beach on landing and for a carnival that lights up Philipsburg every spring. These pages are here to get to know Sint Maarten beyond that viral image.",
+        capital: "Philipsburg",
+        language: "Dutch and English",
+        currency: "Netherlands Antillean Guilder (ANG)",
+      },
+    },
+  },
 ];

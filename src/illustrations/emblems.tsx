@@ -2480,6 +2480,77 @@ const SaoTomeAndPrincipe: EmblemComponent = () => (
   </svg>
 );
 
+const Somalia: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M0 110 L0 94 Q28 82 50 90 Q74 98 100 88 L100 110 Z" fill="#C9A877" stroke="#7A5A32" strokeWidth="2" />
+    <path d="M45 100 L43 58 L57 58 L55 100 Z" fill="#6B4226" stroke="#3A2410" strokeWidth="2.2" />
+    <path d="M50 62 Q34 52 22 30" stroke="#6B4226" strokeWidth="8" strokeLinecap="round" fill="none" />
+    <path d="M50 60 Q68 48 80 28" stroke="#6B4226" strokeWidth="8" strokeLinecap="round" fill="none" />
+    <path d="M48 78 L54 82 L50 92 Z" fill="#3A2410" opacity="0.7" />
+    <path d="M22 30 L16 44 L28 44 Z" fill="#D9A227" />
+    <circle cx="22" cy="46" r="9" fill="#D9A227" stroke="#8A5A10" strokeWidth="2" />
+    <path d="M80 28 L74 42 L86 42 Z" fill="#D9A227" />
+    <circle cx="80" cy="44" r="9" fill="#D9A227" stroke="#8A5A10" strokeWidth="2" />
+  </svg>
+);
+
+const FaroeIslands: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M6 90 Q50 74 94 90 L94 106 L6 106 Z" fill="#3A4A5C" stroke="#1E2833" strokeWidth="2" />
+    <path d="M60 26 Q85 24 98 33 Q99 36 95 40 Q78 46 60 42 Z" fill="#E8791A" stroke="#8A4A0A" strokeWidth="2.4" />
+    <line x1="64" y1="28" x2="64" y2="40" stroke="#8A4A0A" strokeWidth="1.6" />
+    <path d="M18 78 Q14 45 34 28 Q52 14 68 20 Q82 26 84 40 Q85 46 78 50 Q60 62 40 60 Q20 60 18 78 Z" fill="#1A1A1A" stroke="#000000" strokeWidth="2.6" />
+    <ellipse cx="70" cy="35" rx="11" ry="10" fill="#F5F0E6" />
+    <circle cx="75" cy="31" r="2.6" fill="#1A1A1A" />
+  </svg>
+);
+
+const Aruba: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M14 96 L86 96 L78 104 L22 104 Z" fill="#D9B463" stroke="#8A6A34" strokeWidth="2" />
+    <path
+      d="M42 98 Q40 75 52 58 Q62 46 68 38"
+      fill="none"
+      stroke="#6B4423"
+      strokeWidth="11"
+      strokeLinecap="round"
+    />
+    <path
+      d="M50 50 L56 30 L78 16 L96 22 L94 40 L76 54 L58 58 Z"
+      fill="#3D6B2C"
+      stroke="#1F3E17"
+      strokeWidth="2.4"
+    />
+    <path d="M48 44 L54 28 L66 24 L62 38 Z" fill="#4F8536" />
+    <path d="M6 30 L26 26 M4 42 L24 40" stroke="#9CC2D6" strokeWidth="3" strokeLinecap="round" opacity="0.75" />
+  </svg>
+);
+
+const SintMaarten: EmblemComponent = () => (
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
+    <path d="M0 78 Q28 58 55 70 Q80 80 100 68 L100 110 L0 110 Z" fill="#E8D3A0" />
+    <path
+      d="M0 92 Q25 84 50 92 Q75 100 100 90"
+      fill="none"
+      stroke="#2E86AB"
+      strokeWidth="3"
+      strokeLinecap="round"
+      opacity="0.75"
+    />
+    <g transform="translate(52 38) rotate(-14) scale(1.35)">
+      <path
+        d="M-25 0 Q-25 -3 -19 -3 L12 -3 L16 -10 L19 -3 L20 -3 Q23 -2 23 0 Q23 2 20 3 L16 3 L4 9 L-1 9 L-2 3 L-19 3 Q-25 2 -25 0 Z"
+        fill="#F5F0E6"
+        stroke="#5C4A3A"
+        strokeWidth="1.6"
+      />
+      <circle cx="-9" cy="0" r="1.1" fill="#5C4A3A" />
+      <circle cx="-3" cy="0" r="1.1" fill="#5C4A3A" />
+      <circle cx="3" cy="0" r="1.1" fill="#5C4A3A" />
+    </g>
+  </svg>
+);
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -2682,6 +2753,10 @@ export const emblems: Record<string, EmblemComponent> = {
   nigeria: Nigeria,
   rwanda: Rwanda,
   "sao-tome-and-principe": SaoTomeAndPrincipe,
+  somalia: Somalia,
+  "faroe-islands": FaroeIslands,
+  aruba: Aruba,
+  "sint-maarten": SintMaarten,
 };
 
 export function getEmblem(slug: string): EmblemComponent | null {

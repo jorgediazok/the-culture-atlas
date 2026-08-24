@@ -199,6 +199,10 @@ import { sierraLeoneIllustrations } from "./sierra-leone";
 import { nigeriaIllustrations } from "./nigeria";
 import { rwandaIllustrations } from "./rwanda";
 import { saoTomeAndPrincipeIllustrations } from "./sao-tome-and-principe";
+import { somaliaIllustrations } from "./somalia";
+import { faroeIslandsIllustrations } from "./faroe-islands";
+import { arubaIllustrations } from "./aruba";
+import { sintMaartenIllustrations } from "./sint-maarten";
 import type { IllustrationDefinition } from "./types";
 
 const illustrationsByCountry: Record<string, Record<string, IllustrationDefinition>> = {
@@ -403,6 +407,10 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   nigeria: nigeriaIllustrations,
   rwanda: rwandaIllustrations,
   "sao-tome-and-principe": saoTomeAndPrincipeIllustrations,
+  somalia: somaliaIllustrations,
+  "faroe-islands": faroeIslandsIllustrations,
+  aruba: arubaIllustrations,
+  "sint-maarten": sintMaartenIllustrations,
 };
 
 export function getIllustration(

@@ -206,6 +206,10 @@ import { sierraLeone } from "./sierra-leone";
 import { nigeria } from "./nigeria";
 import { rwanda } from "./rwanda";
 import { saoTomeAndPrincipe } from "./sao-tome-and-principe";
+import { somalia } from "./somalia";
+import { faroeIslands } from "./faroe-islands";
+import { aruba } from "./aruba";
+import { sintMaarten } from "./sint-maarten";
 
 export const contentByCountry: Record<string, CultureEntry[]> = {
   netherlands,
@@ -409,6 +413,10 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   nigeria,
   rwanda,
   "sao-tome-and-principe": saoTomeAndPrincipe,
+  somalia,
+  "faroe-islands": faroeIslands,
+  aruba,
+  "sint-maarten": sintMaarten,
 };
 
 export function getEntriesForCountry(slug: string): CultureEntry[] | null {
