@@ -231,4 +231,129 @@ export const venezuela: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "cacao-venezolano",
+    order: 11,
+    placeholderEmoji: "🍫",
+    accentColor: "#6F4E37",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cacao que los chocolateros del mundo codician",
+        subtitle: "El cacao criollo",
+        imageAlt:
+          "Caricatura de una mazorca de cacao abierta mostrando granos junto a una barra de chocolate.",
+        description:
+          "Venezuela concentra algunas de las variedades de cacao más apreciadas por chocolateros y catadores de todo el mundo, especialmente el cacao criollo, considerado el más fino y aromático de las tres grandes familias genéticas de cacao, con notas frutales y florales que rara vez aparecen en cultivos más comunes. Regiones como Chuao, un pequeño pueblo de la costa central accesible solo por mar o por una caminata a través del Parque Nacional Henri Pittier, producen un cacao tan reconocido que aparece nombrado por origen en chocolates de alta gama de todo el planeta, algo poco común incluso entre los mejores productores mundiales. El cultivo, heredado de técnicas coloniales combinadas con conocimiento indígena y afrodescendiente, sigue siendo mayormente artesanal, con el secado de los granos realizado al sol en las plazas de los pueblos productores, una escena habitual en la costa venezolana desde hace siglos.",
+      },
+      en: {
+        title: "The Cacao Chocolatiers Around the World Crave",
+        subtitle: "Criollo Cacao",
+        imageAlt:
+          "Cartoon of an opened cacao pod showing beans beside a bar of chocolate.",
+        description:
+          "Venezuela is home to some of the cacao varieties most prized by chocolatiers and tasters worldwide, especially cacao criollo, considered the finest and most aromatic of the three major cacao genetic families, with fruity and floral notes rarely found in more common crops. Regions like Chuao, a small central-coast village reachable only by boat or by hiking through Henri Pittier National Park, produce cacao so renowned that it's named by origin on high-end chocolate bars around the planet, something uncommon even among the world's best producers. Cultivation, inherited from colonial techniques blended with Indigenous and Afro-descendant knowledge, remains mostly artisanal, with beans still sun-dried in the plazas of producing villages, a scene that has been common on Venezuela's coast for centuries.",
+      },
+    },
+  },
+  {
+    id: "hallaca",
+    order: 12,
+    placeholderEmoji: "🎄",
+    accentColor: "#4E7A51",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El plato que envuelve la Navidad venezolana",
+        subtitle: "La hallaca",
+        imageAlt:
+          "Caricatura de una hallaca envuelta en hoja de plátano, atada con cuerda, humeante.",
+        description:
+          "La hallaca, un guiso de carne de res, cerdo y pollo con aceitunas, pasas y alcaparras, envuelto en una masa de maíz coloreada con onoto y luego enrollado en hojas de plátano atadas con cuerda, es el plato central de la Navidad venezolana, preparado casi siempre en una jornada familiar donde varias generaciones se reparten tareas: quién sazona el guiso, quién extiende la masa, quién arma y quién amarra. Su origen se atribuye a la época colonial, cuando los esclavizados aprovechaban las sobras de las cocinas de las haciendas para crear un plato propio, envuelto para poder transportarlo y conservarlo con facilidad. Aunque cada familia y cada región del país defiende su propia receta como la auténtica, la hallaca es quizás el símbolo culinario que más unifica a los venezolanos, dentro y fuera del país, durante las fiestas de fin de año.",
+      },
+      en: {
+        title: "The Dish That Wraps Up Venezuelan Christmas",
+        subtitle: "The Hallaca",
+        imageAlt:
+          "Cartoon of a steaming hallaca wrapped in a plantain leaf and tied with string.",
+        description:
+          "Hallaca, a stew of beef, pork, and chicken with olives, raisins, and capers, wrapped in corn dough colored with annatto and then rolled in plantain leaves tied with string, is the centerpiece of Venezuelan Christmas, almost always prepared during a family workday where several generations split the tasks: who seasons the stew, who spreads the dough, who assembles it, and who ties it. Its origin is traced to the colonial era, when enslaved people made use of leftovers from hacienda kitchens to create a dish of their own, wrapped for easy transport and preservation. Although every family and region defends its own recipe as the authentic one, hallaca is perhaps the culinary symbol that most unites Venezuelans, at home and abroad, during the year-end holidays.",
+      },
+    },
+  },
+  {
+    id: "los-roques",
+    order: 13,
+    placeholderEmoji: "🏝️",
+    accentColor: "#20B2AA",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Un archipiélago de coral casi virgen en el Caribe",
+        subtitle: "Los Roques",
+        imageAlt:
+          "Caricatura de islotes de arena blanca rodeados de agua turquesa y arrecife de coral.",
+        description:
+          "El Parque Nacional Archipiélago de Los Roques, un conjunto de más de 300 islas, islotes y cayos de arena blanca esparcidos sobre un extenso arrecife de coral en el mar Caribe, es considerado uno de los sistemas de arrecife mejor conservados de la región, en parte gracias a que su acceso está restringido casi exclusivamente a vuelos desde tierra firme, sin puentes ni carreteras que faciliten un desarrollo turístico masivo. Sus aguas de un turquesa casi transparente, con una visibilidad que en muchos puntos supera los 20 metros, albergan una biodiversidad marina que incluye tortugas, langostas y una de las mayores concentraciones de aves marinas del Caribe venezolano. El pueblo de Gran Roque, la única isla habitada de forma permanente, funciona como puerta de entrada al parque, con posadas familiares que reciben a los visitantes que llegan buscando bucear, pescar o simplemente descansar en playas prácticamente deshabitadas.",
+      },
+      en: {
+        title: "A Nearly Untouched Coral Archipelago in the Caribbean",
+        subtitle: "Los Roques",
+        imageAlt:
+          "Cartoon of small white-sand islets surrounded by turquoise water and coral reef.",
+        description:
+          "Los Roques Archipelago National Park, a cluster of more than 300 islands, islets, and sandy cays scattered across an extensive coral reef in the Caribbean Sea, is considered one of the best-preserved reef systems in the region, partly because access is restricted almost entirely to flights from the mainland, with no bridges or roads to enable mass tourism development. Its nearly transparent turquoise waters, with visibility exceeding 20 meters in many spots, host marine biodiversity that includes sea turtles, lobsters, and one of the largest concentrations of seabirds in Venezuelan Caribbean waters. Gran Roque, the only permanently inhabited island, serves as the gateway to the park, with small family-run inns welcoming visitors who come to dive, fish, or simply rest on nearly uninhabited beaches.",
+      },
+    },
+  },
+  {
+    id: "diablos-danzantes-corpus-christi",
+    order: 14,
+    placeholderEmoji: "👹",
+    accentColor: "#A6192E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los diablos que bailan para vencer al bien",
+        subtitle: "Diablos Danzantes de Corpus Christi",
+        imageAlt:
+          "Caricatura de un bailarín con máscara roja de diablo con cuernos, bailando frente a una iglesia.",
+        description:
+          "Cada Corpus Christi, en más de una decena de pueblos de la costa central venezolana como San Francisco de Yare, cofradías de hombres vestidos con trajes rojos y máscaras de diablo con cuernos y colmillos salen a bailar por las calles en una tradición que representa la victoria simbólica del bien sobre el mal: los diablos danzan frente a la iglesia y terminan arrodillándose ante el Santísimo Sacramento en un acto de sumisión ritual. La tradición, que combina elementos católicos traídos por los colonizadores españoles con raíces africanas de las comunidades esclavizadas que trabajaban en las haciendas de cacao de la zona, se transmite de generación en generación dentro de las mismas familias, y cada máscara es tallada y pintada a mano por artesanos locales. En 2012 la UNESCO reconoció la tradición como Patrimonio Cultural Inmaterial de la Humanidad, distinción compartida con manifestaciones similares de otros países de la región.",
+      },
+      en: {
+        title: "The Devils Who Dance to Defeat Evil",
+        subtitle: "Dancing Devils of Corpus Christi",
+        imageAlt:
+          "Cartoon of a dancer in a red, horned devil mask dancing in front of a church.",
+        description:
+          "Every Corpus Christi, in more than a dozen towns along Venezuela's central coast such as San Francisco de Yare, brotherhoods of men dressed in red costumes and horned, fanged devil masks take to the streets in a tradition representing the symbolic victory of good over evil: the devils dance in front of the church and end by kneeling before the Blessed Sacrament in an act of ritual submission. The tradition, which blends Catholic elements brought by Spanish colonizers with African roots from the enslaved communities who worked the area's cacao haciendas, is passed down within the same families generation after generation, and each mask is carved and painted by hand by local artisans. In 2012, UNESCO recognized the tradition as Intangible Cultural Heritage of Humanity, a distinction shared with similar traditions in other countries of the region.",
+      },
+    },
+  },
+  {
+    id: "teleferico-merida",
+    order: 15,
+    placeholderEmoji: "🚡",
+    accentColor: "#4A6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El teleférico que casi toca las nubes andinas",
+        subtitle: "El Teleférico de Mérida",
+        imageAlt:
+          "Caricatura de una cabina de teleférico ascendiendo hacia un pico nevado de los Andes.",
+        description:
+          "El Teleférico de Mérida, inaugurado en 1960 en la ciudad andina del mismo nombre, fue durante décadas el teleférico más alto y más largo del mundo, ascendiendo casi 3.000 metros de desnivel en cuatro tramos consecutivos hasta el Pico Espejo, a 4.765 metros sobre el nivel del mar, con vistas al Pico Bolívar, el punto más alto de Venezuela. El recorrido atraviesa en pocos minutos varios pisos climáticos distintos, desde el clima templado de la ciudad hasta el frío páramo andino, cubierto de frailejones, una planta característica de las alturas de los Andes venezolanos y colombianos. Cerrado varios años por trabajos de modernización y reabierto por etapas, el teleférico sigue siendo el símbolo turístico más reconocible de Mérida y de la región andina venezolana, y el punto de partida habitual para los alpinistas que intentan la ascensión al Pico Bolívar.",
+      },
+      en: {
+        title: "The Cable Car That Almost Touches the Andean Clouds",
+        subtitle: "The Mérida Cable Car",
+        imageAlt:
+          "Cartoon of a cable car cabin climbing toward a snow-capped Andean peak.",
+        description:
+          "The Mérida Cable Car, opened in 1960 in the Andean city of the same name, was for decades the highest and longest cable car in the world, climbing nearly 3,000 meters in elevation across four consecutive stages up to Pico Espejo, at 4,765 meters above sea level, with views of Pico Bolívar, Venezuela's highest point. In just a few minutes the ride crosses several distinct climate zones, from the city's mild weather to the cold Andean páramo, covered in frailejones, a plant characteristic of the high Andes of Venezuela and Colombia. Closed for several years for modernization and reopened in stages, the cable car remains the most recognizable tourist symbol of Mérida and the Venezuelan Andes, and the usual starting point for mountaineers attempting the ascent of Pico Bolívar.",
+      },
+    },
+  },
 ];

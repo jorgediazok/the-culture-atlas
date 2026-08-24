@@ -192,6 +192,131 @@ const RioParaguay: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const SopaParaguaya: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.5);
+  const gold = "#D4A017";
+  return (
+    <g>
+      {/* square baking dish */}
+      <rect x="120" y="150" width="160" height="80" rx="4" fill={dark} />
+      <rect x="130" y="140" width="140" height="70" rx="4" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="3" />
+      {/* golden crust texture */}
+      <rect x="145" y="152" width="24" height="20" rx="3" fill={light} opacity="0.5" />
+      <rect x="180" y="158" width="24" height="20" rx="3" fill={light} opacity="0.5" />
+      <rect x="215" y="150" width="24" height="20" rx="3" fill={light} opacity="0.5" />
+      {/* steam */}
+      <path d="M170 130 Q163 105 175 82" stroke={light} strokeWidth="4" strokeLinecap="round" fill="none" opacity="0.7" />
+      <path d="M215 130 Q208 100 222 78" stroke={light} strokeWidth="4" strokeLinecap="round" fill="none" opacity="0.6" />
+    </g>
+  );
+};
+
+const CarnavalEncarnacion: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  const skin = "#C97C4A";
+  const feathers = [-70, -50, -30, -10, 10, 30, 50, 70];
+  const featherColors = [dark, gold, accentColor];
+  return (
+    <g>
+      {/* float platform */}
+      <path d="M110 235 L300 235 L285 250 L125 250 Z" fill={dark} opacity="0.6" />
+      {/* feather fan, drawn first so the dancer sits in front of it */}
+      {feathers.map((deg, i) => (
+        <path
+          key={deg}
+          d="M205 175 Q195 130 205 82 Q215 130 205 175 Z"
+          fill={featherColors[i % featherColors.length]}
+          transform={`rotate(${deg} 205 175)`}
+        />
+      ))}
+      {/* dancer torso; top edge curves to overlap the head circle's true boundary */}
+      <path d="M193 176 Q205 184 217 176 L225 225 L185 225 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* head, painted over the torso's neckline */}
+      <circle cx="205" cy="178" r="18" fill={skin} />
+      <circle cx="197" cy="205" r="5" fill={gold} />
+      <circle cx="213" cy="205" r="5" fill={gold} />
+      {/* raised arms, strokes starting well inside the torso fill */}
+      <path d="M198 195 Q170 180 158 152" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M212 195 Q240 180 252 154" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      {/* legs */}
+      <path d="M197 225 L190 250 M213 225 L220 250" stroke={dark} strokeWidth="9" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const AoPoiYataity: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  const cloth = "#F5F0E6";
+  const spots: [number, number][] = [
+    [150, 140],
+    [255, 140],
+    [150, 200],
+    [255, 200],
+    [205, 170],
+  ];
+  return (
+    <g>
+      {/* fine cotton cloth */}
+      <rect x="100" y="95" width="210" height="150" fill={cloth} stroke={dark} strokeWidth="3" />
+      {/* embroidered flower motifs */}
+      {spots.map(([x, y]) => (
+        <g key={`${x}-${y}`}>
+          {[0, 72, 144, 216, 288].map((deg) => (
+            <ellipse key={deg} cx={x} cy={y - 10} rx="6" ry="10" fill={accentColor} transform={`rotate(${deg} ${x} ${y})`} />
+          ))}
+          <circle cx={x} cy={y} r="5" fill={light} stroke={dark} strokeWidth="1.5" />
+        </g>
+      ))}
+      {/* the 'sombra' drawn-thread openwork lines between motifs */}
+      <line x1="205" y1="95" x2="205" y2="245" stroke={dark} strokeWidth="1" opacity="0.4" strokeDasharray="1 5" />
+      <line x1="100" y1="170" x2="310" y2="170" stroke={dark} strokeWidth="1" opacity="0.4" strokeDasharray="1 5" />
+    </g>
+  );
+};
+
+const IndependenciaSilenciosa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  const flame = "#F4A300";
+  const wax = "#F5F0E6";
+  return (
+    <g>
+      {/* night backdrop */}
+      <rect x="90" y="80" width="230" height="170" fill={dark} opacity="0.25" />
+      {/* sealed document */}
+      <rect x="130" y="170" width="130" height="70" rx="3" fill={light} stroke={dark} strokeWidth="3" />
+      <line x1="145" y1="188" x2="245" y2="188" stroke={dark} strokeWidth="2" opacity="0.5" />
+      <line x1="145" y1="200" x2="230" y2="200" stroke={dark} strokeWidth="2" opacity="0.5" />
+      <line x1="145" y1="212" x2="240" y2="212" stroke={dark} strokeWidth="2" opacity="0.5" />
+      <circle cx="230" cy="225" r="12" fill={accentColor} stroke={dark} strokeWidth="2" />
+      {/* candle */}
+      <rect x="255" y="150" width="18" height="60" fill={wax} stroke={dark} strokeWidth="2" />
+      <path d="M264 150 Q258 130 264 112 Q270 130 264 150" fill={flame} />
+      <path d="M264 145 Q262 132 264 122" fill={light} opacity="0.7" />
+    </g>
+  );
+};
+
+const FutbolAlbirroja: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const white = "#F5F0E6";
+  return (
+    <g>
+      {/* jersey */}
+      <path d="M150 110 L175 95 L205 108 L235 95 L260 110 L250 140 L235 132 L235 230 L175 230 L175 132 L160 140 Z" fill={white} stroke={dark} strokeWidth="3" />
+      {[178, 194, 210, 226].map((x, i) => (
+        <rect key={x} x={x} y="108" width="10" height="118" fill={i % 2 === 0 ? accentColor : dark} />
+      ))}
+      {/* ball */}
+      <circle cx="270" cy="205" r="26" fill={white} stroke={dark} strokeWidth="3" />
+      <polygon points="270,190 280,197 276,210 264,210 260,197" fill={dark} />
+    </g>
+  );
+};
+
 export const paraguayIllustrations: Record<string, IllustrationDefinition> = {
   "represa-itaipu": { component: RepresaItaipu },
   "yerba-mate-origen": { component: YerbaMateOrigen },
@@ -203,4 +328,9 @@ export const paraguayIllustrations: Record<string, IllustrationDefinition> = {
   "arpa-paraguaya": { component: ArpaParaguaya },
   "chaco-paraguayo": { component: ChacoParaguayo },
   "rio-paraguay": { component: RioParaguay },
+  "sopa-paraguaya": { component: SopaParaguaya },
+  "carnaval-encarnacion": { component: CarnavalEncarnacion },
+  "ao-poi-yataity": { component: AoPoiYataity },
+  "independencia-silenciosa": { component: IndependenciaSilenciosa },
+  "futbol-albirroja": { component: FutbolAlbirroja },
 };

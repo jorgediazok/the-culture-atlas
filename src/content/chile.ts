@@ -231,4 +231,234 @@ export const chile: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "gabriela-mistral",
+    order: 11,
+    placeholderEmoji: "📚",
+    accentColor: "#9C6644",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La maestra rural que ganó el segundo Nobel",
+        subtitle: "Gabriela Mistral",
+        imageAlt: "Caricatura de una maestra leyendo un libro a dos niños sentados en un valle.",
+        description:
+          "Gabriela Mistral, seudónimo de Lucila Godoy Alcayaga, nació en 1889 en el valle de Elqui y trabajó primero como maestra rural antes de convertirse en poeta, diplomática y, en 1945, en la primera persona latinoamericana en recibir el Premio Nobel de Literatura, veintiséis años antes que Pablo Neruda. Su poesía, marcada por temas como la maternidad, la infancia y la muerte, incluye libros como 'Desolación' (1922) y 'Ternura' (1924), escritos con un lenguaje sencillo y profundamente emotivo que contrastaba con las corrientes más ornamentadas de su época. Como diplomática representó a Chile en varios países y dedicó buena parte de su vida a promover la educación pública, en especial para niños de zonas rurales y comunidades indígenas. Hoy su rostro aparece en el billete de 5.000 pesos chilenos, y su casa natal en Vicuña es un museo dedicado a su vida y obra.",
+      },
+      en: {
+        title: "The Rural Teacher Who Won Chile's Second Nobel",
+        subtitle: "Gabriela Mistral",
+        imageAlt: "Cartoon of a teacher reading a book to two children seated in a valley.",
+        description:
+          "Gabriela Mistral, the pen name of Lucila Godoy Alcayaga, was born in 1889 in the Elqui Valley and worked first as a rural schoolteacher before becoming a poet, diplomat, and, in 1945, the first Latin American to receive the Nobel Prize in Literature, twenty-six years before Pablo Neruda. Her poetry, centered on themes like motherhood, childhood, and death, includes books such as 'Desolación' (1922) and 'Ternura' (1924), written in simple, deeply emotional language that contrasted with the more ornate literary currents of her time. As a diplomat she represented Chile in several countries and spent much of her life promoting public education, especially for children in rural areas and indigenous communities. Today her face appears on the 5,000-Chilean-peso bill, and her childhood home in Vicuña is now a museum dedicated to her life and work.",
+      },
+    },
+  },
+  {
+    id: "mapuche",
+    order: 12,
+    placeholderEmoji: "🧶",
+    accentColor: "#8C4A3B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El telar que teje la identidad del pueblo mapuche",
+        subtitle: "El pueblo mapuche",
+        imageAlt: "Caricatura de una tejedora mapuche trabajando un telar con patrones geométricos.",
+        description:
+          "El pueblo mapuche es el grupo indígena más numeroso de Chile, concentrado históricamente en la región de la Araucanía y el sur del país, con una lengua propia, el mapudungun, que sigue hablándose y enseñándose hoy. Una de sus tradiciones más reconocibles es el tejido en telar: las mujeres mapuche hilan lana de oveja a mano, la tiñen con pigmentos naturales extraídos de plantas, raíces y minerales, y la tejen en telares de suelo para crear ponchos, mantas y fajas cubiertos de patrones geométricos, el ñimin, que codifican significados sobre la naturaleza, la familia y el cosmos, transmitidos de generación en generación como conocimiento oral. La platería mapuche, con piezas de plata labrada como el trapelacucha que usan las mujeres sobre el pecho, es otra expresión artesanal reconocida internacionalmente. Pese a siglos de conflicto territorial con el estado chileno, la cultura mapuche sigue viva en comunidades, ferias y escuelas interculturales.",
+      },
+      en: {
+        title: "The Loom That Weaves Mapuche Identity Together",
+        subtitle: "The Mapuche People",
+        imageAlt: "Cartoon of a Mapuche weaver working a loom with geometric patterns.",
+        description:
+          "The Mapuche are Chile's largest Indigenous group, historically centered in the Araucanía region and the south of the country, with their own language, Mapudungun, still spoken and taught today. One of their most recognizable traditions is loom weaving: Mapuche women hand-spin sheep's wool, dye it with natural pigments drawn from plants, roots, and minerals, and weave it on ground looms into ponchos, blankets, and sashes covered in geometric patterns, the ñimin, that encode meanings about nature, family, and the cosmos, passed down as oral knowledge across generations. Mapuche silversmithing, with hammered pieces like the trapelacucha worn by women over the chest, is another internationally recognized craft. Despite centuries of territorial conflict with the Chilean state, Mapuche culture remains alive in communities, fairs, and intercultural schools.",
+      },
+    },
+  },
+  {
+    id: "chiloe",
+    order: 13,
+    placeholderEmoji: "🏘️",
+    accentColor: "#2C7873",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Casas de madera paradas sobre el mar",
+        subtitle: "Los palafitos de Chiloé",
+        imageAlt: "Caricatura de coloridas casas de madera sobre pilotes de pie en el mar.",
+        description:
+          "En el archipiélago de Chiloé, en el sur de Chile, ciudades como Castro conservan hileras de palafitos: casas de madera construidas sobre pilotes que se internan directamente en el mar, pintadas de colores intensos, pensadas originalmente para que los pescadores pudieran amarrar sus botes bajo la propia vivienda. Chiloé también es célebre por sus más de 60 iglesias de madera construidas por misioneros jesuitas entre los siglos XVII y XIX sin usar un solo clavo de metal, dieciséis de las cuales integran una lista de Patrimonio de la Humanidad de la UNESCO, y por una mitología insular propia y muy particular, con criaturas como el Trauco, un hombre pequeño y deforme del bosque, la Pincoya, una sirena que decide la abundancia de peces, y el Caleuche, un barco fantasma que navega de noche con luces encendidas y música a bordo. Esa mezcla de aislamiento geográfico, arquitectura de madera y folclore convirtió a Chiloé en una de las regiones culturalmente más distintivas de Chile.",
+      },
+      en: {
+        title: "Wooden Houses Standing Over the Open Sea",
+        subtitle: "Chiloé's Stilt Houses",
+        imageAlt: "Cartoon of colorful wooden stilt houses standing over the sea.",
+        description:
+          "In the Chiloé archipelago, in southern Chile, towns like Castro preserve rows of palafitos: wooden houses built on stilts that reach directly into the sea, painted in bright colors, originally designed so fishermen could moor their boats right beneath the house. Chiloé is also known for more than 60 wooden churches built by Jesuit missionaries between the 17th and 19th centuries without a single metal nail, sixteen of which are listed as a UNESCO World Heritage site, and for its own distinctive island mythology, with creatures like the Trauco, a small, deformed forest man, the Pincoya, a mermaid who decides how abundant the fish will be, and the Caleuche, a ghost ship that sails at night lit up with music playing on board. That mix of geographic isolation, wooden architecture, and folklore made Chiloé one of Chile's most culturally distinctive regions.",
+      },
+    },
+  },
+  {
+    id: "valparaiso",
+    order: 14,
+    placeholderEmoji: "🎨",
+    accentColor: "#6A4C93",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Una ciudad de cerros, funiculares y murales",
+        subtitle: "Valparaíso",
+        imageAlt: "Caricatura de un funicular subiendo un cerro empinado cubierto de murales.",
+        description:
+          "Valparaíso, el principal puerto histórico de Chile, se construyó sobre más de 40 cerros empinados alrededor de una bahía, y para salvar esas pendientes la ciudad desarrolló desde 1883 un sistema de funiculares o 'ascensores', pequeños vagones que suben y bajan por rieles casi verticales; de los dieciséis que llegó a tener, todavía funcionan varios, algunos declarados monumento nacional. El trazado laberíntico de escaleras, pasajes y calles sin planificación aparente, sumado a una arquitectura de fachadas de zinc pintadas de colores muy distintos entre sí, le valió a su barrio histórico ser declarado Patrimonio de la Humanidad por la UNESCO en 2003. Desde mediados del siglo XX la ciudad se convirtió además en un centro de arte urbano: sus muros están cubiertos de murales de artistas locales e internacionales, una tradición que la municipalidad terminó por proteger en lugar de combatir, y que hoy atrae visitantes a recorrer sus cerros a pie, cámara en mano.",
+      },
+      en: {
+        title: "A City of Hills, Funiculars, and Street Murals",
+        subtitle: "Valparaíso",
+        imageAlt: "Cartoon of a funicular climbing a steep hill covered in street murals.",
+        description:
+          "Valparaíso, Chile's main historic port, was built across more than 40 steep hills around a bay, and to overcome those slopes the city developed a system of funiculars, or 'ascensores,' starting in 1883 — small cars that climb and descend on nearly vertical rails; of the sixteen it once had, several are still running today, some declared national monuments. The maze-like layout of staircases, passageways, and seemingly unplanned streets, combined with zinc-clad house facades painted in wildly different colors, earned its historic quarter UNESCO World Heritage status in 2003. Since the mid-20th century the city has also become a hub for urban art: its walls are covered in murals by local and international artists, a tradition the municipality eventually chose to protect rather than fight, and which now draws visitors specifically to wander its hills on foot, camera in hand.",
+      },
+    },
+  },
+  {
+    id: "curanto",
+    order: 15,
+    placeholderEmoji: "🍲",
+    accentColor: "#C1440E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Un banquete que se cocina bajo tierra",
+        subtitle: "El curanto",
+        imageAlt: "Caricatura de un hoyo con curanto: mariscos y papas cocinándose bajo hojas grandes.",
+        description:
+          "El curanto es una técnica de cocción originaria de Chiloé que consiste en cavar un hoyo en la tierra, calentar piedras al rojo vivo en su interior y luego apilar sobre ellas, por capas, mariscos con su concha, carne de cerdo y pollo, longanizas, papas y masas típicas como el chapalele y el milcao, hechas de papa cruda y cocida ralladas. Todo se cubre con hojas grandes de nalca o pangue y luego con tierra, dejando que el vapor generado por las piedras calientes cocine lentamente el conjunto durante alrededor de una hora, mientras el jugo de los mariscos se filtra hacia abajo y aromatiza el resto de los ingredientes. El resultado se sirve directamente sobre la mesa, compartido entre varias personas, en una comida que originalmente marcaba ocasiones comunitarias y hoy se prepara tanto en celebraciones familiares como en versiones más simples, cocinadas en una olla grande, para quienes no tienen acceso a un patio de tierra.",
+      },
+      en: {
+        title: "A Feast That's Cooked Underground",
+        subtitle: "Curanto",
+        imageAlt: "Cartoon of a curanto pit with shellfish and potatoes steaming under big leaves.",
+        description:
+          "Curanto is a cooking technique that originated in Chiloé: dig a pit in the ground, heat stones until red-hot inside it, then stack shellfish still in their shells, pork, chicken, sausages, potatoes, and traditional doughs like chapalele and milcao, made from grated raw and cooked potato, on top in layers. The whole pile is covered with large nalca or pangue leaves and then with earth, letting the steam from the hot stones slow-cook everything for roughly an hour while juice from the shellfish drips down and flavors the rest of the ingredients. The result is served straight onto the table, shared among several people, in a meal that originally marked communal occasions and today is prepared both for family celebrations and in simpler versions, cooked in a large pot, for anyone without access to an earthen yard.",
+      },
+    },
+  },
+  {
+    id: "rodeo-chileno",
+    order: 16,
+    placeholderEmoji: "🐎",
+    accentColor: "#7B3F00",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El huaso a caballo que frena al toro en la medialuna",
+        subtitle: "El rodeo chileno",
+        imageAlt: "Caricatura de un huaso a caballo arrinconando a un novillo contra el muro de una medialuna.",
+        description:
+          "El rodeo, declarado deporte nacional de Chile en 1962, se practica en una medialuna, un ruedo con forma de media luna cuya pared curva está forrada con un tramo acolchado. Dos jinetes llamados huasos, montados en caballos criollos entrenados durante años, forman una 'collera' y trabajan en pareja para arrear a un novillo alrededor del ruedo y luego 'atajarlo', es decir, frenarlo empujándolo con el pecho del caballo contra la parte acolchada de la pared, en una maniobra que se puntúa según la precisión y elegancia del movimiento. El huaso, la versión chilena del jinete rural, viste manta de lana a rayas, chupalla de paja y espuelas grandes, y su figura se volvió un símbolo de identidad campesina mucho más allá del propio rodeo, presente en la música, el vestuario de las Fiestas Patrias y hasta en la publicidad. El campeonato nacional se celebra cada año en la Medialuna Monumental de Rancagua.",
+      },
+      en: {
+        title: "The Huaso Who Pins the Steer in the Arena",
+        subtitle: "Chilean Rodeo",
+        imageAlt: "Cartoon of a huaso on horseback pinning a young steer against an arena wall.",
+        description:
+          "Rodeo, declared Chile's national sport in 1962, is practiced in a medialuna, a crescent-shaped ring whose curved wall is lined with a padded section. Two riders called huasos, mounted on criollo horses trained for years, form a 'collera' and work as a pair to drive a young steer around the ring and then 'atajarlo' — stop it by pushing it with the horse's chest against the padded part of the wall, a move scored on its precision and elegance. The huaso, Chile's version of the rural horseman, wears a striped wool poncho, a wide straw chupalla hat, and large spurs, and has become a symbol of rural identity that reaches far beyond rodeo itself, appearing in music, Independence Day dress, and even advertising. The national championship is held every year at the Medialuna Monumental in Rancagua.",
+      },
+    },
+  },
+  {
+    id: "los-33",
+    order: 17,
+    placeholderEmoji: "⛑️",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "33 mineros atrapados, 69 días bajo tierra",
+        subtitle: "El rescate de los 33",
+        imageAlt: "Caricatura de una cápsula de rescate saliendo de un pozo minero mientras mineros celebran.",
+        description:
+          "El 5 de agosto de 2010, un derrumbe selló la mina de cobre y oro San José, cerca de Copiapó, dejando a 33 mineros atrapados a más de 700 metros de profundidad. Durante 17 días no hubo ninguna señal de que siguieran con vida, hasta que una sonda de perforación logró contactarlos y subió una nota escrita a mano que decía 'estamos bien en el refugio los 33'. Mientras equipos de rescate perforaban un pozo de escape, los propios mineros organizaron turnos, racionaron alimentos y mantuvieron una rutina diaria para sobrevivir bajo tierra durante 69 días en total, el tiempo más largo que un grupo de personas ha sobrevivido atrapado en una mina. El 13 de octubre de 2010, cada uno fue izado a la superficie en una cápsula de rescate llamada Fénix, en una operación transmitida en vivo y seguida por más de mil millones de personas en todo el mundo, que convirtió el episodio en un símbolo global de resistencia y trabajo en equipo.",
+      },
+      en: {
+        title: "33 Miners Trapped, 69 Days Underground",
+        subtitle: "The Rescue of the 33",
+        imageAlt: "Cartoon of a rescue capsule emerging from a mine shaft as miners celebrate.",
+        description:
+          "On August 5, 2010, a collapse sealed off the San José copper and gold mine near Copiapó, trapping 33 miners more than 700 meters underground. For 17 days there was no sign they were still alive, until a drilling probe finally reached them and brought up a handwritten note reading 'we are well in the shelter, the 33.' While rescue teams drilled an escape shaft, the miners themselves organized shifts, rationed food, and kept a daily routine to survive underground for 69 days in total — the longest a group of people has ever survived trapped in a mine. On October 13, 2010, each was hoisted to the surface inside a rescue capsule called Fénix, in an operation broadcast live and watched by more than a billion people worldwide, turning the episode into a global symbol of endurance and teamwork.",
+      },
+    },
+  },
+  {
+    id: "chilenismos",
+    order: 18,
+    placeholderEmoji: "💬",
+    accentColor: "#4FB0C6",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Cómo hablar chileno en cinco palabras",
+        subtitle: "Los chilenismos",
+        imageAlt: "Caricatura de dos personas conversando con un globo de diálogo lleno de modismos chilenos.",
+        description:
+          "El español que se habla en Chile es, según reportan visitantes de otros países hispanohablantes, uno de los más difíciles de entender de la región, por su ritmo acelerado, la costumbre de comerse la 's' final de las palabras y un vocabulario propio muy extenso. Palabras como 'guagua' (bebé, de origen quechua), 'poto' (trasero, de origen mapudungun) o 'al tiro' (de inmediato) conviven con muletillas casi obligatorias como el 'po' que se agrega al final de casi cualquier frase para dar énfasis, y con expresiones como 'cachái' (¿entiendes?), 'bacán' (genial), 'fome' (aburrido) o 'pololo/a' (novio o novia), esta última una palabra sin equivalente directo en ningún otro país de habla hispana. Ese vocabulario tan particular convierte cualquier conversación cotidiana en Santiago en un desafío para quien aprendió español en otro país, y es, al mismo tiempo, una de las señas de identidad más queridas por los propios chilenos.",
+      },
+      en: {
+        title: "How to Talk Chilean in Five Words",
+        subtitle: "Chilenismos",
+        imageAlt: "Cartoon of two people chatting with a speech bubble full of Chilean slang.",
+        description:
+          "The Spanish spoken in Chile is, according to visitors from other Spanish-speaking countries, one of the hardest varieties to understand in the region, thanks to its fast pace, the habit of dropping the final 's' from words, and an unusually large vocabulary of its own. Words like 'guagua' (baby, from Quechua), 'poto' (butt, from Mapudungun), or 'al tiro' (right away) sit alongside near-mandatory filler words like 'po,' tacked onto the end of almost any sentence for emphasis, and expressions like 'cachái' (you know?), 'bacán' (cool), 'fome' (boring), or 'pololo/a' (boyfriend/girlfriend), the last of which has no direct equivalent in any other Spanish-speaking country. That distinctive vocabulary turns any everyday conversation in Santiago into a real challenge for someone who learned Spanish elsewhere, and is, at the same time, one of the identity markers Chileans themselves are fondest of.",
+      },
+    },
+  },
+  {
+    id: "humberstone",
+    order: 19,
+    placeholderEmoji: "🏚️",
+    accentColor: "#5C4742",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Un pueblo fantasma que vivió del salitre",
+        subtitle: "Humberstone y el salitre",
+        imageAlt: "Caricatura de la fachada de madera de un teatro abandonado en pleno desierto salitrero.",
+        description:
+          "A comienzos del siglo XX, el desierto de Atacama concentraba la única fuente natural conocida de salitre o nitrato de sodio, un compuesto usado como fertilizante y en la fabricación de explosivos, y decenas de 'oficinas salitreras', pueblos industriales construidos alrededor de una planta procesadora, llegaron a emplear a miles de trabajadores en pleno desierto. Humberstone, fundada en 1872 y con ese nombre desde 1934, tuvo en su mejor momento teatro, mercado, hotel, cancha de fútbol y hasta una piscina de hierro fundido importada de Inglaterra para que los obreros escaparan del calor. Todo eso se vino abajo cuando Alemania desarrolló, en la Primera Guerra Mundial, un método para fabricar nitrato sintético en laboratorio, dejando casi obsoleto al salitre chileno; Humberstone cerró en 1960 y su población entera se marchó, dejando calles, casas y equipamiento casi intactos. Hoy es Patrimonio de la Humanidad de la UNESCO, un pueblo fantasma que se recorre tal como quedó abandonado.",
+      },
+      en: {
+        title: "A Ghost Town That Once Lived Off Saltpeter",
+        subtitle: "Humberstone and the Nitrate Boom",
+        imageAlt: "Cartoon of an abandoned wooden theater facade standing alone in the nitrate desert.",
+        description:
+          "In the early 20th century, the Atacama Desert held the only known natural source of saltpeter, or sodium nitrate, a compound used as fertilizer and in explosives manufacturing, and dozens of 'oficinas salitreras', company towns built around a processing plant, came to employ thousands of workers out in the open desert. Humberstone, founded in 1872 and renamed in 1934, had at its peak a theater, a market, a hotel, a football field, and even a cast-iron swimming pool imported from England so workers could escape the heat. It all collapsed when Germany developed a method to manufacture synthetic nitrate in the lab during World War I, leaving Chile's natural saltpeter nearly obsolete; Humberstone closed in 1960 and its entire population left, leaving streets, houses, and equipment almost untouched. Today it's a UNESCO World Heritage site, a ghost town visitors can walk through almost exactly as it was abandoned.",
+      },
+    },
+  },
+  {
+    id: "surf-pacifico",
+    order: 20,
+    placeholderEmoji: "🏄",
+    accentColor: "#178A9E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Olas gigantes en la costa del Pacífico",
+        subtitle: "El surf chileno",
+        imageAlt: "Caricatura de un surfista sobre una tabla larga bajando una gran ola del Pacífico.",
+        description:
+          "La costa chilena, expuesta de lleno al océano Pacífico a lo largo de más de 6.000 kilómetros, se convirtió en las últimas décadas en un destino de surf reconocido internacionalmente, con olas que van desde rompientes suaves ideales para principiantes hasta algunas de las olas grandes más desafiantes del hemisferio sur. Punta de Lobos, cerca de Pichilemu, es considerada la capital chilena del surf y recibe regularmente etapas del circuito mundial de la World Surf League, atrayendo a competidores de todo el planeta por la calidad y consistencia de sus olas de izquierda. Más al norte, en Arica, la ola de El Gringo figura entre las mejores olas de tubo del mundo según revistas especializadas, con aguas más cálidas que las del sur por la cercanía con el trópico. El longboard, con tablas más largas y estables, ganó popularidad entre surfistas chilenos por permitir maniobras más clásicas y pausadas, muy distintas al estilo agresivo típico del shortboard.",
+      },
+      en: {
+        title: "Giant Waves Along the Pacific Coastline",
+        subtitle: "Chilean Surf Culture",
+        imageAlt: "Cartoon of a surfer riding a big Pacific Ocean wave on a longboard.",
+        description:
+          "The Chilean coastline, fully exposed to the Pacific Ocean along more than 6,000 kilometers, has become an internationally recognized surf destination over the past few decades, with waves ranging from gentle beginner breaks to some of the most challenging big waves in the Southern Hemisphere. Punta de Lobos, near Pichilemu, is considered Chile's surfing capital and regularly hosts stops on the World Surf League's world tour, drawing competitors from around the globe for the quality and consistency of its left-hand waves. Farther north, in Arica, the wave known as El Gringo routinely ranks among the world's best barrel waves according to specialty magazines, benefiting from warmer waters than the south of the country thanks to its proximity to the tropics. Longboarding, with its longer, more stable boards, became especially popular among Chilean surfers for allowing more classic, unhurried maneuvers, quite different from the aggressive style typical of shortboarding.",
+      },
+    },
+  },
 ];

@@ -251,4 +251,254 @@ export const colombia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-dorado",
+    order: 11,
+    placeholderEmoji: "🪙",
+    accentColor: "#D4AF37",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La leyenda de El Dorado",
+        subtitle: "El Dorado y la Laguna de Guatavita",
+        imageAlt:
+          "Caricatura de un cacique muisca cubierto de polvo de oro remando una balsa en una laguna de montaña, arrojando piezas de oro al agua.",
+        description:
+          "En el altiplano cundiboyacense, los muiscas celebraban una ceremonia de investidura en la que el nuevo cacique, cubierto de pies a cabeza con resina y polvo de oro, navegaba en una balsa hasta el centro de la Laguna de Guatavita mientras sus súbditos arrojaban ofrendas de oro y esmeraldas al agua para honrar a los dioses. Los conquistadores españoles, al escuchar relatos de 'el hombre dorado', transformaron la historia en la leyenda de una ciudad entera hecha de oro, 'El Dorado', que impulsó expediciones frustradas por toda Suramérica durante casi tres siglos. La Balsa Muisca, una pieza de orfebrería que representa exactamente este ritual, se conserva hoy en el Museo del Oro de Bogotá, y la laguna, protegida como reserva natural, sigue siendo un sitio sagrado.",
+      },
+      en: {
+        title: "The Legend of El Dorado",
+        subtitle: "El Dorado and Lake Guatavita",
+        imageAlt:
+          "Cartoon of a Muisca chief covered in gold dust rowing a raft on a mountain lake, tossing gold pieces into the water.",
+        description:
+          "On the high plains of Cundinamarca and Boyacá, the Muisca held an investiture ceremony in which the new chief, covered head to toe in resin and gold dust, sailed a raft to the center of Lake Guatavita while his subjects threw offerings of gold and emeralds into the water to honor the gods. Spanish conquistadors, hearing tales of 'the golden man,' turned the story into the legend of an entire city made of gold, 'El Dorado,' which fueled failed expeditions across South America for nearly three centuries. The Muisca Raft, a goldwork piece depicting this exact ritual, is now held at the Museo del Oro in Bogotá, and the lake itself, protected as a nature reserve, remains a sacred site.",
+      },
+    },
+  },
+  {
+    id: "ciudad-perdida",
+    order: 12,
+    placeholderEmoji: "🗻",
+    accentColor: "#4A7C59",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad perdida en la Sierra Nevada",
+        subtitle: "Ciudad Perdida (Teyuna)",
+        imageAlt:
+          "Caricatura de terrazas de piedra circulares en la cima de una montaña selvática, con una larga escalinata de piedra ascendiendo entre la niebla.",
+        description:
+          "En las alturas de la Sierra Nevada de Santa Marta, el pueblo tayrona construyó hacia el año 800 una ciudad de más de mil doscientas terrazas de piedra, casi seiscientos cincuenta años antes que Machu Picchu. Abandonada tras la conquista española y devorada por la selva durante siglos, fue redescubierta apenas en 1972 por buscadores de tesoros, lo que le valió el nombre de 'Ciudad Perdida'. Los pueblos indígenas descendientes de los tayrona —kogui, wiwa, arhuaco y kankuamo— la llaman Teyuna y la consideran el corazón espiritual del mundo, un lugar que aún visitan en peregrinación. Hoy solo se llega tras una caminata de cuatro a seis días por selva densa y ríos, subiendo al final más de mil doscientos escalones de piedra original tallados hace más de mil años.",
+      },
+      en: {
+        title: "The Lost City in the Sierra Nevada",
+        subtitle: "Ciudad Perdida (Teyuna)",
+        imageAlt:
+          "Cartoon of circular stone terraces atop a jungle mountain, with a long stone staircase climbing through the mist.",
+        description:
+          "High in the Sierra Nevada de Santa Marta, the Tayrona people built a city of more than 1,200 stone terraces around the year 800, nearly 650 years before Machu Picchu. Abandoned after the Spanish conquest and swallowed by jungle for centuries, it was only rediscovered in 1972 by treasure hunters, which is how it earned the name 'Lost City.' Indigenous peoples descended from the Tayrona — the Kogui, Wiwa, Arhuaco, and Kankuamo — call it Teyuna and consider it the spiritual heart of the world, a place they still visit on pilgrimage. Today it can only be reached by a four- to six-day hike through dense jungle and rivers, climbing more than 1,200 original stone steps carved over a thousand years ago at the very end.",
+      },
+    },
+  },
+  {
+    id: "botero",
+    order: 13,
+    placeholderEmoji: "🎨",
+    accentColor: "#D4652F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El maestro de las formas voluminosas",
+        subtitle: "Fernando Botero",
+        imageAlt:
+          "Caricatura de una mujer de proporciones exageradamente redondeadas posando junto a un gato igual de rechoncho, al estilo Botero.",
+        description:
+          "Fernando Botero, nacido en Medellín en 1932, desarrolló un estilo tan reconocible que hoy tiene nombre propio: el 'boterismo'. Sus figuras —personas, animales, frutas, objetos cotidianos— aparecen infladas hasta un volumen exagerado, no como una crítica a la obesidad sino, según explicaba el propio artista, como una forma de exaltar la sensualidad, la monumentalidad y el placer visual de las formas llenas. Pintó desde bodegones hasta escenas religiosas, dictadores y bailarinas, siempre con ese mismo lenguaje inconfundible. Sus esculturas de bronce, gigantescas y redondeadas, decoran plazas de ciudades como Medellín, Nueva York y Singapur; solo en la Plaza Botero de su ciudad natal hay veintitrés de ellas. Antes de morir en 2023 donó gran parte de su colección personal a Colombia, hoy exhibida gratuitamente en el Museo Botero de Bogotá.",
+      },
+      en: {
+        title: "The Master of Voluminous Forms",
+        subtitle: "Fernando Botero",
+        imageAlt:
+          "Cartoon of a woman with exaggeratedly rounded proportions posing next to an equally plump cat, in Botero's style.",
+        description:
+          "Fernando Botero, born in Medellín in 1932, developed a style so recognizable it now has its own name: 'Boterismo.' His figures — people, animals, fruit, everyday objects — appear inflated to exaggerated volume, not as a comment on obesity but, as the artist himself explained, as a way of celebrating sensuality, monumentality, and the visual pleasure of full, rounded forms. He painted everything from still lifes to religious scenes, dictators, and dancers, always in that same unmistakable language. His massive, rounded bronze sculptures decorate plazas in cities like Medellín, New York, and Singapore; his hometown's Plaza Botero alone holds twenty-three of them. Before his death in 2023, he donated much of his personal collection to Colombia, now on free display at the Museo Botero in Bogotá.",
+      },
+    },
+  },
+  {
+    id: "comuna-13",
+    order: 14,
+    placeholderEmoji: "🧱",
+    accentColor: "#EF476F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El barrio que se transformó con arte",
+        subtitle: "Comuna 13, Medellín",
+        imageAlt:
+          "Caricatura de una escalera eléctrica al aire libre subiendo por una ladera de casas coloridas cubiertas de murales de grafiti.",
+        description:
+          "La Comuna 13 de Medellín, un barrio construido sobre una ladera empinada, vivió durante los años noventa y dos mil un largo periodo de aislamiento y conflicto que la convirtió en uno de los sectores más golpeados de la ciudad. En 2011, la alcaldía instaló allí un sistema único de seis escaleras eléctricas al aire libre que redujo a apenas seis minutos una subida que antes tomaba media hora, conectando por fin al barrio con el resto de Medellín. Jóvenes de la zona aprovecharon los muros junto a las escaleras para convertirlos en una galería de arte urbano a cielo abierto, con murales enormes que narran la historia y la resiliencia del barrio, mientras crecían colectivos locales de hip-hop y break dance. Hoy la Comuna 13 recibe recorridos guiados por sus propios habitantes y es citada internacionalmente como un modelo de transformación urbana a través del arte.",
+      },
+      en: {
+        title: "The Neighborhood Reborn Through Art",
+        subtitle: "Comuna 13, Medellín",
+        imageAlt:
+          "Cartoon of an outdoor escalator climbing a hillside of colorful houses covered in graffiti murals.",
+        description:
+          "Comuna 13, a Medellín neighborhood built on a steep hillside, endured a long period of isolation and conflict through the 1990s and 2000s that made it one of the city's hardest-hit areas. In 2011, the city government installed a unique system of six outdoor electric escalators that cut a climb once taking half an hour down to about six minutes, finally connecting the neighborhood to the rest of Medellín. Local youth turned the walls beside the escalators into an open-air street art gallery, with huge murals narrating the neighborhood's history and resilience, while local hip-hop and breakdance collectives grew alongside them. Today Comuna 13 hosts guided tours led by its own residents and is cited internationally as a model of urban transformation through art.",
+      },
+    },
+  },
+  {
+    id: "cano-cristales",
+    order: 15,
+    placeholderEmoji: "🌈",
+    accentColor: "#E63946",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El río de los cinco colores",
+        subtitle: "Caño Cristales",
+        imageAlt:
+          "Caricatura de un río con el lecho cubierto de plantas acuáticas rojas, amarillas y verdes serpenteando entre rocas negras.",
+        description:
+          "En el Parque Nacional Natural Sierra de la Macarena, un río de apenas cien kilómetros se transforma cada año, entre julio y noviembre, en lo que muchos llaman 'el río más hermoso del mundo' o 'el río que se escapó del paraíso'. El fenómeno lo produce la Macarenia clavigera, una planta acuática endémica que tapiza el lecho del río y, cuando el nivel del agua y la luz solar alcanzan un equilibrio exacto, se tiñe de un rojo intenso que convive con el amarillo de la arena, el verde de las algas, el azul del agua y el negro de las rocas volcánicas pulidas. Fuera de esa ventana de unas pocas semanas el río luce de un verde común y corriente. Por su fragilidad ecológica, el acceso está muy restringido: solo se permite con guía autorizado, en piscinas naturales específicas, y está prohibido usar protector solar o bañarse fuera de esas zonas.",
+      },
+      en: {
+        title: "The River of Five Colors",
+        subtitle: "Caño Cristales",
+        imageAlt:
+          "Cartoon of a river with its bed covered in red, yellow, and green aquatic plants winding between black rocks.",
+        description:
+          "In Sierra de la Macarena National Park, a river barely a hundred kilometers long transforms every year, between July and November, into what many call 'the most beautiful river in the world' or 'the river that ran away from paradise.' The phenomenon comes from Macarenia clavigera, an endemic aquatic plant that carpets the riverbed and, when water level and sunlight strike an exact balance, turns a deep red that coexists with the yellow of the sand, the green of algae, the blue of the water, and the black of polished volcanic rock. Outside that few-week window, the river looks like an ordinary green stream. Because of its ecological fragility, access is tightly restricted: entry is only allowed with an authorized guide, in specific natural pools, and sunscreen or swimming outside those zones is forbidden.",
+      },
+    },
+  },
+  {
+    id: "wayuu",
+    order: 16,
+    placeholderEmoji: "🧶",
+    accentColor: "#EE6C4D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte textil del pueblo wayuú",
+        subtitle: "Las mochilas wayuú",
+        imageAlt:
+          "Caricatura de una mujer indígena tejiendo con crochet un bolso mochila con patrones geométricos de colores vivos.",
+        description:
+          "En la península de La Guajira, en el extremo norte de Colombia, vive el pueblo wayuú, el grupo indígena más numeroso del país. Sus mujeres tejen a crochet las mochilas wayuú, bolsos con patrones geométricos llamados 'kanaas' que representan animales, elementos de la naturaleza o historias familiares, transmitidos de madres a hijas durante generaciones. Aprender a tejer no es solo un oficio: forma parte del 'encierro', un periodo de reclusión y aprendizaje que viven las niñas wayuú al llegar a la pubertad, guiadas por las mujeres mayores del clan. La comunidad también teje chinchorros, hamacas tan resistentes que pueden soportar el peso de varias personas a la vez. Hoy las mochilas se venden en todo el mundo como símbolo de identidad y sustento económico para las tejedoras, aunque su éxito comercial también ha generado debate sobre las copias industriales que imitan sus diseños sin reconocer su origen.",
+      },
+      en: {
+        title: "The Textile Art of the Wayuu",
+        subtitle: "Wayuu Mochila Bags",
+        imageAlt:
+          "Cartoon of an indigenous woman crocheting a mochila bag with brightly colored geometric patterns.",
+        description:
+          "On the Guajira Peninsula, in Colombia's northernmost tip, live the Wayuu, the country's largest indigenous group. Wayuu women crochet mochila bags with geometric patterns called 'kanaas' that represent animals, elements of nature, or family stories, passed down from mothers to daughters across generations. Learning to weave isn't just a craft: it's part of the 'encierro,' a period of seclusion and learning that Wayuu girls go through at puberty, guided by the clan's elder women. The community also weaves chinchorros, hammocks strong enough to hold the weight of several people at once. Today the bags are sold around the world as a symbol of identity and a source of income for the weavers, though their commercial success has also sparked debate over mass-produced copies that imitate the designs without crediting their origin.",
+      },
+    },
+  },
+  {
+    id: "tejo",
+    order: 17,
+    placeholderEmoji: "🎯",
+    accentColor: "#8B5E34",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El deporte nacional que estalla",
+        subtitle: "Tejo",
+        imageAlt:
+          "Caricatura de un hombre lanzando un disco metálico hacia una tabla de barro con sobres de pólvora explotando.",
+        description:
+          "El tejo, declarado deporte nacional de Colombia en el año 2000, desciende de un juego indígena muisca llamado 'turmequé', en el que se lanzaba un disco de oro hacia un objetivo. En su versión moderna, los jugadores arrojan un disco metálico pesado desde varios metros de distancia hacia una tabla inclinada rellena de arcilla húmeda, en cuyo centro hay un aro metálico llamado 'bocín' rodeado de pequeños triángulos de papel con pólvora, llamados 'mechas'. Si el disco impacta una mecha, esta explota con un estallido y una nube de humo, sumando puntos extra al jugador. Muy popular en los departamentos de Boyacá y Cundinamarca, el tejo se juega tradicionalmente en 'canchas' al aire libre anexas a bares locales, donde el juego se acompaña casi siempre de cerveza y es tanto una competencia como una excusa para la vida social del barrio.",
+      },
+      en: {
+        title: "The National Sport That Explodes",
+        subtitle: "Tejo",
+        imageAlt:
+          "Cartoon of a man throwing a metal disc at a clay-filled board with small gunpowder packets exploding.",
+        description:
+          "Tejo, declared Colombia's national sport in 2000, descends from an indigenous Muisca game called 'turmequé,' in which a gold disc was thrown at a target. In its modern form, players throw a heavy metal disc from several meters away at an angled board packed with damp clay, in the center of which sits a metal ring called the 'bocín,' surrounded by small paper triangles of gunpowder called 'mechas.' If the disc hits a mecha, it explodes with a bang and a puff of smoke, earning the thrower bonus points. Especially popular in the Boyacá and Cundinamarca departments, tejo is traditionally played on outdoor courts attached to local bars, where the game is almost always accompanied by beer and serves as both a competition and an excuse for neighborhood social life.",
+      },
+    },
+  },
+  {
+    id: "salsa-cali",
+    order: 18,
+    placeholderEmoji: "💃",
+    accentColor: "#E01A4F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La capital mundial de la salsa",
+        subtitle: "Salsa caleña",
+        imageAlt:
+          "Caricatura de una pareja bailando salsa en pleno giro, con las piernas del hombre en un paso rápido y acrobático.",
+        description:
+          "Cali se autoproclama 'la capital mundial de la salsa', un título que pocos discuten. El género llegó a la ciudad a mediados del siglo veinte a través de discos importados desde Cuba, Puerto Rico y Nueva York, gracias a los estrechos vínculos comerciales de Cali con puertos del Caribe, y los bailarines locales desarrollaron un estilo propio: pasos de pies extremadamente rápidos y acrobáticos, con un torso relativamente quieto, muy distinto del estilo cubano o neoyorquino. La ciudad vive de la salsa todo el año, pero especialmente en la Feria de Cali de diciembre, cuando orquestas y bailarines toman las calles, y en espectáculos como Delirio, un circo-cabaret de salsa en vivo. Academias caleñas han formado a campeones mundiales de baile, y orquestas nacidas en la ciudad, como Grupo Niche y Guayacán Orquesta, se cuentan entre las más influyentes de la salsa latinoamericana.",
+      },
+      en: {
+        title: "The Salsa Capital of the World",
+        subtitle: "Cali-Style Salsa",
+        imageAlt:
+          "Cartoon of a couple mid-spin dancing salsa, the man's legs in a fast, acrobatic step.",
+        description:
+          "Cali calls itself 'the salsa capital of the world,' a title few dispute. The genre arrived in the city in the mid-twentieth century through records imported from Cuba, Puerto Rico, and New York, thanks to Cali's close trade ties with Caribbean ports, and local dancers developed a style of their own: extremely fast, acrobatic footwork paired with a relatively still torso, quite different from the Cuban or New York style. The city lives salsa year-round, but especially during the December Feria de Cali, when orchestras and dancers take over the streets, and in shows like Delirio, a live salsa circus-cabaret. Cali dance academies have trained world champion dancers, and orchestras born in the city, like Grupo Niche and Guayacán Orquesta, rank among the most influential in Latin American salsa.",
+      },
+    },
+  },
+  {
+    id: "cumbia",
+    order: 19,
+    placeholderEmoji: "🕯️",
+    accentColor: "#F77F00",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cumbia, tambores, gaitas y velas",
+        subtitle: "La cumbia",
+        imageAlt:
+          "Caricatura de una pareja bailando cumbia; ella con falda amplia y una vela encendida en la mano, él tocando tambores.",
+        description:
+          "La cumbia nació en la costa Caribe colombiana durante la época colonial como un cruce cultural entre tres mundos: los tambores de raíz africana, traídos por personas esclavizadas; la gaita, una flauta de origen indígena tallada en cactus con boquilla de cera de abeja; y elementos de la vestimenta y la música europeas que se sumaron después. En su forma tradicional, la mujer baila con una falda amplia llamada pollera y sostiene un manojo de velas encendidas, mientras el hombre gira alrededor de ella marcando el ritmo con los pies, en una coreografía que muchos interpretan como una reelaboración simbólica del cortejo y hasta de la propia historia colonial. Con el tiempo la cumbia se convirtió en uno de los ritmos latinoamericanos más exportados, dando origen a variantes propias en México, Perú, Argentina y buena parte del continente, cada una adaptando el ritmo original a su propia identidad musical.",
+      },
+      en: {
+        title: "Cumbia: Drums, Flutes, and Candles",
+        subtitle: "Cumbia",
+        imageAlt:
+          "Cartoon of a couple dancing cumbia; she in a wide skirt holding a lit candle, he playing drums.",
+        description:
+          "Cumbia was born on Colombia's Caribbean coast during the colonial era as a cultural crossing of three worlds: drums of African origin, brought by enslaved people; the gaita, an indigenous flute carved from cactus wood with a beeswax mouthpiece; and elements of European dress and music that were added later. In its traditional form, the woman dances in a wide skirt called a pollera and holds a bundle of lit candles, while the man circles around her, marking the rhythm with his feet, in a choreography many read as a symbolic reworking of courtship and even of colonial history itself. Over time cumbia became one of Latin America's most widely exported rhythms, giving rise to its own variants in Mexico, Peru, Argentina, and much of the continent, each adapting the original rhythm to its own musical identity.",
+      },
+    },
+  },
+  {
+    id: "paramo",
+    order: 20,
+    placeholderEmoji: "🌄",
+    accentColor: "#588157",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los páramos, fábricas de agua andinas",
+        subtitle: "Los páramos andinos",
+        imageAlt:
+          "Caricatura de un paisaje de páramo con frailejones de hojas plateadas y peludas bajo un volcán nevado.",
+        description:
+          "El páramo es un ecosistema de alta montaña que existe casi exclusivamente en los Andes del norte, y Colombia concentra alrededor de la mitad de todos los páramos del planeta, más que ningún otro país. Ubicados entre los 3.000 y los 4.500 metros de altura, estos paisajes viven bajo un clima extremo que los propios habitantes resumen así: 'verano todos los días, invierno todas las noches'. Su planta más característica es el frailejón, de hojas plateadas y aterciopeladas que lo protegen del frío y la radiación solar, y que puede tardar décadas en crecer apenas unos metros. Más allá de su valor como paisaje, los páramos funcionan como esponjas naturales que capturan la humedad de las nubes y la liberan lentamente, abasteciendo de agua potable a la mayoría de las grandes ciudades colombianas. Muchos, como el que rodea al volcán Nevado del Ruiz, conviven con montañas volcánicas activas que recuerdan la fuerza geológica bajo ese paisaje aparentemente tranquilo.",
+      },
+      en: {
+        title: "Páramos: The Andes' Water Factories",
+        subtitle: "The Andean Páramo",
+        imageAlt:
+          "Cartoon of a páramo landscape with silver, furry-leaved frailejón plants beneath a snow-capped volcano.",
+        description:
+          "The páramo is a high-mountain ecosystem found almost exclusively in the northern Andes, and Colombia holds roughly half of all the páramo on the planet, more than any other country. Sitting between 3,000 and 4,500 meters, these landscapes endure an extreme climate that locals sum up as 'summer every day, winter every night.' Its most characteristic plant is the frailejón, with silvery, velvety leaves that shield it from cold and solar radiation, and which can take decades to grow just a few meters tall. Beyond their scenic value, páramos act as natural sponges that capture moisture from the clouds and release it slowly, supplying drinking water to most of Colombia's major cities. Many of them, like the one surrounding the Nevado del Ruiz volcano, sit alongside active volcanic mountains that hint at the geological force beneath that seemingly calm landscape.",
+      },
+    },
+  },
 ];

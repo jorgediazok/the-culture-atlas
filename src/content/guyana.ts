@@ -231,4 +231,54 @@ export const guyana: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "pepperpot",
+    order: 11,
+    placeholderEmoji: "🍲",
+    accentColor: "#6B3A1F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El guiso indígena que es plato nacional navideño",
+        subtitle: "El pepperpot",
+        imageAlt:
+          "Caricatura de una olla oscura de guiso espeso con trozos de carne humeante.",
+        description:
+          "El pepperpot, un guiso oscuro y espeso de carne (tradicionalmente res, aunque también cerdo o pollo) cocinada lentamente en cassareep, un jarabe hecho de yuca amarga hervida y especiada que actúa como conservante natural, es el plato nacional de Guyana y tiene su origen directo en las técnicas culinarias de los pueblos indígenas amerindios, que usaban el cassareep para preservar la carne sin refrigeración en el clima tropical. Gracias a esas propiedades conservantes, una misma olla de pepperpot puede mantenerse y recalentarse durante días o semanas, añadiendo más carne y cassareep cada vez, una práctica que algunas familias guyanesas mantienen viva generación tras generación. Su consumo alcanza su punto máximo en Navidad, cuando se sirve junto al pan casero 'plait bread', reuniendo alrededor de la mesa a las comunidades indoguyanesas, afroguyanesas e indígenas por igual.",
+      },
+      en: {
+        title: "The Indigenous Stew That Became the National Dish",
+        subtitle: "Pepperpot",
+        imageAlt:
+          "Cartoon of a dark pot of thick stew with steaming chunks of meat.",
+        description:
+          "Pepperpot, a dark, thick meat stew (traditionally beef, though pork or chicken work too) slow-cooked for hours in cassareep, a syrup made from boiled, spiced bitter cassava that acts as a natural preservative, is Guyana's national dish and traces directly back to the culinary techniques of the region's Indigenous Amerindian peoples, who used cassareep to preserve meat without refrigeration in the tropical climate. The dish's most surprising feature is that, thanks to cassareep's preservative properties, the same pot of pepperpot can be kept going and reheated for days or even weeks, with more meat and cassareep added each time, a practice some Guyanese families keep alive generation after generation. Its consumption peaks at Christmas, when it's traditionally served alongside a homemade bread called 'plait bread,' bringing Indo-Guyanese, Afro-Guyanese, and Indigenous communities together around the same table.",
+      },
+    },
+  },
+  {
+    id: "demerara-rum-azucar",
+    order: 12,
+    placeholderEmoji: "🥃",
+    accentColor: "#C08A3E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El azúcar y el ron que llevan el nombre de un río",
+        subtitle: "El azúcar y el ron Demerara",
+        imageAlt:
+          "Caricatura de una botella de ron oscuro junto a cristales de azúcar morena.",
+        description:
+          "El azúcar demerara, de granos gruesos, dorados y crujientes, muy apreciado por chefs y baristas de todo el mundo, toma su nombre del río Demerara, que atraviesa Guyana y da nombre también a la región donde colonos holandeses y luego británicos establecieron, durante los siglos XVIII y XIX, algunas de las plantaciones azucareras más productivas del Caribe continental, trabajadas primero por esclavizados africanos y después por trabajadores contratados desde India. Esa misma tradición dio origen a una destilería de ron con más de trescientos años de historia en Guyana, que produce algunos de los rones más premiados del mundo bajo la marca El Dorado, homenaje directo al mito de la ciudad de oro que atrajo exploradores europeos a la región siglos atrás. Aunque la industria azucarera guyanesa se redujo drásticamente frente a la competencia internacional, el nombre demerara sigue siendo hoy sinónimo global de un tipo específico de azúcar.",
+      },
+      en: {
+        title: "The Sugar and Rum Named After a River",
+        subtitle: "Demerara Sugar and Rum",
+        imageAlt:
+          "Cartoon of a dark rum bottle beside crystals of brown sugar.",
+        description:
+          "Demerara sugar, with its coarse, golden, crunchy grains prized by chefs and baristas worldwide, takes its name directly from the Demerara River, which runs through Guyana and also names the region where Dutch and later British colonists established some of the most productive sugar plantations in the continental Caribbean during the 18th and 19th centuries, worked first by enslaved Africans and later by indentured laborers from India. That same sugar tradition gave rise to a rum distillery with more than three hundred years of history in Guyana, which produces some of the world's most award-winning rums under the El Dorado brand, a name paying direct tribute to the myth of the golden city that drew European explorers to the region centuries earlier. Although Guyana's sugar industry shrank drastically in recent decades under international competition, the name demerara remains today a global synonym for a specific type of sugar recognizable in supermarkets around the world.",
+      },
+    },
+  },
 ];

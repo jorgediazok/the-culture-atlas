@@ -231,4 +231,129 @@ export const bolivia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "camino-de-la-muerte",
+    order: 11,
+    placeholderEmoji: "🚵",
+    accentColor: "#8C6239",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El camino que ganó fama de ser el más peligroso",
+        subtitle: "El Camino de la Muerte",
+        imageAlt:
+          "Caricatura de un ciclista bajando por un camino de tierra angosto al borde de un precipicio.",
+        description:
+          "El Camino de la Muerte, un sendero de tierra de unos 64 kilómetros que desciende desde La Paz hacia la región subtropical de los Yungas, fue durante décadas la única ruta terrestre entre ambas zonas, y el Banco Interamericano de Desarrollo lo declaró en 1995 'el camino más peligroso del mundo' por su angostura de apenas tres metros en algunos tramos, sus precipicios de hasta 600 metros sin barandas y las nubes bajas que reducen la visibilidad casi a diario, factores que causaban un promedio estimado de 200 a 300 muertes al año en la época de mayor tráfico. Tras la inauguración en 2006 de una ruta pavimentada alternativa, el tráfico de camiones y buses prácticamente desapareció del trazado original, que se reconvirtió en uno de los circuitos de descenso en bicicleta de montaña más buscados del mundo, atrayendo cada año a miles de turistas de aventura con guías especializados y equipo de seguridad.",
+      },
+      en: {
+        title: "The Road Famous as the World's Most Dangerous",
+        subtitle: "The Death Road",
+        imageAlt:
+          "Cartoon of a cyclist riding down a narrow dirt road on the edge of a cliff.",
+        description:
+          "The Death Road, a roughly 64-kilometer dirt track descending from La Paz into the subtropical Yungas region, was for decades the only overland route between the two areas, and the Inter-American Development Bank declared it in 1995 'the world's most dangerous road' for stretches barely three meters wide, drops of up to 600 meters with no guardrails, and low clouds that cut visibility almost daily, factors blamed for an estimated 200 to 300 deaths a year during its busiest period. After a paved alternative route opened in 2006, truck and bus traffic largely disappeared from the original track, which was reborn as one of the most sought-after mountain-bike descents in the world, drawing thousands of adventure tourists each year with specialized guides and safety gear.",
+      },
+    },
+  },
+  {
+    id: "bolivia-nombre-de-bolivar",
+    order: 12,
+    placeholderEmoji: "🗺️",
+    accentColor: "#B08D57",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El único país que lleva el nombre de una persona",
+        subtitle: "Bolivia y Simón Bolívar",
+        imageAlt:
+          "Caricatura de un mapa con forma de Bolivia y una pequeña silueta de un libertador a caballo.",
+        description:
+          "Bolivia es, entre casi 200 países del mundo, el único que lleva el nombre directo de una persona real: Simón Bolívar, el líder venezolano de las guerras de independencia sudamericanas, que en 1825 presidió la fundación de la nueva república surgida del Alto Perú tras la derrota final de las tropas españolas. El mariscal Antonio José de Sucre, lugarteniente de Bolívar y primer presidente del país, propuso originalmente llamarla 'Bolívar' en honor directo al Libertador, y fue el propio Bolívar quien, con modestia calculada, sugirió la variante 'Bolivia' para que sonara como el nombre de un país y no como un homenaje personal excesivo. La ciudad de Sucre, nombrada en honor al mariscal, conserva hoy la capital constitucional del país, mientras que La Paz alberga la sede efectiva del gobierno, una división poco común que también resume la historia fundacional boliviana.",
+      },
+      en: {
+        title: "The Only Country Named After a Real Person",
+        subtitle: "Bolivia and Simón Bolívar",
+        imageAlt:
+          "Cartoon of a map shaped like Bolivia with a small silhouette of a liberator on horseback.",
+        description:
+          "Among nearly 200 countries in the world, Bolivia is the only one directly named after a real person: Simón Bolívar, the Venezuelan leader of the South American wars of independence, who in 1825 presided over the founding of the new republic that emerged from Alto Perú after the final defeat of Spanish troops. Marshal Antonio José de Sucre, Bolívar's lieutenant and the country's first president, originally proposed naming it 'Bolívar' as a direct tribute to the Liberator, and it was Bolívar himself who, with calculated modesty, suggested the variant 'Bolivia' so it would sound like the name of a country rather than an excessive personal homage. The city of Sucre, named after the marshal, still holds the country's constitutional capital today, while La Paz houses the actual seat of government, an unusual split that also sums up Bolivia's founding history.",
+      },
+    },
+  },
+  {
+    id: "wiphala",
+    order: 13,
+    placeholderEmoji: "🏳️",
+    accentColor: "#7B3FA0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La bandera de siete colores de los Andes",
+        subtitle: "La wiphala",
+        imageAlt:
+          "Caricatura de una bandera cuadriculada con casillas de siete colores del arcoíris.",
+        description:
+          "La wiphala, una bandera cuadrada dividida en 49 casillas de siete colores dispuestos en diagonales, es un símbolo ancestral de los pueblos indígenas andinos —quechuas, aimaras y otros— que representa, según distintas interpretaciones tradicionales, la unión de los pueblos originarios, el arcoíris o los distintos pisos ecológicos de la región andina. En 2009, la nueva constitución boliviana impulsada por el gobierno de Evo Morales, el primer presidente indígena del país, reconoció oficialmente a la wiphala como símbolo nacional junto a la bandera tricolor tradicional, ordenando que ambas se izaran juntas en actos oficiales, un gesto de reivindicación histórica para comunidades marginadas durante siglos del Estado boliviano. El cambio no estuvo libre de tensión política, y la wiphala se convirtió en un símbolo profundamente identitario, presente hoy en uniformes oficiales, edificios públicos y celebraciones populares en todo el país.",
+      },
+      en: {
+        title: "The Seven-Color Flag of the Andes",
+        subtitle: "The Wiphala",
+        imageAlt:
+          "Cartoon of a checkered flag with squares in seven rainbow colors.",
+        description:
+          "The wiphala, a square flag divided into 49 checkered squares of seven rainbow colors arranged diagonally, is an ancestral symbol of Indigenous Andean peoples — Quechua, Aymara, and others — representing, according to different traditional interpretations, the union of native peoples, the rainbow, or the distinct ecological zones of the Andean region. In 2009, the new Bolivian constitution promoted under Evo Morales, the country's first Indigenous president, officially recognized the wiphala as a national symbol alongside the traditional tricolor flag, ordering both to be raised together at official events, a gesture of historical vindication for communities marginalized from the Bolivian state for centuries. The change wasn't free of political tension, and the wiphala became a deeply identity-charged symbol, now present on official uniforms, public buildings, and popular celebrations across the country.",
+      },
+    },
+  },
+  {
+    id: "quinoa-real",
+    order: 14,
+    placeholderEmoji: "🌾",
+    accentColor: "#B5651D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El grano andino que se volvió superalimento global",
+        subtitle: "La quinoa real",
+        imageAlt:
+          "Caricatura de una planta de quinoa con racimos de granos rojizos sobre tallos altos.",
+        description:
+          "Bolivia es el mayor productor mundial de quinoa real, una variedad de grano de mayor tamaño que crece casi exclusivamente en los suelos salinos y la altitud extrema del altiplano boliviano alrededor del Salar de Uyuni, condiciones que ninguna otra región del planeta logra replicar del todo. Cultivada por comunidades andinas durante al menos 5.000 años como alimento básico junto a la papa, la quinoa fue durante mucho tiempo un cultivo local de bajo prestigio, hasta que a partir de los años 2000 su altísimo valor nutricional —contiene los nueve aminoácidos esenciales, algo raro en el mundo vegetal— la convirtió en un producto codiciado por el mercado internacional de alimentos saludables. El boom exportador disparó los precios y generó ingresos inéditos para los productores del altiplano, aunque también provocó un debate interno sobre si el consumo local había quedado desplazado por la demanda extranjera.",
+      },
+      en: {
+        title: "The Andean Grain That Became a Global Superfood",
+        subtitle: "Quinoa Real",
+        imageAlt:
+          "Cartoon of a quinoa plant with clusters of reddish grains on tall stalks.",
+        description:
+          "Bolivia is the world's top producer of quinoa real, a larger-grained variety that grows almost exclusively in the saline soils and extreme altitude of the Bolivian altiplano around the Uyuni salt flat, conditions no other region on the planet fully replicates. Grown by Andean communities for at least 5,000 years as a staple alongside the potato, quinoa was for a long time a low-prestige local crop, until starting in the 2000s its exceptionally high nutritional value — it contains all nine essential amino acids, rare among plants — turned it into a coveted product in the international health-food market. The export boom sent prices soaring and generated unprecedented income for altiplano producers, though it also sparked an internal debate over whether local consumption had been displaced by foreign demand.",
+      },
+    },
+  },
+  {
+    id: "parque-nacional-madidi",
+    order: 15,
+    placeholderEmoji: "🦜",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Uno de los lugares más biodiversos del planeta",
+        subtitle: "El Parque Nacional Madidi",
+        imageAlt:
+          "Caricatura de un guacamayo de colores posado en una rama de la selva amazónica.",
+        description:
+          "El Parque Nacional Madidi, en la Amazonía boliviana, cubre un rango altitudinal excepcional que va desde los 180 metros en la selva baja hasta más de 5.700 metros en picos andinos nevados, una diversidad de climas y ecosistemas en un solo parque que lo convierte en uno de los lugares con mayor biodiversidad documentada del mundo, con más de 1.000 especies de aves, cientos de mamíferos y una cantidad de especies de plantas y anfibios que los científicos todavía siguen catalogando. Estudios recientes con cámaras trampa y expediciones científicas continúan descubriendo especies nuevas para la ciencia dentro de sus límites, lo que llevó a algunos investigadores a considerarlo el área protegida con mayor riqueza biológica del planeta. Comunidades indígenas tacana y quechua-tacana administran junto al Estado boliviano parte del turismo ecológico dentro del parque, con caminatas guiadas y observación de fauna como el jaguar, el oso de anteojos y el guacamayo rojo.",
+      },
+      en: {
+        title: "One of the Most Biodiverse Places on the Planet",
+        subtitle: "Madidi National Park",
+        imageAlt:
+          "Cartoon of a colorful macaw perched on a branch in the Amazon jungle.",
+        description:
+          "Madidi National Park, in the Bolivian Amazon, spans an exceptional altitudinal range from 180 meters in the lowland rainforest to more than 5,700 meters at snow-capped Andean peaks, a diversity of climates and ecosystems within a single park that makes it one of the most biodiverse places documented on the planet, with more than 1,000 bird species, hundreds of mammal species, and a still-growing count of plant and amphibian species scientists continue to catalog. Recent camera-trap studies and scientific expeditions keep discovering species new to science within its boundaries, leading some researchers to consider it the protected area with the greatest biological richness on the planet. Indigenous Tacana and Quechua-Tacana communities manage part of the park's ecotourism alongside the Bolivian state, offering guided hikes and wildlife viewing of jaguars, spectacled bears, and scarlet macaws.",
+      },
+    },
+  },
 ];

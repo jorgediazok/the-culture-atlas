@@ -265,6 +265,138 @@ const Charango: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const CaminoDeLaMuerte: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const cliff = "#5C4A3A";
+  const skin = "#C97C4A";
+  const bikeColor = "#2A2A2A";
+  return (
+    <g>
+      {/* cliffside dropping away below the road */}
+      <path d="M95 250 L95 190 Q160 175 230 195 L320 220 L320 250 Z" fill={cliff} opacity="0.7" />
+      {/* narrow dirt road */}
+      <path d="M95 175 Q170 150 260 130 L280 155 Q190 178 100 205 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* bicycle wheels and frame */}
+      <ellipse cx="205" cy="168" rx="16" ry="16" fill="none" stroke={bikeColor} strokeWidth="4" />
+      <ellipse cx="238" cy="155" rx="16" ry="16" fill="none" stroke={bikeColor} strokeWidth="4" />
+      <path d="M205 168 L222 148 L238 155 M222 148 L218 165" stroke={bikeColor} strokeWidth="4" fill="none" strokeLinecap="round" />
+      <path d="M212 160 L222 148" stroke={bikeColor} strokeWidth="4" strokeLinecap="round" />
+      {/* rider torso leaning forward over the handlebars */}
+      <path d="M210 150 Q220 130 236 128 L232 148 Q220 148 214 156 Z" fill={dark} />
+      <circle cx="234" cy="120" r="10" fill={skin} />
+      <path d="M226 116 Q234 106 244 116 Z" fill={dark} />
+      <path d="M214 150 L200 158" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+      <path d="M222 165 L212 178" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const BoliviaNombreDeBolivar: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4AF37";
+  return (
+    <g>
+      {/* simplified country silhouette */}
+      <path d="M140 90 L260 95 L275 140 L250 180 L265 220 L200 245 L150 225 L120 180 L135 140 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* small horse-and-rider seal in the center */}
+      <ellipse cx="195" cy="168" rx="26" ry="12" fill={dark} />
+      <path d="M215 165 Q228 155 234 160" stroke={dark} strokeWidth="7" strokeLinecap="round" fill="none" />
+      <circle cx="236" cy="158" r="7" fill={dark} />
+      <path d="M175 176 L170 190 M185 178 L182 192 M205 178 L208 192" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <path d="M195 160 Q205 148 215 152" fill="none" stroke={gold} strokeWidth="5" strokeLinecap="round" />
+      <circle cx="200" cy="150" r="6" fill={gold} />
+    </g>
+  );
+};
+
+const Wiphala: IllustrationComponent = () => {
+  const colors = ["#C1272D", "#F4A300", "#FFD700", "#FFFFFF", "#2E7D32", "#1F6FA8", "#7B3FA0"];
+  const size = 24;
+  const startX = 115;
+  const startY = 98;
+  const dark = "#2A2A2A";
+  return (
+    <g>
+      {colors.map((_, row) =>
+        colors.map((__, col) => (
+          <rect
+            key={`${row}-${col}`}
+            x={startX + col * size}
+            y={startY + row * size}
+            width={size}
+            height={size}
+            fill={colors[(row + col) % colors.length]}
+            stroke={dark}
+            strokeWidth="1"
+          />
+        ))
+      )}
+    </g>
+  );
+};
+
+const QuinoaReal: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const leafColor = "#4A7C3F";
+  const grain = "#B5651D";
+  const clusters: [number, number][] = [
+    [160, 120],
+    [205, 95],
+    [250, 115],
+  ];
+  return (
+    <g>
+      {/* three stalks of varying height */}
+      <line x1="160" y1="230" x2="160" y2="120" stroke={leafColor} strokeWidth="5" strokeLinecap="round" />
+      <line x1="205" y1="235" x2="205" y2="95" stroke={leafColor} strokeWidth="6" strokeLinecap="round" />
+      <line x1="250" y1="230" x2="250" y2="115" stroke={leafColor} strokeWidth="5" strokeLinecap="round" />
+      {/* leaves */}
+      <path d="M160 190 Q140 182 132 198 Q150 202 160 190 Z" fill={leafColor} />
+      <path d="M205 170 Q225 160 236 178 Q214 184 205 170 Z" fill={leafColor} />
+      <path d="M250 190 Q268 182 276 200 Q256 202 250 190 Z" fill={leafColor} />
+      {/* grain clusters at the top of each stalk */}
+      {clusters.map(([x, y]) => (
+        <g key={x}>
+          {[-14, -7, 0, 7, 14].map((dx) => (
+            <circle key={dx} cx={x + dx} cy={y + Math.abs(dx) * 0.5} r="6" fill={grain} stroke={dark} strokeWidth="1" />
+          ))}
+          {[-10, -3, 4, 11].map((dx) => (
+            <circle key={`b-${dx}`} cx={x + dx} cy={y - 10 + Math.abs(dx) * 0.4} r="5.5" fill={grain} stroke={dark} strokeWidth="1" />
+          ))}
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const ParqueNacionalMadidi: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const blue = "#1F6FA8";
+  const yellow = "#FFD700";
+  const branch = "#6B4A2F";
+  return (
+    <g>
+      {/* jungle branch and foliage, drawn first */}
+      <path d="M95 220 Q200 205 320 225" stroke={branch} strokeWidth="10" strokeLinecap="round" fill="none" />
+      <path d="M120 200 Q150 190 175 198" stroke="#2E7D32" strokeWidth="8" strokeLinecap="round" fill="none" opacity="0.6" />
+      {/* neck and tail, drawn before the body so it covers their roots */}
+      <path d="M175 205 Q150 195 165 162" fill="none" stroke={dark} strokeWidth="18" strokeLinecap="round" />
+      <path d="M200 210 Q220 235 210 260" fill="none" stroke={accentColor} strokeWidth="16" strokeLinecap="round" />
+      {/* body */}
+      <ellipse cx="195" cy="195" rx="34" ry="26" fill={accentColor} />
+      {/* head, painted over the neck's root */}
+      <circle cx="170" cy="160" r="20" fill={accentColor} />
+      <path d="M150 155 Q135 158 132 168 Q145 172 155 165 Z" fill={dark} />
+      <circle cx="163" cy="155" r="3" fill={dark} />
+      {/* wing, layered feather colors, anchored well inside the body */}
+      <path d="M205 180 Q235 175 250 200 Q225 210 205 200 Z" fill={blue} />
+      <path d="M205 190 Q230 190 240 210 Q215 215 205 205 Z" fill={yellow} />
+      {/* feet gripping the branch */}
+      <path d="M188 218 L182 226 M202 220 L208 228" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const boliviaIllustrations: Record<string, IllustrationDefinition> = {
   "salar-de-uyuni": { component: SalarDeUyuni },
   "lago-titicaca": { component: LagoTiticaca },
@@ -276,4 +408,9 @@ export const boliviaIllustrations: Record<string, IllustrationDefinition> = {
   "potosi-cerro-rico": { component: PotosiCerroRico },
   "idiomas-oficiales": { component: IdiomasOficiales },
   charango: { component: Charango },
+  "camino-de-la-muerte": { component: CaminoDeLaMuerte },
+  "bolivia-nombre-de-bolivar": { component: BoliviaNombreDeBolivar },
+  wiphala: { component: Wiphala },
+  "quinoa-real": { component: QuinoaReal },
+  "parque-nacional-madidi": { component: ParqueNacionalMadidi },
 };

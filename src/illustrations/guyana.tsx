@@ -192,6 +192,46 @@ const CaricomIdentidadCaribena: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const Pepperpot: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.5);
+  const meat = "#B5651D";
+  return (
+    <g>
+      {/* dark cooking pot */}
+      <path d="M135 185 Q135 235 205 242 Q275 235 275 185 Z" fill={accentColor} stroke={dark} strokeWidth="4" />
+      <ellipse cx="205" cy="185" rx="70" ry="17" fill={dark} />
+      <ellipse cx="205" cy="183" rx="54" ry="11" fill="#1A1A1A" opacity="0.75" />
+      <path d="M120 172 Q135 160 150 172" fill="none" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <path d="M260 172 Q275 160 290 172" fill="none" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      {/* chunks of meat peeking above the stew */}
+      <ellipse cx="180" cy="180" rx="14" ry="9" fill={meat} stroke={dark} strokeWidth="1.5" />
+      <ellipse cx="215" cy="177" rx="16" ry="10" fill={meat} stroke={dark} strokeWidth="1.5" />
+      {/* steam */}
+      <path d="M185 158 Q176 132 190 108" fill="none" stroke={light} strokeWidth="4" strokeLinecap="round" opacity="0.75" />
+      <path d="M222 158 Q214 130 228 104" fill="none" stroke={light} strokeWidth="4" strokeLinecap="round" opacity="0.6" />
+    </g>
+  );
+};
+
+const DemeraraRumAzucar: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const glass = "#4A2C17";
+  const glassLight = tint(glass, 0.3);
+  return (
+    <g>
+      {/* dark rum bottle */}
+      <path d="M180 235 L180 165 Q180 155 190 150 L190 120 L215 120 L215 150 Q225 155 225 165 L225 235 Z" fill={glass} stroke={dark} strokeWidth="3" />
+      <rect x="192" y="105" width="21" height="18" rx="3" fill={dark} />
+      <rect x="182" y="185" width="41" height="30" fill={glassLight} opacity="0.5" />
+      {/* sugar crystals beside it */}
+      {[[260, 210], [280, 220], [270, 195], [295, 205], [255, 230], [285, 235]].map(([x, y]) => (
+        <rect key={`${x}-${y}`} x={x} y={y} width="14" height="14" fill={accentColor} stroke={dark} strokeWidth="1.5" transform={`rotate(20 ${x + 7} ${y + 7})`} />
+      ))}
+    </g>
+  );
+};
+
 export const guyanaIllustrations: Record<string, IllustrationDefinition> = {
   "unico-pais-anglohablante-sudamerica": { component: UnicoPaisAnglohablanteSudamerica },
   "cataratas-kaieteur": { component: CataratasKaieteur },
@@ -203,4 +243,6 @@ export const guyanaIllustrations: Record<string, IllustrationDefinition> = {
   "boom-petrolero-reciente": { component: BoomPetroleroReciente },
   "cricket-equipo-caribeno": { component: CricketEquipoCaribeno },
   "caricom-identidad-caribena": { component: CaricomIdentidadCaribena },
+  pepperpot: { component: Pepperpot },
+  "demerara-rum-azucar": { component: DemeraraRumAzucar },
 };

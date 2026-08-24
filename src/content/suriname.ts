@@ -231,4 +231,54 @@ export const suriname: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "tortugas-galibi",
+    order: 11,
+    placeholderEmoji: "🐢",
+    accentColor: "#3D8FB0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La playa donde miles de tortugas ponen sus huevos",
+        subtitle: "Las tortugas marinas de Galibi",
+        imageAlt:
+          "Caricatura de una tortuga marina gigante enterrando huevos en la arena de noche.",
+        description:
+          "La Reserva Natural de Galibi, en la desembocadura del río Marowijne al noreste de Suriname, es uno de los sitios de anidación de tortugas marinas más importantes de la costa atlántica sudamericana, recibiendo cada año, entre febrero y agosto, a miles de tortugas laúd, verdes y carey que emergen del mar de noche para excavar nidos en la arena y depositar cientos de huevos. La tortuga laúd, la especie de tortuga marina más grande del mundo con hasta dos metros de longitud y 500 kilos de peso, elige Galibi como uno de sus principales sitios de desove del hemisferio occidental, un fenómeno que atrae a biólogos marinos e investigadores de todo el mundo además de turistas que llegan en pequeños grupos guiados por la comunidad indígena kalinha local, que administra la reserva y basa buena parte de su economía en un turismo de observación cuidadosamente regulado para no perturbar el desove. El nombre Galibi proviene precisamente del pueblo kalinha, también conocido históricamente como caribes.",
+      },
+      en: {
+        title: "The Beach Where Thousands of Turtles Lay Their Eggs",
+        subtitle: "The Sea Turtles of Galibi",
+        imageAlt:
+          "Cartoon of a giant sea turtle burying eggs in the sand at night.",
+        description:
+          "Galibi Nature Reserve, at the mouth of the Marowijne River in northeastern Suriname, is one of the most important sea turtle nesting sites on the South American Atlantic coast, receiving thousands of leatherback, green, and hawksbill turtles every year between February and August, emerging from the sea at night to dig nests in the sand and lay hundreds of eggs. The leatherback, the largest sea turtle species in the world at up to two meters long and 500 kilograms, chooses Galibi as one of its main nesting sites anywhere in the Western Hemisphere, a phenomenon that draws marine biologists and researchers from around the world as well as tourists arriving in small groups guided by the local Indigenous Kalina community, which manages the reserve and bases much of its economy on carefully regulated observation tourism designed not to disturb the nesting turtles. The name Galibi comes directly from the Kalina people, also historically known as Caribs.",
+      },
+    },
+  },
+  {
+    id: "bauxita-historia-economica",
+    order: 12,
+    placeholderEmoji: "⛏️",
+    accentColor: "#A0522D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El mineral que sostuvo la economía un siglo",
+        subtitle: "La bauxita surinamesa",
+        imageAlt:
+          "Caricatura de un vagón minero cargado de mineral rojizo junto a una vía férrea.",
+        description:
+          "La bauxita, la principal materia prima para producir aluminio, se convirtió durante buena parte del siglo XX en el pilar de la economía surinamesa, tras el descubrimiento de enormes yacimientos en el interior del país a comienzos de 1900 y la posterior instalación de una de las mayores plantas de procesamiento de aluminio del hemisferio occidental, operada por la empresa estadounidense Alcoa en la ciudad de Paranam. Durante la Segunda Guerra Mundial, la producción surinamesa de bauxita adquirió tal importancia estratégica para la industria aeronáutica aliada que Estados Unidos envió tropas a proteger las minas, convirtiendo temporalmente al pequeño país en un punto clave del esfuerzo bélico global. Aunque la industria entró en declive desde los años 2000 por el agotamiento de yacimientos accesibles y la caída de precios, hasta su cierre en 2015 la bauxita había financiado buena parte de la infraestructura y el desarrollo urbano surinamés del siglo XX.",
+      },
+      en: {
+        title: "The Mineral That Powered the Economy for a Century",
+        subtitle: "Surinamese Bauxite",
+        imageAlt:
+          "Cartoon of a mining cart loaded with reddish ore beside a rail track.",
+        description:
+          "Bauxite, the primary raw material for producing aluminum, became the backbone of Suriname's economy for much of the 20th century, after the discovery of enormous deposits in the country's interior in the early 1900s and the later construction of one of the largest aluminum processing plants in the entire Western Hemisphere, operated by the American company Alcoa in the town of Paranam. During World War II, Surinamese bauxite production became so strategically important to the Allied aircraft industry that the United States sent troops to guard the mines against a potential attack, temporarily turning the small South American country into a key point in the global war effort. Although the industry declined starting in the 2000s as accessible deposits ran out and international prices fell, until its final closure in 2015 bauxite had financed much of Suriname's 20th-century infrastructure and urban development.",
+      },
+    },
+  },
 ];

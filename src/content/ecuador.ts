@@ -231,4 +231,129 @@ export const ecuador: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "ceviche-ecuatoriano",
+    order: 11,
+    placeholderEmoji: "🍤",
+    accentColor: "#E4572E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ceviche que se sirve con jugo, no solo limón",
+        subtitle: "El ceviche ecuatoriano",
+        imageAlt:
+          "Caricatura de un bol de ceviche con camarones, cebolla morada y tomate en salsa roja.",
+        description:
+          "El ceviche ecuatoriano se distingue de las versiones peruana y mexicana por servirse en un caldo espeso a base de jugo de tomate, cítricos y el propio jugo de cocción del marisco, preparado con una base roja y tomatada muy particular, generalmente acompañado de chifles (plátano verde frito), maíz tostado, popcorn o arroz aparte. Existen variantes regionales marcadas: el ceviche de camarón de la costa, el de concha negra recolectada en los manglares y considerada afrodisíaca en la tradición popular, y el de pescado, cada uno con su propio punto de acidez y textura. A diferencia del ceviche peruano, que suele curarse rápidamente en cítrico puro y se sirve casi de inmediato, muchas recetas ecuatorianas cuecen ligeramente el marisco antes de bañarlo en la salsa, dando un resultado más suave y menos ácido, típicamente vendido en carritos callejeros y cevicherías populares a lo largo de la costa del Pacífico.",
+      },
+      en: {
+        title: "The Ceviche Served in Broth, Not Just Lime Juice",
+        subtitle: "Ecuadorian Ceviche",
+        imageAlt:
+          "Cartoon of a bowl of ceviche with shrimp, red onion, and tomato in red sauce.",
+        description:
+          "Ecuadorian ceviche stands apart from Peruvian and Mexican versions by being served in a thick broth based on tomato juice, citrus, and the seafood's own cooking liquid, prepared with a distinctly red, tomato-forward base, usually accompanied by chifles (fried green plantain chips), toasted corn, popcorn, or rice on the side. Marked regional variants exist: shrimp ceviche from the coast, black clam ceviche gathered from mangroves and considered an aphrodisiac in popular tradition, and fish ceviche, each with its own balance of acidity and texture. Unlike Peruvian ceviche, which is usually cured quickly in pure citrus and served almost immediately, many Ecuadorian recipes lightly cook the seafood before bathing it in the sauce, producing a milder, less acidic result, typically sold from street carts and casual cevicherías all along the Pacific coast.",
+      },
+    },
+  },
+  {
+    id: "conferencia-de-guayaquil",
+    order: 12,
+    placeholderEmoji: "🤝",
+    accentColor: "#2C3E50",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La reunión secreta que cambió la independencia",
+        subtitle: "La Conferencia de Guayaquil",
+        imageAlt:
+          "Caricatura de dos generales con uniformes de gala dándose la mano frente a un edificio colonial.",
+        description:
+          "El 26 de julio de 1822, Simón Bolívar y José de San Martín, los dos máximos líderes de la independencia sudamericana, se reunieron a puertas cerradas en Guayaquil para decidir el futuro de la región, en un encuentro histórico del que no quedó registro oficial y cuyo contenido exacto sigue siendo objeto de debate entre historiadores. Días antes, Guayaquil había decidido por su cuenta anexarse a la naciente Gran Colombia de Bolívar en lugar de sumarse al Perú de San Martín, un hecho que probablemente pesó en la conversación. Lo que sí es seguro es el resultado: San Martín, que llegó a la reunión como el militar más consagrado y con más tropas, salió de ella convencido de renunciar a su cargo y retirarse por completo de la vida pública sudamericana, dejando a Bolívar como líder indiscutido del proceso independentista, una decisión que todavía intriga a quienes estudian el período.",
+      },
+      en: {
+        title: "The Secret Meeting That Changed Independence",
+        subtitle: "The Guayaquil Conference",
+        imageAlt:
+          "Cartoon of two generals in dress uniforms shaking hands in front of a colonial building.",
+        description:
+          "On July 26, 1822, Simón Bolívar and José de San Martín, the two foremost leaders of South American independence, met behind closed doors in Guayaquil to decide the region's future, a historic meeting with no official record and whose exact content remains debated among historians. Days earlier, Guayaquil had decided on its own to join Bolívar's fledgling Gran Colombia rather than San Martín's Peru, a fact that likely weighed on the conversation. What is certain is the outcome: San Martín, who arrived as the more established general with more troops behind him, left the meeting resolved to resign his command and withdraw completely from South American public life, leaving Bolívar as the undisputed leader of the independence movement, a decision that still intrigues historians of the period.",
+      },
+    },
+  },
+  {
+    id: "laguna-quilotoa",
+    order: 13,
+    placeholderEmoji: "🏞️",
+    accentColor: "#17A398",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cráter volcánico que se llenó de agua turquesa",
+        subtitle: "La laguna de Quilotoa",
+        imageAlt:
+          "Caricatura de un lago turquesa dentro de un cráter volcánico rodeado de paredes rocosas.",
+        description:
+          "La laguna de Quilotoa, una caldera volcánica de casi 3 kilómetros de diámetro formada tras una violenta erupción hace unos 800 años, alberga hoy un lago de un color turquesa intenso producido por los minerales disueltos en sus aguas, a más de 3.900 metros de altura en la cordillera occidental de los Andes ecuatorianos. Aunque el volcán se considera potencialmente activo, sin erupciones registradas desde el siglo XIV, la laguna se transformó en uno de los destinos de trekking más populares del país, con un sendero que bordea todo el borde del cráter en una caminata de varias horas y otro que baja directamente hasta la orilla del agua, generalmente recorrido a pie o a caballo con guías de la comunidad indígena kichwa de Quilotoa, que administra el acceso y se beneficia directamente del turismo. Las paredes del cráter, con capas visibles de ceniza y roca de distintas erupciones, funcionan casi como un registro geológico a la vista.",
+      },
+      en: {
+        title: "The Volcanic Crater That Filled With Turquoise Water",
+        subtitle: "Quilotoa Lagoon",
+        imageAlt:
+          "Cartoon of a turquoise lake inside a volcanic crater ringed by rocky walls.",
+        description:
+          "Quilotoa Lagoon, a volcanic caldera nearly 3 kilometers across formed by a violent eruption around 800 years ago, today holds a lake of intense turquoise color produced by minerals dissolved in its water, sitting more than 3,900 meters up in the western range of the Ecuadorian Andes. Although the volcano is considered potentially active, with no recorded eruptions since the 14th century, the lagoon became one of the country's most popular trekking destinations, with a trail that circles the entire crater rim over several hours and another that descends directly to the water's edge, usually covered on foot or horseback with guides from the Kichwa Indigenous community of Quilotoa, which manages access and benefits directly from tourism. The crater walls, with visible layers of ash and rock from different eruptions, function almost like a geological record on display.",
+      },
+    },
+  },
+  {
+    id: "mama-negra-latacunga",
+    order: 14,
+    placeholderEmoji: "🎭",
+    accentColor: "#B5179E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La fiesta con santos, diablos y una reina disfrazada",
+        subtitle: "La Mama Negra de Latacunga",
+        imageAlt:
+          "Caricatura de una figura con vestido colorido y cara pintada de negro montando a caballo en un desfile.",
+        description:
+          "La Fiesta de la Mama Negra, celebrada cada septiembre y noviembre en la ciudad andina de Latacunga, es uno de los desfiles populares más coloridos de Ecuador, protagonizado por un hombre disfrazado de mujer afrodescendiente que cabalga vestido con capas bordadas y joyas, arrojando leche y agua a los espectadores mientras lo acompaña un séquito de personajes que combinan tradiciones indígenas, africanas y católicas españolas: el ángel de la estrella, los huacos curanderos, capitanes con máscaras y el 'rey moro'. Su origen se atribuye a una promesa de gratitud de los comerciantes locales tras una erupción del volcán Cotopaxi en 1742 que, según la tradición popular, la Virgen de las Mercedes ayudó a contener, mezclada con la devoción de las comunidades afroecuatorianas que llegaron a la región para trabajar en las minas coloniales. Hoy la fiesta reúne a miles de espectadores y es considerada Patrimonio Cultural del Ecuador.",
+      },
+      en: {
+        title: "The Festival With Saints, Devils, and a Disguised Queen",
+        subtitle: "The Mama Negra Festival",
+        imageAlt:
+          "Cartoon of a figure in a colorful dress with a painted black face riding a horse in a parade.",
+        description:
+          "The Mama Negra Festival, held every September and November in the Andean city of Latacunga, is one of Ecuador's most colorful popular parades, led by a man dressed as an Afro-descendant woman who rides on horseback in embroidered capes and jewelry, tossing milk and water to spectators while accompanied by a retinue of characters blending Indigenous, African, and Spanish Catholic traditions: the star angel, healer huacos, masked captains, and the 'Moorish king.' Its origin is traced to a promise of gratitude made by local merchants after a 1742 eruption of the Cotopaxi volcano that, according to popular tradition, the Virgin of Mercy helped contain, mixed with the devotion of Afro-Ecuadorian communities who arrived in the region to work the colonial mines. Today the festival draws thousands of spectators and is recognized as Cultural Heritage of Ecuador.",
+      },
+    },
+  },
+  {
+    id: "balsa-kon-tiki",
+    order: 15,
+    placeholderEmoji: "⛵",
+    accentColor: "#A47148",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La madera liviana que cruzó el Pacífico en una balsa",
+        subtitle: "La madera de balsa y la Kon-Tiki",
+        imageAlt:
+          "Caricatura de una balsa de madera con vela cuadrada navegando sobre olas del océano.",
+        description:
+          "Ecuador es el mayor productor mundial de balsa, una madera excepcionalmente liviana y de crecimiento rápido nativa de sus bosques húmedos, usada durante siglos por las culturas costeras precolombinas para construir balsas de navegación oceánica, y hoy exportada globalmente para fabricar palas de aerogeneradores, tablas de surf y modelos de aeromodelismo por su combinación única de ligereza y resistencia. En 1947, el explorador noruego Thor Heyerdahl construyó una embarcación con troncos de balsa ecuatoriana siguiendo técnicas indígenas documentadas por cronistas españoles, y la bautizó Kon-Tiki para navegar más de 6.900 kilómetros desde Perú hasta la Polinesia, buscando demostrar que las antiguas culturas sudamericanas pudieron haber alcanzado el Pacífico sur en balsas similares. El viaje, documentado en un libro y un documental ganador del Óscar, convirtió a la madera de balsa ecuatoriana en un símbolo de la audacia de la navegación precolombina.",
+      },
+      en: {
+        title: "The Lightweight Wood That Crossed the Pacific on a Raft",
+        subtitle: "Balsa Wood and the Kon-Tiki",
+        imageAlt:
+          "Cartoon of a wooden raft with a square sail crossing ocean waves.",
+        description:
+          "Ecuador is the world's leading producer of balsa, an exceptionally lightweight, fast-growing wood native to its humid forests, used for centuries by pre-Columbian coastal cultures to build ocean-going rafts, and today exported globally to make wind-turbine blades, surfboards, and model-airplane frames thanks to its unique combination of lightness and strength. In 1947, Norwegian explorer Thor Heyerdahl built a vessel from Ecuadorian balsa logs following Indigenous techniques documented by Spanish chroniclers, naming it Kon-Tiki to sail more than 6,900 kilometers from Peru to Polynesia, seeking to show that ancient South American cultures could have reached the South Pacific on similar rafts. The voyage, documented in a bestselling book and an Academy Award-winning documentary, turned Ecuadorian balsa wood into a symbol of the audacity of pre-Columbian seafaring.",
+      },
+    },
+  },
 ];

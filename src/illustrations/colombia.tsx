@@ -234,6 +234,302 @@ const Arepa: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const ElDorado: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const light = tint(accentColor, 0.6);
+  const skin = "#D9A46A";
+  const blue = "#3D8FB0";
+  return (
+    <g>
+      {/* hazy mountains behind the lake */}
+      <polygon points="95,165 165,95 235,165" fill={dark} opacity="0.2" />
+      <polygon points="180,170 240,110 300,170" fill={dark} opacity="0.15" />
+      {/* lake water */}
+      <rect x="90" y="196" width="230" height="42" fill={blue} opacity="0.7" />
+      <ellipse cx="200" cy="196" rx="115" ry="8" fill={blue} />
+      {/* reed raft on the water */}
+      <rect x="138" y="186" width="124" height="12" rx="5" fill={dark} />
+      {[150, 175, 200, 225, 250].map((x) => (
+        <line key={x} x1={x} y1="186" x2={x} y2="198" stroke={shade(dark, 0.3)} strokeWidth="2" />
+      ))}
+      {/* the gilded chief standing on the raft */}
+      <path d="M180 140 Q200 130 220 140 L214 194 L186 194 Z" fill={accentColor} />
+      <circle cx="200" cy="124" r="16" fill={skin} />
+      {/* feathered headdress */}
+      <polygon points="200,90 194,112 206,112" fill={light} transform="rotate(-18 200 108)" />
+      <polygon points="200,86 194,112 206,112" fill={light} />
+      <polygon points="200,90 194,112 206,112" fill={light} transform="rotate(18 200 108)" />
+      {/* arm raised, about to throw a gold piece */}
+      <path d="M204 152 Q234 140 246 118" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <polygon points="246,108 253,116 246,124 239,116" fill={accentColor} stroke={dark} strokeWidth="2" />
+      {/* other arm resting along the body */}
+      <path d="M192 154 Q172 165 176 186" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      {/* gold offerings sinking into the water */}
+      <polygon points="150,208 155,214 150,220 145,214" fill={accentColor} opacity="0.85" />
+      <polygon points="255,215 260,221 255,227 250,221" fill={accentColor} opacity="0.7" />
+      <circle cx="200" cy="222" r="5" fill={light} opacity="0.8" />
+    </g>
+  );
+};
+
+const CiudadPerdida: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const stone = "#8C8577";
+  const stoneDark = shade(stone, 0.35);
+  const steps: [number, number][] = [
+    [270, 235],
+    [255, 222],
+    [240, 209],
+    [228, 196],
+    [218, 183],
+    [210, 170],
+    [204, 157],
+  ];
+  return (
+    <g>
+      {/* jungle mountain silhouette */}
+      <polygon points="95,245 140,120 200,90 260,140 305,245" fill={dark} opacity="0.55" />
+      {/* jungle canopy at the base */}
+      <circle cx="115" cy="235" r="26" fill={accentColor} opacity="0.8" />
+      <circle cx="150" cy="242" r="22" fill={accentColor} opacity="0.7" />
+      <circle cx="285" cy="238" r="24" fill={accentColor} opacity="0.75" />
+      {/* stone staircase climbing through the mist */}
+      {steps.map(([x, y], i) => (
+        <rect key={i} x={x - 14} y={y - 6} width="28" height="10" rx="2" fill={stoneDark} />
+      ))}
+      {/* circular stone terraces stepping up the slope */}
+      <ellipse cx="175" cy="205" rx="34" ry="14" fill="none" stroke={stone} strokeWidth="5" />
+      <ellipse cx="188" cy="175" rx="27" ry="11" fill="none" stroke={stone} strokeWidth="5" />
+      <ellipse cx="198" cy="148" rx="20" ry="8" fill="none" stroke={stone} strokeWidth="5" />
+      <ellipse cx="205" cy="126" rx="14" ry="6" fill="none" stroke={stone} strokeWidth="4" />
+      {/* drifting mist */}
+      <ellipse cx="230" cy="180" rx="55" ry="16" fill="#FFFFFF" opacity="0.25" />
+      <ellipse cx="200" cy="210" rx="65" ry="18" fill="#FFFFFF" opacity="0.2" />
+    </g>
+  );
+};
+
+const Botero: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  const skin = "#D9A46A";
+  return (
+    <g>
+      {/* voluminous woman */}
+      <ellipse cx="185" cy="185" rx="52" ry="58" fill={accentColor} />
+      <circle cx="185" cy="112" r="30" fill={skin} />
+      <ellipse cx="160" cy="170" rx="16" ry="34" fill={skin} />
+      <ellipse cx="155" cy="200" rx="16" ry="14" fill={skin} />
+      {/* rounded plump cat beside her */}
+      <ellipse cx="275" cy="215" rx="34" ry="26" fill={dark} />
+      <circle cx="290" cy="178" r="18" fill={dark} />
+      <polygon points="280,168 284,150 292,168" fill={dark} />
+      <polygon points="296,168 300,150 304,168" fill={dark} />
+      <path d="M308 220 Q330 210 326 190" fill="none" stroke={dark} strokeWidth="8" strokeLinecap="round" />
+      <circle cx="284" cy="176" r="3" fill={light} />
+      <circle cx="296" cy="176" r="3" fill={light} />
+    </g>
+  );
+};
+
+const Comuna13: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  const muralColors = [accentColor, light, "#2A9D8F", "#F4C430", dark];
+  const houses: { x: number; y: number; w: number; h: number; roofColor: string }[] = [
+    { x: 95, y: 195, w: 42, h: 50, roofColor: dark },
+    { x: 140, y: 165, w: 42, h: 60, roofColor: light },
+    { x: 185, y: 135, w: 42, h: 70, roofColor: dark },
+    { x: 230, y: 105, w: 42, h: 80, roofColor: light },
+    { x: 275, y: 85, w: 40, h: 78, roofColor: dark },
+  ];
+  return (
+    <g>
+      {/* colorful houses stacked up the hillside */}
+      {houses.map((h, i) => (
+        <g key={i}>
+          <rect x={h.x} y={h.y} width={h.w} height={h.h} fill={muralColors[i % muralColors.length]} />
+          <polygon
+            points={`${h.x - 4},${h.y} ${h.x + h.w / 2},${h.y - 14} ${h.x + h.w + 4},${h.y}`}
+            fill={h.roofColor}
+          />
+          <rect x={h.x + h.w / 2 - 6} y={h.y + h.h - 20} width="12" height="20" fill={shade(accentColor, 0.55)} />
+        </g>
+      ))}
+      {/* outdoor escalator climbing the hillside */}
+      <path d="M100 245 L305 90" stroke={shade(accentColor, 0.6)} strokeWidth="16" strokeLinecap="round" />
+      <path d="M92 236 L297 81" stroke={dark} strokeWidth="3" fill="none" />
+    </g>
+  );
+};
+
+const CanoCristales: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const yellow = "#E9C46A";
+  const green = "#588157";
+  const black = "#2B2B2B";
+  return (
+    <g>
+      {/* winding river bed, sandy banks around a red-tinted current */}
+      <path
+        d="M100 90 Q160 120 130 160 Q100 195 160 215 Q220 235 260 210 Q300 190 300 150"
+        fill="none"
+        stroke={yellow}
+        strokeWidth="46"
+        strokeLinecap="round"
+      />
+      <path
+        d="M100 90 Q160 120 130 160 Q100 195 160 215 Q220 235 260 210 Q300 190 300 150"
+        fill="none"
+        stroke={accentColor}
+        strokeWidth="30"
+        strokeLinecap="round"
+      />
+      {/* patches of red aquatic plants along the bed */}
+      <ellipse cx="135" cy="140" rx="16" ry="22" fill={dark} transform="rotate(20 135 140)" />
+      <ellipse cx="150" cy="205" rx="18" ry="14" fill={dark} />
+      <ellipse cx="245" cy="205" rx="20" ry="15" fill={dark} />
+      {/* green algae patches */}
+      <ellipse cx="190" cy="225" rx="14" ry="10" fill={green} opacity="0.85" />
+      <ellipse cx="280" cy="165" rx="12" ry="16" fill={green} opacity="0.8" />
+      {/* black rocks along the banks */}
+      <ellipse cx="105" cy="100" rx="10" ry="8" fill={black} />
+      <ellipse cx="285" cy="135" rx="12" ry="9" fill={black} />
+      <ellipse cx="230" cy="235" rx="11" ry="8" fill={black} />
+    </g>
+  );
+};
+
+const Wayuu: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  const skin = "#D9A46A";
+  const stripeColors = [accentColor, "#2A9D8F", "#F4C430", dark];
+  return (
+    <g>
+      {/* seated woman weaving */}
+      <path d="M150 165 Q170 150 190 165 L184 230 L156 230 Z" fill={dark} />
+      <circle cx="170" cy="140" r="17" fill={skin} />
+      <path d="M160 172 Q135 178 128 202" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M180 172 Q206 176 214 198" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      {/* mochila bag taking shape in her hands, patterned with kanaas stripes */}
+      <path d="M165 175 L225 175 L221 225 Q195 233 169 225 Z" fill={accentColor} />
+      {stripeColors.map((c, i) => (
+        <rect key={i} x="169" y={181 + i * 10} width="52" height="6" fill={c} opacity="0.9" />
+      ))}
+      {/* crochet hook and yarn ball */}
+      <circle cx="120" cy="210" r="12" fill={light} stroke={dark} strokeWidth="2" />
+      <line x1="214" y1="198" x2="228" y2="188" stroke={dark} strokeWidth="3" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const Tejo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  const skin = "#D9A46A";
+  const clay = "#8C5A3B";
+  return (
+    <g>
+      {/* standing figure mid-throw */}
+      <path d="M112 165 Q128 152 144 165 L138 220 L118 220 Z" fill={accentColor} />
+      <circle cx="128" cy="140" r="16" fill={skin} />
+      <path d="M132 172 Q160 158 172 138" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M124 175 Q104 190 110 215" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      {/* legs mid-stance */}
+      <path d="M122 214 L108 250" stroke={dark} strokeWidth="10" strokeLinecap="round" />
+      <path d="M134 214 L148 250" stroke={dark} strokeWidth="10" strokeLinecap="round" />
+      {/* the tejo disc in flight */}
+      <ellipse cx="188" cy="122" rx="10" ry="6" fill={dark} />
+      {/* clay target board with the bocín ring */}
+      <path d="M225 250 L245 130 L305 130 L305 250 Z" fill={clay} />
+      <ellipse cx="270" cy="150" rx="16" ry="8" fill="none" stroke={light} strokeWidth="5" />
+      {/* exploding mecha of gunpowder */}
+      <polygon
+        points="270,150 280,138 286,148 296,140 292,156 302,158 288,166 292,178 278,168 272,180 268,166 256,168 264,154"
+        fill="#F4C430"
+      />
+    </g>
+  );
+};
+
+const SalsaCali: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  const skin = "#D9A46A";
+  return (
+    <g>
+      {/* woman's dress flaring mid-spin */}
+      <path d="M150 165 Q110 175 118 215 Q150 235 182 215 Q188 175 150 165 Z" fill={accentColor} />
+      <path d="M150 168 Q130 178 132 208 Q150 220 168 208 Q170 178 150 168 Z" fill={light} opacity="0.85" />
+      <circle cx="150" cy="142" r="15" fill={skin} />
+      <path d="M136 155 Q150 148 164 155 L160 178 L140 178 Z" fill={dark} />
+      <path d="M148 165 Q170 158 182 138" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      {/* man beside her, legs bent mid-step */}
+      <circle cx="245" cy="140" r="15" fill={skin} />
+      <path d="M231 153 Q245 146 259 153 L255 195 L235 195 Z" fill={dark} />
+      <path d="M245 190 Q222 205 228 240" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M249 190 Q276 202 270 236" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M247 158 Q205 150 192 132" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const Cumbia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  const skin = "#D9A46A";
+  const flame = "#F4C430";
+  return (
+    <g>
+      {/* woman in a wide pollera skirt, candles raised */}
+      <path d="M150 195 Q108 205 112 240 Q150 255 188 240 Q192 205 150 195 Z" fill={accentColor} />
+      <circle cx="150" cy="150" r="15" fill={skin} />
+      <path d="M138 162 Q150 156 162 162 L158 198 L142 198 Z" fill={dark} />
+      <path d="M144 168 Q126 152 128 128" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <rect x="122" y="112" width="6" height="20" fill="#F4E3C1" />
+      <path d="M125 112 Q128 104 131 112" fill={flame} />
+      {/* man playing the tambora drum */}
+      <circle cx="245" cy="150" r="15" fill={skin} />
+      <path d="M233 162 Q245 156 257 162 L253 205 L237 205 Z" fill={light} />
+      <rect x="255" y="180" width="46" height="34" rx="6" fill={dark} />
+      <ellipse cx="255" cy="197" rx="8" ry="17" fill={shade(dark, 0.3)} />
+      <path d="M249 168 Q270 178 275 190" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const Paramo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const silver = "#C9CBB8";
+  const snow = "#F4F6F0";
+  const plants: [number, number, number][] = [
+    [135, 220, 1],
+    [175, 235, 0.8],
+    [255, 225, 0.9],
+  ];
+  return (
+    <g>
+      {/* snow-capped volcano in the background */}
+      <polygon points="150,240 230,100 310,240" fill={dark} opacity="0.5" />
+      <polygon points="230,100 212,145 220,152 230,146 240,152 248,145" fill={snow} opacity="0.9" />
+      {/* rolling páramo hills */}
+      <path d="M90 245 Q150 200 220 235 Q270 210 320 240 L320 250 L90 250 Z" fill={accentColor} opacity="0.7" />
+      {/* frailejones scattered across the slope */}
+      {plants.map(([x, y, scale], i) => (
+        <g key={i} transform={`translate(${x} ${y}) scale(${scale})`}>
+          <rect x="-4" y="-20" width="8" height="24" fill={shade(accentColor, 0.55)} />
+          <ellipse cx="0" cy="-30" rx="7" ry="16" fill={silver} transform="rotate(-25 0 -30)" />
+          <ellipse cx="0" cy="-30" rx="7" ry="16" fill={silver} />
+          <ellipse cx="0" cy="-30" rx="7" ry="16" fill={silver} transform="rotate(25 0 -30)" />
+          <ellipse cx="0" cy="-30" rx="7" ry="16" fill={silver} transform="rotate(-50 0 -30)" />
+          <ellipse cx="0" cy="-30" rx="7" ry="16" fill={silver} transform="rotate(50 0 -30)" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const colombiaIllustrations: Record<string, IllustrationDefinition> = {
   cafe: { component: Cafe },
   "garcia-marquez": { component: GarciaMarquez },
@@ -245,4 +541,14 @@ export const colombiaIllustrations: Record<string, IllustrationDefinition> = {
   ciclismo: { component: Ciclismo },
   biodiversidad: { component: Biodiversidad },
   arepa: { component: Arepa },
+  "el-dorado": { component: ElDorado },
+  "ciudad-perdida": { component: CiudadPerdida },
+  botero: { component: Botero },
+  "comuna-13": { component: Comuna13 },
+  "cano-cristales": { component: CanoCristales },
+  wayuu: { component: Wayuu },
+  tejo: { component: Tejo },
+  "salsa-cali": { component: SalsaCali },
+  cumbia: { component: Cumbia },
+  paramo: { component: Paramo },
 };

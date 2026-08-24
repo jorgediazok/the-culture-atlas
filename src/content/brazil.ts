@@ -251,4 +251,254 @@ export const brazil: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "ouro-preto-barroco",
+    order: 11,
+    placeholderEmoji: "🏛️",
+    accentColor: "#B08D57",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad de oro que se volvió arte barroco",
+        subtitle: "Ouro Preto",
+        imageAlt:
+          "Caricatura de una iglesia barroca con dos torres doradas en una calle empedrada en pendiente, con una estatua de piedra jabón junto a la entrada.",
+        description:
+          "Fundada a fines del siglo XVII tras el descubrimiento de oro en las montañas de Minas Gerais, Ouro Preto (entonces Vila Rica) se convirtió en la ciudad más rica de América durante el siglo XVIII, más poblada incluso que Río de Janeiro en su mejor momento. Ese oro financió un estilo propio, el barroco minero, con iglesias cubiertas de talla dorada y esculturas del maestro Antônio Francisco Lisboa, apodado 'Aleijadinho', quien pese a una enfermedad que le deformó las manos siguió esculpiendo con los instrumentos atados a los dedos. Sus doce profetas de piedra jabón en el Santuario de Congonhas son consideradas una obra maestra del arte colonial americano. Ouro Preto, de calles empedradas en pendiente, fue la primera ciudad brasileña declarada Patrimonio de la Humanidad por la UNESCO, en 1980.",
+      },
+      en: {
+        title: "The Golden City That Became Baroque Art",
+        subtitle: "Ouro Preto",
+        imageAlt:
+          "Cartoon of a baroque church with two gilded towers on a steep cobblestone street, a soapstone statue standing beside the entrance.",
+        description:
+          "Founded in the late 17th century after gold was discovered in the mountains of Minas Gerais, Ouro Preto (then Vila Rica) became the richest city in the Americas during the 18th century, more populous at its peak than Rio de Janeiro. That gold financed a style of its own, mineiro baroque, with churches covered in gilded carving and sculptures by master Antônio Francisco Lisboa, nicknamed 'Aleijadinho,' who kept sculpting with tools strapped to his fingers after a degenerative illness deformed his hands. His twelve soapstone prophets at the Congonhas Sanctuary are considered a masterpiece of colonial American art. Ouro Preto, with its steep cobblestone streets, was the first Brazilian city declared a UNESCO World Heritage Site, in 1980.",
+      },
+    },
+  },
+  {
+    id: "candomble",
+    order: 12,
+    placeholderEmoji: "🕯️",
+    accentColor: "#5B4E8C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La religión que se disfrazó de santos católicos",
+        subtitle: "Candomblé",
+        imageAlt:
+          "Caricatura de una sacerdotisa de candomblé con vestido blanco y collares de cuentas de pie frente a un altar con velas y ofrendas.",
+        description:
+          "El candomblé es una religión afrobrasileña nacida entre personas esclavizadas yorubas, bantúes y fon, que preservaron a sus orixás (divinidades de la naturaleza) disfrazándolos bajo los nombres de santos católicos para poder seguir venerándolos sin ser perseguidas. Cada terreiro, o casa de culto, está dirigido por una mãe o un pai de santo, y las ceremonias combinan cantos en yoruba, tambores atabaques y danzas en las que los fieles entran en trance para ser 'montados' por su orixá personal. Salvador de Bahía, con la mayor población afrodescendiente fuera de África, es el centro histórico del candomblé, aunque durante buena parte del siglo XX la religión fue perseguida por la policía brasileña bajo leyes que la trataban como brujería. Cada 31 de diciembre, miles de personas ofrecen flores blancas al mar en honor a Iemanjá, la orixá del océano, en playas de todo el país.",
+      },
+      en: {
+        title: "The Religion Disguised as Catholic Saints",
+        subtitle: "Candomblé",
+        imageAlt:
+          "Cartoon of a candomblé priestess in a white dress and beaded necklaces standing before an altar with candles and offerings.",
+        description:
+          "Candomblé is an Afro-Brazilian religion born among enslaved Yoruba, Bantu, and Fon people, who preserved their orixás (nature deities) by disguising them under the names of Catholic saints so they could keep worshipping without being persecuted. Each terreiro, or house of worship, is led by a mãe or pai de santo, and ceremonies combine chants in Yoruba, atabaque drums, and dances in which believers enter a trance to be 'mounted' by their personal orixá. Salvador da Bahia, home to the largest Afro-descendant population outside Africa, is candomblé's historic center, though for much of the 20th century the religion was persecuted by Brazilian police under laws that treated it as witchcraft. Every December 31st, thousands of people offer white flowers to the sea in honor of Iemanjá, the orixá of the ocean, on beaches across the country.",
+      },
+    },
+  },
+  {
+    id: "cataratas-iguazu",
+    order: 13,
+    placeholderEmoji: "💦",
+    accentColor: "#1B8A9A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las cataratas que hacen ver pequeña a Niágara",
+        subtitle: "Cataratas del Iguazú",
+        imageAlt:
+          "Caricatura de una amplia cascada con varios saltos de agua cayendo hacia un cañón con neblina y un arcoíris, rodeada de selva.",
+        description:
+          "Las Cataratas del Iguazú, compartidas entre Brasil y Argentina en la frontera con Paraguay, forman un sistema de casi 275 saltos individuales repartidos a lo largo de casi tres kilómetros, mucho más ancho que las Cataratas del Niágara y más alto que las Victoria en África. Su nombre viene del guaraní 'y' (agua) y 'guasu' (grande), y su punto más impresionante es la Garganta del Diablo, una U de agua de 150 metros de ancho donde caen simultáneamente catorce saltos con una fuerza que genera una nube de vapor visible a kilómetros de distancia. El lado brasileño, más corto pero con las vistas panorámicas más completas de todo el conjunto, está protegido dentro del Parque Nacional do Iguaçu, declarado Patrimonio de la Humanidad por la UNESCO en 1986 por albergar una de las mayores reservas de selva atlántica del continente.",
+      },
+      en: {
+        title: "The Falls That Make Niagara Look Small",
+        subtitle: "Iguazu Falls",
+        imageAlt:
+          "Cartoon of a wide waterfall with several cascades plunging into a misty canyon with a rainbow, framed by jungle.",
+        description:
+          "Iguazu Falls, shared between Brazil and Argentina on the border with Paraguay, form a system of nearly 275 individual falls spread across almost three kilometers, far wider than Niagara Falls and taller than Victoria Falls in Africa. Its name comes from the Guarani words 'y' (water) and 'guasu' (big), and its most dramatic point is the Devil's Throat, a 150-meter-wide U of water where fourteen falls plunge at once, generating a cloud of mist visible for kilometers. The Brazilian side, shorter but offering the most complete panoramic views of the whole system, is protected within Iguaçu National Park, declared a UNESCO World Heritage Site in 1986 for holding one of the continent's largest remaining reserves of Atlantic Forest.",
+      },
+    },
+  },
+  {
+    id: "festa-junina-forro",
+    order: 14,
+    placeholderEmoji: "🌽",
+    accentColor: "#E2711D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La fiesta de junio que huele a maíz asado",
+        subtitle: "Festa Junina",
+        imageAlt:
+          "Caricatura de una pareja bailando forró junto a una fogata, con banderines triangulares de colores y un acordeonista al lado.",
+        description:
+          "Las Festas Juninas, celebradas durante todo junio en honor a San Juan, San Pedro y San Antonio, son una herencia de las fiestas portuguesas del solsticio adaptadas al calendario católico y reinventadas con una estética rural que poco tiene que ver con las ciudades: los brasileños se visten de 'caipira' (campesino), con ropa remendada, sombreros de paja y pecas pintadas, y bailan la quadrilha, una danza en pareja con pasos anunciados en voz alta como en el square dance estadounidense. La comida gira en torno al maíz de la cosecha —canjica, pamonha, milho asado— y las fogatas se encienden en plazas y escuelas de todo el país. La música oficial de la fiesta es el forró, un género del Nordeste creado con acordeón, zabumba y triángulo, popularizado en los años 40 por Luiz Gonzaga, apodado el 'Rey del Baião'.",
+      },
+      en: {
+        title: "The June Festival That Smells of Roasted Corn",
+        subtitle: "Festa Junina",
+        imageAlt:
+          "Cartoon of a couple dancing forró beside a bonfire, with colorful triangular flags and an accordion player nearby.",
+        description:
+          "Festas Juninas, celebrated throughout June in honor of Saint John, Saint Peter, and Saint Anthony, descend from Portuguese solstice festivals adapted to the Catholic calendar and reinvented with a rural aesthetic that has little to do with city life: Brazilians dress as 'caipira' (country folk), in patched clothes, straw hats, and painted freckles, and dance the quadrilha, a couples' dance with steps called out loud like American square dancing. The food centers on the corn harvest — canjica, pamonha, roasted corn on the cob — and bonfires are lit in plazas and schools across the country. The festival's official music is forró, a genre from the Northeast built around accordion, zabumba drum, and triangle, popularized in the 1940s by Luiz Gonzaga, nicknamed the 'King of Baião.'",
+      },
+    },
+  },
+  {
+    id: "literatura-de-cordel",
+    order: 15,
+    placeholderEmoji: "📜",
+    accentColor: "#8B4513",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los versos que cuelgan de un cordel",
+        subtitle: "Literatura de cordel",
+        imageAlt:
+          "Caricatura de un puesto de mercado con pequeños folletos ilustrados colgados de una cuerda, con portadas de xilografía en blanco y negro.",
+        description:
+          "La literatura de cordel es una tradición del Nordeste brasileño de folletos de poesía rimada, impresos de forma artesanal y vendidos en ferias colgados de un cordel o cuerda tendida entre dos postes, de donde toma su nombre. Sus portadas, ilustradas con xilografías de trazo grueso y contraste extremo entre blanco y negro, se volvieron un estilo gráfico reconocible por sí mismo, hoy expuesto en museos de arte popular. Heredera de la tradición oral de los cantadores o repentistas, que improvisan versos en 'desafíos' o duelos poéticos cantados al son de la viola, la literatura de cordel narra desde hazañas heroicas y crímenes célebres hasta noticias locales y crítica social, siempre en estrofas de rima fija fáciles de memorizar y recitar en voz alta. Reconocida como patrimonio cultural inmaterial de Brasil, sigue viva en las ferias de Caruaru y otras ciudades del interior nordestino.",
+      },
+      en: {
+        title: "The Verses That Hang From a String",
+        subtitle: "Cordel Literature",
+        imageAlt:
+          "Cartoon of a market stall with small illustrated pamphlets hanging from a string, their covers black-and-white woodcut prints.",
+        description:
+          "Cordel literature is a Northeastern Brazilian tradition of rhymed-verse pamphlets, printed by hand and sold at fairs hanging from a cordel, or cord, strung between two posts — hence the name. Their covers, illustrated with bold, high-contrast woodcut prints, became a recognizable graphic style in their own right, now displayed in folk-art museums. Descended from the oral tradition of cantadores or repentistas, who improvise verses in sung poetic duels called desafios accompanied by the viola, cordel literature covers everything from heroic feats and famous crimes to local news and social criticism, always in fixed-rhyme stanzas easy to memorize and recite aloud. Recognized as part of Brazil's intangible cultural heritage, it remains alive today at fairs in Caruaru and other towns across the Northeastern interior.",
+      },
+    },
+  },
+  {
+    id: "brasilia-niemeyer",
+    order: 16,
+    placeholderEmoji: "🏙️",
+    accentColor: "#5B7C99",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La capital que se construyó en mil días",
+        subtitle: "Brasília",
+        imageAlt:
+          "Caricatura de una catedral blanca con columnas curvas en forma de corona y un edificio con una cúpula redonda y un plato invertido al lado.",
+        description:
+          "Brasília fue construida en apenas 41 meses, entre 1956 y 1960, por orden del presidente Juscelino Kubitschek, que prometió 'cincuenta años de progreso en cinco' al trasladar la capital desde Río de Janeiro hacia el centro despoblado del país, con el objetivo de impulsar el desarrollo del interior brasileño. El urbanista Lúcio Costa diseñó el trazado de la ciudad con forma de avión (o de pájaro, según otras lecturas), mientras que el arquitecto Oscar Niemeyer firmó sus edificios más icónicos: la Catedral Metropolitana, con dieciséis columnas de concreto curvo abiertas hacia el cielo, y el Congreso Nacional, con una cúpula y un plato invertido que se volvieron símbolos visuales del país. En 1987, Brasília se convirtió en la ciudad más joven declarada Patrimonio de la Humanidad por la UNESCO, apenas 27 años después de su inauguración.",
+      },
+      en: {
+        title: "The Capital Built in a Thousand Days",
+        subtitle: "Brasília",
+        imageAlt:
+          "Cartoon of a white cathedral with crown-like curved columns beside a building with a round dome and an inverted bowl shape.",
+        description:
+          "Brasília was built in just 41 months, between 1956 and 1960, on the order of President Juscelino Kubitschek, who promised 'fifty years of progress in five' by moving the capital from Rio de Janeiro to the country's empty interior, aiming to spur development away from the coast. Urban planner Lúcio Costa laid out the city in the shape of an airplane (or a bird, by other readings), while architect Oscar Niemeyer designed its most iconic buildings: the Metropolitan Cathedral, with sixteen curved concrete columns opening toward the sky, and the National Congress, with a dome and an inverted bowl that became visual symbols of the country. In 1987, Brasília became the youngest city ever declared a UNESCO World Heritage Site, just 27 years after its inauguration.",
+      },
+    },
+  },
+  {
+    id: "pueblos-indigenas-brasil",
+    order: 17,
+    placeholderEmoji: "🪶",
+    accentColor: "#3D8361",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Más de 300 pueblos y 150 lenguas propias",
+        subtitle: "Pueblos indígenas",
+        imageAlt:
+          "Caricatura de un hombre indígena con tocado de plumas y pintura corporal geométrica de pie junto a una gran maloca circular de techo de paja.",
+        description:
+          "Brasil es hoy el hogar de más de 300 pueblos indígenas que hablan cerca de 150 lenguas distintas, herederos de las sociedades que habitaban el territorio mucho antes de la llegada portuguesa en 1500. Pueblos como los yanomami, uno de los grupos indígenas relativamente aislados más grandes del mundo en la frontera con Venezuela, o los kayapó, conocidos por sus elaborados tocados de plumas y pinturas corporales geométricas usadas en rituales, mantienen formas de organización social, conocimientos sobre la selva y lenguas que la ciencia occidental apenas empieza a documentar. Muchas comunidades viven en malocas, grandes viviendas comunales circulares de techo de paja que albergan a varias familias extendidas. La Constitución de 1988 reconoció por primera vez el derecho de los pueblos indígenas a sus tierras y culturas originarias, aunque la demarcación y protección efectiva de esos territorios sigue siendo un proceso disputado hasta hoy.",
+      },
+      en: {
+        title: "Over 300 Peoples and 150 Languages of Their Own",
+        subtitle: "Indigenous Peoples",
+        imageAlt:
+          "Cartoon of an indigenous man with a feathered headdress and geometric body paint standing beside a large round thatched-roof maloca.",
+        description:
+          "Brazil is today home to more than 300 indigenous peoples who speak around 150 distinct languages, descendants of societies that inhabited the territory long before the Portuguese arrived in 1500. Peoples like the Yanomami, one of the largest relatively isolated indigenous groups in the world along the border with Venezuela, or the Kayapó, known for their elaborate feather headdresses and geometric body paint used in ritual, maintain forms of social organization, forest knowledge, and languages that Western science is only beginning to document. Many communities live in malocas, large circular communal houses with thatched roofs that shelter several extended families. Brazil's 1988 Constitution recognized, for the first time, indigenous peoples' right to their ancestral lands and cultures, though the actual demarcation and protection of that territory remains a disputed process to this day.",
+      },
+    },
+  },
+  {
+    id: "cafe-brasileno",
+    order: 18,
+    placeholderEmoji: "☕",
+    accentColor: "#6F4518",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El grano que convirtió a Brasil en potencia mundial",
+        subtitle: "Café brasileño",
+        imageAlt:
+          "Caricatura de una persona cosechando granos de café rojos de un arbusto en una ladera, con sacos de café apilados junto a ella.",
+        description:
+          "Introducido en Brasil en 1727 —según la leyenda, a partir de semillas de contrabando conseguidas por un oficial que sedujo a la esposa de un gobernador francés en la Guayana—, el café se convirtió en el motor económico del país durante buena parte de los siglos XIX y XX, financiando ferrocarriles, ciudades enteras y las olas de inmigración italiana y japonesa que llegaron a trabajar en las plantaciones de Minas Gerais, São Paulo y Espírito Santo. Desde hace más de 150 años, Brasil es el mayor productor y exportador de café del mundo, responsable de alrededor de un tercio de la oferta global. En la vida diaria, el 'cafezinho', un café pequeño, fuerte y bien azucarado, es un ritual de hospitalidad casi obligatorio: se ofrece a cualquier visita, desde una reunión de trabajo hasta la peluquería, como gesto mínimo pero indispensable de bienvenida.",
+      },
+      en: {
+        title: "The Bean That Made Brazil a World Power",
+        subtitle: "Brazilian Coffee",
+        imageAlt:
+          "Cartoon of a person picking red coffee cherries from a bush on a hillside, with sacks of coffee beans piled beside them.",
+        description:
+          "Introduced to Brazil in 1727 — legend has it, from smuggled seeds obtained by an officer who seduced the wife of a French governor in Guiana — coffee became the country's economic engine for much of the 19th and 20th centuries, financing railways, entire cities, and the waves of Italian and Japanese immigration that arrived to work the plantations of Minas Gerais, São Paulo, and Espírito Santo. For more than 150 years, Brazil has been the world's largest coffee producer and exporter, responsible for roughly a third of the global supply. In daily life, the 'cafezinho,' a small, strong, well-sugared coffee, is an almost mandatory ritual of hospitality: offered to any visitor, from a business meeting to the hair salon, as a minimal but indispensable welcoming gesture.",
+      },
+    },
+  },
+  {
+    id: "funk-carioca",
+    order: 19,
+    placeholderEmoji: "🔊",
+    accentColor: "#C9188C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El sonido de las favelas que conquistó el mundo",
+        subtitle: "Funk carioca",
+        imageAlt:
+          "Caricatura de un DJ frente a torres de parlantes gigantes con una multitud bailando bajo luces de colores en una calle de noche.",
+        description:
+          "El funk carioca nació a fines de los años 70 en los bailes de las favelas de Río de Janeiro, cuando DJs locales empezaron a versionar el 'Miami bass' estadounidense sobre un ritmo electrónico propio, el llamado 'tamborzão', mucho más grave y percusivo que su fuente original. Durante décadas fue estigmatizado y hasta criminalizado por su asociación con la pobreza y la violencia, con intentos policiales de prohibir los 'bailes funk', las fiestas callejeras multitudinarias donde el género se escuchaba en gigantescas torres de parlantes. Pese a esa persecución, el funk se convirtió en la banda sonora cotidiana de millones de cariocas y, en las últimas dos décadas, dio el salto a las listas internacionales a través de artistas como Anitta, que llevó el ritmo y el baile funk a escenarios y plataformas de streaming de todo el mundo, resignificando un género nacido de la creatividad de las favelas.",
+      },
+      en: {
+        title: "The Favela Sound That Conquered the World",
+        subtitle: "Funk Carioca",
+        imageAlt:
+          "Cartoon of a DJ in front of giant speaker stacks with a crowd dancing under colorful lights on a nighttime street.",
+        description:
+          "Funk carioca was born in the late 1970s at street parties in Rio de Janeiro's favelas, when local DJs began covering American 'Miami bass' over their own electronic beat, the so-called 'tamborzão,' much heavier and more percussive than its source. For decades it was stigmatized and even criminalized for its association with poverty and violence, with police attempts to ban the massive street 'bailes funk' where the genre blasted from towering speaker stacks. Despite that persecution, funk became the everyday soundtrack for millions of cariocas and, over the last two decades, crossed over onto international charts through artists like Anitta, who carried the rhythm and dance style to stages and streaming platforms around the world, reclaiming a genre born from favela creativity.",
+      },
+    },
+  },
+  {
+    id: "pantanal-vida-silvestre",
+    order: 20,
+    placeholderEmoji: "🐆",
+    accentColor: "#93A833",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El humedal donde los jaguares nadan",
+        subtitle: "El Pantanal",
+        imageAlt:
+          "Caricatura de un jaguar caminando por aguas poco profundas entre pastizales, con un guacamayo jacinto volando y un capibara cerca.",
+        description:
+          "El Pantanal, el humedal tropical más grande del planeta, se extiende principalmente por los estados brasileños de Mato Grosso y Mato Grosso do Sul, con ciclos anuales de inundación que cubren hasta el 80% de su superficie durante la temporada de lluvias y la transforman en un mosaico de lagunas poco profundas el resto del año. A diferencia de la selva amazónica, donde la densa vegetación esconde a los animales, el paisaje abierto del Pantanal permite observarlos con una facilidad excepcional: alberga la mayor densidad de jaguares de toda América, además de capibaras, el roedor más grande del mundo, y guacamayos jacinto, el loro más grande del planeta, con casi un metro de largo. Menos conocido internacionalmente que la Amazonía, el Pantanal concentra en poco espacio una de las mayores biomasas de fauna silvestre de todo el continente, y crece como destino de ecoturismo y avistamiento de vida salvaje.",
+      },
+      en: {
+        title: "The Wetland Where Jaguars Swim",
+        subtitle: "The Pantanal",
+        imageAlt:
+          "Cartoon of a jaguar wading through shallow water among tall grasses, with a hyacinth macaw flying overhead and a capybara nearby.",
+        description:
+          "The Pantanal, the largest tropical wetland on the planet, spreads mainly across the Brazilian states of Mato Grosso and Mato Grosso do Sul, with annual flood cycles that cover up to 80% of its surface during the rainy season and turn it into a mosaic of shallow lagoons the rest of the year. Unlike the Amazon rainforest, where dense vegetation hides its animals, the Pantanal's open landscape makes wildlife exceptionally easy to spot: it holds the highest density of jaguars found anywhere in the Americas, alongside capybaras, the world's largest rodent, and hyacinth macaws, the world's largest parrot at nearly a meter long. Less internationally known than the Amazon, the Pantanal packs one of the continent's largest concentrations of wildlife biomass into a small area, and is growing as a destination for ecotourism and wildlife watching.",
+      },
+    },
+  },
 ];

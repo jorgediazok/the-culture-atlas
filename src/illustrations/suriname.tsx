@@ -204,6 +204,60 @@ const AntonDeKomIndependencia: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const TortugasGalibi: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.5);
+  const sand = "#E8C87A";
+  return (
+    <g>
+      {/* sand at night */}
+      <rect x="90" y="80" width="230" height="170" fill={sand} opacity="0.35" />
+      {/* flippers, drawn first so the shell's fill covers their roots */}
+      <path d="M225 155 Q255 130 290 118 Q265 155 232 172 Z" fill={dark} />
+      <path d="M225 205 Q255 232 288 246 Q262 208 230 190 Z" fill={dark} />
+      <path d="M180 158 Q150 138 118 130 Q145 165 178 178 Z" fill={dark} />
+      <path d="M180 202 Q150 224 116 234 Q145 195 178 182 Z" fill={dark} />
+      {/* neck, drawn before the shell and head so both cover its roots */}
+      <path d="M240 165 Q255 168 262 168" fill="none" stroke={dark} strokeWidth="16" strokeLinecap="round" />
+      {/* shell */}
+      <ellipse cx="205" cy="180" rx="60" ry="38" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[[180, 165], [205, 155], [230, 165], [180, 195], [230, 195], [205, 205]].map(([x, y]) => (
+        <path key={`${x}-${y}`} d={`M${x - 10} ${y} L${x} ${y - 9} L${x + 10} ${y} L${x} ${y + 9} Z`} fill="none" stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      ))}
+      {/* head, painted over the neck's root */}
+      <circle cx="270" cy="170" r="16" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="277" cy="167" r="2" fill={dark} />
+      {/* eggs being laid in the sand nest */}
+      <ellipse cx="150" cy="235" rx="30" ry="10" fill={light} opacity="0.6" />
+      <circle cx="138" cy="233" r="7" fill="#F5F0E6" />
+      <circle cx="155" cy="238" r="7" fill="#F5F0E6" />
+      <circle cx="170" cy="232" r="7" fill="#F5F0E6" />
+    </g>
+  );
+};
+
+const BauxitaHistoriaEconomica: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const rail = "#6B6355";
+  const ore = "#B5651D";
+  return (
+    <g>
+      {/* rail track */}
+      <line x1="95" y1="235" x2="320" y2="235" stroke={rail} strokeWidth="4" />
+      <line x1="95" y1="245" x2="320" y2="245" stroke={rail} strokeWidth="4" />
+      {[110, 140, 170, 200, 230, 260, 290].map((x) => (
+        <line key={x} x1={x} y1="233" x2={x} y2="247" stroke={rail} strokeWidth="4" />
+      ))}
+      {/* mining cart */}
+      <path d="M150 175 L270 175 L258 220 L162 220 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="175" cy="228" r="12" fill={dark} />
+      <circle cx="245" cy="228" r="12" fill={dark} />
+      {/* reddish ore heaped in the cart */}
+      <path d="M158 175 Q175 150 200 160 Q225 145 245 165 Q262 155 262 175 Z" fill={ore} stroke={shade(ore, 0.3)} strokeWidth="2" />
+    </g>
+  );
+};
+
 export const surinameIllustrations: Record<string, IllustrationDefinition> = {
   "pais-mas-boscoso-del-mundo": { component: PaisMasBoscosoDelMundo },
   "paramaribo-patrimonio-colonial": { component: ParamariboPatrimonioColonial },
@@ -215,4 +269,6 @@ export const surinameIllustrations: Record<string, IllustrationDefinition> = {
   "unico-pais-neerlandofono-de-sudamerica": { component: UnicoPaisNeerlandofonoDeSudamerica },
   "reserva-natural-central-suriname": { component: ReservaNaturalCentralSuriname },
   "anton-de-kom-independencia": { component: AntonDeKomIndependencia },
+  "tortugas-galibi": { component: TortugasGalibi },
+  "bauxita-historia-economica": { component: BauxitaHistoriaEconomica },
 };

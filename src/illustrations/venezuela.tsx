@@ -186,6 +186,136 @@ const OrinocoLlanos: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const CacaoVenezolano: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const podColor = "#C9A02C";
+  const seedColor = "#5C3A21";
+  const chocolate = "#4A2C17";
+  const chocolateDark = shade(chocolate, 0.3);
+  return (
+    <g>
+      {/* opened cacao pod, ridged husk split open */}
+      <path d="M110 110 Q95 165 120 225 Q140 245 165 232 Q150 170 160 108 Q135 95 110 110 Z" fill={podColor} stroke={dark} strokeWidth="3" />
+      <path d="M118 118 Q108 168 128 220 M138 108 Q128 168 142 228" stroke={dark} strokeWidth="2" opacity="0.5" fill="none" />
+      {/* seeds inside the open half */}
+      <ellipse cx="150" cy="150" rx="11" ry="15" fill={seedColor} />
+      <ellipse cx="168" cy="170" rx="11" ry="15" fill={seedColor} />
+      <ellipse cx="152" cy="192" rx="11" ry="15" fill={seedColor} />
+      <ellipse cx="172" cy="205" rx="11" ry="15" fill={seedColor} />
+      {/* chocolate bar */}
+      <rect x="210" y="150" width="100" height="70" rx="4" fill={chocolate} stroke={chocolateDark} strokeWidth="3" />
+      <line x1="235" y1="150" x2="235" y2="220" stroke={chocolateDark} strokeWidth="3" />
+      <line x1="260" y1="150" x2="260" y2="220" stroke={chocolateDark} strokeWidth="3" />
+      <line x1="285" y1="150" x2="285" y2="220" stroke={chocolateDark} strokeWidth="3" />
+      <line x1="210" y1="185" x2="310" y2="185" stroke={chocolateDark} strokeWidth="3" />
+    </g>
+  );
+};
+
+const Hallaca: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.5);
+  const string = "#D4A017";
+  return (
+    <g>
+      {/* plantain-leaf wrapped bundle */}
+      <path d="M130 140 L270 140 Q290 140 290 170 L290 200 Q290 230 270 230 L130 230 Q110 230 110 200 L110 170 Q110 140 130 140 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M110 170 Q200 155 290 170 M110 200 Q200 215 290 200" stroke={dark} strokeWidth="2" opacity="0.4" fill="none" />
+      {/* folded leaf ends */}
+      <path d="M110 170 L90 150 L90 220 L110 200 Z" fill={light} stroke={dark} strokeWidth="2" />
+      <path d="M290 170 L310 150 L310 220 L290 200 Z" fill={light} stroke={dark} strokeWidth="2" />
+      {/* tied string, criss-cross */}
+      <line x1="140" y1="140" x2="140" y2="230" stroke={string} strokeWidth="4" />
+      <line x1="200" y1="140" x2="200" y2="230" stroke={string} strokeWidth="4" />
+      <line x1="260" y1="140" x2="260" y2="230" stroke={string} strokeWidth="4" />
+      <line x1="110" y1="165" x2="290" y2="165" stroke={string} strokeWidth="4" />
+      <line x1="110" y1="205" x2="290" y2="205" stroke={string} strokeWidth="4" />
+      {/* steam */}
+      <path d="M175 130 Q168 105 180 82" stroke={light} strokeWidth="4" strokeLinecap="round" fill="none" opacity="0.7" />
+      <path d="M215 130 Q208 100 222 78" stroke={light} strokeWidth="4" strokeLinecap="round" fill="none" opacity="0.6" />
+    </g>
+  );
+};
+
+const LosRoques: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const sand = "#F2E4C1";
+  const reef = "#E85D75";
+  const water = tint(accentColor, 0.35);
+  return (
+    <g>
+      {/* turquoise water */}
+      <rect x="90" y="80" width="230" height="170" fill={water} />
+      {/* reef patches under the water */}
+      <ellipse cx="150" cy="220" rx="34" ry="10" fill={reef} opacity="0.6" />
+      <ellipse cx="250" cy="230" rx="28" ry="8" fill={reef} opacity="0.5" />
+      {/* two small sandy islets with a palm each */}
+      <ellipse cx="160" cy="170" rx="46" ry="16" fill={sand} stroke={dark} strokeWidth="2" />
+      <path d="M130 168 Q145 148 165 160 Q158 150 170 145" fill="none" stroke="#2E7D32" strokeWidth="4" strokeLinecap="round" />
+      <ellipse cx="255" cy="150" rx="30" ry="11" fill={sand} stroke={dark} strokeWidth="2" />
+      <path d="M240 148 Q250 132 264 142" fill="none" stroke="#2E7D32" strokeWidth="4" strokeLinecap="round" />
+      {/* small sailboat */}
+      <path d="M292 200 L292 235 L272 235 Z" fill={dark} />
+      <path d="M292 165 L292 200 L305 200 Z" fill="#fff" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const DiablosDanzantesCorpusChristi: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const skin = "#C97C4A";
+  const white = "#F5F0E6";
+  const black = "#2A2A2A";
+  return (
+    <g>
+      {/* horns, drawn first so the mask's fill covers their roots */}
+      <path d="M195 105 Q165 85 140 100 Q160 108 190 112 Z" fill={dark} />
+      <path d="M205 105 Q235 85 260 100 Q240 108 210 112 Z" fill={dark} />
+      {/* robed torso; top edge curves to overlap the mask circle's true boundary at every x */}
+      <path d="M175 105 Q200 124 225 105 L245 215 L155 215 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* mask, painted over the horn roots and the torso's neckline */}
+      <circle cx="200" cy="110" r="28" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="190" cy="105" r="5" fill={white} />
+      <circle cx="210" cy="105" r="5" fill={white} />
+      <circle cx="190" cy="105" r="2" fill={black} />
+      <circle cx="210" cy="105" r="2" fill={black} />
+      <path d="M188 122 L192 132 L196 122 M204 122 L208 132 L212 122" fill={white} />
+      {/* raised arms, strokes starting well inside the torso fill */}
+      <path d="M188 140 Q160 120 145 90" fill="none" stroke={skin} strokeWidth="10" strokeLinecap="round" />
+      <path d="M212 140 Q240 120 255 90" fill="none" stroke={skin} strokeWidth="10" strokeLinecap="round" />
+      <circle cx="142" cy="85" r="9" fill={dark} />
+      <circle cx="258" cy="85" r="9" fill={dark} />
+      {/* legs mid-step, strokes starting well inside the torso fill */}
+      <path d="M185 205 Q170 225 150 245" fill="none" stroke={black} strokeWidth="11" strokeLinecap="round" />
+      <path d="M215 205 Q235 220 250 240" fill="none" stroke={black} strokeWidth="11" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const TelefericoMerida: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.5);
+  const snow = "#F5F0E6";
+  const rock = "#6B7280";
+  return (
+    <g>
+      {/* snowy Andean peak */}
+      <path d="M180 90 L230 90 L280 220 L130 220 Z" fill={rock} />
+      <path d="M188 96 L222 96 L210 130 L200 130 Z" fill={snow} />
+      {/* cable line */}
+      <line x1="110" y1="235" x2="255" y2="105" stroke={dark} strokeWidth="3" />
+      {/* cable car cabin midway on the line */}
+      <path d="M175 155 L205 155 L200 180 L180 180 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <line x1="188" y1="150" x2="188" y2="155" stroke={dark} strokeWidth="4" />
+      <rect x="180" y="158" width="9" height="10" fill={light} />
+      <rect x="192" y="158" width="9" height="10" fill={light} />
+      {/* frailejón plants at the base */}
+      <ellipse cx="130" cy="238" rx="14" ry="6" fill="#8FA05A" />
+      <ellipse cx="150" cy="242" rx="16" ry="7" fill="#8FA05A" />
+    </g>
+  );
+};
+
 export const venezuelaIllustrations: Record<string, IllustrationDefinition> = {
   "salto-angel": { component: SaltoAngel },
   "tepuyes-roraima": { component: TepuyesRoraima },
@@ -197,4 +327,9 @@ export const venezuelaIllustrations: Record<string, IllustrationDefinition> = {
   "beisbol-venezolano": { component: BeisbolVenezolano },
   "reservas-petroleo": { component: ReservasPetroleo },
   "orinoco-llanos": { component: OrinocoLlanos },
+  "cacao-venezolano": { component: CacaoVenezolano },
+  hallaca: { component: Hallaca },
+  "los-roques": { component: LosRoques },
+  "diablos-danzantes-corpus-christi": { component: DiablosDanzantesCorpusChristi },
+  "teleferico-merida": { component: TelefericoMerida },
 };

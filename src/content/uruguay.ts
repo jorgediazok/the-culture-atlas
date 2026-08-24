@@ -231,4 +231,129 @@ export const uruguay: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "candombe",
+    order: 11,
+    placeholderEmoji: "🥁",
+    accentColor: "#C77B2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tambor afrouruguayo que se volvió patrimonio",
+        subtitle: "El candombe",
+        imageAlt:
+          "Caricatura de tres tamborileros tocando tambores de distintos tamaños en fila.",
+        description:
+          "El candombe, un género musical y de danza nacido entre las comunidades afrodescendientes esclavizadas y libres de Montevideo durante la época colonial, se toca con tres tambores de distinto tamaño y tono —chico, repique y piano— que se ejecutan simultáneamente en conjuntos llamados 'cuerdas', produciendo un patrón rítmico complejo reconocible al instante en cualquier calle de la ciudad. Su expresión más visible es el desfile de Llamadas, celebrado cada año en los barrios históricos Sur y Palermo, cuna del candombe, donde cientos de tamborileros y bailarinas marchan durante horas al ritmo de comparsas que pueden reunir hasta un centenar de tambores tocando al unísono. Reconocido por la UNESCO en 2009 como Patrimonio Cultural Inmaterial de la Humanidad, el candombe sigue transmitiéndose de generación en generación dentro de las mismas familias afrouruguayas, muchas de las cuales tocan el mismo tambor heredado de sus abuelos.",
+      },
+      en: {
+        title: "The Afro-Uruguayan Drum That Became Heritage",
+        subtitle: "Candombe",
+        imageAlt:
+          "Cartoon of three drummers playing drums of different sizes in a row.",
+        description:
+          "Candombe, a musical and dance genre born among enslaved and free Afro-descendant communities in colonial-era Montevideo, is played with three drums of different sizes and pitches — chico, repique, and piano — performed simultaneously in ensembles called 'cuerdas,' producing a complex rhythmic pattern instantly recognizable on any street in the city. Its most visible expression is the Llamadas parade, held every year in the historic Sur and Palermo neighborhoods, the birthplace of candombe, where hundreds of drummers and dancers march for hours to the beat of comparsas that can gather up to a hundred drums playing in unison. Recognized by UNESCO in 2009 as Intangible Cultural Heritage of Humanity, candombe is still passed down generation after generation within the same Afro-Uruguayan families, many of whom play the very drum inherited from their grandparents.",
+      },
+    },
+  },
+  {
+    id: "jose-artigas",
+    order: 12,
+    placeholderEmoji: "🐎",
+    accentColor: "#5B8AC7",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El líder que soñó una federación antes de tiempo",
+        subtitle: "José Gervasio Artigas",
+        imageAlt:
+          "Caricatura de un jinete con poncho y sombrero alzando una bandera a caballo.",
+        description:
+          "José Gervasio Artigas, considerado el prócer fundador de Uruguay y venerado como 'Padre de la Patria', lideró a comienzos del siglo XIX un movimiento revolucionario en la Banda Oriental que buscaba una federación de provincias autónomas del Río de la Plata, una visión política adelantada a su tiempo que chocó tanto con el centralismo de Buenos Aires como con las ambiciones expansionistas de Portugal y luego Brasil sobre el territorio. Tras años de lucha, la invasión portuguesa de 1816 lo obligó a un exilio forzado en Paraguay, donde pasó sus últimos treinta años de vida bajo la protección —y vigilancia— del dictador paraguayo José Gaspar Rodríguez de Francia, sin regresar jamás a la tierra que había liderado, muriendo en 1850 sin ver nacer formalmente al Uruguay independiente en 1825. Hoy su figura, representada casi siempre a caballo con poncho, es el símbolo cívico más reproducido del país, presente en la moneda y en el nombre de calles y plazas de cada ciudad uruguaya.",
+      },
+      en: {
+        title: "The Leader Who Dreamed of Federation Too Soon",
+        subtitle: "José Gervasio Artigas",
+        imageAlt:
+          "Cartoon of a horseman in a poncho and hat raising a flag on horseback.",
+        description:
+          "José Gervasio Artigas, regarded as Uruguay's founding hero and revered as 'Father of the Nation,' led a revolutionary movement in the early 19th century across the Banda Oriental seeking a federation of autonomous provinces along the Río de la Plata, a political vision ahead of its time that clashed both with centralist Buenos Aires and with the expansionist ambitions Portugal and later Brazil held over the territory. After years of fighting, the 1816 Portuguese invasion forced him into exile in Paraguay, where he spent his final thirty years under the protection — and surveillance — of Paraguayan dictator José Gaspar Rodríguez de Francia, never returning to the land he had led, dying in 1850 without ever formally seeing independent Uruguay, founded in 1825. Today his figure, almost always depicted on horseback in a poncho, is the country's most reproduced civic symbol, appearing on currency and in the name of streets and plazas across every Uruguayan city.",
+      },
+    },
+  },
+  {
+    id: "energia-eolica-uruguay",
+    order: 13,
+    placeholderEmoji: "🌬️",
+    accentColor: "#2E8B8B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que casi no quema combustibles para su luz",
+        subtitle: "La energía renovable uruguaya",
+        imageAlt:
+          "Caricatura de turbinas eólicas blancas girando sobre colinas verdes.",
+        description:
+          "Uruguay transformó su matriz eléctrica en poco más de una década, pasando de depender fuertemente de la importación de combustibles fósiles a generar cerca del 98% de su electricidad a partir de fuentes renovables —principalmente hidroeléctrica, eólica y solar—, un logro que expertos internacionales citan habitualmente como caso de estudio, alcanzado sin subsidios estatales directos sino mediante contratos de largo plazo que dieron previsibilidad a la inversión privada en parques eólicos. El cambio se aceleró especialmente a partir de 2008, cuando el país instaló cientos de aerogeneradores en el interior rural, aprovechando vientos particularmente constantes en gran parte de su territorio, hasta convertirse en uno de los países con mayor porcentaje de energía eólica per cápita del mundo. El resultado le permitió a Uruguay no solo cubrir su propia demanda energética sino también exportar electricidad excedente a Argentina y Brasil en determinados períodos del año.",
+      },
+      en: {
+        title: "The Country That Barely Burns Fuel for Power",
+        subtitle: "Uruguay's Renewable Energy",
+        imageAlt:
+          "Cartoon of white wind turbines spinning over green hills.",
+        description:
+          "Uruguay transformed its electricity grid in just over a decade, moving from heavy dependence on imported fossil fuels to generating around 98% of its electricity from renewable sources — mainly hydroelectric, wind, and solar — an achievement international experts frequently cite as a case study, reached without direct state subsidies but through long-term contracts that gave private investment in wind farms the predictability it needed. The shift accelerated especially after 2008, when the country installed hundreds of wind turbines across its rural interior, taking advantage of particularly steady winds across much of its territory, becoming one of the countries with the highest wind power output per capita in the world. The result let Uruguay not only cover its own energy demand but also export surplus electricity to Argentina and Brazil during certain periods of the year.",
+      },
+    },
+  },
+  {
+    id: "casapueblo-paez-vilaro",
+    order: 14,
+    placeholderEmoji: "🏛️",
+    accentColor: "#3E6B8A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La casa-escultura blanca que mira al atardecer",
+        subtitle: "Casapueblo",
+        imageAlt:
+          "Caricatura de una construcción blanca de formas curvas sobre un acantilado frente al mar.",
+        description:
+          "Casapueblo, en Punta Ballena cerca de Punta del Este, es a la vez la casa, el taller y el museo del artista uruguayo Carlos Páez Vilaró, quien comenzó a construirla en 1958 sin planos previos y siguió ampliándola durante más de treinta y seis años, inspirado en los nidos de hornero y en los pueblos blancos de Grecia y del norte de África que había visitado en sus viajes. La construcción, hecha íntegramente a mano por el propio artista junto a albañiles locales, carece de líneas rectas o ángulos definidos, con formas curvas, terrazas irregulares y ventanas redondas que se funden con el acantilado rocoso sobre el que está construida, mirando directamente hacia uno de los atardeceres más fotografiados de la costa uruguaya. Tras la muerte de Páez Vilaró en 2014, sus cenizas fueron esparcidas allí mismo según su deseo, y Casapueblo, hoy convertida en museo y hotel, sigue recibiendo cada tarde a decenas de visitantes que llegan puntualmente para ver la puesta de sol desde su terraza.",
+      },
+      en: {
+        title: "The White Sculpture-House Facing the Sunset",
+        subtitle: "Casapueblo",
+        imageAlt:
+          "Cartoon of a curving white building perched on a cliff facing the sea.",
+        description:
+          "Casapueblo, in Punta Ballena near Punta del Este, is simultaneously the home, studio, and museum of Uruguayan artist Carlos Páez Vilaró, who began building it in 1958 with no blueprint and kept expanding it for more than thirty-six years, inspired by hornero-bird nests and by the whitewashed villages of Greece and North Africa he had visited on his travels. The structure, built entirely by hand by the artist himself alongside local masons, has no straight lines or defined angles, with curving forms, irregular terraces, and round windows that merge into the rocky cliff it sits on, facing directly toward one of the most photographed sunsets on the Uruguayan coast. After Páez Vilaró's death in 2014, his ashes were scattered there per his wishes, and Casapueblo, now a museum and hotel, still welcomes dozens of visitors every evening who arrive punctually to watch the sunset from its terrace.",
+      },
+    },
+  },
+  {
+    id: "cabo-polonio",
+    order: 15,
+    placeholderEmoji: "🦭",
+    accentColor: "#D9A441",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo costero que vive sin electricidad de red",
+        subtitle: "Cabo Polonio",
+        imageAlt:
+          "Caricatura de cabañas rústicas de madera sobre dunas de arena junto a un faro.",
+        description:
+          "Cabo Polonio, un pequeño asentamiento sobre la costa atlántica de Uruguay dentro de un parque nacional protegido, se mantiene deliberadamente al margen de la red eléctrica pública: sus pocos cientos de habitantes permanentes dependen de paneles solares y generadores propios, y el pueblo carece de calles pavimentadas, accesible solo a pie, a caballo o en camiones especiales adaptados para cruzar las dunas que lo rodean. Se hizo conocido internacionalmente por su colonia de lobos marinos, una de las más grandes de Sudamérica, que se congrega en las rocas frente al faro de Cabo Polonio, construido en 1881 y todavía en funcionamiento, además de por un ambiente bohemio que atrajo desde los años 60 a artistas y viajeros que buscaban desconectarse de la vida urbana. Su condición de área protegida, declarada en 2009, impide nuevas construcciones y busca preservar tanto el ecosistema de dunas como el estilo de vida sin electricidad de red que define al pueblo.",
+      },
+      en: {
+        title: "The Coastal Town That Lives Off the Grid",
+        subtitle: "Cabo Polonio",
+        imageAlt:
+          "Cartoon of rustic wooden cabins on sand dunes beside a lighthouse.",
+        description:
+          "Cabo Polonio, a small settlement on Uruguay's Atlantic coast within a protected national park, deliberately stays off the public electrical grid, and its few hundred permanent residents rely on solar panels and their own generators, while also lacking paved streets or conventional transport, reachable only on foot, on horseback, or by special trucks built to cross the sand dunes surrounding the town. The place became internationally known for its sea lion colony, one of the largest in South America, which gathers on the rocks facing the Cabo Polonio lighthouse, built in 1881 and still operating, as well as for a bohemian atmosphere that has drawn artists, surfers, and travelers seeking to deliberately disconnect from urban life since the 1960s. Its status as a protected area, declared in 2009, blocks new construction and aims to preserve both the dune ecosystem and the off-grid lifestyle that defines the town.",
+      },
+    },
+  },
 ];

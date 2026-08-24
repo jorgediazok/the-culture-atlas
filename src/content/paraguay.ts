@@ -231,4 +231,129 @@ export const paraguay: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "sopa-paraguaya",
+    order: 11,
+    placeholderEmoji: "🌽",
+    accentColor: "#C9962E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La 'sopa' que en realidad es un pastel horneado",
+        subtitle: "La sopa paraguaya",
+        imageAlt:
+          "Caricatura de un molde cuadrado de pastel de maíz dorado recién horneado.",
+        description:
+          "La sopa paraguaya, pese a su nombre, no es un líquido sino un pastel horneado y compacto hecho con harina de maíz, queso, cebolla y leche, cuyo origen se atribuye a una leyenda popular sobre un cocinero de la corte del presidente Carlos Antonio López que, tras arruinar accidentalmente una sopa de maíz dejándola demasiado espesa, decidió hornear la mezcla en lugar de descartarla, y el resultado gustó tanto que se volvió costumbre. El plato se sirve tradicionalmente junto al asado paraguayo, en lugar de pan, y su variante conocida como 'sopa so'o' incorpora carne picada dentro de la masa, mientras que el 'mbeju', hecho con almidón de mandioca en lugar de maíz, es un primo cercano de la misma familia de panes paraguayos sin levadura. Es habitual encontrarla en casi cualquier celebración familiar, desde cumpleaños hasta fiestas patrias.",
+      },
+      en: {
+        title: "The 'Soup' That's Actually a Baked Cornbread",
+        subtitle: "Sopa Paraguaya",
+        imageAlt:
+          "Cartoon of a square baking dish with golden cornbread fresh out of the oven.",
+        description:
+          "Despite its name, sopa paraguaya ('Paraguayan soup') isn't a liquid at all but a dense, baked cornbread made with corn flour, cheese, onion, and milk, its origin traced to a popular legend about a cook at the court of President Carlos Antonio López who, after accidentally making a corn soup far too thick, decided to bake the mixture instead of throwing it out, and the result was so well liked it became custom. The dish is traditionally served alongside Paraguayan-style barbecue instead of bread, and its variant known as 'sopa so'o' adds ground meat into the batter, while 'mbeju,' made with cassava starch instead of corn, is a close cousin from the same family of unleavened Paraguayan breads. It's a fixture at nearly every family celebration, from birthdays to national holidays.",
+      },
+    },
+  },
+  {
+    id: "carnaval-encarnacion",
+    order: 12,
+    placeholderEmoji: "🎉",
+    accentColor: "#C2185B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El carnaval más grande fuera de Brasil",
+        subtitle: "El Carnaval Encarnaceno",
+        imageAlt:
+          "Caricatura de una bailarina de carnaval con plumas y traje brillante sobre una carroza.",
+        description:
+          "El Carnaval Encarnaceno, celebrado cada verano en la ciudad de Encarnación, sobre la orilla del río Paraná al sur de Paraguay, se considera uno de los carnavales más grandes de Sudamérica fuera de Brasil, con comparsas que compiten en un circuito construido especialmente, el 'Sambódromo' local, donde bailarinas con trajes de plumas y lentejuelas desfilan sobre carrozas iluminadas siguiendo el mismo formato de las escuelas de samba brasileñas, aunque con identidad musical propia que mezcla ritmos brasileños, caribeños y guaraníes. El evento surgió en los años 90 como una apuesta de la ciudad por reinventarse turísticamente después de perder buena parte de su costa histórica bajo las aguas de la represa de Yacyretá, y hoy convoca a cientos de miles de visitantes de Paraguay, Argentina y Brasil durante varios fines de semana consecutivos.",
+      },
+      en: {
+        title: "The Biggest Carnival Outside Brazil",
+        subtitle: "The Encarnación Carnival",
+        imageAlt:
+          "Cartoon of a carnival dancer with feathers and a sparkling costume on a float.",
+        description:
+          "The Encarnación Carnival, held every summer in the city of Encarnación on the banks of the Paraná River in southern Paraguay, is considered one of the largest carnivals in South America outside Brazil, with comparsas competing along a purpose-built circuit, the local 'Sambódromo,' where dancers in feathered, sequined costumes parade on illuminated floats following the same format as Brazilian samba schools, though with its own musical identity blending Brazilian, Caribbean, and Guaraní rhythms. The event emerged in the 1990s as the city's bid to reinvent itself as a tourist destination after losing much of its historic waterfront beneath the waters of the Yacyretá Dam, and today it draws hundreds of thousands of visitors from Paraguay, Argentina, and Brazil over several consecutive weekends.",
+      },
+    },
+  },
+  {
+    id: "ao-poi-yataity",
+    order: 13,
+    placeholderEmoji: "🧵",
+    accentColor: "#7B9E89",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El bordado transparente que teje hilos en flores",
+        subtitle: "El ao po'i de Yataity",
+        imageAlt:
+          "Caricatura de una tela blanca con bordado de flores y líneas de hilos entrelazados.",
+        description:
+          "El ao po'i, cuyo nombre significa 'tela fina' en guaraní, es una técnica textil paraguaya originada en el pequeño pueblo de Yataity, donde artesanas bordan a mano motivos florales y geométricos sobre algodón fino, combinándolos con una técnica llamada 'sombra' que consiste en tejer hilos sueltos de la propia tela en patrones calados, dejando pequeños espacios transparentes que se distinguen del bordado tradicional que solo agrega hilo sobre la superficie. La prenda más asociada a la técnica es la camisa 'ao po'i', usada tradicionalmente por los hombres del campo paraguayo en ocasiones formales, aunque hoy se aplica también a manteles, blusas y vestidos vendidos en mercados artesanales de todo el país. Yataity celebra cada año un festival dedicado a la técnica, y varias generaciones de la misma familia suelen trabajar juntas en talleres domésticos donde el oficio se transmite oralmente, sin patrones escritos.",
+      },
+      en: {
+        title: "The Sheer Embroidery That Weaves Loose Threads",
+        subtitle: "Ao Po'i From Yataity",
+        imageAlt:
+          "Cartoon of white cloth with embroidered flowers and interlaced thread lines.",
+        description:
+          "Ao po'i, whose name means 'fine cloth' in Guaraní, is a Paraguayan textile technique that originated in the small town of Yataity, where artisans hand-embroider floral and geometric motifs onto fine cotton, combining them with a technique called 'sombra' that involves pulling loose threads from the fabric itself into open, lace-like patterns, leaving small transparent gaps that set it apart from ordinary embroidery, which only adds thread on top of the surface. The garment most associated with the technique is the 'ao po'i' shirt, traditionally worn by Paraguayan countrymen on formal occasions, though it's now also applied to tablecloths, blouses, and dresses sold in craft markets across the country. Yataity holds an annual festival dedicated to the technique, and several generations of the same family often work together in home workshops where the craft is passed down orally, with no written patterns.",
+      },
+    },
+  },
+  {
+    id: "independencia-silenciosa",
+    order: 14,
+    placeholderEmoji: "🕯️",
+    accentColor: "#2C3E50",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La independencia que se declaró sin disparar un tiro",
+        subtitle: "La independencia silenciosa de Paraguay",
+        imageAlt:
+          "Caricatura de una vela encendida junto a un documento sellado, sin armas alrededor.",
+        description:
+          "A diferencia de la mayoría de los países sudamericanos, cuya independencia se logró tras años de guerras sangrientas contra España, Paraguay se independizó en la noche del 14 al 15 de mayo de 1811 mediante un movimiento cívico-militar casi incruento, cuando un grupo de criollos liderado por figuras como José Gaspar Rodríguez de Francia y Pedro Juan Caballero rodeó en silencio el cuartel de Asunción y obligó al gobernador español a rendirse sin que se disparara un solo tiro relevante. La rapidez y discreción del movimiento sorprendió incluso a los propios organizadores, que actuaron con tanto sigilo que buena parte de la población de Asunción se enteró de la independencia recién al amanecer, cuando ya era un hecho consumado. Paraguay se convirtió así en una rareza histórica regional: una nación que nació casi sin derramamiento de sangre, en contraste directo con la Guerra de la Triple Alianza que décadas después la desangraría hasta niveles extremos.",
+      },
+      en: {
+        title: "The Independence Declared Without Firing a Shot",
+        subtitle: "Paraguay's Silent Independence",
+        imageAlt:
+          "Cartoon of a lit candle beside a sealed document, with no weapons in sight.",
+        description:
+          "Unlike most South American countries, whose independence came after years of bloody wars against Spain, Paraguay became independent on the night of May 14–15, 1811, through an almost bloodless civic-military movement, when a group of criollos led by figures like José Gaspar Rodríguez de Francia and Pedro Juan Caballero quietly surrounded the barracks in Asunción and forced the Spanish governor to surrender without a single significant shot fired. The speed and discretion of the movement surprised even its own organizers, who acted with such stealth that much of Asunción's population only learned of independence at dawn, when it was already a done deal. Paraguay thus became a regional historical rarity: a nation born almost without bloodshed, in stark contrast to the War of the Triple Alliance that would bleed it to extremes decades later.",
+      },
+    },
+  },
+  {
+    id: "futbol-albirroja",
+    order: 15,
+    placeholderEmoji: "⚽",
+    accentColor: "#B22222",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La pasión futbolera de un país chico entre gigantes",
+        subtitle: "El fútbol y la Albirroja",
+        imageAlt:
+          "Caricatura de una camiseta de fútbol a rayas rojas y blancas junto a una pelota.",
+        description:
+          "La selección de fútbol de Paraguay, apodada 'la Albirroja' por sus tradicionales rayas rojas y blancas, desarrolló una pasión futbolera comparable a la de sus vecinos mucho más grandes y poblados, Argentina y Brasil, logrando una participación histórica de ocho Copas Mundiales, incluyendo el llamativo hito de haber llegado a los cuartos de final del Mundial de Sudáfrica 2010, su mejor actuación histórica, superando a selecciones con presupuestos e infraestructura muy superiores. El Club Olimpia, con sede en Asunción, se convirtió en uno de los equipos más laureados de Sudamérica, ganando tres veces la Copa Libertadores, mientras que el país también aportó jugadores influyentes como José Luis Chilavert, considerado uno de los mejores arqueros goleadores de la historia por su capacidad única de convertir goles de tiro libre y penal.",
+      },
+      en: {
+        title: "Football Passion in a Small Country Among Giants",
+        subtitle: "Football and the Albirroja",
+        imageAlt:
+          "Cartoon of a red-and-white striped football jersey beside a ball.",
+        description:
+          "Paraguay's national football team, nicknamed 'la Albirroja' for its traditional red-and-white stripes, developed a footballing passion comparable to that of its much larger, more populous neighbors, Argentina and Brazil, achieving a historic eight World Cup appearances, including the notable milestone of reaching the quarterfinals of the 2010 South Africa World Cup, its best-ever performance, outlasting national teams with far greater budgets and infrastructure. Club Olimpia, based in Asunción, became one of South America's most decorated clubs, winning the Copa Libertadores three times, while the country also produced influential players like José Luis Chilavert, considered one of the greatest goalkeeper-scorers in history for his rare ability to convert free kicks and penalties.",
+      },
+    },
+  },
 ];

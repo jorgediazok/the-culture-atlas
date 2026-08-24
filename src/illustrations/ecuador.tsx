@@ -192,6 +192,133 @@ const RosasEcuatorianas: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const CevicheEcuatoriano: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.5);
+  const shrimp = "#F2A65A";
+  const onion = "#B565A7";
+  const gold = "#D4A017";
+  return (
+    <g>
+      {/* bowl */}
+      <path d="M110 175 Q110 240 205 240 Q300 240 300 175 Z" fill={light} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="175" rx="95" ry="22" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* shrimp */}
+      <path d="M170 165 Q155 150 165 138 Q178 145 175 160 Z" fill={shrimp} stroke={dark} strokeWidth="1.5" />
+      <path d="M225 170 Q212 155 222 143 Q234 150 230 165 Z" fill={shrimp} stroke={dark} strokeWidth="1.5" />
+      {/* red onion rings */}
+      <ellipse cx="200" cy="180" rx="14" ry="6" fill="none" stroke={onion} strokeWidth="3" />
+      <ellipse cx="230" cy="190" rx="12" ry="5" fill="none" stroke={onion} strokeWidth="3" />
+      {/* tomato bits */}
+      <circle cx="180" cy="195" r="6" fill="#D64550" />
+      <circle cx="255" cy="180" r="6" fill="#D64550" />
+      {/* chifles on the side */}
+      <ellipse cx="325" cy="215" rx="16" ry="9" fill={gold} stroke={dark} strokeWidth="2" transform="rotate(-15 325 215)" />
+      <ellipse cx="335" cy="195" rx="16" ry="9" fill={gold} stroke={dark} strokeWidth="2" transform="rotate(10 335 195)" />
+    </g>
+  );
+};
+
+const ConferenciaDeGuayaquil: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C97C4A";
+  const gold = "#D4AF37";
+  const building = "#C9B18C";
+  return (
+    <g>
+      {/* colonial building arch behind them */}
+      <rect x="95" y="110" width="230" height="120" fill={building} opacity="0.5" />
+      <path d="M175 230 L175 165 Q200 140 225 165 L225 230 Z" fill="none" stroke={dark} strokeWidth="3" opacity="0.6" />
+      {/* general A: torso built with a curved top edge overlapping the head's true circle */}
+      <path d="M138 100 Q150 118 162 100 L172 200 L128 200 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="150" cy="110" r="16" fill={skin} />
+      <path d="M132 104 Q150 90 168 104 L168 100 Q150 96 132 100 Z" fill={dark} />
+      <path d="M140 150 Q170 160 195 172" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M140 155 L135 195" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M140 200 L136 232 M158 200 L162 232" stroke={dark} strokeWidth="9" strokeLinecap="round" />
+      {/* general B, mirrored */}
+      <path d="M238 100 Q250 118 262 100 L272 200 L228 200 Z" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="3" />
+      <circle cx="250" cy="110" r="16" fill={skin} />
+      <path d="M232 104 Q250 90 268 104 L268 100 Q250 96 232 100 Z" fill={dark} />
+      <path d="M260 150 Q230 160 205 172" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M260 155 L265 195" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M240 200 L236 232 M258 200 L262 232" stroke={dark} strokeWidth="9" strokeLinecap="round" />
+      {/* clasped hands at the meeting point */}
+      <circle cx="200" cy="172" r="9" fill={gold} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const LagunaQuilotoa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.5);
+  const rock = "#8B7355";
+  const rockLight = tint(rock, 0.3);
+  return (
+    <g>
+      {/* crater walls */}
+      <path d="M95 250 L130 100 Q205 78 280 100 L320 250 Z" fill={rock} />
+      <path d="M95 250 L130 100 Q160 92 190 90 L165 250 Z" fill={rockLight} opacity="0.6" />
+      <path d="M250 95 Q285 100 320 250 L280 250 L245 105 Z" fill={shade(rock, 0.2)} opacity="0.6" />
+      {/* turquoise lake filling the crater floor */}
+      <path d="M150 250 Q160 175 205 168 Q250 175 260 250 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M180 230 Q205 218 230 230" stroke={tint(accentColor, 0.4)} strokeWidth="3" fill="none" opacity="0.6" />
+    </g>
+  );
+};
+
+const MamaNegraLatacunga: IllustrationComponent = ({ accentColor }) => {
+  const dark = "#3A2A22";
+  const skin = "#8B5A3C";
+  const gold = "#D4AF37";
+  return (
+    <g>
+      {/* horse tail and legs, drawn first so the body ellipse covers their roots */}
+      <path d="M145 190 Q120 205 110 230" fill="none" stroke={dark} strokeWidth="9" strokeLinecap="round" />
+      <path d="M165 210 L155 245 M185 214 L178 248 M215 212 L222 246 M235 206 L245 240" stroke={dark} strokeWidth="10" strokeLinecap="round" fill="none" />
+      {/* neck, drawn before the body and head so both cover its roots */}
+      <path d="M218 182 Q248 145 268 155" fill="none" stroke={dark} strokeWidth="24" strokeLinecap="round" />
+      {/* horse body */}
+      <ellipse cx="190" cy="197" rx="58" ry="28" fill={dark} />
+      {/* horse head and mane */}
+      <circle cx="270" cy="152" r="18" fill={dark} />
+      <path d="M282 145 Q300 150 298 162 Q285 162 280 152 Z" fill={dark} />
+      <path d="M228 168 Q245 150 262 148" fill="none" stroke={dark} strokeWidth="6" strokeLinecap="round" opacity="0.7" />
+      <polygon points="260,138 265,126 270,138" fill={dark} />
+      {/* rider torso, curved top overlapping the rider's head circle */}
+      <path d="M182 148 Q200 168 218 148 L226 210 L174 210 Z" fill={accentColor} stroke={shade(accentColor, 0.4)} strokeWidth="3" />
+      <circle cx="200" cy="158" r="15" fill={skin} />
+      {/* headwrap / dark face paint, part of the tradition's costume */}
+      <path d="M186 152 Q200 140 214 152 Q214 165 200 170 Q186 165 186 152 Z" fill={dark} />
+      {/* embroidered cape trim */}
+      <path d="M178 165 Q200 178 222 165" fill="none" stroke={gold} strokeWidth="4" />
+      {/* arms, strokes starting well inside the torso fill */}
+      <path d="M190 175 Q165 185 155 200" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M210 175 Q235 185 245 195" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const BalsaKonTiki: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
+  const sail = "#F5F0E6";
+  return (
+    <g>
+      {/* ocean waves */}
+      <path d="M95 220 Q140 205 185 220 Q230 235 275 220 Q300 212 320 220 L320 250 L95 250 Z" fill={water} />
+      <path d="M95 220 Q140 205 185 220 Q230 235 275 220 Q300 212 320 220" fill="none" stroke={tint(water, 0.4)} strokeWidth="2" opacity="0.6" />
+      {/* balsa log raft */}
+      {[0, 1, 2, 3, 4, 5].map((i) => (
+        <rect key={i} x={110 + i * 30} y="205" width="26" height="14" rx="6" fill={accentColor} stroke={dark} strokeWidth="2" />
+      ))}
+      {/* mast and square sail */}
+      <line x1="200" y1="200" x2="200" y2="105" stroke={dark} strokeWidth="5" />
+      <line x1="165" y1="120" x2="235" y2="120" stroke={dark} strokeWidth="4" />
+      <path d="M167 120 L233 120 L225 175 L175 175 Z" fill={sail} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
 export const ecuadorIllustrations: Record<string, IllustrationDefinition> = {
   "islas-galapagos": { component: IslasGalapagos },
   "mitad-del-mundo": { component: MitadDelMundo },
@@ -203,4 +330,9 @@ export const ecuadorIllustrations: Record<string, IllustrationDefinition> = {
   dolarizacion: { component: Dolarizacion },
   "amazonia-yasuni": { component: AmazoniaYasuni },
   "rosas-ecuatorianas": { component: RosasEcuatorianas },
+  "ceviche-ecuatoriano": { component: CevicheEcuatoriano },
+  "conferencia-de-guayaquil": { component: ConferenciaDeGuayaquil },
+  "laguna-quilotoa": { component: LagunaQuilotoa },
+  "mama-negra-latacunga": { component: MamaNegraLatacunga },
+  "balsa-kon-tiki": { component: BalsaKonTiki },
 };
