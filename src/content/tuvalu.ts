@@ -231,4 +231,50 @@ export const tuvalu: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "pulaka-pozos",
+    order: 11,
+    placeholderEmoji: "🌿",
+    accentColor: "#4E7834",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tubérculo gigante que crece en pozos de compost",
+        subtitle: "El pulaka de Tuvalu",
+        imageAlt: "Caricatura de un pozo excavado con grandes hojas de tubérculo creciendo dentro.",
+        description:
+          "En los atolones de coral de Tuvalu, donde el suelo es delgado, salino y casi estéril, cultivar cualquier tubérculo de raíz profunda resultaría imposible sin una solución ingeniosa: el pulaka (taro gigante de pantano) se siembra en pozos excavados a mano de hasta dos metros de profundidad, rellenados durante generaciones con hojas, cáscaras de coco y materia vegetal en descomposición hasta crear un compost lo bastante rico para sostener la planta. Cada familia hereda y mantiene sus propios pozos, algunos cultivados de forma continua durante décadas, y una sola planta de pulaka puede tardar años en madurar hasta alcanzar tallos de varios kilos, reservados tradicionalmente para festines comunitarios y ocasiones especiales. Esta técnica agrícola, que convierte la escasez de tierra fértil en un sistema de cultivo intensivo y sostenible, sigue siendo una de las formas más claras en que Tuvalu adaptó su alimentación a las limitaciones extremas de vivir sobre coral.",
+      },
+      en: {
+        title: "The Giant Tuber That Grows in Compost Pits",
+        subtitle: "Tuvalu's Pulaka",
+        imageAlt: "Cartoon of a dug-out pit with large tuber leaves growing inside.",
+        description:
+          "On Tuvalu's coral atolls, where the soil is thin, salty, and nearly sterile, growing any deep-rooted tuber would be impossible without an ingenious workaround: pulaka (giant swamp taro) is planted in pits hand-dug up to two meters deep, filled over generations with leaves, coconut husks, and decomposing plant matter until the resulting compost is rich enough to sustain the plant. Each family inherits and maintains its own pits, some cultivated continuously for decades, and a single pulaka plant can take years to mature into stalks weighing several kilograms, traditionally reserved for community feasts and special occasions. This farming technique, which turns the scarcity of fertile land into an intensive, sustainable growing system, remains one of the clearest ways Tuvalu adapted its food supply to the extreme limitations of living on coral.",
+      },
+    },
+  },
+  {
+    id: "falekaupule-consejo",
+    order: 12,
+    placeholderEmoji: "🏛️",
+    accentColor: "#8B5E34",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El consejo de ancianos que gobierna cada isla",
+        subtitle: "El falekaupule tuvaluano",
+        imageAlt: "Caricatura de ancianos sentados en círculo dentro de una casa comunal abierta.",
+        description:
+          "En cada uno de los ocho atolones habitados de Tuvalu, el falekaupule (literalmente 'el hogar del pueblo') funciona como consejo tradicional de ancianos y jefes de familia que se reúne en la maneapa, la gran casa comunal abierta del pueblo, para resolver disputas de tierras, fijar normas locales y organizar la vida colectiva de la isla mucho antes de que existiera cualquier forma de gobierno colonial o nacional. Lejos de ser solo una costumbre simbólica, la Ley del Falekaupule de 1997 le otorgó reconocimiento legal formal, dándole autoridad real sobre asuntos locales que coexiste, a veces con tensiones, junto al parlamento nacional en Funafuti. Este doble sistema de gobierno, uno ancestral y comunitario, otro moderno y centralizado, refleja cómo Tuvalu logró preservar estructuras de autoridad propias de la cultura polinesia incluso después de décadas de dominio colonial británico.",
+      },
+      en: {
+        title: "The Elders' Council That Runs Each Island Locally",
+        subtitle: "Tuvalu's Falekaupule",
+        imageAlt: "Cartoon of elders seated in a circle inside an open community hall.",
+        description:
+          "On each of Tuvalu's eight inhabited atolls, the falekaupule (literally 'the home of the people') functions as a traditional council of elders and family heads that meets in the maneapa, the island's large open community hall, to resolve land disputes, set local rules, and organize collective island life, a system that predates any colonial or national government by centuries. Far from being merely a symbolic custom, the 1997 Falekaupule Act granted it formal legal recognition, giving it real authority over local matters that coexists, sometimes with friction, alongside the national parliament in Funafuti. This dual system of governance, one ancestral and communal, the other modern and centralized, reflects how Tuvalu managed to preserve authority structures rooted in Polynesian culture even after decades of British colonial rule.",
+      },
+    },
+  },
 ];

@@ -231,4 +231,119 @@ export const papuaNewGuinea: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-bilum-la-bolsa-tejida-que-se-estira",
+    order: 11,
+    placeholderEmoji: "🧵",
+    accentColor: "#8D6E63",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La bolsa tejida que se estira para cargar hasta un bebé",
+        subtitle: "El bilum papú",
+        imageAlt: "Caricatura de una bolsa tejida colgando de la frente de una persona.",
+        description:
+          "El 'bilum' es una bolsa tejida a mano por mujeres en toda Papúa Nueva Guinea usando una técnica de enlazado continuo con una sola hebra, distinta del tejido a dos agujas o el crochet, tradicionalmente elaborada con fibra vegetal natural y hoy también con lana o hilo sintético comercial. Su elasticidad extraordinaria le permite estirarse para cargar desde leña y cosechas hasta lechones o un bebé dormido, y se lleva colgada de la frente con el peso distribuido hacia la espalda, dejando las manos completamente libres para el trabajo diario. Los patrones y combinaciones de color varían notablemente según la región y el grupo étnico que lo produce, funcionando casi como una firma visual reconocible, y en las últimas décadas el tejido de bilum se convirtió en una fuente de ingresos importante para cooperativas de mujeres, además de ganar reconocimiento en pasarelas de moda internacionales como símbolo de identidad nacional papú.",
+      },
+      en: {
+        title: "The Woven Bag That Stretches to Carry a Baby",
+        subtitle: "The Papua New Guinean Bilum",
+        imageAlt: "Cartoon of a woven bag hanging from a person's forehead.",
+        description:
+          "The 'bilum' is a bag hand-looped by women across Papua New Guinea using a continuous single-strand looping technique, distinct from knitting or crochet, traditionally made from natural plant fiber and today also from commercial wool or synthetic yarn. Its extraordinary elasticity lets it stretch to carry anything from firewood and garden produce to piglets or a sleeping baby, and it's typically slung from the forehead with the weight resting down the back, leaving both hands completely free for daily work. Patterns and color combinations vary notably by region and ethnic group, functioning almost like a recognizable visual signature, and in recent decades bilum weaving became an important income source for women's cooperatives, besides gaining recognition on international fashion runways as a symbol of Papua New Guinean national identity.",
+      },
+    },
+  },
+  {
+    id: "los-hombres-peluca-huli",
+    order: 12,
+    placeholderEmoji: "👨‍🦱",
+    accentColor: "#C2185B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los hombres que cultivan su cabello para una peluca",
+        subtitle: "Los hombres peluca huli",
+        imageAlt: "Caricatura de un hombre con una peluca ceremonial de cabello y plumas.",
+        description:
+          "Entre los huli, un pueblo de la provincia de Hela en las tierras altas de Papúa Nueva Guinea, los adolescentes varones ingresan a 'escuelas de peluca', cabañas ceremoniales dedicadas donde, bajo la supervisión de un maestro ritual, cultivan su propio cabello durante aproximadamente año y medio siguiendo reglas estrictas de dieta, abstinencia sexual y lavados rituales destinados a favorecer un crecimiento parejo y abundante. Al finalizar el proceso, el cabello se corta y se cose sobre una base para formar una elaborada peluca ceremonial, decorada con piel de cuscús, flores everlasting y plumas de ave del paraíso, usada en festivales sing-sing y ceremonias importantes como símbolo de transición hacia la adultez. Cada peluca representa meses de disciplina personal y conocimiento ritual de especialistas huli, y se convirtió en un símbolo cultural reconocible de las tierras altas papúes.",
+      },
+      en: {
+        title: "The Men Who Grow Their Own Hair Into a Wig",
+        subtitle: "The Huli Wigmen",
+        imageAlt: "Cartoon of a man wearing a ceremonial wig of hair and feathers.",
+        description:
+          "Among the Huli, a people of Hela Province in the Papua New Guinea highlands, adolescent boys enter 'wig schools,' dedicated ceremonial huts where, under the supervision of a ritual master, they grow their own hair for roughly a year and a half following strict rules on diet, sexual abstinence, and ritual washing meant to encourage even, abundant growth. Once the process is complete, the hair is cut and sewn onto a base to form an elaborate ceremonial wig, decorated with cuscus fur, everlasting daisies, and bird-of-paradise plumes, worn at sing-sing festivals and important ceremonies as a symbol of the transition into adulthood. Far from a simple accessory, each wig represents months of personal discipline and ritual knowledge passed down by Huli specialists, and it became one of the most recognizable cultural symbols of the Papua New Guinea highlands.",
+      },
+    },
+  },
+  {
+    id: "kuk-uno-de-los-lugares-donde-nacio-la-agricultura",
+    order: 13,
+    placeholderEmoji: "🌾",
+    accentColor: "#6B8E23",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pantano donde la agricultura nació de forma propia",
+        subtitle: "El sitio arqueológico de Kuk",
+        imageAlt: "Caricatura de canales de drenaje excavados en un campo cultivado.",
+        description:
+          "El pantano de Kuk, en las tierras altas occidentales de Papúa Nueva Guinea, contiene evidencia arqueológica de sistemas de drenaje y cultivo de plantas como el taro, el banano y la caña de azúcar que se remonta a entre siete mil y diez mil años atrás, convirtiéndolo en uno de los pocos lugares del mundo, junto al Creciente Fértil, China y Mesoamérica, donde la agricultura parece haberse desarrollado de forma completamente independiente, sin influencia de otros centros agrícolas tempranos conocidos. Los canales de drenaje y montículos de cultivo, preservados durante milenios gracias al suelo permanentemente anegado, fueron descubiertos mediante excavaciones que obligaron a revisar la idea de que las tierras altas papúes fueron solo territorio de cazadores-recolectores antes del contacto externo. Declarado Patrimonio de la Humanidad por la UNESCO en 2008, Kuk sigue siendo un sitio de referencia para entender los orígenes independientes de la agricultura humana.",
+      },
+      en: {
+        title: "The Swamp Where Agriculture Was Born Independently",
+        subtitle: "The Kuk Archaeological Site",
+        imageAlt: "Cartoon of drainage channels dug through a cultivated field.",
+        description:
+          "Kuk Swamp, in the Western Highlands of Papua New Guinea, holds archaeological evidence of drainage systems and cultivation of plants like taro, banana, and sugarcane dating back roughly seven to ten thousand years, making it one of only a handful of places in the world, alongside the Fertile Crescent, China, and Mesoamerica, where agriculture appears to have developed completely independently, without influence from other known early farming centers. The drainage channels and garden mounds, preserved for millennia by the swamp's permanently waterlogged soil, were uncovered through archaeological excavations that forced a rewrite of the earlier assumption that the Papua New Guinea highlands were merely hunter-gatherer territory before outside contact. Declared a UNESCO World Heritage Site in 2008, Kuk remains a globally significant reference site for understanding the independent origins of human agriculture.",
+      },
+    },
+  },
+  {
+    id: "el-pago-de-compensacion-y-la-paz-tribal",
+    order: 14,
+    placeholderEmoji: "🤝",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pago que reemplaza la venganza entre clanes",
+        subtitle: "La compensación consuetudinaria",
+        imageAlt: "Caricatura de cerdos y billetes dispuestos como ofrenda entre dos grupos.",
+        description:
+          "En gran parte de Papúa Nueva Guinea, los conflictos entre clanes, incluidos hechos graves como lesiones o muertes derivadas de peleas tribales o disputas por tierra, no se resuelven únicamente a través del sistema judicial formal, sino mediante un mecanismo consuetudinario de compensación conocido como 'bel kol' (literalmente, 'enfriar el vientre'), en el que el clan responsable entrega cerdos, dinero de conchas, productos agrícolas y cada vez más dinero en efectivo al clan afectado, mediado por líderes comunitarios respetados. El objetivo central de este pago no es solo reparar el daño material sino restaurar el equilibrio social entre los grupos y evitar ciclos de violencia de represalia que históricamente podían extenderse por generaciones entre clanes rivales. Esta práctica está tan arraigada que el propio sistema legal formal del país reconoce explícitamente la compensación consuetudinaria en muchos casos, trabajando junto a ella en lugar de reemplazarla por completo.",
+      },
+      en: {
+        title: "The Payment That Replaces Revenge Between Rival Clans",
+        subtitle: "Customary Compensation",
+        imageAlt: "Cartoon of pigs and bundled cash laid out as an offering between two groups.",
+        description:
+          "Across much of Papua New Guinea, conflicts between clans, including serious matters like injury or death arising from tribal fighting or land disputes, aren't resolved solely through the formal court system, but through a customary compensation mechanism known as 'bel kol' (literally, 'cooling the belly'), in which the responsible clan hands over pigs, shell money, garden produce, and increasingly cash to the affected clan, mediated by respected community leaders. The central purpose of this payment isn't just to repair material harm but to restore social balance between groups and prevent cycles of retaliatory violence that could historically stretch across generations between rival clans. This practice is so deeply embedded that the country's own formal legal system explicitly recognizes customary compensation in many cases, working alongside it rather than replacing it entirely.",
+      },
+    },
+  },
+  {
+    id: "la-senda-kokoda-y-los-angeles-de-fuzzy-wuzzy",
+    order: 15,
+    placeholderEmoji: "🥾",
+    accentColor: "#4A6741",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El sendero de guerra que hoy caminan por respeto",
+        subtitle: "La senda Kokoda y los ángeles Fuzzy Wuzzy",
+        imageAlt: "Caricatura de un sendero de montaña selvático con una persona cargando una camilla.",
+        description:
+          "La senda Kokoda, un exigente sendero selvático de 96 kilómetros que atraviesa la cordillera Owen Stanley, fue escenario en 1942 de una brutal campaña de la Segunda Guerra Mundial en la que tropas australianas lograron detener el avance japonés hacia Port Moresby en combates librados en condiciones extremas de terreno y clima. Durante esa campaña, porteadores papúes locales, apodados por los soldados australianos como los 'ángeles Fuzzy Wuzzy', cargaron suministros y evacuaron a heridos en camillas improvisadas a través de terreno prácticamente impasable, salvando incontables vidas con un esfuerzo hoy recordado con profunda gratitud. La senda se convirtió con el tiempo en un destino de trekking de gran carga histórica, recorrido en jornadas de entre cuatro y doce días junto a guías papúes, atrayendo especialmente a visitantes australianos que caminan la ruta como un homenaje directo a los soldados caídos y al papel decisivo de los porteadores locales.",
+      },
+      en: {
+        title: "The Wartime Trail People Now Walk Out of Respect",
+        subtitle: "The Kokoda Track and the Fuzzy Wuzzy Angels",
+        imageAlt: "Cartoon of a mountain jungle trail with a person carrying a stretcher.",
+        description:
+          "The Kokoda Track, a grueling 96-kilometer jungle trail crossing the Owen Stanley Range, was the site of a brutal 1942 World War II campaign in which Australian troops managed to halt the Japanese advance on Port Moresby in fighting waged under extreme terrain and weather conditions. During that campaign, local Papua New Guinean carriers, nicknamed by Australian soldiers the 'Fuzzy Wuzzy Angels,' hauled supplies and evacuated wounded men on improvised stretchers across nearly impassable ground, saving countless lives through an effort still remembered today with deep gratitude. The trail eventually became a trekking destination carrying enormous historical weight, walked over four-to-twelve-day journeys alongside Papua New Guinean guides, drawing especially Australian visitors who walk the route as a direct tribute to the fallen soldiers and the decisive role played by local carriers.",
+      },
+    },
+  },
 ];

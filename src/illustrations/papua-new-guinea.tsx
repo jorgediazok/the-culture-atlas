@@ -149,6 +149,86 @@ const SelvaBiodiversidad: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const BilumBolsaTejida: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <circle cx="180" cy="130" r="14" fill={skin} />
+      <path d="M166 142 Q180 135 194 142 L190 175 L170 175 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.5" />
+      <path d="M180 118 Q225 108 255 150" fill="none" stroke={dark} strokeWidth="3" />
+      <path d="M225 150 Q195 175 205 220 Q212 245 255 240 Q275 210 262 175 Q250 150 225 150 Z" fill={accentColor} stroke={dark} strokeWidth="3" opacity="0.85" />
+      <path d="M215 170 L255 225 M235 155 L220 235 M255 165 L210 215 M215 195 L260 200" stroke={dark} strokeWidth="1.5" opacity="0.4" />
+    </g>
+  );
+};
+
+const HombresPelucaHuli: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#6B4423";
+  return (
+    <g>
+      <circle cx="205" cy="170" r="18" fill={skin} />
+      <path d="M185 158 Q205 100 225 158 Q235 130 245 140 Q235 155 240 165 Q225 150 205 150 Q185 150 170 165 Q175 155 165 140 Q175 130 185 158 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="118" rx="10" ry="16" fill="#F4A300" stroke={dark} strokeWidth="2" />
+      <path d="M175 200 Q205 190 235 200 L228 240 L182 240 Z" fill={shade(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+      <circle cx="197" cy="168" r="2" fill="#1A1A1A" />
+      <circle cx="213" cy="168" r="2" fill="#1A1A1A" />
+    </g>
+  );
+};
+
+const KukAgricultura: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="150" width="230" height="100" fill={tint(accentColor, 0.35)} />
+      {[130, 180, 230, 280].map((x) => (
+        <rect key={x} x={x - 6} y="150" width="12" height="100" fill="#3D8FB0" opacity="0.6" />
+      ))}
+      {[150, 200, 250, 300].map((x) => (
+        <path key={x} d={`M${x - 20} 165 Q${x} 158 ${x + 20} 165`} fill="none" stroke={accentColor} strokeWidth="4" strokeLinecap="round" />
+      ))}
+      {[150, 200, 250, 300].map((x) => (
+        <path key={`b${x}`} d={`M${x - 18} 200 Q${x} 193 ${x + 18} 200`} fill="none" stroke={accentColor} strokeWidth="4" strokeLinecap="round" />
+      ))}
+      <path d="M90 250 L320 250" stroke={dark} strokeWidth="1" opacity="0.2" />
+    </g>
+  );
+};
+
+const PagoCompensacion: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const pig = "#D9A46A";
+  return (
+    <g>
+      <ellipse cx="160" cy="205" rx="28" ry="16" fill={pig} stroke={shade(pig, 0.3)} strokeWidth="2.5" />
+      <circle cx="188" cy="198" r="10" fill={pig} stroke={shade(pig, 0.3)} strokeWidth="2" />
+      <ellipse cx="245" cy="210" rx="26" ry="15" fill={pig} stroke={shade(pig, 0.3)} strokeWidth="2.5" />
+      <circle cx="272" cy="203" r="9" fill={pig} stroke={shade(pig, 0.3)} strokeWidth="2" />
+      <rect x="190" y="160" width="30" height="18" rx="2" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <rect x="185" y="170" width="30" height="18" rx="2" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="2" />
+      <path d="M140 230 L280 230" stroke={dark} strokeWidth="2" strokeDasharray="5 5" opacity="0.5" />
+    </g>
+  );
+};
+
+const SendaKokoda: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <path d="M100 240 Q170 190 205 155 Q245 120 310 100" fill="none" stroke="#8B6F47" strokeWidth="16" strokeLinecap="round" opacity="0.55" />
+      <circle cx="150" cy="205" r="11" fill={skin} />
+      <path d="M137 218 Q150 210 163 218 L159 240 L141 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <line x1="163" y1="222" x2="205" y2="215" stroke={dark} strokeWidth="4" />
+      <rect x="163" y="215" width="42" height="9" fill="#F5F0E6" stroke={dark} strokeWidth="1.5" />
+      <ellipse cx="255" cy="140" rx="18" ry="12" fill="#4A8F4E" opacity="0.7" />
+      <ellipse cx="280" cy="120" rx="14" ry="10" fill="#4A8F4E" opacity="0.6" />
+    </g>
+  );
+};
+
 export const papuaNewGuineaIllustrations: Record<string, IllustrationDefinition> = {
   "diversidad-linguistica": { component: DiversidadLinguistica },
   "tok-pisin": { component: TokPisin },
@@ -160,4 +240,9 @@ export const papuaNewGuineaIllustrations: Record<string, IllustrationDefinition>
   "arte-sepik": { component: ArteSepik },
   "rugby-league": { component: RugbyLeague },
   "selva-biodiversidad": { component: SelvaBiodiversidad },
+  "el-bilum-la-bolsa-tejida-que-se-estira": { component: BilumBolsaTejida },
+  "los-hombres-peluca-huli": { component: HombresPelucaHuli },
+  "kuk-uno-de-los-lugares-donde-nacio-la-agricultura": { component: KukAgricultura },
+  "el-pago-de-compensacion-y-la-paz-tribal": { component: PagoCompensacion },
+  "la-senda-kokoda-y-los-angeles-de-fuzzy-wuzzy": { component: SendaKokoda },
 };

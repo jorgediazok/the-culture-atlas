@@ -159,6 +159,88 @@ const MekeDanza: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const TabuaDienteDeBallena: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const ivory = "#F0E6D2";
+  return (
+    <g>
+      <path d="M160 130 Q140 170 150 210 Q158 235 185 240 Q210 242 215 220 Q218 190 200 160 Q185 135 160 130 Z" fill={ivory} stroke={shade(ivory, 0.3)} strokeWidth="3" />
+      <path d="M165 145 Q150 175 158 205" fill="none" stroke={shade(ivory, 0.2)} strokeWidth="1.5" opacity="0.5" />
+      <path d="M160 130 Q220 120 260 145 Q290 160 285 190" fill="none" stroke={accentColor} strokeWidth="5" strokeLinecap="round" />
+      <path d="M200 160 Q230 150 250 165" fill="none" stroke={dark} strokeWidth="2" opacity="0.4" />
+    </g>
+  );
+};
+
+const VilavilairevoFuego: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const stone = "#5C5C5C";
+  return (
+    <g>
+      <ellipse cx="205" cy="225" rx="90" ry="20" fill={stone} stroke={shade(stone, 0.3)} strokeWidth="2.5" />
+      {[[160, 222], [185, 228], [210, 220], [235, 226], [260, 222]].map(([x, y]) => (
+        <circle key={x as number} cx={x} cy={y} r="12" fill={shade(stone, 0.1)} stroke={shade(stone, 0.35)} strokeWidth="1.5" />
+      ))}
+      <path d="M170 215 Q175 205 165 200 M200 210 Q205 198 195 195 M235 213 Q240 202 230 198" stroke="#F4A300" strokeWidth="2.5" opacity="0.7" fill="none" />
+      <circle cx="205" cy="150" r="14" fill={skin} />
+      <path d="M191 164 Q205 158 219 164 L215 210 L195 210 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M197 208 L190 222 M213 208 L220 222" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M191 170 Q170 175 160 190 M219 170 Q240 175 250 190" stroke={skin} strokeWidth="7" strokeLinecap="round" fill="none" />
+    </g>
+  );
+};
+
+const MasiTelaDeCorteza: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const cloth = "#E8DCC0";
+  return (
+    <g>
+      <rect x="120" y="110" width="170" height="130" fill={cloth} stroke={shade(cloth, 0.3)} strokeWidth="3" />
+      {[0, 1, 2, 3].map((row) =>
+        [0, 1, 2, 3].map((col) => (
+          <rect key={`${row}-${col}`} x={135 + col * 35} y={125 + row * 28} width="26" height="18" fill={(row + col) % 2 === 0 ? accentColor : dark} opacity="0.8" />
+        ))
+      )}
+      <path d="M120 110 L290 240 M290 110 L120 240" stroke={dark} strokeWidth="1.2" opacity="0.25" />
+    </g>
+  );
+};
+
+const LevukaAntiguaCapital: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
+  return (
+    <g>
+      <rect x="90" y="215" width="230" height="35" fill={water} opacity="0.5" />
+      {[[120, 215, 45], [175, 215, 55], [235, 215, 50], [285, 215, 35]].map(([x, y, w]) => (
+        <g key={x as number}>
+          <rect x={(x as number) - (w as number) / 2} y={(y as number) - 45} width={w} height="45" fill={accentColor} stroke={dark} strokeWidth="2" />
+          <polygon points={`${(x as number) - (w as number) / 2 - 4},${(y as number) - 45} ${x},${(y as number) - 62} ${(x as number) + (w as number) / 2 + 4},${(y as number) - 45}`} fill={dark} opacity="0.6" />
+          <rect x={(x as number) - 8} y={(y as number) - 20} width="16" height="20" fill={shade(accentColor, 0.3)} />
+        </g>
+      ))}
+      <line x1="270" y1="215" x2="290" y2="185" stroke="#5C3A1E" strokeWidth="3" />
+    </g>
+  );
+};
+
+const CascosAzulesFiyianos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const uniform = "#4A6741";
+  return (
+    <g>
+      <circle cx="205" cy="145" r="15" fill={skin} />
+      <path d="M188 135 Q205 118 222 135 Q222 145 205 145 Q188 145 188 135 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <path d="M190 168 Q205 160 220 168 L216 235 L194 235 Z" fill={uniform} stroke={dark} strokeWidth="2.5" />
+      <rect x="196" y="185" width="18" height="14" fill="#F5F0E6" stroke={dark} strokeWidth="1.5" />
+      <text x="205" y="196" fontSize="10" fontWeight="700" fill={dark} textAnchor="middle">UN</text>
+      <path d="M190 175 L165 200 M220 175 L245 200" stroke={skin} strokeWidth="8" strokeLinecap="round" fill="none" />
+    </g>
+  );
+};
+
 export const fijiIllustrations: Record<string, IllustrationDefinition> = {
   "kava-yaqona": { component: KavaYaqona },
   "rugby-oro-olimpico": { component: RugbyOroOlimpico },
@@ -170,4 +252,9 @@ export const fijiIllustrations: Record<string, IllustrationDefinition> = {
   "bure-tradicional": { component: BureTradicional },
   "islas-canibales-historia": { component: IslasCanibalesHistoria },
   "meke-danza": { component: MekeDanza },
+  "tabua-diente-de-ballena": { component: TabuaDienteDeBallena },
+  "vilavilairevo-caminata-de-fuego": { component: VilavilairevoFuego },
+  "masi-tela-de-corteza": { component: MasiTelaDeCorteza },
+  "levuka-antigua-capital": { component: LevukaAntiguaCapital },
+  "cascos-azules-fiyianos": { component: CascosAzulesFiyianos },
 };

@@ -799,12 +799,56 @@ Republic's longest description landed exactly at 1000), and a final full
 expanded). Not yet committed as of the end of this batch — awaiting
 explicit user request to commit.
 
-**Next up:** no further North America work remains — the tier system has
-only been applied to South America and North America so far. Europe, Asia,
-Africa, and Oceania still need tier assignments (20/15/12) proposed to and
-approved by the user, then the same expansion workflow, before the
-story-count task is fully complete. Per the established cost-management
-pattern, consider starting a fresh chat for that next phase.
+**Oceania — done and committed (2026-08-24):** all 14 Oceania countries/
+territories now match the tier system, expanded entirely in the main
+session with no subagents (the user explicitly asked to stop using
+background agents this batch for cost reasons — "no corras agentes por
+separado... me está comiendo todos los creditos de la semana rapidisimo").
+Tier assignment was proposed by the assistant and approved by the user
+before writing any content: 20 (Australia, New Zealand — both already
+confirmed as explicit 20-tier examples from the original tier-system
+conversation), 15 (Papua New Guinea, Fiji, Vanuatu, Tonga, Solomon
+Islands), 12 (Kiribati, Marshall Islands, Micronesia, Nauru, New
+Caledonia, Palau, Tuvalu). Order of work: the seven 12-tier countries
+first (2 new entries each), then the five 15-tier countries (5 new
+entries each), then Australia and New Zealand last (10 new entries each)
+since they were the largest lift. Each country's new entries were picked
+to avoid duplicating existing topics (read all existing entries first)
+and to keep the same figurative, no-trig, joint-overlap-checked
+illustration standard as the rest of the atlas — new techniques used this
+batch: a zigzag/polygon path for a spiky pufferfish-skin helmet
+(Kiribati's te mataana armor) and for a multi-point star burst (Marshall
+Islands' and Nauru's flag illustrations), built the same way as
+Luxembourg's earlier hexagon-star pattern (literal hand-picked points,
+no `Math.sin/cos`). **A recurring length-audit miss this batch**: the
+regex used to check title length (`/title: "([^"]*)"/`) without a `\b`
+word-boundary anchor also matches inside `subtitle: "..."`, since
+"subtitle" contains the substring "title" — this produced a false "56
+titles" count instead of 24 early in the batch and, worse, meant the
+*real* over-length description flagged by a loose description regex
+sometimes wasn't the entry actually fixed on the first pass (fixed the
+wrong entry's title/description more than once before adding `\btitle:`
+to the regex and rechecking which description index was actually over).
+**Lesson: always anchor the title regex with `\b` and, when multiple
+descriptions are flagged over 1000 chars, print each flagged one's index
+and a text preview before editing — don't assume the correction target
+without confirming which specific entry the flagged length belongs to.**
+All 14 countries/territories passed `tsc --noEmit`, `eslint` (fixed two
+unused-`dark`-variable warnings introduced by illustrations that ended up
+not needing the shaded color), the id-matching audit (all countries'
+content ids exactly match illustration registry keys), the title/
+description length audit (all ≤55/≤1000 after the fixes above), and a
+final full `rm -rf .next && npm run build` (420 static paths, unchanged
+from the North America batches since no new countries were registered,
+just existing ones expanded). This completes Oceania — every country in
+the continent is now at its assigned tier.
+
+**Next up:** the tier system has now been applied to South America, North
+America, and Oceania. Europe, Asia, and Africa still need tier assignments
+(20/15/12) proposed to and approved by the user, then the same expansion
+workflow, before the story-count task is fully complete. Per the
+established cost-management pattern, consider starting a fresh chat for
+that next phase.
 
 **Cost-management pattern established 2026-08-23:** for this multi-country,
 multi-session expansion task, the user asked to start a fresh chat between

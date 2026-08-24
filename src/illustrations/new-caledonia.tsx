@@ -157,6 +157,40 @@ const ElRefugioDeDugongosDelPacifico: IllustrationComponent = ({ accentColor }) 
   );
 };
 
+const MonedaKanak: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const shell = "#F0E6D2";
+  const fur = "#2E2420";
+  return (
+    <g>
+      <path d="M175 105 Q205 95 235 105 L230 130 L180 130 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <line x1="185" y1="130" x2="185" y2="235" stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      {[145, 168, 191, 214].map((y, i) => (
+        <ellipse key={y} cx="185" cy={y} rx="15" ry="6" fill={i % 2 === 0 ? shell : tint(shell, 0.15)} stroke={shade(shell, 0.3)} strokeWidth="1.5" />
+      ))}
+      <line x1="225" y1="130" x2="225" y2="235" stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      <path d="M225 135 Q218 165 222 195 Q216 215 225 235" stroke={fur} strokeWidth="10" strokeLinecap="round" fill="none" />
+      <path d="M240 135 Q247 170 242 200 Q249 218 240 235" stroke={fur} strokeWidth="8" strokeLinecap="round" fill="none" opacity="0.85" />
+    </g>
+  );
+};
+
+const CentroCulturalTjibaou: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="220" width="230" height="30" fill="#4A8F4E" opacity="0.3" />
+      {[[130, 235, 60], [175, 225, 85], [220, 230, 70], [265, 222, 90]].map(([x, base, h], i) => (
+        <g key={x as number}>
+          <path d={`M${(x as number) - 22} ${base} Q${(x as number) - 22} ${(base as number) - (h as number)} ${x} ${(base as number) - (h as number) - 14} Q${(x as number) + 22} ${(base as number) - (h as number)} ${(x as number) + 22} ${base} Z`} fill={i % 2 === 0 ? accentColor : tint(accentColor, 0.25)} stroke={dark} strokeWidth="2.5" />
+          <path d={`M${x} ${(base as number) - (h as number) - 14} L${x} ${base}`} stroke={dark} strokeWidth="1.5" opacity="0.5" />
+          <path d={`M${(x as number) - 11} ${(base as number) - (h as number) / 2} L${(x as number) - 18} ${base} M${(x as number) + 11} ${(base as number) - (h as number) / 2} L${(x as number) + 18} ${base}`} stroke={dark} strokeWidth="1.2" opacity="0.4" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const newCaledoniaIllustrations: Record<string, IllustrationDefinition> = {
   "segunda-barrera-de-coral-mas-larga": { component: SegundaBarreraDeCoralMasLarga },
   "la-gran-choza-kanak": { component: LaGranChozaKanak },
@@ -168,4 +202,6 @@ export const newCaledoniaIllustrations: Record<string, IllustrationDefinition> =
   "el-name-cultivo-sagrado": { component: ElNameCultivoSagrado },
   "dos-banderas-para-un-mismo-territorio": { component: DosBanderasParaUnMismoTerritorio },
   "el-refugio-de-dugongos-del-pacifico": { component: ElRefugioDeDugongosDelPacifico },
+  "la-moneda-kanak-de-conchas-y-pelo": { component: MonedaKanak },
+  "el-centro-cultural-tjibaou": { component: CentroCulturalTjibaou },
 };

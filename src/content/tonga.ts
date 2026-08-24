@@ -231,4 +231,119 @@ export const tonga: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "lakalaka-danza-coral",
+    order: 11,
+    placeholderEmoji: "💃",
+    accentColor: "#6A4C93",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El baile coral compuesto por un solo poeta",
+        subtitle: "El lakalaka tongano",
+        imageAlt: "Caricatura de una fila de bailarines con gestos de manos sincronizados.",
+        description:
+          "El 'lakalaka' es la forma más importante de espectáculo coral coreografiado de Tonga, en la que cientos de cantantes y bailarines se ubican en largas filas y ejecutan gestos de manos extremadamente precisos y sincronizados, llamados 'hiko', que ilustran visualmente el significado literal de la letra que están cantando en ese mismo instante. Cada lakalaka es una obra completamente nueva, con poesía, música y coreografía originales compuestas para una ocasión específica por un único maestro compositor llamado 'punake', tradicionalmente encargado de honrar a un jefe, a la familia real o a un acontecimiento histórico importante para la comunidad que lo presenta. Reconocido por la UNESCO en 2008 como Patrimonio Cultural Inmaterial de la Humanidad, el lakalaka sigue siendo hoy un elemento central de las celebraciones más importantes del reino, con aldeas y grupos que compiten por presentar la interpretación más precisa y elegante.",
+      },
+      en: {
+        title: "The Choral Dance a Single Poet Composes for Each Event",
+        subtitle: "Tonga's Lakalaka",
+        imageAlt: "Cartoon of a row of dancers with synchronized hand gestures.",
+        description:
+          "'Lakalaka' is Tonga's most important form of choreographed group performance, in which hundreds of singers and dancers stand in long rows and execute extremely precise, synchronized hand gestures called 'hiko' that visually illustrate the literal meaning of the lyrics being sung at that exact moment. Each lakalaka is an entirely new work, with original poetry, music, and choreography composed for a specific occasion by a single master composer called a 'punake,' traditionally commissioned to honor a chief, the royal family, or an important historical event for the community presenting it. Recognized by UNESCO in 2008 as Intangible Cultural Heritage of Humanity, lakalaka remains a central part of the kingdom's most important celebrations today, with villages and groups competing to present the most precise, elegant performance.",
+      },
+    },
+  },
+  {
+    id: "taovala-vestimenta-de-esteras",
+    order: 12,
+    placeholderEmoji: "🧣",
+    accentColor: "#8B6F47",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La estera obligatoria para cualquier ocasión formal",
+        subtitle: "El ta'ovala tongano",
+        imageAlt: "Caricatura de una persona con una estera tejida atada alrededor de la cintura.",
+        description:
+          "El 'ta'ovala', una estera tejida con fibra de pandano que se ata alrededor de la cintura sobre la ropa habitual, es la prenda de vestimenta formal obligatoria en Tonga para prácticamente cualquier ocasión oficial, ceremonial, religiosa o gubernamental, y se considera tan importante, o más, que la ropa que cubre. Las esteras varían enormemente en antigüedad, calidad y tamaño: mientras las más simples se usan a diario en oficinas y escuelas por reglamento, las esteras familiares más valiosas, llamadas 'kie', pueden tener siglos de antigüedad y se reservan para ocasiones extraordinarias como funerales de alto rango o eventos de la familia real. Asistir a un evento formal sin ta'ovala se considera una falta de respeto seria, y el prestigio de una estera familiar antigua puede superar en valor social a cualquier joya u objeto de lujo moderno.",
+      },
+      en: {
+        title: "The Mat Tied Around the Waist for Any Formal Occasion",
+        subtitle: "Tonga's Ta'ovala",
+        imageAlt: "Cartoon of a person with a woven mat tied around the waist.",
+        description:
+          "The 'ta'ovala,' a fine mat woven from pandanus fiber tied around the waist over regular clothing, is mandatory formal attire in Tonga for practically any official, ceremonial, religious, or government occasion, considered as important, if not more so, than the clothing it covers. Mats vary enormously in age, quality, and size: while simpler ones are worn daily in offices and schools where the ta'ovala is required by dress code, the oldest and most valuable family mats, called 'kie,' can be centuries old, passed down as heirlooms across generations, and worn only on extraordinary occasions like high-ranking funerals or royal family events. Attending a formal event without a ta'ovala is considered a serious breach of respect, and the prestige of an old family mat can outweigh the social value of any modern jewelry or luxury item.",
+      },
+    },
+  },
+  {
+    id: "haamonga-a-maui-trilito",
+    order: 13,
+    placeholderEmoji: "🗿",
+    accentColor: "#78909C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arco de piedra que un rey levantó sin herramientas",
+        subtitle: "El Ha'amonga 'a Maui",
+        imageAlt: "Caricatura de un arco formado por dos piedras verticales y un dintel horizontal.",
+        description:
+          "El Ha'amonga 'a Maui, un imponente arco de piedra caliza coralina cerca de la antigua capital real de Heketā, en Tongatapu, fue erigido alrededor del siglo XIII por orden del rey Tu'itātui, el undécimo Tu'i Tonga, usando dos bloques verticales de varias toneladas cada uno coronados por un dintel horizontal, todo transportado y levantado sin herramientas metálicas ni ruedas, solo con cuerdas, troncos como rodillos y el trabajo coordinado de miles de personas. Su nombre significa 'la carga de Maui', en referencia al semidiós polinesio que, según la leyenda, cargó las piedras al hombro desde Wallis. Su función original sigue debatida: algunos arqueólogos proponen que era una puerta ceremonial de acceso al recinto real, mientras que marcas descubiertas en los años sesenta sugieren un uso como marcador astronómico alineado con el sol en los solsticios. Comparado a veces con Stonehenge, el monumento sigue siendo uno de los sitios históricos más visitados de Tonga.",
+      },
+      en: {
+        title: "The Stone Gate a King Raised Without Modern Tools",
+        subtitle: "The Ha'amonga 'a Maui",
+        imageAlt: "Cartoon of an arch formed by two upright stones and a horizontal lintel.",
+        description:
+          "The Ha'amonga 'a Maui, an imposing gate of coral limestone near the former royal capital of Heketā on Tongatapu island, was erected around the 13th century by order of King Tu'itātui, the eleventh Tu'i Tonga, using two upright blocks weighing several tons each topped by a horizontal lintel, all transported and raised without metal tools or wheels, using only ropes, log rollers, and the coordinated labor of thousands of people. Its name means 'the burden of Maui,' referring to the Polynesian demigod who, according to legend, carried the stones on a shoulder pole from Wallis, and though its original purpose remains debated, some archaeologists propose it served as a ceremonial gateway into the royal compound, while markings discovered in the 1960s suggest a possible use as an astronomical marker aligned with sunrise at the solstices. Sometimes compared to Stonehenge for its archaeological weight within the Pacific, the monument remains one of Tonga's most visited historical sites today.",
+      },
+    },
+  },
+  {
+    id: "kai-pola-banquete-en-el-suelo",
+    order: 14,
+    placeholderEmoji: "🍽️",
+    accentColor: "#C97B3D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El banquete que se sirve sobre hojas en el piso",
+        subtitle: "El kai pola tongano",
+        imageAlt: "Caricatura de comida servida sobre hojas largas extendidas en el suelo.",
+        description:
+          "El 'kai pola' es la forma tradicional tonguana de banquete festivo, en la que grandes cantidades de comida, cerdo asado entero, tubérculos, mariscos y frutas tropicales, se disponen directamente sobre largas filas de hojas de banano o coco extendidas en el suelo o sobre una plataforma baja, en lugar de mesas convencionales, mientras los invitados se sientan alrededor con las piernas cruzadas para compartir la comida. Organizado en bodas, cumpleaños de hitos importantes, eventos religiosos y celebraciones de la familia real, la cantidad y variedad de comida exhibida en un kai pola funciona como una demostración pública de la generosidad y el estatus social de la familia anfitriona, un gesto que puede implicar meses de preparación y ahorro previo. Siguiendo una costumbre extendida en gran parte del Pacífico, la comida que sobra tradicionalmente no se desperdicia sino que se reparte entre los invitados para que la lleven a sus casas al finalizar la celebración.",
+      },
+      en: {
+        title: "The Feast Served Directly on Leaves on the Ground",
+        subtitle: "Tonga's Kai Pola",
+        imageAlt: "Cartoon of food served on long leaves spread on the ground.",
+        description:
+          "'Kai pola' is Tonga's traditional festive feast, in which large quantities of food, whole roast pig, root vegetables, seafood, and tropical fruit, are laid out directly on long rows of banana or coconut leaves spread across the ground or a low platform, instead of conventional tables, while guests sit cross-legged around it to share the meal. Held at weddings, milestone birthdays, church events, and royal celebrations, the quantity and variety of food displayed at a kai pola serves as a public demonstration of the host family's generosity and social standing, a gesture that can involve months of prior preparation and saving. Following a custom widespread across much of the Pacific, leftover food is traditionally never wasted but distributed among guests to take home once the celebration ends.",
+      },
+    },
+  },
+  {
+    id: "las-islas-amistosas-de-cook",
+    order: 15,
+    placeholderEmoji: "🗺️",
+    accentColor: "#B04A3B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El apodo amistoso que ocultó un plan real para matarlo",
+        subtitle: "Las 'Islas de la Amistad' de Cook",
+        imageAlt: "Caricatura de un barco de vela antiguo frente a una isla con banderines de bienvenida.",
+        description:
+          "Cuando el capitán James Cook visitó Tonga durante sus expediciones de la década de 1770, quedó tan impresionado por la calidez de la recepción de los jefes locales que bautizó al archipiélago como las 'Islas de la Amistad', un nombre que perduró durante siglos como apodo histórico del reino. Lo que Cook nunca llegó a saber es que, según relatos posteriores basados en tradiciones orales y diarios de su propia tripulación, algunos jefes tonganos habían discutido en secreto durante su visita un plan real para matarlo a él y a su tripulación y apoderarse de sus barcos durante un festival, una conspiración que finalmente se abandonó por desacuerdos internos entre los propios jefes sobre cómo y cuándo ejecutarla. El apodo amistoso sobrevivió de todos modos a esa historia oculta, y hoy Tonga sigue usando la denominación 'Islas de la Amistad' en su identidad turística e histórica, una ironía que muchos tonganos conocen y cuentan con humor.",
+      },
+      en: {
+        title: "The Friendly Nickname That Hid a Real Plot to Kill Him",
+        subtitle: "Cook's 'Friendly Islands'",
+        imageAlt: "Cartoon of an old sailing ship facing an island with welcoming pennants.",
+        description:
+          "When Captain James Cook visited Tonga during his 1770s expeditions, he was so impressed by the warmth of the welcome from local chiefs that he named the archipelago the 'Friendly Islands,' a name that endured for centuries as the kingdom's historic nickname. What Cook never learned is that, according to later accounts drawing on oral tradition and his own crew's journals, some Tongan chiefs had secretly discussed during his visit a real plan to kill him and his crew and seize their ships during a festival, a conspiracy ultimately abandoned due to internal disagreement among the chiefs over how and when to carry it out. The friendly nickname survived that hidden history anyway, and Tonga still uses the 'Friendly Islands' name in its tourism and historical identity today, an irony many Tongans know well and recount with humor.",
+      },
+    },
+  },
 ];

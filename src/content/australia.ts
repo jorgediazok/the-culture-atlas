@@ -231,4 +231,234 @@ export const australia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "primera-flota-convictos",
+    order: 11,
+    placeholderEmoji: "⛵",
+    accentColor: "#5C4A2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La colonia fundada para deportar a sus presos",
+        subtitle: "La Primera Flota y el origen convict",
+        imageAlt: "Caricatura de barcos de vela antiguos llegando a una bahía con una bandera británica.",
+        description:
+          "En enero de 1788, la Primera Flota, compuesta por once barcos británicos, llegó a la bahía de Sídney transportando cerca de 780 presidiarios junto con marineros y oficiales, fundando el primer asentamiento europeo permanente en Australia específicamente como colonia penal, una solución que Gran Bretaña buscó desesperadamente después de que la independencia de Estados Unidos le cerrara su destino tradicional de deportación de convictos. En los ochenta años siguientes, unas 162.000 personas condenadas fueron trasladadas a distintas colonias australianas, mientras la Corona británica trataba el territorio como 'terra nullius' ('tierra de nadie'), ignorando la presencia y soberanía de los pueblos aborígenes, una ficción legal recién revertida en 1992 con el histórico fallo Mabo. Lo que durante generaciones fue motivo de vergüenza social, tener un antepasado convicto, se transformó con el tiempo en una especie de insignia de orgullo genealógico para muchos australianos actuales.",
+      },
+      en: {
+        title: "The Colony Founded to Deport Britain's Convicts",
+        subtitle: "The First Fleet and Convict Origins",
+        imageAlt: "Cartoon of old sailing ships arriving at a bay under a British flag.",
+        description:
+          "In January 1788, the First Fleet, made up of eleven British ships, arrived at Sydney Cove carrying about 780 convicts along with sailors and officers, founding the first permanent European settlement in Australia specifically as a penal colony, a solution Britain sought desperately after American independence closed off its traditional convict-transportation destination. Over the following eighty years, roughly 162,000 convicted people were shipped to various Australian colonies, while the British Crown treated the territory as 'terra nullius' ('nobody's land'), legally ignoring the presence and sovereignty of Aboriginal peoples, a legal fiction not formally overturned until the landmark 1992 Mabo decision. What was for generations a source of social shame, having a convict ancestor, has over time become something of a genealogical badge of pride for many Australians today.",
+      },
+    },
+  },
+  {
+    id: "puente-de-la-percha",
+    order: 12,
+    placeholderEmoji: "🌉",
+    accentColor: "#455A64",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El puente apodado 'la percha' que unió a Sídney",
+        subtitle: "El Puente de la Bahía de Sídney",
+        imageAlt: "Caricatura de un puente de acero con un gran arco curvo sobre el agua.",
+        description:
+          "El Puente de la Bahía de Sídney, inaugurado en 1932 y apodado cariñosamente 'la percha' por la forma de su gran arco de acero, fue en su momento el puente de arco de acero más alto del mundo y sigue siendo hoy el puente de un solo tramo más ancho del planeta, conectando la zona norte de la ciudad con su distrito financiero central. Construido durante la Gran Depresión, su obra proporcionó empleo crucial a miles de trabajadores en uno de los períodos económicos más duros del país, y su inauguración oficial quedó marcada por un episodio insólito: un hombre a caballo llamado Francis de Groot irrumpió a último momento y cortó la cinta inaugural con una espada antes de que la autoridad designada pudiera hacerlo, en un gesto de protesta política que se convirtió en anécdota histórica. Hoy, escalar el arco del puente en un recorrido guiado es una de las atracciones turísticas más populares de Sídney, con vistas privilegiadas sobre la bahía y la Ópera.",
+      },
+      en: {
+        title: "The Bridge Nicknamed 'the Coathanger'",
+        subtitle: "The Sydney Harbour Bridge",
+        imageAlt: "Cartoon of a steel bridge with a large curved arch over the water.",
+        description:
+          "The Sydney Harbour Bridge, opened in 1932 and affectionately nicknamed 'the Coathanger' for the shape of its massive steel arch, was at the time the tallest steel arch bridge in the world and remains today the widest long-span bridge on the planet, connecting the city's north shore to its central business district. Built during the Great Depression, its construction provided crucial employment to thousands of workers during one of the country's harshest economic periods, and its official opening was marked by a bizarre episode: a man on horseback named Francis de Groot burst in at the last moment and cut the opening ribbon with a sword before the designated official could do so, a political protest that became a lasting piece of Australian folklore. Today, climbing the bridge's arch on a guided tour is one of Sydney's most popular tourist attractions, offering sweeping views over the harbor and the Opera House.",
+      },
+    },
+  },
+  {
+    id: "futbol-australiano-afl",
+    order: 13,
+    placeholderEmoji: "🏈",
+    accentColor: "#1D3557",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El deporte que Australia inventó y nadie más juega",
+        subtitle: "El fútbol australiano (AFL)",
+        imageAlt: "Caricatura de un jugador pateando una pelota ovalada en un campo elíptico.",
+        description:
+          "El fútbol australiano, conocido internacionalmente por la sigla de su liga profesional, la AFL, se inventó en Melbourne en 1858 y es uno de los códigos de fútbol organizado más antiguos del mundo, jugado en un campo ovalado enorme sin posiciones fijas para los jugadores y famoso por sus atrapadas espectaculares en el aire llamadas 'speccies'. Sus orígenes exactos siguen debatidos entre historiadores, aunque muchos señalan una posible influencia del juego aborigen tradicional 'marngrook' combinada con tradiciones del rugby y el fútbol gaélico traídas por colonos británicos e irlandeses. El deporte domina culturalmente Melbourne y gran parte del sur de Australia, y su final de liga, disputada en el Melbourne Cricket Ground ante casi 100.000 espectadores, es un evento tan central que su víspera se convirtió en feriado oficial en Victoria en 2015. Pese a su enorme popularidad local, el AFL prácticamente no se juega de forma profesional en ningún otro país del mundo.",
+      },
+      en: {
+        title: "The Sport Australia Invented That No One Else Plays",
+        subtitle: "Australian Rules Football (AFL)",
+        imageAlt: "Cartoon of a player kicking an oval ball on an elliptical field.",
+        description:
+          "Australian Rules Football, known internationally by its professional league's acronym, the AFL, was invented in Melbourne in 1858 and is one of the oldest organized football codes in the world, played on a huge oval field with no fixed player positions and famous for its spectacular airborne catches called 'speccies.' Its exact origins remain debated among historians, though many point to a possible influence from the traditional Aboriginal ball game 'marngrook' combined with rugby and Gaelic football traditions brought by British and Irish settlers. The sport culturally dominates Melbourne and much of southern Australia, and its grand final, played at the Melbourne Cricket Ground before nearly 100,000 spectators, is such a central event that grand final eve became an official public holiday in the state of Victoria in 2015. Despite its huge domestic popularity, the AFL is barely played professionally anywhere else in the world.",
+      },
+    },
+  },
+  {
+    id: "las-cenizas-de-the-ashes",
+    order: 14,
+    placeholderEmoji: "🏏",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La urna que dos países se disputan hace 140 años",
+        subtitle: "Las Cenizas del cricket",
+        imageAlt: "Caricatura de una pequeña urna de cerámica sobre un pedestal junto a un bate de críquet.",
+        description:
+          "'Las Cenizas' (The Ashes) es la rivalidad internacional de críquet más antigua y legendaria entre Australia e Inglaterra, con origen en 1882, cuando un periódico británico publicó un obituario satírico lamentando 'la muerte del críquet inglés' tras la primera victoria australiana en suelo inglés, bromeando con que el cuerpo sería cremado y 'las cenizas llevadas a Australia'. En la gira siguiente, los jugadores ingleses recibieron una pequeña urna de terracota, que según la tradición contendría restos quemados de un bate o una pelota, convertida desde entonces en el trofeo simbólico de una serie disputada cada dos años, alternando el país anfitrión. La urna original, extremadamente frágil, casi nunca sale de su museo en Londres, por lo que se entrega una réplica al ganador, y la serie Bodyline de 1932-33, cuando Inglaterra usó un lanzamiento rápido y peligroso para frenar a la estrella Don Bradman, sigue siendo el capítulo más tenso de toda la rivalidad.",
+      },
+      en: {
+        title: "The Tiny Urn Two Countries Fought Over for 140 Years",
+        subtitle: "Cricket's Ashes",
+        imageAlt: "Cartoon of a small ceramic urn on a pedestal beside a cricket bat.",
+        description:
+          "'The Ashes' is cricket's oldest and most storied international rivalry between Australia and England, originating in 1882, when a British newspaper published a satirical obituary mourning 'the death of English cricket' after Australia's first-ever win on English soil, joking that the body would be cremated and 'the ashes taken to Australia.' On the following tour, English players were presented with a small terracotta urn, said by tradition to hold the burnt remains of a bail or a ball, which became the series' symbolic trophy from then on, contested roughly every two years with hosting alternating between the two countries. The original urn, extremely fragile, almost never leaves its London museum, so a replica is typically presented to the winning team, and the 1932-33 Bodyline series, when England used a dangerous fast-bowling tactic against star Don Bradman, remains the tensest chapter in the entire rivalry.",
+      },
+    },
+  },
+  {
+    id: "la-bandera-aborigen-y-su-batalla-legal",
+    order: 15,
+    placeholderEmoji: "🏳️",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La bandera que su creador debió pelear por controlar",
+        subtitle: "La bandera aborigen australiana",
+        imageAlt: "Caricatura de una bandera dividida en negro y rojo con un círculo amarillo al centro.",
+        description:
+          "La bandera aborigen australiana, diseñada en 1971 por el artista Harold Thomas, del pueblo luritja, combina una mitad negra que representa al pueblo aborigen, una mitad roja que representa la tierra y el ocre ceremonial, y un círculo amarillo central que representa al sol, y se convirtió en un símbolo reconocido de identidad y reivindicación aborigen, izada junto a la bandera nacional y reconocida legalmente como bandera oficial de Australia en 1995. Sin embargo, como Thomas conservaba los derechos de autor individuales sobre el diseño, durante décadas organizaciones aborígenes, clubes deportivos e incluso servicios de salud debieron pagar licencias o enfrentaron restricciones para reproducirla en indumentaria o para izarla libremente, generando controversia sobre quién debía poder usar un símbolo de identidad colectiva. El conflicto se resolvió en 2022, cuando el gobierno pagó 20 millones de dólares australianos para adquirir los derechos y liberar su uso para todos.",
+      },
+      en: {
+        title: "The Flag Its Own Creator Had to Fight to Control",
+        subtitle: "The Australian Aboriginal Flag",
+        imageAlt: "Cartoon of a flag split into black and red with a yellow circle at the center.",
+        description:
+          "The Australian Aboriginal flag, designed in 1971 by artist Harold Thomas, a Luritja man, combines a black top half representing Aboriginal people, a red bottom half representing the land and ceremonial ochre, and a central yellow circle representing the sun, and it became a widely recognized symbol of Aboriginal identity, flown alongside the national flag and legally recognized as an official flag of Australia in 1995. However, because Thomas held individual copyright over the design, for decades Aboriginal organizations, sporting bodies, and even health services had to pay licensing fees or faced legal restrictions to reproduce it on clothing or to freely fly it, creating sustained controversy over who should control a symbol of collective identity. The conflict was resolved in 2022, when the government paid AUD 20 million to acquire the copyright and free the flag for everyone to use.",
+      },
+    },
+  },
+  {
+    id: "la-guerra-contra-los-emus",
+    order: 16,
+    placeholderEmoji: "🦤",
+    accentColor: "#6B6B6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La guerra que el ejército perdió contra pájaros",
+        subtitle: "La Gran Guerra del Emú",
+        imageAlt: "Caricatura de soldados con una ametralladora frente a una bandada de emúes.",
+        description:
+          "En 1932, tras años de sequía y con decenas de miles de emúes migrando hacia el interior de Australia Occidental y devastando los cultivos de trigo, el gobierno desplegó soldados armados con ametralladoras para intentar reducir la población de estas aves en lo que pasó a la historia como la 'Gran Guerra del Emú'. La operación resultó un fracaso casi total: los emúes demostraron ser sorprendentemente difíciles de abatir, dispersándose en pequeños grupos erráticos y resistiendo el fuego con una resiliencia que dejó perplejos a los militares, quienes solo lograron matar a una fracción mínima de aves en relación con la cantidad de munición disparada. Las tropas se retiraron después de pocas semanas sin cumplir su objetivo, y el episodio quedó grabado en el folclore popular australiano, contado hasta hoy con humor, como uno de los pocos casos documentados en que, coloquialmente, 'ganaron los emúes'.",
+      },
+      en: {
+        title: "The War the Army Lost Against Birds",
+        subtitle: "The Great Emu War",
+        imageAlt: "Cartoon of soldiers with a machine gun facing a flock of emus.",
+        description:
+          "In 1932, after years of drought and with tens of thousands of emus migrating inland across Western Australia and devastating wheat crops, the government deployed soldiers armed with machine guns to try to cull the birds' population in what went down in history as the 'Great Emu War.' The operation turned out to be a near-total failure: the emus proved surprisingly hard to hit, scattering into small, erratic groups and shrugging off gunfire with a resilience that left the military bewildered, managing to kill only a tiny fraction of birds relative to the amount of ammunition fired. Troops withdrew after just a few weeks without achieving their goal, and the episode became lodged in Australian popular folklore, still recounted today with humor as one of the few documented cases where, colloquially, 'the emus won.'",
+      },
+    },
+  },
+  {
+    id: "la-cerca-mas-larga-del-mundo",
+    order: 17,
+    placeholderEmoji: "🚧",
+    accentColor: "#8B6914",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cerca más larga jamás construida por el ser humano",
+        subtitle: "La Cerca del Dingo",
+        imageAlt: "Caricatura de una cerca de alambre extendiéndose por un paisaje desértico.",
+        description:
+          "La Cerca del Dingo, una alambrada de más de 5.600 kilómetros que atraviesa Queensland, Nueva Gales del Sur y Australia del Sur, es una de las estructuras más largas jamás construidas por seres humanos, más extensa incluso que la Gran Muralla China. Levantada principalmente desde la década de 1880 y consolidada en su forma actual hacia los años cuarenta, su propósito es mantener a los dingos, el cánido salvaje nativo de Australia, fuera de las fértiles regiones ganaderas del sudeste del país, protegiendo a los rebaños de ovejas de la depredación, mientras que al norte y oeste de la cerca la población de dingos se mantiene mucho más alta y menos controlada. Su mantenimiento requiere el trabajo constante de 'jinetes de frontera' que la recorren en vehículos o cuatriciclos revisando roturas, y la marcada diferencia ecológica entre ambos lados se volvió un experimento natural valioso para científicos que estudian el efecto de los depredadores tope sobre la vegetación.",
+      },
+      en: {
+        title: "The Longest Fence Ever Built by Humans",
+        subtitle: "The Dingo Fence",
+        imageAlt: "Cartoon of a wire fence stretching across a desert landscape.",
+        description:
+          "The Dingo Fence, a wire barrier stretching more than 5,600 kilometers across Queensland, New South Wales, and South Australia, is one of the longest structures ever built by humans, even longer than the Great Wall of China. Built mainly starting in the 1880s and consolidated into its current form by the 1940s, its purpose is to keep dingoes, Australia's native wild canid, out of the country's fertile southeastern sheep-grazing regions, protecting livestock from predation, while dingo populations remain much higher and less controlled north and west of the fence. Keeping it standing requires the constant work of 'boundary riders' who patrol the fence by vehicle or quad bike checking for breaches, and the sharp ecological difference between both sides became a valuable natural experiment for scientists studying how apex predators affect vegetation and other wildlife populations.",
+      },
+    },
+  },
+  {
+    id: "el-unico-animal-con-caca-cubica",
+    order: 18,
+    placeholderEmoji: "💩",
+    accentColor: "#6B4A2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El único animal que hace caca con forma de cubo",
+        subtitle: "Los cubos del wombat",
+        imageAlt: "Caricatura de un wombat junto a pequeños cubos marrones en el suelo.",
+        description:
+          "El wombat, un marsupial excavador robusto y nativo de Australia, es la única especie animal conocida capaz de producir excrementos con forma de cubo perfecto, un genuino misterio biológico que científicos estudiaron durante años sin poder explicar del todo. Una investigación de 2018, que ganó el Premio Ig Nobel, determinó que los cubos no se forman mediante ningún tipo de molde interno, sino por una elasticidad irregular en tramos específicos del intestino inusualmente largo del wombat, de hasta diez metros, que se estira de forma desigual durante la etapa final de la digestión. Se estima que un wombat produce entre 80 y 100 de estos cubos por noche, y los apila deliberadamente sobre rocas y troncos como marca territorial olfativa, ya que sus caras planas evitan que rueden y se pierdan, una ventaja funcional que los biólogos creen que explica por qué esta forma tan particular terminó imponiéndose evolutivamente.",
+      },
+      en: {
+        title: "The Only Animal Whose Poop Comes Out in Cubes",
+        subtitle: "The Wombat's Cubes",
+        imageAlt: "Cartoon of a wombat beside small brown cubes on the ground.",
+        description:
+          "The wombat, a sturdy, burrowing marsupial native to Australia, is the only known animal species to produce perfectly cube-shaped droppings, a genuine biological mystery scientists studied for years without fully explaining. A 2018 study, which won an Ig Nobel Prize, found the cubes don't form through any kind of internal mold, but through irregular elasticity in specific sections of the wombat's unusually long intestine, up to ten meters, which stretches unevenly during the final stage of digestion. A single wombat is estimated to produce between 80 and 100 of these cube-shaped droppings per night, deliberately stacking them on rocks and logs as scent-marking territorial signals, since their flat faces keep them from rolling away, a functional advantage biologists believe explains why this particular shape evolved in the first place.",
+      },
+    },
+  },
+  {
+    id: "el-tim-tam-slam",
+    order: 19,
+    placeholderEmoji: "🍫",
+    accentColor: "#4A2C2A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La galleta que se usa como sorbete para tomar café",
+        subtitle: "El Tim Tam Slam",
+        imageAlt: "Caricatura de una galleta de chocolate usada como sorbete en una taza.",
+        description:
+          "El Tim Tam, una galleta rellena cubierta de chocolate lanzada por la empresa Arnott's en 1964 y bautizada en honor a un caballo de carreras ganador, se convirtió en la galleta más vendida de Australia y en una auténtica obsesión nacional. El 'Tim Tam Slam' es la técnica ampliamente practicada de morder dos esquinas opuestas de la galleta y usarla como sorbete para aspirar una bebida caliente, té, café o chocolate, a través de ella hasta que empieza a derretirse por dentro, momento en el que hay que comerse rápido el resultado pegajoso antes de que se desarme por completo. Arnott's exporta Tim Tams a decenas de países, pero los propios australianos suelen considerar inferiores a las imitaciones extranjeras de galletas con chocolate, y la galleta aparece de forma constante en encuestas internacionales como uno de los productos alimenticios más icónicos del país, junto al Vegemite.",
+      },
+      en: {
+        title: "The Biscuit Used as a Straw for Hot Coffee",
+        subtitle: "The Tim Tam Slam",
+        imageAlt: "Cartoon of a chocolate biscuit used as a straw in a cup.",
+        description:
+          "The Tim Tam, a chocolate-coated sandwich biscuit launched by Arnott's in 1964 and named after a winning racehorse, became Australia's best-selling biscuit and a genuine national obsession. The 'Tim Tam Slam' is the widely practiced technique of biting off two opposite corners of the biscuit and using it as a straw to suck a hot drink, tea, coffee, or hot chocolate, through it until it starts melting from the inside, at which point you have to quickly eat the gooey result before it collapses entirely. Arnott's exports Tim Tams to dozens of countries, but Australians themselves tend to consider foreign chocolate-biscuit imitations inferior, and the biscuit is regularly cited in international polls as one of the country's most iconic food exports, alongside Vegemite.",
+      },
+    },
+  },
+  {
+    id: "la-carrera-que-detiene-a-un-pais",
+    order: 20,
+    placeholderEmoji: "🐎",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La carrera de caballos que paraliza a todo un país",
+        subtitle: "La Copa de Melbourne",
+        imageAlt: "Caricatura de un caballo de carreras cruzando la meta bajo confeti.",
+        description:
+          "La Copa de Melbourne, una carrera de caballos de handicap sobre 3.200 metros disputada cada noviembre en el hipódromo de Flemington desde 1861 sin interrupciones, se ganó el apodo de 'la carrera que detiene a un país' porque, pese a durar apenas unos minutos, paraliza buena parte de Australia: el estado de Victoria la celebra como feriado oficial y en el resto del país miles de oficinas y lugares de trabajo hacen una pausa para fiestas, sorteos informales y la transmisión televisiva en vivo. La carrera despierta una actividad de apuestas masiva incluso entre personas que no siguen el turf ningún otro día del año, y entre sus ganadores más recordados figura la yegua Phar Lap, cuya victoria en 1930 en plena Gran Depresión la convirtió en una heroína popular cuyo cuerpo taxidermizado todavía se exhibe permanentemente en el Museo de Melbourne. En años recientes, el evento también se volvió centro de un debate sobre el bienestar animal tras una serie de muertes de caballos.",
+      },
+      en: {
+        title: "The Horse Race That Stops an Entire Country",
+        subtitle: "The Melbourne Cup",
+        imageAlt: "Cartoon of a racehorse crossing the finish line under confetti.",
+        description:
+          "The Melbourne Cup, a 3,200-meter handicap horse race held every November at Flemington Racecourse and run continuously since 1861, earned the nickname 'the race that stops a nation' because, despite lasting only a few minutes, it brings much of Australia to a standstill: the state of Victoria observes it as an official public holiday, and across the rest of the country thousands of offices and workplaces pause for parties, informal sweepstakes, and the live television broadcast. The race drives massive betting activity even among people who don't follow horse racing on any other day of the year, and among its most fondly remembered winners is the mare Phar Lap, whose 1930 victory in the depths of the Great Depression turned her into a folk hero whose taxidermied body remains permanently on display at the Melbourne Museum. In recent years the event has also become the focus of growing debate over animal welfare after a string of horse deaths during the competition.",
+      },
+    },
+  },
 ];

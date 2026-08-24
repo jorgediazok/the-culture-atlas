@@ -231,4 +231,234 @@ export const newZealand: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-tratado-de-waitangi",
+    order: 11,
+    placeholderEmoji: "📜",
+    accentColor: "#7B2D26",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El documento fundacional con dos versiones distintas",
+        subtitle: "El Tratado de Waitangi",
+        imageAlt: "Caricatura de un pergamino antiguo con firmas junto a una pluma.",
+        description:
+          "El Tratado de Waitangi, firmado en febrero de 1840 entre la Corona británica y más de 500 jefes maoríes, se considera el documento fundacional de Nueva Zelanda, pero su versión en inglés y su versión en maorí, la que realmente firmó la mayoría de los jefes, no dicen exactamente lo mismo sobre la pregunta central: el texto inglés habla de una cesión total de 'soberanía', mientras que el texto maorí usa la palabra 'kāwanatanga', más cercana a 'gobierno' o 'administración', preservando la 'rangatiratanga', la autoridad tribal sobre sus tierras y bienes, una discrepancia que generó décadas de disputas sobre qué se acordó realmente aquel día. El Tribunal de Waitangi, creado en 1975, investiga desde entonces los incumplimientos de la Corona y derivó en importantes acuerdos de tierras y compensaciones con distintos iwi (tribus). El 6 de febrero, Día de Waitangi, es la fiesta nacional del país, marcada tanto por actos oficiales como por protestas que reflejan un legado todavía no resuelto.",
+      },
+      en: {
+        title: "The Founding Document With Two Conflicting Versions",
+        subtitle: "The Treaty of Waitangi",
+        imageAlt: "Cartoon of an old parchment with signatures beside a quill pen.",
+        description:
+          "The Treaty of Waitangi, signed in February 1840 between the British Crown and more than 500 Māori chiefs, is considered New Zealand's founding document, but its English-language version and its Māori-language version, the one most chiefs actually signed, don't say exactly the same thing on the central question: the English text speaks of Māori ceding full 'sovereignty,' while the Māori text uses the word 'kāwanatanga,' closer to 'governorship' or 'administration,' preserving 'rangatiratanga,' tribal authority over their lands and treasures, a discrepancy that generated decades of dispute over what was actually agreed that day. The Waitangi Tribunal, established in 1975, has since investigated Crown breaches of the treaty's principles, leading to significant land settlements and financial compensation with various iwi (tribes). February 6th, Waitangi Day, is New Zealand's national day, marked by both official ceremony and ongoing protest reflecting a legacy still not fully resolved.",
+      },
+    },
+  },
+  {
+    id: "la-guerra-del-pavlova",
+    order: 12,
+    placeholderEmoji: "🍰",
+    accentColor: "#D6567D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El postre que Australia y Nueva Zelanda se disputan",
+        subtitle: "La guerra del pavlova",
+        imageAlt: "Caricatura de un merengue redondo cubierto de crema y frutas.",
+        description:
+          "La pavlova, un postre de merengue con una costra crocante y un interior suave parecido al malvavisco, cubierto con crema batida y frutas frescas, lleva el nombre de la bailarina rusa Anna Pávlova en homenaje a sus giras por Australia y Nueva Zelanda en los años veinte, y ambos países se disputan desde entonces la autoría de su invención, citando cada uno recetas y referencias periodísticas propias de esa época como evidencia. La disputa se convirtió en una rivalidad culinaria genuinamente investigada, con historiadores gastronómicos de ambos lados publicando pruebas contrapuestas, y un estudio neozelandés de 2008 rastreó la receta más antigua conocida explícitamente llamada 'pavlova' hasta un recetario de Nueva Zelanda, aunque el debate sigue sin resolverse del todo y resurge periódicamente en los medios de ambos países. Hoy el postre es un clásico infaltable de las celebraciones navideñas y de verano a ambos lados del mar de Tasmania, más allá de quién lo haya inventado realmente.",
+      },
+      en: {
+        title: "The Dessert Australia and New Zealand Both Claim",
+        subtitle: "The Pavlova War",
+        imageAlt: "Cartoon of a round meringue topped with cream and fruit.",
+        description:
+          "Pavlova, a meringue-based dessert with a crisp crust and a soft, marshmallow-like center, topped with whipped cream and fresh fruit, is named after Russian ballerina Anna Pavlova in honor of her tours through Australia and New Zealand in the 1920s, and both countries have disputed the credit for inventing it ever since, each citing its own period recipes and newspaper references as evidence. The dispute became a genuinely researched culinary rivalry, with food historians on both sides publishing competing evidence, and a 2008 New Zealand study traced the earliest known recipe explicitly called 'pavlova' to a New Zealand cookbook, though the debate remains unsettled and periodically resurfaces in the media of both countries. Today the dessert is an essential fixture of Christmas and summer celebrations on both sides of the Tasman Sea, regardless of who actually invented it.",
+      },
+    },
+  },
+  {
+    id: "los-silver-ferns-y-el-netball",
+    order: 13,
+    placeholderEmoji: "🏐",
+    accentColor: "#1D3557",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El deporte femenino que llena estadios neozelandeses",
+        subtitle: "Los Silver Ferns y el netball",
+        imageAlt: "Caricatura de una jugadora lanzando una pelota hacia un aro elevado.",
+        description:
+          "El netball, un deporte derivado del básquetbol temprano y adaptado específicamente para mujeres a fines del siglo XIX, se convirtió en uno de los deportes más vistos y practicados de Nueva Zelanda, especialmente entre mujeres y niñas, con la selección nacional, las Silver Ferns, convocando audiencias de televisión comparables a las del rugby masculino. Se juega en una cancha con siete jugadoras por equipo en posiciones fijas, sin tablero y sin poder driblar la pelota, ya que cada jugadora debe pasarla o lanzarla dentro de los tres segundos de haberla recibido, reglas que exigen un juego de pases rápido y muy táctico. Nueva Zelanda ganó la Copa Mundial de netball en múltiples ocasiones, compitiendo ferozmente con Australia e Inglaterra por la supremacía global del deporte, y pese a su enorme popularidad local, el netball sigue siendo un deporte menor o directamente desconocido en la mayor parte del mundo, algo similar a lo que ocurre con el fútbol australiano en el país vecino.",
+      },
+      en: {
+        title: "The Women's Sport That Fills New Zealand Stadiums",
+        subtitle: "The Silver Ferns and Netball",
+        imageAlt: "Cartoon of a player throwing a ball toward a raised hoop.",
+        description:
+          "Netball, a sport derived from early basketball and specifically adapted for women in the late 19th century, became one of New Zealand's most-watched and most-played sports, especially among women and girls, with the national team, the Silver Ferns, drawing television audiences comparable to men's rugby coverage. It's played on a court with seven players per side in fixed positions, with no backboard and no dribbling, since each player must pass or shoot the ball within three seconds of catching it, rules that demand fast, highly tactical passing play. New Zealand has won the Netball World Cup multiple times, competing fiercely with Australia and England for global dominance of the sport, and despite its huge domestic popularity, netball remains a minor or entirely unknown sport across most of the world, not unlike what happens with Australian Rules football in the country next door.",
+      },
+    },
+  },
+  {
+    id: "libre-de-depredadores-2050",
+    order: 14,
+    placeholderEmoji: "🐀",
+    accentColor: "#4A6741",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El plan para eliminar todos los depredadores del país",
+        subtitle: "Libre de Depredadores 2050",
+        imageAlt: "Caricatura de una trampa junto a la silueta de una rata dentro de un círculo tachado.",
+        description:
+          "Libre de Depredadores 2050 (Predator Free 2050), lanzado por el gobierno de Nueva Zelanda en 2016, es una meta nacional sin precedentes que busca erradicar por completo del territorio continental, no solo controlar sino eliminar totalmente, a las ratas, comadrejas y zarigüeyas introducidas, los depredadores más dañinos para la fauna nativa, antes del año 2050, una ambición de escala nunca antes intentada a nivel país en ninguna parte del mundo. Estos depredadores, introducidos desde la colonización europea, matan cada año a decenas de millones de aves nativas y empujaron a especies como el kiwi y el kakapo al borde de la extinción, por lo que el programa combina trampeo a gran escala, cebos en islas y santuarios cercados, y redes comunitarias de voluntarios. Aunque la erradicación total sigue siendo una meta lejana y debatida entre científicos, los santuarios cercados ya restauraron con éxito poblaciones de aves nativas en decenas de zonas del país.",
+      },
+      en: {
+        title: "The Plan to Eliminate Every Predator in the Country",
+        subtitle: "Predator Free 2050",
+        imageAlt: "Cartoon of a trap beside the silhouette of a rat inside a crossed-out circle.",
+        description:
+          "Predator Free 2050, launched by New Zealand's government in 2016, is an unprecedented national goal to completely eradicate, not just control but fully eliminate, the country's most damaging introduced predators, rats, stoats, and possums, from the entire mainland by the year 2050, an ambition of a scale never before attempted at a country level anywhere in the world. These predators, introduced since European colonization, kill an estimated tens of millions of native birds every year and pushed species like the kiwi and kakapo to the brink of extinction, so the program combines large-scale trapping, poison baiting on islands and fenced mainland sanctuaries, community volunteer trapping networks, and emerging genetic and biological control technologies. While full nationwide eradication remains a distant, debated goal among scientists, fenced 'predator-free' sanctuaries have already successfully restored native bird populations across dozens of areas of the country.",
+      },
+    },
+  },
+  {
+    id: "las-aguas-termales-de-rotorua",
+    order: 15,
+    placeholderEmoji: "♨️",
+    accentColor: "#C9682B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad que huele a azufre por sus géiseres",
+        subtitle: "Las aguas termales de Rotorua",
+        imageAlt: "Caricatura de un géiser en erupción junto a pozas de barro burbujeante.",
+        description:
+          "Rotorua, en la Isla Norte de Nueva Zelanda, se asienta sobre un campo geotérmico intensamente activo, con géiseres, pozas de barro burbujeante y fuentes termales humeantes dispersas por toda la zona e incluso dentro de la propia ciudad, lo que le da al lugar un olor persistente a azufre que los propios habitantes apodan con humor 'Rotten-rua' (podrida-rua). Las comunidades maoríes de la región usan estos fenómenos geotérmicos desde hace siglos para cocinar en pozos de vapor alimentados por el calor de la tierra, bañarse y calefaccionar sus viviendas, una de las relaciones más estrechas entre una comunidad humana y la actividad geotérmica que existen en el mundo. Pōhutu, el géiser activo más grande del hemisferio sur, puede erupcionar hasta 30 metros de altura varias veces al día dentro de Te Puia, un parque cultural y geotérmico, y la energía del subsuelo también se aprovecha para generar electricidad.",
+      },
+      en: {
+        title: "The City That Smells of Sulfur From Its Geysers",
+        subtitle: "The Hot Springs of Rotorua",
+        imageAlt: "Cartoon of an erupting geyser beside bubbling mud pools.",
+        description:
+          "Rotorua, on New Zealand's North Island, sits atop an intensely active geothermal field, with geysers, bubbling mud pools, and steaming hot springs scattered across the area and even within the town itself, giving the place a persistent sulfur smell locals affectionately nickname 'Rotten-rua.' Māori communities in the region have used these geothermal features for centuries to cook in steam pits fed by the earth's heat, to bathe, and to heat their homes, one of the closest relationships between a human community and geothermal activity found anywhere in the world. Pōhutu, the largest active geyser in the Southern Hemisphere, can erupt up to 30 meters high several times a day within Te Puia, a cultural and geothermal park, and the underground heat is also harnessed to generate electricity.",
+      },
+    },
+  },
+  {
+    id: "el-hongi-y-el-powhiri",
+    order: 16,
+    placeholderEmoji: "👃",
+    accentColor: "#5C4A72",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El saludo que une la respiración de dos personas",
+        subtitle: "El hongi y el pōwhiri maorí",
+        imageAlt: "Caricatura de dos personas tocándose la nariz y la frente en un saludo tradicional.",
+        description:
+          "El pōwhiri es la ceremonia formal maorí de bienvenida en un marae (recinto comunitario) para recibir visitantes, con una secuencia estructurada que incluye el 'wero', un desafío ceremonial en el que a veces un guerrero deja un objeto en el suelo para que el líder del grupo visitante lo recoja como señal de intención pacífica, el 'karanga', llamadas ceremoniales que intercambian las mujeres de ambos grupos, los 'whaikōrero', discursos formales pronunciados por oradores, y los 'waiata', cantos que acompañan cada discurso. La ceremonia culmina con el 'hongi', un saludo en el que dos personas presionan la nariz y la frente al mismo tiempo, compartiendo literalmente el mismo aliento, un gesto que simboliza la unión de la fuerza vital de cada persona y marca el momento en que un visitante deja de ser un extraño para volverse, al menos temporalmente, parte del grupo anfitrión. El pōwhiri sigue siendo un protocolo vivo, practicado hoy desde visitas de Estado hasta graduaciones universitarias.",
+      },
+      en: {
+        title: "The Greeting That Shares Two People's Breath",
+        subtitle: "The Hongi and the Māori Pōwhiri",
+        imageAlt: "Cartoon of two people touching noses and foreheads in a traditional greeting.",
+        description:
+          "The pōwhiri is the formal Māori welcome ceremony performed at a marae (meeting ground) to receive visitors, following a structured sequence that includes the 'wero,' a ceremonial challenge in which a warrior sometimes lays an object on the ground for the visiting group's leader to pick up as a sign of peaceful intent, the 'karanga,' ceremonial calls exchanged between women of both groups, the 'whaikōrero,' formal speeches delivered by orators, and 'waiata,' songs that follow each speech. The ceremony closes with the 'hongi,' a greeting in which two people press their nose and forehead together at the same time, literally sharing the same breath, a gesture symbolizing the mingling of each person's life force, or 'ha,' and marking the moment a visitor stops being an outsider and becomes, at least temporarily, part of the host group. The pōwhiri remains a living protocol used today for everything from state visits to university graduations.",
+      },
+    },
+  },
+  {
+    id: "las-terrazas-perdidas-del-tarawera",
+    order: 17,
+    placeholderEmoji: "🌋",
+    accentColor: "#8B4513",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El volcán que sepultó una de las maravillas del mundo",
+        subtitle: "Las terrazas perdidas del Tarawera",
+        imageAlt: "Caricatura de terrazas escalonadas de piedra rosada junto a un volcán humeante.",
+        description:
+          "Las Terrazas Rosa y Blanca, formaciones de sílice creadas por siglos de goteo de aguas geotérmicas ricas en minerales sobre las orillas del lago Rotomahana, cerca del monte Tarawera, formaban gigantescas escalinatas naturales consideradas en el siglo XIX una maravilla natural del mundo, atrayendo a turistas adinerados de todo el planeta hacia lo apodado la 'octava maravilla del mundo'. Las terrazas fueron destruidas, y durante más de un siglo se las creyó sepultadas, en la catastrófica erupción del monte Tarawera del 10 de junio de 1886, uno de los desastres naturales más letales del país, que también arrasó la cercana aldea de Te Wairoa, hoy conservada como sitio histórico conocido como 'la Aldea Sepultada'. En 2011 y estudios posteriores, investigadores hallaron evidencia geológica que sugiere que restos de las terrazas podrían sobrevivir bajo el agua o bajo tierra cerca del lago, reavivando la esperanza y un debate científico todavía abierto sobre si algún día podrían redescubrirse.",
+      },
+      en: {
+        title: "The Volcano That Buried One of the World's Wonders",
+        subtitle: "The Lost Terraces of Tarawera",
+        imageAlt: "Cartoon of stepped pink stone terraces beside a smoking volcano.",
+        description:
+          "The Pink and White Terraces, silica sinter formations built up over centuries by mineral-rich geothermal water cascading down the shores of Lake Rotomahana near Mount Tarawera, formed giant natural staircases considered one of the natural wonders of the world in the 19th century, drawing wealthy tourists from around the globe to what was nicknamed the 'eighth wonder of the world.' The terraces were destroyed, and for more than a century believed completely buried, in the catastrophic eruption of Mount Tarawera on June 10, 1886, one of the deadliest natural disasters in New Zealand's history, which also wiped out the nearby village of Te Wairoa, now preserved as an excavated historical site known as 'the Buried Village.' In 2011 and later surveys, researchers found geological evidence suggesting remnants of the terraces may survive underwater or underground near the lake, reviving hope and an ongoing scientific debate over whether they could someday be rediscovered.",
+      },
+    },
+  },
+  {
+    id: "la-calle-mas-empinada-del-mundo",
+    order: 18,
+    placeholderEmoji: "🛣️",
+    accentColor: "#4A4A4A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La calle residencial más inclinada del planeta",
+        subtitle: "La calle Baldwin",
+        imageAlt: "Caricatura de una calle empinada con casas a los costados y una pelota rodando cuesta abajo.",
+        description:
+          "La calle Baldwin, en la ciudad de Dunedin, en la Isla Sur de Nueva Zelanda, ostentó durante décadas el récord Guinness de la calle residencial más empinada del mundo, con una pendiente máxima cercana al 35% (unos 19 grados) en su punto más inclinado. Según cuenta la tradición local, la calle fue trazada siguiendo un plano de cuadrícula recta diseñado por urbanistas en Inglaterra que nunca visitaron el terreno extremadamente montañoso de la zona, lo que explicaría por qué terminó siendo tan pronunciada sin que nadie la haya diseñado así a propósito. La calle se convirtió en un imán para eventos locales curiosos, incluida una carrera benéfica anual, y una tradición, hoy discontinuada por motivos de seguridad, de hacer rodar cuesta abajo miles de caramelos de chocolate llamados 'Jaffas' como recaudación de fondos. En 2019, Baldwin Street perdió su título Guinness ante una calle de Gales tras una remedición más precisa, un cambio que generó notable decepción entre los vecinos de Dunedin.",
+      },
+      en: {
+        title: "The Steepest Residential Street on the Planet",
+        subtitle: "Baldwin Street",
+        imageAlt: "Cartoon of a steep street lined with houses and a ball rolling downhill.",
+        description:
+          "Baldwin Street, in the city of Dunedin on New Zealand's South Island, held the Guinness World Record for the world's steepest residential street for decades, with a maximum grade of around 35% (roughly 19 degrees) at its steepest point. According to local tradition, the street was laid out following a straight-line grid plan designed by planners in England who never actually visited the extremely hilly local terrain, which would explain why it ended up so steep without anyone intentionally designing it that way. The street became a magnet for quirky local events, including an annual charity race up and down the hill, and a now-discontinued tradition, dropped for safety and cleanup reasons, of rolling thousands of chocolate candies called 'Jaffas' down the slope as a fundraiser. In 2019, Baldwin Street lost its official Guinness title to a street in Wales after a more precise remeasurement, a change that generated notable disappointment among Dunedin residents proud of the title.",
+      },
+    },
+  },
+  {
+    id: "el-renacimiento-del-idioma-maori",
+    order: 19,
+    placeholderEmoji: "🗣️",
+    accentColor: "#1B4332",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El idioma que estuvo a punto de desaparecer",
+        subtitle: "El renacimiento del te reo maorí",
+        imageAlt: "Caricatura de niños sentados en círculo escuchando a una maestra en un aula.",
+        description:
+          "El te reo maorí sufrió un declive dramático a lo largo del siglo XX debido a políticas que incluyeron castigos físicos por hablarlo en las escuelas, dejándolo hacia los setenta hablado con fluidez principalmente por generaciones mayores y en serio riesgo de desaparecer en una sola generación más. El movimiento de revitalización, liderado en gran parte por ancianos y comunidades maoríes, lanzó en 1982 los 'kōhanga reo' ('nidos de lengua'), centros de inmersión total para primera infancia donde niños pequeños crecen hablando solo maorí rodeados de ancianos fluidos, seguidos más tarde por escuelas primarias y secundarias de inmersión completa llamadas 'kura kaupapa māori'. La Ley del Idioma Maorí de 1987 convirtió al te reo en idioma oficial junto al inglés y creó la Comisión del Idioma Maorí; desde entonces, la Semana del Idioma Maorí es una tradición nacional cada septiembre, en uno de los esfuerzos de revitalización lingüística indígena más estudiados y exitosos del mundo.",
+      },
+      en: {
+        title: "The Language That Nearly Vanished",
+        subtitle: "The Revival of Te Reo Māori",
+        imageAlt: "Cartoon of children sitting in a circle listening to a teacher in a classroom.",
+        description:
+          "Te reo Māori, the Māori language, saw a dramatic decline through the 20th century due to policies that included corporal punishment for speaking it in schools, leaving it by the 1970s spoken fluently mainly by older generations and at serious risk of disappearing within a single further generation. The revival movement, led largely by Māori elders and communities, launched 'kōhanga reo' ('language nests') in 1982, full-immersion early-childhood centers where young children grow up speaking only Māori surrounded by fluent elders, followed later by full-immersion primary and secondary schools called 'kura kaupapa Māori.' The Māori Language Act of 1987 made te reo an official language of New Zealand alongside English and, later, New Zealand Sign Language, and established the Māori Language Commission; since then, Māori Language Week became a nationwide September tradition, in one of the most closely studied and successful indigenous language revitalization efforts in the world.",
+      },
+    },
+  },
+  {
+    id: "la-mentalidad-del-alambre-numero-8",
+    order: 20,
+    placeholderEmoji: "🔧",
+    accentColor: "#8B6914",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El alambre de granja que se volvió filosofía nacional",
+        subtitle: "La mentalidad del alambre número 8",
+        imageAlt: "Caricatura de una persona reparando una máquina con un rollo de alambre.",
+        description:
+          "La mentalidad del 'alambre número 8', una ética nacida de la historia rural neozelandesa, toma su nombre de un calibre estándar de alambre para cercos que se volvió símbolo de la resolución improvisada de problemas, ya que granjeros aislados, lejos de ferreterías, aprendieron a arreglar o fabricar casi cualquier cosa con él, desde cercas hasta piezas de maquinaria rota. La frase evolucionó hasta ser un motivo de orgullo nacional que describe una supuesta habilidad neozelandesa para resolver problemas con recursos limitados mediante el ingenio práctico antes que con formación técnica o herramientas costosas. La idea suele citarse, aunque algunos la cuestionan como mito autocomplaciente, como parte de la explicación detrás de la cantidad desproporcionada de inventores que produjo el país, incluido Richard Pearse, quien según se cuenta construyó y voló un avión experimental en 1902-1903, posiblemente antes que los hermanos Wright, usando materiales de granja e ingeniería autodidacta.",
+      },
+      en: {
+        title: "The Farm Wire That Became a National Philosophy",
+        subtitle: "The Number 8 Wire Mentality",
+        imageAlt: "Cartoon of a person repairing a machine with a roll of wire.",
+        description:
+          "The 'number 8 wire' mentality, a cultural ethos rooted in New Zealand's rural farming history, takes its name from a standard gauge of fencing wire that became a symbol of resourceful, improvised problem-solving, since isolated farmers, far from hardware stores or spare parts, learned to fix or outright fabricate almost anything with it, from mending fences to jury-rigging broken farm machinery. The phrase evolved into a broader source of national pride describing a supposedly distinctive Kiwi ability to solve problems with limited resources through practical ingenuity rather than formal training or expensive tools. The idea is often cited, though some question it as a self-flattering myth, as part of the explanation for the disproportionate number of inventors the country has produced, including Richard Pearse, said to have built and flown an early aircraft in 1902-1903, possibly before the Wright brothers, using farm materials and self-taught engineering.",
+      },
+    },
+  },
 ];

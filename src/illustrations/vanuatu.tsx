@@ -168,6 +168,86 @@ const VulnerabilidadDesastres: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const NitusDibujoArena: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const sand = "#D9BE8F";
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill={sand} />
+      <path d="M140 220 L140 150 L270 150 L270 190 L180 190 L180 220 L240 220 L240 170" fill="none" stroke={accentColor} strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M225 160 Q235 150 245 158" fill={skin} stroke={dark} strokeWidth="2" />
+      <ellipse cx="240" cy="168" rx="9" ry="13" fill={skin} stroke={dark} strokeWidth="2" transform="rotate(20 240 168)" />
+    </g>
+  );
+};
+
+const ColmilloCerdoCirculo: IllustrationComponent = () => {
+  const ivory = "#F0E6D2";
+  return (
+    <g>
+      <path d="M205 115 Q260 120 268 175 Q272 220 225 235 Q185 245 165 210 Q152 185 170 165" fill="none" stroke={ivory} strokeWidth="18" strokeLinecap="round" />
+      <path d="M150 200 Q135 190 130 170 Q145 175 155 190 Z" fill="#4A8F4E" stroke={shade("#4A8F4E", 0.3)} strokeWidth="2" />
+      <path d="M150 210 Q132 212 122 200 Q138 198 150 205 Z" fill="#4A8F4E" stroke={shade("#4A8F4E", 0.3)} strokeWidth="2" />
+    </g>
+  );
+};
+
+const NakamalKava: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const thatch = "#8B5A2B";
+  const skin = "#6B4423";
+  const liquid = "#8B5A2B";
+  return (
+    <g>
+      <path d="M110 175 L205 110 L300 175 L280 185 L205 135 L130 185 Z" fill={thatch} stroke={shade(thatch, 0.3)} strokeWidth="3" />
+      <line x1="140" y1="185" x2="140" y2="240" stroke={dark} strokeWidth="4" />
+      <line x1="270" y1="185" x2="270" y2="240" stroke={dark} strokeWidth="4" />
+      <ellipse cx="205" cy="222" rx="38" ry="11" fill={liquid} stroke={shade(liquid, 0.3)} strokeWidth="2" />
+      {[[160, 235], [250, 235]].map(([x, y]) => (
+        <g key={x as number}>
+          <circle cx={x} cy={(y as number) - 30} r="10" fill={skin} />
+          <path d={`M${(x as number) - 14} ${(y as number) - 12} Q${x} ${(y as number) - 20} ${(x as number) + 14} ${(y as number) - 12} L${(x as number) + 10} ${y} L${(x as number) - 10} ${y} Z`} fill={accentColor} stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const MascarasRomAmbrym: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const leaf = "#7A9A4A";
+  return (
+    <g>
+      <path d="M205 110 L165 235 L245 235 Z" fill={leaf} stroke={shade(leaf, 0.3)} strokeWidth="3" />
+      {[130, 150, 170, 190, 210].map((y, i) => (
+        <path key={y} d={`M${175 - i * 2} ${y + 20} Q205 ${y + 8} ${235 + i * 2} ${y + 20}`} fill="none" stroke={shade(leaf, 0.35)} strokeWidth="2" opacity="0.5" />
+      ))}
+      <path d="M188 128 Q205 118 222 128 L218 165 Q205 175 192 165 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="197" cy="140" r="3" fill="#1A1A1A" />
+      <circle cx="213" cy="140" r="3" fill="#1A1A1A" />
+      <path d="M198 155 Q205 160 212 155" stroke="#1A1A1A" strokeWidth="2" fill="none" />
+    </g>
+  );
+};
+
+const PasaportesPorInversion: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4AF37";
+  return (
+    <g>
+      <rect x="140" y="120" width="90" height="120" rx="6" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="185" cy="160" r="16" fill="none" stroke="#F5F0E6" strokeWidth="2.5" />
+      <path d="M175 160 L182 168 L196 148" fill="none" stroke="#F5F0E6" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      <line x1="160" y1="200" x2="210" y2="200" stroke="#F5F0E6" strokeWidth="2" opacity="0.6" />
+      <line x1="160" y1="212" x2="200" y2="212" stroke="#F5F0E6" strokeWidth="2" opacity="0.6" />
+      {[[255, 220], [280, 205], [270, 235]].map(([x, y], i) => (
+        <circle key={x as number} cx={x} cy={y} r={14 - i} fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
 export const vanuatuIllustrations: Record<string, IllustrationDefinition> = {
   "land-diving-pentecost": { component: LandDivingPentecost },
   "culto-cargo-john-frum": { component: CultoCargoJohnFrum },
@@ -179,4 +259,9 @@ export const vanuatuIllustrations: Record<string, IllustrationDefinition> = {
   "buceo-president-coolidge": { component: BuceoPresidentCoolidge },
   "independencia-condominio": { component: IndependenciaCondominio },
   "vulnerabilidad-desastres": { component: VulnerabilidadDesastres },
+  "el-dibujo-en-arena-nitus": { component: NitusDibujoArena },
+  "el-colmillo-de-cerdo-moneda-y-bandera": { component: ColmilloCerdoCirculo },
+  "los-nakamal-y-el-origen-del-kava": { component: NakamalKava },
+  "las-mascaras-rom-de-ambrym": { component: MascarasRomAmbrym },
+  "pasaportes-por-inversion": { component: PasaportesPorInversion },
 };

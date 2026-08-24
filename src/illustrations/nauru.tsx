@@ -155,6 +155,38 @@ const RecuperacionAmbiental: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const DoceTribusBandera: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  const white = "#F5F0E6";
+  return (
+    <g>
+      <rect x="100" y="95" width="210" height="140" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <rect x="100" y="158" width="210" height="9" fill={gold} />
+      <path d="M175 183 L180 199 L196 196 L184 207 L196 218 L180 215 L175 231 L170 215 L154 218 L166 207 L154 196 L170 199 Z" fill={white} stroke={shade(white, 0.25)} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const LevantamientoDePesas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <circle cx="205" cy="140" r="14" fill={skin} />
+      <path d="M191 154 Q205 148 219 154 L224 205 L186 205 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M186 200 L165 235 M224 200 L245 235" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M195 205 L178 240 M215 205 L232 240" stroke={dark} strokeWidth="4" />
+      <path d="M191 158 L170 120 M219 158 L240 120" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <line x1="150" y1="118" x2="260" y2="118" stroke="#2E2E2E" strokeWidth="6" />
+      <circle cx="160" cy="118" r="16" fill="#1A1A1A" stroke={dark} strokeWidth="2" />
+      <circle cx="250" cy="118" r="16" fill="#1A1A1A" stroke={dark} strokeWidth="2" />
+      <circle cx="160" cy="118" r="8" fill="#5C5C5C" />
+      <circle cx="250" cy="118" r="8" fill="#5C5C5C" />
+    </g>
+  );
+};
+
 export const nauruIllustrations: Record<string, IllustrationDefinition> = {
   "fosfato-nauru": { component: FosfatoNauru },
   "topografia-lunar": { component: TopografiaLunar },
@@ -166,4 +198,6 @@ export const nauruIllustrations: Record<string, IllustrationDefinition> = {
   "idioma-nauruano": { component: IdiomaNauruano },
   "cambio-climatico-nauru": { component: CambioClimaticoNauru },
   "recuperacion-ambiental": { component: RecuperacionAmbiental },
+  "doce-tribus-bandera": { component: DoceTribusBandera },
+  "levantamiento-de-pesas-nauru": { component: LevantamientoDePesas },
 };

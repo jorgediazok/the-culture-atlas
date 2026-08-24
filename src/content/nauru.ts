@@ -231,4 +231,50 @@ export const nauru: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "doce-tribus-bandera",
+    order: 11,
+    placeholderEmoji: "⭐",
+    accentColor: "#00695C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La estrella de doce puntas que representa a cada tribu",
+        subtitle: "Las doce tribus y la bandera nauruana",
+        imageAlt: "Caricatura de una bandera azul con una franja amarilla y una estrella blanca de doce puntas.",
+        description:
+          "La bandera de Nauru, adoptada al independizarse en 1968, condensa en un diseño simple la geografía y la estructura social del país: el fondo azul representa el océano Pacífico que rodea a la isla, la delgada franja horizontal dorada simboliza la línea del ecuador, y la estrella blanca de doce puntas ubicada justo debajo de esa franja representa a las doce tribus tradicionales que componían la sociedad nauruana antes de la colonización, cuya posición por debajo de la línea señala además que la isla se encuentra apenas al sur del ecuador. Estas doce tribus ancestrales, cada una con su propio nombre y jerarquía interna, siguen siendo hoy un elemento central de la identidad social nauruana, y su pertenencia todavía influye en dinámicas comunitarias y familiares pese a las transformaciones que trajeron el auge y la posterior crisis del fosfato. Pocas banderas nacionales combinan tan directamente un dato astronómico exacto con un mapa social ancestral en un solo símbolo.",
+      },
+      en: {
+        title: "The Twelve-Pointed Star Representing Every Tribe",
+        subtitle: "Nauru's Twelve Tribes and Its Flag",
+        imageAlt: "Cartoon of a blue flag with a yellow stripe and a white twelve-pointed star.",
+        description:
+          "Nauru's flag, adopted upon independence in 1968, packs the country's geography and social structure into a simple design: the blue field represents the Pacific Ocean surrounding the island, the thin horizontal gold stripe symbolizes the equator, and the white twelve-pointed star positioned just below that stripe represents the twelve traditional tribes that made up Nauruan society before colonization, its position below the line also marking that the island sits just south of the equator. These twelve ancestral tribes, each with its own name, traditional territory, and internal hierarchy, remain a central element of Nauruan social identity today, and tribal belonging still shapes community and family dynamics despite the transformations brought by the phosphate boom and its later collapse. Few national flags combine an exact astronomical fact with an ancestral social map so directly in a single symbol.",
+      },
+    },
+  },
+  {
+    id: "levantamiento-de-pesas-nauru",
+    order: 12,
+    placeholderEmoji: "🏋️",
+    accentColor: "#B71C1C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país con más medallas olímpicas por habitante",
+        subtitle: "El levantamiento de pesas nauruano",
+        imageAlt: "Caricatura de un levantador de pesas alzando una barra sobre la cabeza.",
+        description:
+          "Pese a tener apenas unos once mil habitantes, Nauru se convirtió en una potencia desproporcionada del levantamiento de pesas en competencias como los Juegos de la Mancomunidad, logrando más medallas por habitante que cualquier otro país participante, un fenómeno encabezado por Marcus Stephen, quien ganó múltiples medallas de oro en los años noventa antes de convertirse, años después, en presidente de Nauru. El levantamiento de pesas se volvió virtualmente el deporte nacional no oficial del país, con gimnasios comunitarios que funcionan como puntos de encuentro social tan importantes como competitivos, y jóvenes nauruanos que ven en el deporte una de las pocas vías realistas de reconocimiento internacional para una isla diminuta y aislada. El éxito sostenido en esta disciplina, generación tras generación, se convirtió en una fuente de orgullo nacional significativa para un país que enfrentó décadas de crisis económica y ambiental tras el colapso del fosfato.",
+      },
+      en: {
+        title: "The Country With the Most Olympic Medalists Per Capita",
+        subtitle: "Nauru's Weightlifting Tradition",
+        imageAlt: "Cartoon of a weightlifter raising a barbell overhead.",
+        description:
+          "Despite having barely eleven thousand residents, Nauru became a disproportionate powerhouse in weightlifting at competitions like the Commonwealth Games, earning more medals per capita than any other participating nation, a phenomenon led by Marcus Stephen, who won multiple gold medals in the 1990s before later becoming President of Nauru. Weightlifting became virtually the country's unofficial national sport, with community gyms functioning as social gathering spots nearly as much as training grounds, and young Nauruans seeing the sport as one of the few realistic paths to international recognition for such a tiny, isolated island. Sustained success in the discipline, generation after generation, became a source of national pride particularly meaningful for a country that faced decades of economic and environmental crisis following the collapse of its phosphate wealth.",
+      },
+    },
+  },
 ];

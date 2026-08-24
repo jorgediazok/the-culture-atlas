@@ -149,6 +149,158 @@ const CeroMamiferos: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const TratadoDeWaitangi: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const parchment = "#E8DCC0";
+  return (
+    <g>
+      <path d="M130 110 Q120 115 120 130 L120 220 Q120 235 130 240 L280 240 Q290 235 290 220 L290 130 Q290 115 280 110 Z" fill={parchment} stroke={dark} strokeWidth="3" />
+      <line x1="145" y1="150" x2="265" y2="150" stroke={shade(parchment, 0.35)} strokeWidth="2" opacity="0.6" />
+      <line x1="145" y1="170" x2="265" y2="170" stroke={shade(parchment, 0.35)} strokeWidth="2" opacity="0.6" />
+      <line x1="145" y1="190" x2="265" y2="190" stroke={shade(parchment, 0.35)} strokeWidth="2" opacity="0.6" />
+      <path d="M150 215 Q165 205 180 218 Q190 210 205 220" fill="none" stroke={accentColor} strokeWidth="2.5" />
+      <line x1="240" y1="120" x2="270" y2="90" stroke="#5C3A1E" strokeWidth="4" strokeLinecap="round" />
+      <path d="M265 95 L275 85 L280 90 L270 100 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const GuerraDelPavlova: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const cream = "#F5F0E6";
+  return (
+    <g>
+      <ellipse cx="205" cy="210" rx="80" ry="24" fill={cream} stroke={shade(cream, 0.3)} strokeWidth="3" />
+      <path d="M135 210 Q150 165 205 160 Q260 165 275 210 Q260 195 205 190 Q150 195 135 210 Z" fill="#fff" stroke={shade(cream, 0.3)} strokeWidth="2.5" />
+      <ellipse cx="205" cy="185" rx="50" ry="14" fill="#fff" opacity="0.9" />
+      {[[170, 180], [205, 175], [240, 180], [190, 190], [220, 190]].map(([x, y], i) => (
+        <ellipse key={x as number} cx={x} cy={y} rx="8" ry="6" fill={i % 2 === 0 ? accentColor : "#F4C430"} stroke={dark} strokeWidth="1.2" />
+      ))}
+    </g>
+  );
+};
+
+const SilverFernsNetball: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  return (
+    <g>
+      <circle cx="270" cy="120" r="26" fill="none" stroke={dark} strokeWidth="5" />
+      <line x1="270" y1="94" x2="270" y2="145" stroke={dark} strokeWidth="4" />
+      <circle cx="180" cy="160" r="12" fill={skin} />
+      <path d="M166 173 Q180 165 194 173 L190 220 L170 220 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M188 178 Q220 165 245 135" stroke={skin} strokeWidth="7" strokeLinecap="round" fill="none" />
+      <circle cx="248" cy="130" r="10" fill="#F4A300" stroke={dark} strokeWidth="2" />
+      <path d="M170 220 L160 245 M188 220 L195 245" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const LibreDeDepredadores2050: IllustrationComponent = ({ accentColor }) => {
+  const rat = "#5C4A3A";
+  return (
+    <g>
+      <circle cx="205" cy="170" r="65" fill="none" stroke={accentColor} strokeWidth="6" />
+      <line x1="160" y1="125" x2="250" y2="215" stroke={accentColor} strokeWidth="6" />
+      <ellipse cx="195" cy="180" rx="30" ry="16" fill={rat} stroke={shade(rat, 0.3)} strokeWidth="2.5" />
+      <circle cx="165" cy="175" r="10" fill={rat} stroke={shade(rat, 0.3)} strokeWidth="2" />
+      <path d="M155 168 L145 160 M155 182 L145 190" stroke={rat} strokeWidth="3" strokeLinecap="round" />
+      <path d="M225 190 Q245 200 255 215" stroke={rat} strokeWidth="4" strokeLinecap="round" fill="none" />
+      <circle cx="160" cy="172" r="1.8" fill="#1A1A1A" />
+    </g>
+  );
+};
+
+const AguasTermalesDeRotorua: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const mud = "#8B6F47";
+  return (
+    <g>
+      <ellipse cx="150" cy="225" rx="45" ry="20" fill={mud} stroke={shade(mud, 0.3)} strokeWidth="2.5" />
+      {[[130, 220], [150, 218], [170, 222]].map(([x, y]) => (
+        <circle key={x as number} cx={x} cy={y} r="5" fill={shade(mud, 0.15)} stroke={shade(mud, 0.35)} strokeWidth="1.2" />
+      ))}
+      <path d="M255 240 Q248 190 258 150 Q262 130 268 150 Q272 190 262 240 Z" fill="#fff" stroke={dark} strokeWidth="2.5" opacity="0.85" />
+      <path d="M245 240 Q250 220 260 210 Q270 220 275 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M255 145 Q260 120 255 100 M262 148 Q270 125 268 105" stroke="#fff" strokeWidth="4" strokeLinecap="round" opacity="0.6" fill="none" />
+    </g>
+  );
+};
+
+const HongiYPowhiri: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin1 = "#8B5A2B";
+  const skin2 = "#D9A46A";
+  return (
+    <g>
+      <circle cx="175" cy="170" r="26" fill={skin1} stroke={dark} strokeWidth="2.5" />
+      <circle cx="235" cy="170" r="26" fill={skin2} stroke={dark} strokeWidth="2.5" />
+      <path d="M175 195 Q175 215 165 235 L185 235 Q182 215 178 198 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <path d="M235 195 Q235 215 225 235 L245 235 Q242 215 238 198 Z" fill={shade(accentColor, 0.2)} stroke={dark} strokeWidth="2" />
+      <circle cx="168" cy="166" r="2.5" fill="#1A1A1A" />
+      <circle cx="242" cy="166" r="2.5" fill="#1A1A1A" />
+    </g>
+  );
+};
+
+const TerrazasPerdidasDelTarawera: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <polygon points="205,100 260,240 150,240" fill="#5C5C5C" stroke={shade("#5C5C5C", 0.3)} strokeWidth="3" />
+      <path d="M195 130 Q210 125 220 130 L225 150 Q210 145 195 150 Z" fill="#8B5A2B" opacity="0.6" />
+      {[[240, 215, 50], [255, 195, 35], [270, 175, 22]].map(([x, y, w], i) => (
+        <rect key={x as number} x={(x as number) - (w as number) / 2} y={y} width={w} height="12" fill={i % 2 === 0 ? accentColor : tint(accentColor, 0.3)} stroke={dark} strokeWidth="1.5" />
+      ))}
+    </g>
+  );
+};
+
+const CalleMasEmpinadaDelMundo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <polygon points="90,250 320,250 320,190 90,240" fill="#5C5C5C" stroke={dark} strokeWidth="2.5" />
+      <line x1="100" y1="245" x2="310" y2="197" stroke="#F5F0E6" strokeWidth="2" strokeDasharray="8 6" opacity="0.7" />
+      <rect x="110" y="200" width="40" height="40" fill={accentColor} stroke={dark} strokeWidth="2.5" transform="skewY(-8)" />
+      <rect x="260" y="150" width="40" height="45" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.5" transform="skewY(-8)" />
+      <circle cx="230" cy="220" r="9" fill="#C1272D" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const RenacimientoDelIdiomaMaori: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <circle cx="205" cy="150" r="14" fill={skin} />
+      <path d="M188 165 Q205 155 222 165 L217 210 L193 210 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[[150, 215], [175, 225], [235, 225], [260, 215]].map(([x, y], i) => (
+        <g key={x as number}>
+          <circle cx={x} cy={(y as number) - 16} r="9" fill={skin} />
+          <path d={`M${(x as number) - 11} ${(y as number) - 3} Q${x} ${(y as number) - 9} ${(x as number) + 11} ${(y as number) - 3} L${(x as number) + 8} ${y} L${(x as number) - 8} ${y} Z`} fill={i % 2 === 0 ? tint(accentColor, 0.3) : shade(accentColor, 0.1)} stroke={dark} strokeWidth="1.5" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const MentalidadDelAlambreNumero8: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <circle cx="180" cy="150" r="13" fill={skin} />
+      <path d="M166 163 Q180 155 194 163 L190 210 L170 210 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M190 175 Q220 180 235 165" stroke={skin} strokeWidth="7" strokeLinecap="round" fill="none" />
+      <circle cx="248" cy="185" r="26" fill="none" stroke="#5C5C5C" strokeWidth="5" />
+      <circle cx="248" cy="185" r="17" fill="none" stroke="#5C5C5C" strokeWidth="4" />
+      <rect x="200" y="200" width="45" height="8" fill="#5C5C5C" stroke={dark} strokeWidth="1.5" transform="rotate(-20 222 204)" />
+    </g>
+  );
+};
+
 export const newZealandIllustrations: Record<string, IllustrationDefinition> = {
   haka: { component: Haka },
   "senor-de-los-anillos": { component: SenorDeLosAnillos },
@@ -160,4 +312,14 @@ export const newZealandIllustrations: Record<string, IllustrationDefinition> = {
   sufragio: { component: Sufragio },
   bungee: { component: Bungee },
   "cero-mamiferos": { component: CeroMamiferos },
+  "el-tratado-de-waitangi": { component: TratadoDeWaitangi },
+  "la-guerra-del-pavlova": { component: GuerraDelPavlova },
+  "los-silver-ferns-y-el-netball": { component: SilverFernsNetball },
+  "libre-de-depredadores-2050": { component: LibreDeDepredadores2050 },
+  "las-aguas-termales-de-rotorua": { component: AguasTermalesDeRotorua },
+  "el-hongi-y-el-powhiri": { component: HongiYPowhiri },
+  "las-terrazas-perdidas-del-tarawera": { component: TerrazasPerdidasDelTarawera },
+  "la-calle-mas-empinada-del-mundo": { component: CalleMasEmpinadaDelMundo },
+  "el-renacimiento-del-idioma-maori": { component: RenacimientoDelIdiomaMaori },
+  "la-mentalidad-del-alambre-numero-8": { component: MentalidadDelAlambreNumero8 },
 };

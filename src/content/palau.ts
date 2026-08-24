@@ -231,4 +231,50 @@ export const palau: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "los-storyboards-de-madera-tallada",
+    order: 11,
+    placeholderEmoji: "🪵",
+    accentColor: "#A0522D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La tabla tallada que convirtió leyendas en arte",
+        subtitle: "Los storyboards palauenses",
+        imageAlt: "Caricatura de una tabla de madera tallada con figuras en relieve.",
+        description:
+          "Los 'storyboards' palauenses son paneles de madera tallados en relieve que narran leyendas tradicionales específicas, uno por tabla, y que surgieron a mediados del siglo XX como una evolución portátil de los paneles pintados que decoraban la fachada de los bai, las casas comunales tradicionales, cuando un administrador japonés impulsó a tallistas locales a registrar esas historias en piezas de madera más pequeñas y transportables. Cada storyboard suele representar una sola leyenda con figuras humanas y animales en relieve profundo talladas a mano con herramientas simples, y frecuentemente incluye una breve explicación escrita de la historia que ilustra para quienes no conocen el relato original. Lo que comenzó como un intento de preservar la tradición oral se convirtió con el tiempo en una de las artesanías más reconocidas y vendidas de Palau, exhibida hoy en museos internacionales y transmitida por talladores que siguen entrenando aprendices según técnicas heredadas.",
+      },
+      en: {
+        title: "The Carved Panel That Turned Legends Into Art for Sale",
+        subtitle: "Palau's Storyboards",
+        imageAlt: "Cartoon of a carved wooden panel with relief figures.",
+        description:
+          "Palauan 'storyboards' are carved wooden panels rendered in relief that narrate a specific traditional legend, one per panel, and that emerged in the mid-20th century as a portable evolution of the painted panels that once decorated the front of bai, the traditional community houses, after a Japanese colonial administrator encouraged local carvers to record those stories on smaller, transportable wood pieces. Each storyboard usually depicts a single legend in great detail, with human and animal figures carved in deep relief using simple hand tools, and often includes a brief written explanation of the story it illustrates for anyone unfamiliar with the original tale. What began as an attempt to preserve oral tradition eventually became one of Palau's most recognized and widely sold handicrafts, now displayed in international museums and kept alive by carvers who continue training apprentices in inherited techniques.",
+      },
+    },
+  },
+  {
+    id: "la-laguna-del-camino-lechoso",
+    order: 12,
+    placeholderEmoji: "🥛",
+    accentColor: "#C9A66B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La laguna de barro blanco que promete piel más joven",
+        subtitle: "El Milky Way de Palau",
+        imageAlt: "Caricatura de una persona cubierta de barro blanco en una laguna turquesa.",
+        description:
+          "Entre los cientos de islotes de piedra caliza de las Islas Rocosas de Palau se esconde una pequeña laguna conocida como 'Milky Way', llamada así por el tono turquesa lechoso que toma su agua debido a un fondo cubierto de un barro calcáreo blanco extremadamente fino, sedimento acumulado durante milenios por la erosión de la piedra caliza circundante. Los operadores turísticos detienen allí sus embarcaciones para que los visitantes se sumerjan y se cubran el cuerpo entero con este barro, una costumbre local que sostiene, sin evidencia científica sólida, que la aplicación suaviza y rejuvenece la piel, una promesa que convirtió al lugar en una de las paradas más fotografiadas de cualquier recorrido en bote por la laguna, junto al cercano Lago de las Medusas.",
+      },
+      en: {
+        title: "The White Mud Lagoon That Promises Younger Skin",
+        subtitle: "Palau's Milky Way",
+        imageAlt: "Cartoon of a person covered in white mud in a turquoise lagoon.",
+        description:
+          "Hidden among the hundreds of limestone islets of Palau's Rock Islands is a small lagoon known as the 'Milky Way,' named for the milky turquoise tint its water takes on from a seafloor covered in extremely fine white limestone mud, sediment built up over thousands of years from the erosion of the surrounding rock. Tour boats stop there so visitors can wade in and coat their entire bodies in the mud, a local custom that holds, without solid scientific evidence backing it, that the treatment softens and rejuvenates skin, a claim that nonetheless turned the spot into one of the most photographed stops on any Rock Islands boat tour, alongside the nearby Jellyfish Lake.",
+      },
+    },
+  },
 ];

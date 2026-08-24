@@ -1,4 +1,4 @@
-import { shade } from "./palette";
+import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const NanMadol: IllustrationComponent = ({ accentColor }) => {
@@ -146,6 +146,45 @@ const NivelMarAmenaza: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const NahnmwarkiTitulos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const skin2 = "#D9A46A";
+  const yam = "#C9A227";
+  return (
+    <g>
+      <rect x="145" y="215" width="100" height="20" fill={shade(accentColor, 0.2)} stroke={dark} strokeWidth="2" />
+      <circle cx="195" cy="148" r="15" fill={skin} />
+      <path d="M180 138 Q195 120 210 138 L206 128 Q195 116 184 128 Z" fill="#4A8F4E" stroke={dark} strokeWidth="2" />
+      <path d="M178 166 Q195 156 212 166 L208 215 L182 215 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="275" cy="188" r="12" fill={skin2} />
+      <path d="M264 202 Q275 194 286 202 L283 240 L267 240 Z" fill={tint(accentColor, 0.35)} stroke={dark} strokeWidth="2" />
+      <path d="M264 205 Q235 195 220 190" fill="none" stroke={skin2} strokeWidth="7" strokeLinecap="round" />
+      <path d="M212 192 Q220 175 240 178 Q255 180 250 198 Q245 210 225 205 Q212 200 212 192 Z" fill={yam} stroke={shade(yam, 0.3)} strokeWidth="2" />
+    </g>
+  );
+};
+
+const PwohlBetel: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const leaf = "#4A8F4E";
+  return (
+    <g>
+      <circle cx="180" cy="150" r="14" fill={skin} />
+      <path d="M165 168 Q180 158 195 168 L191 230 L169 230 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M195 195 Q225 185 245 195" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <ellipse cx="255" cy="195" rx="30" ry="20" fill={tint(accentColor, 0.5)} stroke={dark} strokeWidth="2.5" />
+      {[[240, 190], [255, 198], [270, 188]].map(([x, y]) => (
+        <g key={x as number}>
+          <circle cx={x} cy={y} r="8" fill="#8B4513" stroke={dark} strokeWidth="1.5" />
+          <path d={`M${(x as number) - 10} ${(y as number) - 2} Q${x} ${(y as number) - 14} ${(x as number) + 10} ${(y as number) - 2} Q${x} ${(y as number) + 6} ${(x as number) - 10} ${(y as number) - 2} Z`} fill={leaf} opacity="0.7" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const micronesiaIllustrations: Record<string, IllustrationDefinition> = {
   "nan-madol": { component: NanMadol },
   "piedras-rai": { component: PiedrasRai },
@@ -157,4 +196,6 @@ export const micronesiaIllustrations: Record<string, IllustrationDefinition> = {
   "idiomas-micronesia": { component: IdiomasMicronesia },
   "pesca-atun": { component: PescaAtun },
   "nivel-mar-amenaza": { component: NivelMarAmenaza },
+  "nahnmwarki-titulos": { component: NahnmwarkiTitulos },
+  "nuez-de-areca-pwohl": { component: PwohlBetel },
 };

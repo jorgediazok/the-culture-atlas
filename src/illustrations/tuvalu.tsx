@@ -153,6 +153,47 @@ const IndependenciaEllice: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const PulakaPozos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const soil = "#6B4A2E";
+  const soilDark = shade(soil, 0.35);
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill="#DCD3B4" opacity="0.5" />
+      <path d="M140 245 L155 185 Q205 172 255 185 L270 245 Z" fill={soil} stroke={soilDark} strokeWidth="3" />
+      <path d="M155 185 L165 210 M180 190 L185 218 M225 190 L222 218 M245 185 L238 210" stroke={soilDark} strokeWidth="2" opacity="0.5" />
+      <ellipse cx="205" cy="184" rx="52" ry="13" fill={tint(soil, 0.15)} stroke={soilDark} strokeWidth="2.5" />
+      <path d="M205 178 Q165 130 150 108 Q178 145 205 178 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M205 178 Q185 128 205 92 Q225 128 205 178 Z" fill={tint(accentColor, 0.25)} stroke={dark} strokeWidth="2.5" />
+      <path d="M205 178 Q238 140 262 108 Q235 152 205 178 Z" fill={tint(accentColor, 0.45)} stroke={dark} strokeWidth="2.5" />
+      <line x1="205" y1="178" x2="205" y2="192" stroke={dark} strokeWidth="4" />
+    </g>
+  );
+};
+
+const FalekaupuleConsejo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const thatch = "#B08A4E";
+  const thatchDark = shade(thatch, 0.35);
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill="#DCE8E0" opacity="0.4" />
+      <path d="M100 165 L205 100 L310 165 L285 178 L205 128 L125 178 Z" fill={thatch} stroke={thatchDark} strokeWidth="3" />
+      <line x1="130" y1="178" x2="130" y2="235" stroke={dark} strokeWidth="4" />
+      <line x1="205" y1="128" x2="205" y2="235" stroke={dark} strokeWidth="4" />
+      <line x1="280" y1="178" x2="280" y2="235" stroke={dark} strokeWidth="4" />
+      <rect x="110" y="235" width="190" height="15" fill={shade(accentColor, 0.2)} stroke={dark} strokeWidth="2" />
+      {[[150, 220], [190, 226], [230, 226], [265, 220]].map(([x, y]) => (
+        <g key={x as number}>
+          <circle cx={x} cy={(y as number) - 18} r="9" fill={skin} />
+          <path d={`M${(x as number) - 15} ${(y as number) + 10} Q${x} ${(y as number) - 6} ${(x as number) + 15} ${(y as number) + 10} L${(x as number) + 11} ${(y as number) + 16} Q${x} ${(y as number) + 8} ${(x as number) - 11} ${(y as number) + 16} Z`} fill={accentColor} stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const tuvaluIllustrations: Record<string, IllustrationDefinition> = {
   "pais-mas-bajo": { component: PaisMasBajo },
   "nacion-digital": { component: NacionDigital },
@@ -164,4 +205,6 @@ export const tuvaluIllustrations: Record<string, IllustrationDefinition> = {
   "onu-miembro-pequeno": { component: OnuMiembroPequeno },
   "atolones-tuvalu": { component: AtolonesTuvalu },
   "independencia-ellice": { component: IndependenciaEllice },
+  "pulaka-pozos": { component: PulakaPozos },
+  "falekaupule-consejo": { component: FalekaupuleConsejo },
 };

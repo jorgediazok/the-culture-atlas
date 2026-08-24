@@ -1,4 +1,4 @@
-import { shade } from "./palette";
+import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const ElLagoDeMedusasSinPicadura: IllustrationComponent = () => {
@@ -152,6 +152,36 @@ const ElDineroDeVidrioDeOrigenMisterioso: IllustrationComponent = ({ accentColor
   );
 };
 
+const StoryboardsPalau: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="130" y="100" width="150" height="150" rx="6" fill={accentColor} stroke={dark} strokeWidth="4" />
+      <circle cx="175" cy="145" r="14" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+      <path d="M160 175 Q175 165 190 175 L186 210 L164 210 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+      <path d="M235 160 Q220 150 220 175 Q220 195 240 200 Q255 195 250 175 Q248 160 235 160 Z" fill={tint(accentColor, 0.25)} stroke={dark} strokeWidth="2" />
+      <path d="M150 230 Q205 220 260 230" fill="none" stroke={dark} strokeWidth="2" opacity="0.5" />
+    </g>
+  );
+};
+
+const LagunaCaminoLechoso: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#26C6DA";
+  const mud = "#F0EAD6";
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill={water} opacity="0.5" />
+      <ellipse cx="205" cy="220" rx="110" ry="30" fill={tint(mud, 0.05)} opacity="0.5" />
+      <circle cx="205" cy="165" r="15" fill={mud} stroke={shade(mud, 0.25)} strokeWidth="2" />
+      <path d="M188 178 Q205 168 222 178 L216 230 L194 230 Z" fill={mud} stroke={shade(mud, 0.25)} strokeWidth="2.5" />
+      <path d="M188 190 Q170 200 165 220 M222 190 Q240 200 245 220" stroke={mud} strokeWidth="8" strokeLinecap="round" fill="none" />
+      <circle cx="198" cy="163" r="1.8" fill={dark} />
+      <circle cx="210" cy="163" r="1.8" fill={dark} />
+    </g>
+  );
+};
+
 export const palauIllustrations: Record<string, IllustrationDefinition> = {
   "el-lago-de-medusas-sin-picadura": { component: ElLagoDeMedusasSinPicadura },
   "las-islas-rocosas-con-forma-de-hongo": { component: LasIslasRocosasConFormaDeHongo },
@@ -163,4 +193,6 @@ export const palauIllustrations: Record<string, IllustrationDefinition> = {
   "los-taro-gigantes-que-cultivan-las-mujeres": { component: LosTaroGigantesQueCultivanLasMujeres },
   "el-mito-de-la-gigante-que-formo-las-islas": { component: ElMitoDeLaGiganteQueFormoLasIslas },
   "el-dinero-de-vidrio-de-origen-misterioso": { component: ElDineroDeVidrioDeOrigenMisterioso },
+  "los-storyboards-de-madera-tallada": { component: StoryboardsPalau },
+  "la-laguna-del-camino-lechoso": { component: LagunaCaminoLechoso },
 };

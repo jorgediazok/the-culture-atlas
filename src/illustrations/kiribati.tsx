@@ -154,6 +154,47 @@ const IndependenciaGilbert: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const TeMataanaArmadura: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const wood = "#6B4A2E";
+  return (
+    <g>
+      <path d="M180 135 L185 113 L192 132 L199 108 L206 132 L213 108 L220 132 L227 113 L232 135 Q205 120 180 135 Z" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="2.5" />
+      <circle cx="205" cy="142" r="15" fill={skin} />
+      <circle cx="200" cy="140" r="1.8" fill="#1A1A1A" />
+      <circle cx="210" cy="140" r="1.8" fill="#1A1A1A" />
+      <path d="M182 162 L172 232 L238 232 L228 162 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M182 175 L228 175 M180 190 L230 190 M177 205 L233 205 M174 220 L236 220" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      <path d="M182 175 L172 232 M228 175 L238 232 M205 162 L205 232" stroke={dark} strokeWidth="1.2" opacity="0.4" />
+      <path d="M255 165 L290 100 L282 175 Z" fill={wood} stroke={dark} strokeWidth="2.5" />
+      <path d="M290 100 L285 108 L280 105 L277 113 L272 110 L268 120" fill="none" stroke="#F5F0E6" strokeWidth="2" strokeLinecap="round" />
+      <path d="M228 200 Q245 185 260 165" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const KareweToddy: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const trunk = "#8B6F47";
+  return (
+    <g>
+      <path d="M205 245 Q195 180 200 120" fill="none" stroke={trunk} strokeWidth="14" strokeLinecap="round" />
+      <path d="M200 120 Q160 95 130 105" fill="none" stroke="#4A8F4E" strokeWidth="7" strokeLinecap="round" />
+      <path d="M200 118 Q175 80 155 65" fill="none" stroke="#4A8F4E" strokeWidth="7" strokeLinecap="round" />
+      <path d="M202 116 Q230 85 255 70" fill="none" stroke="#4A8F4E" strokeWidth="7" strokeLinecap="round" />
+      <path d="M203 120 Q245 100 270 112" fill="none" stroke="#4A8F4E" strokeWidth="7" strokeLinecap="round" />
+      <ellipse cx="198" cy="128" rx="10" ry="14" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <rect x="192" y="138" width="12" height="16" fill={shade(accentColor, 0.1)} stroke={dark} strokeWidth="1.5" />
+      <circle cx="185" cy="185" r="11" fill={skin} />
+      <path d="M175 200 Q185 190 195 200 L192 235 L178 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M195 205 Q210 180 200 145" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <ellipse cx="176" cy="222" rx="10" ry="6" fill={dark} opacity="0.6" />
+    </g>
+  );
+};
+
 export const kiribatiIllustrations: Record<string, IllustrationDefinition> = {
   "cuatro-hemisferios": { component: CuatroHemisferios },
   "linea-fecha-kiribati": { component: LineaFechaKiribati },
@@ -165,4 +206,6 @@ export const kiribatiIllustrations: Record<string, IllustrationDefinition> = {
   "batalla-tarawa": { component: BatallaTarawa },
   "te-bike-danza": { component: TeBikeDanza },
   "independencia-gilbert": { component: IndependenciaGilbert },
+  "te-mataana-armadura": { component: TeMataanaArmadura },
+  "karewe-toddy": { component: KareweToddy },
 };

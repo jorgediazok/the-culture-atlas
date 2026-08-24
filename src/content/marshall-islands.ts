@@ -231,4 +231,50 @@ export const marshallIslands: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-sistema-de-jefes-iroij-y-tierra-matrilineal",
+    order: 11,
+    placeholderEmoji: "👑",
+    accentColor: "#5E35B1",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El sistema de jefes que hereda la tierra materna",
+        subtitle: "Los iroij y la tierra matrilineal",
+        imageAlt: "Caricatura de un jefe con corona de hojas sobre una parcela de tierra dividida en cuadrantes.",
+        description:
+          "A diferencia de muchos sistemas de jefatura del Pacífico, en las Islas Marshall el título de 'iroij' y el derecho sobre la tierra se transmiten por vía materna, siguiendo el linaje del clan o 'bwij' de la madre, de modo que la autoridad sobre una parcela ('wato') y quién puede cultivarla o vivir en ella depende de la descendencia femenina de la familia y no del padre. Bajo cada iroij existen niveles intermedios, como el 'alap', encargado de administrar el uso cotidiano de la tierra dentro del clan, y los 'dri jerbal', quienes trabajan directamente la parcela, formando una jerarquía de derechos superpuestos sobre un mismo terreno que exige consenso constante entre las partes. Este sistema tradicional sigue vigente hoy junto al gobierno elegido democráticamente, con una Cámara de Iroij reconocida formalmente en la Constitución marshalesa como órgano consultivo sobre asuntos de tierra y costumbre.",
+      },
+      en: {
+        title: "The Chief System That Inherits Land Through the Mother",
+        subtitle: "The Iroij and Matrilineal Land",
+        imageAlt: "Cartoon of a chief in a leaf crown above a plot of land divided into quadrants.",
+        description:
+          "Unlike many chiefly systems across the Pacific, in the Marshall Islands the 'iroij' title and land rights pass down through the mother's line, following the lineage of the mother's clan or 'bwij,' so that authority over a plot of land ('wato') and who may farm or live on it depends on a family's female descent rather than the father's. Beneath each iroij sit intermediate roles, like the 'alap,' who manages the day-to-day use of land within the clan, and the 'dri jerbal,' who work the plot directly, forming a layered hierarchy of overlapping rights over a single piece of land that requires constant consensus among the parties involved. This traditional system remains active today alongside the democratically elected government, with a Council of Iroij formally recognized in the Marshallese constitution as an advisory body on land and customary matters.",
+      },
+    },
+  },
+  {
+    id: "el-significado-oculto-de-la-bandera-marshalesa",
+    order: 12,
+    placeholderEmoji: "🇲🇭",
+    accentColor: "#1E3A5F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La bandera que dibuja un mapa de todo el archipiélago",
+        subtitle: "El significado de la bandera marshalesa",
+        imageAlt: "Caricatura de una bandera con dos franjas diagonales y una estrella de rayos largos.",
+        description:
+          "La bandera de las Islas Marshall, adoptada en 1979, no es un diseño puramente decorativo sino un mapa simbólico condensado de la geografía del país: sus dos franjas diagonales, una naranja y otra blanca, que se ensanchan de la esquina inferior izquierda hacia la superior derecha, representan las dos grandes cadenas de atolones que forman el archipiélago, Ratak ('hacia el amanecer') y Ralik ('hacia el atardecer'), mientras el ensanche progresivo simboliza el crecimiento del país. La estrella blanca de veinticuatro puntas ubicada en la esquina superior izquierda representa los veinticuatro distritos electorales municipales del país, de los cuales cuatro puntas más largas señalan los principales centros de población, y su posición cercana al borde superior de la bandera evoca la ubicación del archipiélago apenas al norte del ecuador. Pocos países condensan tanta información geográfica real dentro del diseño de su propia bandera nacional.",
+      },
+      en: {
+        title: "The Flag That Draws a Map of the Whole Archipelago",
+        subtitle: "The Meaning of the Marshallese Flag",
+        imageAlt: "Cartoon of a flag with two diagonal stripes and a long-rayed star.",
+        description:
+          "The Marshall Islands' flag, adopted in 1979, isn't a purely decorative design but a condensed symbolic map of the country's geography: its two diagonal stripes, one orange and one white, widening from the lower-left corner toward the upper right, represent the archipelago's two main atoll chains, Ratak ('toward the sunrise') and Ralik ('toward the sunset'), while the progressive widening symbolizes the country's growth. The white twenty-four-point star in the upper-left corner represents the country's twenty-four municipal electoral districts, four of whose longer points mark the main population centers, and its position near the flag's upper edge evokes the archipelago's location just north of the equator. Few countries pack this much real geographic information into their own national flag's design.",
+      },
+    },
+  },
 ];

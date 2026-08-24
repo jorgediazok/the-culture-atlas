@@ -231,4 +231,50 @@ export const micronesia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "nahnmwarki-titulos",
+    order: 11,
+    placeholderEmoji: "👑",
+    accentColor: "#A0522D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El título de jefe que se gana ofreciendo comida",
+        subtitle: "El sistema nahnmwarki de Pohnpei",
+        imageAlt: "Caricatura de un jefe con tocado de hojas recibiendo un ñame gigante de un agricultor.",
+        description:
+          "Pohnpei se divide en cinco reinos o 'wehi' tradicionales, cada uno encabezado por un 'nahnmwarki', el título de jefe supremo dentro de una elaborada jerarquía de rangos que, a diferencia de muchos sistemas de jefatura puramente hereditarios, también se puede ascender ofreciendo generosamente comida, especialmente ñame gigante y kava, en festines ceremoniales donde cada entrega pública de tributo reafirma el lugar de una persona dentro del orden social. Estos festines, llamados 'kamadipw', pueden convocar a comunidades enteras durante días de preparación colectiva, y presentar el ñame más grande cultivado ese año ante el nahnmwarki sigue siendo uno de los mayores honores disponibles para una familia agricultora. Aunque Pohnpei tiene gobierno estatal elegido democráticamente como parte de Micronesia, el sistema nahnmwarki conserva autoridad real sobre tierra y costumbre, con un consejo de jefes tradicionales que actúa como cuerpo consultivo reconocido.",
+      },
+      en: {
+        title: "The Chief Title Earned by Offering Food",
+        subtitle: "Pohnpei's Nahnmwarki System",
+        imageAlt: "Cartoon of a chief in a leaf headdress receiving a giant yam from a farmer.",
+        description:
+          "Pohnpei is divided into five traditional kingdoms, or 'wehi,' each led by a 'nahnmwarki,' the title of paramount chief within an elaborate rank hierarchy that, unlike many purely hereditary chiefly systems, can also be climbed by generously offering food, especially giant yams and kava, at ceremonial feasts where each public tribute reaffirms a person's place within the social order. These feasts, called 'kamadipw,' can draw entire communities into days of collective preparation, and presenting the largest yam grown that year to the nahnmwarki remains one of the greatest honors available to a farming family. Although Pohnpei has a democratically elected state government as part of Micronesia, the nahnmwarki system retains real authority over land and custom, with a council of traditional chiefs functioning as a recognized advisory body.",
+      },
+    },
+  },
+  {
+    id: "nuez-de-areca-pwohl",
+    order: 12,
+    placeholderEmoji: "🌰",
+    accentColor: "#8B4513",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La nuez que se mastica en cada esquina de Micronesia",
+        subtitle: "El betel o pwohl micronesio",
+        imageAlt: "Caricatura de una persona ofreciendo nueces de betel envueltas en hojas verdes.",
+        description:
+          "En gran parte de Micronesia, especialmente en Pohnpei y Chuuk, masticar nuez de areca (conocida localmente como 'pwohl') envuelta en una hoja de betel con un toque de cal en polvo es una costumbre tan cotidiana como tomar café en otras culturas, practicada por hombres y mujeres de todas las edades varias veces al día en conversaciones informales, reuniones familiares y encuentros casuales en la calle. La mezcla produce un efecto estimulante suave y tiñe la saliva y, con el tiempo, los dientes de un color rojizo característico, una marca visual que muchos micronesios llevan sin ningún estigma social, aunque las autoridades de salud advierten desde hace años sobre su vínculo con el cáncer oral. Pequeños puestos callejeros que venden nueces de areca frescas, hojas de betel y cal son un elemento habitual del paisaje urbano micronesio, y ofrecerle nuez de betel a un visitante sigue siendo, igual que en otras partes del Pacífico, un gesto básico de hospitalidad.",
+      },
+      en: {
+        title: "The Nut Chewed on Every Corner of Micronesia",
+        subtitle: "Micronesia's Betel Nut or Pwohl",
+        imageAlt: "Cartoon of a person offering betel nuts wrapped in green leaves.",
+        description:
+          "Across much of Micronesia, especially Pohnpei and Chuuk, chewing areca nut (locally known as 'pwohl') wrapped in a betel leaf with a pinch of powdered lime is as everyday a habit as drinking coffee is elsewhere, practiced by men and women of all ages several times a day during casual conversation, family gatherings, and chance meetings on the street. The mixture produces a mild stimulant effect and stains saliva, and over time teeth, a distinctive reddish color that many Micronesians carry with no social stigma at all, even as health authorities have warned for years about its link to oral cancer. Small roadside stands selling fresh areca nuts, betel leaves, and lime are a routine fixture of the Micronesian urban landscape, and offering betel nut to a visitor remains, as in other parts of the Pacific, a basic gesture of hospitality.",
+      },
+    },
+  },
 ];

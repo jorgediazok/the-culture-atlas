@@ -148,6 +148,82 @@ const RemesasTonga: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const LakalakaDanzaCoral: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      {[150, 205, 260].map((x, i) => (
+        <g key={x}>
+          <circle cx={x} cy="150" r="12" fill={skin} />
+          <path d={`M${x - 15} 165 Q${x} 157 ${x + 15} 165 L${x + 11} 230 L${x - 11} 230 Z`} fill={accentColor} stroke={dark} strokeWidth="2.5" />
+          <path d={`M${x - 15} 172 L${x - 32} ${i % 2 === 0 ? 155 : 190}`} stroke={skin} strokeWidth="7" strokeLinecap="round" fill="none" />
+          <path d={`M${x + 15} 172 L${x + 32} ${i % 2 === 0 ? 190 : 155}`} stroke={skin} strokeWidth="7" strokeLinecap="round" fill="none" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const TaovalaVestimenta: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const mat = "#C9A66B";
+  return (
+    <g>
+      <circle cx="205" cy="140" r="16" fill={skin} />
+      <path d="M188 156 Q205 148 222 156 L218 195 L192 195 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M180 190 Q205 178 230 190 L228 225 Q205 235 182 225 Z" fill={mat} stroke={shade(mat, 0.3)} strokeWidth="2.5" />
+      <path d="M186 200 L224 200 M184 210 L226 210 M186 220 L224 220" stroke={shade(mat, 0.35)} strokeWidth="1.2" opacity="0.6" />
+      <path d="M188 195 L235 205" stroke={shade(mat, 0.3)} strokeWidth="4" strokeLinecap="round" />
+      <path d="M192 235 L188 240 M218 235 L222 240" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const HaamongaAMauiTrilito: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="235" width="230" height="15" fill="#4A8F4E" opacity="0.3" />
+      <rect x="150" y="130" width="28" height="105" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <rect x="232" y="130" width="28" height="105" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <rect x="140" y="105" width="130" height="30" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M150 130 L260 130" stroke={dark} strokeWidth="1.5" opacity="0.3" />
+    </g>
+  );
+};
+
+const KaiPolaBanquete: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const leaf = "#4A8F4E";
+  return (
+    <g>
+      <path d="M100 220 Q205 205 310 220 L310 235 Q205 220 100 235 Z" fill={leaf} stroke={shade(leaf, 0.3)} strokeWidth="2.5" />
+      <ellipse cx="150" cy="215" rx="30" ry="14" fill="#8B5A2B" stroke={dark} strokeWidth="2" />
+      <ellipse cx="230" cy="218" rx="22" ry="11" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <circle cx="280" cy="212" r="14" fill="#F4A300" stroke={shade("#F4A300", 0.3)} strokeWidth="1.5" />
+      <path d="M190 210 L200 200 L210 210 L200 218 Z" fill="#C1272D" opacity="0.8" />
+    </g>
+  );
+};
+
+const IslasAmistadCook: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="215" width="230" height="35" fill="#3D8FB0" opacity="0.5" />
+      <path d="M140 215 L140 150 L175 168 L140 185" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <line x1="140" y1="215" x2="140" y2="145" stroke="#5C3A1E" strokeWidth="3" />
+      <path d="M100 215 L180 215 L165 200 L115 200 Z" fill="#8B5A2B" stroke={dark} strokeWidth="2.5" />
+      <path d="M255 200 Q235 175 255 155 Q275 175 255 200 Z" fill="#4A8F4E" stroke={shade("#4A8F4E", 0.3)} strokeWidth="2" />
+      {[[230, 180], [280, 175]].map(([x, y]) => (
+        <path key={x as number} d={`M${x} ${y} L${(x as number) + 12} ${(y as number) - 6} L${x} ${(y as number) - 12} Z`} fill="#F4A300" stroke={dark} strokeWidth="1.5" />
+      ))}
+    </g>
+  );
+};
+
 export const tongaIllustrations: Record<string, IllustrationDefinition> = {
   "unica-monarquia-pacifico": { component: UnicaMonarquiaPacifico },
   "erupcion-hunga-tonga": { component: ErupcionHungaTonga },
@@ -159,4 +235,9 @@ export const tongaIllustrations: Record<string, IllustrationDefinition> = {
   "primer-pais-nuevo-dia": { component: PrimerPaisNuevoDia },
   "tuimalila-tortuga": { component: TuimalilaTortuga },
   "remesas-tonga": { component: RemesasTonga },
+  "lakalaka-danza-coral": { component: LakalakaDanzaCoral },
+  "taovala-vestimenta-de-esteras": { component: TaovalaVestimenta },
+  "haamonga-a-maui-trilito": { component: HaamongaAMauiTrilito },
+  "kai-pola-banquete-en-el-suelo": { component: KaiPolaBanquete },
+  "las-islas-amistosas-de-cook": { component: IslasAmistadCook },
 };

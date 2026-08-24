@@ -231,4 +231,119 @@ export const vanuatu: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-dibujo-en-arena-nitus",
+    order: 11,
+    placeholderEmoji: "✍️",
+    accentColor: "#B08D57",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El dibujo de una sola línea que cuenta una historia",
+        subtitle: "El sand drawing o nitus",
+        imageAlt: "Caricatura de un dedo trazando un patrón geométrico continuo en la arena.",
+        description:
+          "El 'sand drawing', conocido localmente como 'nitus' en varias islas del centro y norte de Vanuatu, consiste en trazar con un dedo, sin levantarlo del suelo en ningún momento, un patrón geométrico complejo y perfectamente simétrico sobre arena, ceniza o polvo de arcilla, una técnica que exige memorizar de antemano toda la secuencia del recorrido antes de comenzar. Cada uno de los cientos de patrones existentes codifica una historia, un mito, una canción, un paso de danza o una relación de parentesco específica, funcionando como un sistema visual compartido y comprensible más allá de las más de 110 lenguas mutuamente ininteligibles que se hablan en el archipiélago. Reconocido por la UNESCO en 2003 como una de las primeras Obras Maestras del Patrimonio Oral e Inmaterial de la Humanidad, el sand drawing se transmite todavía hoy de generación en generación, y algunos maestros dominan cientos de patrones memorizados con precisión.",
+      },
+      en: {
+        title: "The Single Unbroken Line That Tells an Entire Story",
+        subtitle: "Sand Drawing, or Nitus",
+        imageAlt: "Cartoon of a finger tracing a continuous geometric pattern in sand.",
+        description:
+          "'Sand drawing,' locally known as 'nitus' in several islands of central and northern Vanuatu, involves tracing a complex, perfectly symmetric geometric pattern in sand, ash, or clay dust with a single finger that never lifts off the ground, a technique that requires memorizing the entire path in advance before starting. Each of the hundreds of existing patterns encodes a specific story, myth, song, dance step, or kinship relationship, functioning as a shared visual system understandable across the more than 110 mutually unintelligible languages spoken throughout the archipelago. Recognized by UNESCO in 2003 as one of the first Masterpieces of the Oral and Intangible Heritage of Humanity, sand drawing is still passed down through generations today, and some masters can precisely reproduce hundreds of distinct memorized patterns from memory.",
+      },
+    },
+  },
+  {
+    id: "el-colmillo-de-cerdo-moneda-y-bandera",
+    order: 12,
+    placeholderEmoji: "🐗",
+    accentColor: "#5C4A72",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El colmillo curvo que vale más que el dinero",
+        subtitle: "El colmillo de cerdo circular",
+        imageAlt: "Caricatura de un colmillo de cerdo curvado en forma de círculo casi cerrado.",
+        description:
+          "En gran parte de Vanuatu, el colmillo de cerdo curvado en un círculo casi completo es el objeto de riqueza tradicional más prestigioso que existe, obtenido criando cerdos machos a los que se les extraen los colmillos superiores para que los inferiores, sin nada que los desgaste, crezcan libremente durante años hasta formar un aro casi cerrado. Estos colmillos se entregan en pagos de dote matrimonial, en ceremonias de ascenso de rango dentro de las sociedades tradicionales masculinas y como regalo para sellar acuerdos importantes entre clanes, y su valor aumenta cuanto más cerrado y perfecto es el círculo logrado. Un colmillo de cerdo curvo cruzado con hojas de helecho namele es, de hecho, el símbolo central de la bandera nacional de Vanuatu, representando la prosperidad, la paz y la vigencia de las costumbres tradicionales o 'kastom' frente a la modernidad.",
+      },
+      en: {
+        title: "The Curved Tusk Worth More Than Money",
+        subtitle: "The Circular Boar Tusk",
+        imageAlt: "Cartoon of a boar tusk curved into a nearly closed circle.",
+        description:
+          "Across much of Vanuatu, a boar tusk curved into a nearly complete circle is the single most prestigious item of traditional wealth that exists, obtained by raising male pigs whose upper tusks are knocked out so the lower tusks, with nothing to wear them down, grow freely for years until forming a nearly closed ring. These tusks are given as bride-price payments, at rank-ascension ceremonies within traditional male societies, and as gifts sealing important agreements between clans, with value rising the more closed and perfect the resulting circle. A curved boar tusk crossed with namele fern leaves is, in fact, the central emblem on Vanuatu's national flag, representing prosperity, peace, and the ongoing relevance of traditional custom, or 'kastom,' alongside modernity.",
+      },
+    },
+  },
+  {
+    id: "los-nakamal-y-el-origen-del-kava",
+    order: 13,
+    placeholderEmoji: "🌿",
+    accentColor: "#4A7C3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que los científicos consideran cuna del kava",
+        subtitle: "Los nakamal y el origen del kava",
+        imageAlt: "Caricatura de personas sentadas alrededor de un cuenco bajo un techo de paja abierto.",
+        description:
+          "Los botánicos consideran a Vanuatu el centro de origen del kava y el lugar con mayor diversidad genética de la planta en todo el mundo, con más de ochenta variedades locales identificadas y nombradas, muchas más potentes que las cultivadas en otras islas del Pacífico. Tradicionalmente, el kava se bebe al atardecer en el 'nakamal', un claro despejado de la aldea o una estructura abierta reservada casi siempre a los hombres, consumido en un ambiente de calma casi silenciosa muy distinto a una celebración festiva, ya que se valora precisamente por su efecto relajante y contemplativo. En Port Vila, la capital, esta costumbre rural derivó en una red de 'nakamales' urbanos informales donde cualquiera paga por cáscaras individuales de kava, convirtiendo la bebida en una parte genuina y cotidiana de la vida social nocturna de la ciudad.",
+      },
+      en: {
+        title: "The Country Scientists Consider the Birthplace of Kava",
+        subtitle: "Nakamals and Kava's Origin",
+        imageAlt: "Cartoon of people seated around a bowl under an open thatched roof.",
+        description:
+          "Botanists consider Vanuatu the center of origin for kava and the place with the greatest genetic diversity of the plant anywhere in the world, with more than eighty locally identified and named varieties, many considerably stronger than those grown elsewhere in the Pacific. Traditionally, kava is drunk at dusk in the 'nakamal,' a cleared village space or open-sided structure reserved almost exclusively for men, consumed in an atmosphere of near-silent calm quite unlike a festive celebration, since it's valued precisely for its relaxing, contemplative effect. In the capital, Port Vila, this rural custom evolved into a network of informal urban 'nakamals' where anyone pays per individual shell of kava, turning the drink into a genuine, everyday part of the city's nightlife.",
+      },
+    },
+  },
+  {
+    id: "las-mascaras-rom-de-ambrym",
+    order: 14,
+    placeholderEmoji: "🎭",
+    accentColor: "#8B4513",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las máscaras que se destruyen apenas termina el ritual",
+        subtitle: "Las máscaras rom de Ambrym",
+        imageAlt: "Caricatura de una máscara cónica de hojas con un rostro tallado.",
+        description:
+          "En la isla de Ambrym, conocida tradicionalmente como la 'isla de la magia' por su intensa actividad volcánica y su fama de brujería, el 'rom' es una danza ceremonial vinculada al sistema de ascenso de rango masculino en la que los bailarines usan altos disfraces cónicos hechos con hojas secas de banano y caña, rematados con una máscara de madera tallada con un rostro propio para cada intérprete. El diseño exacto de cada máscara rom pertenece exclusivamente al hombre que encargó su creación, un derecho reconocido por la costumbre local que prohíbe a otros reproducirlo sin permiso, similar en espíritu a un derecho de autor tradicional. A diferencia de otras máscaras ceremoniales que se conservan como objetos de valor, los disfraces rom tradicionalmente se destruyen o queman apenas termina la ceremonia, reforzando su carácter efímero y estrictamente ritual antes que decorativo.",
+      },
+      en: {
+        title: "The Masks Destroyed the Moment the Ritual Ends",
+        subtitle: "Ambrym's Rom Masks",
+        imageAlt: "Cartoon of a tall conical leaf mask with a carved face.",
+        description:
+          "On Ambrym island, traditionally known as the 'island of magic' for its intense volcanic activity and reputation for sorcery, the 'rom' is a ceremonial dance tied to the male rank-ascension society system, in which dancers wear tall conical costumes made of dried banana leaves and reed, topped with a carved wooden mask bearing a unique face for each performer. The exact design of each rom mask belongs exclusively to the man who commissioned its creation, a right recognized under local custom that forbids others from reproducing it without permission, similar in spirit to a traditional copyright. Unlike other ceremonial masks kept as valued objects, rom costumes are traditionally destroyed or burned as soon as the ceremony ends, reinforcing their strictly ritual, ephemeral nature rather than a decorative one.",
+      },
+    },
+  },
+  {
+    id: "pasaportes-por-inversion",
+    order: 15,
+    placeholderEmoji: "🛂",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pasaporte que se puede obtener con una inversión",
+        subtitle: "El programa de ciudadanía por inversión",
+        imageAlt: "Caricatura de un pasaporte junto a una pila de monedas doradas.",
+        description:
+          "Desde 2017, Vanuatu ofrece un Programa de Apoyo al Desarrollo que permite obtener la ciudadanía, y con ella un pasaporte con acceso sin visa a un número considerable de países, a cambio de una contribución financiera directa al Estado, con uno de los procesos de aprobación más rápidos del mundo, a menudo resuelto en semanas en lugar de los años que exigen programas similares de otros países. La iniciativa se convirtió rápidamente en una de las mayores fuentes de ingresos del gobierno vanuatuense, llegando a representar en algunos años una porción muy significativa del presupuesto público total de un país con pocas alternativas económicas de esa escala. El programa generó también controversia internacional, especialmente por parte de la Unión Europea, preocupada por el acceso sin visa a la zona Schengen que ofrecía indirectamente, lo que llevó a Bruselas a suspender parcialmente ese beneficio en 2022, sin que Vanuatu dejara de operarlo como pilar central de sus finanzas públicas.",
+      },
+      en: {
+        title: "The Passport You Can Get With an Investment",
+        subtitle: "The Citizenship-by-Investment Program",
+        imageAlt: "Cartoon of a passport beside a stack of gold coins.",
+        description:
+          "Since 2017, Vanuatu has run a Development Support Program that grants citizenship, and with it a passport offering visa-free access to a considerable number of countries, in exchange for a direct financial contribution to the state, with one of the fastest approval processes in the world, often resolved in weeks rather than the years similar programs elsewhere require. The initiative quickly became one of the Vanuatuan government's largest revenue sources, at times representing a very significant share of total public budget for a country with few economic alternatives of that scale. The program also drew international controversy, especially from the European Union, concerned about the visa-free access to the Schengen area it indirectly provided, which led Brussels to partially suspend that benefit in 2022, though Vanuatu has continued operating the scheme as a central pillar of its public finances.",
+      },
+    },
+  },
 ];

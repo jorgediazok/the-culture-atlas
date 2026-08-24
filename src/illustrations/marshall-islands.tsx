@@ -145,6 +145,42 @@ const LaMayorComunidadMarshalesaArkansas: IllustrationComponent = ({ accentColor
   );
 };
 
+const IroijTierraMatrilineal: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const land = "#7CA85C";
+  return (
+    <g>
+      <rect x="90" y="170" width="230" height="80" fill={land} stroke={shade(land, 0.3)} strokeWidth="2" />
+      <line x1="150" y1="170" x2="150" y2="250" stroke={shade(land, 0.35)} strokeWidth="1.5" />
+      <line x1="205" y1="170" x2="205" y2="250" stroke={shade(land, 0.35)} strokeWidth="1.5" />
+      <line x1="260" y1="170" x2="260" y2="250" stroke={shade(land, 0.35)} strokeWidth="1.5" />
+      <line x1="90" y1="210" x2="320" y2="210" stroke={shade(land, 0.35)} strokeWidth="1.5" />
+      <circle cx="175" cy="130" r="15" fill={skin} />
+      <path d="M160 120 Q175 105 190 120 L186 112 Q175 102 164 112 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <path d="M158 148 Q175 138 192 148 L188 175 L162 175 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="255" cy="150" r="10" fill="#D9A46A" />
+      <path d="M245 165 Q255 158 265 165 L262 185 L248 185 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+      <path d="M245 148 Q205 140 190 132" fill="none" stroke={dark} strokeWidth="1.5" strokeDasharray="4 4" opacity="0.6" />
+    </g>
+  );
+};
+
+const FlagBanderaMarshalesa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const orange = "#F4A300";
+  const white = "#F5F0E6";
+  return (
+    <g>
+      <rect x="100" y="95" width="210" height="140" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M100 235 L100 215 L290 95 L310 95 L310 115 L120 235 Z" fill={white} opacity="0.9" />
+      <path d="M100 235 L100 225 L280 95 L295 95 L295 108 L112 235 Z" fill={orange} />
+      <circle cx="150" cy="130" r="4" fill={white} />
+      <path d="M150 108 L150 152 M128 130 L172 130 M134 114 L166 146 M134 146 L166 114 M138 106 L162 154 M138 154 L162 106 M120 118 L180 142 M120 142 L180 118" stroke={white} strokeWidth="2.5" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const marshallIslandsIllustrations: Record<string, IllustrationDefinition> = {
   "las-23-pruebas-nucleares-de-bikini": { component: Las23PruebasNuclearesDeBikini },
   "los-mapas-de-palitos-para-navegar-sin-instrumentos": { component: LosMapasDePalitos },
@@ -156,4 +192,6 @@ export const marshallIslandsIllustrations: Record<string, IllustrationDefinition
   "el-tejido-de-hojas-de-pandano": { component: ElTejidoDeHojasDePandano },
   "la-cupula-de-hormigon-que-tapa-desechos-nucleares": { component: LaCupulaDeHormigon },
   "la-mayor-comunidad-marshalesa-esta-en-arkansas": { component: LaMayorComunidadMarshalesaArkansas },
+  "el-sistema-de-jefes-iroij-y-tierra-matrilineal": { component: IroijTierraMatrilineal },
+  "el-significado-oculto-de-la-bandera-marshalesa": { component: FlagBanderaMarshalesa },
 };

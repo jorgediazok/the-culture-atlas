@@ -231,4 +231,50 @@ export const kiribati: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "te-mataana-armadura",
+    order: 11,
+    placeholderEmoji: "🛡️",
+    accentColor: "#7A3B2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La armadura de coco erizada de dientes de tiburón",
+        subtitle: "El te mataana kiribatiano",
+        imageAlt: "Caricatura de un guerrero con armadura trenzada y un casco con púas, sosteniendo un arma dentada.",
+        description:
+          "Antes del contacto con misioneros y comerciantes europeos, los guerreros de Kiribati combatían protegidos por una de las armaduras más elaboradas de todo el Pacífico: una armadura corporal completa tejida con gruesas cuerdas de fibra de coco entrelazadas en un patrón denso, cubriendo torso, brazos y piernas, coronada por un casco hecho con la piel seca e inflada de un pez globo espinoso, cuyas púas naturales servían como protección adicional contra golpes. Como arma, empuñaban espadas y lanzas de madera bordeadas con hileras de dientes de tiburón afilados, atados individualmente con fibra vegetal, capaces de infligir heridas profundas en los combates ritualizados entre clanes rivales por tierra o prestigio. Aunque las guerras intertribales terminaron hace generaciones, estas armaduras y armas se conservan hoy en museos y se recrean en danzas ceremoniales, consideradas un símbolo de la ingeniería artesanal kiribatiana.",
+      },
+      en: {
+        title: "The Coconut-Fiber Armor Studded With Shark Teeth",
+        subtitle: "Kiribati's Te Mataana",
+        imageAlt: "Cartoon of a warrior in woven armor and a spiked helmet, holding a toothed weapon.",
+        description:
+          "Before contact with European missionaries and traders, Kiribati's warriors fought protected by one of the most elaborate suits of armor found anywhere in the Pacific: a full-body armor woven from thick coconut-fiber cords braided into a dense pattern, covering the torso, arms, and legs, topped with a helmet made from the dried, inflated skin of a spiny pufferfish, whose natural spikes provided extra protection against blows. As weapons, they wielded wooden swords and spears edged with rows of sharpened shark teeth, individually lashed on with plant fiber, capable of inflicting deep wounds in ritualized combat between rival clans fighting over land or prestige. Though intertribal warfare ended generations ago, these armor suits and weapons are preserved today in museums and recreated in ceremonial dances, regarded as a striking symbol of Kiribati craftsmanship and ingenuity.",
+      },
+    },
+  },
+  {
+    id: "karewe-toddy",
+    order: 12,
+    placeholderEmoji: "🥥",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La savia de coco fermentada que se bebe en cada fiesta",
+        subtitle: "El karewe kiribatiano",
+        imageAlt: "Caricatura de una persona trepando una palmera junto a un recipiente recolectando savia.",
+        description:
+          "El 'karewe' es la savia dulce que se extrae cortando diariamente la punta de la espata floral de la palmera de coco, una tarea que exige que los recolectores trepen troncos de varios metros varias veces al día, sujetos únicamente con un aro de cuerda trenzada alrededor de los tobillos, para recoger la savia en pequeños recipientes atados justo debajo del corte. Recién extraída, la savia es dulce y no alcohólica, consumida como refresco cotidiano, pero si se deja fermentar naturalmente durante algunas horas bajo el sol tropical se convierte en una bebida ligeramente alcohólica que ocupa un lugar central en celebraciones, bodas y reuniones comunitarias en el maneaba. Trepar y cortar palmeras con destreza para producir un buen karewe es una habilidad tradicionalmente masculina que se transmite de generación en generación, y ofrecer karewe a un visitante sigue siendo uno de los gestos de hospitalidad más significativos en la cultura kiribatiana.",
+      },
+      en: {
+        title: "The Fermented Coconut Sap Drunk at Every Celebration",
+        subtitle: "Kiribati's Karewe",
+        imageAlt: "Cartoon of a person climbing a palm tree beside a container collecting sap.",
+        description:
+          "'Karewe' is the sweet sap tapped daily by cutting the tip of a coconut palm's flower spathe, a task that requires collectors to climb trunks several meters tall multiple times a day, held up by nothing more than a loop of braided rope around their ankles, to collect the sap in small containers tied just below the cut. Freshly tapped, the sap is sweet and non-alcoholic, drunk as an everyday refreshment, but if left to ferment naturally for a few hours under the tropical sun it turns into a mildly alcoholic drink that holds a central place at celebrations, weddings, and community gatherings in the maneaba. Skillfully climbing and cutting palms to produce good karewe is a traditionally male skill passed down through generations, and offering karewe to a visitor remains one of the most meaningful gestures of hospitality in Kiribati culture.",
+      },
+    },
+  },
 ];

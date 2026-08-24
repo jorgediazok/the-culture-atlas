@@ -151,6 +151,91 @@ const CanoasDeGuerraYElNguzunguzu: IllustrationComponent = ({ accentColor }) => 
   );
 };
 
+const LlamadoresTiburonesMalaita: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <rect x="90" y="190" width="230" height="60" fill="#1D6FA5" opacity="0.5" />
+      <path d="M140 195 L270 195 L255 215 L155 215 Z" fill="#8B5A2B" stroke={dark} strokeWidth="2.5" />
+      <circle cx="175" cy="175" r="12" fill={skin} />
+      <path d="M163 188 Q175 180 187 188 L183 210 L167 210 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <path d="M187 195 Q205 205 210 220" stroke={skin} strokeWidth="6" strokeLinecap="round" fill="none" />
+      <circle cx="212" cy="222" r="7" fill="#8B5A2B" stroke={dark} strokeWidth="1.5" />
+      <path d="M255 205 Q270 190 285 195 Q275 205 270 215 Z" fill="#78909C" stroke={shade("#78909C", 0.3)} strokeWidth="2" />
+    </g>
+  );
+};
+
+const MensajeCocoJFK: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="220" width="230" height="30" fill="#3D8FB0" opacity="0.5" />
+      <circle cx="185" cy="180" r="42" fill="#6B4A2E" stroke={shade("#6B4A2E", 0.3)} strokeWidth="4" />
+      <circle cx="185" cy="180" r="30" fill="#8B6F47" opacity="0.5" />
+      <text x="185" y="186" fontSize="13" fontWeight="700" fill="#F5F0E6" textAnchor="middle">SOS</text>
+      <path d="M255 210 L295 195 L290 225 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" opacity="0.8" />
+      <line x1="250" y1="215" x2="290" y2="200" stroke={dark} strokeWidth="2" opacity="0.5" />
+    </g>
+  );
+};
+
+const BigManLiderazgo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const pig = "#D9A46A";
+  return (
+    <g>
+      <circle cx="175" cy="150" r="13" fill={skin} />
+      <path d="M161 163 Q175 155 189 163 L184 210 L166 210 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="230" cy="215" rx="26" ry="15" fill={pig} stroke={shade(pig, 0.3)} strokeWidth="2" />
+      <circle cx="255" cy="210" r="9" fill={pig} stroke={shade(pig, 0.3)} strokeWidth="2" />
+      <path d="M260 202 L266 196 M260 208 L268 205" stroke={shade(pig, 0.4)} strokeWidth="2" />
+      {[[130, 225], [150, 230], [170, 222]].map(([x, y]) => (
+        <g key={x as number}>
+          <circle cx={x} cy={(y as number) - 14} r="7" fill={skin} />
+          <path d={`M${(x as number) - 9} ${(y as number) - 2} Q${x} ${(y as number) - 8} ${(x as number) + 9} ${(y as number) - 2} L${(x as number) + 7} ${y} L${(x as number) - 7} ${y} Z`} fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="1.5" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const LagunaMarovoTallado: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#3E2A1E";
+  const pearl = "#E8DCC0";
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill="#26C6DA" opacity="0.4" />
+      <ellipse cx="150" cy="200" rx="20" ry="30" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="3" />
+      <ellipse cx="150" cy="185" rx="10" ry="12" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2.5" />
+      <path d="M143 180 Q150 176 157 180" stroke={pearl} strokeWidth="2" fill="none" />
+      <circle cx="146" cy="183" r="1.8" fill={pearl} />
+      <circle cx="154" cy="183" r="1.8" fill={pearl} />
+      <path d="M230 215 Q205 200 190 175 Q175 145 205 130 Q235 145 220 175 Q210 200 230 215 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" opacity="0.85" />
+    </g>
+  );
+};
+
+const MovimientoMaasinaRuru: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <line x1="205" y1="240" x2="205" y2="140" stroke="#5C3A1E" strokeWidth="8" />
+      <ellipse cx="205" cy="120" rx="70" ry="40" fill="#4A8F4E" stroke={shade("#4A8F4E", 0.3)} strokeWidth="3" />
+      {[[150, 225], [180, 232], [210, 228], [240, 232], [265, 224]].map(([x, y]) => (
+        <g key={x as number}>
+          <circle cx={x} cy={(y as number) - 16} r="8" fill={skin} />
+          <path d={`M${(x as number) - 10} ${(y as number) - 4} Q${x} ${(y as number) - 10} ${(x as number) + 10} ${(y as number) - 4} L${(x as number) + 8} ${y} L${(x as number) - 8} ${y} Z`} fill={accentColor} stroke={dark} strokeWidth="1.5" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const solomonIslandsIllustrations: Record<string, IllustrationDefinition> = {
   "casi-mil-islas-setenta-lenguas": { component: CasiMilIslasSetentaLenguas },
   "sonido-de-hierro-de-guadalcanal": { component: SonidoDeHierroDeGuadalcanal },
@@ -162,4 +247,9 @@ export const solomonIslandsIllustrations: Record<string, IllustrationDefinition>
   "el-atolon-de-coral-mas-grande-del-mundo": { component: ElAtolonDeCoralMasGrandeDelMundo },
   "cultura-de-la-nuez-de-betel": { component: CulturaDeLaNuezDeBetel },
   "canoas-de-guerra-y-el-nguzunguzu": { component: CanoasDeGuerraYElNguzunguzu },
+  "los-llamadores-de-tiburones-de-malaita": { component: LlamadoresTiburonesMalaita },
+  "el-mensaje-en-un-coco-que-rescato-a-jfk": { component: MensajeCocoJFK },
+  "el-liderazgo-que-se-gana-y-no-se-hereda": { component: BigManLiderazgo },
+  "la-laguna-marovo-y-su-tallado-en-madera": { component: LagunaMarovoTallado },
+  "el-movimiento-maasina-ruru": { component: MovimientoMaasinaRuru },
 };

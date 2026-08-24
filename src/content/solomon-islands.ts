@@ -231,4 +231,119 @@ export const solomonIslands: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "los-llamadores-de-tiburones-de-malaita",
+    order: 11,
+    placeholderEmoji: "🦈",
+    accentColor: "#2E5E8C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los pescadores que llaman a los tiburones por su nombre",
+        subtitle: "Los llamadores de tiburones de Malaita",
+        imageAlt: "Caricatura de un pescador agitando un sonajero de coco junto a la aleta de un tiburón.",
+        description:
+          "En comunidades costeras de la isla de Malaita, especialmente alrededor de Fanalei, algunas familias conservan el antiguo oficio de 'llamar' tiburones, una práctica que combina pesca de subsistencia con creencia espiritual, ya que se cree que ciertos tiburones portan el espíritu de antepasados fallecidos. Los llamadores agitan bajo el agua sonajeros hechos de cáscaras de coco vacías mientras entonan cánticos heredados dentro de la familia, y aseguran que tiburones específicos responden acercándose a la embarcación, permitiendo capturarlos a mano o con lazo sin ningún equipo de pesca moderno. El derecho y el conocimiento exacto para llamar tiburones se transmite solo dentro de determinados linajes familiares con permiso ancestral para hacerlo, y hoy sobrevive gracias a un número reducido de ancianos llamadores, lo que convirtió a la práctica en objeto de estudio de antropólogos interesados en la relación espiritual entre comunidades del Pacífico y la vida marina.",
+      },
+      en: {
+        title: "The Fishermen Who Call Sharks by Name",
+        subtitle: "Malaita's Shark Callers",
+        imageAlt: "Cartoon of a fisherman shaking a coconut rattle beside a shark's fin.",
+        description:
+          "In coastal communities on Malaita island, especially around Fanalei, certain families still keep the ancient practice of 'calling' sharks, a tradition blending subsistence fishing with spiritual belief, since some sharks are thought to carry the spirits of deceased ancestors. Callers shake rattles made from empty coconut shells underwater while chanting songs passed down within the family, and they claim specific sharks respond by approaching the canoe, allowing them to be caught by hand or noose without any modern fishing gear. The right and exact knowledge needed to call sharks is passed down only within certain family lineages holding ancestral permission to do so, and the practice survives today thanks to a small number of elder callers, making it a subject of study for anthropologists interested in the spiritual relationship between Pacific communities and marine life.",
+      },
+    },
+  },
+  {
+    id: "el-mensaje-en-un-coco-que-rescato-a-jfk",
+    order: 12,
+    placeholderEmoji: "🥥",
+    accentColor: "#4A2C2A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El mensaje en un coco que salvó al futuro presidente",
+        subtitle: "El rescate de JFK en las Islas Salomón",
+        imageAlt: "Caricatura de un coco con letras talladas junto a los restos de una lancha.",
+        description:
+          "En agosto de 1943, la lancha torpedera estadounidense PT-109, comandada por el entonces joven teniente John F. Kennedy, futuro presidente de Estados Unidos, fue embestida y hundida por un destructor japonés cerca de las Islas Salomón, obligando a Kennedy a liderar a los sobrevivientes en una larga travesía a nado hasta una isla cercana. Allí, dos exploradores locales, Biuku Gasa y Eroni Kumana, encontraron a los náufragos y ayudaron a organizar su rescate: Kennedy talló un mensaje de auxilio directamente sobre la cáscara de un coco, que los dos hombres transportaron en canoa unos sesenta kilómetros por aguas controladas por fuerzas japonesas hasta la base aliada más cercana, logrando el rescate de toda la tripulación. Aquel coco tallado terminó conservado en el Despacho Oval durante la presidencia de Kennedy, un recordatorio de un episodio nacido en una isla remota de las Islas Salomón.",
+      },
+      en: {
+        title: "The Coconut Message That Rescued a Future President",
+        subtitle: "JFK's Rescue in the Solomon Islands",
+        imageAlt: "Cartoon of a coconut with carved letters beside boat wreckage.",
+        description:
+          "In August 1943, the American patrol torpedo boat PT-109, commanded by then-young Lieutenant John F. Kennedy, the future US president, was rammed and sunk by a Japanese destroyer near the Solomon Islands, forcing Kennedy to lead the survivors on a long swim to a nearby island. There, two local scouts, Biuku Gasa and Eroni Kumana, found the stranded men and helped organize their rescue: Kennedy carved a distress message directly onto a coconut shell, which the two men carried by canoe roughly sixty kilometers through waters controlled by Japanese forces to reach the nearest Allied base, securing the rescue of the entire surviving crew. That carved coconut shell later ended up kept on the Oval Office desk throughout Kennedy's presidency, a lasting reminder of an episode that began on a remote island in the Solomons.",
+      },
+    },
+  },
+  {
+    id: "el-liderazgo-que-se-gana-y-no-se-hereda",
+    order: 13,
+    placeholderEmoji: "🐖",
+    accentColor: "#6B7A3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El líder que gana su título con grandes festines",
+        subtitle: "El sistema del 'big man'",
+        imageAlt: "Caricatura de un hombre repartiendo cerdos frente a un grupo de aldeanos.",
+        description:
+          "A diferencia de muchas sociedades del Pacífico organizadas en torno a jefaturas hereditarias, gran parte de las Islas Salomón y buena parte de Melanesia sigue el sistema del 'big man' (hombre grande), en el que la autoridad y el prestigio social no se heredan por nacimiento sino que se construyen activamente a lo largo de años mediante generosidad demostrada, organizando grandes festines comunitarios y acumulando y redistribuyendo riqueza tradicional, cerdos, dinero de conchas y producción agrícola, para tejer una red de obligaciones y seguidores leales. Un hombre puede así alcanzar enorme influencia sin ningún título formal, pero ese estatus se pierde si deja de mostrar la generosidad que lo sostiene, a diferencia de un título hereditario que nadie puede quitar. Este sistema informal de poder sigue conviviendo hoy con los gobiernos locales elegidos democráticamente, y muchos 'big men' mantienen influencia real sobre decisiones comunitarias pese a no ocupar ningún cargo oficial.",
+      },
+      en: {
+        title: "The Leader Who Earns His Title by Throwing Great Feasts",
+        subtitle: "The 'Big Man' System",
+        imageAlt: "Cartoon of a man distributing pigs to a group of villagers.",
+        description:
+          "Unlike many Pacific societies organized around hereditary chieftainship, much of the Solomon Islands and a large part of Melanesia follows the 'big man' system, in which social authority and prestige aren't inherited by birth but actively built over years through demonstrated generosity, organizing large community feasts and accumulating and redistributing traditional wealth, pigs, shell money, and garden produce, to weave a network of obligations and loyal followers. A man can gain enormous influence over his community this way with no formal title at all, but that status can also be lost if he stops showing the generosity and leadership that sustain it, unlike a hereditary title no one can take away. This informal power system still coexists today with democratically elected local governments, and many 'big men' hold real sway over community decisions despite occupying no official office at all.",
+      },
+    },
+  },
+  {
+    id: "la-laguna-marovo-y-su-tallado-en-madera",
+    order: 14,
+    placeholderEmoji: "🪵",
+    accentColor: "#26A69A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La laguna de agua salada más grande del planeta",
+        subtitle: "La laguna Marovo y su tallado en madera",
+        imageAlt: "Caricatura de una figura tallada en madera oscura con incrustaciones de nácar.",
+        description:
+          "La laguna Marovo, en el grupo de islas de Nueva Georgia dentro de la Provincia Occidental, es considerada ampliamente la laguna de agua salada más grande del mundo, con unos 700 kilómetros cuadrados encerrados por un sistema de doble barrera de coral, hogar de aldeas insulares construidas sobre pilotes y coral y de una biodiversidad marina excepcional que la colocó en la lista tentativa de Patrimonio de la Humanidad de la UNESCO. Las comunidades de esta misma región son también la cuna histórica de la tradición de tallado en madera de las Islas Salomón, que produce figuras, cuencos y proas de canoa esculpidos en madera oscura similar al ébano e incrustados con fragmentos iridiscentes de concha de nautilus, un oficio heredado de los mismos talleres que antes fabricaban las canoas de guerra tomoko y que hoy sostiene una parte significativa de la economía artesanal y turística de la región.",
+      },
+      en: {
+        title: "The Largest Saltwater Lagoon on the Planet",
+        subtitle: "Marovo Lagoon and Its Woodcarving Tradition",
+        imageAlt: "Cartoon of a dark wooden carved figure inlaid with mother-of-pearl.",
+        description:
+          "Marovo Lagoon, in the New Georgia island group within Western Province, is widely considered the largest saltwater lagoon in the world, spanning roughly 700 square kilometers enclosed by a double barrier reef system, home to island villages built on stilts and coral and to exceptional marine biodiversity that placed it on UNESCO's tentative World Heritage list. Communities across this same region are also the historic birthplace of the Solomon Islands' woodcarving tradition, producing figures, bowls, and canoe prows carved from dark, ebony-like wood inlaid with iridescent fragments of nautilus shell, a craft inherited from the same workshops that once built tomoko war canoes and that today sustains a significant share of the region's handicraft and tourism economy.",
+      },
+    },
+  },
+  {
+    id: "el-movimiento-maasina-ruru",
+    order: 15,
+    placeholderEmoji: "✊",
+    accentColor: "#7B5E3B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El movimiento pacífico que desafió al gobierno colonial",
+        subtitle: "El movimiento Maasina Ruru",
+        imageAlt: "Caricatura de un grupo de personas reunidas en asamblea bajo un árbol grande.",
+        description:
+          "Tras el fin de la Segunda Guerra Mundial, a fines de la década de 1940, surgió en la isla de Malaita el movimiento Maasina Ruru ('la regla de la hermandad'), una organización popular impulsada por isleños que habían trabajado junto a las fuerzas estadounidenses durante la guerra y regresaron con nuevas expectativas sobre salarios justos, autogobierno y dignidad frente a la administración colonial británica. El movimiento construyó su propio sistema paralelo de tribunales locales, líderes elegidos y organización comunitaria independiente de las autoridades coloniales, apoyado en la desobediencia civil no violenta, incluida la negativa masiva a pagar impuestos, aunque los británicos respondieron arrestando en masa a sus líderes. Hoy se considera a Maasina Ruru un momento fundacional en el camino de las Islas Salomón hacia el autogobierno y la independencia final, lograda en 1978, y uno de los movimientos populares anticoloniales más significativos de la historia del Pacífico.",
+      },
+      en: {
+        title: "The Peaceful Movement That Defied Colonial Rule",
+        subtitle: "The Maasina Ruru Movement",
+        imageAlt: "Cartoon of a group of people gathered in assembly under a large tree.",
+        description:
+          "After the end of World War II, in the late 1940s, the Maasina Ruru movement ('the rule of brotherhood') emerged on Malaita island, a grassroots organization driven by islanders who had worked alongside American forces during the war and returned home with new expectations about fair wages, self-governance, and dignity in the face of British colonial administration. The movement built its own parallel system of local courts, elected leaders, and communal organization independent of colonial authorities, relying mainly on non-violent civil disobedience, including mass refusal to pay colonial taxes, though British authorities responded by arresting movement leaders en masse. Maasina Ruru is now considered a foundational moment on the Solomon Islands' path toward eventual self-government and full independence, achieved in 1978, and one of the most significant grassroots anti-colonial movements in Pacific history.",
+      },
+    },
+  },
 ];
