@@ -231,4 +231,234 @@ export const mexico: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "teotihuacan",
+    order: 11,
+    placeholderEmoji: "☀️",
+    accentColor: "#C77B3D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La metrópoli que asombró a los aztecas siglos después",
+        subtitle: "Teotihuacán",
+        imageAlt: "Caricatura de la Pirámide del Sol junto a la Calzada de los Muertos.",
+        description:
+          "Teotihuacán, a unos 50 kilómetros al noreste de Ciudad de México, fue hacia el año 500 una de las ciudades más grandes del mundo, con más de 100,000 habitantes, aunque la identidad de sus fundadores sigue siendo un misterio: floreció siglos antes de que los mexicas llegaran al Valle de México y le dieran su nombre náhuatl, que significa 'el lugar donde los hombres se convierten en dioses'. Su eje central, la Calzada de los Muertos, une la Pirámide de la Luna con la colosal Pirámide del Sol, la tercera estructura piramidal más grande del mundo antiguo, y el Templo de Quetzalcóatl, decorado con cabezas de serpiente emplumada talladas en piedra. Al descubrir las ruinas siglos después, los mexicas quedaron tan impresionados que adoptaron el sitio como lugar sagrado de peregrinación.",
+      },
+      en: {
+        title: "The Metropolis That Awed the Aztecs Centuries Later",
+        subtitle: "Teotihuacán",
+        imageAlt: "Cartoon of the Pyramid of the Sun beside the Avenue of the Dead.",
+        description:
+          "Teotihuacán, about 30 miles northeast of Mexico City, was around the year 500 one of the largest cities in the world, with over 100,000 residents, though the identity of its founders remains an archaeological mystery: it flourished centuries before the Mexica arrived in the Valley of Mexico and gave it its Nahuatl name, meaning 'the place where men become gods.' Its central axis, the Avenue of the Dead, links the Pyramid of the Moon with the colossal Pyramid of the Sun, the third-largest pyramid structure in the ancient world, and the Temple of Quetzalcoatl, decorated with carved stone feathered-serpent heads. When the Mexica later discovered the ruins, they were so awestruck that they adopted the site as a sacred place of pilgrimage.",
+      },
+    },
+  },
+  {
+    id: "tequila-mezcal",
+    order: 12,
+    placeholderEmoji: "🥃",
+    accentColor: "#8A9A3B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El destilado de agave que se volvió orgullo nacional",
+        subtitle: "El tequila y el mezcal",
+        imageAlt: "Caricatura de una planta de agave azul junto a una botella y un caballito.",
+        description:
+          "El tequila, destilado exclusivamente del agave azul cultivado en la región que rodea el pueblo de Tequila, en Jalisco, y el mezcal, elaborado con más de 30 especies de agave en estados como Oaxaca mediante hornos subterráneos que le dan su característico sabor ahumado, son las bebidas destiladas más emblemáticas de México, ambas protegidas por Denominación de Origen desde finales del siglo XX. La producción de mezcal sigue siendo en gran parte artesanal, con maestros mezcaleros que cosechan las piñas de agave maduro, a veces con más de veinte años de crecimiento, y las cuecen, muelen y fermentan siguiendo técnicas transmitidas de generación en generación. El tequila, por su parte, se popularizó globalmente en el siglo XX y hoy se exporta a más de 120 países, aunque los mexicanos siguen prefiriendo tomarlo derecho, con sal y limón.",
+      },
+      en: {
+        title: "The Agave Spirit That Became a National Point of Pride",
+        subtitle: "Tequila and Mezcal",
+        imageAlt: "Cartoon of a blue agave plant beside a bottle and a shot glass.",
+        description:
+          "Tequila, distilled exclusively from blue agave grown around the town of Tequila in Jalisco, and mezcal, made from over 30 agave species in states like Oaxaca using underground pit ovens that give it a distinctive smoky flavor, are Mexico's most emblematic distilled spirits, both protected by Denomination of Origin status since the late 20th century. Mezcal production remains largely artisanal, with maestros mezcaleros harvesting mature agave hearts, or piñas, sometimes grown for over twenty years, then roasting, crushing, and fermenting them using techniques passed down through generations. Tequila, meanwhile, went global over the 20th century and is now exported to more than 120 countries, though Mexicans still tend to drink it neat, with salt and lime.",
+      },
+    },
+  },
+  {
+    id: "revolucion-mexicana",
+    order: 13,
+    placeholderEmoji: "🐎",
+    accentColor: "#5C6B3C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La guerra civil que rediseñó el país por completo",
+        subtitle: "La Revolución Mexicana",
+        imageAlt: "Caricatura de dos rifles cruzados sobre un sombrero de ala ancha y cartucheras.",
+        description:
+          "La Revolución Mexicana estalló en 1910 cuando Francisco I. Madero llamó a las armas contra la dictadura de más de treinta años de Porfirio Díaz, desatando una década de conflicto armado que transformó radicalmente la estructura política, social y territorial del país. Figuras como Emiliano Zapata, líder campesino del sur bajo el lema 'Tierra y Libertad', y Francisco 'Pancho' Villa, comandante de la División del Norte, se convirtieron en símbolos populares de la lucha por la justicia agraria y contra la desigualdad heredada del régimen porfirista. El conflicto, que costó más de un millón de vidas, culminó con la Constitución de 1917, todavía vigente, que estableció derechos laborales, educación pública gratuita y una reforma agraria pionera para su época en América Latina.",
+      },
+      en: {
+        title: "The Civil War That Reshaped the Country Entirely",
+        subtitle: "The Mexican Revolution",
+        imageAlt: "Cartoon of two crossed rifles over a wide-brimmed hat and bandoliers.",
+        description:
+          "The Mexican Revolution broke out in 1910 when Francisco I. Madero called for armed resistance against Porfirio Díaz's dictatorship of over thirty years, unleashing a decade of armed conflict that radically reshaped the country's political, social, and territorial structure. Figures like Emiliano Zapata, the southern peasant leader who fought under the motto 'Tierra y Libertad' (Land and Liberty), and Francisco 'Pancho' Villa, commander of the División del Norte, became popular symbols of the struggle for agrarian justice against the inequality inherited from the Porfirian regime. The conflict, which cost over a million lives, culminated in the Constitution of 1917, still in force today, which established labor rights, free public education, and land reform pioneering for its era in Latin America.",
+      },
+    },
+  },
+  {
+    id: "grito-de-dolores",
+    order: 14,
+    placeholderEmoji: "🔔",
+    accentColor: "#166534",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El campanazo que encendió la lucha por la independencia",
+        subtitle: "El Grito de Dolores",
+        imageAlt: "Caricatura de una campana de bronce colgando sobre un balcón con banderines.",
+        description:
+          "En la madrugada del 16 de septiembre de 1810, el cura Miguel Hidalgo hizo repicar la campana de su parroquia en el pueblo de Dolores, Guanajuato, y convocó a la población a levantarse en armas contra el dominio colonial español en lo que se conoció como el Grito de Dolores, el acto fundacional de la guerra de independencia mexicana. Aunque Hidalgo fue capturado y fusilado al año siguiente, el movimiento continuó bajo otros líderes como José María Morelos hasta consumarse en 1821. Cada 15 de septiembre por la noche, el presidente de México repite un 'Grito' simbólico desde el balcón del Palacio Nacional, tocando la campana original de Dolores, trasladada a la capital, mientras multitudes celebran en plazas de todo el país con fuegos artificiales, banderas y gritos de '¡Viva México!'.",
+      },
+      en: {
+        title: "The Bell Ring That Sparked the Fight for Independence",
+        subtitle: "The Grito de Dolores",
+        imageAlt: "Cartoon of a bronze bell hanging over a balcony with festive banners.",
+        description:
+          "In the early hours of September 16, 1810, parish priest Miguel Hidalgo rang his church bell in the town of Dolores, Guanajuato, and called on the population to rise up against Spanish colonial rule in what became known as the Grito de Dolores, the founding act of Mexico's war of independence. Though Hidalgo was captured and executed the following year, the movement continued under later leaders like José María Morelos until independence was achieved in 1821. Every September 15 at night, Mexico's president repeats a symbolic 'Grito' from the balcony of the National Palace, ringing the original Dolores bell, now relocated to the capital, while crowds celebrate in plazas nationwide with fireworks, flags, and shouts of '¡Viva México!'",
+      },
+    },
+  },
+  {
+    id: "mole-poblano-cocina-regional",
+    order: 15,
+    placeholderEmoji: "🍲",
+    accentColor: "#7B3F3F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La salsa de docenas de ingredientes que une al país",
+        subtitle: "El mole poblano y la cocina regional",
+        imageAlt: "Caricatura de un plato humeante con salsa oscura de mole y un guajolote.",
+        description:
+          "El mole poblano, una salsa compleja que combina chiles secos, chocolate, especias, frutos secos y hasta treinta ingredientes distintos molidos y cocinados durante horas, es según la leyenda una creación de monjas del convento de Santa Rosa en Puebla durante la época colonial, aunque sus raíces prehispánicas son innegables. Es apenas uno de los siete moles tradicionales de Oaxaca, región conocida como 'la tierra de los siete moles', que van del mole negro, oscuro y ahumado, al mole verde de hierbas frescas, reflejando la enorme diversidad regional de la gastronomía mexicana: cada estado, de Yucatán con la cochinita pibil hasta Veracruz con sus platillos de mariscos, conserva recetas propias. Esta profundidad llevó a la UNESCO a reconocer a la gastronomía mexicana como Patrimonio Cultural Inmaterial en 2010.",
+      },
+      en: {
+        title: "The Dozens-of-Ingredients Sauce That Unites the Country",
+        subtitle: "Mole Poblano and Regional Cuisine",
+        imageAlt: "Cartoon of a steaming plate of dark mole sauce with a turkey.",
+        description:
+          "Mole poblano, a complex sauce blending dried chilies, chocolate, spices, nuts, and up to thirty distinct ingredients ground and simmered for hours, is said by legend to have been created by nuns at the Santa Rosa convent in Puebla during colonial times, though its roots reach back to pre-Hispanic cooking. It is just one of Oaxaca's seven traditional moles, a region nicknamed 'the land of the seven moles,' ranging from the dark, smoky mole negro to the fresh-herb mole verde, reflecting the enormous regional diversity of Mexican cuisine: every state, from Yucatán's cochinita pibil to Veracruz's seafood dishes, preserves its own recipes. This depth led UNESCO to recognize traditional Mexican cuisine as Intangible Cultural Heritage in 2010.",
+      },
+    },
+  },
+  {
+    id: "textiles-indigenas-oaxaca-chiapas",
+    order: 16,
+    placeholderEmoji: "🧵",
+    accentColor: "#C2185B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los hilos que tejen siglos de identidad indígena",
+        subtitle: "Los textiles de Oaxaca y Chiapas",
+        imageAlt: "Caricatura de un huipil bordado con patrones geométricos coloridos.",
+        description:
+          "En comunidades indígenas de Oaxaca y Chiapas, tejedoras zapotecas, mixtecas y tzotziles continúan produciendo huipiles y otras prendas en telares de cintura prehispánicos, una técnica en la que el telar se sujeta a la cintura de la tejedora y a un poste fijo, permitiendo tensar el hilo con el propio cuerpo tal como se hacía hace más de mil años. Cada patrón geométrico, color y combinación de hilos puede identificar la comunidad de origen de quien lo porta, e históricamente comunicaba estatus social, estado civil o rango dentro del pueblo. En San Bartolo Yautepec y San Cristóbal de las Casas, entre muchos otros pueblos, estas prendas se siguen bordando a mano en procesos que toman semanas o meses, usando a veces tintes naturales como la grana cochinilla, un insecto que produce un rojo intenso conocido y exportado desde la época prehispánica.",
+      },
+      en: {
+        title: "The Threads That Weave Centuries of Indigenous Identity",
+        subtitle: "Oaxaca and Chiapas Textiles",
+        imageAlt: "Cartoon of an embroidered huipil with colorful geometric patterns.",
+        description:
+          "In Indigenous communities across Oaxaca and Chiapas, Zapotec, Mixtec, and Tzotzil weavers still produce huipiles and other garments on pre-Hispanic backstrap looms, a technique in which the loom is tied to the weaver's waist and to a fixed post, letting her tension the thread with her own body exactly as was done over a thousand years ago. Each geometric pattern, color, and thread combination can identify the wearer's home community, and historically communicated social status, marital status, or rank within the village. In San Bartolo Yautepec and San Cristóbal de las Casas, among many other towns, these garments are still hand-embroidered in processes taking weeks or months, sometimes using natural dyes like cochineal, an insect yielding an intense red exported since pre-Hispanic times.",
+      },
+    },
+  },
+  {
+    id: "charreria",
+    order: 17,
+    placeholderEmoji: "🤠",
+    accentColor: "#7A1F2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El deporte nacional nacido en las haciendas ganaderas",
+        subtitle: "La charrería",
+        imageAlt: "Caricatura de un charro a caballo lazando con una reata.",
+        description:
+          "La charrería, declarada deporte nacional de México en 1933 y reconocida por la UNESCO como Patrimonio Cultural Inmaterial en 2016, nació de las faenas cotidianas de las haciendas ganaderas coloniales, donde los vaqueros desarrollaron técnicas de monta, lazo y manejo de ganado que con el tiempo se codificaron en competencias formales llamadas 'charreadas'. Estas se dividen en suertes como el paso de la muerte, en el que un charro salta de su caballo a uno salvaje sin silla en plena carrera, o el coleadero, donde se derriba a un toro tomándolo de la cola desde el caballo. Los charros visten trajes ajustados bordados y el característico sombrero de ala ancha, mientras las escaramuzas, equipos femeninos que ejecutan coreografías sincronizadas a caballo con vestidos tradicionales, añadieron una rama moderna al deporte desde mediados del siglo XX.",
+      },
+      en: {
+        title: "The National Sport Born on Cattle Ranching Haciendas",
+        subtitle: "Charrería",
+        imageAlt: "Cartoon of a charro on horseback roping with a lasso.",
+        description:
+          "Charrería, declared Mexico's national sport in 1933 and recognized by UNESCO as Intangible Cultural Heritage in 2016, grew out of the daily work of colonial cattle-ranching haciendas, where vaqueros developed riding, roping, and herding techniques that were eventually codified into formal competitions called 'charreadas.' These are divided into events like the paso de la muerte, where a charro leaps from his horse onto a running wild horse bareback, or the coleadero, where a bull is brought down by its tail from horseback. Charros wear tightly fitted embroidered suits and the characteristic wide-brimmed hat, while escaramuzas, all-female teams performing synchronized horseback choreography in traditional dresses, added a modern branch to the sport starting in the mid-20th century.",
+      },
+    },
+  },
+  {
+    id: "epoca-de-oro-cine-mexicano",
+    order: 18,
+    placeholderEmoji: "🎬",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los años en que el cine mexicano conquistó al mundo",
+        subtitle: "La Época de Oro del cine mexicano",
+        imageAlt: "Caricatura de un carrete de película junto a una claqueta de cine.",
+        description:
+          "Entre los años treinta y cincuenta, mientras la Segunda Guerra Mundial paralizaba buena parte de la industria cinematográfica europea, México vivió su Época de Oro del cine, produciendo cientos de películas al año y consolidándose como la industria fílmica más importante de habla hispana. Estrellas como Cantinflas, cuyo personaje de peladito hablador conquistó al público internacional, María Félix, apodada 'La Doña' por su carácter arrollador en pantalla, Pedro Infante y Dolores del Río, quien antes había triunfado en Hollywood, se convirtieron en íconos que definieron el cine latinoamericano de su tiempo. El director Emilio 'El Indio' Fernández y el fotógrafo Gabriel Figueroa crearon un lenguaje visual propio, con cielos dramáticos y paisajes rurales, que influyó en cineastas de todo el mundo, incluido Luis Buñuel durante su exilio mexicano.",
+      },
+      en: {
+        title: "The Years Mexican Cinema Conquered the World Stage",
+        subtitle: "The Golden Age of Mexican Cinema",
+        imageAlt: "Cartoon of a film reel beside a movie clapperboard.",
+        description:
+          "Between the 1930s and 1950s, as World War II crippled much of Europe's film industry, Mexico experienced its Golden Age of cinema, producing hundreds of films a year and becoming the leading Spanish-language film industry in the world. Stars like Cantinflas, whose talkative peladito character won over international audiences, María Félix, nicknamed 'La Doña' for her commanding screen presence, Pedro Infante, and Dolores del Río, who had already triumphed in Hollywood, became icons who defined Latin American cinema of their era. Director Emilio 'El Indio' Fernández and cinematographer Gabriel Figueroa forged a distinctive visual language of dramatic skies and rural landscapes that influenced filmmakers worldwide, including Luis Buñuel during his own Mexican exile.",
+      },
+    },
+  },
+  {
+    id: "zocalo-catedral-metropolitana",
+    order: 19,
+    placeholderEmoji: "⛪",
+    accentColor: "#9C7A54",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La plaza más grande de América Latina y su catedral",
+        subtitle: "El Zócalo y la Catedral Metropolitana",
+        imageAlt: "Caricatura de una catedral colonial con torres gemelas frente a una gran plaza.",
+        description:
+          "El Zócalo, oficialmente Plaza de la Constitución, es el corazón simbólico de Ciudad de México y una de las plazas más grandes del mundo, construida directamente sobre lo que fue el centro ceremonial de Tenochtitlan. A un costado se alza la Catedral Metropolitana, la catedral católica más grande de América Latina, iniciada en 1573 con piedras extraídas de templos mexicas demolidos y terminada casi 250 años después, por lo que su fachada combina estilos renacentista, barroco y neoclásico según la época de cada sección. Junto a ella, las excavaciones del Templo Mayor, descubierto por accidente en 1978 por trabajadores eléctricos, revelaron los cimientos del principal templo mexica, hoy visibles en un museo al aire libre. El Zócalo sigue siendo escenario de desfiles cívicos, el Grito de Independencia y una pista de hielo instalada cada invierno.",
+      },
+      en: {
+        title: "Latin America's Largest Plaza and Its Grand Cathedral",
+        subtitle: "The Zócalo and Metropolitan Cathedral",
+        imageAlt: "Cartoon of a colonial cathedral with twin towers facing a vast plaza.",
+        description:
+          "The Zócalo, officially Plaza de la Constitución, is the symbolic heart of Mexico City and one of the largest public squares in the world, built directly atop what was once Tenochtitlan's ceremonial center. On one side stands the Metropolitan Cathedral, the largest Catholic cathedral in Latin America, begun in 1573 using stones taken from demolished Mexica temples and finished nearly 250 years later, so its facade blends Renaissance, Baroque, and Neoclassical styles depending on when each section was built. Beside it, excavations of the Templo Mayor, discovered by accident in 1978 by electrical workers, revealed the foundations of the main Mexica temple, now visible in an open-air museum. The Zócalo still hosts civic parades, the Grito de Independencia, and a giant ice rink each winter.",
+      },
+    },
+  },
+  {
+    id: "mariposa-monarca",
+    order: 20,
+    placeholderEmoji: "🦋",
+    accentColor: "#E67E22",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El viaje de miles de kilómetros que acaba en un bosque",
+        subtitle: "La migración de la mariposa monarca",
+        imageAlt: "Caricatura de mariposas monarca naranjas y negras posadas en ramas de oyamel.",
+        description:
+          "Cada otoño, hasta mil millones de mariposas monarca emprenden un viaje de más de 4,000 kilómetros desde Canadá y el norte de Estados Unidos hasta los bosques de oyamel en las montañas de Michoacán y el Estado de México, un fenómeno migratorio único porque ningún individuo completa el viaje de ida y vuelta: son varias generaciones sucesivas las que lo logran, guiándose por mecanismos que los científicos aún no comprenden del todo. Al llegar, millones de mariposas cubren por completo las ramas de los árboles, formando racimos tan densos que su peso puede quebrarlas, en un espectáculo que coincide casi con las fechas del Día de los Muertos, por lo que comunidades locales las asocian con las almas de los antepasados que regresan. La reserva fue declarada Patrimonio Mundial por la UNESCO en 2008.",
+      },
+      en: {
+        title: "The Thousands-of-Miles Journey That Ends in a Forest",
+        subtitle: "The Monarch Butterfly Migration",
+        imageAlt: "Cartoon of orange and black monarch butterflies resting on fir branches.",
+        description:
+          "Each autumn, up to a billion monarch butterflies undertake a journey of over 2,500 miles from Canada and the northern United States to the oyamel fir forests in the mountains of Michoacán and the State of Mexico, a uniquely layered migration because no single butterfly completes the full round trip: it takes several successive generations to finish it, guided by mechanisms scientists still don't fully understand. On arrival, millions of butterflies blanket tree branches so densely that clusters can grow heavy enough to snap them, a spectacle that coincides almost exactly with Día de los Muertos, leading local communities to traditionally associate the butterflies with the returning souls of ancestors. The reserve was declared a UNESCO World Heritage Site in 2008.",
+      },
+    },
+  },
 ];
