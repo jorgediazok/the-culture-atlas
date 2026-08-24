@@ -152,6 +152,53 @@ const LaIslaPrivadaDondeVeraneaLaRealezaEuropea: IllustrationComponent = ({ acce
   );
 };
 
+const LaIndependenciaDel27DeOctubreDe1979: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#F5C518";
+  return (
+    <g>
+      <rect x="185" y="90" width="8" height="150" fill={dark} />
+      <rect x="193" y="95" width="110" height="90" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="193" y="95" width="36" height="90" fill="#2E6B45" opacity="0.85" />
+      <rect x="267" y="95" width="36" height="90" fill="#2E6B45" opacity="0.85" />
+      <rect x="229" y="95" width="38" height="90" fill={gold} />
+      {[
+        [240, 118],
+        [248, 145],
+        [256, 172],
+      ].map(([x, y], i) => (
+        <polygon key={i} points={`${x},${y - 11} ${x + 11},${y} ${x},${y + 11} ${x - 11},${y}`} fill="#2E6B45" stroke={dark} strokeWidth="1.5" />
+      ))}
+      {[
+        [130, 110],
+        [320, 100],
+      ].map(([x, y], i) => (
+        <g key={i}>
+          {[0, 60, 120, 180, 240, 300].map((deg) => (
+            <line key={deg} x1={x} y1={y} x2={x} y2={y - 14} stroke={i % 2 === 0 ? gold : accentColor} strokeWidth="3" strokeLinecap="round" transform={`rotate(${deg} ${x} ${y})`} />
+          ))}
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const ElTunelDeBlackPointTalladoAMano: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 245 L320 245 L320 250 L90 250 Z" fill="#1B5E7A" opacity="0.4" />
+      <path d="M100 245 Q120 140 205 120 Q290 140 310 245 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="225" rx="42" ry="34" fill="#1A1A1A" />
+      <ellipse cx="205" cy="225" rx="30" ry="24" fill="#0A0A0A" />
+      <line x1="150" y1="240" x2="170" y2="190" stroke="#5C3A21" strokeWidth="5" strokeLinecap="round" />
+      <polygon points="165,195 180,188 172,205" fill="#8C8C8C" stroke={dark} strokeWidth="1.5" />
+      <line x1="260" y1="240" x2="245" y2="195" stroke="#5C3A21" strokeWidth="5" strokeLinecap="round" />
+      <rect x="238" y="188" width="16" height="10" fill="#8C8C8C" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
 export const saintVincentAndTheGrenadinesIllustrations: Record<string, IllustrationDefinition> = {
   "la-isla-con-permiso-para-cazar-una-ballena-al-ano": { component: LaIslaConPermisoParaCazarUnaBallenaAlAno },
   "el-archipielago-de-32-islas-de-aguas-turquesas": { component: ElArchipielagoDe32IslasDeAguasTurquesas },
@@ -163,4 +210,6 @@ export const saintVincentAndTheGrenadinesIllustrations: Record<string, Illustrat
   "la-piscina-natural-que-tallo-el-propio-oceano": { component: LaPiscinaNaturalQueTalloElPropioOceano },
   "el-plato-nacional-hecho-de-fruta-de-pan-y-pescado": { component: ElPlatoNacionalHechoDeFrutaDePanYPescado },
   "la-isla-privada-donde-veranea-la-realeza-europea": { component: LaIslaPrivadaDondeVeraneaLaRealezaEuropea },
+  "la-independencia-del-27-de-octubre-de-1979": { component: LaIndependenciaDel27DeOctubreDe1979 },
+  "el-tunel-de-black-point-tallado-a-mano-en-1815": { component: ElTunelDeBlackPointTalladoAMano },
 };

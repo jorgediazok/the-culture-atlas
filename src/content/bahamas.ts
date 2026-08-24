@@ -231,4 +231,50 @@ export const bahamas: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "la-independencia-de-1973",
+    order: 11,
+    placeholderEmoji: "🎊",
+    accentColor: "#0C4B49",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La bandera que reemplazó a la Union Jack en 1973",
+        subtitle: "La independencia de 1973",
+        imageAlt: "Caricatura de una bandera con franjas aguamarina y un triángulo negro junto a una franja dorada, ondeando en un mástil.",
+        description:
+          "Las Bahamas obtuvieron su independencia del Reino Unido el 10 de julio de 1973, después de más de tres siglos como colonia británica, un proceso encabezado por Lynden Pindling, el primer ministro negro que lideró el país desde 1967 y se convirtió en la figura central de la transición hacia el autogobierno, razón por la que hoy se lo conoce como el 'padre de la nación'. Ese mismo día se izó por primera vez la actual bandera nacional, con dos franjas horizontales aguamarina que representan el mar, una franja dorada central y un triángulo negro superpuesto que apunta hacia el asta, símbolo del sol y la determinación del pueblo bahamense. La transición, negociada de forma pacífica en Londres, mantuvo a las Bahamas dentro de la Mancomunidad de Naciones con la monarca británica como jefa de Estado simbólica, pese a debates periódicos sobre convertirse en república.",
+      },
+      en: {
+        title: "The Flag That Replaced the Union Jack in 1973",
+        subtitle: "Independence in 1973",
+        imageAlt: "Cartoon of a flag with aquamarine stripes and a black triangle beside a gold stripe, waving on a pole.",
+        description:
+          "The Bahamas gained independence from the United Kingdom on July 10, 1973, after more than three centuries as a British colony, a process led by Lynden Pindling, the country's first Black premier, in office since 1967, who became the central figure of the transition to self-government and is popularly known today as the 'father of the nation.' That same day, the current national flag was raised for the first time, with two horizontal aquamarine stripes representing the surrounding sea flanking a central gold stripe, overlaid by a black triangle pointing toward the hoist, symbolizing the sun and the Bahamian people's determination to prosper from the land and sea that define the archipelago. The transition, negotiated peacefully in London, kept the Bahamas within the Commonwealth of Nations with the British monarch as symbolic head of state, a constitutional link that continues today despite periodic debate over becoming a republic.",
+      },
+    },
+  },
+  {
+    id: "el-batik-de-androsia",
+    order: 12,
+    placeholderEmoji: "🎨",
+    accentColor: "#3D8C6C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La tela batik que se estampa a mano en Andros",
+        subtitle: "El batik de Androsia",
+        imageAlt: "Caricatura de un rollo de tela estampada con patrones de peces y olas junto a un sello de madera.",
+        description:
+          "Androsia es una tela de algodón estampada con la técnica del batik, un método de teñido que usa cera caliente para bloquear el color en ciertas zonas de la tela antes de sumergirla en tinte, producida de forma artesanal desde 1973 en un pequeño taller de la isla de Andros que sigue siendo hoy el único fabricante de este textil en todas las Bahamas. Cada pieza se estampa a mano con sellos de madera tallados en motivos inspirados en la vida marina y la naturaleza del archipiélago, como peces, caracoles, palmeras y olas, y ningún metro de tela sale exactamente igual a otro por las variaciones propias del proceso manual. La tela se convirtió en un símbolo de identidad nacional, usada en ropa, uniformes escolares y hasta trajes oficiales de funcionarios de gobierno en ocasiones especiales, y el taller de Andros, abierto a visitas guiadas, sigue siendo una parada habitual para turistas interesados en ver el proceso completo de teñido.",
+      },
+      en: {
+        title: "The Batik Cloth Hand-Stamped on the Island of Andros",
+        subtitle: "Androsia Batik",
+        imageAlt: "Cartoon of a roll of printed fabric with fish and wave patterns beside a wooden stamp.",
+        description:
+          "Androsia is a cotton fabric printed using batik, a dyeing technique that uses hot wax to block color from certain areas of the cloth before it's dipped in dye, handmade since 1973 at a small workshop on the island of Andros that remains today the only manufacturer of this textile anywhere in the Bahamas. Each piece is hand-stamped with carved wooden blocks in patterns inspired by the archipelago's marine life and nature, like fish, conch shells, palm trees, and waves, and no length of fabric comes out exactly like another because of the natural variation built into the manual process. The fabric became a symbol of national identity, used in clothing, school uniforms, and even government officials' formal attire on special occasions, and the Andros workshop, open for guided visits, remains a regular stop for tourists interested in seeing the full dyeing process firsthand.",
+      },
+    },
+  },
 ];

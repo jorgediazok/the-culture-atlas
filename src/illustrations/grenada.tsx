@@ -194,6 +194,44 @@ const ElArbolQueCreceHaciaAbajoBajoTierra: IllustrationComponent = ({ accentColo
   );
 };
 
+const RiverAntoineLaDestileriaDeRuedaHidraulica: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const barrel = (x: number, scale: number) => (
+    <g key={x} transform={`translate(${x} 170) scale(${scale})`}>
+      <path d="M-20 0 Q-26 30 -20 60 L20 60 Q26 30 20 0 Z" fill="#8B5A2B" stroke={dark} strokeWidth="2.2" />
+      <rect x="-22" y="14" width="44" height="6" fill="#3A2418" />
+      <rect x="-24" y="40" width="48" height="6" fill="#3A2418" />
+    </g>
+  );
+  return (
+    <g>
+      <circle cx="150" cy="160" r="50" fill="none" stroke="#5C3A21" strokeWidth="9" />
+      {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+        <line key={deg} x1="150" y1="160" x2="150" y2="112" stroke="#5C3A21" strokeWidth="6" transform={`rotate(${deg} 150 160)`} />
+      ))}
+      <circle cx="150" cy="160" r="9" fill="#3A2418" />
+      {barrel(255, 1)}
+      {barrel(295, 0.85)}
+    </g>
+  );
+};
+
+const LosAstillerosDeCarriacouYPetiteMartinique: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 240 L320 240 L320 250 L90 250 Z" fill="#D9CBA3" opacity="0.6" />
+      <path d="M110 225 Q205 250 300 225 Q280 190 205 188 Q130 190 110 225 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[140, 170, 205, 240, 270].map((x) => (
+        <line key={x} x1={x} y1="192" x2={x} y2="222" stroke={dark} strokeWidth="2" opacity="0.6" />
+      ))}
+      <line x1="230" y1="160" x2="290" y2="130" stroke="#5C3A21" strokeWidth="5" />
+      <rect x="130" y="205" width="18" height="5" fill="#3A2418" transform="rotate(-15 139 207)" />
+      <circle cx="120" cy="215" r="6" fill="#8C8C8C" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
 export const grenadaIllustrations: Record<string, IllustrationDefinition> = {
   "la-especia-que-aparece-dibujada-en-la-bandera": { component: LaEspeciaQueApareceDibujadaEnLaBandera },
   "el-primer-parque-de-esculturas-bajo-el-mar": { component: ElPrimerParqueDeEsculturasBajoElMar },
@@ -205,4 +243,6 @@ export const grenadaIllustrations: Record<string, IllustrationDefinition> = {
   "el-carnaval-donde-la-gente-se-cubre-de-especias": { component: ElCarnavalDondeLaGenteSeCubreDeAceiteYPintura },
   "las-tortugas-que-regresan-cada-ano-a-la-misma-playa": { component: LasTortugasQueRegresanCadaAnoALaMismaPlaya },
   "el-cacao-cuyo-chocolate-se-rastrea-hasta-un-solo-arbol": { component: ElArbolQueCreceHaciaAbajoBajoTierra },
+  "river-antoine-la-destileria-de-rueda-hidraulica": { component: RiverAntoineLaDestileriaDeRuedaHidraulica },
+  "los-astilleros-de-carriacou-y-petite-martinique": { component: LosAstillerosDeCarriacouYPetiteMartinique },
 };

@@ -231,4 +231,50 @@ export const saintLucia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-oro-verde-la-industria-bananera",
+    order: 11,
+    placeholderEmoji: "🍌",
+    accentColor: "#3E7C3E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El banano, el 'oro verde' que sostuvo la isla",
+        subtitle: "El oro verde, la industria bananera",
+        imageAlt: "Caricatura de racimos de bananas verdes colgando junto a hojas grandes de la planta.",
+        description:
+          "El banano se convirtió desde los años cincuenta en el motor económico de Santa Lucía y del resto de las islas de Barlovento, cultivado en pequeñas parcelas familiares que exportaban casi toda su producción al Reino Unido bajo acuerdos comerciales preferenciales heredados del vínculo colonial, ganándose el apodo local de 'oro verde'. Ese modelo entró en crisis desde los años noventa, cuando la Organización Mundial del Comercio falló contra el trato preferencial europeo tras una disputa impulsada por Estados Unidos y grandes multinacionales bananeras latinoamericanas, exponiendo a los pequeños productores caribeños a competir contra plantaciones de mucha mayor escala. La producción bananera de Santa Lucía se redujo drásticamente en las décadas siguientes, y aunque el turismo desplazó al banano como principal fuente de ingresos, la fruta sigue cultivándose en laderas de todo el país y sigue siendo símbolo del paisaje rural y la historia económica reciente de la isla.",
+      },
+      en: {
+        title: "The Banana, the Island's 'Green Gold'",
+        subtitle: "Green Gold, the Banana Industry",
+        imageAlt: "Cartoon of bunches of green bananas hanging beside large leaves of the plant.",
+        description:
+          "Bananas became, starting in the 1950s, the economic engine of Saint Lucia and the rest of the Windward Islands, grown on small family plots that exported nearly all their crop to the United Kingdom under preferential trade agreements inherited from the colonial relationship, earning the fruit the local nickname 'green gold.' That model fell into crisis starting in the 1990s, when the World Trade Organization ruled against European preferential treatment following a dispute pushed by the United States and large Latin American banana multinationals, exposing small Caribbean growers to direct competition against far larger plantations. Saint Lucia's banana production shrank drastically over the following decades, and though tourism has since overtaken bananas as the main source of income, the fruit is still grown on hillsides across the country and remains a symbol of the island's rural landscape and recent economic history.",
+      },
+    },
+  },
+  {
+    id: "el-festival-de-jazz-que-puso-a-la-isla-en-el-mapa",
+    order: 12,
+    placeholderEmoji: "🎷",
+    accentColor: "#1B3A5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El festival de jazz que puso a la isla en el mapa",
+        subtitle: "El Saint Lucia Jazz Festival",
+        imageAlt: "Caricatura de un saxofón junto a notas musicales flotando sobre un escenario al aire libre.",
+        description:
+          "El Saint Lucia Jazz Festival, lanzado en 1991 por el gobierno como estrategia deliberada para atraer turismo fuera de la temporada alta tradicional, se convirtió en pocos años en uno de los festivales de jazz más reconocidos del Caribe, atrayendo a figuras internacionales de primer nivel como Wynton Marsalis, Chaka Khan y Diana Krall a escenarios en playas, plazas históricas y hasta dentro de la Reserva Marina de Soufrière, con los Pitones como telón de fondo. El festival combinó deliberadamente jazz internacional con música local, incluyendo zouk, calipso y kwéyòl, dando espacio a artistas caribeños junto a estrellas globales. Aunque cambios de nombre y formato lo reconfiguraron varias veces en años recientes, ampliándolo a un festival de música más general, el evento sigue siendo una de las citas culturales más esperadas del calendario santalucense y un motor importante de ingresos turísticos durante mayo.",
+      },
+      en: {
+        title: "The Jazz Festival That Put the Island on the Map",
+        subtitle: "The Saint Lucia Jazz Festival",
+        imageAlt: "Cartoon of a saxophone beside floating musical notes over an open-air stage.",
+        description:
+          "The Saint Lucia Jazz Festival, launched in 1991 by the government as a deliberate strategy to draw tourism outside the traditional high season, grew within just a few years into one of the most recognized jazz festivals in the Caribbean, attracting major international names like Wynton Marsalis, Chaka Khan, and Diana Krall to stages set up on beaches, historic squares, and even inside the Soufrière Marine Management Area, with the Pitons as a backdrop. The festival deliberately paired international jazz with local music, including zouk, calypso, and kwéyòl, giving Caribbean artists stage time alongside global stars in a lineup meant to reflect the island's own cultural mix. Though name changes and format shifts have reshaped it several times in recent years, broadening it into a more general music festival, the event remains one of the most anticipated dates on Saint Lucia's cultural calendar and a significant driver of tourism revenue every May.",
+      },
+    },
+  },
 ];

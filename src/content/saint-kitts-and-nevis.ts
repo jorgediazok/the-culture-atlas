@@ -231,4 +231,50 @@ export const saintKittsAndNevis: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "la-ciudadania-por-inversion-la-primera-del-mundo",
+    order: 11,
+    placeholderEmoji: "🛂",
+    accentColor: "#6B3FA0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que inventó la ciudadanía por inversión",
+        subtitle: "La ciudadanía por inversión, una primicia mundial",
+        imageAlt: "Caricatura de un pasaporte abierto junto a una llave dorada.",
+        description:
+          "San Cristóbal y Nieves lanzó en 1984 el primer programa de ciudadanía por inversión del mundo, un mecanismo legal que permite a extranjeros obtener la nacionalidad y un pasaporte del país a cambio de una inversión significativa, ya sea una donación a un fondo de desarrollo nacional o la compra de una propiedad aprobada, sin necesidad de residir jamás en el país. El programa, ideado para atraer capital extranjero a una economía golpeada por la caída de la industria azucarera, se convirtió con el tiempo en una fuente de ingresos estatales considerable y en un modelo que decenas de países caribeños y de otras regiones terminaron copiando. El pasaporte kittitiano resultante permite viajar sin visa a más de cien países, incluida buena parte de Europa, lo que volvió al programa particularmente atractivo para inversores de países cuyos propios pasaportes ofrecen menos libertad de movimiento, aunque también generó controversia internacional por preocupaciones de seguridad y uso indebido.",
+      },
+      en: {
+        title: "The Country That Invented Citizenship by Investment",
+        subtitle: "Citizenship by Investment, a World First",
+        imageAlt: "Cartoon of an open passport beside a gold key.",
+        description:
+          "Saint Kitts and Nevis launched the world's first citizenship-by-investment program in 1984, a legal mechanism letting foreigners obtain the country's nationality and a passport in exchange for a significant economic investment, either a direct donation to a national development fund or the purchase of approved real estate, without ever needing to actually live in the country. The program, originally designed to attract foreign capital to an economy hit hard by the collapse of the sugar industry, grew over time into a considerable source of state revenue and a model that dozens of other countries in the Caribbean and beyond eventually copied in various forms. The resulting Kittitian passport allows visa-free travel to more than a hundred countries, including much of Europe, which made the program particularly attractive to investors from countries whose own passports offer less freedom of movement, though it also drew international controversy over security concerns and misuse.",
+      },
+    },
+  },
+  {
+    id: "liamuiga-el-nombre-kalinago-de-la-isla",
+    order: 12,
+    placeholderEmoji: "🌋",
+    accentColor: "#7A5230",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El nombre kalinago que significa 'tierra fértil'",
+        subtitle: "Liamuiga, el nombre kalinago de la isla",
+        imageAlt: "Caricatura de una canoa tallada junto a motivos geométricos sobre el agua.",
+        description:
+          "Antes de que Cristóbal Colón la avistara en 1493 y le diera su nombre actual en honor a San Cristóbal, la isla era conocida por el pueblo kalinago como Liamuiga, que se traduce aproximadamente como 'tierra fértil', en referencia a los suelos volcánicos que rodean su pico central. Los kalinagos, un pueblo indígena caribeño que sucedió a los taínos en la región, vivían de la pesca, la agricultura y una navegación costera hábil en canoas talladas de troncos enteros, y consideraban a la isla un punto de encuentro estratégico del arco caribeño. La colonización europea del siglo diecisiete, con asentamientos casi simultáneos de ingleses y franceses en la misma isla, diezmó a la población kalinago en pocas décadas mediante enfermedades y conflictos armados, y hoy el nombre Liamuiga sobrevive sobre todo en el nombre oficial del volcán más alto del país, rebautizado Pico Liamuiga en 1983 como gesto de reconocimiento a esa historia previa a la conquista.",
+      },
+      en: {
+        title: "The Kalinago Name That Means 'Fertile Land'",
+        subtitle: "Liamuiga, the Island's Kalinago Name",
+        imageAlt: "Cartoon of a carved dugout canoe beside geometric motifs over the water.",
+        description:
+          "Before Christopher Columbus sighted it in 1493 and gave it its current name honoring Saint Christopher, Saint Kitts was known to the Kalinago people as Liamuiga, which translates roughly as 'fertile land,' a reference to the rich volcanic soil surrounding the island's central peak. The Kalinago, an Indigenous Caribbean people who succeeded the Taíno in the region, lived by fishing, farming, and skilled coastal navigation in canoes carved from single tree trunks, and regarded Saint Kitts as a strategic meeting point among the islands of the Caribbean arc. Seventeenth-century European colonization, with near-simultaneous English and French settlements on the same island, decimated the Kalinago population within just a few decades through disease and armed conflict, and today the name Liamuiga survives mainly in the official name of the country's tallest volcano, renamed Mount Liamuiga in 1983 as a gesture of recognition toward that pre-conquest history.",
+      },
+    },
+  },
 ];

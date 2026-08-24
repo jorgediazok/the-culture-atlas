@@ -231,4 +231,50 @@ export const honduras: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "lempira-el-cacique-que-resistio-la-conquista",
+    order: 11,
+    placeholderEmoji: "🪶",
+    accentColor: "#7A3B2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El líder lenca que le dio nombre a la moneda",
+        subtitle: "Lempira y la resistencia indígena",
+        imageAlt: "Caricatura de un guerrero indígena con lanza y penacho de plumas frente a montañas.",
+        description:
+          "Lempira fue un cacique lenca que lideró, durante la década de 1530, una de las resistencias indígenas más prolongadas contra la conquista española en Centroamérica, llegando a reunir bajo su mando a varios pueblos del occidente hondureño en una alianza poco común entre comunidades que solían enfrentarse entre sí. Según el relato tradicional, murió en 1537 durante una negociación de paz que resultó ser una emboscada española, aunque algunos historiadores cuestionan los detalles exactos de esa versión, transmitida principalmente por crónicas coloniales. Su nombre se convirtió en 1926 en el de la moneda nacional de Honduras, el lempira, y su rostro aparece hoy en los billetes del país, consolidándolo como uno de los símbolos de identidad nacional más reconocidos, pese a que se sabe relativamente poco con certeza histórica sobre su vida más allá de esa resistencia.",
+      },
+      en: {
+        title: "The Leader Who Gave Honduras's Currency Its Name",
+        subtitle: "Lempira and Indigenous Resistance",
+        imageAlt: "Cartoon of an indigenous warrior with a spear and feathered headdress facing mountains.",
+        description:
+          "Lempira was a Lenca chief who led, during the 1530s, one of the longest indigenous resistances against the Spanish conquest anywhere in Central America, managing to unite several peoples of western Honduras under his command in an unusual alliance among communities that had often fought each other before. According to the traditional account, he died in 1537 during a peace negotiation that turned out to be a Spanish ambush, though some historians question the exact details of that version, passed down mainly through colonial-era chronicles. His name was given in 1926 to Honduras's national currency, the lempira, and his face appears today on the country's banknotes, making him one of the most recognized symbols of national identity, even though relatively little is known with historical certainty about his life beyond that resistance.",
+      },
+    },
+  },
+  {
+    id: "las-alfombras-de-aserrin-de-comayagua",
+    order: 12,
+    placeholderEmoji: "🎨",
+    accentColor: "#9B4F96",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las alfombras de aserrín que cubren las calles",
+        subtitle: "Las alfombras de aserrín de Comayagua",
+        imageAlt: "Caricatura de una alfombra de aserrín coloreado con patrones geométricos sobre una calle empedrada.",
+        description:
+          "Cada Semana Santa, los vecinos de Comayagua cubren tramos completos de las calles empedradas del centro histórico con alfombras hechas de aserrín teñido de colores intensos, combinado a veces con flores, semillas y otros materiales naturales, formando diseños geométricos y religiosos que pueden tomar toda una noche de trabajo colectivo terminar. La tradición, heredada de las procesiones religiosas coloniales españolas y compartida con otras ciudades centroamericanas como Antigua Guatemala, convierte a Comayagua, antigua capital de Honduras y sede de la catedral con el reloj más antiguo de América, en uno de los principales destinos del país durante la Semana Santa. Las alfombras, elaboradas con moldes y tamizado manual del aserrín, se destruyen inevitablemente al paso de las procesiones que las cruzan, un final buscado desde el principio que forma parte del sentido mismo de la tradición: el trabajo minucioso está hecho para durar apenas unas horas.",
+      },
+      en: {
+        title: "The Sawdust Carpets That Cover the Streets",
+        subtitle: "Comayagua's Holy Week Sawdust Carpets",
+        imageAlt: "Cartoon of a colored sawdust carpet with geometric patterns on a cobblestone street.",
+        description:
+          "Every Holy Week, residents of Comayagua cover entire stretches of the cobblestone streets in its historic center with carpets made of sawdust dyed in intense colors, sometimes combined with flowers, seeds, and other natural materials, forming geometric and religious designs that can take a full night of collective work to finish. The tradition, inherited from colonial-era Spanish religious processions and shared with other Central American cities like Antigua, Guatemala, turns Comayagua, Honduras's former colonial capital and home to the cathedral with the oldest clock in the Americas, into one of the country's main destinations during Holy Week. The carpets, built using stencils and hand-sifted sawdust, are inevitably destroyed as the religious processions cross over them, an ending planned from the start that's part of the very meaning of the tradition: painstaking work made to last only a few hours.",
+      },
+    },
+  },
 ];

@@ -164,6 +164,45 @@ const ElBajanElAcentoMasDistintivoDelCaribe: IllustrationComponent = ({ accentCo
   );
 };
 
+const ElParlamentoDeBarbadosUnoDeLosMasAntiguos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="120" y="160" width="170" height="80" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[140, 175, 210, 245, 270].map((x) => (
+        <rect key={x} x={x} y="180" width="14" height="35" fill="#F5F0E6" stroke={dark} strokeWidth="1.5" />
+      ))}
+      <rect x="185" y="100" width="40" height="60" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="205" cy="115" r="14" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <line x1="205" y1="115" x2="205" y2="106" stroke={dark} strokeWidth="2" />
+      <line x1="205" y1="115" x2="212" y2="118" stroke={dark} strokeWidth="2" />
+      <polygon points="185,100 205,80 225,100" fill={dark} />
+      <line x1="205" y1="80" x2="205" y2="60" stroke={dark} strokeWidth="2" />
+      <path d="M205 60 L230 68 L205 76 Z" fill="#C9A227" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const LasCasasChattelArquitecturaPortatil: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {[150, 190, 230, 270].map((x) => (
+        <rect key={x} x={x} y="232" width="18" height="14" fill="#8C8C8C" stroke={dark} strokeWidth="1.5" />
+      ))}
+      <rect x="140" y="160" width="140" height="72" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <polygon points="130,160 205,110 290,160" fill="#C1440E" stroke={dark} strokeWidth="3" />
+      {[165, 235].map((x) => (
+        <g key={x}>
+          <rect x={x} y="178" width="30" height="34" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+          <line x1={x + 15} y1="178" x2={x + 15} y2="212" stroke={dark} strokeWidth="1.5" />
+        </g>
+      ))}
+      <rect x="197" y="195" width="16" height="37" fill="#5C3A21" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
 export const barbadosIllustrations: Record<string, IllustrationDefinition> = {
   "rihanna-la-heroina-nacional-mas-joven": { component: RihannaLaHeroinaNacionalMasJoven },
   "la-cueva-de-harrison-el-palacio-subterraneo": { component: LaCuevaDeHarrisonElPalacioSubterraneo },
@@ -175,4 +214,6 @@ export const barbadosIllustrations: Record<string, IllustrationDefinition> = {
   "las-tres-w-del-criquet": { component: LasTresWDelCriquet },
   "george-washington-y-su-unico-viaje-al-exterior": { component: GeorgeWashingtonYSuUnicoViajeAlExterior },
   "el-bajan-el-acento-mas-distintivo-del-caribe": { component: ElBajanElAcentoMasDistintivoDelCaribe },
+  "el-parlamento-de-barbados-uno-de-los-mas-antiguos": { component: ElParlamentoDeBarbadosUnoDeLosMasAntiguos },
+  "las-casas-chattel-arquitectura-portatil": { component: LasCasasChattelArquitecturaPortatil },
 };

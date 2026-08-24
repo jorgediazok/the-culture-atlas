@@ -311,6 +311,37 @@ const LaEconomiaQueLlegaEnCrucerosYVeleros: IllustrationComponent = () => (
   </g>
 );
 
+const FuerteAmsterdamElPrimerFuerteHolandesDelCaribe: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 245 Q205 230 320 245 L320 250 L90 250 Z" fill="#1B5E7A" opacity="0.4" />
+      <polygon points="110,245 150,150 260,150 300,245" fill={accentColor} opacity="0.5" />
+      <path d="M140 220 L140 165 L190 165 L190 220 Z" fill="#8C8C74" stroke={dark} strokeWidth="3" />
+      {[150, 165, 180].map((x) => (
+        <rect key={x} x={x} y="155" width="8" height="10" fill="#8C8C74" stroke={dark} strokeWidth="1.5" />
+      ))}
+      <path d="M220 220 L220 175 Q220 165 235 165 Q250 165 250 175 L250 220 Z" fill="#A69880" stroke={dark} strokeWidth="2.5" opacity="0.85" />
+    </g>
+  );
+};
+
+const ElDiaDeLaConcordiaUnaIslaQueCelebraJunta: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {person(140, 235, 1.1, dark, accentColor)}
+      {person(270, 235, 1.1, "#5C3A21", "#C1272D")}
+      <rect x="195" y="200" width="20" height="45" fill="#8C8C74" stroke={dark} strokeWidth="2.5" />
+      <polygon points="195,200 205,188 215,200" fill="#8C8C74" stroke={dark} strokeWidth="2" />
+      <line x1="160" y1="200" x2="160" y2="160" stroke="#5C3A21" strokeWidth="3" />
+      <path d="M160 160 L185 168 L160 176 Z" fill="#1B4B7A" stroke={dark} strokeWidth="1.5" />
+      <line x1="250" y1="200" x2="250" y2="160" stroke="#5C3A21" strokeWidth="3" />
+      <path d="M250 160 L225 168 L250 176 Z" fill="#C1272D" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
 export const sintMaartenIllustrations: Record<string, IllustrationDefinition> = {
   "el-tratado-de-1648-que-partio-una-isla-en-dos": { component: ElTratadoDe1648QuePartioUnaIslaEnDos },
   "la-playa-donde-los-aviones-rozan-la-arena": { component: LaPlayaDondeLosAvionesRozanLaArena },
@@ -322,4 +353,6 @@ export const sintMaartenIllustrations: Record<string, IllustrationDefinition> = 
   "las-tortugas-que-regresan-a-la-misma-arena": { component: LasTortugasQueRegresanALaMismaArena },
   "un-idioma-oficial-que-casi-nadie-usa-a-diario": { component: UnIdiomaOficialQueCasiNadieUsaADiario },
   "la-economia-que-llega-en-cruceros-y-veleros": { component: LaEconomiaQueLlegaEnCrucerosYVeleros },
+  "fuerte-amsterdam-el-primer-fuerte-holandes-del-caribe": { component: FuerteAmsterdamElPrimerFuerteHolandesDelCaribe },
+  "el-dia-de-la-concordia-una-isla-que-celebra-junta": { component: ElDiaDeLaConcordiaUnaIslaQueCelebraJunta },
 };

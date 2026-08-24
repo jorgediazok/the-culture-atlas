@@ -248,4 +248,50 @@ export const aruba: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-status-aparte-de-1986",
+    order: 11,
+    placeholderEmoji: "🏛️",
+    accentColor: "#2E5C8A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El día en que Aruba se separó de las Antillas",
+        subtitle: "El status aparte de 1986",
+        imageAlt: "Caricatura de dos edificios pequeños separándose con una grieta entre ellos.",
+        description:
+          "Aruba se convirtió el 1 de enero de 1986 en un país constituyente separado dentro del Reino de los Países Bajos, un estatus conocido localmente como 'status aparte', al desprenderse formalmente de las Antillas Neerlandesas, la federación de islas caribeñas bajo administración holandesa de la que Aruba había formado parte desde 1954 junto a Curazao, Bonaire, Sint Maarten, Saba y San Eustaquio. El movimiento independentista arubeño, liderado durante décadas por el político Betico Croes, argumentaba que Aruba, con una economía y una identidad cultural propias, quedaba sistemáticamente relegada dentro de una federación dominada administrativamente por Curazao, la isla más poblada del grupo. El acuerdo original contemplaba una independencia total de Aruba en 1996, pero el propio gobierno arubeño solicitó posponerla indefinidamente al comprobar que el estatus de país autónomo dentro del Reino ya satisfacía la mayoría de sus reclamos sin los riesgos económicos de una independencia plena.",
+      },
+      en: {
+        title: "The Day Aruba Split From the Netherlands Antilles",
+        subtitle: "Status Aparte, 1986",
+        imageAlt: "Cartoon of two small buildings pulling apart with a crack between them.",
+        description:
+          "Aruba became, on January 1, 1986, a separate constituent country within the Kingdom of the Netherlands, a status known locally as 'status aparte,' formally breaking away from the Netherlands Antilles, the federation of Caribbean islands under Dutch administration that Aruba had been part of since 1954 alongside Curaçao, Bonaire, Sint Maarten, Saba, and Sint Eustatius. Aruba's independence movement, led for decades by politician Betico Croes, argued that Aruba, with its own economy and cultural identity, was being systematically sidelined within a federation administratively dominated by Curaçao, the group's most populous island. The original agreement called for full Aruban independence by 1996, but Aruba's own government later requested postponing it indefinitely once it became clear that autonomous-country status within the Kingdom already satisfied most of its grievances without the economic risks of full independence.",
+      },
+    },
+  },
+  {
+    id: "los-flamencos-de-la-isla-renacimiento",
+    order: 12,
+    placeholderEmoji: "🦩",
+    accentColor: "#E85D8A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los flamencos que pasean por una playa privada",
+        subtitle: "Los flamencos de la isla Renacimiento",
+        imageAlt: "Caricatura de flamencos rosados caminando sobre una playa de arena blanca.",
+        description:
+          "Renaissance Island, un islote privado frente a la costa de Oranjestad perteneciente a un complejo hotelero, alberga desde hace décadas una pequeña población de flamencos que caminan en libertad por sus playas de arena blanca, convertidos en una de las imágenes más compartidas en redes sociales de todo el Caribe. Las aves, originalmente traídas desde otras zonas de cría en cautiverio en lugar de ser silvestres, se adaptaron con el tiempo a convivir con los huéspedes del resort, que pueden nadar y tomar sol junto a ellas en sectores designados de la playa. El color rosado característico proviene de los pigmentos carotenoides presentes en los crustáceos y algas de su dieta, un tono que se intensifica cuanto más rica en esos organismos resulta el agua donde se alimentan. Aunque el acceso está restringido a huéspedes del hotel o visitantes que pagan una entrada especial, las imágenes de los flamencos se convirtieron en uno de los símbolos turísticos más reconocibles de Aruba.",
+      },
+      en: {
+        title: "The Flamingos That Roam a Private Beach",
+        subtitle: "The Flamingos of Renaissance Island",
+        imageAlt: "Cartoon of pink flamingos walking on a white sand beach.",
+        description:
+          "Renaissance Island, a private islet off the coast of Oranjestad belonging to a hotel resort, has for decades been home to a small population of flamingos that roam freely across its white sand beaches, becoming one of the most widely shared images from anywhere in the Caribbean on social media. The birds, originally brought in from other captive-breeding sites rather than being wild, adapted over time to living alongside resort guests, who can swim and sunbathe right next to them in designated beach sections. The flamingos' characteristic pink color comes from carotenoid pigments found in the small crustaceans and algae that make up their diet, a shade that intensifies the richer in those organisms the water they feed in happens to be. Though access to the island is restricted to hotel guests or visitors paying a special entry fee, images of the flamingos became one of Aruba's most globally recognizable tourism symbols.",
+      },
+    },
+  },
 ];

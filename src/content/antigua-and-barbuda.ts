@@ -231,4 +231,50 @@ export const antiguaAndBarbuda: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "la-independencia-del-1-de-noviembre-de-1981",
+    order: 11,
+    placeholderEmoji: "🎆",
+    accentColor: "#B8590C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El día en que la bandera reemplazó a la Union Jack",
+        subtitle: "La independencia del 1 de noviembre de 1981",
+        imageAlt: "Caricatura de una bandera con sol naciente ondeando junto a fuegos artificiales.",
+        description:
+          "Antigua y Barbuda obtuvo su independencia del Reino Unido el 1 de noviembre de 1981, uno de los últimos territorios en dejar de ser colonia en el Caribe oriental, poniendo fin a más de tres siglos de dominio colonial ininterrumpido sobre Antigua, colonizada desde 1632. Vere Bird, líder sindical convertido en político que había encabezado el gobierno local desde los años sesenta bajo un régimen de autogobierno interno, se convirtió en el primer primer ministro del país independiente, dando inicio a una dinastía política familiar que dominaría la vida pública antiguana durante buena parte de las décadas siguientes. La bandera adoptada ese día, con un sol naciente dorado sobre franjas negras, azules y blancas que representan el amanecer de una nueva era, la riqueza del territorio y la arena de sus playas, reemplazó a la bandera colonial en una ceremonia en Saint John's que hoy se conmemora cada año como feriado nacional.",
+      },
+      en: {
+        title: "The Day the Flag Replaced the Union Jack",
+        subtitle: "Independence on November 1, 1981",
+        imageAlt: "Cartoon of a flag with a rising sun waving beside fireworks.",
+        description:
+          "Antigua and Barbuda gained independence from the United Kingdom on November 1, 1981, becoming the youngest state in the eastern Caribbean at the time and ending more than three centuries of uninterrupted British colonial rule over Antigua, colonized since 1632. Vere Bird, a labor union leader turned politician who had led the local government since the 1960s under a progressive internal self-rule arrangement, became the newly independent country's first prime minister, launching a family political dynasty that would dominate Antiguan public life for much of the following decades. The flag adopted that day, with a golden rising sun over black, blue, and white stripes representing the dawn of a new era, the wealth of the land, and the sand of its beaches, replaced the British colonial flag in a ceremony in Saint John's still marked every year as a national holiday with parades and civic events across the island.",
+      },
+    },
+  },
+  {
+    id: "redonda-el-tercer-reino-diminuto-del-pais",
+    order: 12,
+    placeholderEmoji: "👑",
+    accentColor: "#4A5C6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El islote deshabitado que fue un reino literario",
+        subtitle: "Redonda, el diminuto tercer 'reino' del país",
+        imageAlt: "Caricatura de un peñón rocoso escarpado en el mar junto a una corona pequeña flotando.",
+        description:
+          "Redonda, un peñón volcánico escarpado de apenas un kilómetro cuadrado y sin agua dulce propia, es el tercer territorio que integra Antigua y Barbuda junto a las dos islas principales, deshabitado salvo por colonias de aves marinas y reptiles endémicos que incluyen una especie de iguana en peligro de extinción. La isla arrastra además una curiosa historia paralela como 'reino' ficticio: en 1865, un comerciante angloirlandés la reclamó en broma como monarquía independiente para su hijo recién nacido, y el título de 'rey de Redonda' pasó informalmente durante más de siglo y medio entre escritores y excéntricos que se disputaron la sucesión sin reconocimiento legal, incluido el escritor español Javier Marías, quien lo reivindicó en sus últimos años. Un programa de conservación eliminó en la década de 2010 las cabras y ratas introducidas que habían devastado su vegetación, permitiendo una recuperación ecológica notable que llevó a declarar la isla reserva natural protegida en 2017.",
+      },
+      en: {
+        title: "The Uninhabited Rock That Was a Literary Kingdom",
+        subtitle: "Redonda, the Country's Tiny Third 'Kingdom'",
+        imageAlt: "Cartoon of a steep rocky islet in the sea beside a small floating crown.",
+        description:
+          "Redonda, a steep, uninhabited volcanic rock barely a square kilometer in size with no natural fresh water, is the third territory making up Antigua and Barbuda alongside the two main islands, home only to seabird colonies and endemic reptiles that include an endangered iguana species. The island also carries a curious parallel history as a fictional 'kingdom': in 1865, an Anglo-Irish merchant jokingly claimed it as an independent monarchy for his newborn son, and the title 'King of Redonda' passed informally over more than a century and a half among writers and eccentrics who disputed the succession without any real legal recognition, including Spanish novelist Javier Marías, who claimed the title in his later years. A conservation program in the 2010s removed the introduced goats and rats that had devastated the island's vegetation, allowing a remarkable ecological recovery that led to the island being declared a protected nature reserve in 2017.",
+      },
+    },
+  },
 ];

@@ -145,6 +145,46 @@ const WadadliElNombreOriginalDeLaIsla: IllustrationComponent = ({ accentColor })
   );
 };
 
+const LaIndependenciaDel1DeNoviembreDe1981: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#F5B800";
+  return (
+    <g>
+      <rect x="185" y="90" width="8" height="150" fill={dark} />
+      <polygon points="193,95 193,185 300,140" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <polygon points="193,110 193,170 260,140" fill="#1A1A1A" />
+      <circle cx="220" cy="140" r="22" fill={gold} />
+      {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+        <line key={deg} x1="220" y1="140" x2="220" y2="112" stroke={gold} strokeWidth="3" transform={`rotate(${deg} 220 140)`} />
+      ))}
+      {[
+        [130, 110],
+        [300, 100],
+      ].map(([x, y], i) => (
+        <g key={i}>
+          {[0, 60, 120, 180, 240, 300].map((deg) => (
+            <line key={deg} x1={x} y1={y} x2={x} y2={y - 14} stroke={i % 2 === 0 ? gold : accentColor} strokeWidth="3" strokeLinecap="round" transform={`rotate(${deg} ${x} ${y})`} />
+          ))}
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const RedondaElTercerReinoDiminutoDelPais: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 245 L320 245 L320 250 L90 250 Z" fill="#1B5E7A" opacity="0.5" />
+      <polygon points="140,240 205,110 245,150 230,240" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <polygon points="230,240 245,150 270,180 260,240" fill={shade(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+      <path d="M280 130 L286 112 L294 126 L302 108 L310 126 L316 112 L322 130 Z" fill="#F5B800" stroke={dark} strokeWidth="2" />
+      <rect x="280" y="130" width="42" height="8" fill="#F5B800" stroke={dark} strokeWidth="1.5" />
+      <path d="M150 150 Q165 140 180 150" fill="none" stroke="#1A1A1A" strokeWidth="3" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const antiguaAndBarbudaIllustrations: Record<string, IllustrationDefinition> = {
   "365-playas-una-para-cada-dia-del-ano": { component: N365PlayasUnaParaCadaDiaDelAno },
   "el-astillero-de-nelson-en-english-harbour": { component: ElAstilleroDeNelsonEnEnglishHarbour },
@@ -156,4 +196,6 @@ export const antiguaAndBarbudaIllustrations: Record<string, IllustrationDefiniti
   "el-criquet-y-sir-vivian-richards": { component: ElCriquetYSirVivianRichards },
   "el-fungee-y-pepperpot-plato-nacional": { component: ElFungeeYPepperpotPlatoNacional },
   "wadadli-el-nombre-original-de-la-isla": { component: WadadliElNombreOriginalDeLaIsla },
+  "la-independencia-del-1-de-noviembre-de-1981": { component: LaIndependenciaDel1DeNoviembreDe1981 },
+  "redonda-el-tercer-reino-diminuto-del-pais": { component: RedondaElTercerReinoDiminutoDelPais },
 };

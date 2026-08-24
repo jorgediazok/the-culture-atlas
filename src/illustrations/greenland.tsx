@@ -187,6 +187,34 @@ const PrimeraLineaCambioClimatico: IllustrationComponent = ({ accentColor }) => 
   );
 };
 
+const ElFiordoHeladoDeIlulissat: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.5);
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill="#1B3A52" opacity="0.7" />
+      <path d="M120 240 L100 150 L150 170 L165 110 L195 165 L175 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M230 240 L215 130 L255 155 L280 95 L300 240 Z" fill={light} stroke={dark} strokeWidth="3" />
+      <path d="M90 245 Q205 235 320 245" stroke="#fff" strokeWidth="2" opacity="0.3" fill="none" />
+    </g>
+  );
+};
+
+const ElCantoDeTamborQueNarraHistoriasInuit: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C8996B";
+  return (
+    <g>
+      <path d="M180 148 L215 148 L228 190 L222 240 L173 240 L167 190 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="197" cy="146" r="17" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <circle cx="270" cy="165" r="38" fill="none" stroke="#8B5A2B" strokeWidth="8" />
+      <circle cx="270" cy="165" r="34" fill="#D9C9A3" opacity="0.5" />
+      <line x1="228" y1="185" x2="250" y2="175" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M300 195 Q315 180 305 165" fill="none" stroke="#5C3A21" strokeWidth="5" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const greenlandIllustrations: Record<string, IllustrationDefinition> = {
   "capa-de-hielo": { component: CapaDeHielo },
   "sol-de-medianoche": { component: SolDeMedianoche },
@@ -198,4 +226,6 @@ export const greenlandIllustrations: Record<string, IllustrationDefinition> = {
   "autonomia-dinamarca": { component: AutonomiaDinamarca },
   "invencion-del-kayak": { component: InvencionDelKayak },
   "primera-linea-cambio-climatico": { component: PrimeraLineaCambioClimatico },
+  "el-fiordo-helado-de-ilulissat": { component: ElFiordoHeladoDeIlulissat },
+  "el-canto-de-tambor-que-narra-historias-inuit": { component: ElCantoDeTamborQueNarraHistoriasInuit },
 };

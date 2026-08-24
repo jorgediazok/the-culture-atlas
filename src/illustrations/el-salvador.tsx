@@ -157,6 +157,47 @@ const ElMimbreDeNahuizalco: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const ElXucElBaileNacional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const dancer = (x: number, fill: string) => (
+    <g key={x}>
+      <path d={`M${x - 16} 235 Q${x - 18} 190 ${x} 145 Q${x + 18} 190 ${x + 16} 235 Z`} fill={fill} stroke={dark} strokeWidth="2.2" />
+      <circle cx={x} cy="150" r="14" fill="#8B5A2B" stroke={dark} strokeWidth="2" />
+      <path d={`M${x - 14} 190 Q${x - 28} 195 ${x - 30} 175`} fill="none" stroke="#8B5A2B" strokeWidth="6" strokeLinecap="round" />
+    </g>
+  );
+  return (
+    <g>
+      {dancer(140, accentColor)}
+      {dancer(190, "#C9A227")}
+      <rect x="215" y="205" width="100" height="12" fill={dark} />
+      {[0, 1, 2, 3, 4, 5, 6].map((i) => (
+        <rect key={i} x={222 + i * 13} y={198 - (i % 3) * 5} width="9" height={20 + (i % 3) * 5} fill={i % 2 === 0 ? accentColor : "#C9A227"} stroke={dark} strokeWidth="1" />
+      ))}
+      <line x1="240" y1="180" x2="250" y2="150" stroke={dark} strokeWidth="3" strokeLinecap="round" />
+      <circle cx="250" cy="148" r="5" fill={dark} />
+      <line x1="270" y1="180" x2="280" y2="150" stroke={dark} strokeWidth="3" strokeLinecap="round" />
+      <circle cx="280" cy="148" r="5" fill={dark} />
+    </g>
+  );
+};
+
+const ElSalvadorYElBitcoin: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <polygon points="100,240 150,150 200,240" fill="#3A2418" stroke={dark} strokeWidth="3" />
+      <polygon points="135,180 150,150 165,180" fill="#C1272D" opacity="0.85" />
+      <path d="M170 170 L200 140 L215 155 L245 120" fill="none" stroke={dark} strokeWidth="4" strokeDasharray="6 5" strokeLinecap="round" />
+      <circle cx="270" cy="150" r="48" fill={accentColor} stroke={dark} strokeWidth="4" />
+      <text x="270" y="168" fontSize="52" fontWeight="700" fill="#F5F0E6" textAnchor="middle" fontFamily="sans-serif">
+        ₿
+      </text>
+      <ellipse cx="205" cy="240" rx="110" ry="8" fill="#3A3A3A" opacity="0.4" />
+    </g>
+  );
+};
+
 export const elSalvadorIllustrations: Record<string, IllustrationDefinition> = {
   "las-pupusas-el-plato-nacional": { component: LasPupusasElPlatoNacional },
   "joya-de-ceren-la-pompeya-de-america": { component: JoyaDeCerenLaPompeyaDeAmerica },
@@ -168,4 +209,6 @@ export const elSalvadorIllustrations: Record<string, IllustrationDefinition> = {
   "el-valle-de-las-hamacas": { component: ElValleDeLasHamacas },
   "ataco-y-la-ruta-de-las-flores": { component: AtacoYLaRutaDeLasFlores },
   "el-mimbre-de-nahuizalco": { component: ElMimbreDeNahuizalco },
+  "el-xuc-el-baile-nacional": { component: ElXucElBaileNacional },
+  "el-salvador-y-el-bitcoin": { component: ElSalvadorYElBitcoin },
 };

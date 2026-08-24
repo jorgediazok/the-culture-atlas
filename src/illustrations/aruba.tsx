@@ -282,6 +282,45 @@ const ElVientoConstanteQueAtraeWindsurfistas: IllustrationComponent = ({ accentC
   );
 };
 
+const ElStatusAparteDe1986: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.5);
+  return (
+    <g>
+      <rect x="110" y="160" width="65" height="75" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <polygon points="103,160 142,135 181,160" fill={dark} />
+      <rect x="235" y="160" width="65" height="75" fill={light} stroke={dark} strokeWidth="2.5" />
+      <polygon points="228,160 267,135 306,160" fill={dark} />
+      <path d="M181 175 L228 165 M181 200 L228 210 M181 225 L228 230" stroke={dark} strokeWidth="3" strokeDasharray="6 5" opacity="0.5" />
+    </g>
+  );
+};
+
+// Flamingo legs and neck (attaching pieces) are drawn first, each reaching
+// well inside the body ellipse (cx=0 cy=-8 rx=26 ry=18); legs start at
+// y=-6, 16 units past the body's true bottom edge at y=10. Body drawn last
+// so its fill covers both seams.
+const LosFlamencosDeLaIslaRenacimiento: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const flamingo = (x: number, scale: number) => (
+    <g key={x} transform={`translate(${x} 235) scale(${scale})`}>
+      <line x1="-4" y1="-6" x2="-10" y2="55" stroke="#C97C6E" strokeWidth="4" strokeLinecap="round" />
+      <line x1="4" y1="-6" x2="10" y2="55" stroke="#C97C6E" strokeWidth="4" strokeLinecap="round" />
+      <path d="M8 -10 Q28 -35 18 -60 Q10 -75 -5 -72" fill="none" stroke={accentColor} strokeWidth="10" strokeLinecap="round" />
+      <ellipse cx="0" cy="-8" rx="26" ry="18" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="-8" cy="-73" r="8" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <path d="M-16 -73 L-28 -68 L-16 -66 Z" fill="#3A3A3A" />
+    </g>
+  );
+  return (
+    <g>
+      <path d="M90 245 L320 245 L320 250 L90 250 Z" fill="#E8D9A8" opacity="0.5" />
+      {flamingo(160, 1)}
+      {flamingo(230, 0.85)}
+    </g>
+  );
+};
+
 export const arubaIllustrations: Record<string, IllustrationDefinition> = {
   "el-arbol-doblado-por-el-viento-eterno": { component: ElArbolDobladoPorElVientoEterno },
   "el-papiamento-lengua-criolla-oficial": { component: ElPapiamentoLenguaCriollaOficial },
@@ -293,4 +332,6 @@ export const arubaIllustrations: Record<string, IllustrationDefinition> = {
   "las-casas-cunucu-de-tejados-triangulares": { component: LasCasasCunucuDeTejadosTriangulares },
   "el-dande-que-canta-la-buena-fortuna": { component: ElDandeQueCantaLaBuenaFortuna },
   "el-viento-constante-que-atrae-windsurfistas": { component: ElVientoConstanteQueAtraeWindsurfistas },
+  "el-status-aparte-de-1986": { component: ElStatusAparteDe1986 },
+  "los-flamencos-de-la-isla-renacimiento": { component: LosFlamencosDeLaIslaRenacimiento },
 };

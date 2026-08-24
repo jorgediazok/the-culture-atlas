@@ -231,4 +231,50 @@ export const saintVincentAndTheGrenadines: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "la-independencia-del-27-de-octubre-de-1979",
+    order: 11,
+    placeholderEmoji: "🎆",
+    accentColor: "#A83C2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El día en que San Vicente dejó de ser colonia",
+        subtitle: "La independencia del 27 de octubre de 1979",
+        imageAlt: "Caricatura de una bandera con tres diamantes verdes ondeando junto a fuegos artificiales.",
+        description:
+          "San Vicente y las Granadinas obtuvo su independencia del Reino Unido el 27 de octubre de 1979, convirtiéndose en uno de los últimos territorios británicos del Caribe oriental en dejar de ser colonia, apenas semanas antes de que el volcán La Soufrière entrara en erupción en abril del año siguiente, un comienzo simbólicamente turbulento para el joven país que sin embargo no descarriló la transición política. Milton Cato, líder del Partido Laborista de San Vicente que ya gobernaba la isla bajo un régimen de autonomía interna desde 1974, se convirtió en el primer primer ministro del país independiente. La bandera adoptada ese día, con tres diamantes verdes dispuestos en diagonal sobre franjas azules, amarillas y verdes, representa a las Granadinas como las 'joyas de las Antillas', un diseño rediseñado en 1985 para simplificar una versión inicial más recargada, y hoy el 27 de octubre se celebra como feriado nacional con actos cívicos en Kingstown, la capital.",
+      },
+      en: {
+        title: "The Day Saint Vincent Stopped Being a Colony",
+        subtitle: "Independence on October 27, 1979",
+        imageAlt: "Cartoon of a flag with three green diamonds waving beside fireworks.",
+        description:
+          "Saint Vincent and the Grenadines gained independence from the United Kingdom on October 27, 1979, becoming one of the last British territories in the eastern Caribbean to stop being a colony, just weeks before La Soufrière volcano erupted the following April, a symbolically turbulent start for the young country that nonetheless didn't derail its political transition. Milton Cato, leader of the Saint Vincent Labour Party, which had already governed the island under a period of internal self-rule since 1974, became the newly independent country's first prime minister. The flag adopted that day, with three green diamonds arranged diagonally over blue, yellow, and green stripes, represents the Grenadines as the 'gems of the Antilles,' a design later simplified in 1985 from a busier original version, and October 27 is still marked today as a national holiday with civic events in the capital, Kingstown.",
+      },
+    },
+  },
+  {
+    id: "el-tunel-de-black-point-tallado-a-mano-en-1815",
+    order: 12,
+    placeholderEmoji: "⛏️",
+    accentColor: "#5C4A3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El túnel tallado a mano a través de un cerro",
+        subtitle: "El túnel de Black Point, tallado en 1815",
+        imageAlt: "Caricatura de un túnel de roca oscura excavado en una ladera con herramientas apoyadas en la entrada.",
+        description:
+          "El túnel de Black Point, excavado a mano en 1815 a través de un promontorio rocoso en la costa este de San Vicente, se construyó por orden de un terrateniente local para permitir el traslado directo de la caña de azúcar entre plantaciones vecinas sin tener que rodear el cerro por un camino mucho más largo, un atajo que ahorraba horas de transporte diario en carreta. La obra, de unos treinta metros de longitud excavados enteramente con herramientas manuales a través de roca volcánica sólida, fue realizada por personas esclavizadas bajo condiciones de trabajo forzado extremas, y se completó apenas dos décadas antes de la abolición de la esclavitud en las colonias británicas en 1834. Hoy el túnel sigue en uso diario como paso vehicular de un solo carril sobre la carretera costera este de la isla, uno de los pocos rastros de infraestructura colonial de la era esclavista que continúa cumpliendo su función original casi exactamente dos siglos después.",
+      },
+      en: {
+        title: "The Tunnel Enslaved Workers Carved Through a Hill",
+        subtitle: "Black Point Tunnel, Carved in 1815",
+        imageAlt: "Cartoon of a dark rock tunnel cut into a hillside with tools resting at the entrance.",
+        description:
+          "Black Point Tunnel, hand-carved in 1815 through a rocky headland on Saint Vincent's east coast, was built on the orders of a local landowner to allow sugar cane to be moved directly between neighboring plantations without having to go around the hill on a much longer route, a shortcut that saved hours of daily cart transport. The passage, roughly thirty meters long and cut entirely with hand tools through solid volcanic rock, was carried out by enslaved people under extreme forced-labor conditions, and was completed barely two decades before the abolition of slavery across British colonies in 1834. The tunnel remains in daily use today as a single-lane vehicle passage on the island's east coast road, one of the few pieces of slavery-era colonial infrastructure still serving its original function almost exactly two centuries later.",
+      },
+    },
+  },
 ];

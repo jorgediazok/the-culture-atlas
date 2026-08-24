@@ -143,6 +143,42 @@ const PinkSandsBeachLaPlayaRosaDeHarbourIsland: IllustrationComponent = ({ accen
   );
 };
 
+const LaIndependenciaDe1973: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#FFC72C";
+  return (
+    <g>
+      <rect x="180" y="90" width="8" height="155" fill={dark} />
+      <rect x="188" y="95" width="120" height="30" fill={accentColor} />
+      <rect x="188" y="125" width="120" height="30" fill={gold} />
+      <rect x="188" y="155" width="120" height="30" fill={accentColor} />
+      <polygon points="188,95 188,185 255,140" fill="#1A1A1A" />
+    </g>
+  );
+};
+
+const ElBatikDeAndrosia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const fishMotif = (x: number, y: number) => (
+    <g key={`${x}-${y}`}>
+      <ellipse cx={x} cy={y} rx="12" ry="7" fill="#F5F0E6" opacity="0.9" />
+      <polygon points={`${x - 12},${y} ${x - 19},${y - 5} ${x - 19},${y + 5}`} fill="#F5F0E6" opacity="0.9" />
+    </g>
+  );
+  return (
+    <g>
+      <rect x="110" y="120" width="180" height="90" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="110" cy="165" rx="14" ry="45" fill={dark} opacity="0.5" />
+      {fishMotif(150, 145)}
+      {fishMotif(195, 180)}
+      {fishMotif(250, 150)}
+      <path d="M120 195 Q150 185 180 195 Q210 205 240 195 Q260 190 280 198" fill="none" stroke="#F5F0E6" strokeWidth="4" opacity="0.7" />
+      <rect x="230" y="225" width="50" height="16" fill="#8B5A2B" stroke={dark} strokeWidth="2" />
+      <rect x="245" y="205" width="20" height="22" fill="#6B4226" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
 export const bahamasIllustrations: Record<string, IllustrationDefinition> = {
   "el-archipielago-de-mas-de-700-islas": { component: ElArchipielagoDeMas700Islas },
   "el-junkanoo-el-desfile-de-nochevieja": { component: ElJunkanooElDesfileDeNochevieja },
@@ -154,4 +190,6 @@ export const bahamasIllustrations: Record<string, IllustrationDefinition> = {
   "nassau-y-la-republica-de-los-piratas": { component: NassauYLaRepublicaDeLosPiratas },
   "el-bonefishing-la-capital-mundial-de-la-pesca-de-llano": { component: ElBonefishingLaCapitalMundialDeLaPescaDeLlano },
   "pink-sands-beach-la-playa-rosa-de-harbour-island": { component: PinkSandsBeachLaPlayaRosaDeHarbourIsland },
+  "la-independencia-de-1973": { component: LaIndependenciaDe1973 },
+  "el-batik-de-androsia": { component: ElBatikDeAndrosia },
 };

@@ -146,6 +146,38 @@ const ElGoatWaterElGuisoNacional: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const LaCiudadaniaPorInversionLaPrimeraDelMundo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  return (
+    <g>
+      <path d="M130 110 L130 235 L205 225 L205 100 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M280 110 L280 235 L205 225 L205 100 Z" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="3" />
+      <circle cx="165" cy="160" r="18" fill="#F5F0E6" opacity="0.85" />
+      <line x1="150" y1="195" x2="180" y2="192" stroke="#F5F0E6" strokeWidth="3" opacity="0.7" />
+      <line x1="150" y1="205" x2="180" y2="202" stroke="#F5F0E6" strokeWidth="3" opacity="0.7" />
+      <circle cx="255" cy="165" r="14" fill="none" stroke={gold} strokeWidth="6" />
+      <line x1="266" y1="175" x2="290" y2="200" stroke={gold} strokeWidth="6" strokeLinecap="round" />
+      <line x1="278" y1="188" x2="286" y2="180" stroke={gold} strokeWidth="5" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const LiamuigaElNombreKalinagoDeLaIsla: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 245 L320 245 L320 250 L90 250 Z" fill="#1B5E7A" opacity="0.5" />
+      <path d="M120 225 Q205 245 290 225 Q270 205 205 208 Q140 205 120 225 Z" fill="#6B4226" stroke={dark} strokeWidth="3" />
+      <line x1="150" y1="180" x2="180" y2="215" stroke="#8B5A2B" strokeWidth="6" strokeLinecap="round" />
+      <ellipse cx="147" cy="175" rx="10" ry="16" fill="#8B5A2B" stroke={dark} strokeWidth="2" />
+      {[160, 200, 240].map((x) => (
+        <polygon key={x} points={`${x},140 ${x + 14},155 ${x},170 ${x - 14},155`} fill="none" stroke={accentColor} strokeWidth="3" />
+      ))}
+    </g>
+  );
+};
+
 export const saintKittsAndNevisIllustrations: Record<string, IllustrationDefinition> = {
   "brimstone-hill-el-gibraltar-del-caribe": { component: BrimstoneHillElGibraltarDelCaribe },
   "el-nacimiento-de-alexander-hamilton-en-nieves": { component: ElNacimientoDeAlexanderHamiltonEnNieves },
@@ -157,4 +189,6 @@ export const saintKittsAndNevisIllustrations: Record<string, IllustrationDefinit
   "los-monos-verdes-que-superan-a-la-poblacion": { component: LosMonosVerdesQueSuperanALaPoblacion },
   "la-federacion-donde-una-isla-puede-separarse": { component: LaFederacionDondeUnaIslaPuedeSepararse },
   "el-goat-water-el-guiso-nacional": { component: ElGoatWaterElGuisoNacional },
+  "la-ciudadania-por-inversion-la-primera-del-mundo": { component: LaCiudadaniaPorInversionLaPrimeraDelMundo },
+  "liamuiga-el-nombre-kalinago-de-la-isla": { component: LiamuigaElNombreKalinagoDeLaIsla },
 };

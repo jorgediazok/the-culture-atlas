@@ -144,6 +144,53 @@ const PigeonIslandElFuerteQueCambioDeManos14Veces: IllustrationComponent = ({ ac
   );
 };
 
+const ElOroVerdeLaIndustriaBananera: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M290 240 Q320 190 290 120 Q260 160 270 210 Q275 230 290 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" opacity="0.85" />
+      <line x1="285" y1="230" x2="283" y2="130" stroke={dark} strokeWidth="2" opacity="0.5" />
+      <path d="M150 130 Q150 100 175 95" fill="none" stroke="#4A6B2E" strokeWidth="8" strokeLinecap="round" />
+      {[0, 1, 2, 3].map((i) => (
+        <path key={`a${i}`} d={`M${150 + i * 22} 130 Q${140 + i * 22} 175 ${158 + i * 22} 210 Q${168 + i * 22} 175 ${172 + i * 22} 130 Z`} fill="#B7D66B" stroke={dark} strokeWidth="2" />
+      ))}
+      {[0, 1, 2].map((i) => (
+        <path key={`b${i}`} d={`M${160 + i * 22} 145 Q${150 + i * 22} 185 ${168 + i * 22} 220 Q${178 + i * 22} 185 ${182 + i * 22} 145 Z`} fill="#9CC24A" stroke={dark} strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
+const ElFestivalDeJazzQuePusoALaIslaEnElMapa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  return (
+    <g>
+      <path d="M180 235 Q150 235 148 205 Q146 175 175 160 L205 145 L215 155 L188 172 Q168 182 170 205 Q172 220 190 220 Q205 220 205 205 L205 160 L218 160 L218 210 Q218 235 190 235 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2.5" />
+      <circle cx="190" cy="228" r="9" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="1.5" />
+      {[
+        [178, 195],
+        [195, 178],
+        [205, 200],
+      ].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="5" fill={shade(gold, 0.25)} />
+      ))}
+      <path d="M215 150 L235 128" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <g transform="translate(260,140)">
+        <circle cx="0" cy="20" r="7" fill={accentColor} />
+        <line x1="7" y1="20" x2="7" y2="-15" stroke={accentColor} strokeWidth="3" />
+        <path d="M7 -15 Q18 -12 16 -2" fill="none" stroke={accentColor} strokeWidth="3" />
+      </g>
+      <g transform="translate(285,180) scale(0.8)">
+        <circle cx="0" cy="20" r="7" fill={dark} />
+        <line x1="7" y1="20" x2="7" y2="-15" stroke={dark} strokeWidth="3" />
+        <path d="M7 -15 Q18 -12 16 -2" fill="none" stroke={dark} strokeWidth="3" />
+      </g>
+      <ellipse cx="205" cy="240" rx="115" ry="8" fill="#3A3A3A" opacity="0.3" />
+    </g>
+  );
+};
+
 export const saintLuciaIllustrations: Record<string, IllustrationDefinition> = {
   "los-pitones-las-dos-agujas-volcanicas": { component: LosPitonesLasDosAgujasVolcanicas },
   "las-fuentes-de-azufre-el-volcan-al-que-se-entra-en-auto": { component: LasFuentesDeAzufreElVolcanAlQueSeEntraEnAuto },
@@ -155,4 +202,6 @@ export const saintLuciaIllustrations: Record<string, IllustrationDefinition> = {
   "el-green-fig-and-saltfish-plato-nacional": { component: ElGreenFigAndSaltfishPlatoNacional },
   "la-rose-y-la-marguerite-las-sociedades-florales": { component: LaRoseYLaMargueriteLasSociedadesFlorales },
   "pigeon-island-el-fuerte-que-cambio-de-manos-14-veces": { component: PigeonIslandElFuerteQueCambioDeManos14Veces },
+  "el-oro-verde-la-industria-bananera": { component: ElOroVerdeLaIndustriaBananera },
+  "el-festival-de-jazz-que-puso-a-la-isla-en-el-mapa": { component: ElFestivalDeJazzQuePusoALaIslaEnElMapa },
 };

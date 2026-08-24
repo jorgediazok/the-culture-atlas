@@ -251,4 +251,50 @@ export const sintMaarten: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "fuerte-amsterdam-el-primer-fuerte-holandes-del-caribe",
+    order: 11,
+    placeholderEmoji: "🏰",
+    accentColor: "#5C5C5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El primer fuerte holandés construido en el Caribe",
+        subtitle: "Fuerte Ámsterdam",
+        imageAlt: "Caricatura de las ruinas de un fuerte de piedra sobre un acantilado con vista a la bahía.",
+        description:
+          "Fuerte Ámsterdam, construido en 1631 sobre un promontorio rocoso que domina Great Bay, cerca de la actual Philipsburg, fue la primera fortificación holandesa erigida en cualquier punto del Caribe, levantada por la Compañía Neerlandesa de las Indias Occidentales para proteger las salinas de la isla, entonces una fuente valiosa de sal usada para conservar alimentos en Europa. Los españoles capturaron el fuerte apenas dos años después, en 1633, y lo ocuparon durante quince años antes de abandonarlo voluntariamente en 1648, el mismo año en que se firmó el Tratado de Concordia que dividió la isla entre franceses y neerlandeses. Hoy solo sobreviven secciones de muralla de piedra y los cimientos de lo que fue una pequeña capilla, accesibles mediante una caminata corta desde Little Bay, y el sitio ofrece una de las mejores vistas panorámicas de Philipsburg y su bahía en forma de media luna.",
+      },
+      en: {
+        title: "The First Dutch Fort Ever Built in the Caribbean",
+        subtitle: "Fort Amsterdam",
+        imageAlt: "Cartoon of stone fort ruins on a cliff overlooking the bay.",
+        description:
+          "Fort Amsterdam, built in 1631 on a rocky promontory overlooking Great Bay near present-day Philipsburg, was the first Dutch fortification ever built anywhere in the Caribbean, erected by the Dutch West India Company to protect the island's salt pans, then a valuable resource used to preserve food back in Europe. The Spanish captured the fort just two years later, in 1633, and occupied it for fifteen years before voluntarily abandoning it in 1648, the same year the Treaty of Concordia was signed dividing the island between the French and the Dutch. Today only sections of stone wall and the foundations of what was once a small chapel survive, reachable via a short walk from Little Bay, and the site offers one of the best panoramic views over Philipsburg and its crescent-shaped bay.",
+      },
+    },
+  },
+  {
+    id: "el-dia-de-la-concordia-una-isla-que-celebra-junta",
+    order: 12,
+    placeholderEmoji: "🤝",
+    accentColor: "#C98B1F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El único día en que toda la isla celebra junta",
+        subtitle: "El Día de la Concordia",
+        imageAlt: "Caricatura de dos grupos de personas dándose la mano frente a un mojón fronterizo con banderas.",
+        description:
+          "Cada 11 de noviembre, autoridades y vecinos de ambos lados de la isla se reúnen junto al mojón fronterizo de la carretera que separa Sint Maarten de Saint-Martin para celebrar el Día de la Concordia, la única fecha del calendario en la que ambos gobiernos, con banderas, himnos y jefes de estado distintos el resto del año, organizan un acto oficial conjunto. La ceremonia, que incluye discursos de funcionarios franceses y neerlandeses, actuaciones musicales y la firma simbólica de un acuerdo de amistad renovado cada año, conmemora el Tratado de Concordia de 1648 y funciona como recordatorio público de que la frontera, pese a separar administraciones, monedas e idiomas oficiales, nunca dividió realmente a la población de la isla. Escuelas de ambos lados suelen participar con presentaciones especiales, y el día se volvió, más que un feriado formal, una afirmación anual de identidad compartida por encima de la línea que divide el territorio.",
+      },
+      en: {
+        title: "The One Day the Whole Island Celebrates Together",
+        subtitle: "Concordia Day",
+        imageAlt: "Cartoon of two groups of people shaking hands in front of a border marker with flags.",
+        description:
+          "Every November 11, officials and residents from both sides of the island gather at the roadside border marker separating Sint Maarten from Saint-Martin to celebrate Concordia Day, the one date on the calendar when both governments, each with their own flags, anthems, and heads of state the rest of the year, organize a joint official ceremony. The event, which includes speeches from French and Dutch officials, musical performances, and the symbolic signing of a friendship agreement renewed each year, commemorates the 1648 Treaty of Concordia and serves as a public reminder that the border, despite separating administrations, currencies, and official languages, never truly divided the island's population. Schools on both sides usually take part with special performances, and the day has become, more than a formal holiday, an annual affirmation of shared identity across the line dividing the territory.",
+      },
+    },
+  },
 ];

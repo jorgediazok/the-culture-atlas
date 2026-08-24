@@ -186,6 +186,48 @@ const KuraHulandaMemoria: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const ElMercadoFlotanteDePunda: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const boat = (x: number, y: number, i: number) => (
+    <g key={x}>
+      <path d={`M${x - 30} ${y + 20} L${x - 24} ${y} L${x + 24} ${y} L${x + 30} ${y + 20} Z`} fill="#5C3A21" stroke={dark} strokeWidth="2.2" />
+      <circle cx={x - 10} cy={y - 8} r="9" fill={i % 2 === 0 ? "#E8912D" : "#4A8F4E"} stroke={dark} strokeWidth="1.5" />
+      <circle cx={x + 4} cy={y - 10} r="8" fill="#C1272D" stroke={dark} strokeWidth="1.5" />
+      <circle cx={x + 14} cy={y - 6} r="7" fill="#F4C430" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+  return (
+    <g>
+      <rect x="90" y="190" width="230" height="60" fill="#3D8FB0" opacity="0.5" />
+      {boat(130, 205, 0)}
+      {boat(220, 200, 1)}
+      {boat(280, 210, 0)}
+      <rect x="90" y="245" width="230" height="5" fill={dark} opacity="0.4" />
+    </g>
+  );
+};
+
+const ElTambuElRitmoQueLaIglesiaProhibio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const dancer = (x: number, fill: string) => (
+    <g key={x}>
+      <path d={`M${x - 15} 235 Q${x - 17} 195 ${x} 190 Q${x + 17} 195 ${x + 15} 235 Z`} fill={fill} stroke={dark} strokeWidth="2.2" />
+      <circle cx={x} cy="196" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+  return (
+    <g>
+      {dancer(150, accentColor)}
+      {dancer(195, "#C9A227")}
+      <path d="M240 240 Q235 200 250 175 Q260 165 270 175 Q285 200 280 240 Z" fill="#6B4226" stroke={dark} strokeWidth="3" />
+      <rect x="238" y="195" width="44" height="6" fill="#3A2418" />
+      <rect x="236" y="215" width="48" height="6" fill="#3A2418" />
+      <path d="M300 230 L292 195 L305 190 L313 225 Z" fill="#8C8C8C" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
 export const curacaoIllustrations: Record<string, IllustrationDefinition> = {
   "willemstad-colorida": { component: WillemstadColorida },
   "curazao-azul-licor": { component: CurazaoAzulLicor },
@@ -197,4 +239,6 @@ export const curacaoIllustrations: Record<string, IllustrationDefinition> = {
   "mosaico-nacionalidades": { component: MosaicoNacionalidades },
   "puente-reina-emma": { component: PuenteReinaEmma },
   "kura-hulanda-memoria": { component: KuraHulandaMemoria },
+  "el-mercado-flotante-de-punda": { component: ElMercadoFlotanteDePunda },
+  "el-tambu-el-ritmo-que-la-iglesia-prohibio": { component: ElTambuElRitmoQueLaIglesiaProhibio },
 };

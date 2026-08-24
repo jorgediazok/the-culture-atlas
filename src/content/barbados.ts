@@ -231,4 +231,50 @@ export const barbados: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-parlamento-de-barbados-uno-de-los-mas-antiguos",
+    order: 11,
+    placeholderEmoji: "🏛️",
+    accentColor: "#0F5C5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El parlamento que funciona sin pausa desde 1639",
+        subtitle: "El Parlamento de Barbados, uno de los más antiguos",
+        imageAlt: "Caricatura de un edificio parlamentario de piedra con un reloj de torre y una bandera.",
+        description:
+          "El Parlamento de Barbados, establecido en 1639 bajo dominio colonial británico, es considerado la tercera asamblea legislativa más antigua del mundo en funcionamiento ininterrumpido dentro de la tradición de la Mancomunidad de Naciones, superada solo por el Parlamento del Reino Unido y el Tynwald de la Isla de Man, y más antigua que la propia independencia del país, en 1966. Aunque originalmente representaba solo los intereses de una minoría blanca y terrateniente dueña de las plantaciones de azúcar, con sufragio universal recién en 1950, la institución se mantuvo en funcionamiento continuo durante casi cuatro siglos, sobreviviendo huracanes, guerras, epidemias y el tránsito de colonia a república en 2021. El edificio actual, neogótico y terminado en 1874 tras un incendio que destruyó la sede anterior, se alza hoy en el centro de Bridgetown con una torre de reloj, uno de los símbolos más reconocibles de la capital.",
+      },
+      en: {
+        title: "The Parliament That's Run Nonstop Since 1639",
+        subtitle: "Barbados's Parliament, One of the World's Oldest",
+        imageAlt: "Cartoon of a stone parliament building with a clock tower and a flag.",
+        description:
+          "Barbados's Parliament, established in 1639 under British colonial rule, is considered the third-oldest continuously operating parliament in the world within the Commonwealth tradition, surpassed only by the United Kingdom's own Parliament and the Tynwald of the Isle of Man, and far older than the country's own independence, only achieved in 1966. Though it originally represented only the interests of a small, white, landowning minority that controlled the island's sugar plantations, with universal suffrage only reached in 1950, the institution stayed in continuous operation for nearly four centuries, surviving hurricanes, wars, epidemics, and the country's own transition from colony to republic in 2021. The current building, built in neo-Gothic style and completed in 1874 after a fire destroyed its predecessor, stands today in the center of Bridgetown with a clock tower that became one of the capital's most recognizable landmarks.",
+      },
+    },
+  },
+  {
+    id: "las-casas-chattel-arquitectura-portatil",
+    order: 12,
+    placeholderEmoji: "🏠",
+    accentColor: "#D9822B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las casas de madera diseñadas para poder mudarse",
+        subtitle: "Las casas chattel, arquitectura portátil",
+        imageAlt: "Caricatura de una casa de madera colorida sobre bloques de piedra, con ventanas de persiana.",
+        description:
+          "Las casas chattel, pequeñas viviendas de madera pintadas en colores vivos y elevadas sobre bloques de piedra en lugar de cimientos fijos, surgieron en Barbados tras la abolición de la esclavitud en 1834, cuando los trabajadores liberados podían alquilar tierra de una plantación para vivir pero no poseerla, y necesitaban una casa que fuera legalmente un bien mueble, un 'chattel', que pudieran desarmar y trasladar por completo si el dueño los desalojaba o conseguían trabajo en otra plantación. Construidas con paneles de madera prefabricados unidos con clavijas y bisagras en lugar de cimientos permanentes, podían desmontarse en un día y transportarse en carreta a un nuevo terreno, una solución nacida de la inseguridad de la tenencia de tierra en la Barbados poscolonial. Aunque hoy la mayoría permanece fija en su lugar, las casas chattel se convirtieron en símbolo de identidad nacional y estética barbadense, replicadas en hoteles, tiendas y hasta en sellos postales.",
+      },
+      en: {
+        title: "The Wooden Houses Built So They Could Be Moved",
+        subtitle: "Chattel Houses, Portable Architecture",
+        imageAlt: "Cartoon of a colorful wooden house resting on stone blocks, with shuttered windows.",
+        description:
+          "Chattel houses, small wooden homes painted in bright colors and set on loose stone blocks instead of fixed foundations, emerged in Barbados after the abolition of slavery in 1834, when newly freed workers could rent land on a plantation to live on but couldn't own it, and needed a house that counted legally as movable property, a 'chattel,' that could be fully dismantled and relocated if the landowner evicted them or they found work on a different plantation. Built from prefabricated wooden panels joined with pegs and hinges instead of permanent foundations, the houses could be taken apart in a single day and hauled by cart to a new plot, a solution born from the insecure land tenure Black Barbadians faced in the postcolonial period. Though most now stay fixed in place, chattel houses became a symbol of Barbadian national identity and aesthetics, replicated today in hotels, shops, and even on postage stamps.",
+      },
+    },
+  },
 ];

@@ -231,4 +231,50 @@ export const curacao: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-mercado-flotante-de-punda",
+    order: 11,
+    placeholderEmoji: "🛶",
+    accentColor: "#3E8C6E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El mercado que llega cada mañana en barco",
+        subtitle: "El Mercado Flotante de Punda",
+        imageAlt: "Caricatura de barcos de madera cargados de frutas y verduras amarrados junto a un muelle.",
+        description:
+          "El Mercado Flotante de Punda, sobre el canal de Willemstad, reúne desde hace generaciones a pequeñas embarcaciones de madera que llegan cada mañana cargadas de frutas, verduras y pescado fresco, tradicionalmente procedentes de la costa venezolana a poco más de sesenta kilómetros de distancia, donde los vendedores amarraban sus botes al muelle y exhibían la mercadería sobre las propias cubiertas en lugar de puestos fijos en tierra. El comercio marítimo directo entre Curazao y Venezuela, que sostuvo el mercado durante generaciones, se redujo drásticamente en años recientes por la crisis económica y política venezolana, y hoy buena parte de los productos llega por barco desde otras islas o se cultiva localmente, aunque el mercado conserva su nombre y su formato original de venta desde las embarcaciones. Sigue siendo uno de los pocos lugares de la isla donde comprar directamente al productor, y una parada habitual para curazoleños que buscan productos frescos junto al bullicio del canal.",
+      },
+      en: {
+        title: "The Market That Arrives by Boat Every Morning",
+        subtitle: "The Floating Market of Punda",
+        imageAlt: "Cartoon of wooden boats loaded with fruit and vegetables tied up at a dock.",
+        description:
+          "The Floating Market of Punda, on Willemstad's canal, has for generations brought together small wooden boats arriving each morning loaded with fresh fruit, vegetables, and fish, traditionally sailed over from the Venezuelan coast just over sixty kilometers away, where vendors would tie their boats directly to the dock and display their goods right on deck instead of at fixed land stalls. The direct maritime trade between Curaçao and Venezuela that sustained the market for generations has dropped sharply in recent years amid Venezuela's economic and political crisis, and much of the produce sold today arrives by boat from other islands or is grown locally, though the market keeps its name and its original format of selling straight from the boats. It remains one of the few places on the island to buy directly from growers, and a regular stop for Curaçaoans seeking fresh produce alongside the colorful bustle of the canal.",
+      },
+    },
+  },
+  {
+    id: "el-tambu-el-ritmo-que-la-iglesia-prohibio",
+    order: 12,
+    placeholderEmoji: "🥁",
+    accentColor: "#8C2E2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ritmo que la iglesia llegó a prohibir",
+        subtitle: "El tambú",
+        imageAlt: "Caricatura de un tambor de barril junto a bailarines descalzos moviéndose en pareja.",
+        description:
+          "El tambú, un género musical y de baile afrocurazoleño construido sobre un tambor de barril forrado en cuero de cabra, acompañado de un objeto de hierro percutido llamado 'chapi' y cantos responsoriales en papiamento, tiene raíces directas en tradiciones traídas por personas esclavizadas de África occidental y central, y funcionó durante buena parte de la historia colonial como una de las pocas formas de expresión cultural que la población esclavizada logró preservar. Autoridades holandesas y la Iglesia Católica llegaron a prohibir el tambú en distintos períodos, por considerarlo una práctica peligrosa vinculada a la brujería y a reuniones que temían pudieran organizar rebeliones, restricciones que persistieron hasta bien entrado el siglo veinte. Pese a esa represión, el tambú sobrevivió en celebraciones privadas y hoy se toca abiertamente durante diciembre como parte central de las festividades de fin de año, reivindicado como símbolo de identidad afrocurazoleña.",
+      },
+      en: {
+        title: "The Rhythm the Church Once Banned",
+        subtitle: "Tambú",
+        imageAlt: "Cartoon of a barrel drum beside barefoot dancers moving in pairs.",
+        description:
+          "Tambú, an Afro-Curaçaoan musical and dance genre built around a barrel drum covered in goatskin, accompanied by a struck iron object called a 'chapi' and call-and-response singing in Papiamento, has direct roots in traditions brought over by enslaved people from West and Central Africa, and served for much of the colonial era as one of the few forms of cultural and spiritual expression the enslaved population managed to preserve. Dutch colonial authorities and the Catholic Church banned tambú outright at various points, viewing it as a dangerous practice tied to witchcraft and to gatherings they feared could organize rebellions, restrictions that persisted intermittently well into the twentieth century. Despite that historical repression, tambú survived in private celebrations and is now played openly throughout the month of December as a central part of Curaçao's year-end festivities, reclaimed today as a symbol of Afro-Curaçaoan identity.",
+      },
+    },
+  },
 ];

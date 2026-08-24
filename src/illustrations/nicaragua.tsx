@@ -154,6 +154,53 @@ const LasIslasDelMaizYLaCulturaCreole: IllustrationComponent = ({ accentColor })
   );
 };
 
+const LaMarimbaDeArcoNicaraguense: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C8996B";
+  return (
+    <g>
+      {/* seated body, neck rises into the head's interior */}
+      <path d="M180 148 L212 148 L226 185 L232 235 L170 235 Q162 205 172 185 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="196" cy="148" r="16" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="180" cy="238" rx="10" ry="5" fill={skin} />
+      <ellipse cx="222" cy="238" rx="10" ry="5" fill={skin} />
+      {/* marimba resting on the lap, keys stepped to suggest the curved bow */}
+      <rect x="150" y="218" width="150" height="10" fill={dark} />
+      {[0, 1, 2, 3, 4, 5, 6, 7].map((i) => (
+        <rect key={i} x={158 + i * 17} y={208 - Math.abs(3 - i) * 3} width="13" height={18 + Math.abs(3 - i) * 2} fill={i % 2 === 0 ? "#D9B36B" : "#C9A227"} stroke={dark} strokeWidth="1" />
+      ))}
+      <line x1="205" y1="170" x2="185" y2="205" stroke={skin} strokeWidth="5" strokeLinecap="round" />
+      <circle cx="183" cy="207" r="5" fill={dark} />
+      <line x1="215" y1="172" x2="245" y2="205" stroke={skin} strokeWidth="5" strokeLinecap="round" />
+      <circle cx="247" cy="207" r="5" fill={dark} />
+    </g>
+  );
+};
+
+const LasRosquillasDeSomotoYElQueso: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D9B36B";
+  return (
+    <g>
+      {[
+        [160, 215],
+        [210, 225],
+        [260, 210],
+        [185, 195],
+        [235, 190],
+      ].map(([x, y], i) => (
+        <g key={i}>
+          <ellipse cx={x} cy={y} rx="30" ry="18" fill={gold} stroke={dark} strokeWidth="2.5" />
+          <ellipse cx={x} cy={y} rx="12" ry="7" fill="#F5F0E6" />
+        </g>
+      ))}
+      <path d="M270 235 L270 205 L310 205 L310 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="290" cy="205" rx="20" ry="6" fill="#5C3A21" />
+      <path d="M310 212 Q325 212 325 222 Q325 232 310 230" fill="none" stroke={dark} strokeWidth="3" />
+    </g>
+  );
+};
+
 export const nicaraguaIllustrations: Record<string, IllustrationDefinition> = {
   "la-isla-de-ometepe-y-sus-dos-volcanes": { component: LaIslaDeOmetepeYSusDosVolcanes },
   "los-tiburones-de-agua-dulce-del-lago-de-nicaragua": { component: LosTiburonesDeAguaDulceDelLagoDeNicaragua },
@@ -165,4 +212,6 @@ export const nicaraguaIllustrations: Record<string, IllustrationDefinition> = {
   "el-sacuanjoche-la-flor-nacional": { component: ElSacuanjocheLaFlorNacional },
   "la-gigantona-y-el-enano-cabezon": { component: LaGigantonaYElEnanoCabezon },
   "las-islas-del-maiz-y-la-cultura-creole": { component: LasIslasDelMaizYLaCulturaCreole },
+  "la-marimba-de-arco-nicaraguense": { component: LaMarimbaDeArcoNicaraguense },
+  "las-rosquillas-de-somoto-y-el-queso": { component: LasRosquillasDeSomotoYElQueso },
 };

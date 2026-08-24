@@ -231,4 +231,50 @@ export const greenland: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-fiordo-helado-de-ilulissat",
+    order: 11,
+    placeholderEmoji: "🏔️",
+    accentColor: "#1E5A7D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El glaciar más productivo fuera de la Antártida",
+        subtitle: "El fiordo helado de Ilulissat",
+        imageAlt: "Caricatura de grandes icebergs blancos y azulados flotando en un fiordo oscuro.",
+        description:
+          "El fiordo helado de Ilulissat, en la costa oeste de Groenlandia, recibe el hielo del glaciar Sermeq Kujalleq, uno de los glaciares más rápidos y productivos del hemisferio norte, que descarga hacia el mar más de cuarenta mil millones de toneladas de hielo al año, una cifra que representa buena parte de toda la producción de icebergs del hemisferio norte. El desprendimiento constante genera icebergs de tamaños extraordinarios, algunos de más de cien metros de altura sobre el agua, que quedan temporalmente varados en la boca poco profunda del fiordo antes de derivar hacia el mar abierto, un espectáculo visible incluso desde el pueblo pesquero de Ilulissat sin necesidad de excursión alguna. Declarado Patrimonio de la Humanidad por la Unesco en 2004, el fiordo se estudia además como uno de los sitios clave para entender la velocidad real del derretimiento del hielo groenlandés, ya que el glaciar que lo alimenta se aceleró notablemente en las últimas décadas.",
+      },
+      en: {
+        title: "The Most Productive Glacier Outside Antarctica",
+        subtitle: "Ilulissat Icefjord",
+        imageAlt: "Cartoon of large white and blue icebergs floating in a dark fjord.",
+        description:
+          "Ilulissat Icefjord, on Greenland's west coast, receives ice from the Sermeq Kujalleq glacier, one of the fastest and most productive glaciers in the Northern Hemisphere, which discharges more than forty billion tonnes of ice into the sea every year, a volume that alone accounts for a significant share of all iceberg production across the entire Northern Hemisphere. The constant calving produces icebergs of extraordinary size, some rising more than a hundred meters above the waterline, which get temporarily stranded in the fjord's shallow mouth before drifting out to open sea, a spectacle visible even from the small fishing town of Ilulissat itself without needing any boat excursion. Declared a UNESCO World Heritage site in 2004, the fjord is also studied as one of the key sites for understanding the real speed of Greenlandic ice melt, since the glacier feeding it has accelerated markedly in recent decades.",
+      },
+    },
+  },
+  {
+    id: "el-canto-de-tambor-que-narra-historias-inuit",
+    order: 12,
+    placeholderEmoji: "🥁",
+    accentColor: "#8C4A2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tambor que narra historias en lugar de acompañar",
+        subtitle: "El canto de tambor inuit",
+        imageAlt: "Caricatura de una persona sosteniendo un tambor circular de piel con un mazo curvo.",
+        description:
+          "El canto de tambor, conocido en groenlandés como 'qilaatersorneq', es una tradición musical inuit en la que un intérprete sostiene un tambor circular de piel de foca o de oso sobre un aro de madera y lo golpea en el borde del marco, no en la piel, mientras narra en verso historias personales, hazañas de caza o disputas comunitarias, combinando música, narración oral y una forma temprana de resolución de conflictos. Durante buena parte del siglo veinte, misioneros y autoridades coloniales danesas desalentaron la práctica por vincularla a creencias chamánicas previas al cristianismo, lo que llevó a un declive de tambores y cantores tradicionales en varias regiones. Un revival cultural iniciado en las últimas décadas del siglo veinte, impulsado por movimientos de autodeterminación groenlandesa, recuperó la práctica en festivales, escuelas y celebraciones oficiales, con nuevas generaciones aprendiendo cantos heredados de los pocos ancianos que los conservaron.",
+      },
+      en: {
+        title: "The Drum That Narrates Stories Instead of Accompanying",
+        subtitle: "Inuit Drum Singing",
+        imageAlt: "Cartoon of a person holding a circular skin drum with a curved mallet.",
+        description:
+          "Drum singing, known in Greenlandic as 'qilaatersorneq,' is an Inuit musical tradition in which a performer holds a circular drum made of stretched sealskin or bearskin over a wooden frame and strikes it on the edge of the frame, not the skin itself, while narrating in verse personal stories, hunting feats, or community disputes, blending music, oral storytelling, and an early form of social conflict resolution. For much of the twentieth century, Danish missionaries and colonial authorities discouraged the practice, viewing it as tied to pre-Christian shamanic beliefs, which led to a sharp decline in traditional drums and singers across several regions of Greenland. A cultural revival beginning in the final decades of the twentieth century, driven by Greenlandic self-determination movements, brought the practice back into festivals, schools, and official celebrations, with new generations learning songs passed down from the few elders who had kept them alive.",
+      },
+    },
+  },
 ];

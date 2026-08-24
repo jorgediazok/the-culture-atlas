@@ -231,4 +231,50 @@ export const dominica: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "titou-gorge-el-desfiladero-que-hollywood-descubrio",
+    order: 11,
+    placeholderEmoji: "🏊",
+    accentColor: "#B85C1F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El desfiladero de agua que Hollywood descubrió",
+        subtitle: "Titou Gorge",
+        imageAlt: "Caricatura de un desfiladero angosto de roca oscura con agua turquesa fluyendo entre las paredes.",
+        description:
+          "Titou Gorge, un estrecho cañón de paredes de roca volcánica oscura tallado por un río cerca del pueblo de Laudat, en el centro de Dominica, se recorre nadando o vadeando entre paredes que en algunos tramos se estrechan a apenas un metro de distancia, con agua fría alimentada por manantiales de montaña y, cerca de su extremo final, una pequeña cascada oculta detrás de una cueva natural. El nombre viene del criollo local, donde 'titou' significa aproximadamente 'pequeña garganta', en referencia a lo angosto del paso entre las rocas. El desfiladero ganó reconocimiento internacional en 2005 al ser escenario de una escena de pelea submarina en la película 'Piratas del Caribe: El cofre del hombre muerto', filmada íntegramente en locaciones dominiquesas, lo que disparó el turismo hacia un sitio hasta entonces conocido sobre todo por los propios habitantes de Laudat como una piscina natural de agua fría tras las caminatas hacia el Lago Hirviente.",
+      },
+      en: {
+        title: "The Water Canyon That Hollywood Discovered",
+        subtitle: "Titou Gorge",
+        imageAlt: "Cartoon of a narrow dark rock gorge with turquoise water flowing between the walls.",
+        description:
+          "Titou Gorge, a narrow canyon with dark volcanic rock walls carved by a river near the village of Laudat in central Dominica, is explored by swimming or wading between walls that in some stretches narrow to barely a meter apart, with cold water fed by mountain springs and, near its far end, a small waterfall hidden behind a natural cave. The name comes from local creole, where 'titou' roughly means 'little throat,' a reference to how tightly the passage squeezes between the rocks. The gorge gained international recognition in 2005 as the setting for an underwater fight scene in 'Pirates of the Caribbean: Dead Man's Chest,' filmed entirely on location in Dominica, which sent tourism surging to a spot previously known mostly to Laudat locals as a cold natural swimming pool after hikes toward Boiling Lake.",
+      },
+    },
+  },
+  {
+    id: "el-cadence-lypso-el-genero-que-inspiro-el-zouk",
+    order: 12,
+    placeholderEmoji: "🎶",
+    accentColor: "#8C2E5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El género dominiqués que le dio origen al zouk",
+        subtitle: "El cadence-lypso, precursor del zouk",
+        imageAlt: "Caricatura de una banda tocando guitarra eléctrica y batería sobre un escenario iluminado.",
+        description:
+          "El cadence-lypso, un género musical creado en Dominica a comienzos de los años setenta por la banda Exile One, fusionó el calipso angloparlante del Caribe con la cadence-rampa haitiana de raíz francófona, incorporando además guitarra eléctrica, batería y teclados a un ritmo bailable que rápidamente cruzó fronteras lingüísticas dentro del propio Caribe. El sonido resultante se volvió extraordinariamente popular en las islas francófonas vecinas de Guadalupe y Martinica durante esa década, y terminó influyendo directamente en el nacimiento del zouk, el género que grupos como Kassav popularizarían globalmente en los años ochenta desde esas mismas islas. Aunque el cadence-lypso perdió protagonismo comercial frente al propio zouk que ayudó a crear, Dominica mantiene hoy un festival anual, el World Creole Music Festival, dedicado en buena parte a honrar ese legado musical y a las bandas que lo mantienen vivo.",
+      },
+      en: {
+        title: "The Dominican Genre That Gave Birth to Zouk",
+        subtitle: "Cadence-Lypso, Zouk's Precursor",
+        imageAlt: "Cartoon of a band playing electric guitar and drums on a lit-up stage.",
+        description:
+          "Cadence-lypso, a musical genre created in Dominica in the early 1970s by the band Exile One, fused English-speaking Caribbean calypso with Haitian cadence-rampa, rooted in the French-speaking Caribbean, adding electric guitar, drums, and keyboards to a danceable rhythm that quickly crossed linguistic borders within the region. The resulting sound became extraordinarily popular in the neighboring French-speaking islands of Guadeloupe and Martinique through that decade, and went on to directly influence the birth of zouk, the genre bands like Kassav would popularize globally in the 1980s from those same islands. Though cadence-lypso lost commercial ground to the very genre it helped create, Dominica today keeps an annual event, the World Creole Music Festival, largely dedicated to honoring that musical legacy and the bands still keeping it alive.",
+      },
+    },
+  },
 ];

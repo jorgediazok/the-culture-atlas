@@ -152,6 +152,38 @@ const LaIslaQueSePropusoResistirAlProximoHuracan: IllustrationComponent = ({ acc
   );
 };
 
+const TitouGorgeElDesfiladeroQueHollywoodDescubrio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <polygon points="90,90 150,90 130,250 90,250" fill="#3A2E28" stroke={dark} strokeWidth="2.5" />
+      <polygon points="320,90 260,90 280,250 320,250" fill="#4A3C32" stroke={dark} strokeWidth="2.5" />
+      <path d="M130 90 L280 90 L205 250 L130 250 Z" fill={accentColor} opacity="0.85" />
+      <path d="M150 90 Q205 130 260 90" fill="none" stroke="#F5F0E6" strokeWidth="4" opacity="0.6" />
+      <path d="M195 100 Q205 130 195 150" fill="none" stroke="#F5F0E6" strokeWidth="5" opacity="0.7" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const ElCadenceLypsoElGeneroQueInspiroElZouk: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.5);
+  return (
+    <g>
+      <path d="M120 210 Q117 246 155 249 Q193 246 190 210 Q192 190 176 182 L183 140 L155 155 L127 140 L134 182 Q118 190 120 210 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <rect x="140" y="196" width="30" height="8" rx="2" fill={dark} />
+      <rect x="140" y="213" width="30" height="8" rx="2" fill={dark} />
+      <rect x="150" y="100" width="10" height="55" fill={dark} />
+      <ellipse cx="255" cy="205" rx="45" ry="18" fill="#5C3A21" stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="255" cy="195" rx="45" ry="18" fill={light} stroke={dark} strokeWidth="2" />
+      <circle cx="295" cy="150" r="16" fill={light} stroke={dark} strokeWidth="2" />
+      <line x1="255" y1="177" x2="295" y2="166" stroke="#3A3A3A" strokeWidth="3" />
+      <line x1="240" y1="180" x2="255" y2="150" stroke="#8B5A2B" strokeWidth="3" strokeLinecap="round" />
+      <line x1="255" y1="182" x2="270" y2="150" stroke="#8B5A2B" strokeWidth="3" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const dominicaIllustrations: Record<string, IllustrationDefinition> = {
   "el-lago-que-hierve-dentro-de-un-volcan": { component: ElLagoQueHierveDentroDeUnVolcan },
   "el-loro-imperial-que-solo-vive-en-esta-isla": { component: ElLoroImperialQueSoloViveEnEstaIsla },
@@ -163,4 +195,6 @@ export const dominicaIllustrations: Record<string, IllustrationDefinition> = {
   "la-isla-con-un-rio-para-cada-dia-del-ano": { component: LaIslaConUnRioParaCadaDiaDelAno },
   "la-escritora-que-nunca-dejo-de-imaginar-su-isla": { component: LaEscritoraQueNuncaDejoDeImaginarSuIsla },
   "la-isla-que-se-propuso-resistir-al-proximo-huracan": { component: LaIslaQueSePropusoResistirAlProximoHuracan },
+  "titou-gorge-el-desfiladero-que-hollywood-descubrio": { component: TitouGorgeElDesfiladeroQueHollywoodDescubrio },
+  "el-cadence-lypso-el-genero-que-inspiro-el-zouk": { component: ElCadenceLypsoElGeneroQueInspiroElZouk },
 };

@@ -178,6 +178,43 @@ const ComunidadesMenonitas: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const ElCacaoMayaDeToledo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M140 140 Q120 170 140 220 Q160 235 175 220 Q190 170 175 140 Q160 128 140 140 Z" fill="#C1440E" stroke={dark} strokeWidth="3" />
+      <ellipse cx="157" cy="180" rx="14" ry="30" fill="#F5F0E6" opacity="0.9" />
+      {[165, 178, 191, 204].map((y) => (
+        <ellipse key={y} cx="157" cy={y} rx="8" ry="6" fill="#6B3E26" />
+      ))}
+      <rect x="215" y="175" width="90" height="55" rx="4" fill="#6B3E26" stroke={dark} strokeWidth="3" />
+      {[0, 1, 2].map((i) => (
+        <line key={i} x1={245 + i * 20} y1="175" x2={245 + i * 20} y2="230" stroke={dark} strokeWidth="2" opacity="0.5" />
+      ))}
+      <line x1="215" y1="202" x2="305" y2="202" stroke={dark} strokeWidth="2" opacity="0.5" />
+    </g>
+  );
+};
+
+const LaBatallaDeCayoSanJorge: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <ellipse cx="205" cy="235" rx="60" ry="12" fill="#C9B27A" />
+      <circle cx="190" cy="220" r="14" fill="#2E7D32" />
+      <circle cx="215" cy="215" r="16" fill="#2E7D32" />
+      <path d="M100 218 L92 232 L172 232 L164 218 Z" fill="#3A2418" stroke={dark} strokeWidth="2.5" />
+      <line x1="132" y1="218" x2="132" y2="130" stroke="#3A2418" strokeWidth="4" />
+      <polygon points="132,135 168,165 132,195" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <line x1="164" y1="222" x2="185" y2="222" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <path d="M240 214 L232 228 L312 228 L304 214 Z" fill="#3A2418" stroke={dark} strokeWidth="2.5" />
+      <line x1="272" y1="214" x2="272" y2="126" stroke="#3A2418" strokeWidth="4" />
+      <polygon points="272,131 236,161 272,191" fill="#D4A017" stroke={dark} strokeWidth="2" />
+      <line x1="240" y1="218" x2="219" y2="218" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const belizeIllustrations: Record<string, IllustrationDefinition> = {
   "unico-pais-anglohablante": { component: UnicoPaisAnglohablante },
   "arrecife-hoyo-azul": { component: ArrecifeHoyoAzul },
@@ -189,4 +226,6 @@ export const belizeIllustrations: Record<string, IllustrationDefinition> = {
   "independencia-1981": { component: Independencia1981 },
   "cueva-sagrada-atm": { component: CuevaSagradaAtm },
   "comunidades-menonitas": { component: ComunidadesMenonitas },
+  "el-cacao-maya-de-toledo": { component: ElCacaoMayaDeToledo },
+  "la-batalla-de-cayo-san-jorge": { component: LaBatallaDeCayoSanJorge },
 };

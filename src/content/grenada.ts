@@ -231,4 +231,50 @@ export const grenada: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "river-antoine-la-destileria-de-rueda-hidraulica",
+    order: 11,
+    placeholderEmoji: "🥃",
+    accentColor: "#9C6B1F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La destilería que aún gira con rueda de agua",
+        subtitle: "River Antoine, la destilería de rueda hidráulica",
+        imageAlt: "Caricatura de una gran rueda de agua de madera junto a barriles de ron apilados.",
+        description:
+          "River Antoine Estate, en el noreste de Granada, es considerada la destilería de ron en funcionamiento más antigua del Caribe, operando desde 1785 con buena parte de su maquinaria original, incluida una enorme rueda hidráulica de hierro que todavía mueve los molinos que trituran la caña de azúcar cultivada en la propia finca, sin depender de electricidad para esa etapa del proceso. El jugo extraído se hierve en calderas a fuego de leña y se fermenta y destila con métodos prácticamente sin cambios desde la época colonial, produciendo un ron de altísima graduación, muy por encima de la mayoría de los rones comerciales, vendido localmente sin etiquetas elaboradas ni marketing internacional. La destilería, abierta a visitas guiadas, se convirtió en una atracción por derecho propio para viajeros interesados en ver un proceso industrial que en el resto del mundo desapareció hace más de un siglo, reemplazado casi universalmente por maquinaria eléctrica.",
+      },
+      en: {
+        title: "The Distillery Still Turning on a Water Wheel",
+        subtitle: "River Antoine, the Waterwheel Distillery",
+        imageAlt: "Cartoon of a large wooden water wheel beside stacked rum barrels.",
+        description:
+          "River Antoine Estate, in northeastern Grenada, is considered the oldest continuously operating rum distillery in the Caribbean, running since 1785 with much of its original machinery still in place, including a massive iron waterwheel that still powers the mills crushing the sugar cane grown on the estate's own land, without relying on electricity for that stage of the process. The extracted juice is boiled in wood-fired vats and fermented and distilled following methods practically unchanged since colonial times, producing an extremely high-proof rum, well above most commercial rums, sold locally in bottles without fancy labels or international marketing. The distillery, open for guided tours, became an attraction in its own right for travelers interested in seeing an industrial process that disappeared almost everywhere else in the world more than a century ago, replaced almost universally by electric machinery.",
+      },
+    },
+  },
+  {
+    id: "los-astilleros-de-carriacou-y-petite-martinique",
+    order: 12,
+    placeholderEmoji: "⛵",
+    accentColor: "#2E5C7A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los astilleros donde se tallan veleros a mano",
+        subtitle: "Los astilleros de Carriacou y Petite Martinique",
+        imageAlt: "Caricatura de un velero de madera en construcción sobre una playa, con herramientas junto al casco.",
+        description:
+          "Carriacou y Petite Martinique, las dos principales islas dependientes de Granada, mantienen desde el siglo diecinueve una tradición de construcción naval artesanal que combina técnicas escocesas e inglesas traídas por colonos europeos con el conocimiento y la mano de obra de la población afrodescendiente de las islas, dando origen a un estilo propio de goleta de madera conocido como 'Carriacou sloop'. Los astilleros, instalados directamente sobre las playas donde se construyen los barcos, siguen trabajando hoy sin planos formales, guiándose por medidas transmitidas de generación en generación entre familias de constructores, y usan cedro local para dar forma al casco tabla por tabla, en un proceso que puede tomar más de un año por embarcación. La tradición, reconocida por la Unesco como Patrimonio Cultural Inmaterial en 2023, se mantiene viva gracias a un puñado de maestros constructores que compiten cada año en regatas locales con las mismas embarcaciones que construyeron.",
+      },
+      en: {
+        title: "The Boatyards Where Sailboats Are Carved by Hand",
+        subtitle: "The Boatyards of Carriacou and Petite Martinique",
+        imageAlt: "Cartoon of a wooden sailboat under construction on a beach, with tools beside the hull.",
+        description:
+          "Carriacou and Petite Martinique, the two main islands dependent on Grenada, have kept alive since the nineteenth century a tradition of handcrafted wooden boatbuilding that blends Scottish and English techniques brought over by European settlers with the knowledge and labor of the islands' Afro-descendant population, giving rise to a distinctive style of wooden schooner known as the 'Carriacou sloop.' The boatyards, set up directly on the beaches where the boats are built, still work today without formal blueprints, guided instead by measurements passed down through generations of boatbuilding families, using local cedar wood to shape the hull plank by plank, a process that can take more than a year per vessel. The tradition, recognized by UNESCO as Intangible Cultural Heritage in 2023, survives today thanks to a handful of master builders, who also compete each year in local regattas using the very boats they built themselves.",
+      },
+    },
+  },
 ];

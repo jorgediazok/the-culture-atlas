@@ -231,4 +231,50 @@ export const belize: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-cacao-maya-de-toledo",
+    order: 11,
+    placeholderEmoji: "🍫",
+    accentColor: "#6B3E26",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cacao maya que revivió una región entera",
+        subtitle: "El cacao maya de Toledo",
+        imageAlt: "Caricatura de vainas de cacao abiertas junto a una barra de chocolate artesanal.",
+        description:
+          "El distrito de Toledo, en el extremo sur de Belice y con la mayor concentración de población maya mopán y kekchí del país, mantiene viva una tradición de cultivo de cacao que se remonta a los propios mayas prehispánicos, quienes usaban el grano no solo como alimento y bebida ritual sino también como forma de moneda en el comercio regional. Cooperativas de agricultores familiares de la zona, muchas fundadas por mujeres, cultivan variedades criollas de cacao bajo sombra en pequeñas parcelas, un método más lento pero considerado superior en calidad al monocultivo intensivo, y procesan buena parte del grano localmente hasta convertirlo en chocolate artesanal, en lugar de exportarlo únicamente como materia prima. La 'Ruta del Cacao', un circuito de fincas y talleres abiertos a visitantes, y un festival anual dedicado al chocolate en Punta Gorda convirtieron a Toledo en un destino de turismo agrícola cada vez más reconocido dentro de Belice.",
+      },
+      en: {
+        title: "The Maya Cacao That Revived an Entire Region",
+        subtitle: "Toledo's Maya Cacao",
+        imageAlt: "Cartoon of split-open cacao pods beside a bar of artisanal chocolate.",
+        description:
+          "Toledo District, at Belize's southern tip and home to the country's largest concentration of Maya Mopan and Kekchi population, keeps alive a cacao-growing tradition tracing back to the pre-Hispanic Maya themselves, who used the bean not only as food and a ritual drink but also as a form of currency in regional trade. Family cooperatives in the area, many founded by women, grow heirloom criollo cacao varieties under shade on small plots, a slower method considered superior in quality to intensive monoculture, and process much of the bean locally into artisanal chocolate rather than exporting it only as raw material. The 'Cacao Trail,' a circuit of farms and workshops open to visitors, along with an annual chocolate festival held in Punta Gorda, turned Toledo into an increasingly recognized agrotourism destination within Belize.",
+      },
+    },
+  },
+  {
+    id: "la-batalla-de-cayo-san-jorge",
+    order: 12,
+    placeholderEmoji: "⚓",
+    accentColor: "#2C3E70",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La batalla naval que Belice celebra cada año",
+        subtitle: "La Batalla de Cayo San Jorge",
+        imageAlt: "Caricatura de barcos de vela enfrentándose frente a una isla.",
+        description:
+          "El 10 de septiembre de 1798, colonos británicos y baymen, junto a esclavizados y personas libres de ascendencia africana que se unieron a la defensa, repelieron frente a la isla de Cayo San Jorge un intento de invasión de la armada española que buscaba expulsar definitivamente a los asentamientos británicos del territorio que hoy es Belice, tras varios intentos previos fallidos a lo largo del siglo XVIII. El enfrentamiento, breve y con relativamente pocas bajas, resultó decisivo porque consolidó el control británico sobre la región durante casi dos siglos, sentando las bases del actual Belice como colonia y luego como país independiente. Hoy el 10 de septiembre es feriado nacional y una de las celebraciones cívicas más importantes del calendario beliceño, con desfiles, música y actos conmemorativos en todo el país, aunque la participación real de personas esclavizadas en la defensa sigue siendo objeto de investigación histórica y debate sobre cómo se cuenta la historia nacional.",
+      },
+      en: {
+        title: "The Naval Battle Belize Celebrates Every Year",
+        subtitle: "The Battle of St. George's Caye",
+        imageAlt: "Cartoon of sailing ships facing off in front of an island.",
+        description:
+          "On September 10, 1798, British settlers and 'baymen,' joined by enslaved and free people of African descent who took part in the defense, repelled off the coast of St. George's Caye an invasion attempt by the Spanish navy seeking to permanently expel British settlements from what is now Belize, after several earlier failed attempts throughout the eighteenth century. The battle, brief and with relatively few casualties, proved decisive because it secured British control over the region for nearly two centuries, laying the groundwork for modern Belize as a colony and later as an independent country. Today, September 10 is a national holiday and one of the most important civic celebrations on Belize's calendar, marked with parades, music, and commemorative events nationwide, though the real extent of enslaved people's participation in the defense remains a subject of ongoing historical research and debate over how the national story gets told.",
+      },
+    },
+  },
 ];

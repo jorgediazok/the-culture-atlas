@@ -171,6 +171,52 @@ const ElCarnavalDeLaCeiba: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const LempiraElCaciqueQueResistioLaConquista: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <polygon points="90,240 150,150 210,240" fill={dark} opacity="0.5" />
+      <polygon points="180,240 250,130 320,240" fill={accentColor} opacity="0.4" />
+      {/* feathered headdress, fanned around a fixed base inside the head */}
+      {[-50, -25, 0, 25, 50].map((deg) => (
+        <path key={deg} d="M205 138 L198 90 L212 90 Z" fill="#C9A227" stroke={dark} strokeWidth="1" transform={`rotate(${deg} 205 138)`} />
+      ))}
+      {/* torso, neck rises into the head's interior */}
+      <path d="M195 152 L215 152 L230 185 L225 235 L185 235 L180 185 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* head drawn last so it covers the headdress and neck seams */}
+      <circle cx="205" cy="150" r="16" fill={skin} stroke={dark} strokeWidth="2.5" />
+      {/* arm holding the spear */}
+      <path d="M228 188 L250 202" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <line x1="250" y1="90" x2="250" y2="230" stroke={dark} strokeWidth="5" />
+      <polygon points="240,90 260,90 250,65" fill="#B0B8BF" stroke={dark} strokeWidth="1.5" />
+      {/* feet */}
+      <path d="M185 235 L179 240 L197 240 L197 235 Z" fill={skin} />
+      <path d="M225 235 L231 240 L213 240 L213 235 Z" fill={skin} />
+    </g>
+  );
+};
+
+const LasAlfombrasDeAserrinDeComayagua: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const colors = [accentColor, "#C9A227", "#1B7A8C", "#C1272D", tint(accentColor, 0.3)];
+  return (
+    <g>
+      <rect x="90" y="90" width="230" height="160" fill="#D9CBB3" />
+      {[100, 130, 160, 190, 220].map((y) => (
+        <line key={y} x1="90" y1={y} x2="320" y2={y} stroke="#B8A888" strokeWidth="1" opacity="0.4" />
+      ))}
+      {[70, 55, 40, 25, 10].map((r, i) => (
+        <polygon key={r} points={`205,${170 - r} ${205 + r},170 205,${170 + r} ${205 - r},170`} fill={colors[i % colors.length]} stroke={dark} strokeWidth="1.5" />
+      ))}
+      <circle cx="140" cy="120" r="8" fill={colors[2]} />
+      <circle cx="270" cy="120" r="8" fill={colors[3]} />
+      <circle cx="140" cy="220" r="8" fill={colors[3]} />
+      <circle cx="270" cy="220" r="8" fill={colors[2]} />
+    </g>
+  );
+};
+
 export const hondurasIllustrations: Record<string, IllustrationDefinition> = {
   "la-escalinata-jeroglifica-de-copan": { component: LaEscalinataJeroglificaDeCopan },
   "roatan-y-el-arrecife-mesoamericano": { component: RoatanYElArrecifeMesoamericano },
@@ -182,4 +228,6 @@ export const hondurasIllustrations: Record<string, IllustrationDefinition> = {
   "el-reloj-de-comayagua-el-mas-antiguo-de-america": { component: ElRelojDeComayaguaElMasAntiguoDeAmerica },
   "el-tabaco-hondureno-y-sus-puros": { component: ElTabacoHondurenoYSusPuros },
   "el-carnaval-de-la-ceiba": { component: ElCarnavalDeLaCeiba },
+  "lempira-el-cacique-que-resistio-la-conquista": { component: LempiraElCaciqueQueResistioLaConquista },
+  "las-alfombras-de-aserrin-de-comayagua": { component: LasAlfombrasDeAserrinDeComayagua },
 };

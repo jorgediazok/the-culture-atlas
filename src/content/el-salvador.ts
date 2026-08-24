@@ -231,4 +231,50 @@ export const elSalvador: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-xuc-el-baile-nacional",
+    order: 11,
+    placeholderEmoji: "💃",
+    accentColor: "#A13D63",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ritmo que mezcla cumbia, mazurca y marimba",
+        subtitle: "El xuc, el baile nacional",
+        imageAlt: "Caricatura de una pareja bailando junto a una marimba con mazos golpeando las teclas.",
+        description:
+          "El xuc es un género musical y de baile considerado el ritmo folclórico más representativo de El Salvador, surgido a mediados del siglo veinte en la zona oriental del país, sobre todo en San Miguel, de la fusión entre la cumbia colombiana, la mazurca europea y sonoridades locales interpretadas con marimba, guitarra y acordeón. Su nombre imita el sonido del pie al arrastrarse sobre el piso durante el baile, un paso marcado y algo brincado que lo distingue de otros géneros centroamericanos de raíz caribeña. El compositor migueleño Paquito Palaviccini es reconocido como uno de los principales impulsores del género en sus primeras décadas de popularidad. Aunque hoy compite con ritmos más globales entre las nuevas generaciones, el xuc se sigue tocando en fiestas patronales, ferias departamentales y celebraciones familiares de todo el país, y cada noviembre ocupa un lugar central en el carnaval de San Miguel.",
+      },
+      en: {
+        title: "The Rhythm Blending Cumbia, Mazurka, and Marimba",
+        subtitle: "Xuc, the National Dance",
+        imageAlt: "Cartoon of a couple dancing beside a marimba with mallets striking the keys.",
+        description:
+          "Xuc is a musical and dance genre considered El Salvador's most representative folk rhythm, which emerged in the mid-twentieth century in the country's eastern region, especially around San Miguel, from a fusion of Colombian cumbia, European mazurka, and local sounds traditionally played on marimba, guitar, and accordion. Its name imitates the sound of a foot dragging across the floor during the dance, a marked, slightly bouncing step that sets xuc apart from other Central American genres with Caribbean roots. Composer Paquito Palaviccini, from San Miguel, is widely credited as one of the genre's main early promoters. Though it now competes with more global rhythms among younger generations, xuc is still played at patron saint festivals, departmental fairs, and family celebrations across the country, and every November it takes a central place in the carnival of San Miguel.",
+      },
+    },
+  },
+  {
+    id: "el-salvador-y-el-bitcoin",
+    order: 12,
+    placeholderEmoji: "₿",
+    accentColor: "#F7931A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El primer país en volver legal al bitcoin",
+        subtitle: "El Salvador y el bitcoin",
+        imageAlt: "Caricatura de una moneda con el símbolo del bitcoin junto a un volcán con líneas de energía.",
+        description:
+          "En septiembre de 2021, El Salvador se convirtió en el primer país del mundo en adoptar el bitcoin como moneda de curso legal junto al dólar estadounidense, una decisión impulsada por el gobierno del presidente Nayib Bukele que generó tanta atención internacional como escepticismo, ya que obligaba a los comercios a aceptarlo como forma de pago y llevó al Estado a comprar bitcoin con fondos públicos como reserva. El gobierno impulsó además un proyecto de 'Ciudad Bitcoin' cerca del volcán Conchagua y financió minería de bitcoin con energía geotérmica de los propios volcanes del país. La adopción real de la criptomoneda entre la población resultó más limitada de lo previsto, y en 2024, bajo presión de un acuerdo con el Fondo Monetario Internacional, el gobierno eliminó su carácter de moneda de curso legal obligatorio, aunque mantuvo sus reservas y buena parte de la infraestructura construida en torno a ella.",
+      },
+      en: {
+        title: "The First Country to Make Bitcoin Legal Tender",
+        subtitle: "El Salvador and Bitcoin",
+        imageAlt: "Cartoon of a coin with the bitcoin symbol beside a volcano with lines of energy.",
+        description:
+          "In September 2021, El Salvador became the first country in the world to adopt bitcoin as legal tender alongside the US dollar, a decision pushed by President Nayib Bukele's government that drew as much international attention as skepticism, since it technically required businesses to accept it as payment and led the state to buy bitcoin directly with public funds as part of a declared reserve strategy. The government also promoted a planned 'Bitcoin City' near the Conchagua volcano and funded part of its bitcoin mining operations with geothermal energy drawn from the country's own volcanoes, tapping into an already-available renewable energy source. Real adoption of the cryptocurrency among the Salvadoran population turned out more limited than expected, and in 2024, under pressure from an agreement with the International Monetary Fund, the government dropped bitcoin's mandatory legal-tender status, though the country kept its reserves and much of the infrastructure built around it.",
+      },
+    },
+  },
 ];

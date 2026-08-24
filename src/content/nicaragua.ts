@@ -231,4 +231,50 @@ export const nicaragua: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "la-marimba-de-arco-nicaraguense",
+    order: 11,
+    placeholderEmoji: "🎶",
+    accentColor: "#6B8E4E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La marimba que un solo músico toca sentado",
+        subtitle: "La marimba de arco nicaragüense",
+        imageAlt: "Caricatura de un músico sentado tocando una marimba apoyada sobre sus piernas.",
+        description:
+          "La marimba de arco, un instrumento de percusión con teclas de madera montadas sobre un arco de metal curvo y cajas de resonancia de madera, se distingue de las marimbas de otros países centroamericanos por tocarse tradicionalmente sentada, con el instrumento apoyado directamente sobre las piernas del músico en lugar de sostenido por soportes o tocado de pie entre varios intérpretes. Un solo marimbero puede así ejecutar simultáneamente la melodía y el acompañamiento rítmico con ambas manos, generalmente acompañado por guitarra, guitarrilla y guitarrón formando un conjunto conocido como 'marimba de arco', música central en fiestas, bailes populares y celebraciones familiares de la región del Pacífico nicaragüense, sobre todo en Masaya y Managua. La tradición se transmite de forma oral entre generaciones de familias marimberas, y aunque hoy compite con géneros más modernos, sigue sonando en mercados, restaurantes y festividades patronales por todo el país.",
+      },
+      en: {
+        title: "The Marimba a Single Musician Plays Seated",
+        subtitle: "Nicaragua's Marimba de Arco",
+        imageAlt: "Cartoon of a seated musician playing a marimba resting on their legs.",
+        description:
+          "Marimba de arco, a percussion instrument with wooden keys mounted on a curved metal bow with wooden resonance boxes underneath, sets itself apart from marimbas found in other Central American countries by being traditionally played seated, with the instrument resting directly on the musician's legs rather than held up by stands or played standing by several performers at once. A single marimbero can this way play both the melody and the rhythmic accompaniment simultaneously with both hands, usually joined by guitar, guitarrilla, and guitarrón forming an ensemble known as 'marimba de arco,' music central to festivals, popular dances, and family celebrations across Nicaragua's Pacific region, especially around Masaya and Managua. The tradition passes down orally through generations of marimba-playing families, and though it now competes with more modern genres, it still sounds regularly in markets, restaurants, and patron saint festivities across the country.",
+      },
+    },
+  },
+  {
+    id: "las-rosquillas-de-somoto-y-el-queso",
+    order: 12,
+    placeholderEmoji: "🥨",
+    accentColor: "#B4622E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La rosca de maíz y queso que acompaña el café",
+        subtitle: "Las rosquillas de Somoto",
+        imageAlt: "Caricatura de rosquillas de maíz doradas apiladas junto a una taza de café.",
+        description:
+          "Las rosquillas, unas galletas saladas en forma de anillo hechas con una masa de maíz y queso seco desmenuzado, horneadas hasta quedar crujientes y ligeramente doradas, son uno de los productos de panadería tradicional más asociados a Nicaragua, con la ciudad norteña de Somoto reconocida como uno de sus principales centros de producción artesanal desde hace generaciones. La receta, transmitida en hornos familiares de barro o ladrillo que muchas panaderas todavía usan, varía ligeramente de un pueblo a otro en la proporción de maíz, queso y manteca, dando lugar a versiones más suaves o más quebradizas según la región. Se venden empacadas en bolsas por docenas en mercados, terminales de autobuses y puestos de carretera de todo el país, y se comen tradicionalmente acompañadas de café o como merienda de media tarde, un hábito tan extendido que las rosquillas suelen figurar entre los primeros productos que los nicaragüenses en el extranjero piden que les envíen desde casa.",
+      },
+      en: {
+        title: "The Corn and Cheese Ring That Goes With Coffee",
+        subtitle: "Somoto's Rosquillas",
+        imageAlt: "Cartoon of golden corn rosquilla rings stacked beside a cup of coffee.",
+        description:
+          "Rosquillas, ring-shaped savory crackers made from a dough of corn and crumbled dry cheese, baked until crisp and lightly golden, rank among the traditional baked goods most closely associated with Nicaragua, with the northern town of Somoto recognized as one of its main centers of artisanal production for generations. The recipe, passed down through family-run clay or brick ovens that many bakers still use today, varies slightly from town to town in its ratio of corn, cheese, and lard, producing softer or crumblier versions depending on the region. Rosquillas are sold packed by the dozen in bags at markets, bus terminals, and roadside stands across the country, and are traditionally eaten with coffee or as a mid-afternoon snack, a habit so widespread that rosquillas are often among the first items Nicaraguans living abroad ask to have shipped from home.",
+      },
+    },
+  },
 ];

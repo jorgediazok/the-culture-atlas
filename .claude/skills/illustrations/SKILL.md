@@ -654,16 +654,106 @@ id-matching audit, and a full `rm -rf .next && npm run build` (205
 countries/territories × 2 langs = 410 static country paths). Not committed
 as of the end of this batch — awaiting explicit user request to commit.
 
-## Deferred, larger-scope task (explicitly NOT started — user said to wait)
+## Story-count expansion task (in progress, started 2026-08-23)
 
 The user's own words (2026-08-15, before the original redesign push began):
 "Tengo pendiente algo, pienso dejarlo para despues que ya tengamos todos los
 paises." Originally two tasks; the second (redesign every remaining
 country's illustrations) is now moot since no countries remain on the old
-style — every country, old and newly added, is at the bold standard. Only
-one task remains, to pick up once the user explicitly says to start:
-1. Expand every country from 10 to 20 culture entries each (some small
-   countries may be hard to stretch to 20 — that's expected/accepted).
+style — every country, old and newly added, is at the bold standard. The
+one remaining task — expanding every country's story count — started once
+all 205 countries/territories were added (2026-08-23).
+
+**Tier system decided with the user (2026-08-23):** instead of a flat "20
+for everyone" target, countries are sorted into three tiers based on
+population/history/cultural depth, decided per-country by judgment, not a
+fixed rule:
+- **20 entries** — major countries with deep history/culture, regardless of
+  population (explicit user examples: United States, Canada, Belgium,
+  Austria, Australia, New Zealand).
+- **15 entries** — mid-sized countries with solid but less extensive
+  material (explicit user example: Moldova).
+- **12 entries** — small countries or ones with genuinely limited unique
+  material to draw on (explicit user examples: Tuvalu and other small
+  Oceania nations).
+Already-complete-at-20 countries from the original redesign (France,
+Germany, Italy, Netherlands, Belgium, Switzerland, Russia, Argentina,
+Croatia, Luxembourg, Albania) count as done for their tier and don't need
+rework. When expanding a country, read its existing entries first to avoid
+duplicating topics, then add new entries with unique ids continuing the
+`order` sequence, following the exact content workflow in the "Content
+constraints" section below and the illustration standards from the top of
+this file (bold style, no-trig rule, joint-overlap checks) for every new
+entry's component.
+
+**South America — done and committed (2026-08-23, commit `0c1405d`):** all
+12 South American countries now match the tier system: Brazil, Colombia,
+Peru, Chile → 20 (Argentina was already 20); Venezuela, Ecuador, Bolivia,
+Paraguay, Uruguay → 15; Guyana, Suriname → 12. The first 4 (Brazil/
+Colombia/Peru/Chile) were done via 4 parallel background agents, each
+scoped to only its own `src/content/{slug}.ts` and
+`src/illustrations/{slug}.tsx` files (same no-shared-file-conflict pattern
+as the new-country batches). After the user asked to cut down on
+background-agent usage for cost reasons, the remaining 7 countries
+(Venezuela through Suriname) were done directly in the main session with
+no subagents — slower per country but no duplicated-context overhead. All
+11 expanded countries passed `tsc`, `eslint`, the id-matching audit, the
+title/description length check, and a final full
+`rm -rf .next && npm run build` (410 static paths, 205 countries × 2
+langs) before committing.
+
+**North America — 12-tier countries done and committed (2026-08-24):** all
+16 small-tier North American/Caribbean countries expanded from 10 to 12
+entries each, done entirely in the main session with no subagents (per the
+established cost-minimization preference): Honduras, El Salvador,
+Nicaragua, Belize, Bahamas, Barbados, Saint Lucia, Saint Kitts and Nevis,
+Antigua and Barbuda, Dominica, Grenada, Saint Vincent and the Grenadines,
+Greenland, Curaçao, Aruba, Sint Maarten. Tier assignment for all 27 North
+American countries was proposed to and approved by the user before writing
+any content: 20 (United States, Canada, Mexico), 15 (Cuba, Jamaica, Haiti,
+Dominican Republic, Guatemala, Costa Rica, Panama, Trinidad and Tobago),
+12 (the 16 listed above). Each country's 2 new entries were picked to avoid
+duplicating existing topics (read all 10 existing entries first), covering
+a mix of history/independence, craft/food, music, and nature/landmark
+topics per country. All illustrations followed the joint-overlap and
+no-trig rules from the top of this file. **A description-length regression
+was caught this batch**: roughly half of the ~64 new descriptions (32
+entries × 2 languages) initially came in over the 1000-char hard cap —
+up to 1150 chars — because writing rich, fact-dense descriptions for
+history/independence entries (treaties, dates, flag symbolism, named
+figures) runs long by default; none of the shorter titles were affected.
+Caught by a Node length-audit script run after all 16 countries were
+written, then fixed by trimming every flagged description (cutting
+redundant clauses, not just rewording) until a final audit pass showed
+zero over 1000. **Lesson: run the length audit incrementally (e.g. every
+4-5 countries) rather than only at the very end** — batching the fix
+across 17+ descriptions at once cost more back-and-forth than catching
+a couple of over-length entries per country as they're written would
+have. All 16 countries passed `tsc`, `eslint` (only 2 pre-existing
+unrelated unused-var warnings in old Dominica/Greenland code, not touched
+this batch), the id-matching audit, and a final full
+`rm -rf .next && npm run build` (410 static paths, 205 countries × 2
+langs). Committed and pushed same session.
+
+**Next up:** the North America 15-tier countries (Cuba, Jamaica, Haiti,
+Dominican Republic, Guatemala, Costa Rica, Panama, Trinidad and Tobago —
+add 5 entries each) and the 20-tier countries (United States, Canada,
+Mexico — add 10 entries each, likely worth parallel background agents per
+the South America Brazil/Colombia/Peru/Chile precedent, since these are
+the heaviest content-writing lifts). Not started yet as of the end of the
+North America 12-tier batch. Per the established cost-management pattern,
+consider starting a fresh chat for this next batch.
+
+**Cost-management pattern established 2026-08-23:** for this multi-country,
+multi-session expansion task, the user asked to start a fresh chat between
+country batches instead of continuing one ever-growing conversation, since
+per-message cost scales with accumulated context and nothing important is
+lost — the actual work lives in git commits, and this skill file is the
+handoff document a fresh session reads automatically. When resuming in a
+new chat, this file plus `git log` and a quick per-country entry-count
+check (`grep -c 'id: "' src/content/{slug}.ts`) is enough to reconstruct
+exactly where the task left off without re-deriving anything from a long
+prior transcript.
 
 ## Content constraints (unrelated to illustrations, but relevant if adding
 entries)
