@@ -735,14 +735,34 @@ this batch), the id-matching audit, and a final full
 `rm -rf .next && npm run build` (410 static paths, 205 countries × 2
 langs). Committed and pushed same session.
 
+**North America — 20-tier countries done and committed (2026-08-24, commit
+`82fb0c0`):** United States, Canada, and Mexico all expanded from 10 to 20
+entries, via 3 parallel background agents (one per country, same
+standalone-files-only restriction as the South America Brazil/Colombia/
+Peru/Chile precedent — each agent touched only its own
+`src/content/{slug}.ts` and `src/illustrations/{slug}.tsx`, no shared-file
+edits needed since these are existing countries, not new ones). All three
+agents self-caught and fixed real joint-overlap bugs before reporting back
+(Canada: a floating inuit throat-singing "clasped arms" arc that measured
+as not touching either figure's torso; Mexico: a turkey neck-base point
+only 1.9 units inside its body ellipse, horse-leg attachments as shallow as
+6.6 units, both widened to the 15-25 unit standard by numeric script
+rather than eyeballing). US content picked deliberately specific topics
+(Navajo Nation/Diné by name rather than generic "Native Americans"; Civil
+Rights Movement handled factually, no partisan framing); Mexico avoided
+narco/cartel framing entirely, consistent with project policy. US had 5 of
+20 new descriptions initially over the 1000-char cap (up to 1097), trimmed
+before reporting. All three countries passed `tsc`, `eslint`, the
+id-matching audit (20/20 each), the length audit, and a final full
+`rm -rf .next && npm run build` (420 static paths, 205 countries/
+territories × 2 langs + misc). Committed and pushed same session.
+
 **Next up:** the North America 15-tier countries (Cuba, Jamaica, Haiti,
 Dominican Republic, Guatemala, Costa Rica, Panama, Trinidad and Tobago —
-add 5 entries each) and the 20-tier countries (United States, Canada,
-Mexico — add 10 entries each, likely worth parallel background agents per
-the South America Brazil/Colombia/Peru/Chile precedent, since these are
-the heaviest content-writing lifts). Not started yet as of the end of the
-North America 12-tier batch. Per the established cost-management pattern,
-consider starting a fresh chat for this next batch.
+add 5 entries each). This completes the North America tier expansion once
+done. Not started yet as of the end of the 20-tier batch. Per the
+established cost-management pattern, consider starting a fresh chat for
+this next batch.
 
 **Cost-management pattern established 2026-08-23:** for this multi-country,
 multi-session expansion task, the user asked to start a fresh chat between
