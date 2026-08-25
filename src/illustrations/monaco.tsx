@@ -168,6 +168,48 @@ const MasDeLaMitadDeMonacoNoEsMonegasca: IllustrationComponent = ({ accentColor 
   );
 };
 
+const MuseoOceanograficoYJacquesCousteau: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const sea = "#1F6FA5";
+  return (
+    <g>
+      <path d="M90 250 L90 210 Q150 195 160 165 Q170 140 205 138 Q240 140 250 165 Q260 195 320 205 L320 250 Z" fill="#B0A489" opacity="0.55" stroke={dark} strokeWidth="2" />
+      <rect x="150" y="115" width="110" height="40" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[165, 185, 205, 225, 245].map((x) => (
+        <rect key={x} x={x - 5} y="120" width="10" height="35" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="1.5" />
+      ))}
+      <polygon points="145,115 205,90 265,115" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="2.5" />
+      <circle cx="205" cy="103" r="8" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <path d="M90 250 Q205 235 320 250 L320 270 L90 270 Z" fill={sea} opacity="0.55" />
+      <path d="M120 245 Q135 238 148 245 Q135 252 120 245 Z" fill="#F5F0E6" opacity="0.85" />
+      <path d="M148 245 L158 238 L158 252 Z" fill="#F5F0E6" opacity="0.85" />
+      <path d="M255 255 Q270 248 283 255 Q270 262 255 255 Z" fill="#F5F0E6" opacity="0.8" />
+      <path d="M283 255 L293 248 L293 262 Z" fill="#F5F0E6" opacity="0.8" />
+    </g>
+  );
+};
+
+const LosBalletsRusosDeMontecarlo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      <path d="M90 90 Q100 170 90 250" fill="none" stroke={accentColor} strokeWidth="14" opacity="0.45" strokeLinecap="round" />
+      <path d="M320 90 Q310 170 320 250" fill="none" stroke={accentColor} strokeWidth="14" opacity="0.45" strokeLinecap="round" />
+      <circle cx="205" cy="118" r="18" fill={skin} />
+      <path d="M188 138 Q205 128 222 138 L216 185 L194 185 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M198 172 Q210 190 235 198 Q250 202 262 194 Q248 190 236 180 Q220 170 205 172 Z" fill={tint(accentColor, 0.35)} stroke={dark} strokeWidth="2" />
+      <path d="M212 172 Q198 190 172 196 Q157 199 146 190 Q160 187 173 177 Q190 168 205 172 Z" fill={tint(accentColor, 0.35)} stroke={dark} strokeWidth="2" />
+      <path d="M203 178 Q233 186 258 176" stroke={skin} strokeWidth="10" strokeLinecap="round" fill="none" />
+      <path d="M256 173 L270 170 L266 182 Z" fill="#F5F0E6" stroke={dark} strokeWidth="1.5" />
+      <path d="M207 178 Q177 195 154 212" stroke={skin} strokeWidth="10" strokeLinecap="round" fill="none" />
+      <path d="M150 209 L138 205 L146 217 Z" fill="#F5F0E6" stroke={dark} strokeWidth="1.5" />
+      <path d="M192 147 Q162 140 147 118" stroke={skin} strokeWidth="7" strokeLinecap="round" fill="none" />
+      <path d="M218 147 Q248 140 266 120" stroke={skin} strokeWidth="7" strokeLinecap="round" fill="none" />
+    </g>
+  );
+};
+
 export const monacoIllustrations: Record<string, IllustrationDefinition> = {
   "el-segundo-pais-mas-pequeno-del-mundo": { component: ElSegundoPaisMasPequenoDelMundo },
   "el-casino-que-los-propios-monegascos-no-pueden-entrar": { component: ElCasinoQueLosPropiosMonegascosNoPuedenEntrar },
@@ -179,4 +221,6 @@ export const monacoIllustrations: Record<string, IllustrationDefinition> = {
   "un-jardin-exotico-tallado-en-un-acantilado": { component: UnJardinExoticoTalladoEnUnAcantilado },
   "el-principe-que-corrio-en-los-juegos-olimpicos": { component: ElPrincipeQueCorrioEnLosJuegosOlimpicos },
   "mas-de-la-mitad-de-monaco-no-es-monegasca": { component: MasDeLaMitadDeMonacoNoEsMonegasca },
+  "museo-oceanografico-y-jacques-cousteau": { component: MuseoOceanograficoYJacquesCousteau },
+  "los-ballets-rusos-de-montecarlo": { component: LosBalletsRusosDeMontecarlo },
 };

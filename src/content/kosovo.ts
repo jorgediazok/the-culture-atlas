@@ -231,4 +231,50 @@ export const kosovo: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "dokufest-el-festival-de-documentales-de-prizren",
+    order: 11,
+    placeholderEmoji: "🎬",
+    accentColor: "#7B1FA2",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El festival de cine que toma una fortaleza otomana",
+        subtitle: "DokuFest, el festival de documentales de Prizren",
+        imageAlt: "Caricatura de una pantalla de cine al aire libre montada frente a una fortaleza de piedra iluminada.",
+        description:
+          "DokuFest, fundado en 2002 en la ciudad de Prizren apenas tres años después del fin del conflicto armado, se convirtió en uno de los festivales de cine documental y cortometraje más importantes de los Balcanes, atrayendo cada agosto a decenas de miles de visitantes y realizadores de decenas de países para proyecciones que se despliegan por toda la ciudad vieja: patios de casas otomanas, orillas del río Bistrica y hasta las murallas iluminadas de la fortaleza medieval que corona la colina sobre Prizren funcionan como pantallas al aire libre. El festival, nacido casi como un acto de reconstrucción cultural en un país que salía de una guerra reciente, logró con los años una reputación internacional que excede ampliamente el tamaño de Kosovo, convirtiéndose en una de las principales vidrieras culturales del país y en un símbolo de la vitalidad creativa de su generación más joven.",
+      },
+      en: {
+        title: "The Film Festival That Transforms an Ottoman Fortress",
+        subtitle: "DokuFest, Prizren's Documentary Film Festival",
+        imageAlt: "Cartoon of an open-air movie screen set up in front of a lit-up stone fortress.",
+        description:
+          "DokuFest, founded in 2002 in the city of Prizren barely three years after the armed conflict ended, became one of the most important documentary and short film festivals in the Balkans, drawing tens of thousands of visitors and filmmakers from dozens of countries every August for screenings spread literally across the old town: courtyards of Ottoman houses, the banks of the Bistrica River, and even the lit-up walls of the medieval fortress crowning the hill above Prizren all serve as open-air screens. The festival, born almost as an act of cultural rebuilding in a country just out of a recent war, gained an international reputation over the years far exceeding Kosovo's size, becoming one of the country's main cultural showcases to the rest of the world and a symbol of its youngest generation's creative energy.",
+      },
+    },
+  },
+  {
+    id: "la-besa-la-palabra-de-honor-albanesa",
+    order: 12,
+    placeholderEmoji: "🤝",
+    accentColor: "#2E5C3E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La palabra de honor que ni la guerra pudo romper",
+        subtitle: "La besa, la palabra de honor albanesa",
+        imageAlt: "Caricatura de dos manos estrechándose frente a la puerta abierta de una casa.",
+        description:
+          "La besa, un concepto de honor profundamente arraigado en la cultura albanesa y compartido por buena parte de la población kosovar, describe una promesa u obligación de palabra tan absoluta que romperla se considera una deshonra que afecta no solo a quien falta a ella sino a toda su familia, un código originado en el Kanun, un conjunto de leyes consuetudinarias albanesas transmitidas oralmente durante siglos antes de recopilarse por escrito recién en el siglo XX. La besa incluye tradicionalmente una obligación casi sagrada de hospitalidad y protección hacia cualquier huésped que cruce el umbral de una casa, un principio que durante la Segunda Guerra Mundial llevó a numerosas familias albanesas musulmanas a esconder y proteger a familias judías perseguidas bajo su propio riesgo, y que generaciones después sigue invocándose como fundamento moral de la hospitalidad kosovar.",
+      },
+      en: {
+        title: "The Word of Honor That Not Even War Could Break",
+        subtitle: "Besa, the Albanian Word of Honor",
+        imageAlt: "Cartoon of two hands shaking in front of an open house doorway.",
+        description:
+          "Besa, a concept of honor deeply rooted in Albanian culture and shared by much of Kosovo's population, describes a promise or word-given obligation so absolute that breaking it is considered a dishonor affecting not just the person who breaks it but their entire family, a code rooted in the Kanun, a body of Albanian customary law passed down orally for centuries before being written down only in the 20th century. Besa traditionally includes a near-sacred obligation of hospitality and protection toward any guest who crosses a household's threshold, a principle that during World War II led numerous Muslim Albanian families to hide and protect persecuted Jewish families at their own personal risk, and that generations later is still invoked as the moral foundation of Kosovar hospitality.",
+      },
+    },
+  },
 ];

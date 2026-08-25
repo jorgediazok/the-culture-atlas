@@ -231,4 +231,50 @@ export const vaticanCity: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "los-jardines-vaticanos-la-mitad-del-territorio",
+    order: 11,
+    placeholderEmoji: "🌳",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los jardines que ocupan la mitad del territorio",
+        subtitle: "Los Jardines Vaticanos",
+        imageAlt: "Caricatura de jardines geométricos con setos recortados y una fuente central.",
+        description:
+          "Los Jardines Vaticanos, cuyos orígenes se remontan al siglo IX cuando el papa Nicolás III mandó plantar un huerto y un pomar junto a sus aposentos, cubren hoy alrededor de la mitad de la superficie total del país, unas veintitrés hectáreas de parterres geométricos, fuentes barrocas, grutas artificiales y bosques cuidadosamente diseñados que combinan siglos de estilos paisajísticos superpuestos, del renacentista al francés y hasta jardines temáticos donados por distintos países. A diferencia de la Basílica y los Museos, que reciben millones de visitantes al año, el acceso a los jardines está estrictamente restringido a recorridos guiados con cupo limitado que deben reservarse con anticipación, preservando así uno de los pocos rincones genuinamente tranquilos dentro del país más visitado, proporcionalmente a su tamaño, del mundo entero.",
+      },
+      en: {
+        title: "The Gardens That Cover Half the Country's Territory",
+        subtitle: "The Vatican Gardens",
+        imageAlt: "Cartoon of geometric gardens with trimmed hedges and a central fountain.",
+        description:
+          "The Vatican Gardens, whose origins trace back to the 9th century when Pope Nicholas III had an orchard and vegetable garden planted beside his quarters, today cover roughly half the country's total land area, about twenty-three hectares of geometric flowerbeds, baroque fountains, artificial grottoes, and carefully designed woodland blending centuries of overlapping landscape styles, from Renaissance to French formal gardens to themed gardens donated by various countries. Unlike the Basilica and Museums, which draw millions of visitors a year, access to the gardens is strictly limited to guided tours with capped group sizes that must be booked in advance, preserving one of the few genuinely quiet corners inside the world's most visited country relative to its size.",
+      },
+    },
+  },
+  {
+    id: "la-fumata-la-senal-de-un-papa-nuevo",
+    order: 12,
+    placeholderEmoji: "💨",
+    accentColor: "#455A64",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El humo que anuncia al mundo un papa nuevo",
+        subtitle: "La fumata, la señal de un papa nuevo",
+        imageAlt: "Caricatura de una chimenea sobre un techo con una nube de humo blanco elevándose.",
+        description:
+          "Cada vez que el colegio de cardenales se reúne en cónclave dentro de la Capilla Sixtina para elegir un nuevo papa, el resultado de cada votación se comunica al exterior mediante el color del humo que sale de una chimenea instalada sobre el techo, sin que nadie pueda ingresar ni salir del recinto durante el proceso: humo negro, la fumata nera, significa que la votación no alcanzó los dos tercios necesarios, mientras que humo blanco, la fumata bianca, anuncia que la Iglesia ya tiene papa. Durante siglos el color se logró quemando las papeletas con paja húmeda o seca, un método poco confiable que producía tonos ambiguos difíciles de distinguir a la distancia, hasta que desde 2005 el Vaticano incorporó cartuchos de humo químico y una segunda chimenea de respaldo para garantizar un color inconfundible, evitando la confusión que generaron cónclaves anteriores entre la multitud reunida en la plaza de San Pedro.",
+      },
+      en: {
+        title: "The Smoke Signal That Announces a New Pope",
+        subtitle: "The Fumata, the Signal of a New Pope",
+        imageAlt: "Cartoon of a chimney on a rooftop with a cloud of white smoke rising.",
+        description:
+          "Every time the College of Cardinals gathers in conclave inside the Sistine Chapel to elect a new pope, the outcome of each vote is announced to the outside world through the color of smoke rising from a chimney installed specially on the roof, with no one allowed to enter or leave the chapel during the process: black smoke, the fumata nera, means the vote fell short of the required two-thirds majority, while white smoke, the fumata bianca, announces the Church has a pope. For centuries the color was produced by burning the ballots with wet or dry straw, an unreliable method that often produced ambiguous shades hard to tell apart from a distance, until the Vatican added chemical smoke cartridges and a second backup chimney starting in 2005 to guarantee an unmistakable color, avoiding the confusion earlier conclaves caused among crowds gathered in St. Peter's Square.",
+      },
+    },
+  },
 ];

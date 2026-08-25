@@ -231,4 +231,50 @@ export const sanMarino: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "torta-tres-montes-el-postre-nacional",
+    order: 11,
+    placeholderEmoji: "🍰",
+    accentColor: "#5C3A21",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pastel de tres capas con forma de las tres torres",
+        subtitle: "La Torta Tre Monti, el postre nacional",
+        imageAlt: "Caricatura de una torta de capas triangulares apiladas cubierta de chocolate.",
+        description:
+          "La Torta Tre Monti, un postre compuesto por finas capas de oblea rellenas de crema de avellana y chocolate y bañado enteramente en una cobertura de chocolate negro, toma su nombre y su forma escalonada de las tres cumbres del monte Titano donde se asientan las torres símbolo de San Marino, un guiño geográfico directo al paisaje que define al país. Creada en 1974 por la empresa familiar sanmarinense Buffetti, la torta se convirtió con los años en el postre más identificado con la identidad nacional del país, presente en prácticamente cualquier celebración y en las estanterías de supermercados de buena parte de Europa, donde se exporta bajo distintas marcas. Pese a su origen relativamente reciente comparado con instituciones que se remontan a siglos, la Torta Tre Monti logró algo poco común para un producto comercial: convertirse en un símbolo cultural genuino asociado de forma inmediata al pequeño país que la inventó.",
+      },
+      en: {
+        title: "The Three-Layer Cake Shaped Like the Three Towers",
+        subtitle: "Torta Tre Monti, the National Dessert",
+        imageAlt: "Cartoon of a stacked triangular layer cake covered in chocolate.",
+        description:
+          "Torta Tre Monti, a dessert made of thin wafer layers filled with hazelnut and chocolate cream and fully coated in dark chocolate, takes its name and stepped shape from the three peaks of Monte Titano where San Marino's landmark towers stand, a direct geographic nod to the landscape defining the country. Created in 1974 by the Sammarinese family business Buffetti, the cake became over the years the dessert most identified with the country's national identity, present at practically every celebration and on supermarket shelves across much of Europe, where it is exported under various brand names. Despite its relatively recent origin compared to centuries-old institutions, Torta Tre Monti achieved something rare for a commercial product: becoming a genuine cultural symbol immediately associated with the tiny country that invented it.",
+      },
+    },
+  },
+  {
+    id: "la-carta-a-abraham-lincoln",
+    order: 12,
+    placeholderEmoji: "✉️",
+    accentColor: "#3E5C4A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La carta que le ofreció ciudadanía honoraria a Lincoln",
+        subtitle: "San Marino y su carta a Abraham Lincoln",
+        imageAlt: "Caricatura de una carta sellada con lacre junto a una pluma de escribir antigua.",
+        description:
+          "En 1861, el Consejo Grande y General de San Marino le escribió una carta al presidente electo de Estados Unidos, Abraham Lincoln, ofreciéndole la ciudadanía honoraria de la república, un gesto diplomático de una de las repúblicas más antiguas y pequeñas del mundo hacia la nación democrática más joven y pujante de su época, justo cuando Estados Unidos se encaminaba hacia la Guerra Civil. Lincoln respondió meses después con una carta que se volvió célebre, agradeciendo el honor y observando que, aunque el territorio de San Marino era diminuto, su prueba histórica de que un gobierno republicano podía perdurar durante siglos demostraba algo valioso para cualquier nación que aspirara a la libertad, sin importar su tamaño. Ambos países conmemoran hoy ese intercambio epistolar como el inicio formal de relaciones diplomáticas entre San Marino y Estados Unidos, entre las más antiguas y singulares que mantiene la pequeña república con cualquier potencia mundial.",
+      },
+      en: {
+        title: "The Letter That Offered Lincoln Honorary Citizenship",
+        subtitle: "San Marino's Letter to Abraham Lincoln",
+        imageAlt: "Cartoon of a wax-sealed letter beside an old writing quill.",
+        description:
+          "In 1861, San Marino's Grand and General Council wrote a letter to President-elect Abraham Lincoln of the United States, offering him honorary citizenship of the republic, a diplomatic gesture from one of the world's oldest and smallest republics toward the young, rising democratic nation of its era, right as the United States headed toward civil war. Lincoln replied months later with a letter that became famous, thanking San Marino for the honor and observing that, although its territory was tiny, its historical proof that a republican government could endure for centuries demonstrated something valuable to any nation aspiring to freedom, regardless of size. Both countries today commemorate that exchange of letters as the formal start of diplomatic relations between San Marino and the United States, among the oldest and most singular the small republic maintains with any world power.",
+      },
+    },
+  },
 ];

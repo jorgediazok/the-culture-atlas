@@ -281,6 +281,70 @@ const LaCazaDeBallenasPilotoQueDivideOpiniones: IllustrationComponent = ({ accen
   );
 };
 
+const LaVictoriaImposibleDelFutbolFeroes: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 250 Q205 235 320 250 L320 260 L90 260 Z" fill="#4A6B3A" opacity="0.5" />
+      {/* small wooden stand in the background */}
+      <rect x="230" y="150" width="80" height="55" fill="#8C7B6B" stroke="#5C4A3A" strokeWidth="2.4" />
+      {[240, 255, 270, 285, 300].map((x) => (
+        <line key={x} x1={x} y1="155" x2={x} y2="200" stroke="#5C4A3A" strokeWidth="1.4" opacity="0.5" />
+      ))}
+      {/* goal net with the ball inside */}
+      <rect x="95" y="150" width="70" height="60" fill="none" stroke={dark} strokeWidth="3" />
+      {[110, 125, 140, 155].map((x) => (
+        <line key={x} x1={x} y1="150" x2={x} y2="210" stroke={dark} strokeWidth="1" opacity="0.4" />
+      ))}
+      {[165, 180, 195].map((y) => (
+        <line key={y} x1="95" y1={y} x2="165" y2={y} stroke={dark} strokeWidth="1" opacity="0.4" />
+      ))}
+      <circle cx="130" cy="185" r="10" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      {person(210, 225, 1.1, dark, accentColor)}
+    </g>
+  );
+};
+
+// Points precomputed offline (10 positions around an ellipse
+// cx=205 cy=205 rx=75 ry=30) for the ring of glowing chain-dance figures
+// lining the undersea roundabout — never computed with Math.sin/cos at
+// render time.
+const CHAIN_FIGURE_POINTS: [number, number][] = [
+  [280.0, 205.0],
+  [265.7, 222.6],
+  [228.2, 233.5],
+  [181.8, 233.5],
+  [144.3, 222.6],
+  [130.0, 205.0],
+  [144.3, 187.4],
+  [181.8, 176.5],
+  [228.2, 176.5],
+  [265.7, 187.4],
+];
+
+const LaRotondaSubmarinaConArteDeLuz: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* tunnel walls */}
+      <rect x="90" y="90" width="230" height="160" fill="#1A2A33" />
+      {/* the elliptical roundabout road */}
+      <ellipse cx="205" cy="205" rx="75" ry="30" fill="none" stroke="#3A4A55" strokeWidth="22" />
+      {/* glowing chain-dance light figures ringing the roundabout wall */}
+      {CHAIN_FIGURE_POINTS.map(([x, y], i) => (
+        <circle key={i} cx={x} cy={y} r="4.5" fill={i % 2 === 0 ? accentColor : "#F5F0E6"} opacity="0.9" />
+      ))}
+      {/* car on the road */}
+      <g transform="translate(205 205)">
+        <rect x="-16" y="-8" width="32" height="14" rx="4" fill={dark} />
+        <rect x="-9" y="-15" width="18" height="10" rx="3" fill={dark} />
+        <circle cx="-9" cy="7" r="4" fill="#1A1A1A" />
+        <circle cx="9" cy="7" r="4" fill="#1A1A1A" />
+      </g>
+    </g>
+  );
+};
+
 export const faroeIslandsIllustrations: Record<string, IllustrationDefinition> = {
   "las-casas-con-techo-de-cesped-que-resisten-el-viento": { component: LasCasasConTechoDeCespedQueResistenElViento },
   "la-fiesta-nacional-que-enciende-todo-torshavn": { component: LaFiestaNacionalQueEnciendeTodoTorshavn },
@@ -292,4 +356,6 @@ export const faroeIslandsIllustrations: Record<string, IllustrationDefinition> =
   "una-de-las-capitales-mas-pequenas-del-mundo": { component: UnaDeLasCapitalesMasPequenasDelMundo },
   "el-idioma-vikingo-que-sobrevivio-gracias-al-orgullo": { component: ElIdiomaVikingoQueSobrevivioGraciasAlOrgullo },
   "la-caza-de-ballenas-piloto-que-divide-opiniones": { component: LaCazaDeBallenasPilotoQueDivideOpiniones },
+  "la-victoria-imposible-del-futbol-feroes": { component: LaVictoriaImposibleDelFutbolFeroes },
+  "la-rotonda-submarina-con-arte-de-luz": { component: LaRotondaSubmarinaConArteDeLuz },
 };

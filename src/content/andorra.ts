@@ -231,4 +231,50 @@ export const andorra: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "vall-del-madriu-patrimonio-de-la-unesco",
+    order: 11,
+    placeholderEmoji: "🏞️",
+    accentColor: "#3E6B4A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El único sitio Patrimonio de la Humanidad de Andorra",
+        subtitle: "La Vall del Madriu-Perafita-Claror",
+        imageAlt: "Caricatura de un valle glaciar verde con un arroyo serpenteante y antiguas cabañas de piedra.",
+        description:
+          "La Vall del Madriu-Perafita-Claror, un valle glaciar de más de cuatro mil hectáreas en el sureste de Andorra, es el único sitio del país declarado Patrimonio de la Humanidad por la UNESCO, reconocido en 2004 no por un monumento aislado sino por representar de forma excepcional cinco milenios de interacción entre comunidades pastoriles de montaña y un paisaje pirenaico de altísimo valor ecológico. El valle, accesible solo a pie o a caballo sin caminos asfaltados que lo atraviesen, conserva todavía cabañas de piedra seca, antiguos caminos de trashumancia, terrazas de cultivo abandonadas y una red de canales de riego centenarios que evidencian cómo generaciones de andorranos organizaron la vida agrícola y ganadera en un entorno de montaña extremo, todo dentro de una superficie que equivale a casi una décima parte del territorio nacional.",
+      },
+      en: {
+        title: "Andorra's Only UNESCO World Heritage Site",
+        subtitle: "The Madriu-Perafita-Claror Valley",
+        imageAlt: "Cartoon of a green glacial valley with a winding stream and old stone huts.",
+        description:
+          "The Madriu-Perafita-Claror Valley, a glacial valley spanning more than four thousand hectares in southeastern Andorra, is the country's only UNESCO World Heritage Site, recognized in 2004 not for a single monument but for exceptionally representing five thousand years of interaction between mountain pastoral communities and a Pyrenean landscape of extremely high ecological value. The valley, reachable only on foot or horseback with no paved roads running through it, still preserves dry-stone huts, ancient transhumance paths, abandoned cultivation terraces, and a network of centuries-old irrigation channels that show how generations of Andorrans organized farming and herding life in an extreme mountain environment, all within an area equal to nearly a tenth of the entire national territory.",
+      },
+    },
+  },
+  {
+    id: "caldea-el-mayor-spa-termal-del-sur-de-europa",
+    order: 12,
+    placeholderEmoji: "♨️",
+    accentColor: "#0E7C86",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El mayor complejo termal de vidrio del sur de Europa",
+        subtitle: "Caldea, el mayor spa termal de la región",
+        imageAlt: "Caricatura de un edificio de spa con una torre de vidrio en forma de pico junto a piscinas humeantes.",
+        description:
+          "Caldea, inaugurado en 1994 en Escaldes-Engordany, es el complejo termolúdico más grande del sur de Europa, reconocible de inmediato por su torre central de vidrio en forma de pico de montaña que se eleva sobre el valle y que se convirtió en uno de los símbolos arquitectónicos más fotografiados de Andorra. El complejo aprovecha aguas termales naturales que brotan a más de sesenta y ocho grados desde manantiales subterráneos de la zona, canalizadas hacia piscinas exteriores e interiores, saunas, baños de vapor y jacuzzis distribuidos en varios niveles con vista a las montañas circundantes, capaces de recibir a miles de visitantes por día. Su éxito consolidó al turismo de bienestar como un complemento importante de la economía andorrana, tradicionalmente dependiente del esquí invernal y las compras libres de impuestos.",
+      },
+      en: {
+        title: "Southern Europe's Largest Glass Thermal Spa",
+        subtitle: "Caldea, the Region's Largest Thermal Spa",
+        imageAlt: "Cartoon of a spa building with a peak-shaped glass tower beside steaming pools.",
+        description:
+          "Caldea, opened in 1994 in Escaldes-Engordany, is the largest thermal spa and leisure complex in southern Europe, instantly recognizable by its central glass tower shaped like a mountain peak rising above the valley, which became one of Andorra's most photographed architectural landmarks. The complex draws on natural hot springs bubbling up at over sixty-eight degrees Celsius from underground sources in the area, channeled into outdoor and indoor pools, saunas, steam baths, and jacuzzis spread across several levels overlooking the surrounding mountains, able to welcome thousands of visitors a day. Its success cemented wellness tourism as an important complement to the Andorran economy, traditionally dependent on winter skiing and tax-free shopping.",
+      },
+    },
+  },
 ];

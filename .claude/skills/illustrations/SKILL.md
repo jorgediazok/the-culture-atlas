@@ -843,12 +843,62 @@ from the North America batches since no new countries were registered,
 just existing ones expanded). This completes Oceania — every country in
 the continent is now at its assigned tier.
 
-**Next up:** the tier system has now been applied to South America, North
-America, and Oceania. Europe, Asia, and Africa still need tier assignments
-(20/15/12) proposed to and approved by the user, then the same expansion
-workflow, before the story-count task is fully complete. Per the
-established cost-management pattern, consider starting a fresh chat for
-that next phase.
+**Europe — tier assignment approved and 12-tier countries done and
+committed (2026-08-24):** the user approved a tier proposal for all 42
+European countries/territories not already at 20 (10 already-done
+countries — Netherlands, Belgium, Switzerland, France, Croatia,
+Luxembourg, Albania, Italy, Russia, Germany — were excluded from the
+count): 20 (Spain, Poland, Sweden, Austria, Greece, Portugal, Turkey,
+England, Ukraine, Hungary), 15 (Denmark, Norway, Finland, Czech Republic,
+Romania, Serbia, Bulgaria, Ireland, Scotland, Georgia, Iceland, Moldova,
+Belarus, Malta, Cyprus, Estonia, Latvia, Lithuania), 12 (Slovakia,
+Slovenia, Monaco, Andorra, San Marino, Vatican City, Liechtenstein,
+Kosovo, Bosnia and Herzegovina, Montenegro, North Macedonia, Wales,
+Northern Ireland, Faroe Islands). Per explicit user instruction this
+batch, **no background agents were used at all** — every one of the 14
+12-tier countries was expanded directly in the main session,
+country-by-country, slower but avoiding the per-agent cost multiplier.
+Each country got 2 new entries (10→12), picked to avoid duplicating
+existing topics (read all 10 first) and, where a country's history
+touched war/conflict (Kosovo, Bosnia and Herzegovina, Montenegro, North
+Macedonia), new entries deliberately picked non-conflict angles (language
+codification, folk costume, coppersmith crafts, primeval forests, ancient
+observatories, mask carnivals, printing history) consistent with the
+project's standing policy on difficult-history countries. Illustrations
+matched each file's own established style rather than a single uniform
+look — some existing files (Andorra, San Marino) use a bolder,
+few-large-shapes style with code comments explaining joint overlaps;
+others (Slovakia, Slovenia, Monaco, Vatican City, Liechtenstein, Kosovo,
+Bosnia and Herzegovina, Montenegro, North Macedonia, Wales, Northern
+Ireland, Faroe Islands) use a denser tint/shade palette style; Faroe
+Islands already had reusable `person`/`sheep`/`puffin`/`whale`/`turfHouse`
+helper functions with joint math worked out, which the two new
+Faroe entries (a footballer, a chain of light-art figures in an undersea
+roundabout) reused directly rather than duplicating. A batch length-audit
+run after all 14 countries (using a `\btitle:` -anchored regex per the
+Oceania-batch lesson above) caught 12 titles over the 55-char cap — all
+in the 2 newest entries per country, none in the original 10 — trimmed in
+one pass. All 14 countries passed `tsc --noEmit`, `eslint` (one
+pre-existing unrelated warning in Andorra's older
+`UnicoPaisConElCatalanComoIdiomaOficial` component, not touched this
+batch), the id-matching audit (12/12 for all 14), the length audit (all
+168 entries' titles/descriptions within ≤55/≤1000 after the trim), and
+two full `rm -rf .next && npm run build` runs (one at the halfway point,
+one at the end — both clean, 420 static paths throughout since these are
+all existing countries being expanded, not new registrations).
+
+**Next up:** Europe's 12-tier countries are done. Europe's 15-tier (18
+countries: Denmark, Norway, Finland, Czech Republic, Romania, Serbia,
+Bulgaria, Ireland, Scotland, Georgia, Iceland, Moldova, Belarus, Malta,
+Cyprus, Estonia, Latvia, Lithuania) and 20-tier (10 countries: Spain,
+Poland, Sweden, Austria, Greece, Portugal, Turkey, England, Ukraine,
+Hungary) countries still remain, then Asia and Africa still need their
+own tier assignments proposed to and approved by the user before the
+same expansion workflow. Per the established cost-management pattern,
+consider starting a fresh chat for that next phase — and per the explicit
+instruction from this batch, continue doing the expansion directly in
+the main session without background agents unless the user says
+otherwise.
 
 **Cost-management pattern established 2026-08-23:** for this multi-country,
 multi-session expansion task, the user asked to start a fresh chat between

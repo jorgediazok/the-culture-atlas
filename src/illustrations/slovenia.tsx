@@ -137,6 +137,51 @@ const DondeSeCruzanCuatroMundosCulturales: IllustrationComponent = ({ accentColo
   );
 };
 
+const KurentovanjeElCarnavalQueEspantaAlInvierno: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <circle cx="205" cy="130" r="26" fill={tint(accentColor, 0.25)} stroke={dark} strokeWidth="3" />
+      <path d="M182 115 Q160 104 149 117 Q168 121 181 129 Z" fill={dark} />
+      <path d="M228 115 Q250 104 261 117 Q242 121 229 129 Z" fill={dark} />
+      <circle cx="195" cy="124" r="3.5" fill="#1A1A1A" />
+      <circle cx="215" cy="124" r="3.5" fill="#1A1A1A" />
+      <ellipse cx="205" cy="144" rx="13" ry="8" fill={dark} opacity="0.75" />
+      <polygon
+        points="165,250 150,210 172,222 155,178 180,196 168,150 190,134 205,135 220,134 242,150 230,196 255,178 232,222 250,210 245,250"
+        fill={accentColor}
+        stroke={dark}
+        strokeWidth="2.5"
+      />
+      {[172, 188, 205, 222, 238].map((x) => (
+        <circle key={x} cx={x} cy="228" r="6" fill="#D4AF37" stroke={dark} strokeWidth="1.5" />
+      ))}
+      <path d="M172 248 L158 232" stroke={dark} strokeWidth="8" strokeLinecap="round" />
+      <path d="M238 248 L252 232" stroke={dark} strokeWidth="8" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const LipicaCunaDelCaballoLipizzano: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const white = "#F5F0E6";
+  return (
+    <g>
+      <path d="M90 248 Q205 232 320 248 L320 252 L90 252 Z" fill="#8FA85C" opacity="0.55" />
+      <path d="M140 180 Q105 165 92 130 Q80 118 88 115 Q100 135 118 158 Q135 172 143 195 Z" fill={white} stroke={dark} strokeWidth="2.5" />
+      <path d="M225 185 Q260 165 280 135 Q290 122 283 116 Q268 130 250 155 Q235 172 222 195 Z" fill={white} stroke={dark} strokeWidth="3" />
+      <ellipse cx="185" cy="190" rx="68" ry="30" fill={white} stroke={dark} strokeWidth="3" />
+      <path d="M283 116 L297 106 L291 121 Z" fill={dark} />
+      <circle cx="272" cy="132" r="3" fill="#1A1A1A" />
+      <path d="M255 148 Q266 143 277 150 M245 160 Q256 154 267 161 M235 172 Q246 166 257 173" stroke={dark} strokeWidth="3.5" strokeLinecap="round" fill="none" opacity="0.7" />
+      <path d="M150 200 L136 248" stroke={dark} strokeWidth="9" strokeLinecap="round" />
+      <path d="M172 202 L168 250" stroke={dark} strokeWidth="9" strokeLinecap="round" />
+      <path d="M200 202 L218 248" stroke={dark} strokeWidth="9" strokeLinecap="round" />
+      <path d="M222 198 L246 236" stroke={dark} strokeWidth="9" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const sloveniaIllustrations: Record<string, IllustrationDefinition> = {
   "lago-de-bled-la-isla-con-iglesia": { component: LagoDeBledLaIslaConIglesia },
   "cueva-de-postojna-tren-subterraneo": { component: CuevaDePostojnaTrenSubterraneo },
@@ -148,4 +193,6 @@ export const sloveniaIllustrations: Record<string, IllustrationDefinition> = {
   "piran-el-pueblo-veneciano": { component: PiranElPuebloVeneciano },
   "la-vid-mas-vieja-del-mundo": { component: LaVidMasViejaDelMundo },
   "donde-se-cruzan-cuatro-mundos-culturales": { component: DondeSeCruzanCuatroMundosCulturales },
+  "kurentovanje-el-carnaval-que-espanta-al-invierno": { component: KurentovanjeElCarnavalQueEspantaAlInvierno },
+  "lipica-cuna-del-caballo-lipizzano": { component: LipicaCunaDelCaballoLipizzano },
 };

@@ -231,4 +231,50 @@ export const wales: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "las-cucharas-de-amor-talladas-a-mano",
+    order: 11,
+    placeholderEmoji: "🥄",
+    accentColor: "#7A4A2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cuchara de madera tallada como declaración de amor",
+        subtitle: "Las cucharas de amor galesas",
+        imageAlt: "Caricatura de una cuchara de madera tallada con un diseño de corazones y una cadena entrelazada.",
+        description:
+          "Las llwy garu, o cucharas de amor galesas, son cucharas de madera talladas a mano que jóvenes pretendientes regalaban tradicionalmente a la persona que cortejaban desde al menos el siglo XVII, una costumbre que algunos historiadores vinculan a marineros y campesinos que aprovechaban las largas horas de invierno o de navegación para tallar un objeto capaz de demostrar tanto paciencia como habilidad manual, cualidades valoradas en un potencial cónyuge. Cada símbolo tallado en el mango tenía un significado codificado: una cadena representaba el deseo de pasar la vida juntos, una rueda simbolizaba trabajo y apoyo mutuo, una llave o cerradura indicaba el deseo de asegurar el corazón del otro, y una cesta doble anunciaba directamente muchos hijos futuros. Aunque su función original como propuesta romántica prácticamente desapareció, la cuchara de amor sigue tallándose y vendiéndose hoy como recuerdo cultural y regalo de bodas, aniversarios y otras celebraciones familiares galesas.",
+      },
+      en: {
+        title: "The Wooden Spoon That Doubled as a Marriage Proposal",
+        subtitle: "Welsh Love Spoons",
+        imageAlt: "Cartoon of a wooden spoon carved with a heart design and an interlocking chain.",
+        description:
+          "Llwy garu, or Welsh love spoons, are hand-carved wooden spoons that young suitors traditionally gave to the person they were courting from at least the 17th century onward, a custom some historians link to sailors and farmhands who used long winter or sea voyage hours to carve an object able to prove both patience and manual skill, qualities valued in a potential spouse. Each symbol carved into the handle carried coded meaning: a chain represented the wish to spend life together, a wheel symbolized work and mutual support, a key or lock signaled the desire to secure the other's heart, and a double bowl openly announced hopes for many future children. Although its original function as a romantic proposal has largely disappeared, the love spoon is still carved and sold today as a cultural keepsake and gift for Welsh weddings, anniversaries, and other family celebrations.",
+      },
+    },
+  },
+  {
+    id: "el-acueducto-de-pontcysyllte-un-canal-en-el-aire",
+    order: 12,
+    placeholderEmoji: "🚤",
+    accentColor: "#3E5C6E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El canal que cruza un valle suspendido en el aire",
+        subtitle: "El Acueducto de Pontcysyllte",
+        imageAlt: "Caricatura de un bote navegando por un canal elevado sobre pilares de piedra que cruza un valle profundo.",
+        description:
+          "El Acueducto de Pontcysyllte, terminado en 1805 por los ingenieros Thomas Telford y William Jessop para llevar el Canal de Llangollen a través del valle del río Dee en el noreste de Gales, es el acueducto navegable más alto y largo de todo el Reino Unido, con una estructura de hierro fundido que sostiene el agua del canal a casi treinta y ocho metros de altura sobre dieciocho pilares de piedra a lo largo de más de trescientos metros. La construcción fue tan audaz para su época, usando por primera vez a esta escala una combinación de mampostería tradicional con una artesa de hierro fundido prefabricada, que el propio Telford la describió como el logro de ingeniería del que más orgulloso se sentía de toda su carrera. Declarado patrimonio de la UNESCO en 2009, el acueducto sigue en uso activo hoy, permitiendo a botes de recreo y turistas cruzar el valle flotando literalmente por el aire, con apenas un pretil bajo de hierro separando la embarcación del vacío.",
+      },
+      en: {
+        title: "The Canal That Crosses a Valley Suspended in Midair",
+        subtitle: "The Pontcysyllte Aqueduct",
+        imageAlt: "Cartoon of a boat sailing along an elevated canal on stone piers crossing a deep valley.",
+        description:
+          "The Pontcysyllte Aqueduct, completed in 1805 by engineers Thomas Telford and William Jessop to carry the Llangollen Canal across the Dee River valley in northeast Wales, is the highest and longest navigable aqueduct in the entire United Kingdom, its cast-iron structure holding the canal's water nearly thirty-eight meters above the valley floor on eighteen stone piers stretching over three hundred meters. The build was so daring for its time, combining traditional masonry with a prefabricated cast-iron trough at that scale for the first time, that Telford himself described it as the engineering achievement he was proudest of in his entire career. Declared a UNESCO World Heritage site in 2009, the aqueduct remains in active use today, letting pleasure boats and tourists cross the valley floating literally through open air, with only a low iron rail separating the boat from the drop below.",
+      },
+    },
+  },
 ];

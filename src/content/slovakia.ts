@@ -231,4 +231,50 @@ export const slovakia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "ludovit-stur-padre-del-eslovaco-escrito",
+    order: 11,
+    placeholderEmoji: "📖",
+    accentColor: "#5B3E8A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El hombre que le dio al eslovaco un alfabeto escrito",
+        subtitle: "Ľudovít Štúr y el eslovaco escrito",
+        imageAlt: "Caricatura de una persona escribiendo con pluma junto a un libro abierto, con letras eslovacas flotando en el aire.",
+        description:
+          "Antes de 1843, el eslovaco no tenía una forma escrita unificada: cada región culta escribía en checo, en latín o en dialectos locales sin reglas comunes, y muchos intelectuales eslovacos ni siquiera consideraban necesaria una lengua literaria propia separada del checo. Ľudovít Štúr, lingüista y activista de apenas veintiséis años, cambió esto de forma decisiva al codificar en 1843, junto a dos colegas, una gramática y ortografía basadas en el dialecto de las tierras altas centrales, que hasta entonces solo se hablaba, nunca se escribía formalmente. Štúr defendió esta decisión ante intelectuales que preferían seguir usando el checo, argumentando que un pueblo necesitaba su propia lengua escrita para consolidarse como nación, y aunque murió a los cuarenta años sin ver el resultado final de su proyecto, la norma que fijó, con ajustes posteriores, sigue siendo la base directa del eslovaco estándar que se habla y escribe hoy.",
+      },
+      en: {
+        title: "The Man Who Gave Slovak a Written Alphabet",
+        subtitle: "Ľudovít Štúr and Written Slovak",
+        imageAlt: "Cartoon of a person writing with a quill next to an open book, with Slovak letters floating in the air.",
+        description:
+          "Before 1843, Slovak had no unified written form: educated Slovaks wrote in Czech, in Latin, or in local dialects with no shared rules, and many Slovak intellectuals did not even think a separate literary language was necessary from Czech. Ľudovít Štúr, a linguist and activist barely twenty-six years old, decisively changed this by codifying, together with two colleagues, a grammar and spelling system in 1843 based on the dialect of the central highlands, a dialect that until then had only been spoken, never formally written. Štúr defended this choice against intellectuals who preferred to keep using Czech, arguing that a people needed their own written language to consolidate as a nation, and although he died at forty without seeing the final result of his project, the standard he set, with later adjustments, remains the direct basis of the standard Slovak spoken and written today.",
+      },
+    },
+  },
+  {
+    id: "kroj-el-traje-folclorico-regional",
+    order: 12,
+    placeholderEmoji: "👗",
+    accentColor: "#2C6E8F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El traje bordado que revela de qué pueblo sos",
+        subtitle: "El kroj, el traje folclórico regional",
+        imageAlt: "Caricatura de una persona con un traje folclórico bordado de colores y un tocado floral tradicional.",
+        description:
+          "El kroj, el traje folclórico tradicional eslovaco, no es un diseño único nacional sino un sistema de cientos de variantes regionales tan distintivas que, hasta bien entrado el siglo XX, bastaba ver los patrones bordados, los colores y el corte de un traje para identificar el pueblo exacto de origen de quien lo llevaba puesto. Cada región desarrolló su propio vocabulario textil: blusas de mangas abullonadas bordadas a mano, chalecos con lentejuelas o cintas, faldas plisadas de colores específicos y tocados que iban desde coronas florales para mujeres solteras hasta pañuelos atados de formas particulares para las casadas, confeccionado todo con lino casero y tintes naturales. Aunque el uso cotidiano del kroj desapareció con la industrialización, sigue apareciendo en bodas, festivales folclóricos como el de Východná y celebraciones religiosas, hecho hoy por un número reducido de artesanos que preservan las técnicas de bordado de cada región.",
+      },
+      en: {
+        title: "The Embroidered Dress That Reveals Your Home Village",
+        subtitle: "The Kroj, a Regional Folk Costume",
+        imageAlt: "Cartoon of a person in a colorful embroidered folk costume with a traditional floral headpiece.",
+        description:
+          "The kroj, Slovakia's traditional folk costume, is not a single national design but a system of hundreds of regional variants so distinctive that, well into the 20th century, the embroidery patterns, colors, and cut of someone's outfit alone were enough to identify their exact home village. Each region developed its own textile vocabulary: hand-embroidered puffed-sleeve blouses, vests decorated with sequins or ribbons, pleated skirts in specific colors, and headwear ranging from floral crowns for unmarried women to distinctively tied headscarves for married women, all made from homemade linen and natural dyes. Though everyday use of the kroj vanished with industrialization, it still appears at weddings, folk festivals like the one in Východná, and religious celebrations, made today by a small number of artisans who preserve each region's embroidery techniques.",
+      },
+    },
+  },
 ];

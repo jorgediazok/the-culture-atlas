@@ -231,4 +231,50 @@ export const slovenia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "kurentovanje-el-carnaval-que-espanta-al-invierno",
+    order: 11,
+    placeholderEmoji: "🐐",
+    accentColor: "#A0334A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El disfraz peludo que ahuyenta al invierno a ruido",
+        subtitle: "Kurentovanje, el carnaval de Ptuj",
+        imageAlt: "Caricatura de una figura peluda con máscara de cuernos y cinturón de campanas saltando en la calle.",
+        description:
+          "Cada febrero, en la ciudad de Ptuj, la más antigua de Eslovenia, cientos de personas se disfrazan de kurenti: figuras cubiertas de pieles de oveja despeinadas, máscaras con cuernos y hocicos alargados, y pesados cinturones de campanas que hacen sonar a cada paso mientras recorren las calles saltando y agitando el cuerpo, en una tradición pagana de origen preeslavo cuya función original era ahuyentar al invierno y a los malos espíritus a puro ruido. El festival, llamado Kurentovanje, se celebra en las semanas previas a la Cuaresma y culmina con un gran desfile en Ptuj que reúne a grupos de kurenti llegados de toda Eslovenia, cada uno con variaciones regionales propias en la máscara y el vestuario, una tradición reconocida por la UNESCO como patrimonio cultural inmaterial en 2017 pese a haber sobrevivido intentos de prohibición durante distintos períodos del siglo XX.",
+      },
+      en: {
+        title: "The Shaggy Costume That Scares Off Winter With Noise",
+        subtitle: "Kurentovanje, the Ptuj Carnival",
+        imageAlt: "Cartoon of a shaggy figure with a horned mask and a belt of bells jumping in the street.",
+        description:
+          "Every February, in Ptuj, Slovenia's oldest town, hundreds of people dress as kurenti: figures covered in shaggy sheepskin, masks with horns and elongated snouts, and heavy belts of bells that clang with every step as they bound through the streets shaking their whole body, a pagan tradition of pre-Slavic origin whose original purpose was to scare off winter and evil spirits through sheer noise. The festival, called Kurentovanje, is held in the weeks before Lent and culminates in a big parade through Ptuj gathering kurenti groups from across Slovenia, each with its own regional variations in mask design and costume, a tradition recognized by UNESCO as intangible cultural heritage in 2017 despite having survived attempts to ban it during different periods of the 20th century.",
+      },
+    },
+  },
+  {
+    id: "lipica-cuna-del-caballo-lipizzano",
+    order: 12,
+    placeholderEmoji: "🐎",
+    accentColor: "#4A4A4A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cuna de la raza de caballos blancos más famosa",
+        subtitle: "Lipica, cuna del caballo lipizzano",
+        imageAlt: "Caricatura de un caballo blanco elegante al galope sobre un prado kárstico.",
+        description:
+          "En 1580, el archiduque austríaco Carlos II estableció en Lipica, una finca de suelo kárstico en el suroeste de Eslovenia, una yeguada real para criar caballos para la corte de los Habsburgo, cruzando ejemplares españoles, árabes y locales del Karst hasta fijar una raza propia que tomó el nombre del lugar: el lipizzano, hoy asociado mundialmente a la Escuela Española de Equitación de Viena, donde estos caballos ejecutan los movimientos clásicos de la doma de alta escuela. Aunque nacen de pelaje oscuro, casi todos los lipizzanos aclaran su capa hasta volverse blancos entre los seis y los diez años, una particularidad genética que se suma a su temperamento dócil y su longevidad poco común entre razas equinas. La yeguada de Lipica, en funcionamiento ininterrumpido salvo breves pausas por guerras, sigue criando lipizzanos hoy y puede visitarse para ver exhibiciones de doma clásica y potrillos oscuros que aún no cambiaron de color.",
+      },
+      en: {
+        title: "The Birthplace of the World's Most Famous White Horse",
+        subtitle: "Lipica, Birthplace of the Lipizzaner",
+        imageAlt: "Cartoon of an elegant white horse galloping across a karst meadow.",
+        description:
+          "In 1580, Austrian Archduke Charles II established a royal stud farm at Lipica, an estate on karst soil in southwestern Slovenia, to breed horses for the Habsburg court, crossing Spanish, Arabian, and local Karst horses until fixing a breed of its own that took the place's name: the Lipizzaner, today associated worldwide with the Spanish Riding School in Vienna, where these horses perform the classical movements of haute école dressage. Though born with dark coats, nearly all Lipizzaners gradually lighten to white between six and ten years of age, a genetic quirk paired with a docile temperament and unusually long lifespan among horse breeds. The Lipica stud farm, operating uninterrupted except for brief wartime pauses, still breeds Lipizzaners today and can be visited to watch classical dressage exhibitions and see dark foals that haven't changed color yet.",
+      },
+    },
+  },
 ];

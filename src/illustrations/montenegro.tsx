@@ -142,6 +142,59 @@ const ElAguilaBicefalaQueCompartaConSerbia: IllustrationComponent = () => (
   </g>
 );
 
+const ISLET_HOUSES: [number, number, number][] = [
+  [215, 190, 30],
+  [245, 175, 34],
+  [275, 190, 28],
+];
+
+const SvetiStefanLaIslaQueSeVolvioHotel: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const sea = "#1F6FA5";
+  const roof = "#B8452E";
+  return (
+    <g>
+      {/* sea */}
+      <rect x="90" y="80" width="230" height="170" fill={sea} opacity="0.35" />
+      {/* mainland coast on the left */}
+      <path d="M90 250 L90 190 Q120 175 145 195 L150 250 Z" fill="#8B8378" opacity="0.6" />
+      {/* sandy isthmus connecting to the islet */}
+      <path d="M150 235 Q195 225 225 235 L225 250 L150 250 Z" fill="#E8DCC0" stroke={dark} strokeWidth="2" />
+      {/* rocky islet base */}
+      <ellipse cx="255" cy="220" rx="65" ry="35" fill="#8B8378" opacity="0.7" />
+      {/* clustered stone houses with red roofs */}
+      {ISLET_HOUSES.map(([x, y, w]) => (
+        <g key={x}>
+          <rect x={x} y={y} width={w} height="26" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+          <polygon points={`${x - 4},${y} ${x + w / 2},${y - 18} ${x + w + 4},${y}`} fill={roof} stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const LaImprentaDeCetinjeUnaDeLasPrimerasEslavas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#6B4423";
+  return (
+    <g>
+      {/* press frame */}
+      <rect x="150" y="110" width="14" height="120" fill={wood} stroke={dark} strokeWidth="2" />
+      <rect x="246" y="110" width="14" height="120" fill={wood} stroke={dark} strokeWidth="2" />
+      <rect x="150" y="105" width="110" height="14" fill={wood} stroke={dark} strokeWidth="2" />
+      {/* screw mechanism */}
+      <rect x="195" y="119" width="20" height="55" fill={dark} opacity="0.6" />
+      {/* the platen pressing down on a sheet */}
+      <rect x="175" y="175" width="60" height="14" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <rect x="170" y="192" width="70" height="10" fill="#F5F0E6" stroke={dark} strokeWidth="1.5" />
+      {/* stack of finished books beside it */}
+      {[0, 1, 2].map((i) => (
+        <rect key={i} x="95" y={228 - i * 14} width="45" height="12" fill={i % 2 === 0 ? accentColor : dark} opacity="0.85" />
+      ))}
+    </g>
+  );
+};
+
 export const montenegroIllustrations: Record<string, IllustrationDefinition> = {
   "crna-gora-el-pais-de-la-montana-negra": { component: CrnaGoraElPaisDeLaMontanaNegra },
   "la-bahia-de-kotor-un-fiordo-que-no-lo-es": { component: LaBahiaDeKotorUnFiordoQueNoLoEs },
@@ -153,4 +206,6 @@ export const montenegroIllustrations: Record<string, IllustrationDefinition> = {
   "el-mausoleo-de-njegos-en-la-cima-del-lovcen": { component: ElMausoleoDeNjegosEnLaCimaDelLovcen },
   "el-lago-negro-glaciar-del-parque-durmitor": { component: ElLagoNegroGlaciarDelParqueDurmitor },
   "el-aguila-bicefala-que-comparte-con-serbia": { component: ElAguilaBicefalaQueCompartaConSerbia },
+  "sveti-stefan-la-isla-que-se-volvio-hotel": { component: SvetiStefanLaIslaQueSeVolvioHotel },
+  "la-imprenta-de-cetinje-una-de-las-primeras-eslavas": { component: LaImprentaDeCetinjeUnaDeLasPrimerasEslavas },
 };

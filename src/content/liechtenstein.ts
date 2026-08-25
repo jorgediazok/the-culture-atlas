@@ -231,4 +231,50 @@ export const liechtenstein: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "los-wenzel-la-dinastia-del-esqui-alpino",
+    order: 11,
+    placeholderEmoji: "⛷️",
+    accentColor: "#1565C0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La familia que ganó más medallas olímpicas per cápita",
+        subtitle: "Los Wenzel, la dinastía del esquí alpino",
+        imageAlt: "Caricatura de un esquiador bajando una pista nevada con una medalla al cuello.",
+        description:
+          "Liechtenstein, pese a tener apenas unos cuarenta mil habitantes, ostenta la mayor cantidad de medallas olímpicas de invierno per cápita de cualquier país del mundo, un logro que se explica en gran parte por una sola familia: los hermanos Hanni y Andreas Wenzel, esquiadores alpinos que dominaron el circuito mundial durante los años setenta y ochenta y sumaron juntos varias medallas olímpicas y mundiales para un país sin otra tradición deportiva de relieve internacional comparable. Hanni Wenzel, ganadora de dos medallas de oro y una de plata en los Juegos Olímpicos de Lake Placid 1980, se convirtió en la primera y hasta hoy más célebre atleta olímpica del país, y su hija, Tina Weirather, continuó décadas después la tradición familiar compitiendo también al máximo nivel del esquí alpino mundial, sosteniendo una herencia deportiva concentrada en una sola familia como pocas veces se ve en el deporte olímpico.",
+      },
+      en: {
+        title: "The Family With the Most Olympic Medals Per Capita",
+        subtitle: "The Wenzels, an Alpine Skiing Dynasty",
+        imageAlt: "Cartoon of a skier racing down a snowy slope with a medal around their neck.",
+        description:
+          "Liechtenstein, despite having barely forty thousand residents, holds the most Winter Olympic medals per capita of any country in the world, an achievement largely explained by a single family: siblings Hanni and Andreas Wenzel, alpine skiers who dominated the World Cup circuit through the 1970s and 1980s and together earned multiple Olympic and world championship medals for a country with no other sporting tradition of comparable international standing. Hanni Wenzel, winner of two gold medals and one silver at the 1980 Lake Placid Olympics, became the country's first and, to this day, most celebrated Olympic athlete, and her daughter, Tina Weirather, carried on the family tradition decades later, also competing at the top level of world alpine skiing, sustaining a sporting legacy concentrated in a single family rarely seen in Olympic sport.",
+      },
+    },
+  },
+  {
+    id: "la-hofkellerei-la-bodega-de-la-familia-principesca",
+    order: 12,
+    placeholderEmoji: "🍷",
+    accentColor: "#6B1A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La bodega familiar que el príncipe cultiva hace siglos",
+        subtitle: "La Hofkellerei, la bodega de la familia principesca",
+        imageAlt: "Caricatura de hileras de viñedos en una ladera con un castillo al fondo.",
+        description:
+          "La Hofkellerei des Fürsten von Liechtenstein, la bodega vitivinícola de la familia principesca, cultiva viñedos en las laderas que rodean el Castillo de Vaduz desde el siglo XIX, convirtiendo a la propia familia gobernante en una de las principales productoras de vino del país, algo poco habitual entre las monarquías europeas contemporáneas, la mayoría de las cuales dejó atrás hace tiempo cualquier actividad económica productiva directa. La bodega, que combina variedades como pinot noir y otras uvas adaptadas al clima particular del valle del Rin, vende sus botellas tanto en el propio Liechtenstein como en mercados internacionales, y sus etiquetas suelen mostrar el escudo de armas principesco, un detalle que convierte cada botella en un pequeño recordatorio de que, en Liechtenstein, la monarquía no solo gobierna: también embotella.",
+      },
+      en: {
+        title: "The Family Winery the Prince Has Tended for Centuries",
+        subtitle: "The Hofkellerei, the Princely Family's Winery",
+        imageAlt: "Cartoon of rows of vineyards on a hillside with a castle in the background.",
+        description:
+          "The Hofkellerei des Fürsten von Liechtenstein, the princely family's own winery, has cultivated vineyards on the slopes surrounding Vaduz Castle since the 19th century, making the ruling family itself one of the country's leading wine producers, something rare among contemporary European monarchies, most of which left behind any direct productive economic activity long ago. The winery, which grows pinot noir and other grape varieties suited to the particular climate of the Rhine valley, sells its bottles both within Liechtenstein and in international markets, and its labels typically display the princely coat of arms, a detail that turns every bottle into a small reminder that in Liechtenstein, the monarchy doesn't just govern: it also bottles wine.",
+      },
+    },
+  },
 ];

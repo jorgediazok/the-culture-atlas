@@ -206,6 +206,44 @@ const LaTelecabinaQueConectaSusDosCiudades: IllustrationComponent = ({ accentCol
   );
 };
 
+const TortaTresMontesElPostreNacional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.5);
+  return (
+    <g>
+      {/* plate */}
+      <ellipse cx="205" cy="240" rx="110" ry="14" fill={dark} opacity="0.2" />
+      {/* three stepped cake peaks, chocolate-dark peak tallest in the center */}
+      <polygon points="120,235 150,190 180,235" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <polygon points="170,235 205,150 240,235" fill={dark} stroke={dark} strokeWidth="2.5" />
+      <polygon points="230,235 260,190 290,235" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* wafer layer lines on the tallest peak */}
+      {[175, 195, 215].map((y) => (
+        <line key={y} x1="182" y1={y} x2="228" y2={y} stroke={light} strokeWidth="2" opacity="0.6" />
+      ))}
+    </g>
+  );
+};
+
+const LaCartaAAbrahamLincoln: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const parchment = tint(shade(accentColor, 0.1), 0.65);
+  const wax = "#B71C1C";
+  return (
+    <g>
+      {/* folded letter */}
+      <rect x="130" y="150" width="150" height="100" fill={parchment} stroke={dark} strokeWidth="3" />
+      <path d="M130 150 L205 205 L280 150" fill="none" stroke={dark} strokeWidth="2.5" />
+      {/* wax seal */}
+      <circle cx="205" cy="205" r="18" fill={wax} stroke={shade(wax, 0.3)} strokeWidth="2" />
+      <circle cx="205" cy="205" r="9" fill="none" stroke={shade(wax, 0.5)} strokeWidth="1.5" />
+      {/* quill */}
+      <line x1="290" y1="230" x2="255" y2="140" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <path d="M255 140 L268 122 L262 136 L272 132 L258 152 Z" fill={dark} />
+    </g>
+  );
+};
+
 export const sanMarinoIllustrations: Record<string, IllustrationDefinition> = {
   "la-republica-mas-antigua-del-mundo": { component: LaRepublicaMasAntiguaDelMundo },
   "las-tres-torres-del-monte-titano": { component: LasTresTorresDelMonteTitano },
@@ -217,4 +255,6 @@ export const sanMarinoIllustrations: Record<string, IllustrationDefinition> = {
   "el-registro-naval-de-un-pais-que-no-tiene-mar": { component: ElRegistroNavalDeUnPaisQueNoTieneMar },
   "las-estampillas-codiciadas-por-coleccionistas": { component: LasEstampillasCodiciadasPorColeccionistas },
   "la-telecabina-que-conecta-sus-dos-ciudades": { component: LaTelecabinaQueConectaSusDosCiudades },
+  "torta-tres-montes-el-postre-nacional": { component: TortaTresMontesElPostreNacional },
+  "la-carta-a-abraham-lincoln": { component: LaCartaAAbrahamLincoln },
 };

@@ -134,6 +134,62 @@ const BelfastLinenopolisLaCapitalDelLino: IllustrationComponent = ({ accentColor
   );
 };
 
+const BUSHMILLS_BARRELS: [number, number][] = [
+  [255, 34],
+  [290, 30],
+];
+
+const BushmillsLaDestileriaConLicenciaMasAntigua: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const copper = "#C2703B";
+  return (
+    <g>
+      {/* copper pot still */}
+      <ellipse cx="170" cy="205" rx="45" ry="32" fill={copper} stroke={dark} strokeWidth="3" />
+      <path d="M170 173 Q150 130 190 108 Q205 100 218 110" fill="none" stroke={copper} strokeWidth="13" strokeLinecap="round" />
+      <ellipse cx="218" cy="110" rx="11" ry="8" fill={copper} stroke={dark} strokeWidth="2" />
+      {/* stacked wooden barrels */}
+      {BUSHMILLS_BARRELS.map(([x, w]) => (
+        <g key={x}>
+          <rect x={x - w / 2} y="195" width={w} height="50" rx="8" fill="#8B5A2B" stroke={dark} strokeWidth="2.5" />
+          <line x1={x - w / 2} y1="210" x2={x + w / 2} y2="210" stroke={dark} strokeWidth="2" opacity="0.5" />
+          <line x1={x - w / 2} y1="230" x2={x + w / 2} y2="230" stroke={dark} strokeWidth="2" opacity="0.5" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const SNOWFLAKE_POINTS: [number, number][] = [
+  [100, 140],
+  [190, 120],
+  [240, 150],
+  [280, 130],
+];
+
+const CsLewisYLasMontanasQueInspiraronNarnia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const snow = "#F5F0E6";
+  return (
+    <g>
+      {/* rolling green mountains */}
+      <path d="M90 250 Q140 170 190 210 Q230 150 270 205 Q300 175 320 210 L320 250 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* snow patches on the peaks */}
+      <path d="M120 195 Q140 170 160 195 Q145 200 130 200 Z" fill={snow} opacity="0.85" />
+      <path d="M210 175 Q230 150 250 178 Q235 182 218 182 Z" fill={snow} opacity="0.85" />
+      {/* lone iron lamppost in the foreground */}
+      <line x1="150" y1="250" x2="150" y2="145" stroke="#37474F" strokeWidth="6" />
+      <rect x="138" y="120" width="24" height="32" fill="#37474F" stroke={dark} strokeWidth="2" />
+      <polygon points="132,120 168,120 150,105" fill="#37474F" stroke={dark} strokeWidth="2" />
+      <circle cx="150" cy="136" r="7" fill="#F4A300" opacity="0.85" />
+      {/* falling snow */}
+      {SNOWFLAKE_POINTS.map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="3" fill={snow} opacity="0.8" />
+      ))}
+    </g>
+  );
+};
+
 export const northernIrelandIllustrations: Record<string, IllustrationDefinition> = {
   "giants-causeway-las-columnas-de-basalto": { component: GiantsCausewayLasColumnasDeBasalto },
   "titanic-belfast-el-barco-que-nacio-aqui": { component: TitanicBelfastElBarcoQueNacioAqui },
@@ -145,4 +201,6 @@ export const northernIrelandIllustrations: Record<string, IllustrationDefinition
   "el-ulster-fry-el-desayuno-completo": { component: ElUlsterFryElDesayunoCompleto },
   "lough-neagh-el-lago-mas-grande": { component: LoughNeaghElLagoMasGrande },
   "belfast-linenopolis-la-capital-del-lino": { component: BelfastLinenopolisLaCapitalDelLino },
+  "bushmills-la-destileria-con-licencia-mas-antigua": { component: BushmillsLaDestileriaConLicenciaMasAntigua },
+  "cs-lewis-y-las-montanas-que-inspiraron-narnia": { component: CsLewisYLasMontanasQueInspiraronNarnia },
 };

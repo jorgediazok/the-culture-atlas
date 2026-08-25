@@ -251,4 +251,54 @@ export const faroeIslands: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "la-victoria-imposible-del-futbol-feroes",
+    order: 11,
+    placeholderEmoji: "⚽",
+    accentColor: "#1B4B91",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La selección amateur que venció a una potencia europea",
+        subtitle: "El milagro futbolístico feroés de 1990",
+        imageAlt:
+          "Caricatura de un jugador de fútbol festejando un gol frente a un estadio pequeño de gradas de madera.",
+        description:
+          "El 12 de junio de 1990, la selección de fútbol de las Islas Feroe disputó su primer partido oficial de una fase clasificatoria internacional, contra Austria, por la Eurocopa de 1992, y protagonizó una de las sorpresas más recordadas del fútbol europeo al ganar 1 a 0 con un gol de Torkil Nielsen, pese a que el equipo estaba compuesto casi enteramente por jugadores amateurs con trabajos de tiempo completo como pescadores, maestros o empleados de banco. El partido, jugado en Suecia porque las islas todavía no contaban con un estadio homologado para competencias internacionales, generó titulares en toda Europa por la magnitud de la sorpresa: un archipiélago de apenas unas cuarenta mil personas venciendo a un país con más de siete millones de habitantes y una liga profesional consolidada. Aunque el equipo feroés nunca clasificó a un torneo mayor, ese resultado sigue citado hoy como uno de los grandes milagros deportivos en la historia de las selecciones pequeñas.",
+      },
+      en: {
+        title: "The Amateur Team That Beat a European Football Power",
+        subtitle: "The 1990 Faroese Football Miracle",
+        imageAlt:
+          "Cartoon of a soccer player celebrating a goal in front of a small wooden-bleacher stadium.",
+        description:
+          "On June 12, 1990, the Faroe Islands national football team played its first official international qualifying match, against Austria for the 1992 European Championship, and produced one of the most talked-about upsets in European football history by winning 1-0 with a goal from Torkil Nielsen, despite fielding a squad made up almost entirely of amateur players holding full-time jobs as fishermen, teachers, or bank clerks. The match, played in Sweden because the islands still had no stadium certified for international competition, made headlines across Europe given the sheer size of the surprise: an archipelago of barely forty thousand people beating a country of more than seven million with an established professional league. Though the Faroese team never qualified for a major tournament, that result is still cited today as one of the great sporting miracles in the history of small national teams.",
+      },
+    },
+  },
+  {
+    id: "la-rotonda-submarina-con-arte-de-luz",
+    order: 12,
+    placeholderEmoji: "🚗",
+    accentColor: "#3E2E6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La rotonda que está sesenta metros bajo el mar",
+        subtitle: "El túnel de Eysturoy y su rotonda submarina",
+        imageAlt:
+          "Caricatura de un auto circulando por una rotonda iluminada con luces de colores dentro de un túnel bajo el agua.",
+        description:
+          "El Eysturoyartunnilin, inaugurado en 2020 para conectar la isla de Streymoy con Eysturoy por debajo del mar, alberga a sesenta metros de profundidad una característica única en el mundo: una rotonda submarina totalmente iluminada con arte de luz permanente, diseñada por el artista feroés Tróndur Patursson, que ilumina las paredes del túnel con figuras humanas tomadas de la mano formando una cadena, en referencia directa a la tradición de la danza en cadena feroesa. El túnel, de once kilómetros de longitud, redujo un trayecto que antes exigía tomar un ferry a apenas unos quince minutos en auto, un cambio significativo para un archipiélago cuya conectividad interna dependió durante siglos casi enteramente del mar. La rotonda submarina se convirtió casi de inmediato en un punto de interés turístico en sí mismo, una combinación inesperada de infraestructura vial y arte público que resume bien el enfoque feroés de mezclar necesidad práctica con identidad cultural.",
+      },
+      en: {
+        title: "The Roundabout Sixty Meters Beneath the Sea",
+        subtitle: "The Eysturoy Tunnel and Its Undersea Roundabout",
+        imageAlt:
+          "Cartoon of a car driving through a roundabout lit with colorful lights inside an undersea tunnel.",
+        description:
+          "The Eysturoyartunnilin, opened in 2020 to connect the island of Streymoy with Eysturoy beneath the sea, holds sixty meters down a feature unique in the world: a fully lit undersea roundabout with permanent light art, designed by Faroese artist Tróndur Patursson, illuminating the tunnel walls with human figures holding hands in a chain, a direct reference to the tradition of the Faroese chain dance. The eleven-kilometer tunnel cut a trip that once required a ferry crossing down to just about fifteen minutes by car, a major change for an archipelago whose internal connectivity depended almost entirely on the sea for centuries. The undersea roundabout became a tourist point of interest almost immediately in its own right, an unexpected blend of road infrastructure and public art that sums up the Faroese approach of mixing practical necessity with cultural identity.",
+      },
+    },
+  },
 ];

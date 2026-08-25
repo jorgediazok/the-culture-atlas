@@ -181,6 +181,63 @@ const ElSenderoQueCruzaElPaisDePuntaAPunta: IllustrationComponent = ({ accentCol
   );
 };
 
+const LosWenzelLaDinastiaDelEsquiAlpino: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  const snow = "#F5F0E6";
+  const gold = "#D4AF37";
+  return (
+    <g>
+      {/* snowy slope */}
+      <path d="M90 250 Q205 200 320 250 L320 260 L90 260 Z" fill={snow} opacity="0.6" />
+      {/* skier body, leaning into the turn */}
+      <circle cx="205" cy="140" r="16" fill={skin} />
+      <path d="M190 155 Q205 148 220 155 L214 205 L196 205 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* medal around the neck */}
+      <circle cx="205" cy="168" r="8" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="1.5" />
+      {/* bent legs */}
+      <path d="M198 200 Q185 215 178 244" stroke={dark} strokeWidth="9" strokeLinecap="round" fill="none" />
+      <path d="M212 200 Q225 215 232 244" stroke={dark} strokeWidth="9" strokeLinecap="round" fill="none" />
+      {/* skis */}
+      <line x1="155" y1="245" x2="205" y2="245" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+      <line x1="205" y1="245" x2="255" y2="245" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+      {/* poles */}
+      <line x1="190" y1="165" x2="165" y2="210" stroke={dark} strokeWidth="3" strokeLinecap="round" />
+      <line x1="220" y1="165" x2="245" y2="210" stroke={dark} strokeWidth="3" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const LaHofkellereiLaBodegaDeLaFamiliaPrincipesca: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const leaf = "#3C7A4B";
+  return (
+    <g>
+      {/* hillside */}
+      <path d="M90 250 Q205 195 320 250 Z" fill={dark} opacity="0.2" />
+      {/* small castle silhouette on the ridge */}
+      <rect x="255" y="165" width="16" height="30" fill={dark} opacity="0.6" />
+      <polygon points="252,165 263,150 274,165" fill={dark} opacity="0.6" />
+      {/* rows of vines receding up the slope */}
+      {[
+        [110, 245, 300, 245],
+        [125, 225, 285, 225],
+        [140, 208, 270, 208],
+        [155, 193, 255, 193],
+      ].map(([x1, y1, x2, y2]) => (
+        <line key={x1} x1={x1} y1={y1} x2={x2} y2={y2} stroke={dark} strokeWidth="2" opacity="0.5" />
+      ))}
+      {/* grape clusters dotting the front row */}
+      {[130, 160, 190, 220, 250, 280].map((x) => (
+        <circle key={x} cx={x} cy="244" r="6" fill={accentColor} stroke={dark} strokeWidth="1.2" />
+      ))}
+      <circle cx="145" cy="240" r="4" fill={leaf} />
+      <circle cx="205" cy="238" r="4" fill={leaf} />
+      <circle cx="265" cy="240" r="4" fill={leaf} />
+    </g>
+  );
+};
+
 export const liechtensteinIllustrations: Record<string, IllustrationDefinition> = {
   "uno-de-los-dos-unicos-paises-doblemente-sin-mar": { component: UnoDeLosDosUnicosPaisesDoblementeSinMar },
   "el-principe-que-todavia-gobierna-de-verdad": { component: ElPrincipeQueTodaviaGobiernaDeVerdad },
@@ -192,4 +249,6 @@ export const liechtensteinIllustrations: Record<string, IllustrationDefinition> 
   "el-pais-entero-se-puede-alquilar-por-un-dia": { component: ElPaisEnteroSePuedeAlquilarPorUnDia },
   "un-aleman-que-no-suena-como-el-de-los-libros": { component: UnAlemanQueNoSuenaComoElDeLosLibros },
   "el-sendero-que-cruza-el-pais-de-punta-a-punta": { component: ElSenderoQueCruzaElPaisDePuntaAPunta },
+  "los-wenzel-la-dinastia-del-esqui-alpino": { component: LosWenzelLaDinastiaDelEsquiAlpino },
+  "la-hofkellerei-la-bodega-de-la-familia-principesca": { component: LaHofkellereiLaBodegaDeLaFamiliaPrincipesca },
 };

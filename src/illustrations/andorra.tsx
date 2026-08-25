@@ -168,6 +168,44 @@ const ElSantuarioQueRenacioDeUnIncendio: IllustrationComponent = ({ accentColor 
   );
 };
 
+const VallDelMadriuPatrimonioDeLaUnesco: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  const water = "#3D8FB0";
+  return (
+    <g>
+      {/* valley slopes */}
+      <polygon points="90,250 160,110 230,250" fill={accentColor} />
+      <polygon points="180,250 250,130 320,250" fill={light} />
+      {/* winding stream through the valley floor */}
+      <path d="M110 250 Q150 220 130 195 Q110 170 150 150 Q190 130 205 105" fill="none" stroke={water} strokeWidth="10" strokeLinecap="round" />
+      {/* dry-stone hut */}
+      <rect x="235" y="205" width="40" height="35" fill={dark} />
+      <polygon points="228,205 255,178 282,205" fill={dark} />
+    </g>
+  );
+};
+
+const CaldeaElMayorSpaTermalDelSurDeEuropa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  const steam = "#F5F0E6";
+  return (
+    <g>
+      {/* building base */}
+      <rect x="140" y="175" width="130" height="70" fill={accentColor} />
+      {/* glass peak tower */}
+      <polygon points="205,90 245,175 165,175" fill={light} />
+      <line x1="205" y1="90" x2="205" y2="175" stroke={dark} strokeWidth="3" opacity="0.5" />
+      {/* pool in front */}
+      <ellipse cx="205" cy="245" rx="90" ry="16" fill="#3D8FB0" opacity="0.7" />
+      {/* rising steam */}
+      <path d="M175 230 Q170 210 180 195" fill="none" stroke={steam} strokeWidth="6" strokeLinecap="round" opacity="0.7" />
+      <path d="M235 230 Q230 210 240 195" fill="none" stroke={steam} strokeWidth="6" strokeLinecap="round" opacity="0.7" />
+    </g>
+  );
+};
+
 export const andorraIllustrations: Record<string, IllustrationDefinition> = {
   "dos-jefes-de-estado-extranjeros": { component: DosJefesDeEstadoExtranjeros },
   "parlamento-que-funciona-desde-1419": { component: ParlamentoQueFuncionaDesde1419 },
@@ -179,4 +217,6 @@ export const andorraIllustrations: Record<string, IllustrationDefinition> = {
   "el-cultivo-de-tabaco-que-alimento-el-contrabando": { component: ElCultivoDeTabacoQueAlimentoElContrabando },
   "una-de-las-mayores-esperanzas-de-vida-del-mundo": { component: UnaDeLasMayoresEsperanzasDeVidaDelMundo },
   "el-santuario-que-renacio-de-un-incendio": { component: ElSantuarioQueRenacioDeUnIncendio },
+  "vall-del-madriu-patrimonio-de-la-unesco": { component: VallDelMadriuPatrimonioDeLaUnesco },
+  "caldea-el-mayor-spa-termal-del-sur-de-europa": { component: CaldeaElMayorSpaTermalDelSurDeEuropa },
 };

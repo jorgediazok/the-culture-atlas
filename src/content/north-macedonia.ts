@@ -231,4 +231,50 @@ export const northMacedonia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "kokino-el-observatorio-megalitico-milenario",
+    order: 11,
+    placeholderEmoji: "🌞",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El observatorio de piedra de hace más de tres mil años",
+        subtitle: "Kokino, un observatorio megalítico",
+        imageAlt: "Caricatura de piedras verticales dispuestas en círculo sobre una colina alineadas con el sol naciente.",
+        description:
+          "En la cima de un cerro volcánico en el noreste de Macedonia del Norte, el sitio arqueológico de Kokino conserva los restos de un observatorio astronómico construido hace más de tres mil ochocientos años por comunidades de la Edad de Bronce, con marcadores de piedra tallados en la roca que permitían seguir con precisión los solsticios, equinoccios y ciertas fases de la luna a simple vista. Descubierto recién en 2001 por un arqueólogo local que investigaba fragmentos de cerámica hallados en la zona, el sitio fue incluido en 2005 en la lista de la NASA de los observatorios antiguos más importantes del mundo, uno de apenas un puñado de sitios prehistóricos reconocidos con ese honor a nivel global. Kokino demuestra que las comunidades balcánicas ya poseían conocimientos astronómicos sofisticados milenios antes de cualquier registro escrito, y hoy el sitio puede visitarse siguiendo los mismos alineamientos solares que sus constructores calcularon a ojo.",
+      },
+      en: {
+        title: "The Stone Observatory Built Over 3,000 Years Ago",
+        subtitle: "Kokino, a Megalithic Observatory",
+        imageAlt: "Cartoon of upright stones arranged in a circle on a hilltop, aligned with the rising sun.",
+        description:
+          "Atop a volcanic hill in northeastern North Macedonia, the archaeological site of Kokino preserves the remains of an astronomical observatory built more than three thousand eight hundred years ago by Bronze Age communities, with stone markers carved directly into the rock that let them precisely track solstices, equinoxes, and certain phases of the moon with the naked eye. Discovered only in 2001 by a local archaeologist investigating pottery fragments found in the area, the site was added in 2005 to NASA's list of the world's most important ancient observatories, one of just a handful of prehistoric sites ever given that global recognition. Kokino shows that Balkan communities already held sophisticated astronomical knowledge millennia before any written record, and today the site can be visited by following the same solar alignments its original builders calculated by eye.",
+      },
+    },
+  },
+  {
+    id: "el-carnaval-de-vevcani-mascaras-paganas",
+    order: 12,
+    placeholderEmoji: "🎭",
+    accentColor: "#7A2E2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El carnaval de máscaras que sobrevivió al comunismo",
+        subtitle: "El Carnaval de Vevčani, tradición pagana",
+        imageAlt: "Caricatura de una persona con una máscara grotesca de madera y ropa harapienta bailando junto a una hoguera.",
+        description:
+          "El Carnaval de Vevčani, celebrado cada 13 y 14 de enero según el calendario juliano ortodoxo para marcar el Año Nuevo antiguo, mantiene vivas raíces paganas preslavas de rituales destinados a espantar a los malos espíritus del invierno, con participantes que desfilan cubiertos con máscaras grotescas talladas en madera, cuero o cartón piedra y disfraces que suelen incluir sátiras de políticos y figuras públicas del año que termina. Pese a los intentos del régimen comunista yugoslavo de suprimir la celebración por considerarla una expresión religiosa y política peligrosa, los habitantes de este pequeño pueblo cercano a Ohrid lograron mantenerla viva de forma clandestina durante décadas, hasta recuperar su celebración pública sin restricciones tras la caída del comunismo. Hoy, considerado uno de los carnavales de máscaras más antiguos de Europa, atrae a miles de visitantes fascinados por su mezcla de humor político actual y ritual ancestral.",
+      },
+      en: {
+        title: "The Mask Carnival That Survived Communism",
+        subtitle: "The Vevčani Carnival, a Pagan Tradition",
+        imageAlt: "Cartoon of a person in a grotesque wooden mask and ragged clothing dancing beside a bonfire.",
+        description:
+          "The Vevčani Carnival, held every January 13th and 14th following the Orthodox Julian calendar to mark the old New Year, keeps alive pre-Slavic pagan roots in rituals meant to scare off winter's evil spirits, with participants parading in grotesque masks carved from wood, leather, or papier-mâché and costumes that usually include sharp satire of politicians and public figures from the outgoing year. Despite attempts by the Yugoslav communist regime to suppress the celebration as a dangerous religious and political expression, residents of this small town near Ohrid managed to keep it alive clandestinely for decades, until it regained its unrestricted public celebration after the fall of communism. Today, considered one of Europe's oldest mask carnivals, it draws thousands of visitors fascinated by its blend of current political humor and ancestral ritual.",
+      },
+    },
+  },
 ];

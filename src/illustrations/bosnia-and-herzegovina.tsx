@@ -158,6 +158,59 @@ const LasPiramidesDeVisokoUnaTeoriaControvertida: IllustrationComponent = ({ acc
   );
 };
 
+const HANGING_UTENSIL_X: [number, number][] = [
+  [110, 14],
+  [140, 10],
+  [275, 10],
+  [305, 14],
+];
+
+const LosCaldererosDeBascarsijaKazandziluk: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  const copper = "#C2703B";
+  return (
+    <g>
+      {/* workshop awning */}
+      <rect x="90" y="100" width="230" height="16" fill={dark} opacity="0.5" />
+      {/* hanging copper utensils */}
+      {HANGING_UTENSIL_X.map(([x, rx]) => (
+        <g key={x}>
+          <line x1={x} y1="116" x2={x} y2="140" stroke={dark} strokeWidth="2" opacity="0.6" />
+          <ellipse cx={x} cy="150" rx={rx} ry={24 - rx} fill={copper} stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
+      {/* seated artisan */}
+      <circle cx="205" cy="145" r="18" fill={skin} />
+      <path d="M187 168 Q205 158 223 168 L216 225 L194 225 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* copper pot being worked on */}
+      <ellipse cx="205" cy="235" rx="36" ry="14" fill={copper} stroke={dark} strokeWidth="2.5" />
+      {/* hammer arm mid-strike */}
+      <path d="M223 190 L255 175" stroke={skin} strokeWidth="10" strokeLinecap="round" />
+      <rect x="250" y="160" width="10" height="26" rx="2" fill={dark} transform="rotate(25 255 173)" />
+    </g>
+  );
+};
+
+const PerucicaUnoDeLosUltimosBosquesVirgenesDeEuropa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const canopy = tint(accentColor, 0.15);
+  return (
+    <g>
+      {/* three massive ancient trunks */}
+      <rect x="120" y="150" width="26" height="100" fill={dark} />
+      <rect x="192" y="130" width="32" height="120" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="265" y="155" width="24" height="95" fill={dark} opacity="0.85" />
+      {/* dense canopy clusters covering each trunk's top seam */}
+      <ellipse cx="133" cy="145" rx="42" ry="30" fill={canopy} stroke={dark} strokeWidth="2" />
+      <ellipse cx="208" cy="120" rx="55" ry="38" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="277" cy="150" rx="40" ry="28" fill={canopy} stroke={dark} strokeWidth="2" />
+      {/* undergrowth ferns at the base */}
+      <path d="M150 250 Q160 225 175 250 M225 250 Q235 225 250 250" fill="none" stroke={dark} strokeWidth="4" strokeLinecap="round" opacity="0.5" />
+    </g>
+  );
+};
+
 export const bosniaAndHerzegovinaIllustrations: Record<string, IllustrationDefinition> = {
   "sarajevo-donde-se-cruzan-cuatro-religiones": { component: SarajevoDondeSeCruzanCuatroReligiones },
   "los-clavadistas-del-puente-viejo-de-mostar": { component: LosClavadistasDelPuenteViejoDeMostar },
@@ -169,4 +222,6 @@ export const bosniaAndHerzegovinaIllustrations: Record<string, IllustrationDefin
   "neum-los-veinte-kilometros-de-costa-del-pais": { component: NeumLosVeinteKilometrosDeCostaDelPais },
   "sevdalinka-el-blues-de-los-balcanes": { component: SevdalinkaElBluesDeLosBalcanes },
   "las-piramides-de-visoko-una-teoria-controvertida": { component: LasPiramidesDeVisokoUnaTeoriaControvertida },
+  "los-caldereros-de-bascarsija-kazandziluk": { component: LosCaldererosDeBascarsijaKazandziluk },
+  "perucica-uno-de-los-ultimos-bosques-virgenes-de-europa": { component: PerucicaUnoDeLosUltimosBosquesVirgenesDeEuropa },
 };

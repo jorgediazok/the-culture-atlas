@@ -258,6 +258,45 @@ const LaMayorTasaDeDelitosPerCapitaDelMundo: IllustrationComponent = ({ accentCo
   );
 };
 
+const LosJardinesVaticanosLaMitadDelTerritorio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.5);
+  const hedge = shade(accentColor, 0.15);
+  return (
+    <g>
+      {/* geometric parterre beds framing the fountain */}
+      <rect x="150" y="165" width="45" height="45" fill={hedge} stroke={dark} strokeWidth="1.5" />
+      <rect x="205" y="165" width="45" height="45" fill={hedge} stroke={dark} strokeWidth="1.5" />
+      <rect x="150" y="165" width="100" height="8" fill={dark} opacity="0.5" />
+      {/* central fountain */}
+      <ellipse cx="200" cy="212" rx="30" ry="9" fill={light} stroke={dark} strokeWidth="1.5" />
+      <rect x="192" y="188" width="16" height="24" fill={light} stroke={dark} strokeWidth="1.5" />
+      <path d="M200 188 Q192 172 200 160 Q208 172 200 188 Z" fill={tint(accentColor, 0.4)} opacity="0.8" />
+      {/* clipped topiary flanking the beds */}
+      <circle cx="172" cy="150" r="10" fill={hedge} stroke={dark} strokeWidth="1.2" />
+      <circle cx="228" cy="150" r="10" fill={hedge} stroke={dark} strokeWidth="1.2" />
+    </g>
+  );
+};
+
+const LaFumataLaSenalDeUnPapaNuevo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const light = tint(accentColor, 0.6);
+  const smoke = "#F5F0E6";
+  return (
+    <g>
+      {/* rooftop */}
+      <polygon points="140,210 200,175 260,210" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <rect x="140" y="210" width="120" height="14" fill={dark} opacity="0.5" />
+      {/* chimney */}
+      <rect x="208" y="150" width="20" height="45" fill={light} stroke={dark} strokeWidth="1.5" />
+      {/* rising smoke */}
+      <path d="M218 150 Q205 130 220 112 Q232 96 218 78" fill="none" stroke={smoke} strokeWidth="10" strokeLinecap="round" opacity="0.9" />
+      <path d="M218 150 Q205 130 220 112 Q232 96 218 78" fill="none" stroke={dark} strokeWidth="10.5" strokeLinecap="round" opacity="0.12" />
+    </g>
+  );
+};
+
 export const vaticanCityIllustrations: Record<string, IllustrationDefinition> = {
   "el-pais-soberano-mas-pequeno-del-mundo": { component: ElPaisSoberanoMasPequenoDelMundo },
   "el-papa-la-ultima-monarquia-absoluta-de-europa": { component: ElPapaLaUltimaMonarquiaAbsolutaDeEuropa },
@@ -269,4 +308,6 @@ export const vaticanCityIllustrations: Record<string, IllustrationDefinition> = 
   "la-basilica-de-san-pedro-la-iglesia-mas-grande": { component: LaBasilicaDeSanPedroLaIglesiaMasGrande },
   "el-banco-vaticano-una-institucion-financiera-unica": { component: ElBancoVaticanoUnaInstitucionFinancieraUnica },
   "la-mayor-tasa-de-delitos-per-capita-del-mundo": { component: LaMayorTasaDeDelitosPerCapitaDelMundo },
+  "los-jardines-vaticanos-la-mitad-del-territorio": { component: LosJardinesVaticanosLaMitadDelTerritorio },
+  "la-fumata-la-senal-de-un-papa-nuevo": { component: LaFumataLaSenalDeUnPapaNuevo },
 };

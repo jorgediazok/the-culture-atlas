@@ -196,6 +196,44 @@ const LaBanderaDisenadaParaNoRepresentarANadieEnParticular: IllustrationComponen
   );
 };
 
+const DokufestElFestivalDeDocumentalesDePrizren: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      {/* fortress silhouette on the hill behind */}
+      <polygon points="90,240 130,150 170,240" fill={dark} opacity="0.4" />
+      <rect x="115" y="165" width="10" height="20" fill={dark} opacity="0.4" />
+      <rect x="135" y="165" width="10" height="20" fill={dark} opacity="0.4" />
+      {/* projection screen */}
+      <rect x="170" y="140" width="140" height="90" fill="#1A1A1A" stroke={dark} strokeWidth="3" />
+      <rect x="180" y="150" width="120" height="70" fill={light} />
+      {/* projected film frame */}
+      <rect x="200" y="165" width="80" height="40" fill={accentColor} opacity="0.7" />
+      {/* screen stand legs */}
+      <line x1="185" y1="230" x2="175" y2="250" stroke={dark} strokeWidth="4" />
+      <line x1="295" y1="230" x2="305" y2="250" stroke={dark} strokeWidth="4" />
+    </g>
+  );
+};
+
+const LaBesaLaPalabraDeHonorAlbanesa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  const skin = "#C68642";
+  return (
+    <g>
+      {/* open house doorway */}
+      <rect x="140" y="120" width="120" height="120" fill={light} stroke={dark} strokeWidth="3" />
+      <path d="M170 240 L170 165 Q170 150 200 150 Q230 150 230 165 L230 240 Z" fill={dark} opacity="0.6" />
+      {/* two forearms reaching in from either side, clasping hands */}
+      <path d="M120 210 L185 195" stroke={skin} strokeWidth="14" strokeLinecap="round" />
+      <path d="M280 210 L215 195" stroke={skin} strokeWidth="14" strokeLinecap="round" />
+      <circle cx="200" cy="197" r="12" fill={skin} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
 export const kosovoIllustrations: Record<string, IllustrationDefinition> = {
   "uno-de-los-paises-mas-jovenes-del-mundo": { component: UnoDeLosPaisesMasJovenesDelMundo },
   "el-monumento-que-se-repinta-cada-ano": { component: ElMonumentoQueSeRepintaCadaAno },
@@ -207,4 +245,6 @@ export const kosovoIllustrations: Record<string, IllustrationDefinition> = {
   "prizren-cuna-del-movimiento-nacional-albanes": { component: PrizrenCunaDelMovimientoNacionalAlbanes },
   "el-queso-pastoril-de-las-montanas-sar": { component: ElQuesoPastorilDeLasMontanasSar },
   "la-bandera-disenada-para-no-representar-a-nadie-en-particular": { component: LaBanderaDisenadaParaNoRepresentarANadieEnParticular },
+  "dokufest-el-festival-de-documentales-de-prizren": { component: DokufestElFestivalDeDocumentalesDePrizren },
+  "la-besa-la-palabra-de-honor-albanesa": { component: LaBesaLaPalabraDeHonorAlbanesa },
 };

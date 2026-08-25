@@ -164,6 +164,57 @@ const OhridCunaDeLaEscrituraEslava: IllustrationComponent = ({ accentColor }) =>
   );
 };
 
+const STONE_DATA: [number, number][] = [
+  [125, 60],
+  [160, 75],
+  [205, 85],
+  [250, 75],
+  [285, 60],
+];
+
+const KokinoElObservatorioMegaliticoMilenario: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const sun = "#F4A300";
+  return (
+    <g>
+      {/* hilltop */}
+      <path d="M90 250 Q205 200 320 250 Z" fill={dark} opacity="0.25" />
+      {/* rising sun with rays */}
+      <circle cx="205" cy="110" r="24" fill={sun} opacity="0.9" />
+      <line x1="205" y1="80" x2="205" y2="60" stroke={sun} strokeWidth="4" strokeLinecap="round" opacity="0.6" />
+      <line x1="178" y1="92" x2="160" y2="78" stroke={sun} strokeWidth="4" strokeLinecap="round" opacity="0.6" />
+      <line x1="232" y1="92" x2="250" y2="78" stroke={sun} strokeWidth="4" strokeLinecap="round" opacity="0.6" />
+      {/* ring of megalithic standing stones */}
+      {STONE_DATA.map(([x, h]) => (
+        <rect key={x} x={x - 9} y={250 - h} width="18" height={h} fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      ))}
+    </g>
+  );
+};
+
+const ElCarnavalDeVevcaniMascarasPaganas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  const fire = "#E8622C";
+  return (
+    <g>
+      {/* bonfire */}
+      <path d="M255 250 Q245 220 260 200 Q270 220 258 235 Q280 215 275 190 Q295 215 285 245 Q290 235 295 245 L295 250 Z" fill={fire} opacity="0.85" />
+      {/* dancer body, mid-step */}
+      <path d="M150 250 L155 190 Q155 175 175 175 Q195 175 195 190 L200 250 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* grotesque wooden mask */}
+      <path d="M155 175 Q155 145 175 140 Q195 145 195 175 Q175 190 155 175 Z" fill="#8B5A2B" stroke={dark} strokeWidth="2.5" />
+      {/* horns/tufts on the mask */}
+      <path d="M158 148 L148 128 L166 142 Z" fill={dark} />
+      <path d="M192 148 L202 128 L184 142 Z" fill={dark} />
+      {/* wide grotesque mouth */}
+      <path d="M162 172 Q175 182 188 172" fill="none" stroke={dark} strokeWidth="3" />
+      {/* one arm raised */}
+      <path d="M155 195 Q130 185 118 160" stroke={skin} strokeWidth="9" strokeLinecap="round" fill="none" />
+    </g>
+  );
+};
+
 export const northMacedoniaIllustrations: Record<string, IllustrationDefinition> = {
   "el-pais-que-cambio-de-nombre-en-2019": { component: ElPaisQueCambioDeNombreEn2019 },
   "el-lago-ohrid-y-la-leyenda-de-365-iglesias": { component: ElLagoOhridYLaLeyendaDe365Iglesias },
@@ -175,4 +226,6 @@ export const northMacedoniaIllustrations: Record<string, IllustrationDefinition>
   "el-canon-de-matka-y-sus-monasterios": { component: ElCanonDeMatkaYSusMonasterios },
   "las-perlas-de-ohrid-una-receta-secreta": { component: LasPerlasDeOhridUnaRecetaSecreta },
   "ohrid-cuna-de-la-escritura-eslava": { component: OhridCunaDeLaEscrituraEslava },
+  "kokino-el-observatorio-megalitico-milenario": { component: KokinoElObservatorioMegaliticoMilenario },
+  "el-carnaval-de-vevcani-mascaras-paganas": { component: ElCarnavalDeVevcaniMascarasPaganas },
 };

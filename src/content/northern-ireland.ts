@@ -231,4 +231,50 @@ export const northernIreland: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "bushmills-la-destileria-con-licencia-mas-antigua",
+    order: 11,
+    placeholderEmoji: "🥃",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La destilería de whisky con la licencia más antigua",
+        subtitle: "Old Bushmills, whisky desde 1608",
+        imageAlt: "Caricatura de un alambique de cobre junto a barriles de madera apilados en una destilería.",
+        description:
+          "La destilería Old Bushmills, a pocos kilómetros del Giant's Causeway en la costa norte, recibió en 1608 una licencia real de Jaime I para destilar whisky, un permiso que la convierte en la destilería con licencia más antigua del mundo todavía en funcionamiento, aunque hay evidencia de que en la zona ya se destilaba de forma informal desde mucho antes. A diferencia del whisky escocés, el whisky irlandés que produce Bushmills se destila tradicionalmente tres veces en lugar de dos, un proceso que suaviza el sabor final, y la destilería usa agua de un curso cercano, el río Bush, que le da nombre al pueblo y a la marca. Pese a haber cambiado de propietarios varias veces en más de cuatro siglos, incluidas etapas bajo grandes conglomerados internacionales, Bushmills sigue produciendo whisky en el mismo sitio original, y sus visitas guiadas recorren tanto el proceso de destilación como los depósitos históricos donde el líquido envejece en barricas de roble.",
+      },
+      en: {
+        title: "The Oldest Licensed Whiskey Distillery in the World",
+        subtitle: "Old Bushmills, Whiskey Since 1608",
+        imageAlt: "Cartoon of a copper still beside stacked wooden barrels inside a distillery.",
+        description:
+          "Old Bushmills Distillery, a few kilometers from the Giant's Causeway on the north coast, was granted a royal license by James I in 1608 to distill whisky, a permit that makes it the oldest licensed whiskey distillery in the world still operating, though evidence suggests informal distilling was already happening in the area long before. Unlike Scotch whisky, the Irish whiskey Bushmills produces is traditionally distilled three times instead of two, an extra step that smooths out the final flavor, and the distillery draws its water from a nearby stream, the River Bush, which gives its name to both the town and the brand itself. Despite changing ownership several times across more than four centuries, including stretches under large international conglomerates, Bushmills still makes whiskey on the very same original site, and its guided tours today cover both the distilling process and the historic warehouses where the spirit ages for years in oak casks.",
+      },
+    },
+  },
+  {
+    id: "cs-lewis-y-las-montanas-que-inspiraron-narnia",
+    order: 12,
+    placeholderEmoji: "🦁",
+    accentColor: "#3E5C4A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las montañas que un autor convirtió en un mundo mágico",
+        subtitle: "C. S. Lewis y las montañas que inspiraron Narnia",
+        imageAlt: "Caricatura de una cordillera verde ondulada con un farol de hierro solitario en primer plano bajo la nieve.",
+        description:
+          "C. S. Lewis, el autor de 'Las Crónicas de Narnia', nació en Belfast en 1898 y pasó buena parte de su infancia contemplando desde la ciudad las montañas de Mourne, en el condado de Down, un paisaje de picos ondulados y verdes que él mismo reconoció públicamente como una de las principales inspiraciones visuales detrás del reino mágico de Narnia, llegando a escribir en una carta que las Mourne lo hacían sentir que en cualquier momento podía toparse con Aslan tras la próxima colina. Aunque Lewis vivió la mayor parte de su vida adulta en Inglaterra, como profesor en Oxford y Cambridge, mantuvo un fuerte vínculo emocional con el paisaje norirlandés de su infancia, y hoy Belfast conmemora esa herencia con una estatua de bronce del propio Lewis abriendo un armario en un parque público, además de rutas turísticas oficiales que recorren los paisajes de Down que inspiraron la geografía de sus libros más célebres.",
+      },
+      en: {
+        title: "The Mountains a Writer Turned Into a Magical World",
+        subtitle: "C. S. Lewis and the Mountains That Inspired Narnia",
+        imageAlt: "Cartoon of rolling green mountains with a lone iron lamppost in the foreground under snow.",
+        description:
+          "C. S. Lewis, the author of 'The Chronicles of Narnia,' was born in Belfast in 1898 and spent much of his childhood gazing out from the city at the Mourne Mountains in County Down, a landscape of rolling green peaks he himself publicly credited as one of the main visual inspirations behind the magical kingdom of Narnia, once writing in a letter that the Mournes made him feel he might run into Aslan just over the next hill. Though Lewis spent most of his adult life in England, teaching at Oxford and Cambridge, he kept a strong emotional bond with the Northern Irish landscape of his childhood, and Belfast today commemorates that legacy with a bronze statue of Lewis himself opening a wardrobe in a public park, along with official tourist routes tracing the Down landscapes that inspired the geography of his most famous books.",
+      },
+    },
+  },
 ];

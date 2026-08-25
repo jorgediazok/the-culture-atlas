@@ -231,4 +231,50 @@ export const monaco: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "museo-oceanografico-y-jacques-cousteau",
+    order: 11,
+    placeholderEmoji: "🐋",
+    accentColor: "#0E5C73",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El museo del acantilado que dirigió Jacques Cousteau",
+        subtitle: "El Museo Oceanográfico de Mónaco",
+        imageAlt: "Caricatura de un edificio de museo sobre un acantilado con peces nadando en el mar de abajo.",
+        description:
+          "El Museo Oceanográfico de Mónaco, inaugurado en 1910 por el príncipe Alberto I, un apasionado explorador marino que financió varias expediciones oceanográficas propias, se alza sobre un acantilado de casi noventa metros frente al Mediterráneo, con una fachada monumental sostenida por columnas que parecen brotar de la roca. Durante más de tres décadas, entre 1957 y 1988, la dirección del museo estuvo a cargo del explorador y documentalista francés Jacques Cousteau, quien lo transformó en un centro de referencia mundial para la investigación marina y popularizó la vida submarina ante audiencias masivas gracias a documentales filmados con equipos de buceo que él mismo ayudó a desarrollar. El edificio alberga hoy un acuario con miles de especímenes de cientos de especies marinas y una vasta colección de esqueletos de ballenas, herencia de la pasión oceanográfica que definió a la dinastía Grimaldi durante generaciones.",
+      },
+      en: {
+        title: "The Cliffside Museum Jacques Cousteau Once Directed",
+        subtitle: "The Oceanographic Museum of Monaco",
+        imageAlt: "Cartoon of a museum building on a cliff with fish swimming in the sea below.",
+        description:
+          "The Oceanographic Museum of Monaco, opened in 1910 by Prince Albert I, a passionate marine explorer who personally funded several oceanographic expeditions of his own, rises from a nearly ninety-meter cliff facing the Mediterranean, its monumental facade held up by columns that seem to grow straight out of the rock. For more than three decades, between 1957 and 1988, the museum was directed by French explorer and filmmaker Jacques Cousteau, who turned it into a world reference center for marine research and popularized underwater life for mass audiences through documentaries filmed with diving gear he himself helped develop. The building today holds an aquarium with thousands of specimens across hundreds of marine species and a vast collection of whale skeletons, a direct legacy of the oceanographic passion that defined the Grimaldi dynasty for generations.",
+      },
+    },
+  },
+  {
+    id: "los-ballets-rusos-de-montecarlo",
+    order: 12,
+    placeholderEmoji: "🩰",
+    accentColor: "#7A2048",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La compañía de ballet que revolucionó la danza mundial",
+        subtitle: "Los Ballets Rusos, con sede en Montecarlo",
+        imageAlt: "Caricatura de un bailarín de ballet en pleno salto frente al telón de un teatro de ópera.",
+        description:
+          "Los Ballets Rusos, la compañía fundada por el empresario ruso Serguéi Diáguilev que revolucionó la danza mundial a comienzos del siglo XX al fusionar coreografía innovadora con escenografías y música de vanguardia, encontró en Montecarlo su base operativa permanente desde 1911, usándola como sede de ensayos y estrenos durante gran parte de su existencia, con respaldo directo del Casino y la ópera del principado. Fue en Montecarlo donde la compañía estrenó obras que cambiaron el rumbo del ballet clásico, con coreografías de Vaslav Nijinsky y música compuesta especialmente por Ígor Stravinski, Claude Debussy y Maurice Ravel. Aunque los Ballets Rusos se disolvieron tras la muerte de Diáguilev en 1929, su legado sobrevivió en Mónaco a través de compañías sucesoras, y el Ballet de Montecarlo, fundado décadas después, sigue hoy activo como heredero directo de esa tradición vanguardista.",
+      },
+      en: {
+        title: "The Ballet Company That Revolutionized World Dance",
+        subtitle: "The Ballets Russes, Based in Monte Carlo",
+        imageAlt: "Cartoon of a ballet dancer mid-leap in front of an opera house stage curtain.",
+        description:
+          "The Ballets Russes, the company founded by Russian impresario Sergei Diaghilev that revolutionized world dance in the early 20th century by fusing innovative choreography with avant-garde sets and music, made Monte Carlo its permanent operating base starting in 1911, using the city as its rehearsal and premiere home for much of its existence, backed directly by the principality's Casino and opera house. It was in Monte Carlo that the company premiered works that changed the course of classical ballet, with choreography by Vaslav Nijinsky and music composed specially by Igor Stravinsky, Claude Debussy, and Maurice Ravel. Although the Ballets Russes disbanded after Diaghilev's death in 1929, its legacy survived in Monaco through successor companies, and the Ballet de Monte-Carlo, founded decades later, remains active today as a direct heir to that avant-garde tradition.",
+      },
+    },
+  },
 ];

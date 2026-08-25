@@ -131,6 +131,53 @@ const AndyWarholRaicesEslovacas: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const LudovitSturPadreDelEslovacoEscrito: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      <rect x="120" y="194" width="170" height="12" fill={dark} />
+      <rect x="130" y="206" width="14" height="44" fill={dark} />
+      <rect x="266" y="206" width="14" height="44" fill={dark} />
+      <path d="M148 172 L204 180 L204 194 L148 190 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <path d="M204 180 L262 172 L262 190 L204 194 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <line x1="158" y1="180" x2="196" y2="184" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      <line x1="212" y1="184" x2="252" y2="180" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      <circle cx="185" cy="120" r="22" fill={skin} />
+      <path d="M167 148 Q185 133 205 151 L198 195 L158 195 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <line x1="203" y1="152" x2="240" y2="118" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <path d="M240 118 L253 103 L246 116 L256 113 L242 128 Z" fill={dark} />
+      <text x="252" y="92" fontSize="26" fontWeight="700" fill={accentColor} fontFamily="serif">Ľ</text>
+      <text x="278" y="115" fontSize="20" fontWeight="700" fill={dark} fontFamily="serif">š</text>
+      <text x="246" y="142" fontSize="18" fontWeight="700" fill={accentColor} fontFamily="serif" opacity="0.85">ä</text>
+    </g>
+  );
+};
+
+const KrojElTrajeFolcloricoRegional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  const embroider = "#C1272D";
+  return (
+    <g>
+      <path d="M140 250 Q205 150 270 250 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M175 250 Q205 190 235 250 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      {[[190, 225], [205, 210], [220, 225], [205, 238]].map(([x, y]) => (
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="4" fill={embroider} />
+      ))}
+      <path d="M168 150 Q205 135 242 150 L232 195 L178 195 Z" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="3" />
+      <circle cx="160" cy="155" r="20" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <circle cx="250" cy="155" r="20" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <circle cx="205" cy="118" r="24" fill={skin} />
+      {[[185, 100], [205, 92], [225, 100]].map(([x, y]) => (
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="7" fill={embroider} />
+      ))}
+      <path d="M188 108 Q180 130 185 150" fill="none" stroke={embroider} strokeWidth="3" />
+      <path d="M222 108 Q230 130 225 150" fill="none" stroke={embroider} strokeWidth="3" />
+    </g>
+  );
+};
+
 export const slovakiaIllustrations: Record<string, IllustrationDefinition> = {
   "castillo-de-bratislava-la-mesa-invertida": { component: CastilloDeBratislavaLaMesaInvertida },
   "iglesias-de-madera-de-los-carpatos": { component: IglesiasDeMaderaDeLosCarpatos },
@@ -142,4 +189,6 @@ export const slovakiaIllustrations: Record<string, IllustrationDefinition> = {
   "divorcio-de-terciopelo-separacion-pacifica": { component: DivorcioDeTerciopeloSeparacionPacifica },
   "cuevas-de-aragonito-unicas-en-el-mundo": { component: CuevasDeAragonitoUnicasEnElMundo },
   "andy-warhol-raices-eslovacas": { component: AndyWarholRaicesEslovacas },
+  "ludovit-stur-padre-del-eslovaco-escrito": { component: LudovitSturPadreDelEslovacoEscrito },
+  "kroj-el-traje-folclorico-regional": { component: KrojElTrajeFolcloricoRegional },
 };

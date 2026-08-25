@@ -231,4 +231,50 @@ export const montenegro: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "sveti-stefan-la-isla-que-se-volvio-hotel",
+    order: 11,
+    placeholderEmoji: "🏝️",
+    accentColor: "#B8452E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo de pescadores convertido en isla de lujo",
+        subtitle: "Sveti Stefan, la isla-pueblo",
+        imageAlt: "Caricatura de un islote con techos de tejas rojas conectado a la costa por un angosto camino de arena.",
+        description:
+          "Sveti Stefan es un islote rocoso frente a la costa de Montenegro, coronado por un pueblo de pescadores fortificado del siglo XV con techos de tejas rojas, conectado a tierra firme por un estrecho istmo de arena que solo permite el paso a pie. Habitado durante siglos por familias de pescadores, el poblado fue expropiado por el gobierno yugoslavo en la década de 1950 y transformado por completo en un hotel de lujo exclusivo, reconvirtiendo cada una de las antiguas casas de piedra en suites privadas sin alterar demasiado la silueta medieval del conjunto visto desde el mar. Por sus habitaciones pasaron durante las décadas siguientes estrellas de Hollywood, la realeza europea y jefes de Estado atraídos por la combinación de historia, aislamiento natural y playas privadas de arena rosada a ambos lados del istmo, consolidando a la pequeña isla como una de las imágenes más reproducidas del turismo montenegrino.",
+      },
+      en: {
+        title: "The Fishing Village That Became a Luxury Island",
+        subtitle: "Sveti Stefan, the Island Village",
+        imageAlt: "Cartoon of a small islet with red-tiled roofs connected to the coast by a narrow sandy path.",
+        description:
+          "Sveti Stefan is a small rocky islet off Montenegro's coast, crowned by a fortified 15th-century fishing village with red-tiled roofs, connected to the mainland by a narrow sandy isthmus passable only on foot. Inhabited for centuries by fishing families, the village was expropriated by the Yugoslav government in the 1950s and completely converted into an exclusive luxury hotel, turning each of the old stone houses into private suites without altering much of the medieval silhouette the cluster presents from the sea. Over the following decades its rooms hosted Hollywood stars, European royalty, and heads of state drawn by the mix of history, natural isolation, and private pink-sand beaches on either side of the isthmus, cementing the tiny island as one of the most reproduced images of Montenegrin tourism.",
+      },
+    },
+  },
+  {
+    id: "la-imprenta-de-cetinje-una-de-las-primeras-eslavas",
+    order: 12,
+    placeholderEmoji: "📚",
+    accentColor: "#5C4033",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La imprenta que imprimió libros eslavos hace 500 años",
+        subtitle: "La imprenta de Cetinje, pionera eslava",
+        imageAlt: "Caricatura de una prensa de imprenta antigua de madera junto a una pila de libros encuadernados.",
+        description:
+          "En 1493, apenas cuatro décadas después de la invención de la imprenta de tipos móviles en Europa, el gobernante montenegrino Đurađ Crnojević instaló en Cetinje una de las primeras imprentas del mundo eslavo, con la que se editó el Oktoih, un libro litúrgico ortodoxo considerado el primer libro impreso en cirílico de todos los Balcanes del sur. La imprenta funcionó apenas unos pocos años antes de ser desmantelada por la invasión otomana que forzó a la dinastía Crnojević al exilio, pero en ese breve período produjo varios volúmenes religiosos de una calidad tipográfica notable para la época, ejemplares que hoy se conservan como tesoros bibliográficos en bibliotecas de toda Europa. Este episodio temprano de imprenta convirtió a la diminuta Cetinje, siglos antes de convertirse en capital real, en un punto de referencia inesperado en la historia del libro eslavo.",
+      },
+      en: {
+        title: "The Press That Printed Slavic Books Over 500 Years Ago",
+        subtitle: "The Cetinje Press, a Slavic Pioneer",
+        imageAlt: "Cartoon of an old wooden printing press beside a stack of bound books.",
+        description:
+          "In 1493, barely four decades after the invention of movable-type printing in Europe, Montenegrin ruler Đurađ Crnojević set up one of the earliest printing presses in the Slavic world in Cetinje, publishing the Oktoih, an Orthodox liturgical book considered the first book ever printed in Cyrillic anywhere in the southern Balkans. The press operated for only a few years before being dismantled by the Ottoman invasion that forced the Crnojević dynasty into exile, but in that brief window it produced several religious volumes of remarkably fine typography for the era, copies now preserved as bibliographic treasures in libraries across Europe. This early printing episode turned tiny Cetinje, centuries before it became a royal capital, into an unexpected reference point in the history of the Slavic book.",
+      },
+    },
+  },
 ];

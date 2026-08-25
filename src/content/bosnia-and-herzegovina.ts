@@ -231,4 +231,50 @@ export const bosniaAndHerzegovina: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "los-caldereros-de-bascarsija-kazandziluk",
+    order: 11,
+    placeholderEmoji: "🔨",
+    accentColor: "#B8862E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La calle que todavía martilla el cobre a mano",
+        subtitle: "Kazandžiluk, la calle de los caldereros",
+        imageAlt: "Caricatura de un artesano martillando una olla de cobre frente a una hilera de utensilios colgados.",
+        description:
+          "Kazandžiluk, la calle de los caldereros dentro del bazar otomano de Baščaršija en Sarajevo, conserva desde el siglo XV un oficio que llegó con el Imperio Otomano: el martillado manual del cobre para fabricar dzezvas, bandejas y jarras decoradas con motivos geométricos grabados a mano, un trabajo que todavía hoy se puede ver hacerse en vivo dentro de talleres diminutos abiertos a la calle. En su apogeo, cientos de caldereros trabajaban en este mismo tramo de pocas cuadras organizados en un gremio otomano estrictamente regulado, y aunque la cantidad de artesanos activos se redujo drásticamente con la producción industrial en masa, un puñado de familias sigue transmitiendo el oficio de generación en generación, golpeando el metal con las mismas herramientas de sus antepasados. El sonido metálico y rítmico de los martillos contra el cobre sigue siendo, para muchos sarajevitas, uno de los sonidos más identificables del casco histórico.",
+      },
+      en: {
+        title: "The Craft Street That Still Hammers Copper by Hand",
+        subtitle: "Kazandžiluk, the Coppersmiths' Street",
+        imageAlt: "Cartoon of an artisan hammering a copper pot in front of a row of hanging utensils.",
+        description:
+          "Kazandžiluk, the coppersmiths' street inside Sarajevo's Ottoman-era Baščaršija bazaar, has kept alive since the 15th century a craft that arrived with the Ottoman Empire: hand-hammering copper into dzezvas, trays, and jugs decorated with hand-engraved geometric patterns, work still visible today inside tiny workshops opening directly onto the street. At its peak, hundreds of coppersmiths worked along this same few-block stretch, organized into a strictly regulated Ottoman guild, and although the number of active artisans dropped sharply with the rise of mass industrial production, a handful of families still pass the craft down generation to generation, hammering metal with the same tools their ancestors used. The rhythmic metallic clang of hammers on copper remains, for many Sarajevans, one of the most recognizable sounds of the old town.",
+      },
+    },
+  },
+  {
+    id: "perucica-uno-de-los-ultimos-bosques-virgenes-de-europa",
+    order: 12,
+    placeholderEmoji: "🌲",
+    accentColor: "#1F4D2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Uno de los últimos bosques vírgenes de Europa",
+        subtitle: "Perućica, un bosque primario intacto",
+        imageAlt: "Caricatura de árboles enormes y antiguos con troncos gruesos dentro de un bosque denso y verde.",
+        description:
+          "Perućica, dentro del Parque Nacional Sutjeska en el sureste de Bosnia y Herzegovina, es uno de los dos únicos bosques primarios que sobreviven en todo el continente europeo, un ecosistema que nunca fue talado ni gestionado comercialmente y que conserva árboles de más de trescientos años y hasta sesenta metros de altura, junto con una biodiversidad excepcionalmente densa imposible de encontrar en bosques europeos ya intervenidos por el hombre. Declarado reserva estricta desde 1954, el acceso a buena parte del bosque está restringido incluso para investigadores, y los pocos senderos abiertos al público apenas permiten asomarse a los bordes de un ecosistema que funciona sin intervención humana desde hace miles de años. El propio parque nacional que lo protege, fundado en 1962 en memoria de una batalla clave de la Segunda Guerra Mundial librada en la zona, convirtió a esta esquina remota de Bosnia en un destino mundial de referencia para la conservación forestal.",
+      },
+      en: {
+        title: "One of the Last Two Virgin Forests Left in Europe",
+        subtitle: "Perućica, an Untouched Primeval Forest",
+        imageAlt: "Cartoon of enormous, ancient trees with thick trunks inside a dense green forest.",
+        description:
+          "Perućica, inside Sutjeska National Park in southeastern Bosnia and Herzegovina, is one of only two primeval forests surviving anywhere on the European continent, an ecosystem never logged or commercially managed that still holds trees over three hundred years old and up to sixty meters tall, alongside an exceptionally dense biodiversity impossible to find in Europe's already human-altered forests. Declared a strict reserve since 1954, access to much of the forest is restricted even for researchers, and the few trails open to the public barely allow a glimpse of the edges of an ecosystem that has functioned with no human intervention for thousands of years. The national park protecting it, founded in 1962 in memory of a key World War II battle fought in the area, turned this remote corner of Bosnia into a world reference point for forest conservation.",
+      },
+    },
+  },
 ];

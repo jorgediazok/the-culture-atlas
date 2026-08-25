@@ -149,6 +149,49 @@ const HayOnWyeLaCapitalMundialDeLosLibrosUsados: IllustrationComponent = ({ acce
   );
 };
 
+const LasCucharasDeAmorTalladasAMano: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* spoon bowl */}
+      <ellipse cx="180" cy="205" rx="42" ry="32" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="180" cy="205" rx="28" ry="20" fill={tint(accentColor, 0.3)} opacity="0.7" />
+      {/* carved handle, a smooth tapering ribbon */}
+      <path d="M198 185 Q250 175 245 120 Q243 95 220 92 Q198 95 200 120 Q202 145 198 185 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* heart carved into the handle */}
+      <circle cx="216" cy="118" r="9" fill={dark} />
+      <circle cx="232" cy="118" r="9" fill={dark} />
+      <polygon points="207,124 241,124 224,145" fill={dark} />
+      {/* two interlocking rings carved at the very top */}
+      <circle cx="215" cy="88" r="11" fill="none" stroke={dark} strokeWidth="3.5" />
+      <circle cx="230" cy="92" r="11" fill="none" stroke={dark} strokeWidth="3.5" />
+    </g>
+  );
+};
+
+const AQUEDUCT_PIER_X = [110, 160, 210, 260];
+
+const ElAcueductoDePontcysyllteUnCanalEnElAire: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
+  return (
+    <g>
+      {/* valley floor below */}
+      <path d="M90 250 Q205 235 320 250 L320 260 L90 260 Z" fill="#4A5A3A" opacity="0.4" />
+      {/* stone piers */}
+      {AQUEDUCT_PIER_X.map((x) => (
+        <rect key={x} x={x} y="150" width="18" height="90" fill="#8B8378" stroke={dark} strokeWidth="2" />
+      ))}
+      {/* elevated canal trough, its fill covers the piers' top seam */}
+      <rect x="95" y="130" width="225" height="26" fill={water} stroke={dark} strokeWidth="3" />
+      <rect x="95" y="122" width="225" height="10" fill={accentColor} stroke={dark} strokeWidth="2" />
+      {/* boat floating on the canal */}
+      <polygon points="180,140 220,140 210,152 190,152" fill="#8B5A2B" stroke={dark} strokeWidth="2" />
+      <rect x="192" y="128" width="20" height="12" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
 export const walesIllustrations: Record<string, IllustrationDefinition> = {
   "cymraeg-el-galo-que-sigue-vivo": { component: CymraegElGaloQueSigueVivo },
   "y-ddraig-goch-la-bandera-mas-antigua-en-uso": { component: YDdraigGochLaBanderaMasAntiguaEnUso },
@@ -160,4 +203,6 @@ export const walesIllustrations: Record<string, IllustrationDefinition> = {
   "el-dia-de-san-david-narcisos-y-puerros": { component: ElDiaDeSanDavidNarcisosYPuerros },
   "portmeirion-el-pueblo-italiano-en-gales": { component: PortmeirionElPuebloItalianoEnGales },
   "hay-on-wye-la-capital-mundial-de-los-libros-usados": { component: HayOnWyeLaCapitalMundialDeLosLibrosUsados },
+  "las-cucharas-de-amor-talladas-a-mano": { component: LasCucharasDeAmorTalladasAMano },
+  "el-acueducto-de-pontcysyllte-un-canal-en-el-aire": { component: ElAcueductoDePontcysyllteUnCanalEnElAire },
 };
