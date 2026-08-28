@@ -231,4 +231,234 @@ export const portugal: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "cristiano-ronaldo-de-madeira-al-mundo",
+    order: 11,
+    placeholderEmoji: "⚽",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El niño de Madeira que se volvió el más goleador",
+        subtitle: "Cristiano Ronaldo, de Madeira al mundo",
+        imageAlt: "Caricatura de una pelota de fútbol junto a un trofeo dorado brillante.",
+        description:
+          "Cristiano Ronaldo nació en 1985 en un barrio humilde de Funchal, en la isla portuguesa de Madeira, hijo de un jardinero municipal, y a los doce años tuvo que mudarse solo a Lisboa para unirse a la academia juvenil del Sporting, dejando atrás a su familia en un sacrificio que él mismo describió después como decisivo para su carrera. Tras destacar tempranamente en el fútbol europeo con el Manchester United y luego con el Real Madrid, se convirtió en el máximo goleador histórico del fútbol masculino a nivel de selecciones y clubes combinados, y en la primera persona en anotar en cinco ediciones distintas de los Mundiales de fútbol. Más allá del deporte, Ronaldo construyó un imperio comercial propio basado en su imagen personal, convirtiéndose durante años en el deportista con más seguidores en redes sociales del planeta y en un símbolo de orgullo nacional casi unánime dentro de Portugal.",
+      },
+      en: {
+        title: "The Boy From Madeira Who Became the Top Scorer",
+        subtitle: "Cristiano Ronaldo, From Madeira to the World",
+        imageAlt: "Cartoon of a soccer ball beside a shiny golden trophy.",
+        description:
+          "Cristiano Ronaldo was born in 1985 in a modest neighborhood of Funchal, on the Portuguese island of Madeira, the son of a municipal gardener, and at age twelve had to move alone to Lisbon to join Sporting's youth academy, leaving his family behind in a sacrifice he later described as decisive for his career. After standing out early in European football with Manchester United and later Real Madrid, he became men's football's all-time leading scorer across club and international competitions combined, and the first player to score in five different World Cup tournaments. Beyond sport, Ronaldo built a personal commercial empire based on his own image, becoming for years the athlete with the most social media followers on the planet and a nearly unanimous symbol of national pride within Portugal.",
+      },
+    },
+  },
+  {
+    id: "el-vino-de-oporto-y-el-valle-del-duero",
+    order: 12,
+    placeholderEmoji: "🍷",
+    accentColor: "#6B1E23",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El vino que solo puede llamarse así si es del Duero",
+        subtitle: "El vino de Oporto y el valle del Duero",
+        imageAlt: "Caricatura de una copa de vino tinto oscuro junto a terrazas de viñedos en una colina.",
+        description:
+          "El vino de Oporto, un vino fortificado dulce elaborado añadiendo aguardiente vínico durante la fermentación para detenerla y conservar parte del azúcar natural de la uva, se produce exclusivamente con uvas cultivadas en las empinadas terrazas del valle del Duero, una región demarcada oficialmente en 1756 que se convirtió en la primera zona vitivinícola regulada por ley en el mundo, pensada específicamente para proteger la autenticidad del producto frente a falsificaciones cada vez más frecuentes en la época. Pese a producirse enteramente en el interior del país junto al río Duero, la ley exige que el vino se envejezca y embotelle específicamente en las bodegas de Vila Nova de Gaia, la ciudad frente a Oporto al otro lado del río, un requisito histórico ligado al transporte fluvial tradicional en barcos llamados rabelos que trasladaban los toneles desde los viñedos hasta la costa.",
+      },
+      en: {
+        title: "The Wine That Can Only Be Called Port From the Douro",
+        subtitle: "Port Wine and the Douro Valley",
+        imageAlt: "Cartoon of a glass of dark red wine beside terraced vineyards on a hillside.",
+        description:
+          "Port wine, a sweet fortified wine made by adding grape spirit during fermentation to stop it and preserve some of the grape's natural sugar, is produced exclusively from grapes grown on the steep terraces of the Douro Valley, a region officially demarcated in 1756 that became the first legally regulated wine region in the world, created specifically to protect the product's authenticity against increasingly common counterfeits at the time. Despite being produced entirely inland along the Douro River, the law requires the wine to be aged and bottled specifically in the cellars of Vila Nova de Gaia, the city facing Porto across the river, a historical requirement tied to traditional river transport in boats called rabelos that carried the barrels from the vineyards down to the coast.",
+      },
+    },
+  },
+  {
+    id: "portugal-el-mayor-productor-de-corcho",
+    order: 13,
+    placeholderEmoji: "🌳",
+    accentColor: "#7A5C3E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que produce más de la mitad del corcho mundial",
+        subtitle: "Portugal, el mayor productor mundial de corcho",
+        imageAlt: "Caricatura de un árbol con la corteza pelada mostrando el tronco rojizo debajo.",
+        description:
+          "Portugal produce más de la mitad del corcho consumido en todo el mundo, extraído de vastos bosques de alcornoque, un árbol protegido por ley desde el siglo XIII que puede vivir más de doscientos años y del cual la corteza exterior se extrae manualmente cada nueve años aproximadamente sin dañar el árbol ni interrumpir su crecimiento, un proceso que exige una capacitación especializada considerable ya que cortar demasiado profundo puede matarlo. Los bosques de alcornoque portugueses, conocidos como montados, funcionan además como ecosistemas de altísima biodiversidad reconocidos internacionalmente, capaces de absorber grandes cantidades de dióxido de carbono, y la industria corchera nacional, que va mucho más allá de los tapones de vino tradicionales hacia usos modernos en moda, diseño y construcción sostenible, emplea directa e indirectamente a decenas de miles de personas en regiones rurales del sur del país.",
+      },
+      en: {
+        title: "The Country Producing Over Half the World's Cork",
+        subtitle: "Portugal, the World's Top Cork Producer",
+        imageAlt: "Cartoon of a tree with its bark peeled away revealing a reddish trunk underneath.",
+        description:
+          "Portugal produces more than half of all the cork consumed worldwide, harvested from vast cork oak forests, a tree legally protected since the 13th century that can live more than two hundred years and from which the outer bark is manually stripped roughly every nine years without harming the tree or interrupting its growth, a process requiring considerable specialized training since cutting too deep can kill it. Portugal's cork oak forests, known as montados, also function as internationally recognized high-biodiversity ecosystems capable of absorbing large amounts of carbon dioxide, and the national cork industry, which extends well beyond traditional wine stoppers into modern uses in fashion, design, and sustainable construction, directly and indirectly employs tens of thousands of people in rural regions of southern Portugal.",
+      },
+    },
+  },
+  {
+    id: "fernando-pessoa-y-sus-heteronimos",
+    order: 14,
+    placeholderEmoji: "🎭",
+    accentColor: "#4A4A4A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El poeta que se dividió en decenas de identidades",
+        subtitle: "Fernando Pessoa y sus heterónimos",
+        imageAlt: "Caricatura de un sombrero y anteojos redondos junto a varias plumas distintas.",
+        description:
+          "Fernando Pessoa, considerado uno de los poetas más importantes de la lengua portuguesa y de la literatura del siglo XX en general, desarrolló a lo largo de su vida más de setenta 'heterónimos', personalidades literarias completamente distintas con sus propias biografías inventadas, estilos de escritura diferenciados, filosofías propias e incluso horóscopos detallados, entre los cuales destacan tres figuras principales: Alberto Caeiro, Ricardo Reis y Álvaro de Campos, cada uno con una voz poética tan diferenciada que se leen como autores completamente independientes entre sí. A diferencia de un simple seudónimo, Pessoa insistía en que estos heterónimos poseían identidades psicológicas propias e independientes de la suya, y hasta llegó a hacerlos interactuar y criticarse mutuamente en cartas. Pessoa vivió una vida discreta como traductor comercial en Lisboa, y solo tras su muerte en 1935 se descubrió, dentro de un baúl, la magnitud completa de su obra.",
+      },
+      en: {
+        title: "The Poet Who Split Himself Into Dozens of Identities",
+        subtitle: "Fernando Pessoa and His Heteronyms",
+        imageAlt: "Cartoon of a hat and round glasses beside several different pens.",
+        description:
+          "Fernando Pessoa, considered one of the most important poets in the Portuguese language and in 20th-century literature generally, developed more than seventy 'heteronyms' over his lifetime, fully distinct literary personalities with their own invented biographies, differentiated writing styles, personal philosophies, and even detailed horoscopes, among which three stand out as principal figures: Alberto Caeiro, Ricardo Reis, and Álvaro de Campos, each with a poetic voice so distinct they read as entirely independent authors. Unlike a simple pseudonym, Pessoa insisted these heteronyms possessed their own psychological identities independent of his own, and he even had them interact with and criticize one another in letters and texts. Pessoa lived a quiet life as a commercial translator in Lisbon and published relatively little during his lifetime, and only after his death in 1935 was the full scope of his work discovered inside a trunk.",
+      },
+    },
+  },
+  {
+    id: "la-revolucion-de-los-claveles-de-1974",
+    order: 15,
+    placeholderEmoji: "🌺",
+    accentColor: "#E91E63",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La revolución que triunfó sin disparar una bala",
+        subtitle: "La Revolución de los Claveles de 1974",
+        imageAlt: "Caricatura de un clavel rojo saliendo del cañón de un fusil.",
+        description:
+          "El 25 de abril de 1974, un grupo de oficiales militares de rango medio, hartos de casi cinco décadas de dictadura y de una guerra colonial prolongada y desgastante en las colonias africanas de Portugal, tomó los puntos estratégicos de Lisboa en un golpe de estado cuidadosamente planificado que terminó desmoronando el régimen casi sin resistencia armada organizada. Cuando la población salió a las calles a celebrar, una florista lisboeta comenzó a repartir claveles rojos, la flor de temporada disponible en ese momento en los mercados, y los propios soldados empezaron a colocarlos en las bocas de sus fusiles como gesto simbólico de que la revolución transcurría sin necesidad de disparar, dando origen al nombre por el que se conoce el evento hasta hoy. La revolución abrió paso a la democracia portuguesa moderna y aceleró el fin del imperio colonial africano del país en apenas un año.",
+      },
+      en: {
+        title: "The Revolution That Won With Barely a Shot Fired",
+        subtitle: "The 1974 Carnation Revolution",
+        imageAlt: "Cartoon of a red carnation sticking out of a rifle barrel.",
+        description:
+          "On April 25, 1974, a group of mid-ranking military officers, exhausted by nearly five decades of dictatorship and a prolonged, draining colonial war in Portugal's African colonies, seized strategic points across Lisbon in a carefully planned coup that ended up toppling the regime with almost no organized armed resistance. As the population poured into the streets to celebrate, a Lisbon florist began handing out red carnations, the seasonal flower available in the markets that day, and soldiers themselves began placing them in the barrels of their rifles as a symbolic gesture that the revolution was unfolding without the need to fire a shot, giving the event the name it's still known by today. The revolution opened the door to modern Portuguese democracy and accelerated the end of the country's African colonial empire within just a year.",
+      },
+    },
+  },
+  {
+    id: "sintra-y-sus-palacios-de-cuento",
+    order: 16,
+    placeholderEmoji: "🏰",
+    accentColor: "#4A7C8C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo de palacios que inspiró a Lord Byron",
+        subtitle: "Sintra y sus palacios de cuento",
+        imageAlt: "Caricatura de un palacio colorido con torres puntiagudas entre colinas boscosas y niebla.",
+        description:
+          "Sintra, un pueblo situado entre colinas boscosas y frecuentemente cubierto de niebla a apenas media hora de Lisboa, concentró desde la Edad Media hasta comienzos del siglo XX una densidad excepcional de palacios reales, castillos moriscos y quintas aristocráticas construidos aprovechando el microclima fresco de la zona como refugio de verano frente al calor de la capital, entre ellos el colorido Palacio da Pena, una fantasía arquitectónica del siglo XIX que mezcla estilos neogótico, neomanuelino, neoislámico y neorrenacentista en un mismo edificio pintado en tonos rojo y amarillo intensos. El poeta romántico británico Lord Byron visitó la zona en 1809 y la describió en su poema 'Childe Harold's Pilgrimage' como un 'edén glorioso', una frase que ayudó a popularizar internacionalmente el destino entre viajeros europeos del siglo XIX. Declarado paisaje cultural por la UNESCO en 1995, Sintra sigue considerándose uno de los primeros ejemplos de arquitectura romántica de toda Europa.",
+      },
+      en: {
+        title: "The Palace Town That Left Lord Byron Speechless",
+        subtitle: "Sintra's Fairy-Tale Palaces",
+        imageAlt: "Cartoon of a colorful palace with pointed towers among misty, forested hills.",
+        description:
+          "Sintra, a town nestled among wooded hills and frequently shrouded in fog barely half an hour from Lisbon, accumulated from the Middle Ages through the early 20th century an exceptional density of royal palaces, Moorish castles, and aristocratic estates, built to take advantage of the area's cool microclimate as a summer retreat from the capital's heat, among them the colorful Pena Palace, a 19th-century architectural fantasy blending Neo-Gothic, Neo-Manueline, Neo-Islamic, and Neo-Renaissance styles in a single building painted in intense red and yellow tones. British Romantic poet Lord Byron visited the area in 1809 and described it in his poem 'Childe Harold's Pilgrimage' as a 'glorious Eden,' a phrase that helped popularize the destination internationally among 19th-century European travelers. Named a UNESCO cultural landscape in 1995, Sintra is still considered one of Europe's earliest examples of Romantic architecture.",
+      },
+    },
+  },
+  {
+    id: "la-tourada-la-corrida-portuguesa",
+    order: 17,
+    placeholderEmoji: "🐂",
+    accentColor: "#8B1E1E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La corrida de toros donde el toro no muere en la plaza",
+        subtitle: "La tourada, la corrida portuguesa",
+        imageAlt: "Caricatura de un jinete a caballo sosteniendo una lanza corta frente a un toro.",
+        description:
+          "A diferencia de la corrida española tradicional, en la tourada portuguesa está prohibido por ley matar al toro dentro de la plaza desde 1928, y el enfrentamiento principal se desarrolla a caballo entre un jinete llamado cavaleiro y el animal, usando lanzas cortas llamadas farpas que se clavan en el lomo del toro sin causarle heridas mortales, seguido por un grupo de ocho hombres desarmados llamados forcados que enfrentan al toro con las manos en una maniobra coordinada conocida como pega, sujetándolo por los cuernos hasta inmovilizarlo. Aunque el toro no muere públicamente en la arena, suele ser sacrificado después fuera de la vista del público por las heridas sufridas durante el espectáculo, un detalle que organizaciones animalistas señalan como contradicción central de una tradición que Portugal presenta como más humana que la española. La región de Ribatejo, al norte de Lisboa, concentra la mayor tradición taurina del país.",
+      },
+      en: {
+        title: "The Bullfight Where the Bull Isn't Killed in the Ring",
+        subtitle: "Tourada, Portugal's Bullfighting Style",
+        imageAlt: "Cartoon of a horseback rider holding a short lance facing a bull.",
+        description:
+          "Unlike traditional Spanish bullfighting, Portuguese tourada has legally prohibited killing the bull inside the ring since 1928, and the main confrontation takes place on horseback between a rider called a cavaleiro and the animal, using short lances called farpas planted in the bull's back without causing fatal wounds, followed by a group of eight unarmed men called forcados who confront the bull directly with their bare hands in a coordinated maneuver known as the pega, grabbing it by the horns until it's subdued. Although the bull doesn't die publicly in the arena, it's usually slaughtered afterward out of public view due to injuries suffered during the show, a detail animal rights organizations point to as the central contradiction of a tradition Portugal officially presents as more humane than Spain's. The Ribatejo region north of Lisbon holds the country's strongest bullfighting tradition.",
+      },
+    },
+  },
+  {
+    id: "nazare-y-sus-olas-gigantes",
+    order: 18,
+    placeholderEmoji: "🌊",
+    accentColor: "#0A4D68",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo con las olas más grandes jamás surfeadas",
+        subtitle: "Nazaré y sus olas gigantes",
+        imageAlt: "Caricatura de un surfista diminuto sobre una ola enorme y curva.",
+        description:
+          "Nazaré, un pueblo pesquero en la costa central de Portugal, se convirtió en el escenario mundial de las olas más grandes jamás surfeadas gracias a un cañón submarino de casi cinco mil metros de profundidad situado justo frente a la costa, que actúa como un embudo natural capaz de concentrar y amplificar la energía de las olas oceánicas hasta alturas extraordinarias, particularmente durante los meses de otoño e invierno. El surfista estadounidense Garrett McNamara popularizó internacionalmente el lugar en 2011 al surfear una ola estimada en unos veinticuatro metros de altura, un récord que atrajo a los mejores surfistas de olas grandes del mundo y que fue superado varias veces después por otros competidores en la misma playa. Pese al peligro extremo, cada temporada de olas grandes convierte a Nazaré en un destino turístico y de observación, con miradores desde el acantilado repletos de espectadores que llegan a presenciar en vivo estas condiciones marítimas excepcionales.",
+      },
+      en: {
+        title: "The Town With the Biggest Waves Ever Surfed",
+        subtitle: "Nazaré and Its Giant Waves",
+        imageAlt: "Cartoon of a tiny surfer riding an enormous curling wave.",
+        description:
+          "Nazaré, a fishing town on Portugal's central coast, became the world stage for the biggest waves ever surfed thanks to an underwater canyon nearly five thousand meters deep sitting right offshore, which acts as a natural funnel capable of concentrating and amplifying the energy of ocean swells to extraordinary heights, particularly during the autumn and winter months. American surfer Garrett McNamara internationally popularized the spot in 2011 by riding a wave estimated at about twenty-four meters tall, a record that drew the world's best big-wave surfers and has since been broken several times by other competitors at the same beach. Despite the extreme danger, every big-wave season turns Nazaré into a tourism and spectating destination, with cliffside viewpoints packed with onlookers who come to witness these exceptional maritime conditions live.",
+      },
+    },
+  },
+  {
+    id: "la-universidad-de-coimbra",
+    order: 19,
+    placeholderEmoji: "📚",
+    accentColor: "#2E5E4E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La universidad cuya biblioteca emplea murciélagos",
+        subtitle: "La Universidad de Coímbra",
+        imageAlt: "Caricatura de una biblioteca antigua con estantes dorados y un pequeño murciélago volando.",
+        description:
+          "La Universidad de Coímbra, fundada en 1290, es una de las universidades más antiguas de Europa en funcionamiento continuo y alberga la Biblioteca Joanina, una biblioteca barroca del siglo XVIII con estanterías doradas talladas a mano que guarda cerca de trescientos mil volúmenes antiguos, algunos con siglos de antigüedad, protegidos de forma poco convencional: una pequeña colonia de murciélagos vive detrás de las estanterías y sale cada noche a cazar insectos que de otro modo dañarían el papel y el cuero de los libros, mientras el personal cubre por las noches las mesas de madera con paños de cuero para protegerlas de los excrementos. Los estudiantes de Coímbra mantienen tradiciones centenarias propias, como vestir una capa negra larga llamada traje talar cuyos rasgones deliberados en el borde inferior, tantos como conquistas amorosas según la costumbre estudiantil, forman parte del folclore universitario local.",
+      },
+      en: {
+        title: "The University Whose Library Employs Live Bats",
+        subtitle: "The University of Coimbra",
+        imageAlt: "Cartoon of an ornate old library with gilded shelves and a small bat flying.",
+        description:
+          "The University of Coimbra, founded in 1290, is one of Europe's oldest continuously operating universities and is home to the Joanina Library, an 18th-century Baroque library with hand-carved gilded shelving holding nearly three hundred thousand antique volumes, some centuries old, protected in an unconventional way: a small colony of bats lives behind the bookshelves and comes out each night to hunt insects that would otherwise damage the paper and leather of the books, while staff cover the wooden tables with leather cloths overnight to protect them from droppings. Coimbra students keep their own centuries-old traditions, like wearing a long black cape called a traje talar whose deliberately torn hem, one tear for each romantic conquest according to student custom, forms part of local university folklore.",
+      },
+    },
+  },
+  {
+    id: "el-galo-de-barcelos",
+    order: 20,
+    placeholderEmoji: "🐓",
+    accentColor: "#D4A017",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El gallo de cerámica que se volvió símbolo nacional",
+        subtitle: "El Galo de Barcelos",
+        imageAlt: "Caricatura de un gallo de cerámica pintado con colores vivos y patrones florales.",
+        description:
+          "El Galo de Barcelos, hoy uno de los souvenirs y símbolos más reconocibles de Portugal en todo el mundo, tiene origen en una leyenda medieval de la ciudad de Barcelos sobre un peregrino gallego acusado injustamente de robo, quien antes de ser ahorcado juró su inocencia afirmando que el gallo asado que el juez tenía servido en su mesa cantaría como prueba de su inocencia si él realmente era culpable, y el ave efectivamente se levantó y cantó justo antes de la ejecución, salvando al peregrino en el último momento. La figura del gallo, elaborada tradicionalmente en cerámica pintada a mano en colores vivos con patrones florales sobre el cuerpo negro del ave, se popularizó como artesanía típica de la región del Minho durante el siglo XX y terminó adoptada informalmente como símbolo de honestidad, justicia y buena suerte en toda la cultura popular portuguesa, presente hoy en cocinas, tiendas de regalos y campañas turísticas oficiales del país.",
+      },
+      en: {
+        title: "The Ceramic Rooster That Became a National Symbol",
+        subtitle: "The Rooster of Barcelos",
+        imageAlt: "Cartoon of a brightly painted ceramic rooster with floral patterns.",
+        description:
+          "The Rooster of Barcelos, today one of Portugal's most recognizable souvenirs and symbols worldwide, originates from a medieval legend from the city of Barcelos about a Galician pilgrim unjustly accused of theft, who before being hanged swore his innocence, claiming that the roasted rooster sitting on the judge's table would crow as proof if he were truly innocent, and the bird actually stood up and crowed right before the execution, saving the pilgrim at the last moment. The rooster figure, traditionally crafted in hand-painted ceramic with bright colors and floral patterns over the bird's black body, became popular as a typical craft of the Minho region during the 20th century and ended up informally adopted as a symbol of honesty, justice, and good luck throughout Portuguese popular culture, now appearing in kitchens, gift shops, and official tourism campaigns across the country.",
+      },
+    },
+  },
 ];

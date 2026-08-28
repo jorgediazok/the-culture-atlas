@@ -231,4 +231,234 @@ export const ukraine: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "la-cultura-de-trypillia",
+    order: 11,
+    placeholderEmoji: "🏺",
+    accentColor: "#8B6F47",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las megaciudades prehistóricas más grandes de Europa",
+        subtitle: "La cultura de Trypillia",
+        imageAlt: "Caricatura de casas circulares de barro dispuestas en anillos concéntricos vistas desde arriba.",
+        description:
+          "Entre el 4800 y el 3000 antes de Cristo, la cultura de Trypillia construyó en el territorio de la actual Ucrania asentamientos circulares de miles de casas de barro y madera dispuestas en anillos concéntricos alrededor de un espacio central, algunos con una población estimada de hasta quince mil personas, lo que los convierte en los asentamientos prehistóricos más grandes conocidos de toda Europa, anteriores en varios siglos a las primeras ciudades de Mesopotamia consideradas tradicionalmente las más antiguas del mundo. Curiosamente, esta sociedad agrícola parece haber quemado deliberadamente cada asentamiento completo cada sesenta u ochenta años, para luego reconstruirlo desde cero cerca del mismo sitio, un patrón cíclico cuyo propósito exacto sigue debatido entre arqueólogos, con teorías que van desde rituales religiosos hasta simple renovación higiénica de estructuras deterioradas.",
+      },
+      en: {
+        title: "Europe's Largest Prehistoric Mega-Settlements",
+        subtitle: "The Trypillia Culture",
+        imageAlt: "Cartoon of circular clay houses arranged in concentric rings, seen from above.",
+        description:
+          "Between roughly 4800 and 3000 BC, the Trypillia culture built circular settlements across present-day Ukraine made up of thousands of clay and wood houses arranged in concentric rings around a central space, some with an estimated population of up to fifteen thousand people, making them the largest known prehistoric settlements in all of Europe, predating by several centuries the early Mesopotamian cities traditionally considered the world's oldest. Curiously, this agricultural society appears to have deliberately burned each entire settlement roughly every sixty to eighty years, then rebuilt it from scratch near the same site, a cyclical pattern whose exact purpose remains debated among archaeologists, with theories ranging from religious ritual to simple hygienic renewal of deteriorating structures.",
+      },
+    },
+  },
+  {
+    id: "taras-shevchenko-el-poeta-nacional",
+    order: 12,
+    placeholderEmoji: "📖",
+    accentColor: "#2E5E4E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El poeta esclavo que se volvió símbolo nacional",
+        subtitle: "Taras Shevchenko, el poeta nacional",
+        imageAlt: "Caricatura de un libro abierto junto a un bigote largo y un gorro tradicional de piel.",
+        description:
+          "Taras Shevchenko nació en 1814 como siervo, propiedad legal de un terrateniente en la Ucrania bajo dominio del Imperio ruso, y aprendió a leer y escribir de forma prácticamente autodidacta antes de que un grupo de artistas e intelectuales, impresionados por su talento para el dibujo, reunieran dinero para comprar su libertad en 1838. Convertido en pintor y poeta, Shevchenko escribió principalmente en ucraniano en una época en que el idioma era menospreciado y activamente restringido por las autoridades imperiales rusas, ayudando a establecerlo como lengua literaria seria y a construir una conciencia nacional ucraniana moderna, lo que le costó años de exilio forzado y prohibición de escribir o pintar por orden directa del zar. Hoy es venerado como el padre de la literatura ucraniana moderna, con estatuas suyas presentes en prácticamente cada ciudad del país.",
+      },
+      en: {
+        title: "The Enslaved Poet Who Became a National Symbol",
+        subtitle: "Taras Shevchenko, Ukraine's National Poet",
+        imageAlt: "Cartoon of an open book beside a long mustache and a traditional fur cap.",
+        description:
+          "Taras Shevchenko was born in 1814 as a serf, the legal property of a landowner in Ukraine under Russian imperial rule, and taught himself to read and write largely on his own before a group of artists and intellectuals, impressed by his talent for drawing, pooled money to buy his freedom in 1838. Becoming a painter and poet, Shevchenko wrote primarily in Ukrainian at a time when the language was looked down on and actively restricted by imperial Russian authorities, helping establish it as a serious literary language and build a modern Ukrainian national consciousness, which cost him years of forced exile and a direct tsarist order banning him from writing or painting. Today he's revered as the father of modern Ukrainian literature, with statues of him standing in practically every city in the country.",
+      },
+    },
+  },
+  {
+    id: "lviv-y-su-casco-historico-multicultural",
+    order: 13,
+    placeholderEmoji: "🏰",
+    accentColor: "#6B4C9A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad que cambió de país sin moverse del lugar",
+        subtitle: "Lviv y su casco histórico multicultural",
+        imageAlt: "Caricatura de un ayuntamiento con una torre alta rodeada de tejados coloridos de casas antiguas.",
+        description:
+          "Lviv, la ciudad más importante del oeste de Ucrania, cambió de soberanía nacional numerosas veces a lo largo de los últimos siglos sin que sus habitantes tuvieran que moverse un solo metro, perteneciendo sucesivamente al Reino de Polonia, el Imperio austrohúngaro, que la conoció como Lemberg, la Segunda República Polaca, la Unión Soviética y finalmente la Ucrania independiente, cada etapa dejando una huella arquitectónica y cultural distinta en la trama urbana. Su casco histórico, declarado Patrimonio de la Humanidad por la UNESCO en 1998, combina de forma poco habitual estilos góticos, renacentistas, barrocos y art nouveau prácticamente intactos, en gran parte porque la ciudad escapó de la destrucción masiva que sufrieron otras ciudades ucranianas durante la Segunda Guerra Mundial. Antes de esa guerra, Lviv tenía además una de las comunidades judías más numerosas de Europa central, una presencia cultural hoy conmemorada en distintos monumentos y museos de la ciudad.",
+      },
+      en: {
+        title: "The City That Changed Countries Without Ever Moving",
+        subtitle: "Lviv's Multicultural Old Town",
+        imageAlt: "Cartoon of a town hall with a tall tower surrounded by colorful old rooftops.",
+        description:
+          "Lviv, the most important city in western Ukraine, changed national sovereignty numerous times over the past few centuries without its residents ever having to move an inch, belonging successively to the Kingdom of Poland, the Austro-Hungarian Empire, which knew it as Lemberg, the Second Polish Republic, the Soviet Union, and finally independent Ukraine, each period leaving a distinct architectural and cultural mark on the city's fabric. Its old town, named a UNESCO World Heritage Site in 1998, unusually combines Gothic, Renaissance, Baroque, and Art Nouveau styles nearly intact, largely because the city escaped the mass destruction other Ukrainian cities suffered during World War II. Before that war, Lviv also had one of Central Europe's largest Jewish communities, a cultural presence now commemorated in several monuments and museums across the city.",
+      },
+    },
+  },
+  {
+    id: "el-pollo-a-la-kiev",
+    order: 14,
+    placeholderEmoji: "🍗",
+    accentColor: "#C68642",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pollo relleno de manteca de origen disputado",
+        subtitle: "El pollo a la Kiev",
+        imageAlt: "Caricatura de una pechuga de pollo rebozada cortada a la mitad con manteca derritiéndose.",
+        description:
+          "El pollo a la Kiev, una pechuga de pollo deshuesada, rellena con una porción de manteca fría con hierbas, empanizada y frita hasta quedar dorada, de modo que al cortarla la manteca derretida brota en un chorro caliente, tiene un origen histórico sorprendentemente disputado: algunos historiadores gastronómicos lo atribuyen a chefs franceses que trabajaban en la corte del Imperio ruso en el siglo XIX, mientras otros lo sitúan directamente en restaurantes de la ciudad de Kiev durante el período soviético de los años treinta, cuando el plato se popularizó masivamente en toda la Unión Soviética como símbolo de refinamiento culinario accesible. Independientemente del origen exacto, el plato se exportó con gran éxito a Occidente durante la Guerra Fría, convirtiéndose en un elemento fijo de restaurantes de cocina 'continental' en el Reino Unido y Estados Unidos, donde todavía se vende congelado en supermercados bajo el nombre que lleva la capital ucraniana.",
+      },
+      en: {
+        title: "The Butter-Stuffed Chicken With a Disputed Origin",
+        subtitle: "Chicken Kiev",
+        imageAlt: "Cartoon of a breaded chicken breast sliced open with melted butter oozing out.",
+        description:
+          "Chicken Kiev, a boneless chicken breast stuffed with a portion of cold herbed butter, breaded, and fried until golden, so that cutting into it releases a hot gush of melted butter, has a surprisingly disputed historical origin: some food historians attribute it to French chefs working at the Russian imperial court in the 19th century, while others place it directly in restaurants in the city of Kyiv during the Soviet 1930s, when the dish became massively popular across the entire Soviet Union as a symbol of accessible culinary refinement. Whatever its exact origin, the dish was exported with great success to the West during the Cold War, becoming a fixture of 'continental' cuisine restaurants in the United Kingdom and the United States, where it's still sold frozen in supermarkets under the name of the Ukrainian capital.",
+      },
+    },
+  },
+  {
+    id: "la-pintura-decorativa-de-petrykivka",
+    order: 15,
+    placeholderEmoji: "🎨",
+    accentColor: "#E91E63",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El estilo floral que la UNESCO declaró patrimonio",
+        subtitle: "La pintura decorativa de Petrykivka",
+        imageAlt: "Caricatura de flores y hojas pintadas con pinceladas curvas de colores vivos sobre fondo blanco.",
+        description:
+          "La pintura de Petrykivka, un estilo decorativo folclórico originado en el pueblo homónimo del centro de Ucrania, se caracteriza por motivos florales y vegetales estilizados pintados con pinceladas curvas y fluidas directamente con los dedos, uñas o pinceles hechos con pelo de gato, sobre fondos blancos que tradicionalmente decoraban las paredes exteriores e interiores de las casas campesinas de la región como una forma de protección espiritual del hogar. Aunque el estilo casi desapareció durante la colectivización forzada soviética de los años treinta, sobrevivió gracias a artesanas locales que continuaron practicándolo en privado, y experimentó un fuerte resurgimiento en el siglo XX cuando se trasladó de las paredes de las casas a cerámica, textiles y papel, formatos más fáciles de comercializar. La UNESCO reconoció la pintura de Petrykivka como Patrimonio Cultural Inmaterial de la Humanidad en 2013.",
+      },
+      en: {
+        title: "The Folk Floral Style UNESCO Declared Heritage",
+        subtitle: "Petrykivka Decorative Painting",
+        imageAlt: "Cartoon of flowers and leaves painted with curving colorful brushstrokes on a white background.",
+        description:
+          "Petrykivka painting, a folk decorative style originating in the central Ukrainian village of the same name, is defined by stylized floral and plant motifs painted with fluid, curving brushstrokes made directly with fingers, fingernails, or brushes made from cat hair, on white backgrounds that traditionally decorated the interior and exterior walls of peasant houses in the region as a form of spiritual protection for the home. Although the style nearly disappeared during forced Soviet collectivization in the 1930s, it survived thanks to local craftswomen who kept practicing it privately, and it saw a strong revival in the 20th century when it moved from house walls onto ceramics, textiles, and paper, formats easier to sell commercially. UNESCO recognized Petrykivka painting as Intangible Cultural Heritage of Humanity in 2013.",
+      },
+    },
+  },
+  {
+    id: "los-hutsules-y-la-trembita-de-los-carpatos",
+    order: 16,
+    placeholderEmoji: "🎺",
+    accentColor: "#4A7C59",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cuerno de madera de casi cuatro metros de largo",
+        subtitle: "Los hutsules y la trembita de los Cárpatos",
+        imageAlt: "Caricatura de un cuerno de madera larguísimo apoyado contra la ladera de una montaña verde.",
+        description:
+          "Los hutsules, un grupo étnico montañés que habita los Cárpatos ucranianos desde hace siglos, desarrollaron una cultura pastoril distintiva con vestimenta bordada propia, arquitectura de madera particular y un instrumento único: la trembita, un cuerno de madera recto de entre dos y casi cuatro metros de longitud, fabricado tradicionalmente ahuecando un tronco alcanzado por un rayo, que se usaba históricamente para comunicar mensajes a largas distancias entre valles montañosos, anunciar nacimientos, muertes o peligros, y guiar el ganado durante el pastoreo estacional en las montañas. El sonido grave y penetrante del instrumento puede escucharse a varios kilómetros de distancia en condiciones favorables, y aunque su función práctica de comunicación quedó obsoleta hace tiempo, la trembita se mantiene viva hoy como parte central de rituales funerarios y celebraciones festivas de la comunidad hutsul.",
+      },
+      en: {
+        title: "The Wooden Horn That Stretches Nearly Four Meters",
+        subtitle: "The Hutsuls and the Carpathian Trembita",
+        imageAlt: "Cartoon of a very long wooden horn leaning against a green mountainside.",
+        description:
+          "The Hutsuls, a highland ethnic group that has lived in the Ukrainian Carpathians for centuries, developed a distinctive pastoral culture with its own embroidered clothing, particular wooden architecture, and a unique instrument: the trembita, a straight wooden horn between two and nearly four meters long, traditionally made by hollowing out a tree trunk struck by lightning, historically used to send messages across long distances between mountain valleys, announce births, deaths, or danger, and guide livestock during seasonal mountain grazing. The instrument's deep, piercing sound can be heard several kilometers away under good conditions, and although its practical communication function became obsolete long ago, the trembita remains alive today as a central part of Hutsul community funeral rituals and festive celebrations.",
+      },
+    },
+  },
+  {
+    id: "el-kyivskyi-tort-la-torta-de-kiev",
+    order: 17,
+    placeholderEmoji: "🍰",
+    accentColor: "#A0693A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La torta que fue secreto industrial en la URSS",
+        subtitle: "El Kyivskyi tort, la torta de Kiev",
+        imageAlt: "Caricatura de una porción de torta con capas de merengue de avellanas y crema junto a un cacao espolvoreado.",
+        description:
+          "El Kyivskyi tort, o torta de Kiev, una torta compuesta por capas crujientes de merengue con avellanas o anacardos intercaladas con una espesa crema de mantequilla, fue creada en 1956 casi por accidente en una fábrica de dulces estatal de Kiev, cuando trabajadores olvidaron refrigerar claras de huevo destinadas a otra receta y decidieron aprovecharlas incorporándolas a una nueva mezcla en lugar de descartarlas. La receta exacta se convirtió después en un secreto industrial celosamente guardado por la fábrica estatal soviética que la producía, al punto de que durante décadas solo un puñado de empleados tenía acceso completo a las proporciones exactas, y la torta se convirtió en un producto tan codiciado en toda la Unión Soviética que la gente hacía largas filas o pagaba sobornos para conseguir una durante ocasiones especiales. Hoy sigue siendo uno de los símbolos gastronómicos más reconocibles de Ucrania, producido comercialmente bajo distintas variantes.",
+      },
+      en: {
+        title: "The Cake That Was a Guarded Soviet Industrial Secret",
+        subtitle: "Kyivskyi Tort, the Kyiv Cake",
+        imageAlt: "Cartoon of a cake slice with layered hazelnut meringue and cream, dusted with cocoa.",
+        description:
+          "Kyivskyi tort, or Kyiv cake, a cake made of crispy hazelnut or cashew meringue layers sandwiched with thick buttercream, was created in 1956 almost by accident at a state candy factory in Kyiv, when workers forgot to refrigerate egg whites meant for another recipe and decided to use them in a new mixture rather than throw them out. The exact recipe later became a closely guarded industrial secret held by the Soviet state factory that produced it, to the point that for decades only a handful of employees had full access to the precise proportions, and the cake became such a coveted item across the entire Soviet Union that people stood in long lines or paid bribes to get one for special occasions. It remains today one of Ukraine's most recognizable culinary symbols, produced commercially in various versions.",
+      },
+    },
+  },
+  {
+    id: "los-varenyky-empanadillas-ucranianas",
+    order: 18,
+    placeholderEmoji: "🥟",
+    accentColor: "#B5651D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las empanadillas que se comen para pedir un deseo",
+        subtitle: "Los varenyky, empanadillas ucranianas",
+        imageAlt: "Caricatura de varias empanadillas en media luna servidas con crema agria y cebollín.",
+        description:
+          "Los varenyky, pequeñas empanadillas de masa hervida con forma de media luna rellenas de papa, queso cottage, repollo fermentado, cerezas u otros ingredientes según la temporada y la región, son uno de los platos más queridos de la cocina ucraniana, tradicionalmente preparados en grandes cantidades durante reuniones familiares donde varias generaciones se sientan juntas a doblar la masa a mano siguiendo técnicas transmitidas de abuelas a nietas. Existe una costumbre popular, sobre todo practicada en Nochevieja, de esconder un ingrediente sorpresa dentro de uno de los varenyky de un lote, como una moneda que augura riqueza o un botón que anuncia un cambio de vida, convirtiendo la comida en una especie de juego de adivinación familiar. La ciudad de Cherkasy incluso construyó un monumento gigante dedicado al varenyky como homenaje a la importancia cultural del plato.",
+      },
+      en: {
+        title: "The Dumplings People Eat to Make a Wish",
+        subtitle: "Varenyky, Ukraine's Dumplings",
+        imageAlt: "Cartoon of several crescent-shaped dumplings served with sour cream and chives.",
+        description:
+          "Varenyky, small crescent-shaped boiled dough dumplings filled with potato, cottage cheese, fermented cabbage, cherries, or other ingredients depending on the season and region, are one of the most beloved dishes in Ukrainian cuisine, traditionally made in large batches during family gatherings where several generations sit together folding the dough by hand following techniques passed down from grandmothers to granddaughters. There's a popular custom, especially practiced on New Year's Eve, of hiding a surprise ingredient inside one varenyky in a batch, like a coin foretelling wealth or a button announcing a life change, turning the meal into a kind of family fortune-telling game. The city of Cherkasy even built a giant monument dedicated to the varenyky in tribute to the dish's cultural importance.",
+      },
+    },
+  },
+  {
+    id: "malanka-la-mascarada-de-ano-nuevo",
+    order: 19,
+    placeholderEmoji: "🐐",
+    accentColor: "#6B1E23",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La fiesta de año nuevo con disfraces de animales",
+        subtitle: "Malanka, la mascarada de año nuevo",
+        imageAlt: "Caricatura de una máscara de cabra peluda junto a cintas de colores colgando.",
+        description:
+          "Malanka, celebrada tradicionalmente la noche del 13 de enero según el calendario juliano usado por la Iglesia ortodoxa, es una fiesta popular ucraniana de origen precristiano en la que grupos de vecinos, generalmente hombres jóvenes, recorren las casas del pueblo disfrazados con máscaras de animales, particularmente de cabra, además de personajes como una novia y un anciano, representando escenas teatrales improvisadas de comedia satírica sobre eventos del año que termina a cambio de comida, bebida o pequeñas propinas de cada hogar visitado. La cabra, considerada un símbolo de fertilidad y prosperidad agrícola en el folclore eslavo antiguo, ocupa el papel central de la representación, y su 'muerte' y posterior 'resurrección' teatral durante la actuación simboliza el ciclo de renovación asociado al comienzo de un nuevo año. La tradición sigue viva especialmente en zonas rurales y entre comunidades de la diáspora ucraniana en el exterior.",
+      },
+      en: {
+        title: "The New Year's Festival Full of Animal Costumes",
+        subtitle: "Malanka, Ukraine's New Year Mumming",
+        imageAlt: "Cartoon of a furry goat mask beside hanging colorful ribbons.",
+        description:
+          "Malanka, traditionally celebrated on the night of January 13th according to the Julian calendar used by the Orthodox Church, is a popular Ukrainian festival of pre-Christian origin in which groups of neighbors, usually young men, go door to door through the village dressed in animal masks, particularly goats, alongside characters like a bride and an old man, performing improvised satirical comedy skits about events from the ending year in exchange for food, drink, or small tips from each household visited. The goat, considered a symbol of fertility and agricultural prosperity in old Slavic folklore, plays the central role in the performance, and its theatrical 'death' and later 'resurrection' during the act symbolizes the cycle of renewal tied to the start of a new year. The tradition remains alive especially in rural areas and among Ukrainian diaspora communities abroad.",
+      },
+    },
+  },
+  {
+    id: "el-ucraniano-un-idioma-eslavo-propio",
+    order: 20,
+    placeholderEmoji: "🗣️",
+    accentColor: "#1565C0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El idioma que un imperio intentó borrar por decreto",
+        subtitle: "El ucraniano, un idioma eslavo propio",
+        imageAlt: "Caricatura de un libro abierto con letras cirílicas junto a un lápiz tachando una línea.",
+        description:
+          "El ucraniano, un idioma eslavo oriental con su propio sistema gramatical, vocabulario y fonética claramente distintos del ruso pese a compartir el alfabeto cirílico y un origen lingüístico común lejano, enfrentó durante siglos bajo dominio del Imperio ruso y después de la Unión Soviética políticas activas de restricción, entre ellas el decreto de Ems de 1876, que prohibió directamente imprimir o importar libros en ucraniano, y campañas soviéticas posteriores de rusificación que promovían el uso del ruso en educación y administración pública en detrimento del idioma local. Pese a esa presión sostenida, el ucraniano sobrevivió principalmente en zonas rurales y a través de la literatura clandestina, y tras la independencia del país en 1991 se convirtió en el único idioma oficial del estado, con políticas activas de revitalización en escuelas y medios de comunicación que aumentaron significativamente su uso cotidiano en las últimas décadas.",
+      },
+      en: {
+        title: "The Language an Empire Tried to Erase by Decree",
+        subtitle: "Ukrainian, a Slavic Language of Its Own",
+        imageAlt: "Cartoon of an open book with Cyrillic letters beside a pencil crossing out a line.",
+        description:
+          "Ukrainian, an East Slavic language with its own grammar, vocabulary, and phonetics clearly distinct from Russian despite sharing the Cyrillic alphabet and a distant common linguistic origin, faced centuries of active restriction under Russian imperial rule and later the Soviet Union, including the 1876 Ems Ukaz, which directly banned printing or importing books in Ukrainian, and later Soviet Russification campaigns that promoted Russian in education and public administration at the expense of the local language. Despite that sustained pressure, Ukrainian survived mainly in rural areas and through underground literature, and after the country's independence in 1991 it became the sole official state language, with active revitalization policies in schools and media that have significantly increased its everyday use in recent decades.",
+      },
+    },
+  },
 ];

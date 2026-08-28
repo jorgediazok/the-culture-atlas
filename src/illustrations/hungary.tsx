@@ -225,6 +225,178 @@ const ElMetroMasAntiguoDeLaEuropaContinental: IllustrationComponent = ({ accentC
   );
 };
 
+const FranzLisztElVirtuosoHungaro: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* grand piano */}
+      <path d="M130 210 L130 175 Q130 165 145 165 L260 165 L260 230 L170 230 Q130 230 130 210 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <rect x="150" y="200" width="90" height="16" fill="#1A1A1A" />
+      {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
+        <rect key={i} x={150 + i * 10} y="200" width="8" height="16" fill={i % 2 === 0 ? "#F5F0E6" : "#1A1A1A"} stroke={dark} strokeWidth="0.5" />
+      ))}
+      {/* long wavy hair mane */}
+      <path d="M255 165 Q280 150 275 125 Q290 140 280 160 Q300 150 290 175 Q285 190 265 185" fill={dark} opacity="0.85" />
+    </g>
+  );
+};
+
+const HarryHoudiniNacidoErikWeisz: IllustrationComponent = () => {
+  const metal = "#B0B7BD";
+  const dark = shade(metal, 0.4);
+  const gold = "#D4AF37";
+  return (
+    <g>
+      {/* open handcuffs */}
+      <circle cx="170" cy="180" r="26" fill="none" stroke={metal} strokeWidth="8" />
+      <circle cx="230" cy="200" r="26" fill="none" stroke={metal} strokeWidth="8" transform="rotate(20 230 200)" />
+      <path d="M195 178 L207 195" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      {/* golden key */}
+      <circle cx="280" cy="150" r="12" fill="none" stroke={gold} strokeWidth="4" />
+      <line x1="290" y1="158" x2="310" y2="178" stroke={gold} strokeWidth="4" strokeLinecap="round" />
+      <line x1="300" y1="168" x2="305" y2="163" stroke={gold} strokeWidth="3" />
+      <line x1="306" y1="174" x2="311" y2="169" stroke={gold} strokeWidth="3" />
+    </g>
+  );
+};
+
+const ElPuenteDeLasCadenasSobreElDanubio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const stone = "#8B8378";
+  return (
+    <g>
+      {/* two pylons with chains */}
+      <rect x="140" y="100" width="16" height="130" fill={stone} stroke={dark} strokeWidth="2" />
+      <rect x="245" y="100" width="16" height="130" fill={stone} stroke={dark} strokeWidth="2" />
+      <path d="M148 110 Q200 160 253 110" fill="none" stroke={accentColor} strokeWidth="5" />
+      <path d="M148 130 Q200 175 253 130" fill="none" stroke={accentColor} strokeWidth="5" />
+      <line x1="90" y1="230" x2="320" y2="230" stroke={dark} strokeWidth="4" />
+      {/* stone lions */}
+      <ellipse cx="120" cy="225" rx="18" ry="12" fill={stone} stroke={dark} strokeWidth="2" />
+      <ellipse cx="280" cy="225" rx="18" ry="12" fill={stone} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const BartokYKodalyCazadoresDeCancionesFolcloricas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const brass = "#B87333";
+  return (
+    <g>
+      {/* phonograph horn */}
+      <path d="M170 200 Q140 190 120 150 Q160 165 185 195 Z" fill={brass} stroke={shade(brass, 0.3)} strokeWidth="2.5" />
+      <ellipse cx="195" cy="205" rx="20" ry="14" fill={brass} stroke={shade(brass, 0.3)} strokeWidth="2" />
+      <rect x="195" y="205" width="55" height="18" fill="#5C3A21" stroke={dark} strokeWidth="2" />
+      {/* sheet music notebook */}
+      <rect x="255" y="175" width="55" height="70" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      {[190, 205, 220].map((y) => (
+        <line key={y} x1="263" y1={y} x2="302" y2={y} stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      ))}
+    </g>
+  );
+};
+
+const LaPorcelanaZsolnayYSuEsmalteEosina: IllustrationComponent = () => {
+  const green = "#3F8F6F";
+  const gold = "#D4AF37";
+  const purple = "#6A1B9A";
+  const dark = shade(green, 0.35);
+  return (
+    <g>
+      <path d="M180 240 L180 190 Q180 170 165 155 Q160 140 175 130 Q200 118 225 130 Q240 140 235 155 Q220 170 220 190 L220 240 Z" fill={green} stroke={dark} strokeWidth="3" />
+      <path d="M175 130 Q200 122 225 130" fill="none" stroke={gold} strokeWidth="3" opacity="0.8" />
+      <ellipse cx="200" cy="180" rx="20" ry="30" fill={purple} opacity="0.4" />
+      <circle cx="190" cy="200" r="8" fill={gold} opacity="0.6" />
+    </g>
+  );
+};
+
+const ElPuliElPerroPastorDeRastas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <ellipse cx="205" cy="200" rx="65" ry="42" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[[160, 175], [180, 165], [200, 162], [220, 165], [240, 175], [165, 200], [245, 200], [175, 225], [235, 225], [200, 230]].map(([x, y], i) => (
+        <path key={i} d={`M${x} ${y} Q${(x as number) - 5} ${(y as number) + 15} ${x} ${(y as number) + 25}`} stroke={dark} strokeWidth="4" fill="none" strokeLinecap="round" opacity="0.8" />
+      ))}
+      <ellipse cx="205" cy="195" rx="8" ry="5" fill="#1A1A1A" opacity="0.7" />
+    </g>
+  );
+};
+
+const LosRomkocsmakLosBaresEnRuinas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wall = "#B8A484";
+  return (
+    <g>
+      {/* peeling walls */}
+      <rect x="100" y="120" width="210" height="120" fill={wall} stroke={dark} strokeWidth="2.5" opacity="0.6" />
+      <path d="M130 150 Q140 160 130 175 Q145 170 140 190" fill="none" stroke={dark} strokeWidth="2" opacity="0.4" />
+      {/* mismatched furniture */}
+      <rect x="130" y="205" width="30" height="20" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <rect x="180" y="195" width="24" height="30" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+      {/* string lights */}
+      <path d="M110 130 Q205 110 300 130" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      {[130, 170, 210, 250, 290].map((x) => (
+        <circle key={x} cx={x} cy={128 - Math.abs(x - 205) * 0.05} r="4" fill="#F4D35E" />
+      ))}
+    </g>
+  );
+};
+
+const ElUnicumElAmargoNacionalHungaro: IllustrationComponent = () => {
+  const glass = "#3E2712";
+  const dark = shade(glass, 0.3);
+  const red = "#C1272D";
+  return (
+    <g>
+      <circle cx="205" cy="195" r="55" fill={glass} stroke={dark} strokeWidth="3" />
+      <rect x="190" y="130" width="30" height="30" fill={glass} stroke={dark} strokeWidth="2.5" />
+      <rect x="185" y="118" width="40" height="14" fill={dark} />
+      <line x1="205" y1="170" x2="205" y2="220" stroke={red} strokeWidth="6" />
+      <line x1="180" y1="195" x2="230" y2="195" stroke={red} strokeWidth="6" />
+    </g>
+  );
+};
+
+const HungriaYSuTradicionEsgrimistica: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const metal = "#B0B7BD";
+  return (
+    <g>
+      {/* two crossed sabers */}
+      <line x1="140" y1="230" x2="270" y2="130" stroke={metal} strokeWidth="6" strokeLinecap="round" />
+      <path d="M140 230 Q130 240 125 232" fill="none" stroke={dark} strokeWidth="5" />
+      <line x1="140" y1="130" x2="270" y2="230" stroke={metal} strokeWidth="6" strokeLinecap="round" />
+      <path d="M270 230 Q280 240 273 245" fill="none" stroke={dark} strokeWidth="5" />
+      {/* fencing mask */}
+      <circle cx="205" cy="180" r="30" fill="none" stroke={accentColor} strokeWidth="5" />
+      <path d="M185 165 L225 195 M185 195 L225 165 M205 150 L205 210" stroke={accentColor} strokeWidth="2" opacity="0.6" />
+    </g>
+  );
+};
+
+const CSARDAS_DUST: [number, number][] = [
+  [150, 235], [170, 240], [240, 240], [260, 235],
+];
+
+const ElCsardasElBaileNacionalHungaro: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const boot = "#5C3A21";
+  return (
+    <g>
+      {/* two pairs of boots mid-spin */}
+      <path d="M160 220 L155 195 L175 195 L180 220 Z" fill={boot} stroke={dark} strokeWidth="2" transform="rotate(-15 167 210)" />
+      <path d="M200 220 L195 195 L215 195 L220 220 Z" fill={boot} stroke={dark} strokeWidth="2" transform="rotate(15 207 210)" />
+      <path d="M240 220 L235 195 L255 195 L260 220 Z" fill={accentColor} stroke={dark} strokeWidth="2" transform="rotate(-10 247 210)" />
+      {/* rising dust */}
+      {CSARDAS_DUST.map(([x, y]) => (
+        <ellipse key={x} cx={x} cy={y} rx="14" ry="5" fill="#D4C098" opacity="0.6" />
+      ))}
+    </g>
+  );
+};
+
 export const hungaryIllustrations: Record<string, IllustrationDefinition> = {
   "el-cubo-que-invento-un-profesor-de-arquitectura": { component: ElCuboQueInventoUnProfesorDeArquitectura },
   "el-idioma-sin-parientes-cercanos-en-europa": { component: ElIdiomaSinParientesCercanosEnEuropa },
@@ -236,4 +408,14 @@ export const hungaryIllustrations: Record<string, IllustrationDefinition> = {
   "los-jinetes-que-llegaron-desde-la-estepa": { component: LosJinetesQueLlegaronDesdeLaEstepa },
   "el-dominio-historico-del-waterpolo-hungaro": { component: ElDominioHistoricoDelWaterpoloHungaro },
   "el-metro-mas-antiguo-de-la-europa-continental": { component: ElMetroMasAntiguoDeLaEuropaContinental },
+  "franz-liszt-el-virtuoso-hungaro": { component: FranzLisztElVirtuosoHungaro },
+  "harry-houdini-nacido-erik-weisz": { component: HarryHoudiniNacidoErikWeisz },
+  "el-puente-de-las-cadenas-sobre-el-danubio": { component: ElPuenteDeLasCadenasSobreElDanubio },
+  "bartok-y-kodaly-cazadores-de-canciones-folcloricas": { component: BartokYKodalyCazadoresDeCancionesFolcloricas },
+  "la-porcelana-zsolnay-y-su-esmalte-eosina": { component: LaPorcelanaZsolnayYSuEsmalteEosina },
+  "el-puli-el-perro-pastor-de-rastas": { component: ElPuliElPerroPastorDeRastas },
+  "los-romkocsmak-los-bares-en-ruinas": { component: LosRomkocsmakLosBaresEnRuinas },
+  "el-unicum-el-amargo-nacional-hungaro": { component: ElUnicumElAmargoNacionalHungaro },
+  "hungria-y-su-tradicion-esgrimistica": { component: HungriaYSuTradicionEsgrimistica },
+  "el-csardas-el-baile-nacional-hungaro": { component: ElCsardasElBaileNacionalHungaro },
 };

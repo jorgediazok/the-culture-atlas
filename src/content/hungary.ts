@@ -231,4 +231,234 @@ export const hungary: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "franz-liszt-el-virtuoso-hungaro",
+    order: 11,
+    placeholderEmoji: "🎹",
+    accentColor: "#4A2C6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pianista que desató un delirio colectivo real",
+        subtitle: "Franz Liszt, el virtuoso húngaro",
+        imageAlt: "Caricatura de un piano de cola junto a una melena larga y ondulada.",
+        description:
+          "Franz Liszt, nacido en 1811 en una familia de habla alemana del oeste de Hungría, se convirtió en el pianista virtuoso más célebre de su época, capaz de tocar piezas de una dificultad técnica extrema que él mismo componía específicamente para exhibir su destreza, y sus conciertos en las décadas de 1840 generaron un fenómeno de fanatismo colectivo tan intenso, con desmayos, forcejeos por mechones de su cabello y objetos personales robados por admiradoras, que el poeta y crítico alemán Heinrich Heine acuñó el término 'Lisztomanía' para describirlo, considerado hoy un antecedente directo de la histeria de masas asociada siglos después a estrellas del pop moderno. Pese a haber vivido gran parte de su vida fuera de Hungría y no hablar húngaro con fluidez, Liszt reivindicó públicamente su identidad húngara y compuso piezas explícitamente inspiradas en melodías populares del país, entre ellas sus célebres Rapsodias Húngaras.",
+      },
+      en: {
+        title: "The Pianist Whose Fame Sparked Actual Mass Hysteria",
+        subtitle: "Franz Liszt, the Hungarian Virtuoso",
+        imageAlt: "Cartoon of a grand piano beside a long wavy mane of hair.",
+        description:
+          "Franz Liszt, born in 1811 to a German-speaking family in western Hungary, became the most celebrated virtuoso pianist of his era, capable of playing pieces of extreme technical difficulty that he himself composed specifically to showcase his skill, and his concerts in the 1840s sparked such intense collective fandom, with fainting, scuffles over locks of his hair, and personal items stolen by admirers, that German poet and critic Heinrich Heine coined the term 'Lisztomania' to describe it, considered today a direct precursor to the mass hysteria associated centuries later with modern pop stars. Despite living much of his life outside Hungary and not speaking Hungarian fluently, Liszt publicly claimed his Hungarian identity and composed pieces explicitly inspired by the country's folk melodies, among them his famous Hungarian Rhapsodies.",
+      },
+    },
+  },
+  {
+    id: "harry-houdini-nacido-erik-weisz",
+    order: 12,
+    placeholderEmoji: "🎩",
+    accentColor: "#1A1A1A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El mago de Budapest que se reinventó en América",
+        subtitle: "Harry Houdini, nacido Erik Weisz",
+        imageAlt: "Caricatura de unas esposas abiertas junto a una llave dorada.",
+        description:
+          "Harry Houdini, el ilusionista y escapista más famoso de la historia, nació en Budapest en 1874 con el nombre de Erik Weisz, hijo de un rabino que emigró con toda la familia a Estados Unidos cuando el futuro mago tenía apenas cuatro años, un origen húngaro que Houdini tendió a minimizar o directamente ocultar durante gran parte de su carrera pública, presentándose a veces como nacido en Wisconsin para reforzar su imagen de artista genuinamente estadounidense. Célebre por escapar de esposas, camisas de fuerza, cajas cerradas bajo el agua y ataúdes sellados ante público en vivo, Houdini construyó su reputación combinando destreza física real, ingeniería mecánica ingeniosa aplicada a sus dispositivos de escape y una habilidad publicitaria excepcional para la época. Hoy Hungría reivindica orgullosamente a Houdini como una de sus figuras de exportación cultural más conocidas internacionalmente, con un museo dedicado a él en Budapest.",
+      },
+      en: {
+        title: "The Escape Artist Who Was Born in Budapest",
+        subtitle: "Harry Houdini, Born Erik Weisz",
+        imageAlt: "Cartoon of a pair of open handcuffs beside a golden key.",
+        description:
+          "Harry Houdini, history's most famous illusionist and escape artist, was born in Budapest in 1874 as Erik Weisz, the son of a rabbi who emigrated with the whole family to the United States when the future magician was barely four years old, a Hungarian origin Houdini tended to downplay or outright hide for much of his public career, sometimes claiming to have been born in Wisconsin to reinforce his image as a genuinely American performer. Famous for escaping handcuffs, straitjackets, boxes locked underwater, and sealed coffins in front of live audiences, Houdini built his reputation combining real physical skill, clever mechanical engineering applied to his escape devices, and exceptional publicity instincts for his time. Today Hungary proudly claims Houdini as one of its most internationally recognized cultural exports, with a museum dedicated to him in Budapest.",
+      },
+    },
+  },
+  {
+    id: "el-puente-de-las-cadenas-sobre-el-danubio",
+    order: 13,
+    placeholderEmoji: "🌉",
+    accentColor: "#2E5E4E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El puente que unió dos ciudades separadas por el río",
+        subtitle: "El Puente de las Cadenas, sobre el Danubio",
+        imageAlt: "Caricatura de un puente colgante con cadenas gruesas y dos leones de piedra en la entrada.",
+        description:
+          "El Puente de las Cadenas, inaugurado en 1849, fue el primer puente permanente construido sobre el Danubio entre las entonces ciudades separadas de Buda y Pest, que hasta ese momento dependían de puentes de barcazas temporales o de cruzar el río congelado en invierno, un proyecto de ingeniería que el conde húngaro István Széchenyi impulsó personalmente tras verse obligado a esperar días para cruzar el río debido al mal clima. Diseñado por el ingeniero inglés William Tierney Clark y construido bajo la supervisión de otro ingeniero escocés de apellido similar sin parentesco entre ambos, el puente se convirtió en un símbolo tan poderoso de unidad que aceleró la fusión administrativa de Buda, Óbuda y Pest en la ciudad única de Budapest en 1873. Destruido casi por completo por tropas alemanas en retirada durante la Segunda Guerra Mundial, fue reconstruido fielmente y reabierto en 1949, exactamente cien años después de su inauguración original.",
+      },
+      en: {
+        title: "The Bridge That United Two Cities Split by a River",
+        subtitle: "The Chain Bridge, Over the Danube",
+        imageAlt: "Cartoon of a suspension bridge with thick chains and two stone lions at the entrance.",
+        description:
+          "The Chain Bridge, opened in 1849, was the first permanent bridge built over the Danube between the then-separate cities of Buda and Pest, which until that point relied on temporary pontoon bridges or crossing the frozen river in winter, an engineering project Hungarian count István Széchenyi personally championed after being forced to wait days to cross the river due to bad weather. Designed by English engineer William Tierney Clark and built under the supervision of another Scottish engineer with a similar surname unrelated to him, the bridge became such a powerful symbol of unity that it accelerated the administrative merger of Buda, Óbuda, and Pest into the single city of Budapest in 1873. Nearly destroyed by retreating German troops during World War II, it was faithfully rebuilt and reopened in 1949, exactly one hundred years after its original inauguration.",
+      },
+    },
+  },
+  {
+    id: "bartok-y-kodaly-cazadores-de-canciones-folcloricas",
+    order: 14,
+    placeholderEmoji: "🎶",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los músicos que salvaron canciones campesinas",
+        subtitle: "Bartók y Kodály, cazadores de canciones folclóricas",
+        imageAlt: "Caricatura de un fonógrafo antiguo con bocina junto a un cuaderno de partituras abierto.",
+        description:
+          "Béla Bartók y Zoltán Kodály, dos de los compositores húngaros más influyentes del siglo XX, se propusieron a partir de 1905 recorrer pueblos remotos de Hungría y regiones vecinas cargando un fonógrafo de cilindro de cera pesado y frágil para grabar en el terreno canciones campesinas tradicionales que hasta entonces se transmitían exclusivamente de forma oral, un proyecto pionero de etnomusicología que terminó documentando miles de melodías populares antes de que la modernización rural las hiciera desaparecer para siempre. Descubrieron que la música folclórica húngara auténtica, basada en escalas pentatónicas y ritmos irregulares heredados de un pasado ligado a las estepas asiáticas, era radicalmente distinta de las melodías gitanas urbanas que hasta entonces se comercializaban erróneamente en Europa occidental como 'música húngara típica'. Ambos compositores incorporaron después ese material auténtico directamente a sus propias composiciones clásicas.",
+      },
+      en: {
+        title: "The Composers Who Rescued Peasant Songs From Oblivion",
+        subtitle: "Bartók and Kodály, Folk Song Hunters",
+        imageAlt: "Cartoon of an antique phonograph with a horn beside an open sheet music notebook.",
+        description:
+          "Béla Bartók and Zoltán Kodály, two of the most influential Hungarian composers of the 20th century, set out starting in 1905 to travel through remote villages in Hungary and neighboring regions carrying a heavy, fragile wax-cylinder phonograph to record traditional peasant songs on-site that until then had been passed down purely orally, a pioneering ethnomusicology project that ended up documenting thousands of folk melodies before rural modernization made them disappear forever. They discovered that authentic Hungarian folk music, built on pentatonic scales and irregular rhythms inherited from a past tied to the Asian steppes, was radically different from the urban Romani melodies that Western Europe had until then mistakenly marketed as 'typical Hungarian music.' Both composers later incorporated that authentic material directly into their own classical compositions.",
+      },
+    },
+  },
+  {
+    id: "la-porcelana-zsolnay-y-su-esmalte-eosina",
+    order: 15,
+    placeholderEmoji: "🏺",
+    accentColor: "#00838F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La porcelana con un esmalte que nadie más pudo copiar",
+        subtitle: "La porcelana Zsolnay y su esmalte eosina",
+        imageAlt: "Caricatura de un jarrón de cerámica con un brillo iridiscente verde y dorado.",
+        description:
+          "La fábrica de porcelana Zsolnay, fundada en 1853 en la ciudad húngara de Pécs, desarrolló en la década de 1890 una técnica de esmaltado propia llamada eosina, capaz de producir un brillo iridiscente metálico que cambia de color según el ángulo de la luz, alternando entre tonos verdes, dorados y púrpuras sobre la misma pieza cerámica, un efecto químico tan complejo de reproducir que la fórmula exacta permaneció como secreto industrial celosamente guardado por generaciones sucesivas de la familia fundadora. Las piezas Zsolnay ganaron reconocimiento internacional en la Exposición Universal de París de 1900, y las icónicas tejas vidriadas de la fábrica, resistentes a la intemperie y visualmente distintivas, terminaron cubriendo techos de edificios emblemáticos húngaros como el propio Parlamento de Budapest. La fábrica sigue operando hoy en Pécs, produciendo tanto piezas artísticas de colección como cerámica industrial de uso arquitectónico.",
+      },
+      en: {
+        title: "The Porcelain Glaze No One Else Could Ever Copy",
+        subtitle: "Zsolnay Porcelain and Its Eosin Glaze",
+        imageAlt: "Cartoon of a ceramic vase with an iridescent green and gold sheen.",
+        description:
+          "The Zsolnay porcelain factory, founded in 1853 in the Hungarian city of Pécs, developed its own glazing technique called eosin in the 1890s, capable of producing a metallic iridescent sheen that shifts color depending on the angle of light, alternating between green, gold, and purple tones on the same ceramic piece, a chemical effect so complex to reproduce that the exact formula remained a closely guarded industrial secret held by successive generations of the founding family. Zsolnay pieces gained international recognition at the 1900 Paris World's Fair, and the factory's iconic glazed roof tiles, weatherproof and visually distinctive, ended up covering the roofs of landmark Hungarian buildings, including the Budapest Parliament itself. The factory still operates today in Pécs, producing both collectible art pieces and industrial ceramics for architectural use.",
+      },
+    },
+  },
+  {
+    id: "el-puli-el-perro-pastor-de-rastas",
+    order: 16,
+    placeholderEmoji: "🐕",
+    accentColor: "#6B4226",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El perro pastor con pelo de rastas naturales",
+        subtitle: "El puli, el perro pastor de rastas",
+        imageAlt: "Caricatura de un perro cubierto enteramente de mechones largos y enredados de pelo.",
+        description:
+          "El puli, una raza de perro pastor húngara con al menos varios siglos de antigüedad, desarrolla naturalmente un pelaje formado por cordones densos y enredados parecidos a rastas, un resultado del entrelazamiento espontáneo de su pelaje doble, interno suave y externo áspero, que los criadores tradicionales rara vez cepillan, dejando que los cordones se formen y crezcan solos hasta cubrir por completo al animal, incluidos los ojos. Criado históricamente por pastores húngaros para arrear y proteger rebaños de ovejas en la gran llanura del país, el puli combina una inteligencia notable con una agilidad sorprendente para un perro de apariencia tan voluminosa, capaz de moverse con rapidez entre el ganado gracias a que, bajo esos mechones enmarañados, esconde un cuerpo relativamente compacto y musculoso. La raza estuvo cerca de desaparecer tras la Segunda Guerra Mundial, pero criadores húngaros lograron recuperarla activamente en las décadas posteriores.",
+      },
+      en: {
+        title: "The Sheepdog With Naturally Forming Dreadlocks",
+        subtitle: "The Puli, Hungary's Corded Sheepdog",
+        imageAlt: "Cartoon of a dog entirely covered in long, tangled cords of fur.",
+        description:
+          "The Puli, a Hungarian herding dog breed at least several centuries old, naturally develops a coat made of dense, tangled cords resembling dreadlocks, the result of its double coat, soft underneath and coarse on top, spontaneously matting together, cords traditional breeders rarely brush out, letting them form and grow on their own until they cover the entire animal, including the eyes. Historically bred by Hungarian shepherds to herd and protect sheep flocks on the country's great plain, the Puli combines notable intelligence with surprising agility for such a bulky-looking dog, able to move quickly among livestock because, underneath those matted cords, it hides a relatively compact, muscular body. The breed came close to disappearing after World War II, but Hungarian breeders actively worked to revive it in the following decades.",
+      },
+    },
+  },
+  {
+    id: "los-romkocsmak-los-bares-en-ruinas",
+    order: 17,
+    placeholderEmoji: "🍸",
+    accentColor: "#7A1F7A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los bares nacidos en edificios abandonados de Budapest",
+        subtitle: "Los 'romkocsmák', los bares en ruinas",
+        imageAlt: "Caricatura de un patio con muebles desparejados y luces colgantes entre paredes descascaradas.",
+        description:
+          "Los 'romkocsmák', literalmente 'tabernas en ruinas', nacieron a comienzos de los años 2000 cuando emprendedores jóvenes de Budapest, buscando espacios baratos para abrir bares en una economía todavía golpeada tras el fin del comunismo, empezaron a ocupar edificios abandonados del antiguo barrio judío de la ciudad, muchos de ellos casas de departamentos en ruinas con fachadas descascaradas y patios interiores descuidados, decorándolos con muebles desparejados de segunda mano, bañeras reconvertidas en sillones y una estética deliberadamente inacabada que se convirtió en su sello distintivo. El Szimpla Kert, abierto en 2002 y considerado el primer bar en ruinas de la ciudad, se transformó en un destino turístico internacional que inspiró a decenas de locales similares por todo el barrio, generando un fenómeno tan popular que atrae hoy a más visitantes extranjeros que locales, un cambio que despertó cierta tensión entre residentes del barrio y el turismo nocturno masivo.",
+      },
+      en: {
+        title: "The Bars Born Inside Budapest's Abandoned Buildings",
+        subtitle: "Romkocsmák, Budapest's Ruin Bars",
+        imageAlt: "Cartoon of a courtyard with mismatched furniture and string lights between peeling walls.",
+        description:
+          "The 'romkocsmák,' literally 'ruin taverns,' emerged in the early 2000s when young entrepreneurs in Budapest, looking for cheap spaces to open bars in an economy still struggling after the end of communism, began occupying abandoned buildings in the city's old Jewish quarter, many of them crumbling apartment blocks with peeling facades and neglected inner courtyards, decorating them with mismatched secondhand furniture, bathtubs repurposed as couches, and a deliberately unfinished aesthetic that became their trademark look. Szimpla Kert, opened in 2002 and considered the city's first ruin bar, grew into an international tourist destination that inspired dozens of similar venues throughout the district, becoming such a popular phenomenon that it now draws more foreign visitors than locals, a shift that has stirred some tension between neighborhood residents and the district's heavy nightlife tourism.",
+      },
+    },
+  },
+  {
+    id: "el-unicum-el-amargo-nacional-hungaro",
+    order: 18,
+    placeholderEmoji: "🌿",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El amargo de hierbas secreto de una sola familia",
+        subtitle: "El Unicum, el amargo nacional húngaro",
+        imageAlt: "Caricatura de una botella redonda oscura con una cruz roja en la etiqueta.",
+        description:
+          "El Unicum, un licor amargo de color oscuro elaborado a partir de una mezcla de más de cuarenta hierbas maceradas y envejecidas después en barriles de roble, fue creado en 1790 por József Zwack, médico de la corte imperial de los Habsburgo, que originalmente lo formuló como remedio digestivo para el propio emperador José II, quien al probarlo exclamó en latín 'Ez az! Unicum!', que significa aproximadamente 'esto es único', dando origen al nombre de la bebida. La receta exacta permanece hasta hoy como secreto guardado exclusivamente por la familia Zwack, transmitido oralmente de generación en generación sin registro escrito completo, una fórmula que sobrevivió incluso a la nacionalización forzosa de la empresa durante el régimen comunista, cuando la familia debió huir de Hungría con la receta hasta poder recuperar la compañía tras la caída del comunismo en 1989. Su característica botella esférica con una cruz roja se convirtió en un símbolo reconocible de la identidad húngara.",
+      },
+      en: {
+        title: "The Herbal Bitter Only One Family Knows How to Make",
+        subtitle: "Unicum, Hungary's National Bitter",
+        imageAlt: "Cartoon of a round dark bottle with a red cross on the label.",
+        description:
+          "Unicum, a dark bitter liqueur made from a blend of more than forty macerated herbs later aged in oak barrels, was created in 1790 by József Zwack, a physician at the Habsburg imperial court, who originally formulated it as a digestive remedy for Emperor Joseph II himself, who upon tasting it reportedly exclaimed in Latin 'Ez az! Unicum!,' roughly meaning 'this is it, unique,' giving the drink its name. The exact recipe remains to this day a secret held exclusively by the Zwack family, passed down orally across generations with no complete written record, a formula that survived even the company's forced nationalization under the communist regime, when the family had to flee Hungary carrying the recipe with them until they were able to reclaim the company after communism's fall in 1989. Its distinctive round bottle with a red cross became a recognizable symbol of Hungarian identity.",
+      },
+    },
+  },
+  {
+    id: "hungria-y-su-tradicion-esgrimistica",
+    order: 19,
+    placeholderEmoji: "🤺",
+    accentColor: "#B71C1C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que domina la esgrima olímpica hace un siglo",
+        subtitle: "Hungría y su tradición esgrimística",
+        imageAlt: "Caricatura de dos sables cruzados junto a una máscara de esgrima.",
+        description:
+          "Hungría acumula más medallas olímpicas de esgrima, y en particular de sable, que casi cualquier otro país de la historia, un dominio sostenido durante más de un siglo que convirtió al deporte en una tradición nacional casi tan arraigada como el fútbol en otros países, con escuelas de esgrima especializadas repartidas por todo el territorio húngaro desde comienzos del siglo XX. Ese dominio se apoyó durante décadas en un sistema educativo que integraba la esgrima como materia formal en escuelas militares y de élite, formando generaciones sucesivas de tiradores desde la infancia bajo entrenadores que a su vez habían sido campeones olímpicos, una cadena de transmisión técnica que explica en parte por qué Hungría siguió produciendo campeones mundiales incluso después de perder territorio y población tras los tratados que siguieron a la Primera Guerra Mundial. El sable húngaro, con su estilo ofensivo y veloz, se volvió reconocible internacionalmente como escuela propia dentro del deporte.",
+      },
+      en: {
+        title: "A Century of Hungarian Dominance in Olympic Fencing",
+        subtitle: "Hungary's Fencing Tradition",
+        imageAlt: "Cartoon of two crossed sabers beside a fencing mask.",
+        description:
+          "Hungary has amassed more Olympic fencing medals, particularly in saber, than almost any other country in history, a dominance sustained for more than a century that turned the sport into a national tradition nearly as deep-rooted as football is elsewhere, with specialized fencing schools scattered across Hungarian territory since the early 20th century. That dominance rested for decades on an education system that built fencing into the formal curriculum at military and elite schools, training successive generations of fencers from childhood under coaches who had themselves been Olympic champions, a chain of technical transmission that partly explains why Hungary kept producing world champions even after losing territory and population under the treaties following World War I. Hungarian saber fencing, with its fast, offensive style, became internationally recognizable as its own distinct school within the sport.",
+      },
+    },
+  },
+  {
+    id: "el-csardas-el-baile-nacional-hungaro",
+    order: 20,
+    placeholderEmoji: "💃",
+    accentColor: "#D4A017",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El baile que pasa de lento a frenético sin aviso",
+        subtitle: "El csárdás, el baile nacional húngaro",
+        imageAlt: "Caricatura de dos pares de botas de baile en pleno giro con polvo levantándose del piso.",
+        description:
+          "El csárdás, cuyo nombre deriva de 'csárda', las tabernas rurales donde se popularizó, es el baile folclórico más representativo de Hungría y se caracteriza por una estructura dividida en dos partes claramente contrastantes: una sección inicial lenta y solemne llamada lassú, con movimientos controlados y expresivos, seguida sin transición gradual de una sección rápida llamada friss, con giros vertiginosos, zapateo intenso y una energía casi frenética que exige resistencia física considerable de los bailarines. Originado en el siglo XVIII a partir de danzas de reclutamiento militar usadas para atraer voluntarios al ejército con música y alcohol, el csárdás se popularizó rápidamente entre todas las clases sociales húngaras durante el siglo XIX, y compositores como Johannes Brahms y Pyotr Tchaikovsky terminaron incorporando su ritmo distintivo a obras clásicas propias, extendiendo su influencia mucho más allá de las fronteras húngaras.",
+      },
+      en: {
+        title: "The Dance That Suddenly Turns From Slow to Frantic",
+        subtitle: "Csárdás, Hungary's National Dance",
+        imageAlt: "Cartoon of two pairs of dancing boots mid-spin with dust rising from the floor.",
+        description:
+          "Csárdás, whose name derives from 'csárda,' the rural taverns where it became popular, is Hungary's most representative folk dance and is defined by a structure split into two sharply contrasting parts: a slow, solemn opening section called lassú, with controlled, expressive movements, followed with no gradual transition by a fast section called friss, full of dizzying spins, intense footwork, and an almost frantic energy that demands considerable physical stamina from the dancers. Originating in the 18th century from military recruitment dances used to lure volunteers into the army with music and alcohol, csárdás quickly became popular across all Hungarian social classes during the 19th century, and composers like Johannes Brahms and Pyotr Tchaikovsky ended up incorporating its distinctive rhythm into their own classical works, extending its influence well beyond Hungary's borders.",
+      },
+    },
+  },
 ];

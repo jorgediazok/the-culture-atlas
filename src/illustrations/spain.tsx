@@ -239,6 +239,202 @@ const PaellaOrigenValenciano: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const DonQuijoteNovelaMasTraducidaTrasLaBiblia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.6);
+  const metal = "#9AA0A6";
+  return (
+    <g>
+      {/* open book */}
+      <path d="M120 235 L200 220 L200 175 L120 190 Z" fill={light} stroke={dark} strokeWidth="2.5" />
+      <path d="M280 235 L200 220 L200 175 L280 190 Z" fill={light} stroke={dark} strokeWidth="2.5" />
+      <line x1="200" y1="175" x2="200" y2="220" stroke={dark} strokeWidth="2" />
+      {/* barber's basin helmet */}
+      <ellipse cx="200" cy="130" rx="42" ry="20" fill={metal} stroke={shade(metal, 0.4)} strokeWidth="3" />
+      <ellipse cx="200" cy="122" rx="30" ry="14" fill={shade(metal, 0.1)} opacity="0.6" />
+      {/* lance beside it */}
+      <line x1="290" y1="230" x2="255" y2="95" stroke={accentColor} strokeWidth="6" strokeLinecap="round" />
+      <path d="M255 95 L246 118 L264 118 Z" fill={dark} />
+    </g>
+  );
+};
+
+const GuernicaElCuadroDePicasso: IllustrationComponent = () => {
+  const black = "#1A1A1A";
+  const gray = "#6B6B6B";
+  const white = "#EAEAEA";
+  return (
+    <g>
+      {/* fragmented bull head, cubist-angular */}
+      <path d="M110 190 L140 140 L175 155 L180 195 L150 220 L115 210 Z" fill={black} stroke={gray} strokeWidth="2" />
+      <path d="M140 140 L155 108 L165 140 Z" fill={white} />
+      <path d="M175 155 L190 118 L172 145 Z" fill={white} />
+      <circle cx="150" cy="175" r="5" fill={white} />
+      {/* fragmented agonizing horse, angular shapes */}
+      <path d="M210 220 L225 150 L260 130 L300 150 L295 200 L260 225 Z" fill={gray} stroke={black} strokeWidth="2" />
+      <path d="M260 130 L275 95 L288 128 Z" fill={white} />
+      <path d="M225 150 L200 165 L215 185 Z" fill={black} opacity="0.7" />
+      <circle cx="265" cy="160" r="5" fill={black} />
+    </g>
+  );
+};
+
+const ElClasicoRealMadridBarcelona: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const white = "#F5F5F5";
+  const stripe = "#A50044";
+  const blue = "#004D98";
+  return (
+    <g>
+      {/* white jersey */}
+      <path d="M115 110 L150 95 L175 110 L175 130 L165 138 L165 235 L120 235 L120 138 L110 130 Z" fill={white} stroke={dark} strokeWidth="2.5" />
+      <circle cx="145" cy="105" r="9" fill="none" stroke={dark} strokeWidth="2" />
+      {/* blaugrana jersey */}
+      <path d="M225 110 L260 95 L285 110 L285 130 L275 138 L275 235 L230 235 L230 138 L220 130 Z" fill={blue} stroke={shade(blue, 0.3)} strokeWidth="2.5" />
+      <path d="M230 138 L275 138 L275 235 L230 235 Z" fill={stripe} opacity="0.55" />
+      <circle cx="255" cy="105" r="9" fill="none" stroke={shade(blue, 0.3)} strokeWidth="2" />
+    </g>
+  );
+};
+
+const JamonIbericoCuradoEnSecaderos: IllustrationComponent = () => {
+  const wood = "#8B5A2B";
+  const ham = "#B5651D";
+  const fat = "#EDD9B8";
+  return (
+    <g>
+      {/* wooden stand */}
+      <line x1="140" y1="100" x2="270" y2="100" stroke={wood} strokeWidth="6" strokeLinecap="round" />
+      <line x1="150" y1="100" x2="150" y2="240" stroke={wood} strokeWidth="6" />
+      <line x1="260" y1="100" x2="260" y2="240" stroke={wood} strokeWidth="6" />
+      {/* hook and ham leg */}
+      <path d="M205 100 Q205 112 195 112" fill="none" stroke={shade(wood, 0.3)} strokeWidth="3" />
+      <path d="M175 112 Q160 150 175 195 Q185 225 205 232 Q225 225 232 195 Q238 150 220 112 Z" fill={ham} stroke={shade(ham, 0.35)} strokeWidth="2.5" />
+      <path d="M180 118 Q170 150 182 188" fill="none" stroke={fat} strokeWidth="6" opacity="0.7" />
+      <path d="M175 195 Q185 225 205 232" fill="none" stroke={fat} strokeWidth="8" opacity="0.9" />
+    </g>
+  );
+};
+
+const LaSiestaMitoEspanol: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#E8B989";
+  return (
+    <g>
+      {/* bright sun */}
+      <circle cx="290" cy="100" r="22" fill="#F9A825" opacity="0.9" />
+      {[0, 45, 90, 135].map((deg) => (
+        <line key={deg} x1="290" y1="100" x2="290" y2="70" stroke="#F9A825" strokeWidth="4" transform={`rotate(${deg} 290 100)`} />
+      ))}
+      {/* hammock */}
+      <path d="M110 150 Q200 220 290 150" fill="none" stroke={dark} strokeWidth="5" />
+      <path d="M120 175 Q200 235 280 175" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* sleeping person */}
+      <ellipse cx="195" cy="200" rx="45" ry="16" fill={skin} />
+      <circle cx="150" cy="196" r="14" fill={skin} stroke={shade(skin, 0.3)} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const FeriaDeAbrilDeSevilla: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const white = "#FBFBFB";
+  return (
+    <g>
+      {/* polka-dot flamenco dress */}
+      <path d="M175 130 Q200 118 225 130 L232 175 Q245 220 220 240 L180 240 Q155 220 168 175 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[[188, 155], [212, 150], [195, 185], [215, 195], [180, 205], [205, 220]].map(([x, y]) => (
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="5" fill={white} opacity="0.85" />
+      ))}
+      {/* paper lanterns */}
+      <ellipse cx="120" cy="110" rx="14" ry="18" fill="#F9A825" stroke={dark} strokeWidth="2" />
+      <ellipse cx="285" cy="120" rx="14" ry="18" fill="#43A047" stroke={dark} strokeWidth="2" />
+      <line x1="120" y1="92" x2="285" y2="102" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+    </g>
+  );
+};
+
+const LasFallasDeValencia: IllustrationComponent = () => {
+  const figure = "#D9A441";
+  const flame = "#E64A19";
+  const flameLight = "#F9A825";
+  return (
+    <g>
+      {/* papier-mache sculpture, humanoid, engulfed */}
+      <circle cx="200" cy="140" r="20" fill={figure} stroke={shade(figure, 0.35)} strokeWidth="2.5" />
+      <path d="M180 158 L220 158 L228 225 L172 225 Z" fill={figure} stroke={shade(figure, 0.35)} strokeWidth="2.5" />
+      {/* flames wrapping the figure */}
+      <path d="M150 235 Q160 190 185 165 Q170 195 178 225 Z" fill={flame} opacity="0.9" />
+      <path d="M250 235 Q240 185 215 160 Q232 195 222 225 Z" fill={flame} opacity="0.9" />
+      <path d="M180 240 Q200 195 200 155 Q212 200 220 240 Z" fill={flameLight} opacity="0.85" />
+      <path d="M165 245 Q195 210 200 165 Q205 215 235 245 Z" fill={flame} opacity="0.6" />
+    </g>
+  );
+};
+
+const LaMovidaMadrilena: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const neon1 = "#FF4081";
+  const neon2 = "#00E5FF";
+  return (
+    <g>
+      {/* electric guitar */}
+      <path d="M150 160 Q135 175 145 195 Q158 210 175 200 Q185 190 178 175 Q170 158 150 160 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="160" cy="180" r="20" fill="none" stroke={dark} strokeWidth="2" />
+      <line x1="178" y1="165" x2="235" y2="105" stroke={dark} strokeWidth="7" strokeLinecap="round" />
+      {[115, 125, 135].map((y) => (
+        <line key={y} x1="200" y1={y + 15} x2="230" y2={y - 15} stroke={dark} strokeWidth="1.2" opacity="0.6" />
+      ))}
+      {/* neon sunglasses */}
+      <circle cx="255" cy="205" r="18" fill="none" stroke={neon1} strokeWidth="5" />
+      <circle cx="293" cy="205" r="18" fill="none" stroke={neon2} strokeWidth="5" />
+      <line x1="273" y1="205" x2="275" y2="205" stroke={dark} strokeWidth="4" />
+    </g>
+  );
+};
+
+const ElTeideYLasIslasCanarias: IllustrationComponent = () => {
+  const rock = "#5D4037";
+  const rockLight = "#8D6E63";
+  const smoke = "#B0BEC5";
+  return (
+    <g>
+      {/* cone volcano */}
+      <path d="M120 240 L200 100 L280 240 Z" fill={rock} stroke={shade(rock, 0.3)} strokeWidth="3" />
+      <path d="M175 155 L200 100 L225 155 Z" fill={rockLight} opacity="0.7" />
+      {/* crater with smoke */}
+      <ellipse cx="200" cy="103" rx="16" ry="7" fill={shade(rock, 0.4)} />
+      <ellipse cx="195" cy="80" rx="12" ry="14" fill={smoke} opacity="0.6" />
+      <ellipse cx="210" cy="62" rx="10" ry="12" fill={smoke} opacity="0.5" />
+      {/* ocean line */}
+      <path d="M90 240 Q200 232 310 240" stroke="#1565C0" strokeWidth="4" fill="none" opacity="0.5" />
+    </g>
+  );
+};
+
+const ToledoCiudadDeTresCulturas: IllustrationComponent = () => {
+  const steel = "#B0B7BD";
+  const hilt = "#8B5A2B";
+  const gold = "#D4A017";
+  return (
+    <g>
+      {/* Toledo sword, vertical */}
+      <path d="M195 240 L195 110 L200 90 L205 110 L205 240 Z" fill={steel} stroke={shade(steel, 0.4)} strokeWidth="2" />
+      <rect x="182" y="150" width="36" height="8" fill={hilt} />
+      <rect x="192" y="150" width="16" height="30" fill={hilt} stroke={shade(hilt, 0.3)} strokeWidth="1.5" />
+      {/* star of David */}
+      <path d="M130 130 L138 145 L122 145 Z" fill="none" stroke={gold} strokeWidth="2.5" />
+      <path d="M130 148 L122 133 L138 133 Z" fill="none" stroke={gold} strokeWidth="2.5" />
+      {/* cross */}
+      <line x1="270" y1="115" x2="270" y2="150" stroke="#C1272D" strokeWidth="5" strokeLinecap="round" />
+      <line x1="256" y1="126" x2="284" y2="126" stroke="#C1272D" strokeWidth="5" strokeLinecap="round" />
+      {/* crescent moon */}
+      <path d="M130 200 Q118 210 130 222 Q120 212 130 200 Z" fill="none" stroke="#2E5E4E" strokeWidth="4" />
+      <path d="M270 205 Q258 216 270 228 Q262 216 270 205 Z" fill="none" stroke="#2E5E4E" strokeWidth="4" />
+    </g>
+  );
+};
+
 export const spainIllustrations: Record<string, IllustrationDefinition> = {
   "sagrada-familia-obra-inconclusa": { component: SagradaFamiliaObraInconclusa },
   "flamenco-arte-andaluz": { component: FlamencoArteAndaluz },
@@ -250,4 +446,14 @@ export const spainIllustrations: Record<string, IllustrationDefinition> = {
   "horario-nocturno-espanol": { component: HorarioNocturnoEspanol },
   "tapas-cultura-de-compartir": { component: TapasCulturaDeCompartir },
   "paella-origen-valenciano": { component: PaellaOrigenValenciano },
+  "don-quijote-novela-mas-traducida-tras-la-biblia": { component: DonQuijoteNovelaMasTraducidaTrasLaBiblia },
+  "guernica-el-cuadro-de-picasso": { component: GuernicaElCuadroDePicasso },
+  "el-clasico-real-madrid-barcelona": { component: ElClasicoRealMadridBarcelona },
+  "jamon-iberico-curado-en-secaderos": { component: JamonIbericoCuradoEnSecaderos },
+  "la-siesta-mito-espanol": { component: LaSiestaMitoEspanol },
+  "feria-de-abril-de-sevilla": { component: FeriaDeAbrilDeSevilla },
+  "las-fallas-de-valencia": { component: LasFallasDeValencia },
+  "la-movida-madrilena": { component: LaMovidaMadrilena },
+  "el-teide-y-las-islas-canarias": { component: ElTeideYLasIslasCanarias },
+  "toledo-ciudad-de-tres-culturas": { component: ToledoCiudadDeTresCulturas },
 };

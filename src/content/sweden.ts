@@ -231,4 +231,234 @@ export const sweden: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "astrid-lindgren-y-pippi-calzaslargas",
+    order: 11,
+    placeholderEmoji: "📚",
+    accentColor: "#E64A19",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La escritora que creó a la niña más fuerte del mundo",
+        subtitle: "Astrid Lindgren y Pippi Calzaslargas",
+        imageAlt: "Caricatura de dos trenzas rojas paradas hacia arriba junto a un caballo pequeño.",
+        description:
+          "Astrid Lindgren inventó a Pippi Calzaslargas en 1941 para entretener a su hija enferma, Karin, quien le pidió un cuento sobre un personaje con ese nombre inventado en el momento, y publicó la primera novela sobre la niña pelirroja, superfuerte e independiente en 1945, un personaje que vive sola con un caballo y un mono, sin padres ni reglas, y que se convirtió en un símbolo temprano de rebeldía infantil frente a la autoridad adulta en la literatura escandinava. Lindgren, que llegaría a escribir más de treinta libros infantiles traducidos a un centenar de idiomas, usó también su fama para hacer activismo político, y una columna satírica que escribió en 1976 contra una tasa impositiva desproporcionada terminó contribuyendo a la derrota electoral del gobierno sueco de turno. Su rostro apareció durante años en los billetes de veinte coronas suecas.",
+      },
+      en: {
+        title: "The Writer Who Created the World's Strongest Girl",
+        subtitle: "Astrid Lindgren and Pippi Longstocking",
+        imageAlt: "Cartoon of two red braids sticking straight up beside a small horse.",
+        description:
+          "Astrid Lindgren invented Pippi Longstocking in 1941 to entertain her sick daughter, Karin, who asked for a story about a character with that name made up on the spot, and published the first novel about the red-haired, super-strong, independent girl in 1945, a character who lives alone with a horse and a monkey, with no parents or rules, and became an early symbol of childhood rebellion against adult authority in Scandinavian literature. Lindgren, who would go on to write more than thirty children's books translated into around a hundred languages, also used her fame for political activism, and a satirical column she wrote in 1976 against a disproportionate tax rate ended up contributing to the electoral defeat of Sweden's sitting government. Her face appeared on the 20-krona banknote for years.",
+      },
+    },
+  },
+  {
+    id: "systembolaget-el-monopolio-del-alcohol",
+    order: 12,
+    placeholderEmoji: "🍷",
+    accentColor: "#4A148C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El único lugar donde Suecia vende alcohol fuerte",
+        subtitle: "Systembolaget, el monopolio del alcohol",
+        imageAlt: "Caricatura de una botella detrás de un mostrador con un cartel de horario reducido.",
+        description:
+          "Desde 1955, la única forma legal de comprar bebidas con más de 3.5 grados de alcohol para consumo en casa en Suecia es a través de Systembolaget, una cadena de tiendas de propiedad estatal con horarios restringidos, sin publicidad de marcas dentro de los locales y personal instruido para no incentivar la compra, un monopolio creado explícitamente como herramienta de salud pública para reducir el consumo excesivo de alcohol tras décadas de políticas fallidas de prohibición y racionamiento. El sistema, que exige identificación a cualquier comprador que parezca menor de veinticinco años sin excepción, sobrevivió a la entrada de Suecia a la Unión Europea en 1995 gracias a una excepción especial negociada con Bruselas, y hoy sigue teniendo un respaldo social sorprendentemente alto entre la población sueca pese a la incomodidad ocasional de sus horarios limitados.",
+      },
+      en: {
+        title: "The State Monopoly That Controls Alcohol Sales",
+        subtitle: "Systembolaget, Sweden's Alcohol Monopoly",
+        imageAlt: "Cartoon of a bottle behind a counter with a sign showing limited store hours.",
+        description:
+          "Since 1955, the only legal way to buy drinks above 3.5 percent alcohol for home consumption in Sweden has been through Systembolaget, a state-owned chain of stores with restricted hours, no brand advertising inside locations, and staff trained not to encourage purchases, a monopoly created explicitly as a public health tool to curb excessive alcohol consumption after decades of failed prohibition and rationing policies. The system, which requires ID from any buyer who looks under twenty-five with no exceptions, survived Sweden's entry into the European Union in 1995 thanks to a special exception negotiated with Brussels, and still enjoys surprisingly high public support among Swedes today despite the occasional inconvenience of its limited hours.",
+      },
+    },
+  },
+  {
+    id: "lagom-ni-mucho-ni-poco",
+    order: 13,
+    placeholderEmoji: "⚖️",
+    accentColor: "#00838F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La palabra sueca sin traducción exacta al español",
+        subtitle: "Lagom, ni mucho ni poco",
+        imageAlt: "Caricatura de una balanza perfectamente equilibrada con una taza en cada platillo.",
+        description:
+          "'Lagom' es una palabra sueca sin equivalente exacto en la mayoría de los idiomas, que se traduce aproximadamente como 'ni mucho ni poco, lo justo y necesario', y que los suecos usan constantemente para describir desde la temperatura ideal de un café hasta el tamaño adecuado de una casa o el volumen correcto de una conversación. Según una etimología popular, aunque disputada por lingüistas serios, la palabra derivaría de la expresión vikinga 'laget om', que significaba 'alrededor del equipo' y describía la cantidad justa de hidromiel que cada persona debía beber de un cuerno compartido para que alcanzara para todos. Más allá del origen exacto, 'lagom' funciona hoy como una especie de valor cultural implícito que rechaza tanto el exceso ostentoso como la privación extrema, y que muchos suecos consideran una explicación central de su identidad nacional.",
+      },
+      en: {
+        title: "The Swedish Word With No Exact English Translation",
+        subtitle: "Lagom, Not Too Much, Not Too Little",
+        imageAlt: "Cartoon of a perfectly balanced scale with a cup on each side.",
+        description:
+          "'Lagom' is a Swedish word with no exact equivalent in most languages, roughly translating to 'not too much, not too little, just the right amount,' and Swedes use it constantly to describe everything from the ideal temperature of a cup of coffee to the right size for a house or the appropriate volume for a conversation. According to a popular, though linguistically disputed, etymology, the word may derive from the Viking expression 'laget om,' meaning 'around the team,' describing the fair amount of mead each person should drink from a shared horn so there'd be enough for everyone. Whatever its exact origin, 'lagom' functions today as a kind of implicit cultural value rejecting both showy excess and extreme deprivation, one many Swedes consider central to their national identity.",
+      },
+    },
+  },
+  {
+    id: "el-dalahast-el-caballo-de-dalarna",
+    order: 14,
+    placeholderEmoji: "🐴",
+    accentColor: "#B71C1C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El caballito de madera que se volvió símbolo nacional",
+        subtitle: "El Dalahäst, el caballo de Dalarna",
+        imageAlt: "Caricatura de un caballito de madera rojo pintado con flores blancas y azules.",
+        description:
+          "El Dalahäst, un pequeño caballo de madera tallada y pintada de rojo brillante con motivos florales, nació como juguete casero en la región boscosa de Dalarna durante el siglo XVII, tallado por leñadores en las largas noches de invierno con la madera sobrante de sus trabajos forestales para entretener a sus propios hijos o intercambiarlo por comida con vecinos. El color rojo tradicional, llamado 'falu rödfärg', proviene del mismo pigmento mineral extraído de una mina de cobre en Falun que durante siglos se usó también para pintar las típicas casas de madera roja del campo sueco. El caballo ganó reconocimiento internacional definitivo en la Exposición Universal de Nueva York de 1939, donde un ejemplar gigante instalado en el pabellón sueco se volvió una atracción memorable, y desde entonces se convirtió en uno de los souvenirs y símbolos nacionales más reconocibles de Suecia.",
+      },
+      en: {
+        title: "The Wooden Horse That Became a National Symbol",
+        subtitle: "The Dalahäst, Dalarna's Horse",
+        imageAlt: "Cartoon of a small red wooden horse painted with white and blue flowers.",
+        description:
+          "The Dalahäst, a small wooden horse carved and painted bright red with floral motifs, began as a homemade toy in the forested region of Dalarna during the 17th century, carved by lumberjacks on long winter nights from leftover wood from their forestry work, either to entertain their own children or trade with neighbors for food. The traditional red color, called 'falu rödfärg,' comes from the same mineral pigment mined from a copper mine in Falun that was also used for centuries to paint the classic red wooden houses of the Swedish countryside. The horse gained lasting international recognition at the 1939 New York World's Fair, where a giant version installed in the Swedish pavilion became a memorable attraction, and it has since become one of Sweden's most recognizable souvenirs and national symbols.",
+      },
+    },
+  },
+  {
+    id: "kraftskiva-la-fiesta-del-cangrejo-de-rio",
+    order: 15,
+    placeholderEmoji: "🦞",
+    accentColor: "#D84315",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La fiesta de agosto dedicada a los cangrejos de río",
+        subtitle: "Kräftskiva, la fiesta del cangrejo de río",
+        imageAlt: "Caricatura de un cangrejo de río rojo bajo un farolillo de papel con forma de luna.",
+        description:
+          "Cada agosto, cuando termina la temporada de pesca de cangrejo de río regulada por ley, familias y grupos de amigos suecos organizan el 'kräftskiva', una cena festiva al aire libre centrada exclusivamente en comer grandes cantidades de cangrejos de río hervidos con eneldo, acompañados de aguardiente y canciones tradicionales de brindis que se repiten entre trago y trago durante toda la noche. La fiesta se decora tradicionalmente con farolillos de papel con forma de luna sonriente y gorros de fiesta puntiagudos, y aunque hoy buena parte del cangrejo consumido se importa por la sobrepesca histórica de las poblaciones locales suecas, la tradición mantiene intacto su carácter ritual de despedida del verano. Comer correctamente un cangrejo de río, chupando cada pata y usando las manos sin cubiertos, se considera parte esencial de la experiencia social.",
+      },
+      en: {
+        title: "The August Party Devoted Entirely to Crayfish",
+        subtitle: "Kräftskiva, Sweden's Crayfish Party",
+        imageAlt: "Cartoon of a red crayfish beneath a moon-shaped paper lantern.",
+        description:
+          "Every August, once the legally regulated crayfish fishing season ends, Swedish families and groups of friends host 'kräftskiva,' a festive outdoor dinner centered entirely on eating large quantities of dill-boiled crayfish, paired with aquavit and traditional toasting songs repeated between drinks throughout the night. The party is traditionally decorated with paper lanterns shaped like a smiling moon and pointed party hats, and although much of the crayfish eaten today is imported due to historical overfishing of local Swedish populations, the tradition keeps its ritual character as a farewell to summer intact. Eating a crayfish properly, sucking each leg and using your hands with no cutlery, is considered an essential part of the social experience.",
+      },
+    },
+  },
+  {
+    id: "los-sami-y-el-pastoreo-de-renos",
+    order: 16,
+    placeholderEmoji: "🦌",
+    accentColor: "#5D4037",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo indígena que sigue arreando renos hoy",
+        subtitle: "Los sami y el pastoreo de renos",
+        imageAlt: "Caricatura de un reno con astas grandes junto a una tienda cónica de tela tradicional.",
+        description:
+          "Los sami son el pueblo indígena de Sápmi, una región que se extiende por el norte de Suecia, Noruega, Finlandia y Rusia, donde han practicado durante siglos el pastoreo migratorio de renos siguiendo rutas estacionales entre pastos de invierno y verano, una actividad hoy legalmente reservada en Suecia casi exclusivamente a personas de ascendencia sami reconocida. Pese a políticas suecas de asimilación forzada aplicadas durante buena parte del siglo XX, que incluyeron escuelas especiales destinadas a suprimir el idioma y las prácticas sami, la cultura sobrevivió y hoy cuenta con su propio parlamento consultivo en Suecia, su propia bandera y un canto tradicional llamado 'joik', reconocido por la UNESCO como una de las formas de música vocal más antiguas de Europa. Se estima que entre veinte mil y cuarenta mil sami viven hoy dentro de las fronteras suecas.",
+      },
+      en: {
+        title: "The Indigenous People Still Herding Reindeer Today",
+        subtitle: "The Sámi and Reindeer Herding",
+        imageAlt: "Cartoon of a large-antlered reindeer beside a traditional cone-shaped tent.",
+        description:
+          "The Sámi are the Indigenous people of Sápmi, a region stretching across northern Sweden, Norway, Finland, and Russia, where they have practiced migratory reindeer herding for centuries, following seasonal routes between winter and summer pastures, an activity now legally reserved in Sweden almost exclusively for people of recognized Sámi descent. Despite Swedish forced-assimilation policies applied for much of the 20th century, including special schools meant to suppress the Sámi language and practices, the culture survived and today has its own consultative parliament in Sweden, its own flag, and a traditional chant called 'joik,' recognized by UNESCO as one of the oldest forms of vocal music in Europe. An estimated twenty to forty thousand Sámi live within Sweden's borders today.",
+      },
+    },
+  },
+  {
+    id: "minecraft-creado-en-suecia",
+    order: 17,
+    placeholderEmoji: "🎮",
+    accentColor: "#43A047",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El juego sueco de bloques más vendido de la historia",
+        subtitle: "Minecraft, creado en Suecia",
+        imageAlt: "Caricatura de bloques cuadrados apilados formando una montaña con un árbol cuadrado.",
+        description:
+          "El programador sueco Markus 'Notch' Persson lanzó una versión inicial de Minecraft en 2009 casi como proyecto personal, un juego de construcción y supervivencia con gráficos deliberadamente cúbicos y de baja resolución que permite a los jugadores generar y modificar mundos enteros bloque por bloque, y que se volvió viral gracias en gran parte al boca a boca entre comunidades de jugadores antes incluso de tener una versión completa terminada. En 2014, Microsoft compró Mojang, el estudio sueco creado por Persson, por 2.500 millones de dólares, y hoy Minecraft se mantiene como el videojuego más vendido de la historia, con más de trescientos millones de copias vendidas y un uso extendido incluso en escuelas como herramienta educativa para enseñar geometría, programación básica y trabajo colaborativo entre estudiantes de todas las edades.",
+      },
+      en: {
+        title: "The Swedish Block Game That Became the Best-Seller",
+        subtitle: "Minecraft, Made in Sweden",
+        imageAlt: "Cartoon of square blocks stacked into a mountain with a blocky tree.",
+        description:
+          "Swedish programmer Markus 'Notch' Persson released an early version of Minecraft in 2009 almost as a personal side project, a building and survival game with deliberately cube-shaped, low-resolution graphics that lets players generate and reshape entire worlds block by block, and it went viral largely through word of mouth among gaming communities even before a finished version existed. In 2014, Microsoft bought Mojang, the Swedish studio Persson founded, for 2.5 billion dollars, and Minecraft remains the best-selling video game in history today, with more than three hundred million copies sold and widespread use even in schools as an educational tool for teaching geometry, basic programming, and collaborative work among students of all ages.",
+      },
+    },
+  },
+  {
+    id: "el-tomte-el-duende-navideno-sueco",
+    order: 18,
+    placeholderEmoji: "🎅",
+    accentColor: "#7A1F1F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El duende que hay que alimentar para tener buena suerte",
+        subtitle: "El tomte, el duende navideño sueco",
+        imageAlt: "Caricatura de un pequeño duende con gorro puntiagudo rojo junto a un tazón de gachas de avena.",
+        description:
+          "Mucho antes de que Papá Noel se popularizara en Suecia, la tradición folclórica local ya incluía al 'tomte', un pequeño duende barbudo con gorro puntiagudo que según las creencias campesinas vivía escondido cerca de las granjas y protegía silenciosamente a la familia y al ganado, siempre que se lo tratara con respeto y se le dejara todos los años un tazón de gachas de avena con mantequilla la noche del solsticio de invierno. Olvidar la ofrenda, o peor aún, comerse la mantequilla del tazón, se creía que podía provocar la ira del tomte y una temporada de mala suerte o travesuras en la granja. Con el tiempo, la figura del tomte se fusionó parcialmente con la imagen importada de Santa Claus, y hoy conviven ambas versiones en la iconografía navideña sueca, aunque el tomte tradicional sigue apareciendo en tarjetas y decoraciones como una figura propia, distinta y más pequeña.",
+      },
+      en: {
+        title: "The Gnome You Have to Feed for Good Luck",
+        subtitle: "The Tomte, Sweden's Christmas Gnome",
+        imageAlt: "Cartoon of a small gnome with a pointed red cap beside a bowl of porridge.",
+        description:
+          "Long before Santa Claus became popular in Sweden, local folklore already included the 'tomte,' a small bearded gnome with a pointed cap who, according to old peasant beliefs, lived hidden near farms and quietly protected the family and livestock, as long as he was treated with respect and left a bowl of buttered oat porridge every year on the night of the winter solstice. Forgetting the offering, or worse, eating the butter off the bowl, was believed to risk angering the tomte and bringing a season of bad luck or mischief to the farm. Over time, the tomte figure partly merged with the imported image of Santa Claus, and both versions coexist today in Swedish Christmas imagery, though the traditional tomte still appears on cards and decorations as its own distinct, smaller figure.",
+      },
+    },
+  },
+  {
+    id: "la-sauna-y-el-chapuzon-helado-suecos",
+    order: 19,
+    placeholderEmoji: "🧖",
+    accentColor: "#455A64",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Del calor extremo al agua helada, todo por gusto",
+        subtitle: "La sauna y el chapuzón helado suecos",
+        imageAlt: "Caricatura de una cabaña de sauna de madera junto a un agujero de hielo circular en un lago.",
+        description:
+          "La 'bastu', la sauna tradicional sueca, es una costumbre compartida con sus vecinos escandinavos que consiste en calentar una cabaña de madera hasta temperaturas de ochenta o noventa grados centígrados arrojando agua sobre piedras calientes, para después salir directamente a sumergirse en agua helada, ya sea un lago congelado con un agujero cortado en el hielo o, en invierno, simplemente revolcarse en la nieve, un contraste térmico extremo que sus practicantes defienden por beneficios circulatorios y de bienestar mental, respaldados hoy por estudios científicos preliminares sobre reducción del estrés. Muchas casas de verano suecas junto a lagos incluyen una bastu propia como elemento casi obligatorio, y la práctica suele ser social, compartida entre familia o amigos en silencio contemplativo antes del chapuzón final, sin apuro por terminar la sesión.",
+      },
+      en: {
+        title: "Extreme Heat Followed by Freezing Water, on Purpose",
+        subtitle: "Swedish Sauna and the Ice-Cold Plunge",
+        imageAlt: "Cartoon of a wooden sauna cabin beside a round ice hole cut into a frozen lake.",
+        description:
+          "'Bastu,' the traditional Swedish sauna, is a custom shared with its Scandinavian neighbors that involves heating a wooden cabin to temperatures of eighty or ninety degrees Celsius by throwing water on hot stones, then stepping straight out to plunge into ice-cold water, whether a frozen lake through a hole cut in the ice or, in winter, simply rolling in the snow, an extreme temperature contrast practitioners defend for circulatory and mental wellness benefits, now backed by preliminary scientific studies on stress reduction. Many Swedish summer houses by lakes include their own bastu as an almost mandatory feature, and the practice is usually social, shared with family or friends in quiet contemplation before the final plunge, with no rush to end the session.",
+      },
+    },
+  },
+  {
+    id: "el-archipielago-de-estocolmo",
+    order: 20,
+    placeholderEmoji: "🏝️",
+    accentColor: "#1976D2",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad rodeada de treinta mil islas propias",
+        subtitle: "El archipiélago de Estocolmo",
+        imageAlt: "Caricatura de pequeñas islas rocosas con cabañas rojas dispersas sobre agua azul.",
+        description:
+          "Estocolmo, construida sobre catorce islas conectadas por más de cincuenta puentes, se abre además hacia el mar Báltico en un archipiélago propio de aproximadamente treinta mil islas, islotes y afloramientos rocosos que se extienden por unos ochenta kilómetros hacia el este, formados por el fenómeno geológico del rebote postglacial, por el cual la tierra escandinava sigue elevándose lentamente desde el fin de la última glaciación. Solo una pequeña fracción de esas islas está habitada de forma permanente, y muchas familias suecas de clase media poseen o alquilan una modesta cabaña de veraneo en alguna de ellas, generalmente pintada del característico rojo 'falu rödfärg', a la que escapan cada verano en pequeños ferris o botes propios para desconectarse completamente de la vida urbana durante semanas.",
+      },
+      en: {
+        title: "The City Surrounded by Thirty Thousand Islands",
+        subtitle: "The Stockholm Archipelago",
+        imageAlt: "Cartoon of small rocky islands with red cottages scattered across blue water.",
+        description:
+          "Stockholm, built across fourteen islands connected by more than fifty bridges, also opens onto the Baltic Sea through its own archipelago of roughly thirty thousand islands, islets, and rocky outcrops stretching about eighty kilometers to the east, shaped by post-glacial rebound, the geological process by which Scandinavian land keeps slowly rising since the end of the last ice age. Only a small fraction of those islands are permanently inhabited, and many middle-class Swedish families own or rent a modest summer cottage on one of them, usually painted the characteristic 'falu rödfärg' red, to which they escape each summer by small ferry or private boat to disconnect completely from city life for weeks at a time.",
+      },
+    },
+  },
 ];

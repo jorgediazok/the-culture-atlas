@@ -231,4 +231,234 @@ export const poland: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "marie-curie-unica-con-nobel-en-dos-ciencias",
+    order: 11,
+    placeholderEmoji: "🧪",
+    accentColor: "#4A148C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La única persona con Nobel en dos ciencias distintas",
+        subtitle: "Maria Skłodowska-Curie",
+        imageAlt: "Caricatura de dos medallas Nobel junto a un frasco con líquido brillante verde.",
+        description:
+          "Maria Skłodowska nació en Varsovia en 1867, cuando Polonia no existía como país independiente y estaba repartida entre potencias extranjeras, y tuvo que estudiar en una 'universidad flotante' clandestina antes de mudarse a París, donde las mujeres sí podían acceder a estudios superiores formales. Junto a su esposo Pierre Curie, descubrió los elementos radio y polonio, este último bautizado en honor a su país natal, y se convirtió en la primera mujer en ganar un premio Nobel, el de Física en 1903, y la única persona en la historia en ganar Nobel en dos ciencias distintas, sumando el de Química en 1911. Murió en 1934 por anemia aplásica, probablemente causada por décadas de exposición a la radiación sin las protecciones que ella misma ayudó a que se desarrollaran después.",
+      },
+      en: {
+        title: "The Only Person to Win a Nobel in Two Sciences",
+        subtitle: "Marie Curie",
+        imageAlt: "Cartoon of two Nobel medals beside a vial of glowing green liquid.",
+        description:
+          "Maria Skłodowska was born in Warsaw in 1867, when Poland did not exist as an independent country and was divided among foreign powers, and had to study at a clandestine 'flying university' before moving to Paris, where women could actually access formal higher education. Alongside her husband Pierre Curie, she discovered the elements radium and polonium, the latter named after her native country, and became the first woman to win a Nobel Prize, in Physics in 1903, and the only person in history to win Nobel Prizes in two different sciences, adding Chemistry in 1911. She died in 1934 of aplastic anemia, likely caused by decades of radiation exposure without the protections her own work later helped bring about.",
+      },
+    },
+  },
+  {
+    id: "los-husares-alados-caballeria-con-alas",
+    order: 12,
+    placeholderEmoji: "🪽",
+    accentColor: "#C9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los jinetes que cargaban con alas de madera",
+        subtitle: "Los húsares alados",
+        imageAlt: "Caricatura de un casco de caballería con un armazón de alas emplumadas detrás.",
+        description:
+          "Los húsares alados fueron la elite de la caballería pesada polaco-lituana entre los siglos XVI y XVIII, reconocibles por un armazón de madera cubierto de plumas de águila o avestruz que llevaban sujeto a la espalda o la silla de montar, cuyo propósito exacto sigue debatido entre historiadores, entre teorías que van desde intimidar visualmente y sonoramente al enemigo y a sus caballos hasta dificultar que lazos o sables enemigos alcanzaran al jinete por detrás. Considerados durante gran parte de ese período una de las fuerzas de caballería más temidas de Europa, protagonizaron cargas decisivas como la Batalla de Viena de 1683, donde ayudaron a repeler un asedio otomano sobre la capital austríaca en lo que se recuerda como una de las mayores cargas de caballería de la historia militar europea.",
+      },
+      en: {
+        title: "The Cavalry That Charged Wearing Wooden Wings",
+        subtitle: "The Winged Hussars",
+        imageAlt: "Cartoon of a cavalry helmet with a feathered wing frame rising behind it.",
+        description:
+          "The winged hussars were the elite heavy cavalry of the Polish-Lithuanian Commonwealth between the 16th and 18th centuries, recognizable by a wooden frame covered in eagle or ostrich feathers strapped to their back or saddle, whose exact purpose historians still debate, with theories ranging from visually and acoustically intimidating the enemy and its horses to making it harder for enemy lassos or sabers to reach the rider from behind. Considered for much of that period one of the most feared cavalry forces in Europe, they led decisive charges such as the Battle of Vienna in 1683, where they helped repel an Ottoman siege of the Austrian capital in what's remembered as one of the largest cavalry charges in European military history.",
+      },
+    },
+  },
+  {
+    id: "los-matematicos-que-rompieron-enigma-primero",
+    order: 13,
+    placeholderEmoji: "🔐",
+    accentColor: "#2C3E50",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los matemáticos que rompieron Enigma primero",
+        subtitle: "Marian Rejewski y el cifrado Enigma",
+        imageAlt: "Caricatura de una máquina de cifrado con rotores y un engranaje descompuesto en piezas.",
+        description:
+          "Años antes de que los criptógrafos británicos en Bletchley Park se hicieran famosos por descifrar la máquina alemana Enigma durante la Segunda Guerra Mundial, el matemático polaco Marian Rejewski, junto a sus colegas Jerzy Różycki y Henryk Zygalski, ya había logrado reconstruir matemáticamente el funcionamiento interno de la máquina en 1932 usando solo teoría de grupos y un manual filtrado por un espía francés, sin haber visto jamás una Enigma militar real. El equipo polaco desarrolló además una máquina propia, la 'bomba' criptológica, precursora directa de la que Alan Turing perfeccionaría después en Inglaterra, y apenas cinco semanas antes de la invasión alemana de Polonia en 1939 compartieron todos sus avances con Francia y el Reino Unido, un aporte que resultó decisivo para el esfuerzo aliado posterior de descifrado.",
+      },
+      en: {
+        title: "The Mathematicians Who Cracked Enigma First",
+        subtitle: "Marian Rejewski and the Enigma Cipher",
+        imageAlt: "Cartoon of a cipher machine with rotors, its gears broken apart into pieces.",
+        description:
+          "Years before British cryptographers at Bletchley Park became famous for cracking the German Enigma machine during World War II, Polish mathematician Marian Rejewski, along with colleagues Jerzy Różycki and Henryk Zygalski, had already mathematically reconstructed the machine's inner workings back in 1932 using nothing but group theory and a manual leaked by a French spy, without ever having seen an actual military Enigma. The Polish team also built its own machine, the cryptologic 'bomba,' a direct precursor to the one Alan Turing would later perfect in England, and just five weeks before Germany's 1939 invasion of Poland, they shared all their progress with France and the United Kingdom, a contribution that proved decisive to the later Allied codebreaking effort.",
+      },
+    },
+  },
+  {
+    id: "wigilia-la-cena-con-un-plato-vacio-de-mas",
+    order: 14,
+    placeholderEmoji: "🎄",
+    accentColor: "#A83232",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cena de Nochebuena con un plato vacío de más",
+        subtitle: "Wigilia, la cena polaca de Nochebuena",
+        imageAlt: "Caricatura de una mesa festiva con doce platos pequeños y un lugar vacío con un plato extra.",
+        description:
+          "La Wigilia, la cena de Nochebuena polaca, comienza tradicionalmente cuando aparece la primera estrella en el cielo y consiste en doce platos distintos, uno por cada apóstol, todos sin carne en honor al ayuno católico previo a la Navidad, que suelen incluir borscht con pequeños raviolis rellenos de hongos, carpa frita y arenque en distintas preparaciones. Antes de comenzar a comer se comparte el 'opłatek', una oblea fina similar a la hostia, entre todos los presentes, intercambiando buenos deseos para el año siguiente, y es costumbre dejar deliberadamente un lugar vacío en la mesa con un plato servido, reservado para un viajero inesperado o un familiar ausente, un gesto de hospitalidad que muchas familias polacas mantienen todavía hoy sin importar cuán improbable sea que alguien realmente toque la puerta.",
+      },
+      en: {
+        title: "The Christmas Eve Dinner With One Extra Empty Plate",
+        subtitle: "Wigilia, Poland's Christmas Eve Dinner",
+        imageAlt: "Cartoon of a festive table with twelve small dishes and one extra empty place setting.",
+        description:
+          "Wigilia, Poland's Christmas Eve dinner, traditionally begins the moment the first star appears in the sky and consists of twelve different dishes, one for each apostle, all meatless in keeping with the Catholic fast before Christmas, typically including beet soup with small mushroom-filled dumplings, fried carp, and herring prepared several ways. Before anyone eats, everyone present shares 'opłatek,' a thin wafer similar to a communion host, exchanging good wishes for the coming year, and it's customary to deliberately leave one empty place at the table with a plate set out, reserved for an unexpected traveler or an absent family member, a gesture of hospitality many Polish families still keep today no matter how unlikely it is that anyone will actually knock.",
+      },
+    },
+  },
+  {
+    id: "el-hejnal-mariacki-la-trompeta-que-se-corta",
+    order: 15,
+    placeholderEmoji: "🎺",
+    accentColor: "#B87333",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La trompeta que suena cada hora y se corta de golpe",
+        subtitle: "El Hejnał Mariacki de Cracovia",
+        imageAlt: "Caricatura de una trompeta asomando por la ventana de una torre gótica.",
+        description:
+          "Desde lo alto de la torre más alta de la Basílica de Santa María en Cracovia, un trompetista toca en vivo, las veinticuatro horas del día, una breve melodía llamada hejnał en las cuatro direcciones cardinales cada hora en punto, una tradición que según la leyenda se remonta al siglo XIII, cuando un guardia hizo sonar la alarma al ver acercarse una invasión mongola y fue alcanzado por una flecha en la garganta a mitad de la melodía. En honor a esa leyenda, la melodía se interrumpe deliberadamente de forma abrupta en el mismo punto exacto cada vez que se toca, sin llegar nunca a su final, una costumbre que continúa ininterrumpidamente hasta hoy y que desde 1927 incluso se retransmite en vivo por la radio pública polaca al mediodía como una suerte de señal horaria nacional.",
+      },
+      en: {
+        title: "The Trumpet Call That Cuts Off Every Single Hour",
+        subtitle: "The Hejnał Mariacki of Kraków",
+        imageAlt: "Cartoon of a trumpet poking out of a Gothic tower window.",
+        description:
+          "From the top of the tallest tower of St. Mary's Basilica in Kraków, a trumpeter plays live, around the clock, a short melody called the hejnał toward all four cardinal directions on the hour, every hour, a tradition that legend traces back to the 13th century, when a guard sounded the alarm on spotting an approaching Mongol invasion and was struck by an arrow through the throat mid-melody. In honor of that legend, the tune is deliberately cut off abruptly at that same exact point every single time it's played, never reaching its ending, a custom that continues unbroken today and has even been broadcast live on Polish public radio at noon since 1927 as a kind of national time signal.",
+      },
+    },
+  },
+  {
+    id: "malbork-el-castillo-de-ladrillo-mas-grande",
+    order: 16,
+    placeholderEmoji: "🏰",
+    accentColor: "#8C3B2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El castillo de ladrillo más grande jamás construido",
+        subtitle: "El Castillo de Malbork",
+        imageAlt: "Caricatura de una fortaleza de ladrillo rojo con múltiples torres junto a un río.",
+        description:
+          "El Castillo de Malbork, construido a orillas del río Nogat a partir de 1274 por la Orden Teutónica, una orden militar y religiosa de caballeros cruzados, es la fortaleza de ladrillo más grande del mundo por superficie construida, con un complejo de más de veinte hectáreas que funcionó como sede central de la orden y capital de su estado durante más de un siglo. Tras el declive de los teutones, el castillo pasó a manos polacas en 1457 y sufrió después graves daños durante la Segunda Guerra Mundial, cuando alrededor de la mitad de su estructura quedó destruida en los combates finales del frente oriental, antes de ser reconstruido minuciosamente a lo largo de décadas siguiendo planos y fotografías originales. Declarado patrimonio de la UNESCO en 1997, hoy es uno de los castillos góticos mejor conservados de Europa.",
+      },
+      en: {
+        title: "The Largest Brick Castle Ever Built",
+        subtitle: "Malbork Castle",
+        imageAlt: "Cartoon of a red-brick fortress with multiple towers beside a river.",
+        description:
+          "Malbork Castle, built on the banks of the Nogat River starting in 1274 by the Teutonic Order, a military and religious order of crusading knights, is the largest brick fortress in the world by built area, a complex spanning more than twenty hectares that served as the order's headquarters and the capital of its state for over a century. After the Teutonic Order's decline, the castle passed into Polish hands in 1457 and later suffered serious damage during World War II, when roughly half its structure was destroyed in the final fighting on the eastern front, before being meticulously rebuilt over decades following original plans and photographs. Named a UNESCO World Heritage site in 1997, it's now one of the best-preserved Gothic castles in Europe.",
+      },
+    },
+  },
+  {
+    id: "pierniki-el-pan-de-jengibre-de-torun",
+    order: 17,
+    placeholderEmoji: "🍪",
+    accentColor: "#6E4A2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pan de jengibre que Toruń perfecciona hace siglos",
+        subtitle: "Pierniki, el pan de jengibre de Toruń",
+        imageAlt: "Caricatura de galletas de jengibre con formas y glaseado decorativo detallado.",
+        description:
+          "Toruń, la misma ciudad medieval donde nació Nicolás Copérnico, desarrolla desde el siglo XIII una tradición de pan de jengibre llamado 'pierniki', favorecida por su posición sobre antiguas rutas comerciales que traían especias exóticas como jengibre, clavo y canela desde Oriente, ingredientes caros que en la Edad Media convertían a este dulce en un producto de lujo reservado para ocasiones especiales y regalos entre la realeza europea. Los moldes de madera tallada usados históricamente para dar forma a los pierniki, algunos con siglos de antigüedad, representan escudos de armas, animales y figuras religiosas, y todavía se conservan y exhiben en el Museo del Pan de Jengibre de Toruń, donde los visitantes pueden hornear su propia versión siguiendo recetas centenarias transmitidas por gremios locales.",
+      },
+      en: {
+        title: "The Gingerbread Toruń Has Perfected for Centuries",
+        subtitle: "Pierniki, Toruń's Gingerbread",
+        imageAlt: "Cartoon of gingerbread cookies in ornate shapes with decorative icing.",
+        description:
+          "Toruń, the same medieval city where Nicolaus Copernicus was born, has developed a gingerbread tradition called 'pierniki' since the 13th century, favored by its position along old trade routes that brought exotic spices like ginger, clove, and cinnamon from the East, expensive ingredients that in the Middle Ages made this sweet a luxury product reserved for special occasions and gifts among European royalty. The carved wooden molds historically used to shape pierniki, some of them centuries old, depict coats of arms, animals, and religious figures, and are still preserved and displayed at Toruń's Gingerbread Museum, where visitors can bake their own version following centuries-old recipes passed down through local guilds.",
+      },
+    },
+  },
+  {
+    id: "las-cabras-de-poznan-que-embisten-al-mediodia",
+    order: 18,
+    placeholderEmoji: "🐐",
+    accentColor: "#556B2F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las cabras de metal que embisten al mediodía en punto",
+        subtitle: "Las cabras del ayuntamiento de Poznań",
+        imageAlt: "Caricatura de dos cabras mecánicas de metal chocando cabezas sobre una torre de reloj.",
+        description:
+          "Cada día al mediodía, dos pequeñas figuras de cabras metálicas emergen de una ventanilla en la torre del histórico ayuntamiento renacentista de Poznań y se embisten cabeza contra cabeza doce veces, un espectáculo mecánico que atrae a multitudes de turistas y que según la leyenda local conmemora un incidente del siglo XVI, cuando dos cabras destinadas a un banquete municipal escaparon de la cocina y treparon hasta la torre, donde comenzaron a pelear entre sí frente a una multitud sorprendida justo cuando debía sonar la campana. El mecanismo original data de 1551 y sigue funcionando con pequeñas modificaciones técnicas desde entonces, y las cabras se convirtieron con el tiempo en uno de los símbolos no oficiales más queridos de la ciudad, reproducidas en souvenirs, murales y hasta en el nombre de un centro comercial local.",
+      },
+      en: {
+        title: "The Metal Goats That Headbutt Each Day at Noon",
+        subtitle: "Poznań's Fighting Goats",
+        imageAlt: "Cartoon of two mechanical metal goats butting heads atop a clock tower.",
+        description:
+          "Every day at noon, two small metal goat figures emerge from a little window in the tower of Poznań's historic Renaissance town hall and headbutt each other twelve times, a mechanical spectacle that draws crowds of tourists and that local legend says commemorates a 16th-century incident when two goats destined for a municipal banquet escaped the kitchen and climbed up into the tower, where they began fighting each other in front of a startled crowd just as the bell was meant to ring. The original mechanism dates to 1551 and still runs today with only minor technical modifications since then, and the goats became over time one of the city's most beloved unofficial symbols, reproduced on souvenirs, murals, and even in the name of a local shopping mall.",
+      },
+    },
+  },
+  {
+    id: "esperanto-el-idioma-inventado-en-polonia",
+    order: 19,
+    placeholderEmoji: "🌐",
+    accentColor: "#1565C0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El idioma inventado que nació en una ciudad polaca",
+        subtitle: "El esperanto y Ludwik Zamenhof",
+        imageAlt: "Caricatura de una estrella verde de cinco puntas junto a un globo terráqueo.",
+        description:
+          "El esperanto, el idioma artificial más hablado del mundo, fue creado en la ciudad polaca de Białystok por el oftalmólogo Ludwik Zamenhof, quien publicó su primer manual en 1887 bajo el seudónimo 'Doktoro Esperanto', que significa 'el que tiene esperanza' y terminó dándole nombre al idioma. Zamenhof, que creció en una ciudad multiétnica donde convivían y a menudo se enfrentaban polacos, rusos, alemanes y judíos, diseñó el esperanto con una gramática deliberadamente simple y regular, sin excepciones, con el objetivo explícito de que sirviera como segunda lengua neutral capaz de facilitar la comunicación pacífica entre pueblos de distinto origen. Hoy se estima que entre cien mil y dos millones de personas en el mundo hablan esperanto con distintos niveles de fluidez, y la estrella verde de cinco puntas sigue siendo su símbolo internacional reconocido.",
+      },
+      en: {
+        title: "The Invented Language Born in a Polish City",
+        subtitle: "Esperanto and L.L. Zamenhof",
+        imageAlt: "Cartoon of a green five-pointed star beside a globe of the world.",
+        description:
+          "Esperanto, the most widely spoken constructed language in the world, was created in the Polish city of Białystok by ophthalmologist Ludwik Zamenhof, who published its first manual in 1887 under the pseudonym 'Doktoro Esperanto,' meaning 'one who hopes,' which ended up giving the language its name. Zamenhof, who grew up in a multiethnic city where Poles, Russians, Germans, and Jews lived side by side and often clashed, designed Esperanto with a deliberately simple, regular grammar with no exceptions, aiming explicitly for it to serve as a neutral second language capable of easing peaceful communication between peoples of different backgrounds. Today an estimated one hundred thousand to two million people worldwide speak Esperanto with varying levels of fluency, and the green five-pointed star remains its recognized international symbol.",
+      },
+    },
+  },
+  {
+    id: "grzybobranie-el-fin-de-semana-de-buscar-hongos",
+    order: 20,
+    placeholderEmoji: "🍄",
+    accentColor: "#6B4F2A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El fin de semana que Polonia sale a buscar hongos",
+        subtitle: "Grzybobranie, la recolección de hongos",
+        imageAlt: "Caricatura de una canasta de mimbre llena de hongos silvestres junto a hojas de otoño.",
+        description:
+          "Cada otoño, salir a los bosques a recolectar hongos silvestres, una actividad llamada 'grzybobranie', se convierte en una tradición nacional casi generalizada en Polonia, donde familias enteras se despiertan al amanecer los fines de semana para recorrer bosques públicos con canastas de mimbre en busca de variedades comestibles como el boletus o la seta de cardo, un conocimiento práctico sobre qué especies son seguras que suele transmitirse de generación en generación dentro de las familias. La costumbre tiene raíces que se remontan a siglos de subsistencia rural, pero sobrevivió con fuerza incluso en la Polonia urbana e industrializada de hoy, y cada año los hospitales del país registran un pico previsible de intoxicaciones por hongos mal identificados, un riesgo que no ha logrado frenar el entusiasmo popular por esta salida de fin de semana profundamente arraigada en la cultura polaca.",
+      },
+      en: {
+        title: "The Weekend When All of Poland Goes Mushroom Hunting",
+        subtitle: "Grzybobranie, Poland's Mushroom Hunt",
+        imageAlt: "Cartoon of a wicker basket full of wild mushrooms beside autumn leaves.",
+        description:
+          "Every autumn, heading into the forests to gather wild mushrooms, an activity called 'grzybobranie,' becomes an almost universal national tradition in Poland, where entire families wake up at dawn on weekends to comb public forests with wicker baskets in search of edible varieties like porcini or oyster mushrooms, practical knowledge about which species are safe that's typically passed down through families across generations. The custom has roots stretching back centuries to rural subsistence living, but it has survived strongly even in today's urban, industrialized Poland, and every year the country's hospitals see a predictable spike in poisonings from misidentified mushrooms, a risk that hasn't managed to dampen the popular enthusiasm for this deeply rooted weekend outing.",
+      },
+    },
+  },
 ];

@@ -226,6 +226,214 @@ const NeutralidadPermanente1955: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const MozartElNinoQueComponiaSinfonias: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#E8B989";
+  const white = "#F5F0E6";
+  return (
+    <g>
+      {/* piano body */}
+      <rect x="130" y="185" width="140" height="20" fill={dark} />
+      <path d="M270 185 L295 165 L295 205 L270 205 Z" fill={dark} />
+      {[145, 158, 171, 184, 197, 210, 223, 236, 249].map((x, i) => (
+        <rect key={x} x={x} y="185" width="12" height="16" fill={i % 2 === 0 ? white : dark} stroke={dark} strokeWidth="0.5" />
+      ))}
+      {/* child with powdered wig */}
+      <circle cx="200" cy="150" r="22" fill={skin} />
+      <path d="M180 140 Q178 108 200 105 Q222 108 220 140 Q222 130 226 132 Q228 145 220 150 L180 150 Q172 145 174 132 Q178 130 180 140 Z" fill={white} stroke={shade(white, 0.2)} strokeWidth="2" />
+      <circle cx="192" cy="152" r="2.5" fill="#1A1A1A" />
+      <circle cx="208" cy="152" r="2.5" fill="#1A1A1A" />
+      <rect x="188" y="172" width="24" height="14" fill={accentColor} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const LaNoviciaRebeldeYSalzburgo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.4);
+  return (
+    <g>
+      {/* curtain-fabric dress on a hanger shape */}
+      <path d="M175 120 L200 100 L225 120 L235 240 L165 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[178, 195, 212].map((x) => (
+        <line key={x} x1={x} y1="122" x2={x} y2="238" stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      ))}
+      <path d="M175 120 Q200 132 225 120" fill="none" stroke={dark} strokeWidth="2" opacity="0.5" />
+      {/* bouquet of alpine flowers */}
+      <g>
+        <circle cx="270" cy="180" r="9" fill="#FBFBFB" stroke={dark} strokeWidth="1.5" />
+        <circle cx="286" cy="190" r="8" fill={light} stroke={dark} strokeWidth="1.5" />
+        <circle cx="272" cy="200" r="7" fill="#FBFBFB" stroke={dark} strokeWidth="1.5" />
+        <line x1="278" y1="205" x2="278" y2="235" stroke="#4A7C59" strokeWidth="3" />
+      </g>
+    </g>
+  );
+};
+
+const WienerSchnitzelElOrigenDisputado: IllustrationComponent = () => {
+  const gold = "#D9A441";
+  const goldDark = shade(gold, 0.35);
+  const lemon = "#F4D35E";
+  return (
+    <g>
+      {/* plate */}
+      <ellipse cx="200" cy="210" rx="95" ry="24" fill="#FBFBFB" stroke="#B0BEC5" strokeWidth="2.5" />
+      {/* breaded cutlet */}
+      <path d="M140 190 Q135 160 165 152 Q210 140 245 160 Q260 172 250 195 Q240 210 200 208 Q155 210 140 190 Z" fill={gold} stroke={goldDark} strokeWidth="3" />
+      <circle cx="170" cy="175" r="3" fill={goldDark} opacity="0.5" />
+      <circle cx="195" cy="165" r="3" fill={goldDark} opacity="0.5" />
+      <circle cx="220" cy="180" r="3" fill={goldDark} opacity="0.5" />
+      <circle cx="205" cy="195" r="3" fill={goldDark} opacity="0.5" />
+      {/* lemon slice */}
+      <circle cx="270" cy="205" r="18" fill={lemon} stroke={shade(lemon, 0.3)} strokeWidth="2.5" />
+      {[0, 60, 120, 180, 240, 300].map((deg) => (
+        <line key={deg} x1="270" y1="205" x2="270" y2="190" stroke={shade(lemon, 0.3)} strokeWidth="1.2" transform={`rotate(${deg} 270 205)`} opacity="0.6" />
+      ))}
+    </g>
+  );
+};
+
+const GustavKlimtYElBeso: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4AF37";
+  return (
+    <g>
+      {/* two embracing silhouettes wrapped in a shared golden robe */}
+      <path d="M170 240 Q160 180 195 155 Q200 140 210 155 Q245 180 235 240 Z" fill={gold} stroke={dark} strokeWidth="2.5" />
+      <circle cx="192" cy="140" r="16" fill="#E8B989" />
+      <circle cx="214" cy="132" r="14" fill="#E8B989" />
+      {[[180, 190], [200, 175], [190, 210], [215, 200], [205, 225]].map(([x, y]) => (
+        <rect key={`${x}-${y}`} x={x} y={y} width="10" height="10" fill={accentColor} opacity="0.6" transform={`rotate(20 ${x} ${y})`} />
+      ))}
+      <circle cx="185" cy="230" r="4" fill={dark} opacity="0.5" />
+      <circle cx="220" cy="215" r="4" fill={dark} opacity="0.5" />
+    </g>
+  );
+};
+
+const HallstattElPuebloDelLago: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#5B7B9A";
+  return (
+    <g>
+      {/* mountain backdrop */}
+      <path d="M90 200 L160 110 L230 200 Z" fill={dark} opacity="0.6" />
+      <path d="M200 200 L260 130 L320 200 Z" fill={dark} opacity="0.4" />
+      {/* stacked cottages */}
+      {[[130, 175, 30], [165, 165, 34], [200, 178, 28], [235, 168, 32]].map(([x, y, h], i) => (
+        <g key={x}>
+          <rect x={x} y={y} width="30" height={h as number} fill={i % 2 === 0 ? accentColor : tint(accentColor, 0.25)} stroke={dark} strokeWidth="2" />
+          <polygon points={`${x - 2},${y} ${(x as number) + 15},${(y as number) - 14} ${(x as number) + 32},${y}`} fill={dark} />
+        </g>
+      ))}
+      {/* lake with reflection */}
+      <rect x="90" y="210" width="230" height="30" fill={water} opacity="0.5" />
+    </g>
+  );
+};
+
+const ElWienerRiesenradLaRuedaGigante: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      <circle cx="200" cy="170" r="70" fill="none" stroke={accentColor} strokeWidth="8" />
+      {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+        <line key={deg} x1="200" y1="170" x2="200" y2="100" stroke={accentColor} strokeWidth="3" transform={`rotate(${deg} 200 170)`} opacity="0.8" />
+      ))}
+      {[0, 60, 120, 180, 240, 300].map((deg) => (
+        <rect key={deg} x="192" y="94" width="16" height="14" fill={wood} stroke={dark} strokeWidth="1.5" transform={`rotate(${deg} 200 170)`} />
+      ))}
+      <circle cx="200" cy="170" r="8" fill={dark} />
+      <rect x="185" y="240" width="30" height="10" fill={dark} />
+    </g>
+  );
+};
+
+const ElValsYElDanubioAzul: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#E8B989";
+  const light = tint(accentColor, 0.5);
+  return (
+    <g>
+      {/* couple dancing in a circular sweep */}
+      <path d="M175 230 Q160 190 180 160 Q195 145 210 155" fill="none" stroke={accentColor} strokeWidth="10" strokeLinecap="round" />
+      <path d="M225 230 Q240 190 220 160 Q205 145 210 155" fill="none" stroke={light} strokeWidth="10" strokeLinecap="round" />
+      <circle cx="182" cy="148" r="12" fill={skin} />
+      <circle cx="218" cy="148" r="12" fill={skin} />
+      {/* musical notes floating */}
+      <circle cx="270" cy="120" r="6" fill={dark} />
+      <line x1="276" y1="120" x2="276" y2="90" stroke={dark} strokeWidth="2.5" />
+      <circle cx="130" cy="110" r="5" fill={dark} opacity="0.7" />
+      <line x1="135" y1="110" x2="135" y2="85" stroke={dark} strokeWidth="2" opacity="0.7" />
+    </g>
+  );
+};
+
+const StilleNachtNocheDePaz: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      {/* acoustic guitar */}
+      <path d="M150 240 Q135 220 145 195 Q152 182 165 188 Q160 175 172 168 Q186 176 182 192 Q195 200 190 220 Q180 245 150 240 Z" fill={wood} stroke={dark} strokeWidth="2.5" />
+      <circle cx="167" cy="205" r="14" fill={shade(wood, 0.3)} />
+      <line x1="167" y1="168" x2="167" y2="130" stroke={dark} strokeWidth="4" />
+      {/* candle */}
+      <rect x="245" y="180" width="18" height="55" fill="#F5F0E6" stroke={dark} strokeWidth="1.5" />
+      <path d="M254 180 Q248 165 254 155 Q260 165 254 180 Z" fill="#F4A300" />
+      {/* snowflakes */}
+      {[[220, 100], [280, 130], [300, 90]].map(([x, y]) => (
+        <g key={`${x}-${y}`}>
+          <line x1={x} y1={(y as number) - 6} x2={x} y2={(y as number) + 6} stroke={accentColor} strokeWidth="1.5" />
+          <line x1={(x as number) - 6} y1={y} x2={(x as number) + 6} y2={y} stroke={accentColor} strokeWidth="1.5" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const AlmabtriebElDescensoDelGanado: IllustrationComponent = () => {
+  const cow = "#F5F0E6";
+  const dark = shade(cow, 0.5);
+  const patch = "#4A2C1E";
+  return (
+    <g>
+      {/* cow body */}
+      <path d="M140 220 L140 175 Q140 158 165 155 L235 155 Q260 158 260 175 L260 220 Z" fill={cow} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="180" cy="180" rx="16" ry="14" fill={patch} opacity="0.8" />
+      <ellipse cx="225" cy="195" rx="14" ry="12" fill={patch} opacity="0.8" />
+      {/* head */}
+      <ellipse cx="255" cy="165" rx="20" ry="18" fill={cow} stroke={dark} strokeWidth="2.5" />
+      {/* flower crown */}
+      {[240, 255, 270, 285].map((x, i) => (
+        <circle key={x} cx={x} cy="148" r="6" fill={i % 2 === 0 ? "#F4D35E" : "#C1272D"} stroke={dark} strokeWidth="1" />
+      ))}
+      {/* large cowbell */}
+      <path d="M190 220 L190 235 L210 235 L210 220 Z" fill="#D4A017" stroke={shade("#D4A017", 0.35)} strokeWidth="2" />
+      <circle cx="200" cy="238" r="3" fill={shade("#D4A017", 0.35)} />
+    </g>
+  );
+};
+
+const ArnoldSchwarzeneggerDeAustriaAHollywood: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* dumbbell */}
+      <line x1="150" y1="200" x2="250" y2="200" stroke={dark} strokeWidth="8" />
+      <circle cx="150" cy="200" r="30" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="250" cy="200" r="30" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="150" cy="200" r="12" fill={dark} opacity="0.5" />
+      <circle cx="250" cy="200" r="12" fill={dark} opacity="0.5" />
+      {/* dark sunglasses */}
+      <rect x="255" y="110" width="40" height="22" rx="10" fill="#1A1A1A" />
+      <rect x="215" y="110" width="35" height="22" rx="10" fill="#1A1A1A" />
+      <line x1="250" y1="118" x2="255" y2="118" stroke="#1A1A1A" strokeWidth="4" />
+    </g>
+  );
+};
+
 export const austriaIllustrations: Record<string, IllustrationDefinition> = {
   "viena-capital-musica-clasica": { component: VienaCapitalMusicaClasica },
   "cafes-vieneses-patrimonio": { component: CafesVienesesPatrimonio },
@@ -237,4 +445,14 @@ export const austriaIllustrations: Record<string, IllustrationDefinition> = {
   "freud-nacimiento-psicoanalisis": { component: FreudNacimientoPsicoanalisis },
   "tradicion-del-krampus": { component: TradicionDelKrampus },
   "neutralidad-permanente-1955": { component: NeutralidadPermanente1955 },
+  "mozart-el-nino-que-componia-sinfonias": { component: MozartElNinoQueComponiaSinfonias },
+  "la-novicia-rebelde-y-salzburgo": { component: LaNoviciaRebeldeYSalzburgo },
+  "wiener-schnitzel-el-origen-disputado": { component: WienerSchnitzelElOrigenDisputado },
+  "gustav-klimt-y-el-beso": { component: GustavKlimtYElBeso },
+  "hallstatt-el-pueblo-del-lago": { component: HallstattElPuebloDelLago },
+  "el-wiener-riesenrad-la-rueda-gigante": { component: ElWienerRiesenradLaRuedaGigante },
+  "el-vals-y-el-danubio-azul": { component: ElValsYElDanubioAzul },
+  "stille-nacht-noche-de-paz": { component: StilleNachtNocheDePaz },
+  "almabtrieb-el-descenso-del-ganado": { component: AlmabtriebElDescensoDelGanado },
+  "arnold-schwarzenegger-de-austria-a-hollywood": { component: ArnoldSchwarzeneggerDeAustriaAHollywood },
 };

@@ -231,4 +231,234 @@ export const greece: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-monte-olimpo-y-los-doce-dioses",
+    order: 11,
+    placeholderEmoji: "⚡",
+    accentColor: "#3949AB",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El monte donde vivían doce dioses caprichosos",
+        subtitle: "El monte Olimpo y los doce dioses",
+        imageAlt: "Caricatura de un rayo dorado sobre una montaña nevada con nubes.",
+        description:
+          "El monte Olimpo, la montaña más alta de Grecia con 2.917 metros, era en la mitología griega la residencia de los doce dioses olímpicos principales, encabezados por Zeus, dios del cielo y el trueno, junto a Hera, Poseidón, Atenea, Apolo, Afrodita y otros, una familia divina retratada no como seres perfectos sino profundamente humanos en sus defectos, capaces de celos, venganzas, favoritismos y disputas domésticas que determinaban directamente el destino de mortales y de ciudades enteras. Estos mitos, transmitidos oralmente durante siglos antes de fijarse por escrito, no funcionaban solo como relatos religiosos sino como un marco explicativo del mundo natural y de la propia condición humana, y su influencia resultó tan duradera que términos derivados de estos dioses, como 'afrodisíaco' o 'atlas', siguen usándose hoy sin que la mayoría de los hablantes piense en su origen mitológico.",
+      },
+      en: {
+        title: "The Mountain Where Twelve Moody Gods Lived",
+        subtitle: "Mount Olympus and the Twelve Gods",
+        imageAlt: "Cartoon of a golden lightning bolt over a snow-capped mountain with clouds.",
+        description:
+          "Mount Olympus, Greece's tallest mountain at 2,917 meters, was in Greek mythology home to the twelve principal Olympian gods, led by Zeus, god of the sky and thunder, alongside Hera, Poseidon, Athena, Apollo, Aphrodite, and others, a divine family portrayed not as flawless beings but as deeply human in their failings, capable of jealousy, revenge, favoritism, and domestic disputes that directly shaped the fate of mortals and entire cities. These myths, passed down orally for centuries before being written down, functioned not just as religious tales but as an explanatory framework for the natural world and the human condition itself, and their influence proved so lasting that terms derived from these gods, like 'aphrodisiac' or 'atlas,' are still used today without most speakers thinking of their mythological origin.",
+      },
+    },
+  },
+  {
+    id: "el-oraculo-de-delfos",
+    order: 12,
+    placeholderEmoji: "🔮",
+    accentColor: "#6A4C93",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El santuario donde una mujer predecía el futuro",
+        subtitle: "El Oráculo de Delfos",
+        imageAlt: "Caricatura de un trípode dorado sobre una grieta rocosa con vapor saliendo.",
+        description:
+          "El Oráculo de Delfos, considerado en la antigua Grecia el centro exacto del mundo, funcionaba a través de una sacerdotisa llamada Pitia, una mujer que entraba en trance sentada sobre un trípode colocado justo encima de una grieta en la roca, de donde según los relatos antiguos emanaban vapores capaces de inducir un estado alterado de conciencia que le permitía pronunciar profecías crípticas atribuidas directamente al dios Apolo. Reyes, generales y ciudadanos comunes de toda Grecia y más allá viajaban hasta el santuario para consultar decisiones importantes, desde declarar una guerra hasta fundar una nueva colonia, y las respuestas de la Pitia, casi siempre ambiguas y sujetas a múltiples interpretaciones, eran luego traducidas e interpretadas por sacerdotes del templo. Estudios geológicos modernos sugieren que fisuras cercanas efectivamente pudieron liberar gases con propiedades levemente alucinógenas.",
+      },
+      en: {
+        title: "The Shrine Where a Woman Predicted the Future",
+        subtitle: "The Oracle of Delphi",
+        imageAlt: "Cartoon of a golden tripod over a rocky crack with vapor rising.",
+        description:
+          "The Oracle of Delphi, considered in ancient Greece the exact center of the world, operated through a priestess called the Pythia, a woman who entered a trance seated on a tripod placed directly over a crack in the rock, from which ancient accounts say vapors rose capable of inducing an altered state of consciousness that let her utter cryptic prophecies attributed directly to the god Apollo. Kings, generals, and ordinary citizens from across Greece and beyond traveled to the sanctuary to consult on major decisions, from declaring war to founding a new colony, and the Pythia's answers, almost always ambiguous and open to multiple interpretations, were then translated and interpreted by the temple's priests. Modern geological studies suggest nearby fissures could indeed have released gases with mildly hallucinogenic properties.",
+      },
+    },
+  },
+  {
+    id: "alejandro-magno-y-su-imperio",
+    order: 13,
+    placeholderEmoji: "⚔️",
+    accentColor: "#7A1F1F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El rey de veinte años que salió a conquistar el mundo",
+        subtitle: "Alejandro Magno y su imperio",
+        imageAlt: "Caricatura de un casco de guerra griego junto a un mapa con una ruta trazada hacia el este.",
+        description:
+          "Alejandro Magno, rey de Macedonia desde los veinte años tras la muerte de su padre Filipo II, había sido educado personalmente por el filósofo Aristóteles y emprendió a partir del 334 antes de Cristo una campaña militar que en apenas trece años conquistó el Imperio Persa, Egipto y llegó hasta el norte de la actual India, creando uno de los imperios de mayor extensión territorial de la historia antigua, gobernado desde una capital que fluctuaba según dónde se encontrara el propio rey. Más allá de la conquista militar, Alejandro fundó decenas de ciudades que llevaban su nombre, entre ellas Alejandría en Egipto, y promovió activamente la fusión cultural entre tradiciones griegas y orientales, un proceso que los historiadores llaman helenización y que difundió el idioma, el arte y las ideas griegas por buena parte de Asia durante siglos después de su muerte prematura a los treinta y dos años.",
+      },
+      en: {
+        title: "The King Who Set Out to Conquer the World at Twenty",
+        subtitle: "Alexander the Great and His Empire",
+        imageAlt: "Cartoon of a Greek war helmet beside a map with a route traced eastward.",
+        description:
+          "Alexander the Great, king of Macedonia from age twenty after the death of his father Philip II, had been personally tutored by philosopher Aristotle and launched a military campaign starting in 334 BC that in barely thirteen years conquered the Persian Empire, Egypt, and reached as far as northern India, creating one of the largest territorial empires in ancient history, governed from a capital that shifted depending on where the king himself happened to be. Beyond military conquest, Alexander founded dozens of cities bearing his name, including Alexandria in Egypt, and actively promoted the fusion of Greek and Eastern cultural traditions, a process historians call Hellenization that spread the Greek language, art, and ideas across much of Asia for centuries after his premature death at age thirty-two.",
+      },
+    },
+  },
+  {
+    id: "la-iliada-y-la-odisea-de-homero",
+    order: 14,
+    placeholderEmoji: "🏺",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los poemas que se recitaron siglos antes de escribirse",
+        subtitle: "La Ilíada y la Odisea de Homero",
+        imageAlt: "Caricatura de un caballo de madera junto a un barco antiguo con vela desplegada.",
+        description:
+          "La Ilíada y la Odisea, atribuidas al poeta griego Homero y compuestas probablemente alrededor del siglo VIII antes de Cristo, se transmitieron oralmente durante generaciones antes de fijarse por escrito, recitadas de memoria por poetas ambulantes llamados aedos que usaban fórmulas rítmicas repetitivas y epítetos fijos como 'Aquiles de pies ligeros' para ayudar a memorizar decenas de miles de versos. La Ilíada narra episodios de la guerra de Troya, mientras la Odisea sigue el largo regreso a casa del héroe Odiseo tras esa misma guerra, ambas obras fundacionales de toda la literatura occidental posterior que además funcionaron durante siglos como texto educativo central en la antigua Grecia, memorizado por escolares como parte esencial de su formación moral y cívica. La existencia histórica real de un único autor llamado Homero sigue siendo objeto de debate académico sin resolver.",
+      },
+      en: {
+        title: "The Poems Recited for Centuries Before Being Written",
+        subtitle: "Homer's Iliad and Odyssey",
+        imageAlt: "Cartoon of a wooden horse beside an ancient ship with its sail unfurled.",
+        description:
+          "The Iliad and the Odyssey, attributed to the Greek poet Homer and likely composed around the 8th century BC, were passed down orally for generations before being written down, recited from memory by traveling poets called aoidoi who used repetitive rhythmic formulas and fixed epithets like 'swift-footed Achilles' to help memorize tens of thousands of lines. The Iliad recounts episodes from the Trojan War, while the Odyssey follows the hero Odysseus's long journey home after that same war, both foundational works of all later Western literature that also served for centuries as a central educational text in ancient Greece, memorized by schoolchildren as an essential part of their moral and civic education. Whether a single historical author named Homer actually existed remains an unresolved academic debate.",
+      },
+    },
+  },
+  {
+    id: "las-islas-griegas",
+    order: 15,
+    placeholderEmoji: "🏝️",
+    accentColor: "#0A7EA4",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país de seis mil islas donde solo viven doscientas",
+        subtitle: "Las islas griegas",
+        imageAlt: "Caricatura de varias islas pequeñas dispersas sobre un mar azul turquesa.",
+        description:
+          "Grecia está formada por aproximadamente seis mil islas e islotes repartidos por el mar Egeo, el mar Jónico y el Mediterráneo, de los cuales solo alrededor de doscientos veintisiete están habitados de forma permanente, mientras la inmensa mayoría permanece deshabitada por falta de agua dulce, tamaño insuficiente o simple aislamiento geográfico extremo. Esta fragmentación insular extrema convirtió históricamente a Grecia en una civilización profundamente marítima, dependiente de la navegación para el comercio, la comunicación y hasta la propia supervivencia de comunidades aisladas, y explica también la enorme diversidad de dialectos, tradiciones culinarias y costumbres locales que persisten entre islas relativamente cercanas entre sí. Islas como Creta, Rodas, Corfú o Mykonos concentran hoy la mayor parte del turismo internacional, mientras cientos de islas más pequeñas permanecen prácticamente desconocidas fuera de Grecia.",
+      },
+      en: {
+        title: "The Country With 6,000 Islands, Only 200 Inhabited",
+        subtitle: "The Greek Islands",
+        imageAlt: "Cartoon of several small islands scattered across a turquoise sea.",
+        description:
+          "Greece is made up of roughly six thousand islands and islets scattered across the Aegean Sea, the Ionian Sea, and the Mediterranean, of which only about two hundred twenty-seven are permanently inhabited, while the vast majority remain uninhabited due to lack of fresh water, insufficient size, or sheer extreme geographic isolation. This extreme island fragmentation historically made Greece a deeply maritime civilization, dependent on seafaring for trade, communication, and even the survival of isolated communities, and it also explains the enormous diversity of dialects, culinary traditions, and local customs that persist between islands relatively close to one another. Islands like Crete, Rhodes, Corfu, and Mykonos account for most international tourism today, while hundreds of smaller islands remain practically unknown outside Greece.",
+      },
+    },
+  },
+  {
+    id: "la-pascua-ortodoxa-griega",
+    order: 16,
+    placeholderEmoji: "🥚",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La fiesta más importante de Grecia no es la Navidad",
+        subtitle: "La Pascua ortodoxa griega",
+        imageAlt: "Caricatura de huevos pintados de rojo brillante junto a una vela larga encendida.",
+        description:
+          "Para la mayoría de los griegos, la Pascua ortodoxa, y no la Navidad, es la festividad religiosa y familiar más importante del calendario, celebrada según el calendario juliano usado por la Iglesia ortodoxa, que suele ubicar la fecha en un día distinto a la Pascua católica occidental. La celebración culmina la medianoche del Sábado Santo con una misa multitudinaria en la que cada asistente sostiene una vela blanca sin encender hasta que el sacerdote comparte la 'luz santa' proveniente de una llama que se cree traída directamente desde Jerusalén, y la ceremonia se cierra con fuegos artificiales y el grito tradicional 'Cristo ha resucitado'. Al llegar a casa, las familias rompen el ayuno de cuaresma con una sopa especial llamada mageiritsa y, al día siguiente, compiten entrechocando huevos duros pintados de rojo brillante, un juego llamado tsougrisma donde se cree que quien conserva el huevo intacto tendrá buena suerte durante el año.",
+      },
+      en: {
+        title: "Greece's Biggest Holiday Isn't Actually Christmas",
+        subtitle: "Greek Orthodox Easter",
+        imageAlt: "Cartoon of bright red painted eggs beside a tall lit candle.",
+        description:
+          "For most Greeks, Orthodox Easter, not Christmas, is the most important religious and family holiday of the calendar, celebrated according to the Julian calendar used by the Orthodox Church, which usually places the date on a different day than Western Catholic Easter. The celebration climaxes at midnight on Holy Saturday with a massive Mass where every attendee holds an unlit white candle until the priest shares the 'holy light,' believed to come from a flame carried directly from Jerusalem, and the ceremony closes with fireworks and the traditional cry 'Christ has risen.' Arriving home, families break the Lenten fast with a special soup called mageiritsa, and the next day compete by cracking hard-boiled eggs dyed bright red together in a game called tsougrisma, in which whoever's egg stays intact is believed to have good luck for the year.",
+      },
+    },
+  },
+  {
+    id: "el-ouzo-y-su-efecto-lechoso",
+    order: 17,
+    placeholderEmoji: "🥃",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El licor que se vuelve blanco lechoso al agregarle agua",
+        subtitle: "El ouzo y su efecto lechoso",
+        imageAlt: "Caricatura de un vaso transparente con líquido volviéndose blanco lechoso junto a una botella.",
+        description:
+          "El ouzo, un licor griego transparente con sabor predominante a anís destilado junto a otras hierbas y especias como el hinojo, produce al mezclarse con agua o hielo un fenómeno visual llamativo llamado 'efecto ouzo' o efecto lechoso: el líquido, perfectamente transparente en su forma pura, se vuelve blanco opaco casi instantáneamente, un cambio causado por los aceites esenciales de anís, solubles en alcohol pero no en agua, que forman diminutas gotas en suspensión al diluirse la concentración alcohólica. Aunque comparte esta característica con otros licores anisados mediterráneos como el raki turco, el arak libanés o el pastis francés, el ouzo obtuvo en 2006 una denominación de origen protegida por la Unión Europea que restringe legalmente el uso del nombre a productos elaborados específicamente en Grecia y Chipre, y se sirve tradicionalmente acompañado de pequeños platos llamados mezze en bares informales conocidos como ouzerí.",
+      },
+      en: {
+        title: "The Spirit That Turns Milky White When You Add Water",
+        subtitle: "Ouzo and the Louche Effect",
+        imageAlt: "Cartoon of a clear glass turning milky white beside a bottle.",
+        description:
+          "Ouzo, a clear Greek spirit dominated by the flavor of distilled anise along with other herbs and spices like fennel, produces a striking visual phenomenon when mixed with water or ice known as the 'ouzo effect' or louche effect: the liquid, perfectly transparent in its pure form, turns opaque white almost instantly, a change caused by anise essential oils, soluble in alcohol but not in water, that form tiny suspended droplets as the alcohol concentration gets diluted. Though it shares this trait with other Mediterranean anise spirits like Turkish raki, Lebanese arak, or French pastis, ouzo received a protected designation of origin from the European Union in 2006 that legally restricts the name to products made specifically in Greece and Cyprus, and it's traditionally served alongside small dishes called mezze at informal bars known as ouzeri.",
+      },
+    },
+  },
+  {
+    id: "la-feta-y-su-denominacion-protegida",
+    order: 18,
+    placeholderEmoji: "🧀",
+    accentColor: "#E8B923",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El queso que solo puede llamarse así si es griego",
+        subtitle: "La feta y su denominación protegida",
+        imageAlt: "Caricatura de un bloque de queso blanco desmenuzable en un plato.",
+        description:
+          "La feta, un queso blanco y desmenuzable elaborado tradicionalmente con leche de oveja o una mezcla con cabra y curado en salmuera dentro de barriles de madera, obtuvo en 2002 una denominación de origen protegida por la Unión Europea que reserva legalmente el nombre 'feta' de forma exclusiva a quesos producidos con métodos tradicionales específicamente en Grecia, tras una larga disputa legal con Dinamarca y Alemania, países que durante décadas habían fabricado y exportado con ese mismo nombre versiones industriales hechas con leche de vaca. La decisión, celebrada en Grecia como una victoria cultural además de comercial, obligó a productores de otros países europeos a rebautizar sus quesos similares bajo nombres alternativos como 'queso estilo griego' o 'queso blanco en salmuera', aunque el fallo no aplica fuera de la Unión Europea, donde marcas llamadas feta siguen fabricándose libremente en países como Estados Unidos.",
+      },
+      en: {
+        title: "The Cheese That Can Only Be Called Feta if It's Greek",
+        subtitle: "Feta and Its Protected Name",
+        imageAlt: "Cartoon of a crumbly white cheese block on a plate.",
+        description:
+          "Feta, a crumbly white cheese traditionally made from sheep's milk or a mix with goat's milk and cured in brine inside wooden barrels, received a protected designation of origin from the European Union in 2002 that legally reserves the name 'feta' exclusively for cheese produced by traditional methods specifically in Greece, following a long legal dispute with Denmark and Germany, countries that for decades had manufactured and exported cow's-milk industrial versions under the same name. The ruling, celebrated in Greece as a cultural as well as commercial victory, forced producers in other European countries to rebrand their similar cheeses under alternative names like 'Greek-style cheese' or 'white brined cheese,' though the ruling doesn't apply outside the European Union, where products called feta are still freely manufactured in countries like the United States.",
+      },
+    },
+  },
+  {
+    id: "el-mati-el-amuleto-del-ojo-griego",
+    order: 19,
+    placeholderEmoji: "🧿",
+    accentColor: "#1565C0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El amuleto azul que protege de las miradas envidiosas",
+        subtitle: "El mati, el amuleto del ojo griego",
+        imageAlt: "Caricatura de un amuleto circular azul y blanco con forma de ojo colgando de un hilo.",
+        description:
+          "El 'mati', literalmente 'ojo' en griego, es un amuleto circular de vidrio azul con círculos concéntricos blancos y azul oscuro que imitan la forma de un ojo, usado en Grecia desde la antigüedad para protegerse del 'mal de ojo', la creencia de que una mirada cargada de envidia o admiración excesiva, incluso involuntaria, puede provocar mala suerte, enfermedad o desgracia a la persona o el objeto observado. La creencia atraviesa clases sociales y niveles educativos en Grecia, y es común ver el amuleto colgado en autos, casas, negocios y especialmente en bebés recién nacidos, considerados particularmente vulnerables, mientras existe además un ritual verbal llamado 'xematiasma' en el que una persona con el conocimiento tradicional, transmitido generalmente en secreto de generación en generación, recita oraciones específicas para revertir el mal de ojo cuando se sospecha que alguien lo padece.",
+      },
+      en: {
+        title: "The Blue Amulet That Wards Off Envious Stares",
+        subtitle: "The Mati, Greece's Evil Eye Charm",
+        imageAlt: "Cartoon of a round blue-and-white eye-shaped charm hanging from a thread.",
+        description:
+          "The 'mati,' literally 'eye' in Greek, is a circular blue glass amulet with concentric white and dark blue circles mimicking the shape of an eye, used in Greece since antiquity to ward off the 'evil eye,' the belief that a gaze charged with envy or excessive admiration, even unintentional, can bring bad luck, illness, or misfortune to the person or object being looked at. The belief cuts across social classes and education levels in Greece, and it's common to see the amulet hanging in cars, homes, businesses, and especially on newborn babies, considered particularly vulnerable, while there's also a verbal ritual called 'xematiasma' in which someone with the traditional knowledge, usually passed down secretly from generation to generation, recites specific prayers to reverse the evil eye when someone is suspected of suffering from it.",
+      },
+    },
+  },
+  {
+    id: "la-naviera-griega-y-aristoteles-onassis",
+    order: 20,
+    placeholderEmoji: "🚢",
+    accentColor: "#0D3B66",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La flota mercante más grande del mundo es griega",
+        subtitle: "La naviera griega y Aristóteles Onassis",
+        imageAlt: "Caricatura de un carguero grande navegando junto a una chimenea con una cruz azul.",
+        description:
+          "Grecia, pese a tener una población relativamente pequeña, posee la flota mercante más grande del mundo por tonelaje bajo control griego, con armadores griegos operando aproximadamente uno de cada cinco barcos de carga del planeta, una posición dominante en el transporte marítimo internacional heredada de una tradición naviera que se remonta a siglos de comercio en el Mediterráneo y el mar Egeo. Aristóteles Onassis, quizás el armador griego más famoso internacionalmente, emigró joven a Argentina casi sin dinero y construyó desde cero una de las mayores fortunas navieras del siglo XX, comprando petroleros baratos tras la Segunda Guerra Mundial cuando pocos veían potencial en un mercado deprimido, y alcanzó fama mundial adicional por su matrimonio con Jacqueline Kennedy, viuda del presidente estadounidense asesinado. La industria naviera sigue siendo hoy uno de los pilares económicos más importantes del país.",
+      },
+      en: {
+        title: "The World's Largest Merchant Fleet Is Greek-Owned",
+        subtitle: "Greek Shipping and Aristotle Onassis",
+        imageAlt: "Cartoon of a large cargo ship sailing beside a smokestack marked with a blue cross.",
+        description:
+          "Greece, despite having a relatively small population, owns the largest merchant fleet in the world by Greek-controlled tonnage, with Greek shipowners operating roughly one out of every five cargo ships on the planet, a dominant position in international maritime trade inherited from a shipping tradition stretching back centuries of commerce across the Mediterranean and Aegean Sea. Aristotle Onassis, perhaps the most internationally famous Greek shipowner, emigrated young to Argentina with almost no money and built one of the twentieth century's largest shipping fortunes from scratch, buying cheap oil tankers after World War II when few saw potential in a depressed market, and gained additional worldwide fame through his marriage to Jacqueline Kennedy, widow of the assassinated American president. The shipping industry remains one of the country's most important economic pillars today.",
+      },
+    },
+  },
 ];

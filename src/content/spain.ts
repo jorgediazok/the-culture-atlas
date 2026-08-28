@@ -231,4 +231,234 @@ export const spain: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "don-quijote-novela-mas-traducida-tras-la-biblia",
+    order: 11,
+    placeholderEmoji: "📖",
+    accentColor: "#6B4226",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El libro que Cervantes escribió endeudado y preso",
+        subtitle: "Don Quijote de la Mancha",
+        imageAlt: "Caricatura de un yelmo de barbero y una lanza junto a un libro abierto.",
+        description:
+          "Miguel de Cervantes publicó la primera parte de 'El ingenioso hidalgo don Quijote de la Mancha' en 1605, con más de 55 años, tras perder el uso de una mano en la batalla de Lepanto, pasar cinco años cautivo en Argel y caer preso al menos dos veces por deudas. La novela narra las andanzas de un hidalgo enloquecido por leer demasiadas novelas de caballerías, que sale a combatir molinos de viento creyéndolos gigantes junto a su escudero Sancho Panza. Se convirtió en la obra más traducida de la historia después de la Biblia, y muchos críticos la consideran la primera novela moderna por su ironía y el juego constante entre realidad y ficción.",
+      },
+      en: {
+        title: "The Book Cervantes Wrote While in Debt and Jailed",
+        subtitle: "Don Quixote",
+        imageAlt: "Cartoon of a barber's basin helmet and a lance beside an open book.",
+        description:
+          "Miguel de Cervantes published the first part of 'The Ingenious Gentleman Don Quixote of La Mancha' in 1605, past age 55, after losing the use of one hand at the Battle of Lepanto, spending five years a captive in Algiers, and being jailed at least twice over debts. The novel follows a nobleman driven mad by reading too many chivalric romances, who rides out to battle windmills he believes are giants alongside his squire, Sancho Panza. It became the most translated work in history after the Bible, and many critics consider it the first modern novel for its irony and constant interplay between reality and fiction.",
+      },
+    },
+  },
+  {
+    id: "guernica-el-cuadro-de-picasso",
+    order: 12,
+    placeholderEmoji: "🎨",
+    accentColor: "#3A3A3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cuadro que nació del bombardeo de un pueblo vasco",
+        subtitle: "El Guernica de Picasso",
+        imageAlt: "Caricatura de un toro y un caballo en blanco y negro, estilo cubista.",
+        description:
+          "El 26 de abril de 1937, durante la Guerra Civil española, la aviación alemana e italiana bombardeó la localidad vasca de Guernica en apoyo al bando franquista, matando a un número de civiles todavía disputado por los historiadores y destruyendo gran parte del pueblo, uno de los primeros bombardeos masivos de la historia dirigido contra población civil. Pablo Picasso, que residía en París, se enteró por la prensa y en pocas semanas pintó un enorme mural en blanco, negro y grises con figuras fragmentadas de un toro, un caballo agonizante y cuerpos retorcidos, sin representar el bombardeo de forma literal. La obra, hoy en el Museo Reina Sofía de Madrid, se convirtió en el símbolo antibélico más reproducido del siglo XX.",
+      },
+      en: {
+        title: "The Painting Born From the Bombing of a Basque Town",
+        subtitle: "Picasso's Guernica",
+        imageAlt: "Cartoon of a bull and a horse in black and white, cubist style.",
+        description:
+          "On April 26, 1937, during the Spanish Civil War, German and Italian aircraft bombed the Basque town of Guernica in support of Franco's forces, killing a number of civilians still disputed by historians and destroying much of the town, one of history's first mass bombings aimed at a civilian population. Pablo Picasso, then living in Paris, learned of it from the press and within weeks painted an enormous mural in black, white, and gray showing fragmented figures of a bull, a dying horse, and twisted bodies, without depicting the bombing literally. The work, now housed in Madrid's Museo Reina Sofía, became the most reproduced anti-war symbol of the 20th century.",
+      },
+    },
+  },
+  {
+    id: "el-clasico-real-madrid-barcelona",
+    order: 13,
+    placeholderEmoji: "⚽",
+    accentColor: "#1B4D8B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El partido de fútbol que paraliza a todo un país",
+        subtitle: "El Clásico: Real Madrid contra Barcelona",
+        imageAlt: "Caricatura de dos camisetas de fútbol, una blanca y una azulgrana, enfrentadas.",
+        description:
+          "El Clásico, el enfrentamiento entre el Real Madrid y el FC Barcelona, es uno de los partidos más vistos del planeta, con audiencias que superan los 500 millones de espectadores en algunas ediciones, una rivalidad que trasciende el deporte y arrastra durante décadas tensiones políticas e identitarias entre el centralismo español y el nacionalismo catalán, especialmente marcadas durante la dictadura de Francisco Franco, cuando el Barcelona se convirtió en símbolo de resistencia cultural catalana. Ambos clubes acumulan entre los planteles con más títulos de Europa, y futbolistas como Alfredo Di Stéfano, Johan Cruyff, Lionel Messi y Cristiano Ronaldo protagonizaron algunos de los capítulos más recordados de una rivalidad que sigue paralizando bares y hogares cada vez que se juega.",
+      },
+      en: {
+        title: "The Soccer Match That Stops an Entire Country",
+        subtitle: "El Clásico: Real Madrid vs. Barcelona",
+        imageAlt: "Cartoon of two soccer jerseys, one white and one blue-and-red, facing off.",
+        description:
+          "El Clásico, the clash between Real Madrid and FC Barcelona, is one of the most-watched matches on the planet, with audiences topping 500 million viewers in some editions, a rivalry that transcends sport and carries decades of political and identity tensions between Spanish centralism and Catalan nationalism, especially pronounced under the Francisco Franco dictatorship, when Barcelona became a symbol of Catalan cultural resistance. Both clubs rank among Europe's most decorated, and players like Alfredo Di Stéfano, Johan Cruyff, Lionel Messi, and Cristiano Ronaldo produced some of the rivalry's most memorable chapters, one that still brings bars and living rooms across Spain to a standstill every time it's played.",
+      },
+    },
+  },
+  {
+    id: "jamon-iberico-curado-en-secaderos",
+    order: 14,
+    placeholderEmoji: "🍖",
+    accentColor: "#8B3A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El jamón que se cura colgado durante años enteros",
+        subtitle: "El jamón ibérico",
+        imageAlt: "Caricatura de una pata de jamón colgada de un soporte de madera.",
+        description:
+          "El jamón ibérico proviene de una raza de cerdo negro autóctona de la península ibérica, capaz en su máxima categoría, la de 'bellota', de alimentarse en libertad por las dehesas de España y comer bellotas de encina durante los meses previos al sacrificio, lo que da a su grasa infiltrada un sabor y una textura muy particulares. Tras el sacrificio, las patas se curan colgadas en secaderos durante un período que puede extenderse entre dos y cuatro años, un proceso artesanal de salazón y secado natural heredado de técnicas centenarias que convierte al jamón ibérico de bellota en uno de los productos gastronómicos más caros y prestigiosos de España, cortado tradicionalmente a mano en láminas finas con un cuchillo largo y flexible.",
+      },
+      en: {
+        title: "The Ham Cured Hanging for Years at a Time",
+        subtitle: "Jamón Ibérico",
+        imageAlt: "Cartoon of a leg of ham hanging from a wooden stand.",
+        description:
+          "Jamón ibérico comes from a black pig breed native to the Iberian Peninsula, which at its top grade, 'bellota,' roams freely across Spain's oak pastures and eats acorns in the months before slaughter, giving its marbled fat a distinctive flavor and texture. After slaughter, the legs are cured hanging in drying rooms for a period that can stretch between two and four years, an artisanal salting and natural-drying process inherited from centuries-old techniques that makes acorn-fed jamón ibérico one of Spain's most expensive and prestigious foods, traditionally hand-carved into thin slices with a long, flexible knife.",
+      },
+    },
+  },
+  {
+    id: "la-siesta-mito-espanol",
+    order: 15,
+    placeholderEmoji: "😴",
+    accentColor: "#7E57C2",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La siesta que casi nadie duerme de verdad",
+        subtitle: "El mito de la siesta española",
+        imageAlt: "Caricatura de una persona durmiendo en una hamaca bajo un sol brillante.",
+        description:
+          "Pese a ser uno de los estereotipos más extendidos sobre España en el extranjero, encuestas recientes muestran que solo una minoría de españoles duerme siesta de forma habitual entre semana, y la costumbre está en declive constante desde hace décadas por los horarios laborales modernos. El origen de la palabra sí es genuinamente español, y deriva del latín 'hora sexta', la sexta hora del día contada desde el amanecer, es decir, el mediodía, momento en que el calor extremo en gran parte del país volvía poco productivo trabajar al aire libre, sobre todo en tareas agrícolas. Ese origen agrario explica también la larga pausa del mediodía que todavía conservan muchos comercios pequeños en pueblos y ciudades del interior, aunque ya no siempre se use para dormir.",
+      },
+      en: {
+        title: "The Nap Almost Nobody Actually Takes",
+        subtitle: "The Myth of the Spanish Siesta",
+        imageAlt: "Cartoon of a person napping in a hammock under a bright sun.",
+        description:
+          "Despite being one of the most widespread stereotypes about Spain abroad, recent surveys show only a minority of Spaniards regularly nap on weekdays, and the habit has been steadily declining for decades under modern work schedules. The word's origin is genuinely Spanish, though, coming from the Latin 'hora sexta,' the sixth hour of the day counted from sunrise, meaning midday, a time when extreme heat across much of the country made outdoor work unproductive, especially farm labor. That agrarian origin also explains the long midday break many small shops in inland towns and cities still keep today, even if it's no longer always spent asleep.",
+      },
+    },
+  },
+  {
+    id: "feria-de-abril-de-sevilla",
+    order: 16,
+    placeholderEmoji: "🎪",
+    accentColor: "#E91E63",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La feria donde Sevilla no para de bailar una semana",
+        subtitle: "La Feria de Abril de Sevilla",
+        imageAlt: "Caricatura de un vestido de flamenca de lunares junto a farolillos de colores.",
+        description:
+          "Dos semanas después de la Semana Santa, Sevilla monta en el barrio de Los Remedios un recinto ferial de más de mil casetas de lona, muchas privadas y solo accesibles por invitación, donde durante una semana entera familias, empresas y peñas bailan sevillanas, comen y beben desde el mediodía hasta la madrugada bajo miles de farolillos de colores. Nacida en 1847 como una feria de ganado, la Feria de Abril se transformó con el tiempo en una de las mayores celebraciones populares de España, con un desfile diario de caballistas y carruajes de gala por el recinto, mujeres vestidas con el tradicional traje de flamenca de lunares y volantes, y una portada monumental iluminada que cada año recrea un edificio distinto de la ciudad.",
+      },
+      en: {
+        title: "The Fair Where Seville Dances Nonstop for a Week",
+        subtitle: "Seville's Feria de Abril",
+        imageAlt: "Cartoon of a polka-dot flamenco dress beside colorful paper lanterns.",
+        description:
+          "Two weeks after Holy Week, Seville sets up a fairground in the Los Remedios neighborhood with more than a thousand canvas tents, many private and accessible only by invitation, where for a full week families, companies, and social clubs dance sevillanas and eat and drink from noon until dawn under thousands of colorful paper lanterns. Born in 1847 as a livestock fair, the Feria de Abril evolved over time into one of Spain's largest popular celebrations, with a daily parade of horse riders and gala carriages through the grounds, women dressed in the traditional polka-dot flamenco gown, and a monumental illuminated gateway that recreates a different city building each year.",
+      },
+    },
+  },
+  {
+    id: "las-fallas-de-valencia",
+    order: 17,
+    placeholderEmoji: "🔥",
+    accentColor: "#E64A19",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las esculturas que Valencia construye para quemarlas",
+        subtitle: "Las Fallas de Valencia",
+        imageAlt: "Caricatura de una escultura de papel maché ardiendo en llamas.",
+        description:
+          "Cada marzo, los barrios de Valencia construyen durante meses 'fallas', enormes esculturas de cartón piedra, madera y papel maché que a veces superan los veinte metros de altura y satirizan con humor mordaz a políticos, famosos y actualidad del año, financiadas por asociaciones vecinales llamadas 'casals fallers' que trabajan todo el año para costear un monumento que apenas se exhibe unos días. La fiesta culmina en la 'nit del foc' y la posterior 'cremà', la noche del 19 de marzo en que absolutamente todas las fallas de la ciudad, incluidas piezas que costaron cientos de miles de euros y meses de trabajo artesanal, arden hasta las cenizas frente a multitudes, como recordatorio deliberado de que la belleza del arte efímero está precisamente en su desaparición.",
+      },
+      en: {
+        title: "The Giant Sculptures Valencia Builds Just to Burn",
+        subtitle: "Las Fallas of Valencia",
+        imageAlt: "Cartoon of a papier-mâché sculpture engulfed in flames.",
+        description:
+          "Every March, Valencia's neighborhoods spend months building 'fallas,' enormous papier-mâché, wood, and cardboard sculptures that sometimes top twenty meters and satirize politicians, celebrities, and the year's events with biting humor, funded by neighborhood associations called 'casals fallers' that work all year to pay for a monument displayed for only a few days. The festival culminates on the night of March 19th in the 'nit del foc' and the 'cremà,' when every single falla in the city, including pieces that cost hundreds of thousands of euros and months of craftsmanship, burns to ashes in front of crowds, a deliberate reminder that the beauty of ephemeral art lies precisely in its disappearance.",
+      },
+    },
+  },
+  {
+    id: "la-movida-madrilena",
+    order: 18,
+    placeholderEmoji: "🎸",
+    accentColor: "#D81B60",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La explosión cultural que siguió a la dictadura",
+        subtitle: "La Movida Madrileña",
+        imageAlt: "Caricatura de una guitarra eléctrica junto a gafas de sol de neón.",
+        description:
+          "Tras la muerte de Francisco Franco en 1975 y el fin de casi cuarenta años de dictadura y censura cultural, Madrid vivió a comienzos de los años ochenta un estallido de libertad creativa conocido como la Movida Madrileña, un movimiento contracultural que mezcló música punk y new wave, moda extravagante, cine transgresor y una vida nocturna desbordante que exploró abiertamente temas antes prohibidos como la sexualidad y las drogas. El cineasta Pedro Almodóvar, entonces un joven cercano a ese ambiente, se convirtió en su figura más internacional, mientras bandas como Alaska y los Pegamoides o Radio Futura definían el sonido de una generación que quería vivir deprisa después de décadas de represión. El propio alcalde de Madrid llegó a apoyar públicamente el movimiento como símbolo de la nueva democracia española.",
+      },
+      en: {
+        title: "The Cultural Explosion That Followed the Dictatorship",
+        subtitle: "La Movida Madrileña",
+        imageAlt: "Cartoon of an electric guitar beside neon-colored sunglasses.",
+        description:
+          "After Francisco Franco's death in 1975 and the end of nearly forty years of dictatorship and cultural censorship, Madrid experienced an explosion of creative freedom in the early 1980s known as La Movida Madrileña, a countercultural movement blending punk and new wave music, extravagant fashion, transgressive film, and a booming nightlife that openly explored previously forbidden subjects like sexuality and drugs. Filmmaker Pedro Almodóvar, then a young figure close to that scene, became its most internationally recognized face, while bands like Alaska y los Pegamoides and Radio Futura defined the sound of a generation eager to live fast after decades of repression. Madrid's own mayor went as far as publicly endorsing the movement as a symbol of Spain's new democracy.",
+      },
+    },
+  },
+  {
+    id: "el-teide-y-las-islas-canarias",
+    order: 19,
+    placeholderEmoji: "🌋",
+    accentColor: "#5D4037",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El volcán más alto de España está en pleno Atlántico",
+        subtitle: "El Teide y las Islas Canarias",
+        imageAlt: "Caricatura de un volcán cónico con un cráter humeante en la cima.",
+        description:
+          "El Teide, en la isla de Tenerife, es el pico más alto de España con 3.715 metros y el tercer volcán más grande del mundo medido desde su base oceánica, un gigante todavía activo que dio forma a un archipiélago, las Islas Canarias, situado geográficamente frente a la costa de Marruecos y más cerca de África que de la España peninsular. Su paisaje lunar de lava solidificada, tan singular que la agencia espacial estadounidense NASA lo usó para probar vehículos antes de misiones a Marte, alberga un parque nacional declarado Patrimonio de la Humanidad por la UNESCO y ecosistemas únicos adaptados a la altitud y la aridez volcánica. Las siete islas principales del archipiélago, de origen volcánico y clima subtropical todo el año, reciben más turistas europeos que casi cualquier otro destino insular del continente.",
+      },
+      en: {
+        title: "Spain's Tallest Mountain Rises From the Atlantic",
+        subtitle: "Mount Teide and the Canary Islands",
+        imageAlt: "Cartoon of a cone-shaped volcano with a smoking crater at its peak.",
+        description:
+          "Mount Teide, on the island of Tenerife, is Spain's tallest peak at 3,715 meters and the third-largest volcano in the world measured from its ocean-floor base, a still-active giant that shaped an archipelago, the Canary Islands, sitting geographically closer to the coast of Morocco than to mainland Spain. Its lunar landscape of hardened lava is so distinctive that NASA has used it to test rovers ahead of Mars missions, and it now sits inside a national park declared a UNESCO World Heritage Site, home to unique ecosystems adapted to altitude and volcanic aridity. The archipelago's seven main islands, volcanic in origin with a year-round subtropical climate, draw more European tourists than almost any other island destination on the continent.",
+      },
+    },
+  },
+  {
+    id: "toledo-ciudad-de-tres-culturas",
+    order: 20,
+    placeholderEmoji: "⚔️",
+    accentColor: "#B08D57",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Toledo, la ciudad medieval de tres religiones",
+        subtitle: "Toledo y la convivencia de tres culturas",
+        imageAlt: "Caricatura de una espada toledana junto a una estrella, una cruz y una media luna.",
+        description:
+          "Durante gran parte de la Edad Media, Toledo funcionó como un raro punto de encuentro donde cristianos, judíos y musulmanes convivieron y colaboraron bajo distintos gobernantes, un período conocido como la 'convivencia' que permitió el florecimiento de la llamada Escuela de Traductores de Toledo, donde eruditos de las tres religiones tradujeron al latín obras griegas, árabes y hebreas de filosofía, medicina y astronomía que habían estado perdidas para buena parte de Europa occidental, ayudando a sentar las bases del Renacimiento europeo. La ciudad, capital de España hasta 1561, es también célebre desde la época romana por sus talleres de espadas, cuyo acero templado con técnicas guardadas en secreto durante siglos siguen fabricándose de forma artesanal y se venden hoy sobre todo como piezas de colección y réplicas históricas.",
+      },
+      en: {
+        title: "Toledo, the Medieval City of Three Faiths",
+        subtitle: "Toledo's Three-Faith Legacy",
+        imageAlt: "Cartoon of a Toledo sword beside a star, a cross, and a crescent moon.",
+        description:
+          "For much of the Middle Ages, Toledo served as a rare meeting point where Christians, Jews, and Muslims lived and worked alongside one another under various rulers, a period known as 'convivencia' that allowed the so-called Toledo School of Translators to flourish, where scholars from all three faiths translated Greek, Arabic, and Hebrew works of philosophy, medicine, and astronomy into Latin, texts that had been lost to much of Western Europe, helping lay groundwork for the European Renaissance. The city, Spain's capital until 1561, has also been famous since Roman times for its sword workshops, whose tempered steel, made with techniques kept secret for centuries, is still forged by hand today and sold mostly as collector's pieces and historical replicas.",
+      },
+    },
+  },
 ];

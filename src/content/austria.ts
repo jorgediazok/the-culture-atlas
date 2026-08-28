@@ -231,4 +231,234 @@ export const austria: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "mozart-el-nino-que-componia-sinfonias",
+    order: 11,
+    placeholderEmoji: "🎹",
+    accentColor: "#6B4C9A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El niño que componía sinfonías a los ocho años",
+        subtitle: "Wolfgang Amadeus Mozart",
+        imageAlt: "Caricatura de un niño pequeño sentado ante un piano con una peluca empolvada.",
+        description:
+          "Wolfgang Amadeus Mozart, nacido en Salzburgo en 1756, componía ya piezas breves a los cinco años y a los ocho ya había escrito su primera sinfonía, un talento precoz que su padre Leopold, también músico, explotó llevando al niño de gira por las cortes de Europa para exhibirlo como fenómeno musical ante emperadores y reyes. Mozart se instaló definitivamente en Viena en 1781, donde compuso en apenas una década algunas de las obras más influyentes de la música occidental, entre ellas óperas como 'Las bodas de Fígaro' y 'La flauta mágica', antes de morir en 1791 a los 35 años en circunstancias que alimentaron durante siglos teorías conspirativas sobre un posible envenenamiento, hoy descartadas por la mayoría de los historiadores a favor de una enfermedad común de la época.",
+      },
+      en: {
+        title: "The Boy Who Composed Symphonies at Age Eight",
+        subtitle: "Wolfgang Amadeus Mozart",
+        imageAlt: "Cartoon of a small child seated at a piano wearing a powdered wig.",
+        description:
+          "Wolfgang Amadeus Mozart, born in Salzburg in 1756, was already composing short pieces at age five and had written his first symphony by eight, a precocious talent his father Leopold, also a musician, exploited by touring the boy through Europe's royal courts to showcase him as a musical prodigy before emperors and kings. Mozart settled permanently in Vienna in 1781, where in barely a decade he composed some of the most influential works in Western music, including operas like 'The Marriage of Figaro' and 'The Magic Flute,' before dying in 1791 at age 35 under circumstances that fueled centuries of conspiracy theories about possible poisoning, now dismissed by most historians in favor of a common illness of the era.",
+      },
+    },
+  },
+  {
+    id: "la-novicia-rebelde-y-salzburgo",
+    order: 12,
+    placeholderEmoji: "🎬",
+    accentColor: "#4A7C59",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La película que Austria no reconoce pero el mundo ama",
+        subtitle: "'La novicia rebelde' y Salzburgo",
+        imageAlt: "Caricatura de una falda con cortinas y un ramo de flores de los Alpes.",
+        description:
+          "'La novicia rebelde', el musical de Hollywood de 1965 basado libremente en la historia real de la familia von Trapp de Salzburgo, se convirtió en una de las películas más queridas y taquilleras de la historia fuera de Austria, pero dentro del país sigue siendo relativamente desconocida, ya que nunca se estrenó ampliamente en cines austríacos ni forma parte de la memoria cultural popular local, en parte porque suaviza de forma considerable el contexto histórico real de la anexión nazi de Austria que empuja a la familia al exilio. Pese a esa desconexión local, Salzburgo construyó toda una industria turística alrededor del filme, con tours guiados diarios a las locaciones reales donde se filmaron escenas icónicas como la del prado inicial, atrayendo a cientos de miles de visitantes extranjeros cada año que llegan buscando reconocer paisajes de una película que casi ningún austríaco ha visto completa.",
+      },
+      en: {
+        title: "The Movie Austrians Barely Know but the World Loves",
+        subtitle: "The Sound of Music and Salzburg",
+        imageAlt: "Cartoon of a dress made from curtains beside a bouquet of alpine flowers.",
+        description:
+          "'The Sound of Music,' the 1965 Hollywood musical loosely based on the real story of Salzburg's von Trapp family, became one of the most beloved and highest-grossing films in history outside Austria, but inside the country it remains relatively obscure, since it never got a wide theatrical release there and isn't part of local popular cultural memory, partly because it considerably softens the real historical context of the Nazi annexation of Austria that pushes the family into exile. Despite that local disconnect, Salzburg built an entire tourism industry around the film, with daily guided tours to the real locations where iconic scenes like the opening meadow shot were filmed, drawing hundreds of thousands of foreign visitors each year hoping to recognize scenery from a movie almost no Austrian has ever seen in full.",
+      },
+    },
+  },
+  {
+    id: "wiener-schnitzel-el-origen-disputado",
+    order: 13,
+    placeholderEmoji: "🍽️",
+    accentColor: "#C68642",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La milanesa cuyo origen Austria e Italia se disputan",
+        subtitle: "El Wiener Schnitzel",
+        imageAlt: "Caricatura de una milanesa empanizada dorada junto a una rodaja de limón.",
+        description:
+          "El Wiener Schnitzel, una fina milanesa de ternera empanizada y frita hasta quedar dorada y crocante, es considerado uno de los platos nacionales de Austria, protegido incluso por regulaciones que exigen que solo la versión hecha con ternera pueda llamarse legalmente 'Wiener Schnitzel', mientras las versiones con cerdo deben venderse bajo el nombre distinto de 'Schnitzel Wiener Art'. Existe una leyenda popular, aunque desestimada por buena parte de los historiadores gastronómicos, según la cual un mariscal austríaco habría traído la receta desde Milán en el siglo XIX inspirada en la costeleta a la milanesa italiana, aunque documentos anteriores sugieren que platos similares de carne empanizada y frita ya existían en Austria de forma independiente. Más allá del origen exacto, hoy se sirve tradicionalmente con una simple rodaja de limón y ensalada de papas.",
+      },
+      en: {
+        title: "The Cutlet Whose Origin Austria and Italy Both Claim",
+        subtitle: "The Wiener Schnitzel",
+        imageAlt: "Cartoon of a golden breaded cutlet beside a lemon slice.",
+        description:
+          "Wiener Schnitzel, a thin breaded veal cutlet fried until golden and crisp, is considered one of Austria's national dishes, protected by regulations requiring that only the veal version can legally be called 'Wiener Schnitzel,' while pork versions must be sold under the distinct name 'Schnitzel Wiener Art.' A popular legend, though dismissed by most food historians, claims an Austrian field marshal brought the recipe back from Milan in the 19th century inspired by Italian veal Milanese, though earlier records suggest similar breaded, fried meat dishes already existed independently in Austria. Whatever its exact origin, it's traditionally served today with nothing more than a simple lemon wedge and potato salad.",
+      },
+    },
+  },
+  {
+    id: "gustav-klimt-y-el-beso",
+    order: 14,
+    placeholderEmoji: "🖼️",
+    accentColor: "#A67C00",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cuadro dorado que redefinió el arte vienés",
+        subtitle: "Gustav Klimt y 'El beso'",
+        imageAlt: "Caricatura de dos siluetas abrazadas cubiertas de patrones dorados geométricos.",
+        description:
+          "Gustav Klimt, hijo de un grabador de oro, incorporó pan de oro real a muchas de sus pinturas, una técnica que alcanzó su punto más célebre en 'El beso', pintado entre 1907 y 1908, donde una pareja envuelta en mantos dorados con patrones geométricos que se funden entre sí se convirtió en una de las imágenes más reproducidas del arte occidental, presente hoy en pósters, tazas y mercancía de todo tipo en el mundo entero. Klimt lideró en 1897 la fundación de la Secesión de Viena, un movimiento de artistas que rompió deliberadamente con las instituciones académicas conservadoras de la época para explorar el simbolismo, la sensualidad y la ornamentación dorada como lenguaje artístico propio, bajo el lema grabado en su sede: 'A cada época su arte, a cada arte su libertad'. 'El beso' se exhibe hoy en el Belvedere de Viena.",
+      },
+      en: {
+        title: "The Gold-Leaf Painting That Redefined Viennese Art",
+        subtitle: "Gustav Klimt and 'The Kiss'",
+        imageAlt: "Cartoon of two embracing silhouettes covered in golden geometric patterns.",
+        description:
+          "Gustav Klimt, the son of a gold engraver, incorporated real gold leaf into many of his paintings, a technique that reached its most famous expression in 'The Kiss,' painted between 1907 and 1908, where a couple wrapped in golden robes with geometric patterns melting into one another became one of the most reproduced images in Western art, now appearing on posters, mugs, and merchandise of every kind worldwide. In 1897, Klimt led the founding of the Vienna Secession, a movement of artists who deliberately broke from the conservative academic institutions of the time to explore symbolism, sensuality, and gilded ornamentation as their own artistic language, under the motto engraved at its headquarters: 'To every age its art, to art its freedom.' 'The Kiss' is displayed today at Vienna's Belvedere museum.",
+      },
+    },
+  },
+  {
+    id: "hallstatt-el-pueblo-del-lago",
+    order: 15,
+    placeholderEmoji: "🏘️",
+    accentColor: "#5B7B9A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo tan bonito que China construyó una copia",
+        subtitle: "Hallstatt, el pueblo del lago",
+        imageAlt: "Caricatura de casitas apiladas junto a un lago con montañas de fondo.",
+        description:
+          "Hallstatt, un pueblo de apenas unos ochocientos habitantes construido sobre una angosta franja de tierra entre un lago alpino y una montaña escarpada, alberga además una de las minas de sal más antiguas del mundo, explotada de forma casi ininterrumpida desde hace más de siete mil años y que dio nombre a toda una cultura arqueológica europea de la Edad del Hierro, la 'cultura de Hallstatt'. La postal de sus casas de madera apiladas reflejadas en el agua se volvió tan popular en redes sociales asiáticas, sobre todo tras la difusión de fotografías del lugar en China, que un promotor inmobiliario chino construyó en 2012 una réplica arquitectónica casi completa del pueblo en la provincia de Guangdong, generando un debate mundial sobre turismo, autenticidad y los límites de la fama viral, mientras el pueblo original debió luego limitar el número diario de visitantes ante la saturación turística.",
+      },
+      en: {
+        title: "The Village So Pretty China Built a Full-Size Copy",
+        subtitle: "Hallstatt, the Lake Village",
+        imageAlt: "Cartoon of stacked cottages beside a lake with mountains behind.",
+        description:
+          "Hallstatt, a village of barely eight hundred residents built along a narrow strip of land between an alpine lake and a steep mountain, is also home to one of the oldest salt mines in the world, worked almost continuously for more than seven thousand years, which gave its name to an entire European Iron Age archaeological culture, the 'Hallstatt culture.' The postcard image of its stacked wooden houses reflected in the water became so popular on Asian social media, especially after photos of the village spread across China, that a Chinese property developer built a near-complete architectural replica of the town in Guangdong province in 2012, sparking a worldwide debate over tourism, authenticity, and the limits of viral fame, while the original village later had to cap daily visitor numbers amid tourist overcrowding.",
+      },
+    },
+  },
+  {
+    id: "el-wiener-riesenrad-la-rueda-gigante",
+    order: 16,
+    placeholderEmoji: "🎡",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La rueda gigante que sobrevivió a dos guerras mundiales",
+        subtitle: "El Wiener Riesenrad",
+        imageAlt: "Caricatura de una rueda gigante roja con cabinas de madera contra un cielo azul.",
+        description:
+          "El Wiener Riesenrad, construido en 1897 para celebrar el jubileo de bodas de plata del emperador Francisco José, fue durante más de tres décadas la rueda de la fortuna más alta del mundo, con sesenta y cinco metros de altura y sus características cabinas de madera roja, hasta que perdió el récord ante estructuras más modernas construidas en otros países. Durante los últimos combates de la Segunda Guerra Mundial en Viena, el Riesenrad quedó gravemente dañado por incendios y bombardeos, y muchos daban por perdida su reconstrucción, pero fue restaurado y vuelto a poner en marcha en 1947 con solo la mitad de sus cabinas originales, reducidas de treinta a quince. La rueda alcanzó fama mundial adicional tras aparecer en la película 'El tercer hombre' de 1949, y hoy sigue siendo uno de los símbolos más reconocibles de Viena.",
+      },
+      en: {
+        title: "The Giant Wheel That Survived Two World Wars",
+        subtitle: "The Wiener Riesenrad",
+        imageAlt: "Cartoon of a giant red Ferris wheel with wooden cabins against a blue sky.",
+        description:
+          "The Wiener Riesenrad, built in 1897 to celebrate Emperor Franz Joseph's silver wedding jubilee, was for more than three decades the tallest Ferris wheel in the world, standing sixty-five meters tall with its distinctive red wooden cabins, until it lost the record to more modern structures built elsewhere. During the final fighting of World War II in Vienna, the Riesenrad suffered severe damage from fires and bombing, and many assumed it would never be rebuilt, but it was restored and set running again in 1947 with only half its original cabins, reduced from thirty to fifteen. The wheel gained additional worldwide fame after appearing in the 1949 film 'The Third Man,' and it remains one of Vienna's most recognizable landmarks today.",
+      },
+    },
+  },
+  {
+    id: "el-vals-y-el-danubio-azul",
+    order: 17,
+    placeholderEmoji: "💃",
+    accentColor: "#2C5F8A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El baile que Viena volvió escándalo y después himno",
+        subtitle: "El vals y 'El Danubio azul'",
+        imageAlt: "Caricatura de una pareja bailando en círculo junto a notas musicales flotando.",
+        description:
+          "El vals, con su característico giro constante en tres tiempos y el contacto corporal cercano entre los bailarines, se popularizó en los salones vieneses de comienzos del siglo XIX y provocó escándalo entre las generaciones mayores, que lo consideraban indecente frente a las danzas de salón más formales y distanciadas que dominaban hasta entonces la aristocracia europea. Johann Strauss II, apodado 'el rey del vals', compuso en 1866 'El Danubio azul', una pieza que se convirtió con el tiempo en una suerte de segundo himno nacional no oficial de Austria, interpretada tradicionalmente como bis del célebre concierto de Año Nuevo de la Filarmónica de Viena. Hoy el vals vienés sigue siendo un ritual social casi obligatorio en la Ópera de Viena y en los bailes de graduación escolares austríacos, que exigen clases formales de baile previas.",
+      },
+      en: {
+        title: "The Ballroom Dance Vienna Turned Scandal Into Anthem",
+        subtitle: "The Waltz and 'The Blue Danube'",
+        imageAlt: "Cartoon of a couple dancing in a circle with musical notes floating nearby.",
+        description:
+          "The waltz, with its distinctive constant three-beat turning and close bodily contact between dancers, became popular in Viennese ballrooms in the early 19th century and scandalized older generations, who considered it indecent compared to the more formal, distanced ballroom dances that had dominated European aristocracy until then. Johann Strauss II, nicknamed 'the waltz king,' composed 'The Blue Danube' in 1866, a piece that over time became a kind of unofficial second national anthem of Austria, traditionally played as an encore at the Vienna Philharmonic's famous New Year's Concert. Today the Viennese waltz remains an almost mandatory social ritual at the Vienna Opera Ball and Austrian school graduation balls, which require formal dance lessons beforehand.",
+      },
+    },
+  },
+  {
+    id: "stille-nacht-noche-de-paz",
+    order: 18,
+    placeholderEmoji: "🔔",
+    accentColor: "#0F5132",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El villancico escrito porque el órgano no andaba",
+        subtitle: "'Noche de paz', nacida en Austria",
+        imageAlt: "Caricatura de una guitarra acústica junto a una vela encendida y copos de nieve.",
+        description:
+          "'Stille Nacht', conocida en español como 'Noche de paz', fue escrita en 1818 por el sacerdote austríaco Joseph Mohr y compuesta musicalmente por el maestro de escuela Franz Xaver Gruber en el pueblo de Oberndorf, cerca de Salzburgo, según cuenta la tradición local porque el órgano de la iglesia parroquial se había dañado poco antes de la misa de Nochebuena y necesitaban una pieza sencilla que pudiera acompañarse con guitarra. La canción, interpretada por primera vez esa misma Nochebuena de 1818 por los dos autores junto a un pequeño coro, se difundió después por Europa a través de familias de cantantes ambulantes tirolesas y terminó traducida a más de trescientas lenguas y dialectos, convirtiéndose en uno de los villancicos más grabados de la historia. La UNESCO declaró la canción Patrimonio Cultural Inmaterial de Austria en 2011.",
+      },
+      en: {
+        title: "The Carol Written Because the Organ Had Broken",
+        subtitle: "'Silent Night,' Born in Austria",
+        imageAlt: "Cartoon of an acoustic guitar beside a lit candle and falling snowflakes.",
+        description:
+          "'Stille Nacht,' known in English as 'Silent Night,' was written in 1818 by Austrian priest Joseph Mohr and set to music by schoolteacher Franz Xaver Gruber in the village of Oberndorf, near Salzburg, local tradition holds, because the parish church organ had broken shortly before Christmas Eve Mass and they needed something simple that could be accompanied on guitar. The song, first performed that same Christmas Eve of 1818 by the two authors alongside a small choir, later spread across Europe through traveling Tyrolean singing families and ended up translated into more than three hundred languages and dialects, becoming one of the most recorded carols in history. UNESCO declared the song part of Austria's Intangible Cultural Heritage in 2011.",
+      },
+    },
+  },
+  {
+    id: "almabtrieb-el-descenso-del-ganado",
+    order: 19,
+    placeholderEmoji: "🐄",
+    accentColor: "#6B8E23",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El desfile de vacas coronadas que baja de la montaña",
+        subtitle: "El Almabtrieb, el descenso del ganado",
+        imageAlt: "Caricatura de una vaca con una corona de flores y cencerro grande al cuello.",
+        description:
+          "Cada otoño, cuando termina la temporada de pastoreo de verano en los prados alpinos de altura, los ganaderos austríacos celebran el 'Almabtrieb', un descenso festivo del ganado hacia los valles donde pasarán el invierno, decorando a las vacas con enormes coronas de flores silvestres, cintas de colores y cencerros especialmente grandes que suenan durante todo el recorrido por los pueblos. La tradición conserva un elemento supersticioso: solo se decora así al ganado si la temporada transcurrió sin accidentes ni muertes de animales en la montaña, una superstición campesina antigua que consideraba de mala suerte celebrar un descenso 'exitoso' si algo había salido mal. El desfile, que atrae a multitudes de espectadores locales y turistas en pueblos como Alpbach o Zell am See, suele terminar en una fiesta popular con música tradicional y comida típica alpina.",
+      },
+      en: {
+        title: "The Parade of Crowned Cows Coming Down the Mountain",
+        subtitle: "Almabtrieb, the Cattle Descent",
+        imageAlt: "Cartoon of a cow wearing a flower crown and a large cowbell around its neck.",
+        description:
+          "Every autumn, when the summer grazing season on Austria's high alpine meadows comes to an end, Austrian cattle farmers hold the 'Almabtrieb,' a festive descent of livestock down to the valleys where they'll spend the winter, decorating the cows with enormous wreaths of wildflowers, colorful ribbons, and specially oversized cowbells that ring throughout the procession through the villages. The tradition keeps an old superstitious element: cattle are only decorated this way if the season passed without accidents or animal deaths on the mountain, an old peasant belief that celebrating a 'successful' descent when something had gone wrong would bring bad luck. The parade, which draws crowds of locals and tourists in towns like Alpbach or Zell am See, usually ends with a village festival featuring traditional music and typical alpine food.",
+      },
+    },
+  },
+  {
+    id: "arnold-schwarzenegger-de-austria-a-hollywood",
+    order: 20,
+    placeholderEmoji: "💪",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El fisicoculturista austríaco que llegó a gobernador",
+        subtitle: "Arnold Schwarzenegger, de Austria a Hollywood",
+        imageAlt: "Caricatura de una mancuerna junto a unos lentes de sol oscuros.",
+        description:
+          "Arnold Schwarzenegger nació en 1947 en el pequeño pueblo austríaco de Thal, cerca de Graz, hijo de un policía local, y comenzó a entrenar fisicoculturismo a los quince años en un gimnasio sin calefacción, obsesionado con imágenes de campeones estadounidenses que veía en revistas importadas, hasta ganar el título de Mr. Universo a los veinte años y emigrar a Estados Unidos poco después con apenas un puñado de dólares y un acento que muchos productores de Hollywood consideraban una desventaja insalvable para actuar. Contra ese pronóstico, se convirtió en una de las estrellas de acción más taquilleras de los años ochenta y noventa gracias a películas como 'Terminator' y 'Depredador', y en 2003 dio un giro inesperado a su carrera al ganar la elección para gobernador de California, cargo que ocupó durante dos mandatos consecutivos pese a no haber nacido en Estados Unidos.",
+      },
+      en: {
+        title: "The Austrian Bodybuilder Who Became a Governor",
+        subtitle: "Arnold Schwarzenegger, From Austria to Hollywood",
+        imageAlt: "Cartoon of a dumbbell beside a pair of dark sunglasses.",
+        description:
+          "Arnold Schwarzenegger was born in 1947 in the small Austrian village of Thal, near Graz, the son of a local police officer, and began bodybuilding at fifteen in an unheated gym, obsessed with images of American champions he saw in imported magazines, going on to win the Mr. Universe title at twenty and emigrate to the United States shortly after with barely a handful of dollars and an accent many Hollywood producers considered an insurmountable acting disadvantage. Against those odds, he became one of the highest-grossing action stars of the 1980s and 1990s thanks to films like 'Terminator' and 'Predator,' and in 2003 took an unexpected career turn by winning election as governor of California, a post he held for two consecutive terms despite not having been born in the United States.",
+      },
+    },
+  },
 ];

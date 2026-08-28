@@ -1,4 +1,4 @@
-import { shade } from "./palette";
+import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const ElKyivPecherskLavraMonasterioDeLasCuevas: IllustrationComponent = ({ accentColor }) => {
@@ -171,6 +171,177 @@ const LosGirasolesElPaisajeDoradoDeUcrania: IllustrationComponent = ({ accentCol
   );
 };
 
+const TRYPILLIA_HOUSES: [number, number][] = [
+  [205, 110], [255, 130], [275, 180], [255, 230], [205, 250],
+  [155, 230], [135, 180], [155, 130],
+];
+
+const LaCulturaDeTrypillia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <circle cx="205" cy="180" r="95" fill="none" stroke={dark} strokeWidth="2" opacity="0.3" strokeDasharray="4 4" />
+      {TRYPILLIA_HOUSES.map(([x, y], i) => (
+        <g key={i}>
+          <rect x={x - 14} y={y - 10} width="28" height="20" fill={i % 2 === 0 ? accentColor : tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+          <polygon points={`${x - 16},${y - 10} ${x},${y - 22} ${x + 16},${y - 10}`} fill={dark} opacity="0.7" />
+        </g>
+      ))}
+      <circle cx="205" cy="180" r="20" fill="#8B7355" opacity="0.5" />
+    </g>
+  );
+};
+
+const TarasShevchenkoElPoetaNacional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* open book */}
+      <path d="M120 220 L200 205 L200 165 L120 180 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <path d="M280 220 L200 205 L200 165 L280 180 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      {[178, 190].map((y) => (
+        <line key={y} x1="130" y1={y} x2="192" y2={y - 8} stroke={dark} strokeWidth="1" opacity="0.4" />
+      ))}
+      {/* long mustache */}
+      <path d="M235 130 Q255 118 275 130 Q260 122 250 128 Q240 122 225 132 Q215 120 195 130 Q210 122 220 128" fill={dark} />
+      {/* fur cap */}
+      <ellipse cx="245" cy="105" rx="35" ry="16" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+    </g>
+  );
+};
+
+const LvivYSuCascoHistoricoMulticultural: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* town hall tower */}
+      <rect x="185" y="110" width="40" height="130" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <polygon points="180,110 205,80 230,110" fill={dark} />
+      {/* colorful rooftops flanking */}
+      {[[120, 175, 45], [255, 165, 55]].map(([x, y, h], i) => (
+        <g key={i}>
+          <rect x={x} y={y} width="50" height={h as number} fill={i === 0 ? tint(accentColor, 0.3) : shade(accentColor, 0.2)} stroke={dark} strokeWidth="2" />
+          <polygon points={`${x - 3},${y} ${(x as number) + 25},${(y as number) - 18} ${(x as number) + 53},${y}`} fill={dark} opacity="0.7" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const ElPolloALaKiev: IllustrationComponent = () => {
+  const gold = "#D9A441";
+  const goldDark = shade(gold, 0.35);
+  const butter = "#F4D35E";
+  return (
+    <g>
+      {/* breaded chicken breast, sliced */}
+      <path d="M140 195 Q135 165 165 155 Q195 145 210 165 Q220 180 205 195 L200 235 L145 235 Z" fill={gold} stroke={goldDark} strokeWidth="3" />
+      <line x1="175" y1="160" x2="175" y2="235" stroke={goldDark} strokeWidth="2" strokeDasharray="3 3" />
+      {/* melted butter oozing */}
+      <path d="M175 200 Q195 210 210 225 Q220 235 215 245" fill="none" stroke={butter} strokeWidth="6" strokeLinecap="round" />
+      <circle cx="215" cy="248" r="6" fill={butter} />
+    </g>
+  );
+};
+
+const LaPinturaDecorativaDePetrykivka: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="110" y="110" width="190" height="130" fill="#FBFBFB" stroke={dark} strokeWidth="2.5" />
+      <path d="M200 230 Q195 190 200 150 Q205 120 200 100" fill="none" stroke="#4A7C59" strokeWidth="3" />
+      {[[170, 150], [230, 170], [180, 195], [220, 130]].map(([x, y], i) => (
+        <ellipse key={i} cx={x} cy={y} rx="16" ry="10" fill={i % 2 === 0 ? accentColor : tint(accentColor, 0.35)} stroke={dark} strokeWidth="1.5" transform={`rotate(${i * 35} ${x} ${y})`} />
+      ))}
+      <circle cx="200" cy="175" r="8" fill="#F4D35E" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const LosHutsulesYLaTrembitaDeLosCarpatos: IllustrationComponent = ({ accentColor }) => {
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      {/* mountainside */}
+      <path d="M90 240 L160 130 L230 240 Z" fill={accentColor} opacity="0.5" />
+      {/* long wooden trembita horn leaning */}
+      <path d="M120 235 L280 105" stroke={wood} strokeWidth="12" strokeLinecap="round" />
+      <path d="M270 100 L295 100 L280 115 Z" fill={shade(wood, 0.2)} />
+      <ellipse cx="120" cy="235" rx="10" ry="7" fill={shade(wood, 0.3)} />
+    </g>
+  );
+};
+
+const ElKyivskyiTortLaTortaDeKiev: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const cream = "#F5F0E6";
+  const cocoa = "#5C3A21";
+  return (
+    <g>
+      {/* layered cake slice */}
+      <path d="M140 235 L140 200 L270 170 L270 205 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M140 200 L270 170" fill="none" stroke={cream} strokeWidth="10" />
+      <path d="M140 218 L270 188" fill="none" stroke={cream} strokeWidth="8" />
+      {/* cocoa dusting */}
+      {[[160, 190], [190, 183], [220, 178], [250, 172]].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="2" fill={cocoa} opacity="0.7" />
+      ))}
+    </g>
+  );
+};
+
+const LosVarenykyEmpanadillasUcranianas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <ellipse cx="205" cy="225" rx="90" ry="18" fill="#E8DCC0" stroke={dark} strokeWidth="2.5" />
+      {[[150, 205], [190, 195], [230, 205], [270, 195]].map(([x, y], i) => (
+        <path key={i} d={`M${(x as number) - 22} ${y} Q${x} ${(y as number) - 16} ${(x as number) + 22} ${y} Q${x} ${(y as number) + 12} ${(x as number) - 22} ${y} Z`} fill={i % 2 === 0 ? accentColor : tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+      ))}
+      <circle cx="205" cy="175" r="14" fill="#FBFBFB" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const MalankaLaMascaradaDeAnoNuevo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const fur = "#8B7355";
+  return (
+    <g>
+      {/* furry goat mask */}
+      <ellipse cx="205" cy="180" rx="45" ry="55" fill={fur} stroke={dark} strokeWidth="3" />
+      <path d="M180 140 Q170 110 155 100 Q165 130 178 150 M230 140 Q240 110 255 100 Q245 130 232 150" fill="none" stroke="#F5F0E6" strokeWidth="6" strokeLinecap="round" />
+      <circle cx="190" cy="175" r="5" fill="#1A1A1A" />
+      <circle cx="220" cy="175" r="5" fill="#1A1A1A" />
+      {/* ribbons */}
+      {[[130, 220], [280, 220]].map(([x, y], i) => (
+        <path key={i} d={`M${x} ${(y as number) - 20} Q${(x as number) + (i === 0 ? -10 : 10)} ${y} ${x} ${(y as number) + 20}`} fill="none" stroke={accentColor} strokeWidth="5" strokeLinecap="round" />
+      ))}
+    </g>
+  );
+};
+
+const ElUcranianoUnIdiomaEslavoPropio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* open book */}
+      <path d="M120 230 L200 215 L200 155 L120 170 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <path d="M280 230 L200 215 L200 155 L280 170 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <text x="140" y="200" fontSize="30" fontWeight="700" fill={accentColor}>
+        Ї
+      </text>
+      <text x="220" y="200" fontSize="30" fontWeight="700" fill={dark}>
+        і
+      </text>
+      {/* pencil crossing out a line */}
+      <line x1="130" y1="185" x2="190" y2="180" stroke="#C1272D" strokeWidth="3" opacity="0.8" />
+      <line x1="240" y1="245" x2="270" y2="215" stroke="#D4AF37" strokeWidth="6" strokeLinecap="round" />
+      <path d="M270 215 L278 207 L282 218 Z" fill={dark} />
+    </g>
+  );
+};
+
 export const ukraineIllustrations: Record<string, IllustrationDefinition> = {
   "el-kyiv-pechersk-lavra-monasterio-de-las-cuevas": { component: ElKyivPecherskLavraMonasterioDeLasCuevas },
   "la-pysanka-el-huevo-de-pascua-ucraniano": { component: LaPysankaElHuevoDePascuaUcraniano },
@@ -182,4 +353,14 @@ export const ukraineIllustrations: Record<string, IllustrationDefinition> = {
   "la-bandura-y-los-bardos-kobzari": { component: LaBanduraYLosBardosKobzari },
   "el-hopak-la-danza-nacional-de-ucrania": { component: ElHopakLaDanzaNacionalDeUcrania },
   "los-girasoles-el-paisaje-dorado-de-ucrania": { component: LosGirasolesElPaisajeDoradoDeUcrania },
+  "la-cultura-de-trypillia": { component: LaCulturaDeTrypillia },
+  "taras-shevchenko-el-poeta-nacional": { component: TarasShevchenkoElPoetaNacional },
+  "lviv-y-su-casco-historico-multicultural": { component: LvivYSuCascoHistoricoMulticultural },
+  "el-pollo-a-la-kiev": { component: ElPolloALaKiev },
+  "la-pintura-decorativa-de-petrykivka": { component: LaPinturaDecorativaDePetrykivka },
+  "los-hutsules-y-la-trembita-de-los-carpatos": { component: LosHutsulesYLaTrembitaDeLosCarpatos },
+  "el-kyivskyi-tort-la-torta-de-kiev": { component: ElKyivskyiTortLaTortaDeKiev },
+  "los-varenyky-empanadillas-ucranianas": { component: LosVarenykyEmpanadillasUcranianas },
+  "malanka-la-mascarada-de-ano-nuevo": { component: MalankaLaMascaradaDeAnoNuevo },
+  "el-ucraniano-un-idioma-eslavo-propio": { component: ElUcranianoUnIdiomaEslavoPropio },
 };
