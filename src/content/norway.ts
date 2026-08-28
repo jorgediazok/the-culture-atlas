@@ -231,4 +231,119 @@ export const norway: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "edvard-munch-y-el-grito",
+    order: 11,
+    placeholderEmoji: "🎨",
+    accentColor: "#B7752E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cuadro noruego más reproducido del mundo",
+        subtitle: "Edvard Munch y 'El grito'",
+        imageAlt: "Caricatura de una figura con las manos en la cara gritando sobre un puente ondulado.",
+        description:
+          "Edvard Munch pintó El grito en 1893, una figura andrógina de rostro deformado que se lleva las manos a la cabeza sobre un puente mientras el cielo se retuerce en franjas de color rojo anaranjado, una imagen que el propio Munch describió haber concebido tras sentir, caminando junto a dos amigos al atardecer, un grito infinito atravesando la naturaleza. El pintor realizó al menos cuatro versiones de la obra en distintas técnicas, dos de las cuales fueron robadas en asaltos separados de museos noruegos, en 1994 y en 2004, y ambas recuperadas años después en operaciones policiales, episodios que aumentaron todavía más la fama mundial de la pintura. Hoy considerada un ícono universal de la angustia existencial moderna, reproducida en emojis, memes y mercadería de todo tipo, la obra se exhibe en la Galería Nacional y el Museo Munch de Oslo, ambos con medidas de seguridad reforzadas tras los robos.",
+      },
+      en: {
+        title: "Norway's Most Reproduced Painting in the World",
+        subtitle: "Edvard Munch and 'The Scream'",
+        imageAlt: "Cartoon of a figure with its hands on its face screaming on a wavy bridge.",
+        description:
+          "Edvard Munch painted The Scream in 1893, an androgynous, distorted figure clutching its head on a bridge while the sky twists into streaks of orange-red, an image Munch himself described conceiving after feeling, while walking with two friends at sunset, an infinite scream passing through nature. The painter made at least four versions of the work in different techniques, two of which were stolen in separate museum heists in Norway, in 1994 and 2004, both later recovered years after in police operations, episodes that only added to the painting's worldwide fame. Now considered a universal icon of modern existential anguish, endlessly reproduced in emojis, memes, and merchandise of every kind, the work is displayed at Oslo's National Gallery and the Munch Museum, both fitted with reinforced security following the thefts.",
+      },
+    },
+  },
+  {
+    id: "roald-amundsen-el-primero-en-el-polo-sur",
+    order: 12,
+    placeholderEmoji: "🧭",
+    accentColor: "#1B3A5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El explorador que le ganó la carrera al Polo Sur",
+        subtitle: "Roald Amundsen, primero en el Polo Sur",
+        imageAlt: "Caricatura de un explorador abrigado con una bandera clavada en la nieve junto a un trineo de perros.",
+        description:
+          "El explorador noruego Roald Amundsen se convirtió el 14 de diciembre de 1911 en la primera persona en llegar al Polo Sur, adelantándose por apenas treinta y cuatro días al equipo británico liderado por Robert Falcon Scott, que murió junto a sus compañeros en el viaje de regreso tras descubrir, devastado, la bandera noruega ya plantada en el punto exacto. Amundsen debió gran parte de su éxito a decisiones prácticas que Scott no tomó: usó perros de trineo en vez de ponis y trineos motorizados poco confiables, aprendió técnicas de supervivencia ártica directamente de comunidades inuit durante expediciones previas, y calculó rutas y raciones con un margen de seguridad mucho más amplio. Antes de su hazaña antártica, Amundsen ya había completado la primera navegación exitosa del Paso del Noroeste ártico, y años después desapareció en 1928 durante una misión de rescate aérea en el Ártico, sin que su cuerpo fuera hallado jamás.",
+      },
+      en: {
+        title: "The Explorer Who Won the Race to the South Pole",
+        subtitle: "Roald Amundsen, First to the South Pole",
+        imageAlt: "Cartoon of a bundled-up explorer with a flag planted in the snow beside a dog sled.",
+        description:
+          "Norwegian explorer Roald Amundsen became the first person to reach the South Pole on December 14, 1911, beating the British team led by Robert Falcon Scott by just thirty-four days, Scott dying alongside his companions on the return journey after devastatingly finding the Norwegian flag already planted at the exact point. Amundsen owed much of his success to practical decisions Scott did not make: he used sled dogs instead of ponies and unreliable motorized sledges, learned Arctic survival techniques directly from Inuit communities during earlier expeditions, and calculated routes and rations with a far wider safety margin. Before his Antarctic feat, Amundsen had already completed the first successful navigation of the Arctic Northwest Passage, and years later he disappeared in 1928 during an air rescue mission in the Arctic, his body never found.",
+      },
+    },
+  },
+  {
+    id: "las-iglesias-de-madera-en-forma-de-nave-vikinga",
+    order: 13,
+    placeholderEmoji: "⛪",
+    accentColor: "#4A2C2A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las iglesias medievales con dragones en el techo",
+        subtitle: "Las stavkirker, iglesias de madera medievales",
+        imageAlt: "Caricatura de una iglesia de madera con techos escalonados rematados por cabezas de dragón talladas.",
+        description:
+          "Las stavkirker o iglesias de madera con estructura de postes, construidas en Noruega mayormente entre los siglos XII y XIV, combinan técnicas de carpintería de la construcción naval vikinga con simbolismo cristiano, resultando en templos de tejados escalonados y empinados rematados con cabezas de dragón talladas, un guiño directo a las proas de barcos vikingos que sus constructores todavía sabían tallar. De las más de mil stavkirker que llegaron a existir en la Edad Media, apenas unas veintiocho sobrevivieron hasta hoy, concentradas en el sur y centro del país, entre ellas la iglesia de Urnes, la más antigua y declarada patrimonio de la UNESCO, con tallas que mezclan animales entrelazados de tradición nórdica pagana con escenas bíblicas. Construidas con madera de pino tratada con alquitrán para resistir la humedad, varias siguen en pie después de más de ochocientos años sin usar un solo clavo metálico en su estructura principal.",
+      },
+      en: {
+        title: "The Medieval Churches With Dragon Heads on the Roof",
+        subtitle: "The Stavkirker, Medieval Wooden Churches",
+        imageAlt: "Cartoon of a wooden church with stepped roofs topped by carved dragon heads.",
+        description:
+          "Stavkirker, or stave churches built with a post-and-beam timber structure, raised in Norway mostly between the 12th and 14th centuries, combine carpentry techniques from Viking shipbuilding with Christian symbolism, resulting in temples with steep, stepped roofs often topped with carved dragon heads, a direct nod to the Viking ship prows their builders still knew how to carve. Of the more than a thousand stave churches that once existed in the Middle Ages, only about twenty-eight survive today, mostly concentrated in southern and central Norway, including Urnes Stave Church, the oldest and a UNESCO World Heritage Site, with wood carvings blending interlaced animal motifs from pagan Norse tradition with biblical scenes. Built from pine timber treated with tar to resist moisture, several are still standing after more than eight hundred years without a single metal nail in their main structure.",
+      },
+    },
+  },
+  {
+    id: "noruega-el-pais-que-mas-autos-electricos-vende",
+    order: 14,
+    placeholderEmoji: "🔌",
+    accentColor: "#0B6E4F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país con más autos nuevos eléctricos del mundo",
+        subtitle: "Noruega, líder mundial en autos eléctricos",
+        imageAlt: "Caricatura de un auto eléctrico enchufado a un cargador junto a un fiordo.",
+        description:
+          "Noruega alcanzó en los últimos años una proporción de ventas de autos nuevos eléctricos superior al noventa por ciento, la más alta del mundo por amplio margen, un resultado logrado no mediante la prohibición de los motores a combustión sino a través de décadas de incentivos fiscales sostenidos: exención total del impuesto sobre el valor agregado y de aranceles de importación para vehículos eléctricos, peajes y estacionamientos reducidos o gratuitos, y acceso a carriles de autobús en varias ciudades. Resulta paradójico que este liderazgo verde en transporte lo financie en gran parte el propio fondo soberano del país, construido con ingresos petroleros, una contradicción que el propio gobierno noruego reconoce abiertamente al explicar su estrategia de doble vía: seguir exportando petróleo y gas al mundo mientras electrifica agresivamente su propio consumo interno de energía.",
+      },
+      en: {
+        title: "The Country Where Most New Cars Sold Are Electric",
+        subtitle: "Norway, World Leader in Electric Cars",
+        imageAlt: "Cartoon of an electric car plugged into a charging station beside a fjord.",
+        description:
+          "Norway in recent years reached a share of new car sales exceeding ninety percent electric, the highest in the world by a wide margin, a result achieved not by banning combustion engines but through decades of sustained fiscal incentives: full exemption from value-added tax and import duties on electric vehicles, reduced or free tolls and parking, and access to bus lanes in several cities. It's a striking paradox that this green transport leadership is funded in large part by the country's own sovereign wealth fund, built from oil revenue, a contradiction the Norwegian government openly acknowledges in explaining its two-track strategy: keep exporting oil and gas to the world while aggressively electrifying its own domestic energy consumption.",
+      },
+    },
+  },
+  {
+    id: "el-17-de-mayo-el-dia-nacional-de-los-ninos",
+    order: 15,
+    placeholderEmoji: "🎉",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El día nacional que celebran sobre todo los niños",
+        subtitle: "El 17 de mayo, Día Nacional de Noruega",
+        imageAlt: "Caricatura de niños con trajes tradicionales desfilando con banderas por una calle festiva.",
+        description:
+          "El 17 de mayo, Día de la Constitución noruega que conmemora la firma de la constitución en 1814, se celebra de una forma poco habitual entre las fiestas nacionales del mundo: sin desfiles militares ni demostraciones de poder armado, sino con desfiles infantiles (barnetog) protagonizados por escolares vestidos con trajes tradicionales regionales llamados bunad, agitando banderas y cantando por las calles de cada pueblo y ciudad del país. La costumbre, que se remonta al propio Henrik Wergeland, poeta que impulsó las primeras celebraciones populares en el siglo XIX pese a la resistencia inicial del rey sueco que entonces gobernaba Noruega, convirtió al 17 de mayo en una fiesta profundamente comunitaria e igualitaria, donde niños de todos los orígenes sociales desfilan codo a codo y las familias suelen desayunar juntas antes de salir a celebrar en las calles.",
+      },
+      en: {
+        title: "The National Holiday Mostly Celebrated by Children",
+        subtitle: "May 17th, Norway's National Day",
+        imageAlt: "Cartoon of children in traditional costumes marching with flags down a festive street.",
+        description:
+          "May 17th, Norway's Constitution Day marking the constitution's signing in 1814, is celebrated in a way unusual among the world's national holidays: with no military parades or displays of armed force, but children's parades ('barnetog') led by schoolchildren dressed in traditional regional costumes called 'bunad,' waving flags and singing through the streets of every town and city in the country. The custom, traced back to poet Henrik Wergeland, who pushed for the first popular celebrations in the 19th century despite initial resistance from the Swedish king then ruling Norway, turned May 17th into a deeply communal and egalitarian holiday, where children of every social background march side by side and families typically share breakfast together before heading out to celebrate in the streets.",
+      },
+    },
+  },
 ];

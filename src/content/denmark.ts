@@ -231,4 +231,119 @@ export const denmark: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "dannebrog-la-bandera-mas-antigua-del-mundo",
+    order: 11,
+    placeholderEmoji: "🚩",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La bandera que, según la leyenda, cayó del cielo",
+        subtitle: "El Dannebrog, la bandera más antigua",
+        imageAlt: "Caricatura de una bandera roja con una cruz blanca descentrada ondeando en el cielo.",
+        description:
+          "El Dannebrog, la bandera nacional danesa, una cruz blanca descentrada sobre fondo rojo, es reconocida oficialmente como la bandera estatal más antigua del mundo todavía en uso continuo, con un diseño documentado desde al menos el siglo XIV. La leyenda nacional más popular sostiene que la bandera cayó literalmente del cielo el 15 de junio de 1219 durante una batalla en Estonia, justo cuando las tropas danesas, lideradas por el rey Valdemar II, estaban a punto de ser derrotadas, y que su aparición milagrosa inspiró la victoria final. Aunque los historiadores dudan del origen sobrenatural exacto, el diseño de cruz descentrada del Dannebrog influyó directamente en las banderas de Noruega, Suecia, Finlandia e Islandia, que adoptaron variantes del mismo esquema como parte de una identidad escandinava compartida, y el 15 de junio se sigue celebrando hoy como el Día de la Bandera en Dinamarca.",
+      },
+      en: {
+        title: "The Flag That, Legend Says, Fell From the Sky",
+        subtitle: "The Dannebrog, the World's Oldest Flag",
+        imageAlt: "Cartoon of a red flag with an off-center white cross waving in the sky.",
+        description:
+          "The Dannebrog, Denmark's national flag, a white off-center cross on a red field, is officially recognized as the oldest state flag in the world still in continuous use, with a design documented since at least the 14th century. The most popular national legend holds that the flag literally fell from the sky on June 15, 1219, during a battle in Estonia, right as Danish troops led by King Valdemar II were on the verge of defeat, and that its miraculous appearance inspired their final victory. Although historians doubt the exact supernatural origin, the Dannebrog's off-center cross design directly influenced the flags of Norway, Sweden, Finland, and Iceland, which adopted variants of the same layout as part of a shared Scandinavian identity, and June 15th is still celebrated today as Flag Day in Denmark.",
+      },
+    },
+  },
+  {
+    id: "hans-christian-andersen-el-narrador-de-cuentos",
+    order: 12,
+    placeholderEmoji: "📖",
+    accentColor: "#6B4C3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El escritor cuyos cuentos se leen en 150 idiomas",
+        subtitle: "Hans Christian Andersen, narrador de cuentos",
+        imageAlt: "Caricatura de un escritor sentado junto a un libro abierto del que salen figuras de cuento.",
+        description:
+          "Hans Christian Andersen, nacido en 1805 en la ciudad portuaria de Odense en el seno de una familia humilde, de padre zapatero, escribió más de ciento cincuenta cuentos que hoy se cuentan entre los textos más traducidos de la historia de la literatura, con versiones publicadas en más de ciento cincuenta idiomas distintos, entre ellos El patito feo, La sirenita, El traje nuevo del emperador y La reina de las nieves. A diferencia de los cuentos populares recopilados por otros autores de su época, la gran mayoría de las historias de Andersen fueron creaciones enteramente originales suyas, marcadas por finales frecuentemente agridulces que reflejaban su propia infancia difícil y su sensación de no encajar del todo en la sociedad danesa de la época. Odense conserva hoy su casa natal convertida en museo, y buena parte de su legado sigue moldeando la imagen internacional de Dinamarca como cuna de cuentos de hadas.",
+      },
+      en: {
+        title: "The Writer Whose Tales Are Read in 150 Languages",
+        subtitle: "Hans Christian Andersen, Teller of Tales",
+        imageAlt: "Cartoon of a writer seated beside an open book with storybook figures rising from its pages.",
+        description:
+          "Hans Christian Andersen, born in 1805 in the port city of Odense to a poor family headed by a shoemaker father, wrote more than a hundred fifty fairy tales over his lifetime that today rank among the most translated texts in the history of literature, published in more than a hundred fifty different languages, including The Ugly Duckling, The Little Mermaid, The Emperor's New Clothes, and The Snow Queen. Unlike folk tales collected by other writers of his era, the vast majority of Andersen's stories were entirely original creations of his own, marked by frequently bittersweet endings reflecting his own difficult childhood and his sense of never fully fitting into Danish society of the time. Odense today preserves his childhood home as a museum, and much of his legacy still shapes Denmark's international image as the birthplace of fairy tales.",
+      },
+    },
+  },
+  {
+    id: "el-diseno-danes-de-muebles-de-fama-mundial",
+    order: 13,
+    placeholderEmoji: "🪑",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las sillas de madera curva copiadas en todo el mundo",
+        subtitle: "El diseño danés de muebles, de fama mundial",
+        imageAlt: "Caricatura de una silla de madera curva de diseño elegante junto a una lámpara moderna.",
+        description:
+          "El diseño danés de mediados del siglo XX, encabezado por figuras como Arne Jacobsen, Hans Wegner y Poul Kjærholm, desarrolló un estilo de muebles caracterizado por líneas curvas orgánicas, maderas nobles curvadas al vapor y una funcionalidad depurada sin ornamentos innecesarios, una filosofía de diseño que priorizaba la artesanía honesta por sobre la decoración superficial. Piezas como la silla El Huevo y la Silla Cisne de Jacobsen, o la llamada simplemente La Silla de Wegner, usada en el debate presidencial televisado entre Kennedy y Nixon en 1960, se convirtieron en íconos del diseño industrial del siglo XX todavía fabricados y vendidos hoy a precios elevados por las mismas empresas originales. Este legado convirtió a Dinamarca en referencia obligada del llamado diseño escandinavo, un estilo que combina minimalismo estético con calidez material poco habitual en otras corrientes modernistas.",
+      },
+      en: {
+        title: "The Curved Wood Chairs Copied Around the World",
+        subtitle: "Danish Furniture Design, World Famous",
+        imageAlt: "Cartoon of an elegant curved wooden chair beside a modern floor lamp.",
+        description:
+          "Mid-20th-century Danish design, led by figures like Arne Jacobsen, Hans Wegner, and Poul Kjaerholm, developed a furniture style marked by organic curved lines, fine woods steam-bent into shape, and a stripped-down functionality free of unnecessary ornament, a design philosophy that prioritized honest craftsmanship over surface decoration. Pieces like Jacobsen's Egg Chair and Swan Chair, or Wegner's chair simply called The Chair, used during the televised 1960 Kennedy-Nixon presidential debate, became icons of 20th-century industrial design still manufactured and sold today at premium prices by the same original companies. This legacy made Denmark an essential reference point for so-called Scandinavian design, a style blending aesthetic minimalism with a material warmth uncommon in other modernist movements.",
+      },
+    },
+  },
+  {
+    id: "noma-y-la-nueva-cocina-nordica",
+    order: 14,
+    placeholderEmoji: "🍽️",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El restaurante que reinventó la cocina desde cero",
+        subtitle: "Noma y la Nueva Cocina Nórdica",
+        imageAlt: "Caricatura de un plato de alta cocina decorado con hierbas silvestres y flores comestibles.",
+        description:
+          "Noma, el restaurante abierto en Copenhague en 2003 por el chef René Redzepi, encabezó un movimiento culinario conocido como Nueva Cocina Nórdica que rechazó ingredientes importados de moda como el aceite de oliva o los cítricos mediterráneos para construir toda su propuesta alrededor de productos locales, silvestres y de temporada del propio paisaje escandinavo: musgo comestible, hormigas vivas, algas, flores fermentadas y pescados del Báltico. El restaurante fue elegido mejor del mundo varias veces por la lista The World's 50 Best Restaurants, y su influencia se extendió mucho más allá de Dinamarca, inspirando a chefs de todo el planeta a mirar hacia sus propios ingredientes regionales en lugar de imitar tradiciones culinarias extranjeras prestigiosas. Un manifiesto firmado en 2004 por chefs nórdicos formalizó los principios del movimiento, hoy enseñado en escuelas de gastronomía como un giro decisivo en la cocina de autor contemporánea.",
+      },
+      en: {
+        title: "The Restaurant That Reinvented Cooking From Scratch",
+        subtitle: "Noma and the New Nordic Cuisine",
+        imageAlt: "Cartoon of a fine-dining plate decorated with wild herbs and edible flowers.",
+        description:
+          "Noma, the restaurant opened in Copenhagen in 2003 by chef René Redzepi, led a culinary movement known as New Nordic Cuisine that rejected trendy imported ingredients like olive oil or Mediterranean citrus to build its entire approach around local, wild, seasonal products from the Scandinavian landscape itself: edible moss, live ants, seaweed, fermented flowers, and Baltic fish. The restaurant was named the world's best multiple times by the World's 50 Best Restaurants list, and its influence spread far beyond Denmark, inspiring chefs across the planet to look toward their own regional ingredients instead of imitating prestigious foreign culinary traditions. A manifesto signed in 2004 by Nordic chefs formalized the movement's principles, now taught in culinary schools as a defining turn in contemporary chef-driven cuisine.",
+      },
+    },
+  },
+  {
+    id: "el-castillo-de-kronborg-y-hamlet",
+    order: 15,
+    placeholderEmoji: "🏰",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El castillo real que Shakespeare convirtió en Elsinor",
+        subtitle: "El castillo de Kronborg, el Elsinor de Hamlet",
+        imageAlt: "Caricatura de un castillo renacentista con torres puntiagudas sobre un estrecho de mar.",
+        description:
+          "El castillo de Kronborg, una fortaleza renacentista construida en el siglo XVI en la ciudad de Helsingør para controlar y cobrar peaje al tráfico marítimo que cruzaba el estrecho entre Dinamarca y Suecia, es mundialmente conocido como el escenario de Hamlet, la tragedia de William Shakespeare, que lo rebautizó con el nombre de Elsinor sin que el dramaturgo inglés lo hubiera visitado nunca en persona. Pese a esa distancia entre ficción y realidad, el vínculo con Shakespeare se volvió tan central para la identidad del castillo que se representan regularmente puestas en escena de la obra dentro de sus propios patios, y el sitio, declarado patrimonio de la UNESCO en 2000, atrae hoy a visitantes tanto por su arquitectura renacentista genuina como por la leyenda literaria que nunca ocurrió realmente entre sus muros.",
+      },
+      en: {
+        title: "The Royal Castle Shakespeare Turned Into Elsinore",
+        subtitle: "Kronborg Castle, the Elsinore of Hamlet",
+        imageAlt: "Cartoon of a Renaissance castle with pointed towers overlooking a sea strait.",
+        description:
+          "Kronborg Castle, a Renaissance fortress built in the 16th century in the town of Helsingør to control and collect tolls from maritime traffic crossing the strait between Denmark and Sweden, is world-famous as the setting of Hamlet, William Shakespeare's tragedy, which renamed it Elsinore even though the English playwright never once visited it in person. Despite that gap between fiction and reality, the Shakespeare connection became so central to the castle's identity that performances of the play are regularly staged within its own courtyards, and the site, a UNESCO World Heritage location since 2000, today draws visitors for both its genuine Renaissance architecture and the literary legend that never actually happened within its walls.",
+      },
+    },
+  },
 ];

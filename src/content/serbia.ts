@@ -231,4 +231,119 @@ export const serbia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "cevapi-el-plato-que-cada-balcanico-reclama-propio",
+    order: 11,
+    placeholderEmoji: "🍢",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los choricitos a la parrilla que cada país se atribuye",
+        subtitle: "Ćevapi, el plato que Serbia reclama propio",
+        imageAlt: "Caricatura de rollitos de carne a la parrilla servidos dentro de un pan chato con cebolla.",
+        description:
+          "Los ćevapi, pequeños rollitos de carne picada y especiada asados a la parrilla y servidos tradicionalmente dentro de un pan chato llamado somun junto a cebolla cruda picada y kajmak, una crema de leche cuajada espesa, se consideran en Serbia prácticamente un plato nacional, pese a que Bosnia, Croacia, Macedonia del Norte y otros países balcánicos reclaman también su propia versión como la auténtica original, generando un debate regional tan apasionado sobre el origen del plato como el que rodea a la pizza o la barbacoa en otras partes del mundo. En Serbia, la ciudad de Leskovac se autoproclama la capital no oficial del ćevapi y organiza cada año un festival gastronómico dedicado enteramente a esta comida callejera, donde parrilleros compiten para preparar la mayor cantidad de piezas en el menor tiempo posible frente a multitudes de espectadores hambrientos.",
+      },
+      en: {
+        title: "The Grilled Meat Rolls Every Country Claims as Its Own",
+        subtitle: "Ćevapi, the Dish Serbia Claims as Its Own",
+        imageAlt: "Cartoon of grilled meat rolls served inside a flatbread with onion.",
+        description:
+          "Ćevapi, small grilled rolls of minced, spiced meat traditionally served inside a flatbread called somun alongside chopped raw onion and kajmak, a thick clotted cream, are considered practically a national dish in Serbia, even though Bosnia, Croatia, North Macedonia, and other Balkan countries also claim their own version as the true original, sparking a regional debate about the dish's origin as passionate as the ones surrounding pizza or barbecue elsewhere in the world. In Serbia, the city of Leskovac proclaims itself the unofficial capital of ćevapi and holds a food festival every year devoted entirely to this street food, where grill cooks compete to prepare the most pieces in the shortest time in front of crowds of hungry spectators.",
+      },
+    },
+  },
+  {
+    id: "emir-kusturica-y-el-pueblo-de-madera-que-construyo",
+    order: 12,
+    placeholderEmoji: "🎬",
+    accentColor: "#4A2C2A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El director que construyó un pueblo entero de madera",
+        subtitle: "Emir Kusturica y el pueblo de Küstendorf",
+        imageAlt: "Caricatura de casas de madera de estilo folclórico junto a una pequeña iglesia de campanario.",
+        description:
+          "El director de cine Emir Kusturica, ganador en dos ocasiones de la Palma de Oro del Festival de Cannes por películas como Underground y Papá está en viaje de negocios, decidió a comienzos de los años 2000 construir desde cero un pueblo tradicional de madera en la montaña serbia de Zlatibor, bautizado Küstendorf o Drvengrad, con casas de estilo folclórico, una pequeña iglesia ortodoxa, un cine y hasta una calle con nombres de artistas admirados por el propio director, desde Diego Maradona hasta Ingmar Bergman. El pueblo, construido originalmente como escenografía para su película La vida es un milagro pero conservado luego como residencia y proyecto cultural personal, alberga hoy cada enero el Festival de Cine y Música Küstendorf, un evento boutique de prestigio internacional que atrae a cineastas y músicos de todo el mundo a este rincón remoto de las montañas serbias.",
+      },
+      en: {
+        title: "The Director Who Built an Entire Wooden Village",
+        subtitle: "Emir Kusturica and the Village of Küstendorf",
+        imageAlt: "Cartoon of folk-style wooden houses beside a small church with a bell tower.",
+        description:
+          "Film director Emir Kusturica, a two-time winner of the Palme d'Or at the Cannes Film Festival for films including Underground and When Father Was Away on Business, decided in the early 2000s to build a traditional wooden village from scratch on the Serbian mountain of Zlatibor, named Küstendorf or Drvengrad, with folk-style houses, a small Orthodox church, a cinema, and even a street named after artists the director admires, from Diego Maradona to Ingmar Bergman. The village, originally built as a set for his film Life Is a Miracle but later kept as his residence and personal cultural project, now hosts the Küstendorf Film and Music Festival every January, a prestigious international boutique event that draws filmmakers and musicians from around the world to this remote corner of the Serbian mountains.",
+      },
+    },
+  },
+  {
+    id: "novak-djokovic-el-mejor-tenista-de-la-historia",
+    order: 13,
+    placeholderEmoji: "🎾",
+    accentColor: "#1565C0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tenista serbio que redefinió los límites del deporte",
+        subtitle: "Novak Djokovic, un símbolo deportivo nacional",
+        imageAlt: "Caricatura de un jugador de tenis levantando una raqueta y un trofeo dorado.",
+        description:
+          "Novak Djokovic, nacido en Belgrado en 1987 en plena crisis económica y bajo bombardeos de la OTAN durante su infancia, se convirtió en el tenista con más títulos de Grand Slam en la historia del tenis masculino, superando a rivales legendarios como Roger Federer y Rafael Nadal en una rivalidad que dominó el deporte durante casi dos décadas consecutivas. Djokovic entrenaba de niño en canchas improvisadas y hasta en una piscina vacía durante los bombardeos de 1999, una historia de superación que se convirtió en parte central de su narrativa pública y en un motivo de orgullo nacional serbio, al punto de que sus victorias en los torneos más importantes del circuito se celebran en Serbia con manifestaciones espontáneas de júbilo comparables a las de un título deportivo colectivo nacional.",
+      },
+      en: {
+        title: "The Serbian Tennis Player Who Redefined the Sport",
+        subtitle: "Novak Djokovic, a National Sporting Symbol",
+        imageAlt: "Cartoon of a tennis player raising a racket and a golden trophy.",
+        description:
+          "Novak Djokovic, born in Belgrade in 1987 amid economic crisis and, during his childhood, under NATO bombing, became the men's tennis player with the most Grand Slam titles in history, surpassing legendary rivals like Roger Federer and Rafael Nadal in a rivalry that dominated the sport for nearly two consecutive decades. Djokovic trained as a child on improvised courts and even in an empty swimming pool during the 1999 bombing, a story of resilience that became central to his public narrative and a source of national pride in Serbia, to the point that his wins at the sport's biggest tournaments are celebrated across the country with spontaneous outbursts of joy comparable to a national collective sporting title.",
+      },
+    },
+  },
+  {
+    id: "los-monasterios-medievales-con-frescos-bizantinos",
+    order: 14,
+    placeholderEmoji: "🖼️",
+    accentColor: "#8B1A3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los monasterios medievales con frescos bizantinos",
+        subtitle: "Los monasterios medievales serbios, con frescos",
+        imageAlt: "Caricatura de una iglesia de piedra medieval con un ícono religioso pintado en la fachada.",
+        description:
+          "Serbia conserva un conjunto de monasterios ortodoxos medievales construidos entre los siglos XII y XIV bajo el mecenazgo de la dinastía Nemanjić, entre ellos Studenica, Sopoćani y los monasterios de Kosovo, decorados con frescos bizantinos considerados entre los más importantes de todo el arte medieval europeo por su calidad técnica y por representar una etapa de transición estilística clave entre el arte bizantino tardío y el naturalismo que anticipó al Renacimiento italiano. Estos monasterios, declarados Patrimonio de la Humanidad por la UNESCO, funcionaron durante siglos no solo como centros religiosos sino también como talleres artísticos, bibliotecas y sedes de la corte real medieval serbia, y sus frescos, pese a siglos de conflictos, saqueos y ocupaciones sucesivas en la región, se conservan hoy con un nivel de detalle y color que sorprende a historiadores del arte de todo el mundo.",
+      },
+      en: {
+        title: "The Medieval Monasteries With Unique Byzantine Frescoes",
+        subtitle: "Serbia's Medieval Monasteries and Their Frescoes",
+        imageAlt: "Cartoon of a medieval stone church with a painted religious icon on its facade.",
+        description:
+          "Serbia preserves a group of medieval Orthodox monasteries built between the 12th and 14th centuries under the patronage of the Nemanjić dynasty, including Studenica, Sopoćani, and the monasteries of Kosovo, decorated with Byzantine frescoes considered among the most important in all of medieval European art for their technical quality and for representing a key stylistic transition between late Byzantine art and the naturalism that anticipated the Italian Renaissance. These monasteries, declared UNESCO World Heritage Sites, functioned for centuries not only as religious centers but also as artistic workshops, libraries, and seats of the medieval Serbian royal court, and their frescoes, despite centuries of successive conflicts, looting, and occupations in the region, survive today with a level of detail and color that still surprises art historians worldwide.",
+      },
+    },
+  },
+  {
+    id: "el-tren-sargan-ocho-una-via-en-forma-de-ocho",
+    order: 15,
+    placeholderEmoji: "🚂",
+    accentColor: "#00838F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tren de montaña que traza un ocho en las vías",
+        subtitle: "El tren Šargan Ocho, con vías en forma de 8",
+        imageAlt: "Caricatura de una locomotora antigua rodeando una ladera montañosa en curva.",
+        description:
+          "El tren Šargan Ocho, una línea ferroviaria turística de vía angosta que serpentea por las montañas cercanas a Mokra Gora, en el oeste de Serbia, debe su nombre a que su trazado original, construido a comienzos del siglo XX para conectar Belgrado con la costa adriática, dibuja literalmente la forma de un número ocho sobre la ladera montañosa para ganar altitud de forma gradual sin necesidad de túneles ni viaductos excesivamente costosos, atravesando veintidós túneles y varios puentes en apenas unos quince kilómetros de recorrido. Aunque la línea original dejó de operar comercialmente en 1974 tras perder relevancia frente al transporte por carretera, un tramo fue restaurado como atracción turística en 1999, y hoy locomotoras históricas a vapor y diésel recorren el trazado en forma de ocho llevando pasajeros a través de paisajes montañosos que combinan valor ferroviario, histórico y escénico en un solo recorrido.",
+      },
+      en: {
+        title: "The Mountain Train Whose Tracks Trace a Figure Eight",
+        subtitle: "The Šargan Eight Railway",
+        imageAlt: "Cartoon of an old locomotive curving around a mountainside.",
+        description:
+          "The Šargan Eight railway, a narrow-gauge tourist rail line winding through the mountains near Mokra Gora in western Serbia, takes its name from the fact that its original route, built in the early 20th century to connect Belgrade with the Adriatic coast, literally traces the shape of the number eight across the mountainside to gain altitude gradually without needing excessively costly tunnels or viaducts, passing through twenty-two tunnels and several bridges across barely fifteen kilometers of track. Although the original line stopped commercial operation in 1974 after losing relevance to road transport, a section was restored as a tourist attraction in 1999, and today historic steam and diesel locomotives run the figure-eight route, carrying passengers through mountain scenery that combines railway, historical, and scenic value in a single ride.",
+      },
+    },
+  },
 ];

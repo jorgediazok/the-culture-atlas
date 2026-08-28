@@ -231,4 +231,119 @@ export const latvia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-palacio-de-rundale-el-versalles-de-letonia",
+    order: 11,
+    placeholderEmoji: "🏰",
+    accentColor: "#D4AF37",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El palacio del mismo arquitecto de San Petersburgo",
+        subtitle: "El Palacio de Rundāle, el Versalles letón",
+        imageAlt: "Caricatura de un palacio barroco dorado con jardines geométricos al frente.",
+        description:
+          "El Palacio de Rundāle, construido entre 1736 y 1768 como residencia de verano para los duques de Curlandia, fue diseñado por el arquitecto italiano Bartolomeo Rastrelli, el mismo responsable del Palacio de Invierno de San Petersburgo, lo que explica el estilo barroco y rococó tardío que le valió el apodo de el Versalles letón pese a su tamaño mucho más modesto que el palacio francés original. Tras servir como hospital, escuela y depósito de granos durante distintos períodos del siglo XX bajo dominio soviético, incluidos años de abandono que dejaron gran parte del interior en ruinas, el palacio fue sometido desde la década de 1970 a una de las restauraciones más largas y minuciosas de toda Europa, un proceso que se extendió por más de cuarenta años y devolvió a sus salones dorados, sus jardines franceses y su colección de arte el aspecto original que hoy convierte al sitio en uno de los principales destinos turísticos de Letonia.",
+      },
+      en: {
+        title: "The Baroque Palace by St. Petersburg's Own Architect",
+        subtitle: "Rundāle Palace, the Latvian Versailles",
+        imageAlt: "Cartoon of a golden Baroque palace with geometric gardens in front.",
+        description:
+          "Rundāle Palace, built between 1736 and 1768 as a summer residence for the Dukes of Courland, was designed by Italian architect Bartolomeo Rastrelli, the same architect behind the Winter Palace in St. Petersburg, which explains the exuberant late Baroque and Rococo style that earned it the popular nickname the Latvian Versailles, despite being far more modest in scale than the original French palace. After serving as a hospital, school, and grain warehouse during different periods of the 20th century under Soviet rule, including years of neglect that left much of the interior in ruins, the palace underwent, starting in the 1970s, one of the longest and most meticulous restorations in all of Europe, a process spanning more than forty years that returned its gilded halls, geometric French gardens, and art collection to the original look that today makes the site one of Latvia's leading tourist and cultural destinations.",
+      },
+    },
+  },
+  {
+    id: "los-mitones-letones-con-cientos-de-patrones-simbolicos",
+    order: 12,
+    placeholderEmoji: "🧤",
+    accentColor: "#9E1B32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los mitones que una novia debía tejer por cientos",
+        subtitle: "Los cimdi, mitones tejidos letones",
+        imageAlt: "Caricatura de un par de mitones de lana con un patrón geométrico colorido tejido.",
+        description:
+          "Los cimdi, mitones tradicionales letones tejidos a mano con lana en cientos de patrones geométricos distintos que varían según la región, la ocasión y el significado simbólico de cada diseño, formaron durante siglos una parte central del ajuar que una novia letona debía tejer antes de su boda, en algunos casos cientos de pares destinados a regalarse a cada invitado y familiar del novio como parte del ritual de la ceremonia. Cada patrón, transmitido de generación en generación dentro de las familias, combinaba motivos considerados protectores contra el mal, símbolos de fertilidad o representaciones de elementos naturales, y la habilidad de tejer mitones complejos se consideraba una medida directa del valor de una mujer como futura esposa. Hoy, museos etnográficos letones conservan miles de patrones de cimdi catalogados, y la tradición sigue viva gracias a tejedoras contemporáneas que preservan tanto las técnicas como el repertorio simbólico heredado.",
+      },
+      en: {
+        title: "The Knit Mittens a Bride Had to Gift by the Hundreds",
+        subtitle: "Cimdi, Latvia's Traditional Mittens",
+        imageAlt: "Cartoon of a pair of wool mittens with a colorful knitted geometric pattern.",
+        description:
+          "Cimdi, traditional Latvian mittens hand-knitted in wool with hundreds of distinct geometric patterns varying by region, occasion, and each design's specific symbolic meaning, formed for centuries a central part of the dowry a Latvian bride had to knit before her wedding, in some cases hundreds of pairs meant to be given to every guest and relative of the groom as part of the ceremony's ritual. Each pattern, passed down through generations within families, combined motifs believed to protect against evil, symbols of fertility, or representations of natural elements, and the skill of knitting complex mittens was considered a direct measure of a woman's worth as a future wife. Today, Latvian ethnographic museums preserve thousands of catalogued cimdi patterns, and the tradition remains alive thanks to contemporary knitters who preserve both the techniques and the extensive inherited symbolic repertoire.",
+      },
+    },
+  },
+  {
+    id: "el-ambar-baltico-el-oro-del-norte-de-letonia",
+    order: 13,
+    placeholderEmoji: "🟠",
+    accentColor: "#B7752E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La resina fósil que los romanos llamaban oro del norte",
+        subtitle: "El ámbar báltico, comerciado desde la Antigüedad",
+        imageAlt: "Caricatura de una gema de ámbar dorada con un insecto atrapado en su interior.",
+        description:
+          "El ámbar báltico, resina fosilizada de árboles coníferos de hace unos cuarenta millones de años, se acumula en cantidades excepcionales a lo largo de las costas letonas, convirtiendo desde la Antigüedad a esta zona en la fuente principal del llamado oro del norte que romanos, griegos y otras civilizaciones mediterráneas importaban por rutas comerciales terrestres conocidas como las rutas del ámbar, cambiando el material fósil por bienes de lujo del sur de Europa mucho antes de existir contacto directo regular entre ambas regiones. Tras las tormentas de otoño e invierno, todavía es posible encontrar pequeños fragmentos de ámbar arrastrados a la orilla en playas letonas, una práctica de recolección informal que se mantiene como pasatiempo popular, mientras joyeros letones siguen trabajando el material en talleres que combinan técnicas centenarias con diseño contemporáneo para un mercado que valora especialmente las piezas con insectos prehistóricos atrapados en su interior.",
+      },
+      en: {
+        title: "The Fossil Resin Romans Called the Gold of the North",
+        subtitle: "Baltic Amber, Traded Since Antiquity",
+        imageAlt: "Cartoon of a golden amber gem with an insect trapped inside.",
+        description:
+          "Baltic amber, fossilized resin from coniferous trees that grew in the region around forty million years ago, accumulates in exceptional quantities along Latvia's coastline, making the area since antiquity the main source of the so-called gold of the north that Romans, Greeks, and other Mediterranean civilizations imported along overland trade routes known as the amber roads, trading the fossilized material for luxury goods from southern Europe long before regular direct contact existed between both regions. After autumn and winter storms, small fragments of amber can still be found today washed up on Latvian beaches, an informal collecting practice that remains a popular pastime, while Latvian jewelers keep working the material in workshops blending centuries-old techniques with contemporary design for a market that especially prizes pieces with prehistoric insects trapped inside.",
+      },
+    },
+  },
+  {
+    id: "jurmala-la-ciudad-balneario-de-arquitectura-de-madera",
+    order: 14,
+    placeholderEmoji: "🏖️",
+    accentColor: "#3D8FB0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El balneario de villas de madera junto al mar",
+        subtitle: "Jūrmala, ciudad balneario de casas de madera",
+        imageAlt: "Caricatura de una villa de madera ornamentada frente a una playa de arena blanca.",
+        description:
+          "Jūrmala, una franja costera de apenas treinta kilómetros de playas de arena blanca a orillas del golfo de Riga, se convirtió desde fines del siglo XIX en el balneario preferido de la nobleza y la burguesía del Imperio Ruso, que construyeron a lo largo de la costa cientos de elaboradas villas de madera con detalles ornamentales tallados a mano, muchas de las cuales todavía se conservan hoy pese al deterioro sufrido durante décadas de uso masivo como centro vacacional soviético. Durante la era soviética, Jūrmala funcionó como uno de los pocos destinos de playa accesibles para trabajadores de toda la URSS, recibiendo millones de visitantes anuales en sanatorios estatales construidos junto a las villas históricas, y tras la independencia de Letonia la ciudad recuperó su perfil como destino de lujo, con muchas de las villas de madera restauradas cuidadosamente y declaradas patrimonio arquitectónico protegido por su valor histórico y artístico excepcional.",
+      },
+      en: {
+        title: "The Resort of Wooden Villas Along 30km of Beach",
+        subtitle: "Jūrmala, a Wooden-House Resort Town",
+        imageAlt: "Cartoon of an ornate wooden villa facing a white sand beach.",
+        description:
+          "Jūrmala, a coastal strip of barely thirty kilometers of white sand beaches on the Gulf of Riga, became starting in the late 19th century the favorite seaside resort of Russian Empire nobility and bourgeoisie, who built hundreds of elaborate wooden villas along the coast with hand-carved ornamental details, many of which are still preserved today despite decades of wear from heavy use as a Soviet vacation center. During the Soviet era, Jūrmala functioned as one of the few beach destinations accessible to workers from across the USSR, drawing millions of annual visitors to state sanatoriums built alongside the historic villas, and after Latvia's independence the city recovered its profile as a luxury destination, with many of the wooden villas carefully restored and declared protected architectural heritage for their exceptional historical and artistic value.",
+      },
+    },
+  },
+  {
+    id: "jani-la-noche-de-coronas-de-roble-y-queso-de-comino",
+    order: 15,
+    placeholderEmoji: "🔥",
+    accentColor: "#2E4A3E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La noche en que todo Jānis recibe una corona de roble",
+        subtitle: "Jāņi, el solsticio de verano letón",
+        imageAlt: "Caricatura de una persona con una corona de hojas de roble junto a una fogata nocturna.",
+        description:
+          "Jāņi, la celebración del solsticio de verano en la noche del 23 de junio, se considera la festividad más importante del calendario letón, marcada por la costumbre de que las mujeres tejan coronas de flores silvestres para sí mismas mientras que los hombres, especialmente aquellos que llevan el nombre Jānis, uno de los más comunes del país, reciben coronas tejidas con hojas de roble como símbolo de fuerza y honor. La celebración incluye el canto de estribillos tradicionales terminados en la palabra līgo, hogueras nocturnas que se mantienen encendidas hasta el amanecer, y la preparación de un queso especiado con semillas de comino elaborado para la ocasión, cuya ausencia en una mesa familiar durante Jāņi se consideraría una falta a la tradición. Pese a décadas de intentos soviéticos por reemplazar la festividad pagana, Jāņi sobrevivió como el feriado más celebrado de la identidad cultural letona.",
+      },
+      en: {
+        title: "The Night Every Jānis Gets Crowned With Oak Leaves",
+        subtitle: "Jāņi, Latvia's Summer Solstice",
+        imageAlt: "Cartoon of a person wearing an oak leaf crown beside a nighttime bonfire.",
+        description:
+          "Jāņi, the summer solstice celebration held on the night of June 23rd, is considered the most important holiday on the Latvian calendar, marked by the custom of women weaving wildflower wreaths for themselves while men, especially those named Jānis, one of the country's most common names, receive wreaths woven from oak leaves as a symbol of strength and honor. The celebration includes singing traditional refrains ending in the word līgo, nighttime bonfires kept burning until dawn, and the preparation of a caraway-seed spiced cheese made specifically for the occasion, whose absence from a family table during Jāņi would be considered a notable break with tradition. Despite decades of Soviet attempts to replace the pagan holiday, Jāņi survived as the most widely celebrated date in Latvian cultural identity.",
+      },
+    },
+  },
 ];

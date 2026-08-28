@@ -231,4 +231,119 @@ export const ireland: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "james-joyce-y-el-dia-de-bloomsday",
+    order: 11,
+    placeholderEmoji: "📚",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El día en que Dublín entera revive una sola novela",
+        subtitle: "Bloomsday, en honor a James Joyce",
+        imageAlt: "Caricatura de una persona con sombrero de época leyendo un libro abierto frente a edificios de Dublín.",
+        description:
+          "Cada 16 de junio, fecha en la que transcurre íntegramente la novela Ulises de James Joyce, cientos de personas en Dublín se visten con ropa eduardiana y recorren los mismos lugares exactos de la ciudad que pisó el protagonista ficticio Leopold Bloom durante ese único día de 1904, en una celebración conocida como Bloomsday que combina lecturas públicas, desayunos tradicionales irlandeses y representaciones teatrales de fragmentos del libro. Ulises, publicada en 1922 tras ser prohibida por obscena en varios países durante años por su lenguaje explícito y técnicas narrativas experimentales como el monólogo interior, se convirtió con el tiempo en una de las novelas más influyentes del siglo XX, y la elección del 16 de junio como fiesta cultural, ideada por un pequeño grupo de admiradores en 1954 y crecida hasta un evento nacional multitudinario, transformó una obra que muchos consideran casi ilegible en un festejo disfrutado incluso por quienes nunca la terminaron de leer.",
+      },
+      en: {
+        title: "The Day All of Dublin Relives a Single Novel",
+        subtitle: "Bloomsday, in Honor of James Joyce",
+        imageAlt: "Cartoon of a person in period dress reading an open book in front of Dublin buildings.",
+        description:
+          "Every June 16th, the date on which James Joyce's novel Ulysses takes place in full, hundreds of people in Dublin dress in Edwardian clothing and walk the exact same city locations the fictional protagonist Leopold Bloom visited during that single day in 1904, in a celebration known as Bloomsday that combines public readings, traditional Irish breakfasts, and theatrical performances of passages from the book. Ulysses, published in 1922 after being banned as obscene in several countries for years over its explicit language and experimental narrative techniques like interior monologue, became over time one of the most influential novels of the 20th century, and the choice of June 16th as a cultural holiday, devised by a small group of admirers in 1954 and grown into a massive national event, turned a book many consider nearly unreadable into a celebration enjoyed even by people who never finished it.",
+      },
+    },
+  },
+  {
+    id: "el-hurling-y-el-futbol-gaelico-deportes-amateur",
+    order: 12,
+    placeholderEmoji: "🏑",
+    accentColor: "#0B7A3B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los deportes nacionales que nadie cobra por jugar",
+        subtitle: "El hurling y el fútbol gaélico, cien por ciento amateur",
+        imageAlt: "Caricatura de un jugador sosteniendo un palo curvo de hurling junto a una pelota en el aire.",
+        description:
+          "El hurling, un deporte de palos y pelota jugado a gran velocidad que algunos historiadores rastrean hasta hace más de tres mil años en mitos celtas, y el fútbol gaélico, una variante local que combina fútbol y rugby, son los deportes más populares de Irlanda, organizados por la Asociación Atlética Gaélica bajo un principio estricto: ningún jugador, sin importar su nivel ni la audiencia que convoque, puede cobrar salario por competir, incluso en las finales que llenan el estadio Croke Park de Dublín con más de ochenta mil espectadores. Los equipos representan condados enteros en lugar de clubes profesionales, y jugar para el propio condado natal se considera un honor comunitario tan fuerte que muchos de los mejores atletas del país rechazan ofertas de otros deportes profesionales para seguir compitiendo gratis por su comunidad, sosteniendo un modelo amateur a gran escala prácticamente único entre las principales ligas deportivas del mundo.",
+      },
+      en: {
+        title: "The National Sports No One Gets Paid to Play",
+        subtitle: "Hurling and Gaelic Football, 100% Amateur",
+        imageAlt: "Cartoon of a player holding a curved hurling stick beside a ball in midair.",
+        description:
+          "Hurling, a fast-paced stick-and-ball sport some historians trace back more than three thousand years to Celtic myth, and Gaelic football, a homegrown variant blending soccer and rugby, are Ireland's most popular sports, both organized by the Gaelic Athletic Association under a strict founding principle: no player, regardless of skill level or the crowd they draw, can be paid a salary to compete, even in finals that fill Dublin's Croke Park stadium with more than eighty thousand spectators. Teams represent entire counties rather than traditional professional clubs, and playing for one's home county is considered such a strong community honor that many of the country's best athletes turn down offers from other professional sports to keep competing for free for their home community, sustaining a large-scale amateur sporting model that's practically unique among the world's major sports leagues.",
+      },
+    },
+  },
+  {
+    id: "el-dia-de-santa-brigida-el-feriado-mas-nuevo",
+    order: 13,
+    placeholderEmoji: "✝️",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El feriado nacional más nuevo, dedicado a una santa",
+        subtitle: "El Día de Santa Brígida, el feriado más reciente",
+        imageAlt: "Caricatura de una cruz tejida con juncos entrelazados en un patrón geométrico colgada en una puerta.",
+        description:
+          "Irlanda estableció en 2023 el Día de Santa Brígida, celebrado el primer lunes de febrero, como su primer feriado público nuevo en casi medio siglo y el primero dedicado enteramente a una mujer, honrando a una figura que combina a la santa cristiana del siglo V, fundadora de un monasterio mixto poco habitual para su época en Kildare, con la diosa celta precristiana Brigid, asociada a la fertilidad, la poesía y la forja, cuyo culto pagano se fusionó gradualmente con la veneración católica posterior. La tradición popular incluye tejer una cruz de Santa Brígida con juncos entrelazados en un patrón geométrico para colgar en la puerta como protección contra el fuego y la mala suerte, una costumbre rural que sobrevivió generaciones y resurgió con fuerza tras crearse el feriado, impulsada en parte por un movimiento cultural que buscaba visibilizar más figuras femeninas en el calendario festivo tradicionalmente dominado por santos varones.",
+      },
+      en: {
+        title: "The Newest National Holiday, Dedicated to a Saint",
+        subtitle: "St. Brigid's Day, Ireland's Newest Holiday",
+        imageAlt: "Cartoon of a cross woven from interlaced reeds in a geometric pattern hanging on a door.",
+        description:
+          "In 2023, Ireland established St. Brigid's Day, celebrated the first Monday of February, as its first new public holiday in nearly half a century and the first dedicated entirely to a woman, honoring a figure blending the 5th-century Christian saint, founder of an unusually mixed-gender monastery for her era in Kildare, with the pre-Christian Celtic goddess Brigid, associated with fertility, poetry, and metalworking, whose pagan cult gradually merged with later Catholic veneration. Popular tradition includes weaving a St. Brigid's cross from interlaced reeds in a distinctive geometric pattern to hang on the front door as protection against fire and bad luck, a rural custom that survived for generations and resurged with new strength after the holiday's creation, driven partly by a cultural movement seeking to give more female figures visibility on a festive calendar traditionally dominated by male saints.",
+      },
+    },
+  },
+  {
+    id: "el-whiskey-irlandes-y-el-origen-de-la-palabra",
+    order: 14,
+    placeholderEmoji: "🥃",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El licor que le dio su nombre a toda una bebida",
+        subtitle: "El whiskey irlandés, origen de la palabra",
+        imageAlt: "Caricatura de un monje medieval junto a un alambique de cobre humeante.",
+        description:
+          "La palabra whiskey deriva de uisce beatha, una expresión gaélica que significa literalmente agua de vida, el nombre que monjes irlandeses medievales le dieron a un destilado de granos que aprendieron a producir posiblemente ya desde el siglo XII, mucho antes de que la destilación se popularizara en Escocia, lo que convierte a Irlanda en una de las candidatas más firmes al título de cuna original del whisky, aunque el debate exacto con los escoceses sigue sin resolverse del todo. El whiskey irlandés, tradicionalmente destilado tres veces en lugar de las dos habituales en Escocia, lo que produce un perfil más suave y menos ahumado, dominó el mercado mundial hasta comienzos del siglo XX, cuando la Ley Seca estadounidense, la independencia irlandesa y la pérdida de mercados coloniales británicos devastaron la industria local, que solo en las últimas décadas recuperó buena parte de su prestigio perdido.",
+      },
+      en: {
+        title: "The Spirit That Gave a Whole Drink Its Name",
+        subtitle: "Irish Whiskey, Origin of the Word",
+        imageAlt: "Cartoon of a medieval monk beside a steaming copper still.",
+        description:
+          "The word whiskey derives from uisce beatha, a Gaelic phrase literally meaning water of life, the name medieval Irish monks gave to a grain distillate they may have learned to produce as early as the 12th century, long before distillation caught on in Scotland, making Ireland one of the strongest candidates for the original birthplace of whisky, though the exact rivalry with the Scots remains unresolved among drink historians. Irish whiskey, traditionally distilled three times instead of the usual two in Scotland, producing a smoother, less smoky profile, dominated the world market until the early 20th century, when American Prohibition, Irish independence, and the loss of British colonial markets devastated the local industry, which only in recent decades has recovered much of its lost international prestige.",
+      },
+    },
+  },
+  {
+    id: "u2-la-banda-que-llevo-a-irlanda-al-mundo",
+    order: 15,
+    placeholderEmoji: "🎸",
+    accentColor: "#1A1A1A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La banda escolar que terminó llenando estadios",
+        subtitle: "U2, de Dublín a los estadios del mundo",
+        imageAlt: "Caricatura de una guitarra eléctrica apoyada contra un amplificador con luces de escenario detrás.",
+        description:
+          "U2 se formó en 1976 cuando Larry Mullen Jr., de apenas catorce años, colgó un aviso en la cartelera de su escuela secundaria de Dublín buscando músicos para armar una banda, una convocatoria casual que terminó reuniendo a Bono, The Edge y Adam Clayton en la formación que se convertiría en una de las bandas de rock más vendidas de la historia, con más de ciento cincuenta millones de discos vendidos y veintidós premios Grammy. Más allá de la música, Bono se convirtió en una de las figuras de activismo más visibles del espectáculo, impulsando campañas contra la pobreza extrema y por el alivio de deuda a países en desarrollo, mientras la banda mantuvo un vínculo estrecho con Dublín, incluida la construcción de su propio estudio de grabación en la ciudad, convirtiéndose en uno de los embajadores culturales irlandeses más reconocidos junto con Riverdance.",
+      },
+      en: {
+        title: "The School Band That Ended Up Filling Stadiums",
+        subtitle: "U2, From Dublin to the World's Stadiums",
+        imageAlt: "Cartoon of an electric guitar leaning against an amplifier with stage lights behind it.",
+        description:
+          "U2 formed in 1976 when Larry Mullen Jr., just fourteen years old, put up a notice on his Dublin secondary school's bulletin board looking for musicians to start a band, a casual call that ended up bringing together Bono, The Edge, and Adam Clayton in the lineup that would go on to become one of the best-selling rock bands in history, with more than one hundred fifty million records sold worldwide and twenty-two Grammy Awards. Beyond music, Bono became one of the most visible activist figures in entertainment, pushing international campaigns against extreme poverty and for debt relief for developing countries, while the band kept a close bond with Dublin throughout its career, including building its own recording studio in the city, becoming one of Ireland's most internationally recognized cultural ambassadors alongside Riverdance.",
+      },
+    },
+  },
 ];

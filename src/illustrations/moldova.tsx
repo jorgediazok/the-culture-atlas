@@ -121,6 +121,91 @@ const ElComplejoHidroelectricoMasAllaDelMapa: IllustrationComponent = () => (
   </g>
 );
 
+const DimitrieCantemirElPrincipeQueEscribioSobreElImperioOtomano: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      <circle cx="175" cy="160" r="16" fill={skin} />
+      <path d="M162 148 Q175 138 188 148 Q175 143 162 148 Z" fill="#D4AF37" />
+      <path d="M158 178 Q175 168 192 178 L186 235 L164 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* book */}
+      <path d="M195 210 L245 200 L245 235 L195 245 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      {/* ottoman stringed instrument */}
+      <ellipse cx="255" cy="175" rx="18" ry="24" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+      <line x1="255" y1="151" x2="255" y2="130" stroke={dark} strokeWidth="3" />
+    </g>
+  );
+};
+
+const LosCovoareLasAlfombrasTejidasAManoDeMoldavia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="150" y="150" width="110" height="90" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
+      <rect x="160" y="160" width="90" height="70" fill="none" stroke={accentColor} strokeWidth="4" />
+      {/* tree of life motif */}
+      <line x1="205" y1="220" x2="205" y2="185" stroke={dark} strokeWidth="3" />
+      <path d="M205 185 Q190 175 185 190 M205 185 Q220 175 225 190 M205 195 Q192 190 188 200 M205 195 Q218 190 222 200" stroke={dark} strokeWidth="2.5" fill="none" />
+      {/* corner motifs */}
+      {[[172, 172], [238, 172], [172, 218], [238, 218]].map(([x, y]) => (
+        <circle key={x as number} cx={x} cy={y} r="6" fill={accentColor} />
+      ))}
+    </g>
+  );
+};
+
+const LaDoinaElCantoLamentoMoldavo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      <path d="M90 245 Q205 235 320 245 L320 250 L90 250 Z" fill="#8FA85C" opacity="0.4" />
+      <circle cx="205" cy="175" r="16" fill={skin} />
+      <path d="M192 193 Q205 183 218 193 L212 240 L198 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* flute held to the mouth */}
+      <line x1="212" y1="188" x2="255" y2="180" stroke="#6B4C3A" strokeWidth="5" strokeLinecap="round" />
+      {/* drifting musical note */}
+      <circle cx="275" cy="160" r="5" fill={dark} opacity="0.6" />
+      <line x1="280" y1="160" x2="280" y2="140" stroke={dark} strokeWidth="2" opacity="0.6" />
+    </g>
+  );
+};
+
+const ChisinauLaCiudadJardinMasVerdeDeEuropaDelEste: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 250 Q205 240 320 250 L320 255 L90 255 Z" fill="#3D8FB0" opacity="0.4" />
+      {[[150, 180], [205, 160], [260, 180]].map(([x, y]) => (
+        <g key={x as number}>
+          <circle cx={x} cy={y} r="30" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+          <line x1={x} y1={(y as number) + 28} x2={x} y2="245" stroke="#5C3A21" strokeWidth="5" />
+        </g>
+      ))}
+      <rect x="185" y="230" width="40" height="12" fill={dark} opacity="0.4" />
+    </g>
+  );
+};
+
+const NegruDePurcariElVinoFavoritoDeLaReinaVictoria: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M190 240 L190 175 L200 155 L200 130 L210 130 L210 155 L220 175 L220 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <rect x="188" y="185" width="34" height="30" fill="#F5F0E6" opacity="0.85" stroke={dark} strokeWidth="1.5" />
+      {/* wine glass */}
+      <path d="M235 190 Q250 178 265 190 Q265 202 250 205 Q235 202 235 190 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+      <line x1="250" y1="205" x2="250" y2="235" stroke={dark} strokeWidth="2" />
+      <ellipse cx="250" cy="238" rx="12" ry="3" fill={dark} opacity="0.4" />
+      {/* grape cluster */}
+      {[[150, 180], [145, 195], [158, 195], [152, 208]].map(([x, y]) => (
+        <circle key={x as number} cx={x} cy={y} r="8" fill="#5B2C6F" stroke={dark} strokeWidth="1.5" />
+      ))}
+    </g>
+  );
+};
+
 export const moldovaIllustrations: Record<string, IllustrationDefinition> = {
   "cricova-la-bodega-mas-grande-del-mundo": { component: CricovaLaBodegaMasGrandeDelMundo },
   "el-pais-con-mas-vinedos-por-habitante": { component: ElPaisConMasVinedosPorHabitante },
@@ -132,4 +217,9 @@ export const moldovaIllustrations: Record<string, IllustrationDefinition> = {
   "el-complejo-de-fortalezas-de-soroca": { component: ElComplejoDeFortalezasDeSoroca },
   "gagauzia-una-region-turcoparlante-y-ortodoxa": { component: GagauziaUnaRegionTurcoparlanteYOrtodoxa },
   "el-complejo-hidroelectrico-mas-alla-del-mapa": { component: ElComplejoHidroelectricoMasAllaDelMapa },
+  "dimitrie-cantemir-el-principe-que-escribio-sobre-el-imperio-otomano": { component: DimitrieCantemirElPrincipeQueEscribioSobreElImperioOtomano },
+  "los-covoare-las-alfombras-tejidas-a-mano-de-moldavia": { component: LosCovoareLasAlfombrasTejidasAManoDeMoldavia },
+  "la-doina-el-canto-lamento-moldavo": { component: LaDoinaElCantoLamentoMoldavo },
+  "chisinau-la-ciudad-jardin-mas-verde-de-europa-del-este": { component: ChisinauLaCiudadJardinMasVerdeDeEuropaDelEste },
+  "negru-de-purcari-el-vino-favorito-de-la-reina-victoria": { component: NegruDePurcariElVinoFavoritoDeLaReinaVictoria },
 };

@@ -154,6 +154,94 @@ const StalinNacioEnEstePais: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const LasTorresDefensivasDeSvaneti: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 250 L110 210 L150 220 L180 180 L210 250 Z" fill="#B0B8BF" opacity="0.4" />
+      {/* tall stone tower */}
+      <rect x="185" y="110" width="45" height="140" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <polygon points="180,110 207,85 235,110" fill={dark} />
+      {[135, 160, 185, 210].map((y) => (
+        <line key={y} x1="185" y1={y} x2="230" y2={y} stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      ))}
+      {/* family house beside it */}
+      <rect x="245" y="200" width="55" height="50" fill={tint(accentColor, 0.25)} stroke={dark} strokeWidth="2.5" />
+      <polygon points="240,200 272,178 305,200" fill={dark} opacity="0.7" />
+    </g>
+  );
+};
+
+const KhinkaliLasEmpanadillasQueSeComenConLasManos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <ellipse cx="205" cy="220" rx="70" ry="16" fill="#E8DCC0" stroke={dark} strokeWidth="2.5" />
+      <path d="M150 200 Q150 150 205 145 Q260 150 260 200 Q260 215 205 220 Q150 215 150 200 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* pleats radiating up to the knot */}
+      {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+        <line key={deg} x1="205" y1="150" x2="205" y2="130" stroke={dark} strokeWidth="2" transform={`rotate(${deg} 205 150)`} opacity="0.5" />
+      ))}
+      {/* the topknot */}
+      <circle cx="205" cy="148" r="12" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+    </g>
+  );
+};
+
+const ShotaRustaveliYElCaballeroDeLaPielDePantera: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M110 130 L205 118 L205 232 L110 244 Z" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
+      <path d="M205 118 L300 130 L300 244 L205 232 Z" fill="#E8DCC0" stroke={dark} strokeWidth="3" />
+      {/* knight figure on the left page */}
+      <circle cx="150" cy="170" r="10" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <line x1="150" y1="180" x2="150" y2="215" stroke={dark} strokeWidth="4" />
+      <line x1="140" y1="195" x2="160" y2="195" stroke={dark} strokeWidth="3" />
+      {/* panther silhouette on the right page */}
+      <path d="M240 190 Q225 180 235 165 Q250 160 265 170 Q275 185 265 200 Q250 210 240 190 Z" fill="#B8703A" stroke={dark} strokeWidth="2" />
+      <line x1="265" y1="195" x2="280" y2="205" stroke="#B8703A" strokeWidth="4" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const ElKartuliLaDanzaDondeLaMujerPareceFlotar: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      {/* male dancer, arms extended */}
+      <circle cx="150" cy="140" r="16" fill={skin} />
+      <path d="M135 158 Q150 148 165 158 L160 230 L140 230 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M138 165 Q110 155 100 125" stroke={skin} strokeWidth="6" strokeLinecap="round" fill="none" />
+      <path d="M162 165 Q195 158 210 175" stroke={skin} strokeWidth="6" strokeLinecap="round" fill="none" />
+      {/* female dancer gliding in a long skirt */}
+      <circle cx="255" cy="140" r="16" fill={skin} />
+      <path d="M225 250 Q225 170 255 152 Q285 170 285 250 Z" fill={tint(accentColor, 0.35)} stroke={dark} strokeWidth="2.5" />
+      <path d="M242 162 Q220 150 222 130" stroke={skin} strokeWidth="5" strokeLinecap="round" fill="none" />
+      <path d="M268 162 Q290 150 288 130" stroke={skin} strokeWidth="5" strokeLinecap="round" fill="none" />
+    </g>
+  );
+};
+
+const BorjomiElAguaMineralQueConquistoUnImperio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const green = "#2E7D32";
+  return (
+    <g>
+      <path d="M90 250 Q205 260 320 250 L320 255 L90 255 Z" fill="#3D8FB0" opacity="0.4" />
+      <path d="M110 220 L150 150 L190 220 Z" fill={tint(accentColor, 0.3)} opacity="0.6" />
+      <path d="M200 220 L240 160 L280 220 Z" fill={tint(accentColor, 0.15)} opacity="0.6" />
+      {/* bottle */}
+      <path d="M190 245 L190 175 Q190 165 200 165 L210 165 Q220 165 220 175 L220 245 Z" fill={green} stroke={dark} strokeWidth="3" />
+      <rect x="198" y="145" width="14" height="22" fill={green} stroke={dark} strokeWidth="2.5" />
+      {/* rising bubbles */}
+      <circle cx="205" cy="200" r="4" fill="#F5F0E6" opacity="0.7" />
+      <circle cx="212" cy="215" r="3" fill="#F5F0E6" opacity="0.7" />
+    </g>
+  );
+};
+
 export const georgiaIllustrations: Record<string, IllustrationDefinition> = {
   "vino-georgiano-la-cuna-mas-antigua-del-mundo": { component: VinoGeorgianoLaCunaMasAntiguaDelMundo },
   "el-alfabeto-georgiano-que-no-se-parece-a-ningun-otro": { component: ElAlfabetoGeorgianoQueNoSeParaceANingunOtro },
@@ -165,4 +253,9 @@ export const georgiaIllustrations: Record<string, IllustrationDefinition> = {
   "los-banos-de-azufre-que-le-dieron-nombre-a-tiflis": { component: LosBanosDeAzufreQueLeDieronNombreATiflis },
   "la-revolucion-de-las-rosas-sin-un-solo-disparo": { component: LaRevolucionDeLasRosasSinUnSoloDisparo },
   "stalin-nacio-en-este-pais": { component: StalinNacioEnEstePais },
+  "las-torres-defensivas-de-svaneti": { component: LasTorresDefensivasDeSvaneti },
+  "khinkali-las-empanadillas-que-se-comen-con-las-manos": { component: KhinkaliLasEmpanadillasQueSeComenConLasManos },
+  "shota-rustaveli-y-el-caballero-de-la-piel-de-pantera": { component: ShotaRustaveliYElCaballeroDeLaPielDePantera },
+  "el-kartuli-la-danza-donde-la-mujer-parece-flotar": { component: ElKartuliLaDanzaDondeLaMujerPareceFlotar },
+  "borjomi-el-agua-mineral-que-conquisto-un-imperio": { component: BorjomiElAguaMineralQueConquistoUnImperio },
 };

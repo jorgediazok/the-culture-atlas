@@ -231,4 +231,119 @@ export const cyprus: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "los-gatos-de-san-nicolas-una-leyenda-chipriota",
+    order: 11,
+    placeholderEmoji: "🐈",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los gatos que un monasterio trajo contra serpientes",
+        subtitle: "San Nicolás de los Gatos, leyenda chipriota",
+        imageAlt: "Caricatura de varios gatos sentados frente a un monasterio de piedra junto al mar.",
+        description:
+          "El monasterio de San Nicolás de los Gatos, fundado en el siglo IV cerca de Limassol, debe su nombre a una leyenda local según la cual la propia Santa Elena, madre del emperador Constantino, envió a la isla varios cientos de gatos para combatir una plaga de serpientes venenosas que amenazaba a los primeros habitantes y monjes de la región, muchas de ellas posiblemente introducidas por barcos que llegaban al puerto cercano. Según la tradición, los monjes llamaban a los gatos a comer con el sonido de una campana especial dos veces al día, y estos regresaban luego a cazar serpientes por su cuenta, un arreglo que habría ayudado a hacer habitable la zona. Aunque la exactitud histórica del relato es imposible de confirmar, el monasterio sigue hoy activo con una pequeña colonia de gatos residentes, y la leyenda se cita a menudo como explicación del cariño particular que Chipre mantiene hacia los gatos.",
+      },
+      en: {
+        title: "The Thousand Cats Sent to Hunt a Monastery's Snakes",
+        subtitle: "St. Nicholas of the Cats, a Cypriot Legend",
+        imageAlt: "Cartoon of several cats sitting in front of a stone monastery by the sea.",
+        description:
+          "The Monastery of St. Nicholas of the Cats, founded in the 4th century near Limassol, owes its name to a local legend holding that St. Helena herself, mother of Roman emperor Constantine, sent several hundred cats to the island to combat an uncontrolled plague of venomous snakes threatening the region's earliest inhabitants and monks, many of the snakes possibly introduced by ships arriving at the nearby port. Tradition holds that the monastery's monks called the cats to eat with the sound of a special bell twice a day, and the cats would then go back to hunting snakes on their own, an arrangement said to have helped make the area habitable. Though the story's historical accuracy is impossible to confirm, the monastery remains active today with a small resident cat colony, and the legend is often cited to explain Cyprus's particular fondness for cats.",
+      },
+    },
+  },
+  {
+    id: "jorokitia-el-asentamiento-neolitico-mejor-conservado",
+    order: 12,
+    placeholderEmoji: "🏺",
+    accentColor: "#8B7355",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo circular de hace nueve mil años",
+        subtitle: "Jorokitia, un asentamiento neolítico",
+        imageAlt: "Caricatura de casas circulares de piedra agrupadas dentro de una muralla baja.",
+        description:
+          "Jorokitia, un asentamiento neolítico habitado entre aproximadamente el año 7000 y el 4000 antes de Cristo en el sur de Chipre, se considera uno de los sitios prehistóricos mejor conservados de todo el Mediterráneo oriental, con restos de viviendas circulares construidas en piedra y adobe, agrupadas densamente dentro de una muralla defensiva que protegía a una comunidad agrícola y ganadera ya notablemente organizada para su época. Las excavaciones revelaron que los habitantes enterraban a sus muertos directamente debajo del piso de sus casas, a menudo en posición fetal y junto con objetos personales, una práctica funeraria que aporta información valiosa sobre las creencias y estructura social de una de las primeras comunidades sedentarias documentadas en la isla. Declarado Patrimonio de la Humanidad por la UNESCO en 1998, el sitio incluye hoy réplicas de las viviendas originales que permiten imaginar la vida cotidiana hace nueve mil años.",
+      },
+      en: {
+        title: "The Circular Village From Nine Thousand Years Ago",
+        subtitle: "Choirokoitia, a Neolithic Settlement",
+        imageAlt: "Cartoon of circular stone houses clustered inside a low wall.",
+        description:
+          "Choirokoitia, a Neolithic settlement inhabited roughly between 7000 and 4000 BC in southern Cyprus, is considered one of the best-preserved prehistoric sites in the entire eastern Mediterranean, with remains of circular dwellings built from stone and mud brick, densely clustered within a defensive perimeter wall protecting an agricultural and herding community already notably organized for its time. Excavations revealed that residents buried their dead directly beneath the floors of their own homes, often in a fetal position and alongside personal belongings, a funerary practice that offers valuable insight into the beliefs and social structure of one of the earliest documented settled communities on the island. Declared a UNESCO World Heritage Site in 1998, the site today includes reconstructed replicas of the original dwellings that let visitors picture everyday life nine thousand years ago.",
+      },
+    },
+  },
+  {
+    id: "la-bandera-neutral-de-chipre-sin-colores-nacionales",
+    order: 13,
+    placeholderEmoji: "🏳️",
+    accentColor: "#B8703A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La bandera diseñada para no representar a ningún bando",
+        subtitle: "La bandera de Chipre, deliberadamente neutral",
+        imageAlt: "Caricatura de una bandera blanca con la silueta cobriza de una isla y dos ramas de olivo.",
+        description:
+          "La bandera de Chipre, adoptada en 1960 al momento de la independencia, evita deliberadamente los colores tradicionalmente asociados a Grecia y a Turquía, las dos naciones con comunidades históricas en la isla cuya rivalidad definió gran parte de la historia chipriota moderna, optando por un fondo blanco con la silueta de la isla en color cobre, en referencia a la histórica producción de cobre del territorio, coronada por dos ramas de olivo entrelazadas que simbolizan la paz entre ambas comunidades. Este diseño despojado de simbolismo nacionalista convirtió a Chipre en uno de los pocos países cuya bandera no incluye ninguno de los colores nacionales de su propia población mayoritaria, una elección que buscó proyectar unidad entre grecochipriotas y turcochipriotas, aunque la posterior división de la isla en 1974 dejó ese objetivo original sin cumplirse del todo en la práctica.",
+      },
+      en: {
+        title: "The Flag Designed to Take Neither Side",
+        subtitle: "Cyprus's Flag, Deliberately Neutral",
+        imageAlt: "Cartoon of a white flag with a copper-colored island silhouette and two olive branches.",
+        description:
+          "Cyprus's flag, adopted in 1960 at the time of independence, deliberately avoids the colors traditionally associated with both Greece and Turkey, the two nations with historical communities on the island whose rivalry defined much of modern Cypriot history, opting instead for a white background with the island's silhouette in copper, a direct reference to the territory's historic copper production, topped by two interlaced olive branches symbolizing peace between both communities. This design, deliberately stripped of nationalist symbolism, made Cyprus one of the few countries in the world whose official flag includes none of the traditional national colors of its own majority population, a choice meant at the time to project unity between Greek Cypriots and Turkish Cypriots, though the island's later division in 1974 left that original goal of visual reconciliation largely unfulfilled in practice.",
+      },
+    },
+  },
+  {
+    id: "el-encaje-de-lefkara-que-compro-leonardo-da-vinci",
+    order: 14,
+    placeholderEmoji: "🧵",
+    accentColor: "#5B2C6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El encaje de un pueblo que, cuentan, compró Da Vinci",
+        subtitle: "El encaje de Lefkara, lefkaritika",
+        imageAlt: "Caricatura de un mantel de encaje blanco con un patrón geométrico bordado a mano.",
+        description:
+          "El lefkaritika, un encaje bordado a mano con hilos de lino sobre patrones geométricos característicos, se produce desde hace siglos en el pueblo de Lefkara, en las estribaciones de las montañas Troodos, una tradición transmitida casi exclusivamente entre mujeres de generación en generación dentro de las familias del pueblo. Según una leyenda repetida en la isla, aunque sin documentación histórica sólida, el propio Leonardo da Vinci visitó Lefkara en 1481 y compró un mantel bordado que luego habría donado a la catedral de Milán para el altar, un relato que se volvió central en el orgullo local por el oficio. Reconocido por la UNESCO como patrimonio cultural inmaterial en 2009, el lefkaritika combina influencias venecianas, de cuando Chipre estuvo bajo dominio de Venecia, con patrones propios, y aunque enfrenta hoy la disminución de artesanas jóvenes dispuestas a aprenderlo, el pueblo sigue vendiendo piezas hechas a mano a visitantes de todo el mundo.",
+      },
+      en: {
+        title: "The Lace From a Village Da Vinci Is Said to Have Bought",
+        subtitle: "Lefkara Lace, or Lefkaritika",
+        imageAlt: "Cartoon of a white lace tablecloth with a hand-embroidered geometric pattern.",
+        description:
+          "Lefkaritika, hand-embroidered linen lace made in distinctive geometric patterns, has been produced for centuries in the village of Lefkara, in the foothills of the Troodos Mountains, a craft passed down almost exclusively among women through generations within the village's families. According to a legend widely repeated on the island, though with no solid historical documentation to confirm it, Leonardo da Vinci himself visited Lefkara in 1481 and bought an embroidered tablecloth he later reportedly donated to Milan Cathedral for its altar, a story that became central to local pride in the craft. Recognized by UNESCO as intangible cultural heritage in 2009, lefkaritika blends Venetian influences from when Cyprus was under Venetian rule with its own geometric patterns, and although the practice today faces a decline in young women willing to learn it, the village still sells handmade pieces to visitors from around the world.",
+      },
+    },
+  },
+  {
+    id: "kataklysmos-el-festival-del-diluvio",
+    order: 15,
+    placeholderEmoji: "💦",
+    accentColor: "#3D8FB0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El festival donde todo el mundo se moja a propósito",
+        subtitle: "Kataklysmos, el festival del diluvio",
+        imageAlt: "Caricatura de personas arrojándose agua entre risas en un paseo marítimo festivo.",
+        description:
+          "El Kataklysmos, celebrado cada año cincuenta días después de la Pascua ortodoxa en ciudades costeras chipriotas como Larnaca, Limassol y Pafos, combina la conmemoración cristiana del diluvio bíblico de Noé y del bautismo del Espíritu Santo en Pentecostés con una costumbre popular mucho más lúdica: arrojarse agua unos a otros en plazas y paseos marítimos, una práctica que antropólogos consideran heredera de rituales paganos anteriores al cristianismo dedicados a divinidades del agua y la fertilidad, sincretizados con el tiempo bajo un marco religioso cristiano formal. El festival, declarado patrimonio cultural inmaterial nacional de Chipre, se extiende hoy varios días con ferias, música tradicional, competencias de natación y remo y puestos de comida junto al mar, convirtiéndose en una de las festividades más concurridas del calendario chipriota.",
+      },
+      en: {
+        title: "The Festival Where Everyone Gets Soaked on Purpose",
+        subtitle: "Kataklysmos, the Festival of the Flood",
+        imageAlt: "Cartoon of people splashing water at each other laughing on a festive seaside promenade.",
+        description:
+          "Kataklysmos, celebrated every year fifty days after Orthodox Easter in Cypriot coastal cities like Larnaca, Limassol, and Paphos, combines the Christian commemoration of Noah's biblical flood and the baptism of the Holy Spirit at Pentecost with a much more playful popular custom: throwing water on each other in squares and along seafront promenades, a practice anthropologists consider a direct descendant of pre-Christian pagan rituals dedicated to deities of water and fertility, syncretized over time into a formal Christian religious framework. The festival, declared a national intangible cultural heritage of Cyprus, now stretches over several days with fairs, traditional music, swimming and rowing competitions, and food stalls by the sea, becoming one of the most crowded popular festivities on the Cypriot calendar.",
+      },
+    },
+  },
 ];

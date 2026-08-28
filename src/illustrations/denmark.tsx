@@ -144,6 +144,85 @@ const VikingosDanesesYSusBarcos: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const DannebrogLaBanderaMasAntiguaDelMundo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="120" y="90" width="10" height="160" fill={dark} />
+      <rect x="130" y="105" width="150" height="90" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="130" y="135" width="150" height="18" fill="#F5F0E6" />
+      <rect x="178" y="105" width="18" height="90" fill="#F5F0E6" />
+      {[[250, 85], [270, 105], [290, 80]].map(([x, y]) => (
+        <polygon
+          key={x as number}
+          points={`${x},${(y as number) - 7} ${(x as number) + 7},${y} ${x},${(y as number) + 7} ${(x as number) - 7},${y}`}
+          fill="#F5F0E6"
+          opacity="0.7"
+        />
+      ))}
+    </g>
+  );
+};
+
+const HansChristianAndersenElNarradorDeCuentos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      <circle cx="160" cy="130" r="20" fill={skin} />
+      <path d="M140 155 Q160 143 182 155 L176 210 L146 210 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M195 190 L245 182 L245 215 L195 223 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <path d="M245 182 L295 190 L295 223 L245 215 Z" fill="#E8DCC0" stroke={dark} strokeWidth="2" />
+      <path d="M255 175 Q265 160 280 165 Q270 168 268 178 Q275 172 282 176 Q272 182 258 180 Z" fill="#fff" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const ElDisenoDanesDeMueblesDeFamaMundial: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      <path d="M150 250 L150 200 Q150 175 180 175 Q210 175 210 200 L210 250" fill="none" stroke={wood} strokeWidth="8" strokeLinecap="round" />
+      <rect x="150" y="205" width="60" height="14" rx="6" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <line x1="150" y1="219" x2="150" y2="250" stroke={wood} strokeWidth="8" strokeLinecap="round" />
+      <line x1="210" y1="219" x2="210" y2="250" stroke={wood} strokeWidth="8" strokeLinecap="round" />
+      <line x1="270" y1="250" x2="270" y2="140" stroke={dark} strokeWidth="3" />
+      <path d="M250 140 L290 140 L280 110 L260 110 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const NomaYLaNuevaCocinaNordica: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <circle cx="205" cy="180" r="65" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
+      <circle cx="205" cy="180" r="50" fill="none" stroke={dark} strokeWidth="1" opacity="0.3" />
+      <path d="M180 175 Q170 160 178 145 Q185 160 185 175" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <path d="M210 170 Q220 152 235 148 Q225 165 215 175" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="1.5" />
+      {[0, 72, 144, 216, 288].map((deg) => (
+        <ellipse key={deg} cx="205" cy="195" rx="7" ry="4" fill="#B7752E" transform={`rotate(${deg} 205 195)`} />
+      ))}
+      <circle cx="205" cy="195" r="4" fill={dark} />
+    </g>
+  );
+};
+
+const ElCastilloDeKronborgYHamlet: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 245 Q205 255 320 245 L320 250 L90 250 Z" fill="#3D8FB0" opacity="0.5" />
+      <rect x="150" y="170" width="110" height="75" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="140" y="130" width="30" height="45" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+      <polygon points="135,130 155,105 175,130" fill={dark} />
+      <rect x="240" y="120" width="30" height="55" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+      <polygon points="235,120 255,95 275,120" fill={dark} />
+    </g>
+  );
+};
+
 export const denmarkIllustrations: Record<string, IllustrationDefinition> = {
   "lego-el-juguete-nacido-en-billund": { component: LegoElJugueteNacidoEnBillund },
   "hygge-el-arte-danes-de-la-calidez": { component: HyggeElArteDanesDeLaCalidez },
@@ -155,4 +234,9 @@ export const denmarkIllustrations: Record<string, IllustrationDefinition> = {
   "copenhague-mas-bicicletas-que-autos": { component: CopenhagueMasBicicletasQueAutos },
   "smorrebrod-el-sandwich-abierto": { component: SmorrebrodElSandwichAbierto },
   "vikingos-daneses-y-sus-barcos": { component: VikingosDanesesYSusBarcos },
+  "dannebrog-la-bandera-mas-antigua-del-mundo": { component: DannebrogLaBanderaMasAntiguaDelMundo },
+  "hans-christian-andersen-el-narrador-de-cuentos": { component: HansChristianAndersenElNarradorDeCuentos },
+  "el-diseno-danes-de-muebles-de-fama-mundial": { component: ElDisenoDanesDeMueblesDeFamaMundial },
+  "noma-y-la-nueva-cocina-nordica": { component: NomaYLaNuevaCocinaNordica },
+  "el-castillo-de-kronborg-y-hamlet": { component: ElCastilloDeKronborgYHamlet },
 };

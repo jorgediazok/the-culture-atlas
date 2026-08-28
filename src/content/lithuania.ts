@@ -231,4 +231,119 @@ export const lithuania: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "la-universidad-de-vilna-una-de-las-mas-antiguas-de-europa",
+    order: 11,
+    placeholderEmoji: "🔭",
+    accentColor: "#1B4F91",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La universidad de 1579 con observatorio barroco propio",
+        subtitle: "La Universidad de Vilna, desde 1579",
+        imageAlt: "Caricatura de un patio universitario con arcos de piedra y una torre de observatorio con símbolos zodiacales.",
+        description:
+          "La Universidad de Vilna, fundada en 1579 por la Compañía de Jesús con autorización del rey polaco-lituano Esteban Báthory, es una de las universidades más antiguas de Europa del Este todavía en funcionamiento, y su casco histórico, un complejo de trece patios interconectados construidos a lo largo de varios siglos combinando estilos gótico, renacentista, barroco y clasicista, se considera hoy una de las joyas arquitectónicas del centro histórico de Vilna, declarado patrimonio de la UNESCO. Dentro del complejo funciona desde 1753 el Observatorio Astronómico de Vilna, uno de los más antiguos de Europa todavía en su ubicación original, con una fachada decorada con símbolos zodiacales y una inscripción latina que se traduce como añadir nuevo a lo antiguo, animar la ciencia con un cielo favorable, una declaración de intenciones de la institución que sigue formando estudiantes ininterrumpidamente desde el siglo XVI salvo por breves cierres impuestos por ocupaciones rusas y soviéticas.",
+      },
+      en: {
+        title: "The 1579 University With Its Own Baroque Observatory",
+        subtitle: "Vilnius University, Since 1579",
+        imageAlt: "Cartoon of a university courtyard with stone arches and an observatory tower with zodiac symbols.",
+        description:
+          "Vilnius University, founded in 1579 by the Society of Jesus with authorization from Polish-Lithuanian King Stephen Báthory, is one of the oldest universities in Eastern Europe still operating today, and its historic campus, a complex of thirteen interconnected courtyards built over several centuries blending Gothic, Renaissance, Baroque, and Classicist styles, is considered one of the architectural jewels of Vilnius's old town, declared a UNESCO World Heritage Site as part of the historic center. Inside the complex, the Vilnius University Observatory has operated since 1753, one of the oldest in Europe still standing in its original location, with a facade decorated with zodiac symbols and a Latin inscription translating to add the new to the old, encourage science with a favorable sky, a statement of intent from an institution that has kept training students almost without interruption since the 16th century, save for brief closures forced by Russian and Soviet occupations.",
+      },
+    },
+  },
+  {
+    id: "el-lituano-el-idioma-vivo-mas-parecido-al-indoeuropeo",
+    order: 12,
+    placeholderEmoji: "🗣️",
+    accentColor: "#8B1A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El idioma que los lingüistas comparan con el sánscrito",
+        subtitle: "El lituano, el más arcaico de las lenguas vivas",
+        imageAlt: "Caricatura de un árbol genealógico de idiomas con una rama antigua brillando entre las demás.",
+        description:
+          "El lituano se considera entre los lingüistas comparativos la lengua indoeuropea viva que conservó de forma más fiel rasgos gramaticales y fonéticos del hipotético protoindoeuropeo original del que descienden la mayoría de las lenguas europeas y varias asiáticas, con similitudes estructurales tan marcadas con el sánscrito antiguo que estudiosos del siglo XIX quedaron sorprendidos al comparar ambos idiomas pese a la distancia geográfica y temporal que los separaba. El lituano conservó, entre otras características arcaicas, un sistema de acentuación tonal poco común en Europa y una morfología nominal compleja con hasta siete casos gramaticales que otras lenguas indoeuropeas simplificaron o perdieron con el paso de los siglos, características que lo convirtieron en objeto de estudio central para la lingüística histórica comparada. Hablado hoy por apenas unos tres millones de personas, el lituano funciona casi como una cápsula del tiempo de toda la familia indoeuropea.",
+      },
+      en: {
+        title: "The Language Linguists Compare to Sanskrit",
+        subtitle: "Lithuanian, the Most Archaic Living Language",
+        imageAlt: "Cartoon of a language family tree with one ancient branch glowing among the rest.",
+        description:
+          "Among comparative linguists, Lithuanian is considered the living Indo-European language that most faithfully preserved grammatical and phonetic features of the hypothetical original Proto-Indo-European language from which most European and several Asian languages descend, with structural similarities to ancient Sanskrit so pronounced that 19th-century scholars were astonished comparing the two languages despite the vast geographic and historical distance between them. Lithuanian preserved, among other archaic features, a pitch-accent system uncommon in Europe and a complex noun morphology with up to seven grammatical cases that other Indo-European languages simplified or lost entirely over the centuries, traits that turned the language into a central object of study for modern comparative historical linguistics. Spoken today by barely three million people, Lithuanian functions almost like a linguistic time capsule for the entire Indo-European family.",
+      },
+    },
+  },
+  {
+    id: "kaziuko-muge-la-feria-de-las-verbas-decoradas",
+    order: 13,
+    placeholderEmoji: "🌾",
+    accentColor: "#B7752E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La feria de ramos tejidos con flores de papel",
+        subtitle: "Kaziuko mugė, la feria de las verbas",
+        imageAlt: "Caricatura de un ramo ornamental tejido con semillas y flores de papel de colores vivos.",
+        description:
+          "Kaziuko mugė, la feria anual celebrada en Vilna cada marzo en honor a San Casimiro, patrono de Lituania, en el aniversario de su muerte en 1484, reúne a artesanos de todo el país que venden verbos, ramos ornamentales tejidos con semillas secas, flores de papel de colores vivos, hierbas aromáticas y cintas en patrones geométricos intrincados sobre una base de junco o paja, una artesanía asociada al Domingo de Ramos que con el tiempo se volvió el símbolo visual central de toda la feria. La celebración, que se remonta al siglo XVII y hoy atrae a cientos de miles de visitantes al casco histórico de Vilna durante varios días, combina los puestos de verbos con música folclórica en vivo, comida tradicional y artesanías de cerámica, cuero y madera, siendo una de las mayores celebraciones de identidad cultural lituana del calendario, significativa por haber sobrevivido a décadas de intentos soviéticos de eliminar festividades religiosas populares.",
+      },
+      en: {
+        title: "The Fair Selling Bouquets Woven From Paper Flowers",
+        subtitle: "Kaziuko Mugė, the Fair of the Verbos",
+        imageAlt: "Cartoon of an ornamental bouquet woven from seeds and brightly colored paper flowers.",
+        description:
+          "Kaziuko mugė, the annual fair held in Vilnius every March honoring St. Casimir, Lithuania's patron saint, on the anniversary of his death in 1484, brings together artisans from across the country selling verbos, ornamental bouquets woven from dried seeds, brightly colored paper flowers, aromatic herbs, and ribbons in intricate geometric patterns over a reed or straw base, a craft traditionally tied to Palm Sunday that over time became the visual centerpiece of the entire fair. The celebration, dating back to the 17th century and today drawing hundreds of thousands of visitors to Vilnius's historic streets over several days, combines verbo stalls with live folk music, traditional food, and ceramic, leather, and wood crafts, making it one of the largest celebrations of Lithuanian cultural identity on the annual calendar, especially significant for having survived intact through decades of Soviet attempts to eliminate popular religious festivities.",
+      },
+    },
+  },
+  {
+    id: "el-pan-negro-de-centeno-casi-sagrado-para-lituania",
+    order: 14,
+    placeholderEmoji: "🍞",
+    accentColor: "#4A2C2A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pan negro que se trata casi como algo sagrado",
+        subtitle: "El pan de centeno, casi sagrado en Lituania",
+        imageAlt: "Caricatura de una hogaza de pan negro de corteza densa sobre una tabla de madera.",
+        description:
+          "El pan negro de centeno, elaborado con masa madre fermentada durante días y horneado hasta desarrollar una corteza oscura y densa, ocupa un lugar tan central en la identidad alimentaria lituana que tirarlo a la basura o dejarlo caer al piso sin recogerlo y besarlo se considera todavía hoy, sobre todo entre generaciones mayores, una falta de respeto casi sacrílega hacia un alimento asociado históricamente con la supervivencia del pueblo lituano en épocas de escasez, guerra y ocupación extranjera. La tradición de tratar el pan casi como algo sagrado se refuerza con costumbres como la de dar la bienvenida a visitantes importantes con pan y sal, y con relatos familiares, muy repetidos durante el siglo XX, sobre soldados y deportados a Siberia que conservaban un pequeño trozo de pan negro como amuleto durante los momentos más duros. Panaderías tradicionales lituanas todavía elaboran el pan siguiendo procesos de fermentación natural que pueden extenderse varios días antes del horno.",
+      },
+      en: {
+        title: "The Dark Bread Treated as Nearly Sacred",
+        subtitle: "Rye Bread, Nearly Sacred in Lithuania",
+        imageAlt: "Cartoon of a dense-crusted loaf of dark bread on a wooden board.",
+        description:
+          "Dark rye bread, made from sourdough fermented over several days and baked until it develops a dense, dark crust, holds such a central place in Lithuanian food identity that throwing it in the trash, or letting it drop to the floor without picking it up and kissing it, is still considered today, especially among older generations, a near-sacrilegious disrespect toward a food historically tied to the very survival of the Lithuanian people through periods of scarcity, war, and foreign occupation. The tradition of treating bread as almost sacred is reinforced by customs like welcoming important visitors with bread and salt, and by family stories, widely repeated through the 20th century, about soldiers and deportees to Siberia who kept a small piece of dark bread as a protective talisman through the hardest moments. Traditional Lithuanian bakeries still make the bread today following natural fermentation processes that can stretch several days before it ever reaches the oven.",
+      },
+    },
+  },
+  {
+    id: "el-parque-gruto-un-museo-de-estatuas-sovieticas",
+    order: 15,
+    placeholderEmoji: "🗿",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El parque donde exiliaron a las estatuas soviéticas",
+        subtitle: "El Parque Grūtas, un museo de estatuas soviéticas",
+        imageAlt: "Caricatura de estatuas de piedra gris dispersas entre árboles de un bosque.",
+        description:
+          "El Parque Grūtas, un museo al aire libre inaugurado en 2001 en un bosque del sur de Lituania, reúne más de un centenar de estatuas y monumentos soviéticos, entre ellos representaciones de Lenin, Stalin y otros líderes comunistas, retiradas de plazas y edificios públicos de todo el país tras la independencia de 1990 y que de otro modo habrían sido destruidas o fundidas. El empresario lituano que financió el proyecto propuso un diseño que evoca un campo de trabajos forzados soviético, con torres de vigilancia, alambre de púas y senderos de madera entre las estatuas dispersas por el bosque, una decisión que generó controversia inicial entre quienes veían el riesgo de convertir símbolos de opresión real en una atracción turística demasiado liviana. Pese al debate, el parque se consolidó como un sitio de memoria histórica visitado tanto por turistas curiosos como por lituanos que vivieron la ocupación soviética.",
+      },
+      en: {
+        title: "The Park Where Soviet Statues Were Exiled",
+        subtitle: "Grūtas Park, a Museum of Soviet Statues",
+        imageAlt: "Cartoon of gray stone statues scattered among the trees of a forest.",
+        description:
+          "Grūtas Park, an open-air museum opened in 2001 in a forest in southern Lithuania, brings together more than a hundred Soviet-era statues and monuments, including depictions of Lenin, Stalin, and other communist leaders, removed from squares and public buildings across the country after independence in 1990 and that would otherwise have simply been destroyed or melted down. The Lithuanian businessman who funded the project deliberately proposed a design evoking a Soviet forced-labor camp, with watchtowers, barbed wire, and wooden paths winding between statues scattered through the forest, a choice that sparked early controversy among those who saw a risk of turning symbols of real oppression into too lighthearted a tourist attraction. Despite the debate, the park established itself as a site of historical memory visited both by curious tourists and by Lithuanians who lived through Soviet occupation firsthand.",
+      },
+    },
+  },
 ];

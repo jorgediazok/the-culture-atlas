@@ -148,6 +148,107 @@ const KarlovyVaryElBalnearioDeLasAguasTermales: IllustrationComponent = ({ accen
   );
 };
 
+const AlphonseMuchaElPadreDelArtNouveau: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#E8C9A0";
+  return (
+    <g>
+      {/* ornamental halo frame */}
+      <circle cx="205" cy="150" r="65" fill="none" stroke={accentColor} strokeWidth="6" opacity="0.6" />
+      <circle cx="205" cy="150" r="80" fill="none" stroke={tint(accentColor, 0.3)} strokeWidth="3" opacity="0.5" />
+      {/* elongated female figure */}
+      <circle cx="205" cy="130" r="20" fill={skin} />
+      <path d="M188 148 Q205 138 222 148 L214 245 L196 245 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* flowing hair */}
+      <path d="M188 135 Q160 150 165 190 Q175 170 190 155" fill={dark} opacity="0.7" />
+      <path d="M222 135 Q250 150 245 190 Q235 170 220 155" fill={dark} opacity="0.7" />
+      {/* floral border accents */}
+      <circle cx="130" cy="220" r="10" fill={tint(accentColor, 0.35)} stroke={dark} strokeWidth="1.5" />
+      <circle cx="280" cy="220" r="10" fill={tint(accentColor, 0.35)} stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const GregorMendelElMonjeQueFundoLaGenetica: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      {/* monk in a robe */}
+      <circle cx="160" cy="140" r="17" fill={skin} />
+      <path d="M143 160 Q160 150 179 160 L172 240 L148 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* rows of pea plants */}
+      {[220, 250, 280].map((x, i) => (
+        <g key={x}>
+          <line x1={x} y1="240" x2={x} y2="190" stroke="#2E7D32" strokeWidth="3" />
+          <circle cx={x} cy="185" r="8" fill={i % 2 === 0 ? "#F5F0E6" : tint(accentColor, 0.4)} stroke={dark} strokeWidth="1.5" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const LaTradicionChecaDeLosTiteresDeMadera: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      {/* control bar and strings */}
+      <line x1="150" y1="90" x2="260" y2="90" stroke={dark} strokeWidth="4" />
+      <line x1="170" y1="90" x2="185" y2="130" stroke={dark} strokeWidth="1.5" />
+      <line x1="240" y1="90" x2="225" y2="130" stroke={dark} strokeWidth="1.5" />
+      <line x1="205" y1="90" x2="205" y2="150" stroke={dark} strokeWidth="1.5" />
+      {/* puppet head with pointed cap */}
+      <circle cx="205" cy="150" r="18" fill={skin} />
+      <polygon points="188,140 205,105 222,140" fill="#C1272D" stroke={dark} strokeWidth="2" />
+      {/* puppet body */}
+      <path d="M185 168 Q205 158 225 168 L218 235 L192 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* dangling arms and legs */}
+      <line x1="185" y1="130" x2="170" y2="185" stroke={dark} strokeWidth="3" />
+      <line x1="225" y1="130" x2="240" y2="185" stroke={dark} strokeWidth="3" />
+    </g>
+  );
+};
+
+const ElOroDeHockeyEnNagano1998: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      <rect x="90" y="225" width="230" height="12" fill="#B0D8E8" opacity="0.7" />
+      {/* player */}
+      <circle cx="180" cy="145" r="17" fill={skin} />
+      <path d="M162 165 Q180 155 200 165 L192 225 L170 225 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* raised arm holding the medal */}
+      <line x1="196" y1="170" x2="235" y2="120" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <circle cx="240" cy="112" r="18" fill="#D4AF37" stroke={dark} strokeWidth="2.5" />
+      <circle cx="240" cy="112" r="10" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.6" />
+      {/* hockey stick */}
+      <line x1="165" y1="180" x2="150" y2="228" stroke="#6B4C3A" strokeWidth="5" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const ElBuenSoldadoSvejkLaSatiraNacional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      <circle cx="205" cy="140" r="20" fill={skin} />
+      {/* round cap */}
+      <path d="M186 128 Q205 108 224 128 Q205 122 186 128 Z" fill={dark} />
+      {/* uniform */}
+      <path d="M182 162 Q205 150 228 162 L220 240 L190 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* buttons */}
+      {[175, 195, 215].map((y) => (
+        <circle key={y} cx="205" cy={y} r="3.5" fill={dark} opacity="0.7" />
+      ))}
+      {/* content, oblivious smile */}
+      <path d="M195 145 Q205 152 215 145" fill="none" stroke={dark} strokeWidth="2.5" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const czechRepublicIllustrations: Record<string, IllustrationDefinition> = {
   "reloj-astronomico-que-sigue-funcionando": { component: RelojAstronomicoQueSigueFuncionando },
   "pilsner-la-cerveza-que-le-dio-nombre-a-un-estilo": { component: PilsnerLaCervezaQueLeDioNombreAUnEstilo },
@@ -159,4 +260,9 @@ export const czechRepublicIllustrations: Record<string, IllustrationDefinition> 
   "el-pais-que-mas-cerveza-toma-por-persona": { component: ElPaisQueMasCervezaTomaPorPersona },
   "krtek-el-topo-que-conquisto-medio-mundo": { component: KrtekElTopoQueConquistoMedioMundo },
   "karlovy-vary-el-balneario-de-las-aguas-termales": { component: KarlovyVaryElBalnearioDeLasAguasTermales },
+  "alphonse-mucha-el-padre-del-art-nouveau": { component: AlphonseMuchaElPadreDelArtNouveau },
+  "gregor-mendel-el-monje-que-fundo-la-genetica": { component: GregorMendelElMonjeQueFundoLaGenetica },
+  "la-tradicion-checa-de-los-titeres-de-madera": { component: LaTradicionChecaDeLosTiteresDeMadera },
+  "el-oro-de-hockey-en-nagano-1998": { component: ElOroDeHockeyEnNagano1998 },
+  "el-buen-soldado-svejk-la-satira-nacional": { component: ElBuenSoldadoSvejkLaSatiraNacional },
 };

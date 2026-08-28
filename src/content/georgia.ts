@@ -231,4 +231,119 @@ export const georgia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "las-torres-defensivas-de-svaneti",
+    order: 11,
+    placeholderEmoji: "🗼",
+    accentColor: "#8B7355",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las torres de piedra que protegían a cada familia",
+        subtitle: "Las torres defensivas de Svaneti",
+        imageAlt: "Caricatura de una alta torre de piedra medieval junto a una casa de montaña bajo picos nevados.",
+        description:
+          "En la remota región montañosa de Svaneti, en el noroeste de Georgia, cientos de torres de piedra medievales de hasta veinticinco metros de altura se elevan junto a las casas de pueblos como Ushguli, uno de los asentamientos habitados más altos de Europa, construidas entre los siglos IX y XIII como refugio defensivo privado para cada familia svana ante ataques de vecinos rivales o disputas de sangre que podían extenderse por generaciones. Cada torre, con muros de más de un metro de espesor en la base y entradas elevadas accesibles solo con escaleras removibles, permitía a una familia resguardarse semanas con provisiones en los pisos superiores mientras el nivel inferior albergaba al ganado. Declarada Patrimonio de la Humanidad por la UNESCO, Svaneti conservó gracias a su aislamiento tradiciones, dialecto y costumbres propias casi intactas hasta hoy, con una identidad cultural svana distinta dentro de la propia identidad georgiana.",
+      },
+      en: {
+        title: "The Stone Towers That Protected Each Family",
+        subtitle: "The Defensive Towers of Svaneti",
+        imageAlt: "Cartoon of a tall medieval stone tower beside a mountain house under snowy peaks.",
+        description:
+          "In the remote mountainous region of Svaneti, in northwestern Georgia, hundreds of medieval stone towers up to twenty-five meters tall still rise beside family homes in villages like Ushguli, one of the highest permanently inhabited settlements in Europe, built between the 9th and 13th centuries as a private defensive refuge for each Svan family against attacks from rival neighbors or blood feuds that could stretch across generations. Each tower, with base walls more than a meter thick and elevated entrances reachable only by removable ladders, let an entire family shelter for weeks with provisions stored on the upper floors while the ground level housed livestock. Declared a UNESCO World Heritage Site, Svaneti also preserved, thanks to its historical geographic isolation, its own traditions, dialect, and customs that survived almost intact to this day, with a distinct Svan cultural identity within Georgian identity itself.",
+      },
+    },
+  },
+  {
+    id: "khinkali-las-empanadillas-que-se-comen-con-las-manos",
+    order: 12,
+    placeholderEmoji: "🥟",
+    accentColor: "#D4941E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las empanadillas que se comen agarrando el moño",
+        subtitle: "Khinkali, comidas siempre a mano",
+        imageAlt: "Caricatura de una empanadilla redonda con un nudo grueso de masa arriba, sobre un plato.",
+        description:
+          "El khinkali, una empanadilla de masa gruesa rellena tradicionalmente de carne picada especiada y su propio caldo interno, se come siguiendo una etiqueta estricta transmitida de generación en generación: se sostiene por el moño o nudo grueso de masa que corona cada pieza, se muerde con cuidado un costado para sorber primero el caldo caliente sin quemarse, y luego se come el resto dejando siempre de lado ese nudo superior, considerado demasiado grueso y sin sabor para comerlo, una costumbre tan arraigada que comerse el moño completo delata de inmediato a un comensal poco familiarizado con la tradición. El origen del plato se remonta a las regiones montañosas del Cáucaso georgiano, donde una comida calórica y fácil de transportar resultaba esencial para pastores y guerreros, y hoy los restaurantes especializados suelen medir la habilidad de un cocinero por la cantidad exacta de pliegues que logra formar en el nudo de cada pieza, generalmente entre dieciocho y veinticuatro.",
+      },
+      en: {
+        title: "The Dumplings You Eat by Holding the Topknot",
+        subtitle: "Khinkali, Always Eaten by Hand",
+        imageAlt: "Cartoon of a round dumpling with a thick knot of dough on top, on a plate.",
+        description:
+          "Khinkali, a thick-doughed dumpling traditionally filled with spiced minced meat and its own internal broth, is eaten following a strict etiquette passed down through generations: you hold it by the thick knot of dough crowning each piece, carefully bite one side to first sip the hot broth without burning yourself, and then eat the rest while always leaving that top knot aside, considered too thick and flavorless to eat, a custom so ingrained that eating the whole knot instantly gives away a diner unfamiliar with the tradition. The dish traces back to the mountainous regions of the Georgian Caucasus, where a calorie-dense, easy-to-carry meal was essential for shepherds and warriors, and specialized restaurants today often judge a cook's skill by the exact number of pleats they manage to form in each piece's knot, typically between eighteen and twenty-four.",
+      },
+    },
+  },
+  {
+    id: "shota-rustaveli-y-el-caballero-de-la-piel-de-pantera",
+    order: 13,
+    placeholderEmoji: "📜",
+    accentColor: "#5B2C6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El poema medieval que toda Georgia sabe de memoria",
+        subtitle: "Shota Rustaveli y 'El caballero de la piel de pantera'",
+        imageAlt: "Caricatura de un manuscrito medieval abierto con un caballero y una pantera dibujados en la página.",
+        description:
+          "Shota Rustaveli, poeta cortesano que sirvió bajo el reinado de la reina Tamar a fines del siglo XII, escribió El caballero de la piel de pantera, un extenso poema épico considerado la obra cumbre de la literatura georgiana medieval, que narra las aventuras de caballeros unidos por la amistad y el honor en una trama que abarca desde Arabia hasta la India, protagonizada de forma poco habitual para la época por heroínas femeninas fuertes que impulsan buena parte de la acción. El poema, escrito en verso rimado shairi y cargado de reflexiones filosóficas sobre el amor, la lealtad y la justicia, se transmitió durante siglos de forma oral en hogares georgianos antes de la imprenta, y hoy sigue siendo una referencia cultural tan central que muchos georgianos memorizan pasajes enteros desde la escuela primaria, mientras estatuas de Rustaveli y la avenida principal de Tiflis, que lleva su nombre, atestiguan su estatus como poeta nacional indiscutido.",
+      },
+      en: {
+        title: "The Medieval Poem All of Georgia Knows by Heart",
+        subtitle: "Shota Rustaveli and 'The Knight in the Panther's Skin'",
+        imageAlt: "Cartoon of an open medieval manuscript with a knight and a panther drawn on the page.",
+        description:
+          "Shota Rustaveli, a court poet who served under the reign of Queen Tamar in the late 12th century, wrote The Knight in the Panther's Skin, a lengthy epic poem considered the crowning work of medieval Georgian literature, following the adventures of knights bound by friendship and honor in a plot spanning settings from Arabia to India, unusually for its era starring strong female heroines who drive much of the story's action. The poem, written in rhymed shairi verse and packed with philosophical reflections on love, loyalty, and justice, was passed down orally for centuries in Georgian households before the printing press arrived, and remains such a central cultural reference today that many Georgians memorize entire passages starting in primary school, while statues of Rustaveli and Tbilisi's main avenue, named after him, attest to his status as the country's undisputed national poet.",
+      },
+    },
+  },
+  {
+    id: "el-kartuli-la-danza-donde-la-mujer-parece-flotar",
+    order: 14,
+    placeholderEmoji: "💃",
+    accentColor: "#6B2C39",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La danza donde la mujer parece flotar en el aire",
+        subtitle: "El Kartuli, la danza de pareja georgiana",
+        imageAlt: "Caricatura de una bailarina con vestido largo deslizándose junto a un bailarín con los brazos extendidos.",
+        description:
+          "El Kartuli, considerado el baile de pareja más elegante y exigente del repertorio folclórico georgiano, representa el cortejo idealizado entre un hombre y una mujer mediante un contraste coreográfico deliberado: mientras el bailarín ejecuta movimientos vigorosos, saltos y pasos rápidos con los brazos extendidos alrededor de la pareja sin tocarla nunca, la bailarina se desliza con pasos tan pequeños bajo la falda larga tradicional que da la impresión óptica de flotar suavemente sobre el escenario sin que sus pies se muevan. Esta ilusión de flotación, lograda mediante años de entrenamiento para mantener el torso perfectamente estable mientras los pies ejecutan pasos diminutos ocultos por la vestimenta, exige tanto control corporal que se considera una de las disciplinas de danza folclórica más difíciles de dominar en el mundo, y el baile se interpreta además con la mirada de ambos bailarines evitándose deliberadamente durante buena parte de la coreografía.",
+      },
+      en: {
+        title: "The Dance Where the Woman Seems to Float on Air",
+        subtitle: "Kartuli, Georgia's Partner Dance",
+        imageAlt: "Cartoon of a dancer in a long dress gliding beside a male dancer with outstretched arms.",
+        description:
+          "Kartuli, considered the most elegant and demanding partner dance in the Georgian folk repertoire, portrays idealized courtship between a man and a woman through a deliberate choreographic contrast: while the male dancer performs vigorous movements, leaps, and quick steps with his arms extended around his partner without ever touching her, the female dancer glides with such tiny steps beneath her traditional long skirt that she creates the optical illusion of floating smoothly across the stage without her feet moving at all. This floating illusion, achieved through years of technical training to keep the torso perfectly stable while the feet execute tiny steps hidden by the costume, demands such body control that it's considered one of the hardest folk dance disciplines to master in the world, and the dance is traditionally performed with both dancers deliberately avoiding eye contact through much of the choreography.",
+      },
+    },
+  },
+  {
+    id: "borjomi-el-agua-mineral-que-conquisto-un-imperio",
+    order: 15,
+    placeholderEmoji: "💧",
+    accentColor: "#1B6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El agua mineral que bebía la corte del zar ruso",
+        subtitle: "Borjomi, agua mineral desde el siglo XIX",
+        imageAlt: "Caricatura de una botella de agua mineral verde junto a un manantial burbujeante entre montañas.",
+        description:
+          "El agua mineral Borjomi, extraída de manantiales naturales carbonatados en un valle georgiano explotado comercialmente desde mediados del siglo XIX cuando soldados rusos destacados en la zona notaron sus propiedades efervescentes, se convirtió rápidamente en la marca de agua embotellada preferida de la aristocracia y la corte imperial rusa, e incluso llegó a suministrarse al zar Nicolás II, un prestigio que ayudó a consolidar su fama internacional mucho antes de la Georgia independiente moderna. Durante la era soviética, Borjomi se distribuyó como agua mineral oficial en toda la URSS y se exportaba al bloque comunista, sobreviviendo después a la caída soviética, a un embargo ruso en 2006 y a una recuperación posterior que restableció su presencia en mercados internacionales. Hoy sigue siendo uno de los productos de exportación georgianos más reconocidos, embotellada en la fuente dentro del Parque Nacional Borjomi-Kharagauli.",
+      },
+      en: {
+        title: "The Mineral Water the Russian Tsar's Court Drank",
+        subtitle: "Borjomi, Mineral Water Since the 19th Century",
+        imageAlt: "Cartoon of a green mineral water bottle beside a bubbling spring among mountains.",
+        description:
+          "Borjomi mineral water, drawn from natural carbonated springs in a Georgian valley commercially developed starting in the mid-19th century after Russian soldiers stationed in the area noticed its fizzy properties, quickly became the bottled water brand favored by the Russian aristocracy and imperial court, even reaching Tsar Nicholas II's own table, a prestige that helped cement the brand's international fame long before modern independent Georgia existed. During the Soviet era, Borjomi was distributed as the official mineral water across the entire USSR and exported to the communist bloc, later surviving the Soviet collapse, a Russian trade embargo in 2006, and a subsequent recovery that restored its presence in international markets. Today it remains one of Georgia's most globally recognized export products, bottled right at the source inside Borjomi-Kharagauli National Park.",
+      },
+    },
+  },
 ];

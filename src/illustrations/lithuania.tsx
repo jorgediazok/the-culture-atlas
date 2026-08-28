@@ -134,6 +134,87 @@ const ElUltimoPaisPaganoDeEuropa: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const LaUniversidadDeVilnaUnaDeLasMasAntiguasDeEuropa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="140" y="180" width="130" height="60" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[160, 190, 220, 250].map((x) => (
+        <path key={x} d={`M${x - 10} 180 Q${x} 160 ${x + 10} 180`} fill="none" stroke={dark} strokeWidth="2.5" />
+      ))}
+      {/* observatory tower */}
+      <rect x="195" y="120" width="20" height="60" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+      <circle cx="205" cy="110" r="14" fill={tint(accentColor, 0.35)} stroke={dark} strokeWidth="2.5" />
+      {/* zodiac star accents */}
+      <circle cx="185" cy="100" r="2.5" fill="#D4AF37" />
+      <circle cx="225" cy="95" r="2.5" fill="#D4AF37" />
+      <circle cx="205" cy="80" r="2.5" fill="#D4AF37" />
+    </g>
+  );
+};
+
+const ElLituanoElIdiomaVivoMasParecidoAlIndoeuropeo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <line x1="205" y1="240" x2="205" y2="180" stroke="#5C4A3A" strokeWidth="8" />
+      <path d="M205 200 Q170 190 150 160" stroke="#5C4A3A" strokeWidth="5" fill="none" />
+      <path d="M205 190 Q240 175 260 145" stroke="#5C4A3A" strokeWidth="5" fill="none" />
+      <path d="M205 180 Q205 150 205 110" stroke={accentColor} strokeWidth="7" fill="none" strokeLinecap="round" />
+      <circle cx="205" cy="100" r="16" fill={accentColor} stroke={dark} strokeWidth="2.5" opacity="0.9" />
+      <circle cx="150" cy="155" r="8" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+      <circle cx="260" cy="140" r="8" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const KaziukoMugeLaFeriaDeLasVerbasDecoradas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const blooms: [number, number, string][] = [
+    [180, 180, accentColor],
+    [230, 175, tint(accentColor, 0.3)],
+    [195, 155, "#D4AF37"],
+    [220, 150, "#C1272D"],
+    [205, 130, tint(accentColor, 0.5)],
+  ];
+  return (
+    <g>
+      <line x1="205" y1="240" x2="205" y2="160" stroke="#B7752E" strokeWidth="6" />
+      {blooms.map(([x, y, color], i) => (
+        <circle key={i} cx={x} cy={y} r="12" fill={color} stroke={dark} strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
+const ElPanNegroDeCentenoCasiSagradoParaLituania: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="130" y="220" width="150" height="16" fill="#8B5A2B" />
+      <path d="M155 220 Q155 175 205 170 Q255 175 255 220 Z" fill="#3E2712" stroke={dark} strokeWidth="3" />
+      <path d="M165 210 Q205 195 245 210" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      <path d="M175 195 Q205 182 235 195" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.3" />
+    </g>
+  );
+};
+
+const ElParqueGrutoUnMuseoDeEstatuasSovieticas: IllustrationComponent = () => {
+  const stone = "#8B8378";
+  const dark = shade(stone, 0.4);
+  return (
+    <g>
+      <path d="M90 250 L120 160 L150 250 Z" fill="#2E4A3E" opacity="0.5" />
+      <path d="M260 250 L290 150 L320 250 Z" fill="#2E4A3E" opacity="0.4" />
+      {/* statue on a pedestal */}
+      <rect x="180" y="220" width="50" height="20" fill="#6B6355" stroke={dark} strokeWidth="2" />
+      <rect x="198" y="180" width="14" height="40" fill={stone} stroke={dark} strokeWidth="2" />
+      <circle cx="205" cy="168" r="14" fill={stone} stroke={dark} strokeWidth="2" />
+      <line x1="192" y1="190" x2="180" y2="210" stroke={stone} strokeWidth="7" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const lithuaniaIllustrations: Record<string, IllustrationDefinition> = {
   "el-estado-mas-grande-de-la-europa-medieval": { component: ElEstadoMasGrandeDeLaEuropaMedieval },
   "camino-baltico-cadena-humana-de-dos-millones": { component: CaminoBalticoCadenaHumanaDeDosMillones },
@@ -145,4 +226,9 @@ export const lithuaniaIllustrations: Record<string, IllustrationDefinition> = {
   "uzupis-la-republica-de-un-barrio": { component: UzupisLaRepublicaDeUnBarrio },
   "dunas-de-curlandia-el-sahara-baltico": { component: DunasDeCurlandiaElSaharaBaltico },
   "el-ultimo-pais-pagano-de-europa": { component: ElUltimoPaisPaganoDeEuropa },
+  "la-universidad-de-vilna-una-de-las-mas-antiguas-de-europa": { component: LaUniversidadDeVilnaUnaDeLasMasAntiguasDeEuropa },
+  "el-lituano-el-idioma-vivo-mas-parecido-al-indoeuropeo": { component: ElLituanoElIdiomaVivoMasParecidoAlIndoeuropeo },
+  "kaziuko-muge-la-feria-de-las-verbas-decoradas": { component: KaziukoMugeLaFeriaDeLasVerbasDecoradas },
+  "el-pan-negro-de-centeno-casi-sagrado-para-lituania": { component: ElPanNegroDeCentenoCasiSagradoParaLituania },
+  "el-parque-gruto-un-museo-de-estatuas-sovieticas": { component: ElParqueGrutoUnMuseoDeEstatuasSovieticas },
 };

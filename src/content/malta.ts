@@ -231,4 +231,119 @@ export const malta: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-carnaval-de-malta-una-tradicion-de-1535",
+    order: 11,
+    placeholderEmoji: "🎭",
+    accentColor: "#CF142B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El carnaval que un gran maestre decretó obligatorio",
+        subtitle: "El Carnaval de Malta, desde 1535",
+        imageAlt: "Caricatura de una máscara de carnaval colorida junto a serpentinas y confeti cayendo.",
+        description:
+          "El Carnaval de Malta, celebrado cada año en los días previos a la Cuaresma con desfiles de carrozas alegóricas, comparsas de baile y elaborados disfraces satíricos, se remonta oficialmente a 1535, cuando el gran maestre de la Orden de San Juan, Piero de Ponte, decretó la celebración como festividad formal apenas cinco años después de que la orden se instalara en la isla, convirtiéndolo en una de las tradiciones de carnaval documentadas más antiguas de Europa. La celebración combina elementos católicos europeos con un ingrediente distintivo maltés: comparsas satíricas que se burlan abiertamente de políticos y figuras públicas locales del año, una tradición de crítica social que sobrevivió incluso períodos de censura y que hoy se celebra con especial intensidad tanto en La Valeta como en la isla de Gozo, donde el carnaval mantiene un estilo más rural e improvisado que en la capital.",
+      },
+      en: {
+        title: "The Carnival a Grand Master Made Mandatory",
+        subtitle: "Malta's Carnival, Since 1535",
+        imageAlt: "Cartoon of a colorful carnival mask beside streamers and falling confetti.",
+        description:
+          "Malta's Carnival, celebrated every year in the days before Lent with parades of allegorical floats, dance troupes, and elaborate satirical costumes, officially dates back to 1535, when the Order of St. John's Grand Master, Piero de Ponte, decreed it a formal celebration barely five years after the order settled on the island, making it one of the oldest documented carnival traditions in Europe. The celebration blends European Catholic elements with a distinctly Maltese ingredient: satirical troupes openly mocking the year's local politicians and public figures, a tradition of social critique that survived even periods of censorship and is celebrated today with special intensity both in Valletta and on the island of Gozo, where carnival keeps a more rural, improvised style than in the capital.",
+      },
+    },
+  },
+  {
+    id: "el-halcon-maltes-el-tributo-anual-a-un-rey",
+    order: 12,
+    placeholderEmoji: "🦅",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El halcón vivo que Malta debía entregar cada año",
+        subtitle: "El origen histórico de 'El halcón maltés'",
+        imageAlt: "Caricatura de un halcón posado sobre un guante de cuero junto a un pergamino enrollado.",
+        description:
+          "Cuando el emperador Carlos V le cedió Malta a la Orden de los Caballeros Hospitalarios en 1530 tras su expulsión de Rodas, el acuerdo estableció un tributo simbólico anual conocido como censo feudal: la orden debía entregar cada año, el día de Todos los Santos, un único halcón vivo de caza al virrey español de Sicilia, un pago puramente ceremonial que reconocía la soberanía última del rey de España sobre la isla sin exigir ningún tributo económico real de peso. Este singular acuerdo histórico, prácticamente olvidado durante siglos, alcanzó fama mundial cuando el escritor estadounidense Dashiell Hammett lo usó como punto de partida ficticio para su novela policial de 1930 El halcón maltés, luego adaptada al cine en 1941 con Humphrey Bogart, convirtiendo un detalle administrativo casi anecdótico de la historia maltesa en el título de una de las películas más influyentes del género negro de Hollywood.",
+      },
+      en: {
+        title: "The Live Falcon Malta Had to Hand Over Every Year",
+        subtitle: "The Real History Behind 'The Maltese Falcon'",
+        imageAlt: "Cartoon of a falcon perched on a leather glove beside a rolled-up scroll.",
+        description:
+          "When Emperor Charles V ceded Malta to the Order of the Knights Hospitaller in 1530 after their expulsion from Rhodes, the agreement established a symbolic annual tribute known as a feudal rent: the order had to hand over a single live hunting falcon every year, on All Saints' Day, to the Spanish viceroy of Sicily, a purely ceremonial payment acknowledging the Spanish king's ultimate sovereignty over the island without demanding any real economic tribute of substance. This singular historical arrangement, largely forgotten for centuries, gained worldwide fame when American writer Dashiell Hammett used it as the fictional starting point for his 1930 detective novel The Maltese Falcon, later adapted into film in 1941 starring Humphrey Bogart, turning an almost anecdotal administrative detail of Maltese history into the title of one of Hollywood's most influential film noir movies.",
+      },
+    },
+  },
+  {
+    id: "la-sacra-infermeria-el-hospital-mas-avanzado-de-europa",
+    order: 13,
+    placeholderEmoji: "🏥",
+    accentColor: "#0E7C86",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El hospital que atendía a cualquier paciente en plata",
+        subtitle: "La Sacra Infermeria, hospital de los Caballeros",
+        imageAlt: "Caricatura de una sala de hospital antigua con camas en fila y un plato de plata sobre una mesa.",
+        description:
+          "La Sacra Infermeria, el hospital principal construido por la Orden de San Juan en La Valeta a partir de 1574, se consideró durante gran parte de los siglos XVII y XVIII uno de los centros médicos más avanzados de toda Europa, con una sala principal de más de ciento cincuenta metros de largo que podía albergar a cientos de pacientes simultáneamente, ventilación cuidadosamente diseñada y, en un gesto poco habitual para la época, la insistencia de que todos los pacientes, sin importar su clase social u origen, fueran atendidos y alimentados en vajilla de plata en lugar de cerámica o peltre más barato, considerada más higiénica según los estándares médicos de entonces. Los propios caballeros de la orden, formados en cirugía y medicina como parte de su misión religiosa original de cuidar peregrinos enfermos, atendían personalmente a los pacientes, y el hospital atrajo a médicos y estudiantes de toda Europa interesados en observar y aprender de sus métodos innovadores para la época.",
+      },
+      en: {
+        title: "The Hospital That Served Every Patient on Silver",
+        subtitle: "The Sacra Infermeria, the Knights' Hospital",
+        imageAlt: "Cartoon of an old hospital ward with beds in a row and a silver plate on a table.",
+        description:
+          "The Sacra Infermeria, the main hospital built by the Order of St. John in Valletta starting in 1574, was considered for much of the 17th and 18th centuries one of the most advanced medical centers in all of Europe, with a main ward more than one hundred fifty meters long that could hold hundreds of patients at once, carefully designed ventilation, and, in an unusual gesture for the era, an insistence that every patient, regardless of social class or origin, be treated and fed on silver tableware instead of cheaper ceramic or pewter, considered more hygienic by the medical standards of the time. The order's own knights, trained in surgery and medicine as part of their original religious mission to care for sick pilgrims, personally attended to patients, and the hospital drew doctors and students from across Europe interested in observing and learning from its methods, advanced for the era.",
+      },
+    },
+  },
+  {
+    id: "la-ventana-azul-el-arco-de-piedra-que-desaparecio",
+    order: 14,
+    placeholderEmoji: "🌊",
+    accentColor: "#1F6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arco de piedra que colapsó frente a las cámaras",
+        subtitle: "La Ventana Azul, el arco que desapareció",
+        imageAlt: "Caricatura de un arco de piedra caliza sobre el mar con olas rompiendo debajo.",
+        description:
+          "La Ventana Azul, un imponente arco natural de piedra caliza formado por la erosión marina en la costa de la isla de Gozo, se convirtió durante décadas en uno de los símbolos naturales más fotografiados de Malta y en locación de filmaciones internacionales, incluida una escena de la primera temporada de Juego de Tronos, hasta que colapsó por completo durante una tormenta con fuertes vientos y oleaje intenso en marzo de 2017, un derrumbe registrado accidentalmente en video por turistas que se encontraban cerca del lugar en el momento exacto del colapso. Geólogos habían advertido durante años que la estructura, debilitada progresivamente por la erosión natural constante del mar, terminaría desplomándose eventualmente, aunque la rapidez y el momento específico del colapso tomaron por sorpresa incluso a quienes monitoreaban su deterioro, y hoy el área sigue siendo un destino turístico popular pese a la desaparición del arco que le dio fama original al lugar.",
+      },
+      en: {
+        title: "The Stone Arch That Collapsed on Camera",
+        subtitle: "The Azure Window, the Arch That Vanished",
+        imageAlt: "Cartoon of a limestone arch over the sea with waves breaking below.",
+        description:
+          "The Azure Window, an imposing natural limestone arch shaped by sea erosion on the coast of the island of Gozo, became for decades one of Malta's most photographed natural landmarks and an international filming location, including a scene from the first season of Game of Thrones, until it completely collapsed during a storm with strong winds and heavy swells in March 2017, a collapse accidentally captured on video by tourists who happened to be nearby at the exact moment it fell. Geologists had warned for years that the structure, progressively weakened by constant natural sea erosion, would eventually come down, though the speed and exact timing of the collapse caught even those monitoring its deterioration by surprise, and the area today remains a popular tourist destination despite the loss of the arch that originally made the spot famous.",
+      },
+    },
+  },
+  {
+    id: "il-festa-los-fuegos-artificiales-de-cada-pueblo",
+    order: 15,
+    placeholderEmoji: "🎆",
+    accentColor: "#F4A300",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los pueblos que compiten con fuegos artificiales",
+        subtitle: "Il-festa, la fiesta patronal con fuegos artificiales",
+        imageAlt: "Caricatura de fuegos artificiales explotando sobre la torre de una iglesia iluminada de noche.",
+        description:
+          "Prácticamente cada pueblo y parroquia de Malta celebra durante el verano su propia il-festa, una festividad de varios días en honor al santo patrono local que combina procesiones religiosas solemnes con un componente mucho más ruidoso y competitivo: espectáculos de fuegos artificiales elaborados por sociedades pirotécnicas locales que rivalizan entre pueblos vecinos por producir el despliegue más espectacular, una rivalidad tan arraigada que Malta llegó a tener, en proporción a su tamaño, uno de los consumos de fuegos artificiales per cápita más altos del mundo. Las bandas de música locales, las calles decoradas con luces e imágenes religiosas y los puestos de comida callejera completan una celebración que combina fervor religioso genuino con un espíritu festivo casi futbolero de rivalidad local, y aunque los accidentes en las fábricas artesanales de pólvora ocurren con cierta frecuencia trágica, la tradición mantiene un arraigo comunitario que ningún riesgo logró disminuir.",
+      },
+      en: {
+        title: "The Towns That Compete in Fireworks for Their Saint",
+        subtitle: "Il-Festa, the Patron Saint Fireworks Feast",
+        imageAlt: "Cartoon of fireworks exploding over an illuminated church tower at night.",
+        description:
+          "Practically every town and parish in Malta holds its own il-festa during summer, a multi-day celebration honoring the local patron saint that combines solemn religious processions with a much louder, more competitive element: elaborate fireworks displays produced by local pyrotechnic societies that openly rival neighboring towns to put on the most spectacular show, a rivalry so deeply rooted that Malta ended up with, relative to its size, one of the highest per capita fireworks consumption rates in the world. Local marching bands, streets decorated with lights and religious images, and street food stalls round out a celebration blending genuine religious fervor with an almost soccer-like spirit of local rivalry, and although accidents at small artisanal gunpowder workshops happen with some tragic regularity, the tradition holds a community bond no risk has managed to diminish.",
+      },
+    },
+  },
 ];

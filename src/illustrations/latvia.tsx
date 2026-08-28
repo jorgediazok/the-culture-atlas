@@ -136,6 +136,96 @@ const LaMayorDensidadDeCiguenasDeEuropa: IllustrationComponent = ({ accentColor 
   );
 };
 
+const ElPalacioDeRundaleElVersallesDeLetonia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="140" y="150" width="130" height="70" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <rect x="185" y="130" width="40" height="30" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+      {[155, 180, 230, 255].map((x) => (
+        <rect key={x} x={x - 8} y="165" width="16" height="35" fill="#D4AF37" opacity="0.7" />
+      ))}
+      {/* geometric garden in front */}
+      <rect x="150" y="230" width="110" height="20" fill="#4C7A3D" opacity="0.5" />
+      <circle cx="205" cy="240" r="8" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const LosMitonesLetonesConCientosDePatronesSimbolicos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const mittens: [number, number][] = [
+    [160, 0],
+    [250, 1],
+  ];
+  return (
+    <g>
+      {mittens.map(([x, i]) => (
+        <g key={x}>
+          <path d={`M${x - 25} 240 L${x - 25} 170 Q${x - 25} 155 ${x - 10} 155 L${x + 10} 155 Q${x + 25} 155 ${x + 25} 170 L${x + 25} 240 Z`} fill={i === 0 ? accentColor : tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+          {/* thumb */}
+          <path d={`M${x - 25} 210 Q${x - 42} 205 ${x - 42} 190 Q${x - 42} 178 ${x - 28} 182 L${x - 25} 200 Z`} fill={i === 0 ? accentColor : tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.5" />
+          {/* pattern stripes */}
+          {[175, 195, 215].map((y) => (
+            <line key={y} x1={x - 20} y1={y} x2={x + 20} y2={y} stroke={dark} strokeWidth="2" opacity="0.5" />
+          ))}
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const ElAmbarBalticoElOroDelNorteDeLetonia: IllustrationComponent = () => {
+  const amber = "#D4941E";
+  const dark = shade(amber, 0.4);
+  return (
+    <g>
+      <path d="M205 130 Q245 140 250 180 Q255 220 215 240 Q180 250 155 220 Q135 190 155 155 Q170 125 205 130 Z" fill={amber} stroke={dark} strokeWidth="3" opacity="0.9" />
+      <path d="M175 170 Q195 165 210 175" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      {/* trapped insect silhouette */}
+      <ellipse cx="205" cy="195" rx="10" ry="6" fill={dark} opacity="0.7" />
+      <line x1="195" y1="192" x2="188" y2="186" stroke={dark} strokeWidth="1.5" opacity="0.7" />
+      <line x1="215" y1="192" x2="222" y2="186" stroke={dark} strokeWidth="1.5" opacity="0.7" />
+    </g>
+  );
+};
+
+const JurmalaLaCiudadBalnearioDeArquitecturaDeMadera: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 250 Q205 260 320 250 L320 255 L90 255 Z" fill="#3D8FB0" opacity="0.4" />
+      <rect x="160" y="180" width="90" height="60" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <polygon points="155,180 205,150 255,180" fill={dark} />
+      {/* ornamental porch details */}
+      {[175, 220].map((x) => (
+        <line key={x} x1={x} y1="200" x2={x} y2="240" stroke="#F5F0E6" strokeWidth="4" />
+      ))}
+      <rect x="195" y="205" width="20" height="35" fill="#F5F0E6" opacity="0.7" />
+      {/* carved trim */}
+      <path d="M160 180 Q205 195 250 180" fill="none" stroke="#D4AF37" strokeWidth="3" opacity="0.7" />
+    </g>
+  );
+};
+
+const JaniLaNocheDeCoronasDeRobleYQuesoDeComino: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      {/* bonfire */}
+      <path d="M245 250 Q240 220 260 200 Q275 215 280 195 Q295 215 288 250 Z" fill="#F4A300" stroke="#B7410E" strokeWidth="2" />
+      {/* person with oak wreath */}
+      <circle cx="160" cy="170" r="16" fill={skin} />
+      <path d="M144 188 Q160 178 176 188 L170 240 L150 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* oak leaf crown */}
+      {[0, 60, 120, 180, 240, 300].map((deg) => (
+        <ellipse key={deg} cx="160" cy="155" rx="10" ry="5" fill="#4C7A3D" stroke={dark} strokeWidth="1.5" transform={`rotate(${deg} 160 170)`} />
+      ))}
+    </g>
+  );
+};
+
 export const latviaIllustrations: Record<string, IllustrationDefinition> = {
   "riga-la-capital-del-art-nouveau": { component: RigaLaCapitalDelArtNouveau },
   "la-leyenda-detras-de-la-bandera-mas-antigua": { component: LaLeyendaDetrasDeLaBanderaMasAntigua },
@@ -147,4 +237,9 @@ export const latviaIllustrations: Record<string, IllustrationDefinition> = {
   "el-primer-arbol-de-navidad-decorado-del-mundo": { component: ElPrimerArbolDeNavidadDecoradoDelMundo },
   "milda-el-monumento-a-la-libertad": { component: MildaElMonumentoALaLibertad },
   "la-mayor-densidad-de-ciguenas-de-europa": { component: LaMayorDensidadDeCiguenasDeEuropa },
+  "el-palacio-de-rundale-el-versalles-de-letonia": { component: ElPalacioDeRundaleElVersallesDeLetonia },
+  "los-mitones-letones-con-cientos-de-patrones-simbolicos": { component: LosMitonesLetonesConCientosDePatronesSimbolicos },
+  "el-ambar-baltico-el-oro-del-norte-de-letonia": { component: ElAmbarBalticoElOroDelNorteDeLetonia },
+  "jurmala-la-ciudad-balneario-de-arquitectura-de-madera": { component: JurmalaLaCiudadBalnearioDeArquitecturaDeMadera },
+  "jani-la-noche-de-coronas-de-roble-y-queso-de-comino": { component: JaniLaNocheDeCoronasDeRobleYQuesoDeComino },
 };

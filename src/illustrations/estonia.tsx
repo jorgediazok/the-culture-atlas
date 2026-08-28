@@ -132,6 +132,88 @@ const JaanipaevHoguerasDePlenoVerano: IllustrationComponent = () => (
   </g>
 );
 
+const ElEstonioUnIdiomaEmparentadoConElFinlandes: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M100 130 Q100 108 125 108 L195 108 Q220 108 220 130 Q220 152 195 152 L160 152 L145 172 L150 152 L125 152 Q100 152 100 130 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M200 145 Q200 128 220 128 L280 128 Q300 128 300 145 Q300 162 280 162 L255 162 L262 178 L240 162 L220 162 Q200 162 200 145 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.5" />
+      <line x1="245" y1="90" x2="270" y2="115" stroke="#B71C1C" strokeWidth="5" strokeLinecap="round" />
+      <line x1="270" y1="90" x2="245" y2="115" stroke="#B71C1C" strokeWidth="5" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const LosSetoYElCantoPolifonicoLeelo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      <circle cx="165" cy="160" r="15" fill={skin} />
+      <path d="M150 178 Q165 168 180 178 L174 235 L156 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="245" cy="160" r="15" fill={skin} />
+      <path d="M230 178 Q245 168 260 178 L254 235 L236 235 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.5" />
+      {/* embroidered collar bands */}
+      <rect x="152" y="182" width="26" height="8" fill="#D4AF37" opacity="0.8" />
+      <rect x="232" y="182" width="26" height="8" fill="#D4AF37" opacity="0.8" />
+      {/* sound waves between them */}
+      <path d="M182 175 Q205 165 228 175" fill="none" stroke={dark} strokeWidth="2.5" opacity="0.6" />
+    </g>
+  );
+};
+
+const LaSaunaDeHumoDeVoromaaPatrimonioDeLaUnesco: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="160" y="170" width="90" height="70" fill="#2E241A" stroke={dark} strokeWidth="3" />
+      <polygon points="155,170 205,140 255,170" fill={dark} />
+      <rect x="190" y="200" width="20" height="40" fill="#1A1310" />
+      {/* rising smoke */}
+      <path d="M225 170 Q215 145 230 120 Q240 100 225 78" fill="none" stroke="#B0B4B8" strokeWidth="8" strokeLinecap="round" opacity="0.7" />
+      <path d="M175 170 Q168 150 180 130" fill="none" stroke="#B0B4B8" strokeWidth="6" strokeLinecap="round" opacity="0.5" />
+    </g>
+  );
+};
+
+const KihnuLaIslaDondeLasMujeresSostienenLaTradicion: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      <path d="M90 250 Q205 240 320 250 L320 255 L90 255 Z" fill="#3D8FB0" opacity="0.4" />
+      <circle cx="205" cy="140" r="18" fill={skin} />
+      <path d="M188 160 Q205 150 222 160 L214 195 L196 195 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* striped skirt, widening toward the hem */}
+      <path d="M188 195 Q205 185 222 195 L235 250 L175 250 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <line x1="185.2" y1="207" x2="224.8" y2="207" stroke={accentColor} strokeWidth="4" />
+      <line x1="182.3" y1="219" x2="227.7" y2="219" stroke={accentColor} strokeWidth="4" />
+      <line x1="179.5" y1="231" x2="230.5" y2="231" stroke={accentColor} strokeWidth="4" />
+      <line x1="176.7" y1="243" x2="233.3" y2="243" stroke={accentColor} strokeWidth="4" />
+    </g>
+  );
+};
+
+const ElCraterDeKaaliLaTumbaDelSol: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const craters: [number, number][] = [
+    [110, 220],
+    [300, 215],
+    [130, 170],
+    [280, 175],
+  ];
+  return (
+    <g>
+      <ellipse cx="205" cy="200" rx="90" ry="45" fill="#8B7355" opacity="0.4" />
+      <ellipse cx="205" cy="200" rx="60" ry="30" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="195" rx="45" ry="20" fill="#1F6FA5" opacity="0.7" />
+      {craters.map(([x, y]) => (
+        <ellipse key={x} cx={x} cy={y} rx="12" ry="6" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
 export const estoniaIllustrations: Record<string, IllustrationDefinition> = {
   "skype-nacio-en-tallin": { component: SkypeNacioEnTallin },
   "e-residencia-el-pais-mas-digital": { component: EResidenciaElPaisMasDigital },
@@ -143,4 +225,9 @@ export const estoniaIllustrations: Record<string, IllustrationDefinition> = {
   "narva-dos-fortalezas-frente-a-frente": { component: NarvaDosFortalezasFrenteAFrente },
   "unicornios-tecnologicos-per-capita": { component: UnicorniosTecnologicosPerCapita },
   "jaanipaev-hogueras-de-pleno-verano": { component: JaanipaevHoguerasDePlenoVerano },
+  "el-estonio-un-idioma-emparentado-con-el-finlandes": { component: ElEstonioUnIdiomaEmparentadoConElFinlandes },
+  "los-seto-y-el-canto-polifonico-leelo": { component: LosSetoYElCantoPolifonicoLeelo },
+  "la-sauna-de-humo-de-voromaa-patrimonio-de-la-unesco": { component: LaSaunaDeHumoDeVoromaaPatrimonioDeLaUnesco },
+  "kihnu-la-isla-donde-las-mujeres-sostienen-la-tradicion": { component: KihnuLaIslaDondeLasMujeresSostienenLaTradicion },
+  "el-crater-de-kaali-la-tumba-del-sol": { component: ElCraterDeKaaliLaTumbaDelSol },
 };

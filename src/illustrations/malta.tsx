@@ -127,6 +127,101 @@ const MaltaElCruceDeCivilizacionesDelMediterraneo: IllustrationComponent = ({ ac
   );
 };
 
+const ElCarnavalDeMaltaUnaTradicionDe1535: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* mask face */}
+      <path d="M155 130 Q205 105 255 130 Q265 175 240 210 Q205 235 170 210 Q145 175 155 130 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="180" cy="160" rx="12" ry="18" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <ellipse cx="230" cy="160" rx="12" ry="18" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <path d="M190 195 Q205 205 220 195" fill="none" stroke={dark} strokeWidth="3" />
+      {/* plume on top */}
+      <path d="M205 105 Q195 80 205 55 Q215 80 205 105 Z" fill="#D4A017" stroke={dark} strokeWidth="2" />
+      {/* streamers */}
+      <path d="M120 220 Q100 200 110 175" stroke="#F4A300" strokeWidth="5" fill="none" strokeLinecap="round" />
+      <path d="M290 220 Q310 200 300 175" stroke="#0E7C86" strokeWidth="5" fill="none" strokeLinecap="round" />
+      {/* confetti */}
+      {[[120, 140], [290, 150], [140, 235], [270, 235]].map(([x, y]) => (
+        <circle key={x as number} cx={x} cy={y} r="5" fill={tint(accentColor, 0.4)} />
+      ))}
+    </g>
+  );
+};
+
+const ElHalconMaltesElTributoAnualAUnRey: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* leather glove/perch */}
+      <path d="M150 250 L150 220 Q150 210 165 210 L245 210 Q260 210 260 220 L260 250 Z" fill="#8B5A2B" stroke={dark} strokeWidth="3" />
+      {/* falcon body and head */}
+      <ellipse cx="205" cy="175" rx="28" ry="38" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="205" cy="140" r="18" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M223 140 L240 145 L223 150 Z" fill="#D4A017" />
+      <circle cx="212" cy="136" r="2.5" fill="#1A1A1A" />
+      <path d="M180 165 Q160 175 155 195 M230 165 Q250 175 255 195" stroke={dark} strokeWidth="4" fill="none" opacity="0.6" />
+      {/* scroll */}
+      <rect x="270" y="220" width="35" height="14" rx="7" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const LaSacraInfermeriaElHospitalMasAvanzadoDeEuropa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="100" y="150" width="220" height="20" fill={dark} opacity="0.3" />
+      {[120, 200, 280].map((x) => (
+        <rect key={x} x={x} y="170" width="60" height="30" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      ))}
+      {[120, 200, 280].map((x) => (
+        <rect key={`p-${x}`} x={x + 5} y="160" width="50" height="12" fill="#F5F0E6" stroke={dark} strokeWidth="1.5" />
+      ))}
+      {/* silver plate */}
+      <ellipse cx="205" cy="225" rx="35" ry="12" fill="#B0B4B8" stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="205" cy="222" rx="25" ry="8" fill="#D8DADC" />
+    </g>
+  );
+};
+
+const LaVentanaAzulElArcoDePiedraQueDesaparecio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 250 Q205 235 320 250 L320 255 L90 255 Z" fill="#1F6FA5" opacity="0.5" />
+      <path d="M130 250 L130 160 Q130 145 150 145 L165 145 L165 250 Z" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="3" />
+      <path d="M280 250 L280 160 Q280 145 260 145 L245 145 L245 250 Z" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="3" />
+      <path d="M165 145 Q205 110 245 145" fill="none" stroke={accentColor} strokeWidth="20" strokeLinecap="round" />
+      <path d="M120 230 Q150 225 180 235" stroke="#F5F0E6" strokeWidth="3" opacity="0.6" fill="none" />
+    </g>
+  );
+};
+
+const IlFestaLosFuegosArtificialesDeCadaPueblo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const bursts: [number, number][] = [
+    [130, 110],
+    [280, 120],
+    [100, 170],
+  ];
+  return (
+    <g>
+      <rect x="185" y="180" width="40" height="70" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <polygon points="180,180 205,150 230,180" fill={dark} />
+      <rect x="198" y="200" width="14" height="30" fill={dark} opacity="0.5" />
+      {/* fireworks bursts */}
+      {bursts.map(([x, y], i) => (
+        <g key={x}>
+          {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+            <line key={deg} x1={x} y1={y} x2={x} y2={y - 16} stroke={i % 2 === 0 ? "#F4A300" : "#0E7C86"} strokeWidth="3" strokeLinecap="round" transform={`rotate(${deg} ${x} ${y})`} />
+          ))}
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const maltaIllustrations: Record<string, IllustrationDefinition> = {
   "los-templos-mas-viejos-que-las-piramides-y-stonehenge": { component: LosTemplosMasViejosQueLasPiramidesYStonehenge },
   "la-valeta-la-ciudad-construida-por-caballeros": { component: LaValetaLaCiudadConstruidaPorCaballeros },
@@ -138,4 +233,9 @@ export const maltaIllustrations: Record<string, IllustrationDefinition> = {
   "el-templo-subterraneo-descubierto-por-accidente": { component: ElTemploSubterraneoDescubiertoPorAccidente },
   "fenkata-el-plato-de-conejo-que-marco-la-resistencia": { component: FenkataElPlatoDeConejoQueMarcoLaResistencia },
   "malta-el-cruce-de-civilizaciones-del-mediterraneo": { component: MaltaElCruceDeCivilizacionesDelMediterraneo },
+  "el-carnaval-de-malta-una-tradicion-de-1535": { component: ElCarnavalDeMaltaUnaTradicionDe1535 },
+  "el-halcon-maltes-el-tributo-anual-a-un-rey": { component: ElHalconMaltesElTributoAnualAUnRey },
+  "la-sacra-infermeria-el-hospital-mas-avanzado-de-europa": { component: LaSacraInfermeriaElHospitalMasAvanzadoDeEuropa },
+  "la-ventana-azul-el-arco-de-piedra-que-desaparecio": { component: LaVentanaAzulElArcoDePiedraQueDesaparecio },
+  "il-festa-los-fuegos-artificiales-de-cada-pueblo": { component: IlFestaLosFuegosArtificialesDeCadaPueblo },
 };

@@ -260,6 +260,105 @@ const ElCantoAGargantaAbiertaQueGanoUnGrammy: IllustrationComponent = ({ accentC
   );
 };
 
+const MartenitsaElHiloRojoYBlancoDeBabaMarta: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* tree branch with blossoms */}
+      <path d="M150 220 Q180 200 220 195 Q250 190 270 175" fill="none" stroke="#6D4C41" strokeWidth="6" strokeLinecap="round" />
+      {[[190, 200], [225, 192], [255, 180]].map(([x, y]) => (
+        <circle key={x as number} cx={x} cy={y} r="8" fill="#F5D6E0" stroke={dark} strokeWidth="1.2" />
+      ))}
+      {/* braided red-white cord tied to the branch */}
+      <path d="M200 198 Q195 215 202 232 Q209 215 204 198" fill="none" stroke="#C1272D" strokeWidth="6" strokeLinecap="round" />
+      <path d="M204 198 Q209 215 202 232 Q195 215 200 198" fill="none" stroke="#F5F0E6" strokeWidth="6" strokeLinecap="round" />
+      {/* Pizho and Penda doll charms */}
+      <circle cx="196" cy="234" r="6" fill="#C1272D" />
+      <circle cx="208" cy="234" r="6" fill="#F5F0E6" stroke={dark} strokeWidth="1" />
+    </g>
+  );
+};
+
+const NestinarstvoElBaileDescalzoSobreBrasas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = tint(shade(accentColor, 0.1), 0.55);
+  return (
+    <g>
+      {/* bed of embers */}
+      <ellipse cx="200" cy="222" rx="55" ry="14" fill="#B71C1C" opacity="0.5" />
+      {[[175, 220], [200, 224], [225, 220], [188, 218], [212, 218]].map(([x, y]) => (
+        <circle key={x as number} cx={x} cy={y} r="5" fill="#F4A300" opacity="0.85" />
+      ))}
+      {/* dancer mid-step */}
+      <circle cx="200" cy="168" r="12" fill={skin} />
+      <path d="M188 184 Q200 176 212 184 L206 214 L194 214 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <path d="M194 210 Q182 218 178 212" stroke={skin} strokeWidth="5" strokeLinecap="round" fill="none" />
+      <path d="M206 210 Q220 216 222 208" stroke={skin} strokeWidth="5" strokeLinecap="round" fill="none" />
+      <path d="M190 188 Q172 182 165 168" stroke={skin} strokeWidth="4" strokeLinecap="round" fill="none" />
+      <path d="M210 188 Q228 182 235 168" stroke={skin} strokeWidth="4" strokeLinecap="round" fill="none" />
+    </g>
+  );
+};
+
+const ElJineteDeMadaraTalladoEnUnAcantilado: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* cliff face */}
+      <rect x="150" y="130" width="120" height="100" fill={tint(shade(accentColor, 0.2), 0.5)} stroke={dark} strokeWidth="2" />
+      {/* horse body and legs */}
+      <ellipse cx="205" cy="185" rx="35" ry="16" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <line x1="185" y1="198" x2="180" y2="220" stroke={dark} strokeWidth="4" />
+      <line x1="225" y1="198" x2="230" y2="220" stroke={dark} strokeWidth="4" />
+      {/* neck and rider */}
+      <path d="M235 178 Q250 165 245 150" fill="none" stroke={accentColor} strokeWidth="10" strokeLinecap="round" />
+      <circle cx="243" cy="145" r="7" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      {/* spear striking down at the fallen lion */}
+      <line x1="240" y1="155" x2="195" y2="200" stroke={dark} strokeWidth="2.5" />
+      <path d="M175 205 Q160 195 165 210 Q172 218 185 212 Z" fill={dark} opacity="0.7" />
+    </g>
+  );
+};
+
+const JohnAtanasoffElPadreBulgaroDeLaComputadora: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="160" y="150" width="90" height="70" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[172, 190, 208, 226].map((x) => (
+        <rect key={x} x={x} y="158" width="10" height="24" rx="5" fill="#F5F0E6" stroke={dark} strokeWidth="1.5" />
+      ))}
+      {[172, 188, 204, 220, 236].map((x) => (
+        <rect key={x} x={x} y="196" width="6" height="14" fill={dark} opacity="0.6" />
+      ))}
+      <line x1="205" y1="220" x2="205" y2="235" stroke={dark} strokeWidth="3" />
+      <rect x="185" y="235" width="40" height="8" fill={dark} opacity="0.5" />
+    </g>
+  );
+};
+
+const LosSieteLagosDeRilaEnFormaDeCollar: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#1F6FA5";
+  const lakes: [number, number, number, number][] = [
+    [150, 220, 14, 8],
+    [175, 200, 16, 9],
+    [200, 180, 18, 10],
+    [225, 160, 15, 9],
+    [248, 142, 13, 8],
+    [268, 126, 11, 7],
+    [285, 112, 9, 6],
+  ];
+  return (
+    <g>
+      <path d="M130 235 L290 105 L300 118 L140 245 Z" fill={tint(accentColor, 0.2)} opacity="0.5" />
+      {lakes.map(([x, y, rx, ry]) => (
+        <ellipse key={x} cx={x} cy={y} rx={rx} ry={ry} fill={water} stroke={dark} strokeWidth="1.5" opacity="0.85" />
+      ))}
+    </g>
+  );
+};
+
 export const bulgariaIllustrations: Record<string, IllustrationDefinition> = {
   "asentir-para-decir-no-y-negar-para-decir-si": { component: AsentirParaDecirNoYNegarParaDecirSi },
   "el-alfabeto-cirilico-nacio-aqui": { component: ElAlfabetoCirilicoNacioAqui },
@@ -271,4 +370,9 @@ export const bulgariaIllustrations: Record<string, IllustrationDefinition> = {
   "el-monumento-comunista-con-forma-de-ovni": { component: ElMonumentoComunistaConFormaDeOvni },
   "uno-de-los-estados-mas-antiguos-de-europa": { component: UnoDeLosEstadosMasAntiguosDeEuropa },
   "el-canto-a-garganta-abierta-que-gano-un-grammy": { component: ElCantoAGargantaAbiertaQueGanoUnGrammy },
+  "martenitsa-el-hilo-rojo-y-blanco-de-baba-marta": { component: MartenitsaElHiloRojoYBlancoDeBabaMarta },
+  "nestinarstvo-el-baile-descalzo-sobre-brasas": { component: NestinarstvoElBaileDescalzoSobreBrasas },
+  "el-jinete-de-madara-tallado-en-un-acantilado": { component: ElJineteDeMadaraTalladoEnUnAcantilado },
+  "john-atanasoff-el-padre-bulgaro-de-la-computadora": { component: JohnAtanasoffElPadreBulgaroDeLaComputadora },
+  "los-siete-lagos-de-rila-en-forma-de-collar": { component: LosSieteLagosDeRilaEnFormaDeCollar },
 };

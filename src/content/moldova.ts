@@ -231,4 +231,119 @@ export const moldova: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "dimitrie-cantemir-el-principe-que-escribio-sobre-el-imperio-otomano",
+    order: 11,
+    placeholderEmoji: "📖",
+    accentColor: "#4A2C2A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El príncipe moldavo que escribió del Imperio Otomano",
+        subtitle: "Dimitrie Cantemir, príncipe y erudito",
+        imageAlt: "Caricatura de un hombre con corona escribiendo en un libro grueso junto a un instrumento otomano.",
+        description:
+          "Dimitrie Cantemir, príncipe del Principado de Moldavia durante un breve reinado en 1710 y 1711, dedicó buena parte de su vida a la erudición más que a la política, escribiendo en latín una historia detallada del ascenso y la decadencia del Imperio Otomano que se convirtió durante más de un siglo en una de las referencias occidentales más consultadas sobre el mundo otomano, traducida al inglés, francés y alemán mucho antes de que existieran estudios académicos sistemáticos sobre la región. Educado como rehén político en la corte del sultán en Constantinopla, una práctica habitual otomana para asegurar la lealtad de los príncipes vasallos, Cantemir aprovechó ese tiempo para dominar el turco, el árabe y el persa, componer música otomana con un sistema de notación propio y estudiar teoría musical, convirtiéndose además en el primer miembro extranjero honorario de la Academia de Ciencias de Berlín gracias a la profundidad de su obra sobre geografía, historia y cultura moldava.",
+      },
+      en: {
+        title: "The Moldavian Prince Who Wrote About the Ottoman Empire",
+        subtitle: "Dimitrie Cantemir, Prince and Scholar",
+        imageAlt: "Cartoon of a crowned man writing in a thick book beside an Ottoman instrument.",
+        description:
+          "Dimitrie Cantemir, prince of the Principality of Moldavia during a brief reign in 1710 and 1711, devoted much of his life to scholarship rather than politics, writing in Latin a detailed history of the rise and decline of the Ottoman Empire that became, for more than a century, one of the most consulted Western references on the Ottoman world, translated into English, French, and German long before systematic academic studies of the region existed. Educated for years as a political hostage at the sultan's court in Constantinople, a common Ottoman practice to secure the loyalty of vassal princes, Cantemir used that time to master Turkish, Arabic, and Persian, compose Ottoman music using his own notation system, and study music theory, also becoming the first honorary foreign member of the Berlin Academy of Sciences thanks to the depth of his work on geography, history, and Moldavian culture.",
+      },
+    },
+  },
+  {
+    id: "los-covoare-las-alfombras-tejidas-a-mano-de-moldavia",
+    order: 12,
+    placeholderEmoji: "🧶",
+    accentColor: "#8B1A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las alfombras tejidas a mano que contaban una historia",
+        subtitle: "Los covoare, alfombras tejidas a mano",
+        imageAlt: "Caricatura de una alfombra colgada en una pared con patrones geométricos y un árbol de la vida.",
+        description:
+          "El covor, la alfombra tradicional moldava tejida a mano en telares verticales con lana teñida con tintes naturales extraídos de plantas, cortezas y minerales locales, combina patrones geométricos y motivos florales o de árbol de la vida transmitidos de generación en generación dentro de cada familia o aldea, con variaciones regionales tan marcadas que un tejedor experimentado puede identificar el pueblo de origen de una pieza con solo observar sus colores. Tejer un covor grande podía llevarle a una mujer moldava varios meses de trabajo manual, y las piezas terminadas ocupaban tradicionalmente un lugar central en el ajuar de una novia, exhibidas en la pared principal de la casa como símbolo de estatus social y habilidad artesanal antes de usarse como alfombra de piso. Reconocido por la UNESCO como patrimonio cultural inmaterial en 2016, el arte del covor sobrevive hoy gracias a un número reducido de talleres y cooperativas rurales dedicadas a preservarlo.",
+      },
+      en: {
+        title: "The Woven Carpets That Told a Family's Story",
+        subtitle: "Covoare, Hand-Woven Carpets",
+        imageAlt: "Cartoon of a carpet hung on a wall with geometric patterns and a tree of life.",
+        description:
+          "The covor, Moldova's traditional hand-woven carpet made on vertical looms with wool dyed using natural dyes drawn from local plants, bark, and minerals, combines geometric patterns and floral or tree-of-life motifs passed down through generations within each family or village, with regional variations so distinct that an experienced weaver can identify a piece's home village just by its colors. Weaving a large covor could take a Moldovan woman several months of manual labor, and finished pieces traditionally held a central place in a bride's dowry, displayed on the main wall of the house as a symbol of social status and craft skill before eventually being used as a floor rug. Recognized by UNESCO as intangible cultural heritage in 2016, the art of the covor survives today thanks to a small number of workshops and rural cooperatives dedicated to preserving it.",
+      },
+    },
+  },
+  {
+    id: "la-doina-el-canto-lamento-moldavo",
+    order: 13,
+    placeholderEmoji: "🎶",
+    accentColor: "#1B4F91",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El canto lamento que expresa la nostalgia moldava",
+        subtitle: "La doina, canto lírico y lamento",
+        imageAlt: "Caricatura de una persona tocando una flauta de pastor sola en medio de un campo abierto.",
+        description:
+          "La doina, un género de canto lírico improvisado y de ritmo libre compartido por Moldavia y Rumania, expresa tradicionalmente sentimientos profundos de nostalgia, amor no correspondido, la nostalgia por la tierra natal de quienes emigraron o el dolor ante la muerte, interpretado generalmente en solitario por una sola voz o un instrumento como la flauta de pastor llamada caval, sin una estructura métrica fija que permite al intérprete alargar o acortar frases según la intensidad emocional del momento. A diferencia de otros géneros folclóricos moldavos pensados para el baile y la celebración colectiva, la doina se interpreta tradicionalmente en soledad, mientras se trabaja el campo, se cuida el ganado en la montaña o durante momentos de duelo personal, una función social e íntima que la UNESCO reconoció como patrimonio cultural inmaterial en 2009 al declararla una expresión artística en riesgo de desaparecer frente al avance de la música popular grabada.",
+      },
+      en: {
+        title: "The Lament Song That Voices Moldovan Longing",
+        subtitle: "The Doina, Lyrical Song and Lament",
+        imageAlt: "Cartoon of a person playing a shepherd's flute alone in the middle of an open field.",
+        description:
+          "The doina, a genre of improvised, free-rhythm lyrical singing shared by Moldova and Romania, traditionally expresses deep feelings of longing, unrequited love, homesickness among those who emigrated, or grief over death, usually performed solo by a single voice or an instrument like the shepherd's flute called the caval, with no fixed metrical structure, letting the performer stretch or shorten phrases according to the emotional intensity of the moment. Unlike other Moldovan folk genres meant for dancing and collective celebration, the doina is traditionally sung alone, while working the fields, tending livestock in the mountains, or during moments of personal grief, an intimate social function UNESCO recognized as intangible cultural heritage in 2009, declaring it an art form at risk of disappearing against the advance of recorded popular music.",
+      },
+    },
+  },
+  {
+    id: "chisinau-la-ciudad-jardin-mas-verde-de-europa-del-este",
+    order: 14,
+    placeholderEmoji: "🌳",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La capital que se reconstruyó como una ciudad jardín",
+        subtitle: "Chisináu, apodada la ciudad jardín",
+        imageAlt: "Caricatura de un parque frondoso con árboles y bancos en pleno centro de una ciudad.",
+        description:
+          "Chisináu, la capital de Moldavia, quedó devastada en más del setenta por ciento de sus edificios tras la Segunda Guerra Mundial, y su reconstrucción soviética posterior, en lugar de priorizar exclusivamente edificios en altura, incorporó una cantidad excepcional de parques, bulevares arbolados y espacios verdes públicos que le valieron a la ciudad el apodo de ciudad jardín, una identidad urbana que perdura hasta hoy con más de cuarenta parques y jardines públicos distribuidos por una capital de tamaño relativamente modesto. El Jardín Público Ștefan cel Mare, el parque más antiguo y central de la ciudad, funciona como el corazón simbólico de Chisináu desde el siglo XIX, y la tradición verde de la ciudad se sostuvo incluso durante las décadas de mayor densificación urbana soviética, dejando a la capital moldava con una proporción de áreas verdes por habitante notablemente más alta que la de muchas otras capitales de Europa del Este de tamaño comparable.",
+      },
+      en: {
+        title: "The Capital Rebuilt Entirely as a Garden City",
+        subtitle: "Chisinau, Nicknamed the Garden City",
+        imageAlt: "Cartoon of a leafy park with trees and benches right in the center of a city.",
+        description:
+          "Chisinau, Moldova's capital, had more than seventy percent of its buildings destroyed in World War II, and its later Soviet reconstruction, rather than prioritizing high-rise buildings exclusively, incorporated an exceptional number of parks, tree-lined boulevards, and public green spaces that earned the city the nickname garden city, an urban identity that endures today with more than forty parks and public gardens spread across a relatively modest-sized capital. Ștefan cel Mare Public Garden, the city's oldest and most central park, has served as Chisinau's symbolic heart since the 19th century, and the city's green tradition held even through the decades of heaviest Soviet urban densification, leaving the Moldovan capital with a share of green space per resident notably higher than many other Eastern European capitals of comparable size.",
+      },
+    },
+  },
+  {
+    id: "negru-de-purcari-el-vino-favorito-de-la-reina-victoria",
+    order: 15,
+    placeholderEmoji: "🍷",
+    accentColor: "#6B1A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El vino que tomaba, según cuentan, la reina Victoria",
+        subtitle: "Negru de Purcari, el vino de la realeza",
+        imageAlt: "Caricatura de una botella de vino tinto elegante junto a una copa sobre una mesa con racimos de uva.",
+        description:
+          "Negru de Purcari, un vino tinto elaborado desde el siglo XIX en la bodega Purcari del sureste de Moldavia con una mezcla de variedades locales y europeas cultivadas en un microclima particular cercano al río Nistru, se ganó una reputación internacional temprana cuando, según la tradición conservada por la propia bodega, la reina Victoria del Reino Unido lo eligió como vino oficial de la corte británica tras probarlo en una exposición internacional a fines del siglo XIX. La bodega, fundada en 1827 y una de las más antiguas de Moldavia todavía en funcionamiento activo, sobrevivió a la nacionalización soviética conservando parte de su producción y su prestigio histórico, y hoy Negru de Purcari se exporta a decenas de países como una de las etiquetas moldavas más reconocidas internacionalmente, un símbolo de que la tradición vitivinícola del país mantuvo un hilo de continuidad de calidad reconocida desde mucho antes de la existencia de la Moldavia independiente moderna.",
+      },
+      en: {
+        title: "The Red Wine Queen Victoria Is Said to Have Loved",
+        subtitle: "Negru de Purcari, a Wine Fit for Royalty",
+        imageAlt: "Cartoon of an elegant red wine bottle beside a glass on a table with grape clusters.",
+        description:
+          "Negru de Purcari, a red wine made since the 19th century at the Purcari winery in southeastern Moldova from a blend of local and European grape varieties grown in a particular microclimate near the Dniester River, earned early international acclaim when, according to the tradition kept by the winery itself, Queen Victoria of the United Kingdom chose it as the official wine of the British court after tasting it at an international exhibition in the late 19th century. The winery, founded in 1827 and one of the oldest in Moldova still actively operating, survived Soviet nationalization while preserving part of its production and historical prestige, and today Negru de Purcari is exported to dozens of countries as one of Moldova's most internationally recognized labels, a symbol that the country's winemaking tradition kept a thread of recognized quality running from long before modern independent Moldova even existed.",
+      },
+    },
+  },
 ];

@@ -231,4 +231,119 @@ export const belarus: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "marc-chagall-el-pintor-nacido-en-vitebsk",
+    order: 11,
+    placeholderEmoji: "🎨",
+    accentColor: "#1B4F91",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pintor que hizo volar vacas sobre su pueblo natal",
+        subtitle: "Marc Chagall, nacido en Vítebsk",
+        imageAlt: "Caricatura de una vaca y una figura humana flotando en el cielo sobre las casas de un pueblo.",
+        description:
+          "Marc Chagall, uno de los pintores más influyentes del siglo XX, nació en 1887 en Vítebsk, una ciudad del actual noreste de Bielorrusia con una nutrida comunidad judía, cuya vida cotidiana, sinagogas, músicos callejeros y animales de granja poblarían durante décadas los cuadros oníricos y flotantes que lo hicieron mundialmente célebre, con figuras humanas y vacas suspendidas en el aire sobre paisajes de pueblo reconocibles como escenas de su propia infancia. Aunque Chagall pasó la mayor parte de su vida adulta en Francia, donde murió en 1985, y su obra combina influencias del cubismo, el surrealismo y el folclore judío de Europa del Este, nunca dejó de representar Vítebsk como escenario emocional recurrente, y hoy la ciudad conserva su casa natal convertida en museo y celebra un festival de arte anual en su honor, reivindicándolo como uno de los mayores símbolos culturales bielorrusos pese a que gran parte de su carrera se desarrolló fuera del país.",
+      },
+      en: {
+        title: "The Painter Who Made Cows Fly Over His Hometown",
+        subtitle: "Marc Chagall, Born in Vitebsk",
+        imageAlt: "Cartoon of a cow and a human figure floating in the sky above village rooftops.",
+        description:
+          "Marc Chagall, one of the most influential painters of the 20th century, was born in 1887 in Vitebsk, a city in what is now northeastern Belarus with a large Jewish community, whose everyday life, synagogues, street musicians, and farm animals would populate for decades the dreamlike, floating paintings that made him world-famous, with human figures and cows suspended in midair over recognizable village landscapes drawn from his own childhood. Although Chagall spent most of his adult life in France, where he died in 1985, and his work blends influences of cubism, surrealism, and Eastern European Jewish folklore, he never stopped depicting Vitebsk as a recurring emotional setting, and the city today preserves his childhood home as a museum and holds an annual art festival in his honor, claiming him as one of the greatest Belarusian cultural symbols despite most of his career unfolding outside the country.",
+      },
+    },
+  },
+  {
+    id: "el-castillo-de-mir-patrimonio-de-la-humanidad",
+    order: 12,
+    placeholderEmoji: "🏰",
+    accentColor: "#6B2C39",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El castillo que mezcla estilos góticos y renacentistas",
+        subtitle: "El castillo de Mir, Patrimonio de la Humanidad",
+        imageAlt: "Caricatura de un castillo de piedra con torres góticas y detalles decorativos renacentistas.",
+        description:
+          "El castillo de Mir, construido a comienzos del siglo XVI en el oeste de Bielorrusia, combina en una misma estructura torres defensivas de estilo gótico tardío con elementos decorativos renacentistas y barrocos añadidos por sucesivos propietarios a lo largo de los siglos, un mosaico arquitectónico poco habitual que resultó, paradójicamente, en un conjunto armonioso reconocido por la UNESCO como Patrimonio de la Humanidad en 2000. Propiedad durante generaciones de la poderosa familia Radziwiłł, una de las dinastías nobles más influyentes de la región, el castillo sufrió graves daños durante las guerras napoleónicas y ambas guerras mundiales, e incluso funcionó brevemente como gueto judío forzado durante la ocupación nazi, antes de ser restaurado casi por completo durante un proyecto que se extendió a lo largo de varias décadas del siglo XX y comienzos del XXI, devolviéndole el aspecto que hoy atrae a cientos de miles de visitantes cada año.",
+      },
+      en: {
+        title: "The Castle That Blends Gothic and Renaissance Styles",
+        subtitle: "Mir Castle, a World Heritage Site",
+        imageAlt: "Cartoon of a stone castle with Gothic towers and Renaissance decorative details.",
+        description:
+          "Mir Castle, built in the early 16th century in western Belarus, combines within a single structure late Gothic defensive towers with Renaissance and Baroque decorative elements added by successive owners over the centuries, an unusual architectural patchwork that paradoxically resulted in a harmonious complex recognized by UNESCO as a World Heritage Site in 2000. Owned for generations by the powerful Radziwiłł family, one of the most influential noble dynasties in the region, the castle suffered heavy damage during the Napoleonic Wars and both World Wars, and even briefly served as a forced Jewish ghetto during the Nazi occupation, before being almost fully restored through a project stretching across several decades of the late 20th and early 21st centuries, returning it to the appearance that today draws hundreds of thousands of visitors each year.",
+      },
+    },
+  },
+  {
+    id: "kupalle-la-noche-pagana-de-san-juan",
+    order: 13,
+    placeholderEmoji: "🔥",
+    accentColor: "#B7752E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La noche de fogatas y la flor de helecho mágica",
+        subtitle: "Kupalle, la noche pagana de San Juan",
+        imageAlt: "Caricatura de una pareja saltando de la mano sobre una fogata nocturna junto a un río.",
+        description:
+          "Kupalle, celebrado cada año en la noche más corta del solsticio de verano, es un festival de raíces paganas preeslavas que sobrevivió siglos de cristianización fusionándose parcialmente con la festividad de San Juan Bautista, celebrado con hogueras nocturnas que parejas jóvenes saltan tomadas de la mano, coronas de flores silvestres que las mujeres solteras arrojan a ríos y lagos para predecir su futuro matrimonial según hacia dónde flote la corona, y la búsqueda ritual, en teoría imposible, de una legendaria flor de helecho que según la leyenda florece solo esa noche y otorga suerte o poderes especiales a quien la encuentre. La tradición, reprimida oficialmente durante buena parte de la era soviética por su carga religiosa y pagana, resurgió con fuerza tras la independencia de 1991 como una de las celebraciones folclóricas más vívidas y masivas del calendario bielorruso, con festejos organizados en pueblos y ciudades de todo el país.",
+      },
+      en: {
+        title: "The Night of Bonfire Jumps and Fern Flower Hunts",
+        subtitle: "Kupalle, the Pagan Night of St. John",
+        imageAlt: "Cartoon of a couple jumping hand in hand over a nighttime bonfire beside a river.",
+        description:
+          "Kupalle, celebrated every year on the shortest night of the summer solstice, is a festival with pre-Slavic pagan roots that survived centuries of Christianization by partly merging with the feast of St. John the Baptist, marked by nighttime bonfires young couples leap over hand in hand, wildflower crowns unmarried women toss into rivers and lakes to predict their marital future based on which way the crown floats, and the theoretically impossible ritual search for a legendary fern flower said to bloom only that one night and grant luck or special powers to whoever finds it. The tradition, officially suppressed for much of the Soviet era over its religious and pagan overtones, resurged strongly after the country's 1991 independence as one of the most vivid, widely celebrated folk festivals on the Belarusian calendar, with celebrations organized in towns and cities across the country.",
+      },
+    },
+  },
+  {
+    id: "la-tradicion-bielorrusa-de-tejer-con-paja-de-centeno",
+    order: 14,
+    placeholderEmoji: "🌾",
+    accentColor: "#D4A017",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte de tejer figuras enteras con paja de centeno",
+        subtitle: "El tejido tradicional de paja bielorruso",
+        imageAlt: "Caricatura de una figura geométrica colgante tejida con tallos dorados de paja.",
+        description:
+          "El tejido de paja de centeno, una artesanía campesina bielorrusa con siglos de antigüedad, transforma tallos secos de cereal en figuras decorativas complejas, desde las tradicionales arañas colgantes de estructura geométrica suspendidas sobre la mesa familiar durante festividades de invierno, hasta coronas de la cosecha, muñecos rituales y adornos elaborados que se tejían originalmente como parte de rituales agrícolas destinados a asegurar una buena cosecha al año siguiente, ya que la paja se consideraba portadora de la fuerza vital de la última cosecha recogida. Cada región bielorrusa desarrolló patrones y técnicas de tejido propios transmitidos oralmente de generación en generación dentro de familias campesinas, y aunque la práctica cotidiana declinó drásticamente con la industrialización agrícola soviética, sobrevivió gracias a artesanos dedicados y hoy se enseña en talleres culturales como una de las expresiones más distintivas del arte popular bielorruso.",
+      },
+      en: {
+        title: "The Craft of Weaving Whole Figures From Rye Straw",
+        subtitle: "Belarus's Traditional Straw Weaving",
+        imageAlt: "Cartoon of a hanging geometric figure woven from golden straw stalks.",
+        description:
+          "Rye straw weaving, a centuries-old Belarusian peasant craft, transforms dried cereal stalks into elaborate decorative figures, from the traditional hanging 'spiders,' geometric structures suspended over the family table during winter holidays, to harvest crowns, ritual dolls, and intricate ornaments originally woven as part of agricultural rituals meant to ensure a good harvest the following year, since straw was believed to carry the life force of the last crop gathered. Every Belarusian region developed its own weaving patterns and techniques, passed down orally through generations within peasant families, and although everyday practice declined sharply with Soviet agricultural industrialization, it survived thanks to dedicated artisans and is taught today in cultural workshops as one of the most distinctive expressions of Belarusian folk art.",
+      },
+    },
+  },
+  {
+    id: "el-lago-narach-el-mar-de-bielorrusia",
+    order: 15,
+    placeholderEmoji: "🌊",
+    accentColor: "#1F6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El lago tan grande que le dicen el mar de Bielorrusia",
+        subtitle: "El lago Narach, apodado el mar bielorruso",
+        imageAlt: "Caricatura de una extensa superficie de agua con olas hasta el horizonte y una orilla arenosa.",
+        description:
+          "El lago Narach, el más grande de Bielorrusia con una superficie de más de setenta kilómetros cuadrados formada por la retirada de glaciares hace miles de años, se ganó el apodo popular de mar bielorruso en un país completamente sin salida al mar, gracias a aguas tan extensas que desde la orilla no siempre resulta posible distinguir la costa opuesta, especialmente en días de niebla o viento fuerte que genera oleaje comparable al de una costa marítima real. La región alrededor del lago, declarada zona nacional protegida, se convirtió durante la era soviética en un destino vacacional y de salud popular gracias a sanatorios construidos junto a la orilla que aprovechaban el aire limpio y el microclima local, una tradición turística que Bielorrusia mantiene vigente hoy con playas, balnearios y actividades acuáticas que atraen visitantes de todo el país durante los breves veranos bielorrusos.",
+      },
+      en: {
+        title: "The Lake So Big They Call It Belarus's Sea",
+        subtitle: "Lake Naroch, Nicknamed the Belarusian Sea",
+        imageAlt: "Cartoon of a vast water surface with waves reaching the horizon and a sandy shore.",
+        description:
+          "Lake Naroch, Belarus's largest, covering more than seventy square kilometers formed by retreating glaciers thousands of years ago, earned the popular nickname the Belarusian sea in a completely landlocked country, thanks to waters so vast that the opposite shore is not always visible from the near side, especially on foggy or windy days that generate waves comparable to a real seacoast. The area around the lake, designated a protected national zone, became during the Soviet era a popular vacation and health destination thanks to sanatoriums built along its shore that took advantage of the clean air and local microclimate, a tourism tradition Belarus keeps alive today with beaches, resorts, and water activities drawing visitors from across the country during the country's brief summers.",
+      },
+    },
+  },
 ];

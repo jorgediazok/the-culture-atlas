@@ -231,4 +231,119 @@ export const bulgaria: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "martenitsa-el-hilo-rojo-y-blanco-de-baba-marta",
+    order: 11,
+    placeholderEmoji: "🧵",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El hilo rojo y blanco hasta ver la primera cigüeña",
+        subtitle: "La martenitsa, regalo de Baba Marta",
+        imageAlt: "Caricatura de un hilo trenzado rojo y blanco atado a la rama de un árbol en flor.",
+        description:
+          "Cada 1 de marzo, los búlgaros intercambian pequeños adornos llamados martenitsa, hechos con hilos rojos y blancos trenzados en forma de muñecos llamados Pizho y Penda, prendidos a la ropa o atados a la muñeca como símbolo de la llegada de la primavera y deseo de salud, según una tradición asociada a Baba Marta, una anciana caprichosa cuyo humor determina, según el folclore, si el clima de marzo será benévolo o cruel. La costumbre indica que la martenitsa debe llevarse puesta hasta ver el primer signo concreto de primavera, típicamente un árbol en flor o, sobre todo, una cigüeña, el ave migratoria cuyo regreso desde África marca tradicionalmente el fin del invierno búlgaro, momento en el que el adorno se ata a la rama de un árbol florecido. Reconocida por la UNESCO en 2017 como patrimonio cultural inmaterial, la tradición sigue tan viva que puestos callejeros de martenitsas aparecen en cada ciudad búlgara durante las últimas semanas de febrero.",
+      },
+      en: {
+        title: "The Red-and-White Thread Worn Until You Spot a Stork",
+        subtitle: "The Martenitsa, a Gift From Baba Marta",
+        imageAlt: "Cartoon of a braided red-and-white thread tied to the branch of a blossoming tree.",
+        description:
+          "Every March 1st, Bulgarians exchange small ornaments called martenitsa, made of braided red and white threads shaped into little dolls called Pizho and Penda, pinned to clothing or tied around the wrist as a symbol of spring's arrival and a wish for good health, tied to a tradition around Baba Marta, a temperamental old woman whose mood, according to folklore, determines whether March weather turns out mild or harsh. Custom holds that the martenitsa should be worn until the wearer sees the first concrete sign of spring, typically a blossoming tree or, above all, a stork, the migratory bird whose return from Africa traditionally marks the end of the Bulgarian winter, at which point the ornament is tied to the branch of a flowering tree. Recognized by UNESCO in 2017 as intangible cultural heritage, the tradition remains so alive that street stalls selling martenitsi appear in every Bulgarian city during the last weeks of February.",
+      },
+    },
+  },
+  {
+    id: "nestinarstvo-el-baile-descalzo-sobre-brasas",
+    order: 12,
+    placeholderEmoji: "🔥",
+    accentColor: "#BF360C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El baile ritual descalzo sobre brasas ardientes",
+        subtitle: "El nestinarstvo, baile sobre brasas",
+        imageAlt: "Caricatura de una persona bailando descalza sobre brasas encendidas al ritmo de un tambor.",
+        description:
+          "El nestinarstvo, un ritual ancestral practicado en algunos pueblos de la región búlgara de Strandzha, consiste en bailar descalzo sobre un lecho de brasas ardientes al ritmo de tambores y gaitas tradicionales, generalmente en trance inducido por la música, sin que los participantes, llamados nestinari, sufran quemaduras visibles pese al contacto directo y prolongado con el fuego. La tradición, que combina elementos cristianos ortodoxos, ya que se celebra el día de los santos Constantino y Elena, con raíces mucho más antiguas de culto pagano al fuego, estuvo a punto de desaparecer bajo el régimen comunista, que la consideraba superstición atrasada, pero sobrevivió gracias a un puñado de familias que preservaron la práctica en secreto. Reconocido por la UNESCO como patrimonio cultural inmaterial en 2009, el nestinarstvo sigue intrigando a antropólogos y científicos que estudiaron el fenómeno sin llegar a un consenso sobre el mecanismo exacto que evita las quemaduras.",
+      },
+      en: {
+        title: "The Ritual Dance Performed Barefoot on Burning Coals",
+        subtitle: "Nestinarstvo, Dancing on Embers",
+        imageAlt: "Cartoon of a person dancing barefoot on glowing embers to the beat of a drum.",
+        description:
+          "Nestinarstvo, an ancestral ritual practiced in a handful of villages in Bulgaria's Strandzha region, involves dancing barefoot across a bed of glowing embers to the rhythm of traditional drums and bagpipes, typically in a music-induced trance, without the participants, called nestinari, suffering visible burns despite direct, prolonged contact with the fire. The tradition, which blends Orthodox Christian elements, since it is traditionally held on the feast day of Saints Constantine and Helen, with much older roots in pagan fire worship, nearly disappeared under communist rule, which dismissed it as backward superstition, but survived thanks to a handful of families who kept the practice alive in secret. Recognized by UNESCO as intangible cultural heritage in 2009, nestinarstvo still intrigues anthropologists and scientists who have studied the phenomenon without reaching full consensus on the exact mechanism that prevents burns.",
+      },
+    },
+  },
+  {
+    id: "el-jinete-de-madara-tallado-en-un-acantilado",
+    order: 13,
+    placeholderEmoji: "🐎",
+    accentColor: "#8D6E63",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El jinete tallado en un acantilado hace 1300 años",
+        subtitle: "El Jinete de Madara, en un acantilado",
+        imageAlt: "Caricatura de un jinete a caballo tallado en relieve sobre una pared de roca.",
+        description:
+          "El Jinete de Madara, un relieve rupestre tallado hacia comienzos del siglo VIII en un acantilado de veintitrés metros de altura en el noreste de Bulgaria, representa a un jinete a caballo atravesando con su lanza a un león caído mientras un perro corre a su lado, una imagen que se cree conmemora una victoria militar de alguno de los primeros gobernantes del imperio búlgaro medieval, aunque los historiadores todavía debaten la identidad exacta del jinete representado. Declarado Patrimonio de la Humanidad por la UNESCO, el monumento sobrevivió más de mil trescientos años de erosión y varios intentos de vandalismo dirigidos por gobernantes rivales que trataron sin éxito de borrar la imagen, y hoy aparece reproducido en la moneda búlgara de una leva, convirtiéndolo en uno de los pocos monumentos de la Alta Edad Media europea que buena parte de la población lleva literalmente en el bolsillo todos los días.",
+      },
+      en: {
+        title: "The Horseman Carved Into a Cliff 1,300 Years Ago",
+        subtitle: "The Madara Rider, Carved Into a Cliff",
+        imageAlt: "Cartoon of a horseman carved in relief on a rock cliff face.",
+        description:
+          "The Madara Rider, a rock relief carved in the early 8th century into a twenty-three-meter cliff in northeastern Bulgaria, depicts a horseman spearing a fallen lion while a dog runs alongside him, an image believed to commemorate a military victory by one of the early rulers of the medieval Bulgarian empire, though historians still debate the exact identity of the rider shown. Declared a UNESCO World Heritage Site, the monument survived more than thirteen hundred years of erosion and several vandalism attempts ordered by rival rulers who tried unsuccessfully to erase the image, and today it appears on the Bulgarian one-lev coin, making it one of the few Early Middle Ages European monuments a large share of a country's population literally carries in their pocket every day.",
+      },
+    },
+  },
+  {
+    id: "john-atanasoff-el-padre-bulgaro-de-la-computadora",
+    order: 14,
+    placeholderEmoji: "💻",
+    accentColor: "#455A64",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El hijo de un inmigrante que inventó la computadora",
+        subtitle: "John Atanasoff, padre de la computadora digital",
+        imageAlt: "Caricatura de una máquina antigua con tubos de vacío y una fila de interruptores.",
+        description:
+          "John Atanasoff, hijo de un inmigrante búlgaro llegado a Estados Unidos a fines del siglo XIX, construyó junto a su estudiante de posgrado Clifford Berry entre 1937 y 1942 la Computadora Atanasoff-Berry, considerada hoy por buena parte de los historiadores de la informática como la primera computadora electrónica digital de la historia, un dispositivo que ya utilizaba aritmética binaria y componentes electrónicos en lugar de mecanismos puramente mecánicos como las calculadoras de la época. Pese a esta prioridad histórica, Atanasoff no patentó formalmente su invento a tiempo, y durante décadas el crédito público por la invención de la computadora electrónica recayó en la ENIAC, un proyecto posterior, hasta que un fallo judicial estadounidense de 1973 reconoció legalmente que sus creadores se habían basado en ideas previas de Atanasoff, restituyendo así, aunque tardíamente, su lugar como pionero olvidado de la revolución informática.",
+      },
+      en: {
+        title: "The Bulgarian Immigrant's Son Who Invented the Computer",
+        subtitle: "John Atanasoff, Father of the Digital Computer",
+        imageAlt: "Cartoon of an old machine with vacuum tubes and a row of switches.",
+        description:
+          "John Atanasoff, the son of a Bulgarian immigrant who arrived in the United States in the late 19th century, built together with his graduate student Clifford Berry between 1937 and 1942 the Atanasoff-Berry Computer, considered by many computing historians today the first electronic digital computer in history, a device that already used binary arithmetic and electronic components instead of the purely mechanical mechanisms found in calculators of the era. Despite this historical priority, Atanasoff never formally patented his invention in time, and for decades public credit for inventing the electronic computer went to the later ENIAC project, until a 1973 US federal court ruling legally recognized that its creators had drawn on Atanasoff's earlier ideas, belatedly restoring his place as a forgotten pioneer of the computing revolution.",
+      },
+    },
+  },
+  {
+    id: "los-siete-lagos-de-rila-en-forma-de-collar",
+    order: 15,
+    placeholderEmoji: "🏔️",
+    accentColor: "#1B6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los siete lagos glaciares con forma de collar",
+        subtitle: "Los Siete Lagos de Rila, un collar glaciar",
+        imageAlt: "Caricatura de siete lagos azules escalonados vistos desde una cima montañosa.",
+        description:
+          "Los Siete Lagos de Rila, un grupo de lagos glaciares situados a más de dos mil metros de altura en el macizo montañoso de Rila, cada uno con un nombre que describe una característica física propia, como El Ojo, El Riñón o Las Lágrimas, se formaron hace miles de años por la acción de antiguos glaciares que excavaron el terreno rocoso en distintos niveles escalonados, conectados hoy entre sí por arroyos y senderos de montaña muy transitados durante la temporada de verano. Desde ciertos miradores elevados, los siete lagos pueden observarse casi todos a la vez dispuestos en una formación que muchos visitantes describen como un collar de piedras preciosas engarzado sobre la ladera montañosa, una imagen que también inspira cada año a un grupo creciente de practicantes de yoga y meditación que suben hasta la zona para reuniones espirituales estivales.",
+      },
+      en: {
+        title: "The Seven Glacial Lakes That Form a Stone Necklace",
+        subtitle: "The Seven Rila Lakes, a Glacial Necklace",
+        imageAlt: "Cartoon of seven blue stepped lakes seen from a mountain peak.",
+        description:
+          "The Seven Rila Lakes, a group of glacial lakes sitting more than two thousand meters up in the Rila mountain massif, each named for a distinct physical feature, like the Eye, the Kidney, or the Tears, formed thousands of years ago when ancient glaciers carved the rocky terrain into a series of stepped levels, now connected by streams and heavily used mountain trails during the summer season. From certain elevated viewpoints, nearly all seven lakes can be seen at once, arranged in a formation many visitors describe as a necklace of precious stones strung across the mountainside, an image that also draws a growing number of yoga and meditation practitioners up to the area for summer spiritual gatherings, drawn by the energetic reputation the region gained among Bulgarian and international New Age communities.",
+      },
+    },
+  },
 ];

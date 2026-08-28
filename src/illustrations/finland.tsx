@@ -162,6 +162,91 @@ const MundialDeCargarALaEsposa: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const JeanSibeliusYLaMusicaFinlandia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      {/* music stand with sheet music */}
+      <rect x="230" y="150" width="60" height="45" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <line x1="240" y1="165" x2="280" y2="165" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      <line x1="240" y1="175" x2="280" y2="175" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      <line x1="260" y1="195" x2="260" y2="245" stroke={dark} strokeWidth="3" />
+      {/* conductor */}
+      <circle cx="165" cy="150" r="16" fill={skin} />
+      <path d="M150 170 Q165 160 182 170 L176 225 L154 225 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <line x1="180" y1="180" x2="215" y2="150" stroke={dark} strokeWidth="3" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const ElFinlandesUnIdiomaSinParientesCercanos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M100 130 Q100 105 130 105 L290 105 Q320 105 320 130 Q320 155 290 155 L180 155 L155 180 L165 155 L130 155 Q100 155 100 130 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[115, 135, 155, 175, 195, 215, 235, 255, 275, 295].map((x, i) => (
+        <rect key={x} x={x} y={i % 2 === 0 ? 122 : 128} width="14" height={i % 2 === 0 ? 18 : 12} fill="#F5F0E6" opacity="0.85" />
+      ))}
+    </g>
+  );
+};
+
+const AngryBirdsYLaIndustriaFinlandesaDeVideojuegos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* slingshot */}
+      <path d="M120 245 L120 190 M120 190 L105 160 M120 190 L135 160" fill="none" stroke="#6B4C3A" strokeWidth="6" strokeLinecap="round" />
+      <line x1="105" y1="160" x2="150" y2="200" stroke={dark} strokeWidth="2.5" />
+      <line x1="135" y1="160" x2="150" y2="200" stroke={dark} strokeWidth="2.5" />
+      {/* bird */}
+      <circle cx="150" cy="200" r="18" fill="#C1272D" stroke={dark} strokeWidth="2.5" />
+      <path d="M165 197 L180 203 L165 209 Z" fill="#F4A300" />
+      {/* tower of blocks being hit */}
+      <rect x="240" y="205" width="35" height="45" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <rect x="240" y="160" width="35" height="45" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const SalmiakkiElCarameloSaladoQueSoloGustanLosFinlandeses: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M150 250 L150 170 Q150 150 175 150 L235 150 Q260 150 260 170 L260 250 Z" fill="#E8DCC0" stroke={dark} strokeWidth="2.5" />
+      <path d="M150 170 L175 150 M260 170 L235 150" stroke={dark} strokeWidth="2" opacity="0.5" />
+      {[[175, 200], [205, 190], [230, 210], [190, 225]].map(([x, y]) => (
+        <polygon
+          key={x as number}
+          points={`${x},${(y as number) - 14} ${(x as number) + 14},${y} ${x},${(y as number) + 14} ${(x as number) - 14},${y}`}
+          fill="#1A1A1A"
+          stroke={dark}
+          strokeWidth="1.5"
+        />
+      ))}
+    </g>
+  );
+};
+
+const ElDiaDeLaIndependenciaYLasDosVelas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* window frame */}
+      <rect x="120" y="90" width="170" height="160" fill={dark} opacity="0.15" stroke={dark} strokeWidth="3" />
+      <line x1="205" y1="90" x2="205" y2="250" stroke={dark} strokeWidth="2.5" opacity="0.5" />
+      {/* windowsill */}
+      <rect x="110" y="245" width="190" height="10" fill={dark} />
+      {/* two candles */}
+      <rect x="170" y="200" width="14" height="45" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <path d="M177 200 Q170 188 177 178 Q184 188 177 200 Z" fill="#F4A300" />
+      <rect x="226" y="200" width="14" height="45" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <path d="M233 200 Q226 188 233 178 Q240 188 233 200 Z" fill="#F4A300" />
+    </g>
+  );
+};
+
 export const finlandIllustrations: Record<string, IllustrationDefinition> = {
   "sauna-mas-que-coches-que-personas": { component: SaunaMasQueCochesQuePersonas },
   "santa-claus-domicilio-oficial": { component: SantaClausDomicilioOficial },
@@ -173,4 +258,9 @@ export const finlandIllustrations: Record<string, IllustrationDefinition> = {
   "diseno-finlandes-marimekko-y-aalto": { component: DisenoFinlandesMarimekkoYAalto },
   "sol-de-medianoche-y-noche-polar": { component: SolDeMedianocheYNochePolar },
   "mundial-de-cargar-a-la-esposa": { component: MundialDeCargarALaEsposa },
+  "jean-sibelius-y-la-musica-finlandia": { component: JeanSibeliusYLaMusicaFinlandia },
+  "el-finlandes-un-idioma-sin-parientes-cercanos": { component: ElFinlandesUnIdiomaSinParientesCercanos },
+  "angry-birds-y-la-industria-finlandesa-de-videojuegos": { component: AngryBirdsYLaIndustriaFinlandesaDeVideojuegos },
+  "salmiakki-el-caramelo-salado-que-solo-gustan-los-finlandeses": { component: SalmiakkiElCarameloSaladoQueSoloGustanLosFinlandeses },
+  "el-dia-de-la-independencia-y-las-dos-velas": { component: ElDiaDeLaIndependenciaYLasDosVelas },
 };

@@ -156,6 +156,94 @@ const LosFuertesDeHadasQueNadieSeAnimaATocar: IllustrationComponent = ({ accentC
   );
 };
 
+const JamesJoyceYElDiaDeBloomsday: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      {/* Dublin building backdrop */}
+      <rect x="230" y="120" width="80" height="130" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+      <rect x="245" y="140" width="16" height="20" fill={dark} opacity="0.5" />
+      <rect x="280" y="140" width="16" height="20" fill={dark} opacity="0.5" />
+      {/* figure in a period hat, reading */}
+      <circle cx="160" cy="150" r="18" fill={skin} />
+      <path d="M138 145 Q160 128 182 145 Q182 138 160 133 Q138 138 138 145 Z" fill="#1A1A1A" />
+      <path d="M142 168 Q160 158 178 168 L172 240 L148 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* open book held up */}
+      <path d="M130 210 L160 202 L160 225 L130 233 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <path d="M160 202 L190 210 L190 233 L160 225 Z" fill="#E8DCC0" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const ElHurlingYElFutbolGaelicoDeportesAmateur: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* curved hurling stick */}
+      <path d="M140 240 L165 110 Q180 100 195 112 Q170 118 155 130 L130 245 Z" fill="#8B5A2B" stroke={dark} strokeWidth="2.5" />
+      {/* the sliotar ball in flight */}
+      <circle cx="250" cy="150" r="20" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M235 145 Q250 138 265 145 M235 155 Q250 162 265 155" fill="none" stroke={dark} strokeWidth="2" opacity="0.6" />
+      {/* motion lines */}
+      <line x1="195" y1="150" x2="225" y2="150" stroke={dark} strokeWidth="2.5" opacity="0.5" strokeDasharray="6 5" />
+    </g>
+  );
+};
+
+const ElDiaDeSantaBrigidaElFeriadoMasNuevo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* four woven reed arms radiating from the center */}
+      {[0, 90, 180, 270].map((deg) => (
+        <rect key={deg} x="195" y="90" width="20" height="80" fill="#D4A017" stroke={dark} strokeWidth="2" transform={`rotate(${deg} 205 170)`} />
+      ))}
+      <circle cx="205" cy="170" r="14" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* woven texture lines */}
+      {[100, 115, 130, 145].map((y) => (
+        <line key={y} x1="197" y1={y} x2="213" y2={y} stroke={dark} strokeWidth="1.2" opacity="0.4" />
+      ))}
+    </g>
+  );
+};
+
+const ElWhiskeyIrlandesYElOrigenDeLaPalabra: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  const copper = "#B87333";
+  return (
+    <g>
+      {/* copper pot still */}
+      <path d="M210 250 L210 200 Q210 175 235 175 Q260 175 260 200 L260 250 Z" fill={copper} stroke={dark} strokeWidth="3" />
+      <path d="M235 175 Q235 155 255 148" fill="none" stroke={copper} strokeWidth="8" strokeLinecap="round" />
+      <circle cx="235" cy="175" r="10" fill={copper} stroke={dark} strokeWidth="2" />
+      {/* monk figure */}
+      <circle cx="150" cy="160" r="18" fill={skin} />
+      <path d="M132 178 Q150 168 168 178 L162 240 L138 240 Z" fill="#4A2C2A" stroke={dark} strokeWidth="2.5" />
+      <path d="M140 158 Q150 148 160 158" fill="none" stroke={dark} strokeWidth="3" />
+    </g>
+  );
+};
+
+const U2LaBandaQueLlevoAIrlandaAlMundo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* amplifier */}
+      <rect x="230" y="170" width="80" height="70" fill={dark} stroke={dark} strokeWidth="2" />
+      {[[250, 190], [270, 190], [290, 190], [250, 215], [270, 215], [290, 215]].map(([x, y]) => (
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="7" fill="#3E3E3E" />
+      ))}
+      {/* electric guitar body leaning */}
+      <path d="M150 250 Q130 210 155 175 Q170 155 195 165 Q210 172 200 195 Q225 205 215 235 Q195 260 165 250 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <line x1="178" y1="155" x2="145" y2="95" stroke="#6B4C3A" strokeWidth="6" />
+      {/* stage light beams */}
+      <path d="M90 100 L130 160 M320 100 L280 160" stroke="#F4A300" strokeWidth="4" opacity="0.5" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const irelandIllustrations: Record<string, IllustrationDefinition> = {
   "book-of-kells-el-manuscrito-iluminado": { component: BookOfKellsElManuscritoIluminado },
   "newgrange-mas-viejo-que-las-piramides": { component: NewgrangeMasViejoQueLasPiramides },
@@ -167,4 +255,9 @@ export const irelandIllustrations: Record<string, IllustrationDefinition> = {
   "guinness-y-el-ritual-de-los-119-segundos": { component: GuinnessYElRitualDeLos119Segundos },
   "los-acantilados-de-moher": { component: LosAcantiladosDeMoher },
   "los-fuertes-de-hadas-que-nadie-se-anima-a-tocar": { component: LosFuertesDeHadasQueNadieSeAnimaATocar },
+  "james-joyce-y-el-dia-de-bloomsday": { component: JamesJoyceYElDiaDeBloomsday },
+  "el-hurling-y-el-futbol-gaelico-deportes-amateur": { component: ElHurlingYElFutbolGaelicoDeportesAmateur },
+  "el-dia-de-santa-brigida-el-feriado-mas-nuevo": { component: ElDiaDeSantaBrigidaElFeriadoMasNuevo },
+  "el-whiskey-irlandes-y-el-origen-de-la-palabra": { component: ElWhiskeyIrlandesYElOrigenDeLaPalabra },
+  "u2-la-banda-que-llevo-a-irlanda-al-mundo": { component: U2LaBandaQueLlevoAIrlandaAlMundo },
 };

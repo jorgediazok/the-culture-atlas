@@ -231,4 +231,119 @@ export const romania: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "martisor-el-hilo-rojo-y-blanco-de-la-primavera",
+    order: 11,
+    placeholderEmoji: "🌸",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cordón rojo y blanco que anuncia la primavera",
+        subtitle: "El mărțișor, símbolo del primero de marzo",
+        imageAlt: "Caricatura de un cordón trenzado rojo y blanco atado a una pequeña flor.",
+        description:
+          "Cada 1 de marzo, en Rumania y Moldova, es costumbre regalar un pequeño adorno llamado mărțișor, formado por un cordón trenzado de hilos rojo y blanco atado a un pequeño dije o flor, símbolo de la llegada de la primavera tras el invierno y, según la tradición, un talismán de salud y buena suerte para quien lo recibe y lo usa prendido a la ropa durante todo el mes. El origen del mărțișor se remonta a costumbres paganas precristianas relacionadas con el culto agrícola al inicio del ciclo natural, con el blanco representando la pureza de la nieve que se derrite y el rojo la fuerza vital y la sangre de la vida que regresa, y aunque hoy convive con símbolos más modernos, la costumbre de regalarlo, tradicionalmente de hombres a mujeres, sigue tan viva que los puestos callejeros de mărțișoare se multiplican en ciudades rumanas durante las últimas semanas de febrero de cada año.",
+      },
+      en: {
+        title: "The Red-and-White Cord That Announces Spring",
+        subtitle: "The Mărțișor, a Symbol of March 1st",
+        imageAlt: "Cartoon of a braided red-and-white cord tied to a small flower.",
+        description:
+          "Every March 1st, in Romania and Moldova, it is customary to give a small ornament called a mărțișor, made of a braided red-and-white cord tied to a small charm or flower, a symbol of spring's arrival after winter and, by tradition, a talisman of health and good luck for whoever receives it and wears it pinned to their clothes for the entire month. The mărțișor's origin traces back to pre-Christian pagan customs tied to agricultural worship at the start of the natural cycle, with white representing the purity of melting snow and red the returning life force and blood of life, and although it now coexists with more modern symbols, the custom of giving one, traditionally from men to women, remains so alive that street stalls selling mărțișoare multiply across Romanian cities during the last weeks of every February.",
+      },
+    },
+  },
+  {
+    id: "george-enescu-el-compositor-que-definio-la-musica-rumana",
+    order: 12,
+    placeholderEmoji: "🎻",
+    accentColor: "#1565C0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El violinista niño que se volvió compositor nacional",
+        subtitle: "George Enescu, compositor y violinista",
+        imageAlt: "Caricatura de un violín apoyado sobre un atril con una partitura abierta.",
+        description:
+          "George Enescu, considerado el músico rumano más importante de la historia, ingresó al conservatorio de Viena a los siete años, la edad mínima jamás aceptada hasta entonces por la institución, y se convirtió con el tiempo en un compositor, violinista, pianista y director de orquesta de talla mundial, célebre además como maestro de un joven Yehudi Menuhin, uno de los violinistas más influyentes del siglo XX. Su obra más conocida internacionalmente, la Rapsodia rumana No. 1, compuesta en 1901, incorpora melodías populares y ritmos de danza folclórica rumana dentro de una estructura orquestal clásica, convirtiéndose en una de las piezas de música clásica más asociadas a la identidad nacional del país, hasta el punto de que Rumania rebautizó su principal festival internacional de música clásica y el aeropuerto de Bucarest con su nombre en su honor.",
+      },
+      en: {
+        title: "The Child Violinist Who Became a National Composer",
+        subtitle: "George Enescu, Composer and Violinist",
+        imageAlt: "Cartoon of a violin resting on a music stand with an open score.",
+        description:
+          "George Enescu, considered the most important Romanian musician in history, entered the Vienna Conservatory at age seven, the youngest age the institution had ever accepted until then, and went on to become a world-class composer, violinist, pianist, and conductor, also famous as the teacher of a young Yehudi Menuhin, one of the most influential violinists of the 20th century. His most internationally known work, Romanian Rhapsody No. 1, composed in 1901, weaves popular melodies and Romanian folk dance rhythms into a classical orchestral structure, becoming one of the classical music pieces most tied to the country's national identity, to the point that Romania named its leading international classical music festival and Bucharest's airport after him.",
+      },
+    },
+  },
+  {
+    id: "constantin-brancusi-el-escultor-que-redujo-la-forma-a-lo-esencial",
+    order: 13,
+    placeholderEmoji: "🗿",
+    accentColor: "#546E7A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El escultor que caminó desde Rumania hasta París",
+        subtitle: "Constantin Brâncuși, pionero de la escultura moderna",
+        imageAlt: "Caricatura de una escultura abstracta pulida con forma ovalada alargada sobre un pedestal.",
+        description:
+          "El escultor rumano Constantin Brâncuși, nacido en un pueblo campesino de los Cárpatos en 1876, viajó según la leyenda familiar buena parte del trayecto a pie desde Rumania hasta París en 1904, donde se instaló y desarrolló un estilo escultórico revolucionario que reducía las formas naturales a su esencia geométrica más pura, alejándose deliberadamente del realismo detallado que dominaba la escultura académica de la época. Obras suyas como El pájaro en el espacio, una silueta abstracta y pulida de bronce sin plumas ni pico reconocibles, generaron tanta controversia que un aduanero estadounidense se negó en 1926 a clasificarla como arte, cobrándole a su comprador un arancel de metal industrial hasta que un juicio posterior falló a favor de reconocerla como escultura. Brâncuși dejó en la ciudad rumana de Târgu Jiu un conjunto monumental de esculturas al aire libre, incluida su Columna Infinita, uno de sus legados más importantes.",
+      },
+      en: {
+        title: "The Sculptor Who Walked From Romania to Paris",
+        subtitle: "Constantin Brâncuși, Pioneer of Modern Sculpture",
+        imageAlt: "Cartoon of a polished abstract sculpture with an elongated oval shape on a pedestal.",
+        description:
+          "Romanian sculptor Constantin Brâncuși, born in a Carpathian peasant village in 1876, traveled, according to family legend, much of the way on foot from Romania to Paris in 1904, where he settled and developed a revolutionary sculptural style that reduced natural forms to their purest geometric essence, deliberately moving away from the detailed realism dominating academic sculpture of the era. Works like Bird in Space, an abstract, polished bronze silhouette with no recognizable feathers or beak, sparked so much controversy that a US customs officer refused in 1926 to classify it as art, charging its buyer an industrial metal import tariff until a later court ruling recognized it as sculpture. Brâncuși left behind in the Romanian city of Târgu Jiu a monumental outdoor sculpture ensemble, including his Endless Column, considered today one of his most important legacies.",
+      },
+    },
+  },
+  {
+    id: "la-ie-la-blusa-bordada-que-inspiro-a-yves-saint-laurent",
+    order: 14,
+    placeholderEmoji: "👚",
+    accentColor: "#EC407A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La blusa bordada que conquistó una pasarela de París",
+        subtitle: "La ie, blusa tradicional rumana",
+        imageAlt: "Caricatura de una blusa blanca con bordado geométrico colorido en el cuello y las mangas.",
+        description:
+          "La ie, una blusa tradicional rumana de lino bordada a mano con patrones geométricos y florales que varían según la región de quien la confecciona, es una prenda con siglos de historia campesina que en 1981 alcanzó fama internacional inesperada cuando el diseñador francés Yves Saint Laurent presentó una colección de alta costura directamente inspirada en su estética, popularizando el término blusa rumana entre las principales casas de moda europeas. Cada ie tradicional podía tardar semanas o meses de trabajo manual en completarse, con patrones de bordado transmitidos de generación en generación dentro de cada familia y capaces de identificar el pueblo exacto de origen de quien la llevaba puesta, una función social similar a la de otros trajes folclóricos europeos. Desde 2013, Rumania celebra cada 24 de junio el Día Universal de la Ie, sumado al calendario festivo tras una campaña impulsada por la propia comunidad de diseñadores y artesanos rumanos.",
+      },
+      en: {
+        title: "The Embroidered Blouse That Conquered a Paris Runway",
+        subtitle: "The Ie, a Traditional Romanian Blouse",
+        imageAlt: "Cartoon of a white blouse with colorful geometric embroidery on the collar and sleeves.",
+        description:
+          "The ie, a traditional Romanian linen blouse hand-embroidered with geometric and floral patterns that vary by the region of whoever makes it, is a garment with centuries of peasant history that unexpectedly gained international fame in 1981 when French designer Yves Saint Laurent presented a haute couture collection directly inspired by its aesthetic, popularizing the term Romanian blouse among major European fashion houses. A traditional ie could take weeks or months of manual labor to complete, with embroidery patterns passed down generation after generation within each family, able to identify the exact village of origin of whoever wore it, a social function similar to other European folk costumes. Since 2013, Romania has officially marked every June 24th as Universal Ie Day, added to the festive calendar following a campaign led by the country's own community of designers and artisans.",
+      },
+    },
+  },
+  {
+    id: "la-revolucion-de-1989-y-la-caida-de-ceausescu",
+    order: 15,
+    placeholderEmoji: "📺",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La única revolución violenta del Bloque del Este",
+        subtitle: "La Revolución rumana de 1989",
+        imageAlt: "Caricatura de una multitud frente a una pantalla de televisión antigua en una plaza nocturna.",
+        description:
+          "Mientras el resto de los regímenes comunistas de Europa del Este caían durante 1989 mediante transiciones mayormente pacíficas y negociadas, como la Revolución de Terciopelo checoslovaca, Rumania vivió el único derrocamiento violento de la región: protestas que comenzaron en la ciudad de Timișoara a mediados de diciembre se extendieron rápidamente a Bucarest, y en apenas diez días el gobierno del dictador Nicolae Ceaușescu, en el poder desde 1965, colapsó por completo, terminando con la captura de Ceaușescu y su esposa, sometidos a un juicio sumario y ejecutados el 25 de diciembre de 1989. La caída fue transmitida parcialmente en vivo por televisión rumana, un hecho sin precedentes que convirtió a la revolución en uno de los eventos más documentados audiovisualmente de la caída del comunismo europeo, y dejó como saldo la transición poscomunista más abrupta y con mayor costo humano directo de todo el antiguo bloque soviético en Europa central y oriental.",
+      },
+      en: {
+        title: "The Only Violent Revolution in the 1989 Eastern Bloc",
+        subtitle: "The 1989 Romanian Revolution",
+        imageAlt: "Cartoon of a crowd in front of an old television screen in a nighttime square.",
+        description:
+          "While the rest of Eastern Europe's communist regimes fell in 1989 through mostly peaceful, negotiated transitions, like Czechoslovakia's Velvet Revolution, Romania went through the region's only violent overthrow: protests that began in the city of Timișoara in mid-December quickly spread to Bucharest, and in just ten days the government of dictator Nicolae Ceaușescu, in power since 1965, collapsed entirely, ending with the capture of Ceaușescu and his wife, who were given a summary trial and executed on December 25, 1989. The fall was partly broadcast live on Romanian television, an unprecedented event that made the revolution one of the most audiovisually documented moments of the fall of European communism, and left behind the most abrupt post-communist transition, with the highest direct human cost, of any country in the former Soviet bloc across Central and Eastern Europe.",
+      },
+    },
+  },
 ];

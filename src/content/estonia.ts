@@ -231,4 +231,119 @@ export const estonia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-estonio-un-idioma-emparentado-con-el-finlandes",
+    order: 11,
+    placeholderEmoji: "🗣️",
+    accentColor: "#1B4F91",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El idioma que no se parece a sus vecinos bálticos",
+        subtitle: "El estonio, emparentado con el finlandés",
+        imageAlt: "Caricatura de dos globos de diálogo, uno junto a otro, entendiéndose y uno tachado.",
+        description:
+          "El estonio pertenece a la familia de lenguas urálicas y está estrechamente emparentado con el finlandés, del otro lado del golfo de Finlandia, mientras que sus vecinos geográficos más cercanos, el letón y el lituano, pertenecen a la familia indoeuropea báltica y resultan completamente ininteligibles para un hablante estonio, una diferencia lingüística tan marcada que un estonio entiende bastante finlandés hablado sin haberlo estudiado, pero no comprende nada de letón pese a que ambos países comparten frontera. Al igual que el finlandés y el húngaro, otros dos idiomas urálicos importantes, el estonio no tiene géneros gramaticales ni preposiciones y usa en cambio hasta catorce casos gramaticales distintos que modifican el final de las palabras según su función, una estructura que lo vuelve difícil de aprender para hablantes de idiomas indoeuropeos y refuerza la identidad estonia como una isla lingüística distinta dentro del propio espacio báltico.",
+      },
+      en: {
+        title: "The Language That Sounds Nothing Like Its Neighbors",
+        subtitle: "Estonian, Related to Finnish",
+        imageAlt: "Cartoon of two speech bubbles side by side, one understood and one crossed out.",
+        description:
+          "Estonian belongs to the Uralic language family and is closely related to Finnish across the Gulf of Finland, while its closest geographic neighbors, Latvian and Lithuanian, belong to the Baltic Indo-European family and are completely unintelligible to an Estonian speaker, a linguistic gap so sharp that an Estonian can understand quite a bit of spoken Finnish without ever formally studying it, yet understands nothing at all of Latvian despite the two countries sharing a border. Like Finnish and Hungarian, two other major Uralic languages, Estonian has no grammatical gender or prepositions, using instead up to fourteen distinct grammatical cases that change word endings depending on their role in a sentence, a structure notoriously difficult for Indo-European speakers to learn that reinforces Estonia's identity as a distinct linguistic island within the Baltic region itself.",
+      },
+    },
+  },
+  {
+    id: "los-seto-y-el-canto-polifonico-leelo",
+    order: 12,
+    placeholderEmoji: "👑",
+    accentColor: "#6B2C39",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo con su reino inventado y un canto único",
+        subtitle: "Los seto y el canto polifónico leelo",
+        imageAlt: "Caricatura de dos cantantes con trajes tradicionales bordados cantando frente a frente.",
+        description:
+          "Los seto, un pueblo étnico minoritario del sureste de Estonia y zonas fronterizas de Rusia con idioma, religión ortodoxa y tradiciones propias distintas del resto del país mayoritariamente luterano, desarrollaron el leelo, una forma de canto polifónico caracterizada por una cantante principal que improvisa versos mientras un coro responde con un estribillo sostenido, técnica reconocida por la UNESCO como patrimonio cultural inmaterial en 2009 por su complejidad vocal y su rareza dentro de la tradición musical europea. Los seto también mantienen con humor y orgullo la tradición del Reino de Seto, una monarquía simbólica sin poder político real que elige a un nuevo rey cada año durante un festival popular, una institución inventada a comienzos del siglo XXI precisamente para preservar y visibilizar la identidad cultural seto frente al riesgo de asimilación, y que hoy incluye hasta su propio ejército, gobierno y moneda conmemorativa puramente simbólicos.",
+      },
+      en: {
+        title: "The People With a Made-Up Kingdom and a Unique Chant",
+        subtitle: "The Seto and Their Leelo Polyphonic Singing",
+        imageAlt: "Cartoon of two singers in embroidered traditional dress singing face to face.",
+        description:
+          "The Seto, an ethnic minority in southeastern Estonia and border areas of Russia with their own language, Orthodox religion, and traditions distinct from the rest of the mostly Lutheran country, developed leelo, a form of polyphonic singing featuring a lead singer improvising verses while a choir answers with a sustained refrain, a technique UNESCO recognized as intangible cultural heritage in 2009 for its vocal complexity and rarity within European musical tradition. The Seto also proudly and humorously maintain the tradition of the Seto Kingdom, a symbolic monarchy with no real political power that elects a new king every year during a popular festival, an institution invented in the early 21st century specifically to preserve and raise visibility for Seto cultural identity against the risk of assimilation, and which today even includes its own purely symbolic army, government, and commemorative currency.",
+      },
+    },
+  },
+  {
+    id: "la-sauna-de-humo-de-voromaa-patrimonio-de-la-unesco",
+    order: 13,
+    placeholderEmoji: "💨",
+    accentColor: "#4A2C2A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La sauna sin chimenea que se llena de humo a propósito",
+        subtitle: "La sauna de humo de Võromaa",
+        imageAlt: "Caricatura de una cabaña de madera ennegrecida por el humo con vapor saliendo de la puerta.",
+        description:
+          "La sauna de humo tradicional de la región estonia de Võromaa, reconocida por la UNESCO como patrimonio cultural inmaterial en 2014, se diferencia de la sauna finlandesa convencional en que carece por completo de chimenea: el humo de la leña quemada se acumula deliberadamente dentro de la cabaña de madera hasta ennegrecer las paredes por completo, y solo se ventila justo antes de que los usuarios ingresen, dejando un calor húmedo particular y un característico aroma ahumado impregnado en la piel que puede durar horas después del baño. Más que una simple práctica de higiene o relajación, la sauna de humo funcionaba tradicionalmente como un espacio social central de la vida rural estonia donde se preparaba comida, se ayudaba a dar a luz, se lavaba a los difuntos antes del funeral y se transmitían oralmente saberes prácticos de generación en generación, un conjunto de rituales asociados que la UNESCO reconoció en conjunto, no solo la estructura física de la sauna en sí misma.",
+      },
+      en: {
+        title: "The Chimney-Less Sauna Filled With Smoke on Purpose",
+        subtitle: "The Smoke Sauna of Võromaa",
+        imageAlt: "Cartoon of a wooden cabin blackened by smoke with steam rising from the door.",
+        description:
+          "The traditional smoke sauna of Estonia's Võromaa region, recognized by UNESCO as intangible cultural heritage in 2014, differs from the conventional Finnish sauna in having no chimney at all: smoke from burning wood is deliberately allowed to build up inside the wooden cabin until it blackens the walls completely, and it's only vented right before users step in, leaving behind a distinctive damp heat and a characteristic smoky scent that can linger on the skin for hours after bathing. More than a simple hygiene or relaxation practice, the smoke sauna traditionally functioned as a central social space in Estonian rural life, where food was prepared, women were helped through childbirth, the dead were washed before funerals, and practical knowledge was passed down orally across generations, a whole set of associated rituals UNESCO recognized together, not just the sauna's physical structure alone.",
+      },
+    },
+  },
+  {
+    id: "kihnu-la-isla-donde-las-mujeres-sostienen-la-tradicion",
+    order: 14,
+    placeholderEmoji: "🧵",
+    accentColor: "#8B1A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La isla donde las mujeres usan faldas rayadas a diario",
+        subtitle: "Kihnu, cultura insular sostenida por mujeres",
+        imageAlt: "Caricatura de una mujer con una falda tradicional rayada de colores parada frente al mar.",
+        description:
+          "En la pequeña isla de Kihnu, en el mar Báltico frente a la costa oeste de Estonia, las mujeres mantienen hasta hoy la costumbre de vestir a diario, no solo en ocasiones festivas, una falda tradicional rayada tejida a mano llamada kört, cuyo color y patrón específico comunica públicamente el estado civil y hasta el estado de duelo de quien la lleva, una tradición textil viva reconocida por la UNESCO como patrimonio cultural inmaterial en 2003. La cultura de Kihnu se sostuvo históricamente sobre una división de género particular: durante generaciones, muchos de los hombres de la isla pasaban largas temporadas embarcados en la marina mercante o dedicados a la pesca en aguas lejanas, dejando a las mujeres a cargo prácticamente exclusivo de la vida cotidiana, la agricultura, la crianza y la transmisión oral de canciones, historias y tradiciones locales, un patrón social que convirtió a las mujeres kihnu en las principales guardianas de la identidad cultural distintiva de la isla.",
+      },
+      en: {
+        title: "The Island Where Women Wear Striped Skirts Daily",
+        subtitle: "Kihnu, an Island Culture Kept Alive by Women",
+        imageAlt: "Cartoon of a woman in a colorful striped traditional skirt standing facing the sea.",
+        description:
+          "On the small island of Kihnu, in the Baltic Sea off Estonia's west coast, women still keep the custom of wearing every day, not just on festive occasions, a hand-woven striped traditional skirt called a kört, whose specific color and pattern publicly communicates the wearer's marital status and even mourning status, a living textile tradition UNESCO recognized as intangible cultural heritage in 2003. Kihnu's culture historically rested on a particular gender division: for generations, many of the island's men spent long stretches away aboard merchant ships or fishing in distant waters, leaving women in charge of practically all everyday life, farming, child-rearing, and the oral transmission of local songs, stories, and traditions, a social pattern that made Kihnu women the main keepers of the island's distinctive cultural identity.",
+      },
+    },
+  },
+  {
+    id: "el-crater-de-kaali-la-tumba-del-sol",
+    order: 15,
+    placeholderEmoji: "☄️",
+    accentColor: "#8B7355",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cráter de meteorito que llamaron 'tumba del sol'",
+        subtitle: "El cráter de Kaali, la Tumba del Sol",
+        imageAlt: "Caricatura de un lago circular dentro de un cráter rodeado de un borde elevado de tierra.",
+        description:
+          "El cráter de Kaali, en la isla estonia de Saaremaa, se formó hace entre tres mil quinientos y siete mil setecientos años cuando un meteorito de hierro de varias toneladas impactó la Tierra con una fuerza estimada equivalente a decenas de bombas atómicas, dejando un cráter principal de cien metros de diámetro rodeado hoy por un lago circular y ocho cráteres secundarios más pequeños producidos por fragmentos del mismo impacto. El acontecimiento, presenciado casi con certeza por comunidades humanas que habitaban la región en ese momento dada su cercanía temporal, dejó una huella profunda en el folclore báltico y escandinavo posterior, con investigadores que vincularon el cráter a mitos nórdicos y estonios sobre un sol capturado o herido que cae del cielo, motivo por el cual el sitio se conoce popularmente como la Tumba del Sol, y el propio cráter funcionó como un lugar de culto y peregrinación religiosa hasta bien entrada la Edad Media.",
+      },
+      en: {
+        title: "The Meteor Crater They Called the 'Sun's Grave'",
+        subtitle: "The Kaali Crater, the Sun's Grave",
+        imageAlt: "Cartoon of a circular lake inside a crater ringed by a raised earthen edge.",
+        description:
+          "The Kaali crater, on the Estonian island of Saaremaa, formed between roughly thirty-five hundred and seventy-seven hundred years ago when a several-ton iron meteorite struck Earth with an estimated force equivalent to dozens of atomic bombs, leaving a main crater one hundred meters across now ringed by a circular lake and eight smaller secondary craters produced by fragments of the same impact. The event, almost certainly witnessed by human communities living in the region at the time given how close it falls to that era, left a deep mark on later Baltic and Scandinavian folklore, with researchers linking the crater to Nordic and Estonian myths about a captured or wounded sun falling from the sky, which is why the site is popularly known as the Sun's Grave, and the crater itself served as a site of worship and religious pilgrimage well into the Middle Ages.",
+      },
+    },
+  },
 ];

@@ -133,6 +133,96 @@ const AurorasBorealesCazadoresDeLuces: IllustrationComponent = ({ accentColor })
   );
 };
 
+const EdvardMunchYElGrito: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const sky = "#E8622C";
+  return (
+    <g>
+      {/* swirling orange sky */}
+      <path d="M90 160 Q150 130 205 150 Q260 170 320 140" fill="none" stroke={sky} strokeWidth="14" opacity="0.6" strokeLinecap="round" />
+      <path d="M90 190 Q150 165 205 185 Q260 200 320 175" fill="none" stroke={tint(sky, 0.2)} strokeWidth="12" opacity="0.5" strokeLinecap="round" />
+      {/* bridge railing */}
+      <path d="M90 230 Q205 245 320 225" fill="none" stroke={dark} strokeWidth="6" opacity="0.6" />
+      {/* the figure's head, hands pressed to its face */}
+      <ellipse cx="205" cy="180" rx="24" ry="30" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="192" cy="185" rx="7" ry="10" fill={dark} opacity="0.6" />
+      <ellipse cx="218" cy="185" rx="7" ry="10" fill={dark} opacity="0.6" />
+      {/* robe */}
+      <path d="M180 205 Q205 195 230 205 L222 245 L188 245 Z" fill={dark} opacity="0.85" />
+    </g>
+  );
+};
+
+const RoaldAmundsenElPrimeroEnElPoloSur: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      {/* snow ground */}
+      <path d="M90 245 Q205 255 320 245 L320 250 L90 250 Z" fill="#F5F0E6" opacity="0.7" />
+      {/* bundled-up explorer */}
+      <circle cx="165" cy="165" r="16" fill={skin} />
+      <path d="M150 185 Q165 175 182 185 L176 235 L154 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* flag planted in the snow */}
+      <line x1="230" y1="240" x2="230" y2="150" stroke={dark} strokeWidth="3" />
+      <path d="M230 150 L270 165 L230 180 Z" fill="#C1272D" stroke={dark} strokeWidth="1.5" />
+      {/* sled dog silhouette */}
+      <path d="M110 235 Q125 218 150 228 L146 240 L114 240 Z" fill={dark} opacity="0.7" />
+    </g>
+  );
+};
+
+const LasIglesiasDeMaderaEnFormaDeNaveVikinga: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="165" y="195" width="80" height="50" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <polygon points="160,195 205,155 250,195" fill={tint(accentColor, 0.25)} stroke={dark} strokeWidth="2.5" />
+      <polygon points="180,155 205,130 230,155" fill={accentColor} stroke={dark} strokeWidth="2" />
+      {/* dragon head finials at the roof ends */}
+      <path d="M180 155 Q170 148 172 138 Q180 143 183 152 Z" fill={dark} />
+      <path d="M230 155 Q240 148 238 138 Q230 143 227 152 Z" fill={dark} />
+    </g>
+  );
+};
+
+const NoruegaElPaisQueMasAutosElectricosVende: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 245 Q205 255 320 245 L320 250 L90 250 Z" fill="#3D8FB0" opacity="0.5" />
+      {/* car cabin and body */}
+      <path d="M120 220 L140 195 L230 195 L250 220 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="110" y="220" width="150" height="20" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="140" cy="240" r="12" fill={dark} />
+      <circle cx="230" cy="240" r="12" fill={dark} />
+      {/* charging cable and bolt icon */}
+      <line x1="270" y1="225" x2="290" y2="225" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <path d="M280 195 L268 215 L278 215 L266 235 L292 210 L280 210 Z" fill="#F4A300" />
+    </g>
+  );
+};
+
+const El17DeMayoElDiaNacionalDeLosNinos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  const child = (cx: number, cy: number, color: string) => (
+    <g key={cx}>
+      <circle cx={cx} cy={cy} r="13" fill={skin} />
+      <path d={`M${cx - 15} ${cy + 10} Q${cx} ${cy + 2} ${cx + 15} ${cy + 10} L${cx + 11} ${cy + 55} L${cx - 11} ${cy + 55} Z`} fill={color} stroke={dark} strokeWidth="2" />
+      <line x1={cx + 14} y1={cy + 25} x2={cx + 14} y2={cy - 30} stroke={dark} strokeWidth="2" />
+      <path d={`M${cx + 14} ${cy - 30} L${cx + 32} ${cy - 23} L${cx + 14} ${cy - 16} Z`} fill="#C1272D" />
+    </g>
+  );
+  return (
+    <g>
+      {child(150, 175, accentColor)}
+      {child(205, 160, tint(accentColor, 0.3))}
+      {child(260, 178, shade(accentColor, 0.15))}
+    </g>
+  );
+};
+
 export const norwayIllustrations: Record<string, IllustrationDefinition> = {
   "fiordos-tallados-por-glaciares": { component: FiordosTalladosPorGlaciares },
   "fondo-soberano-mas-grande-del-mundo": { component: FondoSoberanoMasGrandeDelMundo },
@@ -144,4 +234,9 @@ export const norwayIllustrations: Record<string, IllustrationDefinition> = {
   "salmon-noruego-mitad-del-mundo": { component: SalmonNoruegoMitadDelMundo },
   "bryggen-el-muelle-hanseatico-de-bergen": { component: BryggenElMuelleHanseaticoDeBergen },
   "auroras-boreales-cazadores-de-luces": { component: AurorasBorealesCazadoresDeLuces },
+  "edvard-munch-y-el-grito": { component: EdvardMunchYElGrito },
+  "roald-amundsen-el-primero-en-el-polo-sur": { component: RoaldAmundsenElPrimeroEnElPoloSur },
+  "las-iglesias-de-madera-en-forma-de-nave-vikinga": { component: LasIglesiasDeMaderaEnFormaDeNaveVikinga },
+  "noruega-el-pais-que-mas-autos-electricos-vende": { component: NoruegaElPaisQueMasAutosElectricosVende },
+  "el-17-de-mayo-el-dia-nacional-de-los-ninos": { component: El17DeMayoElDiaNacionalDeLosNinos },
 };

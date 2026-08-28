@@ -231,4 +231,119 @@ export const czechRepublic: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "alphonse-mucha-el-padre-del-art-nouveau",
+    order: 11,
+    placeholderEmoji: "🖼️",
+    accentColor: "#B7752E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cartelista que definió el estilo Art Nouveau",
+        subtitle: "Alphonse Mucha, padre del Art Nouveau",
+        imageAlt: "Caricatura de un cartel con una figura femenina alargada rodeada de un marco floral ornamentado.",
+        description:
+          "El pintor e ilustrador checo Alphonse Mucha saltó a la fama casi de la noche a la mañana en la Nochevieja de 1894, cuando aceptó de urgencia un encargo para diseñar un cartel de la actriz francesa Sarah Bernhardt tras la ausencia del ilustrador habitual, produciendo una obra de figura femenina alargada, colores pastel y marcos florales tan distinta a todo lo que circulaba en las calles de París que Bernhardt lo contrató en el acto para varios años más de carteles. El estilo resultante, con su combinación de líneas sinuosas, motivos vegetales estilizados y mujeres idealizadas rodeadas de halos decorativos, se volvió tan influyente que definió buena parte de la estética visual del Art Nouveau europeo, aunque el propio Mucha, ya de regreso en su Bohemia natal, dedicó las últimas décadas de su vida a un proyecto muy distinto: La epopeya eslava, veinte cuadros monumentales sobre la historia de los pueblos eslavos que consideraba su obra más importante.",
+      },
+      en: {
+        title: "The Poster Artist Who Defined Art Nouveau",
+        subtitle: "Alphonse Mucha, Father of Art Nouveau",
+        imageAlt: "Cartoon of a poster with an elongated female figure surrounded by an ornamental floral frame.",
+        description:
+          "Czech painter and illustrator Alphonse Mucha shot to fame almost overnight on New Year's Eve 1894, when he urgently took on a commission to design a poster for French actress Sarah Bernhardt after her usual illustrator was unavailable, producing a work with an elongated female figure, pastel colors, and floral ornamental frames so different from anything on the streets of Paris that Bernhardt hired him on the spot for several more years of posters. The resulting style, blending sinuous lines, stylized plant motifs, and idealized women surrounded by decorative halos, became so influential it defined much of the visual aesthetic of the European Art Nouveau movement, though Mucha himself, back in his native Bohemia, spent his final decades on a very different project: The Slav Epic, twenty monumental paintings on the history of the Slavic peoples he considered his most important work.",
+      },
+    },
+  },
+  {
+    id: "gregor-mendel-el-monje-que-fundo-la-genetica",
+    order: 12,
+    placeholderEmoji: "🌱",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El monje que descifró la herencia con plantas de arveja",
+        subtitle: "Gregor Mendel, fundador de la genética",
+        imageAlt: "Caricatura de un monje observando hileras de plantas de arveja con flores de dos colores en un jardín.",
+        description:
+          "El monje agustino Gregor Mendel cultivó y cruzó durante casi una década, entre 1856 y 1863, miles de plantas de arveja en el jardín del monasterio de Brno, en la región checa de Moravia, registrando meticulosamente cómo se heredaban rasgos como el color de la flor o la forma de la semilla a través de generaciones sucesivas, un trabajo que le permitió formular las leyes básicas de la herencia genética décadas antes de que existiera el concepto moderno de gen. Mendel publicó sus resultados en 1866 en una revista científica local de escasa circulación, y su trabajo pasó prácticamente inadvertido durante más de treinta años, hasta que científicos europeos redescubrieron sus leyes de forma independiente alrededor de 1900, reconociéndolo entonces póstumamente como el fundador de la genética moderna. El monasterio donde experimentó funciona hoy como museo dedicado a su figura.",
+      },
+      en: {
+        title: "The Monk Who Cracked Heredity With Pea Plants",
+        subtitle: "Gregor Mendel, Founder of Genetics",
+        imageAlt: "Cartoon of a monk observing rows of pea plants with two-colored flowers in a garden.",
+        description:
+          "Augustinian monk Gregor Mendel spent nearly a decade, between 1856 and 1863, growing and crossbreeding thousands of pea plants in the garden of the Brno monastery, in the Czech region of Moravia, meticulously recording how traits like flower color or seed shape passed down across successive generations, work that let him formulate the basic laws of genetic inheritance decades before the modern concept of a gene even existed. Mendel published his findings in 1866 in a local scientific journal with limited circulation, and his work went practically unnoticed for more than thirty years, until European scientists independently rediscovered his laws around 1900, posthumously recognizing him as the founder of modern genetics. The monastery where he ran his experiments now operates as a museum dedicated to his work.",
+      },
+    },
+  },
+  {
+    id: "la-tradicion-checa-de-los-titeres-de-madera",
+    order: 13,
+    placeholderEmoji: "🎭",
+    accentColor: "#6A1B1A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los títeres de madera que resistieron la censura",
+        subtitle: "La tradición checa de los títeres de madera",
+        imageAlt: "Caricatura de una marioneta de madera con gorro puntiagudo colgando de hilos frente a un escenario pequeño.",
+        description:
+          "El teatro de títeres se convirtió en Chequia, desde el siglo XVIII, en mucho más que un entretenimiento infantil: durante los períodos en que el alemán fue impuesto como lengua oficial bajo dominio austrohúngaro, titiriteros itinerantes recorrían pueblos representando obras en checo con marionetas de madera talladas a mano, preservando el idioma y la cultura popular en un formato que las autoridades rara vez tomaban lo bastante en serio como para censurar. Esa tradición produjo personajes propios como Kašpárek, un bufón astuto de gorro puntiagudo equivalente checo a Polichinela, y sobrevivió tanto la ocupación nazi como el período comunista, cuando algunos titiriteros usaron el formato para colar crítica política velada bajo la apariencia de historias infantiles inocentes. Reconocida por la UNESCO como patrimonio cultural inmaterial en 2016, la tradición sigue viva hoy en escuelas de marionetistas, festivales y el Teatro Nacional de Marionetas de Praga.",
+      },
+      en: {
+        title: "The Wooden Puppets That Outlasted Censorship",
+        subtitle: "Czechia's Wooden Puppet Tradition",
+        imageAlt: "Cartoon of a wooden puppet in a pointed cap hanging from strings in front of a small stage.",
+        description:
+          "Puppet theater became, in Czechia starting in the 18th century, far more than children's entertainment: during periods when German was imposed as the official language under Austro-Hungarian rule, traveling puppeteers toured villages performing plays in Czech with hand-carved wooden marionettes, preserving the language and popular culture in a format authorities rarely took seriously enough to censor. That tradition produced its own stock characters, like Kašpárek, a witty jester in a pointed cap, the Czech equivalent of Punch, and it survived both Nazi occupation and the communist period, when some puppeteers used the format to slip veiled political criticism into seemingly innocent children's stories. Recognized by UNESCO as intangible cultural heritage in 2016, the tradition remains alive today in puppetry schools, festivals, and Prague's National Marionette Theatre.",
+      },
+    },
+  },
+  {
+    id: "el-oro-de-hockey-en-nagano-1998",
+    order: 14,
+    placeholderEmoji: "🥇",
+    accentColor: "#1B4F91",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El oro olímpico que paralizó al país entero",
+        subtitle: "El oro de hockey en los Juegos de Nagano 1998",
+        imageAlt: "Caricatura de un jugador de hockey levantando una medalla de oro sobre el hielo.",
+        description:
+          "La selección checa de hockey sobre hielo, integrada por primera vez en unos Juegos Olímpicos por jugadores profesionales de la NHL norteamericana, ganó de forma sorpresiva la medalla de oro en los Juegos Olímpicos de Invierno de Nagano en 1998, derrotando en semifinales a la poderosa Rusia y luego a Finlandia en la final, en lo que se convirtió en el primer gran título deportivo de la Chequia independiente, apenas cinco años después de la separación pacífica de Checoslovaquia. El país entero prácticamente se detuvo para ver la final por televisión, con oficinas y escuelas vaciándose y calles de ciudades enteras desiertas durante el partido, y el regreso del equipo a Praga convocó a cientos de miles de personas en la plaza de Venceslao en una celebración que muchos checos todavía describen como el momento de mayor unidad nacional espontánea de la historia reciente del país.",
+      },
+      en: {
+        title: "The Olympic Gold That Stopped the Whole Country",
+        subtitle: "Hockey Gold at the 1998 Nagano Olympics",
+        imageAlt: "Cartoon of a hockey player raising a gold medal on the ice.",
+        description:
+          "The Czech ice hockey team, featuring NHL professional players at an Olympics for the first time, surprisingly won gold at the 1998 Nagano Winter Olympics, beating powerhouse Russia in the semifinal and then Finland in the final, becoming independent Czechia's first major sporting title, just five years after Czechoslovakia's peaceful split. The entire country essentially stopped to watch the final on television, with offices and schools emptying out and streets across whole cities left deserted during the game, and the team's return to Prague drew hundreds of thousands of people to Wenceslas Square in a celebration many Czechs still describe as the country's most spontaneous moment of national unity in recent history.",
+      },
+    },
+  },
+  {
+    id: "el-buen-soldado-svejk-la-satira-nacional",
+    order: 15,
+    placeholderEmoji: "📖",
+    accentColor: "#6B4C3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El soldado tonto que se convirtió en símbolo nacional",
+        subtitle: "El buen soldado Švejk, sátira nacional",
+        imageAlt: "Caricatura de un soldado de aspecto torpe con uniforme austrohúngaro sonriendo despreocupadamente.",
+        description:
+          "Las aventuras del buen soldado Švejk, la novela satírica inconclusa que el escritor checo Jaroslav Hašek empezó a publicar en 1921, narra las peripecias de un soldado checo reclutado por el ejército austrohúngaro durante la Primera Guerra Mundial que sabotea sistemáticamente cada orden que recibe fingiendo, con obediencia excesiva e ingenua estupidez, no entender nunca del todo lo que se le pide, una estrategia de resistencia pasiva que lo convirtió en un símbolo nacional del ingenio checo frente a la autoridad extranjera impuesta. Aunque Hašek murió en 1923 sin terminar la obra, Švejk se transformó en una figura tan reconocible en la cultura checa que su nombre dio origen al verbo švejkovat, usado coloquialmente para describir la táctica de sabotear órdenes absurdas cumpliéndolas al pie de la letra hasta volverlas ridículas, una actitud que muchos checos todavía reivindican como rasgo distintivo del carácter nacional.",
+      },
+      en: {
+        title: "The Foolish Soldier Who Became a National Symbol",
+        subtitle: "The Good Soldier Švejk, National Satire",
+        imageAlt: "Cartoon of a clumsy-looking soldier in an Austro-Hungarian uniform smiling carelessly.",
+        description:
+          "The Good Soldier Švejk, the unfinished satirical novel Czech writer Jaroslav Hašek began publishing in 1921, follows the misadventures of a Czech soldier conscripted into the Austro-Hungarian army during World War I who systematically sabotages every order he receives by feigning, with excessive obedience and naive stupidity, to never quite understand what is being asked of him, a passive-resistance strategy that turned him into a national symbol of Czech wit against imposed foreign authority. Although Hašek died in 1923 without finishing the novel, Švejk became such a recognizable figure in Czech culture that his name gave rise to the verb švejkovat, colloquially used to describe the tactic of sabotaging absurd orders by following them so literally they become ridiculous, an attitude many Czechs still claim as a defining trait of the national character.",
+      },
+    },
+  },
 ];

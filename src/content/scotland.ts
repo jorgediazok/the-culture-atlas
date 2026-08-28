@@ -231,4 +231,119 @@ export const scotland: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "robert-the-bruce-y-la-batalla-de-bannockburn",
+    order: 11,
+    placeholderEmoji: "⚔️",
+    accentColor: "#1B4F91",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El rey que se escondió en una cueva antes de vencer",
+        subtitle: "Robert the Bruce y Bannockburn",
+        imageAlt: "Caricatura de un rey con espada en alto montado a caballo frente a un ejército.",
+        description:
+          "Robert the Bruce, coronado rey de Escocia en 1306 tras asesinar a un rival político dentro de una iglesia, un acto que le costó la excomunión papal, pasó los primeros años de su reinado derrotado y prófugo, escondido según la leyenda popular en una cueva donde observó a una araña intentar tejer su tela una y otra vez pese a caerse repetidamente, una imagen que supuestamente lo convenció de no rendirse en su lucha por la independencia escocesa. Ocho años después, en 1314, Bruce lideró a un ejército escocés más pequeño hasta una victoria decisiva sobre las fuerzas inglesas en la batalla de Bannockburn, un triunfo que consolidó su reinado y marcó un punto de inflexión clave en las guerras de independencia escocesas, aunque el reconocimiento pleno de la independencia por parte de Inglaterra recién llegaría en 1328. Bruce sigue siendo hoy una de las figuras históricas más veneradas de Escocia, con estatuas ecuestres en el propio campo de Bannockburn y en el castillo de Edimburgo.",
+      },
+      en: {
+        title: "The King Who Hid in a Cave Before Winning",
+        subtitle: "Robert the Bruce and Bannockburn",
+        imageAlt: "Cartoon of a king with a raised sword mounted on a horse in front of an army.",
+        description:
+          "Robert the Bruce, crowned King of Scotland in 1306 after killing a political rival inside a church, an act that earned him papal excommunication, spent the early years of his reign defeated and on the run, hiding, according to popular legend, in a cave where he watched a spider try again and again to spin its web despite repeatedly falling, an image said to have convinced him not to give up his fight for Scottish independence. Eight years later, in 1314, Bruce led a considerably smaller Scottish army to a decisive victory over English forces at the Battle of Bannockburn, a triumph that cemented his reign and marked a key turning point in the Scottish Wars of Independence, though England's full formal recognition of Scottish independence would not arrive until 1328. Bruce remains one of Scotland's most revered historical figures today, with equestrian statues at the Bannockburn battlefield itself and at Edinburgh Castle.",
+      },
+    },
+  },
+  {
+    id: "dolly-la-oveja-el-primer-mamifero-clonado",
+    order: 12,
+    placeholderEmoji: "🐑",
+    accentColor: "#8B6F47",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La oveja que fue el primer mamífero clonado del mundo",
+        subtitle: "Dolly, el primer mamífero clonado",
+        imageAlt: "Caricatura de una oveja blanca de pie en un laboratorio junto a tubos de ensayo.",
+        description:
+          "Dolly, una oveja de raza Finn Dorset nacida en 1996 en el Instituto Roslin cerca de Edimburgo, se convirtió en el primer mamífero clonado con éxito a partir de una célula adulta, un logro científico que el equipo liderado por Ian Wilmut mantuvo en secreto durante meses hasta anunciarlo públicamente en 1997, generando un debate ético y científico mundial casi inmediato sobre los límites de la clonación y sus posibles aplicaciones futuras en humanos. El nombre Dolly fue elegido en referencia humorística a la cantante Dolly Parton, ya que la célula original provino de una glándula mamaria, y aunque la oveja vivió una vida relativamente normal, tuvo seis crías propias por reproducción natural y murió en 2003 a los seis años por una enfermedad pulmonar, más joven de lo habitual para su raza, un dato que alimentó preguntas científicas sobre el posible envejecimiento prematuro de los animales clonados. Dolly, disecada, se exhibe hoy en el Museo Nacional de Escocia en Edimburgo.",
+      },
+      en: {
+        title: "The Sheep That Was the World's First Cloned Mammal",
+        subtitle: "Dolly, the First Cloned Mammal",
+        imageAlt: "Cartoon of a white sheep standing in a laboratory beside test tubes.",
+        description:
+          "Dolly, a Finn Dorset sheep born in 1996 at the Roslin Institute near Edinburgh, became the first mammal successfully cloned from an adult cell, a scientific breakthrough the team led by Ian Wilmut kept secret for months before publicly announcing it in 1997, sparking an almost immediate worldwide ethical and scientific debate over the limits of cloning and its possible future applications in humans. Dolly's name was chosen as a humorous nod to singer Dolly Parton, since the original cell came from a mammary gland, and although the sheep lived a relatively normal life, having six lambs of her own through natural reproduction, she died in 2003 at age six from a lung disease, younger than typical for her breed, a fact that fueled scientific questions about possible premature aging in cloned animals. Dolly, now taxidermied, is on display today at the National Museum of Scotland in Edinburgh.",
+      },
+    },
+  },
+  {
+    id: "irn-bru-la-bebida-que-le-gana-a-la-coca-cola",
+    order: 13,
+    placeholderEmoji: "🥤",
+    accentColor: "#F4A300",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La bebida naranja que le gana a la Coca-Cola en casa",
+        subtitle: "Irn-Bru, más popular que la Coca-Cola",
+        imageAlt: "Caricatura de una lata de gaseosa naranja brillante con burbujas subiendo alrededor.",
+        description:
+          "Irn-Bru, una gaseosa de color naranja intenso y sabor distintivo difícil de describir, elaborada según una fórmula secreta que solo conocen un puñado de personas dentro de la empresa fabricante, es una de las pocas bebidas gaseosas del mundo que logra superar en ventas locales a la Coca-Cola dentro de su propio país de origen, un fenómeno tan inusual que Escocia se cita habitualmente junto a Perú, gracias a la Inca Kola, como una de las escasas excepciones globales al dominio comercial de la marca estadounidense. Fabricada originalmente en 1901 bajo el nombre Iron Brew, un nombre que debió cambiarse por regulaciones posteriores que exigían que el producto contuviera efectivamente hierro para llamarse así, la bebida se convirtió en un símbolo de identidad nacional escocesa promocionado con campañas publicitarias irreverentes y hasta apodado en broma la otra bebida nacional de Escocia, justo después del whisky, en encuestas populares sobre orgullo local.",
+      },
+      en: {
+        title: "The Orange Drink That Outsells Coca-Cola at Home",
+        subtitle: "Irn-Bru, More Popular Than Coca-Cola",
+        imageAlt: "Cartoon of a bright orange soda can with bubbles rising around it.",
+        description:
+          "Irn-Bru, a bright orange soft drink with a distinctive flavor hard to describe, made from a secret formula known to only a handful of people inside the manufacturing company, is one of the few soft drinks in the world that outsells Coca-Cola locally in its own country of origin, an unusual enough phenomenon that Scotland is routinely cited alongside Peru, thanks to Inca Kola, as one of the rare global exceptions to the American brand's commercial dominance. Originally made in 1901 under the name Iron Brew, a name later regulations forced to change since the product would have needed to actually contain iron to be called that, the drink became a symbol of Scottish national identity, promoted through irreverent ad campaigns and even jokingly nicknamed Scotland's other national drink, right behind whisky, in popular surveys about local pride.",
+      },
+    },
+  },
+  {
+    id: "adam-smith-y-la-ilustracion-escocesa",
+    order: 14,
+    placeholderEmoji: "📘",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El economista padre del capitalismo moderno",
+        subtitle: "Adam Smith y la Ilustración escocesa",
+        imageAlt: "Caricatura de un libro grueso abierto junto a una pluma y un tintero sobre un escritorio.",
+        description:
+          "Adam Smith, nacido en la localidad escocesa de Kirkcaldy en 1723, publicó en 1776 La riqueza de las naciones, un tratado que sentó buena parte de las bases teóricas del capitalismo moderno al describir cómo la búsqueda del interés propio individual, coordinada por lo que Smith llamó la mano invisible del mercado, podía generar prosperidad colectiva sin necesidad de planificación central. Smith formó parte de un período extraordinario conocido como la Ilustración escocesa, a fines del siglo XVIII, durante el cual Edimburgo y Glasgow se convirtieron en centros intelectuales de primer nivel mundial que produjeron en pocas décadas a filósofos y científicos de la talla de David Hume, James Hutton, padre de la geología moderna, y James Watt, cuyas mejoras a la máquina de vapor impulsaron la revolución industrial, una concentración de genio que llevó a historiadores a describir a esa Escocia como la cuna del mundo moderno.",
+      },
+      en: {
+        title: "The Economist Who Wrote Capitalism's Founding Book",
+        subtitle: "Adam Smith and the Scottish Enlightenment",
+        imageAlt: "Cartoon of a thick open book beside a quill and inkwell on a desk.",
+        description:
+          "Adam Smith, born in the Scottish town of Kirkcaldy in 1723, published The Wealth of Nations in 1776, a treatise that laid much of the theoretical groundwork for modern capitalism by describing how the pursuit of individual self-interest, coordinated by what Smith called the market's invisible hand, could generate collective prosperity without central planning. Smith was part of an extraordinary period known as the Scottish Enlightenment, in the late 18th century, during which Edinburgh and Glasgow became world-class intellectual centers that produced, in just a few decades, philosophers and scientists of the caliber of David Hume, James Hutton, the father of modern geology, and James Watt, whose improvements to the steam engine helped drive the Industrial Revolution, a concentration of genius that led historians to describe that era's Scotland as the cradle of the modern world.",
+      },
+    },
+  },
+  {
+    id: "la-isla-de-skye-y-las-piscinas-de-las-hadas",
+    order: 15,
+    placeholderEmoji: "💧",
+    accentColor: "#0065BD",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las piscinas que llevan el nombre de las hadas",
+        subtitle: "La Isla de Skye y las Piscinas de las Hadas",
+        imageAlt: "Caricatura de pozas de agua turquesa y una cascada entre rocas montañosas.",
+        description:
+          "La Isla de Skye, la más grande del archipiélago de las Hébridas Interiores frente a la costa noroeste de Escocia, combina paisajes dramáticos de montañas escarpadas como las Cuillin con las Piscinas de las Hadas, una serie de pozas y cascadas de agua glaciar excepcionalmente transparente formadas en el lecho rocoso del río Brittle, cuyo nombre proviene del folclore local que asociaba estas aguas cristalinas con la presencia de seres feéricos. Pese a la temperatura gélida del agua, que ronda apenas unos pocos grados incluso en pleno verano, las piscinas se volvieron en la última década un destino extremadamente popular entre visitantes dispuestos a nadar brevemente en sus aguas color turquesa, alimentado en gran parte por la viralización de fotografías en redes sociales, un fenómeno que obligó a las autoridades locales a mejorar significativamente los senderos y el estacionamiento de la zona para manejar el aumento explosivo de visitantes.",
+      },
+      en: {
+        title: "The Crystal-Clear Pools Named After the Fairies",
+        subtitle: "The Isle of Skye and the Fairy Pools",
+        imageAlt: "Cartoon of turquoise water pools and a waterfall among mountain rocks.",
+        description:
+          "The Isle of Skye, the largest of the Inner Hebrides off Scotland's northwest coast, combines dramatic landscapes of jagged mountains like the Cuillin with the Fairy Pools, a series of exceptionally clear glacial pools and waterfalls carved into the rocky bed of the River Brittle, whose name comes from local folklore linking these crystal-clear waters to the presence of fairy beings. Despite the water's freezing temperature, hovering at just a few degrees even in the height of summer, the pools became an extremely popular destination over the past decade for visitors willing to take a quick dip in their turquoise waters, driven largely by photos going viral on social media, a phenomenon that forced local authorities to significantly upgrade the area's trails and parking to handle the explosive rise in visitors.",
+      },
+    },
+  },
 ];

@@ -231,4 +231,119 @@ export const finland: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "jean-sibelius-y-la-musica-finlandia",
+    order: 11,
+    placeholderEmoji: "🎼",
+    accentColor: "#1B3A5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La pieza musical que sonó como protesta silenciosa",
+        subtitle: "Jean Sibelius y su obra 'Finlandia'",
+        imageAlt: "Caricatura de un director de orquesta con una batuta frente a un atril con una partitura.",
+        description:
+          "El compositor Jean Sibelius escribió en 1899 la pieza orquestal Finlandia como parte de un evento cultural organizado para recaudar fondos para la prensa, pero que en la práctica funcionó como una protesta velada contra la censura rusa impuesta sobre el gran ducado de Finlandia, entonces bajo dominio del Imperio ruso, que había empezado a restringir duramente la libertad de expresión finlandesa. La obra, con un final construido sobre un himno solemne conocido hoy como El himno de Finlandia y que muchos finlandeses consideran un segundo himno nacional no oficial, se volvió tan asociada al nacionalismo finlandés que las autoridades rusas llegaron a prohibir su interpretación bajo ese título, obligando a presentarla con nombres alternativos disfrazados. Sibelius, hoy la figura más reconocida internacionalmente de la música clásica finlandesa, aparece retratado en el billete de cien marcos finlandeses previo al euro.",
+      },
+      en: {
+        title: "The Piece of Music That Rang Out as a Silent Protest",
+        subtitle: "Jean Sibelius and His Work 'Finlandia'",
+        imageAlt: "Cartoon of an orchestra conductor with a baton in front of a music stand with sheet music.",
+        description:
+          "Composer Jean Sibelius wrote the orchestral piece Finlandia in 1899 as part of a cultural event officially organized to raise funds for the press, but which in practice served as a veiled protest against Russian censorship imposed on the Grand Duchy of Finland, then under the rule of the Russian Empire, which had begun harshly restricting Finnish freedom of expression. The piece, ending in a solemn hymn now known as the Finlandia Hymn and considered by many Finns an unofficial second national anthem, became so tied to Finnish nationalism that Russian authorities at times banned performances under that title, forcing it to be presented under disguised alternate names. Sibelius, today the most internationally recognized figure in Finnish classical music, was pictured on the pre-euro one-hundred-markka banknote.",
+      },
+    },
+  },
+  {
+    id: "el-finlandes-un-idioma-sin-parientes-cercanos",
+    order: 12,
+    placeholderEmoji: "🗣️",
+    accentColor: "#6B4C9A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El idioma sin parientes entre sus vecinos escandinavos",
+        subtitle: "El finlandés, un idioma sin parientes cercanos",
+        imageAlt: "Caricatura de un globo de diálogo lleno de una palabra extremadamente larga.",
+        description:
+          "A diferencia del sueco, noruego, danés e islandés, todas lenguas germánicas emparentadas entre sí, el finlandés pertenece a la familia urálica, completamente ajena a las lenguas escandinavas vecinas, y está mucho más emparentado con el estonio y, más lejanamente, con el húngaro que con cualquier idioma hablado en el resto de Escandinavia. El finlandés es un idioma aglutinante que construye palabras larguísimas añadiendo sufijos sucesivos en lugar de usar preposiciones, con hasta quince casos gramaticales distintos que modifican el final de sustantivos y adjetivos según su función en la oración, una estructura que lo vuelve notoriamente difícil de aprender para hablantes de lenguas indoeuropeas. Palabras como kolmivaihekytkinvalaisinasennuslaitesarja, combinaciones legítimas del idioma que describen conceptos técnicos completos en una sola palabra, se citan a menudo como ejemplo extremo de esta característica aglutinante.",
+      },
+      en: {
+        title: "The Language With No Relatives Among Its Neighbors",
+        subtitle: "Finnish, a Language With No Close Relatives",
+        imageAlt: "Cartoon of a speech bubble filled with one extremely long word.",
+        description:
+          "Unlike Swedish, Norwegian, Danish, and Icelandic, all Germanic languages related to one another, Finnish belongs to the Uralic language family, completely unrelated to its Scandinavian neighbors, and is far more closely related to Estonian and, more distantly, to Hungarian than to any language spoken elsewhere in Scandinavia. Finnish is an agglutinative language that builds extremely long words by stacking successive suffixes instead of using prepositions, with up to fifteen distinct grammatical cases that change the ending of nouns and adjectives depending on their role in a sentence, a structure notoriously difficult for speakers of Indo-European languages to learn. Words like kolmivaihekytkinvalaisinasennuslaitesarja, a legitimate combination in the language describing an entire technical concept in a single word, are often cited as an extreme example of this agglutinative trait.",
+      },
+    },
+  },
+  {
+    id: "angry-birds-y-la-industria-finlandesa-de-videojuegos",
+    order: 13,
+    placeholderEmoji: "🐦",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El juego de pájaros que puso a Finlandia en el mapa",
+        subtitle: "Angry Birds y los videojuegos finlandeses",
+        imageAlt: "Caricatura de un pájaro rojo furioso lanzado desde una honda hacia una torre de bloques.",
+        description:
+          "Rovio Entertainment, una pequeña empresa finlandesa fundada en 2003 que había lanzado más de cincuenta juegos sin gran éxito comercial, lanzó en 2009 Angry Birds, un juego de física simple donde pájaros furiosos se catapultan contra estructuras defendidas por cerdos, que se convirtió en un fenómeno mundial descargado miles de millones de veces y con mercadería que incluyó desde una película animada hasta parques temáticos. El éxito de Angry Birds ayudó a consolidar a Finlandia como una potencia desproporcionada de la industria de videojuegos móviles para su tamaño, con otras empresas finlandesas como Supercell, creadora de Clash of Clans y Clash Royale, generando miles de millones de dólares en ingresos anuales, una tradición tecnológica que muchos analistas vinculan directamente a la base de ingenieros y programadores que dejó libre el declive de Nokia como fabricante líder de teléfonos.",
+      },
+      en: {
+        title: "The Bird Game That Put Finland on Everyone's Phone",
+        subtitle: "Angry Birds and Finnish Video Games",
+        imageAlt: "Cartoon of a furious red bird launched from a slingshot toward a tower of blocks.",
+        description:
+          "Rovio Entertainment, a small Finnish company founded in 2003 that had released more than fifty games without major commercial success, launched Angry Birds in 2009, a simple physics game where furious birds are catapulted at structures defended by pigs, which became a worldwide phenomenon downloaded billions of times, spawning merchandise ranging from an animated film to theme parks. Angry Birds' success helped cement Finland as a disproportionate powerhouse in the mobile gaming industry relative to its size, with other Finnish companies like Supercell, maker of Clash of Clans and Clash Royale, generating billions of dollars in annual revenue, a tech tradition many analysts trace directly to the pool of engineers and programmers freed up by Nokia's decline as the leading phone manufacturer.",
+      },
+    },
+  },
+  {
+    id: "salmiakki-el-caramelo-salado-que-solo-gustan-los-finlandeses",
+    order: 14,
+    placeholderEmoji: "🖤",
+    accentColor: "#2E241A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El caramelo negro tan salado que asusta a los turistas",
+        subtitle: "El salmiakki, un caramelo muy particular",
+        imageAlt: "Caricatura de caramelos negros triangulares dentro de una bolsa de papel abierta.",
+        description:
+          "El salmiakki, un caramelo de regaliz negro saborizado con cloruro de amonio, un compuesto químico que le da un sabor intensamente salado y amargo poco común en la confitería del resto del mundo, es uno de los dulces más consumidos en Finlandia pese a que la primera reacción de casi cualquier extranjero que lo prueba por primera vez suele oscilar entre la sorpresa y el rechazo directo. Originado en los países nórdicos a comienzos del siglo XX como derivado medicinal del regaliz, el salmiakki se volvió con el tiempo un ingrediente versátil de la cocina finlandesa moderna, usado hoy en helados, licores, chocolates e incluso vodka saborizado, y su sabor extremo se convirtió en una especie de broma cultural nacional que los propios finlandeses usan para poner a prueba a los visitantes extranjeros ofreciéndoles probarlo sin advertencia previa.",
+      },
+      en: {
+        title: "The Black Candy So Salty It Scares Off Tourists",
+        subtitle: "Salmiakki, a Very Particular Candy",
+        imageAlt: "Cartoon of triangular black candies inside an open paper bag.",
+        description:
+          "Salmiakki, a black licorice candy flavored with ammonium chloride, a chemical compound giving it an intensely salty, bitter taste uncommon in confectionery elsewhere in the world, is one of Finland's most widely consumed sweets despite the fact that most foreigners tasting it for the first time react somewhere between shock and outright rejection. Originating in the Nordic countries in the early 20th century as a medicinal derivative of licorice, salmiakki eventually became a versatile ingredient in modern Finnish cuisine, used today in ice cream, liqueurs, chocolate, and even flavored vodka, and its extreme taste turned into a kind of national cultural prank Finns themselves use to test unsuspecting foreign visitors by offering it without warning.",
+      },
+    },
+  },
+  {
+    id: "el-dia-de-la-independencia-y-las-dos-velas",
+    order: 15,
+    placeholderEmoji: "🕯️",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las dos velas que se encienden por la independencia",
+        subtitle: "El Día de la Independencia, con velas en la ventana",
+        imageAlt: "Caricatura de dos velas blancas encendidas sobre el alféizar de una ventana nevada.",
+        description:
+          "Finlandia declaró su independencia del Imperio ruso el 6 de diciembre de 1917, en medio de la revolución bolchevique que debilitaba el control ruso sobre sus territorios periféricos, y celebra hoy la fecha de una manera silenciosa y reflexiva poco habitual entre fiestas nacionales, marcada por la costumbre de colocar dos velas blancas encendidas en el alféizar de la ventana de cada casa al caer la noche, una tradición cuyo origen exacto se debate pero que se popularizó tras la Segunda Guerra Mundial como homenaje silencioso a los soldados caídos en los conflictos que Finlandia libró contra la Unión Soviética. A diferencia de otras fiestas de independencia con fuegos artificiales y celebraciones ruidosas, el 6 de diciembre finlandés combina un desfile militar y una recepción presidencial televisada con un tono nacional generalmente sobrio, casi solemne, que refleja el costo humano de conservar su soberanía durante el siglo XX.",
+      },
+      en: {
+        title: "The Two Candles in the Window That Mark Independence",
+        subtitle: "Independence Day, Marked With Window Candles",
+        imageAlt: "Cartoon of two lit white candles on the sill of a snow-covered window.",
+        description:
+          "Finland declared independence from the Russian Empire on December 6, 1917, amid the Bolshevik revolution that was weakening Russian control over its peripheral territories, and today marks the date in a quiet, reflective way unusual among national holidays, defined by the widespread custom of placing two lit white candles in every home's windowsill after dark, a tradition whose exact origin is debated but that spread widely after World War II as a silent tribute to soldiers who died in the conflicts Finland fought against the Soviet Union. Unlike other independence celebrations full of fireworks and loud festivities, Finland's December 6th combines a military parade and a televised presidential reception with a generally sober, almost solemn national tone, reflecting the human cost of preserving its sovereignty through the 20th century.",
+      },
+    },
+  },
 ];

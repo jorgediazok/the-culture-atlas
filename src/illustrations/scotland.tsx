@@ -146,6 +146,93 @@ const ElUnicornioElAnimalNacionalDeEscocia: IllustrationComponent = ({ accentCol
   );
 };
 
+const RobertTheBruceYLaBatallaDeBannockburn: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68642";
+  return (
+    <g>
+      {/* horse body and legs */}
+      <ellipse cx="190" cy="200" rx="55" ry="24" fill="#5C3A21" stroke={dark} strokeWidth="3" />
+      <line x1="160" y1="222" x2="150" y2="250" stroke="#5C3A21" strokeWidth="9" strokeLinecap="round" />
+      <line x1="220" y1="222" x2="230" y2="250" stroke="#5C3A21" strokeWidth="9" strokeLinecap="round" />
+      {/* neck reaching forward */}
+      <path d="M225 195 Q250 175 245 150" fill="none" stroke="#5C3A21" strokeWidth="14" strokeLinecap="round" />
+      {/* rider */}
+      <circle cx="205" cy="165" r="16" fill={skin} />
+      <path d="M190 178 Q205 170 220 178 L214 210 L196 210 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* raised sword */}
+      <line x1="218" y1="175" x2="255" y2="125" stroke="#B0B8BF" strokeWidth="5" strokeLinecap="round" />
+      <line x1="245" y1="140" x2="262" y2="123" stroke="#8B5A2B" strokeWidth="4" />
+    </g>
+  );
+};
+
+const DollyLaOvejaElPrimerMamiferoClonado: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* fluffy sheep body and head */}
+      <ellipse cx="190" cy="195" rx="60" ry="35" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
+      <circle cx="245" cy="180" r="22" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="256" cy="182" rx="10" ry="7" fill={dark} opacity="0.8" />
+      <circle cx="250" cy="172" r="2.5" fill="#1A1A1A" />
+      <line x1="160" y1="222" x2="158" y2="248" stroke={dark} strokeWidth="6" />
+      <line x1="215" y1="225" x2="217" y2="248" stroke={dark} strokeWidth="6" />
+      {/* lab test tubes */}
+      <rect x="120" y="150" width="12" height="45" rx="5" fill={tint(accentColor, 0.4)} stroke={dark} strokeWidth="2" />
+      <rect x="140" y="160" width="12" height="35" rx="5" fill={accentColor} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const IrnBruLaBebidaQueLeGanaALaCocaCola: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const orange = "#F4A300";
+  return (
+    <g>
+      <rect x="175" y="130" width="60" height="110" rx="10" fill={orange} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="130" rx="30" ry="8" fill={tint(orange, 0.3)} stroke={dark} strokeWidth="2" />
+      <rect x="185" y="165" width="40" height="30" fill={accentColor} opacity="0.85" />
+      {[[150, 150, 10], [260, 170, 8], [240, 120, 6], [165, 110, 7]].map(([x, y, r]) => (
+        <circle key={x as number} cx={x} cy={y} r={r} fill={orange} opacity="0.7" stroke={dark} strokeWidth="1.5" />
+      ))}
+    </g>
+  );
+};
+
+const AdamSmithYLaIlustracionEscocesa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="140" y="200" width="130" height="16" fill="#5C3A21" />
+      <path d="M150 200 L205 190 L205 205 L150 215 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <path d="M205 190 L260 200 L260 215 L205 205 Z" fill="#E8DCC0" stroke={dark} strokeWidth="2.5" />
+      <line x1="160" y1="207" x2="195" y2="200" stroke={dark} strokeWidth="1" opacity="0.4" />
+      <line x1="215" y1="200" x2="250" y2="207" stroke={dark} strokeWidth="1" opacity="0.4" />
+      {/* quill */}
+      <line x1="280" y1="230" x2="245" y2="140" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <path d="M245 140 L258 122 L252 136 L262 132 L248 152 Z" fill={dark} />
+      {/* inkwell */}
+      <ellipse cx="290" cy="235" rx="16" ry="8" fill={accentColor} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const LaIslaDeSkyeYLasPiscinasDeLasHadas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#1FB8C4";
+  return (
+    <g>
+      <path d="M90 250 L110 190 L150 200 L180 150 L220 210 L260 170 L320 250 Z" fill={tint(accentColor, 0.2)} opacity="0.6" stroke={dark} strokeWidth="2" />
+      {/* waterfall */}
+      <path d="M180 150 Q185 190 178 230" fill="none" stroke="#F5F0E6" strokeWidth="10" opacity="0.85" strokeLinecap="round" />
+      {/* turquoise pools */}
+      <ellipse cx="160" cy="235" rx="45" ry="14" fill={water} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="250" cy="240" rx="35" ry="11" fill={water} stroke={dark} strokeWidth="2.5" />
+    </g>
+  );
+};
+
 export const scotlandIllustrations: Record<string, IllustrationDefinition> = {
   "el-monstruo-del-lago-ness": { component: ElMonstruoDelLagoNess },
   "el-whisky-escoces-sin-la-e": { component: ElWhiskyEscocesSinLaE },
@@ -157,4 +244,9 @@ export const scotlandIllustrations: Record<string, IllustrationDefinition> = {
   "las-highland-games-y-el-lanzamiento-del-tronco": { component: LasHighlandGamesYElLanzamientoDelTronco },
   "hogmanay-la-fiesta-de-fin-de-ano": { component: HogmanayLaFiestaDeFinDeAno },
   "el-unicornio-el-animal-nacional-de-escocia": { component: ElUnicornioElAnimalNacionalDeEscocia },
+  "robert-the-bruce-y-la-batalla-de-bannockburn": { component: RobertTheBruceYLaBatallaDeBannockburn },
+  "dolly-la-oveja-el-primer-mamifero-clonado": { component: DollyLaOvejaElPrimerMamiferoClonado },
+  "irn-bru-la-bebida-que-le-gana-a-la-coca-cola": { component: IrnBruLaBebidaQueLeGanaALaCocaCola },
+  "adam-smith-y-la-ilustracion-escocesa": { component: AdamSmithYLaIlustracionEscocesa },
+  "la-isla-de-skye-y-las-piscinas-de-las-hadas": { component: LaIslaDeSkyeYLasPiscinasDeLasHadas },
 };

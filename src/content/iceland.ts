@@ -231,4 +231,119 @@ export const iceland: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "thingvellir-el-parlamento-mas-antiguo-del-mundo",
+    order: 11,
+    placeholderEmoji: "🏛️",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El parlamento más viejo del mundo nació en una grieta",
+        subtitle: "Þingvellir y el Althing, desde el año 930",
+        imageAlt: "Caricatura de una llanura rocosa partida por una grieta profunda con figuras reunidas a un costado.",
+        description:
+          "El Althing, el parlamento nacional de Islandia, se reunió por primera vez en el año 930 en Þingvellir, una llanura donde los jefes de los clanes vikingos de la isla se congregaban anualmente al aire libre para debatir leyes, resolver disputas y escuchar los códigos legales recitados de memoria por un funcionario llamado lögsögumaður, convirtiéndolo en una de las asambleas legislativas continuas más antiguas del mundo, aunque perdió buena parte de su poder real durante siglos de dominación danesa antes de recuperar plena soberanía legislativa en el siglo XX. El sitio elegido no fue casual: Þingvellir se asienta exactamente sobre la falla donde se separan las placas tectónicas norteamericana y euroasiática, por lo que los antiguos islandeses literalmente debatían leyes parados sobre la grieta geológica que separa dos continentes, un detalle que hoy convierte al lugar en un sitio doblemente declarado Patrimonio de la Humanidad, por su valor histórico y geológico.",
+      },
+      en: {
+        title: "The World's Oldest Parliament, Born on a Rift",
+        subtitle: "Þingvellir and the Althing, Since the Year 930",
+        imageAlt: "Cartoon of a rocky plain split by a deep rift with figures gathered to one side.",
+        description:
+          "The Althing, Iceland's national parliament, first convened in the year 930 at Þingvellir, a plain where the chieftains of the island's various Viking clans gathered outdoors every year to debate laws, settle disputes, and hear legal codes recited from memory by an official called the lögsögumaður, making it one of the oldest continuous legislative assemblies in the world, though it lost much of its real power during centuries of Danish rule before regaining full legislative sovereignty in the 20th century. The meeting site was no accident: Þingvellir sits directly atop the fault line where the North American and Eurasian tectonic plates pull apart, meaning ancient Icelanders literally debated laws standing on the geological rift separating two continents, a detail that today makes the site a doubly declared UNESCO World Heritage location, valued for both its historical and geological significance.",
+      },
+    },
+  },
+  {
+    id: "jolabokaflod-la-inundacion-de-libros-en-navidad",
+    order: 12,
+    placeholderEmoji: "📚",
+    accentColor: "#8B1A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La costumbre de regalar libros en Nochebuena",
+        subtitle: "El Jólabókaflóð, la inundación de libros",
+        imageAlt: "Caricatura de una pila de libros envueltos junto a una taza humeante de chocolate caliente.",
+        description:
+          "El Jólabókaflóð, literalmente la inundación de libros de Navidad, es una tradición islandesa según la cual la mayoría de los libros nuevos publicados en el país se lanzan deliberadamente entre septiembre y noviembre, concentrando la actividad editorial anual en un catálogo llamado Bókatíðindi que se distribuye gratuitamente a cada hogar islandés a comienzos de diciembre para que las familias elijan qué libros regalarse mutuamente en Nochebuena. La costumbre, nacida durante la Segunda Guerra Mundial cuando las restricciones a la importación de otros bienes dejaron al papel relativamente disponible mientras escaseaban otros regalos, se transformó en un ritual anual en el que los islandeses abren sus libros la noche del 24 de diciembre y pasan buena parte de la velada leyendo en silencio junto a chocolate caliente, contribuyendo a que Islandia mantenga hoy una de las tasas de publicación de libros per cápita más altas del mundo.",
+      },
+      en: {
+        title: "The Custom of Gifting Books to Read All Christmas Eve",
+        subtitle: "Jólabókaflóð, the Christmas Book Flood",
+        imageAlt: "Cartoon of a stack of wrapped books beside a steaming cup of hot chocolate.",
+        description:
+          "Jólabókaflóð, literally the Christmas book flood, is an Icelandic tradition in which most new books published in the country are deliberately released between September and November, concentrating the year's publishing activity into a catalog called Bókatíðindi distributed free to every Icelandic household in early December so families can choose which books to give each other for Christmas Eve. The custom, born during World War II when import restrictions on other consumer goods left paper relatively available while other gifts grew scarce, evolved into an annual ritual in which Icelanders open their books on the night of December 24th and spend much of the evening reading quietly with hot chocolate, helping Iceland maintain today one of the highest rates of book publishing per capita in the world.",
+      },
+    },
+  },
+  {
+    id: "bjork-y-sigur-ros-la-musica-islandesa-en-el-mundo",
+    order: 13,
+    placeholderEmoji: "🎤",
+    accentColor: "#6B4C9A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los artistas que pusieron a Islandia en el mapa musical",
+        subtitle: "Björk y Sigur Rós, música islandesa global",
+        imageAlt: "Caricatura de un micrófono sobre un escenario iluminado con ondas sonoras coloridas alrededor.",
+        description:
+          "Björk Guðmundsdóttir, cantante islandesa que debutó como solista en 1993 tras dejar la banda The Sugarcubes, se convirtió en una de las artistas más influyentes y experimentales de la música popular contemporánea, combinando elementos electrónicos, orquestales y vocales poco convencionales en discos que la llevaron a ser nominada al Óscar por mejor canción original en 2000, construyendo una identidad visual y sonora tan distintiva que ayudó a poner a la escena musical islandesa en el radar internacional. Sigur Rós, banda formada en Reikiavik en 1994, expandió esa proyección global con un sonido atmosférico cantado parcialmente en un idioma inventado por la propia banda llamado vonlenska, usado para que la voz funcionara como un instrumento más sin atarse al significado literal de las palabras, un enfoque que llevó a ambos actos a colaborar en bandas sonoras de cine y consolidar a la pequeña Islandia como una fuente desproporcionada de innovación musical para su tamaño.",
+      },
+      en: {
+        title: "The Artists Who Put Iceland on the Music Map",
+        subtitle: "Björk and Sigur Rós, Global Icelandic Music",
+        imageAlt: "Cartoon of a microphone on a lit stage with colorful sound waves around it.",
+        description:
+          "Björk Guðmundsdóttir, an Icelandic singer who debuted as a solo artist in 1993 after leaving the alternative rock band The Sugarcubes, became one of the most influential and experimental artists in contemporary popular music, blending unconventional electronic, orchestral, and vocal elements on albums that earned her an Oscar nomination for Best Original Song in 2000, building a visual and sonic identity so distinctive it helped put the Icelandic music scene on the international radar. Sigur Rós, a band formed in Reykjavík in 1994, expanded that global reach with an atmospheric sound partly sung in a language the band itself invented called vonlenska, used so the voice would function as another instrument without being tied to the literal meaning of the words, an approach that led both acts to contribute to film soundtracks and cemented tiny Iceland as a disproportionate source of musical innovation for its size.",
+      },
+    },
+  },
+  {
+    id: "el-colapso-financiero-de-2008-y-su-recuperacion",
+    order: 14,
+    placeholderEmoji: "🏦",
+    accentColor: "#1B3A5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que encarceló banqueros en vez de rescatarlos",
+        subtitle: "El colapso financiero de 2008 y su recuperación",
+        imageAlt: "Caricatura de un edificio de banco derrumbándose con billetes cayendo alrededor.",
+        description:
+          "En octubre de 2008, los tres principales bancos de Islandia colapsaron en cuestión de días bajo el peso de deudas que sumaban más de diez veces el producto bruto interno del país, consecuencia de una expansión bancaria desmedida en los años previos, desatando la crisis financiera per cápita más severa registrada por cualquier país en la historia económica moderna y una devaluación abrupta de la corona islandesa que golpeó los ahorros de la población. A diferencia de la mayoría de los países que optaron por rescatar a sus bancos con fondos públicos durante la crisis financiera global, Islandia dejó caer a sus principales entidades, protegió solo los depósitos domésticos y llevó a juicio penal a varios altos ejecutivos bancarios, algunos condenados efectivamente a prisión, una estrategia poco convencional que economistas citaron después como caso de estudio en el manejo alternativo de crisis financieras sistémicas.",
+      },
+      en: {
+        title: "The Country That Jailed Bankers, Not Bailed Them Out",
+        subtitle: "The 2008 Financial Collapse and Its Recovery",
+        imageAlt: "Cartoon of a bank building collapsing with banknotes falling around it.",
+        description:
+          "In October 2008, Iceland's three largest banks collapsed within days under debts totaling more than ten times the country's entire gross domestic product, the result of reckless banking expansion in prior years, triggering the most severe per capita financial crisis recorded by any country in modern economic history and a sharp devaluation of the Icelandic króna that struck directly at the population's savings. Unlike most countries that chose to bail out their banks with public funds during the global financial crisis, Iceland let its major banks fail, protected only domestic deposits, and brought criminal charges against several senior bank executives, some of whom were actually convicted and sent to prison, an unconventional strategy international economists later cited as a case study in alternative approaches to systemic financial crisis management.",
+      },
+    },
+  },
+  {
+    id: "el-caballo-islandes-que-nunca-puede-volver-a-entrar",
+    order: 15,
+    placeholderEmoji: "🐴",
+    accentColor: "#8B6F47",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El caballo que jamás puede volver a entrar al país",
+        subtitle: "El caballo islandés, una raza aislada por ley",
+        imageAlt: "Caricatura de un pequeño caballo robusto de crin larga trotando con un jinete que sostiene una copa.",
+        description:
+          "El caballo islandés, una raza pequeña y robusta traída por los primeros colonos vikingos en el siglo IX y aislada genéticamente del resto del mundo desde entonces, desarrolló dos aires de marcha adicionales a los tres habituales en la mayoría de las razas equinas, el tölt y el paso de carreras, movimientos excepcionalmente suaves que permiten a un jinete llevar una bebida en la mano sin derramarla mientras el caballo va a gran velocidad. Una ley islandesa vigente desde 1882 prohíbe la importación de cualquier otro caballo al país y establece que ningún caballo islandés que salga de la isla, ya sea para competir o exhibirse afuera, puede volver a ingresar jamás, una medida sanitaria estricta para proteger a la raza de enfermedades equinas extranjeras contra las que nunca desarrolló inmunidad por su aislamiento. Pese a esta restricción, el caballo islandés se exportó a decenas de países donde hoy existen asociaciones de criadores dedicadas a preservar sus características únicas.",
+      },
+      en: {
+        title: "The Horse That Can Never Come Back Once It Leaves",
+        subtitle: "The Icelandic Horse, a Breed Isolated by Law",
+        imageAlt: "Cartoon of a small sturdy long-maned horse trotting with a rider holding a cup.",
+        description:
+          "The Icelandic horse, a small, sturdy breed brought over by the first Viking settlers in the 9th century and genetically isolated from the rest of the world ever since, developed two extra gaits beyond the usual three found in most horse breeds, the tölt and the flying pace, exceptionally smooth movements that let a rider carry a drink in hand without spilling it while the horse moves at high speed. An Icelandic law in effect since 1882 bans importing any other horse into the country and rules that no Icelandic horse that ever leaves the island, whether to compete or be shown abroad, may ever return, a strict health measure meant to protect the breed from foreign equine diseases it never developed immunity to due to its historical isolation. Despite this severe restriction, the Icelandic horse was successfully exported to dozens of countries, where breeders' associations today are dedicated exclusively to preserving its unique traits.",
+      },
+    },
+  },
 ];
