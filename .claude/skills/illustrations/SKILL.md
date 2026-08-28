@@ -887,18 +887,34 @@ two full `rm -rf .next && npm run build` runs (one at the halfway point,
 one at the end — both clean, 420 static paths throughout since these are
 all existing countries being expanded, not new registrations).
 
-**Next up:** Europe's 12-tier countries are done. Europe's 15-tier (18
-countries: Denmark, Norway, Finland, Czech Republic, Romania, Serbia,
-Bulgaria, Ireland, Scotland, Georgia, Iceland, Moldova, Belarus, Malta,
-Cyprus, Estonia, Latvia, Lithuania) and 20-tier (10 countries: Spain,
-Poland, Sweden, Austria, Greece, Portugal, Turkey, England, Ukraine,
-Hungary) countries still remain, then Asia and Africa still need their
-own tier assignments proposed to and approved by the user before the
-same expansion workflow. Per the established cost-management pattern,
-consider starting a fresh chat for that next phase — and per the explicit
-instruction from this batch, continue doing the expansion directly in
-the main session without background agents unless the user says
-otherwise.
+**Europe — 15-tier and 20-tier countries done and committed (2026-08-28):**
+completing the Europe phase. The 15-tier batch (18 countries: Denmark,
+Norway, Finland, Czech Republic, Romania, Serbia, Bulgaria, Ireland,
+Scotland, Georgia, Iceland, Moldova, Belarus, Malta, Cyprus, Estonia,
+Latvia, Lithuania) and the 20-tier batch (10 countries: Spain, Poland,
+Sweden, Austria, Greece, Portugal, Turkey, England, Ukraine, Hungary)
+were both expanded directly in the main session, country-by-country, per
+the same no-background-agents instruction as the 12-tier batch. Romania
+and Serbia needed a full illustration rewrite (old pre-redesign style
+found mid-batch — user chose "rebuild all 10 old + add 5 new, all bold"
+over leaving the old 10 as-is); a Python coordinate-range heuristic
+script confirmed all other 15-tier files were already bold-style, so no
+further rewrites were needed. Every country in both batches passed
+`tsc --noEmit`, the id-matching audit, `eslint`, and a title/description
+length audit (≤55/≤1000, target ~700-850 for descriptions) before commit,
+with periodic full `rm -rf .next && npm run build` checkpoints throughout
+(420 static paths each time, unchanged since these are all existing
+countries being expanded, not new registrations). **Europe's 20/15/12
+tiered expansion is now fully complete** — every country/territory in
+the continent is at its assigned tier.
+
+**Next up:** Asia and Africa still need their own tier assignments
+proposed to and approved by the user before the same expansion workflow
+can begin. Per the established cost-management pattern, consider
+starting a fresh chat for that next phase — and per the explicit
+instruction carried through the whole Europe phase, continue doing the
+expansion directly in the main session without background agents unless
+the user says otherwise.
 
 **Cost-management pattern established 2026-08-23:** for this multi-country,
 multi-session expansion task, the user asked to start a fresh chat between
