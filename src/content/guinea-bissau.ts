@@ -251,4 +251,54 @@ export const guineaBissau: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "bolama-ciudad-fantasma",
+    order: 11,
+    placeholderEmoji: "🏚️",
+    accentColor: "#7A6C5D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La capital colonial que el tiempo dejó congelada",
+        subtitle: "Bolama, la ciudad fantasma",
+        imageAlt:
+          "Caricatura de un edificio colonial en ruinas con enredaderas cubriendo sus columnas.",
+        description:
+          "Bolama, una pequeña isla frente a la costa continental, fue la primera capital de la entonces Guinea portuguesa desde 1879 hasta 1941, cuando la administración colonial trasladó el gobierno a Bisáu por razones de salud pública y accesibilidad, dejando atrás un conjunto de edificios administrativos, un teatro, un banco y mansiones de estilo europeo que hoy permanecen mayormente abandonados y cubiertos por la vegetación tropical. La isla incluso llegó a emitir sus propios sellos postales a comienzos del siglo veinte y fue escenario de un célebre litigio internacional resuelto por arbitraje del presidente estadounidense Ulysses S. Grant, que confirmó la soberanía portuguesa frente a reclamos británicos. Declarada Patrimonio de la Humanidad por la Unesco de forma tentativa, Bolama conserva hoy una atmósfera casi congelada en el tiempo, con fachadas neoclásicas desmoronándose lentamente frente al mar, visitada por un puñado de viajeros interesados en su singular historia colonial.",
+      },
+      en: {
+        title: "The Colonial Capital Time Left Frozen in Place",
+        subtitle: "Bolama, the Ghost City",
+        imageAlt:
+          "Cartoon of a ruined colonial building with vines covering its columns.",
+        description:
+          "Bolama, a small island off the mainland coast, was the first capital of what was then Portuguese Guinea from 1879 to 1941, when the colonial administration moved the government to Bissau for public health and accessibility reasons, leaving behind a cluster of administrative buildings, a theater, a bank, and European-style mansions that today remain largely abandoned and overtaken by tropical vegetation. The island even issued its own postage stamps in the early twentieth century and was the setting for a famous international dispute settled by arbitration from U.S. President Ulysses S. Grant, which confirmed Portuguese sovereignty over British claims. Tentatively listed as a Unesco World Heritage site, Bolama today keeps an atmosphere almost frozen in time, its neoclassical facades slowly crumbling by the sea, visited by a handful of travelers drawn to its singular colonial history.",
+      },
+    },
+  },
+  {
+    id: "vinho-de-caju",
+    order: 12,
+    placeholderEmoji: "🍹",
+    accentColor: "#E0A83C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El vino de la fruta que se tira por su nuez",
+        subtitle: "El vinho de caju",
+        imageAlt:
+          "Caricatura de una jarra de líquido amarillo junto a frutas de anacardo exprimidas.",
+        description:
+          "El vinho de caju, un vino fermentado a partir del jugo de la manzana de anacardo, la parte carnosa y jugosa de la fruta que suele descartarse una vez extraída la nuez comercial, aprovecha un subproducto que de otro modo se perdería en los campos, exprimido a mano y dejado fermentar naturalmente durante varios días hasta lograr una bebida ácida, afrutada y con un grado alcohólico considerable. Preparado tradicionalmente por familias rurales durante la temporada de cosecha del anacardo, entre marzo y mayo, el vinho de caju se comparte en reuniones comunitarias y celebraciones de fin de cosecha, marcando un momento social importante después de meses de trabajo agrícola intenso. Aunque la producción sigue siendo mayormente artesanal y de consumo local, algunos pequeños productores comenzaron a embotellarlo y venderlo en mercados urbanos, dando una segunda vida comercial a una fruta que durante mucho tiempo se consideró solo un descarte del verdadero negocio del anacardo.",
+      },
+      en: {
+        title: "The Wine From the Fruit Thrown Away for Its Nut",
+        subtitle: "Vinho de Caju",
+        imageAlt:
+          "Cartoon of a jug of yellow liquid beside squeezed cashew fruits.",
+        description:
+          "Vinho de caju, a wine fermented from the juice of the cashew apple, the fleshy, juicy part of the fruit usually discarded once the commercial nut is removed, makes use of a byproduct that would otherwise go to waste in the fields, hand-pressed and left to ferment naturally for several days into a tart, fruity drink with a considerable alcohol content. Traditionally made by rural families during the cashew harvest season, between March and May, vinho de caju is shared at community gatherings and end-of-harvest celebrations, marking an important social moment after months of intense agricultural work. Though production remains mostly artisanal and for local consumption, some small producers have started bottling and selling it in urban markets, giving a second commercial life to a fruit long considered just a discard of the real cashew business.",
+      },
+    },
+  },
 ];

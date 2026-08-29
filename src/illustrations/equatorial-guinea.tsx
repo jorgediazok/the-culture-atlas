@@ -164,6 +164,39 @@ const ElCacaoQuePerfumoLaEconomiaDeLaIsla: IllustrationComponent = () => (
   </g>
 );
 
+const IvangaCantoAncestralNdowe: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      <path d="M150 235 L150 150 Q150 130 175 128 Q200 126 200 150 L200 235 Z" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="3" />
+      <ellipse cx="175" cy="150" rx="25" ry="10" fill={shade(wood, 0.2)} stroke={shade(wood, 0.3)} strokeWidth="2.4" />
+      <path d="M150 235 L200 235" stroke={shade(wood, 0.3)} strokeWidth="4" />
+      <path d="M235 130 Q265 110 295 130 Q305 165 280 205 Q265 220 250 205 Q225 165 235 130 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="255" cy="155" rx="8" ry="11" fill={dark} />
+      <ellipse cx="280" cy="155" rx="8" ry="11" fill={dark} />
+      <path d="M255 185 Q267 195 280 185" stroke={dark} strokeWidth="3" fill="none" />
+      <path d="M245 140 L250 125 M290 140 L285 125" stroke={dark} strokeWidth="2.4" opacity="0.6" />
+    </g>
+  );
+};
+
+const TopeVinoDePalma: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const trunk = "#8B5A2B";
+  return (
+    <g>
+      <path d="M195 240 Q200 180 190 120" stroke={trunk} strokeWidth="16" strokeLinecap="round" fill="none" />
+      {[-60, -20, 20, 60, 100].map((deg) => (
+        <path key={deg} d="M190 120 Q220 100 250 108" fill="none" stroke="#2E7D32" strokeWidth="10" strokeLinecap="round" transform={`rotate(${deg} 190 120)`} />
+      ))}
+      <path d="M180 150 Q175 165 178 180" fill="none" stroke="#5C4A3E" strokeWidth="2" />
+      <ellipse cx="175" cy="188" rx="16" ry="20" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <ellipse cx="230" cy="238" rx="35" ry="12" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.4" />
+    </g>
+  );
+};
+
 export const equatorialGuineaIllustrations: Record<string, IllustrationDefinition> = {
   "la-isla-selvatica-donde-viven-monos-unicos": { component: LaIslaSelvaticaDondeVivenMonosUnicos },
   "la-ciudad-colonial-de-fachadas-de-colores": { component: LaCiudadColonialDeFachadasDeColores },
@@ -175,4 +208,6 @@ export const equatorialGuineaIllustrations: Record<string, IllustrationDefinitio
   "el-parque-donde-los-gorilas-conviven-con-elefantes": { component: ElParqueDondeLosGorilasConvivenConElefantes },
   "la-sopa-picante-que-abre-cada-comida-importante": { component: LaSopaPicanteQueAbreCadaComidaImportante },
   "el-cacao-que-perfumo-la-economia-de-la-isla": { component: ElCacaoQuePerfumoLaEconomiaDeLaIsla },
+  "ivanga-canto-ancestral-ndowe": { component: IvangaCantoAncestralNdowe },
+  "tope-vino-de-palma": { component: TopeVinoDePalma },
 };

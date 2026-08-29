@@ -251,4 +251,54 @@ export const gabon: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "independencia-17-agosto-1960",
+    order: 11,
+    placeholderEmoji: "🎊",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La independencia que llegó sin ruptura con Francia",
+        subtitle: "El 17 de agosto de 1960",
+        imageAlt:
+          "Caricatura de una bandera verde, amarilla y azul ondeando junto a una multitud.",
+        description:
+          "Gabón alcanzó su independencia de Francia el 17 de agosto de 1960, en el marco de la descolonización general del África francesa impulsada tras el referéndum constitucional de 1958, un proceso que en el país se dio sin conflicto armado y con una transición pactada de poder hacia Léon M'ba, primer presidente gabonés, quien mantuvo lazos económicos y militares estrechos con la antigua metrópoli en los años siguientes. La bandera nacional, con franjas horizontales verde, amarilla y azul que representan respectivamente la selva ecuatorial, el sol ecuatorial y el océano Atlántico, se convirtió ese mismo año en símbolo de una identidad forjada a partir de decenas de grupos étnicos, entre ellos fang, punu, myene y nzebi, unidos bajo un mismo estado nuevo. Cada 17 de agosto, desfiles militares y actos oficiales en Libreville conmemoran la fecha como el punto de partida de la historia política gabonesa moderna.",
+      },
+      en: {
+        title: "The Independence That Came Without a Break From France",
+        subtitle: "August 17th, 1960",
+        imageAlt:
+          "Cartoon of a green, yellow, and blue flag waving beside a crowd.",
+        description:
+          "Gabon gained independence from France on August 17, 1960, part of the broader decolonization of French Africa launched after the 1958 constitutional referendum, a process that unfolded in the country without armed conflict and with a negotiated transfer of power to Léon M'ba, Gabon's first president, who kept close economic and military ties with the former colonial power in the years that followed. The national flag, with horizontal green, yellow, and blue stripes representing the equatorial rainforest, the equatorial sun, and the Atlantic Ocean respectively, became that same year a symbol of an identity forged from dozens of ethnic groups, including the Fang, Punu, Myene, and Nzebi, united under one new state. Every August 17th, military parades and official ceremonies in Libreville mark the date as the starting point of modern Gabonese political history.",
+      },
+    },
+  },
+  {
+    id: "loro-gris-africano",
+    order: 12,
+    placeholderEmoji: "🦜",
+    accentColor: "#6E6E6E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El loro más inteligente pierde su último refugio",
+        subtitle: "El loro gris africano",
+        imageAlt:
+          "Caricatura de un loro gris de cola roja posado en una rama de la selva.",
+        description:
+          "El loro gris africano, ave famosa por su capacidad de imitar el habla humana y resolver problemas cognitivos comparables a los de un niño pequeño, encuentra en las selvas de Gabón, y en particular en el Parque Nacional de Ivindo, una de sus últimas poblaciones silvestres numerosas de África central, tras un colapso de más del noventa por ciento en gran parte de su área de distribución original debido a la captura masiva para el comercio de mascotas. Los loros se congregan en salinas naturales de arcilla dentro de la selva, donde ingieren minerales que neutralizan las toxinas de las semillas de su dieta, un comportamiento que atrae bandadas numerosas y ofrece a los investigadores una de las pocas oportunidades de estudiar a la especie en libertad. Clasificado en peligro de extinción y con su comercio internacional prohibido desde 2016, el loro gris se volvió símbolo de la conservación gabonesa, un país que mantiene casi un treinta por ciento de su territorio protegido.",
+      },
+      en: {
+        title: "The World's Smartest Parrot Loses Its Last Refuge",
+        subtitle: "The African Grey Parrot",
+        imageAlt:
+          "Cartoon of a red-tailed grey parrot perched on a rainforest branch.",
+        description:
+          "The African grey parrot, a bird world-famous for its extraordinary ability to mimic human speech and solve cognitive problems comparable to those of a young child according to laboratory studies, finds in Gabon's rainforests, particularly Ivindo National Park, one of Central Africa's last sizable wild populations, following a population collapse of more than ninety percent across much of its original range due to mass capture for the international pet trade. The parrots gather at natural clay licks deep in the forest, where they ingest minerals that neutralize toxins in the seeds that make up their diet, a behavior that draws large flocks and gives researchers one of the few real chances to study the species in the wild. Classified as endangered and with its international trade banned since 2016, the African grey became a symbol of Gabon's conservation efforts, a country recognized for keeping nearly thirty percent of its territory under environmental protection.",
+      },
+    },
+  },
 ];

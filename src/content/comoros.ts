@@ -251,4 +251,54 @@ export const comoros: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "msindzano-mascara-facial",
+    order: 11,
+    placeholderEmoji: "✨",
+    accentColor: "#E8C39E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La máscara facial dorada que protege y embellece",
+        subtitle: "El msindzano",
+        imageAlt:
+          "Caricatura de una mujer con una pasta blanca y dorada aplicada en el rostro.",
+        description:
+          "El msindzano es una pasta cosmética tradicional comorense elaborada moliendo sobre una piedra plana trozos de madera de sándalo, coral y a veces cúrcuma o arroz, mezclados con agua hasta lograr una crema espesa de tono blanco amarillento que las mujeres se aplican sobre el rostro, el cuello y a veces los brazos en patrones geométricos o como capa uniforme. Usado tanto por razones estéticas como por sus propiedades refrescantes y su fama de proteger la piel del sol tropical, el msindzano se aplica a diario en muchos hogares, aunque las mujeres suelen intensificar el diseño y la cantidad para bodas, fiestas religiosas y otras ocasiones especiales. La costumbre, compartida con otras zonas de la costa suajili y Madagascar, sigue transmitiéndose de madres a hijas como parte de un ritual de cuidado personal arraigado en la vida cotidiana de las islas.",
+      },
+      en: {
+        title: "The Golden Face Paste That Protects and Beautifies",
+        subtitle: "Msindzano",
+        imageAlt:
+          "Cartoon of a woman with a white and golden paste applied to her face.",
+        description:
+          "Msindzano is a traditional Comorian cosmetic paste made by grinding pieces of sandalwood, coral, and sometimes turmeric or rice on a flat stone, mixed with water into a thick, yellowish-white cream that women apply to the face, neck, and sometimes arms in geometric patterns or as a simple even layer. Used both for its aesthetic appeal and for its reputed cooling, sun-protective properties in the tropical climate, msindzano is applied daily in many households, though women typically intensify the design and amount for weddings, religious festivals, and other special occasions. The custom, shared with other parts of the Swahili coast and Madagascar, is still passed down from mothers to daughters as part of a deeply rooted personal care ritual in everyday island life.",
+      },
+    },
+  },
+  {
+    id: "parque-marino-de-moheli",
+    order: 12,
+    placeholderEmoji: "🐢",
+    accentColor: "#0E7C7B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El parque marino donde anidan tortugas y hay ballenas",
+        subtitle: "El Parque Nacional Marino de Mohéli",
+        imageAlt:
+          "Caricatura de una tortuga marina nadando junto a una ballena jorobada.",
+        description:
+          "Creado en 2001 alrededor de la isla de Mohéli, la más pequeña y menos poblada de las Comoras, el Parque Nacional Marino de Mohéli fue la primera área protegida marina del país, establecido para proteger playas donde anidan tortugas verdes en cantidades consideradas entre las más importantes del océano Índico occidental, además de aguas frecuentadas cada año por ballenas jorobadas que migran hacia las islas para aparearse y criar entre julio y octubre. El parque, gestionado con fuerte participación de las propias comunidades pesqueras locales que renunciaron a ciertas zonas de pesca a cambio de beneficios turísticos y de conservación a largo plazo, también protege delfines residentes, arrecifes de coral saludables y manglares costeros. El modelo de cogestión comunitaria de Mohéli se cita hoy como referencia para otras áreas protegidas del océano Índico.",
+      },
+      en: {
+        title: "The Marine Park Where Turtles Nest and Whales Sing",
+        subtitle: "Mohéli Marine National Park",
+        imageAlt:
+          "Cartoon of a sea turtle swimming beside a humpback whale.",
+        description:
+          "Created in 2001 around the island of Mohéli, the smallest and least populated of the Comoros, Mohéli Marine National Park was the country's first marine protected area, established to safeguard beaches where green sea turtles nest in numbers considered among the most significant in the western Indian Ocean, along with waters visited each year by humpback whales that migrate to the islands to mate and calve between July and October. The park, managed with strong participation from local fishing communities who gave up certain fishing grounds in exchange for long-term tourism and conservation benefits, also protects resident dolphins, healthy coral reefs, and coastal mangroves. Mohéli's community co-management model is now cited as a reference for other protected areas across the Indian Ocean.",
+      },
+    },
+  },
 ];

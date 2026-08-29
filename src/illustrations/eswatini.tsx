@@ -143,6 +143,48 @@ const ElToroYElBuitreQueSostienenElEscudo: IllustrationComponent = ({ accentColo
   );
 };
 
+const SibhacaDanzaDePiesVeloces: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2418";
+  const kicker = (x: number, fill: string) => (
+    <g key={x}>
+      <circle cx={x} cy="130" r="11" fill={skin} stroke={dark} strokeWidth="1.8" />
+      <path d={`M${x - 16} 195 Q${x - 18} 155 ${x} 150 Q${x + 18} 155 ${x + 16} 195 Z`} fill={fill} stroke={dark} strokeWidth="2.2" />
+      <line x1={x - 6} y1="195" x2={x - 10} y2="235" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d={`M${x + 6} 190 Q${x + 30} 175 ${x + 40} 130`} fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <line x1={x - 18} y1="165" x2={x - 35} y2="150" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+      <line x1={x + 16} y1="165" x2={x + 30} y2="150" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+    </g>
+  );
+  return (
+    <g>
+      {kicker(160, accentColor)}
+      {kicker(255, "#C1272D")}
+      <rect x="90" y="235" width="230" height="10" fill={dark} opacity="0.3" />
+    </g>
+  );
+};
+
+const EmahiyaVestimentaCotidiana: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2418";
+  return (
+    <g>
+      <circle cx="205" cy="120" r="20" fill={skin} stroke={dark} strokeWidth="2.2" />
+      <path d="M175 142 Q205 128 240 145 L255 235 Q205 250 165 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      <path d="M240 145 Q260 158 255 128 Q245 133 235 143 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <g transform="translate(190, 175)">
+        <ellipse cx="0" cy="0" rx="14" ry="10" fill={dark} opacity="0.5" />
+        <circle cx="12" cy="-4" r="7" fill={dark} opacity="0.5" />
+        {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+          <line key={deg} x1="12" y1="-4" x2="12" y2="-14" stroke={dark} strokeWidth="2" opacity="0.5" transform={`rotate(${deg} 12 -4)`} />
+        ))}
+      </g>
+      <polygon points="185,205 190,195 195,205 200,193 205,205 210,195 215,205" fill={dark} opacity="0.5" />
+    </g>
+  );
+};
+
 export const eswatiniIllustrations: Record<string, IllustrationDefinition> = {
   "el-pais-que-cambio-su-nombre-por-decreto-real": { component: ElPaisQueCambioSuNombrePorDecretoReal },
   "la-mina-mas-antigua-que-la-humanidad-conoce": { component: LaMinaMasAntiguaQueLaHumanidadConoce },
@@ -154,4 +196,6 @@ export const eswatiniIllustrations: Record<string, IllustrationDefinition> = {
   "el-santuario-donde-los-rinocerontes-caminan-libres": { component: ElSantuarioDondeLosRinocerontesCaminanLibres },
   "el-dosel-de-cables-que-cruza-un-canon-verde": { component: ElDoselDeCablesQueCruzaUnCanonVerde },
   "el-toro-y-el-buitre-que-sostienen-el-escudo": { component: ElToroYElBuitreQueSostienenElEscudo },
+  "sibhaca-danza-de-pies-veloces": { component: SibhacaDanzaDePiesVeloces },
+  "emahiya-vestimenta-cotidiana": { component: EmahiyaVestimentaCotidiana },
 };

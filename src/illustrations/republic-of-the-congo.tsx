@@ -183,6 +183,47 @@ const ElCanonDeTierraRojaQueCreceCadaAno: IllustrationComponent = () => {
   );
 };
 
+const ParqueNouabaleNdoki: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gorilla = "#2A1F1A";
+  const elephantColor = "#8C8478";
+  return (
+    <g>
+      <ellipse cx="205" cy="230" rx="120" ry="22" fill={tint(accentColor, 0.5)} opacity="0.5" />
+      <g transform="translate(135, 205)">
+        <path d="M-20 6 L-20 22 M-6 8 L-6 24 M8 8 L8 24 M20 6 L20 22" stroke={dark} strokeWidth="3" strokeLinecap="round" />
+        <ellipse cx="0" cy="-4" rx="26" ry="15" fill={elephantColor} stroke={dark} strokeWidth="2.2" />
+        <ellipse cx="22" cy="-8" rx="11" ry="10" fill={elephantColor} stroke={dark} strokeWidth="2" />
+        <path d="M26 -4 Q34 2 30 16 Q27 24 20 26" fill="none" stroke={elephantColor} strokeWidth="5" strokeLinecap="round" />
+      </g>
+      <g transform="translate(270, 220)">
+        <circle cx="0" cy="-32" r="17" fill={gorilla} stroke={shade(gorilla, 0.3)} strokeWidth="2.2" />
+        <ellipse cx="0" cy="0" rx="30" ry="24" fill={gorilla} stroke={shade(gorilla, 0.3)} strokeWidth="2.4" />
+        <ellipse cx="0" cy="-24" rx="9" ry="7" fill="#4A3A2E" />
+        <circle cx="-6" cy="-34" r="2.4" fill="#0A0805" />
+        <circle cx="6" cy="-34" r="2.4" fill="#0A0805" />
+        <path d="M-20 -8 Q-30 2 -24 16" fill="none" stroke={gorilla} strokeWidth="9" strokeLinecap="round" />
+        <path d="M20 -8 Q30 2 24 16" fill="none" stroke={gorilla} strokeWidth="9" strokeLinecap="round" />
+      </g>
+    </g>
+  );
+};
+
+const CataratasDeLoufoulakari: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const rock = "#8B7355";
+  return (
+    <g>
+      <path d="M100 250 L100 140 Q150 110 200 140 L200 250 Z" fill={rock} stroke={shade(rock, 0.3)} strokeWidth="2.8" />
+      <path d="M230 250 L230 150 Q270 125 310 150 L310 250 Z" fill={shade(rock, 0.1)} stroke={shade(rock, 0.3)} strokeWidth="2.8" />
+      <path d="M200 140 L230 150 L225 250 L205 250 Z" fill={accentColor} opacity="0.85" stroke={dark} strokeWidth="2.4" />
+      <path d="M205 150 L205 245 M215 145 L215 248 M222 148 L222 246" stroke="#fff" strokeWidth="3" opacity="0.5" />
+      <ellipse cx="215" cy="248" rx="55" ry="14" fill={tint(accentColor, 0.4)} opacity="0.7" />
+      <path d="M90 235 Q115 245 130 235 M300 240 Q315 248 320 236" fill="none" stroke="#2F6B3A" strokeWidth="6" opacity="0.5" />
+    </g>
+  );
+};
+
 export const republicOfTheCongoIllustrations: Record<string, IllustrationDefinition> = {
   "dos-capitales-frente-a-frente-en-el-rio-congo": { component: DosCapitalesFrenteAFrenteEnElRioCongo },
   "los-sapeurs-que-visten-como-si-fuera-un-desfile": { component: LosSapeursQueVistenComoSiFueraUnDesfile },
@@ -194,4 +235,6 @@ export const republicOfTheCongoIllustrations: Record<string, IllustrationDefinit
   "las-figuras-de-poder-que-guardan-el-espiritu": { component: LasFigurasDePoderQueGuardanElEspiritu },
   "el-pollo-en-salsa-de-nuez-de-palma-de-cada-domingo": { component: ElPolloEnSalsaDeNuezDePalmaDeCadaDomingo },
   "el-canon-de-tierra-roja-que-crece-cada-ano": { component: ElCanonDeTierraRojaQueCreceCadaAno },
+  "parque-nouabale-ndoki": { component: ParqueNouabaleNdoki },
+  "cataratas-de-loufoulakari": { component: CataratasDeLoufoulakari },
 };

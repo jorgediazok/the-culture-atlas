@@ -251,4 +251,54 @@ export const sierraLeone: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "monte-bintumani-montanas-loma",
+    order: 11,
+    placeholderEmoji: "⛰️",
+    accentColor: "#6B8E23",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El techo de África occidental fuera de Camerún",
+        subtitle: "El monte Bintumani y las montañas Loma",
+        imageAlt:
+          "Caricatura de una montaña boscosa con una cima rocosa entre nubes bajas.",
+        description:
+          "El monte Bintumani, con 1.945 metros, es el punto más alto de África occidental fuera de la cordillera camerunesa, coronando las montañas Loma en el noreste de Sierra Leona, una región de bosque montano denso y praderas de altura que contrasta fuertemente con las llanuras costeras del resto del país. La Reserva No Cazada de las Montañas Loma, que rodea el pico, protege una de las últimas extensiones de bosque primario de África occidental, refugio de chimpancés, duikers y una notable diversidad de aves, muchas de ellas endémicas de la región montañosa conocida como el Alto Guinea. Ascender el Bintumani, un trayecto de varios días a través de aldeas remotas y senderos poco marcados, sigue siendo una expedición exigente reservada a un puñado de excursionistas experimentados cada año, muy lejos del turismo de playa que domina la imagen internacional del país.",
+      },
+      en: {
+        title: "West Africa's Roof Outside the Cameroon Line",
+        subtitle: "Mount Bintumani and the Loma Mountains",
+        imageAlt:
+          "Cartoon of a forested mountain with a rocky summit among low clouds.",
+        description:
+          "Mount Bintumani, at 1,945 meters, is the highest point in West Africa outside the Cameroon highlands, crowning the Loma Mountains in northeastern Sierra Leone, a region of dense montane forest and high-altitude grassland that contrasts sharply with the coastal lowlands covering most of the rest of the country. The Loma Mountains Non-Hunting Forest Reserve, surrounding the peak, protects one of the last stretches of primary forest left in West Africa, home to chimpanzees, duikers, and a remarkable diversity of birds, many endemic to the mountainous Upper Guinea region. Climbing Bintumani, a multi-day trek through remote villages and faint trails, remains a demanding expedition reserved for a handful of experienced hikers each year, a world away from the beach tourism that dominates the country's international image.",
+      },
+    },
+  },
+  {
+    id: "casas-krio-de-freetown",
+    order: 12,
+    placeholderEmoji: "🏘️",
+    accentColor: "#D46A2C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las casas de tablas que definen el estilo krio",
+        subtitle: "Las casas krio de madera de Freetown",
+        imageAlt:
+          "Caricatura de una casa de madera de dos pisos con balcones y adornos calados en Freetown.",
+        description:
+          "Las casas krio, un estilo arquitectónico único de Freetown desarrollado en el siglo diecinueve por descendientes de africanos liberados y colonos negros, combinan estructuras de madera elevadas sobre bases de piedra o ladrillo con balcones amplios, ventanas de persianas de madera y adornos calados bajo los aleros que recuerdan tanto al Caribe como a la arquitectura victoriana británica, reflejo directo de los orígenes múltiples de la población krio. Pintadas tradicionalmente en colores vivos y construidas con técnicas de carpintería traídas por los propios colonos, estas casas se agrupaban en barrios históricos como Fourah Bay o Kroo Town, donde la elevación sobre pilotes ayudaba a ventilar los interiores y protegerlos de la humedad tropical. Muchas se perdieron por incendios, ciclones o el crecimiento urbano descontrolado, y las pocas decenas que sobreviven hoy son objeto de un movimiento creciente de conservación patrimonial que busca salvarlas antes de que desaparezcan del todo.",
+      },
+      en: {
+        title: "The Board Houses That Define the Krio Style",
+        subtitle: "Freetown's Wooden Krio Houses",
+        imageAlt:
+          "Cartoon of a two-story wooden house with balconies and fretwork trim in Freetown.",
+        description:
+          "Krio houses, a distinctive architectural style developed in nineteenth-century Freetown by the descendants of liberated Africans and Black settlers who founded the city, combine wooden structures raised on stone or brick foundations with wide balconies, louvered wooden windows, and fretwork trim under the eaves recalling both the Caribbean and British Victorian architecture, a direct reflection of the Krio population's mixed origins. Traditionally painted in bright colors and built with carpentry techniques the settlers themselves brought with them, these houses clustered in historic Freetown neighborhoods such as Fourah Bay and Kroo Town, where raising them on stilts helped ventilate the interiors and protect them from tropical humidity. Many Krio houses were lost to fires, cyclones, or unchecked twentieth-century urban growth, and the few dozen that survive today are now the focus of a growing heritage conservation movement trying to save them before they disappear entirely.",
+      },
+    },
+  },
 ];

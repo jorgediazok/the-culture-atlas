@@ -251,4 +251,54 @@ export const djibouti: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "bosque-de-day",
+    order: 11,
+    placeholderEmoji: "🌲",
+    accentColor: "#4A7C59",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El bosque de niebla que sobrevive en pleno desierto",
+        subtitle: "El Parque Nacional del Bosque de Day",
+        imageAlt:
+          "Caricatura de un ave marrón posada en la rama de un enebro entre niebla.",
+        description:
+          "En las montañas de Goda, a más de mil metros de altitud, sobrevive el bosque de Day, un relicto de bosque de niebla dominado por enebros centenarios y otras especies que en cualquier otro punto de Yibuti serían imposibles debido al clima desértico extremo del resto del país, sostenido aquí por una humedad atmosférica que condensa niebla y rocío incluso en plena estación seca. El bosque es el único hogar conocido del francolín de Yibuti, un ave terrestre en peligro crítico de extinción descrita por la ciencia recién en 1952 y hoy limitada a apenas unos pocos cientos de ejemplares, además de refugiar leopardos, alcelafos y varias especies vegetales endémicas que no crecen en ningún otro lugar del planeta. Declarado parque nacional en un intento por frenar la deforestación causada por el pastoreo de cabras y la tala de leña, el bosque de Day es un ecosistema frágil y aislado, una verdadera isla verde rodeada por cientos de kilómetros de desierto.",
+      },
+      en: {
+        title: "The Cloud Forest Surviving in the Middle of the Desert",
+        subtitle: "Day Forest National Park",
+        imageAlt:
+          "Cartoon of a brown bird perched on a juniper branch amid fog.",
+        description:
+          "In the Goda Mountains, more than a thousand meters up, survives the Day Forest, a relict cloud forest dominated by centuries-old junipers and other species that would be impossible anywhere else in Djibouti given the rest of the country's extreme desert climate, sustained here by atmospheric humidity that condenses into fog and dew even during the dry season. The forest is the only known home of the Djibouti francolin, a critically endangered ground bird only described by science in 1952 and today limited to just a few hundred individuals, and it also shelters leopards, Soemmerring's gazelles, and several endemic plant species found nowhere else on Earth. Declared a national park in an effort to slow deforestation caused by goat grazing and firewood cutting, the Day Forest is a fragile, isolated ecosystem, a true green island surrounded by hundreds of kilometers of desert.",
+      },
+    },
+  },
+  {
+    id: "independencia-de-1977",
+    order: 12,
+    placeholderEmoji: "🎊",
+    accentColor: "#8B1A1A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El último territorio africano en dejar de ser francés",
+        subtitle: "La independencia de 1977",
+        imageAlt:
+          "Caricatura de una bandera ondeando junto a una multitud celebrando en una plaza.",
+        description:
+          "Yibuti, conocido hasta entonces como Territorio Francés de los Afars y los Isas, se convirtió el 27 de junio de 1977 en el último territorio del continente africano en independizarse de Francia, tras dos referendos previos, en 1958 y 1967, en los que la mayoría había optado por permanecer bajo administración francesa en medio de tensiones entre las comunidades afar y somalí sobre el futuro del territorio. La independencia llegó de forma relativamente pacífica en comparación con otras descolonizaciones de la región, aunque exigió complejos equilibrios políticos entre ambos grupos étnicos mayoritarios que se mantuvieron en la organización del nuevo estado, con Hassan Gouled Aptidon como primer presidente. Francia, sin embargo, mantuvo lazos estrechos con su antigua colonia, conservando hasta hoy su mayor base militar permanente en el continente africano, un vínculo que sigue marcando buena parte de la vida económica y estratégica del país.",
+      },
+      en: {
+        title: "The Last African Territory to Gain Freedom From France",
+        subtitle: "Independence in 1977",
+        imageAlt:
+          "Cartoon of a flag waving beside a crowd celebrating in a plaza.",
+        description:
+          "Djibouti, known until then as the French Territory of the Afars and the Issas, became on June 27, 1977, the last territory on the African continent to gain independence from France, following two earlier referendums, in 1958 and 1967, in which the majority had voted to remain under French administration amid tensions between the Afar and Somali communities over the territory's future. Independence came relatively peacefully compared to other decolonizations in the region, though it required careful political balancing between the two majority ethnic groups that carried into the new state's organization, with Hassan Gouled Aptidon as its first president. France, however, kept close ties with its former colony, maintaining to this day its largest permanent military base on the African continent, a relationship that continues to shape much of the country's economic and strategic life.",
+      },
+    },
+  },
 ];

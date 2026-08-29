@@ -163,6 +163,53 @@ const ElConsejoDeSabiosQueResuelveDisputas: IllustrationComponent = ({ accentCol
   );
 };
 
+const UrwarwaCervezaDeBanana: IllustrationComponent = ({ accentColor }) => {
+  const clay = "#B5651D";
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <path d="M160 240 Q150 200 175 180 Q205 165 235 180 Q260 200 250 240 Z" fill={clay} stroke={shade(clay, 0.3)} strokeWidth="3" />
+      <ellipse cx="205" cy="180" rx="45" ry="14" fill={shade(clay, 0.15)} stroke={shade(clay, 0.3)} strokeWidth="2.5" />
+      <path d="M185 178 Q160 150 145 120" fill="none" stroke={accentColor} strokeWidth="5" strokeLinecap="round" />
+      <path d="M225 178 Q250 150 265 120" fill="none" stroke={accentColor} strokeWidth="5" strokeLinecap="round" />
+      <circle cx="140" cy="112" r="13" fill={skin} />
+      <circle cx="270" cy="112" r="13" fill={skin} />
+    </g>
+  );
+};
+
+const ParqueNacionalDeKibira: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const leaf = tint(accentColor, 0.3);
+  const fur = "#4A3428";
+  const face = "#C9A27E";
+  return (
+    <g>
+      {[
+        [110, 110, 40],
+        [170, 90, 45],
+        [240, 95, 42],
+        [300, 120, 36],
+        [130, 160, 38],
+        [270, 165, 34],
+      ].map(([x, y, r], i) => (
+        <circle key={i} cx={x as number} cy={y as number} r={r as number} fill={i % 2 === 0 ? accentColor : leaf} opacity="0.5" />
+      ))}
+      <rect x="120" y="185" width="180" height="10" rx="5" fill="#6B4423" />
+      <circle cx="205" cy="168" r="22" fill={fur} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="205" cy="210" rx="34" ry="32" fill={fur} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="205" cy="174" rx="13" ry="11" fill={face} />
+      <circle cx="199" cy="170" r="2.5" fill="#1A1A1A" />
+      <circle cx="211" cy="170" r="2.5" fill="#1A1A1A" />
+      <path d="M196 182 Q205 187 214 182" stroke="#1A1A1A" strokeWidth="2" fill="none" />
+      <path d="M180 200 Q165 195 168 188" fill="none" stroke={fur} strokeWidth="12" strokeLinecap="round" />
+      <path d="M230 200 Q245 195 242 188" fill="none" stroke={fur} strokeWidth="12" strokeLinecap="round" />
+      <path d="M190 230 Q185 248 195 255" fill="none" stroke={fur} strokeWidth="10" strokeLinecap="round" />
+      <path d="M220 230 Q225 248 215 255" fill="none" stroke={fur} strokeWidth="10" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const burundiIllustrations: Record<string, IllustrationDefinition> = {
   "los-tamborileros-que-cargan-el-tambor-en-la-cabeza": { component: LosTamborilerosQueCarganElTamborEnLaCabeza },
   "tanganica-uno-de-los-lagos-mas-antiguos-del-mundo": { component: TanganicaUnoDeLosLagosMasAntiguosDelMundo },
@@ -174,4 +221,6 @@ export const burundiIllustrations: Record<string, IllustrationDefinition> = {
   "hipopotamos-y-cocodrilos-donde-el-rio-se-encuentra-con-el-lago": { component: HipopotamosYCocodrilosDondeElRioSeEncuentraConElLago },
   "una-de-las-poblaciones-mas-densas-de-africa": { component: UnaDeLasPoblacionesMasDensasDeAfrica },
   "el-consejo-de-sabios-que-resuelve-disputas": { component: ElConsejoDeSabiosQueResuelveDisputas },
+  "urwarwa-cerveza-de-banana": { component: UrwarwaCervezaDeBanana },
+  "parque-nacional-de-kibira": { component: ParqueNacionalDeKibira },
 };

@@ -155,6 +155,37 @@ const LosBailarinesQueCaminanSobreZancosDeMadera: IllustrationComponent = ({ acc
   );
 };
 
+const SociedadPoro: IllustrationComponent = () => (
+  <g>
+    <ellipse cx="200" cy="175" rx="42" ry="55" fill="#2A1F1A" stroke="#1B140E" strokeWidth="2.8" />
+    <path d="M170 140 Q140 120 130 95 Q160 100 178 125 Z" fill="#1B140E" />
+    <path d="M230 140 Q260 120 270 95 Q240 100 222 125 Z" fill="#1B140E" />
+    <path d="M180 160 L192 172 L180 180" fill="none" stroke="#8B1A1A" strokeWidth="3" />
+    <path d="M220 160 L208 172 L220 180" fill="none" stroke="#8B1A1A" strokeWidth="3" />
+    <path d="M185 205 L192 220 L200 205 L208 220 L215 205" fill="none" stroke="#D9D2C0" strokeWidth="3" strokeLinecap="round" />
+    <rect x="178" y="240" width="44" height="15" fill="#8B5A2B" stroke="#3A2A1E" strokeWidth="1.8" />
+  </g>
+);
+
+const SurfDeRobertsport: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <path d="M90 245 Q150 235 205 240 Q260 245 320 238" stroke="#3A7A45" strokeWidth="10" fill="none" opacity="0.4" />
+      <path d="M150 240 Q160 200 130 160 Q170 165 195 195 Q230 175 260 190 Q280 210 260 235 Q220 250 180 245 Q160 248 150 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M170 200 Q190 210 200 230" fill="none" stroke="#fff" strokeWidth="3" opacity="0.6" />
+      <ellipse cx="205" cy="212" rx="34" ry="9" fill="#5C3A21" stroke={dark} strokeWidth="2" transform="rotate(-12 205 212)" />
+      <path d="M198 210 L206 195" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M212 210 L216 197" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M208 197 Q198 180 206 165" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <circle cx="203" cy="158" r="10" fill={skin} />
+      <path d="M206 175 Q192 178 184 190" fill="none" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+      <path d="M206 180 Q220 175 228 186" fill="none" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const liberiaIllustrations: Record<string, IllustrationDefinition> = {
   "la-republica-fundada-por-esclavos-liberados": { component: LaRepublicaFundadaPorEsclavosLiberados },
   "la-bandera-que-parece-otra-pero-no-lo-es": { component: LaBanderaQueParecOtraPeroNoLoEs },
@@ -166,4 +197,6 @@ export const liberiaIllustrations: Record<string, IllustrationDefinition> = {
   "la-choza-donde-se-resuelven-los-conflictos-del-pueblo": { component: LaChozaDondeSeResuelvenLosConflictosDelPueblo },
   "las-hojas-verdes-que-definen-la-mesa-liberiana": { component: LasHojasVerdesQueDefinenLaMesaLiberiana },
   "los-bailarines-que-caminan-sobre-zancos-de-madera": { component: LosBailarinesQueCaminanSobreZancosDeMadera },
+  "sociedad-poro": { component: SociedadPoro },
+  "surf-de-robertsport": { component: SurfDeRobertsport },
 };

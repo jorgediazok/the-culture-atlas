@@ -231,4 +231,54 @@ export const eswatini: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "sibhaca-danza-de-pies-veloces",
+    order: 11,
+    placeholderEmoji: "💃",
+    accentColor: "#B8542E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El baile competitivo nacido entre mineros migrantes",
+        subtitle: "Sibhaca, danza de pies veloces",
+        imageAlt:
+          "Caricatura de bailarines con piernas en alto en plena patada sincronizada.",
+        description:
+          "El sibhaca es un estilo de danza tradicional suazi caracterizado por patadas altas, sincronizadas y explosivas ejecutadas en grupo al ritmo de tambores y cantos, que se originó a comienzos del siglo veinte entre trabajadores suazi empleados como mineros migrantes en Sudáfrica, quienes desarrollaron el estilo en los dormitorios de las minas como entretenimiento y competencia entre distintos grupos étnicos. De regreso en Esuatini, el sibhaca se consolidó como una de las danzas más populares del país, hoy interpretada principalmente por grupos masculinos de jóvenes que compiten en torneos escolares y comunitarios donde se evalúa la precisión, la altura de las patadas y la sincronización del grupo completo, vestidos con atuendos coloridos que combinan elementos tradicionales suazi con detalles modernos. La danza, transmitida hoy en escuelas y clubes juveniles de todo el país, sigue funcionando como espacio de disciplina física y orgullo comunitario para nuevas generaciones.",
+      },
+      en: {
+        title: "The Competitive Dance Born Among Migrant Miners",
+        subtitle: "Sibhaca, Fast-Footed Dance",
+        imageAlt:
+          "Cartoon of dancers with legs raised mid synchronized kick.",
+        description:
+          "Sibhaca is a traditional Swazi dance style marked by high, synchronized, explosive kicks performed in groups to the rhythm of drums and chanting, which originated in the early twentieth century among Swazi workers employed as migrant miners in South Africa, who developed the style in mine dormitories as entertainment and competition between different ethnic and regional groups. Back in Eswatini, sibhaca became one of the country's most popular dances, today performed mainly by groups of young men who compete in school and community tournaments judged on precision, kick height, and the group's perfect synchronization, dressed in colorful outfits blending traditional Swazi elements with modern decorative details. Taught today in schools and youth clubs across the country, the dance still functions as a space for physical discipline and community pride for new generations.",
+      },
+    },
+  },
+  {
+    id: "emahiya-vestimenta-cotidiana",
+    order: 12,
+    placeholderEmoji: "🧵",
+    accentColor: "#6A4C93",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La tela estampada que marca quién puede usar al rey",
+        subtitle: "Emahiya, la vestimenta cotidiana",
+        imageAlt:
+          "Caricatura de una tela estampada envuelta sobre el hombro con un patrón de leones.",
+        description:
+          "El emahiya es la tela estampada de algodón que constituye la vestimenta tradicional cotidiana de Esuatini, usada envuelta alrededor del cuerpo y anudada sobre uno o ambos hombros tanto por hombres como por mujeres, con estampados que van desde motivos florales genéricos hasta diseños reservados que solo la familia real y sus allegados pueden vestir legítimamente. Entre los patrones más reconocibles está el 'lidvokwe', que combina la imagen de un león, símbolo del rey, con una corona, motivo que la población suazi entiende de inmediato como una señal visual de estatus y cercanía al poder real, incluso sin conocer las reglas exactas no escritas que rigen su uso apropiado. Confeccionado hoy en fábricas textiles locales que imprimen los diseños sobre tela importada, el emahiya se usa a diario en el campo y también en ocasiones formales, funcionando como un código visual de identidad nacional reconocible en cualquier calle del país.",
+      },
+      en: {
+        title: "The Printed Cloth That Marks Who Can Wear the King",
+        subtitle: "Emahiya, Everyday Dress",
+        imageAlt:
+          "Cartoon of a printed cloth wrapped over a shoulder with a lion pattern.",
+        description:
+          "Emahiya is the printed cotton cloth that makes up Eswatini's everyday traditional dress, worn wrapped around the body and knotted over one or both shoulders by both men and women, with prints ranging from generic floral motifs to reserved designs that only the royal family and those close to it may legitimately wear. Among the most recognizable patterns is 'lidvokwe,' combining the image of a lion, a symbol of the king, with a crown, a motif ordinary Swazis instantly read as a visual signal of status and closeness to royal power, even without knowing the exact unwritten rules governing its proper use. Made today in local textile factories that print the designs onto imported cloth, emahiya is worn daily in rural areas and also on formal occasions, functioning as a recognizable visual code of national identity on any street in the country.",
+      },
+    },
+  },
 ];

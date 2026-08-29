@@ -140,6 +140,48 @@ const ElMokorotloElSombreroQueEstaEnLaBandera: IllustrationComponent = ({ accent
   );
 };
 
+const LitemaArteMural: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.5);
+  const clay = "#8B5A2B";
+  return (
+    <g>
+      <rect x="105" y="120" width="200" height="120" fill={clay} stroke={dark} strokeWidth="3" />
+      <polygon points="95,120 205,85 315,120" fill={dark} />
+      {[150, 185, 220].map((y, i) => (
+        <path
+          key={y}
+          d={`M115 ${y} L135 ${y - 14} L155 ${y} L175 ${y - 14} L195 ${y} L215 ${y - 14} L235 ${y} L255 ${y - 14} L275 ${y} L295 ${y - 14}`}
+          fill="none"
+          stroke={i % 2 === 0 ? accentColor : light}
+          strokeWidth="6"
+          strokeLinejoin="round"
+        />
+      ))}
+      <rect x="185" y="195" width="40" height="45" fill={dark} />
+    </g>
+  );
+};
+
+const AloeEspiralKharetsa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.35);
+  const outerLeaf = "M205 200 Q190 150 205 100 Q220 150 205 200 Z";
+  const innerLeaf = "M205 200 Q197 172 205 145 Q213 172 205 200 Z";
+  return (
+    <g>
+      <ellipse cx="205" cy="225" rx="70" ry="14" fill={shade(accentColor, 0.2)} opacity="0.4" />
+      {Array.from({ length: 10 }, (_, i) => i * 36).map((deg) => (
+        <path key={`o-${deg}`} d={outerLeaf} fill={accentColor} stroke={dark} strokeWidth="2" transform={`rotate(${deg} 205 200)`} />
+      ))}
+      {Array.from({ length: 5 }, (_, i) => i * 72 + 18).map((deg) => (
+        <path key={`i-${deg}`} d={innerLeaf} fill={light} stroke={dark} strokeWidth="2" transform={`rotate(${deg} 205 200)`} />
+      ))}
+      <circle cx="205" cy="200" r="10" fill={dark} />
+    </g>
+  );
+};
+
 export const lesothoIllustrations: Record<string, IllustrationDefinition> = {
   "el-reino-en-el-cielo-todo-por-encima-de-mil-metros": { component: ElReinoEnElCieloTodoPorEncimaDeMilMetros },
   "el-pais-rodeado-por-completo-por-otro-pais": { component: ElPaisRodeadoPorCompletoPorOtroPais },
@@ -151,4 +193,6 @@ export const lesothoIllustrations: Record<string, IllustrationDefinition> = {
   "thaba-bosiu-la-montana-fortaleza-jamas-tomada": { component: ThabaBosiuLaMontanaFortalezaJamasTomada },
   "esquiar-en-africa-una-de-las-pocas-pistas-del-continente": { component: EsquiarEnAfricaUnaDeLasPocasPistasDelContinente },
   "el-mokorotlo-el-sombrero-que-esta-en-la-bandera": { component: ElMokorotloElSombreroQueEstaEnLaBandera },
+  "litema-arte-mural": { component: LitemaArteMural },
+  "aloe-espiral-kharetsa": { component: AloeEspiralKharetsa },
 };

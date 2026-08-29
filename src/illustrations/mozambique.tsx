@@ -165,6 +165,52 @@ const ElGuisoDeHojasDeMandiocaConManiYCoco: IllustrationComponent = () => (
   </g>
 );
 
+const MarrabentaRitmoUrbano: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  return (
+    <g>
+      <circle cx="150" cy="150" r="13" fill={skin} stroke={dark} strokeWidth="1.8" />
+      <path d="M136 165 Q150 155 164 165 L168 235 Q150 245 132 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <ellipse cx="180" cy="205" rx="24" ry="34" fill="#8B5A2B" stroke="#5C3A21" strokeWidth="2.4" transform="rotate(20 180 205)" />
+      <rect x="175" y="160" width="4" height="45" fill="#5C3A21" transform="rotate(20 177 182)" />
+      <path d="M164 175 Q170 190 176 195" stroke={skin} strokeWidth="6" strokeLinecap="round" fill="none" />
+      <path d="M164 200 Q172 210 180 215" stroke={skin} strokeWidth="6" strokeLinecap="round" fill="none" />
+      <circle cx="255" cy="200" r="11" fill={skin} stroke={dark} strokeWidth="1.6" />
+      <path d="M243 213 Q255 205 267 213 L272 245 Q255 253 238 245 Z" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.2" />
+      <circle cx="285" cy="205" r="11" fill={skin} stroke={dark} strokeWidth="1.6" />
+      <path d="M273 218 Q285 210 297 218 L300 245 Q285 253 270 245 Z" fill="#D9346B" stroke={dark} strokeWidth="2.2" />
+      <path d="M267 220 Q275 225 273 232" stroke={skin} strokeWidth="5" strokeLinecap="round" fill="none" />
+    </g>
+  );
+};
+
+const ParqueNacionalDeGorongosa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const elephantColor = "#8C8478";
+  const lion = "#C9A063";
+  return (
+    <g>
+      <ellipse cx="205" cy="235" rx="120" ry="20" fill={tint(accentColor, 0.5)} opacity="0.5" />
+      <g transform="translate(150, 210)">
+        <path d="M-20 6 L-20 22 M-6 8 L-6 24 M8 8 L8 24 M20 6 L20 22" stroke={dark} strokeWidth="3" strokeLinecap="round" />
+        <ellipse cx="0" cy="-4" rx="26" ry="15" fill={elephantColor} stroke={dark} strokeWidth="2.2" />
+        <ellipse cx="22" cy="-8" rx="11" ry="10" fill={elephantColor} stroke={dark} strokeWidth="2" />
+        <path d="M26 -4 Q34 2 30 16 Q27 24 20 26" fill="none" stroke={elephantColor} strokeWidth="5" strokeLinecap="round" />
+      </g>
+      <g transform="translate(270, 225)">
+        <circle cx="0" cy="-24" r="17" fill={lion} stroke={shade(lion, 0.35)} strokeWidth="2.2" />
+        {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+          <path key={deg} d="M0 -24 L0 -42" stroke={shade(lion, 0.3)} strokeWidth="6" strokeLinecap="round" transform={`rotate(${deg} 0 -24)`} />
+        ))}
+        <ellipse cx="0" cy="0" rx="24" ry="18" fill={lion} stroke={shade(lion, 0.35)} strokeWidth="2.4" />
+        <circle cx="-6" cy="-26" r="2" fill="#1A1A1A" />
+        <circle cx="6" cy="-26" r="2" fill="#1A1A1A" />
+      </g>
+    </g>
+  );
+};
+
 export const mozambiqueIllustrations: Record<string, IllustrationDefinition> = {
   "la-orquesta-de-xilofonos-que-encanta-a-un-pueblo": { component: LaOrquestaDeXilofonosQueEncantaAUnPueblo },
   "la-tela-que-viste-carga-bebes-y-cuenta-historias": { component: LaTelaQueVisteCargaBebesYCuentaHistorias },
@@ -176,4 +222,6 @@ export const mozambiqueIllustrations: Record<string, IllustrationDefinition> = {
   "el-gran-rio-que-parte-el-pais-en-dos-mitades": { component: ElGranRioQueParteElPaisEnDosMitades },
   "las-armas-de-una-guerra-convertidas-en-esculturas": { component: LasArmasDeUnaGuerraConvertidasEnEsculturas },
   "el-guiso-de-hojas-de-mandioca-con-mani-y-coco": { component: ElGuisoDeHojasDeMandiocaConManiYCoco },
+  "marrabenta-ritmo-urbano": { component: MarrabentaRitmoUrbano },
+  "parque-nacional-de-gorongosa": { component: ParqueNacionalDeGorongosa },
 };

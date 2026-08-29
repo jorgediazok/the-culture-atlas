@@ -251,4 +251,54 @@ export const chad: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "ganado-kouri-del-lago-chad",
+    order: 11,
+    placeholderEmoji: "🐄",
+    accentColor: "#5C8A72",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La vaca de cuernos gigantes que sabe nadar",
+        subtitle: "El ganado kouri del lago Chad",
+        imageAlt:
+          "Caricatura de una vaca con enormes cuernos bulbosos nadando junto a un islote.",
+        description:
+          "El ganado kouri, una raza bovina propia de las orillas e islas del lago Chad, se distingue por unos cuernos enormes, huecos y de forma bulbosa que pueden superar el metro de largo, una característica que además de servir como rasgo de prestigio entre sus criadores actúa como flotador natural que ayuda a los animales a nadar entre los islotes del lago en busca de pastos frescos. Criado tradicionalmente por pueblos ribereños como los buduma y los kanembu, el kouri es una de las pocas razas bovinas del mundo completamente adaptada a un hábitat semiacuático, capaz de recorrer a nado varios kilómetros entre una isla y otra sin dificultad, algo excepcional entre el ganado vacuno global. La drástica reducción del lago Chad en las últimas décadas amenaza hoy tanto el hábitat como la forma de vida ganadera tradicional que depende de esta raza única, cada vez más valorada por programas de conservación genética animal.",
+      },
+      en: {
+        title: "The Giant-Horned Cow That Knows How to Swim",
+        subtitle: "Lake Chad's Kouri Cattle",
+        imageAlt:
+          "Cartoon of a cow with huge bulbous horns swimming beside a small island.",
+        description:
+          "Kouri cattle, a breed native to the shores and islands of Lake Chad, stand out for their enormous, hollow, bulb-shaped horns that can exceed a meter in length, a trait that, besides serving as a mark of prestige among herders, acts as a natural float helping the animals swim between the lake's islets in search of fresh pasture. Traditionally raised by lakeside peoples such as the Buduma and Kanembu, Kouri cattle are one of the few cattle breeds in the world fully adapted to a semi-aquatic habitat, able to swim several kilometers between islands without difficulty, an exceptional trait among cattle worldwide. Lake Chad's drastic shrinkage in recent decades now threatens both the habitat and the traditional herding way of life that depends on this unique breed, increasingly valued by animal genetic conservation programs.",
+      },
+    },
+  },
+  {
+    id: "toumai-fosil-mas-antiguo",
+    order: 12,
+    placeholderEmoji: "🦴",
+    accentColor: "#7A6C5D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El fósil de 7 millones de años hallado en el desierto",
+        subtitle: "Toumaï, uno de los homínidos más antiguos",
+        imageAlt:
+          "Caricatura de un cráneo fósil antiguo expuesto sobre un pedestal en la arena.",
+        description:
+          "En 2001, un equipo de paleontólogos franceses y chadianos descubrió en el desierto de Djurab, al norte de Chad, un cráneo fosilizado de casi siete millones de años perteneciente a Sahelanthropus tchadensis, apodado 'Toumaï' (que significa 'esperanza de vida' en idioma goran local), considerado uno de los homínidos más antiguos jamás encontrados y un candidato serio a estar cerca de la separación evolutiva entre los linajes humano y del chimpancé. El hallazgo, ocurrido en una región hasta entonces poco explorada por la paleontología en comparación con el este de África, obligó a reconsiderar mapas previos sobre dónde y cómo se originó la humanidad, sugiriendo una dispersión temprana mucho más amplia dentro del continente. El cráneo original se conserva bajo estricta custodia en N'Djamena, mientras réplicas circulan por museos de todo el mundo como testimonio del papel de Chad en la historia de los orígenes humanos.",
+      },
+      en: {
+        title: "The Seven-Million-Year-Old Fossil Found in the Desert",
+        subtitle: "Toumaï, One of the Oldest Hominids",
+        imageAlt:
+          "Cartoon of an ancient fossil skull displayed on a pedestal in the sand.",
+        description:
+          "In 2001, a team of French and Chadian paleontologists discovered in the Djurab Desert of northern Chad a nearly seven-million-year-old fossilized skull belonging to Sahelanthropus tchadensis, nicknamed 'Toumaï' (meaning 'hope of life' in the local Goran language), considered one of the oldest hominid fossils ever found and a serious candidate for lying near the evolutionary split between the human and chimpanzee lineages. The find, made in a region until then far less explored by paleontology compared to East Africa, forced a rethink of earlier maps of where and how humanity originated, suggesting a much wider early dispersal across the continent. The original skull is kept under strict guard in N'Djamena, while replicas circulate through museums worldwide as testimony to Chad's role in the story of human origins.",
+      },
+    },
+  },
 ];

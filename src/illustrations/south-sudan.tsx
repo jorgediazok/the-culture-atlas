@@ -160,6 +160,36 @@ const LaPastaDeSorgoQueAcompanaCadaComida: IllustrationComponent = () => (
   </g>
 );
 
+const GaarEscarificacionNuerDinka: IllustrationComponent = () => (
+  <g>
+    <ellipse cx="200" cy="180" rx="48" ry="60" fill="#3A2A1E" stroke="#1B140E" strokeWidth="2.8" />
+    <path d="M170 150 L185 145 M185 148 L200 143 M200 143 L215 148 M215 145 L230 150" stroke="#D9C2B0" strokeWidth="3" strokeLinecap="round" fill="none" />
+    <circle cx="182" cy="190" r="4" fill="#1A1210" />
+    <circle cx="218" cy="190" r="4" fill="#1A1210" />
+    <path d="M188 215 Q200 222 212 215" stroke="#1A1210" strokeWidth="3" fill="none" />
+    <rect x="170" y="235" width="60" height="15" fill="#5C3A21" stroke="#3A2A1E" strokeWidth="1.8" />
+  </g>
+);
+
+const BasquetbolSursudanes: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  return (
+    <g>
+      <rect x="255" y="95" width="45" height="35" fill="#F5F0E6" stroke={dark} strokeWidth="2.4" />
+      <rect x="265" y="128" width="25" height="4" fill={dark} />
+      <path d="M265 132 Q277 145 289 132" stroke="#C1440E" strokeWidth="2.4" fill="none" />
+      <path d="M180 245 L185 190 Q188 175 200 172" stroke={skin} strokeWidth="9" strokeLinecap="round" fill="none" />
+      <circle cx="203" cy="160" r="13" fill={skin} />
+      <path d="M195 172 Q210 168 220 155 L228 130" stroke={skin} strokeWidth="8" strokeLinecap="round" fill="none" />
+      <circle cx="232" cy="122" r="12" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <path d="M222 122 L242 122 M232 112 L232 132" stroke={dark} strokeWidth="1.2" opacity="0.6" />
+      <path d="M200 172 L192 245" stroke={skin} strokeWidth="9" strokeLinecap="round" fill="none" />
+      <path d="M180 245 L165 250 M192 245 L207 250" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const southSudanIllustrations: Record<string, IllustrationDefinition> = {
   "el-pais-mas-joven-de-todo-el-mundo": { component: ElPaisMasJovenDeTodoElMundo },
   "el-gran-pantano-que-detuvo-a-los-exploradores": { component: ElGranPantanoQueDetuvoALosExploradores },
@@ -171,4 +201,6 @@ export const southSudanIllustrations: Record<string, IllustrationDefinition> = {
   "los-corsets-de-cuentas-que-cuentan-la-edad-de-una-mujer": { component: LosCorsesDeCuentasQueCuentanLaEdadDeUnaMujer },
   "la-capital-mas-joven-del-mundo": { component: LaCapitalMasJovenDelMundo },
   "la-pasta-de-sorgo-que-acompana-cada-comida": { component: LaPastaDeSorgoQueAcompanaCadaComida },
+  "gaar-escarificacion-nuer-dinka": { component: GaarEscarificacionNuerDinka },
+  "basquetbol-sursudanes": { component: BasquetbolSursudanes },
 };

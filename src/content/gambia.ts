@@ -231,4 +231,54 @@ export const gambia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "benachin-raiz-del-jollof",
+    order: 11,
+    placeholderEmoji: "🍚",
+    accentColor: "#D4A017",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El plato de un solo caldero que originó el jollof",
+        subtitle: "Benachin, la raíz del jollof",
+        imageAlt:
+          "Caricatura de una olla grande de arroz con vegetales y pescado.",
+        description:
+          "El benachin, cuyo nombre en mandinga significa literalmente 'una sola olla', es el plato tradicional gambiano de arroz cocido junto con pescado o carne, tomate y una variedad de vegetales en un mismo caldero hasta que el arroz absorbe todos los sabores, una técnica de cocción compartida con las tradiciones culinarias wólof y mandinga de la región. Historiadores y cocineros de varios países de África occidental señalan al benachin, o a platos muy similares surgidos en el mismo entorno cultural, como el antecesor directo del jollof, el plato de arroz rojo hoy célebre en Nigeria, Ghana y Senegal, un vínculo histórico que Gambia reivindica con orgullo en medio de la conocida y a menudo bromista 'guerra del jollof' regional sobre qué país prepara la mejor versión. Cada familia y cada región gambiana tiene su propia variante, con ingredientes que cambian según la disponibilidad de pescado fresco en la costa o de carne en el interior del país.",
+      },
+      en: {
+        title: "The One-Pot Dish That Started the Jollof Debate",
+        subtitle: "Benachin, the Root of Jollof",
+        imageAlt:
+          "Cartoon of a large pot of rice with vegetables and fish.",
+        description:
+          "Benachin, whose name in Mandinka literally means 'one pot,' is Gambia's traditional dish of rice cooked together with fish or meat, tomato, and a range of vegetables in a single pot until the rice soaks up every flavor, a cooking technique shared with the region's Wolof and Mandinka culinary traditions. Historians and cooks across several West African countries point to benachin, or very similar dishes born in the same cultural setting, as the direct ancestor of jollof, the red rice dish now famous in Nigeria, Ghana, and Senegal, a historical link Gambia proudly claims amid the region's well-known, often joking 'jollof wars' over which country makes the best version. Every Gambian family and region has its own take on it, with ingredients shifting depending on the availability of fresh fish on the coast or meat further inland.",
+      },
+    },
+  },
+  {
+    id: "estanque-sagrado-de-kachikally",
+    order: 12,
+    placeholderEmoji: "🐊",
+    accentColor: "#00796B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El estanque sagrado de cocodrilos que se puede tocar",
+        subtitle: "El estanque sagrado de Kachikally",
+        imageAlt:
+          "Caricatura de un cocodrilo tranquilo flotando en un estanque bajo árboles.",
+        description:
+          "El estanque de Kachikally, en la localidad costera de Bakau, alberga desde hace generaciones una población de más de un centenar de cocodrilos del Nilo considerados sagrados por las comunidades locales, protegidos tradicionalmente por una familia que ejerce el cargo de guardiana espiritual del sitio y transmite esa responsabilidad de generación en generación. A diferencia de la imagen feroz habitual de estos animales, los cocodrilos de Kachikally son conocidos por un comportamiento inusualmente tranquilo frente a los visitantes, al punto de que muchos pueden acercarse y tocarlos bajo la supervisión de los guardianes, una convivencia que las creencias locales atribuyen a las aguas sagradas del estanque. Mujeres con dificultades para concebir viajan desde distintas partes del país para bañarse en esas aguas consideradas fértiles, convirtiendo a Kachikally en un sitio que combina turismo, fe popular y conservación de vida silvestre en plena zona urbana.",
+      },
+      en: {
+        title: "The Sacred Crocodile Pool You're Allowed to Touch",
+        subtitle: "Kachikally Sacred Pool",
+        imageAlt:
+          "Cartoon of a calm crocodile floating in a pool under trees.",
+        description:
+          "Kachikally Pool, in the coastal town of Bakau, has for generations been home to a population of more than a hundred Nile crocodiles considered sacred by local communities, traditionally protected by a family that holds the role of spiritual guardian of the site and passes that responsibility down through generations. Unlike the usual fierce image of these animals, Kachikally's crocodiles are known for unusually calm behavior around visitors, to the point that many tourists and Gambians can approach and touch them under the guardians' supervision, a coexistence local beliefs attribute to the pool's sacred waters. Women struggling to conceive travel from across the country to bathe in these waters, believed to bring fertility, making Kachikally a site that blends tourism, popular faith, and wildlife conservation within one small space inside an urban area.",
+      },
+    },
+  },
 ];

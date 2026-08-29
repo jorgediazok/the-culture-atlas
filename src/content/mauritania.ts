@@ -251,4 +251,54 @@ export const mauritania: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "tren-del-mineral-de-hierro",
+    order: 11,
+    placeholderEmoji: "🚂",
+    accentColor: "#4A4A4A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tren tan largo que tarda una hora en pasar",
+        subtitle: "El tren del mineral de hierro",
+        imageAlt:
+          "Caricatura de un larguísimo tren de vagones cargados cruzando dunas del desierto.",
+        description:
+          "Entre las minas de hierro de Zouérat y el puerto de Nouadhibou circula uno de los trenes más largos del mundo, capaz de superar los dos kilómetros de longitud con más de doscientos vagones cargados de mineral, atravesando setecientos kilómetros de desierto del Sahara en un trayecto de casi veinte horas. Aunque pensado exclusivamente para transportar carga, el tren añade tradicionalmente uno o dos vagones de pasajeros al final del convoy, y muchos viajeros locales sin recursos para otro medio de transporte optan por viajar gratis sentados directamente sobre el mineral a cielo abierto, expuestos al sol del día y al frío intenso de la noche saharaui. Gestionado por la empresa estatal minera, el convoy es también una atracción para viajeros extranjeros en busca de aventura, que describen el cruce nocturno bajo un cielo estrellado sin luz artificial como una de las experiencias ferroviarias más singulares del planeta.",
+      },
+      en: {
+        title: "The Train So Long It Takes an Hour to Pass",
+        subtitle: "The Iron Ore Train",
+        imageAlt:
+          "Cartoon of a very long train of loaded cars crossing desert dunes.",
+        description:
+          "Between the iron mines of Zouérat and the port of Nouadhibou runs one of the longest trains in the world, sometimes exceeding two kilometers in length with more than two hundred cars loaded with ore, crossing seven hundred kilometers of Sahara desert on a journey of nearly twenty hours. Though built purely to haul cargo, the train traditionally adds one or two passenger cars at the back of the convoy, and many local travelers who can't afford other transportation choose to ride for free sitting directly on top of the open ore cars, exposed to the daytime sun and the Sahara's bitter nighttime cold. Run by the state mining company, the train has also become a draw for foreign adventure travelers, who describe the overnight crossing under a starlit sky with no artificial light as one of the most singular railway experiences on the planet.",
+      },
+    },
+  },
+  {
+    id: "oasis-de-terjit",
+    order: 12,
+    placeholderEmoji: "🌴",
+    accentColor: "#2F8F5B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El oasis de palmeras escondido en un cañón de roca",
+        subtitle: "El oasis de Terjit",
+        imageAlt:
+          "Caricatura de palmeras y una piscina de agua entre paredes de roca de un cañón.",
+        description:
+          "En pleno macizo del Adrar, una meseta rocosa y árida del centro de Mauritania, se esconde el oasis de Terjit, un cañón estrecho donde manantiales naturales alimentan pequeñas piscinas de agua fresca rodeadas de palmeras datileras que crecen apretadas entre paredes de roca de varios metros de altura. El contraste resulta casi surreal para cualquier visitante que llega tras horas de conducir por un paisaje de piedra y arena sin sombra: agua corriendo entre rocas, sombra densa de palmeras y el sonido de pájaros en medio de uno de los desiertos más secos del planeta. Habitado desde hace generaciones por familias que cultivan dátiles y hortalizas en pequeñas parcelas irrigadas por el propio manantial, Terjit se convirtió también en una parada habitual para caravanas de turistas que exploran el Adrar, aunque el acceso remoto y la falta de infraestructura mantienen al oasis relativamente virgen frente al turismo masivo.",
+      },
+      en: {
+        title: "The Palm Oasis Hidden in a Rock Canyon",
+        subtitle: "The Terjit Oasis",
+        imageAlt:
+          "Cartoon of palm trees and a pool of water between the rock walls of a canyon.",
+        description:
+          "Deep in the Adrar massif, a rocky, arid plateau in central Mauritania, hides the Terjit oasis, a narrow canyon where natural springs feed small pools of cool water surrounded by date palms growing tightly packed between rock walls several meters high. The contrast feels almost surreal to any visitor arriving after hours of driving through a shadeless landscape of stone and sand: water flowing over rocks, dense palm shade, and birdsong in the middle of one of the driest deserts on Earth. Inhabited for generations by families who grow dates and vegetables on small plots irrigated by the spring itself, Terjit also became a regular stop for tourist caravans exploring the Adrar, though its remote access and lack of infrastructure have kept the oasis relatively untouched by mass tourism.",
+      },
+    },
+  },
 ];

@@ -251,4 +251,54 @@ export const senegal: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "gran-magal-de-touba",
+    order: 11,
+    placeholderEmoji: "🕌",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La peregrinación que multiplica la población de Touba",
+        subtitle: "El Gran Magal de Touba",
+        imageAlt:
+          "Caricatura de una multitud caminando hacia una gran mezquita con minaretes altos.",
+        description:
+          "Cada año, la ciudad santa de Touba, fundada a fines del siglo diecinueve por el líder religioso Cheikh Amadou Bamba, recibe durante el Gran Magal a varios millones de peregrinos de la hermandad sufí mourid, una de las principales corrientes del islam senegalés, en una de las mayores concentraciones religiosas de toda África. La fecha conmemora el exilio que las autoridades coloniales francesas impusieron a Bamba en 1895, un episodio que sus seguidores reinterpretan como el origen espiritual del movimiento en lugar de un castigo, y que hoy moviliza a devotos que llegan caminando, en autobús o en tren desde todo Senegal y la diáspora. Durante los días del Magal, la población de Touba se multiplica varias veces, con voluntarios organizando alojamiento, comida y agua gratuitos para los peregrinos, y la Gran Mezquita de la ciudad, con sus altos minaretes, se convierte en el epicentro de oraciones colectivas transmitidas por radio y televisión a todo el país.",
+      },
+      en: {
+        title: "The Pilgrimage That Multiplies a City's Population",
+        subtitle: "The Grand Magal of Touba",
+        imageAlt:
+          "Cartoon of a crowd walking toward a large mosque with tall minarets.",
+        description:
+          "Every year, the holy city of Touba, founded in the late nineteenth century by religious leader Cheikh Amadou Bamba, hosts several million pilgrims of the Mouride Sufi brotherhood, one of Senegal's main Islamic orders, during the Grand Magal, one of the largest religious gatherings anywhere in Africa. The date commemorates the exile French colonial authorities imposed on Bamba in 1895, an episode his followers reinterpret as the movement's spiritual origin rather than a punishment, and it now draws devotees who travel on foot, by bus, or by train from across Senegal and the diaspora. During the days of the Magal, Touba's population multiplies several times over, with volunteers organizing free lodging, food, and water for pilgrims, and the city's Great Mosque, with its tall minarets, becomes the epicenter of collective prayers broadcast by radio and television across the country.",
+      },
+    },
+  },
+  {
+    id: "joal-fadiouth-isla-de-conchas",
+    order: 12,
+    placeholderEmoji: "🐚",
+    accentColor: "#B0A080",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo construido sobre millones de conchas",
+        subtitle: "Joal-Fadiouth, la isla de conchas",
+        imageAlt:
+          "Caricatura de casas sobre un montículo blanco de conchas junto al mar con un puente de madera.",
+        description:
+          "Fadiouth, un islote unido al pueblo continental de Joal por un puente peatonal de madera, está construido literalmente sobre siglos de conchas de almeja y ostra acumuladas por comunidades pesqueras locales, un terreno artificial de varios metros de espesor que hoy sostiene casas, calles y hasta el propio cementerio del pueblo. Ese cementerio, situado en un islote vecino cubierto también de conchas blancas, es compartido sin distinción por familias cristianas y musulmanas, un símbolo local de convivencia religiosa pacífica que refleja la reputación general de tolerancia interreligiosa de Senegal. Los habitantes de Fadiouth siguen viviendo principalmente de la pesca y del cultivo de ostras en los manglares cercanos, mientras las conchas, además de servir de cimiento, se muelen para producir cal de construcción, cerrando un ciclo material que define la identidad física y cultural de todo el pueblo.",
+      },
+      en: {
+        title: "The Village Built on Millions of Shells",
+        subtitle: "Joal-Fadiouth, the Shell Island",
+        imageAlt:
+          "Cartoon of houses on a white mound of shells by the sea with a wooden bridge.",
+        description:
+          "Fadiouth, an islet connected to the mainland town of Joal by a wooden footbridge, is literally built on centuries of clam and oyster shells accumulated by local fishing communities, an artificial ground several meters thick that today supports houses, streets, and even the town's own cemetery. That cemetery, on a neighboring islet also covered in white shells, is shared without distinction by Christian and Muslim families, a local symbol of peaceful interfaith coexistence reflecting Senegal's broader reputation for religious tolerance. Fadiouth's residents still live mainly from fishing and oyster farming in the nearby mangroves, while the shells, beyond serving as foundation material, are ground down to produce construction lime, closing a material cycle that defines the physical and cultural identity of the entire town.",
+      },
+    },
+  },
 ];

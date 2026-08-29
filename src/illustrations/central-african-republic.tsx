@@ -178,6 +178,39 @@ const LosGorilasSilenciososDeLaSelvaMasDensa: IllustrationComponent = ({ accentC
   );
 };
 
+const ArteMangbetu: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M205 100 Q235 105 238 145 Q240 190 225 220 Q215 240 205 240 Q195 240 185 220 Q170 190 172 145 Q175 105 205 100 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="192" cy="160" rx="6" ry="8" fill={dark} />
+      <ellipse cx="218" cy="160" rx="6" ry="8" fill={dark} />
+      <path d="M205 168 L200 185 L210 185 Z" fill={dark} opacity="0.7" />
+      <path d="M192 200 Q205 210 218 200" stroke={dark} strokeWidth="3" fill="none" />
+      <rect x="178" y="120" width="54" height="10" rx="5" fill={dark} opacity="0.5" />
+      <ellipse cx="205" cy="238" rx="30" ry="10" fill={shade(accentColor, 0.2)} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const ReservaDeChinko: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const hide = "#B08968";
+  return (
+    <g>
+      <path d="M90 235 Q205 220 320 235 L320 250 L90 250 Z" fill={tint(accentColor, 0.5)} opacity="0.5" />
+      <ellipse cx="205" cy="200" rx="70" ry="30" fill={hide} stroke={dark} strokeWidth="2.8" />
+      <path d="M150 195 Q140 175 143 160" fill="none" stroke={hide} strokeWidth="22" strokeLinecap="round" />
+      <circle cx="140" cy="160" r="18" fill={hide} stroke={dark} strokeWidth="2.6" />
+      <path d="M133 150 Q118 122 128 95 Q140 102 136 128 Q142 132 136 152 Z" fill={dark} />
+      <path d="M147 150 Q162 120 152 90 Q140 98 145 126 Q138 132 144 152 Z" fill={dark} />
+      {[160, 190, 220, 250].map((x) => (
+        <path key={x} d={`M${x} 222 L${x - 5} 248`} stroke={hide} strokeWidth="11" strokeLinecap="round" />
+      ))}
+    </g>
+  );
+};
+
 export const centralAfricanRepublicIllustrations: Record<string, IllustrationDefinition> = {
   "el-claro-de-selva-donde-se-reunen-los-elefantes": { component: ElClaroDeSelvaDondeSeReunenLosElefantes },
   "el-canto-que-hace-eco-entre-los-arboles-mas-altos": { component: ElCantoQueHaceEcoEntreLosArbolesMasAltos },
@@ -189,4 +222,6 @@ export const centralAfricanRepublicIllustrations: Record<string, IllustrationDef
   "el-brillo-que-se-esconde-bajo-los-rios-de-diamantes": { component: ElBrilloQueSeEscondeBajoLosRiosDeDiamantes },
   "la-salsa-de-mani-que-acompana-cada-comida-familiar": { component: LaSalsaDeManiQueAcompanaCadaComidaFamiliar },
   "los-gorilas-silenciosos-de-la-selva-mas-densa": { component: LosGorilasSilenciososDeLaSelvaMasDensa },
+  "arte-mangbetu": { component: ArteMangbetu },
+  "reserva-de-chinko": { component: ReservaDeChinko },
 };

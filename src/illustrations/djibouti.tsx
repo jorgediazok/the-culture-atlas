@@ -159,6 +159,47 @@ const ElTrenQueUnioElMarConLasMontanasDeEtiopia: IllustrationComponent = () => (
   </g>
 );
 
+const BosqueDeDay: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const bird = "#8B5A2B";
+  return (
+    <g>
+      <ellipse cx="150" cy="110" rx="60" ry="24" fill="#F5F0E6" opacity="0.4" />
+      <ellipse cx="270" cy="130" rx="50" ry="20" fill="#F5F0E6" opacity="0.35" />
+      <rect x="195" y="150" width="14" height="90" fill="#5C4A3E" stroke={dark} strokeWidth="2" />
+      <path d="M150 165 Q170 140 202 155 Q225 130 250 150 Q270 140 260 170 Q230 185 200 175 Q170 185 150 165 Z" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <path d="M205 205 L280 195" stroke="#5C4A3E" strokeWidth="8" strokeLinecap="round" />
+      <circle cx="217" cy="178" r="13" fill={bird} stroke={shade(bird, 0.3)} strokeWidth="2.2" />
+      <ellipse cx="240" cy="185" rx="26" ry="18" fill={bird} stroke={shade(bird, 0.3)} strokeWidth="2.4" />
+      <path d="M205 176 L194 173 L205 180 Z" fill="#D4A017" />
+      <circle cx="212" cy="174" r="2" fill="#1A1A1A" />
+      <path d="M257 190 L274 197 M257 182 L270 174" stroke={bird} strokeWidth="3" opacity="0.6" />
+      <line x1="228" y1="203" x2="226" y2="202" stroke={bird} strokeWidth="3" strokeLinecap="round" />
+      <line x1="248" y1="203" x2="250" y2="199" stroke={bird} strokeWidth="3" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const IndependenciaDe1977: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  return (
+    <g>
+      <rect x="200" y="110" width="5" height="90" fill={dark} />
+      <path d="M205 112 L255 128 L205 144 Z" fill="#69ACE0" />
+      <path d="M205 112 L230 118 L205 124 Z" fill="#2E7D32" />
+      <circle cx="216" cy="118" r="4" fill="#C1272D" />
+      {[[140, 235], [175, 240], [225, 238], [260, 233]].map(([x, y], i) => (
+        <g key={i}>
+          <circle cx={x as number} cy={(y as number) - 40} r="9" fill={skin} stroke={dark} strokeWidth="1.6" />
+          <path d={`M${(x as number) - 12} ${(y as number) - 28} Q${x} ${(y as number) - 34} ${(x as number) + 12} ${(y as number) - 28} L${(x as number) + 10} ${y} Q${x} ${(y as number) + 6} ${(x as number) - 10} ${y} Z`} fill={i % 2 === 0 ? accentColor : "#F5F0E6"} stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
+      <ellipse cx="200" cy="242" rx="120" ry="10" fill={dark} opacity="0.25" />
+    </g>
+  );
+};
+
 export const djiboutiIllustrations: Record<string, IllustrationDefinition> = {
   "el-lago-de-sal-mas-bajo-de-africa": { component: ElLagoDeSalMasBajoDeAfrica },
   "las-chimeneas-de-piedra-que-parecen-de-otro-planeta": { component: LasChimeneasDePiedraQueParecenDeOtroPlaneta },
@@ -170,4 +211,6 @@ export const djiboutiIllustrations: Record<string, IllustrationDefinition> = {
   "el-vestido-de-colores-que-flota-con-cada-paso": { component: ElVestidoDeColoresQueFlotaConCadaPaso },
   "el-arroz-especiado-que-se-sirve-en-cada-celebracion": { component: ElArrozEspeciadoQueSeSirveEnCadaCelebracion },
   "el-tren-que-unio-el-mar-con-las-montanas-de-etiopia": { component: ElTrenQueUnioElMarConLasMontanasDeEtiopia },
+  "bosque-de-day": { component: BosqueDeDay },
+  "independencia-de-1977": { component: IndependenciaDe1977 },
 };

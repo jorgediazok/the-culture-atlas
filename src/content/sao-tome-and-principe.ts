@@ -251,4 +251,54 @@ export const saoTomeAndPrincipe: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "principe-reserva-de-biosfera",
+    order: 11,
+    placeholderEmoji: "🏝️",
+    accentColor: "#00838F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La isla hermana declarada reserva de la biosfera",
+        subtitle: "Príncipe, la isla menor",
+        imageAlt:
+          "Caricatura de un islote rocoso cubierto de palmeras rodeado de aguas turquesas.",
+        description:
+          "Príncipe, la isla menor y menos poblada del país, con apenas siete mil habitantes repartidos en un territorio de selva casi virgen, fue declarada Reserva de la Biosfera por la Unesco en 2012 gracias a un ecosistema insular que evolucionó en aislamiento durante millones de años, dando lugar a especies endémicas propias distintas incluso de las de la vecina São Tomé, como su propio picogordo y varias orquídeas exclusivas. Separada de la isla principal por unos ciento cincuenta kilómetros de océano navegables en avioneta o barco lento, Príncipe recibe cada año solo un puñado de visitantes, atraídos por playas casi vacías como Bom Bom, arrecifes de coral bien conservados y una selva donde monos, aves y murciélagos frugívoros conviven sin apenas presión humana. El gobierno declaró a toda la isla parque natural, apostando por un turismo ecológico de bajo volumen como modelo de desarrollo frente a la explotación petrolera que alguna vez se consideró para la zona.",
+      },
+      en: {
+        title: "The Sister Island Declared a Biosphere Reserve",
+        subtitle: "Príncipe, the Smaller Island",
+        imageAlt:
+          "Cartoon of a rocky, palm-covered islet surrounded by turquoise waters.",
+        description:
+          "Príncipe, the smaller and less populated of the country's two main islands, home to barely seven thousand people scattered across nearly untouched rainforest, was declared a UNESCO Biosphere Reserve in 2012 thanks to an island ecosystem that evolved in isolation over millions of years, producing its own endemic species distinct even from those of neighboring São Tomé, including its own grosbeak and several exclusive orchid species. Separated from the main island by about a hundred fifty kilometers of ocean crossed by small plane or slow boat, Príncipe draws only a handful of visitors each year, lured by nearly empty beaches like Bom Bom, well-preserved coral reefs, and a forest where monkeys, birds, and fruit bats live with almost no human pressure. The government declared the entire island a natural park, betting on low-volume ecotourism as a development model over the offshore oil exploration once considered for the area.",
+      },
+    },
+  },
+  {
+    id: "independencia-12-julio-1975",
+    order: 12,
+    placeholderEmoji: "🎊",
+    accentColor: "#8B1E3F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La independencia que llegó sin disparar un solo tiro",
+        subtitle: "El 12 de julio de 1975",
+        imageAlt:
+          "Caricatura de una bandera ondeando junto a una multitud celebrando frente al mar.",
+        description:
+          "São Tomé y Príncipe alcanzó la independencia de Portugal el 12 de julio de 1975, tras la Revolución de los Claveles del año anterior en Lisboa que puso fin abruptamente al imperio colonial portugués en África, un proceso que en el archipiélago se dio de forma relativamente pacífica y sin el conflicto armado prolongado que marcó a otras excolonias portuguesas como Angola o Mozambique. Manuel Pinto da Costa, líder del Movimiento de Liberación de São Tomé y Príncipe, se convirtió en el primer presidente del país bajo un sistema de partido único que se mantuvo hasta la introducción del multipartidismo en 1990, uno de los primeros países africanos en dar ese paso hacia la democracia electoral tras el fin de la Guerra Fría. Cada 12 de julio, desfiles y actos oficiales conmemoran la fecha en la capital, celebrando la condición del país como una de las democracias más estables de África central.",
+      },
+      en: {
+        title: "The Independence That Arrived Without a Single Shot",
+        subtitle: "July 12th, 1975",
+        imageAlt:
+          "Cartoon of a flag waving beside a crowd celebrating by the sea.",
+        description:
+          "São Tomé and Príncipe gained independence from Portugal on July 12, 1975, following the Carnation Revolution in Lisbon the previous year, which abruptly ended Portugal's colonial empire in Africa, a transition that unfolded relatively peacefully in the archipelago without the prolonged armed conflict that marked other former Portuguese colonies like Angola or Mozambique. Manuel Pinto da Costa, leader of the Movement for the Liberation of São Tomé and Príncipe, became the country's first president under a one-party system that lasted until multiparty politics were introduced in 1990, making it one of the first African countries to take that step toward electoral democracy after the Cold War ended. Every July 12th, parades and official ceremonies mark the date in the capital, celebrating the country's standing as one of Central Africa's more stable democracies.",
+      },
+    },
+  },
 ];

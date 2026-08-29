@@ -191,6 +191,50 @@ const LaAntiguaCapitalDeBalconesDeHierroForjado: IllustrationComponent = () => (
   </g>
 );
 
+const GranMagalDeTouba: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="160" y="150" width="80" height="90" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.6" />
+      <path d="M160 150 Q200 130 240 150 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      {[175, 225].map((x) => (
+        <g key={x}>
+          <rect x={x - 6} y="90" width="12" height="70" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+          <path d={`M${x - 6} 90 Q${x} 75 ${x + 6} 90 Z`} fill={dark} />
+        </g>
+      ))}
+      <path d="M188 240 L188 200 Q188 190 200 190 Q212 190 212 200 L212 240 Z" fill={dark} opacity="0.6" />
+      {[[110, 240], [135, 244], [150, 238], [260, 242], [280, 238], [100, 232]].map(([x, y], i) => (
+        <g key={i}>
+          <circle cx={x as number} cy={(y as number) - 16} r="6" fill="#3A2A1E" />
+          <path d={`M${(x as number) - 8} ${(y as number) - 6} Q${x} ${(y as number) - 12} ${(x as number) + 8} ${(y as number) - 6} L${(x as number) + 7} ${y} Q${x} ${(y as number) + 5} ${(x as number) - 7} ${y} Z`} fill="#F5F0E6" stroke={dark} strokeWidth="1.6" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const JoalFadiouthIslaDeConchas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="200" width="230" height="50" fill="#1B7A9C" opacity="0.4" />
+      <path d="M120 225 Q205 205 290 225 L290 245 Q205 228 120 245 Z" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      {Array.from({ length: 40 }, (_, i) => [130 + (i % 10) * 17, 210 + Math.floor(i / 10) * 8, (i * 23) % 40 - 20]).map(([x, y, deg], i) => (
+        <ellipse key={i} cx={x} cy={y} rx="5" ry="3" fill={tint(accentColor, 0.4)} stroke={dark} strokeWidth="0.8" transform={`rotate(${deg} ${x} ${y})`} />
+      ))}
+      <rect x="165" y="190" width="26" height="24" fill="#D9622C" stroke="#7A3A18" strokeWidth="2" />
+      <polygon points="160,190 178,175 196,190" fill="#7A3A18" />
+      <rect x="210" y="195" width="24" height="20" fill="#C97C3D" stroke="#7A3A18" strokeWidth="2" />
+      <polygon points="206,195 222,182 238,195" fill="#7A3A18" />
+      <path d="M90 245 L120 240 L120 250 L90 250 Z M290 245 L320 240 L320 250 L290 250 Z" fill="#8B5A2B" stroke="#5C3A21" strokeWidth="1.8" />
+      {[100, 115, 295, 310].map((x) => (
+        <line key={x} x1={x} y1="240" x2={x} y2="248" stroke="#5C3A21" strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
 export const senegalIllustrations: Record<string, IllustrationDefinition> = {
   "la-isla-que-guarda-la-memoria-de-un-comercio-doloroso": { component: LaIslaQueGuardaLaMemoriaDeUnComercioDoloroso },
   "la-lucha-que-convierte-a-un-luchador-en-idolo": { component: LaLuchaQueConvierteAUnLuchadorEnIdolo },
@@ -202,4 +246,6 @@ export const senegalIllustrations: Record<string, IllustrationDefinition> = {
   "el-arpa-de-veintiuna-cuerdas-que-cuenta-la-historia": { component: ElArpaDeVeintiunaCuerdasQueCuentaLaHistoria },
   "el-lago-que-se-vuelve-rosa-por-una-bacteria": { component: ElLagoQueSeVuelveRosaPorUnaBacteria },
   "la-antigua-capital-de-balcones-de-hierro-forjado": { component: LaAntiguaCapitalDeBalconesDeHierroForjado },
+  "gran-magal-de-touba": { component: GranMagalDeTouba },
+  "joal-fadiouth-isla-de-conchas": { component: JoalFadiouthIslaDeConchas },
 };

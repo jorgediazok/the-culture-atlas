@@ -190,6 +190,37 @@ const LosArtesanosQueConstruyenBarcosEnMiniatura: IllustrationComponent = ({ acc
   );
 };
 
+const GargantasDelRioNegro: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <ellipse cx="150" cy="110" rx="60" ry="24" fill="#3A7A45" opacity="0.3" />
+      <ellipse cx="270" cy="130" rx="50" ry="20" fill="#3A7A45" opacity="0.25" />
+      <path d="M150 240 L270 225" stroke="#5C4A3E" strokeWidth="8" strokeLinecap="round" />
+      <circle cx="225" cy="195" r="15" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <ellipse cx="238" cy="205" rx="32" ry="24" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <path d="M213 193 L202 189 L213 198 Z" fill="#5C3A21" />
+      <circle cx="220" cy="190" r="2" fill="#1A1A1A" />
+      <path d="M258 218 L275 224 M258 194 L273 186" stroke={accentColor} strokeWidth="4" opacity="0.7" />
+      <line x1="228" y1="228" x2="228" y2="231" stroke={accentColor} strokeWidth="3" strokeLinecap="round" />
+      <line x1="248" y1="228" x2="248" y2="230" stroke={accentColor} strokeWidth="3" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const CascadaSubmarinaDeLeMorne: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const shallow = tint(accentColor, 0.5);
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill={shallow} />
+      <path d="M90 150 L200 150 Q220 150 225 170 Q235 200 220 230 Q210 245 195 250 L90 250 Z" fill={dark} opacity="0.9" />
+      <path d="M120 160 Q150 165 160 180 Q170 200 155 220 Q145 235 130 240" fill="none" stroke={shade(dark, 0.2)} strokeWidth="4" opacity="0.6" />
+      <path d="M150 158 Q175 168 185 190 Q195 212 180 232" fill="none" stroke={shade(dark, 0.2)} strokeWidth="4" opacity="0.5" />
+    </g>
+  );
+};
+
 export const mauritiusIllustrations: Record<string, IllustrationDefinition> = {
   "el-ave-extinta-que-se-convirtio-en-simbolo-nacional": { component: ElAveExtintaQueSeConvirtioEnSimboloNacional },
   "el-baile-que-nacio-del-dolor-de-la-esclavitud": { component: ElBaileQueNacioDelDolorDeLaEsclavitud },
@@ -201,4 +232,6 @@ export const mauritiusIllustrations: Record<string, IllustrationDefinition> = {
   "las-casas-coloniales-de-techos-de-lata-coloridos": { component: LasCasasColonialesDeTechosDeLataColoridos },
   "la-peregrinacion-hindu-hasta-un-lago-de-crater": { component: LaPeregrinacionHinduHastaUnLagoDeCrater },
   "los-artesanos-que-construyen-barcos-en-miniatura": { component: LosArtesanosQueConstruyenBarcosEnMiniatura },
+  "gargantas-del-rio-negro": { component: GargantasDelRioNegro },
+  "cascada-submarina-de-le-morne": { component: CascadaSubmarinaDeLeMorne },
 };

@@ -1,4 +1,4 @@
-import { shade } from "./palette";
+import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 function camel(x: number, y: number, scale: number, dark: string) {
@@ -168,6 +168,41 @@ const LosPastoresQueConocenCadaPozoDelDesierto: IllustrationComponent = ({ accen
   );
 };
 
+const GanadoKouriDelLagoChad: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
+  const hide = "#D9BE8F";
+  return (
+    <g>
+      <path d="M90 220 Q205 205 320 220 L320 250 L90 250 Z" fill={water} opacity="0.6" />
+      <ellipse cx="270" cy="230" rx="18" ry="8" fill={accentColor} opacity="0.4" />
+      <ellipse cx="190" cy="215" rx="55" ry="22" fill={hide} stroke={dark} strokeWidth="2.8" />
+      <circle cx="165" cy="205" r="20" fill={hide} stroke={dark} strokeWidth="2.6" />
+      <path d="M153 192 Q133 170 143 140 Q160 148 163 175 Q171 178 165 200 Z" fill={dark} opacity="0.85" />
+      <path d="M177 192 Q191 165 177 138 Q160 146 163 172 Q155 178 161 198 Z" fill={dark} opacity="0.85" />
+      <circle cx="160" cy="202" r="2.5" fill="#1A1A1A" />
+      <path d="M235 220 Q245 210 255 220 M245 225 Q255 215 265 225" fill="none" stroke={dark} strokeWidth="2" opacity="0.4" />
+    </g>
+  );
+};
+
+const ToumaiFosilMasAntiguo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const bone = "#EDE0C8";
+  return (
+    <g>
+      <path d="M90 240 Q205 225 320 240 L320 250 L90 250 Z" fill={tint(accentColor, 0.5)} opacity="0.5" />
+      <path d="M165 240 L175 195 L235 195 L245 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      <ellipse cx="205" cy="150" rx="42" ry="38" fill={bone} stroke={shade(bone, 0.35)} strokeWidth="2.8" />
+      <path d="M180 175 Q205 195 230 175 Q225 190 205 195 Q185 190 180 175 Z" fill={bone} stroke={shade(bone, 0.35)} strokeWidth="2.4" />
+      <ellipse cx="192" cy="145" rx="7" ry="9" fill={dark} opacity="0.6" />
+      <ellipse cx="218" cy="145" rx="7" ry="9" fill={dark} opacity="0.6" />
+      <path d="M198 168 Q205 173 212 168" stroke={dark} strokeWidth="2" fill="none" opacity="0.6" />
+      <path d="M175 130 Q168 110 180 95" fill="none" stroke={shade(bone, 0.4)} strokeWidth="2" opacity="0.5" />
+    </g>
+  );
+};
+
 export const chadIllustrations: Record<string, IllustrationDefinition> = {
   "el-mar-del-sahara-que-se-esta-quedando-sin-agua": { component: ElMarDelSaharaQueSeEstaQuedandoSinAgua },
   "los-arcos-de-piedra-que-esculpio-el-viento-del-desierto": { component: LosArcosDePiedraQueEsculpioElVientoDelDesierto },
@@ -179,4 +214,6 @@ export const chadIllustrations: Record<string, IllustrationDefinition> = {
   "la-capital-nacida-donde-se-abrazan-dos-rios": { component: LaCapitalNacidaDondeSeAbrazanDosRios },
   "la-bola-de-mijo-que-se-parte-y-se-comparte": { component: LaBolaDeMijoQueSePartYSeComparte },
   "los-pastores-que-conocen-cada-pozo-del-desierto": { component: LosPastoresQueConocenCadaPozoDelDesierto },
+  "ganado-kouri-del-lago-chad": { component: GanadoKouriDelLagoChad },
+  "toumai-fosil-mas-antiguo": { component: ToumaiFosilMasAntiguo },
 };

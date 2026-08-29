@@ -215,6 +215,45 @@ const LaPlataYElAmbarQueCuentanUnaHistoria: IllustrationComponent = ({ accentCol
   );
 };
 
+const TrenDelMineralDeHierro: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const ore = "#8B4513";
+  return (
+    <g>
+      <path d="M90 245 Q160 225 230 240 Q280 250 320 235" fill="none" stroke="#D9C08A" strokeWidth="14" opacity="0.5" />
+      <rect x="95" y="225" width="230" height="8" fill={dark} />
+      {[100, 140, 180, 220, 260].map((x) => (
+        <g key={x}>
+          <rect x={x} y="200" width="32" height="26" fill={accentColor} stroke={dark} strokeWidth="2" />
+          <path d={`M${x + 2} 200 Q${x + 16} 188 ${x + 30} 200 Z`} fill={ore} stroke={shade(ore, 0.3)} strokeWidth="1.4" />
+        </g>
+      ))}
+      <path d="M300 195 L300 226 L328 226 L328 205 Q328 195 316 195 Z" fill={dark} stroke={shade(dark, 0.2)} strokeWidth="2.4" />
+      <circle cx="308" cy="205" r="4" fill="#F5F0E6" />
+    </g>
+  );
+};
+
+const OasisDeTerjit: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const rock = "#B08968";
+  return (
+    <g>
+      <path d="M90 250 L90 120 Q130 100 150 140 L150 250 Z" fill={rock} stroke={shade(rock, 0.3)} strokeWidth="2.8" />
+      <path d="M320 250 L320 110 Q280 95 260 135 L260 250 Z" fill={shade(rock, 0.1)} stroke={shade(rock, 0.3)} strokeWidth="2.8" />
+      <ellipse cx="205" cy="230" rx="70" ry="18" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.4" />
+      {[[170, 215], [205, 205], [240, 218]].map(([x, y], i) => (
+        <g key={i}>
+          <path d={`M${x} 250 L${(x as number) - 2} ${(y as number) + 10}`} stroke="#6B4423" strokeWidth="8" strokeLinecap="round" />
+          {[-50, -15, 20, 55, 90].map((deg) => (
+            <path key={deg} d={`M${x} ${y} Q${(x as number) + 18} ${(y as number) - 6} ${(x as number) + 30} ${(y as number) + 4}`} fill="none" stroke={accentColor} strokeWidth="7" strokeLinecap="round" transform={`rotate(${deg} ${x} ${y})`} />
+          ))}
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const mauritaniaIllustrations: Record<string, IllustrationDefinition> = {
   "la-ciudad-santa-de-los-manuscritos-del-desierto": { component: LaCiudadSantaDeLosManuscritosDelDesierto },
   "los-griots-que-cantan-la-historia-con-un-laud": { component: LosGriotsQueCantanLaHistoriaConUnLaud },
@@ -226,4 +265,6 @@ export const mauritaniaIllustrations: Record<string, IllustrationDefinition> = {
   "la-carpa-que-se-convierte-en-casa-y-en-refugio": { component: LaCarpaQueSeConvierteEnCasaYEnRefugio },
   "la-leche-de-camella-espumosa-que-sella-una-visita": { component: LaLecheDeCamellaEspumosaQueSellaUnaVisita },
   "la-plata-y-el-ambar-que-cuentan-una-historia": { component: LaPlataYElAmbarQueCuentanUnaHistoria },
+  "tren-del-mineral-de-hierro": { component: TrenDelMineralDeHierro },
+  "oasis-de-terjit": { component: OasisDeTerjit },
 };

@@ -251,4 +251,54 @@ export const republicOfTheCongo: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "parque-nouabale-ndoki",
+    order: 11,
+    placeholderEmoji: "🐘",
+    accentColor: "#2E7D6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El último edén donde los animales no temen al hombre",
+        subtitle: "El Parque Nacional Nouabalé-Ndoki",
+        imageAlt:
+          "Caricatura de varios elefantes y un gorila reunidos en un claro de selva verde.",
+        description:
+          "El Parque Nacional Nouabalé-Ndoki, en el extremo norte de la República del Congo junto a la frontera con Camerún y la República Centroafricana, protege una de las selvas tropicales más prístinas de toda la cuenca del Congo, apodada por algunos biólogos 'el último edén de África' por la escasa huella humana histórica en la zona. Dentro del parque, el claro pantanoso conocido como Mbeli Bai funciona como un mirador natural donde gorilas de llanura occidental, elefantes de bosque y sitatungas se reúnen a diario para alimentarse de plantas ricas en minerales, ofreciendo a investigadores y a un número reducido de visitantes guiados una de las mejores oportunidades del continente para observar varias especies emblemáticas de la selva ecuatorial en el mismo lugar y al mismo tiempo. Gestionado junto a organizaciones internacionales de conservación desde los años noventa, Nouabalé-Ndoki es citado con frecuencia como modelo de protección efectiva de selva tropical.",
+      },
+      en: {
+        title: "The Last Eden Where Animals Don't Fear People",
+        subtitle: "Nouabalé-Ndoki National Park",
+        imageAlt:
+          "Cartoon of several elephants and a gorilla gathered in a green forest clearing.",
+        description:
+          "Nouabalé-Ndoki National Park, in the far north of the Republic of the Congo near the borders with Cameroon and the Central African Republic, protects one of the most pristine rainforests in the entire Congo Basin, nicknamed by some biologists 'Africa's last Eden' for the region's historically light human footprint. Inside the park, the swampy clearing known as Mbeli Bai works as a natural viewing platform where western lowland gorillas, forest elephants, and sitatunga antelope gather daily to feed on mineral-rich plants, giving researchers and a small number of guided visitors one of the continent's best chances to observe several iconic rainforest species in the same place at the same time. Co-managed with international conservation organizations since the 1990s, Nouabalé-Ndoki is frequently cited as a model for effective tropical rainforest protection.",
+      },
+    },
+  },
+  {
+    id: "cataratas-de-loufoulakari",
+    order: 12,
+    placeholderEmoji: "💦",
+    accentColor: "#2E86AB",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cascada donde Brazzaville va a refrescarse",
+        subtitle: "Las cataratas de Loufoulakari",
+        imageAlt:
+          "Caricatura de una cascada ancha cayendo sobre rocas junto a árboles verdes.",
+        description:
+          "A poco más de una hora de Brazzaville, las cataratas de Loufoulakari caen en una serie de saltos escalonados sobre el río homónimo, convirtiéndose en uno de los destinos de fin de semana más populares para los habitantes de la capital, que llegan a nadar en las pozas naturales que se forman entre las rocas y a organizar comidas familiares a la sombra de los árboles cercanos. El lugar combina el atractivo turístico con un uso energético real, ya que una pequeña planta hidroeléctrica instalada junto a la caída principal aprovecha parte del caudal para generar electricidad destinada a comunidades de la zona. Rodeadas de vegetación exuberante y accesibles por caminos de tierra que atraviesan pequeños poblados, las cataratas ofrecen un contraste natural inmediato frente al ritmo urbano de Brazzaville, a solo minutos en auto de la ciudad.",
+      },
+      en: {
+        title: "The Waterfall Where Brazzaville Cools Off",
+        subtitle: "Loufoulakari Falls",
+        imageAlt:
+          "Cartoon of a wide waterfall cascading over rocks beside green trees.",
+        description:
+          "Just over an hour from Brazzaville, Loufoulakari Falls tumble down a series of stepped drops along the river of the same name, making it one of the most popular weekend destinations for residents of the capital, who come to swim in the natural pools formed among the rocks and hold family gatherings in the shade of nearby trees. The site combines tourist appeal with real energy use, since a small hydroelectric plant installed beside the main drop harnesses part of the flow to generate electricity for communities in the area. Surrounded by lush vegetation and reached by dirt roads passing through small villages, the falls offer an immediate natural contrast to Brazzaville's urban pace, just minutes away by car from the city.",
+      },
+    },
+  },
 ];

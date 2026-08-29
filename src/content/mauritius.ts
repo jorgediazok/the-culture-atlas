@@ -251,4 +251,54 @@ export const mauritius: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "gargantas-del-rio-negro",
+    order: 11,
+    placeholderEmoji: "🕊️",
+    accentColor: "#E091AB",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El bosque que salvó al ave más rara del mundo",
+        subtitle: "El Parque Nacional de las Gargantas del Río Negro",
+        imageAlt:
+          "Caricatura de una paloma rosada posada en la rama de un árbol tropical.",
+        description:
+          "El Parque Nacional de las Gargantas del Río Negro protege el último gran remanente de bosque nativo de Mauricio, un ecosistema que en los años setenta y ochenta estuvo al borde del colapso debido a la deforestación y a especies introducidas como monos, ciervos y plantas invasoras que devoraban y desplazaban a la flora y fauna original de la isla. Dentro de sus límites sobrevivió, con apenas una decena de ejemplares registrados en un momento dado, la paloma rosada de Mauricio, y también el cernícalo mauriciano, considerado el ave más rara del mundo con solo cuatro individuos conocidos en 1974, ambos rescatados de la extinción mediante programas intensivos de cría en cautiverio y control de depredadores. Hoy el parque combina senderos de observación de aves, cascadas escondidas entre la selva y miradores sobre el valle, funcionando como uno de los ejemplos de conservación insular más citados a nivel mundial.",
+      },
+      en: {
+        title: "The Forest That Saved the World's Rarest Bird",
+        subtitle: "Black River Gorges National Park",
+        imageAlt:
+          "Cartoon of a pink pigeon perched on a tropical tree branch.",
+        description:
+          "Black River Gorges National Park protects the last major remnant of Mauritius's native forest, an ecosystem that in the 1970s and 1980s stood on the edge of collapse due to deforestation and introduced species such as monkeys, deer, and invasive plants that devoured and displaced the island's original flora and fauna. Within its boundaries survived, with barely a dozen individuals recorded at one low point, the pink pigeon, along with the Mauritius kestrel, once considered the rarest bird in the world with only four known individuals left in 1974, both rescued from extinction through intensive captive-breeding programs and predator control. Today the park combines birdwatching trails, waterfalls hidden deep in the forest, and lookout points over the valley, standing as one of the most frequently cited examples of island conservation success worldwide.",
+      },
+    },
+  },
+  {
+    id: "cascada-submarina-de-le-morne",
+    order: 12,
+    placeholderEmoji: "🌊",
+    accentColor: "#0E4A5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cascada submarina que en realidad es una ilusión",
+        subtitle: "La 'cascada bajo el mar' de Le Morne",
+        imageAlt:
+          "Caricatura de una franja oscura de arena que parece caer como cascada bajo el mar turquesa.",
+        description:
+          "Frente a la costa suroeste de Mauricio, cerca de Le Morne Brabant, fotografías aéreas hicieron famosa una llamativa ilusión óptica conocida popularmente como la 'cascada bajo el mar', donde depósitos de arena y sedimentos finos se deslizan por el borde de una plataforma submarina hacia aguas más profundas, creando desde el aire la apariencia de una cascada real cayendo dentro del océano. El fenómeno, causado por corrientes que arrastran arena hacia el talud donde la plataforma coralina cae abruptamente a mayor profundidad, solo resulta visible desde helicóptero, avioneta o dron, en un ángulo y luz específicos que resaltan el contraste entre el turquesa poco profundo y el azul intenso de las aguas más hondas. Convertida en una de las imágenes más compartidas del turismo mauriciano, la 'cascada' impulsó un pequeño mercado local de sobrevuelos diseñados específicamente para capturar esa fotografía.",
+      },
+      en: {
+        title: "The Underwater Waterfall That's Actually an Illusion",
+        subtitle: "Le Morne's 'Waterfall' Under the Sea",
+        imageAlt:
+          "Cartoon of a dark band of sand that looks like it's cascading underwater into the turquoise sea.",
+        description:
+          "Off Mauritius's southwestern coast, near Le Morne Brabant, aerial photographs made famous a striking optical illusion popularly known as the 'underwater waterfall,' where deposits of sand and fine sediment slide over the edge of a submarine plateau into deeper water, creating from above the appearance of a real waterfall pouring into the ocean. The phenomenon, caused by currents dragging sand toward the slope where the coral shelf drops abruptly to much greater depth, is only visible from a helicopter, small plane, or drone, at a specific angle and light that highlights the contrast between the shallow turquoise and the deep blue of the water beyond. Now one of the most shared images in Mauritian tourism, the 'waterfall' spurred a small local market of scenic flights designed specifically to capture that photograph.",
+      },
+    },
+  },
 ];

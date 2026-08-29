@@ -1,4 +1,4 @@
-import { shade } from "./palette";
+import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 function person(x: number, y: number, scale: number, dark: string, robe: string, skin = "#3A2A1E") {
@@ -288,6 +288,33 @@ const ElCacaoDeSombraQueHoySeVendeComoOroFino: IllustrationComponent = () => (
   </g>
 );
 
+const PrincipeReservaDeBiosfera: IllustrationComponent = ({ accentColor }) => (
+  <g>
+    <rect x="90" y="80" width="230" height="170" fill={tint(accentColor, 0.4)} opacity="0.5" />
+    <path d="M140 230 Q130 190 160 175 Q200 160 240 178 Q270 190 262 225 Q220 245 180 240 Q150 238 140 230 Z" fill="#2E7D32" stroke="#1B4B1E" strokeWidth="2.6" />
+    {palmTree(175, 195, 0.7)}
+    {palmTree(230, 200, 0.6)}
+    <path d="M90 240 Q205 230 320 240" stroke="#F5F0E6" strokeWidth="2" opacity="0.6" fill="none" />
+  </g>
+);
+
+const Independencia12Julio1975: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="210" width="230" height="40" fill="#1B7A9C" opacity="0.4" />
+      <rect x="198" y="100" width="5" height="120" fill={dark} />
+      <path d="M203 102 L255 118 L203 134 Z" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      {[[130, 235], [155, 240], [180, 232], [250, 238], [275, 232], [300, 240]].map(([x, y], i) => (
+        <g key={i}>
+          <circle cx={x as number} cy={(y as number) - 18} r="7" fill="#3A2A1E" />
+          <path d={`M${(x as number) - 9} ${(y as number) - 6} Q${x} ${(y as number) - 13} ${(x as number) + 9} ${(y as number) - 6} L${(x as number) + 8} ${y} Q${x} ${(y as number) + 6} ${(x as number) - 8} ${y} Z`} fill={i % 2 === 0 ? accentColor : "#F5F0E6"} stroke={dark} strokeWidth="1.6" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const saoTomeAndPrincipeIllustrations: Record<string, IllustrationDefinition> = {
   "las-mansiones-que-cultivaron-el-cacao-del-mundo": { component: LasMansionesQueCultivaronElCacaoDelMundo },
   "la-aguja-de-roca-que-perfora-la-selva": { component: LaAgujaDeRocaQuePerforaLaSelva },
@@ -299,4 +326,6 @@ export const saoTomeAndPrincipeIllustrations: Record<string, IllustrationDefinit
   "las-piraguas-de-colores-que-sostienen-cada-aldea": { component: LasPiraguasDeColoresQueSostienenCadaAldea },
   "la-ciudad-de-fachadas-pastel-y-un-antiguo-fuerte": { component: LaCiudadDeFachadasPastelYUnAntiguoFuerte },
   "el-cacao-de-sombra-que-hoy-se-vende-como-oro-fino": { component: ElCacaoDeSombraQueHoySeVendeComoOroFino },
+  "principe-reserva-de-biosfera": { component: PrincipeReservaDeBiosfera },
+  "independencia-12-julio-1975": { component: Independencia12Julio1975 },
 };

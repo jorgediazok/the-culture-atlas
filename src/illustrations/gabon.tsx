@@ -156,6 +156,38 @@ const LasMascarasQueImpartianJusticiaEnSecreto: IllustrationComponent = () => (
   </g>
 );
 
+const Independencia17Agosto1960: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="198" y="100" width="5" height="120" fill={dark} />
+      <rect x="203" y="105" width="55" height="16" fill="#2E7D32" stroke={dark} strokeWidth="1.6" />
+      <rect x="203" y="121" width="55" height="16" fill="#F4C430" stroke={dark} strokeWidth="1.6" />
+      <rect x="203" y="137" width="55" height="16" fill="#1B7A9C" stroke={dark} strokeWidth="1.6" />
+      {[[130, 235], [155, 240], [180, 232], [250, 238], [275, 232], [300, 240]].map(([x, y], i) => (
+        <g key={i}>
+          <circle cx={x as number} cy={(y as number) - 18} r="7" fill="#3A2A1E" />
+          <path d={`M${(x as number) - 9} ${(y as number) - 6} Q${x} ${(y as number) - 13} ${(x as number) + 9} ${(y as number) - 6} L${(x as number) + 8} ${y} Q${x} ${(y as number) + 6} ${(x as number) - 8} ${y} Z`} fill={i % 2 === 0 ? accentColor : "#F5F0E6"} stroke={dark} strokeWidth="1.6" />
+        </g>
+      ))}
+      <ellipse cx="200" cy="245" rx="120" ry="10" fill={dark} opacity="0.2" />
+    </g>
+  );
+};
+
+const LoroGrisAfricano: IllustrationComponent = () => (
+  <g>
+    <path d="M150 240 L270 230" stroke="#5C4A3E" strokeWidth="8" strokeLinecap="round" />
+    <ellipse cx="215" cy="205" rx="28" ry="24" fill="#B0B0B0" stroke="#6E6E6E" strokeWidth="2.4" />
+    <circle cx="198" cy="192" r="14" fill="#B0B0B0" stroke="#6E6E6E" strokeWidth="2.2" />
+    <path d="M186 190 L172 186 L186 196 Z" fill="#1A1A1A" />
+    <circle cx="192" cy="188" r="2" fill="#fff" />
+    <path d="M235 220 Q262 228 285 222 Q292 220 288 228 Q265 236 238 230 Z" fill="#C1272D" stroke="#8B1A1A" strokeWidth="1.8" />
+    <line x1="205" y1="225" x2="203" y2="242" stroke="#6E6E6E" strokeWidth="3" strokeLinecap="round" />
+    <line x1="225" y1="225" x2="227" y2="242" stroke="#6E6E6E" strokeWidth="3" strokeLinecap="round" />
+  </g>
+);
+
 export const gabonIllustrations: Record<string, IllustrationDefinition> = {
   "el-rito-que-abre-la-puerta-a-los-antepasados": { component: ElRitoQueAbreLaPuertaALosAntepasados },
   "los-hipopotamos-que-surfean-en-el-oceano-atlantico": { component: LosHipopotamosQueSurfeanEnElOceanoAtlantico },
@@ -167,4 +199,6 @@ export const gabonIllustrations: Record<string, IllustrationDefinition> = {
   "el-poema-cantado-que-guarda-toda-la-historia-fang": { component: ElPoemaCantadoQueGuardaTodaLaHistoriaFang },
   "el-pollo-en-salsa-de-nuez-de-palma-de-los-domingos": { component: ElPolloEnSalsaDeNuezDePalmaDeLosDomingos },
   "las-mascaras-que-impartian-justicia-en-secreto": { component: LasMascarasQueImpartianJusticiaEnSecreto },
+  "independencia-17-agosto-1960": { component: Independencia17Agosto1960 },
+  "loro-gris-africano": { component: LoroGrisAfricano },
 };

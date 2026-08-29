@@ -230,6 +230,43 @@ const ElDesfileDeJinetesQueHonraAlSultan: IllustrationComponent = ({ accentColor
   );
 };
 
+const ParqueNacionalDelW: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  return (
+    <g>
+      <path d="M90 230 Q140 210 170 235 Q200 260 230 235 Q260 210 320 230" fill="none" stroke="#1B7A9C" strokeWidth="10" opacity="0.5" />
+      <ellipse cx="205" cy="205" rx="55" ry="26" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <circle cx="245" cy="195" r="22" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+        <path key={deg} d="M245 195 L245 170" stroke={dark} strokeWidth="7" strokeLinecap="round" transform={`rotate(${deg} 245 195)`} />
+      ))}
+      <circle cx="238" cy="190" r="2" fill="#1A1A1A" />
+      <circle cx="252" cy="190" r="2" fill="#1A1A1A" />
+      {[175, 195, 220, 240].map((x) => (
+        <line key={x} x1={x} y1="225" x2={x - 4} y2="248" stroke={accentColor} strokeWidth="9" strokeLinecap="round" />
+      ))}
+      <path d="M160 205 Q140 200 130 215" stroke={accentColor} strokeWidth="8" strokeLinecap="round" fill="none" />
+    </g>
+  );
+};
+
+const GogeHausa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      <circle cx="195" cy="140" r="14" fill={skin} stroke={dark} strokeWidth="1.8" />
+      <path d="M178 150 Q195 138 212 150 L218 235 Q195 248 172 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <ellipse cx="248" cy="210" rx="26" ry="22" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2.4" />
+      <rect x="246" y="150" width="4" height="60" fill={shade(wood, 0.3)} />
+      <path d="M205 175 Q225 180 244 190" stroke={skin} strokeWidth="7" strokeLinecap="round" fill="none" />
+      <path d="M200 205 Q220 200 240 210" stroke={skin} strokeWidth="6" strokeLinecap="round" fill="none" />
+      <path d="M230 155 Q260 175 230 235" stroke={wood} strokeWidth="3" fill="none" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const nigerIllustrations: Record<string, IllustrationDefinition> = {
   "las-ultimas-jirafas-salvajes-de-africa-occidental": { component: LasUltimasJirafasSalvajesDeAfricaOccidental },
   "las-caravanas-de-sal-que-cruzan-el-sahara": { component: LasCaravanasDeSalQueCruzanElSahara },
@@ -241,4 +278,6 @@ export const nigerIllustrations: Record<string, IllustrationDefinition> = {
   "el-arbol-mas-solitario-del-mundo": { component: ElArbolMasSolitarioDelMundo },
   "la-masa-de-mijo-que-sostiene-cada-comida": { component: LaMasaDeMijoQueSostieneCadaComida },
   "el-desfile-de-jinetes-que-honra-al-sultan": { component: ElDesfileDeJinetesQueHonraAlSultan },
+  "parque-nacional-del-w": { component: ParqueNacionalDelW },
+  "goge-hausa": { component: GogeHausa },
 };

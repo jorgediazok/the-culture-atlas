@@ -251,4 +251,54 @@ export const southSudan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "gaar-escarificacion-nuer-dinka",
+    order: 11,
+    placeholderEmoji: "🩹",
+    accentColor: "#6B4423",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las líneas en la frente que marcan la adultez",
+        subtitle: "El gaar, escarificación nuer y dinka",
+        imageAlt:
+          "Caricatura de un rostro joven con líneas paralelas marcadas en la frente.",
+        description:
+          "El gaar es una práctica tradicional de escarificación facial realizada por los pueblos nuer y dinka de Sudán del Sur, consistente en cortar con una cuchilla una serie de líneas paralelas o en forma de V sobre la frente de los jóvenes varones al llegar a la pubertad, un procedimiento doloroso realizado sin anestesia frente a la comunidad reunida como prueba pública de coraje y resistencia física. Las cicatrices resultantes, visibles de por vida, funcionan como una identificación étnica inmediata —los patrones varían entre nuer y dinka— y como certificado social de que quien las porta completó el paso a la adultez y puede asumir responsabilidades como el matrimonio o la propiedad de ganado. Aunque la práctica disminuyó considerablemente en las últimas décadas, en parte por campañas de salud pública y el crecimiento de la vida urbana y escolar, generaciones mayores de hombres sursudaneses todavía llevan estas marcas como símbolo visible de una identidad y una historia compartidas.",
+      },
+      en: {
+        title: "The Forehead Lines Marking the Arrival of Adulthood",
+        subtitle: "Gaar, Nuer and Dinka Scarification",
+        imageAlt:
+          "Cartoon of a young face with parallel lines marked across the forehead.",
+        description:
+          "Gaar is a traditional facial scarification practice carried out by the Nuer and Dinka peoples of South Sudan, cutting a series of parallel or V-shaped lines across a young man's forehead with a blade upon reaching puberty, a painful procedure performed without anesthesia in front of the assembled community as public proof of courage and physical endurance. The resulting scars, visible for life, work as an immediate ethnic marker — the patterns differ between Nuer and Dinka — and as a social certificate that the bearer successfully completed the passage to adulthood and can take on responsibilities such as marriage or cattle ownership. Though the practice has declined considerably in recent decades, partly due to public health campaigns and growing urban and school life, older generations of South Sudanese men still carry these marks as a visible symbol of shared identity and personal history.",
+      },
+    },
+  },
+  {
+    id: "basquetbol-sursudanes",
+    order: 12,
+    placeholderEmoji: "🏀",
+    accentColor: "#F4A300",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que exporta gigantes al básquet mundial",
+        subtitle: "La cultura del básquetbol sursudanés",
+        imageAlt:
+          "Caricatura de un jugador de básquetbol muy alto encestando una pelota en un aro.",
+        description:
+          "Sudán del Sur, pese a ser uno de los países más jóvenes y con menos infraestructura deportiva del mundo, se convirtió en una fuente sorprendentemente prolífica de jugadores de baloncesto de nivel internacional, encabezada históricamente por Manute Bol, uno de los jugadores más altos en la historia de la NBA, cuya fundación benéfica ayudó a financiar escuelas y canchas en su país natal antes de su muerte en 2010. Su legado inspiró a una nueva generación, incluidos Luol Deng, dos veces convocado al All-Star de la NBA y hoy presidente de la federación de baloncesto sursudanesa, y jugadores más jóvenes como Wenyen Gabriel y Bol Bol, hijo del propio Manute. En 2021 la selección nacional de baloncesto logró clasificar por primera vez a un Mundial FIBA, un hito celebrado como una de las pocas noticias unánimemente positivas para un país que sigue reconstruyéndose.",
+      },
+      en: {
+        title: "The Country Exporting Giants to World Basketball",
+        subtitle: "South Sudan's Basketball Culture",
+        imageAlt:
+          "Cartoon of a very tall basketball player dunking a ball through a hoop.",
+        description:
+          "South Sudan, despite being one of the world's youngest countries with among the least sports infrastructure, became a surprisingly prolific source of international-level basketball players, historically led by Manute Bol, one of the tallest players in NBA history, whose charitable foundation helped fund schools and courts in his home country before his death in 2010. His legacy inspired a new generation, including Luol Deng, a two-time NBA All-Star and today president of the South Sudan Basketball Federation, and younger players like Wenyen Gabriel and Bol Bol, Manute's own son. In 2021, South Sudan's national basketball team qualified for a FIBA World Cup for the first time, a milestone celebrated as one of the few unanimously positive news stories for a country still in the process of rebuilding.",
+      },
+    },
+  },
 ];

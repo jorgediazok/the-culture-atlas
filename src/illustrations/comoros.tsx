@@ -168,6 +168,43 @@ const LosVelerosDeMaderaQueTodaviaCruzanElCanal: IllustrationComponent = ({ acce
   );
 };
 
+const MsindzanoMascaraFacial: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <path d="M160 240 Q155 188 205 178 Q255 188 250 240 Z" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.6" />
+      <circle cx="205" cy="150" r="42" fill={skin} stroke={dark} strokeWidth="2.8" />
+      <ellipse cx="205" cy="160" rx="34" ry="30" fill={accentColor} opacity="0.9" />
+      <circle cx="192" cy="150" r="3.5" fill="#1A1A1A" />
+      <circle cx="218" cy="150" r="3.5" fill="#1A1A1A" />
+      <path d="M195 178 Q205 183 215 178" stroke={dark} strokeWidth="2.4" fill="none" />
+      {[[178, 130], [232, 130], [205, 115]].map(([x, y], i) => (
+        <circle key={i} cx={x as number} cy={y as number} r="4" fill="#D4A017" opacity="0.85" />
+      ))}
+    </g>
+  );
+};
+
+const ParqueMarinoDeMoheli: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = tint(accentColor, 0.4);
+  const turtle = "#4A8F4E";
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill={water} opacity="0.5" />
+      <path d="M240 130 Q270 110 290 125 Q300 135 285 145 Q300 150 295 165 Q275 175 255 160 Q245 145 240 130 Z" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <path d="M285 145 Q305 140 315 150 Q305 158 288 155 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <ellipse cx="165" cy="210" rx="45" ry="32" fill={turtle} stroke={dark} strokeWidth="2.8" />
+      <circle cx="128" cy="205" r="14" fill={turtle} stroke={dark} strokeWidth="2.4" />
+      <path d="M150 190 Q140 165 155 155 Q165 168 158 192 Z" fill={turtle} stroke={dark} strokeWidth="2" />
+      <path d="M150 228 Q140 250 158 258 Q168 240 158 222 Z" fill={turtle} stroke={dark} strokeWidth="2" />
+      <path d="M190 200 Q210 178 225 190 Q212 200 200 210 Z" fill={turtle} stroke={dark} strokeWidth="2" />
+      <path d="M190 220 Q212 240 228 228 Q212 218 200 212 Z" fill={turtle} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
 export const comorosIllustrations: Record<string, IllustrationDefinition> = {
   "cuatro-islas-nacidas-de-un-mismo-volcan": { component: CuatroIslasNacidasDeUnMismoVolcan },
   "el-volcan-activo-que-vigila-desde-el-cielo": { component: ElVolcanActivoQueVigilaDesdeElCielo },
@@ -179,4 +216,6 @@ export const comorosIllustrations: Record<string, IllustrationDefinition> = {
   "el-canto-arabe-que-llego-navegando-desde-zanzibar": { component: ElCantoArabeQueLlegoNavegandoDesdeZanzibar },
   "la-langosta-que-nada-en-salsa-de-coco": { component: LaLangostaQueNadaEnSalsaDeCoco },
   "los-veleros-de-madera-que-todavia-cruzan-el-canal": { component: LosVelerosDeMaderaQueTodaviaCruzanElCanal },
+  "msindzano-mascara-facial": { component: MsindzanoMascaraFacial },
+  "parque-marino-de-moheli": { component: ParqueMarinoDeMoheli },
 };

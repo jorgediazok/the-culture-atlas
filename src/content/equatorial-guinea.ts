@@ -251,4 +251,54 @@ export const equatorialGuinea: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "ivanga-canto-ancestral-ndowe",
+    order: 11,
+    placeholderEmoji: "🎭",
+    accentColor: "#6A4C93",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El canto ancestral que despide a los muertos ndowe",
+        subtitle: "El ivanga",
+        imageAlt:
+          "Caricatura de una máscara de madera pintada junto a un tambor alargado.",
+        description:
+          "El ivanga es una tradición musical y ceremonial del pueblo ndowe, asentado en la costa continental de Guinea Ecuatorial, ejecutada tradicionalmente durante funerales y ritos de despedida para acompañar el tránsito del difunto hacia el mundo de los ancestros mediante cantos polifónicos, tambores alargados y en ocasiones máscaras talladas que representan espíritus protectores del linaje familiar. A diferencia de otros rituales fúnebres más solemnes, el ivanga combina el duelo con momentos de celebración de la vida del fallecido, alternando pasajes de lamento colectivo con danzas más animadas que buscan acompañar el alma en un tránsito considerado positivo si se realiza correctamente. Transmitido oralmente entre generaciones de músicos y sacerdotes ceremoniales ndowe, el ivanga se mantiene hoy como una de las expresiones culturales más distintivas de las comunidades costeras del país, practicada con menor frecuencia que antaño pero todavía viva en ciertas localidades.",
+      },
+      en: {
+        title: "The Ancestral Chant That Sends Off the Ndowe Dead",
+        subtitle: "Ivanga",
+        imageAlt:
+          "Cartoon of a painted wooden mask beside an elongated drum.",
+        description:
+          "Ivanga is a musical and ceremonial tradition of the Ndowe people, settled along Equatorial Guinea's mainland coast, traditionally performed during funerals and farewell rites to accompany the deceased's passage into the world of the ancestors through polyphonic chanting, elongated drums, and at times carved masks representing the family lineage's protective spirits. Unlike more solemn funeral rituals, ivanga blends mourning with moments celebrating the life of the deceased, alternating passages of collective lament with livelier dances meant to accompany the soul on a passage considered auspicious when performed correctly. Passed down orally between generations of Ndowe musicians and ceremonial priests, ivanga remains today one of the most distinctive cultural expressions of the country's coastal communities, practiced less often than in the past but still alive in certain localities.",
+      },
+    },
+  },
+  {
+    id: "tope-vino-de-palma",
+    order: 12,
+    placeholderEmoji: "🍶",
+    accentColor: "#A67C00",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El vino de palma que se recoge al amanecer",
+        subtitle: "El topé",
+        imageAlt:
+          "Caricatura de una palmera con una vasija colgada recogiendo savia junto a un cuenco.",
+        description:
+          "El topé, un vino de palma obtenido fermentando la savia dulce extraída de palmeras mediante una incisión practicada en lo alto del tronco, es una bebida tradicional consumida en gran parte del territorio continental de Guinea Ecuatorial, recolectada generalmente al amanecer, cuando el flujo de savia es más abundante tras la noche, y recogida en calabazas o recipientes colgados directamente del árbol. Su sabor cambia notablemente con las horas: dulce y suave recién extraído, y progresivamente más ácido y alcohólico a medida que la fermentación natural avanza durante el día, por lo que muchos bebedores prefieren distintos momentos de la jornada según el efecto buscado. Más allá de su consumo cotidiano, el topé cumple un rol social central en reuniones comunitarias, negociaciones de dote y ceremonias tradicionales, donde compartir la bebida directamente de un recipiente común refuerza lazos de hospitalidad entre vecinos y visitantes.",
+      },
+      en: {
+        title: "The Palm Wine Collected at Sunrise",
+        subtitle: "Topé",
+        imageAlt:
+          "Cartoon of a palm tree with a container hanging to collect sap beside a bowl.",
+        description:
+          "Topé, a palm wine made by fermenting the sweet sap tapped from palm trees through an incision cut high on the trunk, is a traditional drink consumed across much of mainland Equatorial Guinea, usually collected at dawn, when sap flow is heaviest after the night, and gathered in gourds or containers hung directly from the tree. Its taste changes noticeably over the hours: sweet and mild fresh off the tree, and progressively more sour and alcoholic as natural fermentation proceeds through the day, so many drinkers prefer different times of day depending on the effect they're after. Beyond everyday drinking, topé plays a central social role in community gatherings, dowry negotiations, and traditional ceremonies, where sharing the drink straight from a common container reinforces bonds of hospitality between neighbors and visitors.",
+      },
+    },
+  },
 ];

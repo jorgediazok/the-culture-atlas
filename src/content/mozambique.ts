@@ -251,4 +251,54 @@ export const mozambique: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "marrabenta-ritmo-urbano",
+    order: 11,
+    placeholderEmoji: "🎸",
+    accentColor: "#F4A300",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ritmo urbano que hizo bailar a Maputo",
+        subtitle: "La marrabenta",
+        imageAlt:
+          "Caricatura de un guitarrista tocando frente a una pareja bailando en la calle.",
+        description:
+          "La marrabenta, un género musical y de baile nacido en los barrios populares de Maputo a mediados del siglo veinte, surgió de músicos que adaptaron ritmos locales como el majika a la guitarra acústica, un instrumento accesible y barato comparado con los grandes conjuntos de percusión tradicionales, dando origen a un sonido alegre y sincopado pensado explícitamente para el baile en pareja. El nombre, derivado del verbo portugués 'arrebentar' (romper o reventar), hace referencia tanto a las cuerdas de guitarra que los músicos rompían tocando con energía como al carácter desenfadado del baile, que combina pasos de cadera rápidos con giros improvisados. Perseguida en ocasiones durante el régimen colonial portugués por asociarse con la vida nocturna africana urbana, la marrabenta resurgió con fuerza tras la independencia como símbolo de identidad nacional, y hoy artistas contemporáneos siguen mezclándola con estilos más modernos en festivales de todo el país.",
+      },
+      en: {
+        title: "The Urban Rhythm That Made Maputo Dance",
+        subtitle: "Marrabenta",
+        imageAlt:
+          "Cartoon of a guitarist playing in front of a couple dancing in the street.",
+        description:
+          "Marrabenta, a musical and dance genre born in the working-class neighborhoods of Maputo in the mid-twentieth century, emerged from musicians who adapted local rhythms like majika to the acoustic guitar, an instrument far cheaper and more accessible than large traditional percussion ensembles, giving rise to a cheerful, syncopated sound built explicitly for couples' dancing. The name, from the Portuguese verb 'arrebentar' (to break or burst), refers both to the guitar strings musicians would snap playing with such energy and to the dance's carefree character, blending fast hip steps with improvised spins. At times suppressed under Portuguese colonial rule for its association with urban African nightlife, marrabenta resurged strongly after independence as a symbol of national identity, and contemporary artists still blend it with more modern styles at festivals across the country today.",
+      },
+    },
+  },
+  {
+    id: "parque-nacional-de-gorongosa",
+    order: 12,
+    placeholderEmoji: "🐘",
+    accentColor: "#6B8E23",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El parque que resucitó tras perder casi toda su fauna",
+        subtitle: "El Parque Nacional de Gorongosa",
+        imageAlt:
+          "Caricatura de una manada de elefantes y un león caminando por una sabana verde.",
+        description:
+          "El Parque Nacional de Gorongosa, en el centro de Mozambique, alojaba antes de los años ochenta una de las mayores concentraciones de vida silvestre de África austral, hasta que la guerra civil de 1977 a 1992 redujo sus poblaciones de grandes mamíferos en más de un noventa por ciento, con elefantes, leones y búfalos cazados masivamente para alimentar a los combatientes o financiar el conflicto. Desde 2004, una asociación entre el gobierno mozambiqueño y la fundación de un filántropo estadounidense impulsó uno de los proyectos de restauración ecológica más ambiciosos del continente, reintroduciendo especies, reforzando la vigilancia antifurtiva e invirtiendo en salud y educación para las comunidades vecinas. Dos décadas después, Gorongosa recuperó buena parte de su fauna original, incluidas manadas de elefantes que según investigadores desarrollaron un comportamiento más cauto heredado de generaciones que vivieron la guerra, y hoy se estudia como modelo de conservación posconflicto.",
+      },
+      en: {
+        title: "The Park That Came Back From Near Total Collapse",
+        subtitle: "Gorongosa National Park",
+        imageAlt:
+          "Cartoon of a herd of elephants and a lion walking across a green savanna.",
+        description:
+          "Gorongosa National Park, in central Mozambique, held before the 1980s one of the largest concentrations of wildlife in southern Africa, until the civil war that ravaged the country between 1977 and 1992 cut its large-mammal populations by more than ninety percent, with elephants, lions, and buffalo hunted en masse to feed combatants or fund the conflict. Since 2004, a partnership between the Mozambican government and an American philanthropist's foundation has driven one of the continent's most ambitious ecological restoration projects, reintroducing species, strengthening anti-poaching patrols, and investing in health and education programs for communities living around the park. Two decades later, Gorongosa has recovered much of its original wildlife, including elephant herds that researchers say developed more cautious behavior inherited from generations that lived through the war, and it's now studied internationally as a model for post-conflict conservation.",
+      },
+    },
+  },
 ];

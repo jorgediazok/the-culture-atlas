@@ -200,6 +200,38 @@ const LaUniversidadQueSeGanoElApodoDeAtenas: IllustrationComponent = () => (
   </g>
 );
 
+const MonteBintumaniMontanasLoma: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 250 L170 110 L230 180 L270 130 L320 250 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M150 150 L170 110 L190 150 Z" fill="#8C8C8C" stroke={dark} strokeWidth="2.4" />
+      <ellipse cx="150" cy="130" rx="30" ry="12" fill="#F5F0E6" opacity="0.7" />
+      <ellipse cx="230" cy="150" rx="26" ry="10" fill="#F5F0E6" opacity="0.6" />
+      <path d="M90 240 Q140 220 170 235 Q210 250 250 230 Q280 218 320 235" fill="none" stroke={dark} strokeWidth="2" opacity="0.4" />
+    </g>
+  );
+};
+
+const CasasKrioDeFreetown: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="150" y="150" width="100" height="90" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <path d="M140 150 L200 115 L260 150 Z" fill={dark} stroke={shade(dark, 0.2)} strokeWidth="2.4" />
+      <rect x="155" y="170" width="90" height="14" fill={shade(accentColor, 0.2)} />
+      <path d="M150 170 L145 184 M250 170 L255 184" stroke={dark} strokeWidth="2" />
+      {[0, 1, 2, 3, 4, 5, 6].map((i) => (
+        <line key={i} x1={155 + i * 13} y1="170" x2={155 + i * 13} y2="184" stroke={dark} strokeWidth="1.4" opacity="0.6" />
+      ))}
+      <rect x="165" y="195" width="20" height="24" fill="#F5F0E6" stroke={dark} strokeWidth="1.8" />
+      <rect x="215" y="195" width="20" height="24" fill="#F5F0E6" stroke={dark} strokeWidth="1.8" />
+      <rect x="190" y="210" width="20" height="30" fill="#5C3A21" stroke="#3A2A1E" strokeWidth="1.8" />
+      <path d="M150 240 L150 250 M250 240 L250 250" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const sierraLeoneIllustrations: Record<string, IllustrationDefinition> = {
   "el-puerto-fundado-para-acoger-a-la-libertad": { component: ElPuertoFundadoParaAcogerALaLibertad },
   "el-arbol-centenario-que-vio-nacer-una-ciudad": { component: ElArbolCentenarioQueVioNacerUnaCiudad },
@@ -211,4 +243,6 @@ export const sierraLeoneIllustrations: Record<string, IllustrationDefinition> = 
   "el-vino-de-palma-que-se-recolecta-gota-a-gota": { component: ElVinoDePalmaQueSeRecolectaGotaAGota },
   "el-guiso-de-hoja-de-mandioca-que-reune-a-la-mesa": { component: ElGuisoDeHojaDeMandiocaQueReuneALaMesa },
   "la-universidad-que-se-gano-el-apodo-de-atenas": { component: LaUniversidadQueSeGanoElApodoDeAtenas },
+  "monte-bintumani-montanas-loma": { component: MonteBintumaniMontanasLoma },
+  "casas-krio-de-freetown": { component: CasasKrioDeFreetown },
 };

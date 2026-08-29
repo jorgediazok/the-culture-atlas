@@ -231,4 +231,54 @@ export const burundi: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "urwarwa-cerveza-de-banana",
+    order: 11,
+    placeholderEmoji: "🍌",
+    accentColor: "#C9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cerveza de banana que se bebe con un caño largo",
+        subtitle: "Urwarwa, la cerveza de banana",
+        imageAlt:
+          "Caricatura de una vasija grande con dos cañas largas para beber.",
+        description:
+          "El urwarwa, una cerveza artesanal de banana fermentada, es una de las bebidas más importantes de la vida social burundesa, elaborada tradicionalmente machacando bananas maduras para extraer su jugo, mezclándolo con harina de sorgo tostada y dejándolo fermentar durante varios días hasta lograr una bebida espesa, dulce y ligeramente alcohólica. Servida en grandes vasijas comunales de las que varias personas beben a la vez a través de largas cañas de bambú o paja, la ceremonia de compartir urwarwa funciona como un ritual de hospitalidad y cohesión social imprescindible en ocasiones como negociaciones de dote matrimonial, resolución de conflictos familiares, funerales y visitas entre vecinos, donde rechazar la bebida ofrecida puede interpretarse como una falta de respeto. Aunque las cervezas industriales ganaron terreno en las ciudades, el urwarwa sigue siendo central en las zonas rurales, preparado casi siempre por las mujeres del hogar.",
+      },
+      en: {
+        title: "The Banana Beer Drunk Through a Long Reed Straw",
+        subtitle: "Urwarwa, Banana Beer",
+        imageAlt:
+          "Cartoon of a large pot with two long drinking reeds.",
+        description:
+          "Urwarwa, a homemade fermented banana beer, is one of the most important drinks in Burundian social life, traditionally made by mashing ripe bananas to extract their juice, mixing it with roasted sorghum flour, and letting it ferment for several days into a thick, sweet, mildly alcoholic drink. Served in large communal pots that several people drink from at once through long bamboo or straw reeds, sharing urwarwa functions as an essential ritual of hospitality and social bonding on occasions like marriage dowry negotiations, family conflict resolution, funerals, and visits between neighbors, where refusing an offered drink can be read as disrespectful. Although industrial beers have gained ground in cities, urwarwa remains central in rural areas, its preparation still almost always handled by the women of the household.",
+      },
+    },
+  },
+  {
+    id: "parque-nacional-de-kibira",
+    order: 12,
+    placeholderEmoji: "🐵",
+    accentColor: "#00695C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El bosque tropical de montaña que esconde chimpancés",
+        subtitle: "El Parque Nacional de Kibira",
+        imageAlt:
+          "Caricatura de un chimpancé colgado de una rama en un bosque denso.",
+        description:
+          "El Parque Nacional de Kibira, una franja de bosque tropical de montaña que corre a lo largo de la cresta noroeste de Burundi y actúa como divisoria de aguas entre las cuencas del Nilo y el Congo, protege uno de los últimos fragmentos importantes del antiguo bosque que alguna vez cubrió gran parte de la región de los Grandes Lagos africanos. Dentro de sus límites sobreviven poblaciones de chimpancés, monos colobo y una notable diversidad de aves, en un ecosistema que forma parte del corredor montañoso del Rift Albertino, uno de los puntos calientes de biodiversidad más importantes del continente. Amenazado durante décadas por la tala ilegal, la caza furtiva y la presión de comunidades agrícolas que rodean casi todo su perímetro, Kibira representa hoy tanto un desafío de conservación urgente como una de las pocas reservas de selva montañosa que le quedan a un país donde la mayor parte del territorio original ya fue convertido en tierra de cultivo.",
+      },
+      en: {
+        title: "The Mountain Rainforest Hiding Chimpanzees",
+        subtitle: "Kibira National Park",
+        imageAlt:
+          "Cartoon of a chimpanzee hanging from a branch in a dense forest.",
+        description:
+          "Kibira National Park, a strip of mountain rainforest running along Burundi's northwestern ridge that acts as a watershed divide between the Nile and Congo river basins, protects one of the last significant remnants of the ancient forest that once covered much of Africa's Great Lakes region. Within its boundaries survive populations of chimpanzees, colobus monkeys, and a remarkable diversity of birds, part of the Albertine Rift's mountain forest corridor, one of the continent's most important biodiversity hotspots. Threatened for decades by illegal logging, poaching, and pressure from farming communities surrounding nearly its entire perimeter, Kibira today stands both as an urgent conservation challenge and as one of the few mountain-forest reserves left in a country where most of the original land has already been converted to farmland.",
+      },
+    },
+  },
 ];

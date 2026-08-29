@@ -251,4 +251,54 @@ export const centralAfricanRepublic: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "arte-mangbetu",
+    order: 11,
+    placeholderEmoji: "🏺",
+    accentColor: "#A0522D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte que convirtió cabezas humanas en vasijas",
+        subtitle: "El arte mangbetu",
+        imageAlt:
+          "Caricatura de una vasija de barro con la forma de una cabeza humana estilizada.",
+        description:
+          "El pueblo mangbetu, asentado en el noreste de la República Centroafricana y zonas vecinas del Congo, desarrolló durante los siglos diecinueve y veinte una tradición artística muy reconocible centrada en representar el rostro humano sobre objetos cotidianos, desde vasijas de barro y cuencos hasta arpas de cinco cuerdas talladas con un mango rematado en una cabeza humana estilizada de rasgos alargados. Esa elongación artística del cráneo remite a una práctica real y ya abandonada de moldear suavemente la cabeza de los bebés con vendas durante la infancia, un rasgo estético asociado antiguamente con la nobleza mangbetu que los artistas siguieron representando mucho después de que la costumbre dejara de practicarse. Piezas mangbetu originales terminaron dispersas en museos de todo el mundo tras ser recolectadas durante la época colonial, y hoy se estudian como uno de los estilos escultóricos más distintivos de África central.",
+      },
+      en: {
+        title: "The Art That Turned Human Heads Into Pottery",
+        subtitle: "Mangbetu Art",
+        imageAlt:
+          "Cartoon of a clay pot shaped like a stylized human head.",
+        description:
+          "The Mangbetu people, settled in the northeast of the Central African Republic and neighboring areas of Congo, developed during the nineteenth and twentieth centuries a highly recognizable artistic tradition centered on representing the human face on everyday objects, from clay pots and bowls to five-string harps carved with a handle topped by a stylized human head with elongated features. That artistic elongation echoes a real, now-abandoned practice of gently shaping babies' heads with wrapped bindings during infancy, an aesthetic once associated with Mangbetu nobility that artists kept depicting long after the custom itself stopped being practiced. Original Mangbetu pieces ended up scattered across museums worldwide after being collected during the colonial era, and today they're studied as one of Central Africa's most distinctive sculptural styles.",
+      },
+    },
+  },
+  {
+    id: "reserva-de-chinko",
+    order: 12,
+    placeholderEmoji: "🦌",
+    accentColor: "#6B8E23",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La sabana remota que protege al último eland gigante",
+        subtitle: "La Reserva de Chinko",
+        imageAlt:
+          "Caricatura de un antílope de grandes cuernos en espiral sobre una sabana abierta.",
+        description:
+          "En el extremo este de la República Centroafricana, en una zona de transición entre la selva ecuatorial y la sabana del Sahel donde prácticamente no llegan caminos ni electricidad, se extiende la Reserva de Chinko, un área protegida del tamaño de un pequeño país que resguarda una de las últimas poblaciones significativas de eland gigante, el antílope más grande del mundo, además de elefantes de sabana, búfalos y leones que sobrevivieron a décadas de caza furtiva intensiva proveniente de países vecinos. Gestionada desde 2014 por una organización conservacionista en colaboración con comunidades locales, la reserva combina patrullas antifurtivas, investigación científica y programas de desarrollo rural en una de las regiones más aisladas y menos estudiadas de toda África central, un territorio que funciona como corredor natural entre los ecosistemas de selva y sabana del continente.",
+      },
+      en: {
+        title: "The Remote Savanna Protecting the Giant Eland",
+        subtitle: "Chinko Reserve",
+        imageAlt:
+          "Cartoon of a large spiral-horned antelope on an open savanna.",
+        description:
+          "In the far east of the Central African Republic, in a transition zone between equatorial rainforest and Sahelian savanna reached by almost no roads or electricity, lies the Chinko reserve, a protected area the size of a small country safeguarding one of the last significant populations of the giant eland, the world's largest antelope, along with savanna elephants, buffalo, and lions that survived decades of intense poaching pressure from neighboring countries. Managed since 2014 by a conservation organization working with local communities, the reserve combines anti-poaching patrols, scientific research, and rural development programs in one of the most isolated and least-studied regions of Central Africa, a territory that functions as a natural corridor between the continent's forest and savanna ecosystems.",
+      },
+    },
+  },
 ];

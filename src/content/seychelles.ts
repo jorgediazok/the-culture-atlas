@@ -251,4 +251,54 @@ export const seychelles: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "papa-langue-de-seychelles",
+    order: 11,
+    placeholderEmoji: "🐦",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pájaro que llegó a ser solo una docena",
+        subtitle: "El papa-langue de Seychelles",
+        imageAlt:
+          "Caricatura de un ave negra y blanca de cola larga posada en una rama baja.",
+        description:
+          "El papa-langue de Seychelles, un ave insectívora de plumaje negro azabache con el vientre blanco y una cola larga que mueve constantemente de lado a lado, llegó a finales de los años sesenta a un mínimo histórico de apenas una docena de ejemplares, todos confinados a la isla de Frégate, lo que la convirtió durante años en una de las aves más raras del planeta. Un programa de conservación iniciado en los noventa eliminó gatos y ratas introducidos, principales depredadores de sus nidos en el suelo, y trasladó parejas reproductoras a varias islas históricamente habitadas por la especie pero libres de esos depredadores, como Cousin, Cousine, Aride y Denis. Gracias a ese esfuerzo sostenido, la población se multiplicó por más de veinte, y el papa-langue pasó de estar en peligro crítico a solo en peligro, un caso citado internacionalmente como ejemplo de recuperación de especies mediante manejo insular.",
+      },
+      en: {
+        title: "The Bird That Was Down to Just a Dozen",
+        subtitle: "The Seychelles Magpie-Robin",
+        imageAlt:
+          "Cartoon of a black and white long-tailed bird perched on a low branch.",
+        description:
+          "The Seychelles magpie-robin, an insect-eating bird with jet-black plumage, a white belly, and a long tail it constantly flicks side to side, hit a historic low in the late 1960s of barely a dozen individuals, all confined to Frégate Island, making it for years one of the rarest birds on the planet. A conservation program launched in the 1990s eliminated introduced cats and rats, the main predators of its ground nests, and relocated breeding pairs to several islands historically home to the species but now free of those predators, including Cousin, Cousine, Aride, and Denis. Thanks to that sustained effort, the population multiplied more than twentyfold, and the magpie-robin moved from critically endangered to just endangered, a case cited internationally as a model for species recovery through island management.",
+      },
+    },
+  },
+  {
+    id: "dokter-fey-curanderos-criollos",
+    order: 12,
+    placeholderEmoji: "🍃",
+    accentColor: "#6B8E23",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los curanderos que recetan con hojas del jardín",
+        subtitle: "Los dokter fey criollos",
+        imageAlt:
+          "Caricatura de una persona mayor preparando un remedio con hojas y raíces sobre una mesa de madera.",
+        description:
+          "Los dokter fey, literalmente 'doctores de hojas' en kreol seselwa, son curanderos tradicionales que tratan dolencias cotidianas con infusiones, cataplasmas y baños preparados a partir de plantas locales, un conocimiento heredado de la mezcla de tradiciones médicas africanas, malgaches, indias y europeas que confluyeron en Seychelles durante siglos de contacto colonial y migración. Cada dokter fey suele especializarse en un conjunto de dolencias, desde fiebres y problemas digestivos hasta males de origen espiritual, y transmite oralmente, sin registros escritos y generalmente dentro de la propia familia, qué planta usar, en qué proporción y en qué momento del día recogerla. Aunque la medicina moderna es hoy la opción principal para la mayoría de los seychellenses, muchas familias siguen consultando a un dokter fey para remedios caseros específicos, y el gobierno impulsó estudios botánicos para documentar este saber antes de que desaparezca con sus últimos guardianes.",
+      },
+      en: {
+        title: "The Healers Who Prescribe With Garden Leaves",
+        subtitle: "The Creole Dokter Fey",
+        imageAlt:
+          "Cartoon of an elderly person preparing a remedy with leaves and roots on a wooden table.",
+        description:
+          "Dokter fey, literally 'leaf doctors' in Kreol Seselwa, are traditional healers who treat everyday ailments with infusions, poultices, and baths made from local plants, knowledge inherited from the blend of African, Malagasy, Indian, and European medical traditions that converged in Seychelles through centuries of colonial contact and migration. Each dokter fey usually specializes in a set of ailments, from fevers and digestive troubles to conditions believed to have a spiritual cause, and passes down knowledge of which plant to use, in what proportion, and at what time of day to gather it entirely by word of mouth, with no written records, usually within their own family. Though modern medicine is today the main option for most Seychellois, many families still consult a dokter fey for specific home remedies, and the government has funded botanical studies to document this knowledge before it disappears along with its last keepers.",
+      },
+    },
+  },
 ];

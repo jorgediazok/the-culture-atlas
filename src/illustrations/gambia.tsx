@@ -152,6 +152,49 @@ const LaCostaSonrienteQueSeVolvioUnaMarca: IllustrationComponent = ({ accentColo
   );
 };
 
+const BenachinRaizDelJollof: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const rice = "#F0DFAE";
+  const fish = "#8B98A5";
+  const tomato = "#C1272D";
+  const carrot = "#F4A300";
+  return (
+    <g>
+      <path d="M140 195 L140 225 Q140 245 170 245 L240 245 Q270 245 270 225 L270 195 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="195" rx="65" ry="17" fill={rice} stroke={shade(rice, 0.3)} strokeWidth="2.5" />
+      <path d="M165 190 Q175 178 195 182 Q210 176 200 190 Q185 196 165 190 Z" fill={fish} stroke={shade(fish, 0.3)} strokeWidth="2" />
+      <circle cx="182" cy="185" r="2" fill="#1A1A1A" />
+      {[[220, 188], [235, 193], [195, 196]].map(([x, y]) => (
+        <circle key={x as number} cx={x as number} cy={y as number} r="7" fill={tomato} stroke={shade(tomato, 0.3)} strokeWidth="1.5" />
+      ))}
+      {[[210, 182], [245, 185]].map(([x, y]) => (
+        <circle key={x as number} cx={x as number} cy={y as number} r="6" fill={carrot} stroke={shade(carrot, 0.3)} strokeWidth="1.5" />
+      ))}
+      <path d="M150 180 Q145 165 155 155 M255 178 Q260 163 250 153" fill="none" stroke="#B0AFA8" strokeWidth="4" strokeLinecap="round" opacity="0.6" />
+    </g>
+  );
+};
+
+const EstanqueSagradoDeKachikally: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = tint(accentColor, 0.35);
+  const croc = "#5B7553";
+  return (
+    <g>
+      <circle cx="120" cy="100" r="38" fill={shade(accentColor, 0.1)} opacity="0.5" />
+      <circle cx="300" cy="95" r="34" fill={shade(accentColor, 0.1)} opacity="0.5" />
+      <path d="M90 220 Q205 205 320 220 L320 250 L90 250 Z" fill={water} stroke={dark} strokeWidth="2.5" />
+      <path d="M150 220 Q140 208 155 202 Q175 196 195 204 Q225 200 245 208 Q265 204 270 216 Q260 226 235 222 Q205 228 175 222 Q160 226 150 220 Z" fill={croc} stroke={shade(croc, 0.3)} strokeWidth="2.5" />
+      <circle cx="158" cy="206" r="4" fill={dark} />
+      <circle cx="170" cy="203" r="4" fill={dark} />
+      {[190, 215, 240].map((x) => (
+        <path key={x} d={`M${x - 8} 202 L${x} 194 L${x + 8} 202 Z`} fill={shade(croc, 0.2)} />
+      ))}
+      <path d="M150 220 Q130 224 118 214" fill="none" stroke={croc} strokeWidth="8" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const gambiaIllustrations: Record<string, IllustrationDefinition> = {
   "el-pais-continental-mas-pequeno-de-africa": { component: ElPaisContinentalMasPequenoDeAfrica },
   "la-isla-que-inspiro-el-peregrinaje-de-raices": { component: LaIslaQueInspiroElPeregrinajeDeRaices },
@@ -163,4 +206,6 @@ export const gambiaIllustrations: Record<string, IllustrationDefinition> = {
   "el-mani-que-marco-su-historia-colonial": { component: ElManiQueMarcoSuHistoriaColonial },
   "la-lucha-tradicional-con-amuletos-y-tambores": { component: LaLuchaTradicionalConAmuletosYTambores },
   "la-costa-sonriente-que-se-volvio-una-marca": { component: LaCostaSonrienteQueSeVolvioUnaMarca },
+  "benachin-raiz-del-jollof": { component: BenachinRaizDelJollof },
+  "estanque-sagrado-de-kachikally": { component: EstanqueSagradoDeKachikally },
 };

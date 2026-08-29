@@ -159,6 +159,44 @@ const ElPensadorQueImaginoLaLiberacionDeAfrica: IllustrationComponent = ({ accen
   );
 };
 
+const BolamaCiudadFantasma: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const vine = "#3A7A45";
+  return (
+    <g>
+      <rect x="130" y="150" width="140" height="90" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      <polygon points="120,150 200,110 280,150" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="2.4" />
+      {[150, 190, 230].map((x) => (
+        <rect key={x} x={x} y="170" width="14" height="70" fill={shade(accentColor, 0.25)} stroke={dark} strokeWidth="2" />
+      ))}
+      <path d="M270 240 L275 200 L265 150" fill="none" stroke={dark} strokeWidth="3" opacity="0.5" />
+      <path d="M140 240 Q130 200 145 160 Q150 190 138 220 Q148 210 150 195" fill="none" stroke={vine} strokeWidth="5" strokeLinecap="round" />
+      {[[145, 180], [135, 205], [148, 225]].map(([x, y], i) => (
+        <ellipse key={i} cx={x as number} cy={y as number} rx="8" ry="5" fill={vine} opacity="0.8" transform={`rotate(${i * 30} ${x} ${y})`} />
+      ))}
+      <path d="M255 150 Q260 120 245 105 Q265 100 270 120 Q275 140 255 150 Z" fill={shade(accentColor, 0.1)} opacity="0.6" />
+    </g>
+  );
+};
+
+const VinhoDeCaju: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const fruit = "#F4C430";
+  return (
+    <g>
+      <path d="M175 240 L170 170 Q170 155 190 152 Q210 155 210 170 L205 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      <path d="M210 180 Q235 185 232 205 Q230 220 210 215" fill="none" stroke={accentColor} strokeWidth="7" strokeLinecap="round" />
+      <ellipse cx="190" cy="152" rx="20" ry="8" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="2" />
+      {[[250, 210], [280, 225], [260, 235]].map(([x, y], i) => (
+        <g key={i}>
+          <path d={`M${x} ${y} Q${(x as number) - 10} ${(y as number) - 18} ${x} ${(y as number) - 30} Q${(x as number) + 10} ${(y as number) - 18} ${x} ${y} Z`} fill={fruit} stroke={shade(fruit, 0.3)} strokeWidth="2" opacity={0.9 - i * 0.1} />
+          <path d={`M${x} ${(y as number) - 28} Q${(x as number) + 10} ${(y as number) - 34} ${(x as number) + 14} ${(y as number) - 24} Q${(x as number) + 8} ${(y as number) - 18} ${x} ${(y as number) - 28} Z`} fill="#8B5A2B" stroke={shade("#8B5A2B", 0.3)} strokeWidth="1.6" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const guineaBissauIllustrations: Record<string, IllustrationDefinition> = {
   "el-archipielago-donde-los-hipopotamos-nadan-en-el-mar": { component: ElArchipielagoDondeLosHipopotamosNadanEnElMar },
   "las-islas-donde-las-mujeres-eligen-a-sus-esposos": { component: LasIslasDondeLasMujeresEligenASusEsposos },
@@ -170,4 +208,6 @@ export const guineaBissauIllustrations: Record<string, IllustrationDefinition> =
   "la-lengua-que-une-a-un-pais-de-muchas-lenguas": { component: LaLenguaQueUneAUnPaisDeMuchasLenguas },
   "el-guiso-de-mani-que-espesa-cada-almuerzo": { component: ElGuisoDeManiQueEspesaCadaAlmuerzo },
   "el-pensador-que-imagino-la-liberacion-de-africa": { component: ElPensadorQueImaginoLaLiberacionDeAfrica },
+  "bolama-ciudad-fantasma": { component: BolamaCiudadFantasma },
+  "vinho-de-caju": { component: VinhoDeCaju },
 };

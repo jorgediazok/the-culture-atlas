@@ -157,6 +157,58 @@ const MercadoDeCamellosDeKeren: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const CiclismoEritreo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const road = "#6B6B6B";
+  return (
+    <g>
+      <polygon points="90,250 320,250 320,160 90,230" fill={tint(accentColor, 0.55)} opacity="0.5" />
+      <path d="M90 235 Q205 205 320 155" fill="none" stroke={road} strokeWidth="10" strokeLinecap="round" opacity="0.5" />
+      <path d="M165 210 L205 210 L180 158 Z" fill="none" stroke={dark} strokeWidth="4" strokeLinejoin="round" />
+      <path d="M180 158 L245 175 L255 210" fill="none" stroke={dark} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M245 175 L235 160" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <path d="M205 210 L190 195 M205 210 L220 225" stroke={dark} strokeWidth="3" strokeLinecap="round" />
+      <circle cx="165" cy="210" r="25" fill="none" stroke={dark} strokeWidth="5" />
+      <circle cx="255" cy="210" r="25" fill="none" stroke={dark} strokeWidth="5" />
+      <circle cx="165" cy="210" r="4" fill={dark} />
+      <circle cx="255" cy="210" r="4" fill={dark} />
+      <path d="M180 158 L170 190 L190 195" fill="none" stroke={skin} strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M180 158 L205 180 L220 225" fill="none" stroke={skin} strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M180 158 L215 122" fill="none" stroke={accentColor} strokeWidth="16" strokeLinecap="round" />
+      <path d="M215 122 L235 160" stroke={skin} strokeWidth="10" strokeLinecap="round" />
+      <circle cx="218" cy="114" r="13" fill={skin} />
+      <line x1="215" y1="110" x2="215" y2="90" stroke={dark} strokeWidth="2" />
+      <polygon points="215,90 235,97 215,104" fill="#C1272D" stroke={dark} strokeWidth="1.5" />
+      <circle cx="222" cy="97" r="2" fill="#D4A017" />
+    </g>
+  );
+};
+
+const RuinasDeQohaito: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="210" width="230" height="40" fill={shade(accentColor, 0.15)} />
+      {[
+        [130, 90],
+        [175, 130],
+        [290, 70],
+      ].map(([x, h], i) => (
+        <g key={i}>
+          <rect x={(x as number) - 10} y={210 - (h as number)} width="20" height={h as number} fill={accentColor} stroke={dark} strokeWidth="2.5" />
+          <rect x={(x as number) - 14} y={210 - (h as number) - 6} width="28" height="12" fill={dark} />
+        </g>
+      ))}
+      <path d="M225 210 L225 155 L215 145 L235 148 L228 160 L235 210 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="150" y="200" width="70" height="18" rx="9" fill={shade(accentColor, 0.1)} stroke={dark} strokeWidth="2.5" />
+      {[165, 185, 205].map((x) => (
+        <line key={x} x1={x} y1="200" x2={x} y2="218" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      ))}
+    </g>
+  );
+};
+
 export const eritreaIllustrations: Record<string, IllustrationDefinition> = {
   "asmara-la-pequena-roma": { component: AsmaraLaPequenaRoma },
   "ceremonia-del-cafe-buna": { component: CeremoniaDelCafeBuna },
@@ -168,4 +220,6 @@ export const eritreaIllustrations: Record<string, IllustrationDefinition> = {
   "pasta-con-berbere": { component: PastaConBerbere },
   "rashaida-nomades-del-desierto": { component: RashaidaNomadesDelDesierto },
   "mercado-de-camellos-de-keren": { component: MercadoDeCamellosDeKeren },
+  "ciclismo-eritreo": { component: CiclismoEritreo },
+  "ruinas-de-qohaito": { component: RuinasDeQohaito },
 };

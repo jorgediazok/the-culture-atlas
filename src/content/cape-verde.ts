@@ -251,4 +251,54 @@ export const capeVerde: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "cidade-velha",
+    order: 11,
+    placeholderEmoji: "🏛️",
+    accentColor: "#7A6C5D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La primera ciudad colonial de los trópicos",
+        subtitle: "Cidade Velha",
+        imageAlt:
+          "Caricatura de una fortaleza de piedra y una picota en una plaza colonial.",
+        description:
+          "Cidade Velha, fundada en 1462 en la isla de Santiago como Ribeira Grande, fue el primer asentamiento colonial europeo construido en los trópicos, y durante más de un siglo funcionó como uno de los puertos más importantes del comercio transatlántico de personas esclavizadas entre África, Europa y América. Su Pelourinho, una picota de piedra del siglo XVI donde se castigaba públicamente a los esclavizados, todavía se conserva en el centro de la plaza principal, junto a los restos de una fortaleza real y una de las iglesias más antiguas construidas por europeos al sur del Sahara. Saqueada por el pirata inglés Francis Drake en 1585, la ciudad perdió su papel comercial frente a Praia en el siglo XVIII, lo que paradójicamente ayudó a conservar su trazado original casi intacto. En 2009 la UNESCO la declaró Patrimonio de la Humanidad, como testimonio directo del inicio de la globalización y del comercio de esclavos que marcó la historia del archipiélago.",
+      },
+      en: {
+        title: "The First Colonial City in the Tropics",
+        subtitle: "Cidade Velha",
+        imageAlt:
+          "Cartoon of a stone fortress and a pillory in a colonial square.",
+        description:
+          "Cidade Velha, founded in 1462 on the island of Santiago as Ribeira Grande, was the first European colonial settlement built in the tropics, and for more than a century it operated as one of the most important ports in the transatlantic trade of enslaved people between Africa, Europe, and the Americas. Its Pelourinho, a 16th-century stone pillory where enslaved people were publicly punished, still stands in the center of the main square, alongside the remains of a royal fortress and one of the oldest churches built by Europeans south of the Sahara. Sacked by the English pirate Francis Drake in 1585, the city lost its commercial role to Praia in the 18th century, which paradoxically helped preserve its original layout almost intact. In 2009 UNESCO declared it a World Heritage Site, a direct testimony to the dawn of globalization and the slave trade that shaped the archipelago's history.",
+      },
+    },
+  },
+  {
+    id: "funana",
+    order: 12,
+    placeholderEmoji: "🪗",
+    accentColor: "#D4A017",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El acordeón que el colonialismo intentó silenciar",
+        subtitle: "Funaná",
+        imageAlt:
+          "Caricatura de un hombre tocando acordeón junto a otro raspando un ferrinho de metal.",
+        description:
+          "El funaná es un género musical enérgico y bailable originario de la isla de Santiago, tocado tradicionalmente con gaita (un acordeón diatónico) y ferrinho, una barra de metal que se raspa rítmicamente con un cuchillo o clavo, produciendo un sonido percusivo inconfundible. A diferencia de la melancólica morna, el funaná nació en los campos entre trabajadores rurales, y durante buena parte del siglo XX fue prohibido y perseguido por las autoridades coloniales portuguesas, que lo consideraban una música 'primitiva' asociada a la población negra campesina, obligando a tocarlo en reuniones clandestinas. Tras la independencia en 1975 el género resurgió con fuerza como símbolo de identidad nacional, y en los años ochenta bandas como Bulimundo lo modernizaron incorporando instrumentos eléctricos sin perder su ferrinho característico. Hoy suena en fiestas de todo el archipiélago y en la diáspora, y sigue siendo, junto a la morna, uno de los dos pilares de la música caboverdiana.",
+      },
+      en: {
+        title: "The Accordion Colonialism Tried to Silence",
+        subtitle: "Funaná",
+        imageAlt:
+          "Cartoon of a man playing accordion beside another scraping a metal ferrinho.",
+        description:
+          "Funaná is an energetic, danceable musical genre from the island of Santiago, traditionally played with gaita (a diatonic accordion) and ferrinho, a metal bar rhythmically scraped with a knife or nail to produce an unmistakable percussive sound. Unlike the melancholic morna, funaná was born in the fields among rural workers, and for much of the 20th century it was banned and persecuted by Portuguese colonial authorities, who considered it a 'primitive' music tied to the Black peasant population, forcing it to be played at clandestine gatherings. After independence in 1975 the genre resurged strongly as a symbol of national identity, and in the 1980s bands like Bulimundo modernized it by adding electric instruments without losing its signature ferrinho. Today it plays at parties across the archipelago and in the diaspora, and remains, alongside morna, one of the two pillars of Cape Verdean music.",
+      },
+    },
+  },
 ];

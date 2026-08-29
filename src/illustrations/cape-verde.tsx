@@ -158,6 +158,56 @@ const Diaspora: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const CidadeVelha: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const stone = "#9A8C7A";
+  return (
+    <g>
+      <rect x="90" y="215" width="230" height="35" fill={shade(stone, 0.15)} />
+      <polygon
+        points="228,215 228,155 240,155 240,143 252,143 252,155 264,155 264,143 276,143 276,155 288,155 288,143 300,143 300,155 312,155 312,215"
+        fill={stone}
+        stroke={dark}
+        strokeWidth="3"
+      />
+      <rect x="255" y="105" width="34" height="55" fill={shade(stone, 0.1)} stroke={dark} strokeWidth="3" />
+      <polygon points="250,105 272,80 294,105" fill={dark} />
+      <rect x="266" y="130" width="12" height="20" fill={dark} />
+      <rect x="130" y="196" width="44" height="19" fill={shade(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+      <rect x="145" y="126" width="14" height="72" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="118" y="112" width="68" height="16" rx="4" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="128" cy="120" r="5" fill={tint(accentColor, 0.5)} />
+      <circle cx="176" cy="120" r="5" fill={tint(accentColor, 0.5)} />
+    </g>
+  );
+};
+
+const Funana: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const shirt = "#4A6741";
+  return (
+    <g>
+      <rect x="90" y="230" width="230" height="20" fill={dark} opacity="0.3" />
+      <circle cx="155" cy="118" r="16" fill={skin} />
+      <path d="M139 132 Q155 122 171 132 L178 210 L132 210 Z" fill={shirt} stroke={dark} strokeWidth="2.5" />
+      <path d="M139 145 Q120 155 122 175" fill="none" stroke={shirt} strokeWidth="9" strokeLinecap="round" />
+      <path d="M171 145 Q190 155 188 175" fill="none" stroke={shirt} strokeWidth="9" strokeLinecap="round" />
+      <rect x="122" y="150" width="18" height="52" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="170" y="150" width="18" height="52" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[140, 148, 156, 164].map((x) => (
+        <line key={x} x1={x} y1="152" x2={x} y2="200" stroke={dark} strokeWidth="2" />
+      ))}
+      <circle cx="255" cy="120" r="15" fill={skin} />
+      <path d="M240 133 Q255 124 270 133 L265 220 L245 220 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.5" />
+      <rect x="253" y="150" width="6" height="75" fill="#B0B0B0" stroke={dark} strokeWidth="2" />
+      <path d="M240 148 Q225 158 222 172" fill="none" stroke={tint(accentColor, 0.3)} strokeWidth="9" strokeLinecap="round" />
+      <path d="M270 155 L290 175" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M288 172 L300 165 L296 178 Z" fill={dark} />
+    </g>
+  );
+};
+
 export const capeVerdeIllustrations: Record<string, IllustrationDefinition> = {
   morna: { component: Morna },
   "cesaria-evora": { component: CesariaEvora },
@@ -169,4 +219,6 @@ export const capeVerdeIllustrations: Record<string, IllustrationDefinition> = {
   batuku: { component: Batuku },
   "pico-do-fogo": { component: PicoDoFogo },
   diaspora: { component: Diaspora },
+  "cidade-velha": { component: CidadeVelha },
+  funana: { component: Funana },
 };

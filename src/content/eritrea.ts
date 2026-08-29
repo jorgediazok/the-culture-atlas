@@ -231,4 +231,54 @@ export const eritrea: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "ciclismo-eritreo",
+    order: 11,
+    placeholderEmoji: "🚴",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país africano donde el ciclismo es pasión nacional",
+        subtitle: "La obsesión eritrea por la bicicleta",
+        imageAlt:
+          "Caricatura de un ciclista pedaleando cuesta arriba con la bandera eritrea.",
+        description:
+          "La bicicleta llegó a Eritrea con los colonizadores italianos a comienzos del siglo XX, y en un giro poco común el deporte terminó arraigando mucho más hondo entre los eritreos que entre sus antiguos gobernantes: hoy el país tiene una de las culturas ciclistas más fuertes de África, con la Vuelta a Eritrea disputándose sin interrupción desde 1946 y bicicletas usadas a diario para transportar mercancías, familias enteras y hasta animales por las carreteras de montaña de las tierras altas. En 2015 el ciclista Daniel Teklehaimanot hizo historia al convertirse en el primer africano negro en vestir un maillot líder en el Tour de Francia, el de la montaña, un hito celebrado en todo el país como una hazaña nacional. Asmara, con sus calles empinadas y su tradición de clubes ciclistas heredada de la época colonial, sigue formando a nuevas generaciones de corredores que compiten hoy en equipos profesionales europeos.",
+      },
+      en: {
+        title: "The African Country Where Cycling Is a National Passion",
+        subtitle: "Eritrea's Obsession With the Bicycle",
+        imageAlt:
+          "Cartoon of a cyclist pedaling uphill with the Eritrean flag.",
+        description:
+          "Bicycles arrived in Eritrea with Italian colonizers in the early 20th century, and in an unusual twist the sport took root far more deeply among Eritreans than among their former rulers: today the country has one of Africa's strongest cycling cultures, with the Tour of Eritrea run continuously since 1946 and bicycles used daily to haul goods, whole families, and even livestock along the mountain roads of the highlands. In 2015 cyclist Daniel Teklehaimanot made history as the first Black African to wear a leader's jersey at the Tour de France, the polka-dot King of the Mountains jersey, a milestone celebrated nationwide as a point of pride. Asmara, with its steep streets and cycling-club tradition inherited from the colonial era, keeps training new generations of riders who now race on professional European teams.",
+      },
+    },
+  },
+  {
+    id: "ruinas-de-qohaito",
+    order: 12,
+    placeholderEmoji: "🗿",
+    accentColor: "#8D6E63",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las ruinas de una ciudad de 2.000 años en un acantilado",
+        subtitle: "Qohaito",
+        imageAlt:
+          "Caricatura de columnas de piedra en ruinas sobre una meseta rocosa.",
+        description:
+          "En una meseta a más de 2.700 metros de altura en el sur de Eritrea se encuentran las ruinas de Qohaito, una ciudad que floreció como centro comercial entre los siglos I y IV, probablemente conectada con el poderoso reino de Aksum y con rutas comerciales que llegaban hasta el Mar Rojo y más allá. Entre los restos todavía visibles hay columnas de un antiguo templo, una represa de piedra y tumbas talladas en la roca, además de pinturas rupestres cercanas que sugieren ocupación humana miles de años antes de la propia ciudad. A pocos kilómetros, el desfiladero de Qohaito cae de forma abrupta hacia las tierras bajas, y aunque el sitio nunca fue excavado sistemáticamente por arqueólogos, permanece como uno de los vestigios más intrigantes y menos visitados de la civilización antigua que dominó el Cuerno de África.",
+      },
+      en: {
+        title: "The 2,000-Year-Old City Ruins Perched on a Cliff",
+        subtitle: "Qohaito",
+        imageAlt:
+          "Cartoon of ruined stone columns on a rocky plateau.",
+        description:
+          "On a plateau more than 2,700 meters high in southern Eritrea lie the ruins of Qohaito, a city that flourished as a trading center between the 1st and 4th centuries, likely connected to the powerful kingdom of Aksum and to trade routes reaching the Red Sea and beyond. Among the remains still visible are the columns of an ancient temple, a stone dam, and rock-cut tombs, along with nearby rock art suggesting human occupation thousands of years before the city itself. A few kilometers away, the Qohaito escarpment drops abruptly toward the lowlands, and although the site has never been systematically excavated by archaeologists, it remains one of the most intriguing and least-visited traces of the ancient civilization that once dominated the Horn of Africa.",
+      },
+    },
+  },
 ];

@@ -251,4 +251,54 @@ export const liberia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "sociedad-poro",
+    order: 11,
+    placeholderEmoji: "👺",
+    accentColor: "#4A3428",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La sociedad secreta que educaba a los varones",
+        subtitle: "La sociedad poro",
+        imageAlt:
+          "Caricatura de una máscara de madera con cuernos curvos y expresión severa.",
+        description:
+          "El poro, la contraparte masculina de la sociedad sande, es una organización de iniciación presente entre numerosos pueblos de Liberia que durante generaciones organizó una 'escuela del monte' donde los varones jóvenes pasaban semanas o meses aislados de sus familias aprendiendo historia oral, artesanía, agricultura, normas sociales y disciplina física bajo la guía de líderes conocidos como zo. Durante las ceremonias, figuras enmascaradas conocidas como 'diablos del monte', talladas con cuernos, colmillos o rasgos exagerados y consideradas encarnaciones de espíritus ancestrales, presiden rituales cuyo contenido exacto permanece guardado bajo estricto secreto para quienes no fueron iniciados. Más allá de su función educativa, el poro históricamente cumplió también un rol político y judicial, mediando disputas y validando la autoridad de jefes locales, un peso institucional que, aunque disminuido, todavía se mantiene vigente en gran parte de la Liberia rural.",
+      },
+      en: {
+        title: "The Secret Society That Schooled Boys in the Bush",
+        subtitle: "The Poro Society",
+        imageAlt:
+          "Cartoon of a wooden mask with curved horns and a stern expression.",
+        description:
+          "Poro, the male counterpart to the Sande society, is an initiation organization found among many peoples of Liberia that for generations ran a 'bush school' where young men spent weeks or months isolated from their families learning oral history, craftsmanship, farming, social norms, and physical discipline under leaders known as zo. During ceremonies, masked figures popularly known as 'bush devils,' carved with horns, tusks, or exaggerated features and considered embodiments of ancestral spirits, preside over rituals whose exact content remains kept under strict secrecy from the uninitiated. Beyond its educational role, Poro historically also served a political and judicial function, mediating disputes between communities and validating the authority of local chiefs, an institutional weight that, though diminished, still holds sway across much of rural Liberia today.",
+      },
+    },
+  },
+  {
+    id: "surf-de-robertsport",
+    order: 12,
+    placeholderEmoji: "🏄",
+    accentColor: "#1B7A9C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo costero donde nacieron olas perfectas",
+        subtitle: "El surf de Robertsport",
+        imageAlt:
+          "Caricatura de un surfista sobre una ola azul frente a una costa de palmeras.",
+        description:
+          "Robertsport, un pequeño pueblo pesquero en el condado de Cape Mount, junto a la laguna de Lake Piso, se convirtió en las últimas dos décadas en el destino de surf más reconocido de África occidental, gracias a olas largas y consistentes que rompen sobre puntas rocosas naturales frente a playas todavía prácticamente vacías de infraestructura turística masiva. Surfistas extranjeros que descubrieron la zona a comienzos de los años 2000 comenzaron a enseñar el deporte a jóvenes locales, dando origen a una comunidad de surfistas liberianos que hoy compite en torneos internacionales y trabaja como instructores para los visitantes que llegan cada temporada seca. El pueblo, que también conserva restos de un antiguo asentamiento colonial y playas donde anidan tortugas marinas, representa para muchos liberianos un símbolo de recuperación económica y turística tras décadas de aislamiento del resto del mundo.",
+      },
+      en: {
+        title: "The Coastal Town Where Perfect Waves Were Born",
+        subtitle: "The Surf of Robertsport",
+        imageAlt:
+          "Cartoon of a surfer riding a blue wave off a palm-lined coast.",
+        description:
+          "Robertsport, a small fishing town in Cape Mount County beside the Lake Piso lagoon, became over the past two decades West Africa's most recognized surf destination, thanks to long, consistent waves breaking over natural rocky points along beaches still largely free of mass tourism infrastructure. Foreign surfers who discovered the area in the early 2000s began teaching the sport to local youth, giving rise to a community of Liberian surfers who now compete in international tournaments and work as instructors for the visitors who arrive each dry season. The town, which also holds the remains of an old colonial settlement and beaches where sea turtles nest, represents for many Liberians a symbol of economic and tourism recovery after decades of isolation from the rest of the world.",
+      },
+    },
+  },
 ];

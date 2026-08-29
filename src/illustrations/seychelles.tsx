@@ -253,6 +253,41 @@ const ElIdiomaCriolloQueSeConvirtioEnLenguaOficial: IllustrationComponent = () =
   </g>
 );
 
+const PapaLangueDeSeychelles: IllustrationComponent = () => (
+  <g>
+    <path d="M150 245 L270 235" stroke="#5C4A3E" strokeWidth="8" strokeLinecap="round" />
+    <ellipse cx="215" cy="205" rx="26" ry="20" fill="#1A1A1A" stroke="#000" strokeWidth="2.2" />
+    <circle cx="200" cy="195" r="13" fill="#1A1A1A" stroke="#000" strokeWidth="2" />
+    <ellipse cx="215" cy="212" rx="14" ry="10" fill="#F5F0E6" />
+    <path d="M189 193 L177 189 L189 198 Z" fill="#3A2A1E" />
+    <circle cx="195" cy="191" r="2" fill="#fff" />
+    <path d="M225 215 Q260 222 285 215 Q295 212 290 222 Q265 232 235 225 Z" fill="#1A1A1A" stroke="#000" strokeWidth="1.8" />
+    <line x1="205" y1="220" x2="203" y2="240" stroke="#1A1A1A" strokeWidth="3" strokeLinecap="round" />
+    <line x1="225" y1="220" x2="227" y2="240" stroke="#1A1A1A" strokeWidth="3" strokeLinecap="round" />
+  </g>
+);
+
+const DokterFeyCuranderosCriollos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <rect x="130" y="215" width="150" height="12" fill="#6B4423" stroke="#3A2A1E" strokeWidth="2" />
+      <rect x="140" y="227" width="10" height="20" fill="#5C3A21" />
+      <rect x="260" y="227" width="10" height="20" fill="#5C3A21" />
+      <circle cx="195" cy="150" r="14" fill={skin} stroke={dark} strokeWidth="1.8" />
+      <path d="M180 155 Q195 145 210 155 L215 215 Q195 225 175 215 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M180 172 Q160 185 165 205" fill="none" stroke={accentColor} strokeWidth="9" strokeLinecap="round" />
+      <path d="M210 172 Q225 182 220 200" fill="none" stroke={accentColor} strokeWidth="9" strokeLinecap="round" />
+      <ellipse cx="220" cy="205" rx="20" ry="10" fill="#5C3A21" stroke="#3A2A1E" strokeWidth="2" />
+      {[[205, 198], [215, 192], [228, 196], [235, 203]].map(([x, y], i) => (
+        <path key={i} d={`M${x} ${y} Q${(x as number) + 6} ${(y as number) - 8} ${(x as number) + 2} ${(y as number) - 16}`} fill="none" stroke="#3A7A45" strokeWidth="4" strokeLinecap="round" />
+      ))}
+      <path d="M155 205 Q145 195 148 210" fill="none" stroke="#8B5A2B" strokeWidth="4" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const seychellesIllustrations: Record<string, IllustrationDefinition> = {
   "la-semilla-mas-grande-del-mundo-envuelta-en-leyenda": { component: LaSemillaMasGrandeDelMundoEnvueltaEnLeyenda },
   "los-gigantes-que-viven-mas-de-cien-anos": { component: LosGigantesQueVivenMasDeCienAnos },
@@ -264,4 +299,6 @@ export const seychellesIllustrations: Record<string, IllustrationDefinition> = {
   "la-vaina-que-se-poliniza-a-mano-flor-por-flor": { component: LaVainaQueSePolinizaAManoFlorPorFlor },
   "las-piraguas-talladas-a-mano-que-aun-salen-a-pescar": { component: LasPiraguasTalladasAManoQueAunSalenAPescar },
   "el-idioma-criollo-que-se-convirtio-en-lengua-oficial": { component: ElIdiomaCriolloQueSeConvirtioEnLenguaOficial },
+  "papa-langue-de-seychelles": { component: PapaLangueDeSeychelles },
+  "dokter-fey-curanderos-criollos": { component: DokterFeyCuranderosCriollos },
 };

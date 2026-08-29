@@ -251,4 +251,54 @@ export const niger: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "parque-nacional-del-w",
+    order: 11,
+    placeholderEmoji: "🦁",
+    accentColor: "#6B8E23",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El parque con forma de W que protege al último león",
+        subtitle: "El Parque Nacional del W",
+        imageAlt:
+          "Caricatura de un león caminando entre pastizales dorados junto a un río serpenteante.",
+        description:
+          "El Parque Nacional del W, compartido entre Níger, Benín y Burkina Faso, debe su nombre a la forma de doble meandro que dibuja el río Níger en ese tramo de su curso, visible incluso en mapas a gran escala. Parte del complejo de reservas más grande de África occidental, el parque protege una de las últimas poblaciones viables del león de África occidental, una subespecie genéticamente distinta de sus parientes del este y sur del continente y catalogada en peligro crítico de extinción, con menos de cuatrocientos ejemplares estimados en toda la región. Junto a los leones, el parque alberga elefantes, antílopes acuáticos, cocodrilos e hipopótamos en un mosaico de sabana, bosque de galería y humedales estacionales, y su gestión transfronteriza, coordinada entre los tres países, se considera un modelo de cooperación regional para la conservación de vida silvestre en el Sahel.",
+      },
+      en: {
+        title: "The W-Shaped Park Protecting the Last Lion",
+        subtitle: "W National Park",
+        imageAlt:
+          "Cartoon of a lion walking through golden grassland beside a winding river.",
+        description:
+          "W National Park, shared by Niger, Benin, and Burkina Faso, takes its name from the double bend the Niger River traces through that stretch of its course, a shape visible even on large-scale maps. Part of the largest complex of protected reserves in West Africa, the park protects one of the last viable populations of the West African lion, a subspecies genetically distinct from its relatives in the east and south of the continent and listed as critically endangered, with fewer than four hundred individuals estimated across the entire region. Alongside the lions, the park holds elephants, waterbuck, crocodiles, and hippos across a mosaic of savanna, gallery forest, and seasonal wetlands, and its cross-border management, coordinated between the three countries, is considered a model of regional cooperation for wildlife conservation in the Sahel.",
+      },
+    },
+  },
+  {
+    id: "goge-hausa",
+    order: 12,
+    placeholderEmoji: "🎻",
+    accentColor: "#B08040",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El violín de una sola cuerda que alaba a los nobles",
+        subtitle: "El goge hausa",
+        imageAlt:
+          "Caricatura de un músico tocando un violín de una sola cuerda con arco curvo.",
+        description:
+          "El goge, un instrumento de cuerda frotada hecho con una sola cuerda de crin de caballo tensada sobre una calabaza cubierta de piel de lagarto o cabra, acompaña desde hace generaciones el canto de alabanza de los griots hausa y zarma de Níger, quienes tocan de pie o sentados en cortes reales, bodas y mercados narrando genealogías, hazañas históricas y elogios personalizados a cambio de una recompensa. El arco, curvado y también encordado con crin, se desliza sobre la única cuerda produciendo un sonido nasal y penetrante que se combina con la voz del propio músico, quien canta mientras toca, improvisando versos según la ocasión y el público presente. Transmitido dentro de familias de músicos hereditarios, el goge sigue sonando en festividades y ceremonias tradicionales de todo el sur de Níger, y representa una de las tradiciones musicales más antiguas y menos conocidas fuera de la región.",
+      },
+      en: {
+        title: "The One-String Violin That Praises Nobles",
+        subtitle: "The Hausa Goge",
+        imageAlt:
+          "Cartoon of a musician playing a one-string violin with a curved bow.",
+        description:
+          "The goge, a bowed string instrument made from a single strand of horsehair stretched over a gourd covered in lizard or goat skin, has for generations accompanied the praise singing of Hausa and Zarma griots in Niger, who perform standing or seated at royal courts, weddings, and markets, reciting genealogies, historical deeds, and personalized praise in exchange for a reward. The bow, curved and also strung with horsehair, glides across the single string to produce a nasal, piercing sound blended with the musician's own voice, sung while playing and improvised according to the occasion and audience. Passed down within hereditary musician families, the goge still sounds at festivals and traditional ceremonies across southern Niger, representing one of the oldest and least known musical traditions outside the region.",
+      },
+    },
+  },
 ];

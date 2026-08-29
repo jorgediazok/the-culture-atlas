@@ -231,4 +231,54 @@ export const lesotho: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "litema-arte-mural",
+    order: 11,
+    placeholderEmoji: "🎨",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las paredes que las mujeres basotho decoran a mano",
+        subtitle: "Litema, arte mural tradicional",
+        imageAlt:
+          "Caricatura de una pared con patrones geométricos grabados y pintados.",
+        description:
+          "El litema es una tradición de arte mural practicada casi exclusivamente por mujeres basotho, que decoran las paredes exteriores de sus casas con patrones geométricos simétricos grabados en el barro fresco y luego coloreados con pigmentos naturales, ceniza y bosta de vaca mezclada con tierra, una técnica transmitida de madres a hijas durante generaciones. Los diseños, generalmente basados en formas repetitivas como espirales, rombos o motivos inspirados en el maíz y otros cultivos, no son permanentes: deben renovarse cada temporada de lluvias o antes de ocasiones importantes como bodas y festividades, convirtiendo el mantenimiento de la fachada en un ritual estético recurrente más que en una decoración fija. Aunque las casas de ladrillo fueron reemplazando poco a poco a las viviendas tradicionales, el litema sigue practicándose en zonas rurales y hoy también se exhibe en textiles, cerámica y eventos culturales como símbolo de identidad basotho.",
+      },
+      en: {
+        title: "The Walls Basotho Women Decorate by Hand",
+        subtitle: "Litema, Traditional Mural Art",
+        imageAlt:
+          "Cartoon of a wall with etched and painted geometric patterns.",
+        description:
+          "Litema is a mural art tradition practiced almost exclusively by Basotho women, who decorate the outer walls of their homes with symmetrical geometric patterns etched into fresh mud and then colored with natural pigments, ash, and cow dung mixed with soil, a technique passed down from mothers to daughters for generations. The designs, usually built from repeating shapes like spirals, diamonds, or motifs inspired by maize and other crops, aren't permanent: they must be renewed each rainy season or before major occasions like weddings and festivals, turning the upkeep of a home's facade into a recurring aesthetic ritual rather than a fixed decoration. Although brick houses have gradually replaced traditional dwellings, litema is still practiced in rural areas and now also appears on textiles, pottery, and at cultural events as a symbol of Basotho identity.",
+      },
+    },
+  },
+  {
+    id: "aloe-espiral-kharetsa",
+    order: 12,
+    placeholderEmoji: "🌿",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La planta en espiral que solo crece en sus montañas",
+        subtitle: "El áloe espiral, flor nacional de Lesoto",
+        imageAlt:
+          "Caricatura de una planta suculenta con hojas dispuestas en espiral perfecta.",
+        description:
+          "El áloe espiral, conocido científicamente como Aloe polyphylla y localmente como 'kharetsa', es una planta suculenta endémica de las montañas Maloti y Drakensberg que crece exclusivamente en Lesoto y zonas fronterizas inmediatas, reconocible por sus hojas dispuestas en una espiral geométrica casi perfecta de cinco brazos que gira indistintamente hacia la izquierda o hacia la derecha según cada ejemplar. Declarada flor nacional del país, la planta crece únicamente sobre suelo rocoso a gran altitud y en condiciones climáticas muy específicas que hicieron fracasar casi todos los intentos de cultivarla fuera de su hábitat natural, lo que sumado a décadas de extracción ilegal para venderla como planta ornamental la convirtió en una especie protegida y en peligro de extinción. Hoy su recolección está prohibida por ley, y programas de conservación locales intentan propagarla en viveros para aliviar la presión sobre las poblaciones silvestres que sobreviven en las alturas lesotenses.",
+      },
+      en: {
+        title: "The Spiral Plant That Only Grows in Its Mountains",
+        subtitle: "The Spiral Aloe, Lesotho's National Flower",
+        imageAlt:
+          "Cartoon of a succulent plant with leaves arranged in a perfect spiral.",
+        description:
+          "The spiral aloe, known scientifically as Aloe polyphylla and locally as 'kharetsa,' is a succulent plant endemic to the Maloti and Drakensberg mountains that grows exclusively in Lesotho and immediately bordering areas, recognizable by its leaves arranged in an almost perfect five-armed geometric spiral that turns either clockwise or counterclockwise depending on the individual plant. Declared the country's national flower, it grows only on rocky ground at high altitude under very specific climate conditions that have foiled nearly every attempt to cultivate it outside its natural habitat, which, combined with decades of illegal harvesting to sell as an ornamental plant, turned it into a protected, endangered species. Today collecting it is banned by law, and local conservation programs are trying to propagate it in nurseries to ease pressure on the wild populations that survive in Lesotho's highlands.",
+      },
+    },
+  },
 ];
