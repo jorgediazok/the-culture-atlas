@@ -47,183 +47,195 @@ export default function BookCover({
           width: WIDTH,
           height,
           textDecoration: "none",
-          transformStyle: "preserve-3d",
-          transform: `rotateY(-${tilt}deg)`,
-          transition: "transform 0.5s ease",
           [`@keyframes ${spinName}`]: {
             from: { transform: `rotateY(-${tilt}deg)` },
             to: { transform: `rotateY(-${tilt + 360}deg)` },
           },
-          "&:hover": {
+          "&:hover .book-spin": {
             animation: `${spinName} ${duration}s linear infinite`,
           },
           "@media (prefers-reduced-motion: reduce)": {
-            "&:hover": {
+            "&:hover .book-spin": {
               animation: "none",
               transform: `rotateY(-${tilt - 10}deg)`,
             },
           },
         }}
       >
-        {/* right face: page block */}
+        {/* Purely visual — the link above stays a flat, unrotated hit
+            target so clicks land reliably mid-spin instead of missing
+            when the 3D-rotated book is briefly edge-on to the cursor. */}
         <Box
-          sx={{
-            position: "absolute",
-            top: 0,
-            left: SIDE_OFFSET,
-            width: THICKNESS,
-            height: "100%",
-            backfaceVisibility: "hidden",
-            transform: `rotateY(90deg) translateZ(${HALF_WIDTH}px)`,
-            backgroundColor: PAGE_COLOR,
-            backgroundImage:
-              "repeating-linear-gradient(to right, rgba(0,0,0,0.14) 0 1px, transparent 1px 2.4px)",
-            boxShadow: "inset -2px 0 3px rgba(0,0,0,0.25)",
-          }}
-        />
-        {/* left face: spine */}
-        <Box
-          sx={{
-            position: "absolute",
-            top: 0,
-            left: SIDE_OFFSET,
-            width: THICKNESS,
-            height: "100%",
-            backfaceVisibility: "hidden",
-            transform: `rotateY(-90deg) translateZ(${HALF_WIDTH}px)`,
-            backgroundColor: spineColor,
-            boxShadow: "inset 2px 0 3px rgba(0,0,0,0.3)",
-          }}
-        />
-        {/* front cover face */}
-        <Box
+          className="book-spin"
           sx={{
             position: "absolute",
             inset: 0,
-            backfaceVisibility: "hidden",
-            transform: `translateZ(${HALF_THICKNESS}px)`,
-            display: "flex",
-            flexDirection: "column",
-            borderRadius: FRONT_RADIUS,
-            overflow: "hidden",
-            backgroundColor: country.accentColor,
-            boxShadow: "6px 14px 22px -10px rgba(0,0,0,0.55)",
+            pointerEvents: "none",
+            transformStyle: "preserve-3d",
+            transform: `rotateY(-${tilt}deg)`,
+            transition: "transform 0.5s ease",
           }}
         >
+          {/* right face: page block */}
+          <Box
+            sx={{
+              position: "absolute",
+              top: 0,
+              left: SIDE_OFFSET,
+              width: THICKNESS,
+              height: "100%",
+              backfaceVisibility: "hidden",
+              transform: `rotateY(90deg) translateZ(${HALF_WIDTH}px)`,
+              backgroundColor: PAGE_COLOR,
+              backgroundImage:
+                "repeating-linear-gradient(to right, rgba(0,0,0,0.14) 0 1px, transparent 1px 2.4px)",
+              boxShadow: "inset -2px 0 3px rgba(0,0,0,0.25)",
+            }}
+          />
+          {/* left face: spine */}
+          <Box
+            sx={{
+              position: "absolute",
+              top: 0,
+              left: SIDE_OFFSET,
+              width: THICKNESS,
+              height: "100%",
+              backfaceVisibility: "hidden",
+              transform: `rotateY(-90deg) translateZ(${HALF_WIDTH}px)`,
+              backgroundColor: spineColor,
+              boxShadow: "inset 2px 0 3px rgba(0,0,0,0.3)",
+            }}
+          />
+          {/* front cover face */}
           <Box
             sx={{
               position: "absolute",
               inset: 0,
-              background:
-                "linear-gradient(120deg, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0) 45%)",
-              pointerEvents: "none",
-            }}
-          />
-          <Box sx={{ height: 6, backgroundColor: "rgba(0,0,0,0.16)" }} />
-          <Box
-            sx={{
-              position: "absolute",
-              left: 0,
-              top: 0,
-              bottom: 0,
-              width: 8,
-              backgroundColor: "rgba(0,0,0,0.2)",
-            }}
-          />
-          <Typography
-            component="span"
-            sx={{
-              position: "absolute",
-              top: 10,
-              right: 10,
-              fontSize: 13,
-              filter: "drop-shadow(0 1px 2px rgba(0,0,0,0.4))",
-            }}
-          >
-            {country.flagEmoji}
-          </Typography>
-          <Box
-            sx={{
-              flex: 1,
+              backfaceVisibility: "hidden",
+              transform: `translateZ(${HALF_THICKNESS}px)`,
               display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              p: "10px 12px 2px 16px",
+              flexDirection: "column",
+              borderRadius: FRONT_RADIUS,
+              overflow: "hidden",
+              backgroundColor: country.accentColor,
+              boxShadow: "6px 14px 22px -10px rgba(0,0,0,0.55)",
             }}
           >
-            {Emblem ? (
-              <Box sx={{ width: "100%", height: "100%" }}>
-                <Emblem accentColor={country.accentColor} />
-              </Box>
-            ) : (
-              <Typography sx={{ fontSize: 32 }}>{country.flagEmoji}</Typography>
-            )}
-          </Box>
-          <Box
-            sx={{
-              backgroundColor: "rgba(0,0,0,0.26)",
-              p: "9px 10px 11px 16px",
-              textAlign: "center",
-            }}
-          >
+            <Box
+              sx={{
+                position: "absolute",
+                inset: 0,
+                background:
+                  "linear-gradient(120deg, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0) 45%)",
+                pointerEvents: "none",
+              }}
+            />
+            <Box sx={{ height: 6, backgroundColor: "rgba(0,0,0,0.16)" }} />
+            <Box
+              sx={{
+                position: "absolute",
+                left: 0,
+                top: 0,
+                bottom: 0,
+                width: 8,
+                backgroundColor: "rgba(0,0,0,0.2)",
+              }}
+            />
             <Typography
               component="span"
               sx={{
-                fontFamily: "var(--font-fraunces), serif",
-                fontSize: 12.5,
-                fontWeight: 600,
-                color: "#fff",
-                lineHeight: 1.2,
-                display: "block",
+                position: "absolute",
+                top: 10,
+                right: 10,
+                fontSize: 13,
+                filter: "drop-shadow(0 1px 2px rgba(0,0,0,0.4))",
               }}
             >
-              {country.name}
+              {country.flagEmoji}
             </Typography>
+            <Box
+              sx={{
+                flex: 1,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                p: "10px 12px 2px 16px",
+              }}
+            >
+              {Emblem ? (
+                <Box sx={{ width: "100%", height: "100%" }}>
+                  <Emblem accentColor={country.accentColor} />
+                </Box>
+              ) : (
+                <Typography sx={{ fontSize: 32 }}>{country.flagEmoji}</Typography>
+              )}
+            </Box>
+            <Box
+              sx={{
+                backgroundColor: "rgba(0,0,0,0.26)",
+                p: "9px 10px 11px 16px",
+                textAlign: "center",
+              }}
+            >
+              <Typography
+                component="span"
+                sx={{
+                  fontFamily: "var(--font-fraunces), serif",
+                  fontSize: 12.5,
+                  fontWeight: 600,
+                  color: "#fff",
+                  lineHeight: 1.2,
+                  display: "block",
+                }}
+              >
+                {country.name}
+              </Typography>
+            </Box>
           </Box>
-        </Box>
-        {/* back cover face */}
-        <Box
-          sx={{
-            position: "absolute",
-            inset: 0,
-            backfaceVisibility: "hidden",
-            transform: `rotateY(180deg) translateZ(${HALF_THICKNESS}px)`,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            borderRadius: BACK_RADIUS,
-            overflow: "hidden",
-            backgroundColor: backColor,
-            boxShadow: "-6px 14px 22px -10px rgba(0,0,0,0.55)",
-          }}
-        >
+          {/* back cover face */}
           <Box
             sx={{
               position: "absolute",
-              inset: 8,
-              border: "1px solid rgba(255,255,255,0.28)",
-              borderRadius: "8px 2px 2px 8px",
-            }}
-          />
-          <Box
-            sx={{
-              position: "absolute",
-              right: 0,
-              top: 0,
-              bottom: 0,
-              width: 8,
-              backgroundColor: "rgba(0,0,0,0.2)",
-            }}
-          />
-          <Typography
-            component="span"
-            sx={{
-              fontSize: 46,
-              filter: "drop-shadow(0 2px 4px rgba(0,0,0,0.35))",
+              inset: 0,
+              backfaceVisibility: "hidden",
+              transform: `rotateY(180deg) translateZ(${HALF_THICKNESS}px)`,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              borderRadius: BACK_RADIUS,
+              overflow: "hidden",
+              backgroundColor: backColor,
+              boxShadow: "-6px 14px 22px -10px rgba(0,0,0,0.55)",
             }}
           >
-            {country.flagEmoji}
-          </Typography>
+            <Box
+              sx={{
+                position: "absolute",
+                inset: 8,
+                border: "1px solid rgba(255,255,255,0.28)",
+                borderRadius: "8px 2px 2px 8px",
+              }}
+            />
+            <Box
+              sx={{
+                position: "absolute",
+                right: 0,
+                top: 0,
+                bottom: 0,
+                width: 8,
+                backgroundColor: "rgba(0,0,0,0.2)",
+              }}
+            />
+            <Typography
+              component="span"
+              sx={{
+                fontSize: 46,
+                filter: "drop-shadow(0 2px 4px rgba(0,0,0,0.35))",
+              }}
+            >
+              {country.flagEmoji}
+            </Typography>
+          </Box>
         </Box>
       </Box>
     </Box>
