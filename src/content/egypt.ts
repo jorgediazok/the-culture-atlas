@@ -231,4 +231,234 @@ export const egypt: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "karnak-luxor",
+    order: 11,
+    placeholderEmoji: "🏛️",
+    accentColor: "#B5892E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El templo que treinta faraones ampliaron sin parar",
+        subtitle: "El complejo de Karnak",
+        imageAlt: "Caricatura de enormes columnas de piedra cubiertas de jeroglíficos.",
+        description:
+          "Karnak, junto a la actual Luxor, es el mayor recinto religioso del antiguo Egipto: un complejo de templos, capillas y obeliscos que unos treinta faraones fueron ampliando a lo largo de más de mil trescientos años, cada uno agregando su propia contribución al conjunto dedicado sobre todo al dios Amón-Ra. Su sala hipóstila cubre unos cinco mil metros cuadrados y contiene 134 columnas gigantescas, algunas de más de veinte metros de altura, dispuestas en filas que todavía sostienen bloques del techo original. Durante siglos fue el templo más rico y poderoso de Egipto, con miles de sacerdotes y vastas propiedades de tierra. Hoy se conecta con el templo de Luxor por una avenida de esfinges de casi tres kilómetros, restaurada y reabierta en 2021 con una gran ceremonia.",
+      },
+      en: {
+        title: "The Temple Thirty Pharaohs Never Stopped Expanding",
+        subtitle: "The Karnak Complex",
+        imageAlt: "Cartoon of enormous stone columns covered in hieroglyphs.",
+        description:
+          "Karnak, next to modern Luxor, is the largest religious complex of ancient Egypt: a sprawl of temples, chapels, and obelisks that roughly thirty pharaohs kept expanding over more than thirteen hundred years, each adding his own contribution to a site dedicated mainly to the god Amun-Ra. Its hypostyle hall covers around five thousand square meters and holds 134 gigantic columns, some over twenty meters tall, arranged in rows that still carry blocks of the original roof. For centuries it was the richest and most powerful temple in Egypt, with thousands of priests and vast landholdings. Today it connects to Luxor Temple by an avenue of sphinxes nearly three kilometers long, restored and reopened in 2021 with a grand ceremony.",
+      },
+    },
+  },
+  {
+    id: "hatshepsut",
+    order: 12,
+    placeholderEmoji: "👤",
+    accentColor: "#C77B3B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La mujer que gobernó como faraón durante dos décadas",
+        subtitle: "Hatshepsut",
+        imageAlt: "Caricatura de un templo de terrazas escalonadas al pie de un acantilado rojizo.",
+        description:
+          "Hatshepsut fue una de las pocas mujeres que gobernaron el antiguo Egipto como faraón por derecho propio, y la que lo hizo durante más tiempo: unos veinte años en el siglo XV a.C., un reinado próspero marcado por grandes proyectos de construcción y una famosa expedición comercial a la tierra de Punt. En las estatuas y relieves oficiales se la representó con los atributos masculinos del cargo, incluida la barba postiza ceremonial, siguiendo la iconografía del poder faraónico. Su templo funerario de Deir el-Bahari, con tres terrazas escalonadas excavadas contra un acantilado en la orilla oeste de Luxor, sigue siendo una de las obras más admiradas de la arquitectura egipcia. Tras su muerte, su sucesor Tutmosis III intentó borrar su nombre de los monumentos, un intento que los arqueólogos revirtieron siglos después.",
+      },
+      en: {
+        title: "The Woman Who Ruled as Pharaoh for Two Decades",
+        subtitle: "Hatshepsut",
+        imageAlt: "Cartoon of a terraced temple at the foot of a reddish cliff.",
+        description:
+          "Hatshepsut was one of the few women to rule ancient Egypt as pharaoh in her own right, and the one who did so longest: about twenty years in the 15th century BCE, a prosperous reign marked by major building projects and a famous trading expedition to the land of Punt. In official statues and reliefs she was shown with the male attributes of the office, including the ceremonial false beard, following the established iconography of pharaonic power. Her mortuary temple at Deir el-Bahari, with three stepped terraces cut against a cliff on the west bank of Luxor, remains one of the most admired works of Egyptian architecture. After her death, her successor Thutmose III tried to erase her name from the monuments, an effort archaeologists reversed centuries later.",
+      },
+    },
+  },
+  {
+    id: "gran-esfinge",
+    order: 13,
+    placeholderEmoji: "🦁",
+    accentColor: "#C2A878",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La estatua guardiana a la que le falta la nariz",
+        subtitle: "La Gran Esfinge de Guiza",
+        imageAlt: "Caricatura de una esfinge de piedra con cuerpo de león y cara humana.",
+        description:
+          "La Gran Esfinge de Guiza, tallada en un único afloramiento de roca caliza hace unos 4.500 años, mide 73 metros de largo y 20 de alto, lo que la convierte en una de las estatuas monolíticas más grandes del mundo. Representa una criatura con cuerpo de león y cabeza humana, probablemente con los rasgos del faraón Kefrén, y miraba al este hacia el sol naciente como figura protectora de la necrópolis. Su nariz desapareció siglos atrás; la leyenda popular que culpa a las tropas de Napoleón es falsa, ya que dibujos anteriores a su llegada ya la muestran sin ella. Entre las patas hay una losa de granito, la Estela del Sueño, que cuenta cómo un príncipe prometió despejar la arena que enterraba la estatua a cambio de llegar al trono.",
+      },
+      en: {
+        title: "The Guardian Statue That Is Missing Its Nose",
+        subtitle: "The Great Sphinx of Giza",
+        imageAlt: "Cartoon of a stone sphinx with a lion's body and a human face.",
+        description:
+          "The Great Sphinx of Giza, carved from a single outcrop of limestone around 4,500 years ago, measures 73 meters long and 20 meters tall, making it one of the largest monolithic statues in the world. It shows a creature with a lion's body and a human head, probably bearing the features of the pharaoh Khafre, and faced east toward the rising sun as a guardian figure over the necropolis. Its nose vanished centuries ago; the popular legend blaming Napoleon's troops is false, since drawings made before his arrival already show it missing. Between the paws sits a granite slab, the Dream Stele, telling how a prince promised to clear the sand burying the statue in exchange for reaching the throne.",
+      },
+    },
+  },
+  {
+    id: "al-azhar",
+    order: 14,
+    placeholderEmoji: "🕌",
+    accentColor: "#6E7F5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Una de las universidades más antiguas todavía activa",
+        subtitle: "Al-Azhar",
+        imageAlt: "Caricatura de una mezquita con varios minaretes y un gran patio central.",
+        description:
+          "La mezquita de Al-Azhar, fundada en El Cairo en el año 970, sumó poco después una escuela de enseñanza superior que funciona de forma casi ininterrumpida desde entonces, lo que la convierte en una de las instituciones educativas más antiguas del mundo todavía en actividad. Durante siglos fue el principal centro de estudios de la lengua árabe, el derecho islámico y la teología suní, y atrajo a estudiantes de todo el mundo musulmán que se alojaban en residencias organizadas por región de origen. Hoy Al-Azhar es a la vez una universidad estatal moderna, con facultades de medicina e ingeniería, y la autoridad religiosa suní más influyente, cuyas opiniones doctrinales se siguen en muchos países. Su biblioteca conserva decenas de miles de manuscritos históricos.",
+      },
+      en: {
+        title: "One of the Oldest Universities Still Operating",
+        subtitle: "Al-Azhar",
+        imageAlt: "Cartoon of a mosque with several minarets and a large central courtyard.",
+        description:
+          "The Mosque of al-Azhar, founded in Cairo in 970, soon added a school of higher learning that has operated almost without interruption ever since, making it one of the oldest educational institutions in the world still running. For centuries it was the leading center for the study of the Arabic language, Islamic law, and Sunni theology, drawing students from across the Muslim world who lodged in residences organized by region of origin. Today al-Azhar is both a modern state university, with faculties of medicine and engineering, and the most influential Sunni religious authority, whose doctrinal rulings are followed in many countries. Its library holds tens of thousands of historic manuscripts.",
+      },
+    },
+  },
+  {
+    id: "cleopatra",
+    order: 15,
+    placeholderEmoji: "🐍",
+    accentColor: "#B08D57",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La última faraona no era egipcia, sino griega",
+        subtitle: "Cleopatra VII",
+        imageAlt: "Caricatura de una reina con tocado dorado y una serpiente enroscada.",
+        description:
+          "Cleopatra VII, la última gobernante del Egipto independiente antes de que Roma lo absorbiera en el año 30 a.C., pertenecía a la dinastía ptolemaica, una familia de origen griego-macedonio que reinó sobre Egipto durante casi tres siglos hablando griego en la corte. Según las fuentes antiguas, Cleopatra fue la primera de su linaje en molestarse en aprender egipcio, además de otros varios idiomas. Formada en filosofía, retórica y matemáticas, tejió alianzas políticas y personales con Julio César y luego con Marco Antonio en un intento de preservar la independencia de su reino frente al avance romano. Su derrota final y su suicidio, que la tradición atribuye a la mordedura de un áspid, marcaron el fin de treinta siglos de gobierno faraónico.",
+      },
+      en: {
+        title: "The Last Pharaoh Was Greek, Not Egyptian",
+        subtitle: "Cleopatra VII",
+        imageAlt: "Cartoon of a queen with a golden headdress and a coiled snake.",
+        description:
+          "Cleopatra VII, the last ruler of independent Egypt before Rome absorbed it in 30 BCE, belonged to the Ptolemaic dynasty, a family of Greek-Macedonian origin that reigned over Egypt for nearly three centuries while speaking Greek at court. Ancient sources say Cleopatra was the first of her line to bother learning Egyptian, along with several other languages. Educated in philosophy, rhetoric, and mathematics, she built political and personal alliances with Julius Caesar and later Mark Antony in an effort to preserve her kingdom's independence against Roman expansion. Her final defeat and suicide, which tradition attributes to the bite of an asp, marked the end of thirty centuries of pharaonic rule.",
+      },
+    },
+  },
+  {
+    id: "koshari",
+    order: 16,
+    placeholderEmoji: "🍲",
+    accentColor: "#A8412A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El plato nacional mezcla pasta, arroz y lentejas",
+        subtitle: "El koshari",
+        imageAlt: "Caricatura de un bol con pasta, arroz, lentejas y cebolla frita encima.",
+        description:
+          "El koshari, considerado el plato nacional de Egipto, combina en un solo bol arroz, lentejas, garbanzos y varios tipos de pasta, cubiertos con una salsa de tomate especiada, cebolla crujiente frita y, al gusto, un vinagre de ajo picante. Es una comida totalmente vegetariana, barata y muy saciante, nacida en las ciudades a fines del siglo XIX como resultado del cruce entre ingredientes locales y otros llegados por la migración y el comercio, incluida la pasta de influencia italiana y la mezcla de arroz y lentejas de origen indio. Se vende en puestos callejeros y en locales dedicados solo a este plato, algunos con más de un siglo de historia, y es un pilar de la dieta diaria de millones de egipcios de todas las clases sociales.",
+      },
+      en: {
+        title: "The National Dish Mixes Pasta, Rice, and Lentils",
+        subtitle: "Koshari",
+        imageAlt: "Cartoon of a bowl of pasta, rice, and lentils topped with fried onion.",
+        description:
+          "Koshari, considered Egypt's national dish, combines rice, lentils, chickpeas, and several kinds of pasta in a single bowl, topped with a spiced tomato sauce, crispy fried onions, and, to taste, a sharp garlic vinegar. It is a fully vegetarian meal, cheap and very filling, that emerged in the cities in the late 19th century from a mix of local ingredients and others brought by migration and trade, including Italian-influenced pasta and the rice-and-lentil pairing of Indian origin. It is sold at street stalls and in shops devoted to this dish alone, some more than a century old, and is a staple of the daily diet of millions of Egyptians across every social class.",
+      },
+    },
+  },
+  {
+    id: "umm-kulthum",
+    order: 17,
+    placeholderEmoji: "🎤",
+    accentColor: "#7A5C99",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cantante que paralizaba al mundo árabe los jueves",
+        subtitle: "Umm Kulzum",
+        imageAlt: "Caricatura de una cantante con gafas oscuras y un pañuelo, sosteniendo un micrófono.",
+        description:
+          "Umm Kulzum, nacida en un pueblo del delta del Nilo alrededor de 1898, es considerada la voz más importante de la historia de la música árabe. Durante décadas, sus conciertos mensuales, transmitidos por radio el primer jueves de cada mes, vaciaban las calles de El Cairo y de ciudades de todo Oriente Medio mientras millones de personas se reunían a escuchar. Sus interpretaciones podían durar horas: una sola canción de veinte minutos escrita se estiraba a una hora o más, repitiendo versos con variaciones según la reacción del público. Cuando murió en 1975, se estima que cuatro millones de personas salieron a las calles de El Cairo para su funeral. Su música sigue sonando a diario en cafés y taxis de todo el mundo árabe casi medio siglo después.",
+      },
+      en: {
+        title: "The Singer Who Stopped the Arab World Each Thursday",
+        subtitle: "Umm Kulthum",
+        imageAlt: "Cartoon of a singer in dark glasses holding a scarf and a microphone.",
+        description:
+          "Umm Kulthum, born in a village in the Nile Delta around 1898, is regarded as the single most important voice in the history of Arabic music. For decades her monthly concerts, broadcast by radio on the first Thursday of each month, emptied the streets of Cairo and of cities across the Middle East as millions gathered to listen. Her performances could run for hours: a single twenty-minute song as written might stretch to an hour or more, repeating lines with variations depending on the audience's reaction. When she died in 1975, an estimated four million people filled the streets of Cairo for her funeral. Her music still plays daily in cafés and taxis across the Arab world nearly half a century later.",
+      },
+    },
+  },
+  {
+    id: "iglesia-copta",
+    order: 18,
+    placeholderEmoji: "✝️",
+    accentColor: "#9C7B4A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los cristianos de Egipto y sus monasterios del desierto",
+        subtitle: "La Iglesia copta",
+        imageAlt: "Caricatura de un monasterio amurallado de adobe en pleno desierto.",
+        description:
+          "La Iglesia copta ortodoxa, una de las comunidades cristianas más antiguas del mundo, remonta su fundación al evangelista Marcos en Alejandría en el siglo I y sigue reuniendo hoy a la mayor población cristiana de Oriente Medio, en torno al diez por ciento de los egipcios. Los coptos conservan en su liturgia palabras del idioma egipcio antiguo, el último eslabón vivo de la lengua de los faraones, y usan su propio calendario, que cuenta los años desde el siglo III. En el siglo IV, egipcios como san Antonio y san Pacomio se retiraron al desierto y crearon las primeras comunidades monásticas organizadas de la historia. Varios de esos monasterios, como San Antonio y los del Wadi el-Natrún, siguen habitados y en funcionamiento.",
+      },
+      en: {
+        title: "Egypt's Christians and Their Desert Monasteries",
+        subtitle: "The Coptic Church",
+        imageAlt: "Cartoon of a walled adobe monastery in open desert.",
+        description:
+          "The Coptic Orthodox Church, one of the world's oldest Christian communities, traces its founding to the evangelist Mark in Alexandria in the 1st century and still gathers the largest Christian population in the Middle East, around ten percent of Egyptians. Copts preserve words of the ancient Egyptian language in their liturgy, the last living link to the tongue of the pharaohs, and use their own calendar, which counts years from the 3rd century. In the 4th century, Egyptians such as Saint Anthony and Saint Pachomius withdrew into the desert and created the first organized monastic communities in history. Several of those monasteries, such as Saint Anthony's and those of Wadi el-Natrun, remain inhabited and active.",
+      },
+    },
+  },
+  {
+    id: "pueblos-nubios",
+    order: 19,
+    placeholderEmoji: "🎨",
+    accentColor: "#2E86AB",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las casas pintadas de colores del sur de Egipto",
+        subtitle: "Los pueblos nubios de Asuán",
+        imageAlt: "Caricatura de casas de adobe pintadas de azul y amarillo junto al Nilo.",
+        description:
+          "Los nubios son un pueblo del valle del Nilo con lengua e historia propias, anterior a la unificación de Egipto, cuyo territorio se extendía a ambos lados de la frontera actual con Sudán. La construcción de las presas de Asuán en el siglo XX inundó gran parte de sus tierras y obligó a decenas de miles de personas a reasentarse lejos del río. En los pueblos que quedan cerca de Asuán, como Gharb Soheil, las casas se pintan por fuera con colores vivos y relieves de palmeras, camellos y motivos geométricos, y muchas tienen un cocodrilo disecado sobre la puerta como símbolo de protección. La música nubia, con su tambor y sus coros, influyó en la música pop egipcia, y existe un movimiento cultural que trabaja para mantener viva la lengua nubia.",
+      },
+      en: {
+        title: "The Brightly Painted Houses of Southern Egypt",
+        subtitle: "The Nubian Villages of Aswan",
+        imageAlt: "Cartoon of adobe houses painted blue and yellow beside the Nile.",
+        description:
+          "The Nubians are a Nile Valley people with their own language and history, older than the unification of Egypt, whose homeland stretched across both sides of the modern border with Sudan. The building of the Aswan dams in the 20th century flooded much of their land and forced tens of thousands of people to resettle away from the river. In the villages that remain near Aswan, such as Gharb Soheil, houses are painted on the outside in bright colors with reliefs of palm trees, camels, and geometric patterns, and many keep a stuffed crocodile over the door as a symbol of protection. Nubian music, with its drum and call-and-response singing, shaped Egyptian pop, and a cultural movement works to keep the Nubian language alive.",
+      },
+    },
+  },
+  {
+    id: "sham-el-nessim",
+    order: 20,
+    placeholderEmoji: "🥚",
+    accentColor: "#5B9A5B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La fiesta de primavera más antigua que las pirámides",
+        subtitle: "Sham el-Nessim",
+        imageAlt: "Caricatura de una familia haciendo un picnic con huevos pintados y cebollas.",
+        description:
+          "Sham el-Nessim es una fiesta de primavera que los egipcios celebran desde la época faraónica, cuando marcaba el inicio de la cosecha y se conocía con un nombre que significaba 'renovación de la vida'. Se festeja el lunes siguiente a la Pascua copta, pero es una celebración nacional que comparten egipcios de todas las religiones, lo que la convierte en una de las tradiciones más inclusivas del país. Las familias pasan el día al aire libre, en parques y a orillas del Nilo, con comidas asociadas al rito desde hace milenios: huevos pintados a mano, cebolletas, lechuga y feseej, un pescado salado y fermentado de olor muy fuerte cuya preparación casera provoca cada año advertencias sanitarias. Los huevos decorados de esta fiesta figuran entre los antecedentes más antiguos de esa costumbre.",
+      },
+      en: {
+        title: "The Spring Festival Older Than the Pyramids",
+        subtitle: "Sham el-Nessim",
+        imageAlt: "Cartoon of a family picnicking with painted eggs and onions.",
+        description:
+          "Sham el-Nessim is a spring festival Egyptians have celebrated since pharaonic times, when it marked the start of the harvest and went by a name meaning 'renewal of life.' It falls on the Monday after Coptic Easter, but it is a national holiday shared by Egyptians of every religion, which makes it one of the country's most inclusive traditions. Families spend the day outdoors, in parks and along the Nile, with foods tied to the rite for thousands of years: hand-painted eggs, spring onions, lettuce, and feseekh, a strongly scented salted fermented fish whose home preparation prompts public health warnings every year. The decorated eggs of this festival are among the oldest known ancestors of that custom.",
+      },
+    },
+  },
 ];

@@ -231,4 +231,234 @@ export const ethiopia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "injera-berbere",
+    order: 11,
+    placeholderEmoji: "🫓",
+    accentColor: "#C77B3B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pan esponjoso que también hace de plato y cubierto",
+        subtitle: "La injera y el berbere",
+        imageAlt: "Caricatura de una bandeja redonda con pan plano y montoncitos de guisos de colores encima.",
+        description:
+          "La injera es un pan plano, redondo y esponjoso, con una superficie llena de pequeños agujeros, hecho a partir de una masa de harina de tef, un cereal diminuto originario de Etiopía, que se fermenta durante días antes de cocinarse en una plancha ancha. Se sirve como base de casi todas las comidas: sobre una injera grande y compartida se colocan montoncitos de guisos de carne, legumbres y verduras, muchos condimentados con berbere, una mezcla de especias con chile, jengibre, ajo y hasta una docena de ingredientes más. No se usan cubiertos: cada comensal arranca trozos de injera con la mano derecha y los usa para tomar la comida. Un gesto de hospitalidad muy arraigado es el gursha, dar de comer un bocado directamente en la boca de otra persona.",
+      },
+      en: {
+        title: "The Spongy Bread That Is Also Plate and Cutlery",
+        subtitle: "Injera and Berbere",
+        imageAlt: "Cartoon of a round platter of flatbread topped with mounds of colorful stews.",
+        description:
+          "Injera is a round, spongy flatbread with a surface full of tiny holes, made from a batter of teff flour, a tiny grain native to Ethiopia, that ferments for days before being cooked on a wide griddle. It serves as the base of nearly every meal: mounds of meat, legume, and vegetable stews are spooned onto one large shared injera, many of them seasoned with berbere, a spice blend of chili, ginger, garlic, and up to a dozen more ingredients. No cutlery is used: each diner tears off pieces of injera with the right hand and uses them to scoop up the food. A deeply rooted gesture of hospitality is the gursha, placing a bite of food directly into another person's mouth.",
+      },
+    },
+  },
+  {
+    id: "timkat",
+    order: 12,
+    placeholderEmoji: "⛪",
+    accentColor: "#2E6E9E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La procesión con la que Etiopía celebra la Epifanía",
+        subtitle: "El Timkat",
+        imageAlt: "Caricatura de sacerdotes con túnicas blancas y sombrillas bordadas junto a una piscina de agua.",
+        description:
+          "El Timkat es la fiesta con que la Iglesia ortodoxa etíope celebra la Epifanía, es decir el bautismo de Jesús, y es la celebración religiosa más multitudinaria del país. En la víspera, cada iglesia saca en procesión su tabot, una réplica del Arca de la Alianza que normalmente permanece oculta, envuelta en telas y llevada sobre la cabeza de un sacerdote bajo sombrillas de terciopelo bordado, hasta un cuerpo de agua donde pasa la noche. Al amanecer, el agua se bendice y la multitud, vestida de blanco, se salpica o se sumerge para renovar sus votos bautismales. La procesión de regreso a cada iglesia se hace con cantos, tambores y el ritmo del sistro, un sonajero de metal. La Unesco la reconoce como patrimonio cultural.",
+      },
+      en: {
+        title: "The Procession With Which Ethiopia Marks Epiphany",
+        subtitle: "Timkat",
+        imageAlt: "Cartoon of priests in white robes with embroidered umbrellas beside a pool of water.",
+        description:
+          "Timkat is the festival with which the Ethiopian Orthodox Church celebrates Epiphany, the baptism of Jesus, and it is the country's largest religious celebration. On the eve, each church carries its tabot in procession, a replica of the Ark of the Covenant that normally stays hidden, wrapped in cloth and borne on a priest's head under umbrellas of embroidered velvet, to a body of water where it spends the night. At dawn the water is blessed and the crowd, dressed in white, is sprinkled or immersed to renew their baptismal vows. The return procession to each church moves with chanting, drums, and the rattle of the sistrum, a metal shaker. UNESCO lists it as cultural heritage.",
+      },
+    },
+  },
+  {
+    id: "ceremonia-cafe",
+    order: 13,
+    placeholderEmoji: "☕",
+    accentColor: "#7A4A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ritual de tres rondas para servir un café",
+        subtitle: "La ceremonia etíope del café",
+        imageAlt: "Caricatura de una mujer sirviendo café desde una jarra de barro de cuello largo.",
+        description:
+          "En Etiopía, invitar a alguien a un café rara vez significa una sola taza rápida: la ceremonia tradicional puede durar más de una hora y se repite a diario en casas y comercios. Quien la conduce, casi siempre una mujer, tuesta los granos verdes en el momento sobre brasas, los muele a mano y prepara la infusión en una jebena, una jarra de barro de cuello largo, mientras arde incienso y a veces se reparten palomitas de maíz. El café se sirve en tres rondas sucesivas con nombres propios, y marcharse antes de la tercera se considera de mala educación. Más que una bebida, la ceremonia funciona como espacio de conversación, resolución de conflictos y noticias del vecindario.",
+      },
+      en: {
+        title: "The Three-Round Ritual for Serving a Coffee",
+        subtitle: "The Ethiopian Coffee Ceremony",
+        imageAlt: "Cartoon of a woman pouring coffee from a long-necked clay pot.",
+        description:
+          "In Ethiopia, inviting someone for coffee rarely means a single quick cup: the traditional ceremony can last more than an hour and is repeated daily in homes and shops. The person leading it, almost always a woman, roasts the green beans over coals on the spot, grinds them by hand, and brews the drink in a jebena, a long-necked clay pot, while incense burns and popcorn is sometimes passed around. The coffee is served in three successive rounds, each with its own name, and leaving before the third is considered rude. More than a drink, the ceremony works as a space for conversation, settling disputes, and neighborhood news.",
+      },
+    },
+  },
+  {
+    id: "montanas-simien",
+    order: 14,
+    placeholderEmoji: "🐒",
+    accentColor: "#6E7F5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las montañas con monos de melena y un lobo único",
+        subtitle: "Las montañas Simien",
+        imageAlt: "Caricatura de picos escarpados con una tropa de monos de crin sentados en el pasto.",
+        description:
+          "Las montañas Simien, en el norte de Etiopía, forman un paisaje de acantilados y picos que superan los 4.000 metros, esculpido por millones de años de erosión y a veces llamado 'el ajedrez de los dioses'. El parque nacional que las protege es uno de los mejores lugares del mundo para ver al gelada, un primate que solo vive en el altiplano etíope, come pasto casi en exclusiva y forma tropas de cientos de individuos con una llamativa mancha de piel roja en el pecho. En estas alturas también sobreviven el íbice walia, una cabra montés que no existe en ningún otro lugar, y el lobo etíope, el cánido más raro del planeta, con apenas unos cientos de ejemplares repartidos en pocos macizos aislados.",
+      },
+      en: {
+        title: "The Mountains of Maned Monkeys and a Unique Wolf",
+        subtitle: "The Simien Mountains",
+        imageAlt: "Cartoon of jagged peaks with a troop of maned monkeys sitting on the grass.",
+        description:
+          "The Simien Mountains in northern Ethiopia form a landscape of cliffs and peaks above 4,000 meters, carved by millions of years of erosion and sometimes called 'the chess pieces of the gods.' The national park that protects them is one of the best places in the world to see the gelada, a primate found only on the Ethiopian highlands, which eats almost nothing but grass and forms troops of hundreds with a striking patch of red skin on the chest. These heights are also home to the walia ibex, a wild goat that lives nowhere else, and the Ethiopian wolf, the rarest canid on Earth, with only a few hundred individuals spread across a handful of isolated massifs.",
+      },
+    },
+  },
+  {
+    id: "depresion-danakil",
+    order: 15,
+    placeholderEmoji: "🌋",
+    accentColor: "#C9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El lugar habitado más caluroso de la Tierra",
+        subtitle: "La depresión de Danakil",
+        imageAlt: "Caricatura de llanuras de sal amarillas y azufradas con una caravana de camellos.",
+        description:
+          "La depresión de Danakil, en el noreste de Etiopía, se hunde más de 100 metros bajo el nivel del mar y registra una de las temperaturas medias anuales más altas de cualquier lugar habitado del planeta, con máximas que rondan los 50 grados. Es un paisaje de lagos de lava permanente en el volcán Erta Ale, campos de azufre de colores y extensas llanuras de sal. Desde hace siglos, caravanas del pueblo afar cortan bloques de sal de esas llanuras a mano, los cargan en camellos y los transportan durante días hasta los mercados del altiplano, donde la sal funcionó durante mucho tiempo como moneda. Los geólogos estudian la zona como un punto donde un océano nuevo empieza lentamente a abrirse.",
+      },
+      en: {
+        title: "The Hottest Inhabited Place on Earth",
+        subtitle: "The Danakil Depression",
+        imageAlt: "Cartoon of yellow sulfurous salt flats with a caravan of camels.",
+        description:
+          "The Danakil Depression in northeastern Ethiopia sinks more than 100 meters below sea level and records one of the highest year-round average temperatures of any inhabited place on Earth, with highs around 50 degrees Celsius. It is a landscape of permanent lava lakes in the Erta Ale volcano, colorful sulfur fields, and vast salt flats. For centuries, caravans of the Afar people have cut blocks of salt from those flats by hand, loaded them onto camels, and hauled them for days to the highland markets, where salt long served as currency. Geologists study the area as a place where a new ocean is slowly beginning to open.",
+      },
+    },
+  },
+  {
+    id: "meskel",
+    order: 16,
+    placeholderEmoji: "🔥",
+    accentColor: "#B5451F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La hoguera con la que se celebra hallar la Cruz",
+        subtitle: "El Meskel",
+        imageAlt: "Caricatura de una gran pila de leña en forma de cono ardiendo, rodeada de gente.",
+        description:
+          "El Meskel conmemora, según la tradición ortodoxa etíope, el hallazgo de la cruz en la que fue crucificado Jesús por parte de la emperatriz Elena en el siglo IV. La celebración, que cae a fines de septiembre, coincide con el final de la temporada de lluvias, cuando el altiplano se cubre de una flor amarilla que la gente llama justamente 'flor de Meskel'. La víspera, en cada pueblo y ciudad se levanta una gran pira cónica de ramas decorada con esas flores, el demera, que se enciende al caer la noche entre cantos, procesiones y tambores. La forma en que caen las cenizas se lee como presagio para el año. En Adís Abeba, la hoguera de la plaza Meskel reúne a decenas de miles de personas.",
+      },
+      en: {
+        title: "The Bonfire That Celebrates Finding the Cross",
+        subtitle: "Meskel",
+        imageAlt: "Cartoon of a large cone-shaped woodpile burning, surrounded by people.",
+        description:
+          "Meskel commemorates, in Ethiopian Orthodox tradition, the finding of the cross on which Jesus was crucified by the empress Helena in the 4th century. The celebration, which falls in late September, coincides with the end of the rainy season, when the highlands fill with a yellow flower people call the 'Meskel flower.' On the eve, every town and city builds a large conical pyre of branches decorated with those flowers, the demera, lit at nightfall amid singing, processions, and drums. The way the ashes fall is read as an omen for the year. In Addis Ababa, the bonfire in Meskel Square draws tens of thousands of people.",
+      },
+    },
+  },
+  {
+    id: "ethio-jazz",
+    order: 17,
+    placeholderEmoji: "🎷",
+    accentColor: "#4A3B6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El jazz de escalas de cinco notas de Adís Abeba",
+        subtitle: "El ethio-jazz",
+        imageAlt: "Caricatura de un músico tocando un vibráfono junto a un violín de una sola cuerda.",
+        description:
+          "El ethio-jazz nació a fines de los años sesenta, cuando el músico Mulatu Astatke combinó las escalas pentatónicas tradicionales etíopes, llamadas qenet, con el jazz, el funk y el latin que había estudiado en Londres y Nueva York. El resultado, con su sonido a la vez melancólico e hipnótico, floreció en los clubes nocturnos de Adís Abeba durante una década conocida como la 'edad de oro' de la música etíope. Muchas de esas grabaciones cayeron en el olvido durante los años de gobierno militar, hasta que la serie de discos 'Éthiopiques', publicada desde 1997, las puso frente a un público internacional. Su influencia se escucha hoy en bandas sonoras de cine y en artistas de hip hop que samplean aquellos temas.",
+      },
+      en: {
+        title: "The Five-Note-Scale Jazz Born in Addis Ababa",
+        subtitle: "Ethio-Jazz",
+        imageAlt: "Cartoon of a musician playing a vibraphone next to a single-string fiddle.",
+        description:
+          "Ethio-jazz was born in the late 1960s, when the musician Mulatu Astatke combined traditional Ethiopian pentatonic scales, called qenet, with the jazz, funk, and Latin music he had studied in London and New York. The result, at once melancholy and hypnotic, flourished in the nightclubs of Addis Ababa during a decade known as the 'golden age' of Ethiopian music. Many of those recordings were forgotten during the years of military rule, until the 'Éthiopiques' album series, released from 1997 on, put them in front of an international audience. Its influence is heard today in film scores and in hip hop artists who sample those tracks.",
+      },
+    },
+  },
+  {
+    id: "terrazas-konso",
+    order: 18,
+    placeholderEmoji: "🪨",
+    accentColor: "#8A7250",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los pueblos amurallados en terrazas de piedra del sur",
+        subtitle: "Los paisajes de Konso",
+        imageAlt: "Caricatura de laderas con muros de piedra en terrazas y una aldea cercada por murallas.",
+        description:
+          "El pueblo konso, en el sur de Etiopía, construyó durante más de cuatro siglos un paisaje agrícola que hoy es patrimonio de la humanidad: laderas enteras sostenidas por kilómetros de muros de piedra apilada en seco, que frenan la erosión y retienen el agua en una zona seca y montañosa. Sus aldeas están rodeadas por varias murallas concéntricas y se organizan en torno a plazas comunitarias con casas donde se alojan los jóvenes solteros y donde se toman las decisiones colectivas. En esas plazas se plantan troncos de generación para llevar la cuenta del tiempo. Cuando muere una persona destacada, se talla un waka, un poste de madera con rasgos humanos que representa al difunto junto a sus rivales y sus esposas.",
+      },
+      en: {
+        title: "The Southern Walled Villages on Stone Terraces",
+        subtitle: "The Konso Landscapes",
+        imageAlt: "Cartoon of hillsides with terraced stone walls and a village ringed by walls.",
+        description:
+          "The Konso people of southern Ethiopia spent more than four centuries building an agricultural landscape that is now a World Heritage Site: entire hillsides held up by kilometers of dry-stacked stone walls that curb erosion and hold water in a dry, mountainous area. Their villages are ringed by several concentric walls and organized around communal squares with houses where unmarried young men sleep and where collective decisions are made. Generation poles are planted in those squares to keep track of time. When a prominent person dies, a waka is carved, a wooden post with human features representing the deceased alongside their rivals and wives.",
+      },
+    },
+  },
+  {
+    id: "enset-falso-banano",
+    order: 19,
+    placeholderEmoji: "🌿",
+    accentColor: "#3F8F5A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El 'falso banano' que alimenta a millones sin dar fruta",
+        subtitle: "El enset",
+        imageAlt: "Caricatura de una planta parecida al banano con hojas anchas y alguien raspando el tallo.",
+        description:
+          "El enset, a veces llamado 'falso banano' por su parecido con esa planta, es el alimento básico de unos veinte millones de personas en el sur y el suroeste de Etiopía, aunque su fruto no se come. Lo que se aprovecha es el tallo y la base subterránea: se raspan, se trituran y se dejan fermentar enterrados durante semanas o meses hasta obtener una masa que se cocina como un pan plano llamado kocho. Una sola planta puede tardar varios años en madurar, pero resiste sequías que arruinarían otros cultivos y puede cosecharse en cualquier época del año, lo que la convierte en un seguro contra el hambre. Los investigadores agrícolas la estudian hoy como cultivo prometedor frente al cambio climático.",
+      },
+      en: {
+        title: "The 'False Banana' That Feeds Millions With No Fruit",
+        subtitle: "Enset",
+        imageAlt: "Cartoon of a banana-like plant with broad leaves and someone scraping the stem.",
+        description:
+          "Enset, sometimes called 'false banana' for its resemblance to that plant, is the staple food of some twenty million people in southern and southwestern Ethiopia, even though its fruit is not eaten. What is used is the stem and the underground base: they are scraped, pulped, and left to ferment buried for weeks or months into a dough that is cooked as a flatbread called kocho. A single plant can take several years to mature, but it withstands droughts that would ruin other crops and can be harvested at any time of year, which makes it an insurance against hunger. Agricultural researchers now study it as a promising crop for a warming climate.",
+      },
+    },
+  },
+  {
+    id: "vestimenta-habesha",
+    order: 20,
+    placeholderEmoji: "👗",
+    accentColor: "#B08D57",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El vestido blanco de algodón con bordes de colores",
+        subtitle: "La vestimenta habesha",
+        imageAlt: "Caricatura de una persona con una túnica blanca de algodón con una cenefa bordada de colores.",
+        description:
+          "La ropa tradicional del altiplano etíope y eritreo se teje a mano en algodón blanco. Las mujeres usan el habesha kemis, un vestido largo y suelto, y tanto ellas como los hombres se cubren con la netela o el gabi, mantos finos de la misma tela que se doblan y colocan de distintas maneras según la ocasión, la iglesia o el luto. El detalle que distingue cada prenda es el tibeb, una cenefa de hilos de colores tejida en los bordes y el pecho, cuyos motivos geométricos identifican regiones y talleres. Es la vestimenta que se lleva en bodas, en las grandes fiestas religiosas y en la ceremonia del café, y muchas familias visten de blanco de pies a cabeza para asistir a misa.",
+      },
+      en: {
+        title: "The White Cotton Dress With Colorful Borders",
+        subtitle: "Habesha Dress",
+        imageAlt: "Cartoon of a person in a white cotton robe with a colorful embroidered border.",
+        description:
+          "The traditional clothing of the Ethiopian and Eritrean highlands is hand-woven from white cotton. Women wear the habesha kemis, a long loose dress, and both women and men drape themselves in the netela or the gabi, thin shawls of the same cloth that are folded and worn in different ways depending on the occasion, church, or mourning. The detail that sets each garment apart is the tibeb, a border of colored threads woven along the edges and chest, whose geometric patterns identify regions and workshops. It is the dress worn at weddings, at the major religious festivals, and at the coffee ceremony, and many families wear white from head to toe to attend mass.",
+      },
+    },
+  },
 ];

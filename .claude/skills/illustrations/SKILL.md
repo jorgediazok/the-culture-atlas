@@ -1041,6 +1041,42 @@ expanded). **This completes Asia's entire 20/15/12 tiered expansion** —
 every country/territory on the continent is now at its assigned tier.
 Committed and pushed same session per explicit user request.
 
+**Africa — 20-tier batch complete (2026-08-29), completing Africa's entire
+tiered expansion.** Africa's 12-tier (24 countries, commit `bc9bc8c`) and
+15-tier (22 countries plus DR Congo corrected to 20, commit `074ad9c`)
+batches were already done; the 7 remaining countries at 10 entries —
+Egypt, Ethiopia, Kenya, Morocco, Nigeria, South Africa, and Somalia (the
+last confirmed as 20-tier rather than 15/12 after asking the user
+explicitly, given its size and historical depth despite the deliberately
+restricted post-1991 content) — were expanded from 10 to 20 entries each,
+done one country at a time directly in the main session, no background
+agents (per the standing instruction). New entries were picked to avoid
+duplicating existing topics (read all 10 existing first) and to steer
+clear of sensitive recent politics per the project's standing policy:
+Ethiopia and Somalia's new entries stayed off the Tigray conflict and the
+civil war/piracy/Al-Shabaab era respectively (consistent with those
+countries' original 10 entries), Kenya and Nigeria's new entries avoided
+partisan post-election framing, Egypt's stayed off Sinai security and
+recent politics, Morocco's stayed off the Western Sahara dispute, and
+South Africa's covered the Truth and Reconciliation Commission and
+apartheid-era history factually without partisan framing, the same
+treatment already used for Mandela's original entry. Nigeria and Somalia
+both use that file's pre-existing convention of full-slugified-title ids
+(e.g. `el-escritor-cuya-novela-abrio-la-literatura-africana`) rather than
+short slugs, matched for consistency with each file's existing entries.
+All illustrations followed the bold-style/no-trig/joint-overlap rules
+from the top of this file. All 7 countries passed `tsc --noEmit`,
+`eslint` (zero errors; a couple of incidental unused-`dark`-variable
+warnings from illustrations that ended up not needing the shaded color
+were fixed immediately), the id-matching audit (20/20 for every country),
+a title/description length audit (≤55/≤1000, every description under
+950 chars), and a final full `rm -rf .next && npm run build` (420 static
+paths, unchanged since these are all existing countries being expanded,
+not new registrations). **This completes Africa's entire 20/15/12 tiered
+expansion** — every country/territory on the continent is now at its
+assigned tier. Not yet committed as of the end of this batch — awaiting
+explicit user request to commit.
+
 **Cost-management pattern established 2026-08-23:** for this multi-country,
 multi-session expansion task, the user asked to start a fresh chat between
 country batches instead of continuing one ever-growing conversation, since

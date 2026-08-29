@@ -166,6 +166,250 @@ const FaroAlejandria: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const KarnakLuxor: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.4);
+  const cols = [
+    { x: 110, y: 120, h: 120 },
+    { x: 155, y: 105, h: 135 },
+    { x: 205, y: 95, h: 145 },
+    { x: 255, y: 105, h: 135 },
+    { x: 300, y: 120, h: 120 },
+  ];
+  return (
+    <g>
+      <path d="M90 240 L320 240 L320 250 L90 250 Z" fill={dark} opacity="0.5" />
+      {cols.map((c) => (
+        <g key={c.x}>
+          <rect x={c.x - 15} y={c.y} width="30" height={c.h} fill={accentColor} stroke={dark} strokeWidth="3" />
+          <path d={`M${c.x - 20} ${c.y} Q${c.x} ${c.y - 16} ${c.x + 20} ${c.y} Z`} fill={light} stroke={dark} strokeWidth="2.5" />
+          <rect x={c.x - 22} y={c.y - 8} width="44" height="8" fill={dark} />
+          {[0.3, 0.55, 0.8].map((f) => (
+            <line key={f} x1={c.x - 10} y1={c.y + c.h * f} x2={c.x + 10} y2={c.y + c.h * f} stroke={dark} strokeWidth="1.5" opacity="0.5" />
+          ))}
+        </g>
+      ))}
+      <rect x="88" y="90" width="244" height="9" fill={dark} opacity="0.55" />
+    </g>
+  );
+};
+
+const Hatshepsut: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const cliff = "#9C5B3B";
+  const stone = tint(accentColor, 0.5);
+  return (
+    <g>
+      <path d="M90 235 L90 90 Q150 60 210 78 Q280 60 320 95 L320 235 Z" fill={cliff} opacity="0.55" />
+      {[
+        { y: 200, w: 210, x: 100 },
+        { y: 165, w: 165, x: 120 },
+        { y: 130, w: 120, x: 145 },
+      ].map((t) => (
+        <g key={t.y}>
+          <rect x={t.x} y={t.y} width={t.w} height="35" fill={stone} stroke={dark} strokeWidth="2.5" />
+          {Array.from({ length: Math.floor(t.w / 22) }).map((_, i) => (
+            <rect key={i} x={t.x + 8 + i * 22} y={t.y + 6} width="7" height="23" fill={dark} opacity="0.55" />
+          ))}
+        </g>
+      ))}
+      <rect x="188" y="200" width="34" height="35" fill={dark} />
+      <path d="M150 130 L260 130" stroke={dark} strokeWidth="3" />
+    </g>
+  );
+};
+
+const GranEsfinge: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const stone = tint(accentColor, 0.35);
+  const nemes = "#3556A0";
+  return (
+    <g>
+      <path d="M90 240 L320 240 L320 250 L90 250 Z" fill={dark} opacity="0.4" />
+      {/* lion body, drawn first */}
+      <path d="M120 235 Q120 175 175 170 L285 175 Q300 178 300 200 L300 235 Z" fill={stone} stroke={dark} strokeWidth="3" />
+      <path d="M275 235 L275 200 M235 235 L235 205 M150 235 L150 200" stroke={dark} strokeWidth="2.5" opacity="0.55" />
+      <path d="M290 178 Q305 165 300 150" fill="none" stroke={dark} strokeWidth="3" />
+      {/* head sits on the front of the body */}
+      <path d="M120 175 Q108 130 140 112 L178 112 Q196 140 188 178 Z" fill={nemes} stroke={shade(nemes, 0.3)} strokeWidth="3" />
+      <ellipse cx="150" cy="150" rx="24" ry="26" fill={stone} stroke={dark} strokeWidth="2.5" />
+      <path d="M138 150 l6 5 -7 4" fill="none" stroke={dark} strokeWidth="2" />
+      <path d="M132 138 q6 -5 13 -1 M158 138 q5 -4 11 0" fill="none" stroke={dark} strokeWidth="2" />
+      <path d="M140 168 q10 6 20 0" fill="none" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const AlAzhar: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const stone = tint(accentColor, 0.45);
+  const gold = "#C9A24B";
+  return (
+    <g>
+      <rect x="110" y="150" width="200" height="90" fill={stone} stroke={dark} strokeWidth="3" />
+      <path d="M110 150 Q210 120 310 150" fill={stone} stroke={dark} strokeWidth="3" />
+      {[150, 270].map((x) => (
+        <g key={x}>
+          <rect x={x - 12} y="90" width="24" height="150" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+          <path d={`M${x - 15} 90 Q${x} 68 ${x + 15} 90 Z`} fill={gold} stroke={dark} strokeWidth="2" />
+          <line x1={x} y1="68" x2={x} y2="56" stroke={dark} strokeWidth="2" />
+          <circle cx={x} cy="53" r="4" fill={gold} />
+          <line x1={x - 12} y1="140" x2={x + 12} y2="140" stroke={dark} strokeWidth="2" opacity="0.5" />
+        </g>
+      ))}
+      <path d="M195 240 L195 185 Q210 168 225 185 L225 240 Z" fill={dark} />
+      <path d="M188 165 Q210 135 232 165 Q222 150 210 148 Q198 150 188 165 Z" fill={gold} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const Cleopatra: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C89263";
+  const gold = "#D4AF37";
+  const robe = tint(accentColor, 0.3);
+  return (
+    <g>
+      <path d="M165 240 L172 165 Q210 148 248 165 L255 240 Z" fill={robe} stroke={dark} strokeWidth="3" />
+      <rect x="196" y="140" width="28" height="30" fill={skin} />
+      <ellipse cx="210" cy="120" rx="26" ry="28" fill={skin} stroke={shade(skin, 0.3)} strokeWidth="2" />
+      {/* straight black wig */}
+      <path d="M182 118 Q182 82 210 78 Q238 82 238 118 L238 150 L226 150 L226 112 L194 112 L194 150 L182 150 Z" fill="#20232B" />
+      <path d="M182 96 L238 96 L238 108 L182 108 Z" fill={gold} />
+      {/* uraeus cobra rising from the brow */}
+      <path d="M210 88 Q206 72 214 64 Q222 60 218 74 Q216 82 210 88 Z" fill={gold} stroke={dark} strokeWidth="1.5" />
+      <path d="M198 124 q6 4 12 0 M222 124 q-6 4 -12 0" fill="none" stroke={dark} strokeWidth="1.6" />
+      <path d="M204 134 q6 4 12 0" fill="none" stroke={dark} strokeWidth="2" />
+      <path d="M188 172 Q210 182 232 172" fill="none" stroke={gold} strokeWidth="4" />
+    </g>
+  );
+};
+
+const Koshari: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const bowl = tint(accentColor, 0.4);
+  const rice = "#EFE3C8";
+  const lentil = "#7A5230";
+  const sauce = "#B5341F";
+  const onion = "#C98A3C";
+  return (
+    <g>
+      <path d="M120 165 Q120 240 210 240 Q300 240 300 165 Z" fill={bowl} stroke={dark} strokeWidth="3" />
+      <ellipse cx="210" cy="165" rx="90" ry="20" fill={rice} stroke={dark} strokeWidth="2.5" />
+      <path d="M128 172 Q160 200 210 200 Q260 200 292 172 Q292 150 210 150 Q128 150 128 172 Z" fill={lentil} opacity="0.85" />
+      <path d="M150 168 Q210 190 270 168 Q250 158 210 158 Q170 158 150 168 Z" fill={sauce} />
+      {[180, 205, 230, 195, 220].map((x, i) => (
+        <path key={i} d={`M${x} ${150 - (i % 2) * 6} q6 -8 12 0`} fill="none" stroke={onion} strokeWidth="3" />
+      ))}
+      <path d="M300 150 L330 100" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+      <ellipse cx="330" cy="96" rx="10" ry="14" fill={bowl} stroke={dark} strokeWidth="2.5" />
+    </g>
+  );
+};
+
+const UmmKulthum: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C89263";
+  const dress = tint(accentColor, 0.3);
+  const scarf = "#E8E2D0";
+  return (
+    <g>
+      <path d="M150 240 L160 160 Q210 138 260 160 L270 240 Z" fill={dress} stroke={dark} strokeWidth="3" />
+      {/* scarf in raised hands */}
+      <path d="M150 175 Q160 120 210 150 Q260 120 270 175" fill="none" stroke={scarf} strokeWidth="8" strokeLinecap="round" />
+      <path d="M158 170 Q150 150 150 135 M262 170 Q270 150 270 135" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <rect x="200" y="140" width="20" height="24" fill={skin} />
+      <ellipse cx="210" cy="122" rx="24" ry="26" fill={skin} stroke={shade(skin, 0.3)} strokeWidth="2" />
+      <path d="M186 118 Q186 86 210 84 Q234 86 234 118 L234 132 Q210 122 186 132 Z" fill="#2A2A2E" />
+      {/* dark glasses */}
+      <rect x="190" y="114" width="17" height="11" rx="3" fill="#1B1B1F" />
+      <rect x="213" y="114" width="17" height="11" rx="3" fill="#1B1B1F" />
+      <line x1="207" y1="118" x2="213" y2="118" stroke="#1B1B1F" strokeWidth="2.5" />
+      {/* microphone */}
+      <line x1="210" y1="188" x2="210" y2="240" stroke={dark} strokeWidth="4" />
+      <circle cx="210" cy="180" r="10" fill={dark} />
+    </g>
+  );
+};
+
+const IglesiaCopta: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wall = tint(accentColor, 0.4);
+  const dome = shade(accentColor, 0.15);
+  return (
+    <g>
+      <path d="M90 240 L320 240 L320 250 L90 250 Z" fill={dark} opacity="0.35" />
+      <rect x="110" y="170" width="200" height="70" fill={wall} stroke={dark} strokeWidth="3" />
+      <rect x="150" y="120" width="110" height="60" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M150 120 Q205 78 260 120 Z" fill={dome} stroke={dark} strokeWidth="3" />
+      <line x1="205" y1="78" x2="205" y2="58" stroke={dark} strokeWidth="3" />
+      <line x1="196" y1="66" x2="214" y2="66" stroke={dark} strokeWidth="3" />
+      <path d="M192 240 L192 200 Q205 184 218 200 L218 240 Z" fill={dark} />
+      {[130, 290].map((x) => (
+        <rect key={x} x={x - 10} y="150" width="20" height="90" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      ))}
+      <path d="M120 200 h16 M284 200 h16" stroke={dark} strokeWidth="2" opacity="0.5" />
+    </g>
+  );
+};
+
+const PueblosNubios: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#1D6FA5";
+  const houses = ["#2E86AB", "#E4B02A", "#D96B3C", "#3F9E6E"];
+  return (
+    <g>
+      <path d="M90 232 Q205 222 320 232 L320 250 L90 250 Z" fill={water} />
+      {houses.map((c, i) => {
+        const x = 108 + i * 52;
+        return (
+          <g key={i}>
+            <rect x={x} y="150" width="42" height="82" fill={c} stroke={dark} strokeWidth="2.5" />
+            <path d={`M${x} 150 Q${x + 21} 128 ${x + 42} 150 Z`} fill={shade(c, 0.2)} stroke={dark} strokeWidth="2.5" />
+            <rect x={x + 14} y="196" width="14" height="36" fill={dark} opacity="0.7" />
+            <rect x={x + 6} y="164" width="9" height="9" fill={tint(c, 0.5)} />
+            <rect x={x + 27} y="164" width="9" height="9" fill={tint(c, 0.5)} />
+          </g>
+        );
+      })}
+      <line x1="300" y1="232" x2="300" y2="150" stroke={shade("#3F9E6E", 0.3)} strokeWidth="4" />
+      {[-1, 0, 1].map((d) => (
+        <path key={d} d={`M300 150 q${d * 22} -6 ${d * 30} -20`} fill="none" stroke="#3F9E6E" strokeWidth="4" />
+      ))}
+    </g>
+  );
+};
+
+const ShamElNessim: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const blanket = tint(accentColor, 0.35);
+  const basket = "#A9762F";
+  const eggs = ["#E4574C", "#3F86C4", "#E8B93C", "#5BA35B"];
+  return (
+    <g>
+      <path d="M95 235 L320 200 L320 245 L95 250 Z" fill={blanket} stroke={dark} strokeWidth="2.5" />
+      {[130, 165, 200, 235].map((x, i) => (
+        <line key={x} x1={x} y1={240 - i * 4} x2={x + 4} y2={202 - i * 4} stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      ))}
+      {/* basket */}
+      <path d="M110 215 Q118 245 150 245 Q182 245 190 213 Z" fill={basket} stroke={shade(basket, 0.3)} strokeWidth="2.5" />
+      <path d="M110 213 Q150 195 190 211" fill="none" stroke={shade(basket, 0.3)} strokeWidth="4" />
+      <path d="M118 210 Q150 172 182 208" fill="none" stroke={shade(basket, 0.3)} strokeWidth="3" />
+      {/* painted eggs */}
+      {eggs.map((c, i) => (
+        <ellipse key={i} cx={215 + i * 26} cy={218 - (i % 2) * 6} rx="11" ry="14" fill={c} stroke={shade(c, 0.3)} strokeWidth="2" />
+      ))}
+      {/* spring onions */}
+      {[250, 262, 274].map((x, i) => (
+        <g key={x}>
+          <line x1={x} y1="245" x2={x + i * 3} y2="205" stroke="#4A8F4E" strokeWidth="4" />
+          <circle cx={x} cy="247" r="5" fill="#EDEDE0" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const egyptIllustrations: Record<string, IllustrationDefinition> = {
   "piramides-giza": { component: PiramidesGiza },
   "piedra-rosetta": { component: PiedraRosetta },
@@ -177,4 +421,14 @@ export const egyptIllustrations: Record<string, IllustrationDefinition> = {
   tutankamon: { component: Tutankamon },
   "canal-suez": { component: CanalSuez },
   "faro-alejandria": { component: FaroAlejandria },
+  "karnak-luxor": { component: KarnakLuxor },
+  hatshepsut: { component: Hatshepsut },
+  "gran-esfinge": { component: GranEsfinge },
+  "al-azhar": { component: AlAzhar },
+  cleopatra: { component: Cleopatra },
+  koshari: { component: Koshari },
+  "umm-kulthum": { component: UmmKulthum },
+  "iglesia-copta": { component: IglesiaCopta },
+  "pueblos-nubios": { component: PueblosNubios },
+  "sham-el-nessim": { component: ShamElNessim },
 };

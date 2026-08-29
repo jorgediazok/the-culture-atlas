@@ -231,4 +231,234 @@ export const morocco: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "jemaa-el-fnaa",
+    order: 11,
+    placeholderEmoji: "🔥",
+    accentColor: "#C25A2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La plaza donde los cuentacuentos siguen trabajando",
+        subtitle: "La plaza Yamaa el Fna",
+        imageAlt: "Caricatura de una plaza llena de puestos de comida con humo, músicos y un círculo de gente escuchando.",
+        description:
+          "La plaza Yamaa el Fna, en el corazón de Marrakech, funciona desde hace casi mil años como el gran escenario abierto de la ciudad. De día se llena de vendedores de zumo de naranja, encantadores de serpientes y aguadores con trajes de colores; al caer la noche se cubre de decenas de puestos de comida con sus columnas de humo, y se forman corros alrededor de músicos gnawa, acróbatas, curanderos y, sobre todo, halaiquís, los narradores orales que recitan de memoria cuentos, poemas y epopeyas. Como esa tradición de narración estaba desapareciendo, la Unesco creó en 2001, inspirándose en esta plaza, la categoría de Patrimonio Oral e Inmaterial de la Humanidad.",
+      },
+      en: {
+        title: "The Square Where Storytellers Still Have a Job",
+        subtitle: "Jemaa el-Fnaa",
+        imageAlt: "Cartoon of a square full of smoking food stalls, musicians, and a circle of people listening.",
+        description:
+          "Jemaa el-Fnaa, in the heart of Marrakech, has worked for nearly a thousand years as the city's great open-air stage. By day it fills with orange-juice sellers, snake charmers, and water carriers in bright costumes; at nightfall it is covered by dozens of food stalls with their columns of smoke, and circles form around Gnawa musicians, acrobats, healers, and above all the halaiqi, the oral storytellers who recite tales, poems, and epics from memory. Because that storytelling tradition was fading, UNESCO created its category of Oral and Intangible Heritage of Humanity in 2001, inspired by this square.",
+      },
+    },
+  },
+  {
+    id: "cuscus",
+    order: 12,
+    placeholderEmoji: "🍲",
+    accentColor: "#C99A45",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los granos de sémola que se cuecen solo al vapor",
+        subtitle: "El cuscús",
+        imageAlt: "Caricatura de una olla de dos pisos con sémola arriba y un guiso de verduras abajo.",
+        description:
+          "El cuscús es sémola de trigo duro humedecida y frotada a mano hasta formar granos diminutos, que luego se cuecen únicamente al vapor, sin hervir, en una olla de dos pisos llamada cuscusera: abajo se guisa la carne con verduras y garbanzos, y el vapor que sube cuece la sémola y la perfuma. En Marruecos es sobre todo el plato del viernes, que se prepara para la comida familiar tras la oración del mediodía y a menudo se comparte con vecinos o se reparte a quien lo necesita. Cada región y cada familia tiene su versión. En 2020, la Unesco inscribió los saberes del cuscús como patrimonio inmaterial compartido por Marruecos, Argelia, Túnez y Mauritania.",
+      },
+      en: {
+        title: "The Semolina Grains Cooked by Steam Alone",
+        subtitle: "Couscous",
+        imageAlt: "Cartoon of a two-tier pot with semolina on top and a vegetable stew below.",
+        description:
+          "Couscous is durum wheat semolina moistened and rolled by hand into tiny grains, then cooked only by steam, never boiled, in a two-tier pot called a couscoussier: the meat stews with vegetables and chickpeas below, and the rising steam cooks and scents the semolina above. In Morocco it is above all the Friday dish, made for the family meal after midday prayer and often shared with neighbors or handed out to those in need. Every region and family has its own version. In 2020, UNESCO listed the knowledge of couscous as intangible heritage shared by Morocco, Algeria, Tunisia, and Mauritania.",
+      },
+    },
+  },
+  {
+    id: "curtiembres-fez",
+    order: 13,
+    placeholderEmoji: "🎨",
+    accentColor: "#A96B2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las tinas de colores donde se curte el cuero a mano",
+        subtitle: "Las curtiembres de Fez",
+        imageAlt: "Caricatura vista desde arriba de decenas de tinas redondas de piedra llenas de tintes de colores.",
+        description:
+          "Las curtiembres de Chuara, en la medina de Fez, funcionan casi igual que hace ochocientos años. Vistas desde las terrazas de las tiendas de cuero que las rodean, parecen un panal de decenas de cubas de piedra: en unas se ablandan las pieles crudas en una mezcla de cal, agua y excrementos de paloma, cuyo amoníaco actúa como curtiente; en otras se tiñen sumergiéndolas en baños de colores hechos con amapola para el rojo, azafrán para el amarillo, menta para el verde y añil para el azul. Los curtidores trabajan de pie dentro de las cubas. El olor es tan fuerte que a los visitantes se les ofrece una ramita de menta para acercarse a mirar.",
+      },
+      en: {
+        title: "The Colored Vats Where Leather Is Tanned by Hand",
+        subtitle: "The Fez Tanneries",
+        imageAlt: "Cartoon seen from above of dozens of round stone vats filled with colored dyes.",
+        description:
+          "The Chouara tanneries, in the Fez medina, work almost as they did eight hundred years ago. Seen from the terraces of the leather shops around them, they look like a honeycomb of dozens of stone vats: in some, raw hides are softened in a mix of lime, water, and pigeon droppings, whose ammonia acts as a tanning agent; in others they are dyed by soaking in colored baths made with poppy for red, saffron for yellow, mint for green, and indigo for blue. The tanners work standing inside the vats. The smell is so strong that visitors are handed a sprig of mint to hold near their nose while they look.",
+      },
+    },
+  },
+  {
+    id: "zellige",
+    order: 14,
+    placeholderEmoji: "🟦",
+    accentColor: "#2E7C8F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El mosaico de estrellas hecho astilla por astilla",
+        subtitle: "El zellige",
+        imageAlt: "Caricatura de una pared cubierta de mosaico geométrico de estrellas de colores.",
+        description:
+          "El zellige es el mosaico de cerámica esmaltada que cubre paredes, fuentes y suelos en la arquitectura marroquí desde el siglo X. Cada pieza, llamada furmah, se corta a mano con un martillo de filo a partir de una baldosa esmaltada, siguiendo unas cuarenta formas básicas que luego se ensamblan boca abajo, como un rompecabezas, para formar estrellas de ocho, doce o dieciséis puntas y tramas geométricas que pueden repetirse sin fin. El oficio se transmite de maestro a aprendiz durante años y su centro histórico es Fez, cuya arcilla gris se considera la mejor para este trabajo. La misma lógica geométrica reaparece tallada en yeso y en madera de cedro.",
+      },
+      en: {
+        title: "The Star Mosaic Built Chip by Chip",
+        subtitle: "Zellige",
+        imageAlt: "Cartoon of a wall covered in a geometric mosaic of colored stars.",
+        description:
+          "Zellige is the glazed ceramic mosaic that has covered walls, fountains, and floors in Moroccan architecture since the 10th century. Each piece, called a furmah, is cut by hand with a sharp-edged hammer from a glazed tile, following about forty basic shapes that are then assembled face down, like a puzzle, into stars of eight, twelve, or sixteen points and geometric patterns that can repeat endlessly. The craft passes from master to apprentice over years, and its historic center is Fez, whose gray clay is considered the best for the work. The same geometric logic reappears carved into plaster and cedar wood.",
+      },
+    },
+  },
+  {
+    id: "hammam",
+    order: 15,
+    placeholderEmoji: "💧",
+    accentColor: "#5E8CA6",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El baño de vapor de barrio y su ritual semanal",
+        subtitle: "El hammam",
+        imageAlt: "Caricatura del interior de un baño con bancos de piedra, cubos de agua y vapor.",
+        description:
+          "El hammam es el baño público de vapor, presente en casi todos los barrios de Marruecos y muchas veces contiguo a una mezquita, con la que comparte el horno que calienta el agua. Se organiza en tres salas de temperatura creciente; los usuarios pasan de una a otra, se cubren de jabón negro hecho con aceituna, esperan a que el vapor abra los poros y luego se frotan enérgicamente con un guante áspero llamado kis, o se lo piden a un bañista profesional. Más allá de la higiene, el hammam es un espacio social separado por sexos donde se conversa, se arreglan matrimonios y se lleva a la novia antes de la boda en una ceremonia especial. Las entradas cuestan apenas unas monedas.",
+      },
+      en: {
+        title: "The Neighborhood Steam Bath and Its Weekly Ritual",
+        subtitle: "The Hammam",
+        imageAlt: "Cartoon of a bathhouse interior with stone benches, water buckets, and steam.",
+        description:
+          "The hammam is the public steam bath, found in almost every Moroccan neighborhood and often next to a mosque, with which it shares the furnace that heats the water. It is arranged in three rooms of rising temperature; bathers move from one to the next, coat themselves in black soap made from olives, wait for the steam to open their pores, then scrub hard with a rough mitt called a kessa, or ask a professional attendant to do it. Beyond hygiene, the hammam is a social space, separated by sex, where people talk, arrange marriages, and bring the bride before a wedding in a special ceremony. Entry costs just a few coins.",
+      },
+    },
+  },
+  {
+    id: "lengua-amazigh",
+    order: 16,
+    placeholderEmoji: "🔤",
+    accentColor: "#8A7250",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El idioma bereber y su alfabeto de trazos rectos",
+        subtitle: "La lengua amazigh",
+        imageAlt: "Caricatura de signos angulares del alfabeto tifinagh grabados en una tablilla de piedra.",
+        description:
+          "El amazigh, o bereber, es la lengua de los habitantes más antiguos del norte de África, hablada en Marruecos por millones de personas en tres grandes variantes regionales. Durante décadas quedó relegada al ámbito doméstico, sin lugar en la escuela ni en la administración, hasta que la Constitución de 2011 la reconoció como lengua oficial del país junto al árabe. Para escribirla se recuperó y modernizó el tifinagh, un alfabeto de signos geométricos, con círculos, líneas y puntos, emparentado con inscripciones de más de dos mil años halladas en toda la región. Hoy el tifinagh aparece en carteles, documentos oficiales y en la televisión pública, y se enseña en parte de las escuelas.",
+      },
+      en: {
+        title: "The Berber Language and Its Straight-Line Alphabet",
+        subtitle: "The Amazigh Language",
+        imageAlt: "Cartoon of angular Tifinagh alphabet signs carved into a stone tablet.",
+        description:
+          "Amazigh, or Berber, is the language of the oldest inhabitants of North Africa, spoken in Morocco by millions of people in three main regional varieties. For decades it was confined to the home, with no place in school or government, until the 2011 constitution recognized it as an official language of the country alongside Arabic. To write it, Tifinagh was revived and modernized, an alphabet of geometric signs, with circles, lines, and dots, related to inscriptions more than two thousand years old found across the region. Today Tifinagh appears on signs, official documents, and public television, and is taught in some schools.",
+      },
+    },
+  },
+  {
+    id: "volubilis",
+    order: 17,
+    placeholderEmoji: "🏛️",
+    accentColor: "#9A7B4F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad romana en el extremo del imperio",
+        subtitle: "Volubilis",
+        imageAlt: "Caricatura de columnas romanas y un arco de piedra en pie sobre una colina con olivos.",
+        description:
+          "Volubilis, cerca de Mequinez, fue la ciudad más importante de la provincia romana de Mauritania Tingitana y uno de los puntos más al sur del imperio en esta parte de África. Fundada sobre un asentamiento anterior, llegó a tener unos veinte mil habitantes y prosperó exportando aceite de oliva y trigo. Tras la retirada romana siguió habitada durante siglos por poblaciones locales, y un terremoto en el siglo XVIII terminó de derribarla; sus piedras se usaron para construir la vecina Mequinez. Lo que queda hoy, un arco de triunfo, columnas, una basílica y sobre todo decenas de mosaicos de suelo aún en su sitio con escenas mitológicas, la convierte en el yacimiento romano mejor conservado de Marruecos.",
+      },
+      en: {
+        title: "The Roman City at the Edge of the Empire",
+        subtitle: "Volubilis",
+        imageAlt: "Cartoon of Roman columns and a standing stone arch on a hill dotted with olive trees.",
+        description:
+          "Volubilis, near Meknes, was the most important city of the Roman province of Mauretania Tingitana and one of the empire's southernmost points in this part of Africa. Built on an earlier settlement, it grew to around twenty thousand people and prospered by exporting olive oil and wheat. After the Roman withdrawal it stayed inhabited for centuries by local populations, and an 18th-century earthquake finished it off; its stones were used to build nearby Meknes. What remains today, a triumphal arch, columns, a basilica, and above all dozens of floor mosaics still in place with mythological scenes, makes it the best-preserved Roman site in Morocco.",
+      },
+    },
+  },
+  {
+    id: "fantasia-tbourida",
+    order: 18,
+    placeholderEmoji: "🐎",
+    accentColor: "#8B2E2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La carga de jinetes que disparan todos a la vez",
+        subtitle: "La fantasía o tbourida",
+        imageAlt: "Caricatura de una fila de jinetes con túnicas cargando al galope y levantando fusiles largos.",
+        description:
+          "La tbourida, conocida en occidente como 'fantasía', es un espectáculo ecuestre que recrea las cargas de la caballería tradicional marroquí. Una tropa de entre quince y veinticinco jinetes, con trajes idénticos y monturas engalanadas, arranca al galope en una línea perfectamente alineada; al llegar al final del recorrido, todos deben disparar sus mosquetes de pólvora al aire en un único estampido. Cuanto más se parece esa descarga a un solo disparo, mejor la puntuación de los jueces. Se practica en moussems y bodas de todo el país, cada troupe representa a una tribu o región, y desde hace unos años hay equipos formados íntegramente por mujeres. La Unesco la reconoció como patrimonio inmaterial en 2021.",
+      },
+      en: {
+        title: "The Cavalry Charge That Fires All at Once",
+        subtitle: "Fantasia or Tbourida",
+        imageAlt: "Cartoon of a row of robed riders charging at a gallop and raising long rifles.",
+        description:
+          "Tbourida, known in the West as 'fantasia,' is an equestrian display that reenacts the charges of traditional Moroccan cavalry. A troop of fifteen to twenty-five riders, in identical dress on decorated mounts, sets off at a gallop in a perfectly straight line; at the end of the run, all must fire their powder muskets into the air in a single crack. The closer that volley sounds to one shot, the higher the judges' score. It is performed at moussems and weddings across the country, each troupe representing a tribe or region, and in recent years there have been teams made up entirely of women. UNESCO listed it as intangible heritage in 2021.",
+      },
+    },
+  },
+  {
+    id: "ait-benhaddou",
+    order: 19,
+    placeholderEmoji: "🏰",
+    accentColor: "#B07C3F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudadela de barro que sale en decenas de películas",
+        subtitle: "Ait Ben Hadu",
+        imageAlt: "Caricatura de un pueblo fortificado de casas de adobe apiñadas en una colina, con torres almenadas.",
+        description:
+          "Ait Ben Hadu es un ksar, un pueblo fortificado de tierra apisonada, levantado en una ladera junto a una antigua ruta de caravanas entre el Sáhara y Marrakech. Sus casas y graneros de adobe, decorados con relieves geométricos y coronados por torres almenadas, comparten muros y se apiñan tras una muralla común. El barro exige reparaciones constantes, y hoy solo unas pocas familias viven dentro; la mayoría se mudó a la orilla opuesta del río. Su silueta se hizo mundialmente famosa como escenario de decenas de películas y series ambientadas en desiertos y mundos antiguos. Es patrimonio de la humanidad desde 1987.",
+      },
+      en: {
+        title: "The Mud Citadel Seen in Dozens of Movies",
+        subtitle: "Ait Ben Haddou",
+        imageAlt: "Cartoon of a fortified village of adobe houses packed on a hill, with crenellated towers.",
+        description:
+          "Ait Ben Haddou is a ksar, a fortified village of rammed earth, built on a hillside beside an old caravan route between the Sahara and Marrakech. Its adobe houses and granaries, decorated with geometric reliefs and topped by crenellated towers, share walls and huddle behind a common rampart. The earth demands constant repair, and today only a few families live inside; most moved to the opposite bank of the river. Its silhouette became world-famous as the setting for dozens of films and series set in deserts and ancient worlds. It has been a World Heritage Site since 1987.",
+      },
+    },
+  },
+  {
+    id: "caftan",
+    order: 20,
+    placeholderEmoji: "👗",
+    accentColor: "#7A3B6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El vestido bordado que se hereda de madre a hija",
+        subtitle: "El caftán marroquí",
+        imageAlt: "Caricatura de un vestido largo de terciopelo con bordado dorado y un cinturón ancho.",
+        description:
+          "El caftán es una túnica larga, de mangas amplias y sin capucha, que en Marruecos evolucionó desde la ropa de corte de hace siglos hasta convertirse en el traje de gala femenino por excelencia. La versión de dos piezas, con una capa exterior semitransparente sobre otra interior, se llama takchita y se ciñe con un cinturón ancho bordado, la mdamma. Se confecciona en seda, brocado o terciopelo, con bordados hechos a mano en hilo de oro y botones trenzados uno a uno, un trabajo que puede llevar meses. Es la prenda de las bodas, donde la novia cambia de caftán varias veces durante la fiesta, y las piezas buenas se guardan y se transmiten de una generación a la siguiente.",
+      },
+      en: {
+        title: "The Embroidered Gown Passed From Mother to Daughter",
+        subtitle: "The Moroccan Caftan",
+        imageAlt: "Cartoon of a long velvet gown with gold embroidery and a wide belt.",
+        description:
+          "The caftan is a long, wide-sleeved robe without a hood that in Morocco evolved from centuries-old court dress into the premier formal garment for women. The two-piece version, with a semi-transparent outer layer over an inner one, is called a takchita and is cinched with a wide embroidered belt, the mdamma. It is made in silk, brocade, or velvet, with hand embroidery in gold thread and braided buttons sewn on one by one, work that can take months. It is the garment of weddings, where the bride changes caftans several times during the celebration, and good pieces are kept and handed down from one generation to the next.",
+      },
+    },
+  },
 ];

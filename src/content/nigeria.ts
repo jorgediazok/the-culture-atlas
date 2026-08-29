@@ -248,4 +248,234 @@ export const nigeria: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-escritor-cuya-novela-abrio-la-literatura-africana",
+    order: 11,
+    placeholderEmoji: "📖",
+    accentColor: "#6B4B3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El escritor cuya novela abrió la literatura africana",
+        subtitle: "Chinua Achebe",
+        imageAlt: "Caricatura de un hombre sentado escribiendo con una pluma junto a una pila de libros.",
+        description:
+          "Chinua Achebe publicó en 1958 'Todo se desmorona', la novela que se convirtió en el punto de partida de la literatura africana moderna en inglés y hoy es el libro africano más traducido y más vendido de la historia, con ediciones en más de cincuenta idiomas. La historia de Okonkwo, un líder igbo cuya vida se desmorona con la llegada del colonialismo británico, respondía de forma directa a las novelas europeas que retrataban a África como un continente sin historia propia, incorporando proverbios, ritmos narrativos y palabras igbo al inglés literario. Achebe enseñó en universidades de Nigeria y Estados Unidos, y su obra abrió el camino para generaciones posteriores de escritores africanos que publicaron en inglés sin dejar de sonar como de su tierra.",
+      },
+      en: {
+        title: "The Writer Whose Novel Opened African Literature",
+        subtitle: "Chinua Achebe",
+        imageAlt: "Cartoon of a man sitting and writing with a quill beside a stack of books.",
+        description:
+          "In 1958 Chinua Achebe published 'Things Fall Apart,' the novel that became the starting point of modern African literature in English and remains the most translated and best-selling African book in history, with editions in more than fifty languages. The story of Okonkwo, an Igbo leader whose life unravels with the arrival of British colonialism, answered directly the European novels that portrayed Africa as a continent with no history of its own, weaving Igbo proverbs, narrative rhythms, and words into literary English. Achebe taught at universities in Nigeria and the United States, and his work opened the way for later generations of African writers who published in English without losing the sound of home.",
+      },
+    },
+  },
+  {
+    id: "el-primer-africano-en-ganar-el-nobel-de-literatura",
+    order: 12,
+    placeholderEmoji: "🎭",
+    accentColor: "#8B2942",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El primer africano en ganar el Nobel de Literatura",
+        subtitle: "Wole Soyinka",
+        imageAlt: "Caricatura de un hombre con cabello canoso hablando ante un micrófono con una máscara detrás.",
+        description:
+          "Wole Soyinka, dramaturgo, poeta y ensayista yoruba, se convirtió en 1986 en el primer africano en recibir el Premio Nobel de Literatura, reconocido por una obra que combina el teatro ritual yoruba con la tradición dramática occidental. Antes de ese premio ya había pasado más de dos años en prisión, casi todo en aislamiento, por oponerse públicamente a la guerra civil nigeriana de fines de los años sesenta, y décadas después volvió a exiliarse por criticar a un gobierno militar que lo condenó a muerte en ausencia. Sus obras de teatro, como 'La danza de los bosques', escrita para la independencia de Nigeria en 1960, mezclan mitología, sátira política y crítica social, y ya en sus noventa años sigue siendo una de las voces públicas más escuchadas del país.",
+      },
+      en: {
+        title: "The First African to Win the Nobel in Literature",
+        subtitle: "Wole Soyinka",
+        imageAlt: "Cartoon of a gray-haired man speaking into a microphone with a mask behind him.",
+        description:
+          "Wole Soyinka, a Yoruba playwright, poet, and essayist, became in 1986 the first African to win the Nobel Prize in Literature, honored for work that blends Yoruba ritual theater with the Western dramatic tradition. Before that prize he had already spent more than two years in prison, most of it in solitary confinement, for openly opposing Nigeria's civil war in the late 1960s, and decades later he went into exile again after criticizing a military government that sentenced him to death in absentia. His plays, such as 'A Dance of the Forests,' written for Nigeria's 1960 independence, blend mythology, political satire, and social critique, and now in his nineties he remains one of the country's most listened-to public voices.",
+      },
+    },
+  },
+  {
+    id: "las-cabezas-de-terracota-que-asombraron-a-europa",
+    order: 13,
+    placeholderEmoji: "🗿",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las cabezas de terracota que asombraron a Europa",
+        subtitle: "El arte antiguo de Ife",
+        imageAlt: "Caricatura de una cabeza de terracota con rasgos serenos y líneas verticales en el rostro.",
+        description:
+          "Ife, la ciudad sagrada de origen del pueblo yoruba, produjo entre los siglos XII y XV un conjunto de cabezas de terracota y bronce de un realismo tan depurado que, cuando las primeras piezas llegaron a Europa a comienzos del siglo XX, muchos estudiosos se negaron a creer que fueran obra africana y las atribuyeron sin pruebas a una supuesta colonia griega o egipcia perdida. Las cabezas, probablemente retratos de reyes y reinas usados en rituales funerarios, muestran rostros serenos marcados con finas líneas verticales que podrían representar escarificación, velos rituales o simplemente un estilo artístico. Su técnica de fundición a la cera perdida es anterior y en parte precursora de la que después perfeccionó el cercano reino de Benín.",
+      },
+      en: {
+        title: "The Terracotta Heads That Stunned Europe",
+        subtitle: "The Ancient Art of Ife",
+        imageAlt: "Cartoon of a terracotta head with serene features and fine vertical lines on the face.",
+        description:
+          "Ife, the sacred city of origin of the Yoruba people, produced between the 12th and 15th centuries a body of terracotta and bronze heads with such refined realism that, when the first pieces reached Europe in the early 20th century, many scholars refused to believe they were African work and attributed them, with no evidence, to a supposed lost Greek or Egyptian colony. The heads, likely portraits of kings and queens used in funerary rituals, show serene faces marked with fine vertical lines that may represent scarification, ritual veils, or simply an artistic style. Their lost-wax casting technique predates, and partly paved the way for, the one later perfected by the nearby Kingdom of Benin.",
+      },
+    },
+  },
+  {
+    id: "la-tunica-de-tres-piezas-que-viste-con-autoridad",
+    order: 14,
+    placeholderEmoji: "🥻",
+    accentColor: "#2E6E9E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La túnica de tres piezas que viste con autoridad",
+        subtitle: "El agbada",
+        imageAlt: "Caricatura de un hombre con una túnica ancha y bordada sobre otra prenda interior.",
+        description:
+          "El agbada es la túnica ceremonial masculina más reconocible de Nigeria: una prenda amplia y sin mangas cerradas, tan grande que puede cubrir los brazos extendidos, que se lleva sobre una camisa interior a juego y un pantalón, formando un conjunto de tres piezas. Los bordados en el pecho, hechos a mano con hilo de seda o de algodón, pueden llevar semanas de trabajo y su complejidad indica a menudo el estatus social o económico de quien lo usa. Originario de las cortes yoruba y hausa, el agbada se volvió la vestimenta formal para bodas, funerales, ceremonias religiosas y actos de gobierno en todo el país, y su volumen deliberado transmite una idea muy directa: cuanta más tela, más importante es la persona que la lleva.",
+      },
+      en: {
+        title: "The Three-Piece Robe That Wears Its Authority",
+        subtitle: "The Agbada",
+        imageAlt: "Cartoon of a man in a wide embroidered robe worn over an inner garment.",
+        description:
+          "The agbada is Nigeria's most recognizable men's ceremonial robe: a wide garment with open, oversized sleeves, large enough to cover outstretched arms, worn over a matching inner shirt and trousers to form a three-piece outfit. The embroidery on the chest, hand-stitched in silk or cotton thread, can take weeks of work, and its complexity often signals the wearer's social or economic standing. Originating in Yoruba and Hausa courts, the agbada became the formal dress for weddings, funerals, religious ceremonies, and government occasions across the country, and its deliberate volume carries a very direct message: the more cloth, the more important the person wearing it.",
+      },
+    },
+  },
+  {
+    id: "la-brocheta-picante-que-perfuma-las-calles-de-noche",
+    order: 15,
+    placeholderEmoji: "🍢",
+    accentColor: "#A8412A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La brocheta picante que perfuma las calles de noche",
+        subtitle: "El suya",
+        imageAlt: "Caricatura de brochetas de carne asándose sobre brasas con especias espolvoreadas.",
+        description:
+          "El suya es carne, casi siempre de res, cortada en tiras finas, ensartada en pinchos y asada sobre brasas al aire libre, cubierta antes de cocinarla con yaji, una mezcla seca de maní molido, jengibre, pimienta y otras especias que forma una costra crujiente y picante. La receta llegó con los comerciantes hausa del norte y hoy se vende en carritos callejeros de todo el país, sobre todo al anochecer, cuando el humo y el olor a especias marcan la llegada de los llamados 'puntos de suya'. Se come envuelto en papel, acompañado de cebolla cruda, tomate y más yaji al gusto, y funciona tanto como comida rápida nocturna como plato central de reuniones sociales entre amigos.",
+      },
+      en: {
+        title: "The Spicy Skewers That Scent the Streets at Night",
+        subtitle: "Suya",
+        imageAlt: "Cartoon of meat skewers grilling over coals with spices sprinkled on top.",
+        description:
+          "Suya is meat, almost always beef, sliced into thin strips, threaded onto skewers, and grilled over open coals, coated before cooking with yaji, a dry blend of ground peanuts, ginger, pepper, and other spices that forms a crisp, spicy crust. The recipe arrived with Hausa traders from the north, and today it is sold from street carts across the country, especially at nightfall, when the smoke and the smell of spices mark the arrival of the so-called 'suya spots.' It is eaten wrapped in paper, served with raw onion, tomato, and extra yaji to taste, and works both as a late-night fast food and as the centerpiece of social gatherings among friends.",
+      },
+    },
+  },
+  {
+    id: "el-festival-donde-miles-se-lanzan-al-rio-a-pescar",
+    order: 16,
+    placeholderEmoji: "🎣",
+    accentColor: "#1D6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El festival donde miles se lanzan al río a pescar",
+        subtitle: "El festival de pesca de Argungu",
+        imageAlt: "Caricatura de decenas de personas metidas en un río con redes y calabazas flotantes.",
+        description:
+          "El festival de pesca de Argungu, en el estado de Kebbi, reúne cada año a miles de pescadores que se lanzan juntos al río Matan Fada en el mismo instante, dado por el sonido de un tambor, para competir por atrapar el pez más grande solo con redes de mano, calabazas huecas como flotadores y las manos desnudas. El festival nació en 1934 para celebrar la reconciliación entre los reinos de Sokoto y Kebbi tras siglos de conflicto, y con los años sumó carreras de canoas, exhibiciones de nado y espectáculos culturales que atraen visitantes de toda Nigeria y del exterior. El ganador de la pesca recibe un premio en efectivo y, sobre todo, un enorme prestigio comunitario.",
+      },
+      en: {
+        title: "The Festival Where Thousands Dive Into a River to Fish",
+        subtitle: "The Argungu Fishing Festival",
+        imageAlt: "Cartoon of dozens of people wading in a river with nets and floating gourds.",
+        description:
+          "The Argungu Fishing Festival, in Kebbi State, gathers thousands of fishermen each year who plunge together into the Matan Fada River at the same instant, marked by the beat of a drum, to compete for catching the biggest fish using only hand nets, hollow gourds as floats, and their bare hands. The festival began in 1934 to celebrate the reconciliation between the kingdoms of Sokoto and Kebbi after centuries of conflict, and over the years it added canoe races, swimming displays, and cultural shows that draw visitors from across Nigeria and abroad. The winning fisherman receives a cash prize and, above all, enormous standing in the community.",
+      },
+    },
+  },
+  {
+    id: "el-bosque-sagrado-que-protege-a-la-diosa-del-rio",
+    order: 17,
+    placeholderEmoji: "🌳",
+    accentColor: "#3F8F5A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El bosque sagrado que protege a la diosa del río",
+        subtitle: "El bosque sagrado de Osun-Osogbo",
+        imageAlt: "Caricatura de esculturas entre árboles frondosos junto a un río serpenteante.",
+        description:
+          "El bosque sagrado de Osun-Osogbo, a orillas del río Osun en el suroeste de Nigeria, es uno de los últimos bosques sagrados yoruba que sobrevivió casi intacto al crecimiento urbano, protegido durante generaciones porque se considera el hogar de Osun, la diosa yoruba de la fertilidad y el agua dulce. Entre su vegetación densa se levantan decenas de santuarios, esculturas y obras de arte, muchas creadas a partir de los años cincuenta por la artista austríaca Susanne Wenger, que se instaló allí y dedicó su vida a restaurar los santuarios junto a sacerdotes locales. Cada agosto, el festival Osun-Osogbo atrae a decenas de miles de devotos y visitantes para un desfile ceremonial hacia el río, considerado el corazón espiritual del pueblo yoruba.",
+      },
+      en: {
+        title: "The Sacred Forest That Shelters the River Goddess",
+        subtitle: "The Osun-Osogbo Sacred Grove",
+        imageAlt: "Cartoon of sculptures among leafy trees beside a winding river.",
+        description:
+          "The Osun-Osogbo sacred grove, on the banks of the Osun River in southwestern Nigeria, is one of the last Yoruba sacred forests to survive nearly intact amid urban growth, protected for generations because it is considered the home of Osun, the Yoruba goddess of fertility and fresh water. Amid its dense vegetation stand dozens of shrines, sculptures, and artworks, many created from the 1950s onward by the Austrian artist Susanne Wenger, who settled there and devoted her life to restoring the shrines alongside local priests. Every August, the Osun-Osogbo festival draws tens of thousands of devotees and visitors for a ceremonial procession to the river, considered the spiritual heart of the Yoruba people.",
+      },
+    },
+  },
+  {
+    id: "la-musica-que-despertaba-a-los-fieles-en-ramadan",
+    order: 18,
+    placeholderEmoji: "🎙️",
+    accentColor: "#7A5C99",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La música que despertaba a los fieles en Ramadán",
+        subtitle: "La música fuji",
+        imageAlt: "Caricatura de un cantante con micrófono rodeado de tambores talking drum.",
+        description:
+          "El fuji nació entre los músicos yoruba musulmanes de Lagos a mediados del siglo XX a partir del 'were', el canto que despertaba a los fieles antes del amanecer para comer durante el mes de Ramadán. Con el tiempo, esos cantos rítmicos acompañados solo de percusión, sobre todo del tambor parlante dundun y las panderetas sekere, se transformaron en un género popular propio, cantado en yoruba y cargado de improvisación, proverbios y alabanzas. Artistas como Ayinde Barrister, a quien se le atribuye el nombre del género, y más tarde Wasiu Ayinde llevaron el fuji a los estudios de grabación y a estadios llenos, y hoy sigue siendo, junto al afrobeats, uno de los estilos más escuchados del oeste de Nigeria.",
+      },
+      en: {
+        title: "The Music That Woke Worshippers During Ramadan",
+        subtitle: "Fuji Music",
+        imageAlt: "Cartoon of a singer with a microphone surrounded by talking drums.",
+        description:
+          "Fuji emerged among Muslim Yoruba musicians in Lagos in the mid-20th century out of 'were,' the chanting used to wake worshippers before dawn to eat during Ramadan. Over time those rhythmic chants, accompanied only by percussion, especially the dundun talking drum and sekere rattles, grew into a popular genre of their own, sung in Yoruba and full of improvisation, proverbs, and praise. Artists such as Ayinde Barrister, credited with naming the genre, and later Wasiu Ayinde carried fuji into recording studios and packed stadiums, and today it remains, alongside Afrobeats, one of the most listened-to styles in western Nigeria.",
+      },
+    },
+  },
+  {
+    id: "la-escritura-secreta-de-signos-de-una-sociedad",
+    order: 19,
+    placeholderEmoji: "🔺",
+    accentColor: "#4A3B2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La escritura secreta de signos de una sociedad",
+        subtitle: "El nsibidi",
+        imageAlt: "Caricatura de símbolos geométricos grabados en una tela junto a una máscara.",
+        description:
+          "El nsibidi es un sistema de signos ideográficos, con varios cientos de símbolos documentados, creado hace siglos entre los pueblos ejagham, igbo y efik del sureste de Nigeria y usado originalmente como escritura secreta de la sociedad Ekpe, una hermandad masculina de gran peso político y judicial. Los signos, geométricos y a menudo abstractos, comunicaban ideas complejas como amor, guerra, matrimonio o valentía, y se grababan en máscaras, telas, calabazas y las paredes de las casas de la sociedad, además de tatuarse sobre la piel. Con la colonización, buena parte de su conocimiento se restringió aún más o se perdió, pero el nsibidi sobrevivió como símbolo de identidad y hoy inspira a diseñadores y artistas nigerianos contemporáneos que lo reincorporan en moda, arte urbano y logotipos.",
+      },
+      en: {
+        title: "The Secret Sign Writing of a Hidden Society",
+        subtitle: "Nsibidi",
+        imageAlt: "Cartoon of geometric symbols carved into a cloth beside a mask.",
+        description:
+          "Nsibidi is a system of ideographic signs, with several hundred documented symbols, created centuries ago among the Ejagham, Igbo, and Efik peoples of southeastern Nigeria and originally used as the secret writing of the Ekpe society, a men's brotherhood with major political and judicial weight. The signs, geometric and often abstract, communicated complex ideas like love, war, marriage, or bravery, and were carved into masks, cloth, gourds, and the walls of society houses, as well as tattooed onto skin. Under colonization much of that knowledge became further restricted or was lost, but nsibidi survived as a symbol of identity and today inspires contemporary Nigerian designers and artists who bring it back into fashion, street art, and logos.",
+      },
+    },
+  },
+  {
+    id: "el-idioma-criollo-que-entiende-casi-todo-el-pais",
+    order: 20,
+    placeholderEmoji: "💬",
+    accentColor: "#C25A2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El idioma criollo que entiende casi todo el país",
+        subtitle: "El pidgin nigeriano",
+        imageAlt: "Caricatura de dos personas conversando con globos de diálogo llenos de palabras mezcladas.",
+        description:
+          "El pidgin nigeriano nació en las zonas costeras hace siglos, del contacto entre comerciantes ingleses y hablantes de lenguas locales, y con el tiempo se expandió por todo el país hasta convertirse en la lengua que más nigerianos entienden y comparten, por encima de cualquiera de los más de quinientos idiomas nativos. Combina una base de vocabulario inglés con una gramática y una musicalidad propias, muy influidas por el yoruba, el igbo y el hausa, y funciona como puente entre grupos étnicos que de otro modo no compartirían lengua. Aunque durante mucho tiempo se lo consideró un habla informal, hoy se usa en radio, publicidad, redes sociales y hasta en producciones de Nollywood, y algunos lingüistas ya lo consideran una lengua criolla con reglas propias, no un simple inglés simplificado.",
+      },
+      en: {
+        title: "The Creole Language Almost the Whole Country Shares",
+        subtitle: "Nigerian Pidgin",
+        imageAlt: "Cartoon of two people talking with speech bubbles full of mixed words.",
+        description:
+          "Nigerian Pidgin was born in coastal areas centuries ago from contact between English traders and speakers of local languages, and over time it spread across the whole country to become the language most Nigerians understand and share, ahead of any of the more than five hundred native tongues. It combines an English-based vocabulary with its own grammar and rhythm, heavily shaped by Yoruba, Igbo, and Hausa, and works as a bridge between ethnic groups that would otherwise share no common language. Long dismissed as informal street talk, it is now used on radio, in advertising, on social media, and even in Nollywood productions, and some linguists now consider it a full creole with its own rules rather than simplified English.",
+      },
+    },
+  },
 ];

@@ -231,4 +231,234 @@ export const kenya: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "wangari-maathai",
+    order: 11,
+    placeholderEmoji: "🌳",
+    accentColor: "#3F8F5A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La activista de los árboles que ganó el Nobel de la Paz",
+        subtitle: "Wangari Maathai y el Cinturón Verde",
+        imageAlt: "Caricatura de una mujer plantando un pequeño árbol con más árboles jóvenes detrás.",
+        description:
+          "Wangari Maathai fue una bióloga keniana, la primera mujer de África central y oriental en doctorarse, que en 1977 fundó el Movimiento Cinturón Verde para responder a la vez a dos problemas: la deforestación que secaba los ríos y erosionaba el suelo, y la falta de ingresos de las mujeres rurales. La idea era simple: pagar a esas mujeres una pequeña suma por cada árbol nativo que plantaran y cuidaran hasta que prendiera. Con el tiempo el movimiento plantó más de cincuenta millones de árboles y se convirtió también en una escuela de organización comunitaria y de defensa de derechos, lo que le valió el acoso del gobierno de la época. En 2004, Maathai recibió el Premio Nobel de la Paz, la primera mujer africana en obtenerlo.",
+      },
+      en: {
+        title: "The Tree Activist Who Won the Nobel Peace Prize",
+        subtitle: "Wangari Maathai and the Green Belt",
+        imageAlt: "Cartoon of a woman planting a small tree with more young trees behind her.",
+        description:
+          "Wangari Maathai was a Kenyan biologist, the first woman in East and Central Africa to earn a doctorate, who in 1977 founded the Green Belt Movement to address two problems at once: the deforestation that was drying rivers and eroding soil, and the lack of income for rural women. The idea was simple: pay those women a small sum for every native tree they planted and tended until it took root. Over time the movement planted more than fifty million trees and also became a school of community organizing and rights advocacy, which drew harassment from the government of the day. In 2004, Maathai received the Nobel Peace Prize, the first African woman to win it.",
+      },
+    },
+  },
+  {
+    id: "te-keniata",
+    order: 12,
+    placeholderEmoji: "🍵",
+    accentColor: "#4A7C3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que exporta más té negro que ningún otro",
+        subtitle: "El té keniano",
+        imageAlt: "Caricatura de una recolectora entre hileras de arbustos de té verde brillante.",
+        description:
+          "Kenia es el mayor exportador de té negro del mundo y el tercer productor global, por detrás de China e India. El cultivo se concentra en las tierras altas al oeste del Valle del Rift, sobre todo en la región de Kericho, donde el clima templado, la lluvia constante y el suelo volcánico permiten cosechar hoja fresca durante todo el año. Buena parte de la producción sale de pequeños agricultores agrupados en una agencia estatal que reúne su hoja y la subasta en Mombasa, uno de los mercados de té más grandes del planeta. El té keniano se usa sobre todo en mezclas y bolsitas por su color intenso y su sabor fuerte, y dentro del país se toma a diario como chai, hervido con leche, azúcar y especias.",
+      },
+      en: {
+        title: "The Country That Exports More Black Tea Than Any Other",
+        subtitle: "Kenyan Tea",
+        imageAlt: "Cartoon of a picker among rows of bright green tea bushes.",
+        description:
+          "Kenya is the world's largest exporter of black tea and the third-largest producer overall, behind China and India. Growing is concentrated in the highlands west of the Rift Valley, especially around Kericho, where a mild climate, steady rain, and volcanic soil allow fresh leaf to be picked year-round. Much of the crop comes from smallholder farmers grouped under a state agency that pools their leaf and auctions it in Mombasa, one of the largest tea markets on Earth. Kenyan tea is used mostly in blends and tea bags for its deep color and strong flavor, and within the country it is drunk daily as chai, boiled with milk, sugar, and spices.",
+      },
+    },
+  },
+  {
+    id: "nyama-choma",
+    order: 13,
+    placeholderEmoji: "🍖",
+    accentColor: "#A8412A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La carne asada que se comparte en cualquier ocasión",
+        subtitle: "El nyama choma y el ugali",
+        imageAlt: "Caricatura de trozos de carne asándose a la parrilla junto a un bloque blanco de ugali.",
+        description:
+          "El nyama choma, que en suajili significa literalmente 'carne asada', es el plato más social de Kenia: cabra o vacuno cortado en trozos y cocinado lentamente sobre brasas, servido en una tabla para compartir y comido con las manos, a menudo con una salsa fresca de tomate, cebolla y chile llamada kachumbari. Suele acompañarse con ugali, una masa firme de harina de maíz cocida en agua que se moldea con los dedos y se usa para tomar los demás alimentos, y con sukuma wiki, verduras de hoja salteadas cuyo nombre significa 'estirar la semana'. Comer nyama choma es un ritual de fin de semana en bares con parrilla y de toda celebración familiar, desde bautismos hasta funerales.",
+      },
+      en: {
+        title: "The Grilled Meat Shared on Any Occasion",
+        subtitle: "Nyama Choma and Ugali",
+        imageAlt: "Cartoon of pieces of meat grilling over coals next to a white block of ugali.",
+        description:
+          "Nyama choma, which in Swahili literally means 'roast meat,' is Kenya's most social dish: goat or beef cut into pieces and cooked slowly over coals, served on a board to share and eaten with the hands, often with a fresh relish of tomato, onion, and chili called kachumbari. It usually comes with ugali, a firm cornmeal dough cooked in water that is shaped with the fingers and used to pick up the other food, and with sukuma wiki, sautéed leafy greens whose name means 'stretch the week.' Eating nyama choma is a weekend ritual at grill bars and a fixture of every family celebration, from christenings to funerals.",
+      },
+    },
+  },
+  {
+    id: "lamu",
+    order: 14,
+    placeholderEmoji: "🚪",
+    accentColor: "#9C7B4A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad de piedra sin autos donde mandan los burros",
+        subtitle: "La ciudad vieja de Lamu",
+        imageAlt: "Caricatura de callejones estrechos entre casas de piedra con puertas de madera tallada y un burro.",
+        description:
+          "Lamu, en una isla del norte de la costa keniana, es el asentamiento suajili más antiguo de África oriental que sigue habitado de forma continua, con más de setecientos años de historia. Sus calles son tan estrechas que nunca entraron los autos: el transporte se hace a pie, en burro o en dhow, el velero de vela triangular que se usa aquí desde hace siglos. Las casas, construidas en piedra de coral y madera de manglar, se organizan alrededor de patios interiores y se distinguen por sus puertas de madera profundamente talladas. La ciudad conserva una vida cultural intensa, con festivales anuales de poesía, música y carreras de dhows y burros, y es patrimonio de la humanidad desde 2001.",
+      },
+      en: {
+        title: "The Car-Free Stone Town Where Donkeys Rule",
+        subtitle: "Lamu Old Town",
+        imageAlt: "Cartoon of narrow alleys between stone houses with carved wooden doors and a donkey.",
+        description:
+          "Lamu, on an island off the northern Kenyan coast, is the oldest continuously inhabited Swahili settlement in East Africa, with more than seven hundred years of history. Its streets are so narrow that cars never entered: transport is on foot, by donkey, or by dhow, the triangular-sailed boat used here for centuries. The houses, built from coral stone and mangrove wood, are arranged around inner courtyards and stand out for their deeply carved wooden doors. The town keeps an intense cultural life, with yearly festivals of poetry, music, and dhow and donkey races, and it has been a World Heritage Site since 2001.",
+      },
+    },
+  },
+  {
+    id: "harambee",
+    order: 15,
+    placeholderEmoji: "🤝",
+    accentColor: "#C25A2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La palabra que junta a un pueblo para tirar parejo",
+        subtitle: "El harambee",
+        imageAlt: "Caricatura de varias personas cargando juntas un tronco pesado sobre los hombros.",
+        description:
+          "Harambee es una palabra suajili que significa algo así como 'todos juntos' y que se convirtió en el lema nacional de Kenia, inscrito en el escudo del país. En la práctica, un harambee es una colecta comunitaria: cuando alguien necesita pagar una operación, una beca o construir una escuela, familiares, vecinos y a veces un pueblo entero se reúnen en un acto público donde cada uno aporta lo que puede y las contribuciones se anuncian en voz alta. Estos eventos financiaron durante décadas gran parte de la infraestructura rural del país, desde dispensarios hasta puentes. La costumbre sigue muy viva, aunque hoy buena parte de las contribuciones se envían por dinero móvil antes de la reunión.",
+      },
+      en: {
+        title: "The Word That Pulls a Nation Together",
+        subtitle: "Harambee",
+        imageAlt: "Cartoon of several people carrying a heavy log together on their shoulders.",
+        description:
+          "Harambee is a Swahili word meaning roughly 'all pull together,' and it became Kenya's national motto, inscribed on the country's coat of arms. In practice, a harambee is a community fundraiser: when someone needs to pay for surgery, a scholarship, or the building of a school, relatives, neighbors, and sometimes a whole town gather at a public event where each person gives what they can and the contributions are announced aloud. These events funded much of the country's rural infrastructure for decades, from clinics to bridges. The custom is still very much alive, though today many contributions are sent by mobile money before the meeting.",
+      },
+    },
+  },
+  {
+    id: "elefantes-huerfanos",
+    order: 16,
+    placeholderEmoji: "🐘",
+    accentColor: "#7A8290",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El orfanato de elefantes al borde de la capital",
+        subtitle: "Los elefantes huérfanos de Nairobi",
+        imageAlt: "Caricatura de un elefante bebé tomando de un biberón gigante sostenido por un cuidador.",
+        description:
+          "En el borde del Parque Nacional de Nairobi funciona desde 1977 un centro que rescata elefantes bebés que quedaron huérfanos, en muchos casos por la caza furtiva de marfil o por sequías. Los cuidadores los alimentan con biberones de una fórmula especial que llevó años desarrollar, duermen junto a ellos y rotan de animal cada noche para que ninguna cría se encariñe en exceso con una sola persona. El objetivo no es la cautividad permanente: tras varios años, los elefantes se trasladan a unidades en zonas protegidas donde se reintegran poco a poco a manadas salvajes, un proceso que puede llevar una década. El centro ayudó a devolver a la naturaleza a más de trescientos elefantes.",
+      },
+      en: {
+        title: "The Elephant Orphanage on the Edge of the Capital",
+        subtitle: "Nairobi's Orphan Elephants",
+        imageAlt: "Cartoon of a baby elephant drinking from a giant bottle held by a keeper.",
+        description:
+          "On the edge of Nairobi National Park, a center has operated since 1977 to rescue baby elephants left orphaned, in many cases by ivory poaching or by drought. Keepers feed them from bottles of a special formula that took years to develop, sleep beside them, and rotate to a different animal each night so no calf bonds too closely with one person. The goal is not permanent captivity: after several years, the elephants move to units in protected areas where they slowly rejoin wild herds, a process that can take a decade. The center has helped return more than three hundred elephants to the wild.",
+      },
+    },
+  },
+  {
+    id: "musica-benga",
+    order: 17,
+    placeholderEmoji: "🎸",
+    accentColor: "#5B6EA8",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pop de guitarras rápidas que nació junto al lago",
+        subtitle: "La música benga",
+        imageAlt: "Caricatura de un guitarrista tocando junto a un altavoz, con el lago detrás.",
+        description:
+          "El benga es un estilo de música bailable que surgió entre los años cincuenta y sesenta en la región del lago Victoria, entre músicos del pueblo luo que adaptaron a la guitarra eléctrica los ritmos y la técnica de punteo del nyatiti, un arpa-lira tradicional de ocho cuerdas. El resultado, con líneas de guitarra veloces y entrelazadas sobre un bajo saltarín, se volvió el sonido pop dominante de Kenia durante décadas y se difundió por buena parte de África oriental y central. Bandas como Shirati Jazz y artistas como Daniel Owino Misiani definieron el género. El benga influyó en la rumba congoleña y sigue presente en la música gospel y en las campañas electorales.",
+      },
+      en: {
+        title: "The Fast-Guitar Pop Born Beside the Lake",
+        subtitle: "Benga Music",
+        imageAlt: "Cartoon of a guitarist playing next to a loudspeaker, with the lake behind.",
+        description:
+          "Benga is a style of dance music that emerged in the 1950s and 60s around Lake Victoria, among musicians of the Luo people who adapted to the electric guitar the rhythms and plucking technique of the nyatiti, a traditional eight-string harp-lyre. The result, with fast, interlocking guitar lines over a bouncing bass, became Kenya's dominant pop sound for decades and spread across much of East and Central Africa. Bands like Shirati Jazz and artists like Daniel Owino Misiani defined the genre. Benga influenced Congolese rumba and still turns up in gospel music and in election campaigns.",
+      },
+    },
+  },
+  {
+    id: "parque-nairobi",
+    order: 18,
+    placeholderEmoji: "🦁",
+    accentColor: "#B5892E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El único parque con leones a la vista de rascacielos",
+        subtitle: "El Parque Nacional de Nairobi",
+        imageAlt: "Caricatura de leones y jirafas en la sabana con una hilera de rascacielos al fondo.",
+        description:
+          "El Parque Nacional de Nairobi, creado en 1946, fue el primero de Kenia y es el único del mundo que limita directamente con el centro de negocios de una gran capital: desde la sabana se ven los rascacielos a pocos kilómetros. En sus 117 kilómetros cuadrados viven leones, jirafas, rinocerontes, cebras y más de cuatrocientas especies de aves, y solo está abierto por el sur para que la fauna pueda seguir migrando hacia llanuras más amplias. La cercanía con la ciudad genera tensiones constantes: carreteras, vías de tren y barrios en expansión estrechan ese corredor. El parque alberga además un santuario de rinocerontes que ayudó a recuperar a la especie en el país.",
+      },
+      en: {
+        title: "The Only Park With Lions in View of Skyscrapers",
+        subtitle: "Nairobi National Park",
+        imageAlt: "Cartoon of lions and giraffes on the savanna with a row of skyscrapers behind.",
+        description:
+          "Nairobi National Park, established in 1946, was Kenya's first and is the only one in the world bordering directly on the business district of a major capital: the skyscrapers are visible from the savanna a few kilometers away. Its 117 square kilometers hold lions, giraffes, rhinos, zebras, and more than four hundred bird species, and it is open only on the south side so wildlife can still migrate toward wider plains. The closeness to the city creates constant friction: roads, rail lines, and expanding neighborhoods squeeze that corridor. The park also holds a rhino sanctuary that helped the species recover in the country.",
+      },
+    },
+  },
+  {
+    id: "kanga",
+    order: 19,
+    placeholderEmoji: "🧣",
+    accentColor: "#C2492F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La tela estampada que lleva un refrán impreso",
+        subtitle: "El kanga",
+        imageAlt: "Caricatura de un pañuelo rectangular de colores con una cenefa y una frase escrita al borde.",
+        description:
+          "El kanga es una tela rectangular de algodón, muy usada en la costa de Kenia y Tanzania, con un borde ancho decorado, un motivo central y, en una franja inferior, una frase impresa en suajili: un refrán, una bendición, una indirecta o un mensaje de amor. Se compra siempre de a dos piezas iguales, una para la cintura y otra para los hombros o la cabeza, y las mujeres eligen el diseño en parte por lo que dice la frase, que puede servir para responder a una vecina o marcar un estado de ánimo sin decir una palabra. El kanga se regala en bodas y nacimientos, se usa como portabebés y como sudario, y funciona desde el siglo XIX como una forma de comunicación pública.",
+      },
+      en: {
+        title: "The Printed Cloth That Carries a Proverb",
+        subtitle: "The Kanga",
+        imageAlt: "Cartoon of a colorful rectangular cloth with a border and a phrase written along the edge.",
+        description:
+          "The kanga is a rectangular cotton cloth, widely worn on the coast of Kenya and Tanzania, with a wide decorated border, a central motif, and, in a strip along the bottom, a phrase printed in Swahili: a proverb, a blessing, a veiled jab, or a message of love. It is always bought as two matching pieces, one for the waist and one for the shoulders or head, and women choose a design partly for what the phrase says, which can answer a neighbor or set a mood without a word spoken. The kanga is given at weddings and births, used as a baby carrier and as a burial shroud, and has worked since the 19th century as a form of public communication.",
+      },
+    },
+  },
+  {
+    id: "abalorios-masai",
+    order: 20,
+    placeholderEmoji: "📿",
+    accentColor: "#B5341F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los collares de cuentas y la manta roja de los masái",
+        subtitle: "El abalorio masái",
+        imageAlt: "Caricatura de un collar ancho de cuentas de colores en capas y una manta a cuadros rojos.",
+        description:
+          "Entre los masái, el trabajo con cuentas de colores es una tarea femenina y una forma de escritura social. Cada color tiene un significado convencional: el rojo evoca la valentía y la sangre del ganado, el blanco la leche y la paz, el azul el cielo y el agua, el verde la tierra. Las mujeres fabrican collares planos y anchos, brazaletes y adornos para las orejas que indican la edad, el estado civil y el rango de quien los lleva, y regalan piezas específicas en los ritos de paso. La otra prenda distintiva es la shuka, una manta de tela a cuadros, casi siempre roja, que se lleva anudada al cuerpo y que reemplazó a las pieles de vaca a lo largo del siglo XX.",
+      },
+      en: {
+        title: "The Maasai Beadwork and the Red Blanket",
+        subtitle: "Maasai Beadwork",
+        imageAlt: "Cartoon of a wide layered collar of colored beads and a red checked blanket.",
+        description:
+          "Among the Maasai, working with colored beads is a woman's task and a form of social writing. Each color carries a set meaning: red evokes bravery and the blood of cattle, white milk and peace, blue the sky and water, green the land. Women make flat wide collars, bracelets, and ear ornaments that signal the age, marital status, and rank of the wearer, and give specific pieces at rites of passage. The other distinctive garment is the shuka, a checked cloth blanket, almost always red, worn knotted around the body, which replaced cowhides over the course of the 20th century.",
+      },
+    },
+  },
 ];

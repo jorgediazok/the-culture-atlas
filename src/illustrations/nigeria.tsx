@@ -1,4 +1,4 @@
-import { shade } from "./palette";
+import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 function person(x: number, y: number, scale: number, dark: string, robe: string, skin = "#3A2A1E") {
@@ -280,6 +280,228 @@ const LaRocaMonoliticaQueVigilaLaEntradaAAbuja: IllustrationComponent = () => (
   </g>
 );
 
+const ElEscritorCuyaNovelaAbrioLaLiteraturaAfricana: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8A5C38";
+  const desk = "#7A4A2B";
+  return (
+    <g>
+      <rect x="120" y="205" width="180" height="14" fill={desk} stroke={dark} strokeWidth="2.5" />
+      <path d="M150 235 L150 205 M270 235 L270 205" stroke={shade(desk, 0.25)} strokeWidth="6" />
+      {[[140, 200], [162, 202], [186, 199]].map(([x, y], i) => (
+        <rect key={i} x={x} y={y} width="20" height={20 - i * 3} fill={i % 2 ? tint(accentColor, 0.3) : accentColor} stroke={dark} strokeWidth="2" />
+      ))}
+      <path d="M225 235 L220 165 Q245 145 270 165 L268 235 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+      <ellipse cx="245" cy="150" rx="15" ry="16" fill={skin} stroke={shade(skin, 0.3)} strokeWidth="2" />
+      <path d="M231 148 Q231 128 245 126 Q259 128 259 148 Z" fill="#2A2A2E" />
+      <path d="M232 172 Q210 178 200 195" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <line x1="200" y1="195" x2="185" y2="205" stroke={dark} strokeWidth="2.5" />
+    </g>
+  );
+};
+
+const ElPrimerAfricanoEnGanarElNobelDeLiteratura: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8A5C38";
+  const hair = "#D8D0C4";
+  return (
+    <g>
+      {/* mask behind */}
+      <path d="M235 100 Q285 95 290 145 Q292 185 250 195 Q220 190 220 150 Q218 115 235 100 Z" fill={shade(accentColor, 0.1)} stroke={dark} strokeWidth="3" />
+      <circle cx="245" cy="140" r="7" fill={dark} opacity="0.6" />
+      <circle cx="272" cy="145" r="7" fill={dark} opacity="0.6" />
+      <path d="M245 168 q15 10 30 0" fill="none" stroke={dark} strokeWidth="3" />
+      {/* speaker */}
+      <path d="M140 235 L136 160 Q165 142 194 160 L190 235 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+      <ellipse cx="165" cy="145" rx="17" ry="18" fill={skin} stroke={shade(skin, 0.3)} strokeWidth="2" />
+      <path d="M149 140 Q149 118 165 116 Q181 118 181 140 Q178 128 165 128 Q152 128 149 140 Z" fill={hair} />
+      <rect x="160" y="185" width="10" height="30" fill={dark} />
+      <circle cx="165" cy="182" r="9" fill={dark} />
+    </g>
+  );
+};
+
+const LasCabezasDeTerracotaQueAsombraronAEuropa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const clay = tint(accentColor, 0.25);
+  return (
+    <g>
+      <path d="M155 240 L160 200 L250 200 L255 240 Z" fill={shade(clay, 0.15)} stroke={dark} strokeWidth="2.5" />
+      <path d="M165 205 Q160 140 205 110 Q250 140 245 205 Z" fill={clay} stroke={dark} strokeWidth="3" />
+      <ellipse cx="185" cy="155" rx="5" ry="7" fill={dark} />
+      <ellipse cx="225" cy="155" rx="5" ry="7" fill={dark} />
+      <path d="M198 168 Q205 178 212 168" fill="none" stroke={dark} strokeWidth="2.5" />
+      <path d="M203 185 Q205 192 207 185" fill="none" stroke={dark} strokeWidth="2" />
+      {/* fine vertical facial lines */}
+      {[178, 190, 220, 232].map((x) => (
+        <line key={x} x1={x} y1="130" x2={x} y2="190" stroke={shade(clay, 0.35)} strokeWidth="1.5" opacity="0.6" />
+      ))}
+      <path d="M170 118 Q205 98 240 118" fill="none" stroke={dark} strokeWidth="3" />
+    </g>
+  );
+};
+
+const LaTunicaDeTresPiezasQueVisteConAutoridad: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const inner = tint(accentColor, 0.4);
+  const gold = "#D4AF37";
+  const skin = "#8A5C38";
+  return (
+    <g>
+      <path d="M165 240 L172 165 Q205 150 238 165 L245 240 Z" fill={inner} stroke={dark} strokeWidth="2.5" />
+      {/* agbada oversized sleeves */}
+      <path d="M172 165 L110 210 L128 230 L182 190 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M238 165 L300 210 L282 230 L228 190 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M180 178 L230 178 L245 240 L165 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" opacity="0.95" />
+      {[186, 200, 214, 224].map((y, i) => (
+        <line key={y} x1={196 - i} y1={186 + i * 12} x2={214 + i} y2={186 + i * 12} stroke={gold} strokeWidth="3" />
+      ))}
+      <ellipse cx="205" cy="140" rx="16" ry="17" fill={skin} stroke={shade(skin, 0.3)} strokeWidth="2" />
+      <path d="M188 138 Q193 118 205 118 Q217 118 222 138 Q217 128 205 128 Q193 128 188 138 Z" fill="#2A2A2E" />
+      <path d="M188 120 Q205 105 222 120" fill="none" stroke={gold} strokeWidth="4" />
+    </g>
+  );
+};
+
+const LaBrochetaPicanteQuePerfumaLasCallesDeNoche: IllustrationComponent = () => {
+  const meat = "#8A3B22";
+  const spice = "#C99A3C";
+  const ember = "#E8571F";
+  return (
+    <g>
+      <rect x="110" y="205" width="200" height="12" rx="3" fill="#3A3A3A" />
+      <rect x="120" y="217" width="180" height="6" fill={ember} opacity="0.8" />
+      {[140, 175, 210, 245, 280].map((x) => (
+        <g key={x}>
+          <line x1={x} y1="150" x2={x} y2="205" stroke="#8A6A3C" strokeWidth="3" />
+          {[0, 1, 2].map((k) => (
+            <rect key={k} x={x - 10} y={155 + k * 18} width="20" height="14" rx="3" fill={meat} stroke={shade(meat, 0.3)} strokeWidth="2" />
+          ))}
+          <path d={`M${x - 12} 152 Q${x} 145 ${x + 12} 152`} fill="none" stroke={spice} strokeWidth="4" />
+        </g>
+      ))}
+      {[150, 190, 230, 270].map((x) => (
+        <circle key={x} cx={x} cy="220" r="2" fill="#F4C430" opacity="0.7" />
+      ))}
+    </g>
+  );
+};
+
+const ElFestivalDondeMilesSeLanzanAlRioAPescar: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#2E86AB";
+  const skin = "#8A5C38";
+  return (
+    <g>
+      <rect x="90" y="140" width="230" height="110" fill={water} />
+      <path d="M90 150 Q150 140 210 150 Q270 140 320 150" fill="none" stroke={tint(water, 0.4)} strokeWidth="3" opacity="0.6" />
+      {[[130, 200], [175, 210], [220, 198], [265, 208]].map(([x, y], i) => (
+        <g key={i}>
+          <circle cx={x} cy={y - 25} r="10" fill={skin} stroke={shade(skin, 0.3)} strokeWidth="2" />
+          <path d={`M${x - 10} ${y - 15} Q${x} ${y - 5} ${x + 10} ${y - 15} L${x + 8} ${y} L${x - 8} ${y} Z`} fill={accentColor} stroke={dark} strokeWidth="2" />
+          {/* hand net */}
+          <path d={`M${x + (i % 2 ? 12 : -12)} ${y - 10} L${x + (i % 2 ? 30 : -30)} ${y - 25}`} stroke="#7A4A2B" strokeWidth="2.5" />
+          <path d={`M${x + (i % 2 ? 30 : -30)} ${y - 25} q6 10 -2 18 q-8 4 -12 -6`} fill="none" stroke={dark} strokeWidth="1.5" />
+          {/* floating gourd */}
+          <circle cx={x - 14} cy={y + 4} r="6" fill="#C99A3C" stroke={shade("#C99A3C", 0.3)} strokeWidth="1.5" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const ElBosqueSagradoQueProtegeALaDiosaDelRio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const leaf = "#4A8F4E";
+  const water = "#2E86AB";
+  const statue = tint(accentColor, 0.3);
+  return (
+    <g>
+      <path d="M90 235 Q150 245 205 235 Q260 245 320 235 L320 250 L90 250 Z" fill={water} />
+      {[120, 300].map((x) => (
+        <g key={x}>
+          <line x1={x} y1="230" x2={x} y2="140" stroke="#6B4A2E" strokeWidth="8" />
+          <circle cx={x} cy="125" r="30" fill={leaf} stroke={shade(leaf, 0.3)} strokeWidth="2.5" />
+        </g>
+      ))}
+      <path d="M195 235 L192 175 Q205 160 218 175 L215 235 Z" fill={statue} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="160" rx="12" ry="13" fill={statue} stroke={dark} strokeWidth="2.5" />
+      <circle cx="160" cy="160" r="16" fill={leaf} opacity="0.7" />
+      <circle cx="250" cy="150" r="20" fill={leaf} opacity="0.6" />
+    </g>
+  );
+};
+
+const LaMusicaQueDespertabaALosFielesEnRamadan: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8A5C38";
+  const drumSkin = "#E8DCC0";
+  return (
+    <g>
+      <path d="M175 240 L170 165 Q205 148 240 165 L235 240 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="150" rx="16" ry="17" fill={skin} stroke={shade(skin, 0.3)} strokeWidth="2" />
+      <path d="M189 148 Q189 126 205 124 Q221 126 221 148 Z" fill="#2A2A2E" />
+      <line x1="205" y1="188" x2="205" y2="235" stroke={dark} strokeWidth="4" />
+      <circle cx="205" cy="180" r="10" fill={dark} />
+      {[130, 285].map((x, i) => (
+        <g key={x}>
+          <path d={`M${x - 16} 235 L${x - 10} 175 Q${x} 168 ${x + 10} 175 L${x + 16} 235 Z`} fill={i ? shade(accentColor, 0.15) : accentColor} stroke={dark} strokeWidth="2.5" />
+          <ellipse cx={x} cy="175" rx="10" ry="6" fill={drumSkin} stroke={dark} strokeWidth="2" />
+          {[190, 205, 220].map((y) => (
+            <line key={y} x1={x - 9} y1={y} x2={x + 9} y2={y - 4} stroke={dark} strokeWidth="1.2" opacity="0.4" />
+          ))}
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const LaEscrituraSecretaDeSignosDeUnaSociedad: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const cloth = tint(accentColor, 0.4);
+  const ink = shade(accentColor, 0.3);
+  return (
+    <g>
+      <rect x="100" y="100" width="150" height="140" fill={cloth} stroke={dark} strokeWidth="3" />
+      <g stroke={ink} strokeWidth="4" fill="none">
+        <circle cx="140" cy="135" r="12" />
+        <path d="M175 125 l16 20 M191 125 l-16 20" />
+        <path d="M130 175 l0 -20 10 10 10 -10 0 20" />
+        <path d="M195 170 h20 M205 160 v20" />
+        <path d="M140 215 q10 -14 20 0 q10 -14 20 0" />
+      </g>
+      {/* mask beside the cloth */}
+      <path d="M275 130 Q310 128 312 165 Q313 200 280 205 Q255 200 258 165 Q258 132 275 130 Z" fill={shade(accentColor, 0.1)} stroke={dark} strokeWidth="3" />
+      <circle cx="278" cy="160" r="6" fill={dark} />
+      <circle cx="298" cy="163" r="6" fill={dark} />
+      <path d="M278 182 q10 8 20 0" fill="none" stroke={dark} strokeWidth="2.5" />
+    </g>
+  );
+};
+
+const ElIdiomaCriolloQueEntiendeCasiTodoElPais: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skinA = "#8A5C38";
+  const skinB = "#5C3A22";
+  return (
+    <g>
+      <path d="M140 240 L136 175 Q160 160 184 175 L180 240 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+      <ellipse cx="160" cy="160" rx="15" ry="16" fill={skinA} stroke={shade(skinA, 0.3)} strokeWidth="2" />
+      <path d="M225 240 L221 175 Q245 160 269 175 L265 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="245" cy="160" rx="15" ry="16" fill={skinB} stroke={shade(skinB, 0.3)} strokeWidth="2" />
+      {/* speech bubbles with mixed words */}
+      <path d="M130 130 Q120 100 155 98 Q185 96 180 125 Q182 138 165 136 L150 148 L152 132 Q128 132 130 130 Z" fill="#F2EFE6" stroke={dark} strokeWidth="2.5" />
+      <path d="M235 120 Q225 92 262 92 Q292 94 286 122 Q288 135 270 132 L258 145 L258 130 Q233 130 235 120 Z" fill="#F2EFE6" stroke={dark} strokeWidth="2.5" />
+      {[[142, 112], [160, 118]].map(([x, y], i) => (
+        <rect key={i} x={x} y={y} width="20" height="6" rx="2" fill={dark} opacity="0.3" />
+      ))}
+      {[[247, 106], [263, 112]].map(([x, y], i) => (
+        <rect key={i} x={x} y={y} width="20" height="6" rx="2" fill={dark} opacity="0.3" />
+      ))}
+    </g>
+  );
+};
+
 export const nigeriaIllustrations: Record<string, IllustrationDefinition> = {
   "la-industria-de-cine-mas-prolifica-del-mundo": { component: LaIndustriaDeCineMasProlificaDelMundo },
   "del-afrobeat-de-fela-kuti-al-pop-global": { component: DelAfrobeatDeFelaKutiAlPopGlobal },
@@ -291,4 +513,14 @@ export const nigeriaIllustrations: Record<string, IllustrationDefinition> = {
   "la-megaciudad-mas-grande-de-africa": { component: LaMegaciudadMasGrandeDeAfrica },
   "el-tambor-que-imita-el-habla-yoruba": { component: ElTamborQueImitaElHablaYoruba },
   "la-roca-monolitica-que-vigila-la-entrada-a-abuja": { component: LaRocaMonoliticaQueVigilaLaEntradaAAbuja },
+  "el-escritor-cuya-novela-abrio-la-literatura-africana": { component: ElEscritorCuyaNovelaAbrioLaLiteraturaAfricana },
+  "el-primer-africano-en-ganar-el-nobel-de-literatura": { component: ElPrimerAfricanoEnGanarElNobelDeLiteratura },
+  "las-cabezas-de-terracota-que-asombraron-a-europa": { component: LasCabezasDeTerracotaQueAsombraronAEuropa },
+  "la-tunica-de-tres-piezas-que-viste-con-autoridad": { component: LaTunicaDeTresPiezasQueVisteConAutoridad },
+  "la-brocheta-picante-que-perfuma-las-calles-de-noche": { component: LaBrochetaPicanteQuePerfumaLasCallesDeNoche },
+  "el-festival-donde-miles-se-lanzan-al-rio-a-pescar": { component: ElFestivalDondeMilesSeLanzanAlRioAPescar },
+  "el-bosque-sagrado-que-protege-a-la-diosa-del-rio": { component: ElBosqueSagradoQueProtegeALaDiosaDelRio },
+  "la-musica-que-despertaba-a-los-fieles-en-ramadan": { component: LaMusicaQueDespertabaALosFielesEnRamadan },
+  "la-escritura-secreta-de-signos-de-una-sociedad": { component: LaEscrituraSecretaDeSignosDeUnaSociedad },
+  "el-idioma-criollo-que-entiende-casi-todo-el-pais": { component: ElIdiomaCriolloQueEntiendeCasiTodoElPais },
 };

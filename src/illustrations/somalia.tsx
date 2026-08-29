@@ -247,6 +247,216 @@ const LosDibujosDeHennaParaBodasYParaEid: IllustrationComponent = () => (
   </g>
 );
 
+const CocinaSomaliCanjeero: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const bread = "#E8CE94";
+  const rice = "#E8C87A";
+  return (
+    <g>
+      {[0, 1, 2].map((i) => (
+        <ellipse key={i} cx={155} cy={195 - i * 12} rx="55" ry="16" fill={bread} stroke={dark} strokeWidth="2.5" transform={`translate(${i * 4} 0)`} />
+      ))}
+      {[120, 140, 160, 180].map((x) => (
+        <circle key={x} cx={x} cy="171" r="2" fill={dark} opacity="0.4" />
+      ))}
+      <path d="M235 235 Q225 175 275 175 Q315 175 305 235 Z" fill={rice} stroke={shade(rice, 0.3)} strokeWidth="3" />
+      {[[255, 205], [280, 195], [265, 220]].map(([x, y], i) => (
+        <path key={i} d={`M${x} ${y} l14 -8 6 12 -14 8 Z`} fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      ))}
+    </g>
+  );
+};
+
+const HawalaSistemaTransferencias: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skinA = "#8A5C38";
+  const skinB = "#5C3A22";
+  const counter = tint(accentColor, 0.4);
+  return (
+    <g>
+      {[110, 275].map((x) => (
+        <rect key={x} x={x} y="190" width="35" height="45" fill={counter} stroke={dark} strokeWidth="2.5" />
+      ))}
+      <path d="M145 195 Q205 175 265 195" fill="none" stroke={dark} strokeWidth="2" strokeDasharray="6 5" opacity="0.6" />
+      <ellipse cx="127" cy="170" rx="14" ry="15" fill={skinA} stroke={shade(skinA, 0.3)} strokeWidth="2" />
+      <ellipse cx="292" cy="170" rx="14" ry="15" fill={skinB} stroke={shade(skinB, 0.3)} strokeWidth="2" />
+      <path d="M141 190 Q175 180 195 188" fill="none" stroke={skinA} strokeWidth="7" strokeLinecap="round" />
+      <path d="M278 190 Q245 180 225 188" fill="none" stroke={skinB} strokeWidth="7" strokeLinecap="round" />
+      <circle cx="205" cy="188" r="9" fill={dark} opacity="0.5" />
+      {/* phones */}
+      <rect x="118" y="150" width="12" height="18" rx="2" fill={dark} transform="rotate(-15 124 159)" />
+      <rect x="283" y="150" width="12" height="18" rx="2" fill={dark} transform="rotate(15 289 159)" />
+    </g>
+  );
+};
+
+const VestimentaGuntiino: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8A5C38";
+  const cloth = accentColor;
+  return (
+    <g>
+      <path d="M175 240 L170 150 Q205 130 225 155 L245 240 Z" fill={cloth} stroke={dark} strokeWidth="3" />
+      <path d="M188 155 Q170 145 178 130 Q195 125 200 145 Z" fill={tint(cloth, 0.3)} stroke={dark} strokeWidth="2.5" />
+      <path d="M170 150 Q160 145 158 132" fill="none" stroke={dark} strokeWidth="2" opacity="0.5" />
+      <ellipse cx="205" cy="118" rx="15" ry="16" fill={skin} stroke={shade(skin, 0.3)} strokeWidth="2" />
+      <path d="M190 116 Q190 96 205 94 Q220 96 220 116 Q212 106 205 106 Q198 106 190 116 Z" fill="#2A2A2E" />
+      <path d="M180 235 Q205 226 230 235" fill="none" stroke={dark} strokeWidth="2" opacity="0.4" />
+    </g>
+  );
+};
+
+const DhaantoDanzaSomali: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skins = ["#8A5C38", "#C99A6B", "#5C3A22"];
+  return (
+    <g>
+      {[0, 1, 2].map((i) => {
+        const x = 140 + i * 65;
+        const skin = skins[i];
+        const lean = i % 2 ? 8 : -8;
+        return (
+          <g key={i} transform={`translate(${lean} 0)`}>
+            <path d={`M${x - 16} 240 L${x - 14} 190 Q${x} 178 ${x + 14} 190 L${x + 16} 240 Z`} fill={tint(accentColor, i % 2 ? 0.15 : 0.4)} stroke={dark} strokeWidth="2.5" />
+            <ellipse cx={x} cy="172" rx="13" ry="14" fill={skin} stroke={shade(skin, 0.3)} strokeWidth="2" />
+            {i < 2 && (
+              <line x1={x + 13} y1="188" x2={x + 65 - 13} y2="188" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+            )}
+          </g>
+        );
+      })}
+    </g>
+  );
+};
+
+const HeelloGeneroMusical: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const machine = "#4A4A50";
+  const skin = "#8A5C38";
+  return (
+    <g>
+      <rect x="105" y="180" width="90" height="45" rx="6" fill={machine} stroke={dark} strokeWidth="2.5" />
+      <rect x="112" y="192" width="76" height="18" fill="#2A2A2E" />
+      {[120, 135, 150, 165, 180].map((x) => (
+        <rect key={x} x={x} y="212" width="8" height="8" fill="#D8D0C4" stroke={dark} strokeWidth="1" />
+      ))}
+      <rect x="140" y="170" width="20" height="10" fill={dark} />
+      {/* singer */}
+      <path d="M235 240 L231 165 Q260 148 285 165 L281 240 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+      <ellipse cx="258" cy="150" rx="15" ry="16" fill={skin} stroke={shade(skin, 0.3)} strokeWidth="2" />
+      <line x1="258" y1="188" x2="258" y2="235" stroke={dark} strokeWidth="4" />
+      <circle cx="258" cy="180" r="10" fill={dark} />
+    </g>
+  );
+};
+
+const SultanatoAdalComercio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#2E86AB";
+  const sail = "#E8DCC0";
+  return (
+    <g>
+      <path d="M90 235 Q205 225 320 235 L320 250 L90 250 Z" fill={water} />
+      {[[140, 200], [260, 195]].map(([x, y], i) => (
+        <g key={i}>
+          <path d={`M${x - 22} ${y} Q${x} ${y + 10} ${x + 22} ${y} L${x + 16} ${y + 22} L${x - 16} ${y + 22} Z`} fill={shade(accentColor, 0.1)} stroke={dark} strokeWidth="2.5" />
+          <line x1={x} y1={y} x2={x} y2={y - 45} stroke={dark} strokeWidth="3" />
+          <path d={`M${x} ${y - 45} L${x + 24} ${y - 5} L${x} ${y - 5} Z`} fill={sail} stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
+      {[125, 148, 245, 268].map((x) => (
+        <rect key={x} x={x} y="215" width="10" height="12" fill="#C99A3C" stroke={dark} strokeWidth="1.5" />
+      ))}
+    </g>
+  );
+};
+
+const PuertoBerberaAntiguo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#2E86AB";
+  const sand = "#E8D6A8";
+  return (
+    <g>
+      <rect x="90" y="200" width="230" height="50" fill={sand} />
+      <path d="M90 200 Q205 190 320 200 L320 90 L90 90 Z" fill={water} />
+      {[[140, 150], [230, 165]].map(([x, y], i) => (
+        <g key={i}>
+          <path d={`M${x - 20} ${y + 30} L${x} ${y} L${x + 20} ${y + 30} Z`} fill={shade(accentColor, 0.1)} stroke={dark} strokeWidth="2.5" />
+          <line x1={x} y1={y} x2={x} y2={y - 15} stroke={dark} strokeWidth="2.5" />
+        </g>
+      ))}
+      {/* sacks of goods on the dock */}
+      {[110, 135, 290].map((x) => (
+        <ellipse key={x} cx={x} cy="215" rx="12" ry="14" fill="#C99A3C" stroke={dark} strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
+const ComunidadBravaneseChimwiini: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const stone = tint(accentColor, 0.4);
+  const mosque = "#F2EFE6";
+  return (
+    <g>
+      <rect x="95" y="160" width="90" height="80" fill={stone} stroke={dark} strokeWidth="2.5" />
+      <rect x="105" y="175" width="16" height="20" fill={dark} opacity="0.4" />
+      <rect x="140" y="175" width="16" height="20" fill={dark} opacity="0.4" />
+      {/* mosque */}
+      <rect x="210" y="185" width="90" height="55" fill={mosque} stroke={dark} strokeWidth="2.5" />
+      <path d="M235 185 Q255 155 275 185 Z" fill={mosque} stroke={dark} strokeWidth="2.5" />
+      <rect x="290" y="130" width="16" height="80" fill={mosque} stroke={dark} strokeWidth="2.5" />
+      <path d="M290 130 Q298 118 306 130 Z" fill={mosque} stroke={dark} strokeWidth="2" />
+      <path d="M90 240 L320 240 L320 250 L90 250 Z" fill={dark} opacity="0.3" />
+    </g>
+  );
+};
+
+const UunsiInciensoDomestico: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const clay = "#9C6B44";
+  const smoke = tint(accentColor, 0.5);
+  return (
+    <g>
+      <path d="M175 235 Q170 205 205 200 Q240 205 235 235 Z" fill={clay} stroke={shade(clay, 0.3)} strokeWidth="3" />
+      <ellipse cx="205" cy="200" rx="30" ry="9" fill={shade(clay, 0.15)} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="205" cy="198" rx="20" ry="5" fill="#C4874A" />
+      {[-14, 0, 16].map((d, i) => (
+        <path
+          key={i}
+          d={`M${205 + d} 195 Q${195 + d} 160 ${210 + d} 135 Q${200 + d} 105 ${215 + d} 80`}
+          fill="none"
+          stroke={smoke}
+          strokeWidth="5"
+          opacity="0.55"
+        />
+      ))}
+    </g>
+  );
+};
+
+const BuraanburPoesiaFemenina: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skins = ["#8A5C38", "#C99A6B", "#5C3A22"];
+  const drum = "#7A4A2B";
+  return (
+    <g>
+      <path d="M195 240 L190 195 Q205 182 220 195 L215 240 Z" fill={drum} stroke={shade(drum, 0.3)} strokeWidth="3" />
+      <ellipse cx="205" cy="195" rx="15" ry="7" fill="#E8DCC0" stroke={dark} strokeWidth="2" />
+      {skins.map((skin, i) => {
+        const x = 130 + i * 90;
+        return (
+          <g key={i}>
+            <path d={`M${x - 16} 240 L${x - 14} 195 Q${x} 184 ${x + 14} 195 L${x + 16} 240 Z`} fill={tint(accentColor, i % 2 ? 0.3 : 0.1)} stroke={dark} strokeWidth="2.5" />
+            <ellipse cx={x} cy="178" rx="13" ry="14" fill={skin} stroke={shade(skin, 0.3)} strokeWidth="2" />
+            <path d={`M${x - 10} 194 q10 8 20 0`} fill="none" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+          </g>
+        );
+      })}
+    </g>
+  );
+};
+
 export const somaliaIllustrations: Record<string, IllustrationDefinition> = {
   "la-tierra-de-punt-que-comerciaba-con-los-faraones": { component: LaTierraDePuntQueComerciabaConLosFaraones },
   "el-incienso-y-la-mirra-que-perfuman-el-mundo": { component: ElInciensoYLaMirraQuePerfumanElMundo },
@@ -258,4 +468,14 @@ export const somaliaIllustrations: Record<string, IllustrationDefinition> = {
   "la-ley-que-nunca-se-escribio-en-ningun-papel": { component: LaLeyQueNuncaSeEscribioEnNingunPapel },
   "el-te-especiado-que-recibe-a-cada-visitante": { component: ElTeEspeciadoQueRecibeACadaVisitante },
   "los-dibujos-de-henna-para-bodas-y-para-eid": { component: LosDibujosDeHennaParaBodasYParaEid },
+  "cocina-somali-canjeero": { component: CocinaSomaliCanjeero },
+  "hawala-sistema-transferencias": { component: HawalaSistemaTransferencias },
+  "vestimenta-guntiino": { component: VestimentaGuntiino },
+  "dhaanto-danza-somali": { component: DhaantoDanzaSomali },
+  "heello-genero-musical": { component: HeelloGeneroMusical },
+  "sultanato-adal-comercio": { component: SultanatoAdalComercio },
+  "puerto-berbera-antiguo": { component: PuertoBerberaAntiguo },
+  "comunidad-bravanese-chimwiini": { component: ComunidadBravaneseChimwiini },
+  "uunsi-incienso-domestico": { component: UunsiInciensoDomestico },
+  "buraanbur-poesia-femenina": { component: BuraanburPoesiaFemenina },
 };

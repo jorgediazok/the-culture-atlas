@@ -243,4 +243,234 @@ export const southAfrica: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "desmond-tutu-crv",
+    order: 11,
+    placeholderEmoji: "⚖️",
+    accentColor: "#7A5C99",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arzobispo detrás de la Comisión de la Verdad",
+        subtitle: "Desmond Tutu y la Comisión de la Verdad",
+        imageAlt: "Caricatura de un hombre con sotana morada y una gran sonrisa, sosteniendo un mazo.",
+        description:
+          "Desmond Tutu, arzobispo anglicano de Ciudad del Cabo y ganador del Premio Nobel de la Paz en 1984 por su oposición pacífica al apartheid, presidió a partir de 1996 la Comisión de la Verdad y la Reconciliación, un organismo inédito creado tras el fin del régimen segregacionista para investigar los crímenes cometidos por todos los bandos durante décadas de violencia política. En lugar de juicios penales convencionales, la comisión ofrecía amnistía a quienes confesaran públicamente y en detalle sus actos, a cambio de que las víctimas y sus familias conocieran por fin la verdad sobre lo ocurrido. Tutu, conocido por su risa fácil y su franqueza, acuñó para describir a la Sudáfrica posterior al apartheid la expresión 'nación arcoíris', y sus audiencias televisadas se convirtieron en un modelo estudiado por otros países en transición.",
+      },
+      en: {
+        title: "The Archbishop Behind the Truth Commission",
+        subtitle: "Desmond Tutu and the Truth Commission",
+        imageAlt: "Cartoon of a man in a purple cassock with a big smile, holding a gavel.",
+        description:
+          "Desmond Tutu, Anglican archbishop of Cape Town and winner of the 1984 Nobel Peace Prize for his peaceful opposition to apartheid, chaired from 1996 the Truth and Reconciliation Commission, an unprecedented body created after the end of the segregationist regime to investigate crimes committed by all sides during decades of political violence. Instead of conventional criminal trials, the commission offered amnesty to those who publicly and fully confessed their acts, in exchange for victims and their families finally learning the truth about what had happened. Tutu, known for his easy laugh and outspokenness, coined the phrase 'rainbow nation' to describe post-apartheid South Africa, and the commission's televised hearings became a model studied by other countries in transition.",
+      },
+    },
+  },
+  {
+    id: "cuna-humanidad",
+    order: 12,
+    placeholderEmoji: "🦴",
+    accentColor: "#9C7B4A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las cuevas con algunos de los homínidos más antiguos",
+        subtitle: "La Cuna de la Humanidad",
+        imageAlt: "Caricatura de una excavación en una cueva con un esqueleto fósil parcialmente expuesto.",
+        description:
+          "La Cuna de la Humanidad, un área de cuevas calizas al noroeste de Johannesburgo, concentra una de las mayores colecciones de fósiles de homínidos antiguos jamás halladas en un mismo lugar. En sus cuevas de Sterkfontein se descubrieron 'el señor Ples', un cráneo de Australopithecus africanus de más de dos millones de años, y 'Pie Pequeño', un esqueleto casi completo de la misma especie que tardó veinte años en excavarse por completo debido a lo frágil y enredado que estaba en la roca. Los hallazgos de la región, que se remontan a más de tres millones de años, ayudaron a establecer que África, y en particular el sur del continente, fue un escenario clave de la evolución humana. Es patrimonio de la humanidad desde 1999.",
+      },
+      en: {
+        title: "The Caves Holding Some of the Oldest Hominids",
+        subtitle: "The Cradle of Humankind",
+        imageAlt: "Cartoon of an excavation in a cave with a fossil skeleton partly exposed.",
+        description:
+          "The Cradle of Humankind, an area of limestone caves northwest of Johannesburg, holds one of the largest collections of ancient hominid fossils ever found in a single place. Its Sterkfontein caves yielded 'Mrs. Ples,' a skull of Australopithecus africanus more than two million years old, and 'Little Foot,' a nearly complete skeleton of the same species that took twenty years to fully excavate because of how fragile and tangled it was within the rock. Finds in the region, dating back more than three million years, helped establish Africa, and southern Africa in particular, as a key stage in human evolution. It has been a World Heritage Site since 1999.",
+      },
+    },
+  },
+  {
+    id: "arte-rupestre-san",
+    order: 13,
+    placeholderEmoji: "🎨",
+    accentColor: "#B5732E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte rupestre más antiguo y continuo del planeta",
+        subtitle: "El arte rupestre san",
+        imageAlt: "Caricatura de figuras de animales y cazadores pintadas en ocre sobre una pared rocosa.",
+        description:
+          "El pueblo san, considerado uno de los habitantes más antiguos del sur de África, dejó en cuevas y refugios rocosos de todo el país, sobre todo en las montañas del Drakensberg, decenas de miles de pinturas hechas con pigmentos de ocre, sangre y grasa animal a lo largo de al menos veinte mil años, la tradición artística continua más larga documentada en el mundo. Las pinturas muestran antílopes, cazadores con arcos y figuras a medio camino entre lo humano y lo animal, vinculadas a rituales de trance chamánico en los que los sanadores san creían transformarse en animales para curar, traer lluvia o controlar la caza. Buena parte de ese conocimiento se perdió cuando la colonización desplazó y diezmó a las comunidades san, pero los sitios pintados siguen revelando su cosmovisión a los investigadores.",
+      },
+      en: {
+        title: "The Oldest Continuous Rock Art on the Planet",
+        subtitle: "San Rock Art",
+        imageAlt: "Cartoon of animal figures and hunters painted in ochre on a rock wall.",
+        description:
+          "The San people, considered among the oldest inhabitants of southern Africa, left in caves and rock shelters across the country, especially in the Drakensberg mountains, tens of thousands of paintings made with ochre, blood, and animal fat pigments over at least twenty thousand years, the longest continuous documented artistic tradition in the world. The paintings show antelope, hunters with bows, and figures halfway between human and animal, linked to shamanic trance rituals in which San healers believed they transformed into animals to heal, bring rain, or control the hunt. Much of that knowledge was lost when colonization displaced and decimated San communities, but the painted sites still reveal their worldview to researchers today.",
+      },
+    },
+  },
+  {
+    id: "bo-kaap-cocina-malaya",
+    order: 14,
+    placeholderEmoji: "🏘️",
+    accentColor: "#C25A8F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El barrio de casas de colores y su cocina malaya",
+        subtitle: "Bo-Kaap y la cocina cabo malaya",
+        imageAlt: "Caricatura de casas adosadas pintadas de colores brillantes en una calle empinada.",
+        description:
+          "Bo-Kaap, un barrio en la ladera de Signal Hill en Ciudad del Cabo, se formó desde el siglo XVII con esclavos y trabajadores traídos por los holandeses desde Indonesia, Malasia, India y otras partes de Asia, cuya mezcla dio origen a la comunidad conocida como cabo malaya, hoy mayoritariamente musulmana. Sus casas, alquiladas originalmente sin permiso de pintarlas, se cubrieron de colores intensos, cuenta la tradición, cuando sus habitantes finalmente pudieron ser propietarios y celebraron pintando cada fachada de un tono distinto. La cocina cabo malaya, que mezcla especias del sudeste asiático con la tradición holandesa e ingredientes locales, dio a Sudáfrica platos como el bobotie, un pastel de carne especiada cubierto de huevo, y el koesister, una masa frita bañada en almíbar.",
+      },
+      en: {
+        title: "The Colorful Quarter and Its Cape Malay Cuisine",
+        subtitle: "Bo-Kaap and Cape Malay Cuisine",
+        imageAlt: "Cartoon of row houses painted in bright colors along a steep street.",
+        description:
+          "Bo-Kaap, a neighborhood on the slope of Signal Hill in Cape Town, formed from the 17th century onward with enslaved people and workers brought by the Dutch from Indonesia, Malaysia, India, and other parts of Asia, whose blending gave rise to the community known as Cape Malay, today mostly Muslim. Its houses, originally rented with no right to paint them, were covered in bright colors, tradition says, once residents could finally own their homes and celebrated by painting each facade a different shade. Cape Malay cuisine, which blends Southeast Asian spices with Dutch tradition and local ingredients, gave South Africa dishes like bobotie, a spiced meat bake topped with egg, and koesister, fried dough soaked in syrup.",
+      },
+    },
+  },
+  {
+    id: "pinguinos-boulders-beach",
+    order: 15,
+    placeholderEmoji: "🐧",
+    accentColor: "#2E6E9E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los pingüinos que anidan junto a una playa turística",
+        subtitle: "Los pingüinos de Boulders Beach",
+        imageAlt: "Caricatura de pingüinos africanos caminando entre grandes rocas redondeadas en una playa.",
+        description:
+          "En Boulders Beach, cerca de Ciudad del Cabo, una colonia de pingüinos africanos se instaló a fines de los años ochenta entre las grandes rocas de granito que le dan nombre a la playa y hoy convive a pocos metros de los bañistas, protegida dentro de un parque nacional. Es una de las pocas especies de pingüinos que anida en tierras templadas en lugar de hielo, y su llamado, un rebuzno agudo muy similar al de un burro, le valió el apodo de 'pingüino burro'. La especie está clasificada en peligro de extinción, con una población que cayó más del noventa por ciento en el último siglo por la sobrepesca de sardinas y anchoas, la contaminación por petróleo y la pérdida de sus lugares de anidación originales en islas cercanas.",
+      },
+      en: {
+        title: "The Penguins Nesting Beside a Tourist Beach",
+        subtitle: "The Boulders Beach Penguins",
+        imageAlt: "Cartoon of African penguins walking among large rounded boulders on a beach.",
+        description:
+          "At Boulders Beach, near Cape Town, a colony of African penguins settled in the late 1980s among the large granite boulders that give the beach its name and now lives just meters from swimmers, protected inside a national park. It is one of the few penguin species that nests on temperate land rather than ice, and its call, a sharp bray much like a donkey's, earned it the nickname 'jackass penguin.' The species is classified as endangered, with a population that has fallen more than ninety percent over the last century due to overfishing of sardines and anchovies, oil pollution, and the loss of its original nesting sites on nearby islands.",
+      },
+    },
+  },
+  {
+    id: "shweshwe",
+    order: 16,
+    placeholderEmoji: "🧵",
+    accentColor: "#2E4E8F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La tela de algodón estampada que se volvió propia",
+        subtitle: "El shweshwe",
+        imageAlt: "Caricatura de un rollo de tela azul con estampados geométricos diminutos.",
+        description:
+          "El shweshwe es una tela de algodón, tradicionalmente azul añil aunque hoy también marrón o rojiza, cubierta de estampados geométricos diminutos impresos con un proceso de grabado ácido que le da una textura ligeramente rígida y crujiente al tacto. Llegó a Sudáfrica en el siglo XIX de la mano de comerciantes e inmigrantes europeos, y aunque su origen es importado, con el tiempo los pueblos xhosa, sotho y otros la adoptaron como material propio para la ropa ceremonial: vestidos de novia, faldas tradicionales y regalos para suegras en las bodas. Solo queda una fábrica en el país que sigue produciéndolo con el método histórico. Hoy diseñadores de moda sudafricanos lo reinterpretan en prendas contemporáneas.",
+      },
+      en: {
+        title: "The Printed Cotton Cloth That Became South African",
+        subtitle: "Shweshwe",
+        imageAlt: "Cartoon of a bolt of blue cloth covered in tiny geometric prints.",
+        description:
+          "Shweshwe is a cotton cloth, traditionally indigo blue though now also brown or reddish, covered in tiny geometric prints made with an acid-etching process that gives it a slightly stiff, crisp texture. It arrived in South Africa in the 19th century with European traders and settlers, and although its origin was imported, over time Xhosa, Sotho, and other peoples adopted it as their own material for ceremonial dress: wedding gowns, traditional skirts, and gifts for mothers-in-law at weddings. Only one factory in the country still produces it using the historic method. Today South African fashion designers reinterpret it in contemporary garments.",
+      },
+    },
+  },
+  {
+    id: "ubuntu",
+    order: 17,
+    placeholderEmoji: "🤲",
+    accentColor: "#C99A45",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La filosofía de 'soy porque nosotros somos'",
+        subtitle: "Ubuntu",
+        imageAlt: "Caricatura de varias manos entrelazadas formando un círculo.",
+        description:
+          "Ubuntu es un concepto ético presente en varias lenguas bantúes del sur de África que se resume a menudo en la frase 'umuntu ngumuntu ngabantu': una persona es persona a través de otras personas. La idea central es que la identidad, la humanidad y el bienestar individual dependen de la comunidad y no pueden entenderse por separado, lo que en la práctica se traduce en valores como la hospitalidad, la generosidad y la búsqueda de consenso antes que de la victoria en un conflicto. Nelson Mandela y Desmond Tutu citaron el ubuntu repetidamente como base moral del proceso de reconciliación tras el apartheid, argumentando que castigar sin restaurar la comunidad no producía una paz duradera. Hoy el término se usa también en gestión empresarial y hasta le dio nombre a un sistema operativo de código abierto.",
+      },
+      en: {
+        title: "The Philosophy of 'I Am Because We Are'",
+        subtitle: "Ubuntu",
+        imageAlt: "Cartoon of several hands clasped together forming a circle.",
+        description:
+          "Ubuntu is an ethical concept found in several Bantu languages of southern Africa, often summed up in the phrase 'umuntu ngumuntu ngabantu': a person is a person through other people. Its core idea is that identity, humanity, and individual well-being depend on community and cannot be understood in isolation, which in practice translates into values like hospitality, generosity, and seeking consensus over winning a conflict. Nelson Mandela and Desmond Tutu repeatedly invoked ubuntu as the moral basis of the post-apartheid reconciliation process, arguing that punishment without restoring community produced no lasting peace. Today the term is also used in business management and even gave its name to an open-source operating system.",
+      },
+    },
+  },
+  {
+    id: "vinedos-stellenbosch",
+    order: 18,
+    placeholderEmoji: "🍇",
+    accentColor: "#6B2E4A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las viñas holandesas que hoy exportan al mundo",
+        subtitle: "Los viñedos de Stellenbosch",
+        imageAlt: "Caricatura de hileras de vides en un valle con montañas al fondo y una granja de estilo holandés.",
+        description:
+          "La producción de vino en Sudáfrica se remonta a 1659, cuando colonos holandeses del Cabo prensaron las primeras uvas cultivadas en la región, y hoy el país es uno de los diez mayores productores de vino del mundo. Su corazón es la región de Stellenbosch, con valles de suelo granítico entre montañas que producen sobre todo variedades como el pinotage, un cruce creado en Sudáfrica en 1925 entre pinot noir y cinsault que no existe en ningún otro lugar del planeta con esta importancia. Muchas bodegas conservan casas de estilo cabo holandés, con sus característicos frontones curvos blancos, declaradas patrimonio arquitectónico. Tras el fin del apartheid, la industria se abrió con fuerza a la exportación internacional.",
+      },
+      en: {
+        title: "The Dutch Vineyards That Now Export Worldwide",
+        subtitle: "The Stellenbosch Winelands",
+        imageAlt: "Cartoon of rows of vines in a valley with mountains behind and a Dutch-style farmhouse.",
+        description:
+          "Winemaking in South Africa dates back to 1659, when Dutch settlers at the Cape pressed the first grapes grown in the region, and today the country ranks among the world's ten largest wine producers. Its heart is the Stellenbosch region, with granite-soiled valleys between mountains that grow mostly varieties like pinotage, a cross created in South Africa in 1925 between pinot noir and cinsault that exists nowhere else at this scale. Many estates keep Cape Dutch-style houses, with their distinctive curved white gables, declared architectural heritage. After the end of apartheid, the industry opened strongly to international export.",
+      },
+    },
+  },
+  {
+    id: "kwaito",
+    order: 19,
+    placeholderEmoji: "🎧",
+    accentColor: "#4A3B6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ritmo lento nacido en los townships tras 1994",
+        subtitle: "El kwaito",
+        imageAlt: "Caricatura de un DJ con auriculares frente a parlantes grandes, con gente bailando alrededor.",
+        description:
+          "El kwaito surgió en los townships de Johannesburgo a principios de los años noventa, en el momento en que Sudáfrica salía del apartheid, y tomó la base electrónica del house europeo pero la ralentizó hasta un ritmo pesado y arrastrado, cantado o hablado en su mayoría en idiomas locales como el zulú, el tsotsitaal o el inglés urbano callejero. El género se convirtió en la banda sonora de una generación joven negra que por primera vez podía moverse libremente por las ciudades, y sus letras, lejos de la política explícita, celebraban la vida cotidiana, el baile y el orgullo del barrio. Artistas como Arthur Mafokate y Brenda Fassie lo llevaron a la radio nacional, y el kwaito abrió después el camino a géneros posteriores como el gqom y el amapiano.",
+      },
+      en: {
+        title: "The Slow Beat Born in the Townships After 1994",
+        subtitle: "Kwaito",
+        imageAlt: "Cartoon of a DJ with headphones in front of large speakers, with people dancing around.",
+        description:
+          "Kwaito emerged in the townships of Johannesburg in the early 1990s, just as South Africa was emerging from apartheid, taking the electronic base of European house music and slowing it into a heavy, dragging beat, sung or spoken mostly in local languages like Zulu, tsotsitaal, or urban street English. The genre became the soundtrack of a young Black generation moving freely through cities for the first time, and its lyrics, far from explicit politics, celebrated everyday life, dancing, and neighborhood pride. Artists like Arthur Mafokate and Brenda Fassie carried it onto national radio, and kwaito later paved the way for genres like gqom and amapiano.",
+      },
+    },
+  },
+  {
+    id: "danza-junco-umhlanga",
+    order: 20,
+    placeholderEmoji: "🌾",
+    accentColor: "#B5892E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ceremonia zulú donde miles de jóvenes bailan",
+        subtitle: "El Umhlanga o danza del junco",
+        imageAlt: "Caricatura de una fila de jóvenes con faldas de cuentas cargando cañas largas.",
+        description:
+          "El Umhlanga, o ceremonia del junco, es una celebración zulú anual en la que decenas de miles de jóvenes mujeres solteras acuden al palacio real en KwaZulu-Natal para cortar cañas de junco a orillas de un río y presentarlas ante el rey en un desfile de varios días marcado por cantos, tambores y danzas tradicionales con faldas de cuentas de colores. La ceremonia, que se remonta a rituales previos a la colonización y fue revivida a fines del siglo XX, busca celebrar la castidad y preparar a las jóvenes para la vida adulta, aunque también recibió críticas por presionar sobre decisiones íntimas de las participantes. Hoy convive esa lectura tradicional con su función como gran fiesta cultural, turística y de orgullo por la identidad zulú.",
+      },
+      en: {
+        title: "The Zulu Ceremony Where Thousands of Girls Dance",
+        subtitle: "Umhlanga, the Reed Dance",
+        imageAlt: "Cartoon of a row of young women in beaded skirts carrying long reeds.",
+        description:
+          "Umhlanga, or the Reed Dance, is an annual Zulu celebration in which tens of thousands of unmarried young women travel to the royal palace in KwaZulu-Natal to cut reeds along a riverbank and present them to the king in a multi-day parade marked by singing, drumming, and traditional dances in colorful beaded skirts. The ceremony, which traces back to pre-colonial rituals and was revived in the late 20th century, aims to celebrate chastity and prepare young women for adult life, though it has also drawn criticism for pressuring participants' intimate choices. Today that traditional reading coexists with its role as a major cultural festival, tourist draw, and source of pride in Zulu identity.",
+      },
+    },
+  },
 ];
