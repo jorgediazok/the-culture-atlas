@@ -1,12 +1,14 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import { formatNumber } from "@/i18n/format";
+import { countries } from "@/content/countries";
+import { contentByCountry } from "@/content";
 
-// The project's target scope: every country in the world, 20 entries each —
-// not the current in-progress count, which keeps growing with every batch.
-const TARGET_COUNTRIES = 195;
-const TARGET_ENTRIES_PER_COUNTRY = 20;
-const TARGET_STORIES = TARGET_COUNTRIES * TARGET_ENTRIES_PER_COUNTRY;
+const COUNTRY_COUNT = countries.length;
+const STORY_COUNT = Object.values(contentByCountry).reduce(
+  (total, entries) => total + entries.length,
+  0
+);
 
 export default function Footer({
   brand,
@@ -27,8 +29,8 @@ export default function Footer({
   disclaimer: string;
   locale: string;
 }) {
-  const countryCount = formatNumber(TARGET_COUNTRIES, locale);
-  const storyCount = formatNumber(TARGET_STORIES, locale);
+  const countryCount = formatNumber(COUNTRY_COUNT, locale);
+  const storyCount = formatNumber(STORY_COUNT, locale);
   return (
     <Box
       component="footer"
