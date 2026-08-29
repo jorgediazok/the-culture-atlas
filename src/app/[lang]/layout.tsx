@@ -43,6 +43,17 @@ export async function generateMetadata({
     metadataBase: new URL("https://the-culture-atlas.vercel.app"),
     title: dict.brand,
     description: dict.tagline,
+    alternates: {
+      canonical: `/${lang}`,
+      languages: Object.fromEntries(locales.map((l) => [l, `/${l}`])),
+    },
+    openGraph: {
+      title: dict.brand,
+      description: dict.tagline,
+      locale: lang,
+      alternateLocale: locales.filter((l) => l !== lang),
+      type: "website",
+    },
   };
 }
 

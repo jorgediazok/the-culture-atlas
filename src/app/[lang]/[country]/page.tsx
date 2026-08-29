@@ -23,10 +23,29 @@ export async function generateMetadata({
   const country = countries.find((c) => c.slug === slug);
   const dict = getDictionary(lang);
 
+  if (!country) {
+    return { title: dict.brand };
+  }
+
+  const localized = localizeCountry(country, lang);
+  const title = `${localized.name} — ${dict.brand}`;
+
   return {
-    title: country
-      ? `${localizeCountry(country, lang).name} — ${dict.brand}`
-      : dict.brand,
+    title,
+    description: localized.intro,
+    alternates: {
+      canonical: `/${lang}/${slug}`,
+      languages: Object.fromEntries(
+        locales.map((l) => [l, `/${l}/${slug}`])
+      ),
+    },
+    openGraph: {
+      title,
+      description: localized.intro,
+      locale: lang,
+      alternateLocale: locales.filter((l) => l !== lang),
+      type: "article",
+    },
   };
 }
 
