@@ -200,6 +200,240 @@ const EdadCoreana: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const Hanbok: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  const jacket = tint(accentColor, 0.3);
+  return (
+    <g>
+      <circle cx="205" cy="120" r="20" fill={skin} stroke={dark} strokeWidth="2.5" />
+      {/* short jacket (jeogori) */}
+      <path d="M180 138 Q205 128 230 138 L235 175 L175 175 Z" fill={jacket} stroke={dark} strokeWidth="2.5" />
+      <path d="M195 145 L205 158 L215 145" fill="none" stroke={dark} strokeWidth="2" opacity="0.5" />
+      {/* wide high-waisted skirt (chima) */}
+      <path d="M170 172 Q205 165 240 172 L265 245 L145 245 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* sleeves */}
+      <path d="M180 145 Q150 155 145 185" fill="none" stroke={jacket} strokeWidth="12" strokeLinecap="round" />
+      <path d="M230 145 Q260 155 265 185" fill="none" stroke={jacket} strokeWidth="12" strokeLinecap="round" />
+      {/* ribbon tie */}
+      <path d="M198 158 L192 185 M212 158 L218 185" stroke={accentColor} strokeWidth="4" opacity="0.85" />
+    </g>
+  );
+};
+
+const GogiguiParrillaCoreana: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const coal = "#3A3A3A";
+  const meat = "#C97C4A";
+  return (
+    <g>
+      {/* round grill */}
+      <ellipse cx="205" cy="200" rx="95" ry="30" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="195" rx="80" ry="22" fill={dark} opacity="0.5" />
+      {/* coals beneath */}
+      {[160, 205, 250].map((x) => (
+        <ellipse key={x} cx={x} cy="210" rx="14" ry="6" fill={coal} opacity="0.6" />
+      ))}
+      {/* meat pieces on the grill */}
+      {[
+        [170, 190],
+        [205, 182],
+        [240, 192],
+        [190, 205],
+      ].map(([x, y], i) => (
+        <rect key={i} x={x - 14} y={y - 8} width="28" height="16" rx="4" fill={meat} stroke={dark} strokeWidth="1.5" transform={`rotate(${((i * 23) % 30) - 15} ${x} ${y})`} />
+      ))}
+      {/* tongs */}
+      <path d="M300 150 L270 190 M310 155 L280 195" stroke="#8B8378" strokeWidth="4" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const Suneung: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const paper = "#F5F0E6";
+  return (
+    <g>
+      {/* exam sheet */}
+      <rect x="130" y="120" width="150" height="115" fill={paper} stroke={dark} strokeWidth="2.5" />
+      {[135, 150, 165, 180, 195].map((y) => (
+        <line key={y} x1="145" y1={y + 10} x2="265" y2={y + 10} stroke={dark} strokeWidth="1.5" opacity="0.3" />
+      ))}
+      {/* filled bubble answers */}
+      {[0, 1, 2, 3, 4].map((i) => (
+        <circle key={i} cx="255" cy={140 + i * 15} r="4" fill={accentColor} opacity="0.8" />
+      ))}
+      {/* pencil resting diagonally */}
+      <path d="M195 250 L280 165 L292 177 L207 262 Z" fill="#F4A300" stroke={dark} strokeWidth="2" />
+      <path d="M280 165 L292 177 L296 160 Z" fill="#B0B0B0" />
+      {/* clock */}
+      <circle cx="300" cy="115" r="22" fill="#fff" stroke={dark} strokeWidth="2.5" />
+      <line x1="300" y1="115" x2="300" y2="100" stroke={dark} strokeWidth="2" />
+      <line x1="300" y1="115" x2="310" y2="120" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const Chimaek: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const bucket = "#C1272D";
+  const foam = "#F5F0E6";
+  return (
+    <g>
+      {/* bucket of fried chicken */}
+      <path d="M100 180 L270 180 L258 240 L112 240 Z" fill={bucket} stroke={dark} strokeWidth="3" />
+      {[
+        [130, 180],
+        [165, 172],
+        [200, 176],
+        [235, 182],
+      ].map(([x, y], i) => (
+        <ellipse key={i} cx={x} cy={y} rx="22" ry="16" fill={accentColor} stroke={dark} strokeWidth="2" />
+      ))}
+      {/* beer glass */}
+      <path d="M285 160 L292 240 L322 240 L329 160 Z" fill="#F4C430" opacity="0.6" stroke={dark} strokeWidth="2.5" />
+      <path d="M282 150 Q307 138 332 150 Q328 162 307 158 Q286 162 282 150 Z" fill={foam} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const Templestay: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  const gold = "#D4A017";
+  return (
+    <g>
+      {/* temple in background */}
+      <polygon points="140,150 205,110 270,150" fill={dark} opacity="0.4" />
+      <rect x="155" y="150" width="100" height="45" fill={tint(accentColor, 0.3)} opacity="0.5" stroke={dark} strokeWidth="1.5" />
+      {/* seated meditating figure */}
+      <circle cx="205" cy="185" r="16" fill={skin} />
+      <path d="M186 198 Q205 190 224 198 L228 225 L182 225 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M182 220 Q160 228 165 245 Q205 235 245 245 Q250 228 228 220 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* small offering candle */}
+      <rect x="270" y="220" width="6" height="18" fill={gold} />
+      <path d="M273 220 Q270 212 273 205" fill="none" stroke="#F4A300" strokeWidth="2" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const Gyeongbokgung: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  const skin = "#D9A46A";
+  return (
+    <g>
+      {/* palace gate behind */}
+      <rect x="90" y="130" width="230" height="90" fill={tint(accentColor, 0.25)} stroke={dark} strokeWidth="2.5" />
+      <polygon points="80,130 205,95 330,130" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2.5" />
+      {/* guard figure */}
+      <circle cx="205" cy="175" r="16" fill={skin} />
+      <path d="M186 188 Q205 180 224 188 L230 240 L180 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* pointed guard hat */}
+      <path d="M190 165 Q205 148 220 165 Z" fill={dark} />
+      {/* spear */}
+      <line x1="255" y1="235" x2="255" y2="150" stroke="#8B5A2B" strokeWidth="5" strokeLinecap="round" />
+      <polygon points="248,150 255,130 262,150" fill="#B0B8BF" stroke={dark} strokeWidth="1.5" />
+      <path d="M224 195 Q245 200 255 190" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const Webtoons: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  const screen = "#1A1A1A";
+  return (
+    <g>
+      {/* phone */}
+      <rect x="150" y="90" width="110" height="190" rx="14" fill={screen} stroke={dark} strokeWidth="3" />
+      <rect x="160" y="105" width="90" height="160" fill="#F5F0E6" />
+      {/* comic panels scrolling vertically */}
+      <rect x="165" y="112" width="80" height="45" fill={accentColor} opacity="0.7" />
+      <rect x="165" y="162" width="80" height="45" fill={tint(accentColor, 0.3)} opacity="0.8" />
+      <rect x="165" y="212" width="80" height="45" fill={accentColor} opacity="0.5" />
+      {/* hand holding the phone */}
+      <path d="M130 250 Q150 220 170 250 L175 290 L135 290 Z" fill={skin} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const Jesa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#6B4A2F";
+  const white = "#F5F0E6";
+  return (
+    <g>
+      {/* low table */}
+      <rect x="110" y="200" width="190" height="12" fill={wood} stroke={dark} strokeWidth="2" />
+      <line x1="125" y1="212" x2="120" y2="240" stroke={wood} strokeWidth="6" strokeLinecap="round" />
+      <line x1="285" y1="212" x2="290" y2="240" stroke={wood} strokeWidth="6" strokeLinecap="round" />
+      {/* dishes arranged in rows */}
+      {[130, 165, 200, 235, 270].map((x, i) => (
+        <ellipse key={x} cx={x} cy={195 - (i % 2) * 8} rx="14" ry="8" fill={i % 2 === 0 ? accentColor : white} stroke={dark} strokeWidth="1.5" />
+      ))}
+      {[150, 205, 260].map((x) => (
+        <ellipse key={x} cx={x} cy="178" rx="12" ry="7" fill={white} stroke={dark} strokeWidth="1.5" />
+      ))}
+      {/* candles */}
+      <rect x="140" y="150" width="6" height="24" fill={dark} />
+      <path d="M143 150 Q140 142 143 135" stroke="#F4A300" strokeWidth="2" fill="none" strokeLinecap="round" />
+      <rect x="260" y="150" width="6" height="24" fill={dark} />
+      <path d="M263 150 Q260 142 263 135" stroke="#F4A300" strokeWidth="2" fill="none" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const EsportsStarcraft: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const skin = "#D9A46A";
+  const screen = "#1A1A2E";
+  return (
+    <g>
+      {/* monitor screen glow behind */}
+      <rect x="150" y="90" width="180" height="110" rx="6" fill={screen} stroke={dark} strokeWidth="2.5" />
+      <rect x="160" y="100" width="160" height="90" fill={accentColor} opacity="0.25" />
+      {/* stage lights */}
+      {[
+        [100, 80],
+        [330, 80],
+      ].map(([x, y]) => (
+        <path key={x} d={`M${x} ${y} L${x - 14} ${y + 40} L${x + 14} ${y + 40} Z`} fill={accentColor} opacity="0.3" />
+      ))}
+      {/* player */}
+      <circle cx="205" cy="215" r="18" fill={skin} />
+      <path d="M182 230 Q205 220 228 230 L232 250 L178 250 Z" fill={dark} stroke={shade(dark, 0.3)} strokeWidth="2.5" />
+      {/* headset */}
+      <path d="M186 210 Q205 192 224 210" fill="none" stroke="#1A1A1A" strokeWidth="5" />
+      <circle cx="186" cy="212" r="6" fill="#1A1A1A" />
+      <circle cx="224" cy="212" r="6" fill="#1A1A1A" />
+    </g>
+  );
+};
+
+const FanaticosDeBeisbol: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  const pompom1 = "#F4A300";
+  return (
+    <g>
+      {/* stadium tier */}
+      <path d="M85 240 Q205 220 320 240 L320 250 L85 250 Z" fill={dark} opacity="0.3" />
+      {/* fans waving pompoms */}
+      {[130, 190, 250, 300].map((x, i) => (
+        <g key={x}>
+          <circle cx={x} cy="200" r="12" fill={skin} />
+          <rect x={x - 10} y="210" width="20" height="28" fill={i % 2 === 0 ? accentColor : pompom1} stroke={dark} strokeWidth="1.5" />
+          <circle cx={x - 18} cy="185" r="10" fill={pompom1} opacity="0.85" />
+          <circle cx={x + 18} cy="185" r="10" fill={accentColor} opacity="0.85" />
+          <line x1={x - 10} y1="215" x2={x - 18} y2="188" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+          <line x1={x + 10} y1="215" x2={x + 18} y2="188" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const southKoreaIllustrations: Record<string, IllustrationDefinition> = {
   hangul: { component: Hangul },
   "milagro-rio-han": { component: MilagroRioHan },
@@ -211,4 +445,14 @@ export const southKoreaIllustrations: Record<string, IllustrationDefinition> = {
   "alphago-baduk": { component: AlphagoBaduk },
   taekwondo: { component: Taekwondo },
   "edad-coreana": { component: EdadCoreana },
+  hanbok: { component: Hanbok },
+  "gogigui-parrilla-coreana": { component: GogiguiParrillaCoreana },
+  suneung: { component: Suneung },
+  chimaek: { component: Chimaek },
+  templestay: { component: Templestay },
+  gyeongbokgung: { component: Gyeongbokgung },
+  webtoons: { component: Webtoons },
+  jesa: { component: Jesa },
+  "esports-starcraft": { component: EsportsStarcraft },
+  "fanaticos-de-beisbol": { component: FanaticosDeBeisbol },
 };

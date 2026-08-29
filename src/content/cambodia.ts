@@ -231,4 +231,119 @@ export const cambodia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-bokator-el-arte-marcial-que-renacio-de-las-ruinas",
+    order: 11,
+    placeholderEmoji: "🥋",
+    accentColor: "#6B4226",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte marcial esculpido en los relieves de Angkor",
+        subtitle: "El bokator, arte marcial jemer",
+        imageAlt: "Caricatura de un luchador con una tela anudada en la cintura en pose de combate.",
+        description:
+          "El bokator, un arte marcial jemer con raíces que se remontan al menos al imperio de Angkor, donde relieves de piedra tallados hace casi mil años ya muestran soldados en posturas de combate casi idénticas a las técnicas actuales, combina golpes de codo, rodilla y espinilla con técnicas de sometimiento y el uso de armas tradicionales como el bastón corto y la espada curva. Practicado tradicionalmente por soldados del ejército jemer y transmitido oralmente de maestro a alumno durante generaciones, el arte marcial estuvo a punto de desaparecer por completo hacia fines del siglo XX, hasta que un pequeño grupo de maestros sobrevivientes se dedicó a documentar y revivir sistemáticamente sus más de diez mil técnicas catalogadas, cada una inspirada en el movimiento de un animal distinto. En 2022, la UNESCO reconoció al bokator como Patrimonio Cultural Inmaterial de la Humanidad.",
+      },
+      en: {
+        title: "The Martial Art Carved Into Angkor's Reliefs",
+        subtitle: "Bokator, Khmer Martial Art",
+        imageAlt: "Cartoon of a fighter with a cloth tied at the waist in a combat stance.",
+        description:
+          "Bokator, a Khmer martial art with roots tracing back at least to the Angkor empire, where stone reliefs carved almost a thousand years ago already show soldiers in combat postures nearly identical to today's techniques, combines elbow, knee, and shin strikes with grappling techniques and the use of traditional weapons like the short staff and curved sword. Traditionally practiced by soldiers of the Khmer army and passed down orally from master to student across generations, the martial art nearly disappeared entirely by the late 20th century, until a small group of surviving masters set out to systematically document and revive its more than ten thousand catalogued techniques, each inspired by the movement of a different animal. In 2022, UNESCO recognized bokator as Intangible Cultural Heritage of Humanity.",
+      },
+    },
+  },
+  {
+    id: "el-prahok-la-pasta-de-pescado-fermentado",
+    order: 12,
+    placeholderEmoji: "🫙",
+    accentColor: "#7A8450",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La pasta de pescado fermentado que sazona cada comida",
+        subtitle: "El prahok, pasta de pescado fermentado",
+        imageAlt: "Caricatura de una vasija de barro llena de pasta de pescado grisácea junto a peces secándose al sol.",
+        description:
+          "El prahok, una pasta espesa de pescado de agua dulce, generalmente pequeñas especies del Tonlé Sap, salado y fermentado durante meses o incluso años dentro de vasijas de barro selladas, es el condimento fundamental de la cocina camboyana, usado en cantidades diminutas para dar profundidad salada y umami a sopas, salsas y platos de arroz de todo el país, de forma comparable al papel de la salsa de pescado en otras cocinas del sudeste asiático. Elaborado tradicionalmente por familias enteras durante la temporada de pesca abundante que sigue a la crecida anual del Tonlé Sap, el prahok se guardaba históricamente como reserva de proteína para todo el año en comunidades sin acceso a refrigeración, y su aroma intenso y penetrante, que algunos extranjeros describen como abrumador, es para la mayoría de los camboyanos sinónimo inmediato del sabor de la comida casera.",
+      },
+      en: {
+        title: "The Fermented Fish Paste That Seasons Every Meal",
+        subtitle: "Prahok, Cambodia's Fermented Fish Paste",
+        imageAlt: "Cartoon of a clay jar full of grayish fish paste beside fish drying in the sun.",
+        description:
+          "Prahok, a thick paste of freshwater fish, usually small species from Tonle Sap, salted and fermented for months or even years inside sealed clay jars, is the fundamental seasoning of Cambodian cuisine, used in tiny amounts to add salty, umami depth to soups, sauces, and rice dishes across the country, comparable to the role fish sauce plays in other Southeast Asian cuisines. Traditionally made by entire families during the abundant fishing season that follows Tonle Sap's annual flood, prahok was historically stored as a year-round protein reserve in communities without access to refrigeration, and its intense, pungent aroma, which some foreigners describe as overwhelming, is for most Cambodians an immediate synonym for the taste of home cooking.",
+      },
+    },
+  },
+  {
+    id: "el-norry-el-tren-de-bambu-de-battambang",
+    order: 13,
+    placeholderEmoji: "🚃",
+    accentColor: "#A0822E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tren improvisado de bambú que se desarma a mano",
+        subtitle: "El norry, el tren de bambú de Battambang",
+        imageAlt: "Caricatura de una plataforma de bambú sobre dos ejes de ruedas avanzando por vías oxidadas.",
+        description:
+          "El norry, popularmente conocido como 'tren de bambú', es un vehículo ferroviario improvisado que circuló durante décadas por tramos de vías abandonadas cerca de Battambang, en el noroeste de Camboya: una plataforma plana de listones de bambú entrelazados apoyada sobre dos ejes con ruedas de metal, propulsada por un pequeño motor de moto conectado por una correa, capaz de alcanzar hasta cuarenta kilómetros por hora sobre rieles en mal estado. Como las vías eran de una sola trocha, cuando dos norry se cruzaban en sentidos opuestos, la tripulación del vehículo con menos pasajeros lo desarmaba por completo en segundos, lo bajaba del riel para dejar pasar al otro, y volvía a montarlo del otro lado, una solución completamente improvisada por comunidades locales sin ningún tipo de coordinación oficial. Aunque el servicio ferroviario formal se restableció y limitó gran parte de su recorrido original, el norry sigue operando hoy como atracción turística.",
+      },
+      en: {
+        title: "The Improvised Bamboo Train Taken Apart by Hand",
+        subtitle: "The Norry, Battambang's Bamboo Train",
+        imageAlt: "Cartoon of a bamboo platform on two wheel axles rolling along rusty tracks.",
+        description:
+          "The norry, popularly known as the 'bamboo train,' is an improvised rail vehicle that ran for decades along stretches of abandoned track near Battambang, in northwestern Cambodia: a flat platform of interwoven bamboo slats resting on two axles with metal wheels, powered by a small motorbike engine connected by a belt, able to reach up to forty kilometers an hour on tracks in rough condition. Since the line was single-track, whenever two norry met heading in opposite directions, the crew of whichever vehicle carried fewer passengers would disassemble it completely in seconds, lift it off the rails to let the other pass, and reassemble it on the other side, a solution entirely improvised by local communities with no official coordination whatsoever. Though formal rail service was later restored and limited much of its original route, the norry still operates today as a tourist attraction.",
+      },
+    },
+  },
+  {
+    id: "la-pagoda-de-plata-del-palacio-real",
+    order: 14,
+    placeholderEmoji: "🏯",
+    accentColor: "#B0B8BF",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La pagoda con un piso hecho de baldosas de plata",
+        subtitle: "La Pagoda de Plata del Palacio Real",
+        imageAlt: "Caricatura de un templo dorado con techos escalonados junto a un piso brillante de baldosas plateadas.",
+        description:
+          "La Pagoda de Plata, dentro del recinto del Palacio Real en Phnom Penh, debe su nombre a las más de cinco mil baldosas de plata maciza, de casi un kilo cada una, que cubren la totalidad de su piso, la mayoría hoy protegidas bajo alfombras para evitar el desgaste de las pisadas y solo visibles en un pequeño sector destapado para los visitantes. El templo alberga además un Buda esmeralda tallado en cristal de Baccarat y una estatua de Buda de oro macizo de más de noventa kilos incrustada con miles de diamantes, entre ellos uno de casi veinticinco quilates en la corona, tesoros que sobrevivieron ocultos o trasladados durante décadas de inestabilidad en el país. Sus muros exteriores están decorados con un extenso mural pintado a fines del siglo XIX que narra el Reamker, la versión jemer del poema épico hindú Ramayana.",
+      },
+      en: {
+        title: "The Pagoda With a Floor Made of Silver Tiles",
+        subtitle: "The Silver Pagoda of the Royal Palace",
+        imageAlt: "Cartoon of a golden temple with stepped roofs beside a shining floor of silver tiles.",
+        description:
+          "The Silver Pagoda, inside the Royal Palace compound in Phnom Penh, owes its name to the more than five thousand solid silver floor tiles, each weighing nearly a kilogram, that cover its entire floor, most of them today protected under carpets to prevent wear from footsteps and visible to visitors only in one small uncovered section. The temple also holds an Emerald Buddha carved from Baccarat crystal and a solid gold Buddha statue weighing over ninety kilograms studded with thousands of diamonds, including one of nearly twenty-five carats set into its crown, treasures that survived hidden or relocated through decades of instability in the country. Its outer walls are decorated with an extensive mural painted in the late 19th century depicting the Reamker, the Khmer version of the Hindu epic the Ramayana.",
+      },
+    },
+  },
+  {
+    id: "el-kouprey-el-buey-salvaje-que-nadie-ha-visto-en-decadas",
+    order: 15,
+    placeholderEmoji: "🐃",
+    accentColor: "#5C7A5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El buey salvaje que nadie confirmó ver en décadas",
+        subtitle: "El kouprey, el buey salvaje de Camboya",
+        imageAlt: "Caricatura de un buey salvaje de cuernos largos y curvados pastando entre pastizales altos.",
+        description:
+          "El kouprey, un gran buey salvaje de cuernos largos y curvados hacia arriba declarado animal nacional de Camboya en 1960, fue descrito científicamente recién en 1937 a partir de un cráneo hallado en un mercado de ganado, convirtiéndolo en uno de los grandes mamíferos terrestres descubiertos más tarde por la ciencia occidental en todo el siglo XX. La especie, que habitaba históricamente los bosques abiertos y pastizales del norte de Camboya y zonas fronterizas de Tailandia, Laos y Vietnam, sufrió un colapso poblacional drástico por la caza y la pérdida de hábitat, y el último avistamiento confirmado con evidencia sólida data de la década de 1980, lo que llevó a algunos científicos a considerarlo posiblemente extinto en estado silvestre, aunque nunca se declaró oficialmente así ante la falta de evidencia definitiva. Expediciones de conservación siguen buscando rastros del animal en zonas remotas, sin resultados confirmados hasta hoy.",
+      },
+      en: {
+        title: "The National Wild Ox No One Has Confirmed Seeing",
+        subtitle: "The Kouprey, Cambodia's Wild Ox",
+        imageAlt: "Cartoon of a long-horned wild ox with upward-curving horns grazing in tall grassland.",
+        description:
+          "The kouprey, a large wild ox with long, upward-curving horns declared Cambodia's national animal in 1960, was only scientifically described in 1937 from a skull found at a livestock market, making it one of the last large land mammals discovered by Western science in the entire 20th century. The species, which historically ranged across the open forests and grasslands of northern Cambodia and border areas of Thailand, Laos, and Vietnam, suffered a drastic population collapse from hunting and habitat loss, and the last confirmed sighting backed by solid evidence dates to the 1980s, leading some scientists to consider it possibly extinct in the wild, though it was never officially declared so given the lack of definitive evidence. Conservation expeditions continue searching for traces of the animal in remote areas, with no confirmed results to date.",
+      },
+    },
+  },
 ];

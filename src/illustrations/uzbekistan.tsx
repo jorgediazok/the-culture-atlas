@@ -170,6 +170,131 @@ const DoblementeSinMar: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const ItchanKalaLaCiudadAmuralladaDeJiva: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const mud = "#C9A26D";
+  return (
+    <g>
+      {/* mud-brick wall */}
+      <rect x="85" y="175" width="235" height="65" fill={mud} stroke={dark} strokeWidth="3" />
+      {[0, 1, 2].map((row) => (
+        <line key={row} x1="85" y1={190 + row * 17} x2="320" y2={190 + row * 17} stroke={shade(mud, 0.25)} strokeWidth="1.5" opacity="0.5" />
+      ))}
+      {/* crenellations */}
+      {[95, 120, 145, 260, 285, 310].map((x) => (
+        <rect key={x} x={x} y="165" width="15" height="14" fill={mud} stroke={dark} strokeWidth="1.5" />
+      ))}
+      {/* Kalta Minor truncated minaret, tapering cylinder */}
+      <path d="M175 240 L180 110 Q205 100 230 110 L235 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* turquoise band pattern */}
+      <line x1="190" y1="130" x2="220" y2="130" stroke="#F5F0E6" strokeWidth="3" opacity="0.6" />
+      <line x1="188" y1="155" x2="222" y2="155" stroke="#F5F0E6" strokeWidth="3" opacity="0.6" />
+      <line x1="186" y1="180" x2="224" y2="180" stroke="#F5F0E6" strokeWidth="3" opacity="0.6" />
+      <ellipse cx="205" cy="110" rx="27" ry="9" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const ElSuzaniBordadoNupcialUzbeko: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const cream = "#F5EFE0";
+  return (
+    <g>
+      <rect x="95" y="95" width="220" height="160" fill={cream} stroke={dark} strokeWidth="3" />
+      {[
+        [150, 150],
+        [260, 150],
+        [150, 220],
+        [260, 220],
+      ].map(([cx, cy]) => (
+        <g key={cx}>
+          <circle cx={cx} cy={cy} r="26" fill="none" stroke={accentColor} strokeWidth="5" />
+          {[0, 45, 90, 135].map((deg) => (
+            <line key={deg} x1={cx} y1={cy - 26} x2={cx} y2={cy + 26} stroke={accentColor} strokeWidth="4" transform={`rotate(${deg} ${cx} ${cy})`} opacity="0.7" />
+          ))}
+          <circle cx={cx} cy={cy} r="8" fill="#C1272D" />
+        </g>
+      ))}
+      <path d="M205 150 Q230 185 205 220 Q180 185 205 150 Z" fill="#8FA05A" opacity="0.8" />
+    </g>
+  );
+};
+
+const LosMelonesQueLosEmperadoresMogolesAnoraban: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const flesh = "#F4C430";
+  return (
+    <g>
+      {/* stacked whole melons */}
+      {[
+        [150, 200, 30],
+        [210, 195, 34],
+        [270, 205, 28],
+      ].map(([x, y, r]) => (
+        <g key={x}>
+          <ellipse cx={x} cy={y} rx={r} ry={r * 0.85} fill={accentColor} stroke={dark} strokeWidth="2.5" />
+          {[-1, 0, 1].map((i) => (
+            <path key={i} d={`M${x + i * (r / 2)} ${y - r * 0.8} Q${x + i * (r / 2) + 3} ${y} ${x + i * (r / 2)} ${y + r * 0.8}`} fill="none" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+          ))}
+        </g>
+      ))}
+      {/* juicy slice in front */}
+      <path d="M170 245 Q205 260 240 245 Q240 220 205 218 Q170 220 170 245 Z" fill={flesh} stroke={dark} strokeWidth="2.5" />
+      <path d="M175 240 Q205 250 235 240" fill="none" stroke={accentColor} strokeWidth="6" opacity="0.7" />
+      {[
+        [190, 232],
+        [205, 236],
+        [220, 232],
+      ].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="2.5" fill="#8B5A2B" opacity="0.7" />
+      ))}
+    </g>
+  );
+};
+
+const AlisherNavoiElPadreDeLaLiteraturaUzbeka: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const page = "#F5EFE0";
+  return (
+    <g>
+      {/* open book */}
+      <path d="M110 220 Q160 205 205 215 L205 155 Q160 145 110 160 Z" fill={page} stroke={dark} strokeWidth="2.5" />
+      <path d="M300 220 Q250 205 205 215 L205 155 Q250 145 300 160 Z" fill={page} stroke={dark} strokeWidth="2.5" />
+      {[0, 1, 2].map((row) => (
+        <g key={row}>
+          <line x1="120" y1={172 + row * 13} x2="195" y2={168 + row * 13} stroke={dark} strokeWidth="1.5" opacity="0.4" />
+          <line x1="215" y1={168 + row * 13} x2="290" y2={172 + row * 13} stroke={dark} strokeWidth="1.5" opacity="0.4" />
+        </g>
+      ))}
+      {/* quill pen */}
+      <path d="M225 165 L280 100 L288 108 L235 175 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M278 98 L292 84 L296 98 L286 112 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      {/* ink drop */}
+      <circle cx="235" cy="178" r="4" fill={dark} opacity="0.6" />
+    </g>
+  );
+};
+
+const ElShashmaqamLosSeisModosMusicales: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      {/* tanbur neck drawn first so the body absorbs the seam */}
+      <rect x="198" y="80" width="10" height="110" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2" />
+      {/* small pear-shaped body */}
+      <path d="M203 165 Q175 168 175 195 Q175 220 203 225 Q231 220 231 195 Q231 168 203 165 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <line x1="203" y1="85" x2="203" y2="220" stroke="#F5F0E6" strokeWidth="1.5" opacity="0.7" />
+      {/* doira frame drum beside */}
+      <circle cx="270" cy="205" r="42" fill="none" stroke={dark} strokeWidth="6" />
+      <circle cx="270" cy="205" r="36" fill={tint(accentColor, 0.4)} opacity="0.7" />
+      {[0, 60, 120, 180, 240, 300].map((deg) => (
+        <circle key={deg} cx="270" cy="169" r="2.5" fill={dark} opacity="0.6" transform={`rotate(${deg} 270 205)`} />
+      ))}
+    </g>
+  );
+};
+
 export const uzbekistanIllustrations: Record<string, IllustrationDefinition> = {
   "registan-samarcanda": { component: RegistanSamarcanda },
   "amir-timur-tamerlan": { component: AmirTimurTamerlan },
@@ -181,4 +306,9 @@ export const uzbekistanIllustrations: Record<string, IllustrationDefinition> = {
   "pan-sagrado-non": { component: PanSagradoNon },
   "metro-tashkent": { component: MetroTashkent },
   "doblemente-sin-mar": { component: DoblementeSinMar },
+  "itchan-kala-la-ciudad-amurallada-de-jiva": { component: ItchanKalaLaCiudadAmuralladaDeJiva },
+  "el-suzani-bordado-nupcial-uzbeko": { component: ElSuzaniBordadoNupcialUzbeko },
+  "los-melones-que-los-emperadores-mogoles-anoraban": { component: LosMelonesQueLosEmperadoresMogolesAnoraban },
+  "alisher-navoi-el-padre-de-la-literatura-uzbeka": { component: AlisherNavoiElPadreDeLaLiteraturaUzbeka },
+  "el-shashmaqam-los-seis-modos-musicales": { component: ElShashmaqamLosSeisModosMusicales },
 };

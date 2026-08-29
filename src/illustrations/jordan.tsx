@@ -163,6 +163,118 @@ const ElCastilloDeKerak: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const ElZarbLaCoccionBeduinaBajoTierra: IllustrationComponent = () => {
+  const sand = "#D4C098";
+  const dark = shade(sand, 0.35);
+  const ember = "#D2691E";
+  return (
+    <g>
+      {/* sand mound around the pit */}
+      <path d="M85 235 Q205 218 320 235 L320 250 L85 250 Z" fill={sand} />
+      {/* pit opening */}
+      <ellipse cx="205" cy="215" rx="75" ry="18" fill={dark} opacity="0.7" />
+      {/* embers glowing inside */}
+      {[175, 205, 235].map((x) => (
+        <circle key={x} cx={x} cy="215" r="9" fill={ember} opacity="0.85" />
+      ))}
+      {/* rising steam */}
+      {[165, 205, 245].map((x) => (
+        <path key={x} d={`M${x} 195 Q${x - 8} 165 ${x} 135 Q${x + 8} 110 ${x} 85`} fill="none" stroke="#E8E4DC" strokeWidth="5" opacity="0.6" strokeLinecap="round" />
+      ))}
+    </g>
+  );
+};
+
+const ElMapaDeMosaicoDeMadaba: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const ochre = "#C9A227";
+  const tones = [accentColor, ochre, "#3D8FB0"];
+  return (
+    <g>
+      {/* mosaic ground frame */}
+      <rect x="95" y="95" width="220" height="150" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+      {/* grid of small tesserae in varied tones */}
+      {Array.from({ length: 6 }).map((_, row) =>
+        Array.from({ length: 8 }).map((__, col) => (
+          <rect key={`${row}-${col}`} x={100 + col * 27} y={100 + row * 24} width="24" height="21" fill={tones[(row + col) % 3]} opacity="0.6" />
+        ))
+      )}
+      {/* buildings/streets outline over the mosaic */}
+      <rect x="150" y="140" width="40" height="55" fill="none" stroke={dark} strokeWidth="3" />
+      <rect x="210" y="120" width="35" height="75" fill="none" stroke={dark} strokeWidth="3" />
+      <path d="M100 220 L310 220" stroke={dark} strokeWidth="3" opacity="0.7" />
+    </g>
+  );
+};
+
+const ElDabkeLaDanzaDeLineaJordana: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const skin = "#D9A46A";
+  return (
+    <g>
+      {[130, 180, 230, 280].map((x, i) => (
+        <g key={x}>
+          <circle cx={x} cy="140" r="14" fill={skin} stroke={dark} strokeWidth="2.5" />
+          <path d={`M${x - 14} 153 Q${x} 145 ${x + 14} 153 L${x + 10} 225 L${x - 10} 225 Z`} fill={i % 2 === 0 ? accentColor : tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+          {i % 2 === 0 ? (
+            <path d={`M${x - 6} 220 Q${x - 20} 215 ${x - 22} 195`} fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+          ) : (
+            <line x1={x - 6} y1="220" x2={x - 8} y2="245" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+          )}
+          <line x1={x + 6} y1="220" x2={x + 8} y2="245" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+        </g>
+      ))}
+      {/* linked arms */}
+      <path d="M144 165 L166 165 M194 165 L216 165 M244 165 L266 165" stroke={dark} strokeWidth="4" opacity="0.6" />
+    </g>
+  );
+};
+
+const LaReservaDeDanaYLaCabraMontesDeNubia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const rock = "#8A8272";
+  return (
+    <g>
+      {/* rocky crag */}
+      <path d="M85 245 L150 210 L200 240 L250 195 L320 230 L320 250 L85 250 Z" fill={rock} opacity="0.6" />
+      {/* body */}
+      <path d="M175 205 Q170 180 200 175 Q235 170 250 190 Q258 198 250 205 L245 220 L180 220 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* head */}
+      <circle cx="185" cy="188" r="16" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* backward-curving horns */}
+      <path d="M180 176 Q170 155 185 135 Q195 122 190 108" fill="none" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <path d="M192 176 Q182 155 197 135 Q207 122 202 108" fill="none" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      {/* legs balancing on the crag */}
+      {[195, 215, 230, 240].map((x, i) => (
+        <line key={x} x1={x} y1="218" x2={x + (i % 2 === 0 ? -4 : 4)} y2="238" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      ))}
+    </g>
+  );
+};
+
+const LosCircasianosQueAyudaronAFundarAmanModerna: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  const fur = "#3E2E24";
+  return (
+    <g>
+      {/* fur hat */}
+      <ellipse cx="205" cy="112" rx="24" ry="14" fill={fur} stroke={shade(fur, 0.3)} strokeWidth="2" />
+      {/* head */}
+      <circle cx="205" cy="130" r="17" fill={skin} stroke={dark} strokeWidth="2.5" />
+      {/* torso/coat */}
+      <path d="M180 148 Q205 138 230 148 L238 230 L172 230 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* bandolier cartridge belt across chest */}
+      <path d="M185 155 L225 200" stroke="#C9A227" strokeWidth="4" opacity="0.85" />
+      {[0, 1, 2, 3].map((i) => (
+        <rect key={i} x={188 + i * 11} y={160 + i * 11} width="6" height="10" fill="#C9A227" transform={`rotate(35 ${191 + i * 11} ${165 + i * 11})`} />
+      ))}
+      {/* ceremonial dagger at belt */}
+      <path d="M195 200 L205 175 L215 200 L210 225 L200 225 Z" fill="#B0B8BF" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
 export const jordanIllustrations: Record<string, IllustrationDefinition> = {
   "petra-la-ciudad-rosada-tallada-en-la-roca": { component: PetraLaCiudadRosadaTalladaEnLaRoca },
   "wadi-rum-el-valle-de-la-luna": { component: WadiRumElValleDeLaLuna },
@@ -174,4 +286,9 @@ export const jordanIllustrations: Record<string, IllustrationDefinition> = {
   "el-teatro-romano-de-aman": { component: ElTeatroRomanoDeAman },
   "el-beit-al-shaar-la-casa-de-pelo-beduina": { component: ElBeitAlShaarLaCasaDePeloBeduina },
   "el-castillo-de-kerak": { component: ElCastilloDeKerak },
+  "el-zarb-la-coccion-beduina-bajo-tierra": { component: ElZarbLaCoccionBeduinaBajoTierra },
+  "el-mapa-de-mosaico-de-madaba": { component: ElMapaDeMosaicoDeMadaba },
+  "el-dabke-la-danza-de-linea-jordana": { component: ElDabkeLaDanzaDeLineaJordana },
+  "la-reserva-de-dana-y-la-cabra-montes-de-nubia": { component: LaReservaDeDanaYLaCabraMontesDeNubia },
+  "los-circasianos-que-ayudaron-a-fundar-aman-moderna": { component: LosCircasianosQueAyudaronAFundarAmanModerna },
 };

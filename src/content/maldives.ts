@@ -231,4 +231,50 @@ export const maldives: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "hanifaru-bay-santuario-de-mantarrayas",
+    order: 11,
+    placeholderEmoji: "🐠",
+    accentColor: "#1B4F91",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La bahía donde cientos de mantarrayas comen juntas",
+        subtitle: "Hanifaru Bay, santuario de mantarrayas",
+        imageAlt: "Caricatura de mantarrayas nadando en un patrón circular en aguas poco profundas de color turquesa.",
+        description:
+          "Hanifaru Bay, una pequeña bahía en el atolón de Baa declarada reserva de la biosfera por la UNESCO, se convierte durante ciertos meses del año, generalmente entre mayo y noviembre coincidiendo con las corrientes del monzón, en uno de los pocos lugares del mundo donde se puede observar de forma predecible una agregación masiva de mantarrayas y tiburones ballena alimentándose juntos en la superficie. Las corrientes que confluyen en la bahía concentran enormes cantidades de plancton en un área relativamente pequeña y poco profunda, atrayendo a veces a más de doscientas mantarrayas al mismo tiempo, que forman cadenas circulares al nadar una detrás de otra con la boca abierta en lo que los biólogos llaman 'alimentación en cadena'. El fenómeno convirtió a la bahía en uno de los sitios de buceo y esnórquel más regulados de Maldivas, con límites estrictos sobre la cantidad de embarcaciones y nadadores permitidos al mismo tiempo.",
+      },
+      en: {
+        title: "The Bay Where Hundreds of Manta Rays Feed Together",
+        subtitle: "Hanifaru Bay, Manta Ray Sanctuary",
+        imageAlt: "Cartoon of manta rays swimming in a circular feeding pattern in shallow turquoise water.",
+        description:
+          "Hanifaru Bay, a small bay in Baa Atoll declared a UNESCO biosphere reserve, becomes during certain months of the year, generally between May and November alongside the monsoon currents, one of the few places on Earth where a massive aggregation of manta rays and whale sharks can be predictably seen feeding together at the surface. Currents converging in the bay concentrate enormous amounts of plankton in a relatively small, shallow area, sometimes drawing more than two hundred manta rays at once, which form circular chains swimming nose-to-tail with their mouths open in what biologists call 'cyclone feeding.' The phenomenon turned the bay into one of the most tightly regulated diving and snorkeling sites in the Maldives, with strict limits on the number of boats and swimmers allowed in at the same time.",
+      },
+    },
+  },
+  {
+    id: "conversion-al-islam-1153",
+    order: 12,
+    placeholderEmoji: "🕌",
+    accentColor: "#4A6A5A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El reino budista que se convirtió al islam de golpe",
+        subtitle: "La conversión al islam de 1153",
+        imageAlt: "Caricatura de una antigua estupa de piedra junto a una pequeña mezquita con una luna creciente.",
+        description:
+          "Durante más de mil años antes del siglo XII, Maldivas fue un reino budista con vínculos culturales y comerciales estrechos con Sri Lanka y el sur de India, hasta que en 1153 el entonces rey Dhovemi se convirtió al islam, adoptando el nombre de sultán Muhammad al-Adil y decretando la conversión oficial de todo el archipiélago casi de un día para otro, un cambio religioso que la tradición local atribuye a un predicador norafricano o persa que habría llegado a las islas poco antes. Desde entonces, Maldivas se mantuvo como un sultanato islámico casi ininterrumpido durante más de ocho siglos, atravesando incluso breves períodos de dominación portuguesa y holandesa sin perder su identidad religiosa ni su lengua propia, hasta convertirse en república en 1968. Vestigios del pasado budista, como estupas y tallados de piedra hallados en distintas islas, todavía se exhiben hoy en el Museo Nacional de Malé.",
+      },
+      en: {
+        title: "The Buddhist Kingdom That Converted to Islam in a Day",
+        subtitle: "The 1153 Conversion to Islam",
+        imageAlt: "Cartoon of an ancient stone stupa beside a small mosque with a crescent moon.",
+        description:
+          "For more than a thousand years before the 12th century, the Maldives was a Buddhist kingdom with close cultural and trade ties to Sri Lanka and southern India, until in 1153 the reigning king, Dhovemi, converted to Islam, taking the name Sultan Muhammad al-Adil and decreeing the entire archipelago's official conversion almost overnight, a religious shift local tradition attributes to a North African or Persian preacher said to have arrived on the islands shortly before. From then on, the Maldives remained an almost unbroken Islamic sultanate for more than eight centuries, weathering even brief periods of Portuguese and Dutch domination without losing its religious identity or its own language, until becoming a republic in 1968. Remnants of the Buddhist past, like stupas and stone carvings found on various islands, are still on display today at the National Museum in Malé.",
+      },
+    },
+  },
 ];

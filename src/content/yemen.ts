@@ -231,4 +231,119 @@ export const yemen: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "las-terrazas-agricolas-de-las-montanas-de-yemen",
+    order: 11,
+    placeholderEmoji: "🌄",
+    accentColor: "#6B8E4E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las terrazas de montaña cultivadas hace tres mil años",
+        subtitle: "Las terrazas agrícolas de las montañas de Yemen",
+        imageAlt: "Caricatura de laderas de montaña cortadas en escalones cultivados con muros de piedra.",
+        description:
+          "Las montañas del oeste de Yemen están talladas desde hace al menos tres mil años en miles de terrazas agrícolas escalonadas, sostenidas por muros de piedra seca apilada sin mortero, un sistema de ingeniería agrícola que convirtió laderas empinadas e inutilizables en campos fértiles de café, sorgo, trigo y frutales, capturando además el agua de lluvia estacional en pequeños canales que evitan la erosión del suelo. Mantener estos muros exige trabajo comunitario constante, ya que un solo tramo derrumbado puede arrastrar terrazas enteras ladera abajo durante la temporada de lluvias, una tarea tradicionalmente organizada por acuerdos consuetudinarios entre familias vecinas que se remontan generaciones. El éxodo hacia las ciudades y la falta de mantenimiento pusieron en riesgo buena parte de este paisaje agrícola milenario, aunque algunas comunidades mantienen vivas las técnicas tradicionales de construcción en piedra.",
+      },
+      en: {
+        title: "The Mountain Terraces Farmed for Three Thousand Years",
+        subtitle: "Yemen's Mountain Farming Terraces",
+        imageAlt: "Cartoon of mountain slopes cut into farmed steps held by stone walls.",
+        description:
+          "The mountains of western Yemen have been carved for at least three thousand years into thousands of stepped agricultural terraces, held up by dry-stone walls stacked without mortar, an agricultural engineering system that turned steep, unusable slopes into fertile fields of coffee, sorghum, wheat, and fruit trees, while also capturing seasonal rainwater in small channels that prevent soil erosion. Maintaining these walls demands constant communal labor, since a single collapsed section can drag entire terraces down the slope during the rainy season, a task traditionally organized through customary agreements between neighboring families passed down for generations. The exodus to cities and lack of upkeep have put much of this ancient agricultural landscape at risk, though some communities keep the traditional stone-building techniques alive.",
+      },
+    },
+  },
+  {
+    id: "el-canto-sanaani-poesia-cantada-de-sanaa",
+    order: 12,
+    placeholderEmoji: "🎶",
+    accentColor: "#B5651D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El canto que se acompaña con una bandeja de cobre",
+        subtitle: "El canto sanaaní, poesía cantada de Saná",
+        imageAlt: "Caricatura de un cantante golpeando rítmicamente una bandeja de cobre.",
+        description:
+          "El canto sanaaní, una tradición de poesía cantada originaria de la capital yemení, combina versos clásicos en árabe sobre el amor, la naturaleza y la vida cotidiana con un acompañamiento inusual: en lugar de percusión convencional, el cantante marca el ritmo golpeando con los dedos una bandeja de cobre llamada sahn nuhasi, mientras un laúd qanbus, de cuerpo más pequeño que el oud tradicional árabe, aporta la melodía. Reconocido por la UNESCO como Patrimonio Cultural Inmaterial en 2003, el género se interpretaba tradicionalmente en reuniones íntimas dentro de casas privadas más que en escenarios públicos, con letras que incluyen a menudo referencias a la arquitectura y los jardines de Saná, y maestros del género siguen formando a nuevas generaciones de cantantes en la ciudad vieja.",
+      },
+      en: {
+        title: "The Sung Poetry Kept Time on a Copper Tray",
+        subtitle: "Sanaani Song, Sana'a's Sung Poetry",
+        imageAlt: "Cartoon of a singer rhythmically tapping a copper tray.",
+        description:
+          "Sanaani song, a tradition of sung classical poetry originating in Yemen's capital, blends classical Arabic verses about love, nature, and daily life with an unusual accompaniment: instead of conventional percussion, the singer keeps rhythm by tapping their fingers on a copper tray called a sahn nuhasi, while a qanbus lute, smaller-bodied than the traditional Arab oud, carries the melody. Recognized by UNESCO as Intangible Cultural Heritage in 2003, the genre was traditionally performed at intimate gatherings inside private homes rather than on public stages, with lyrics often referencing Sana'a's architecture and gardens, and master performers continue training new generations of singers in the old city today.",
+      },
+    },
+  },
+  {
+    id: "el-bara-la-danza-de-espadas-y-dagas-de-yemen",
+    order: 13,
+    placeholderEmoji: "💃",
+    accentColor: "#4A5D6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La danza ceremonial con espadas y dagas curvas",
+        subtitle: "El bar'a, la danza de espadas de Yemen",
+        imageAlt: "Caricatura de dos bailarines enfrentados sosteniendo dagas curvas en alto.",
+        description:
+          "El bar'a, una danza tribal ceremonial practicada en el norte y centro de Yemen, reúne a varios hombres en un círculo o una línea que avanzan y retroceden al ritmo de tambores y cantos, sosteniendo en alto jambiyas, las dagas curvas ceremoniales, o a veces rifles antiguos, en movimientos coreografiados que simulan un combate estilizado sin llegar jamás a un enfrentamiento real. Interpretado tradicionalmente en bodas, celebraciones religiosas y reuniones tribales importantes, el bar'a exige de los bailarines un control corporal preciso, ya que el ritmo se acelera progresivamente hasta un clímax colectivo, y cada región del país desarrolló variantes propias en los pasos y en los cantos que acompañan la danza, transmitidas oralmente de generación en generación dentro de cada comunidad.",
+      },
+      en: {
+        title: "The Ceremonial Dance of Swords and Curved Daggers",
+        subtitle: "Bar'a, Yemen's Sword Dance",
+        imageAlt: "Cartoon of two facing dancers holding curved daggers aloft.",
+        description:
+          "Bar'a, a ceremonial tribal dance practiced across northern and central Yemen, brings together a group of men in a circle or line who step forward and back to the beat of drums and chanting, holding aloft jambiyas, the curved ceremonial daggers, or sometimes antique rifles, in choreographed movements that simulate stylized combat without ever becoming an actual confrontation. Traditionally performed at weddings, religious celebrations, and major tribal gatherings, bar'a demands precise body control from its dancers, since the rhythm builds progressively toward a collective climax, and each region of the country developed its own variations in steps and accompanying chants, passed down orally from generation to generation within each community.",
+      },
+    },
+  },
+  {
+    id: "el-leopardo-arabigo-de-las-montanas-de-yemen",
+    order: 14,
+    placeholderEmoji: "🐆",
+    accentColor: "#C9B18C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El felino más amenazado, sobreviviendo en montañas",
+        subtitle: "El leopardo arábigo de las montañas de Yemen",
+        imageAlt: "Caricatura de un leopardo de pelaje claro y moteado sobre un afloramiento rocoso.",
+        description:
+          "El leopardo arábigo, la subespecie de leopardo más pequeña y más amenazada del planeta, con un pelaje más claro y un cuerpo más compacto que sus parientes africanos y asiáticos como adaptación al clima árido de la península, sobrevive hoy en su último bastión conocido en las montañas escarpadas del sur de Yemen, donde se estima que quedan apenas entre unas pocas decenas y un centenar de ejemplares en libertad. La caza histórica para proteger al ganado, la pérdida de sus presas naturales como la cabra montés y la degradación de su hábitat redujeron drásticamente una población que hace un siglo todavía se distribuía por buena parte de la península arábiga. Organizaciones de conservación locales trabajan hoy con comunidades de pastores para reducir los conflictos entre el felino y el ganado, y cámaras trampa instaladas en años recientes confirmaron que todavía existen ejemplares reproduciéndose en estado salvaje.",
+      },
+      en: {
+        title: "The Most Endangered Cat, Surviving in the Mountains",
+        subtitle: "The Arabian Leopard of Yemen's Mountains",
+        imageAlt: "Cartoon of a pale spotted leopard on a rocky outcrop.",
+        description:
+          "The Arabian leopard, the smallest and most endangered leopard subspecies on the planet, with a paler coat and a more compact body than its African and Asian relatives as an adaptation to the peninsula's arid climate, survives today in its last known stronghold in the rugged mountains of southern Yemen, where an estimated few dozen to a hundred individuals remain in the wild. Historical hunting to protect livestock, the loss of natural prey like the mountain ibex, and habitat degradation sharply reduced a population that a century ago still ranged across much of the Arabian Peninsula. Local conservation organizations now work with herding communities to reduce conflicts between the cat and livestock, and camera traps installed in recent years confirmed that breeding individuals still exist in the wild.",
+      },
+    },
+  },
+  {
+    id: "el-bint-al-sahn-el-pastel-de-miel-de-las-bodas",
+    order: 15,
+    placeholderEmoji: "🍰",
+    accentColor: "#E8A33D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pastel de hojaldre y miel que corona cada boda",
+        subtitle: "El bint al-sahn, pastel de miel yemení",
+        imageAlt: "Caricatura de un pastel circular de capas doradas bañado en miel brillante.",
+        description:
+          "El bint al-sahn, cuyo nombre significa literalmente 'hija del plato', es un pastel tradicional yemení hecho de capas superpuestas de masa de hojaldre casera untadas con mantequilla clarificada, horneadas hasta quedar doradas y crujientes por fuera pero suaves por dentro, y bañadas generosamente en miel justo antes de servir, a menudo con semillas de nigella espolvoreadas por encima. Reservado tradicionalmente para bodas, el Eid y otras celebraciones importantes, el pastel se sirve en un plato circular compartido del que cada comensal arranca porciones con la mano, y su preparación, que exige estirar la masa en láminas extremadamente finas y apilar suficientes capas sin que se peguen entre sí, se considera una habilidad culinaria que las cocineras yemeníes perfeccionan durante años.",
+      },
+      en: {
+        title: "The Honey Pastry That Crowns Every Wedding",
+        subtitle: "Bint al-Sahn, Yemen's Honey Pastry",
+        imageAlt: "Cartoon of a round layered golden cake drenched in glistening honey.",
+        description:
+          "Bint al-sahn, whose name literally means 'daughter of the plate,' is a traditional Yemeni pastry made of stacked layers of homemade flaky dough brushed with clarified butter, baked until golden and crisp outside but soft within, and generously drenched in honey just before serving, often finished with a sprinkle of nigella seeds. Traditionally reserved for weddings, Eid, and other major celebrations, the pastry is served on a shared circular plate that diners tear pieces from by hand, and making it, which requires stretching the dough into extremely thin sheets and stacking enough layers without them sticking together, is considered a culinary skill Yemeni cooks spend years perfecting.",
+      },
+    },
+  },
 ];

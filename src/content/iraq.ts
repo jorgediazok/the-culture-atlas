@@ -231,4 +231,119 @@ export const iraq: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "los-jardines-colgantes-de-babilonia",
+    order: 11,
+    placeholderEmoji: "🌿",
+    accentColor: "#4A7A52",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La maravilla legendaria que nadie logró ubicar",
+        subtitle: "Los Jardines Colgantes de Babilonia",
+        imageAlt: "Caricatura de terrazas escalonadas cubiertas de plantas colgantes sobre columnas.",
+        description:
+          "Los Jardines Colgantes de Babilonia, incluidos entre las siete maravillas del mundo antiguo por autores griegos, se describieron como terrazas escalonadas cubiertas de árboles y plantas exuberantes sostenidas sobre columnas de piedra, regadas mediante un sistema de tornillos hidráulicos que elevaba agua del río hasta cada nivel, una hazaña de ingeniería que según la leyenda el rey Nabucodonosor II ordenó construir para consolar a su esposa meda, que extrañaba las montañas verdes de su tierra natal en medio de la llanura babilónica. A diferencia de otras maravillas antiguas, ningún hallazgo arqueológico definitivo confirmó jamás su ubicación exacta ni siquiera su existencia física, y algunos historiadores contemporáneos sostienen que la descripción corresponde en realidad a jardines reales asirios en Nínive, a varios cientos de kilómetros de distancia, lo que convirtió a este jardín perdido en uno de los grandes misterios sin resolver de la arqueología mesopotámica.",
+      },
+      en: {
+        title: "The Legendary Wonder No One Ever Managed to Locate",
+        subtitle: "The Hanging Gardens of Babylon",
+        imageAlt: "Cartoon of stepped terraces covered in hanging plants over columns.",
+        description:
+          "The Hanging Gardens of Babylon, counted among the seven wonders of the ancient world by Greek writers, were described as stepped terraces covered in lush trees and plants held up on stone columns, watered by a system of hydraulic screws that lifted river water up to each level, an engineering feat that legend says King Nebuchadnezzar II ordered built to console his Median wife, who missed the green mountains of her homeland amid the flat Babylonian plain. Unlike other ancient wonders, no definitive archaeological find ever confirmed their exact location or even their physical existence, and some contemporary historians argue the description actually matches royal Assyrian gardens at Nineveh, several hundred kilometers away, making this lost garden one of the great unsolved mysteries of Mesopotamian archaeology.",
+      },
+    },
+  },
+  {
+    id: "el-mheibes-el-juego-del-anillo-escondido",
+    order: 12,
+    placeholderEmoji: "👊",
+    accentColor: "#546E7A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El juego de adivinar dónde se esconde un anillo",
+        subtitle: "El mheibes, el juego del anillo escondido",
+        imageAlt: "Caricatura de dos filas de manos cerradas en puño frente a frente.",
+        description:
+          "El mheibes, un juego tradicional iraquí jugado sobre todo durante las noches de Ramadán, enfrenta a dos equipos de docenas de jugadores cada uno: mientras un equipo cierra los ojos, el otro esconde un anillo en el puño cerrado de uno de sus integrantes, y luego el capitán rival debe recorrer la fila de puños observando gestos, miradas y respiraciones para adivinar quién lo esconde, señalándolo directamente sin poder tocarlo. El juego, que según la tradición oral se remonta varios siglos atrás, se juega en plazas y calles de barrios enteros con público numeroso animando a los equipos, y aunque perdió terreno frente al fútbol y otros entretenimientos modernos, sigue celebrándose especialmente en Bagdad, donde equipos de barrios rivales compiten cada Ramadán en torneos que atraen a cientos de espectadores nocturnos.",
+      },
+      en: {
+        title: "The Game of Guessing Who's Hiding a Ring",
+        subtitle: "Mheibes, the Hidden Ring Game",
+        imageAlt: "Cartoon of two facing rows of closed fists.",
+        description:
+          "Mheibes, a traditional Iraqi game played especially during Ramadan nights, pits two teams of dozens of players each against one another: while one team closes its eyes, the other hides a ring in one player's closed fist, and the rival team's captain then has to walk down the row of fists, reading gestures, glances, and breathing to guess who's holding it, pointing them out without ever touching a hand. The game, said by oral tradition to date back several centuries, is played in the squares and streets of entire neighborhoods with large crowds cheering the teams on, and although it has lost ground to soccer and other modern entertainment, it's still celebrated especially in Baghdad, where rival neighborhood teams compete every Ramadan in tournaments drawing hundreds of nighttime spectators.",
+      },
+    },
+  },
+  {
+    id: "basra-la-venecia-de-oriente",
+    order: 13,
+    placeholderEmoji: "🛶",
+    accentColor: "#1976D2",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad de canales que llamaron Venecia de Oriente",
+        subtitle: "Basra, la Venecia de Oriente",
+        imageAlt: "Caricatura de un canal angosto flanqueado por casas y una barca de madera.",
+        description:
+          "Basra, fundada en el siglo VII como una de las primeras ciudades del islam y puerta de Iraq hacia el golfo Pérsico, desarrolló durante siglos una extensa red de canales navegables que conectaban sus barrios y le valieron el apodo de 'Venecia de Oriente' entre viajeros europeos que la visitaron en los siglos XIX y XX, cuando cientos de canales bordeados de casas con balcones de madera tallada permitían moverse por buena parte de la ciudad en barca. Décadas de abandono de infraestructura y contaminación industrial rellenaron o secaron la mayoría de esos canales durante la segunda mitad del siglo XX, aunque algunos tramos sobreviven todavía en barrios históricos como Al-Ashar, y proyectos municipales recientes buscan restaurar parte de la red original como atractivo turístico y símbolo de identidad local.",
+      },
+      en: {
+        title: "The Canal City They Called the Venice of the East",
+        subtitle: "Basra, the Venice of the East",
+        imageAlt: "Cartoon of a narrow canal lined with houses and a wooden boat.",
+        description:
+          "Basra, founded in the 7th century as one of the first cities of Islam and Iraq's gateway to the Persian Gulf, developed over centuries an extensive network of navigable canals connecting its neighborhoods, earning it the nickname 'Venice of the East' among European travelers who visited in the 19th and 20th centuries, when hundreds of canals lined with houses featuring carved wooden balconies let people move through much of the city by boat. Decades of infrastructure neglect and industrial pollution filled in or dried up most of those canals during the second half of the 20th century, though some stretches still survive in historic neighborhoods like Al-Ashar, and recent municipal projects aim to restore part of the original network as a tourist draw and symbol of local identity.",
+      },
+    },
+  },
+  {
+    id: "la-escuela-de-caligrafia-arabe-de-bagdad",
+    order: 14,
+    placeholderEmoji: "✒️",
+    accentColor: "#2C2C2C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La escuela que perfeccionó la escritura árabe",
+        subtitle: "La escuela de caligrafía árabe de Bagdad",
+        imageAlt: "Caricatura de un pincel de caligrafía trazando letras árabes curvas doradas.",
+        description:
+          "Bagdad se consolidó desde la época abasí como uno de los grandes centros de la caligrafía árabe, un arte considerado la más elevada de las expresiones visuales dentro de la cultura islámica, donde maestros calígrafos desarrollaron y perfeccionaron estilos como el naskh, usado para textos legibles y fluidos, y el thuluth, de trazos ornamentales más grandes reservado para inscripciones monumentales en mezquitas y manuscritos del Corán. La tradición sobrevivió siglos de cambios políticos, y Bagdad sigue siendo sede de reconocidas escuelas y talleres donde calígrafos entrenan durante años el pulso y la proporción exacta de cada letra, tallando además sus propios cálamos de caña, mientras exposiciones y concursos internacionales de caligrafía siguen convocando a artistas iraquíes reconocidos como referentes mundiales del oficio.",
+      },
+      en: {
+        title: "The School That Perfected Decorative Arabic Script",
+        subtitle: "Baghdad's School of Arabic Calligraphy",
+        imageAlt: "Cartoon of a calligraphy brush tracing curved golden Arabic letters.",
+        description:
+          "Baghdad became established from the Abbasid era onward as one of the great centers of Arabic calligraphy, an art considered the highest visual expression within Islamic culture, where master calligraphers developed and refined styles such as naskh, used for clear, flowing text, and thuluth, with larger ornamental strokes reserved for monumental inscriptions on mosques and Quranic manuscripts. The tradition survived centuries of political change, and Baghdad remains home today to well-known schools and workshops where calligraphers spend years training their hand and the exact proportion of every letter, even carving their own reed pens, while international calligraphy exhibitions and competitions continue to draw Iraqi artists recognized as world leaders in the craft.",
+      },
+    },
+  },
+  {
+    id: "newroz-la-fiesta-del-fuego-de-primavera",
+    order: 15,
+    placeholderEmoji: "🔥",
+    accentColor: "#D2691E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La fiesta del fuego que anuncia la primavera",
+        subtitle: "Newroz, la fiesta del fuego de primavera",
+        imageAlt: "Caricatura de una fogata nocturna con siluetas saltando sobre las llamas.",
+        description:
+          "Newroz, que significa literalmente 'nuevo día' y marca el equinoccio de primavera a fines de marzo, se celebra en el norte de Iraq con grandes fogatas nocturnas encendidas en cumbres y colinas, alrededor de las cuales familias enteras se reúnen a bailar en cadena tomados de las manos al ritmo de tambores y flautas, mientras jóvenes saltan sobre las llamas en un gesto tradicional de purificación y buena fortuna para el año que comienza. La festividad, con raíces que se remontan a antiguas celebraciones agrícolas de Mesopotamia y Persia ligadas al renacer de la naturaleza tras el invierno, se extiende durante varios días con picnics al aire libre, ropa nueva y comidas compartidas, y hoy combina rituales muy antiguos con desfiles multitudinarios, fuegos artificiales y música en vivo en plazas y parques de las ciudades del norte del país.",
+      },
+      en: {
+        title: "The Bonfire Festival That Announces Spring",
+        subtitle: "Newroz, the Spring Fire Festival",
+        imageAlt: "Cartoon of a nighttime bonfire with silhouettes leaping over the flames.",
+        description:
+          "Newroz, which literally means 'new day' and marks the spring equinox in late March, is celebrated across northern Iraq with large nighttime bonfires lit on hilltops and ridges, around which entire families gather to dance in hand-linked chains to the beat of drums and flutes, while young people leap over the flames in a traditional gesture of purification and good fortune for the year ahead. The festival, with roots tracing back to ancient Mesopotamian and Persian agricultural celebrations tied to nature's rebirth after winter, stretches across several days with outdoor picnics, new clothes, and shared meals, and today blends age-old rituals with large public parades, fireworks, and live music in the squares and parks of the country's northern cities.",
+      },
+    },
+  },
 ];

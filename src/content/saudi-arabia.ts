@@ -231,4 +231,234 @@ export const saudiArabia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-qahwa-el-ritual-del-cafe-arabe",
+    order: 11,
+    placeholderEmoji: "☕",
+    accentColor: "#4A2F1C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El café que se sirve como símbolo de hospitalidad",
+        subtitle: "El qahwa, ritual del café árabe",
+        imageAlt: "Caricatura de una cafetera de pico largo (dallah) sirviendo café en tazas pequeñas.",
+        description:
+          "El qahwa, el café árabe tradicional, se prepara con granos ligeramente tostados —de un tono dorado, no oscuro como el espresso occidental— aromatizados con cardamomo y a veces azafrán o clavo de olor, y se sirve desde una cafetera de pico largo y curvo llamada dallah en tacitas pequeñas sin asa conocidas como finjan. La etiqueta de servirlo es tan importante como la bebida en sí: el anfitrión llena la taza solo hasta un tercio, un gesto que no se considera tacañería sino todo lo contrario, ya que implica que volverá a servir varias veces a lo largo de la reunión, mostrando así hospitalidad a través de la repetición del gesto. El invitado señala que ya bebió suficiente sacudiendo levemente la taza de lado a lado antes de devolverla, y el café siempre se ofrece primero a la persona de mayor edad o estatus en la reunión, junto con dátiles como acompañamiento obligado. La UNESCO reconoció esta tradición como Patrimonio Cultural Inmaterial compartido entre varios países árabes en 2015.",
+      },
+      en: {
+        title: "The Coffee Served as a Symbol of Hospitality",
+        subtitle: "Qahwa, the Arabic Coffee Ritual",
+        imageAlt: "Cartoon of a long-spouted coffee pot (dallah) pouring coffee into small cups.",
+        description:
+          "Qahwa, traditional Arabic coffee, is brewed from lightly roasted beans — a golden tone, not dark like Western espresso — flavored with cardamom and sometimes saffron or cloves, and served from a long, curved-spout pot called a dallah into small handleless cups known as finjan. The etiquette of serving it matters as much as the drink itself: the host fills the cup only about a third full, a gesture that isn't considered stinginess but the opposite, since it implies they'll refill it several times throughout the gathering, showing hospitality through repetition. The guest signals they've had enough by gently shaking the cup side to side before handing it back, and coffee is always offered first to the eldest or most honored person present, alongside dates as an essential accompaniment. UNESCO recognized this tradition as Intangible Cultural Heritage shared among several Arab countries in 2015.",
+      },
+    },
+  },
+  {
+    id: "el-majlis-el-salon-de-la-hospitalidad",
+    order: 12,
+    placeholderEmoji: "🛋️",
+    accentColor: "#7A5C3E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La sala donde se resuelven los asuntos comunitarios",
+        subtitle: "El majlis, salón de la hospitalidad",
+        imageAlt: "Caricatura de cojines y alfombras dispuestos en círculo dentro de una sala de recepción.",
+        description:
+          "El majlis, cuyo nombre significa literalmente 'lugar para sentarse', es una institución social y arquitectónica central en los hogares sauditas y del Golfo: una sala de recepción amueblada con cojines y asientos bajos en el perímetro, orientados hacia el centro, destinada a recibir invitados, discutir negocios, resolver disputas comunitarias y socializar. Históricamente funcionó también como un espacio informal de gobierno local, donde jeques y líderes sostenían sesiones abiertas en las que cualquier miembro de la comunidad podía presentar sus reclamos, sin intermediarios ni cita previa. En los hogares más tradicionales, el majlis suele estar segregado por género. La UNESCO lo reconoció como Patrimonio Cultural Inmaterial en 2015 por su papel en la transmisión de conocimiento entre generaciones, y hoy la mayoría de las casas sauditas modernas conservan una sala de majlis formal, distinta de los espacios familiares.",
+      },
+      en: {
+        title: "The Room Where Community Matters Get Settled",
+        subtitle: "The Majlis, a Room of Hospitality",
+        imageAlt: "Cartoon of cushions and rugs arranged in a circle inside a reception room.",
+        description:
+          "The majlis, whose name literally means 'place for sitting,' is a central social and architectural institution in Saudi and Gulf Arab homes: a reception room furnished with cushions and low seating arranged around the perimeter, facing inward, meant for receiving guests, discussing business, resolving community disputes, and socializing. Historically it also functioned as an informal local governance space, where sheikhs and community leaders held open sessions where any community member could bring grievances directly, with no intermediary or appointment needed. In more traditional households, the majlis is often gender-segregated, with separate rooms for men and women. UNESCO recognized the majlis as Intangible Cultural Heritage in 2015 for its role as a space of social and cultural exchange and knowledge transmission between generations, and today most modern Saudi homes still keep a formal majlis room, distinct from everyday family living spaces.",
+      },
+    },
+  },
+  {
+    id: "los-suqs-mercados-tradicionales",
+    order: 13,
+    placeholderEmoji: "🛍️",
+    accentColor: "#B8722E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los mercados donde el regateo es parte de la compra",
+        subtitle: "Los suqs, mercados tradicionales",
+        imageAlt: "Caricatura de puestos callejeros con telas y especias apilándose bajo toldos de colores.",
+        description:
+          "Los suqs, los mercados tradicionales de las ciudades sauditas, se organizaron históricamente por especialidad: calles o secciones enteras dedicadas exclusivamente a especias, oro, telas o alfombras, cada gremio agrupado en su propio sector. A diferencia de las tiendas de precio fijo, regatear el precio en un suq no solo se acepta sino que se espera como parte normal de la interacción entre comprador y vendedor, una costumbre arraigada en la cultura comercial árabe. Algunos suqs históricos, como el Suq Al-Zal en Riad, tienen siglos de antigüedad y forman parte del tejido urbano de las ciudades viejas, mientras que los suqs de oro ocupan un lugar importante dado el alto valor cultural que tienen las joyas de oro en las bodas sauditas. Aunque los centros comerciales modernos se multiplicaron, los suqs tradicionales conservan su importancia, especialmente en las noches de Ramadán, cuando cobran vida tras la puesta del sol.",
+      },
+      en: {
+        title: "The Markets Where Haggling Is Part of the Deal",
+        subtitle: "Suqs, Traditional Markets",
+        imageAlt: "Cartoon of street stalls with fabrics and spices piled under colorful awnings.",
+        description:
+          "Suqs, the traditional markets of Saudi cities, were historically organized by trade specialty: entire streets or sections dedicated exclusively to spices, gold, fabrics, or carpets, each guild clustered in its own section of the market. Unlike fixed-price stores, haggling over price in a suq isn't just accepted but expected as a normal part of the interaction between buyer and seller, a custom deeply rooted in Arab commercial culture. Some historic suqs, like Souk Al-Zal in Riyadh, are centuries old and form an integral part of the old cities' urban fabric, while gold souks hold a particularly important place given the high cultural value gold jewelry carries in Saudi weddings. Although modern shopping malls multiplied over recent decades, traditional suqs retain their cultural importance, especially during Ramadan nights, when they come alive after sunset.",
+      },
+    },
+  },
+  {
+    id: "el-oud-la-musica-del-desierto",
+    order: 14,
+    placeholderEmoji: "🎵",
+    accentColor: "#5C4033",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El instrumento de cuerda que le dio origen al laúd",
+        subtitle: "El oud, la música del desierto",
+        imageAlt: "Caricatura de un instrumento de cuerda con cuerpo de pera y clavijero curvado.",
+        description:
+          "El oud es un instrumento de cuerda con cuerpo en forma de pera y sin trastes, generalmente con entre once y trece cuerdas agrupadas en pares, considerado el ancestro directo del laúd europeo —la propia palabra 'laúd' deriva del árabe 'al-ud'—. Se toca con un plectro llamado risha, y la ausencia de trastes le permite ejecutar los intervalos microtonales, cuartos de tono inexistentes en la escala occidental de doce notas, esenciales para el sistema musical árabe conocido como maqam. Considerado el 'rey de los instrumentos' en la tradición árabe, el oud ocupa un lugar central en la música del Golfo, o jaliji, y sus intérpretes más virtuosos, llamados 'ustadh' o maestros, gozan de gran prestigio cultural. Su rasgo visual más distintivo es el clavijero, doblado hacia atrás en un ángulo pronunciado respecto del mástil, una silueta reconocible incluso para quien nunca escuchó el instrumento sonar.",
+      },
+      en: {
+        title: "The Stringed Instrument That Gave Rise to the Lute",
+        subtitle: "The Oud, Music of the Desert",
+        imageAlt: "Cartoon of a pear-shaped stringed instrument with a curved pegbox.",
+        description:
+          "The oud is a pear-shaped, fretless stringed instrument, generally with eleven to thirteen strings grouped in courses, considered the direct ancestor of the European lute — the word 'lute' itself derives from the Arabic 'al-ud.' It's played with a plectrum called a risha, and its lack of frets lets it produce the microtonal intervals, quarter tones absent from the Western twelve-note scale, essential to the Arabic musical system known as maqam. Considered the 'king of instruments' in Arabic musical tradition, the oud holds a central place in traditional Gulf, or Khaleeji, music, and its most skilled players, often called 'ustadh,' or masters, enjoy enormous cultural prestige. Its most distinctive visual feature is the pegbox, bent sharply backward from the neck, a silhouette instantly recognizable even to someone who has never heard the instrument played.",
+      },
+    },
+  },
+  {
+    id: "al-ahsa-el-oasis-mas-grande-del-mundo",
+    order: 15,
+    placeholderEmoji: "🏞️",
+    accentColor: "#3D7A4D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El oasis más grande del mundo",
+        subtitle: "Al-Ahsa, el oasis más grande del mundo",
+        imageAlt: "Caricatura de una densa arboleda de palmeras junto a canales de agua.",
+        description:
+          "El oasis de Al-Ahsa, en el este de Arabia Saudita, es considerado el oasis más grande del mundo, con más de dos millones y medio de palmeras datileras en unos 85 kilómetros cuadrados, alimentado por manantiales naturales que sostuvieron asentamiento humano continuo durante miles de años, desde tiempos neolíticos. A diferencia de la mayoría de los oasis del desierto arábigo, que funcionan como pequeñas paradas estacionales, Al-Ahsa sostiene una población urbana permanente considerable, la ciudad de Hofuf, y funcionó como parada estratégica en las rutas comerciales de la península. La UNESCO lo declaró Patrimonio de la Humanidad en 2018, reconociendo la combinación de jardines, canales, manantiales, pozos, un lago de drenaje natural y sitios arqueológicos que documentan un asentamiento ininterrumpido a lo largo de milenios. El oasis sigue produciendo hoy una cosecha significativa de dátiles.",
+      },
+      en: {
+        title: "The Largest Oasis in the World",
+        subtitle: "Al-Ahsa, the World's Largest Oasis",
+        imageAlt: "Cartoon of a dense grove of date palms beside water canals.",
+        description:
+          "Al-Ahsa Oasis, in eastern Saudi Arabia, is considered the largest oasis in the world, with more than two and a half million date palms spread across roughly 85 square kilometers, fed by natural springs that sustained continuous human settlement for thousands of years, dating back to Neolithic times. Unlike most oases in the Arabian desert, which function as small seasonal stops, Al-Ahsa supports a substantial permanent urban population, the city of Hofuf, and historically served as a strategic stop on trade routes crossing the peninsula. UNESCO declared it a World Heritage Site in 2018, recognizing the unique combination of gardens, canals, springs, wells, a natural drainage lake, and archaeological and historic sites documenting uninterrupted settlement across millennia. The oasis still produces a significant date harvest today, keeping its original agricultural purpose alive.",
+      },
+    },
+  },
+  {
+    id: "los-hombres-flor-de-asir",
+    order: 16,
+    placeholderEmoji: "🌸",
+    accentColor: "#D9527A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los hombres que se adornan con coronas de flores",
+        subtitle: "Los hombres flor de Asir",
+        imageAlt: "Caricatura de un hombre sonriente con una vistosa corona de flores y hierbas en la cabeza.",
+        description:
+          "En la región montañosa de Asir, en el suroeste de Arabia Saudita, con una cultura marcadamente distinta al resto del país, los hombres de las tribus qahtaníes de pueblos como Rijal Almaa mantienen la tradición de usar coronas elaboradas con flores frescas y hierbas aromáticas —caléndulas, jazmín, albahaca— entrelazadas, una costumbre que se cree tiene siglos de antigüedad y que, a diferencia del tocado típico del resto del Golfo, se lleva puesta a diario y no solo en ocasiones especiales. Las coronas combinaban un propósito estético con uno práctico, ya que las hierbas ofrecían un efecto refrescante y repelente de insectos en el clima montañoso de la región, y se renuevan constantemente a medida que las flores se marchitan. La tradición, que sobrevive gracias a hombres mayores de la comunidad, atrajo interés turístico a medida que la región se abrió al turismo, y hoy convive con otra tradición local: el naqsh, coloridas pinturas geométricas murales hechas por mujeres.",
+      },
+      en: {
+        title: "The Men Who Adorn Themselves With Flower Crowns",
+        subtitle: "The Flower Men of Asir",
+        imageAlt: "Cartoon of a smiling man wearing a vivid crown of flowers and herbs.",
+        description:
+          "In the mountainous Asir region, in southwestern Saudi Arabia, with a culture markedly distinct from the rest of the country, men of the Qahtani tribes in villages like Rijal Almaa keep alive the tradition of wearing elaborate crowns woven from fresh flowers and fragrant herbs — marigolds, jasmine, basil — a custom believed to be centuries old that, unlike the typical headwear seen elsewhere in the Gulf, is worn daily rather than only on special occasions. The crowns originally combined an aesthetic purpose with a practical one, since the aromatic herbs offered a cooling and insect-repelling effect in the region's mountain climate, and they're constantly refreshed as the flowers wilt. The tradition, kept alive by older men in the community, drew considerable tourism interest as the region opened up, and today it coexists with another distinctive local tradition: naqsh, colorful geometric wall paintings made by women.",
+      },
+    },
+  },
+  {
+    id: "la-pesca-de-perlas-antes-del-petroleo",
+    order: 17,
+    placeholderEmoji: "🦪",
+    accentColor: "#2C6E8A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La industria que sostuvo la costa antes del petróleo",
+        subtitle: "La pesca de perlas antes del petróleo",
+        imageAlt: "Caricatura de un buzo sumergiéndose junto a un dhow de madera en aguas del Golfo.",
+        description:
+          "Antes del descubrimiento de petróleo en la década de 1930, la pesca de perlas fue durante siglos la actividad económica dominante en toda la costa del Golfo Arábigo, incluyendo la provincia oriental de lo que hoy es Arabia Saudita. Los buzos trabajaban desde dhows de madera, sumergiéndose sin equipo, conteniendo la respiración, con una pinza de hueso en la nariz y una piedra atada al cuerpo para descender rápido hasta los bancos de ostras, un trabajo extremadamente peligroso con altas tasas de lesiones y muertes por la presión, los tiburones o el ahogamiento. La temporada, generalmente en verano, se organizaba según una jerarquía estricta entre el capitán, los buzos y quienes izaban las canastas. La industria colapsó entre los años 20 y 30 por la competencia de las perlas cultivadas japonesas y la Gran Depresión, y quedó eclipsada por el petróleo poco después. Hoy se recuerda como parte fundacional de la identidad regional previa a la era petrolera.",
+      },
+      en: {
+        title: "The Industry That Sustained the Coast Before Oil",
+        subtitle: "Pearl Diving Before Oil",
+        imageAlt: "Cartoon of a diver plunging beside a wooden dhow in Gulf waters.",
+        description:
+          "Before oil was discovered in the 1930s, pearl diving was for centuries the dominant economic activity along the entire Arabian Gulf coast, including the eastern province of what is now Saudi Arabia. Divers worked from wooden boats called dhows, plunging without any equipment, holding their breath, with a bone or wood clip on their nose and a stone tied to their body to descend quickly to the oyster beds, extremely dangerous work with high rates of injury and death from pressure, sharks, or drowning. The pearling season, usually during the summer months, was organized around a strict traditional hierarchy between the boat's captain, the divers, and those hauling up the baskets. The industry collapsed rapidly in the 1920s and 30s due to competition from Japanese cultured pearls and the Great Depression, then was completely eclipsed by the discovery of oil shortly after. Today it's remembered as a foundational part of the region's pre-oil identity.",
+      },
+    },
+  },
+  {
+    id: "el-borde-del-mundo",
+    order: 18,
+    placeholderEmoji: "🪨",
+    accentColor: "#8A7B5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El acantilado que parece el final del planeta",
+        subtitle: "El Borde del Mundo",
+        imageAlt: "Caricatura de un acantilado escarpado con vista a un desierto infinito abajo.",
+        description:
+          "El Jebel Fihrayn, conocido popularmente como el 'Borde del Mundo', es un acantilado escarpado ubicado a unas noventa minutos de Riad, parte de la falla de Tuwaiq, una enorme formación de piedra caliza y arenisca que se extiende cientos de kilómetros por el centro de Arabia Saudita, formada por un levantamiento geológico y millones de años de erosión que dejaron expuestos fósiles marinos de cuando la región estaba cubierta por un mar antiguo. El sitio ofrece una caída repentina de más de 300 metros con vistas panorámicas de un desierto que se extiende hasta el horizonte sin límite visible, reforzando la sensación de estar en el borde del planeta. Se convirtió en un destino popular de excursionismo, acampada y conducción todoterreno a medida que creció el turismo interno saudita, especialmente tras las reformas turísticas de 2019, y se accede principalmente en 4x4 por terreno accidentado, siendo popular para ver el atardecer y acampar.",
+      },
+      en: {
+        title: "The Cliff That Looks Like the End of the Planet",
+        subtitle: "The Edge of the World",
+        imageAlt: "Cartoon of a steep cliff overlooking an endless desert below.",
+        description:
+          "Jebel Fihrayn, popularly known as the 'Edge of the World,' is a dramatic escarpment located about ninety minutes from Riyadh, part of the Tuwaiq escarpment, a massive limestone and sandstone formation stretching hundreds of kilometers across central Saudi Arabia, formed by geological uplift and millions of years of erosion that exposed marine fossils from when the region was covered by an ancient sea. The site offers a sudden drop of more than 300 meters with sweeping desert views stretching to the horizon with no visible limit, reinforcing the sensation of standing literally at the edge of the planet. It became a popular hiking, camping, and off-roading destination as domestic Saudi tourism grew, especially after the 2019 tourism reforms, and is reached mainly by 4x4 vehicle over rough terrain, particularly popular for sunset viewing and overnight desert camping.",
+      },
+    },
+  },
+  {
+    id: "el-sadu-tejido-beduino-ancestral",
+    order: 19,
+    placeholderEmoji: "🧶",
+    accentColor: "#A0332B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tejido geométrico que identifica a cada tribu",
+        subtitle: "El sadu, tejido beduino ancestral",
+        imageAlt: "Caricatura de una tela con franjas geométricas tejidas en rojo, negro y blanco.",
+        description:
+          "El sadu es una técnica tradicional de tejido beduino que utiliza lana o pelo de cabra hilado y tejido en un telar de suelo simple y portátil, adaptado al estilo de vida nómada, y que produce patrones geométricos audaces y franjas principalmente en rojo, negro, blanco y marrón. Tejido tradicionalmente por mujeres beduinas, el sadu servía para fabricar prácticamente todo el mobiliario del hogar nómada: tiendas, divisores interiores, alfombras, alforjas para camellos y caballos, y cojines, con patrones que en ocasiones llevaban un significado ligado a la tribu de origen. La habilidad se transmitía de madre a hija a lo largo de generaciones. La UNESCO reconoció al sadu como Patrimonio Cultural Inmaterial en 2020, compartido con otros países del Golfo. Aunque la técnica enfrenta hoy un declive a medida que el estilo de vida nómada se reduce, cooperativas artesanales trabajan para mantenerla viva.",
+      },
+      en: {
+        title: "The Geometric Weave That Identifies Each Tribe",
+        subtitle: "Sadu, an Ancestral Bedouin Weave",
+        imageAlt: "Cartoon of fabric with geometric stripes woven in red, black, and white.",
+        description:
+          "Sadu is a traditional Bedouin weaving technique using wool or goat hair spun and woven on a simple, portable ground loom suited to a nomadic lifestyle, producing bold geometric patterns and stripes mainly in red, black, white, and brown. Traditionally woven by Bedouin women, sadu was used to make practically the entire nomadic household's furnishings: tents, interior dividers, rugs, camel and horse saddlebags, and cushions, with patterns and motifs that sometimes carried identifying significance tied to a specific tribe or region. The skill was traditionally passed down from mother to daughter across generations. UNESCO recognized sadu as Intangible Cultural Heritage in 2020, shared with other Gulf countries. Although the technique faces decline today as nomadic life diminishes, craft cooperatives and cultural preservation programs work to keep it alive.",
+      },
+    },
+  },
+  {
+    id: "la-caligrafia-arabe",
+    order: 20,
+    placeholderEmoji: "✒️",
+    accentColor: "#1A1A1A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La escritura que se volvió el arte central del islam",
+        subtitle: "La caligrafía árabe",
+        imageAlt: "Caricatura de un pincel trazando letras árabes elegantes sobre un pergamino.",
+        description:
+          "La caligrafía árabe se convirtió en la forma de arte visual más venerada de la cultura islámica, en parte porque la tradición islámica desalentó la representación figurativa, especialmente en contextos religiosos, canalizando la expresión artística hacia la palabra escrita, en particular hacia embellecer el texto coránico. A lo largo de los siglos se desarrollaron varios estilos: el kufí, el más antiguo, de trazos angulares usado en los primeros manuscritos coránicos; el naskh, más redondeado, que se volvió el estándar cotidiano; y el thuluth, elaborado y decorativo, reservado para inscripciones monumentales. Los calígrafos gozaban de un estatus elevado, formándose durante años bajo un maestro hasta obtener una 'ijaza', certificado de maestría. La tradición sigue vigente, con artistas sauditas que combinan estilos clásicos con arte abstracto y grafiti. La UNESCO la reconoció como Patrimonio Cultural Inmaterial en 2021.",
+      },
+      en: {
+        title: "The Script That Became Islam's Central Art Form",
+        subtitle: "Arabic Calligraphy",
+        imageAlt: "Cartoon of a brush tracing elegant Arabic letters onto parchment.",
+        description:
+          "Arabic calligraphy became the most revered visual art form in Islamic culture, partly because Islamic tradition historically discouraged figurative representation, especially in religious contexts, channeling artistic expression toward the written word instead, particularly toward beautifying the text of the Quran. Several distinct styles developed over the centuries: Kufic, the earliest, angular and geometric, used in the first Quranic manuscripts and architectural inscriptions; Naskh, more rounded, which became the standard for everyday writing; and Thuluth, elaborate and decorative, reserved for monumental inscriptions. Calligraphers held elevated social status, training for years under a master's guidance until earning an 'ijaza,' a formal certificate of mastery. The tradition remains vibrant today, with contemporary Saudi artists blending classical styles with abstract art and graffiti. UNESCO recognized it as Intangible Cultural Heritage in 2021.",
+      },
+    },
+  },
 ];

@@ -231,4 +231,119 @@ export const uzbekistan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "itchan-kala-la-ciudad-amurallada-de-jiva",
+    order: 11,
+    placeholderEmoji: "🏰",
+    accentColor: "#1B998B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad amurallada que parece un museo viviente",
+        subtitle: "Itchan Kala, la ciudad amurallada de Jiva",
+        imageAlt: "Caricatura de una muralla de barro con una torre cónica turquesa al fondo.",
+        description:
+          "Itchan Kala, el núcleo histórico amurallado de la ciudad de Jiva, en el oeste de Uzbekistán, conserva dentro de sus muros de barro y adobe de hasta diez metros de altura una de las ciudades islámicas mejor preservadas de Asia Central, con más de cincuenta monumentos históricos, incluidos palacios, mezquitas y madrasas, concentrados en un área de apenas veintiséis hectáreas que se recorre enteramente a pie. Su edificio más reconocible, el minarete Kalta Minor, revestido por completo en azulejos turquesa y azul, quedó inconcluso a mediados del siglo XIX tras la muerte del kan que ordenó construirlo con la intención de que fuera el más alto de todo el mundo islámico, y hoy se alza truncado a apenas veintinueve metros como uno de los símbolos más fotografiados del país. Declarada Patrimonio de la Humanidad por la UNESCO en 1990, Itchan Kala funciona hoy como una ciudad museo habitada.",
+      },
+      en: {
+        title: "The Walled City That Feels Like a Living Museum",
+        subtitle: "Itchan Kala, Khiva's Walled City",
+        imageAlt: "Cartoon of a mud-brick wall with a turquoise conical tower behind it.",
+        description:
+          "Itchan Kala, the walled historic core of the city of Khiva in western Uzbekistan, preserves inside mud-brick walls up to ten meters tall one of Central Asia's best-preserved Islamic cities, with more than fifty historic monuments, including palaces, mosques, and madrasas, packed into barely twenty-six hectares that can be explored entirely on foot. Its most recognizable building, the Kalta Minor minaret, entirely covered in turquoise and blue tiles, was left unfinished in the mid-19th century after the death of the khan who ordered it built with the intention of making it the tallest in the entire Islamic world, and it now stands truncated at just twenty-nine meters as one of the country's most photographed symbols. Declared a UNESCO World Heritage Site in 1990, Itchan Kala functions today as an inhabited museum city.",
+      },
+    },
+  },
+  {
+    id: "el-suzani-bordado-nupcial-uzbeko",
+    order: 12,
+    placeholderEmoji: "🪡",
+    accentColor: "#C2185B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El bordado que las novias cosían para su boda",
+        subtitle: "El suzani, bordado nupcial uzbeko",
+        imageAlt: "Caricatura de una tela bordada con grandes flores circulares de colores.",
+        description:
+          "El suzani, cuyo nombre deriva de la palabra persa para 'aguja', es un textil bordado a mano tradicionalmente confeccionado por mujeres uzbekas como parte de la dote de una novia, cosido sobre algodón o seda con hilos de colores vibrantes en motivos recurrentes de flores circulares, granadas y hojas que simbolizan fertilidad y protección para el nuevo hogar. Una sola pieza grande, destinada a cubrir camas, paredes o mesas ceremoniales, podía tardar meses o incluso años en completarse, con varias mujeres de una misma familia bordando secciones distintas de la misma tela que luego se unían en un solo diseño coherente. Aunque la producción industrial redujo la práctica doméstica, talleres artesanales de Bujará, Nurata y Samarcanda siguen bordando suzanis a mano hoy, piezas muy buscadas por coleccionistas y decoradores internacionales.",
+      },
+      en: {
+        title: "The Embroidery Brides Stitched for Their Own Wedding",
+        subtitle: "Suzani, Uzbekistan's Bridal Embroidery",
+        imageAlt: "Cartoon of embroidered fabric with large colorful circular flowers.",
+        description:
+          "Suzani, whose name comes from the Persian word for 'needle,' is a hand-embroidered textile traditionally made by Uzbek women as part of a bride's dowry, stitched onto cotton or silk with vividly colored thread in recurring motifs of circular flowers, pomegranates, and leaves symbolizing fertility and protection for the new household. A single large piece, meant to cover beds, walls, or ceremonial tables, could take months or even years to finish, with several women in the same family embroidering separate sections of the same cloth that were later joined into one coherent design. Although industrial production has reduced the domestic practice, artisan workshops in Bukhara, Nurata, and Samarkand still hand-embroider suzanis today, pieces highly sought after by international collectors and decorators.",
+      },
+    },
+  },
+  {
+    id: "los-melones-que-los-emperadores-mogoles-anoraban",
+    order: 13,
+    placeholderEmoji: "🍈",
+    accentColor: "#8BC34A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los melones que un emperador exiliado nunca olvidó",
+        subtitle: "Los melones del valle de Fergana",
+        imageAlt: "Caricatura de melones rayados apilados junto a una rebanada jugosa.",
+        description:
+          "El valle de Fergana, con su clima cálido y seco ideal para el cultivo, produce desde hace siglos algunas de las variedades de melón más dulces de toda Asia, con más de cien tipos distintos catalogados en Uzbekistán que van desde formas alargadas hasta esferas rayadas, con nombres poéticos como 'oso dormido' o 'panal de miel' según su textura o dulzura. El emperador mogol Babur, nacido en Fergana y fundador de un imperio en la lejana India, escribió en sus memorias que extrañaba profundamente los melones de su tierra natal, un anhelo tan citado que todavía hoy aparece en descripciones turísticas de la región. Cada agosto, la ciudad de Tashkent celebra un festival del melón donde agricultores exhiben y compiten con sus mejores ejemplares ante multitudes que prueban decenas de variedades en un solo día.",
+      },
+      en: {
+        title: "The Melons an Exiled Emperor Never Forgot",
+        subtitle: "Melons of the Fergana Valley",
+        imageAlt: "Cartoon of striped melons stacked beside a juicy slice.",
+        description:
+          "The Fergana Valley, with its warm, dry climate ideal for cultivation, has produced some of the sweetest melon varieties in all of Asia for centuries, with more than a hundred distinct types cataloged in Uzbekistan ranging from elongated shapes to striped spheres, carrying poetic names like 'sleeping bear' or 'honeycomb' depending on texture or sweetness. The Mughal emperor Babur, born in Fergana and founder of an empire in distant India, wrote in his memoirs that he deeply missed the melons of his homeland, a longing so often cited it still appears in tourist descriptions of the region today. Every August, the city of Tashkent holds a melon festival where farmers display and compete with their best specimens before crowds who sample dozens of varieties in a single day.",
+      },
+    },
+  },
+  {
+    id: "alisher-navoi-el-padre-de-la-literatura-uzbeka",
+    order: 14,
+    placeholderEmoji: "📖",
+    accentColor: "#4E3629",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El poeta que convirtió al uzbeko en lengua literaria",
+        subtitle: "Alisher Navoi, padre de las letras uzbekas",
+        imageAlt: "Caricatura de un libro abierto junto a una pluma de caligrafía y tinta.",
+        description:
+          "Alisher Navoi, poeta y estadista del siglo XV que sirvió en la corte de Herat bajo los timúridas, escribió sus obras principales en chagatai, la lengua turca literaria que dio origen al uzbeko moderno, en un momento en que la poesía culta de Asia Central se componía casi exclusivamente en persa, un desafío deliberado que buscaba demostrar que el turco podía alcanzar la misma sofisticación literaria. Su obra más ambiciosa, el 'Khamsa' o 'Quinteto', reúne cinco extensos poemas narrativos sobre amor, ética y gobierno que se convirtieron en modelo para generaciones posteriores de poetas en toda Asia Central. Considerado hoy el padre fundador de la literatura uzbeka, su nombre bautiza universidades, teatros, calles y hasta el aeropuerto internacional de Tashkent, y su estatua preside una de las plazas más visitadas de la capital.",
+      },
+      en: {
+        title: "The Poet Who Turned Uzbek Into a Literary Language",
+        subtitle: "Alisher Navoi, Father of Uzbek Letters",
+        imageAlt: "Cartoon of an open book beside a calligraphy pen and ink.",
+        description:
+          "Alisher Navoi, a 15th-century poet and statesman who served at the court of Herat under the Timurids, wrote his major works in Chagatai, the literary Turkic language that gave rise to modern Uzbek, at a time when learned poetry in Central Asia was composed almost exclusively in Persian, a deliberate challenge meant to prove Turkic could reach the same literary sophistication. His most ambitious work, the 'Khamsa' or 'Quintet,' brings together five long narrative poems on love, ethics, and governance that became a model for later generations of poets across Central Asia. Considered today the founding father of Uzbek literature, his name graces universities, theaters, streets, and even Tashkent's international airport, and his statue presides over one of the capital's most visited squares.",
+      },
+    },
+  },
+  {
+    id: "el-shashmaqam-los-seis-modos-musicales",
+    order: 15,
+    placeholderEmoji: "🎼",
+    accentColor: "#6A4C93",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los seis modos musicales que duran toda la noche",
+        subtitle: "El shashmaqam, seis modos musicales",
+        imageAlt: "Caricatura de un laúd de mástil largo junto a una pandereta de mano.",
+        description:
+          "El shashmaqam, cuyo nombre significa literalmente 'seis maqams' o modos musicales, es un ciclo clásico de música centroasiática desarrollado en la corte de Bujará que combina poesía, canto e instrumentos como el tanbur, de mástil largo, y el doira, una pandereta de mano, en suites que originalmente podían extenderse durante una noche entera de interpretación ininterrumpida. Cada uno de los seis modos avanza a través de una secuencia fija de movimientos vocales e instrumentales que va de lo contemplativo a lo enérgico, con textos poéticos frecuentemente tomados de maestros como Alisher Navoi, y la tradición se transmitió durante siglos exclusivamente de maestro a discípulo, sin partituras escritas, hasta que musicólogos comenzaron a documentarla recién en el siglo XX. Reconocido por la UNESCO como Patrimonio Inmaterial, el shashmaqam sigue interpretándose hoy en conservatorios y festivales de Bujará y Tashkent.",
+      },
+      en: {
+        title: "The Six Musical Modes That Last an Entire Night",
+        subtitle: "Shashmaqam, Six Musical Modes",
+        imageAlt: "Cartoon of a long-necked lute beside a hand-held frame drum.",
+        description:
+          "Shashmaqam, whose name literally means 'six maqams' or modes, is a classical Central Asian music cycle developed at the court of Bukhara that combines poetry, singing, and instruments such as the long-necked tanbur and the doira hand frame drum, in suites that could originally stretch across an entire night of uninterrupted performance. Each of the six modes moves through a fixed sequence of vocal and instrumental movements running from contemplative to energetic, with poetic texts often drawn from masters such as Alisher Navoi, and the tradition was passed down for centuries strictly from master to student, with no written scores, until musicologists began documenting it only in the 20th century. Recognized by UNESCO as Intangible Cultural Heritage, shashmaqam is still performed today at conservatories and festivals in Bukhara and Tashkent.",
+      },
+    },
+  },
 ];

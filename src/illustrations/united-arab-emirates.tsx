@@ -172,6 +172,55 @@ const EconomiaPostPetroleo: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const OasisAlAin: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const trunk = "#8B5A2B";
+  const water = "#5DADE2";
+  const palms: [number, number, number][] = [
+    [130, 230, 1],
+    [205, 228, 1.15],
+    [280, 232, 0.95],
+  ];
+  return (
+    <g>
+      <path d="M95 236 Q205 226 320 236" fill="none" stroke={water} strokeWidth="10" strokeLinecap="round" opacity="0.8" />
+      {palms.map(([x, y, scale], i) => (
+        <g key={i} transform={`translate(${x} ${y}) scale(${scale})`}>
+          <rect x="-6" y="-70" width="12" height="70" fill={trunk} stroke={shade(trunk, 0.3)} strokeWidth="2" />
+          {[-60, -30, 0, 30, 60].map((deg) => (
+            <g key={deg} transform={`translate(0 -68) rotate(${deg})`}>
+              <path d="M0 0 Q-6 -25 -30 -35 Q-8 -20 0 0 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+            </g>
+          ))}
+          <ellipse cx="0" cy="-64" rx="7" ry="5" fill="#B8860B" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const GahwaCafeHospitalidad: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const brass = "#C9A227";
+  const brassDark = shade(brass, 0.3);
+  const coffee = "#4A2C17";
+  const date = "#5C3A21";
+  return (
+    <g>
+      <path d="M175 235 Q160 235 160 210 Q158 175 180 165 Q182 150 200 148 Q218 150 220 165 Q235 168 233 190 L228 235 Z" fill={brass} stroke={brassDark} strokeWidth="3" />
+      <path d="M175 195 Q130 190 105 170 Q122 182 150 186 Q163 188 172 198 Z" fill={brass} stroke={brassDark} strokeWidth="2.5" />
+      <ellipse cx="200" cy="146" rx="10" ry="5" fill={brassDark} />
+      <circle cx="200" cy="140" r="4" fill={brassDark} />
+      <path d="M220 195 Q250 190 250 210 Q250 225 232 225" fill="none" stroke={brassDark} strokeWidth="6" strokeLinecap="round" />
+      <path d="M102 168 Q95 178 90 190" stroke={coffee} strokeWidth="3" strokeLinecap="round" fill="none" opacity="0.85" />
+      <path d="M70 195 L98 195 L94 215 L74 215 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[[260, 225], [280, 232], [270, 240]].map(([x, y], i) => (
+        <ellipse key={i} cx={x} cy={y} rx="9" ry="6" fill={date} stroke={shade(date, 0.3)} strokeWidth="1.5" transform={`rotate(${i * 20 - 15} ${x} ${y})`} />
+      ))}
+    </g>
+  );
+};
+
 export const unitedArabEmiratesIllustrations: Record<string, IllustrationDefinition> = {
   "burj-khalifa": { component: BurjKhalifa },
   "islas-artificiales-palmera": { component: IslasArtificialesPalmera },
@@ -183,4 +232,6 @@ export const unitedArabEmiratesIllustrations: Record<string, IllustrationDefinit
   "mezquita-jeque-zayed": { component: MezquitaJequeZayed },
   "esquiar-en-el-desierto": { component: EsquiarEnElDesierto },
   "economia-post-petroleo": { component: EconomiaPostPetroleo },
+  "oasis-al-ain": { component: OasisAlAin },
+  "gahwa-cafe-hospitalidad": { component: GahwaCafeHospitalidad },
 };

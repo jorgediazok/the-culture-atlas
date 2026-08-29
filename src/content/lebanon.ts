@@ -231,4 +231,119 @@ export const lebanon: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "los-fenicios-y-la-invencion-del-vidrio-soplado",
+    order: 11,
+    placeholderEmoji: "🍶",
+    accentColor: "#4FA8C9",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo que inventó la técnica de soplar el vidrio",
+        subtitle: "Los fenicios y la invención del vidrio soplado",
+        imageAlt: "Caricatura de un artesano soplando un vidrio incandescente en el extremo de una caña larga.",
+        description:
+          "En algún punto del siglo I antes de Cristo, artesanos fenicios de la costa siria y libanesa, probablemente en la zona de Sidón, inventaron la técnica del vidrio soplado, un método que permitió por primera vez producir recipientes de vidrio en cantidad y a un costo mucho menor que el laborioso tallado o moldeado usado hasta entonces, al inflar una burbuja de vidrio fundido en el extremo de una caña hueca de metal. La innovación se propagó con rapidez por todo el Imperio romano, que adoptó y perfeccionó la técnica hasta volver el vidrio un material cotidiano accesible para gran parte de la población, no solo para la élite, y transformó objetos que antes eran de lujo exclusivo en utensilios domésticos comunes. Sidón siguió siendo durante siglos un centro reconocido de vidrio de gran calidad, y piezas fenicias y romanas de vidrio soplado halladas en el Líbano se conservan hoy en museos de todo el mundo.",
+      },
+      en: {
+        title: "The People Who Invented Glassblowing",
+        subtitle: "The Phoenicians and the Invention of Blown Glass",
+        imageAlt: "Cartoon of an artisan blowing molten glass at the end of a long tube.",
+        description:
+          "At some point in the 1st century BC, Phoenician artisans on the Syrian and Lebanese coast, likely around Sidon, invented the technique of glassblowing, a method that for the first time allowed glass vessels to be produced in quantity and at a far lower cost than the laborious carving or molding used until then, by inflating a bubble of molten glass at the end of a hollow metal tube. The innovation spread rapidly across the Roman Empire, which adopted and refined the technique until glass became an everyday material accessible to much of the population, not just the elite, turning what had once been an exclusive luxury item into common household objects. Sidon remained a recognized center of high-quality glassmaking for centuries afterward, and Phoenician and Roman blown-glass pieces found in Lebanon are preserved today in museums around the world.",
+      },
+    },
+  },
+  {
+    id: "la-gruta-de-jeita-el-rio-subterraneo",
+    order: 12,
+    placeholderEmoji: "💧",
+    accentColor: "#6B7A8C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La gruta con un río subterráneo navegable en bote",
+        subtitle: "La Gruta de Jeita",
+        imageAlt: "Caricatura de estalactitas colgando sobre un río subterráneo iluminado.",
+        description:
+          "La Gruta de Jeita, un sistema de dos cuevas de piedra caliza interconectadas al norte de Beirut, alberga en su galería inferior un río subterráneo navegable en bote a lo largo de más de seis kilómetros explorados, alimentado por aguas que emergen luego como uno de los principales manantiales de agua potable de la capital libanesa. La galería superior, descubierta recién en 1958 tras la inferior, sorprende con formaciones de estalactitas y estalagmitas de hasta ocho metros de largo y salones lo bastante amplios como para haber albergado conciertos de orquesta, incluyendo lo que se describe como la estalactita más larga del mundo conocida en una cueva accesible al público. La gruta compitió como finalista en la elección de las nuevas siete maravillas naturales del mundo en 2011, y sigue siendo la atracción turística más visitada del Líbano.",
+      },
+      en: {
+        title: "The Grotto With a Navigable Underground River",
+        subtitle: "Jeita Grotto",
+        imageAlt: "Cartoon of stalactites hanging over a lit underground river.",
+        description:
+          "Jeita Grotto, a system of two interconnected limestone caves north of Beirut, holds in its lower gallery a navigable underground river explored for more than six kilometers by boat, fed by waters that later emerge as one of the main sources of drinking water for the Lebanese capital. The upper gallery, discovered only in 1958 after the lower one, astonishes visitors with stalactite and stalagmite formations up to eight meters long and chambers spacious enough to have hosted full orchestra concerts, including what's described as the longest stalactite known in any cave open to the public. The grotto was a finalist in the 2011 election for the New Seven Wonders of Nature, and it remains Lebanon's most visited tourist attraction.",
+      },
+    },
+  },
+  {
+    id: "el-valle-de-qadisha-y-sus-monasterios-en-los-acantilados",
+    order: 13,
+    placeholderEmoji: "🏔️",
+    accentColor: "#7A6248",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El valle de acantilados con monasterios en la roca",
+        subtitle: "El valle de Qadisha y sus monasterios",
+        imageAlt: "Caricatura de una pequeña capilla de piedra encajada en la pared de un cañón rocoso.",
+        description:
+          "El valle de Qadisha, un profundo cañón excavado por un río en las montañas del norte del Líbano, alberga desde los primeros siglos del cristianismo docenas de monasterios, ermitas y capillas construidos directamente dentro de cuevas y grietas naturales en sus paredes de roca casi verticales, elegidos por monjes que buscaban un aislamiento extremo del mundo exterior. Algunos de estos refugios permanecieron habitados de forma prácticamente ininterrumpida durante más de mil quinientos años, conservando manuscritos, iconos y frescos antiguos gracias precisamente a lo remoto e inaccesible del terreno, que también protegió a comunidades enteras durante siglos de inestabilidad regional. El valle, cuyo nombre significa 'sagrado' en arameo, se declaró Patrimonio de la Humanidad junto a los Cedros de Dios en 1998, y varios de sus monasterios, accesibles hoy por senderos de montaña, siguen habitados por una pequeña comunidad de monjes y ermitaños.",
+      },
+      en: {
+        title: "The Cliffside Valley of Rock-Carved Monasteries",
+        subtitle: "The Qadisha Valley and Its Monasteries",
+        imageAlt: "Cartoon of a small stone chapel wedged into a rocky canyon wall.",
+        description:
+          "The Qadisha Valley, a deep canyon carved by a river through the mountains of northern Lebanon, has held since the earliest centuries of Christianity dozens of monasteries, hermitages, and chapels built directly into caves and natural crevices in its nearly vertical rock walls, chosen by monks seeking extreme isolation from the outside world. Some of these refuges remained inhabited almost continuously for more than fifteen hundred years, preserving ancient manuscripts, icons, and frescoes precisely because of how remote and inaccessible the terrain is, which also sheltered entire communities through centuries of regional instability. The valley, whose name means 'holy' in Aramaic, was declared a UNESCO World Heritage site alongside the Cedars of God in 1998, and several of its monasteries, reachable today by mountain trails, remain home to a small community of monks and hermits.",
+      },
+    },
+  },
+  {
+    id: "el-kebbeh-nayyeh-el-tartar-de-cordero-libanes",
+    order: 14,
+    placeholderEmoji: "🥩",
+    accentColor: "#A6453A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tartar de cordero crudo que corona la mesa",
+        subtitle: "El kebbeh nayyeh, tartar de cordero libanés",
+        imageAlt: "Caricatura de un montículo de carne cruda condimentada moldeado sobre un plato con aceite de oliva.",
+        description:
+          "El kebbeh nayyeh, la versión cruda del plato de trigo bulgur y carne compartido por buena parte del Levante, se prepara majando carne de cordero magra y fresca hasta lograr una pasta extremadamente fina que se mezcla con bulgur remojado, cebolla rallada y especias como la pimienta de Alepo, y se sirve moldeada en un plato liso, decorada con líneas trazadas con los dedos y bañada en aceite de oliva. Considerado el plato de mayor prestigio dentro de la tradición del mezze libanés, se come tradicionalmente acompañado de hojas de menta fresca, cebolla cruda y pan pita, y la calidad de la carne y la textura perfectamente lisa de la mezcla, lograda tradicionalmente a mano en un mortero de piedra en lugar de una procesadora eléctrica, se consideran una prueba directa de la habilidad del carnicero y de quien lo prepara.",
+      },
+      en: {
+        title: "The Raw Lamb Tartare That Crowns the Table",
+        subtitle: "Kebbeh Nayyeh, Lebanon's Lamb Tartare",
+        imageAlt: "Cartoon of a mound of seasoned raw meat shaped on a plate with olive oil.",
+        description:
+          "Kebbeh nayyeh, the raw version of the bulgur-and-meat dish shared across much of the Levant, is made by pounding fresh, lean lamb into an extremely fine paste mixed with soaked bulgur, grated onion, and spices like Aleppo pepper, then served molded on a flat plate, decorated with finger-drawn lines and drizzled with olive oil. Considered the most prestigious dish within the Lebanese mezze tradition, it's traditionally eaten with fresh mint leaves, raw onion, and pita bread, and the quality of the meat along with the perfectly smooth texture of the mix, traditionally achieved by hand in a stone mortar rather than an electric processor, is seen as direct proof of the butcher's and cook's skill.",
+      },
+    },
+  },
+  {
+    id: "la-diaspora-libanesa-mas-fuera-que-dentro",
+    order: 15,
+    placeholderEmoji: "🧳",
+    accentColor: "#2F7D4F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país con más gente afuera que en su territorio",
+        subtitle: "La diáspora libanesa, más fuera que dentro",
+        imageAlt: "Caricatura de una maleta abierta con un cedro brotando entre la ropa doblada.",
+        description:
+          "El Líbano tiene una población residente de apenas unos cinco millones de personas, pero se estima que entre diez y catorce millones de personas de origen libanés viven repartidas por el resto del mundo, sobre todo en Brasil, Argentina, Estados Unidos y África Occidental, una diáspora varias veces más numerosa que la población del propio país, formada por sucesivas oleadas migratorias que comenzaron a fines del siglo diecinueve bajo dominio otomano y continuaron durante décadas de inestabilidad regional posterior. Esta comunidad global, que incluye desde el mayor productor de café de Brasil hasta múltiples jefes de estado latinoamericanos de ascendencia libanesa, mantiene lazos culturales activos con el país de origen a través de remesas, visitas familiares recurrentes y asociaciones comunitarias, y el propio gobierno libanés reconoce oficialmente a esta red internacional como una extensión viva de la identidad nacional más allá de sus fronteras.",
+      },
+      en: {
+        title: "The Country With More People Abroad Than at Home",
+        subtitle: "The Lebanese Diaspora, Bigger Outside Than In",
+        imageAlt: "Cartoon of an open suitcase with a cedar tree sprouting among folded clothes.",
+        description:
+          "Lebanon has a resident population of barely five million people, but an estimated ten to fourteen million people of Lebanese descent live scattered across the rest of the world, especially in Brazil, Argentina, the United States, and West Africa, a diaspora several times larger than the country's own population, shaped by successive waves of migration that began in the late 19th century under Ottoman rule and continued through decades of later regional instability. This global community, which includes everything from Brazil's largest coffee producer to multiple Latin American heads of state of Lebanese descent, maintains active cultural ties to the homeland through remittances, recurring family visits, and community associations, and the Lebanese government itself officially recognizes this international network as a living extension of national identity beyond its borders.",
+      },
+    },
+  },
 ];

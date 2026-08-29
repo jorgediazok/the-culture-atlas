@@ -231,4 +231,50 @@ export const laos: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "vat-phou",
+    order: 11,
+    placeholderEmoji: "🏛️",
+    accentColor: "#8B7355",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El templo khmer más antiguo, anterior a Angkor Wat",
+        subtitle: "Vat Phu, templo khmer en el sur de Laos",
+        imageAlt: "Caricatura de ruinas de piedra antiguas escalando una ladera hacia un pico montañoso.",
+        description:
+          "Vat Phu, un complejo de templos de piedra construido en las laderas de la montaña Phou Kao en el sur de Laos, comenzó a levantarse en el siglo V, varios siglos antes que Angkor Wat, y funcionó como uno de los primeros grandes centros religiosos del imperio khmer, dedicado originalmente al dios hindú Shiva antes de convertirse con el tiempo en un santuario budista. El sitio, organizado en terrazas escalonadas que ascienden la ladera hasta un santuario principal con vista al río Mekong, aprovecha un manantial natural que brota de la roca y que los antiguos constructores consideraban sagrado, canalizándolo para bañar simbólicamente un lingam de piedra dentro del templo principal. Declarado Patrimonio de la Humanidad en 2001 como parte de un paisaje cultural más amplio, Vat Phu se mantiene hoy en un estado de conservación notablemente menos restaurado que otros templos khmer más famosos de la región, lo que muchos visitantes consideran parte de su atractivo.",
+      },
+      en: {
+        title: "The Khmer Temple Older Than Angkor Wat",
+        subtitle: "Vat Phou, a Khmer Temple in Southern Laos",
+        imageAlt: "Cartoon of ancient stone ruins climbing a hillside toward a mountain peak.",
+        description:
+          "Vat Phou, a complex of stone temples built on the slopes of Phou Kao mountain in southern Laos, began construction in the 5th century, several centuries before Angkor Wat, and functioned as one of the earliest major religious centers of the Khmer empire, originally dedicated to the Hindu god Shiva before gradually becoming a Buddhist sanctuary. The site, laid out in stepped terraces climbing the hillside up to a main sanctuary overlooking the Mekong River, makes use of a natural spring flowing from the rock that ancient builders considered sacred, channeling it to symbolically bathe a stone lingam inside the main temple. Declared a UNESCO World Heritage Site in 2001 as part of a broader cultural landscape, Vat Phou remains today notably less restored than other more famous Khmer temples in the region, something many visitors consider part of its appeal.",
+      },
+    },
+  },
+  {
+    id: "pi-mai-lao",
+    order: 12,
+    placeholderEmoji: "💦",
+    accentColor: "#1D6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El año nuevo que se celebra tirando agua a todos",
+        subtitle: "Pi Mai, el año nuevo laosiano",
+        imageAlt: "Caricatura de personas arrojándose agua unas a otras en la calle durante un festival.",
+        description:
+          "Pi Mai, el año nuevo tradicional laosiano celebrado a mediados de abril durante tres días según el calendario lunar budista, combina rituales religiosos de purificación con una de las guerras de agua callejeras más grandes del sudeste asiático, en la que prácticamente nadie en el país escapa de terminar completamente empapado. El agua, arrojada con baldes, pistolas de juguete y mangueras entre desconocidos en plena calle, simboliza originalmente la limpieza espiritual del año que termina y la buena suerte para el que comienza, un gesto derivado del ritual más solemne de verter agua perfumada sobre las estatuas de Buda en los templos y sobre las manos de los mayores de la familia como muestra de respeto. Las celebraciones también incluyen la construcción de pequeños montículos de arena en los templos, cada uno representando un deseo, y desfiles con la figura de Nang Sangkhan, la diosa que según la tradición encabeza la llegada del nuevo año.",
+      },
+      en: {
+        title: "The New Year Celebrated by Soaking Everyone in Water",
+        subtitle: "Pi Mai, Lao New Year",
+        imageAlt: "Cartoon of people splashing water on each other in the street during a festival.",
+        description:
+          "Pi Mai, Laos's traditional New Year celebrated over three days in mid-April according to the Buddhist lunar calendar, combines religious purification rituals with one of the largest street water fights in Southeast Asia, one that leaves practically no one in the country dry. Water thrown with buckets, toy guns, and hoses between total strangers in the street originally symbolizes washing away the ending year's misfortune and welcoming good luck for the one beginning, a gesture rooted in the more solemn ritual of pouring scented water over Buddha statues in temples and over the hands of family elders as a sign of respect. The celebrations also include building small sand mounds at temples, each representing a wish, and processions featuring Nang Sangkhan, the goddess tradition says leads in the arrival of the new year.",
+      },
+    },
+  },
 ];

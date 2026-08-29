@@ -231,4 +231,119 @@ export const afghanistan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "las-alfombras-afganas-anudadas-a-mano",
+    order: 11,
+    placeholderEmoji: "🧶",
+    accentColor: "#8B1E3F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las alfombras anudadas a mano con miles de nudos",
+        subtitle: "Las alfombras afganas anudadas a mano",
+        imageAlt: "Caricatura de una alfombra roja con patrones geométricos tejida en un telar vertical.",
+        description:
+          "Las alfombras afganas, tejidas a mano en telares verticales durante meses por tejedoras que anudan hilo por hilo siguiendo patrones geométricos transmitidos oralmente de generación en generación, se cuentan entre las más valoradas del mundo por su densidad de nudos, que en las piezas más finas puede superar los cientos de miles por metro cuadrado. Cada región y cada grupo étnico, entre ellos turcomanos, uzbecos, baluches y pastunes, desarrolló paletas de colores y motivos geométricos propios, desde los rombos rojos y granate característicos de las alfombras turcomanas del norte hasta los diseños de medallones centrales típicos de otras regiones, tejidos con lana esquilada, hilada y teñida de forma completamente artesanal siguiendo procesos que apenas cambiaron en siglos. Las alfombras afganas se exportan hoy a coleccionistas de todo el mundo, y aprender a anudar se considera todavía una habilidad transmitida principalmente entre mujeres dentro de la familia.",
+      },
+      en: {
+        title: "The Hand-Knotted Rugs of a Thousand Knots",
+        subtitle: "Hand-Knotted Afghan Carpets",
+        imageAlt: "Cartoon of a red carpet with geometric patterns woven on a vertical loom.",
+        description:
+          "Afghan carpets, hand-woven on vertical looms over months by weavers who knot thread by thread following geometric patterns passed down orally through generations, rank among the most prized in the world for their knot density, which in the finest pieces can exceed hundreds of thousands of knots per square meter. Every region and ethnic group, including Turkmen, Uzbek, Baluch, and Pashtun communities, developed its own color palettes and geometric motifs, from the red and burgundy diamond patterns characteristic of northern Turkmen rugs to the central-medallion designs typical of other regions, woven from wool that is still sheared, spun, and dyed entirely by hand following processes barely changed in centuries. Afghan carpets are exported today to collectors around the world, and learning to knot is still considered a skill passed down mainly among women within the family.",
+      },
+    },
+  },
+  {
+    id: "el-oro-de-bactriana-el-tesoro-de-tillya-tepe",
+    order: 12,
+    placeholderEmoji: "👑",
+    accentColor: "#C9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tesoro de oro nómada enterrado hace dos mil años",
+        subtitle: "El oro de Bactriana, tesoro de Tillya Tepe",
+        imageAlt: "Caricatura de una corona dorada plegable con adornos colgantes brillantes.",
+        description:
+          "En 1978, un equipo de arqueólogos soviéticos y afganos excavó en Tillya Tepe, en el norte de Afganistán, seis tumbas de nómadas de hace unos dos mil años que contenían más de veinte mil objetos de oro macizo, entre ellos coronas plegables desmontables para el transporte, cinturones con placas colgantes, anillos y ornamentos que mezclaban motivos griegos, persas, indios, chinos y de la estepa euroasiática en un mismo conjunto, evidencia del intenso cruce cultural que atravesaba la región en esa época. El hallazgo, conocido como el 'oro de Bactriana', desapareció de la vista pública poco después de su descubrimiento durante décadas de inestabilidad en el país, y muchos lo dieron por perdido, hasta que en 2003 se confirmó que empleados del banco central afgano lo habían escondido y protegido en secreto dentro de una bóveda subterránea. Desde entonces, el tesoro viajó en exhibiciones itinerantes por museos de todo el mundo antes de regresar a Kabul.",
+      },
+      en: {
+        title: "The Nomadic Gold Treasure Buried Two Thousand Years Ago",
+        subtitle: "Bactrian Gold, the Tillya Tepe Treasure",
+        imageAlt: "Cartoon of a collapsible golden crown with shimmering hanging ornaments.",
+        description:
+          "In 1978, a team of Soviet and Afghan archaeologists excavated at Tillya Tepe, in northern Afghanistan, six nomadic graves about two thousand years old containing more than twenty thousand solid gold objects, including collapsible crowns designed for easy transport, belts with hanging plaques, rings, and ornaments blending Greek, Persian, Indian, Chinese, and Eurasian steppe motifs within a single collection, evidence of the intense cultural crossroads the region sat at during that era. The find, known as the 'Bactrian gold,' disappeared from public view shortly after its discovery during decades of instability in the country, and many assumed it had been lost, until it was confirmed in 2003 that employees of Afghanistan's central bank had secretly hidden and protected it inside an underground vault. Since then, the treasure has traveled in touring exhibitions to museums around the world before returning to Kabul.",
+      },
+    },
+  },
+  {
+    id: "el-galgo-afgano-el-perro-de-las-montanas",
+    order: 13,
+    placeholderEmoji: "🐕",
+    accentColor: "#C9A87C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El perro de pelaje sedoso criado para cazar en montaña",
+        subtitle: "El galgo afgano, perro de las montañas",
+        imageAlt: "Caricatura de un perro esbelto de pelaje largo y sedoso corriendo con las orejas al viento.",
+        description:
+          "El galgo afgano, una de las razas de perro más antiguas documentadas, se desarrolló durante siglos en las montañas y mesetas de Afganistán como perro de caza veloz, capaz de perseguir liebres, gacelas e incluso leopardos de las nieves sobre terreno escarpado gracias a su cuerpo delgado y musculoso y a patas anchas y almohadilladas adaptadas para correr sobre roca y nieve. Su distintivo pelaje largo y sedoso, que hoy lo convierte en una de las razas más reconocibles del mundo canino en concursos de belleza, cumplía originalmente una función puramente práctica: protegerlo del frío intenso de las alturas montañosas donde trabajaba junto a pastores y cazadores nómadas. Considerado durante generaciones un símbolo de estatus entre las familias afganas que lo criaban, el galgo afgano llegó a Occidente recién a comienzos del siglo XX y hoy es criado en todo el mundo, aunque la raza sigue asociada culturalmente a su país de origen.",
+      },
+      en: {
+        title: "The Silky-Coated Dog Bred to Hunt in the Mountains",
+        subtitle: "The Afghan Hound, Dog of the Mountains",
+        imageAlt: "Cartoon of a slender long-haired dog running with its ears streaming in the wind.",
+        description:
+          "The Afghan hound, one of the oldest documented dog breeds, developed over centuries in the mountains and highlands of Afghanistan as a fast hunting dog, able to chase down hares, gazelles, and even snow leopards across rugged terrain thanks to its lean, muscular body and wide, padded paws adapted for running over rock and snow. Its distinctive long, silky coat, which today makes it one of the most recognizable breeds in dog show competitions worldwide, originally served a purely practical purpose: protecting it from the intense cold of the mountain heights where it worked alongside nomadic shepherds and hunters. Considered for generations a status symbol among the Afghan families who bred it, the Afghan hound only reached the West in the early 20th century and is now bred around the world, though the breed remains culturally tied to its country of origin.",
+      },
+    },
+  },
+  {
+    id: "el-kabuli-palaw-el-plato-nacional-afgano",
+    order: 14,
+    placeholderEmoji: "🍚",
+    accentColor: "#E8912D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arroz con zanahoria y pasas, plato nacional afgano",
+        subtitle: "El kabuli palaw, plato nacional afgano",
+        imageAlt: "Caricatura de una fuente de arroz dorado cubierto de tiras de zanahoria y pasas junto a trozos de cordero.",
+        description:
+          "El kabuli palaw, considerado el plato nacional de Afganistán, consiste en arroz basmati cocido lentamente en el caldo de cordero o ternera hasta absorber su sabor, servido sobre trozos de carne y coronado con una mezcla dulce de tiras finas de zanahoria salteadas, pasas de uva, y a veces almendras o pistachos, en un contraste de sabores salados y dulces que define al plato. Preparado tradicionalmente en grandes cantidades para bodas, el Eid y reuniones familiares numerosas en una olla especial llamada 'kazan', el palaw exige un control preciso del tiempo de cocción del arroz para lograr que cada grano quede suelto y separado sin llegar a pasarse, una técnica que se considera una prueba de destreza culinaria transmitida principalmente entre las mujeres de una familia. El plato, con variantes similares en Uzbekistán y otros países de Asia Central bajo el nombre de plov, se volvió también un símbolo culinario de la diáspora afgana repartida por el mundo.",
+      },
+      en: {
+        title: "The Rice With Carrot and Raisins, Afghanistan's Dish",
+        subtitle: "Kabuli Palaw, Afghanistan's National Dish",
+        imageAlt: "Cartoon of a platter of golden rice topped with carrot strips and raisins beside pieces of lamb.",
+        description:
+          "Kabuli palaw, considered Afghanistan's national dish, consists of basmati rice slow-cooked in lamb or beef broth until it absorbs the meat's flavor, served over pieces of meat and topped with a sweet mixture of thin sautéed carrot strips, raisins, and sometimes almonds or pistachios, in a contrast of savory and sweet flavors that defines the dish. Traditionally prepared in large quantities for weddings, Eid, and big family gatherings in a special pot called a 'kazan,' palaw demands precise control over the rice's cooking time to get every grain loose and separate without overcooking it, a technique considered a mark of culinary skill passed down mainly among the women of a family. The dish, with similar variants in Uzbekistan and other Central Asian countries under the name plov, has also become a culinary symbol of the Afghan diaspora scattered around the world.",
+      },
+    },
+  },
+  {
+    id: "el-attan-la-danza-nacional-en-circulo",
+    order: 15,
+    placeholderEmoji: "💃",
+    accentColor: "#6B3FA0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La danza nacional que gira en círculo cada vez más",
+        subtitle: "El attan, la danza nacional en círculo",
+        imageAlt: "Caricatura de bailarines girando en círculo con los brazos extendidos y el pelo en movimiento.",
+        description:
+          "El attan, la danza folclórica nacional de Afganistán, reúne a un grupo de bailarines, tradicionalmente hombres aunque hoy también mujeres en muchos contextos, formando un círculo que gira progresivamente más rápido al ritmo de tambores dhol y del instrumento de viento surnai, con los bailarines extendiendo los brazos, girando la cabeza y dando palmadas sincronizadas mientras el tempo se acelera hasta un clímax colectivo que puede durar horas sin interrupción. Con raíces que algunos historiadores remontan a rituales pastunes previos al islam, posiblemente vinculados a celebraciones de cosecha, el attan se baila hoy en bodas, festividades religiosas y celebraciones nacionales por prácticamente todos los grupos étnicos del país, con variaciones regionales en el ritmo y los pasos, y se considera una de las expresiones culturales que más unifica a una población étnica y lingüísticamente diversa.",
+      },
+      en: {
+        title: "The National Dance That Spins Faster and Faster",
+        subtitle: "Attan, the National Circle Dance",
+        imageAlt: "Cartoon of dancers spinning in a circle with arms extended and hair in motion.",
+        description:
+          "Attan, Afghanistan's national folk dance, brings together a group of dancers, traditionally men though today also women in many settings, forming a circle that spins progressively faster to the beat of dhol drums and the surnai wind instrument, with dancers extending their arms, whipping their heads, and clapping in unison as the tempo builds toward a collective climax that can last for hours without stopping. With roots some historians trace to pre-Islamic Pashtun rituals, possibly linked to harvest celebrations, attan is danced today at weddings, religious holidays, and national celebrations by virtually every ethnic group in the country, with regional variations in rhythm and steps, and it's considered one of the cultural expressions that most unifies an ethnically and linguistically diverse population.",
+      },
+    },
+  },
 ];

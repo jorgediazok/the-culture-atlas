@@ -1,4 +1,4 @@
-import { shade } from "./palette";
+import { shade, tint } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const LuangPrabang: IllustrationComponent = ({ accentColor }) => {
@@ -164,6 +164,57 @@ const BounBangFai: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const VatPhou: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const stone = "#B8A484";
+  const terraces: [number, number, number, number][] = [
+    [110, 235, 70, 26],
+    [150, 205, 60, 24],
+    [185, 178, 50, 20],
+    [210, 155, 42, 18],
+  ];
+  return (
+    <g>
+      <polygon points="90,240 180,110 240,150 320,240" fill={accentColor} opacity="0.3" />
+      {terraces.map(([x, y, w, h], i) => (
+        <rect key={i} x={x} y={y} width={w} height={h} fill={stone} stroke={dark} strokeWidth="2" opacity={0.95 - i * 0.05} />
+      ))}
+      <path d="M225 155 L225 120 L245 120 L245 155 Z" fill={stone} stroke={dark} strokeWidth="2.5" />
+      <polygon points="220,120 235,100 250,120" fill={dark} opacity="0.6" />
+      {[120, 150, 180].map((x) => (
+        <rect key={x} x={x} y="215" width="8" height="20" fill={dark} opacity="0.4" />
+      ))}
+    </g>
+  );
+};
+
+const PiMaiLao: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  const water = "#4FA8E8";
+  const splashes: [number, number, number][] = [
+    [195, 140, 4],
+    [205, 150, 3],
+    [215, 135, 4],
+    [190, 155, 3],
+    [210, 160, 3],
+  ];
+  return (
+    <g>
+      <circle cx="150" cy="150" r="15" fill={skin} />
+      <path d="M132 158 Q150 150 168 158 L162 235 L138 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M162 178 Q190 165 210 150" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <circle cx="260" cy="155" r="15" fill={skin} />
+      <path d="M242 163 Q260 155 278 163 L272 235 L248 235 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.5" />
+      <path d="M248 183 Q220 172 200 158" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      {splashes.map(([x, y, r], i) => (
+        <circle key={i} cx={x} cy={y} r={r} fill={water} opacity="0.85" />
+      ))}
+      <path d="M190 130 Q205 115 220 130" fill="none" stroke={water} strokeWidth="4" strokeLinecap="round" opacity="0.7" />
+    </g>
+  );
+};
+
 export const laosIllustrations: Record<string, IllustrationDefinition> = {
   "luang-prabang": { component: LuangPrabang },
   "llanura-de-las-jarras": { component: LlanuraDeLasJarras },
@@ -175,4 +226,6 @@ export const laosIllustrations: Record<string, IllustrationDefinition> = {
   "hmong-laos": { component: HmongLaos },
   "lan-xang": { component: LanXang },
   "boun-bang-fai": { component: BounBangFai },
+  "vat-phou": { component: VatPhou },
+  "pi-mai-lao": { component: PiMaiLao },
 };

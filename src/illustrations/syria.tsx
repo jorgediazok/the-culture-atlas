@@ -198,6 +198,143 @@ const ElBordadoAghabani: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const ElKrakDeLosCaballeros: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const hill = "#8B7355";
+  return (
+    <g>
+      {/* hill */}
+      <path d="M85 245 Q205 210 320 245 L320 250 L85 250 Z" fill={hill} opacity="0.6" />
+      {/* outer wall */}
+      <rect x="105" y="185" width="200" height="55" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="3" />
+      {/* inner wall, taller and set back */}
+      <rect x="140" y="140" width="130" height="90" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* round towers on the outer wall */}
+      {[125, 175, 235, 285].map((x) => (
+        <g key={x}>
+          <rect x={x - 14} y="165" width="28" height="75" fill={dark} opacity="0.3" />
+          <circle cx={x} cy="165" r="16" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="2.5" />
+        </g>
+      ))}
+      {/* taller corner towers on the inner wall */}
+      {[155, 255].map((x) => (
+        <g key={x}>
+          <rect x={x - 14} y="120" width="28" height="90" fill={dark} opacity="0.2" />
+          <circle cx={x} cy="120" r="16" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+        </g>
+      ))}
+      {/* crenellations on the inner wall */}
+      {[150, 175, 200, 225, 250].map((x) => (
+        <rect key={x} x={x} y="132" width="12" height="10" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      ))}
+    </g>
+  );
+};
+
+const MaalulaElPuebloQueTodaviaHablaArameo: IllustrationComponent = () => {
+  const rock = "#A89078";
+  const dark = shade(rock, 0.4);
+  const blue = "#3D7EA6";
+  return (
+    <g>
+      {/* rocky cliff */}
+      <path d="M85 245 L110 160 L150 190 L190 130 L230 175 L270 145 L320 200 L320 250 L85 250 Z" fill={rock} stroke={dark} strokeWidth="2.5" />
+      {/* stacked blue houses set into the cliff */}
+      {[
+        [130, 190, 30, 26],
+        [175, 155, 32, 26],
+        [220, 175, 30, 24],
+        [260, 150, 28, 24],
+      ].map(([x, y, w, h]) => (
+        <g key={x}>
+          <rect x={x} y={y} width={w} height={h} fill={blue} stroke={shade(blue, 0.35)} strokeWidth="2" />
+          <rect x={x + w / 2 - 4} y={y + h - 12} width="8" height="12" fill="#2C4A5E" />
+        </g>
+      ))}
+      {/* carved stairways connecting them */}
+      <path d="M160 216 L175 181 M205 179 L220 199" stroke={dark} strokeWidth="2" opacity="0.5" />
+    </g>
+  );
+};
+
+const ElKibbehElPlatoNacionalSirio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  return (
+    <g>
+      {/* plate */}
+      <ellipse cx="205" cy="220" rx="95" ry="24" fill={tint(accentColor, 0.4)} stroke={dark} strokeWidth="3" />
+      {/* stacked football-shaped kibbeh croquettes */}
+      {[
+        [150, 205, -15],
+        [205, 195, 5],
+        [260, 205, -8],
+        [178, 220, 10],
+        [232, 218, -5],
+      ].map(([x, y, rot]) => (
+        <ellipse key={x} cx={x} cy={y} rx="26" ry="14" fill={gold} stroke={shade(gold, 0.35)} strokeWidth="2.5" transform={`rotate(${rot} ${x} ${y})`} />
+      ))}
+      {/* browned tips */}
+      {[
+        [128, 205],
+        [184, 195],
+        [286, 205],
+      ].map(([x, y]) => (
+        <ellipse key={x} cx={x} cy={y} rx="6" ry="8" fill={shade(gold, 0.35)} opacity="0.7" />
+      ))}
+    </g>
+  );
+};
+
+const LosQududHalabiyaCancionesClasicasDeAlepo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      {/* singer */}
+      <circle cx="150" cy="140" r="16" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M132 155 Q150 145 168 155 L163 235 L137 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M140 165 Q125 175 130 195" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      {/* musician with oud */}
+      <circle cx="260" cy="150" r="15" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M243 164 Q260 155 277 164 L272 235 L248 235 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+      {/* oud pear body and neck */}
+      <path d="M270 190 Q245 195 245 215 Q245 232 270 235 Q295 232 295 215 Q295 195 270 190 Z" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2.5" />
+      <path d="M270 190 L300 165" stroke={wood} strokeWidth="8" strokeLinecap="round" />
+      <line x1="272" y1="192" x2="296" y2="167" stroke="#F5F0E6" strokeWidth="1.5" opacity="0.8" />
+    </g>
+  );
+};
+
+const LosMueblesDeMaderaConIncrustacionesDeNacarDeDamasco: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const nacre = "#E8E4DC";
+  return (
+    <g>
+      {/* chest body */}
+      <rect x="120" y="160" width="170" height="80" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* lid */}
+      <path d="M115 160 L205 135 L295 160 Z" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="3" />
+      {/* legs */}
+      <rect x="130" y="240" width="10" height="16" fill={dark} />
+      <rect x="270" y="240" width="10" height="16" fill={dark} />
+      {/* eight-pointed star inlays */}
+      {[
+        [160, 200],
+        [205, 190],
+        [250, 200],
+      ].map(([x, y]) => (
+        <g key={x}>
+          {[0, 45, 90, 135].map((deg) => (
+            <line key={deg} x1={x - 10} y1={y} x2={x + 10} y2={y} stroke={nacre} strokeWidth="3" transform={`rotate(${deg} ${x} ${y})`} opacity="0.9" />
+          ))}
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const syriaIllustrations: Record<string, IllustrationDefinition> = {
   "damasco-la-capital-habitada-mas-antigua-del-mundo": { component: DamascoLaCapitalHabitadaMasAntiguaDelMundo },
   "la-mezquita-omeya-de-damasco": { component: LaMezquitaOmeyaDeDamasco },
@@ -209,4 +346,9 @@ export const syriaIllustrations: Record<string, IllustrationDefinition> = {
   "el-zoco-al-hamidiyah-de-damasco": { component: ElZocoAlHamidiyahDeDamasco },
   "el-tawle-el-backgammon-sirio": { component: ElTawleElBackgammonSirio },
   "el-bordado-aghabani": { component: ElBordadoAghabani },
+  "el-krak-de-los-caballeros": { component: ElKrakDeLosCaballeros },
+  "maalula-el-pueblo-que-todavia-habla-arameo": { component: MaalulaElPuebloQueTodaviaHablaArameo },
+  "el-kibbeh-el-plato-nacional-sirio": { component: ElKibbehElPlatoNacionalSirio },
+  "los-qudud-halabiya-canciones-clasicas-de-alepo": { component: LosQududHalabiyaCancionesClasicasDeAlepo },
+  "los-muebles-de-madera-con-incrustaciones-de-nacar-de-damasco": { component: LosMueblesDeMaderaConIncrustacionesDeNacarDeDamasco },
 };

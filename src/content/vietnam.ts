@@ -231,4 +231,234 @@ export const vietnam: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "roi-nuoc",
+    order: 11,
+    placeholderEmoji: "🎎",
+    accentColor: "#1B4B6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los títeres que actúan sobre el agua de un estanque",
+        subtitle: "El roi nuoc, teatro de títeres acuáticos",
+        imageAlt: "Caricatura de títeres de madera flotando sobre el agua frente a un telón.",
+        description:
+          "El roi nuoc, o teatro de títeres acuáticos, es una forma de arte exclusivamente vietnamita que se originó hace unos mil años en aldeas del delta del río Rojo, donde los títeres de madera tallada y lacada —campesinos, búfalos, escenas de pesca, dragones y personajes de leyendas populares— se manipulan sobre la superficie de un estanque mediante largos varales y mecanismos de cuerdas ocultos bajo el agua, controlados por titiriteros que permanecen sumergidos hasta la cintura detrás de una pantalla de bambú. Las funciones tradicionales se realizaban en el estanque de la aldea durante festivales, con orquesta tradicional y cantantes que narraban cuentos populares, y el oficio exige tanto destreza como resistencia física, ya que los titiriteros a veces permanecen sumergidos durante horas sin ser vistos. La tradición estuvo a punto de desaparecer a mediados del siglo XX, pero fue revivida y hoy se presenta en teatros especializados de Hanói.",
+      },
+      en: {
+        title: "The Puppets That Perform on the Surface of a Pond",
+        subtitle: "Roi Nuoc, Water Puppet Theater",
+        imageAlt: "Cartoon of wooden puppets floating on water in front of a curtain.",
+        description:
+          "Roi nuoc, or water puppetry, is an art form exclusive to Vietnam that originated around a thousand years ago in villages of the Red River Delta, where carved and lacquered wooden puppets — farmers, buffalo, fishing scenes, dragons, and characters from folk legends — are made to move across the surface of a pond using long rods and string mechanisms hidden underwater, controlled by puppeteers standing waist-deep behind a bamboo screen. Traditional performances took place in the village pond during festivals, accompanied by a traditional orchestra and singers narrating folk tales, and the craft demands both puppetry skill and remarkable physical endurance, since puppeteers sometimes stay submerged for hours without being seen by the audience. The tradition nearly disappeared in the mid-20th century, but was revived and is now performed regularly at dedicated theaters in Hanoi.",
+      },
+    },
+  },
+  {
+    id: "hoi-an",
+    order: 12,
+    placeholderEmoji: "🏮",
+    accentColor: "#D4A017",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo antiguo que se ilumina con miles de faroles",
+        subtitle: "Hoi An, la ciudad de los faroles",
+        imageAlt: "Caricatura de faroles de colores colgando sobre una calle de casas antiguas.",
+        description:
+          "Hoi An, en el centro de Vietnam, fue un importante puerto comercial entre los siglos XV y XIX donde se establecieron mercaderes chinos, japoneses y holandeses, entre otros, dejando una arquitectura híbrida excepcionalmente bien conservada que la UNESCO declaró Patrimonio de la Humanidad en 1999. Su puente cubierto japonés, del siglo XVII, es el monumento más icónico de la ciudad, pero hoy Hoi An es sobre todo célebre por los miles de faroles de seda de colores que cuelgan por todo el casco antiguo, un espectáculo que alcanza su punto máximo durante el Festival de los Faroles, celebrado cada mes en la noche de luna llena, cuando se apaga la electricidad y las calles quedan iluminadas únicamente por la luz de los faroles y las velas, mientras los vehículos motorizados quedan prohibidos en el casco histórico. La ciudad también es famosa por su industria de sastrería a medida, capaz de confeccionar un traje en un solo día, y por la costumbre de soltar farolitos encendidos sobre el río.",
+      },
+      en: {
+        title: "The Old Town That Lights Up With Thousands of Lanterns",
+        subtitle: "Hoi An, the City of Lanterns",
+        imageAlt: "Cartoon of colorful lanterns hanging over a street of old houses.",
+        description:
+          "Hoi An, in central Vietnam, was a major trading port between the 15th and 19th centuries where Chinese, Japanese, and Dutch merchants, among others, settled, leaving behind an exceptionally well-preserved blended architecture that UNESCO declared a World Heritage Site in 1999. Its 17th-century Japanese Covered Bridge is the town's most iconic landmark, but Hoi An today is above all known for the thousands of colorful silk lanterns hanging throughout its old quarter, a spectacle that peaks during the monthly Lantern Festival, held on the night of the full moon, when the electricity is switched off and the streets are lit only by lantern and candlelight, while motorized vehicles are banned from the historic center. The town is also famous for its custom tailoring industry, able to produce a suit in a single day, and for the custom of releasing lit paper lanterns onto the river.",
+      },
+    },
+  },
+  {
+    id: "son-doong",
+    order: 13,
+    placeholderEmoji: "🔦",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cueva más grande del mundo, con su propio clima",
+        subtitle: "Son Doong, la mayor cueva del mundo",
+        imageAlt: "Caricatura de una persona diminuta explorando una caverna gigantesca con luz filtrándose desde arriba.",
+        description:
+          "La cueva de Son Doong, dentro del Parque Nacional Phong Nha-Ke Bang en el centro de Vietnam, fue descubierta por un granjero local en 1990 pero recién explorada y medida en 2009 por una expedición espeleológica británica, que confirmó que se trata del pasaje de cueva más grande del mundo por volumen, con secciones lo suficientemente amplias como para albergar un rascacielos de 40 pisos. Formada hace entre dos y cinco millones de años por la erosión de un río sobre roca caliza, la cueva tiene dos enormes dolinas —secciones del techo colapsadas y abiertas al cielo— que crean ecosistemas de selva propios en su interior, con microclima y vegetación crecidos bajo esas aberturas, además de un río subterráneo que la atraviesa. Solo se puede visitar mediante expediciones de varios días con permisos anuales estrictamente limitados para proteger su frágil ecosistema, un recorrido que exige trekking, acampe y técnicas de cuerda.",
+      },
+      en: {
+        title: "The Largest Cave in the World, With Its Own Weather",
+        subtitle: "Son Doong, the World's Largest Cave",
+        imageAlt: "Cartoon of a tiny person exploring a gigantic cavern with light filtering in from above.",
+        description:
+          "Son Doong Cave, inside Phong Nha-Ke Bang National Park in central Vietnam, was discovered by a local farmer in 1990 but not explored and surveyed until 2009 by a British caving expedition, which confirmed it as the largest cave passage in the world by volume, with sections large enough to fit a 40-story skyscraper. Formed between two and five million years ago by river erosion of limestone rock, the cave has two massive dolines — sections of collapsed ceiling open to the sky — creating jungle ecosystems of their own inside, with their own microclimate and vegetation growing beneath the openings, plus an underground river running through it. It can only be visited through multi-day expeditions with a strictly limited number of annual permits to protect its fragile ecosystem, a trip requiring trekking, camping, and rope work.",
+      },
+    },
+  },
+  {
+    id: "nuoc-mam",
+    order: 14,
+    placeholderEmoji: "🐟",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La salsa de pescado fermentado que sazona todo",
+        subtitle: "El nuoc mam, salsa que sazona todo",
+        imageAlt: "Caricatura de una botella de salsa ámbar junto a barriles de fermentación de madera.",
+        description:
+          "El nuoc mam, la salsa de pescado fermentado, es el condimento fundacional presente en casi todos los platos vietnamitas, elaborado tradicionalmente colocando capas de pescados pequeños, generalmente anchoas, con sal dentro de barriles de madera y dejándolos fermentar durante meses —los productores tradicionales fermentan doce meses o más para obtener los grados premium—, hasta obtener un líquido ámbar de sabor intensamente salado y umami. La isla de Phu Quoc es célebre por producir un nuoc mam de altísima calidad, con una denominación de origen protegida por la Unión Europea, similar a la que protege al champán francés. La salsa se usa como base de aderezos para mojar, mezclada con lima, azúcar, chile y ajo en la preparación conocida como 'nuoc cham', además de en la cocina y en la mesa. Es un condimento tan fundamental que a veces se dice que la cocina vietnamita está más unificada por el nuoc mam que por cualquier plato específico.",
+      },
+      en: {
+        title: "The Fermented Fish Sauce That Seasons Everything",
+        subtitle: "Nuoc Mam, a Sauce That Seasons Everything",
+        imageAlt: "Cartoon of a bottle of amber sauce beside wooden fermentation barrels.",
+        description:
+          "Nuoc mam, fermented fish sauce, is the foundational condiment present in nearly every Vietnamese dish, traditionally made by layering small fish, usually anchovies, with salt in wooden barrels and letting them ferment for months — traditional producers ferment for twelve months or more for premium grades — until an amber liquid with an intensely savory, umami flavor is drained off. Phu Quoc island is especially famous for producing top-quality traditional nuoc mam, with a protected geographic designation recognized by the European Union, similar to the one protecting French champagne. The sauce is used as the base for dipping sauces, mixed with lime, sugar, chili, and garlic in the preparation known as 'nuoc cham,' as well as in cooking and directly at the table. It's such a fundamental condiment that Vietnamese cuisine is sometimes said to be unified more by nuoc mam than by any single dish.",
+      },
+    },
+  },
+  {
+    id: "tambores-dong-son",
+    order: 15,
+    placeholderEmoji: "🥁",
+    accentColor: "#A67C3D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los tambores de bronce de 2.000 años que unen al país",
+        subtitle: "Los tambores de bronce de Dong Son",
+        imageAlt: "Caricatura de un tambor de bronce decorado con patrones geométricos y una estrella central.",
+        description:
+          "Los tambores de bronce de Dong Son son los artefactos más emblemáticos de la antigua cultura Dong Son, que floreció en el norte de Vietnam hace unos 2.500 años, durante la Edad del Bronce y comienzos de la Edad del Hierro, y que toma su nombre de la aldea donde se encontró el primer gran hallazgo en la década de 1920. Estos tambores ceremoniales presentan intrincados patrones geométricos, una estrella central y escenas de la vida cotidiana, embarcaciones, aves, viviendas y actividades rituales, evidencia de una fundición del bronce sorprendentemente sofisticada para la época. Se cree que se usaban en rituales, posiblemente ceremonias para invocar la lluvia, funerales o como símbolos de autoridad política, y en ocasiones se enterraban junto a individuos de alto estatus. Se descubrieron cientos de ellos por todo Vietnam y países vecinos, evidencia de la extensa influencia cultural de Dong Son, y hoy su motivo aparece en la moneda del país.",
+      },
+      en: {
+        title: "The 2,000-Year-Old Bronze Drums That Unite the Country",
+        subtitle: "The Bronze Drums of Dong Son",
+        imageAlt: "Cartoon of a bronze drum decorated with geometric patterns and a central star.",
+        description:
+          "The Dong Son bronze drums are the most emblematic artifacts of the ancient Dong Son culture, which flourished in northern Vietnam around 2,500 years ago, during the Bronze Age and early Iron Age, taking its name from the village where the first major discovery was made in the 1920s. These large ceremonial bronze drums feature intricate geometric patterns, a central star motif, and scenes depicting daily life, boats, birds, houses, and ritual activities, evidence of remarkably sophisticated bronze-casting technology for the era. They're believed to have been used in rituals, possibly rainmaking ceremonies, funerals, or as symbols of political authority, and were sometimes buried alongside high-status individuals. Hundreds have been discovered across Vietnam and neighboring countries, evidence of Dong Son's extensive cultural influence, and their motif appears on the country's currency today.",
+      },
+    },
+  },
+  {
+    id: "ciudadela-de-hue",
+    order: 16,
+    placeholderEmoji: "🏯",
+    accentColor: "#7B2D26",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad prohibida vietnamita, sede de los emperadores",
+        subtitle: "La Ciudadela de Hue",
+        imageAlt: "Caricatura de una puerta imperial roja y dorada con techos curvos superpuestos.",
+        description:
+          "La Ciudadela Imperial de Hue fue la capital de Vietnam bajo la dinastía Nguyen, la última dinastía imperial del país, entre 1802 y 1945, un complejo amurallado inspirado en parte en la Ciudad Prohibida de Beijing, que incluye un recinto interior, la 'Ciudad Púrpura Prohibida', reservado exclusivamente para el emperador y su familia inmediata. Declarada Patrimonio de la Humanidad por la UNESCO en 1993, la ciudadela sufrió daños severos durante los combates de la Ofensiva del Tet de 1968, y desde entonces atraviesa un proceso continuo de restauración. Alrededor de la ciudad se encuentran también las tumbas reales de los emperadores Nguyen, cada una con un estilo propio que refleja el gusto de cada gobernante. El último emperador, Bao Dai, abdicó en 1945, poniendo fin a siglos de gobierno imperial, y hoy la ciudadela atrae turismo como ventana hacia la cultura cortesana vietnamita previa a la era colonial.",
+      },
+      en: {
+        title: "Vietnam's Forbidden City, Seat of the Emperors",
+        subtitle: "The Hue Imperial City",
+        imageAlt: "Cartoon of a red-and-gold imperial gate with layered curved roofs.",
+        description:
+          "The Hue Imperial City was Vietnam's capital under the Nguyen dynasty, the country's last imperial dynasty, between 1802 and 1945, a walled complex partly modeled on Beijing's Forbidden City, including an inner enclosure, the 'Purple Forbidden City,' reserved exclusively for the emperor and immediate family. Declared a UNESCO World Heritage Site in 1993, the citadel suffered severe damage during the fighting of the 1968 Tet Offensive in the middle of the Vietnam War, and has undergone ongoing restoration ever since. Scattered around the city are also the royal tombs of the Nguyen emperors, each with its own distinct architectural style reflecting that particular ruler's taste. The last emperor, Bao Dai, abdicated in 1945, ending centuries of imperial rule, and today the citadel draws considerable tourism as a window into pre-colonial Vietnamese court culture.",
+      },
+    },
+  },
+  {
+    id: "laca-vietnamita",
+    order: 17,
+    placeholderEmoji: "🎨",
+    accentColor: "#1A1A1A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte de pintar con hasta veinte capas de laca",
+        subtitle: "La laca vietnamita",
+        imageAlt: "Caricatura de un cuenco lacado negro y dorado con incrustaciones de nácar.",
+        description:
+          "La laca vietnamita, o son mai, es una técnica artesanal que usa resina extraída del árbol son, aplicada en numerosas capas finísimas —las piezas tradicionales pueden requerir entre diez y veinte capas, cada una secada y pulida antes de la siguiente—. La técnica se refinó desde 1930 en la Escuela de Bellas Artes de Indochina en Hanói, cuando artistas vietnamitas adaptaron un oficio utilitario, usado antes en muebles y objetos religiosos, hacia un medio de pintura de bellas artes. La superficie final se pule hasta lograr un brillo profundo, a menudo con incrustaciones de cáscara de huevo, que crea una textura blanca agrietada característica, además de nácar u hojas de oro y plata. A diferencia de las tradiciones japonesas o chinas, la vietnamita desarrolló técnicas propias, y sigue siendo hoy un medio artístico respetado en galerías, junto a la laca decorativa que aún se produce en aldeas artesanales.",
+      },
+      en: {
+        title: "The Art of Painting With Up to Twenty Layers of Lacquer",
+        subtitle: "Vietnamese Lacquerware",
+        imageAlt: "Cartoon of a black and gold lacquered bowl with mother-of-pearl inlays.",
+        description:
+          "Vietnamese lacquerware, or son mai, is a distinctive craft technique using resin from the son tree, applied in numerous very thin layers — traditional pieces can require ten to twenty layers or more, each dried and sanded before the next is applied. The technique was refined starting in the 1930s at Hanoi's École des Beaux-Arts d'Indochine, when Vietnamese artists began adapting a utilitarian craft, previously used mainly for furniture and religious objects, into a proper fine-art painting medium. The final surface is polished to a deep gloss, often inlaid with eggshell, which creates a characteristic cracked white texture, along with mother-of-pearl or gold and silver leaf. Unlike Japanese or Chinese lacquer traditions, the Vietnamese version developed its own techniques, and lacquer painting remains a respected artistic medium in Vietnamese galleries today, alongside decorative lacquerware still produced in craft villages.",
+      },
+    },
+  },
+  {
+    id: "mercados-flotantes-mekong",
+    order: 18,
+    placeholderEmoji: "🛶",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los mercados donde se compra sin bajar del bote",
+        subtitle: "Los mercados flotantes del Mekong",
+        imageAlt: "Caricatura de botes cargados de frutas y verduras flotando juntos en un río.",
+        description:
+          "Los mercados flotantes del delta del Mekong —el de Cai Rang, cerca de Can Tho, es el más célebre, junto a los de Phong Dien y Cai Be— son una tradición comercial de siglos de antigüedad que refleja la densa red de ríos y canales del delta, donde el transporte por agua resultó históricamente más práctico que las rutas terrestres. Los vendedores ofrecen sus productos desde botes, y cada embarcación suele exhibir una muestra de su mercadería colgada en lo alto de un palo, el 'béo', para que los compradores identifiquen desde lejos qué se vende sin necesidad de gritar o acercarse. Los mercados alcanzan su mayor actividad al amanecer, entre las cinco y las ocho de la mañana, cuando llegan los agricultores con la cosecha recién recolectada, y la cultura flotante incluye también botes-cocina que sirven sopas de fideos a otras embarcaciones. Aunque enfrentan un declive gradual, Cai Rang sigue siendo una atracción reconocida como patrimonio cultural inmaterial nacional.",
+      },
+      en: {
+        title: "The Markets Where You Shop Without Leaving the Boat",
+        subtitle: "The Floating Markets of the Mekong",
+        imageAlt: "Cartoon of boats loaded with fruits and vegetables floating together on a river.",
+        description:
+          "The floating markets of the Mekong Delta — Cai Rang, near Can Tho, is the most famous, along with Phong Dien and Cai Be — are a centuries-old commercial tradition reflecting the delta's dense network of rivers and canals, where water transport historically proved more practical than roads. Vendors sell their goods directly from boats, and each boat typically displays a sample of its wares hung from a tall pole, called a 'beo,' so buyers can spot what's for sale from a distance without needing to shout or dock. The markets are busiest at dawn, roughly between five and eight in the morning, when farmers arrive with freshly harvested produce, and the floating market culture also includes boat-kitchens serving noodle soups directly to other boats. Though they face a gradual decline, Cai Rang remains a major draw, recognized as a national intangible cultural heritage site.",
+      },
+    },
+  },
+  {
+    id: "hermanas-trung",
+    order: 19,
+    placeholderEmoji: "⚔️",
+    accentColor: "#8B1A1A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las guerreras que lideraron la primera rebelión",
+        subtitle: "Las hermanas Trung, heroínas fundacionales",
+        imageAlt: "Caricatura de dos guerreras montadas en elefantes con lanzas alzadas.",
+        description:
+          "Las hermanas Trung, Trung Trac y Trung Nhi, lideraron en el año 40 de nuestra era una rebelión exitosa contra el dominio de la dinastía china Han, uno de los primeros episodios documentados de resistencia vietnamita frente a una potencia extranjera. Según la tradición, el esposo de Trung Trac fue ejecutado por las autoridades chinas, lo que impulsó a las hermanas a levantar un ejército, comandado también por otras mujeres generalas. Lograron establecer brevemente un gobierno vietnamita independiente, con Trung Trac como reina, durante unos tres años, hasta que las fuerzas Han reconquistaron la región en el año 43, momento en el que, según los relatos tradicionales, las hermanas se ahogaron en un río antes que rendirse. Hoy se las venera como heroínas fundacionales de la nación y símbolos tempranos de resistencia y liderazgo femenino, con templos dedicados a ellas repartidos por todo el país y calles y escuelas que llevan su nombre en casi cada ciudad.",
+      },
+      en: {
+        title: "The Warrior Sisters Who Led the First Rebellion",
+        subtitle: "The Trung Sisters, Founding Heroines",
+        imageAlt: "Cartoon of two warrior women riding elephants with spears raised.",
+        description:
+          "The Trung sisters, Trung Trac and Trung Nhi, led a successful rebellion in the year 40 CE against the rule of China's Han dynasty, one of the earliest recorded episodes of Vietnamese resistance to a foreign power. According to tradition, Trung Trac's husband was executed by Chinese authorities, spurring the sisters to raise an army, also commanded by other women generals. They briefly established independent Vietnamese rule, with Trung Trac as queen, for about three years, until Han forces reconquered the region in the year 43, at which point, according to traditional accounts, the sisters drowned themselves rather than surrender. Today they're revered as founding national heroines and early symbols of resistance and women's leadership, with temples dedicated to them scattered across the country and streets and schools named after them in nearly every city.",
+      },
+    },
+  },
+  {
+    id: "trang-an",
+    order: 20,
+    placeholderEmoji: "🏞️",
+    accentColor: "#4A7A8C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La bahía de Ha Long en tierra firme",
+        subtitle: "Trang An, la bahía de Ha Long en tierra",
+        imageAlt: "Caricatura de un pequeño bote deslizándose por un río entre altas formaciones de piedra caliza.",
+        description:
+          "El complejo paisajístico de Trang An, en la provincia de Ninh Binh, en el norte de Vietnam, es un paisaje kárstico de piedra caliza apodado con frecuencia 'la bahía de Ha Long en tierra firme' por sus dramáticas formaciones rocosas similares, aunque enclavadas entre arrozales y ríos en lugar del mar. Declarado Patrimonio Mixto de la Humanidad por la UNESCO en 2014, tanto cultural como natural, en reconocimiento de su paisaje y de la evidencia arqueológica de habitación humana temprana en sus cuevas, que se remonta a 30.000 años atrás. Se recorre en pequeños botes de remo llamados sampán, que atraviesan numerosos túneles naturales excavados en la piedra caliza para conectar valles y grutas ocultas, remados por lugareños que a menudo usan también los pies además de las manos, una técnica de remo local distintiva. El sitio incluye además Hoa Lu, la antigua capital de Vietnam durante las dinastías Dinh y Le tempranas en los siglos X y XI.",
+      },
+      en: {
+        title: "Ha Long Bay, but on Dry Land",
+        subtitle: "Trang An, Ha Long Bay on Land",
+        imageAlt: "Cartoon of a small boat gliding along a river between tall limestone formations.",
+        description:
+          "The Trang An Landscape Complex, in Ninh Binh province in northern Vietnam, is a karst limestone landscape often nicknamed 'Ha Long Bay on land' for its similarly dramatic limestone peaks, though set among rice paddies and rivers rather than the sea. Declared a Mixed UNESCO World Heritage Site in 2014, both cultural and natural, recognizing both its scenery and archaeological evidence of early human habitation in its caves dating back 30,000 years. It's explored by small rowboats called sampans, which pass through numerous natural cave tunnels carved into the limestone connecting hidden valleys and grottoes, rowed by local villagers who often use their feet as well as their hands, a distinctive local rowing technique. The site also includes Hoa Lu, Vietnam's ancient capital during the early Dinh and Le dynasties in the 10th and 11th centuries.",
+      },
+    },
+  },
 ];

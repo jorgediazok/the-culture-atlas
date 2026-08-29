@@ -166,6 +166,249 @@ const CeremoniaDelTe: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const MonteFujiLaMontanaSagrada: IllustrationComponent = () => {
+  const snow = "#F5F0E6";
+  const rock = "#5C6B73";
+  const dark = shade(rock, 0.3);
+  const sky = "#F4A300";
+  return (
+    <g>
+      {/* sunrise glow */}
+      <circle cx="205" cy="150" r="45" fill={sky} opacity="0.25" />
+      {/* mountain */}
+      <polygon points="90,240 205,95 320,240" fill={rock} stroke={dark} strokeWidth="2.5" />
+      {/* snow cap */}
+      <path d="M205 95 L245 155 Q230 165 215 155 Q205 165 195 155 Q180 165 165 155 Z" fill={snow} stroke={dark} strokeWidth="2" />
+      {/* small pilgrims climbing the trail */}
+      {[
+        [165, 200],
+        [185, 215],
+        [150, 225],
+      ].map(([x, y]) => (
+        <g key={x}>
+          <circle cx={x} cy={y - 8} r="4" fill={dark} />
+          <path d={`M${x - 4} ${y} L${x} ${y - 6} L${x + 4} ${y} Z`} fill={dark} />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const SamuraiYElCodigoBushido: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const metal = "#78909C";
+  const gold = "#D4A017";
+  return (
+    <g>
+      {/* helmet (kabuto) */}
+      <path d="M165 140 Q205 105 245 140 L250 165 Q205 155 160 165 Z" fill={metal} stroke={dark} strokeWidth="2.5" />
+      {/* horns */}
+      <path d="M180 138 Q165 105 150 95" fill="none" stroke={gold} strokeWidth="6" strokeLinecap="round" />
+      <path d="M230 138 Q245 105 260 95" fill="none" stroke={gold} strokeWidth="6" strokeLinecap="round" />
+      {/* face mask */}
+      <path d="M180 165 Q205 158 230 165 L225 195 Q205 202 185 195 Z" fill={dark} />
+      {/* sheathed sword beside it */}
+      <rect x="120" y="200" width="120" height="12" rx="4" fill={accentColor} stroke={dark} strokeWidth="2" transform="rotate(-8 180 206)" />
+      <rect x="105" y="196" width="24" height="20" fill={gold} stroke={dark} strokeWidth="2" transform="rotate(-8 117 206)" />
+      <line x1="240" y1="197" x2="255" y2="230" stroke={dark} strokeWidth="4" strokeLinecap="round" transform="rotate(-8 180 206)" />
+    </g>
+  );
+};
+
+const ElKaraokeInventoJapones: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const light = tint(accentColor, 0.6);
+  return (
+    <g>
+      {/* screen with lyrics */}
+      <rect x="130" y="95" width="150" height="95" fill={light} stroke={dark} strokeWidth="2.5" />
+      <rect x="145" y="115" width="110" height="8" fill={dark} opacity="0.4" />
+      <rect x="145" y="135" width="90" height="8" fill={dark} opacity="0.9" />
+      <rect x="145" y="155" width="105" height="8" fill={dark} opacity="0.4" />
+      <rect x="185" y="190" width="20" height="14" fill={dark} />
+      {/* microphone */}
+      <ellipse cx="235" cy="225" rx="22" ry="26" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[210, 218, 226, 234, 242].map((y) => (
+        <line key={y} x1="220" y1={y} x2="250" y2={y} stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      ))}
+    </g>
+  );
+};
+
+const SushiYWashokuPatrimonioCulinario: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const rice = "#F5F0E6";
+  const nori = "#1A1A1A";
+  const salmon = "#E8875A";
+  const roe = "#E85D2A";
+  return (
+    <g>
+      {/* wooden board */}
+      <rect x="90" y="215" width="230" height="20" rx="4" fill="#8B5A2B" stroke={dark} strokeWidth="2" />
+      {/* nigiri with salmon */}
+      <ellipse cx="140" cy="205" rx="30" ry="16" fill={rice} stroke={dark} strokeWidth="2" />
+      <path d="M113 200 Q140 185 167 200 Q167 210 140 212 Q113 210 113 200 Z" fill={salmon} stroke={dark} strokeWidth="1.5" />
+      {/* nigiri with a nori belt */}
+      <ellipse cx="205" cy="205" rx="30" ry="16" fill={rice} stroke={dark} strokeWidth="2" />
+      <rect x="190" y="192" width="30" height="24" fill={nori} />
+      <circle cx="205" cy="196" r="6" fill="#F5E7B8" />
+      {/* maki roll */}
+      <circle cx="270" cy="205" r="22" fill={nori} stroke={dark} strokeWidth="2" />
+      <circle cx="270" cy="205" r="15" fill={rice} />
+      <circle cx="270" cy="205" r="6" fill={roe} />
+    </g>
+  );
+};
+
+const FushimiInariLosMilTorii: IllustrationComponent = () => {
+  const vermilion = "#D9481F";
+  const dark = shade(vermilion, 0.4);
+  const gates = [
+    { scale: 0.45, y: 85 },
+    { scale: 0.6, y: 108 },
+    { scale: 0.78, y: 136 },
+    { scale: 1, y: 170 },
+  ];
+  return (
+    <g>
+      {gates.map((g, i) => {
+        const width = 170 * g.scale;
+        const cx = 205;
+        const legH = 60 * g.scale;
+        return (
+          <g key={i}>
+            <rect x={cx - width / 2 - 8 * g.scale} y={g.y + 16 * g.scale} width={width + 16 * g.scale} height={10 * g.scale} fill={vermilion} stroke={dark} strokeWidth="1.5" />
+            <rect x={cx - width / 2} y={g.y} width={width} height={10 * g.scale} fill={vermilion} stroke={dark} strokeWidth="1.5" />
+            <rect x={cx - width / 2 + 6 * g.scale} y={g.y + 10 * g.scale} width={9 * g.scale} height={legH} fill={vermilion} stroke={dark} strokeWidth="1.5" />
+            <rect x={cx + width / 2 - 15 * g.scale} y={g.y + 10 * g.scale} width={9 * g.scale} height={legH} fill={vermilion} stroke={dark} strokeWidth="1.5" />
+          </g>
+        );
+      })}
+    </g>
+  );
+};
+
+const JudoElArteMarcialOlimpico: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const skin = "#D9A46A";
+  const white = "#F5F0E6";
+  return (
+    <g>
+      {/* mat */}
+      <rect x="90" y="225" width="230" height="20" fill={accentColor} opacity="0.4" />
+      {/* thrower, standing and gripping */}
+      <circle cx="160" cy="140" r="14" fill={skin} />
+      <path d="M146 152 Q160 145 174 152 L178 195 L142 195 Z" fill={white} stroke={dark} strokeWidth="3" />
+      <path d="M148 193 L130 225" stroke={white} strokeWidth="12" strokeLinecap="round" />
+      <path d="M172 193 L192 225" stroke={white} strokeWidth="12" strokeLinecap="round" />
+      <path d="M176 160 Q210 158 232 178" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      {/* opponent, mid-throw */}
+      <circle cx="255" cy="178" r="12" fill={skin} />
+      <path d="M244 188 Q255 182 266 188 L262 222 L236 215 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M244 190 L222 172" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M264 192 L288 205" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const BonsaiElArteDeLosArbolesMiniatura: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const pot = "#8B5A2B";
+  const green = "#4A7A52";
+  return (
+    <g>
+      {/* pot */}
+      <path d="M150 225 L260 225 L250 250 L160 250 Z" fill={pot} stroke={dark} strokeWidth="2.5" />
+      <rect x="145" y="218" width="120" height="10" fill={pot} stroke={dark} strokeWidth="2" />
+      {/* trunk */}
+      <path d="M200 220 Q195 190 210 165 Q220 150 205 130" fill="none" stroke="#6B4A2F" strokeWidth="9" strokeLinecap="round" />
+      <path d="M205 175 Q185 165 170 175" fill="none" stroke="#6B4A2F" strokeWidth="6" strokeLinecap="round" />
+      {/* canopy clusters */}
+      <ellipse cx="205" cy="125" rx="34" ry="18" fill={green} stroke={dark} strokeWidth="2" />
+      <ellipse cx="165" cy="172" rx="24" ry="14" fill={green} stroke={dark} strokeWidth="2" />
+      <ellipse cx="220" cy="160" rx="20" ry="12" fill={green} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const UkiyoELaGranOlaDeHokusai: IllustrationComponent = () => {
+  const waveBlue = "#2C5F8A";
+  const waveDark = shade(waveBlue, 0.35);
+  const foam = "#F5F0E6";
+  const boat = "#5D4037";
+  return (
+    <g>
+      {/* the great wave curling over */}
+      <path
+        d="M85 210 Q100 130 190 110 Q170 150 200 160 Q230 145 235 105 Q260 135 245 175 Q290 165 315 190 L315 250 L85 250 Z"
+        fill={waveBlue}
+        stroke={waveDark}
+        strokeWidth="3"
+      />
+      {/* small boats riding the water */}
+      {[
+        [140, 225],
+        [200, 235],
+        [260, 220],
+      ].map(([x, y]) => (
+        <path key={x} d={`M${x - 20} ${y} Q${x} ${y - 10} ${x + 20} ${y} L${x + 15} ${y + 8} L${x - 15} ${y + 8} Z`} fill={boat} stroke={shade(boat, 0.3)} strokeWidth="1.5" />
+      ))}
+      {/* foam claws at the crest */}
+      {[
+        [190, 112],
+        [210, 118],
+        [230, 108],
+        [248, 128],
+      ].map(([x, y]) => (
+        <path key={x} d={`M${x} ${y} L${x - 6} ${y - 14} L${x + 6} ${y - 2} Z`} fill={foam} />
+      ))}
+    </g>
+  );
+};
+
+const LaKatanaElArmaYElArte: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const steel = "#B0B8BF";
+  const wood = "#3E2A1A";
+  return (
+    <g>
+      {/* anvil */}
+      <path d="M230 210 L300 210 L290 225 L215 225 Z" fill={dark} />
+      <rect x="245" y="225" width="20" height="20" fill={dark} />
+      {/* blade */}
+      <path d="M110 130 L250 205 L242 218 L100 148 Z" fill={steel} stroke={shade(steel, 0.4)} strokeWidth="2" />
+      {/* hamon temper line */}
+      <path d="M118 138 Q150 150 130 158 Q170 168 150 178 Q190 188 170 196" fill="none" stroke="#E8E4DC" strokeWidth="2" opacity="0.7" />
+      {/* handle */}
+      <rect x="80" y="118" width="45" height="16" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2" transform="rotate(30 100 126)" />
+      {/* guard (tsuba) */}
+      <circle cx="112" cy="140" r="12" fill={accentColor} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const IkebanaElArteFloralJapones: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const green = "#4A7A52";
+  const flower = "#E8875A";
+  return (
+    <g>
+      {/* low vase */}
+      <path d="M175 225 L235 225 L245 250 L165 250 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* three branches: heaven, earth, humanity */}
+      <path d="M205 228 Q195 170 160 110" fill="none" stroke={green} strokeWidth="5" strokeLinecap="round" />
+      <path d="M205 228 Q215 190 260 165" fill="none" stroke={green} strokeWidth="5" strokeLinecap="round" />
+      <path d="M205 228 Q205 200 205 165" fill="none" stroke={green} strokeWidth="5" strokeLinecap="round" />
+      {/* blossoms */}
+      <circle cx="160" cy="108" r="9" fill={flower} stroke={dark} strokeWidth="1.5" />
+      <circle cx="205" cy="163" r="7" fill={flower} stroke={dark} strokeWidth="1.5" />
+      <circle cx="262" cy="163" r="7" fill={flower} stroke={dark} strokeWidth="1.5" />
+      {/* a single leaf */}
+      <path d="M195 190 Q175 195 178 210" fill="none" stroke={green} strokeWidth="4" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const japanIllustrations: Record<string, IllustrationDefinition> = {
   "dinastia-imperial-mas-antigua": { component: DinastiaImperialMasAntigua },
   "shinkansen-puntualidad": { component: ShinkansenPuntualidad },
@@ -177,4 +420,14 @@ export const japanIllustrations: Record<string, IllustrationDefinition> = {
   "hanami-flor-de-cerezo": { component: HanamiFlorDeCerezo },
   "origami-arte-del-papel": { component: OrigamiArteDelPapel },
   "ceremonia-del-te": { component: CeremoniaDelTe },
+  "monte-fuji-la-montana-sagrada": { component: MonteFujiLaMontanaSagrada },
+  "samurai-y-el-codigo-bushido": { component: SamuraiYElCodigoBushido },
+  "el-karaoke-invento-japones": { component: ElKaraokeInventoJapones },
+  "sushi-y-washoku-patrimonio-culinario": { component: SushiYWashokuPatrimonioCulinario },
+  "fushimi-inari-los-mil-torii": { component: FushimiInariLosMilTorii },
+  "judo-el-arte-marcial-olimpico": { component: JudoElArteMarcialOlimpico },
+  "bonsai-el-arte-de-los-arboles-miniatura": { component: BonsaiElArteDeLosArbolesMiniatura },
+  "ukiyo-e-la-gran-ola-de-hokusai": { component: UkiyoELaGranOlaDeHokusai },
+  "la-katana-el-arma-y-el-arte": { component: LaKatanaElArmaYElArte },
+  "ikebana-el-arte-floral-japones": { component: IkebanaElArteFloralJapones },
 };

@@ -231,4 +231,119 @@ export const azerbaijan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "gobustan-arte-rupestre-de-40000-anos",
+    order: 11,
+    placeholderEmoji: "🪨",
+    accentColor: "#8C7A5E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las rocas talladas hace 40.000 años en el desierto",
+        subtitle: "Gobustan, arte rupestre milenario",
+        imageAlt: "Caricatura de una roca con figuras humanas y animales talladas en relieve.",
+        description:
+          "En Gobustan, una reserva rocosa al sur de Bakú, más de seis mil grabados tallados sobre roca documentan la vida humana en la región durante un período que se extiende desde hace unos cuarenta mil años hasta la Edad Media, representando escenas de caza, danzas rituales, embarcaciones primitivas, animales salvajes ya extintos en la zona y figuras humanas con los brazos en alto en poses que algunos investigadores interpretan como danzas ceremoniales. El explorador noruego Thor Heyerdahl visitó el sitio y quedó tan impresionado por los grabados de barcos con proa alta y curvada que los citó como posible evidencia de contacto temprano entre pueblos del Cáucaso y Escandinavia, una hipótesis que sigue siendo debatida. Declarado Patrimonio de la Humanidad por la UNESCO en 2007, Gobustan también alberga varios de los volcanes de lodo más activos del país, a pocos kilómetros de las rocas grabadas.",
+      },
+      en: {
+        title: "The Rocks Carved 40,000 Years Ago in the Desert",
+        subtitle: "Gobustan's Ancient Rock Art",
+        imageAlt: "Cartoon of a rock with human and animal figures carved in relief.",
+        description:
+          "At Gobustan, a rocky reserve south of Baku, more than six thousand carvings etched into stone document human life in the region across a period spanning roughly forty thousand years up through the Middle Ages, depicting hunting scenes, ritual dances, primitive boats, wild animals now extinct in the area, and human figures with raised arms in poses some researchers interpret as ceremonial dances. Norwegian explorer Thor Heyerdahl visited the site and was so struck by carvings of boats with tall, curved prows that he cited them as possible evidence of early contact between peoples of the Caucasus and Scandinavia, a hypothesis that remains debated. Declared a UNESCO World Heritage Site in 2007, Gobustan is also home to several of the country's most active mud volcanoes, just a few kilometers from the carved rocks.",
+      },
+    },
+  },
+  {
+    id: "el-shebeke-ventanas-de-vidrio-sin-clavos-ni-pegamento",
+    order: 12,
+    placeholderEmoji: "🪟",
+    accentColor: "#6B4A2F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las ventanas de vidrio de colores sin un solo clavo",
+        subtitle: "El shebeke, ventanas sin clavos ni pegamento",
+        imageAlt: "Caricatura de una ventana con marco de madera y vidrios de colores formando un mosaico geométrico.",
+        description:
+          "El shebeke, una técnica tradicional azerbaiyana para construir ventanas y paneles decorativos, ensambla miles de piezas diminutas de madera cortadas a mano en patrones geométricos entrelazados que sostienen fragmentos de vidrio de colores, todo sin usar un solo clavo, tornillo o gota de pegamento, apoyándose únicamente en el ajuste milimétrico de cada pieza de madera contra la siguiente. El ejemplo más célebre se encuentra en el Palacio del Kan de Sheki, construido en el siglo XVIII, donde las ventanas de la sala del trono cubren paredes enteras con este mosaico de vidrio que filtra la luz del sol en franjas de colores que se mueven por el interior del salón a lo largo del día. Dominar el oficio exige años de aprendizaje bajo un maestro, y solo un puñado de talleres artesanales en la ciudad de Sheki conserva hoy el conocimiento completo de la técnica.",
+      },
+      en: {
+        title: "The Stained-Glass Windows Built Without a Single Nail",
+        subtitle: "Shebeke, Windows Without Nails or Glue",
+        imageAlt: "Cartoon of a wooden-framed window with colored glass forming a geometric mosaic.",
+        description:
+          "Shebeke, a traditional Azerbaijani technique for building windows and decorative panels, assembles thousands of tiny hand-cut wooden pieces into interlocking geometric patterns that hold fragments of colored glass in place, all without a single nail, screw, or drop of glue, relying entirely on the millimeter-precise fit of each wooden piece against the next. The most famous example is found in the Sheki Khan's Palace, built in the 18th century, where the throne room's windows cover entire walls with this glass mosaic that filters sunlight into bands of color that shift across the interior throughout the day. Mastering the craft takes years of training under a master artisan, and only a handful of workshops in the city of Sheki still preserve the technique's full knowledge today.",
+      },
+    },
+  },
+  {
+    id: "el-te-en-vaso-armudu-ritual-cotidiano",
+    order: 13,
+    placeholderEmoji: "🍵",
+    accentColor: "#B5651D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El té que se sirve en un vaso con forma de pera",
+        subtitle: "El té en vaso armudu, ritual cotidiano",
+        imageAlt: "Caricatura de un vaso de vidrio con forma de pera lleno de té junto a un plato con dulces.",
+        description:
+          "El té ocupa un lugar tan central en la vida cotidiana azerbaiyana que se sirve prácticamente en cada reunión social, comida y negociación comercial, y se bebe tradicionalmente en el 'armudu', un vaso de vidrio con forma de pera, angosto en el medio y más ancho en la base y la boca, diseñado específicamente para mantener el té caliente en el centro mientras se enfría más rápido cerca de los bordes, permitiendo beberlo a la temperatura ideal sin quemarse. Servido siempre fuerte y acompañado de mermelada casera de frutas como membrillo, cereza o rosa que se come a cucharadas entre sorbo y sorbo en lugar de disolverse en la bebida, el té se ofrece a cualquier visitante como gesto automático de hospitalidad, y rechazarlo se considera de mala educación. Las casas de té, conocidas como 'chaykhana', funcionan además como espacios sociales donde generaciones de hombres se reúnen a jugar backgammon y conversar durante horas.",
+      },
+      en: {
+        title: "The Tea Served in a Pear-Shaped Glass",
+        subtitle: "Armudu Tea, an Everyday Ritual",
+        imageAlt: "Cartoon of a pear-shaped glass full of tea beside a plate of sweets.",
+        description:
+          "Tea holds such a central place in everyday Azerbaijani life that it's served at practically every social gathering, meal, and business negotiation, and it's traditionally drunk from the 'armudu,' a pear-shaped glass, narrow in the middle and wider at the base and rim, specifically designed to keep the tea hot in the center while it cools faster near the edges, letting it be sipped at just the right temperature without burning the drinker. Always served strong and accompanied by homemade jam made from fruits like quince, cherry, or rose, eaten by the spoonful between sips rather than stirred into the drink, tea is offered to any visitor as an automatic gesture of hospitality, and turning it down is considered impolite. Tea houses, known as 'chaykhana,' also function as social spaces where generations of men gather to play backgammon and talk for hours.",
+      },
+    },
+  },
+  {
+    id: "el-plov-azerbaiyano-arroz-con-costra-dorada",
+    order: 14,
+    placeholderEmoji: "🍚",
+    accentColor: "#D4A017",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arroz con una costra dorada y crujiente en el fondo",
+        subtitle: "El plov azerbaiyano, arroz con costra dorada",
+        imageAlt: "Caricatura de una olla de arroz volteada mostrando una costra dorada crujiente.",
+        description:
+          "El plov, el plato de arroz más emblemático de Azerbaiyán, existe en más de doscientas variantes regionales documentadas, todas centradas en una técnica compartida: el arroz se hierve parcialmente y después se termina de cocinar al vapor en una olla con la base untada en mantequilla o aceite, formando en el fondo una costra dorada y crujiente llamada 'gazmakh', considerada por muchos la parte más codiciada del plato y servida como un elemento aparte y no como un error de cocción. Las variantes más elaboradas combinan el arroz con capas separadas de cordero, frutas secas como orejones y pasas, castañas y hierbas aromáticas, presentadas en platos individuales en lugar de mezclarse todo junto, a diferencia de otros pilafs de la región. Preparado tradicionalmente en ocasiones festivas y reuniones familiares numerosas, el plov se considera una prueba de destreza culinaria transmitida principalmente entre mujeres de una misma familia.",
+      },
+      en: {
+        title: "The Rice With a Crispy Golden Crust at the Bottom",
+        subtitle: "Azerbaijani Plov, Rice With a Golden Crust",
+        imageAlt: "Cartoon of an overturned pot of rice revealing a crispy golden crust.",
+        description:
+          "Plov, Azerbaijan's most iconic rice dish, exists in more than two hundred documented regional variants, all built around a shared technique: the rice is partially boiled and then finished steaming in a pot with its base coated in butter or oil, forming a golden, crispy crust at the bottom called 'gazmakh,' considered by many the most coveted part of the dish and served as its own separate component rather than treated as a cooking mistake. The more elaborate variants combine the rice with separate layers of lamb, dried fruits like apricots and raisins, chestnuts, and aromatic herbs, presented in individual dishes rather than mixed together, unlike other regional pilafs. Traditionally prepared for festive occasions and large family gatherings, plov is considered a test of culinary skill passed down mainly among women within the same family.",
+      },
+    },
+  },
+  {
+    id: "el-mugham-el-genero-musical-clasico-azerbaiyano",
+    order: 15,
+    placeholderEmoji: "🎻",
+    accentColor: "#6A4C93",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El género musical clásico que se improvisa sobre modos",
+        subtitle: "El mugham, música clásica de Azerbaiyán",
+        imageAlt: "Caricatura de un músico tocando un instrumento de cuerda con caja redonda junto a un cantante.",
+        description:
+          "El mugham, el género de música clásica más elevado de Azerbaiyán, combina un cantante solista con un pequeño conjunto instrumental formado por el tar, un laúd de caja en forma de ocho, el kamancha, un instrumento de cuerda frotada con arco, y percusión de pandereta, en interpretaciones que siguen una secuencia fija de modos melódicos pero permiten amplia improvisación individual dentro de esa estructura, de forma comparable al lugar que ocupa el jazz dentro de la música occidental. Cada uno de los siete modos principales se asocia tradicionalmente con un estado emocional o filosófico particular, y las letras suelen tomarse de la poesía clásica persa y azerbaiyana sobre el amor y lo divino, interpretadas con ornamentos vocales extremadamente elaborados que exigen años de entrenamiento. Reconocido por la UNESCO como Obra Maestra del Patrimonio Oral en 2003, el mugham se enseña hoy en conservatorios especializados de toda Azerbaiyán.",
+      },
+      en: {
+        title: "The Classical Genre Improvised Over Fixed Modes",
+        subtitle: "Mugham, Azerbaijan's Classical Music",
+        imageAlt: "Cartoon of a musician playing a round-bodied string instrument beside a singer.",
+        description:
+          "Mugham, Azerbaijan's most elevated genre of classical music, pairs a solo singer with a small instrumental ensemble made up of the tar, a figure-eight-bodied lute, the kamancha, a bowed string instrument, and tambourine percussion, in performances that follow a fixed sequence of melodic modes while allowing wide individual improvisation within that structure, comparable in some ways to the place jazz holds within Western music. Each of mugham's seven principal modes is traditionally associated with a particular emotional or philosophical state, and the lyrics are usually drawn from classical Persian and Azerbaijani poetry about love and the divine, performed with extremely elaborate vocal ornaments that take years of training to master. Recognized by UNESCO as a Masterpiece of Oral Heritage in 2003, mugham is taught today at specialized conservatories and continues to be performed in concerts and competitions across Azerbaijan.",
+      },
+    },
+  },
 ];

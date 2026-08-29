@@ -231,4 +231,50 @@ export const palestine: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "knafeh-nabulsi",
+    order: 11,
+    placeholderEmoji: "🧀",
+    accentColor: "#D4941E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El dulce de queso derretido cubierto de hilos dorados",
+        subtitle: "El knafeh nabulsi",
+        imageAlt: "Caricatura de un postre redondo naranja con queso blanco derretido asomando bajo una capa crujiente dorada.",
+        description:
+          "El knafeh, un postre de queso blanco suave derretido cubierto por una capa crujiente de sémola o hilos finos de masa teñidos de un naranja intenso con colorante alimentario, empapado en almíbar de azúcar aromatizado con agua de azahar y coronado con pistachos molidos, es originario de la ciudad de Nablus, donde todavía se elabora siguiendo la receta considerada la más auténtica del mundo árabe. Servido tradicionalmente caliente, directo de bandejas circulares de cobre que se cortan en porciones triangulares frente al cliente, el knafeh nabulsi debe su textura distintiva a un queso local suave llamado 'jibneh nabulsieh' que se ablanda sin derretirse completamente al hornearse, manteniendo un característico hilo elástico al partirlo. El postre se volvió tan emblemático de la identidad palestina que ciudades de todo el mundo árabe compiten por reclamar la mejor versión, aunque la de Nablus sigue considerada ampliamente el estándar de referencia.",
+      },
+      en: {
+        title: "The Melted Cheese Sweet Topped With Golden Threads",
+        subtitle: "Knafeh Nabulsi",
+        imageAlt: "Cartoon of a round orange dessert with melted white cheese peeking through a crispy golden top.",
+        description:
+          "Knafeh, a dessert of soft, melted white cheese covered by a crisp layer of semolina or fine pastry threads dyed a bright orange with food coloring, soaked in sugar syrup scented with orange blossom water, and topped with crushed pistachios, originated in the city of Nablus, where it's still made following the recipe widely considered the most authentic in the Arab world. Traditionally served hot straight from round copper trays that are cut into triangular portions in front of the customer, knafeh nabulsi owes its distinctive texture to a soft local cheese called 'jibneh nabulsieh' that softens without fully melting when baked, keeping its signature stretchy pull when broken apart. The dessert became such an emblem of Palestinian identity that cities across the Arab world compete to claim the best version, though Nablus's remains widely regarded as the benchmark.",
+      },
+    },
+  },
+  {
+    id: "kaak-al-quds",
+    order: 12,
+    placeholderEmoji: "🥯",
+    accentColor: "#B5651D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pan con sésamo que se vende en cada esquina",
+        subtitle: "El ka'ak al-Quds",
+        imageAlt: "Caricatura de un carrito de vendedor callejero con panes ovalados de sésamo colgados de ganchos.",
+        description:
+          "El ka'ak al-Quds, un pan ovalado y hueco en el centro, cubierto por completo de semillas de sésamo tostadas, es una de las imágenes callejeras más reconocibles de Jerusalén, vendido desde carritos de madera con ganchos de los que cuelgan decenas de panes recién horneados cada mañana, acompañado de una pequeña bolsa de za'atar mezclado con sal para mojarlo. Los vendedores, muchos de ellos con puestos heredados dentro de la misma familia durante generaciones, se ubican en puntos fijos cerca de la Ciudad Vieja desde temprano, y el pan se convirtió en el desayuno callejero típico de trabajadores, estudiantes y peregrinos que cruzan la zona camino a sus tareas diarias. Aunque variantes similares del pan de sésamo existen en otras ciudades de Medio Oriente, la forma alargada y hueca del ka'ak, junto con su asociación específica a los carritos ambulantes de Jerusalén, lo volvió un símbolo culinario propio de la ciudad.",
+      },
+      en: {
+        title: "The Sesame Bread Sold on Every Corner",
+        subtitle: "Ka'ak al-Quds",
+        imageAlt: "Cartoon of a street vendor's cart with oval sesame breads hanging from hooks.",
+        description:
+          "Ka'ak al-Quds, an oval bread hollow in the center and entirely covered in toasted sesame seeds, is one of Jerusalem's most recognizable street sights, sold from wooden carts with hooks holding dozens of loaves baked fresh every morning, served alongside a small bag of za'atar mixed with salt for dipping. The vendors, many with stands passed down within the same family for generations, set up at fixed spots near the Old City early each day, and the bread became the go-to street breakfast for workers, students, and pilgrims passing through on their way to daily errands. Although similar sesame breads exist in other Middle Eastern cities, ka'ak's elongated, hollow shape, together with its specific association with Jerusalem's street carts, turned it into a culinary symbol unique to the city.",
+      },
+    },
+  },
 ];

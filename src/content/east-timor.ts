@@ -231,4 +231,50 @@ export const eastTimor: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "avistamiento-ballenas-estrecho-wetar",
+    order: 11,
+    placeholderEmoji: "🐋",
+    accentColor: "#1B4F91",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El estrecho profundo por donde migran las ballenas",
+        subtitle: "El avistamiento de ballenas del estrecho de Wetar",
+        imageAlt: "Caricatura de una ballena emergiendo con la cola fuera del agua azul profunda cerca de un pequeño bote.",
+        description:
+          "El estrecho de Ombai-Wetar, un canal marino inusualmente profundo que separa la costa norte de Timor Oriental de las islas indonesias vecinas, funciona como una autopista natural para al menos quince especies distintas de ballenas y delfines, incluidas ballenas azules, cachalotes y orcas, que lo atraviesan en sus migraciones estacionales entre el océano Pacífico y el océano Índico. La combinación de aguas profundas muy cerca de la costa, sin necesidad de navegar horas mar adentro, convirtió a la zona en uno de los mejores puntos de avistamiento de ballenas del mundo según biólogos marinos internacionales, aunque el turismo de observación sigue siendo modesto comparado con destinos mejor establecidos, en parte porque la infraestructura turística de Timor Oriental todavía se está desarrollando. Investigadores extranjeros documentan la ruta migratoria desde los años noventa, y cada año se suman nuevos registros de especies antes no confirmadas en la zona.",
+      },
+      en: {
+        title: "The Deep Strait Where Whales Migrate Close to Shore",
+        subtitle: "Whale Watching in the Wetar Strait",
+        imageAlt: "Cartoon of a whale surfacing with its tail out of deep blue water near a small boat.",
+        description:
+          "The Ombai-Wetar Strait, an unusually deep marine channel separating East Timor's north coast from neighboring Indonesian islands, functions as a natural highway for at least fifteen distinct species of whales and dolphins, including blue whales, sperm whales, and orcas, which pass through it during seasonal migrations between the Pacific and Indian Oceans. The combination of deep water lying very close to shore, with no need to sail hours out to sea, made the area one of the best whale-watching spots in the world according to international marine biologists, though observation tourism remains modest compared to more established destinations, partly because East Timor's tourism infrastructure is still developing. Foreign researchers have documented the migration route since the 1990s, and new species previously unconfirmed in the area keep being recorded every year.",
+      },
+    },
+  },
+  {
+    id: "tua-sabu-vino-de-palma",
+    order: 12,
+    placeholderEmoji: "🌴",
+    accentColor: "#B5651D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El vino de palma que se extrae fresco cada mañana",
+        subtitle: "El tua sabu, vino de palma timorense",
+        imageAlt: "Caricatura de un hombre trepando una palmera alta con un recipiente de bambú atado a la cintura.",
+        description:
+          "El tua sabu, un vino ligeramente fermentado extraído de la savia de la palmera lontar o de la palma de azúcar, se recolecta al amanecer y al atardecer trepando el tronco hasta la corona de la palmera para cortar la punta de una inflorescencia y recoger el líquido dulce que gotea en un recipiente de bambú atado bajo el corte, un oficio que en muchas familias rurales timorenses se transmite de padres a hijos. Recién extraído, el tua sabu es dulce y apenas alcohólico, pero fermenta rápidamente bajo el calor tropical hasta volverse más ácido y embriagador en cuestión de horas, por lo que se consume habitualmente el mismo día de la cosecha en reuniones sociales informales al costado del camino. Más allá de su consumo cotidiano, la savia de palma también se hierve para producir un azúcar oscuro llamado gula timor, un ingrediente básico en la cocina dulce del país.",
+      },
+      en: {
+        title: "The Palm Wine Tapped Fresh Every Morning",
+        subtitle: "Tua Sabu, East Timor's Palm Wine",
+        imageAlt: "Cartoon of a man climbing a tall palm tree with a bamboo container tied at his waist.",
+        description:
+          "Tua sabu, a lightly fermented wine tapped from the sap of the lontar palm or sugar palm, is harvested at dawn and dusk by climbing the trunk up to the crown of the palm to cut the tip of a flower stalk and collect the sweet liquid that drips into a bamboo container tied beneath the cut, a craft passed down from parent to child in many rural Timorese families. Freshly tapped, tua sabu is sweet and barely alcoholic, but it ferments quickly in the tropical heat, turning noticeably more sour and intoxicating within just a few hours, which is why it's usually drunk the same day it's harvested at informal roadside social gatherings. Beyond everyday drinking, palm sap is also boiled down to produce a dark sugar called gula timor, a staple ingredient in the country's sweets and desserts.",
+      },
+    },
+  },
 ];

@@ -231,4 +231,50 @@ export const turkmenistan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "alabai-perro-nacional",
+    order: 11,
+    placeholderEmoji: "🐕",
+    accentColor: "#A0522D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El perro pastor que se convirtió en símbolo nacional",
+        subtitle: "El alabái turcomano",
+        imageAlt: "Caricatura de un perro pastor grande y robusto de perfil, con orejas erguidas y cola enroscada.",
+        description:
+          "El alabái, o perro pastor de Asia Central, es una raza canina de gran tamaño y miles de años de antigüedad en el territorio turcomano, criada históricamente para proteger ovejas y camellos de lobos y otros depredadores en el desierto de Karakum, y valorada por su lealtad, resistencia y tamaño imponente. En 2021 el gobierno turcomano lo declaró oficialmente tesoro nacional, instituyó un feriado anual en su honor y erigió en Asjabat una estatua dorada de varios metros de altura sobre una base giratoria. El expresidente Gurbanguly Berdimuhamedow, criador aficionado de la raza, obsequió cachorros de alabái a mandatarios extranjeros como Vladimir Putin y Xi Jinping como gesto diplomático, contribuyendo a popularizar la raza fuera de Asia Central.",
+      },
+      en: {
+        title: "The Guard Dog That Became a National Symbol",
+        subtitle: "The Turkmen Alabai",
+        imageAlt: "Cartoon of a large, sturdy shepherd dog in profile, with erect ears and a curled tail.",
+        description:
+          "The Alabai, or Central Asian Shepherd Dog, is a large livestock-guardian breed with thousands of years of history in Turkmen territory, bred historically to protect sheep and camels from wolves and other predators in the Karakum Desert, and valued for its loyalty, endurance, and imposing size. In 2021 the Turkmen government officially declared it a national treasure, established an annual holiday in its honor, and erected a golden statue several meters tall on a rotating base in Ashgabat. Former president Gurbanguly Berdimuhamedow, an enthusiastic breeder of the breed, gifted Alabai puppies to foreign leaders including Vladimir Putin and Xi Jinping as a diplomatic gesture, helping popularize the breed beyond Central Asia.",
+      },
+    },
+  },
+  {
+    id: "dia-del-melon",
+    order: 12,
+    placeholderEmoji: "🍈",
+    accentColor: "#D97B29",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El feriado nacional dedicado al melón turcomano",
+        subtitle: "El Día del Melón",
+        imageAlt: "Caricatura de un melón grande a rayas sobre una carreta decorada, con una tajada mostrando su pulpa.",
+        description:
+          "Turkmenistán dedica un feriado nacional al melón, celebrado el segundo domingo de agosto desde que el expresidente Saparmurat Niyazov lo instituyó en 1994, en homenaje a una fruta que el país considera parte central de su identidad agrícola desde tiempos anteriores a la Ruta de la Seda. El país cultiva cientos de variedades locales de melón, apreciadas por su dulzura excepcional gracias al clima seco y las técnicas de riego tradicionales del oasis, y la celebración incluye desfiles con carrozas cargadas de melones gigantes, concursos de la fruta más grande y dulce, y exposiciones agrícolas en Asjabat. Niyazov llegó a rebautizar una variedad de melón con su propio apodo, 'Vatan', y ordenó erigir un monumento con forma de melón, gestos que se sumaron al amplio culto a la personalidad documentado en otras entradas sobre el país.",
+      },
+      en: {
+        title: "The National Holiday Devoted to the Turkmen Melon",
+        subtitle: "Melon Day",
+        imageAlt: "Cartoon of a large striped melon on a decorated cart, with a slice showing its flesh.",
+        description:
+          "Turkmenistan dedicates a national holiday to the melon, celebrated on the second Sunday of August since former president Saparmurat Niyazov established it in 1994, honoring a fruit the country considers central to its agricultural identity since long before the Silk Road. The country grows hundreds of local melon varieties, prized for their exceptional sweetness thanks to the dry climate and traditional oasis irrigation techniques, and the celebration includes parades with floats piled high with giant melons, contests for the largest and sweetest fruit, and agricultural exhibitions in Ashgabat. Niyazov went so far as to rename a melon variety after his own nickname, 'Vatan,' and ordered a melon-shaped monument built, gestures that added to the broader personality cult documented elsewhere in the country's history.",
+      },
+    },
+  },
 ];

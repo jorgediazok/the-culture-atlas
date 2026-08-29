@@ -175,6 +175,116 @@ const ElTemploLongshanYLaReligionPopular: IllustrationComponent = ({ accentColor
   );
 };
 
+const YushanElPicoMasAltoDelAsiaOriental: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const snow = "#F5F0E6";
+  return (
+    <g>
+      {/* low clouds */}
+      <ellipse cx="150" cy="220" rx="60" ry="14" fill="#E8E4DC" opacity="0.7" />
+      <ellipse cx="270" cy="225" rx="55" ry="13" fill="#E8E4DC" opacity="0.7" />
+      {/* mountain */}
+      <polygon points="205,80 280,235 130,235" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* snow cap */}
+      <polygon points="205,80 230,130 180,130" fill={snow} stroke={dark} strokeWidth="2" />
+      {/* rocky ridges */}
+      <path d="M180 160 L165 200 M225 155 L245 195" stroke={dark} strokeWidth="2" opacity="0.4" />
+    </g>
+  );
+};
+
+const ElBeisbolElDeporteQueMasApasionaATaiwan: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  return (
+    <g>
+      {/* stadium stands behind */}
+      <path d="M85 190 Q205 160 320 190 L320 210 Q205 180 85 210 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.5" />
+      {/* batter torso, swinging */}
+      <path d="M170 190 Q195 178 220 192 L215 245 L175 245 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* head */}
+      <circle cx="195" cy="170" r="15" fill={skin} stroke={dark} strokeWidth="2.5" />
+      {/* cap */}
+      <path d="M180 163 Q195 150 210 163 L212 168 L178 168 Z" fill={dark} />
+      {/* arms holding bat mid-swing */}
+      <path d="M205 195 Q235 185 260 155" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <line x1="260" y1="155" x2="290" y2="120" stroke="#8B5A2B" strokeWidth="6" strokeLinecap="round" />
+      {/* legs mid-stride */}
+      <line x1="185" y1="243" x2="175" y2="250" stroke={dark} strokeWidth="7" strokeLinecap="round" />
+      <line x1="205" y1="243" x2="215" y2="250" stroke={dark} strokeWidth="7" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const JiufenElPuebloMineroDeFarolillosRojos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const lantern = "#C1272D";
+  return (
+    <g>
+      {/* stepped street */}
+      <path d="M85 245 L150 200 L150 170 L215 130 L215 100 L280 70 L320 70 L320 250 L85 250 Z" fill={accentColor} opacity="0.5" />
+      {/* tea houses along the slope */}
+      <rect x="100" y="200" width="45" height="45" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="180" y="150" width="45" height="50" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+      <rect x="255" y="100" width="45" height="55" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* hanging red lanterns strung above */}
+      <path d="M100 190 Q200 150 300 95" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      {[120, 160, 200, 240, 280].map((x, i) => (
+        <ellipse key={x} cx={x} cy={190 - i * 22} rx="9" ry="11" fill={lantern} stroke={shade(lantern, 0.3)} strokeWidth="1.5" />
+      ))}
+    </g>
+  );
+};
+
+const ElLeiChaElTeMachacadoHakka: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      {/* ridged ceramic mortar */}
+      <path d="M140 210 Q135 175 205 172 Q275 175 270 210 Q270 235 205 240 Q140 235 140 210 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[0, 1, 2, 3].map((i) => (
+        <path key={i} d={`M${155 + i * 20} 195 Q${160 + i * 20} 215 ${152 + i * 20} 230`} stroke={shade(accentColor, 0.2)} strokeWidth="2" opacity="0.5" fill="none" />
+      ))}
+      {/* thick paste inside */}
+      <ellipse cx="205" cy="195" rx="55" ry="14" fill="#6B7A3A" opacity="0.85" />
+      {/* wooden pestle */}
+      <line x1="230" y1="130" x2="205" y2="195" stroke={wood} strokeWidth="10" strokeLinecap="round" />
+      <ellipse cx="230" cy="128" rx="10" ry="14" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2" />
+      {/* scattered tea leaves */}
+      {[
+        [150, 160],
+        [270, 155],
+        [130, 220],
+      ].map(([x, y]) => (
+        <path key={x} d={`M${x} ${y} Q${x + 6} ${y - 8} ${x + 12} ${y} Q${x + 6} ${y + 6} ${x} ${y} Z`} fill="#4A7A52" />
+      ))}
+    </g>
+  );
+};
+
+const LaUrracaAzulDeFormosaAveEndemica: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const red = "#C1272D";
+  return (
+    <g>
+      {/* long tail drawn first so body absorbs the seam */}
+      <path d="M225 195 Q270 205 290 240 Q292 248 284 246 Q260 220 220 205 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* body */}
+      <path d="M150 200 Q145 175 180 168 Q215 162 232 185 Q238 195 228 200 L222 218 L158 218 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* head */}
+      <circle cx="163" cy="180" r="17" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* red beak */}
+      <path d="M148 180 L128 176 L148 188 Z" fill={red} stroke={shade(red, 0.3)} strokeWidth="1.5" />
+      {/* eye */}
+      <circle cx="160" cy="175" r="2.5" fill="#1A1A1A" />
+      {/* red legs */}
+      <line x1="180" y1="216" x2="178" y2="235" stroke={red} strokeWidth="5" strokeLinecap="round" />
+      <line x1="205" y1="216" x2="207" y2="235" stroke={red} strokeWidth="5" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const taiwanIllustrations: Record<string, IllustrationDefinition> = {
   "el-taipei-101-y-su-amortiguador-gigante": { component: ElTaipei101YSuAmortiguadorGigante },
   "los-mercados-nocturnos-y-el-tofu-apestoso": { component: LosMercadosNocturnosYElTofuApestoso },
@@ -186,4 +296,9 @@ export const taiwanIllustrations: Record<string, IllustrationDefinition> = {
   "el-budaixi-el-teatro-de-titeres-de-guante": { component: ElBudaixiElTeatroDeTiteresDeGuante },
   "el-ferrocarril-forestal-de-alishan": { component: ElFerrocarrilForestalDeAlishan },
   "el-templo-longshan-y-la-religion-popular": { component: ElTemploLongshanYLaReligionPopular },
+  "yushan-el-pico-mas-alto-del-asia-oriental": { component: YushanElPicoMasAltoDelAsiaOriental },
+  "el-beisbol-el-deporte-que-mas-apasiona-a-taiwan": { component: ElBeisbolElDeporteQueMasApasionaATaiwan },
+  "jiufen-el-pueblo-minero-de-farolillos-rojos": { component: JiufenElPuebloMineroDeFarolillosRojos },
+  "el-lei-cha-el-te-machacado-hakka": { component: ElLeiChaElTeMachacadoHakka },
+  "la-urraca-azul-de-formosa-ave-endemica": { component: LaUrracaAzulDeFormosaAveEndemica },
 };

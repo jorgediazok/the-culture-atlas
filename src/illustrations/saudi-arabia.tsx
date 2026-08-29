@@ -185,6 +185,253 @@ const DiriyahCunaDelEstadoSaudita: IllustrationComponent = ({ accentColor }) => 
   );
 };
 
+const ElQahwaElRitualDelCafeArabe: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  return (
+    <g>
+      {/* dallah coffee pot */}
+      <path d="M140 235 L140 175 Q140 150 165 145 L175 145 Q195 148 195 170 L195 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M175 145 Q185 120 200 118 L215 122 Q210 140 195 148" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="167" cy="145" rx="10" ry="5" fill={gold} />
+      <path d="M140 190 Q120 190 118 210" fill="none" stroke={accentColor} strokeWidth="8" strokeLinecap="round" />
+      {/* pour stream */}
+      <path d="M213 122 Q225 140 232 165" fill="none" stroke={gold} strokeWidth="3" opacity="0.7" />
+      {/* small cups */}
+      {[245, 275, 300].map((x, i) => (
+        <path key={x} d={`M${x - 10} 220 L${x + 10} 220 L${x + 7} 235 L${x - 7} 235 Z`} fill={gold} stroke={dark} strokeWidth="1.5" opacity={i === 0 ? 1 : 0.7} />
+      ))}
+    </g>
+  );
+};
+
+const ElMajlisElSalonDeLaHospitalidad: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.5);
+  const rug = "#8B5A2B";
+  return (
+    <g>
+      {/* rug */}
+      <ellipse cx="205" cy="200" rx="105" ry="50" fill={rug} stroke={dark} strokeWidth="2" opacity="0.5" />
+      <ellipse cx="205" cy="200" rx="80" ry="38" fill="none" stroke={dark} strokeWidth="2" opacity="0.5" />
+      {/* cushions arranged around the perimeter */}
+      {[
+        [120, 170],
+        [150, 225],
+        [205, 240],
+        [260, 225],
+        [290, 170],
+        [205, 155],
+      ].map(([x, y], i) => (
+        <rect key={x} x={x - 20} y={y - 12} width="40" height="24" rx="8" fill={i % 2 === 0 ? accentColor : light} stroke={dark} strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
+const LosSuqsMercadosTradicionales: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  const fabric = "#8B2942";
+  return (
+    <g>
+      {/* awning */}
+      <path d="M90 130 L320 130 L305 155 L105 155 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[110, 150, 190, 230, 270, 300].map((x) => (
+        <line key={x} x1={x} y1="142" x2={x} y2="155" stroke={dark} strokeWidth="2" opacity="0.5" />
+      ))}
+      {/* stall table */}
+      <rect x="100" y="200" width="210" height="16" fill="#6B4A2F" stroke={dark} strokeWidth="2" />
+      {/* piled fabrics */}
+      <rect x="120" y="170" width="45" height="30" fill={fabric} stroke={dark} strokeWidth="2" />
+      <rect x="128" y="160" width="35" height="16" fill={tint(fabric, 0.3)} stroke={dark} strokeWidth="1.5" />
+      {/* spice mounds */}
+      {[
+        [220, 195, gold],
+        [250, 195, "#B5651D"],
+        [280, 195, "#8B2942"],
+      ].map(([x, y, c]) => (
+        <path key={x as number} d={`M${(x as number) - 16} ${y} Q${x} ${(y as number) - 24} ${(x as number) + 16} ${y} Z`} fill={c as string} stroke={dark} strokeWidth="1.5" />
+      ))}
+    </g>
+  );
+};
+
+const ElOudLaMusicaDelDesierto: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      {/* pear-shaped body */}
+      <path d="M175 165 Q140 175 140 215 Q140 250 205 250 Q270 250 270 215 Q270 175 235 165 Q205 155 175 165 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* sound hole */}
+      <circle cx="205" cy="210" r="18" fill={dark} opacity="0.6" />
+      <circle cx="205" cy="210" r="18" fill="none" stroke={wood} strokeWidth="2" />
+      {/* neck */}
+      <rect x="195" y="110" width="20" height="60" fill={wood} stroke={dark} strokeWidth="2" />
+      {/* curved pegbox bent back */}
+      <path d="M195 112 Q160 100 150 75" fill="none" stroke={wood} strokeWidth="14" strokeLinecap="round" />
+      {[160, 168, 176].map((y) => (
+        <circle key={y} cx="152" cy={y} r="3" fill={dark} />
+      ))}
+      {/* strings */}
+      {[190, 198, 206, 214].map((x) => (
+        <line key={x} x1={x} y1="112" x2={x} y2="245" stroke={dark} strokeWidth="1" opacity="0.5" />
+      ))}
+    </g>
+  );
+};
+
+const AlAhsaElOasisMasGrandeDelMundo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FE0";
+  const trunk = "#6B4A2F";
+  return (
+    <g>
+      {/* water canal */}
+      <path d="M85 235 Q205 225 320 235 L320 250 L85 250 Z" fill={water} opacity="0.6" />
+      {/* palm trees */}
+      {[110, 150, 190, 230, 270, 300].map((x, i) => {
+        const h = 60 + (i % 3) * 10;
+        return (
+          <g key={x}>
+            <rect x={x - 4} y={225 - h} width="8" height={h} fill={trunk} stroke={dark} strokeWidth="1.5" />
+            {[0, 72, 144, 216, 288].map((deg) => (
+              <path
+                key={deg}
+                d={`M${x} ${225 - h} Q${x + 22} ${225 - h - 6} ${x + 18} ${225 - h - 22}`}
+                fill="none"
+                stroke={accentColor}
+                strokeWidth="5"
+                strokeLinecap="round"
+                transform={`rotate(${deg} ${x} ${225 - h})`}
+              />
+            ))}
+          </g>
+        );
+      })}
+    </g>
+  );
+};
+
+const LosHombresFlorDeAsir: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const skin = "#C9946B";
+  const green = "#4A7A52";
+  const colors = [accentColor, "#F4A300", "#8E24AA", "#F5F0E6"];
+  return (
+    <g>
+      {/* head and face */}
+      <circle cx="205" cy="165" r="30" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M188 190 Q205 200 222 190" fill="none" stroke={dark} strokeWidth="2.5" strokeLinecap="round" />
+      {/* flower crown ring */}
+      <ellipse cx="205" cy="140" rx="36" ry="14" fill={green} stroke={dark} strokeWidth="2" />
+      {[
+        [172, 138],
+        [188, 128],
+        [205, 124],
+        [222, 128],
+        [238, 138],
+      ].map(([x, y], i) => (
+        <circle key={x} cx={x} cy={y} r="9" fill={colors[i % colors.length]} stroke={dark} strokeWidth="1.5" />
+      ))}
+      {/* shoulders */}
+      <path d="M170 192 Q205 178 240 192 L235 250 L175 250 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+    </g>
+  );
+};
+
+const LaPescaDePerlasAntesDelPetroleo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C9946B";
+  const water = "#2C6E8A";
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      {/* water */}
+      <rect x="85" y="140" width="235" height="110" fill={water} opacity="0.4" />
+      {/* dhow boat at surface */}
+      <path d="M110 150 L300 150 L280 175 L130 175 Z" fill={wood} stroke={dark} strokeWidth="2.5" />
+      <path d="M240 150 L260 100 L268 152 Z" fill={tint(wood, 0.4)} stroke={dark} strokeWidth="2" />
+      {/* diver descending */}
+      <circle cx="185" cy="205" r="12" fill={skin} />
+      <path d="M173 215 Q185 209 197 215 L200 245 L170 245 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M175 220 Q155 225 148 240" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M195 220 Q212 228 210 245" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      {/* bubbles */}
+      {[
+        [210, 190],
+        [220, 175],
+        [215, 160],
+      ].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="4" fill="#F5F0E6" opacity="0.6" />
+      ))}
+    </g>
+  );
+};
+
+const ElBordeDelMundo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const sky = "#F4C87A";
+  return (
+    <g>
+      {/* sky */}
+      <rect x="85" y="80" width="235" height="90" fill={sky} opacity="0.4" />
+      {/* cliff edge */}
+      <path d="M85 170 L200 170 L215 140 L235 175 L320 165 L320 250 L85 250 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* desert floor far below */}
+      <path d="M85 250 Q205 235 320 250" fill="none" stroke={dark} strokeWidth="2" opacity="0.4" />
+      {/* distant horizon dunes */}
+      <path d="M85 175 Q150 165 205 172 Q260 165 320 175" fill="none" stroke={dark} strokeWidth="2" opacity="0.5" />
+    </g>
+  );
+};
+
+const ElSaduTejidoBeduinoAncestral: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const black = "#1A1A1A";
+  const white = "#F5F0E6";
+  return (
+    <g>
+      {/* woven fabric with geometric stripes */}
+      <rect x="100" y="120" width="210" height="120" fill={white} stroke={dark} strokeWidth="2.5" />
+      {[0, 1, 2, 3, 4, 5].map((i) => (
+        <rect key={i} x="100" y={120 + i * 20} width="210" height="20" fill={i % 2 === 0 ? accentColor : black} opacity={i % 3 === 2 ? 0.7 : 1} />
+      ))}
+      {/* zigzag motif overlay */}
+      <path d="M100 180 L130 165 L160 180 L190 165 L220 180 L250 165 L280 180 L310 165" fill="none" stroke={white} strokeWidth="4" opacity="0.7" />
+    </g>
+  );
+};
+
+const LaCaligrafiaArabe: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const parchment = "#F0E6D2";
+  const gold = "#D4A017";
+  return (
+    <g>
+      {/* parchment */}
+      <rect x="110" y="110" width="190" height="130" fill={parchment} stroke={dark} strokeWidth="2.5" />
+      {/* flowing calligraphic strokes */}
+      <path d="M135 160 Q160 130 190 160 Q210 180 235 150 Q255 130 280 165" fill="none" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <path d="M135 195 Q170 210 200 190 Q225 175 260 200 Q275 210 285 195" fill="none" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      {/* gold dots for diacritics */}
+      {[
+        [150, 150],
+        [205, 145],
+        [260, 155],
+        [175, 205],
+        [240, 192],
+      ].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="3" fill={gold} />
+      ))}
+      {/* brush */}
+      <path d="M290 100 L320 70 L328 78 L298 108 Z" fill="#B5651D" stroke={dark} strokeWidth="1.5" />
+      <path d="M312 62 Q328 68 322 82 L305 76 Q306 65 312 62 Z" fill="#1A1A1A" />
+    </g>
+  );
+};
+
 export const saudiArabiaIllustrations: Record<string, IllustrationDefinition> = {
   "la-meca-y-la-kaaba-el-centro-del-islam": { component: LaMecaYLaKaabaElCentroDelIslam },
   "hegra-la-petra-secreta-de-arabia-saudita": { component: HegraLaPetraSecretaDeArabiaSaudita },
@@ -196,4 +443,14 @@ export const saudiArabiaIllustrations: Record<string, IllustrationDefinition> = 
   "el-cuarto-vacio-un-mar-de-dunas-sin-fin": { component: ElCuartoVacioUnMarDeDunasSinFin },
   "los-concursos-de-belleza-de-camellos": { component: LosConcursosDeBellezaDeCamellos },
   "diriyah-cuna-del-estado-saudita": { component: DiriyahCunaDelEstadoSaudita },
+  "el-qahwa-el-ritual-del-cafe-arabe": { component: ElQahwaElRitualDelCafeArabe },
+  "el-majlis-el-salon-de-la-hospitalidad": { component: ElMajlisElSalonDeLaHospitalidad },
+  "los-suqs-mercados-tradicionales": { component: LosSuqsMercadosTradicionales },
+  "el-oud-la-musica-del-desierto": { component: ElOudLaMusicaDelDesierto },
+  "al-ahsa-el-oasis-mas-grande-del-mundo": { component: AlAhsaElOasisMasGrandeDelMundo },
+  "los-hombres-flor-de-asir": { component: LosHombresFlorDeAsir },
+  "la-pesca-de-perlas-antes-del-petroleo": { component: LaPescaDePerlasAntesDelPetroleo },
+  "el-borde-del-mundo": { component: ElBordeDelMundo },
+  "el-sadu-tejido-beduino-ancestral": { component: ElSaduTejidoBeduinoAncestral },
+  "la-caligrafia-arabe": { component: LaCaligrafiaArabe },
 };

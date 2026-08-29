@@ -187,6 +187,243 @@ const ElMayorDeltaFluvialDelMundo: IllustrationComponent = ({ accentColor }) => 
   );
 };
 
+const PohelaBoishakhElAnoNuevoBengali: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  const white = "#F5F0E6";
+  return (
+    <g>
+      {/* owl mask */}
+      <circle cx="150" cy="160" r="38" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="135" cy="150" r="12" fill={white} stroke={dark} strokeWidth="2" />
+      <circle cx="165" cy="150" r="12" fill={white} stroke={dark} strokeWidth="2" />
+      <circle cx="135" cy="150" r="5" fill={dark} />
+      <circle cx="165" cy="150" r="5" fill={dark} />
+      <polygon points="150,165 143,178 157,178" fill={gold} />
+      {[130, 140, 160, 170].map((x) => (
+        <path key={x} d={`M${x} 128 L${x} 108`} stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      ))}
+      {/* elephant mask */}
+      <circle cx="260" cy="175" r="34" fill={gold} stroke={dark} strokeWidth="3" />
+      <path d="M245 195 Q235 215 245 230" fill="none" stroke={gold} strokeWidth="10" strokeLinecap="round" />
+      <circle cx="248" cy="168" r="7" fill={dark} />
+      <path d="M225 155 Q210 150 205 165 Q210 178 225 172" fill={tint(gold, 0.2)} stroke={dark} strokeWidth="2" />
+      {/* held on poles */}
+      <line x1="150" y1="198" x2="150" y2="245" stroke="#8B5A2B" strokeWidth="4" />
+      <line x1="260" y1="209" x2="260" y2="245" stroke="#8B5A2B" strokeWidth="4" />
+    </g>
+  );
+};
+
+const LosBaulMusicosMisticosErrantes: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const skin = "#C9946B";
+  return (
+    <g>
+      <circle cx="205" cy="140" r="18" fill={skin} stroke={dark} strokeWidth="2.5" />
+      {/* wrapped headscarf */}
+      <path d="M188 132 Q205 115 222 132" fill="none" stroke={accentColor} strokeWidth="8" strokeLinecap="round" />
+      {/* robe */}
+      <path d="M182 156 Q205 148 228 156 L235 245 L175 245 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* arm plucking */}
+      <path d="M188 165 Q160 175 150 200" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      {/* ektara, one-stringed instrument */}
+      <ellipse cx="140" cy="210" rx="20" ry="26" fill="#8B5A2B" stroke={dark} strokeWidth="2.5" />
+      <line x1="140" y1="184" x2="140" y2="140" stroke="#6B4A2F" strokeWidth="4" />
+      <line x1="150" y1="150" x2="128" y2="220" stroke={dark} strokeWidth="1.5" opacity="0.6" />
+      {/* other arm resting */}
+      <path d="M222 165 Q245 175 240 200" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const CoxBazarLaPlayaNaturalMasLarga: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const sand = "#E8D5A8";
+  const wave = tint(accentColor, 0.3);
+  return (
+    <g>
+      {/* sea */}
+      <rect x="85" y="90" width="235" height="90" fill={accentColor} opacity="0.6" />
+      <path d="M85 150 Q205 140 320 150" fill="none" stroke={wave} strokeWidth="4" opacity="0.7" />
+      <path d="M85 165 Q205 158 320 165" fill="none" stroke={wave} strokeWidth="3" opacity="0.5" />
+      {/* sand */}
+      <path d="M85 180 Q205 165 320 180 L320 250 L85 250 Z" fill={sand} stroke={dark} strokeWidth="2" />
+      {/* umbrellas */}
+      {[
+        [150, 195, "#C1272D"],
+        [240, 200, "#F4A300"],
+      ].map(([x, y, c]) => (
+        <g key={x as number}>
+          <line x1={x as number} y1={y as number} x2={x as number} y2={(y as number) + 40} stroke="#6B4A2F" strokeWidth="3" />
+          <path d={`M${(x as number) - 24} ${y} Q${x} ${(y as number) - 26} ${(x as number) + 24} ${y} Z`} fill={c as string} stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const ElNakshiKanthaMantasBordadasConHistorias: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const cream = "#F0E4D0";
+  const gold = "#D4A017";
+  return (
+    <g>
+      <rect x="100" y="115" width="210" height="130" fill={cream} stroke={dark} strokeWidth="2.5" />
+      {/* radiating lotus center */}
+      <circle cx="205" cy="180" r="22" fill={accentColor} stroke={dark} strokeWidth="2" />
+      {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+        <line key={deg} x1="205" y1="180" x2="205" y2="150" stroke={gold} strokeWidth="3" strokeLinecap="round" transform={`rotate(${deg} 205 180)`} />
+      ))}
+      {/* border pattern */}
+      {[120, 150, 260, 290].map((x) => (
+        <polygon key={x} points={`${x},130 ${x + 10},142 ${x},154 ${x - 10},142`} fill={accentColor} stroke={dark} strokeWidth="1" opacity="0.8" />
+      ))}
+      {[120, 150, 260, 290].map((x) => (
+        <polygon key={`b-${x}`} points={`${x},220 ${x + 10},232 ${x},244 ${x - 10},232`} fill={gold} stroke={dark} strokeWidth="1" opacity="0.8" />
+      ))}
+    </g>
+  );
+};
+
+const LaFibraDoradaDelYute: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#6B4A2F";
+  return (
+    <g>
+      {/* stacked bundles of golden fiber */}
+      {[
+        [130, 215],
+        [190, 220],
+        [250, 215],
+      ].map(([x, y]) => (
+        <g key={x}>
+          <ellipse cx={x} cy={y} rx="35" ry="16" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+          {[-20, -6, 8, 22].map((dx) => (
+            <line key={dx} x1={x + dx} y1={y - 14} x2={x + dx} y2={y + 14} stroke={dark} strokeWidth="1" opacity="0.4" />
+          ))}
+        </g>
+      ))}
+      {/* loom frame behind */}
+      <rect x="95" y="110" width="220" height="10" fill={wood} />
+      <line x1="105" y1="120" x2="105" y2="200" stroke={wood} strokeWidth="6" />
+      <line x1="305" y1="120" x2="305" y2="200" stroke={wood} strokeWidth="6" />
+      {[120, 140, 160, 180, 200, 220, 240, 260, 280].map((x) => (
+        <line key={x} x1={x} y1="120" x2={x} y2="195" stroke={tint(accentColor, 0.3)} strokeWidth="1.5" opacity="0.6" />
+      ))}
+    </g>
+  );
+};
+
+const PaharpurElMonasterioBudistaPerdido: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const light = tint(accentColor, 0.35);
+  return (
+    <g>
+      {[0, 1, 2, 3].map((i) => (
+        <rect key={i} x={130 + i * 10} y={225 - i * 28} width={150 - i * 20} height="28" fill={i % 2 === 0 ? accentColor : light} stroke={dark} strokeWidth="1.5" />
+      ))}
+      {/* decorated niches */}
+      {[150, 175, 200, 225, 250].map((x) => (
+        <rect key={x} x={x} y="200" width="14" height="20" fill={dark} opacity="0.4" />
+      ))}
+      {[160, 190, 220].map((x) => (
+        <rect key={x} x={x} y="172" width="12" height="16" fill={dark} opacity="0.4" />
+      ))}
+    </g>
+  );
+};
+
+const ElFuerteLalbaghDeDhaka: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const gold = "#D4A017";
+  return (
+    <g>
+      {/* gate walls */}
+      <rect x="100" y="140" width="70" height="100" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="240" y="140" width="70" height="100" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* central arch */}
+      <path d="M170 240 L170 175 Q170 140 205 140 Q240 140 240 175 L240 240 Z" fill={shade(accentColor, 0.2)} stroke={dark} strokeWidth="3" />
+      {/* domes */}
+      <circle cx="135" cy="130" r="20" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+      <circle cx="275" cy="130" r="20" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+      <circle cx="205" cy="115" r="24" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2.5" />
+      <line x1="205" y1="91" x2="205" y2="80" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const LosJardinesDeTeDeSylhet: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const hillFar = tint(accentColor, 0.4);
+  return (
+    <g>
+      {/* rolling hills */}
+      <path d="M85 190 Q150 150 205 175 Q260 150 320 185 L320 250 L85 250 Z" fill={hillFar} opacity="0.6" />
+      <path d="M85 220 Q150 195 205 215 Q260 190 320 220 L320 250 L85 250 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      {/* rows of tea bushes */}
+      {[0, 1, 2, 3, 4].map((row) => (
+        <g key={row}>
+          {[0, 1, 2, 3, 4, 5, 6].map((col) => (
+            <ellipse key={col} cx={100 + col * 32 + row * 4} cy={222 + row * 6} rx="14" ry="8" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="1" opacity="0.85" />
+          ))}
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const ElCriquetLaObsesionNacional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#C9A876";
+  const ball = "#8B1A1A";
+  return (
+    <g>
+      {/* stadium lights */}
+      {[110, 300].map((x) => (
+        <g key={x}>
+          <line x1={x} y1="95" x2={x} y2="130" stroke={dark} strokeWidth="3" />
+          {[0, 30, -30].map((deg) => (
+            <line key={deg} x1={x} y1="95" x2={x} y2="70" stroke={accentColor} strokeWidth="3" strokeLinecap="round" opacity="0.6" transform={`rotate(${deg} ${x} 95)`} />
+          ))}
+        </g>
+      ))}
+      {/* pitch */}
+      <rect x="90" y="225" width="230" height="20" fill={accentColor} opacity="0.3" />
+      {/* stumps */}
+      {[195, 210, 225].map((x) => (
+        <rect key={x} x={x} y="155" width="6" height="75" fill={wood} stroke={dark} strokeWidth="1.5" />
+      ))}
+      {/* bat leaning */}
+      <path d="M130 232 L155 135 L168 138 L145 235 Z" fill={wood} stroke={dark} strokeWidth="2" />
+      <rect x="122" y="228" width="20" height="32" rx="6" fill={dark} />
+      {/* ball */}
+      <circle cx="270" cy="205" r="15" fill={ball} stroke={shade(ball, 0.3)} strokeWidth="2" />
+    </g>
+  );
+};
+
+const NazrulYTagoreLosPoetasDeBengala: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const paper = "#F5F0E6";
+  return (
+    <g>
+      {/* open book */}
+      <path d="M105 220 Q155 200 205 215 L205 165 Q155 150 105 170 Z" fill={paper} stroke={dark} strokeWidth="2.5" />
+      <path d="M205 215 Q255 200 305 220 L305 170 Q255 150 205 165 Z" fill={paper} stroke={dark} strokeWidth="2.5" />
+      {[175, 190, 205].map((y) => (
+        <line key={y} x1="120" y1={y} x2="190" y2={y - 8} stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      ))}
+      {[175, 190, 205].map((y) => (
+        <line key={`r-${y}`} x1="220" y1={y - 8} x2="290" y2={y} stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      ))}
+      {/* quill */}
+      <path d="M270 155 L310 105 L320 115 L280 165 Z" fill="#B5651D" stroke={dark} strokeWidth="1.5" />
+      <path d="M300 92 Q320 100 312 122 L292 112 Q294 98 300 92 Z" fill="#1A1A1A" />
+    </g>
+  );
+};
+
 export const bangladeshIllustrations: Record<string, IllustrationDefinition> = {
   "el-mayor-bosque-de-manglares-del-mundo": { component: ElMayorBosqueDeManglaresDelMundo },
   "las-escuelas-flotantes-que-esquivan-la-inundacion": { component: LasEscuelasFlotantesQueEsquivanLaInundacion },
@@ -198,4 +435,14 @@ export const bangladeshIllustrations: Record<string, IllustrationDefinition> = {
   "la-mezquita-de-sesenta-cupulas-de-bagerhat": { component: LaMezquitaDeSesentaCupulasDeBagerhat },
   "el-microcredito-que-nacio-para-los-mas-pobres": { component: ElMicrocreditoQueNacioParaLosMasPobres },
   "el-mayor-delta-fluvial-del-mundo": { component: ElMayorDeltaFluvialDelMundo },
+  "pohela-boishakh-el-ano-nuevo-bengali": { component: PohelaBoishakhElAnoNuevoBengali },
+  "los-baul-musicos-misticos-errantes": { component: LosBaulMusicosMisticosErrantes },
+  "cox-bazar-la-playa-natural-mas-larga": { component: CoxBazarLaPlayaNaturalMasLarga },
+  "el-nakshi-kantha-mantas-bordadas-con-historias": { component: ElNakshiKanthaMantasBordadasConHistorias },
+  "la-fibra-dorada-del-yute": { component: LaFibraDoradaDelYute },
+  "paharpur-el-monasterio-budista-perdido": { component: PaharpurElMonasterioBudistaPerdido },
+  "el-fuerte-lalbagh-de-dhaka": { component: ElFuerteLalbaghDeDhaka },
+  "los-jardines-de-te-de-sylhet": { component: LosJardinesDeTeDeSylhet },
+  "el-criquet-la-obsesion-nacional": { component: ElCriquetLaObsesionNacional },
+  "nazrul-y-tagore-los-poetas-de-bengala": { component: NazrulYTagoreLosPoetasDeBengala },
 };

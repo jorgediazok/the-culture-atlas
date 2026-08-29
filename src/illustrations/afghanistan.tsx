@@ -142,6 +142,135 @@ const GranadasDeKandahar: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const LasAlfombrasAfganasAnudadasAMano: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* vertical loom frame */}
+      <rect x="100" y="90" width="210" height="15" fill="#6B4A2F" />
+      <rect x="100" y="235" width="210" height="15" fill="#6B4A2F" />
+      <rect x="100" y="90" width="12" height="160" fill="#6B4A2F" />
+      <rect x="298" y="90" width="12" height="160" fill="#6B4A2F" />
+      {/* woven carpet with geometric diamonds */}
+      <rect x="120" y="110" width="170" height="120" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[
+        [150, 140],
+        [205, 140],
+        [260, 140],
+        [150, 195],
+        [205, 195],
+        [260, 195],
+      ].map(([x, y]) => (
+        <polygon key={`${x}-${y}`} points={`${x},${y - 18} ${x + 18},${y} ${x},${y + 18} ${x - 18},${y}`} fill={tint(accentColor, 0.35)} stroke={dark} strokeWidth="1.5" />
+      ))}
+      {/* warp threads still hanging below */}
+      {[130, 150, 170, 190, 210, 230, 250, 270].map((x) => (
+        <line key={x} x1={x} y1="230" x2={x} y2="245" stroke={dark} strokeWidth="1.5" opacity="0.6" />
+      ))}
+    </g>
+  );
+};
+
+const ElOroDeBactrianaElTesoroDeTillyaTepe: IllustrationComponent = () => {
+  const gold = "#D4AF37";
+  const dark = shade(gold, 0.35);
+  return (
+    <g>
+      {/* crown band */}
+      <path d="M140 190 Q205 210 270 190 L270 205 Q205 225 140 205 Z" fill={gold} stroke={dark} strokeWidth="2.5" />
+      {/* five tree-like spikes */}
+      {[150, 180, 205, 230, 260].map((x, i) => (
+        <path key={x} d={`M${x} 195 L${x - 10} ${150 - (i % 2) * 10} L${x} ${140 - (i % 2) * 10} L${x + 10} ${150 - (i % 2) * 10} Z`} fill={gold} stroke={dark} strokeWidth="2" />
+      ))}
+      {/* hanging ornament discs */}
+      {[160, 190, 220, 250].map((x) => (
+        <circle key={x} cx={x} cy="212" r="5" fill={gold} stroke={dark} strokeWidth="1.5" />
+      ))}
+      {/* central gemstone */}
+      <circle cx="205" cy="150" r="8" fill="#8B1A2B" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const ElGalgoAfganoElPerroDeLasMontanas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  return (
+    <g>
+      {/* body, running pose */}
+      <path d="M140 200 Q150 180 190 178 Q230 176 255 195 Q260 200 250 205 L245 220 L155 222 L148 210 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* head with long silky ear */}
+      <circle cx="150" cy="185" r="16" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M140 190 Q115 195 108 220" fill="none" stroke={tint(accentColor, 0.2)} strokeWidth="7" strokeLinecap="round" opacity="0.85" />
+      {/* long silky tail */}
+      <path d="M248 205 Q285 195 295 215" fill="none" stroke={tint(accentColor, 0.2)} strokeWidth="6" strokeLinecap="round" />
+      {/* legs mid-stride */}
+      <path d="M170 220 Q160 235 175 245" fill="none" stroke={dark} strokeWidth="7" strokeLinecap="round" />
+      <path d="M200 222 Q195 240 210 248" fill="none" stroke={dark} strokeWidth="7" strokeLinecap="round" />
+      <path d="M230 220 Q245 232 235 245" fill="none" stroke={dark} strokeWidth="7" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const ElKabuliPalawElPlatoNacionalAfgano: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const carrot = "#E8912D";
+  const raisin = "#3E2712";
+  return (
+    <g>
+      {/* platter */}
+      <ellipse cx="205" cy="215" rx="100" ry="26" fill={tint(accentColor, 0.5)} stroke={dark} strokeWidth="3" />
+      {/* mound of rice */}
+      <path d="M140 210 Q145 180 205 178 Q265 180 270 210 Q260 225 205 225 Q150 225 140 210 Z" fill="#F5EFE0" stroke={dark} strokeWidth="2.5" />
+      {/* carrot strips */}
+      {[
+        [165, 195, 20],
+        [195, 190, -20],
+        [225, 195, 20],
+        [250, 200, -20],
+      ].map(([x, y, rot]) => (
+        <rect key={x} x={x} y={y} width="18" height="5" fill={carrot} transform={`rotate(${rot} ${x} ${y})`} />
+      ))}
+      {/* raisins */}
+      {[
+        [175, 205],
+        [205, 200],
+        [235, 207],
+        [190, 212],
+      ].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="3" fill={raisin} />
+      ))}
+      {/* lamb pieces peeking at the base */}
+      <ellipse cx="160" cy="215" rx="16" ry="10" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <ellipse cx="255" cy="213" rx="16" ry="10" fill={accentColor} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const ElAttanLaDanzaNacionalEnCirculo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const skin = "#D9A46A";
+  // 5 dancer positions arranged in a rough circle around (205,175), precomputed offline
+  const positions: [number, number][] = [
+    [205, 90],
+    [286, 148],
+    [254, 240],
+    [156, 240],
+    [124, 148],
+  ];
+  return (
+    <g>
+      {positions.map(([x, y], i) => (
+        <g key={x}>
+          <circle cx={x} cy={y - 14} r="10" fill={skin} stroke={dark} strokeWidth="2" />
+          <path d={`M${x - 11} ${y - 2} Q${x} ${y - 8} ${x + 11} ${y - 2} L${x + 8} ${y + 30} L${x - 8} ${y + 30} Z`} fill={i % 2 === 0 ? accentColor : tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.5" />
+          <path d={`M${x - 11} ${y + 5} L${x - 25} ${y - 5}`} stroke={skin} strokeWidth="6" strokeLinecap="round" />
+          <path d={`M${x + 11} ${y + 5} L${x + 25} ${y - 5}`} stroke={skin} strokeWidth="6" strokeLinecap="round" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const afghanistanIllustrations: Record<string, IllustrationDefinition> = {
   "budas-de-bamiyan-gigantes-tallados": { component: BudasDeBamiyanGigantesTallados },
   "encrucijada-de-la-ruta-de-la-seda": { component: EncrucijadaDeLaRutaDeLaSeda },
@@ -153,4 +282,9 @@ export const afghanistanIllustrations: Record<string, IllustrationDefinition> = 
   "nomadas-kuchi-la-vida-itinerante": { component: NomadasKuchiLaVidaItinerante },
   "herat-ciudad-de-los-minaretes": { component: HeratCiudadDeLosMinaretes },
   "granadas-de-kandahar": { component: GranadasDeKandahar },
+  "las-alfombras-afganas-anudadas-a-mano": { component: LasAlfombrasAfganasAnudadasAMano },
+  "el-oro-de-bactriana-el-tesoro-de-tillya-tepe": { component: ElOroDeBactrianaElTesoroDeTillyaTepe },
+  "el-galgo-afgano-el-perro-de-las-montanas": { component: ElGalgoAfganoElPerroDeLasMontanas },
+  "el-kabuli-palaw-el-plato-nacional-afgano": { component: ElKabuliPalawElPlatoNacionalAfgano },
+  "el-attan-la-danza-nacional-en-circulo": { component: ElAttanLaDanzaNacionalEnCirculo },
 };

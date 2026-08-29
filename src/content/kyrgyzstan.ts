@@ -231,4 +231,50 @@ export const kyrgyzstan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "berkutchi-cazadores-aguila",
+    order: 11,
+    placeholderEmoji: "🦅",
+    accentColor: "#5D4037",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los cazadores que entrenan águilas doradas para cazar",
+        subtitle: "Los berkutchi, cazadores con águila",
+        imageAlt: "Caricatura de un cazador con un águila dorada posada sobre un grueso guante de cuero.",
+        description:
+          "Los 'berkutchi', cazadores kirguises especializados en el arte milenario de la cetrería con águilas doradas, capturan crías de águila real directamente de sus nidos en los acantilados del Tian Shan y las entrenan durante meses para cazar zorros, liebres y hasta lobos jóvenes, una relación de confianza mutua que puede durar años antes de que el ave sea liberada de vuelta a la naturaleza según la costumbre tradicional. El entrenamiento exige paciencia extrema: el cazador debe ganarse la confianza del águila mediante un vínculo diario que incluye alimentarla a mano y acostumbrarla gradualmente al contacto humano, mientras el ave, que puede pesar hasta siete kilos y alcanzar velocidades de picada superiores a los 300 kilómetros por hora, se convierte en compañera de caza y no en simple herramienta. La práctica se exhibe cada año en los Juegos Mundiales Nómadas.",
+      },
+      en: {
+        title: "The Hunters Who Train Golden Eagles to Hunt",
+        subtitle: "Berkutchi, the Eagle Hunters",
+        imageAlt: "Cartoon of a hunter with a golden eagle perched on a thick leather glove.",
+        description:
+          "The 'berkutchi,' Kyrgyz hunters specialized in the ancient art of eagle falconry, capture golden eagle chicks directly from nests on Tian Shan cliffs and train them for months to hunt foxes, hares, and even young wolves, a relationship of mutual trust that can last years before the bird is released back into the wild according to tradition. The training demands extreme patience: the hunter must earn the eagle's trust through a daily bond that includes hand-feeding it and gradually accustoming it to human contact, while the bird, which can weigh up to seven kilograms and reach diving speeds over 300 kilometers per hour, becomes a hunting partner rather than a mere tool. The practice is showcased every year at the World Nomad Games.",
+      },
+    },
+  },
+  {
+    id: "komuz-instrumento-nacional",
+    order: 12,
+    placeholderEmoji: "🎻",
+    accentColor: "#A0752B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El laúd de tres cuerdas que acompaña cada celebración",
+        subtitle: "El komuz, instrumento nacional kirguís",
+        imageAlt: "Caricatura de un laúd de madera con tres cuerdas y un mástil largo y delgado.",
+        description:
+          "El komuz, un laúd de mástil largo y tres cuerdas de tripa o nailon tallado en una sola pieza de madera de albaricoquero, es el instrumento tradicional más emblemático de Kirguistán, capaz de imitar mediante técnicas de rasgueo y percusión el sonido del galope de caballos, el viento de la estepa o el llanto humano, un repertorio expresivo transmitido oralmente entre generaciones de músicos itinerantes. Cada región kirguís desarrolló su propio estilo de afinación y ejecución, y el instrumento acompaña tradicionalmente celebraciones, funerales y competencias de improvisación musical, donde los músicos compiten por replicar sonidos de la naturaleza con la mayor fidelidad posible. Considerado patrimonio cultural inmaterial por el estado kirguís, el komuz se enseña hoy en escuelas de música y su silueta aparece con frecuencia en billetes y monumentos del país.",
+      },
+      en: {
+        title: "The Three-Stringed Lute Behind Every Celebration",
+        subtitle: "The Komuz, Kyrgyzstan's National Instrument",
+        imageAlt: "Cartoon of a wooden lute with three strings and a long, slender neck.",
+        description:
+          "The komuz, a long-necked lute with three gut or nylon strings carved from a single piece of apricot wood, is Kyrgyzstan's most emblematic traditional instrument, capable of imitating through strumming and percussive techniques the sound of galloping horses, the wind on the steppe, or human weeping, an expressive repertoire passed down orally among generations of traveling musicians. Each Kyrgyz region developed its own tuning and playing style, and the instrument traditionally accompanies celebrations, funerals, and improvisation contests where musicians compete to replicate natural sounds as faithfully as possible. Recognized as intangible cultural heritage by the Kyrgyz state, the komuz is now taught in music schools, and its silhouette appears frequently on banknotes and monuments across the country.",
+      },
+    },
+  },
 ];

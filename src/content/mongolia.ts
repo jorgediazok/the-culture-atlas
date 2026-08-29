@@ -231,4 +231,119 @@ export const mongolia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-deel-la-tunica-tradicional-mongola",
+    order: 11,
+    placeholderEmoji: "🥻",
+    accentColor: "#B71C1C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La túnica cruzada atada con una faja de seda",
+        subtitle: "El deel, la túnica tradicional",
+        imageAlt: "Caricatura de una túnica cruzada de colores atada con una faja.",
+        description:
+          "El deel, la prenda tradicional mongola usada por hombres y mujeres desde hace siglos, es una túnica larga cruzada al frente y cerrada con botones laterales, ajustada a la cintura con una faja de seda o tela llamada büs que ayuda a mantener el calor corporal y sostiene objetos cotidianos como un cuchillo o una bolsa de tabaco durante las largas jornadas a caballo. Confeccionado tradicionalmente en lana, algodón o seda según la estación y la región, con mangas largas que cubren por completo las manos para protegerlas del frío extremo de la estepa, el deel varía en color, bordado y forma del cuello según el grupo étnico y la ocasión, y aunque la ropa occidental se volvió común en las ciudades, millones de mongoles siguen usándolo a diario en el campo y en festividades como el Naadam.",
+      },
+      en: {
+        title: "The Wraparound Robe Tied With a Silk Sash",
+        subtitle: "The Deel, Mongolia's Traditional Robe",
+        imageAlt: "Cartoon of a colorful wraparound robe tied with a sash.",
+        description:
+          "The deel, Mongolia's traditional garment worn by men and women alike for centuries, is a long robe crossed over the front and closed with side buttons, cinched at the waist with a silk or cloth sash called a büs that helps hold in body heat and carries everyday items like a knife or tobacco pouch through long days on horseback. Traditionally made from wool, cotton, or silk depending on the season and region, with long sleeves that fully cover the hands against the steppe's extreme cold, the deel varies in color, embroidery, and collar shape by ethnic group and occasion, and although Western clothing became common in cities, millions of Mongolians still wear it daily in the countryside and at festivities like Naadam.",
+      },
+    },
+  },
+  {
+    id: "el-airag-la-leche-de-yegua-fermentada",
+    order: 12,
+    placeholderEmoji: "🥛",
+    accentColor: "#E8D9B5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La bebida nacional hecha de leche de yegua fermentada",
+        subtitle: "El airag, leche de yegua fermentada",
+        imageAlt: "Caricatura de un cuenco de madera con líquido blanco espumoso.",
+        description:
+          "El airag, la bebida nacional de Mongolia, se elabora fermentando leche de yegua cruda en un odre de cuero o un barril de madera, batiéndola cientos de veces al día durante varios días hasta que los azúcares naturales se convierten en un líquido ligeramente ácido, espumoso y con un contenido alcohólico bajo, generalmente de entre uno y tres por ciento. Producido tradicionalmente por familias nómadas durante los meses de verano, cuando las yeguas dan más leche, el airag ocupa un lugar central en la hospitalidad mongola, y rechazar un cuenco ofrecido por un anfitrión se considera de mala educación, mientras que competencias regionales evalúan cada año la calidad del airag preparado por distintas familias pastoriles de la estepa.",
+      },
+      en: {
+        title: "The National Drink Made From Fermented Mare's Milk",
+        subtitle: "Airag, Fermented Mare's Milk",
+        imageAlt: "Cartoon of a wooden bowl with foamy white liquid.",
+        description:
+          "Airag, Mongolia's national drink, is made by fermenting raw mare's milk in a leather sack or wooden barrel, churning it hundreds of times a day for several days until its natural sugars turn into a slightly sour, fizzy liquid with a low alcohol content, usually between one and three percent. Traditionally produced by nomadic families during the summer months, when mares give the most milk, airag holds a central place in Mongolian hospitality, and turning down a bowl offered by a host is considered impolite, while regional competitions judge the quality of airag prepared by different pastoral families across the steppe every year.",
+      },
+    },
+  },
+  {
+    id: "los-acantilados-llameantes-y-los-primeros-huevos-de-dinosaurio",
+    order: 13,
+    placeholderEmoji: "🦴",
+    accentColor: "#D2691E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los acantilados donde hallaron huevos de dinosaurio",
+        subtitle: "Los Acantilados Llameantes del Gobi",
+        imageAlt: "Caricatura de huevos fósiles ovalados sobre arena rojiza.",
+        description:
+          "En 1923, una expedición estadounidense liderada por Roy Chapman Andrews descubrió en los Acantilados Llameantes del desierto de Gobi el primer nido de huevos de dinosaurio jamás confirmado científicamente, atribuido en ese momento al Protoceratops, un hallazgo que cambió radicalmente la comprensión científica sobre la reproducción de estos animales. Desde entonces, el Gobi se consolidó como uno de los yacimientos paleontológicos más ricos del planeta, con hallazgos posteriores como el fósil de un Velociraptor peleando con un Protoceratops, encontrados literalmente entrelazados en pleno combate, y la formación rocosa erosionada de tono anaranjado intenso que da nombre al sitio sigue revelando nuevos fósiles cada temporada de excavación bajo el sol del desierto mongol.",
+      },
+      en: {
+        title: "The Cliffs Where the First Fossil Eggs Were Found",
+        subtitle: "The Flaming Cliffs of the Gobi",
+        imageAlt: "Cartoon of oval fossil eggs on reddish sand.",
+        description:
+          "In 1923, an American expedition led by Roy Chapman Andrews discovered at the Flaming Cliffs of the Gobi Desert the first dinosaur egg nest ever scientifically confirmed, attributed at the time to Protoceratops, a find that radically changed scientific understanding of how these animals reproduced. Since then, the Gobi has become one of the richest fossil sites on Earth, with later finds including a Velociraptor fossil locked in combat with a Protoceratops, found literally entangled mid-fight, and the deep orange, wind-eroded rock formation that gives the site its name keeps yielding new fossils every excavation season under the Mongolian desert sun.",
+      },
+    },
+  },
+  {
+    id: "el-tsam-la-danza-budista-de-mascaras",
+    order: 14,
+    placeholderEmoji: "🎭",
+    accentColor: "#AD1457",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La danza budista con máscaras de deidades feroces",
+        subtitle: "El tsam, danza budista de máscaras",
+        imageAlt: "Caricatura de una máscara ritual con colmillos y ojos saltones.",
+        description:
+          "El tsam es una danza ceremonial budista tibetano-mongola ejecutada por monjes que portan máscaras enormes y elaboradas de deidades protectoras, criaturas feroces con colmillos, calaveras y ojos saltones, así como de animales sagrados, en representaciones que buscan expulsar simbólicamente a los espíritus malignos y purificar la comunidad antes del nuevo año lunar. La danza, coreografiada según textos y gestos transmitidos de generación en generación entre monasterios, puede durar varias horas e incluye docenas de personajes distintos, cada uno con su propio traje y significado simbólico dentro de la cosmología budista, y hoy vuelve a celebrarse públicamente en monasterios como el Gandantegchinlen de Ulán Bator, atrayendo cada año a audiencias crecientes de fieles y visitantes curiosos.",
+      },
+      en: {
+        title: "The Buddhist Ritual Dance of Fierce Deity Masks",
+        subtitle: "Tsam, the Buddhist Masked Dance",
+        imageAlt: "Cartoon of a ritual mask with fangs and bulging eyes.",
+        description:
+          "Tsam is a Tibetan-Mongolian Buddhist ceremonial dance performed by monks wearing enormous, elaborate masks of protector deities, fanged skull-crowned creatures with bulging eyes, as well as sacred animals, in performances meant to symbolically drive out evil spirits and purify the community before the lunar new year. The dance, choreographed from texts and gestures passed down between monasteries across generations, can last several hours and includes dozens of distinct characters, each with its own costume and symbolic meaning within Buddhist cosmology, and it is once again performed publicly today at monasteries such as Gandantegchinlen in Ulaanbaatar, drawing growing audiences of worshippers and curious visitors each year.",
+      },
+    },
+  },
+  {
+    id: "los-camellos-bactrianos-de-dos-jorobas-del-gobi",
+    order: 15,
+    placeholderEmoji: "🐫",
+    accentColor: "#BCAAA4",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los camellos de dos jorobas que sobreviven al desierto",
+        subtitle: "Los camellos bactrianos del Gobi",
+        imageAlt: "Caricatura de un camello de dos jorobas caminando sobre dunas.",
+        description:
+          "El camello bactriano, de dos jorobas y pelaje espeso, es una de las especies mejor adaptadas al clima extremo del desierto de Gobi, capaz de soportar temperaturas que oscilan entre más de cuarenta grados en verano y menos de treinta bajo cero en invierno, además de pasar semanas sin beber agua gracias a las reservas de grasa almacenadas en sus jorobas. Mongolia alberga tanto camellos domesticados, criados por familias nómadas para transporte, leche y lana, como los últimos ejemplares silvestres de camello bactriano que quedan en el mundo, una subespecie genéticamente distinta y en peligro crítico de extinción que sobrevive en zonas remotas del Gobi. Cada año, la ciudad de Bulgan celebra el Festival del Camello, donde pastores compiten en carreras y exhiben a sus animales.",
+      },
+      en: {
+        title: "The Two-Humped Camels That Survive the Desert",
+        subtitle: "Bactrian Camels of the Gobi",
+        imageAlt: "Cartoon of a two-humped camel walking across dunes.",
+        description:
+          "The Bactrian camel, with two humps and a thick coat, is one of the species best adapted to the Gobi Desert's extreme climate, able to withstand temperatures ranging from over forty degrees Celsius in summer to below minus thirty in winter, and to go weeks without drinking water thanks to fat reserves stored in its humps. Mongolia is home both to domesticated camels, raised by nomadic families for transport, milk, and wool, and to the last wild Bactrian camels left in the world, a genetically distinct subspecies critically endangered that survives in remote reaches of the Gobi. Every year, the city of Bulgan hosts a Camel Festival where herders race and show off their animals.",
+      },
+    },
+  },
 ];

@@ -231,4 +231,50 @@ export const qatar: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "ardha-danza-espadas",
+    order: 11,
+    placeholderEmoji: "⚔️",
+    accentColor: "#6D4C41",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La danza guerrera con espadas de cada fiesta nacional",
+        subtitle: "La ardha, danza tradicional con espadas",
+        imageAlt: "Caricatura de dos filas de hombres balanceando espadas curvas sobre la cabeza al ritmo de un tambor.",
+        description:
+          "La ardha, una danza guerrera tradicional del golfo Pérsico bailada por dos filas de hombres armados con espadas curvas que se balancean al ritmo de tambores y poesía recitada, se originó como preparación ritual antes de la batalla entre tribus beduinas y sobrevivió como expresión cultural mucho después de perder su función militar original. En Qatar, la danza ocupa un lugar central en celebraciones oficiales como el Día Nacional y las bodas, con los bailarines avanzando y retrocediendo en líneas sincronizadas mientras entrechocan espadas por encima de la cabeza y un poeta principal, llamado 'al-shaer', dirige el ritmo entonando versos que suelen alabar el coraje, la generosidad o la historia tribal. El propio jeque gobernante y altos funcionarios participan públicamente en la ardha durante festejos nacionales, reforzando su estatus como símbolo de identidad qatarí compartido con otros países del golfo.",
+      },
+      en: {
+        title: "The Sword War Dance Performed at Every Celebration",
+        subtitle: "Ardha, the Traditional Sword Dance",
+        imageAlt: "Cartoon of two rows of men swinging curved swords overhead to the beat of a drum.",
+        description:
+          "Ardha, a traditional Gulf war dance performed by two rows of men armed with curved swords swaying to the rhythm of drums and recited poetry, originated as ritual preparation before battle among Bedouin tribes and survived as a cultural expression long after losing its original military purpose. In Qatar, the dance holds a central place in official celebrations like National Day and weddings, with dancers advancing and retreating in synchronized lines while clashing swords overhead as a lead poet, called the 'al-shaer,' sets the rhythm chanting verses that typically praise courage, generosity, or tribal history. The ruling emir and senior officials publicly join the ardha during national festivities, reinforcing its status as a symbol of Qatari identity shared with other Gulf countries.",
+      },
+    },
+  },
+  {
+    id: "karak-te-callejero",
+    order: 12,
+    placeholderEmoji: "🫖",
+    accentColor: "#A0522D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El té con leche que se vende en cada esquina de Doha",
+        subtitle: "El karak, té callejero de Qatar",
+        imageAlt: "Caricatura de una pequeña tetera de metal sirviendo té con leche en un vaso junto a un puesto callejero.",
+        description:
+          "El karak, un té negro fuerte hervido junto con leche condensada, cardamomo y a veces azafrán o jengibre, se convirtió en la bebida callejera más popular de Qatar, vendida en pequeños quioscos conocidos como 'karak stalls' repartidos por toda Doha, donde trabajadores migrantes y qataríes por igual se detienen a cualquier hora del día a tomar un vaso pequeño y barato mientras conversan. Introducido originalmente por trabajadores del subcontinente indio, el karak se volvió con el tiempo una bebida transversal a todas las clases sociales del país, tan popular que compite en presencia callejera con el gahwa tradicional servido en ocasiones más formales, y varios quioscos históricos, donde se hierve en teteras metálicas y se cuela a mano entre dos recipientes para generar espuma, se convirtieron en puntos de encuentro social reconocidos más allá de su función original de simple parada rápida.",
+      },
+      en: {
+        title: "The Milk Tea Sold on Every Corner of Doha",
+        subtitle: "Karak, Qatar's Street Tea",
+        imageAlt: "Cartoon of a small metal teapot pouring milk tea into a glass beside a street stall.",
+        description:
+          "Karak, a strong black tea boiled together with condensed milk, cardamom, and sometimes saffron or ginger, became Qatar's most popular street drink, sold at small kiosks known as 'karak stalls' scattered across Doha, where migrant workers and Qataris alike stop at any hour of the day for a cheap, small glass while chatting. Originally introduced by workers from the Indian subcontinent, karak became over time a drink crossing every social class in the country, popular enough to rival the more formal gahwa in everyday street presence, and several long-running kiosks, where the tea is boiled in metal pots and poured back and forth between containers by hand to build foam, became recognized social gathering spots well beyond their original role as a quick stop.",
+      },
+    },
+  },
 ];

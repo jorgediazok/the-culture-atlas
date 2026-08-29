@@ -173,6 +173,62 @@ const ElMachbusPlatoNacionalDeBahrein: IllustrationComponent = ({ accentColor })
   );
 };
 
+const LasIslasHawar: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#4FA8E8";
+  const legColor = "#D96B6B";
+  const flamingos: [number, number, number][] = [
+    [150, 210, 1],
+    [210, 218, 0.7],
+  ];
+  return (
+    <g>
+      <rect x="90" y="200" width="230" height="45" fill={water} opacity="0.4" />
+      <ellipse cx="270" cy="225" rx="45" ry="10" fill="#D9C9A3" opacity="0.7" />
+      {flamingos.map(([x, y, scale], i) => (
+        <g key={i} transform={`translate(${x} ${y}) scale(${scale})`}>
+          <ellipse cx="0" cy="0" rx="22" ry="16" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+          <path d="M8 -8 Q26 -28 18 -50 Q10 -62 20 -70" fill="none" stroke={accentColor} strokeWidth="8" strokeLinecap="round" />
+          <circle cx="20" cy="-70" r="7" fill={accentColor} stroke={dark} strokeWidth="2" />
+          <path d="M26 -70 L38 -66 L26 -64 Z" fill="#1A1A1A" />
+          <line x1="-6" y1="14" x2="-10" y2="45" stroke={legColor} strokeWidth="3" />
+          <line x1="8" y1="15" x2="12" y2="45" stroke={legColor} strokeWidth="3" />
+          <path d="M-16 -6 Q-30 -10 -34 -20" fill="none" stroke={dark} strokeWidth="4" strokeLinecap="round" opacity="0.7" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const CalzadaReyFahd: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#1D6FA5";
+  const road = "#5C5C5C";
+  const piers = [110, 150, 190, 230, 270, 300];
+  const cars: [number, number, string][] = [
+    [130, 213, accentColor],
+    [270, 214, tint(accentColor, 0.3)],
+  ];
+  return (
+    <g>
+      <rect x="90" y="150" width="230" height="100" fill={water} opacity="0.4" />
+      <path d="M95 210 Q205 195 315 210 L315 222 Q205 207 95 222 Z" fill={road} stroke={dark} strokeWidth="2.5" />
+      {piers.map((x) => (
+        <rect key={x} x={x - 4} y="216" width="8" height="30" fill={dark} opacity="0.5" />
+      ))}
+      <ellipse cx="205" cy="205" rx="20" ry="8" fill="#D9C9A3" />
+      <rect x="195" y="192" width="20" height="14" fill={accentColor} stroke={dark} strokeWidth="2" />
+      {cars.map(([x, y, fill], i) => (
+        <g key={i}>
+          <rect x={x - 12} y={y - 6} width="24" height="8" rx="2" fill={fill} stroke={dark} strokeWidth="1.5" />
+          <circle cx={x - 7} cy={y + 3} r="3" fill={dark} />
+          <circle cx={x + 7} cy={y + 3} r="3" fill={dark} />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const bahrainIllustrations: Record<string, IllustrationDefinition> = {
   "el-camino-de-las-perlas-de-muharraq": { component: ElCaminoDeLasPerlasDeMuharraq },
   "qalat-al-bahrein-y-la-civilizacion-dilmun": { component: QalatAlBahreinYLaCivilizacionDilmun },
@@ -184,4 +240,6 @@ export const bahrainIllustrations: Record<string, IllustrationDefinition> = {
   "el-tejido-tradicional-de-bani-jamra": { component: ElTejidoTradicionalDeBaniJamra },
   "la-alfareria-de-aali": { component: LaAlfareriaDeAali },
   "el-machbus-plato-nacional-de-bahrein": { component: ElMachbusPlatoNacionalDeBahrein },
+  "las-islas-hawar": { component: LasIslasHawar },
+  "calzada-rey-fahd": { component: CalzadaReyFahd },
 };

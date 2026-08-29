@@ -167,6 +167,48 @@ const LaGranMezquitaDeKuwait: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const ElDinarKuwaiti: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#C9A227";
+  const coins: [number, number][] = [
+    [300, 225],
+    [285, 238],
+    [310, 240],
+  ];
+  return (
+    <g>
+      {[0, 1, 2, 3].map((i) => (
+        <rect key={i} x={140 - i * 3} y={200 - i * 8} width="140" height="60" rx="4" fill={i % 2 === 0 ? tint(accentColor, 0.15) : accentColor} stroke={dark} strokeWidth="2" opacity={0.5 + i * 0.15} />
+      ))}
+      <rect x="140" y="200" width="140" height="60" rx="4" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="210" cy="230" r="18" fill="none" stroke={dark} strokeWidth="2" opacity="0.6" />
+      <text x="210" y="237" fontSize="16" fontWeight="700" fill={dark} textAnchor="middle">
+        20
+      </text>
+      {coins.map(([x, y], i) => (
+        <circle key={i} cx={x} cy={y} r="12" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
+const IncendiosPetrolerosGuerraGolfo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const smoke = "#2A2A2A";
+  const flame = "#F4A300";
+  return (
+    <g>
+      <path d="M195 90 Q175 70 190 45 Q210 60 205 85 Q225 65 215 40 Q235 55 225 80 Q210 95 195 90 Z" fill={smoke} opacity="0.7" />
+      <path d="M185 235 L200 130 L210 130 L225 235 Z" fill={dark} stroke={shade(dark, 0.2)} strokeWidth="2" />
+      <line x1="188" y1="200" x2="222" y2="200" stroke={shade(dark, 0.2)} strokeWidth="2" />
+      <line x1="191" y1="170" x2="219" y2="170" stroke={shade(dark, 0.2)} strokeWidth="2" />
+      <path d="M205 135 Q195 110 205 90 Q210 105 215 95 Q222 115 205 135 Z" fill={flame} />
+      <path d="M120 235 Q150 200 195 180" fill="none" stroke="#4FA8E8" strokeWidth="5" strokeLinecap="round" opacity="0.85" />
+      <rect x="100" y="225" width="24" height="14" rx="3" fill={accentColor} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
 export const kuwaitIllustrations: Record<string, IllustrationDefinition> = {
   "las-torres-de-kuwait": { component: LasTorresDeKuwait },
   "el-zoco-al-mubarakiya": { component: ElZocoAlMubarakiya },
@@ -178,4 +220,6 @@ export const kuwaitIllustrations: Record<string, IllustrationDefinition> = {
   "el-tejido-sadu-de-los-beduinos": { component: ElTejidoSaduDeLosBeduinos },
   "la-coleccion-al-sabah-de-arte-islamico": { component: LaColeccionAlSabahDeArteIslamico },
   "la-gran-mezquita-de-kuwait": { component: LaGranMezquitaDeKuwait },
+  "el-dinar-kuwaiti": { component: ElDinarKuwaiti },
+  "incendios-petroleros-guerra-golfo": { component: IncendiosPetrolerosGuerraGolfo },
 };

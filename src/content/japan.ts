@@ -231,4 +231,234 @@ export const japan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "monte-fuji-la-montana-sagrada",
+    order: 11,
+    placeholderEmoji: "🗻",
+    accentColor: "#3F5C76",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La montaña sagrada que hay que escalar de noche",
+        subtitle: "El monte Fuji, montaña sagrada",
+        imageAlt: "Caricatura de una montaña nevada de cima simétrica bajo un cielo despejado.",
+        description:
+          "El monte Fuji, con 3.776 metros la montaña más alta de Japón, es un volcán activo —su última erupción documentada fue en 1707— considerado sagrado tanto en el sintoísmo como en el budismo, y objeto de peregrinaciones religiosas desde hace siglos, tradicionalmente realizadas por peregrinos vestidos de blanco. La temporada oficial de ascenso dura apenas unos dos meses, entre julio y septiembre, cuando se habilitan los senderos y refugios de montaña, y durante ese período cientos de miles de personas suben cada año, muchas de ellas de noche, para alcanzar la cima justo a tiempo de ver el amanecer, el llamado goraiko. La serie de grabados 'Treinta y seis vistas del monte Fuji' del artista Hokusai, que incluye la célebre 'Gran ola', convirtió a la montaña en un ícono reconocido en todo el mundo. La UNESCO lo declaró Patrimonio de la Humanidad en 2013, no como sitio natural sino cultural, por su papel como lugar sagrado e inspiración artística.",
+      },
+      en: {
+        title: "The Sacred Mountain You Climb in the Dead of Night",
+        subtitle: "Mount Fuji, the Sacred Mountain",
+        imageAlt: "Cartoon of a snow-capped mountain with a symmetrical peak under a clear sky.",
+        description:
+          "Mount Fuji, at 3,776 meters Japan's tallest peak, is an active volcano — its last documented eruption was in 1707 — considered sacred in both Shinto and Buddhist tradition, and the object of religious pilgrimages for centuries, traditionally made by pilgrims dressed in white. The official climbing season lasts only about two months, from July to September, when the trails and mountain huts open, and during that window hundreds of thousands of people climb each year, many of them overnight, to reach the summit just in time to watch the sunrise, known as goraiko. Hokusai's print series 'Thirty-Six Views of Mount Fuji,' which includes the famous 'Great Wave,' turned the mountain into an icon recognized worldwide. UNESCO declared it a World Heritage Site in 2013, not as a natural site but a cultural one, for its role as a sacred place and source of artistic inspiration.",
+      },
+    },
+  },
+  {
+    id: "samurai-y-el-codigo-bushido",
+    order: 12,
+    placeholderEmoji: "⚔️",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El código de honor de los guerreros de Japón",
+        subtitle: "Los samuráis y el código bushido",
+        imageAlt: "Caricatura de una armadura samurái con casco cornudo y una espada envainada.",
+        description:
+          "Los samuráis surgieron como clase guerrera hacia los siglos IX y XII y terminaron gobernando Japón durante casi 700 años, hasta que la Restauración Meiji de 1868 abolió formalmente la clase junto con buena parte del viejo orden feudal. Su código de conducta, el bushido o 'camino del guerrero', nunca fue un texto único sino un conjunto de valores transmitidos y reelaborados a lo largo de los siglos, que enfatizaba la lealtad absoluta al señor feudal, el honor personal, el dominio de las artes marciales y una disciplina extrema, incluyendo la disposición a morir de forma honorable mediante el seppuku antes que vivir deshonrado. El texto Hagakure, del siglo XVIII, y sobre todo el libro de Nitobe Inazō publicado en 1900, terminaron de sistematizar y difundir la idea del bushido, incluso hacia audiencias occidentales. Aunque la clase samurái desapareció hace siglo y medio, sus valores siguen influyendo en la cultura empresarial, las artes marciales y la identidad nacional japonesa.",
+      },
+      en: {
+        title: "The Warrior Honor Code That Shaped Japan",
+        subtitle: "Samurai and the Bushido Code",
+        imageAlt: "Cartoon of a samurai armor with a horned helmet and a sheathed sword.",
+        description:
+          "Samurai emerged as a warrior class around the 9th to 12th centuries and ended up ruling Japan for nearly 700 years, until the 1868 Meiji Restoration formally abolished the class along with much of the old feudal order. Their code of conduct, bushido, or 'the way of the warrior,' was never a single fixed text but a set of values transmitted and reworked over centuries, emphasizing absolute loyalty to one's feudal lord, personal honor, mastery of the martial arts, and extreme discipline, including a willingness to die honorably through seppuku, a ritual suicide, rather than live dishonored. The 18th-century text Hagakure, and especially Nitobe Inazo's 1900 book, ended up systematizing and spreading the idea of bushido, even to Western audiences. Though the samurai class formally disappeared a century and a half ago, its values still shape Japanese business culture, martial arts, and national identity today.",
+      },
+    },
+  },
+  {
+    id: "el-karaoke-invento-japones",
+    order: 13,
+    placeholderEmoji: "🎤",
+    accentColor: "#7B1FA2",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El invento que convirtió a cualquiera en cantante",
+        subtitle: "El karaoke, un invento japonés",
+        imageAlt: "Caricatura de un micrófono junto a una pantalla con letras de canción.",
+        description:
+          "La palabra karaoke combina 'kara' (vacío) y 'okesutora' (orquesta): literalmente, 'orquesta vacía'. El invento, surgido en Japón a comienzos de los años 70, suele atribuirse al músico Daisuke Inoue, quien construyó una máquina que permitía a los clientes de un bar cantar sobre pistas instrumentales grabadas, pero que, famosamente, nunca patentó su invención, perdiendo así una fortuna potencial enorme. Una innovación particularmente japonesa fue la 'karaoke box', salas privadas que se alquilan por hora, permitiendo cantar sin la vergüenza de hacerlo frente a extraños en un bar, un formato que se volvió costumbre habitual para salidas de oficina y reuniones familiares. El karaoke se expandió como fenómeno global y la palabra pasó, sin traducirse, a decenas de idiomas. En 2004, Daisuke Inoue recibió el premio Ig Nobel de la Paz, un reconocimiento humorístico, 'por brindar a la humanidad una forma completamente nueva de aprender a tolerarse mutuamente'.",
+      },
+      en: {
+        title: "The Invention That Turned Anyone Into a Singer",
+        subtitle: "Karaoke, a Japanese Invention",
+        imageAlt: "Cartoon of a microphone beside a screen displaying song lyrics.",
+        description:
+          "The word karaoke combines 'kara' (empty) and 'okesutora' (orchestra): literally, 'empty orchestra.' The invention, which emerged in Japan in the early 1970s, is often credited to musician Daisuke Inoue, who built a machine that let bar patrons sing over recorded instrumental tracks, but famously never patented his invention, missing out on a potentially enormous fortune. A particularly Japanese innovation was the karaoke box, private rooms rented by the hour, letting people sing without the embarrassment of doing so in front of strangers at a bar, a format that became a routine choice for office outings and family gatherings. Karaoke spread into a global phenomenon, and the word passed unchanged into dozens of languages. In 2004, Daisuke Inoue received the satirical Ig Nobel Peace Prize 'for providing an entirely new way for people to learn to tolerate each other.'",
+      },
+    },
+  },
+  {
+    id: "sushi-y-washoku-patrimonio-culinario",
+    order: 14,
+    placeholderEmoji: "🍣",
+    accentColor: "#00695C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El plato de arroz avinagrado que conquistó el planeta",
+        subtitle: "El sushi y el washoku",
+        imageAlt: "Caricatura de piezas de sushi de colores sobre una tabla de madera.",
+        description:
+          "El sushi se originó como método de conservación de pescado, el narezushi, fermentado durante meses envuelto en arroz que luego se descartaba y solo se comía el pescado. La versión moderna, el edomae-zushi, surgió recién durante el período Edo en Tokio, cuando el pescado fresco combinado con arroz avinagrado se volvió comida rápida para trabajadores urbanos apurados, antecesor directo del nigiri actual. Más allá del sushi, la UNESCO reconoció en 2013 al washoku, la cocina tradicional japonesa en su conjunto, como Patrimonio Cultural Inmaterial, destacando su énfasis en ingredientes de estación, la presentación estética de los platos y su conexión con celebraciones como el Año Nuevo. El sushi terminó siendo la exportación culinaria japonesa más exitosa del mundo, generando un mercado global de miles de millones de dólares, aunque buena parte del sushi que se consume fuera de Japón, como el roll California, se inventó fuera del país.",
+      },
+      en: {
+        title: "The Vinegared Rice Dish That Conquered the World",
+        subtitle: "Sushi and Washoku",
+        imageAlt: "Cartoon of colorful sushi pieces arranged on a wooden board.",
+        description:
+          "Sushi originated as a fish preservation method, narezushi, fermented for months wrapped in rice that was later discarded, eating only the fish. The modern version, edomae-zushi, emerged only during the Edo period in Tokyo, when fresh fish combined with vinegared rice became fast food for busy urban workers, the direct ancestor of today's nigiri. Beyond sushi specifically, UNESCO recognized washoku, traditional Japanese cuisine as a whole, as Intangible Cultural Heritage in 2013, highlighting its emphasis on seasonal ingredients, the aesthetic presentation of dishes, nutritional balance, and its connection to celebrations like New Year. Sushi went on to become Japan's most successful culinary export worldwide, generating a global market worth billions of dollars, though much of the sushi eaten outside Japan, like the California roll, was actually invented abroad and differs quite a bit from traditional forms.",
+      },
+    },
+  },
+  {
+    id: "fushimi-inari-los-mil-torii",
+    order: 15,
+    placeholderEmoji: "⛩️",
+    accentColor: "#E25822",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El túnel de miles de puertas rojas hacia la montaña",
+        subtitle: "Fushimi Inari y los mil torii",
+        imageAlt: "Caricatura de un túnel formado por muchas puertas rojas (torii) en fila.",
+        description:
+          "El santuario Fushimi Inari Taisha, en Kioto, es el principal templo dedicado a Inari, la deidad sintoísta del arroz, la fertilidad y la prosperidad comercial, cuyos mensajeros son tradicionalmente representados como zorros, con estatuas de estos animales repartidas por todo el recinto sosteniendo llaves o joyas en la boca. Su rasgo más célebre son los más de diez mil torii, las puertas bermellón características de los santuarios sintoístas, colocadas una detrás de otra formando túneles continuos a lo largo de los senderos que ascienden por la montaña sagrada de Inari. Cada torii fue donado por una persona o una empresa como ofrenda a cambio de prosperidad, una práctica que continúa vigente hoy, con el nombre del donante inscrito en tinta negra sobre la parte trasera de cada puerta; debido al desgaste, las puertas se reemplazan periódicamente. Recorrer el circuito completo hasta la cima y volver toma entre dos y tres horas, y el santuario en sí existe desde antes del año 711.",
+      },
+      en: {
+        title: "The Tunnel of Thousands of Red Gates Up a Mountain",
+        subtitle: "Fushimi Inari and the Thousand Torii",
+        imageAlt: "Cartoon of a tunnel formed by many red gates (torii) lined up in a row.",
+        description:
+          "Fushimi Inari Taisha, in Kyoto, is the head shrine dedicated to Inari, the Shinto deity of rice, fertility, and business prosperity, whose messengers are traditionally depicted as foxes, with statues of the animals scattered throughout the grounds holding keys or jewels in their mouths. Its most famous feature is more than ten thousand vermilion torii, the gates characteristic of Shinto shrines, placed one after another to form continuous tunnels along the trails climbing the sacred Mount Inari. Each torii was donated by a person or a business as an offering in exchange for prosperity, a practice that continues today, with the donor's name inscribed in black ink on the back of each gate; because of weathering, gates are replaced periodically in an ongoing cycle of renewal. Walking the full loop to the mountain's summit and back takes two to three hours, and the shrine itself has existed since before the year 711.",
+      },
+    },
+  },
+  {
+    id: "judo-el-arte-marcial-olimpico",
+    order: 16,
+    placeholderEmoji: "🥋",
+    accentColor: "#1B5E20",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte marcial pensado para ganar sin hacer daño",
+        subtitle: "El judo, arte marcial olímpico",
+        imageAlt: "Caricatura de dos luchadores con kimono realizando una proyección de judo.",
+        description:
+          "El judo fue fundado en 1882 por Jigorō Kanō, quien lo derivó de estilos más antiguos de jujutsu pero eliminó deliberadamente las técnicas más peligrosas, guiado por dos principios que resumía como 'máxima eficacia con mínimo esfuerzo' y 'beneficio mutuo'. Su nombre significa 'el camino suave', y a diferencia de artes marciales centradas en golpear, el judo se basa en proyecciones, inmovilizaciones, llaves articulares y estrangulamientos, usando el movimiento y el desequilibrio del rival en lugar de la fuerza bruta. Kanō, además de crear el arte marcial, impulsó reformas profundas en la educación física japonesa y se convirtió en el primer miembro asiático del Comité Olímpico Internacional. El judo se convirtió en el primer arte marcial asiática en formar parte de los Juegos Olímpicos, debutando en Tokio 1964, y hoy lo practican decenas de millones de personas en todo el mundo, siendo uno de los deportes de combate más extendidos del planeta.",
+      },
+      en: {
+        title: "The Martial Art Built to Win Without Causing Harm",
+        subtitle: "Judo, an Olympic Martial Art",
+        imageAlt: "Cartoon of two wrestlers in judo uniforms performing a throw.",
+        description:
+          "Judo was founded in 1882 by Jigoro Kano, who derived it from older jujutsu styles but deliberately removed the most dangerous techniques, guided by two principles he summarized as 'maximum efficiency with minimum effort' and 'mutual welfare and benefit.' Its name means 'the gentle way,' and unlike martial arts centered on striking, judo relies on throws, pins, joint locks, and chokes, using an opponent's movement and imbalance rather than brute force. Beyond creating the martial art, Kano drove deep reforms in Japanese physical education and became the first Asian member of the International Olympic Committee. Judo became the first Asian martial art included in the Olympic Games, debuting at Tokyo 1964, and today it's practiced by tens of millions of people worldwide, making it one of the most widely practiced combat sports on the planet.",
+      },
+    },
+  },
+  {
+    id: "bonsai-el-arte-de-los-arboles-miniatura",
+    order: 17,
+    placeholderEmoji: "🌳",
+    accentColor: "#558B2F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Árboles centenarios que caben en la palma de una mano",
+        subtitle: "El bonsái, el arte de los árboles miniatura",
+        imageAlt: "Caricatura de un pequeño árbol en maceta con ramas cuidadosamente podadas.",
+        description:
+          "El bonsái, cuyo nombre combina 'bon' (bandeja) y 'sai' (plantación), es el arte de cultivar árboles en miniatura dentro de macetas, con técnicas originadas en China hace más de mil años bajo el nombre de penjing, que Japón adoptó y refinó hasta desarrollar una estética propia. Un bonsái no pertenece a una especie genéticamente enana, sino que es un árbol común mantenido pequeño mediante la poda regular de sus raíces, el modelado cuidadoso de sus ramas con alambre y condiciones de crecimiento controladas. Algunos ejemplares documentados tienen varios siglos de edad y se transmiten como herencia familiar de generación en generación; unos pocos árboles célebres tienen más de 800 años. Cultivar un bonsái exige un cuidado paciente y minucioso a largo plazo, por lo que se lo considera un arte vivo y en constante cambio más que una escultura terminada, regido por principios de asimetría, proporción y una apariencia deliberada de vejez, codificados a lo largo de siglos.",
+      },
+      en: {
+        title: "Centuries-Old Trees That Fit in the Palm of a Hand",
+        subtitle: "Bonsai, the Art of Miniature Trees",
+        imageAlt: "Cartoon of a small potted tree with carefully pruned branches.",
+        description:
+          "Bonsai, whose name combines 'bon' (tray) and 'sai' (planting), is the art of growing miniature trees in containers, with techniques originating in China more than a thousand years ago under the name penjing, which Japan adopted and refined into its own distinctive aesthetic. A bonsai isn't a genetically dwarf species but an ordinary tree kept small through regular root pruning, careful wire-shaping of the branches, and tightly controlled growing conditions. Some documented specimens are centuries old and passed down as family heirlooms across generations; a few famous trees are reportedly more than 800 years old. Growing a bonsai demands patient, meticulous long-term care, with precise schedules for repotting and seasonal pruning, which is why it's considered a living, ever-changing art rather than a finished sculpture, governed by aesthetic principles of asymmetry, proportion, and a deliberate appearance of age, codified over centuries.",
+      },
+    },
+  },
+  {
+    id: "ukiyo-e-la-gran-ola-de-hokusai",
+    order: 18,
+    placeholderEmoji: "🌊",
+    accentColor: "#2C3E70",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ola gigante que se volvió la imagen más copiada",
+        subtitle: "El ukiyo-e y la Gran Ola de Hokusai",
+        imageAlt: "Caricatura de una enorme ola azul curvándose sobre pequeños botes.",
+        description:
+          "El ukiyo-e, literalmente 'imágenes del mundo flotante', es un género de grabados y pinturas en madera que floreció durante el período Edo, entre los siglos XVII y XIX, retratando los placeres cotidianos de la época: actores de kabuki, cortesanas, paisajes y escenas de viaje, producido en masa como arte accesible para la gente común, muy distinto de las tradiciones pictóricas reservadas a las élites. 'La gran ola de Kanagawa', del artista Katsushika Hokusai, parte de su serie 'Treinta y seis vistas del monte Fuji' de alrededor de 1831, se convirtió probablemente en la imagen más reproducida de la historia del arte, notable también por el uso técnico del azul de Prusia, un pigmento recién importado a Japón. El proceso de impresión dividía el trabajo entre artista, tallador e impresor. Cuando estos grabados llegaron a Europa a fines del siglo XIX, influyeron sobre pintores impresionistas y postimpresionistas como Van Gogh y Monet, en un movimiento que terminó llamándose japonismo.",
+      },
+      en: {
+        title: "The Giant Wave That Became the Most Copied Image",
+        subtitle: "Ukiyo-e and Hokusai's Great Wave",
+        imageAlt: "Cartoon of a huge blue wave curling over small boats.",
+        description:
+          "Ukiyo-e, literally 'pictures of the floating world,' is a genre of woodblock prints and paintings that flourished during the Edo period, between the 17th and 19th centuries, depicting the everyday pleasures of the time: kabuki actors, courtesans, landscapes, and travel scenes, mass-produced as accessible art for ordinary people, quite unlike painting traditions reserved for the elite. 'The Great Wave off Kanagawa,' by artist Katsushika Hokusai, part of his 'Thirty-Six Views of Mount Fuji' series from around 1831, became arguably the most reproduced image in art history, also notable for its technical use of Prussian blue, a pigment newly imported to Japan. The woodblock printing process split the work between the artist, the carver, and the printer. When these prints reached Europe in the late 19th century, they directly influenced Impressionist and Post-Impressionist painters like Van Gogh and Monet, in a movement that came to be called Japonisme.",
+      },
+    },
+  },
+  {
+    id: "la-katana-el-arma-y-el-arte",
+    order: 19,
+    placeholderEmoji: "🗡️",
+    accentColor: "#5D4037",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La espada forjada plegando el acero mil veces",
+        subtitle: "La katana, el arma y el arte",
+        imageAlt: "Caricatura de una espada curva envainada junto a un yunque de forja.",
+        description:
+          "La katana, la espada curva de un solo filo asociada a los samuráis, se consideraba literalmente 'el alma del guerrero' según el código bushido. Su forja tradicional parte del tamahagane, un acero obtenido al fundir arena de hierro en un horno de arcilla llamado tatara, que luego se pliega y martilla cientos de veces para eliminar impurezas y crear miles de capas microscópicas, un proceso que además produce el característico hamon, la línea ondulada visible a lo largo del filo, resultado de un enfriamiento diferencial controlado. Forjar una sola espada puede llevar semanas o meses de un proceso casi ritual, y los maestros herreros, algunos designados Tesoros Nacionales Vivientes, se forman durante décadas. Tras la Segunda Guerra Mundial, la confiscación masiva de espadas estuvo a punto de acabar con el oficio; hoy la forja de katanas auténticas está estrictamente regulada, con herreros con licencia y cupos de producción anual limitados.",
+      },
+      en: {
+        title: "The Sword Forged by Folding Steel a Thousand Times",
+        subtitle: "The Katana, a Weapon and an Art",
+        imageAlt: "Cartoon of a sheathed curved sword beside a forging anvil.",
+        description:
+          "The katana, the curved, single-edged sword associated with the samurai, was literally considered 'the soul of the warrior' under the bushido code. Its traditional forging starts with tamahagane, a steel obtained by smelting iron sand in a clay furnace called a tatara, which is then folded and hammered repeatedly, hundreds of times, to remove impurities and create thousands of microscopic layers, a process that also produces the distinctive hamon, the wavy line visible along the blade's edge, resulting from controlled differential cooling. Forging a single sword can take weeks or months in an almost ritual process, and master smiths, some designated Living National Treasures, train for decades. After World War II, the mass confiscation of swords nearly ended the craft; today the forging of authentic katanas is tightly regulated in Japan, with licensed smiths and limited annual production quotas, specifically to preserve this traditional craftsmanship.",
+      },
+    },
+  },
+  {
+    id: "ikebana-el-arte-floral-japones",
+    order: 20,
+    placeholderEmoji: "🌺",
+    accentColor: "#6A4C93",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte de arreglar flores dejando espacio vacío",
+        subtitle: "El ikebana, arte floral japonés",
+        imageAlt: "Caricatura de un arreglo floral minimalista en un jarrón bajo.",
+        description:
+          "El ikebana, cuyo nombre significa aproximadamente 'flores vivas', es el arte japonés del arreglo floral, desarrollado a partir de la práctica budista de ofrecer flores en los altares desde alrededor del siglo VI, y organizado con el tiempo en distintas escuelas con filosofías propias, entre ellas Ikenobo, considerada la más antigua, fundada por monjes budistas. A diferencia de las tradiciones florales occidentales, que suelen priorizar la abundancia y la simetría, el ikebana valora el minimalismo, la asimetría y el uso deliberado del espacio vacío, el 'ma', como elemento tan importante como las propias flores o ramas, muchas veces organizado alrededor de tres elementos que tradicionalmente representan el cielo, la tierra y la humanidad. Se lo considera una disciplina meditativa que exige años de estudio formal en escuelas con certificación por niveles, y su práctica contemporánea abarca desde arreglos clásicos hasta formas escultóricas de vanguardia con materiales poco convencionales.",
+      },
+      en: {
+        title: "Flower Arranging That Leaves Deliberate Empty Space",
+        subtitle: "Ikebana, Japanese Floral Art",
+        imageAlt: "Cartoon of a minimalist flower arrangement in a low vase.",
+        description:
+          "Ikebana, whose name roughly means 'living flowers,' is the Japanese art of flower arrangement, developed from the Buddhist practice of offering flowers at altars starting around the 6th century, and organized over time into distinct schools with their own philosophies, including Ikenobo, considered the oldest, founded by Buddhist monks. Unlike Western floral traditions, which often prioritize abundance and symmetry, ikebana values minimalism, asymmetry, and the deliberate use of empty space, or 'ma,' as a compositional element just as important as the flowers or branches themselves, often built around three structural elements traditionally representing heaven, earth, and humanity. It's considered a meditative discipline requiring years of formal study through schools with graded certification systems, and its contemporary practice ranges from strictly classical arrangements to avant-garde sculptural forms using unconventional materials.",
+      },
+    },
+  },
 ];

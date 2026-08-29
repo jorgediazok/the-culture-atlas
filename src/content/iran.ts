@@ -231,4 +231,234 @@ export const iran: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "zurkhaneh",
+    order: 11,
+    placeholderEmoji: "💪",
+    accentColor: "#8B4513",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El gimnasio ritual donde el deporte es casi religión",
+        subtitle: "El zurkhaneh, gimnasio ritual persa",
+        imageAlt: "Caricatura de un atleta haciendo ejercicios con mazas de madera en un pozo circular.",
+        description:
+          "El zurkhaneh, que significa literalmente 'casa de la fuerza', es un sistema tradicional de ejercicio físico iraní que combina entrenamiento atlético, música, recitación de poesía y elementos espirituales con raíces tanto en la tradición guerrera persa preislámica como en el misticismo sufí posterior. Los atletas, llamados pahlavans, se ejercitan dentro de un pozo circular hundido usando implementos de madera tradicionales —mazas pesadas, escudos, arcos— en movimientos sincronizados guiados por un 'morshed', que se sienta en una posición elevada recitando poesía épica, a menudo del Shahnameh de Ferdowsi, y tocando un tambor. La práctica enfatiza la humildad y la caballerosidad, conocida como 'javanmardi', por sobre la competencia o el ego, con la tradición de que el atleta más fuerte debe ser también el más humilde. La UNESCO reconoció al zurkhaneh como Patrimonio Cultural Inmaterial en 2010.",
+      },
+      en: {
+        title: "The Ritual Gym Where Sport Is Almost a Religion",
+        subtitle: "Zurkhaneh, a Ritual Persian Gym",
+        imageAlt: "Cartoon of an athlete exercising with wooden clubs in a circular pit.",
+        description:
+          "Zurkhaneh, which literally means 'house of strength,' is a traditional Iranian system of physical exercise combining athletic training, music, poetry recitation, and spiritual elements rooted both in pre-Islamic Persian warrior tradition and later Sufi mysticism. Athletes, called pahlavans, exercise inside a sunken circular pit using traditional wooden implements — heavy clubs, shields, bows — in synchronized, ritualized movements led by a 'morshed,' who sits at an elevated position reciting epic poetry, often from Ferdowsi's Shahnameh, and playing a drum to set the rhythm. The practice emphasizes humility and chivalry, known as 'javanmardi,' over athletic competition or ego, with tradition holding that the strongest athlete should also be the humblest. UNESCO recognized zurkhaneh as Intangible Cultural Heritage in 2010.",
+      },
+    },
+  },
+  {
+    id: "los-qanats-ingenieria-subterranea",
+    order: 12,
+    placeholderEmoji: "💧",
+    accentColor: "#5C6B73",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los canales que riegan el desierto hace 3.000 años",
+        subtitle: "Los qanats, ingeniería hidráulica subterránea",
+        imageAlt: "Caricatura de un pozo vertical conectado a un túnel subterráneo de agua.",
+        description:
+          "El qanat es un antiguo sistema de canales de agua subterráneos desarrollado en Irán hace unos 3.000 años, diseñado para transportar agua subterránea desde un acuífero en una elevación mayor, a menudo cerca de montañas, hasta asentamientos y tierras de cultivo en zonas áridas más bajas, a través de un túnel subterráneo de suave pendiente que funciona únicamente por gravedad, sin bombas. El sistema se construye mediante pozos verticales de acceso y ventilación excavados a intervalos a lo largo del túnel, visibles desde la superficie como una hilera de pequeños montículos cruzando el desierto. La tecnología permitió la agricultura sostenible en regiones áridas de la meseta iraní, y se extendió desde Persia hacia Medio Oriente, el norte de África, Asia Central e incluso partes de España y América Latina. La UNESCO reconoció once sistemas de qanats representativos de Irán como Patrimonio de la Humanidad en 2016.",
+      },
+      en: {
+        title: "The Channels Watering the Desert for 3,000 Years",
+        subtitle: "Qanats, Underground Hydraulic Engineering",
+        imageAlt: "Cartoon of a vertical well shaft connected to an underground water tunnel.",
+        description:
+          "The qanat is an ancient underground water channel system developed in Iran around 3,000 years ago, engineered to carry groundwater from an aquifer at higher elevation, often near mountains, down to arid lowland settlements and farmland through a gently sloping underground tunnel powered entirely by gravity, with no pumps. The system is built through a series of vertical access and ventilation shafts dug at intervals along the tunnel's path, visible from the surface as a distinctive line of small mounds crossing the desert landscape. The technology allowed sustainable agriculture and permanent settlement in extremely arid regions of the Iranian plateau, and spread from Persia to other arid regions across the Middle East, North Africa, Central Asia, and even parts of Spain and Latin America through cultural transmission. UNESCO recognized eleven representative qanat systems across Iran as a World Heritage Site in 2016.",
+      },
+    },
+  },
+  {
+    id: "noche-de-yalda",
+    order: 13,
+    placeholderEmoji: "🌙",
+    accentColor: "#8B1A1A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La noche más larga del año que se pasa despierto",
+        subtitle: "Noche de Yalda, la noche más larga",
+        imageAlt: "Caricatura de una bandeja de sandías y granadas junto a un libro de poesía y velas.",
+        description:
+          "La Noche de Yalda es una antigua celebración iraní que marca el solsticio de invierno, la noche más larga del año, con raíces en la tradición zoroástrica y persa preislámica que celebraba el simbólico 'nacimiento' del sol, ya que a partir de esa noche los días comienzan a alargarse. Familias y amigos se reúnen para pasar la noche entera despiertos juntos, un acto simbólico de solidaridad frente al frío, comiendo frutas asociadas a la celebración —granadas y sandías, ambas rojas, símbolo del resplandor del amanecer— junto con frutos secos. Una tradición central es la lectura de poesía, especialmente la costumbre del 'fal-e Hafez', abrir al azar un libro de poemas de Hafez en busca de un mensaje. Pese al calendario islámico oficial de Irán, la Noche de Yalda sigue celebrándose ampliamente como una querida tradición cultural secular en toda la sociedad iraní, también celebrada en Afganistán, Tayikistán y otras regiones de influencia persa histórica.",
+      },
+      en: {
+        title: "The Longest Night of the Year, Spent Wide Awake",
+        subtitle: "Yalda Night, the Longest Night",
+        imageAlt: "Cartoon of a tray of watermelons and pomegranates beside a poetry book and candles.",
+        description:
+          "Yalda Night is an ancient Iranian celebration marking the winter solstice, the longest night of the year, with roots in Zoroastrian and pre-Islamic Persian tradition celebrating the symbolic 'birth' of the sun, since days begin lengthening again after that night. Families and friends gather to stay up together through the entire night, a symbolic act of solidarity against the darkness and cold, eating fruits especially associated with the celebration — pomegranates and watermelons, both red, symbolizing the glow of dawn and life — alongside nuts and dried fruit. A central tradition is reading poetry aloud, especially the divination custom of 'fal-e Hafez,' randomly opening a book of Hafez's poems in search of a message. Despite Iran's official Islamic calendar, Yalda Night remains widely celebrated as a beloved secular cultural tradition across Iranian society, also celebrated in Afghanistan, Tajikistan, and other historically Persian-influenced regions.",
+      },
+    },
+  },
+  {
+    id: "taarof-la-cortesia-persa",
+    order: 14,
+    placeholderEmoji: "🙏",
+    accentColor: "#6A4C93",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cortesía tan elaborada que se rechaza dos veces",
+        subtitle: "El ta'arof, la cortesía persa",
+        imageAlt: "Caricatura de dos personas frente a una puerta, cediéndose el paso mutuamente con gestos.",
+        description:
+          "El ta'arof es un elaborado sistema de cortesía ritualizada profundamente arraigado en la interacción social iraní, que rige desde cómo ofrecer o rechazar comida y hospitalidad hasta cómo pagar un taxi o negociar una compra, caracterizado por una secuencia esperada de rechazos corteses e insistencia antes de la aceptación genuina. Un ejemplo clásico: un comerciante puede rechazar inicialmente el pago, 'ghabel nadareh', aproximadamente 'no vale nada', como un gesto puramente formal, mientras la expectativa real es que el cliente insista en pagar de todos modos, a veces con dos o tres rondas de ida y vuelta antes de que la oferta sea genuina. El sistema se extiende a situaciones cotidianas como ofrecer el mejor asiento o el paso a otra persona, con deferencia exagerada hacia mayores o invitados. Navegar el ta'arof correctamente se considera una habilidad social genuina que incluso confunde a los propios iraníes entre distintas normas regionales o generacionales.",
+      },
+      en: {
+        title: "The Courtesy So Elaborate You Refuse It Twice",
+        subtitle: "Ta'arof, Persian Courtesy",
+        imageAlt: "Cartoon of two people at a doorway, each gesturing for the other to go first.",
+        description:
+          "Ta'arof is an elaborate system of ritualized politeness deeply embedded in Iranian social interaction, governing everything from how to offer or decline food and hospitality to how to pay for a taxi or negotiate a purchase, characterized by an expected sequence of polite refusals and insistence before genuine acceptance. A classic example: a shopkeeper might initially refuse payment for goods, 'ghabel nadareh,' roughly 'it's worthless, no need to pay,' as a purely formal gesture of generosity, while the real social expectation is that the customer insists on paying anyway, sometimes requiring two or three rounds of polite back-and-forth before the offer is genuinely meant or accepted. The system extends to everyday situations like offering someone the better seat, food, or right of way, deferring exaggeratedly to elders or guests out of respect. Navigating ta'arof correctly is considered a genuine social skill that even confuses Iranians across different regional or generational norms.",
+      },
+    },
+  },
+  {
+    id: "miniatura-persa",
+    order: 15,
+    placeholderEmoji: "🎨",
+    accentColor: "#C9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La pintura diminuta que ilustraba libros de reyes",
+        subtitle: "La miniatura persa",
+        imageAlt: "Caricatura de una escena diminuta y detallada pintada dentro del margen de un manuscrito.",
+        description:
+          "La miniatura persa es una forma de pintura ilustrativa extremadamente detallada y de pequeña escala que floreció especialmente entre los siglos XIII y XVII, usada principalmente para ilustrar manuscritos literarios, en particular copias de poemas épicos como el Shahnameh de Ferdowsi encargadas por la realeza, representando escenas de batalla, vida cortesana, jardines y eventos legendarios. Se caracteriza por una perspectiva plana y no occidental, con múltiples puntos de vista combinados en una sola imagen, pigmentos minerales vívidos que incluían hoja de oro genuina y azul ultramar derivado del lapislázuli, un pincelado extremadamente fino, y un rechazo deliberado de la sombra realista en favor del patrón decorativo. Se desarrollaron escuelas importantes bajo distintas dinastías y ciudades —Tabriz, Herat, Shiraz, más tarde Isfahan—, y maestros como Kamal ud-Din Behzad alcanzaron un estatus legendario comparable al de los grandes pintores occidentales.",
+      },
+      en: {
+        title: "The Tiny Paintings That Illustrated Books of Kings",
+        subtitle: "Persian Miniature Painting",
+        imageAlt: "Cartoon of a tiny, detailed scene painted inside the margin of a manuscript.",
+        description:
+          "Persian miniature painting is a highly detailed, small-scale illustrative art form that flourished especially between the 13th and 17th centuries, used mainly to illustrate literary manuscripts, particularly royal-commissioned copies of epic poems like Ferdowsi's Shahnameh, depicting battle scenes, court life, gardens, and legendary events. It's characterized by a flat, non-Western perspective, with multiple viewpoints combined in a single image, vivid mineral-based pigments including genuine gold leaf and ultramarine blue derived from lapis lazuli, extremely fine brushwork, often using single-hair brushes for the smallest details, and a deliberate rejection of realistic shadow and depth in favor of decorative pattern. Major schools developed under different dynasties and cities — Tabriz, Herat, Shiraz, later Isfahan under the Safavids — and masters like Kamal ud-Din Behzad achieved legendary status comparable to great painters in Western art history.",
+      },
+    },
+  },
+  {
+    id: "los-badgir-torres-de-viento-de-yazd",
+    order: 16,
+    placeholderEmoji: "🏜️",
+    accentColor: "#C1712B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las torres que enfrían casas sin electricidad",
+        subtitle: "Los badgir, torres de viento de Yazd",
+        imageAlt: "Caricatura de una torre alta con aberturas verticales sobre el techo de una casa de barro.",
+        description:
+          "El badgir, o 'atrapavientos', es una estructura arquitectónica persa de enfriamiento, torres altas sobre las casas con aberturas orientadas al viento predominante, diseñadas para captar hasta las brisas más leves y canalizarlas al interior del edificio, a menudo sobre una fuente de agua subterránea, un sistema pasivo que antecede al aire acondicionado mecánico por siglos. La técnica está asociada a la ciudad desértica de Yazd, conocida por su denso perfil urbano de torres badgir sobre edificios de adobe, donde el calor extremo del verano hacía esencial esta tecnología. Algunos diseños incorporan múltiples aberturas, y suele combinarse con otra arquitectura adaptada al desierto —muros gruesos de adobe, cisternas alimentadas por qanats— formando un sistema integrado de control climático pasivo. La ciudad histórica de Yazd fue declarada Patrimonio de la Humanidad por la UNESCO en 2017.",
+      },
+      en: {
+        title: "The Towers That Have Cooled Homes for Centuries",
+        subtitle: "Badgir, the Wind Towers of Yazd",
+        imageAlt: "Cartoon of a tall tower with vertical openings above a mudbrick house's roof.",
+        description:
+          "The badgir, or 'wind catcher,' is a traditional Persian architectural cooling structure, tall towers built atop houses with openings facing prevailing wind directions, designed to capture even faint breezes and funnel them down into the building's interior, often passing over an underground water source or basement to cool the air further, an entirely passive cooling system predating mechanical air conditioning by many centuries. The technique is particularly associated with the desert city of Yazd, known for its dense skyline of badgir towers rising above mudbrick buildings, where extreme summer heat made such technology essential. Some designs incorporate multiple directional openings, and the technique is often paired with other desert-adapted architecture — thick mudbrick walls, qanat-fed cisterns — forming an integrated passive climate-control system. Yazd's historic city was declared a UNESCO World Heritage Site in 2017.",
+      },
+    },
+  },
+  {
+    id: "la-casa-de-te-persa",
+    order: 17,
+    placeholderEmoji: "☕",
+    accentColor: "#6B4A2F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La casa de té donde se resuelve la vida social",
+        subtitle: "La chaykhaneh, casa de té persa",
+        imageAlt: "Caricatura de un samovar humeante junto a vasos de té y terrones de azúcar.",
+        description:
+          "La chaykhaneh, o casa de té, es una institución central de la vida social iraní. El té en sí se convirtió en la bebida caliente dominante de Irán relativamente tarde en términos históricos, desplazando la prominencia previa del café durante el siglo XIX y comienzos del XX, en parte por la interrupción de rutas comerciales cafeteras y el éxito del cultivo de té introducido en la región del Caspio, pero se integró casi de inmediato en el ritual cotidiano. Las casas de té tradicionales funcionaban como lugares de reunión donde hombres de distintas clases socializaban, hacían negocios y escuchaban a narradores recitar poesía épica, a menudo decoradas con pinturas al estilo miniatura persa y alfombras. El té se prepara tradicionalmente fuerte en una pequeña tetera sobre un samovar, y se sirve en pequeños vasos de vidrio diluido al gusto con agua caliente. Existe la costumbre de tomar el té sosteniendo un terrón de azúcar entre los dientes en lugar de disolverlo en el vaso.",
+      },
+      en: {
+        title: "The Tea House Where Social Life Gets Sorted Out",
+        subtitle: "Chaykhaneh, the Persian Tea House",
+        imageAlt: "Cartoon of a steaming samovar beside glasses of tea and sugar cubes.",
+        description:
+          "The chaykhaneh, or tea house, is a central institution of Iranian social life. Tea itself became Iran's dominant hot beverage relatively late historically speaking, overtaking coffee's earlier prominence during the 19th and early 20th centuries, partly due to disrupted coffee trade routes and successful tea cultivation introduced in the Caspian region, but it became deeply embedded in daily ritual almost immediately. Traditional tea houses historically functioned as important gathering places where men of different social classes socialized, conducted business, listened to storytellers reciting epic poetry, or watched traditional performances, often decorated with Persian miniature-style paintings and traditional rugs. Tea is traditionally brewed strong in a small teapot set atop a samovar and served in small glass cups, diluted to taste with hot water. There's a distinctive custom of drinking tea while holding a sugar cube between the teeth rather than dissolving it in the glass.",
+      },
+    },
+  },
+  {
+    id: "el-tahdig-el-arroz-dorado",
+    order: 18,
+    placeholderEmoji: "🍚",
+    accentColor: "#E67E22",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La costra dorada de arroz que se pelea en la mesa",
+        subtitle: "El tahdig, el arroz dorado y crocante",
+        imageAlt: "Caricatura de una capa dorada y crocante de arroz volcada sobre un plato.",
+        description:
+          "El tahdig, que significa literalmente 'fondo de la olla', es la costra crocante y dorada de arroz que se forma en el fondo de la olla durante el método tradicional persa de cocinar arroz, considerada por muchos iraníes la parte más codiciada de cualquier plato de arroz, a menudo disputada entre los miembros de la familia en la mesa. Se logra hirviendo parcialmente el arroz y cocinándolo al vapor en una olla con una capa de aceite, manteca o yogur en el fondo —a veces con rodajas de papa o pan plano como base—, con una tapa envuelta en tela que atrapa el vapor mientras la capa inferior se fríe hasta formar una costra. Es central en la preparación del chelow, el arroz blanco persa, distinto de otras tradiciones arroceras por su textura ligera y de grano suelto. Dominar el tahdig sin quemarlo se considera una marca de una buena cocinera persa.",
+      },
+      en: {
+        title: "The Golden Rice Crust Everyone Fights Over",
+        subtitle: "Tahdig, Golden Crispy Rice",
+        imageAlt: "Cartoon of a golden, crispy layer of rice flipped out onto a plate.",
+        description:
+          "Tahdig, literally 'bottom of the pot,' is the crispy, golden-brown rice crust that forms at the bottom of the pot during the traditional Persian rice-cooking method, considered by many Iranians the most prized part of any rice dish, often fought over among family members at the table. It's achieved through a specific technique of parboiling rice, then steaming it in a pot with a layer of oil, butter, or yogurt at the bottom — sometimes with sliced potato, flatbread, or lettuce as the base layer — with a cloth-wrapped lid trapping steam while letting the bottom layer fry into a crisp crust. It's a central part of preparing chelow, Persian plain steamed rice, distinct from other rice traditions for its light, fluffy, separate-grain texture achieved through parboiling and careful steaming. Mastering tahdig without burning it is considered a mark of a skilled Persian home cook.",
+      },
+    },
+  },
+  {
+    id: "los-pistachos-de-iran",
+    order: 19,
+    placeholderEmoji: "🥜",
+    accentColor: "#8FAE5D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El fruto seco que convirtió a Irán en potencia agrícola",
+        subtitle: "Los pistachos de Irán",
+        imageAlt: "Caricatura de pistachos abiertos derramándose de una bolsa de tela.",
+        description:
+          "Irán fue históricamente el mayor productor y exportador mundial de pistachos durante gran parte del siglo XX, aunque enfrentó una competencia creciente de Estados Unidos, particularmente California. El cultivo está ligado a las regiones áridas del centro del país, especialmente alrededor de Rafsanjan, donde los huertos se cultivan desde hace siglos en un clima adecuado para el árbol, con veranos secos e inviernos fríos. El cultivo históricamente dependió en gran medida del riego con qanats, dadas las necesidades hídricas del cultivo en una región por lo demás escasa de agua. Los pistachos iraníes son apreciados por su sabor, en particular las variedades con una amplia apertura natural de la cáscara, considerada marca de calidad y llamada 'khandan', o 'risueña', en persa. Los frutos secos tienen una importancia cultural significativa más allá del valor de exportación, presentes en dulces tradicionales y servidos en reuniones, especialmente durante el Nowruz.",
+      },
+      en: {
+        title: "The Nut That Made Iran an Agricultural Power",
+        subtitle: "Iran's Pistachios",
+        imageAlt: "Cartoon of open pistachios spilling out of a cloth bag.",
+        description:
+          "Iran was historically the world's largest producer and exporter of pistachios for much of the 20th century, though it faced growing competition from the United States, particularly California, in more recent decades. The crop is deeply tied to the arid central regions of the country, especially around the city of Rafsanjan, where pistachio orchards have been cultivated for centuries in a climate uniquely suited to the tree, with hot, dry summers and cold winters. Cultivation historically relied heavily on qanat-supplied irrigation given the crop's water needs in an otherwise water-scarce region. Iranian pistachios are prized internationally for their flavor, particularly certain varieties associated with a wide natural split in the shell, considered a mark of quality and called 'khandan,' or 'laughing,' in Persian. The nuts hold significant cultural importance beyond export value, featured in traditional sweets and served at gatherings, especially during Nowruz celebrations.",
+      },
+    },
+  },
+  {
+    id: "el-backgammon-tablero-milenario",
+    order: 20,
+    placeholderEmoji: "🎲",
+    accentColor: "#3D2817",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El juego de tablero que Irán reclama como suyo",
+        subtitle: "El backgammon, tablero milenario",
+        imageAlt: "Caricatura de un tablero de backgammon con fichas oscuras y claras y un par de dados.",
+        description:
+          "El backgammon, llamado takhteh nard en persa, está entre los juegos de mesa más antiguos conocidos, con evidencia arqueológica de juegos similares hallada en sitios de la antigua Persia, notablemente restos en Shahr-e Sukhteh, la 'Ciudad Quemada', en el este de Irán, que datan de hace unos 5.000 años, lo que lleva a muchos iraníes a considerarlo una invención genuinamente persa, aunque sus orígenes exactos siguen debatidos entre historiadores. Una leyenda persa tradicional atribuye su invención al sabio Bozorgmehr durante la era sasánida, creado como respuesta intelectual a un juego, el ajedrez, enviado como desafío diplomático desde India, con la combinación de estrategia y azar de los dados pensada para demostrar una filosofía que combina el libre albedrío y el destino. El juego sigue siendo enormemente popular en Irán hoy, jugado de manera casual en casas de té, parques y hogares.",
+      },
+      en: {
+        title: "The Board Game Iran Claims as Its Own Invention",
+        subtitle: "Backgammon, an Ancient Board Game",
+        imageAlt: "Cartoon of a backgammon board with dark and light pieces and a pair of dice.",
+        description:
+          "Backgammon, called takhteh nard in Persian, is among the oldest known board games in the world, with archaeological evidence of similar games found at sites in ancient Persia, notably remains found at Shahr-e Sukhteh, the 'Burnt City,' in eastern Iran, dating back roughly 5,000 years, among the oldest evidence anywhere of a backgammon-like game, leading many Iranians to consider it a distinctly Persian invention, though its exact origins remain debated among historians. Traditional Persian legend attributes its invention to the sage Bozorgmehr during the Sassanid era, created as an intellectual response to a game, chess, sent as a diplomatic challenge from India, with backgammon's combination of strategy and dice-based chance meant to demonstrate a philosophy blending free will and fate. The game remains hugely popular across Iran today, played casually in tea houses, parks, and homes.",
+      },
+    },
+  },
 ];

@@ -173,6 +173,45 @@ const LosCanonesDeBronceCeremoniales: IllustrationComponent = ({ accentColor }) 
   );
 };
 
+const ElSongketTejidoCeremonial: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4AF37";
+  const wood = "#5C3A21";
+  const rows = Array.from({ length: 9 });
+  return (
+    <g>
+      <rect x="110" y="100" width="14" height="140" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2" />
+      <rect x="286" y="100" width="14" height="140" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2" />
+      <rect x="110" y="95" width="190" height="12" fill={wood} />
+      <rect x="110" y="230" width="190" height="12" fill={wood} />
+      {rows.map((_, i) => (
+        <rect key={i} x="124" y={112 + i * 13} width="162" height="9" fill={i % 3 === 0 ? gold : accentColor} opacity="0.9" />
+      ))}
+      {[140, 170, 200, 230, 260].map((x) => (
+        <line key={x} x1={x} y1="107" x2={x} y2="230" stroke={dark} strokeWidth="1" opacity="0.25" />
+      ))}
+    </g>
+  );
+};
+
+const MonosNarigudosRioBrunei: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9946B";
+  const branch = "#5C3A21";
+  return (
+    <g>
+      <path d="M90 220 Q205 205 320 220" fill="none" stroke={branch} strokeWidth="10" strokeLinecap="round" />
+      <ellipse cx="205" cy="185" rx="32" ry="40" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="205" cy="140" r="24" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M200 145 Q195 165 202 178 Q208 168 210 150 Z" fill={skin} stroke={dark} strokeWidth="2" />
+      <circle cx="184" cy="133" r="8" fill={skin} stroke={dark} strokeWidth="1.5" />
+      <circle cx="226" cy="133" r="8" fill={skin} stroke={dark} strokeWidth="1.5" />
+      <path d="M185 205 Q170 215 165 222" fill="none" stroke={accentColor} strokeWidth="10" strokeLinecap="round" />
+      <path d="M225 210 Q250 220 255 240" fill="none" stroke={dark} strokeWidth="6" strokeLinecap="round" opacity="0.7" />
+    </g>
+  );
+};
+
 export const bruneiIllustrations: Record<string, IllustrationDefinition> = {
   "el-istana-nurul-iman-el-palacio-mas-grande-del-mundo": { component: ElIstanaNurulImanElPalacioMasGrandeDelMundo },
   "la-mezquita-omar-ali-saifuddien-y-su-barcaza-real": { component: LaMezquitaOmarAliSaifuddienYSuBarcazaReal },
@@ -184,4 +223,6 @@ export const bruneiIllustrations: Record<string, IllustrationDefinition> = {
   "el-petroleo-y-el-estado-sin-impuesto-a-la-renta": { component: ElPetroleoYElEstadoSinImpuestoALaRenta },
   "melayu-islam-beraja-la-filosofia-nacional": { component: MelayuIslamBerajaLaFilosofiaNacional },
   "los-canones-de-bronce-ceremoniales": { component: LosCanonesDeBronceCeremoniales },
+  "el-songket-tejido-ceremonial": { component: ElSongketTejidoCeremonial },
+  "monos-narigudos-rio-brunei": { component: MonosNarigudosRioBrunei },
 };

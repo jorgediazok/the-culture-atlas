@@ -231,4 +231,119 @@ export const taiwan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "yushan-el-pico-mas-alto-del-asia-oriental",
+    order: 11,
+    placeholderEmoji: "🏔️",
+    accentColor: "#6B7A8C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La montaña más alta de todo el Asia oriental",
+        subtitle: "Yushan, el pico más alto del Asia oriental",
+        imageAlt: "Caricatura de un pico montañoso nevado sobresaliendo entre nubes bajas.",
+        description:
+          "Yushan, o Montaña de Jade, se eleva 3.952 metros sobre el nivel del mar en el centro de Taiwán, convirtiéndola en la montaña más alta de toda el Asia oriental, por encima incluso del Monte Fuji de Japón, un dato que sorprende a muchos visitantes dado el tamaño relativamente pequeño de la isla. Su nombre proviene del brillo blanquecino que su cumbre de cuarcita adquiere bajo ciertas condiciones de luz, semejante al del jade pulido, y la montaña forma parte de un parque nacional que protege ecosistemas que van desde bosques subtropicales de baja altura hasta matorrales alpinos casi sin árboles cerca de la cima. Escalar hasta la cumbre principal, un ascenso de dos días muy popular entre montañistas locales, requiere un permiso limitado por cupos diarios debido a la fragilidad del ecosistema y la alta demanda, y la caminata atraviesa el hábitat de especies endémicas como el mono macaco taiwanés y el ciervo sika de Formosa.",
+      },
+      en: {
+        title: "The Tallest Peak Anywhere in East Asia",
+        subtitle: "Yushan, East Asia's Tallest Peak",
+        imageAlt: "Cartoon of a snow-capped mountain peak rising above low clouds.",
+        description:
+          "Yushan, or Jade Mountain, rises 3,952 meters above sea level in central Taiwan, making it the tallest mountain in all of East Asia, taller even than Japan's Mount Fuji, a fact that surprises many visitors given the island's relatively small size. Its name comes from the whitish sheen its quartzite summit takes on under certain light conditions, resembling polished jade, and the mountain sits within a national park protecting ecosystems ranging from low-altitude subtropical forest to nearly treeless alpine scrub near the peak. Climbing to the main summit, a popular two-day ascent among local hikers, requires a permit limited by daily quotas due to the ecosystem's fragility and high demand, and the trail passes through the habitat of endemic species like the Formosan rock macaque and the Formosan sika deer.",
+      },
+    },
+  },
+  {
+    id: "el-beisbol-el-deporte-que-mas-apasiona-a-taiwan",
+    order: 12,
+    placeholderEmoji: "⚾",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El deporte importado que se volvió pasión nacional",
+        subtitle: "El béisbol, la pasión deportiva de Taiwán",
+        imageAlt: "Caricatura de un bateador en pleno swing frente a un estadio con gradas llenas.",
+        description:
+          "El béisbol llegó a Taiwán durante la administración colonial japonesa a comienzos del siglo veinte y se convirtió con el correr de las décadas en el deporte más seguido de la isla, con una liga profesional propia fundada en 1990 y estadios que se llenan de aficionados que animan con bocinas, cánticos coreografiados y bandas en vivo durante partidos que se extienden por horas. El equipo de un pequeño pueblo indígena, formado casi enteramente por jugadores de la etnia bunun y amis, ganó fama internacional en 1968 al vencer a un equipo japonés considerado imbatible en un torneo juvenil, una victoria que catapultó al béisbol a un estatus casi de deporte nacional no oficial y que sigue narrándose como un hito fundacional del orgullo deportivo taiwanés. Escuelas de todo el país mantienen equipos infantiles y juveniles muy competitivos, y jugadores taiwaneses llegaron a integrar ligas profesionales de Japón y Estados Unidos.",
+      },
+      en: {
+        title: "The Imported Sport That Became a National Passion",
+        subtitle: "Baseball, Taiwan's Sporting Passion",
+        imageAlt: "Cartoon of a batter mid-swing in front of a packed stadium.",
+        description:
+          "Baseball arrived in Taiwan during the Japanese colonial administration in the early twentieth century and over the following decades became the island's most followed sport, with its own professional league founded in 1990 and stadiums filled with fans cheering through horns, choreographed chants, and live bands during games that can stretch on for hours. A team from a small indigenous village, made up almost entirely of Bunun and Amis players, gained international fame in 1968 by defeating a Japanese team considered unbeatable at a youth tournament, a victory that catapulted baseball to a status close to an unofficial national sport and is still told today as a foundational moment of Taiwanese sporting pride. Schools across the island maintain highly competitive youth teams, and Taiwanese players have gone on to join professional leagues in Japan and the United States.",
+      },
+    },
+  },
+  {
+    id: "jiufen-el-pueblo-minero-de-farolillos-rojos",
+    order: 13,
+    placeholderEmoji: "🏘️",
+    accentColor: "#B33A2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo minero de escaleras y farolillos rojos",
+        subtitle: "Jiufen, el pueblo de farolillos rojos",
+        imageAlt: "Caricatura de una calle empinada de escalones con farolillos rojos colgados sobre casas de té.",
+        description:
+          "Jiufen, un pueblo montañoso en la costa noreste de Taiwán, floreció como centro minero de oro durante la administración colonial japonesa a comienzos del siglo veinte, y quedó prácticamente abandonado tras el cierre de las minas a mediados de siglo, hasta que una ola de nostalgia por su arquitectura antigua y sus estrechas callejuelas escalonadas lo transformó en uno de los destinos turísticos más visitados de la isla desde los años noventa. Sus angostas calles en pendiente, bordeadas de casas de té tradicionales y farolillos rojos colgantes que se encienden al caer la noche, inspiraron parte de la ambientación visual de la película animada japonesa 'El viaje de Chihiro', un rumor tan extendido entre los visitantes que el estudio productor debió aclarar públicamente que no fue una referencia directa. Hoy, miles de turistas recorren a diario sus escaleras empinadas probando dulces de taro y tomando té con vista al mar.",
+      },
+      en: {
+        title: "The Mining Town of Stairways and Red Lanterns",
+        subtitle: "Jiufen, the Town of Red Lanterns",
+        imageAlt: "Cartoon of a steep stepped street with red lanterns hanging over tea houses.",
+        description:
+          "Jiufen, a mountain town on Taiwan's northeast coast, flourished as a gold-mining center during the Japanese colonial administration in the early twentieth century, and was left nearly abandoned after the mines closed at mid-century, until a wave of nostalgia for its old architecture and narrow stepped alleys turned it into one of the island's most visited tourist destinations starting in the 1990s. Its narrow sloping streets, lined with traditional tea houses and hanging red lanterns lit at nightfall, inspired part of the visual setting of the Japanese animated film 'Spirited Away,' a rumor so widespread among visitors that the producing studio has had to publicly clarify it wasn't a direct reference. Today, thousands of tourists climb its steep stairways daily, sampling taro sweets and sipping tea overlooking the sea.",
+      },
+    },
+  },
+  {
+    id: "el-lei-cha-el-te-machacado-hakka",
+    order: 14,
+    placeholderEmoji: "🍵",
+    accentColor: "#8B6F47",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El té que se muele a mano hasta volverse una pasta",
+        subtitle: "El lei cha, té machacado hakka",
+        imageAlt: "Caricatura de un mortero de cerámica con un mazo de madera y hojas de té esparcidas.",
+        description:
+          "El lei cha, o 'té machacado', es una bebida tradicional de la comunidad hakka de Taiwán, un subgrupo étnico han con lengua e identidad culinaria propias, preparada moliendo a mano hojas de té verde junto con maní, semillas de sésamo y hierbas dentro de un mortero de cerámica estriado, usando un mazo de madera hasta lograr una pasta espesa que después se diluye con agua caliente y se sirve acompañada de granos tostados de arroz o cereales. Originalmente una comida completa y nutritiva pensada para agricultores hakka que trabajaban largas jornadas en las montañas, el proceso de molienda, que puede tomar más de media hora de esfuerzo físico constante, se convirtió con el tiempo en una actividad turística participativa en pueblos hakka del norte de Taiwán, donde visitantes se turnan para machacar el mortero mientras aprenden sobre la historia de esta comunidad.",
+      },
+      en: {
+        title: "The Tea Ground by Hand Into a Thick Paste",
+        subtitle: "Lei Cha, Hakka Pounded Tea",
+        imageAlt: "Cartoon of a ceramic mortar with a wooden pestle and scattered tea leaves.",
+        description:
+          "Lei cha, or 'pounded tea,' is a traditional drink of Taiwan's Hakka community, a Han ethnic subgroup with its own language and culinary identity, made by hand-grinding green tea leaves together with peanuts, sesame seeds, and herbs inside a ridged ceramic mortar, using a wooden pestle until the mixture becomes a thick paste that is then diluted with hot water and served alongside toasted rice grains or other cereals. Originally a complete, nutritious meal meant for Hakka farmers working long days in the mountains, the grinding process, which can take more than half an hour of steady physical effort, has over time become a participatory tourist activity in Hakka villages of northern Taiwan, where visitors take turns working the mortar while learning about the community's history.",
+      },
+    },
+  },
+  {
+    id: "la-urraca-azul-de-formosa-ave-endemica",
+    order: 15,
+    placeholderEmoji: "🐦",
+    accentColor: "#1E5AA8",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ave de larga cola azul que solo existe en la isla",
+        subtitle: "La urraca azul de Formosa",
+        imageAlt: "Caricatura de un ave de cuerpo azul y pico rojo con una cola larga y elegante.",
+        description:
+          "La urraca azul de Formosa, un ave de plumaje azul intenso, pico y patas rojo brillante y una cola larga y elegante que puede superar el largo de su propio cuerpo, es una especie endémica que existe únicamente en los bosques montañosos de Taiwán y en ningún otro lugar del planeta. Conocida localmente como 'ave de las montañas de larga cola' desde hace siglos, la especie vive en grupos familiares cooperativos poco comunes entre las aves, donde los descendientes jóvenes de una pareja se quedan ayudando a criar a los polluelos de temporadas siguientes antes de independizarse. En 2007, una votación pública organizada por una ONG ambientalista y observadores de aves la eligió como el ave nacional no oficial de Taiwán, por delante de otras especies candidatas, y su silueta se convirtió en un símbolo recurrente de la identidad natural de la isla en campañas de conservación y merchandising turístico.",
+      },
+      en: {
+        title: "The Long-Tailed Blue Bird Found Nowhere Else",
+        subtitle: "The Formosan Blue Magpie",
+        imageAlt: "Cartoon of a blue-bodied bird with a red beak and a long, elegant tail.",
+        description:
+          "The Formosan blue magpie, a bird with intensely blue plumage, a bright red beak and legs, and a long, elegant tail that can exceed the length of its own body, is an endemic species found only in the mountain forests of Taiwan and nowhere else on Earth. Known locally for centuries as the 'long-tailed mountain bird,' the species lives in cooperative family groups unusual among birds, where a pair's young offspring stick around helping raise the following season's chicks before eventually striking out on their own. In 2007, a public vote organized by an environmental NGO and birdwatchers chose it as Taiwan's unofficial national bird, ahead of other candidate species, and its silhouette has since become a recurring symbol of the island's natural identity in conservation campaigns and tourist merchandise.",
+      },
+    },
+  },
 ];

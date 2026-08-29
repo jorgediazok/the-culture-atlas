@@ -152,6 +152,43 @@ const LaGranMezquitaSultanQaboos: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const ElKhareefMonzonDeSalalah: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const fog = "#E8EDE8";
+  const water = "#7EC8E3";
+  return (
+    <g>
+      <path d="M90 240 Q150 175 205 200 Q260 165 320 220 L320 250 L90 250 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M90 240 Q150 190 205 210 Q260 180 320 225" fill="none" stroke={dark} strokeWidth="2" opacity="0.3" />
+      <ellipse cx="150" cy="195" rx="55" ry="14" fill={fog} opacity="0.7" />
+      <ellipse cx="250" cy="175" rx="50" ry="12" fill={fog} opacity="0.6" />
+      <path d="M205 200 Q200 215 203 235" fill="none" stroke={water} strokeWidth="8" strokeLinecap="round" opacity="0.85" />
+      <ellipse cx="203" cy="238" rx="14" ry="5" fill={water} opacity="0.6" />
+    </g>
+  );
+};
+
+const Renacimiento1970SultanQaboos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const road = "#5C5C5C";
+  const roller = "#B0B8BF";
+  return (
+    <g>
+      <path d="M90 235 Q205 225 320 235 L320 245 L90 245 Z" fill={road} stroke={dark} strokeWidth="2" />
+      <path d="M90 235 Q205 225 320 235" fill="none" stroke="#F5F0E6" strokeWidth="1.5" strokeDasharray="8 8" opacity="0.5" />
+      <rect x="115" y="205" width="30" height="20" rx="4" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="122" cy="230" r="12" fill={roller} stroke={dark} strokeWidth="2" />
+      <circle cx="145" cy="230" r="10" fill={roller} stroke={dark} strokeWidth="2" />
+      <rect x="210" y="165" width="90" height="70" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
+      <polygon points="205,165 255,140 305,165" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="245" y="200" width="20" height="35" fill={dark} opacity="0.6" />
+      {[225, 280].map((x) => (
+        <rect key={x} x={x} y="180" width="16" height="16" fill="none" stroke={dark} strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
 export const omanIllustrations: Record<string, IllustrationDefinition> = {
   "el-incienso-de-dofar-tesoro-milenario": { component: ElInciensoDeDofarTesoroMilenario },
   "el-fuerte-de-nizwa-corazon-del-oman-antiguo": { component: ElFuerteDeNizwaCorazonDelOmanAntiguo },
@@ -163,4 +200,6 @@ export const omanIllustrations: Record<string, IllustrationDefinition> = {
   "ras-al-jinz-santuario-de-tortugas-verdes": { component: RasAlJinzSantuarioDeTortugasVerdes },
   "el-halwa-el-dulce-de-la-hospitalidad-omani": { component: ElHalwaElDulceDeLaHospitalidadOmani },
   "la-gran-mezquita-sultan-qaboos": { component: LaGranMezquitaSultanQaboos },
+  "el-khareef-monzon-de-salalah": { component: ElKhareefMonzonDeSalalah },
+  "renacimiento-1970-sultan-qaboos": { component: Renacimiento1970SultanQaboos },
 };

@@ -231,4 +231,119 @@ export const jordan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-zarb-la-coccion-beduina-bajo-tierra",
+    order: 11,
+    placeholderEmoji: "🔥",
+    accentColor: "#D2691E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cocción beduina que entierra la comida en brasas",
+        subtitle: "El zarb, cocción beduina bajo tierra",
+        imageAlt: "Caricatura de un pozo humeante en la arena con una parrilla enterrada bajo brasas.",
+        description:
+          "El zarb, un método de cocción tradicional de los beduinos del desierto jordano, consiste en cavar un pozo en la arena, encender un fuego de leña en el fondo hasta lograr un lecho de brasas al rojo vivo, y bajar luego una estructura metálica en niveles con carne, generalmente cordero o pollo, junto a arroz y verduras envueltas para protegerlas del contacto directo con el fuego, antes de cubrir todo con arena caliente durante una a dos horas. El calor uniforme que envuelve la comida desde todos los ángulos produce una carne extremadamente tierna que se desprende del hueso, un resultado que ningún horno convencional logra replicar del todo, y el momento de destapar el pozo, acompañado por el vapor y el aroma que escapan de golpe, se convirtió en parte central del espectáculo social alrededor de la comida en los campamentos turísticos de Wadi Rum.",
+      },
+      en: {
+        title: "The Bedouin Cooking Method Buried Under Embers",
+        subtitle: "Zarb, Bedouin Underground Cooking",
+        imageAlt: "Cartoon of a smoking pit in the sand with a rack buried under embers.",
+        description:
+          "Zarb, a traditional cooking method used by Bedouins in the Jordanian desert, involves digging a pit in the sand, building a wood fire at the bottom until it burns down to glowing embers, then lowering a tiered metal rack loaded with meat, usually lamb or chicken, along with rice and vegetables wrapped to shield them from direct contact with the fire, before covering everything with hot sand for one to two hours. The even heat surrounding the food from every angle produces meat so tender it falls off the bone, a result no conventional oven fully replicates, and the moment the pit is uncovered, with steam and aroma escaping all at once, has become a central part of the social spectacle around the meal at Wadi Rum's desert camps.",
+      },
+    },
+  },
+  {
+    id: "el-mapa-de-mosaico-de-madaba",
+    order: 12,
+    placeholderEmoji: "🗺️",
+    accentColor: "#4A7A8C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El mapa de mosaico más antiguo de Tierra Santa",
+        subtitle: "El mapa de mosaico de Madaba",
+        imageAlt: "Caricatura de un mosaico de piedras diminutas formando calles y edificios en tonos azules y ocres.",
+        description:
+          "En el suelo de una iglesia bizantina de la ciudad jordana de Madaba, apodada 'la ciudad de los mosaicos', se conserva un mapa del siglo VI compuesto por más de dos millones de teselas de piedra caliza local en tonos ocres, verdes y azules, que representa con una precisión geográfica sorprendente para su época toda la región entre el Líbano y el delta del Nilo, con Jerusalén representada en el centro con un nivel de detalle arquitectónico que incluye calles, iglesias y hasta la puerta principal de la ciudad. Es el mapa más antiguo conocido de Tierra Santa realizado sobre un piso, y aunque terremotos y remodelaciones posteriores destruyeron cerca de dos tercios del original, la porción sobreviviente sigue siendo una fuente clave para arqueólogos que estudian la geografía urbana de la región en la época bizantina. Madaba conserva además decenas de otros mosaicos bizantinos y omeyas en iglesias y casas de la ciudad vieja.",
+      },
+      en: {
+        title: "The Oldest Mosaic Map of the Holy Land",
+        subtitle: "The Madaba Mosaic Map",
+        imageAlt: "Cartoon of a mosaic of tiny stones forming streets and buildings in blue and ochre tones.",
+        description:
+          "On the floor of a Byzantine church in the Jordanian city of Madaba, nicknamed 'the city of mosaics,' a 6th-century map survives made of more than two million tiny local limestone tesserae in ochre, green, and blue tones, depicting with startling geographic accuracy for its era the entire region between Lebanon and the Nile delta, with Jerusalem shown at the center in enough architectural detail to include streets, churches, and even the city's main gate. It's the oldest known floor map of the Holy Land, and although earthquakes and later renovations destroyed roughly two-thirds of the original, the surviving portion remains a key source for archaeologists studying the region's urban geography in the Byzantine era. Madaba also preserves dozens of other Byzantine and Umayyad mosaics in churches and houses throughout its old town.",
+      },
+    },
+  },
+  {
+    id: "el-dabke-la-danza-de-linea-jordana",
+    order: 13,
+    placeholderEmoji: "💃",
+    accentColor: "#A0311F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La danza en línea que se marca golpeando el suelo",
+        subtitle: "El dabke, la danza en línea jordana",
+        imageAlt: "Caricatura de bailarines tomados de los brazos en fila, con un pie levantado.",
+        description:
+          "El dabke, una danza folclórica compartida en distintas variantes por todo el Levante, reúne a bailarines tomados de los hombros o de las manos en una línea o un semicírculo que avanza al ritmo marcado por un líder ubicado en un extremo, quien improvisa pasos y giros mientras el resto del grupo golpea el suelo con fuerza y sincronía absoluta, un gesto rítmico del que la danza toma su nombre, derivado de la palabra árabe para 'pisotear'. En Jordania se baila en bodas, celebraciones nacionales y reuniones familiares al son de instrumentos como la mijwiz, una flauta doble de caña, y el tabl, un tambor cilíndrico de doble parche, y aprender los pasos básicos se considera parte natural de crecer dentro de casi cualquier comunidad jordana, sin necesidad de entrenamiento formal previo.",
+      },
+      en: {
+        title: "The Line Dance Marked by Stomping the Ground",
+        subtitle: "Dabke, Jordan's Line Dance",
+        imageAlt: "Cartoon of dancers linked by the arms in a row, one foot raised.",
+        description:
+          "Dabke, a folk dance shared in various forms across the Levant, brings together dancers linked by the shoulders or hands in a line or semicircle that moves to a rhythm set by a leader at one end, who improvises steps and turns while the rest of the group stomps the ground hard and in perfect unison, a rhythmic gesture the dance takes its name from, derived from the Arabic word for 'stomping.' In Jordan it's danced at weddings, national celebrations, and family gatherings to instruments like the mijwiz, a double reed pipe, and the tabl, a double-headed cylindrical drum, and learning the basic steps is considered a natural part of growing up in almost any Jordanian community, with no formal training required.",
+      },
+    },
+  },
+  {
+    id: "la-reserva-de-dana-y-la-cabra-montes-de-nubia",
+    order: 14,
+    placeholderEmoji: "🐐",
+    accentColor: "#8A8272",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La reserva donde sobrevive la cabra montés de Nubia",
+        subtitle: "La Reserva de Dana y la cabra montés de Nubia",
+        imageAlt: "Caricatura de una cabra de cuernos curvos en equilibrio sobre un peñasco rocoso.",
+        description:
+          "La Reserva de Biosfera de Dana, la reserva natural más grande de Jordania, se extiende sobre un desnivel de más de mil doscientos metros desde las cumbres de la meseta montañosa hasta el fondo del valle del Rift, atravesando cuatro zonas climáticas distintas dentro de un mismo territorio protegido que alberga más de ochocientas especies de plantas y varios cientos de especies animales. Su habitante más emblemático es la cabra montés de Nubia, un rumiante de cuernos largos y curvados hacia atrás capaz de escalar y descansar sobre salientes rocosas casi verticales gracias a pezuñas especialmente adaptadas, una especie que estuvo al borde de la extinción local por la caza furtiva hasta que programas de conservación dentro de la reserva ayudaron a estabilizar su población. Fundada en 1989, Dana combina la protección del ecosistema con senderismo de varios días y un pueblo de piedra semiabandonado que hoy funciona como base para los visitantes.",
+      },
+      en: {
+        title: "The Reserve Where the Nubian Ibex Survives",
+        subtitle: "Dana Biosphere Reserve and the Nubian Ibex",
+        imageAlt: "Cartoon of a curved-horned goat balancing on a rocky crag.",
+        description:
+          "The Dana Biosphere Reserve, Jordan's largest nature reserve, spans an elevation drop of more than 1,200 meters from the peaks of the mountain plateau down to the floor of the Rift Valley, crossing four distinct climate zones within a single protected territory that holds more than eight hundred plant species and several hundred animal species. Its most iconic resident is the Nubian ibex, a long-horned wild goat with backward-curving horns able to climb and rest on nearly vertical rock ledges thanks to specially adapted hooves, a species that was pushed to the brink of local extinction by poaching until conservation programs within the reserve helped stabilize its population. Founded in 1989, Dana combines ecosystem protection with multi-day hiking trails and a partly abandoned stone village that today serves as a base for visitors.",
+      },
+    },
+  },
+  {
+    id: "los-circasianos-que-ayudaron-a-fundar-aman-moderna",
+    order: 15,
+    placeholderEmoji: "🪗",
+    accentColor: "#5B3E7A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los inmigrantes que reconstruyeron Amán en el siglo XIX",
+        subtitle: "Los circasianos y la Amán moderna",
+        imageAlt: "Caricatura de un bailarín con gorro de piel y daga ceremonial al cinto.",
+        description:
+          "A fines del siglo XIX, miles de circasianos, un pueblo originario del Cáucaso norte expulsado de su tierra tras la conquista rusa de la región, se asentaron en las ruinas casi vacías de la antigua Filadelfia romana y reconstruyeron desde cero lo que hoy es Amán, la capital de Jordania, convirtiéndose en la primera comunidad permanente de la ciudad tras siglos de abandono. La comunidad circasiana, que conservó durante generaciones su lengua adigué, su vestimenta tradicional con gorros de piel y dagas ceremoniales, y danzas folclóricas de ritmo veloz acompañadas por un acordeón, mantuvo también un papel destacado en la vida pública jordana, con miembros que ocuparon históricamente cargos en la guardia real y el gobierno. Hoy, asociaciones culturales circasianas en Amán organizan festivales anuales de danza y música para transmitir estas tradiciones a las nuevas generaciones nacidas en Jordania.",
+      },
+      en: {
+        title: "The Immigrants Who Rebuilt Amman in the 1800s",
+        subtitle: "The Circassians and Modern Amman",
+        imageAlt: "Cartoon of a dancer wearing a fur hat with a ceremonial dagger at the belt.",
+        description:
+          "In the late 19th century, thousands of Circassians, a people originally from the North Caucasus driven from their homeland after the Russian conquest of the region, settled among the nearly empty ruins of ancient Roman Philadelphia and rebuilt from scratch what is today Amman, Jordan's capital, becoming the city's first permanent community after centuries of abandonment. The Circassian community, which preserved its Adyghe language, traditional dress with fur hats and ceremonial daggers, and fast-paced folk dances accompanied by accordion across generations, also held a prominent role in Jordanian public life, with members historically serving in the royal guard and government. Today, Circassian cultural associations in Amman organize annual dance and music festivals to pass these traditions on to new generations born in Jordan.",
+      },
+    },
+  },
 ];

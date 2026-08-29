@@ -231,4 +231,119 @@ export const singapore: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-kopi-y-el-codigo-secreto-del-cafe",
+    order: 11,
+    placeholderEmoji: "☕",
+    accentColor: "#5C4033",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El café con un código que hay que aprender a pedir",
+        subtitle: "El kopi, café con código propio",
+        imageAlt: "Caricatura de una taza de café servida sobre un platillo en un puesto tradicional.",
+        description:
+          "El kopi es la cultura tradicional del café singapurense, centrada en las antiguas cafeterías conocidas como kopitiam, donde el café se prepara con un filtro de tela en forma de media y tradicionalmente se sirve con leche condensada, generando un vocabulario de pedido sumamente específico que mezcla términos hokkien y malayos: 'kopi' es café con leche condensada y azúcar; 'kopi-o' es café negro con azúcar sin leche; 'kopi-c' lleva leche evaporada y es menos dulce; 'kopi-peng' es la versión helada; y sufijos como 'kosong' (sin azúcar), 'gao' (extra fuerte) o 'poh' (aguado) permiten afinar aún más el pedido, un código tan específico que existen decenas de combinaciones exactas y acertarlo se considera una habilidad local genuina. La cultura de la kopitiam, junto con los centros hawker, funciona como un espacio de encuentro social cotidiano, particularmente para las generaciones mayores.",
+      },
+      en: {
+        title: "The Coffee With a Code You Have to Learn to Order",
+        subtitle: "Kopi, Coffee With Its Own Code",
+        imageAlt: "Cartoon of a cup of coffee served on a saucer at a traditional stall.",
+        description:
+          "Kopi is Singapore's traditional coffee culture, centered on old-style coffee shops known as kopitiam, where coffee is brewed using a sock-shaped cloth filter and traditionally served with condensed milk, generating a highly specific ordering vocabulary blending Hokkien and Malay terms: 'kopi' is coffee with condensed milk and sugar; 'kopi-o' is black coffee with sugar and no milk; 'kopi-c' has evaporated milk and is less sweet; 'kopi-peng' is the iced version; and suffixes like 'kosong' (no sugar), 'gao' (extra strong), or 'poh' (weak) fine-tune the order even further, a code so specific that dozens of exact combinations exist, and getting it right is considered a genuine local skill. Kopitiam culture, alongside hawker centers, functions as an everyday social gathering space, particularly for older generations.",
+      },
+    },
+  },
+  {
+    id: "los-hdb-la-vivienda-publica-de-singapur",
+    order: 12,
+    placeholderEmoji: "🏢",
+    accentColor: "#8FA9C4",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país donde casi todos viven en vivienda pública",
+        subtitle: "Los HDB, vivienda pública de Singapur",
+        imageAlt: "Caricatura de un edificio de apartamentos alto y colorido con balcones alineados.",
+        description:
+          "Los HDB (Housing and Development Board), el sistema de vivienda pública de Singapur, resultan notablemente inusuales a nivel mundial por lo central que son en la vida del país: alrededor del 80% de la población de Singapur vive en apartamentos HDB, la mayoría como propietarios y no como inquilinos, bajo un modelo distintivo de propiedad con contrato de arrendamiento a 99 años en lugar del típico modelo occidental de alquiler de vivienda social. El programa se lanzó en 1960, poco después del autogobierno, para resolver una severa escasez habitacional y condiciones de barrios marginales de posguerra, y se convirtió en un proyecto definitorio de construcción nacional al que se le atribuye haber garantizado estabilidad económica y propiedad de activos en todos los niveles de ingreso. Los complejos HDB se planifican como barrios completos con escuelas, mercados y 'void decks', espacios comunes abiertos en la planta baja usados para eventos comunitarios, bodas y funerales.",
+      },
+      en: {
+        title: "The Country Where Public Housing Is the Norm",
+        subtitle: "HDB Flats, Singapore's Public Housing",
+        imageAlt: "Cartoon of a tall, colorful apartment building with rows of aligned balconies.",
+        description:
+          "HDB (Housing and Development Board) flats, Singapore's public housing system, are remarkably unusual globally for how central they are to national life: roughly 80% of Singapore's population lives in HDB flats, most of them homeowners rather than renters, under a distinctive 99-year leasehold ownership model rather than the typical Western rental-based public housing model. The program launched in 1960, shortly after self-governance, addressing severe post-war housing shortages and slum conditions, and became a defining nation-building project credited with providing broad economic stability and asset ownership across income levels. HDB estates are planned as complete neighborhoods with schools, markets, and 'void decks,' open ground-floor common spaces beneath residential blocks used for community events, weddings, and funerals.",
+      },
+    },
+  },
+  {
+    id: "pulau-ubin-la-ultima-isla-kampong",
+    order: 13,
+    placeholderEmoji: "🚲",
+    accentColor: "#4A7A52",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La isla que se quedó en el tiempo",
+        subtitle: "Pulau Ubin, la última isla kampong",
+        imageAlt: "Caricatura de una bicicleta apoyada frente a una casa de madera rústica junto a la selva.",
+        description:
+          "Pulau Ubin, una pequeña isla frente a la costa noreste de Singapur, se considera el último paisaje 'kampong', o aldea tradicional malaya, que sobrevive en el país, habiendo escapado en gran medida de la rápida urbanización y ganancia de tierra al mar que transformó al resto de Singapur desde los años 60 y 70. Los pocos cientos de residentes que quedan en la isla, muy por debajo de su población en la época en que sostenía canteras de granito, viven un estilo de vida rústico entre casas de madera sobre pilotes, plantaciones de caucho y humedales de manglar, ofreciendo un vistazo poco común y deliberadamente preservado de la vida rural singapurense de antes de la modernización. Solo se llega en un bote tradicional, el 'bumboat', y no se permiten autos: los visitantes exploran en bicicleta alquilada por senderos de tierra entre selva secundaria, hogar de una de las últimas poblaciones de pangolín de Sunda del país.",
+      },
+      en: {
+        title: "The Island That Stayed in Time While the City Moved On",
+        subtitle: "Pulau Ubin, the Last Kampong Island",
+        imageAlt: "Cartoon of a bicycle leaning against a rustic wooden house beside the jungle.",
+        description:
+          "Pulau Ubin, a small island off Singapore's northeastern coast, is considered the country's last surviving 'kampong,' or traditional Malay village, landscape, having largely escaped the rapid urbanization and land reclamation that transformed the rest of Singapore starting in the 1960s and 70s. The island's few hundred remaining residents, well below its population when it supported granite quarrying, live a rustic lifestyle amid wooden stilt houses, rubber plantations, and mangrove wetlands, offering a rare, deliberately preserved glimpse of pre-modern Singaporean rural life. It's reachable only by traditional bumboat ferry, and no cars are allowed: visitors explore by rented bicycle along dirt paths through secondary rainforest, home to one of the country's last remaining populations of the Sunda pangolin.",
+      },
+    },
+  },
+  {
+    id: "el-templo-sri-mariamman-en-chinatown",
+    order: 14,
+    placeholderEmoji: "🛕",
+    accentColor: "#B8395B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El templo hindú más antiguo en el corazón de Chinatown",
+        subtitle: "El Templo Sri Mariamman, en Chinatown",
+        imageAlt: "Caricatura de una torre de templo hindú con esculturas coloridas de deidades apiladas.",
+        description:
+          "El Templo Sri Mariamman, el templo hindú más antiguo de Singapur, fundado en 1827, se ubica, de manera algo inesperada para quien no conoce el trazado de la ciudad, en pleno corazón de Chinatown y no en el barrio de Little India. Dedicado a la diosa Mariamman, asociada a la protección contra enfermedades, fue históricamente un sitio importante para los primeros inmigrantes indios, en particular del sur de India, cumpliendo incluso funciones seculares en sus primeros años, como registrar matrimonios y alojar a recién llegados antes de que existiera otra infraestructura comunitaria. Su rasgo más llamativo es el elaborado gopuram, una alta torre de entrada cubierta de figuras esculpidas de deidades hindúes, ampliada y repintada periódicamente. La ubicación del templo dentro de Chinatown, junto a un templo budista, una mezquita y una institución confuciana a pocos pasos, suele citarse como ilustración de la diversidad religiosa de Singapur.",
+      },
+      en: {
+        title: "The Oldest Hindu Temple in the Heart of Chinatown",
+        subtitle: "Sri Mariamman Temple, in Chinatown",
+        imageAlt: "Cartoon of a Hindu temple tower stacked with colorful sculpted deities.",
+        description:
+          "Sri Mariamman Temple, Singapore's oldest Hindu temple, founded in 1827, is located, somewhat unexpectedly for visitors unfamiliar with the city's layout, in the heart of Chinatown rather than the Little India district. Dedicated to the goddess Mariamman, associated with protection from disease, it was historically an important site for early Indian immigrants, particularly from South India, even serving secular functions in its early years, like registering marriages and housing new arrivals before other community infrastructure existed. Its most striking feature is the elaborate gopuram, a tall entrance tower covered in colorful, intricately sculpted figures of Hindu deities, expanded and repainted periodically over the decades. The temple's location within Chinatown, alongside a Buddhist temple, a mosque, and a Confucian institution all within walking distance, is frequently cited as a vivid illustration of Singapore's religious diversity.",
+      },
+    },
+  },
+  {
+    id: "el-desfile-chingay",
+    order: 15,
+    placeholderEmoji: "🎊",
+    accentColor: "#E85D2A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El desfile callejero más grande del sudeste asiático",
+        subtitle: "El desfile Chingay",
+        imageAlt: "Caricatura de artistas callejeros sobre zancos con estandartes de colores en un desfile.",
+        description:
+          "El desfile Chingay es el desfile callejero más grande de Singapur y uno de los más grandes del sudeste asiático, celebrado anualmente, surgido originalmente en los años 70 para llenar un vacío específico: después de que el gobierno prohibiera los petardos tradicionales durante el Año Nuevo chino por razones de seguridad pública, el desfile se creó como una alternativa más controlable para preservar la energía festiva de la temporada. Su nombre deriva de un término hokkien que significa aproximadamente 'el arte del disfraz'. El desfile evolucionó desde sus raíces chinas hacia un espectáculo multicultural que representa a todas las comunidades étnicas de Singapur, con carrozas elaboradas, artistas sobre zancos, danzas del león y el dragón, y grupos de danza tradicionales y contemporáneos, sumando en las últimas décadas grupos internacionales invitados, y atrayendo grandes multitudes y audiencia televisiva.",
+      },
+      en: {
+        title: "Southeast Asia's Largest Street Parade",
+        subtitle: "The Chingay Parade",
+        imageAlt: "Cartoon of street performers on stilts carrying colorful banners in a parade.",
+        description:
+          "The Chingay Parade is Singapore's largest street parade and one of the largest in Southeast Asia, held annually, originally emerging in the 1970s to fill a specific gap: after the government banned traditional firecrackers during Chinese New Year for public safety reasons, the parade was created as an alternative, more controllable way to preserve the festive energy of the season. Its name derives from a Hokkien term roughly meaning 'the art of costume.' The parade evolved considerably from its originally Chinese-cultural roots into a deliberately multicultural spectacle representing all of Singapore's major ethnic communities, featuring elaborate floats, stilt walkers, lion and dragon dances, and traditional and contemporary dance troupes, increasingly joined in recent decades by invited international performing groups, and drawing large public crowds and significant television audiences.",
+      },
+    },
+  },
 ];

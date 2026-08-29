@@ -231,4 +231,50 @@ export const kuwait: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-dinar-kuwaiti",
+    order: 11,
+    placeholderEmoji: "💵",
+    accentColor: "#5B2A6E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La moneda con el valor más alto del mundo",
+        subtitle: "El dinar kuwaití",
+        imageAlt: "Caricatura de una pila de billetes morados junto a unas pocas monedas doradas.",
+        description:
+          "El dinar kuwaití, introducido en 1960 para reemplazar la rupia del golfo entonces en circulación, es la unidad monetaria de mayor valor del mundo frente al dólar estadounidense, una posición que mantiene de forma sostenida gracias a la combinación de las vastas reservas petroleras del país, una oferta monetaria relativamente pequeña y un banco central que gestiona el tipo de cambio contra una canasta de divisas internacionales en lugar de dejarlo flotar libremente. El billete de mayor denominación, de veinte dinares, con un diseño que incorpora motivos de la arquitectura y el patrimonio marítimo kuwaití, llega a equivaler a varias decenas de dólares estadounidenses, lo que sorprende habitualmente a los visitantes extranjeros acostumbrados a billetes de mayor denominación numérica pero menor valor real. La fortaleza del dinar convive con una economía todavía muy dependiente de las exportaciones de crudo, algo que autoridades kuwaitíes reconocen como un riesgo a largo plazo.",
+      },
+      en: {
+        title: "The World's Most Valuable Currency Unit",
+        subtitle: "The Kuwaiti Dinar",
+        imageAlt: "Cartoon of a stack of purple banknotes beside a few small gold coins.",
+        description:
+          "The Kuwaiti dinar, introduced in 1960 to replace the Gulf rupee then in circulation, is the world's most valuable currency unit against the US dollar, a position it has held consistently thanks to the combination of the country's vast oil reserves, a relatively small money supply, and a central bank that manages the exchange rate against a basket of international currencies rather than letting it float freely. The highest-denomination note, the twenty-dinar bill, featuring designs drawn from Kuwaiti architecture and maritime heritage, is worth several dozen US dollars, a fact that regularly surprises foreign visitors used to notes with higher printed numbers but lower real value. The dinar's strength coexists with an economy still heavily dependent on crude oil exports, something Kuwaiti authorities acknowledge as a long-term risk.",
+      },
+    },
+  },
+  {
+    id: "incendios-petroleros-guerra-golfo",
+    order: 12,
+    placeholderEmoji: "🔥",
+    accentColor: "#B5651D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los setecientos incendios petroleros que apagó el mundo",
+        subtitle: "Los incendios petroleros de la Guerra del Golfo",
+        imageAlt: "Caricatura de una torre petrolera en llamas con humo negro espeso y una manguera arrojando agua.",
+        description:
+          "Al retirarse de Kuwait en febrero de 1991 tras la Guerra del Golfo, las fuerzas iraquíes en retirada incendiaron deliberadamente más de seiscientos pozos petroleros kuwaitíes, generando uno de los mayores desastres ambientales provocados intencionalmente de la historia moderna, con columnas de humo negro que oscurecieron el cielo diurno durante meses y millones de barriles de crudo quemándose sin control cada día. Sofocar los incendios exigió una operación internacional sin precedentes que reunió a equipos kuwaitíes, estadounidenses, canadienses, húngaros y soviéticos, que desarrollaron técnicas improvisadas para apagar pozos individuales usando explosivos controlados, agua a alta presión y hasta motores de reactores de avión adaptados para generar ráfagas de aire que sofocaran las llamas. El último pozo se controló en noviembre de 1991, apenas ocho meses después de iniciados los incendios, mucho antes de lo pronosticado.",
+      },
+      en: {
+        title: "The 700 Oil Fires the Whole World Helped Put Out",
+        subtitle: "The Gulf War Oil Well Fires",
+        imageAlt: "Cartoon of a burning oil derrick with thick black smoke and a hose spraying water.",
+        description:
+          "Withdrawing from Kuwait in February 1991 after the Gulf War, retreating Iraqi forces deliberately set fire to more than six hundred Kuwaiti oil wells, creating one of the largest intentionally caused environmental disasters in modern history, with columns of black smoke darkening the daytime sky for months and millions of barrels of crude burning uncontrolled every day. Extinguishing the fires required an unprecedented international operation that brought together specialized crews from several countries, including Kuwaiti, American, Canadian, Hungarian, and Soviet teams, who developed improvised techniques to cap individual wells using controlled explosives, high-pressure water, and even repurposed jet engines mounted on trucks to blast out the flames with air. The last well was brought under control in November 1991, barely eight months after the fires began, far sooner than many experts had initially predicted.",
+      },
+    },
+  },
 ];

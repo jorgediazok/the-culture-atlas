@@ -231,4 +231,50 @@ export const oman: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-khareef-monzon-de-salalah",
+    order: 11,
+    placeholderEmoji: "🌫️",
+    accentColor: "#4A7A5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La temporada de lluvias que reverdece el sur del golfo",
+        subtitle: "El khareef, el monzón de Salalah",
+        imageAlt: "Caricatura de colinas verdes envueltas en niebla con una cascada temporal y nubes bajas.",
+        description:
+          "Cada año, entre junio y septiembre, mientras el resto de la península arábiga soporta temperaturas abrasadoras, la región de Dofar en el sur de Omán recibe el 'khareef', un fenómeno monzónico único en el golfo que envuelve las montañas costeras cercanas a Salalah en niebla persistente, lluvia fina constante y temperaturas notablemente más frescas, transformando un paisaje habitualmente árido en colinas verdes salpicadas de cascadas temporales y praderas de pasto alto. El fenómeno, causado por los vientos monzónicos del suroeste que chocan contra la cordillera de Dofar y se condensan en niebla orográfica, convirtió a Salalah en un destino turístico regional muy popular durante esos meses, con miles de visitantes de países vecinos del golfo, donde el calor del verano es mucho más intenso, llegando específicamente a disfrutar del clima fresco y la vegetación temporal que desaparece tan pronto como termina la temporada.",
+      },
+      en: {
+        title: "The Rainy Season That Turns the Gulf's Edge Green",
+        subtitle: "Khareef, Salalah's Monsoon Season",
+        imageAlt: "Cartoon of green hills wrapped in fog with a temporary waterfall and low clouds.",
+        description:
+          "Every year between June and September, while the rest of the Arabian Peninsula endures scorching heat, the Dhofar region of southern Oman receives the 'khareef,' a monsoon phenomenon unique in the Gulf that wraps the coastal mountains near Salalah in persistent fog, steady drizzle, and noticeably cooler temperatures, transforming an otherwise arid landscape into green hills dotted with temporary waterfalls and tall grass meadows. The phenomenon, caused by southwest monsoon winds hitting the Dhofar mountain range and condensing into orographic fog, turned Salalah into a hugely popular regional tourist destination during those months, drawing thousands of visitors from neighboring Gulf countries, where summer heat runs far more intense, arriving specifically to enjoy the cool weather and temporary greenery that vanishes as soon as the season ends.",
+      },
+    },
+  },
+  {
+    id: "renacimiento-1970-sultan-qaboos",
+    order: 12,
+    placeholderEmoji: "🛣️",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El golpe sin sangre que abrió Omán al mundo en un día",
+        subtitle: "El renacimiento de 1970 con el sultán Qaboos",
+        imageAlt: "Caricatura de una carretera nueva siendo pavimentada junto a una escuela con la puerta recién abierta.",
+        description:
+          "El 23 de julio de 1970, un golpe de palacio prácticamente sin derramamiento de sangre depuso al sultán Said bin Taimur, que había mantenido a Omán deliberadamente aislado del mundo exterior con fronteras casi cerradas, pocas escuelas y apenas unos kilómetros de caminos pavimentados en todo el país, y puso en el trono a su hijo Qaboos bin Said, entonces de veintinueve años y educado en el Reino Unido. Qaboos lanzó de inmediato lo que el país conoce como 'la Renaissance' o renacimiento, invirtiendo ingresos petroleros recién descubiertos en construir escuelas, hospitales, carreteras y servicios básicos casi desde cero, multiplicando en pocas décadas el número de escuelas de apenas tres a varios miles. Qaboos gobernó Omán durante casi medio siglo hasta su muerte en 2020, y el 23 de julio se celebra hoy como feriado nacional en su honor.",
+      },
+      en: {
+        title: "The Bloodless Coup That Opened Oman to the World",
+        subtitle: "The 1970 Renaissance Under Sultan Qaboos",
+        imageAlt: "Cartoon of a new road being paved beside a school with its door freshly opened.",
+        description:
+          "On July 23, 1970, a nearly bloodless palace coup deposed Sultan Said bin Taimur, who had deliberately kept Oman isolated from the outside world with almost closed borders, only a handful of schools, and barely a few kilometers of paved roads in the entire country, and placed his son Qaboos bin Said, then twenty-nine and educated in the United Kingdom, on the throne. Qaboos immediately launched what the country calls 'the Renaissance,' investing newly discovered oil revenue into building schools, hospitals, roads, and basic services almost from scratch, multiplying the number of schools from barely three to several thousand within a few decades. Qaboos ruled Oman for nearly half a century until his death in 2020, and July 23rd is celebrated today as a national holiday in his honor.",
+      },
+    },
+  },
 ];

@@ -231,4 +231,50 @@ export const brunei: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-songket-tejido-ceremonial",
+    order: 11,
+    placeholderEmoji: "🧵",
+    accentColor: "#8B1A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La tela con hilos de oro tejida para la realeza",
+        subtitle: "El songket, tejido ceremonial bruneano",
+        imageAlt: "Caricatura de un telar de madera con una tela brillante de hilos dorados a medio tejer.",
+        description:
+          "El songket, un tejido tradicional de brocado con hilos de oro o plata entrelazados a mano sobre una base de seda o algodón, ocupa un lugar central en las ceremonias oficiales y las bodas reales de Brunéi, donde el sultán, su familia y los novios en bodas tradicionales lo visten en capas elaboradas como signo visible de estatus y ocasión formal. Tejido en telares manuales mediante una técnica llamada 'kelingkan', en la que las tejedoras insertan hilos metálicos entre la trama con agujas finas para formar patrones geométricos y florales, una sola pieza de tamaño ceremonial puede demorar semanas o incluso meses en completarse según la complejidad del diseño. El oficio, transmitido tradicionalmente entre mujeres de determinadas familias, recibe hoy apoyo estatal activo a través de talleres y centros de formación que buscan evitar que la técnica se pierda frente a la competencia de telas producidas industrialmente.",
+      },
+      en: {
+        title: "The Gold-Threaded Cloth Woven for Royalty",
+        subtitle: "Songket, Brunei's Ceremonial Weave",
+        imageAlt: "Cartoon of a wooden loom with a shimmering gold-threaded cloth half woven.",
+        description:
+          "Songket, a traditional brocade fabric hand-woven with gold or silver thread on a silk or cotton base, holds a central place in Brunei's official ceremonies and royal weddings, where the sultan, his family, and traditional wedding couples wear it in elaborate layers as a visible mark of status and formal occasion. Woven on manual looms using a technique called 'kelingkan,' in which weavers insert metallic threads between the weft with fine needles to form geometric and floral patterns, a single ceremonial-sized piece can take weeks or even months to complete depending on the design's complexity. The craft, traditionally passed down among women in certain families, now receives active state support through workshops and training centers aimed at keeping the technique from disappearing under competition from industrially produced fabric.",
+      },
+    },
+  },
+  {
+    id: "monos-narigudos-rio-brunei",
+    order: 12,
+    placeholderEmoji: "🐒",
+    accentColor: "#B5651D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El mono narigudo que se observa navegando el río",
+        subtitle: "Los monos narigudos del río Brunéi",
+        imageAlt: "Caricatura de un mono de nariz grande y colgante con pelaje naranja sentado sobre una rama junto al río.",
+        description:
+          "El río Brunéi y los manglares que lo bordean albergan una de las poblaciones más accesibles del mundo de monos narigudos, primates endémicos de la isla de Borneo reconocibles por la nariz grande y colgante de los machos adultos, que puede crecer tanto que llega a taparles la boca y se cree que amplifica sus llamados para atraer hembras. Cada tarde, cuando el calor disminuye, grupos familiares completos se reúnen a lo largo de la costa del río para alimentarse de hojas jóvenes y frutas antes de dormir en las ramas más altas, un comportamiento predecible que convirtió a los recorridos en bote por el río Brunéi en una de las experiencias de observación de vida silvestre más populares del país, generalmente combinados con visitas a Kampong Ayer. La especie, clasificada en peligro de extinción por la pérdida de hábitat de manglar y selva pantanosa en toda la región, encuentra en los tramos protegidos del río bruneano uno de sus refugios más estables.",
+      },
+      en: {
+        title: "The Long-Nosed Monkey Spotted From a River Boat",
+        subtitle: "The Proboscis Monkeys of the Brunei River",
+        imageAlt: "Cartoon of a monkey with a large, drooping nose and orange fur sitting on a riverside branch.",
+        description:
+          "The Brunei River and the mangroves lining its banks hold one of the most accessible populations in the world of proboscis monkeys, primates endemic to the island of Borneo recognizable by the large, hanging nose of adult males, which can grow large enough to droop over the mouth and is believed to amplify their calls to attract females. Every afternoon, as the heat eases, entire family groups gather along the riverbank to feed on young leaves and fruit before settling to sleep in the highest branches, a predictable pattern that turned Brunei River boat tours into one of the country's most popular wildlife-watching experiences, usually paired with a visit to Kampong Ayer. The species, classified as endangered due to mangrove and swamp forest habitat loss across the region, finds one of its most stable refuges in the protected stretches of the Brunei River.",
+      },
+    },
+  },
 ];

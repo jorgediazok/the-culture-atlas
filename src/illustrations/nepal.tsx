@@ -164,6 +164,129 @@ const OchoOchomiles: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const DashainElFestivalMasLargoDeNepal: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  return (
+    <g>
+      {/* kite */}
+      <polygon points="250,90 300,150 250,210 200,150" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <line x1="200" y1="150" x2="300" y2="150" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      <line x1="250" y1="90" x2="250" y2="210" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      <path d="M250 210 Q240 230 250 248" fill="none" stroke={dark} strokeWidth="2" opacity="0.5" />
+      {/* forehead/face silhouette with tika */}
+      <circle cx="140" cy="160" r="50" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <circle cx="140" cy="150" r="9" fill="#8B1A1A" stroke={dark} strokeWidth="1.5" />
+      <path d="M115 190 Q140 200 165 190" fill="none" stroke={dark} strokeWidth="2" opacity="0.5" />
+    </g>
+  );
+};
+
+const PashupatinathElTemploJuntoAlRioSagrado: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
+  const smoke = "#C9C2B4";
+  return (
+    <g>
+      {/* river */}
+      <path d="M85 220 Q205 210 320 220 L320 250 L85 250 Z" fill={water} opacity="0.6" />
+      {/* stepped stone platforms */}
+      {[0, 1, 2].map((i) => (
+        <rect key={i} x={110 + i * 10} y={195 - i * 18} width={190 - i * 20} height="18" fill={accentColor} stroke={dark} strokeWidth="2" />
+      ))}
+      {/* incense smoke rising */}
+      {[150, 205, 260].map((x, i) => (
+        <path
+          key={x}
+          d={`M${x} ${175 - i * 15} Q${x - 8} ${150 - i * 15} ${x} ${125 - i * 15} Q${x + 8} ${105 - i * 15} ${x} ${85 - i * 15}`}
+          fill="none"
+          stroke={smoke}
+          strokeWidth="4"
+          opacity="0.6"
+          strokeLinecap="round"
+        />
+      ))}
+    </g>
+  );
+};
+
+const BoudhanathLaEstupaDeLosMilOjos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  const white = "#F5F0E6";
+  return (
+    <g>
+      {/* dome */}
+      <ellipse cx="205" cy="200" rx="90" ry="45" fill={white} stroke={dark} strokeWidth="3" />
+      {/* gilded cube with eyes */}
+      <rect x="175" y="130" width="60" height="50" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2.5" />
+      <path d="M185 150 Q195 142 205 150 Q195 158 185 150 Z" fill={dark} />
+      <path d="M205 150 Q215 142 225 150 Q215 158 205 150 Z" fill={dark} />
+      <path d="M203 158 L207 158 L205 168 Z" fill={dark} />
+      {/* spire */}
+      <polygon points="190,130 220,130 205,95" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+      {/* prayer flags */}
+      <path d="M100 140 Q205 115 310 140" fill="none" stroke={dark} strokeWidth="2" opacity="0.4" />
+      {[110, 150, 190, 230, 270, 300].map((x, i) => (
+        <rect key={x} x={x - 8} y="140" width="16" height="12" fill={["#C1272D", "#F4A300", "#2C5F8A", "#4A7A52", "#F5F0E6"][i % 5]} opacity="0.85" />
+      ))}
+    </g>
+  );
+};
+
+const ElPapelLoktaArtesaniaMilenaria: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const paper = tint(accentColor, 0.55);
+  return (
+    <g>
+      {/* wooden drying frame */}
+      <rect x="100" y="120" width="210" height="110" fill="none" stroke="#6B4A2F" strokeWidth="8" />
+      {/* sheets of textured paper */}
+      {[
+        [130, 150],
+        [205, 155],
+        [280, 150],
+      ].map(([x, y], i) => (
+        <rect
+          key={x}
+          x={x - 40}
+          y={y - 30}
+          width="80"
+          height="60"
+          fill={paper}
+          stroke={dark}
+          strokeWidth="2"
+          opacity="0.9"
+          transform={`rotate(${((i * 13) % 10) - 5} ${x} ${y})`}
+        />
+      ))}
+      {/* sun */}
+      <circle cx="290" cy="90" r="20" fill="#F4A300" opacity="0.8" />
+    </g>
+  );
+};
+
+const ElPuebloTharuDeLasTierrasBajas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const skin = "#C9946B";
+  return (
+    <g>
+      {/* dancer 1 */}
+      <circle cx="160" cy="150" r="15" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M145 163 Q160 155 175 163 L180 220 L140 220 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M147 170 Q120 178 108 155" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <line x1="108" y1="155" x2="145" y2="120" stroke="#8B5A2B" strokeWidth="5" strokeLinecap="round" />
+      {/* dancer 2 */}
+      <circle cx="255" cy="150" r="15" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M240 163 Q255 155 270 163 L265 220 L235 215 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+      <path d="M268 170 Q295 178 305 155" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <line x1="305" y1="155" x2="268" y2="120" stroke="#8B5A2B" strokeWidth="5" strokeLinecap="round" />
+      {/* crossing point of sticks */}
+      <circle cx="205" cy="137" r="4" fill="#8B5A2B" opacity="0.8" />
+    </g>
+  );
+};
+
 export const nepalIllustrations: Record<string, IllustrationDefinition> = {
   "monte-everest": { component: MonteEverest },
   "buda-lumbini": { component: BudaLumbini },
@@ -175,4 +298,9 @@ export const nepalIllustrations: Record<string, IllustrationDefinition> = {
   momos: { component: Momos },
   "rinoceronte-chitwan": { component: RinoceronteChitwan },
   "ocho-ochomiles": { component: OchoOchomiles },
+  "dashain-el-festival-mas-largo-de-nepal": { component: DashainElFestivalMasLargoDeNepal },
+  "pashupatinath-el-templo-junto-al-rio-sagrado": { component: PashupatinathElTemploJuntoAlRioSagrado },
+  "boudhanath-la-estupa-de-los-mil-ojos": { component: BoudhanathLaEstupaDeLosMilOjos },
+  "el-papel-lokta-artesania-milenaria": { component: ElPapelLoktaArtesaniaMilenaria },
+  "el-pueblo-tharu-de-las-tierras-bajas": { component: ElPuebloTharuDeLasTierrasBajas },
 };

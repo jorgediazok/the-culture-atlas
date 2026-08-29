@@ -231,4 +231,234 @@ export const philippines: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-adobo-el-plato-nacional-filipino",
+    order: 11,
+    placeholderEmoji: "🍖",
+    accentColor: "#5C3A21",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El plato que cada familia prepara de forma distinta",
+        subtitle: "El adobo, plato nacional filipino",
+        imageAlt: "Caricatura de trozos de carne oscura y brillante en una olla con hojas de laurel.",
+        description:
+          "El adobo, considerado el plato nacional no oficial de Filipinas, consiste en carne, generalmente pollo o cerdo, cocinada a fuego lento en vinagre, salsa de soja, ajo, granos de pimienta negra y hojas de laurel. La técnica es anterior a la colonización española: los filipinos indígenas ya usaban métodos de cocción y conservación a base de vinagre antes del contacto con España, y fueron los colonizadores quienes le dieron el nombre 'adobo' —del español 'adobar'— por su parecido con su propia técnica de marinado, aunque el plato en sí es de origen genuinamente filipino, no español. Existen casi infinitas variantes regionales y familiares, hasta el punto de que no hay una receta 'correcta' única, y cada familia considera la suya la versión auténtica, motivo de un debate nacional siempre amistoso. El plato es tan central en la identidad filipina que suele ser la respuesta automática cuando se pregunta por su comida reconfortante.",
+      },
+      en: {
+        title: "The Dish Every Family Makes a Little Differently",
+        subtitle: "Adobo, the Filipino National Dish",
+        imageAlt: "Cartoon of dark, glossy chunks of meat in a pot with bay leaves.",
+        description:
+          "Adobo, considered the Philippines' unofficial national dish, consists of meat, usually chicken or pork, slow-cooked in vinegar, soy sauce, garlic, black peppercorns, and bay leaves. The technique predates Spanish colonization: indigenous Filipinos already used vinegar-based cooking and preservation methods before contact with Spain, and it was the colonizers who gave it the name 'adobo' — from the Spanish 'adobar,' to marinate — because it resembled their own marinating technique, though the dish itself is genuinely Filipino in origin, not Spanish. Nearly infinite regional and family variations exist — some add coconut milk, others turmeric for a yellow adobo — to the point that there's no single 'correct' recipe, and every family considers their own the authentic version, the subject of good-natured national debate. The dish is so central to Filipino identity that it's often the automatic answer when asked to name a comfort food.",
+      },
+    },
+  },
+  {
+    id: "el-balut-el-huevo-fermentado-callejero",
+    order: 12,
+    placeholderEmoji: "🥚",
+    accentColor: "#D4A017",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El huevo fermentado que se vende en la calle de noche",
+        subtitle: "El balut, delicia callejera",
+        imageAlt: "Caricatura de un huevo cocido humeante servido en un cascarón sobre un plato.",
+        description:
+          "El balut es un huevo de pato fertilizado, incubado durante aproximadamente entre catorce y veintiún días según el punto de desarrollo preferido, que luego se hierve y se vende como bocadillo callejero muy popular, especialmente de noche, por vendedores que recorren los barrios pregonando su mercadería. Se come rompiendo la cáscara, bebiendo primero el caldo sabroso que contiene, y luego comiendo la yema, el embrión parcialmente desarrollado y la clara, sazonado típicamente con sal, vinagre o chile. Es una comida reconfortante muy querida entre los filipinos, aunque para muchos extranjeros resulta una 'comida extrema' notable, frecuentemente elegida como desafío en programas de televisión sobre viajes y gastronomía. Se cree que su origen se remonta a inmigrantes chinos que trajeron platos de huevo similares hace siglos, adaptados con el tiempo hacia la cultura callejera genuinamente filipina que tiene hoy, y tradicionalmente se acompaña con cerveza fría.",
+      },
+      en: {
+        title: "The Fermented Egg Sold on the Street at Night",
+        subtitle: "Balut, a Street Delicacy",
+        imageAlt: "Cartoon of a steaming boiled egg served in its shell on a plate.",
+        description:
+          "Balut is a fertilized duck egg, incubated for roughly fourteen to twenty-one days depending on the preferred stage of development, then boiled and sold as a popular street snack, especially at night, by vendors who walk through neighborhoods calling out their wares. It's eaten by cracking the shell, first sipping the flavorful broth inside, then eating the yolk, the partially developed embryo, and the white, typically seasoned with salt, vinegar, or chili. It's a beloved comfort food among Filipinos, though to many foreigners it's a notable 'extreme food,' frequently featured as a challenge on travel and food TV shows. Its origin is believed to trace back to Chinese immigrants who brought similar egg dishes centuries ago, gradually adapted into today's distinctly Filipino street food culture, and it's traditionally paired with cold beer.",
+      },
+    },
+  },
+  {
+    id: "manny-pacquiao-y-el-boxeo-filipino",
+    order: 13,
+    placeholderEmoji: "🥊",
+    accentColor: "#B71C1C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El boxeador que se convirtió en héroe y en senador",
+        subtitle: "Manny Pacquiao y el boxeo filipino",
+        imageAlt: "Caricatura de un boxeador con guantes rojos en posición de combate.",
+        description:
+          "Manny Pacquiao, considerado ampliamente uno de los mejores boxeadores de su generación, es el único púgil en la historia en ganar títulos mundiales en ocho categorías de peso distintas, y llegó a lo más alto tras crecer en la pobreza extrema en General Santos, comenzando a boxear profesionalmente a los dieciséis años. Se convirtió en una figura tan unificadora que la criminalidad en Filipinas supuestamente caía de forma notable durante sus peleas, y hasta se reportaron treguas informales entre fuerzas gubernamentales y grupos separatistas para poder verlo pelear. Su carrera fue una fuente enorme de orgullo nacional en una cultura apasionada por el boxeo, con gimnasios comunes en todo el país. Tras retirarse del boxeo profesional, Pacquiao encaró una carrera política, siendo elegido senador y luego candidateándose a presidente, una trayectoria poco habitual pero reconocida en la política filipina.",
+      },
+      en: {
+        title: "The Boxer Who Became a Hero and a Senator",
+        subtitle: "Manny Pacquiao and Filipino Boxing",
+        imageAlt: "Cartoon of a boxer with red gloves in a fighting stance.",
+        description:
+          "Manny Pacquiao, widely considered one of the greatest boxers of his generation, is the only fighter in history to win world titles in eight different weight divisions, rising to the top after growing up in severe poverty in General Santos City and starting his professional boxing career at sixteen. He became such a unifying national figure that crime rates in the Philippines reportedly dropped noticeably during broadcasts of his fights, and informal ceasefires between government forces and separatist groups in some conflict areas were even reported so people could watch him fight. His career was an enormous source of national pride in a boxing-mad culture, with boxing gyms common across the country and other Filipino fighters following his path. After retiring from professional boxing, Pacquiao pursued a political career, elected senator and later running for president, an unusual trajectory though a recognized pattern in Philippine politics.",
+      },
+    },
+  },
+  {
+    id: "el-tnalak-tejido-sagrado-de-los-tboli",
+    order: 14,
+    placeholderEmoji: "🧵",
+    accentColor: "#6B3A2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tejido que las tejedoras sueñan antes de crear",
+        subtitle: "El t'nalak, tejido sagrado de los t'boli",
+        imageAlt: "Caricatura de una tela con patrones geométricos tejidos en tonos marrones y crema.",
+        description:
+          "El t'nalak es la tela sagrada tejida a mano por el pueblo t'boli, indígena de la región de South Cotabato en Mindanao, elaborada con fibra de abacá —una planta emparentada con el banano— teñida con pigmentos naturales en una paleta distintiva de rojo óxido, marrón y crema, tejida mediante una compleja técnica de ikat que anuda y tiñe los hilos antes de tejerlos. Lo tejen exclusivamente mujeres llamadas 'tejedoras de sueños', que según la creencia t'boli reciben los patrones de cada tela en sueños enviados por el espíritu Fu Dalu, guardián del abacá y el algodón. Los diseños suelen representar cocodrilos, figuras humanas u otras formas naturales, cada uno con un significado comprendido dentro de la comunidad, y tejer una pieza completa podía llevar meses de trabajo, un proceso con importancia espiritual regido por ciertas prohibiciones rituales. Hoy se reconoce como patrimonio cultural inmaterial, promovido ante el riesgo de que el conocimiento del tejido se pierda.",
+      },
+      en: {
+        title: "The Sacred Cloth Weavers Dream Before They Create",
+        subtitle: "T'nalak, the Sacred Cloth of the T'boli",
+        imageAlt: "Cartoon of fabric with geometric patterns woven in brown and cream tones.",
+        description:
+          "T'nalak is the sacred handwoven cloth of the T'boli people, indigenous to the South Cotabato region of Mindanao, made from abaca fiber — a plant related to the banana — dyed with natural pigments in a distinctive palette of rust-red, brown, and cream, woven using a complex ikat technique that ties and dyes the threads before weaving. It's traditionally woven exclusively by women called 'dream weavers,' who, according to T'boli belief, receive the specific patterns for each cloth in dreams sent by the spirit Fu Dalu, guardian of abaca and cotton. The designs often depict crocodiles, human figures, or other natural forms, each carrying meaning understood within the community, and weaving one full traditional piece could historically take months of work, a spiritually significant process governed by ritual prohibitions. It's now recognized as significant intangible cultural heritage, actively promoted given the risk that the specialized weaving knowledge could fade.",
+      },
+    },
+  },
+  {
+    id: "vigan-la-ciudad-colonial-de-piedra",
+    order: 15,
+    placeholderEmoji: "🏛️",
+    accentColor: "#A0522D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad colonial de calles empedradas y calesas",
+        subtitle: "Vigan, la ciudad colonial de piedra",
+        imageAlt: "Caricatura de una calle empedrada bordeada de casas coloniales con balcones de madera.",
+        description:
+          "Vigan, en la provincia de Ilocos Sur en la isla de Luzón, es uno de los ejemplos mejor conservados de una ciudad colonial española planificada en toda Asia. Fundada en el siglo XVI, su centro histórico conserva calles empedradas y filas de casas ancestrales bien preservadas que combinan la arquitectura colonial española con influencias constructivas chinas y filipinas locales, con rasgos distintivos como ventanas de concha de nácar en lugar de vidrio y pisos superiores que sobresalen de la fachada. Declarada Patrimonio de la Humanidad por la UNESCO desde 1999, sus calles históricas todavía reciben carruajes tirados por caballos llamados 'calesas', usados como atracción turística y transporte local. La ciudad también es conocida por su tradición alfarera y por platos locales como la longganisa de Vigan. Estrictas regulaciones edilicias mantienen intacto el paisaje urbano de la época colonial.",
+      },
+      en: {
+        title: "The Colonial Town of Cobblestones and Carriages",
+        subtitle: "Vigan, the Stone Colonial Town",
+        imageAlt: "Cartoon of a cobblestone street lined with colonial houses with wooden balconies.",
+        description:
+          "Vigan, in Ilocos Sur province on the island of Luzon, is one of the best-preserved examples of a planned Spanish colonial town anywhere in Asia. Founded in the 16th century, its historic center retains cobblestone streets and rows of well-preserved ancestral houses blending Spanish colonial architecture with Chinese and local Filipino building influences, with distinctive features like capiz shell window panes instead of glass and upper floors that overhang the facade below. Declared a UNESCO World Heritage Site since 1999, its historic streets still see traffic from horse-drawn carriages called 'calesas,' used both as a tourist attraction and functional local transport. The town is also known for its pottery tradition, with clay jars made on traditional kick wheels, and for distinctive local dishes like Vigan longganisa sausage. Strict building regulations keep the colonial-era streetscape intact.",
+      },
+    },
+  },
+  {
+    id: "el-eskrima-arte-marcial-de-los-bastones",
+    order: 16,
+    placeholderEmoji: "🥋",
+    accentColor: "#37474F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte marcial de bastones declarado deporte nacional",
+        subtitle: "El eskrima, arte marcial de los bastones",
+        imageAlt: "Caricatura de dos personas practicando combate con bastones cruzados.",
+        description:
+          "El eskrima, también conocido como arnis o kali, es el arte marcial filipino centrado en el combate con armas, principalmente bastones de ratán, aunque también incorpora técnicas de cuchillo, armas blancas y combate a mano vacía derivadas de los mismos principios de movimiento. Fue declarado por ley deporte y arte marcial nacional de Filipinas en 2009. Sus raíces se remontan a tradiciones filipinas precoloniales de combate con armas, moldeadas después durante el período colonial español, cuando el entrenamiento abierto con armas estaba restringido, lo que según relatos populares —debatidos entre historiadores— llevó a disimular algunas técnicas como danza. Una característica distintiva del eskrima es priorizar el entrenamiento con armas desde el comienzo, en lugar de tratarlas como un agregado avanzado al combate a mano vacía. Hoy se enseña en todo el mundo tanto como arte tradicional como sistema moderno de autodefensa y deporte de combate.",
+      },
+      en: {
+        title: "The Stick-Fighting Art Declared the National Sport",
+        subtitle: "Eskrima, the Martial Art of Sticks",
+        imageAlt: "Cartoon of two people practicing combat with crossed sticks.",
+        description:
+          "Eskrima, also known as arnis or kali, is the Filipino martial art centered on weapon-based combat, primarily using rattan sticks, though it also incorporates knife, bladed weapon, and empty-hand techniques derived from the same movement principles. It was officially designated the national sport and martial art of the Philippines by law in 2009. Its roots trace back to pre-colonial Filipino weapon-fighting traditions, further shaped during the Spanish colonial period, when open weapons training was restricted, which according to popular accounts — debated among historians — led some techniques to be disguised as dance. A distinctive feature of eskrima is prioritizing weapon-based training from the start, rather than treating weapons as an advanced add-on to empty-hand fighting. Today it's taught worldwide both as a traditional art and a modern self-defense and combat sport system.",
+      },
+    },
+  },
+  {
+    id: "el-barong-tagalog-camisa-de-pina",
+    order: 17,
+    placeholderEmoji: "👔",
+    accentColor: "#D9C9A8",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La camisa transparente tejida con fibra de piña",
+        subtitle: "El barong tagalog, camisa de piña",
+        imageAlt: "Caricatura de una camisa formal bordada y semitransparente sobre una percha.",
+        description:
+          "El barong tagalog, la camisa formal tradicional para hombres filipinos, se distingue por estar confeccionada con una tela liviana y semitransparente, en su versión más prestigiosa tejida a mano con fibra de hoja de piña o con jusi, una mezcla que suele usar abacá y seda, usada por fuera del pantalón sobre una camiseta interior y típicamente bordada con intrincados patrones florales o geométricos. La extracción y el tejido de la fibra de piña es un oficio extremadamente laborioso, concentrado en comunidades tejedoras específicas, particularmente en la isla de Panay. Según algunas interpretaciones, la transparencia de la prenda tuvo también una dimensión política durante el dominio colonial español: el diseño sin bolsillos habría servido para demostrar que quien la portaba no ocultaba armas, aunque el origen se debate junto a explicaciones más simples ligadas al clima tropical. Hoy el barong es vestimenta formal y nacional oficial.",
+      },
+      en: {
+        title: "The Sheer Shirt Woven From Pineapple Fiber",
+        subtitle: "The Barong Tagalog, a Pineapple-Fiber Shirt",
+        imageAlt: "Cartoon of an embroidered, semi-transparent formal shirt on a hanger.",
+        description:
+          "The barong tagalog, the traditional formal shirt for Filipino men, stands out for being made from a lightweight, semi-transparent fabric, in its most prestigious version handwoven from pineapple leaf fiber or jusi, a blend often using abaca and silk, worn untucked over an undershirt and typically embroidered with intricate floral or geometric patterns. Extracting and weaving pineapple fiber is itself an extremely labor-intensive craft, concentrated in specific weaving communities, particularly on Panay island. According to some historical interpretations, the garment's transparency also carried a political dimension under Spanish colonial rule: the see-through, pocketless design is said to have visibly shown that the wearer wasn't concealing any weapons, though this origin story is debated among historians alongside simpler explanations tied to tropical climate practicality. Today the barong is official formal and national attire, worn at weddings and government functions.",
+      },
+    },
+  },
+  {
+    id: "el-halo-halo-postre-de-capas",
+    order: 18,
+    placeholderEmoji: "🍧",
+    accentColor: "#7B68EE",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El postre de capas que se revuelve antes de comer",
+        subtitle: "El halo-halo, postre de capas",
+        imageAlt: "Caricatura de un vaso alto con capas de colores, hielo raspado y una bola de helado morado.",
+        description:
+          "El halo-halo, que en tagalo significa literalmente 'mezcla-mezcla', es el postre filipino icónico servido en un vaso alto, con capas de hielo raspado, leche evaporada o condensada y una gran variedad de ingredientes dulces —típicamente frijoles endulzados, yaca, tiras de coco, plátano, perlas de tapioca y cubos de gelatina—, coronado con una bola de helado de ube, el ñame morado, y a menudo con arroz tostado o hojuelas de maíz trituradas por encima. Su nombre refleja cómo se come: la instrucción es mezclarlo todo bien antes de comerlo, no probarlo capa por capa. Se desarrolló como un postre genuinamente filipino, aunque con influencia de los postres japoneses de hielo raspado tipo kakigori, introducidos por inmigrantes japoneses a comienzos del siglo XX, y se volvió popular como forma de refrescarse ante el calor tropical constante. El color morado intenso del ube se asoció tanto con el postre filipino que hoy aparece como sabor en helados y bebidas en todo el mundo.",
+      },
+      en: {
+        title: "The Layered Dessert You Mix Before You Eat It",
+        subtitle: "Halo-Halo, a Layered Dessert",
+        imageAlt: "Cartoon of a tall glass with colorful layers, shaved ice, and a scoop of purple ice cream.",
+        description:
+          "Halo-halo, which literally means 'mix-mix' in Tagalog, is the iconic Filipino dessert served in a tall glass, layering shaved ice, evaporated or condensed milk, and a wide assortment of sweet ingredients — typically sweetened beans, jackfruit, coconut strips, plantain, tapioca pearls, and jelly cubes — topped with a scoop of ube, or purple yam, ice cream, and often toasted rice or crushed cornflakes on top. Its name reflects exactly how it's eaten: the instruction is to mix everything together thoroughly before eating, not to sample it layer by layer. It developed as a distinctly Filipino dessert, though influenced by Japanese kakigori-style shaved ice desserts introduced by Japanese immigrant communities in the early 20th century, and became especially popular as a way to cool down given the country's year-round tropical heat. Ube's vivid purple color became so associated with Filipino dessert culture that it now appears as a flavor in ice cream and drinks worldwide.",
+      },
+    },
+  },
+  {
+    id: "el-galeon-de-manila-la-ruta-que-unio-continentes",
+    order: 19,
+    placeholderEmoji: "⛵",
+    accentColor: "#1B4B6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ruta que unió Asia con América por 250 años",
+        subtitle: "El galeón de Manila",
+        imageAlt: "Caricatura de un gran barco de vela cargado con cajas y telas.",
+        description:
+          "La ruta comercial del galeón de Manila operó entre 1565 y 1815, conectando Manila, entonces colonia española, con Acapulco, en el México colonial, como un tramo de una red comercial más amplia que llevaba mercancías asiáticas —seda y porcelana china, especias y otros productos que llegaban a Manila a través de comerciantes chinos— hacia América y Europa, mientras que la plata mexicana y peruana fluía en sentido inverso hacia Asia, una de las primeras rutas comerciales transpacíficas sostenidas de la historia mundial. Enormes galeones, algunos entre los barcos de madera más grandes jamás construidos, realizaban la travesía de unos seis meses una o dos veces al año, un cruce peligroso expuesto a tormentas, enfermedades y piratas. Este comercio moldeó la economía colonial filipina durante 250 años, y provocó un intercambio de cultivos entre las regiones conectadas, como el chocolate, el tomate y el maíz llegando a Asia, considerado un hito fundacional de la economía globalmente conectada.",
+      },
+      en: {
+        title: "The Trade Route That Linked Asia and the Americas",
+        subtitle: "The Manila Galleon",
+        imageAlt: "Cartoon of a large sailing ship loaded with crates and bolts of fabric.",
+        description:
+          "The Manila Galleon trade route operated from 1565 to 1815, connecting Manila, then a Spanish colony, with Acapulco, in colonial Mexico, as one leg of a broader trade network carrying Asian goods — Chinese silk and porcelain, spices, and other products reaching Manila through Chinese traders — to the Americas and Europe, while Mexican and Peruvian silver flowed back to Asia in return, one of the first sustained transpacific trade routes in world history. Massive galleons, some among the largest wooden ships ever built, made the roughly six-month crossing once or twice a year, an extremely dangerous voyage exposed to storms, disease, and pirate attacks. This trade profoundly shaped the Philippine colonial economy for 250 years, and also caused an exchange of food crops between the connected regions, with chocolate, tomatoes, and corn reaching Asia this way, considered by many historians a foundational milestone of a globally connected economy.",
+      },
+    },
+  },
+  {
+    id: "el-bayanihan-la-casa-que-se-carga-entre-todos",
+    order: 20,
+    placeholderEmoji: "🤝",
+    accentColor: "#E85D2A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La costumbre de mudar una casa entera entre vecinos",
+        subtitle: "El bayanihan, la casa que se carga entre todos",
+        imageAlt: "Caricatura de un grupo de personas cargando juntas una pequeña casa de bambú.",
+        description:
+          "El bayanihan es una tradición y un valor filipino de cooperación comunitaria que se manifestaba literalmente en la costumbre histórica de que vecinos enteros levantaran y cargaran físicamente sobre postes de bambú toda una casa bahay kubo, liviana por diseño, para trasladarla a un nuevo sitio en beneficio de una familia, un acto que requería la colaboración de docenas de personas y que tradicionalmente terminaba con una comida comunitaria de agradecimiento. El término deriva de 'bayan', pueblo o comunidad. Aunque la práctica literal de cargar casas se volvió rara con los materiales de construcción modernos, el valor subyacente se convirtió en un referente cultural de ayuda mutua y espíritu voluntario, invocado durante labores de ayuda tras desastres —Filipinas es golpeada frecuentemente por tifones— y proyectos comunitarios. Se lo considera un rasgo definitorio del carácter social filipino, y la imagen de vecinos cargando una casa sigue siendo un símbolo cultural reconocido.",
+      },
+      en: {
+        title: "The Custom of Moving a Whole House Between Neighbors",
+        subtitle: "Bayanihan, the House Carried by Everyone",
+        imageAlt: "Cartoon of a group of people carrying a small bamboo house together.",
+        description:
+          "Bayanihan is a Filipino tradition and value of community cooperation, most literally embodied in the historical custom of entire neighborhoods physically lifting and carrying, on bamboo poles, a whole bahay kubo house, lightweight by design, to relocate it to a new site for a family, an act requiring dozens of people working together and traditionally followed by a communal meal as thanks. The term derives from 'bayan,' meaning town, community, or nation. Although the literal house-carrying practice became rare with modern building materials, the underlying value became a broader cultural touchstone for mutual aid and volunteer spirit, invoked during disaster relief efforts — the Philippines is frequently hit by typhoons — and community projects. It's considered a defining aspect of Filipino social character, and the image of neighbors carrying a house together remains a widely recognized cultural symbol.",
+      },
+    },
+  },
 ];

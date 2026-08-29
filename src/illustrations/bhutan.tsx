@@ -165,6 +165,54 @@ const ElKishutharaLaSedaTejidaMasFinaDeButan: IllustrationComponent = ({ accentC
   );
 };
 
+const GrullasCuelloNegroPhobjikha: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const white = "#F5F0E6";
+  const cranes: [number, number, number][] = [
+    [150, 215, 1],
+    [195, 225, 0.75],
+  ];
+  return (
+    <g>
+      <path d="M90 235 Q205 220 320 235 L320 250 L90 250 Z" fill={accentColor} opacity="0.3" />
+      <rect x="255" y="195" width="35" height="35" fill={white} stroke={dark} strokeWidth="2" opacity="0.8" />
+      <polygon points="250,195 272,178 295,195" fill={accentColor} stroke={dark} strokeWidth="2" opacity="0.8" />
+      {cranes.map(([x, y, scale], i) => (
+        <g key={i} transform={`translate(${x} ${y}) scale(${scale})`}>
+          <ellipse cx="0" cy="0" rx="20" ry="14" fill={white} stroke={dark} strokeWidth="2.5" />
+          <path d="M6 -6 Q20 -22 16 -38 Q10 -48 18 -55" fill="none" stroke={white} strokeWidth="7" strokeLinecap="round" />
+          <circle cx="18" cy="-55" r="6" fill="#1A1A1A" />
+          <path d="M23 -55 L33 -52 L23 -49 Z" fill="#8B5A2B" />
+          <path d="M-14 -4 Q-28 -12 -30 -24" fill="none" stroke="#8B1A1A" strokeWidth="4" strokeLinecap="round" opacity="0.7" />
+          <line x1="-4" y1="12" x2="-8" y2="30" stroke="#3A3A3A" strokeWidth="2.5" />
+          <line x1="6" y1="13" x2="10" y2="30" stroke="#3A3A3A" strokeWidth="2.5" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const UltimoPaisTelevisionInternet: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      <rect x="130" y="170" width="150" height="70" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="3" />
+      <polygon points="120,170 205,140 290,170" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="155" y="190" width="30" height="30" fill={wood} opacity="0.6" />
+      <rect x="215" y="195" width="45" height="32" rx="3" fill="#3A3A3A" stroke={dark} strokeWidth="2.5" />
+      <rect x="221" y="200" width="33" height="20" fill="#7EC8E3" opacity="0.85" />
+      <rect x="230" y="227" width="16" height="10" fill="#3A3A3A" />
+      <line x1="235" y1="150" x2="235" y2="132" stroke={dark} strokeWidth="3" />
+      <g transform="translate(235 130) rotate(-20)">
+        <path d="M-18 0 Q0 -22 18 0 Q0 -8 -18 0 Z" fill="#B0B8BF" stroke={dark} strokeWidth="2" />
+        <line x1="0" y1="-6" x2="10" y2="-25" stroke={dark} strokeWidth="2" />
+        <circle cx="10" cy="-25" r="3" fill={dark} />
+      </g>
+    </g>
+  );
+};
+
 export const bhutanIllustrations: Record<string, IllustrationDefinition> = {
   "la-felicidad-nacional-bruta-de-butan": { component: LaFelicidadNacionalBrutaDeButan },
   "paro-taktsang-el-nido-del-tigre": { component: ParoTaktsangElNidoDelTigre },
@@ -176,4 +224,6 @@ export const bhutanIllustrations: Record<string, IllustrationDefinition> = {
   "butan-el-unico-pais-carbono-negativo-del-planeta": { component: ButanElUnicoPaisCarbonoNegativoDelPlaneta },
   "el-punakha-dzong-la-fortaleza-mas-bella-de-butan": { component: ElPunakhaDzongLaFortalezaMasBellaDeButan },
   "el-kishuthara-la-seda-tejida-mas-fina-de-butan": { component: ElKishutharaLaSedaTejidaMasFinaDeButan },
+  "grullas-cuello-negro-phobjikha": { component: GrullasCuelloNegroPhobjikha },
+  "ultimo-pais-television-internet": { component: UltimoPaisTelevisionInternet },
 };

@@ -231,4 +231,234 @@ export const indonesia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "prambanan",
+    order: 11,
+    placeholderEmoji: "🕉️",
+    accentColor: "#6B6459",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El templo hindú más alto del sudeste asiático",
+        subtitle: "Prambanan, el gran templo hindú",
+        imageAlt: "Caricatura de torres de piedra puntiagudas de un templo hindú.",
+        description:
+          "El templo de Prambanan, construido en el siglo IX en la isla de Java aproximadamente en la misma época que Borobudur, es el complejo hindú más grande de Indonesia y está dedicado a la Trimurti, la tríada de dioses hindúes formada por Brahma, Vishnu y Shiva. Su torre central, dedicada a Shiva, alcanza 47 metros de altura y es el candi, o templo, más alto de todo el país, con una silueta de agujas de piedra puntiagudas muy distinta de la forma piramidal escalonada de Borobudur, a pesar de que ambos templos, uno hindú y otro budista, se construyeron con apenas décadas de diferencia como muestra de la coexistencia religiosa de la época. El complejo original tenía 240 templos, la mayoría hoy en ruinas tras siglos de terremotos, incluyendo uno severo en 2006 que dañó estructuras recién restauradas. Declarado Patrimonio de la Humanidad por la UNESCO en 1991, el sitio también es escenario de representaciones nocturnas del ballet Ramayana bajo la luna llena.",
+      },
+      en: {
+        title: "Southeast Asia's Tallest Hindu Temple",
+        subtitle: "Prambanan, the Great Hindu Temple",
+        imageAlt: "Cartoon of pointed stone towers belonging to a Hindu temple.",
+        description:
+          "Prambanan temple, built in the 9th century on the island of Java at roughly the same time as Borobudur, is Indonesia's largest Hindu complex and is dedicated to the Trimurti, the triad of Hindu gods made up of Brahma, Vishnu, and Shiva. Its central tower, dedicated to Shiva, reaches 47 meters and is the tallest candi, or temple, in the entire country, with a silhouette of pointed stone spires very different from Borobudur's stepped pyramidal shape, even though both temples, one Hindu and one Buddhist, were built only decades apart as a sign of the era's religious coexistence. The original complex had 240 temples, most now in ruins after centuries of earthquakes, including a severe one in 2006 that damaged recently restored structures. Declared a UNESCO World Heritage Site in 1991, the site also hosts nighttime performances of the Ramayana ballet under the full moon.",
+      },
+    },
+  },
+  {
+    id: "orangutanes",
+    order: 12,
+    placeholderEmoji: "🦧",
+    accentColor: "#C1440E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El gran simio que solo vive en dos islas del planeta",
+        subtitle: "Los orangutanes de Sumatra y Borneo",
+        imageAlt: "Caricatura de un orangután de pelaje rojizo colgando de una rama.",
+        description:
+          "El orangután, cuyo nombre significa 'persona del bosque' en malayo, es el único gran simio que vive exclusivamente en Asia, y hoy sobrevive en estado salvaje solo en las islas de Sumatra y Borneo. En 2017 se identificó al orangután de Tapanuli, en Sumatra, como una tercera especie distinta, convirtiéndolo en el gran simio más raro del planeta, con apenas unos 800 individuos conocidos. Estos animales son casi completamente arbóreos y tienen el intervalo entre nacimientos más largo de cualquier mamífero, cerca de ocho años, lo que hace que sus poblaciones se recuperen muy despacio ante cualquier amenaza. La deforestación para plantaciones de palma aceitera redujo drásticamente su hábitat, llevando a las tres especies a la categoría de en peligro crítico, y hoy varios centros trabajan para reintroducir crías huérfanas rescatadas del tráfico ilegal. Los orangutanes comparten cerca del 97% de su ADN con los humanos y son capaces de usar herramientas.",
+      },
+      en: {
+        title: "The Great Ape Found on Only Two Islands on Earth",
+        subtitle: "The Orangutans of Sumatra and Borneo",
+        imageAlt: "Cartoon of a reddish-furred orangutan hanging from a branch.",
+        description:
+          "The orangutan, whose name means 'person of the forest' in Malay, is the only great ape found exclusively in Asia, and today survives in the wild only on the islands of Sumatra and Borneo. In 2017, the Tapanuli orangutan, in Sumatra, was identified as a third distinct species, making it the rarest great ape on the planet, with only about 800 known individuals. These animals are almost entirely arboreal and have the longest interval between births of any mammal, around eight years, which makes their populations recover extremely slowly from any threat. Deforestation for palm oil plantations and logging drastically shrank their habitat, pushing all three orangutan species into the critically endangered category, and today several rehabilitation centers work to reintroduce orphaned infants rescued from illegal trafficking back into the wild. Orangutans share about 97% of their DNA with humans and are capable of using tools.",
+      },
+    },
+  },
+  {
+    id: "kris",
+    order: 13,
+    placeholderEmoji: "🗡️",
+    accentColor: "#5C5346",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La daga ondulada que se considera un objeto con alma",
+        subtitle: "El kris, una daga con alma",
+        imageAlt: "Caricatura de una daga de hoja ondulada con una empuñadura tallada.",
+        description:
+          "El kris, la daga tradicional indonesia de hoja asimétrica y frecuentemente ondulada, se forja tradicionalmente combinando capas de hierro y metal de origen meteórico, un proceso que produce el pamor, un patrón visual similar al del acero de damasco. Más que un arma, el kris se considera en la creencia javanesa tradicional un objeto dotado de poder espiritual propio, casi con alma, y se transmite como reliquia familiar de generación en generación. El número de curvas de la hoja, siempre impar, tiene un significado simbólico específico, y forjar un kris de calidad podía llevarle a un maestro herrero, el 'empu', semanas de un proceso considerado casi ritual. Históricamente, portar un kris formaba parte de la vestimenta formal masculina y era símbolo de estatus, y aunque hoy ya no se usa como arma cotidiana, sigue portándose ceremonialmente en bodas javanesas tradicionales. La UNESCO lo reconoció como Patrimonio Cultural Inmaterial en 2005.",
+      },
+      en: {
+        title: "The Wavy Dagger Believed to Hold Its Own Soul",
+        subtitle: "The Kris, a Dagger With a Soul",
+        imageAlt: "Cartoon of a wavy-bladed dagger with a carved handle.",
+        description:
+          "The kris, Indonesia's traditional dagger with an asymmetrical and often wavy blade, is traditionally forged by combining layers of iron and metal of meteoric origin, a process that produces pamor, a visual pattern similar to Damascus steel. More than a weapon, the kris is considered in traditional Javanese belief to be an object endowed with its own spiritual power, almost a soul, and is passed down as a family heirloom across generations. The number of curves in the blade, always odd — three, five, seven, and so on up to thirteen or more — carries specific symbolic meaning, and forging a quality kris could take a master smith, the 'empu,' weeks in an almost ritual process. Historically, carrying a kris was part of formal male dress and a symbol of social status, and although it's no longer used as an everyday weapon, it's still worn ceremonially at traditional Javanese weddings. UNESCO recognized it as Intangible Cultural Heritage in 2005.",
+      },
+    },
+  },
+  {
+    id: "tempeh",
+    order: 14,
+    placeholderEmoji: "🫘",
+    accentColor: "#7C9473",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La proteína fermentada que Indonesia le dio al mundo",
+        subtitle: "El tempeh, una proteína fermentada",
+        imageAlt: "Caricatura de un bloque de tempeh con granos de soja visibles.",
+        description:
+          "El tempeh, un alimento fermentado a base de soja, se originó en la isla de Java hace varios siglos, con las primeras referencias documentadas datando aproximadamente del siglo XVIII, aunque posiblemente sea más antiguo. Se elabora mediante una fermentación controlada que usa un hongo del género Rhizopus para unir granos de soja cocidos en un bloque firme y compacto, a diferencia del tofu —de origen chino—, que se elabora coagulando leche de soja y tiene una textura mucho más blanda. El proceso de fermentación aumenta la digestibilidad de las proteínas y le da al tempeh un sabor más intenso y terroso que el tofu. Desde los años 60 y 70, se volvió un alimento cada vez más popular en dietas vegetarianas y veganas de todo el mundo como fuente de proteína vegetal, al punto de que la palabra 'tempeh' pasó sin traducción a numerosos idiomas. En Indonesia, sin embargo, nunca fue un alimento de nicho sino un ingrediente cotidiano presente en la mesa de la inmensa mayoría de los hogares.",
+      },
+      en: {
+        title: "The Fermented Protein Indonesia Gave the World",
+        subtitle: "Tempeh, a Fermented Protein",
+        imageAlt: "Cartoon of a block of tempeh with visible soybeans.",
+        description:
+          "Tempeh, a fermented soybean food, originated on the island of Java several centuries ago, with the earliest documented references dating to roughly the 18th century, though it's possibly older. It's made through controlled fermentation using a mold of the Rhizopus genus to bind cooked soybeans into a firm, compact cake, unlike tofu — of Chinese origin — which is made by coagulating soy milk and has a much softer texture. The fermentation process increases protein digestibility and gives tempeh a more intense, earthy flavor than tofu. Since the 1960s and 70s, it became an increasingly popular food in vegetarian and vegan diets worldwide as a source of plant protein, to the point that the word 'tempeh' passed unchanged into numerous languages. In Indonesia, though, it was never a niche food but an everyday ingredient found on the table of the vast majority of households.",
+      },
+    },
+  },
+  {
+    id: "tana-toraja",
+    order: 15,
+    placeholderEmoji: "🕊️",
+    accentColor: "#4A3B5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo que celebra la muerte durante meses enteros",
+        subtitle: "Tana Toraja y sus ritos funerarios",
+        imageAlt: "Caricatura de una figura de madera tallada (tau-tau) junto a una casa de techo curvo.",
+        description:
+          "En Tana Toraja, una región montañosa de la isla de Sulawesi, la muerte se celebra con rituales tan elaborados y costosos que suelen superar en importancia a las bodas. Según la tradición local, una persona fallecida no se considera oficialmente muerta sino simplemente 'enferma' hasta que la familia reúne los recursos suficientes para celebrar el funeral, el Rambu Solo, un proceso que puede demorar meses o incluso años, durante los cuales el cuerpo permanece en la casa familiar. La ceremonia final incluye el sacrificio de búfalos de agua, animales de altísimo valor cuya cantidad sacrificada refleja directamente el estatus social del difunto. Tras el funeral, se talla una efigie de madera del fallecido, la 'tau-tau', que se coloca en balcones tallados en los acantilados junto a las cuevas usadas como sepultura. La arquitectura torajana también es distintiva: las casas 'tongkonan' tienen techos curvos que se elevan dramáticamente hacia los extremos, evocando la forma de un barco.",
+      },
+      en: {
+        title: "The People Who Celebrate Death for Months on End",
+        subtitle: "Tana Toraja and Its Funeral Rites",
+        imageAlt: "Cartoon of a carved wooden effigy (tau-tau) beside a house with a curved roof.",
+        description:
+          "In Tana Toraja, a mountainous region on the island of Sulawesi, death is marked with rituals so elaborate and costly that they typically outweigh weddings in importance. According to local tradition, a deceased person isn't considered officially dead but merely 'sick' until the family gathers enough resources to hold the funeral, the Rambu Solo, a process that can take months or even years, during which the body remains in the family home. The final ceremony includes the sacrifice of water buffalo, animals of extremely high value whose numbers directly reflect the deceased's social status. After the funeral, a wooden effigy of the deceased, called a 'tau-tau,' is carved and placed on balconies cut into the cliffs beside the caves used as burial sites. Traditional Torajan architecture is equally distinctive: the 'tongkonan' houses have curved roofs that sweep dramatically upward at each end, evoking the shape of a boat.",
+      },
+    },
+  },
+  {
+    id: "raja-ampat",
+    order: 16,
+    placeholderEmoji: "🐠",
+    accentColor: "#0E7C7B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El punto con más vida marina del planeta",
+        subtitle: "Raja Ampat, corazón del Triángulo de Coral",
+        imageAlt: "Caricatura de peces de colores nadando entre corales bajo el agua.",
+        description:
+          "El archipiélago de Raja Ampat, en la provincia indonesia de Papúa Occidental, se ubica en el vértice del llamado Triángulo de Coral, la región de mayor biodiversidad marina del planeta. En un área relativamente pequeña se documentaron más de 1.700 especies de peces y más de 600 especies de coral, aproximadamente el 75% de todas las especies de coral conocidas en el mundo, una concentración de vida marina que supera incluso a la de la Gran Barrera de Coral australiana por unidad de superficie. Su ubicación remota limitó históricamente el turismo y el desarrollo costero, contribuyendo a preservar sus arrecifes en un estado excepcional. Las comunidades papúes locales practican desde hace generaciones un sistema tradicional de gestión marina llamado 'sasi', que establece vedas temporales de pesca en ciertas zonas para permitir la recuperación de los ecosistemas, un conocimiento ancestral hoy integrado en la gestión moderna de áreas marinas protegidas.",
+      },
+      en: {
+        title: "The Spot With the Most Marine Life on Earth",
+        subtitle: "Raja Ampat, Heart of the Coral Triangle",
+        imageAlt: "Cartoon of colorful fish swimming among corals underwater.",
+        description:
+          "The Raja Ampat archipelago, in Indonesia's West Papua province, sits at the apex of the so-called Coral Triangle, the region of greatest marine biodiversity on the planet. In a relatively small area, researchers documented more than 1,700 fish species and more than 600 coral species, roughly 75% of all coral species known worldwide, a concentration of marine life that exceeds even Australia's Great Barrier Reef per unit of area. Its remote location historically limited tourism and coastal development, helping preserve its reefs in exceptional condition. Local Papuan communities have practiced for generations a traditional marine management system called 'sasi,' which sets temporary fishing bans in certain areas to allow ecosystems to recover, ancestral knowledge now integrated into modern marine protected area management.",
+      },
+    },
+  },
+  {
+    id: "sate",
+    order: 17,
+    placeholderEmoji: "🍢",
+    accentColor: "#B87333",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los pinchos a la parrilla que unen al archipiélago",
+        subtitle: "El sate, pinchos a la parrilla",
+        imageAlt: "Caricatura de pinchos de carne a la parrilla sobre brasas con salsa de maní.",
+        description:
+          "El sate, pinchos de carne marinada y asados a la parrilla, generalmente servidos con salsa de maní, surgió como comida callejera en Java durante el siglo XIX, posiblemente influenciado por las tradiciones de kebab que los comerciantes árabes e indios trajeron al archipiélago, aunque terminó desarrollando una identidad completamente indonesia. Existen cientos de variantes regionales a lo largo de todo el país, cada una reflejando los ingredientes y las tradiciones de especias locales: el sate padang, en Sumatra, se sirve con una salsa espesa de cúrcuma; el sate lilit balinés envuelve carne o pescado picado alrededor de tallos de citronela en lugar de usar un palito común; y el sate klatak de Yogyakarta se asa sobre varillas de hierro en lugar de bambú. Junto al rendang, el sate se convirtió en uno de los platos indonesios más reconocidos internacionalmente, vendido por vendedores callejeros que recorren los barrios con carritos asando los pinchos al momento.",
+      },
+      en: {
+        title: "The Grilled Skewers That Unite the Archipelago",
+        subtitle: "Satay, Grilled Skewers",
+        imageAlt: "Cartoon of grilled meat skewers over coals with peanut sauce.",
+        description:
+          "Satay, marinated meat skewers grilled over coals and usually served with peanut sauce, emerged as street food on Java during the 19th century, possibly influenced by kebab traditions Arab and Indian traders brought to the archipelago, though it developed into a fully distinct Indonesian identity of its own. Hundreds of regional variants exist across the country, each reflecting local ingredients and spice traditions: sate padang, from Sumatra, is served with a thick turmeric sauce; Balinese sate lilit wraps minced meat or seafood around lemongrass stalks instead of a plain skewer; and sate klatak from Yogyakarta is grilled on iron rods rather than bamboo. Alongside rendang and nasi goreng, satay became one of the most internationally recognized Indonesian dishes, traditionally sold by street vendors who push carts through neighborhoods grilling skewers to order.",
+      },
+    },
+  },
+  {
+    id: "pencak-silat",
+    order: 18,
+    placeholderEmoji: "🥋",
+    accentColor: "#2E4A3D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte marcial indonesio con cientos de estilos",
+        subtitle: "El pencak silat",
+        imageAlt: "Caricatura de dos personas en posición de combate con movimientos fluidos.",
+        description:
+          "El pencak silat es un término general que engloba a cientos de estilos distintos de arte marcial nativos de Indonesia, cada uno vinculado a un grupo étnico o región específica, con sus propias técnicas, armas —a menudo incorporando el kris u otras armas tradicionales— y filosofía particular. Combina golpes, técnicas de agarre, combate con armas y, en muchos estilos, movimientos casi coreográficos que difuminan la frontera entre arte marcial y danza, un componente artístico que distingue al silat de otras artes marciales asiáticas más centradas exclusivamente en el combate. Tradicionalmente se enseñaba dentro de linajes familiares o pequeñas escuelas locales, las 'perguruan', con una dimensión espiritual y ética tan importante como la técnica física. Reconocido por la UNESCO como Patrimonio Cultural Inmaterial en 2019, se practica hoy como sistema de autodefensa y como deporte de competición, incluido en los Juegos Deportivos del Sudeste Asiático.",
+      },
+      en: {
+        title: "The Indonesian Martial Art With Hundreds of Styles",
+        subtitle: "Pencak Silat",
+        imageAlt: "Cartoon of two people in a fighting stance with fluid movements.",
+        description:
+          "Pencak silat is an umbrella term covering hundreds of distinct martial art styles native to Indonesia, each tied to a specific ethnic group or region, with its own techniques, weapons — often incorporating the kris or other traditional blades — and particular philosophy. It combines striking, grappling techniques, weapon combat, and, in many styles, near-choreographic movement that blurs the line between martial art and dance, an artistic component that sets silat apart from other Asian martial arts focused more exclusively on combat. It was traditionally taught within family lineages or small local schools called 'perguruan,' with a spiritual and ethical dimension considered as important as the physical technique itself. Recognized by UNESCO as Intangible Cultural Heritage in 2019, pencak silat is practiced today both as a self-defense system and as a formal competitive sport, regularly included in the Southeast Asian Games.",
+      },
+    },
+  },
+  {
+    id: "angklung",
+    order: 19,
+    placeholderEmoji: "🎋",
+    accentColor: "#8C6239",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El instrumento de bambú que se toca sacudiéndolo",
+        subtitle: "El angklung, instrumento de bambú",
+        imageAlt: "Caricatura de tubos de bambú colgando de un marco, listos para sacudirse.",
+        description:
+          "El angklung es un instrumento musical hecho de tubos de bambú de distintos tamaños y afinaciones, suspendidos dentro de un marco también de bambú, que se toca sacudiéndolo para producir un sonido resonante y traqueteante. Se originó entre el pueblo sundanés de Java Occidental, donde tradicionalmente se usaba en rituales agrícolas ligados a la cosecha del arroz. Cada angklung individual produce por lo general una sola nota, así que interpretar una melodía completa requiere de un conjunto coordinado de muchos intérpretes, cada uno sacudiendo su instrumento en el momento exacto, convirtiéndolo en un instrumento intrínsecamente colectivo. En el siglo XX, el educador Daeng Soetigna lo modernizó con juegos de afinación diatónica que permitían interpretar melodías occidentales, lo que lo llevó a integrarse en la educación musical escolar. Reconocido por la UNESCO como Patrimonio Cultural Inmaterial en 2010, también protagonizó actuaciones masivas con miles de intérpretes a la vez.",
+      },
+      en: {
+        title: "The Bamboo Instrument Played by Shaking It",
+        subtitle: "Angklung, a Bamboo Instrument",
+        imageAlt: "Cartoon of bamboo tubes hanging from a frame, ready to be shaken.",
+        description:
+          "The angklung is a musical instrument made of bamboo tubes of varying sizes and pitches, suspended within a bamboo frame, played by shaking it to produce a resonant, rattling tone. It originated among the Sundanese people of West Java, where it was traditionally used in agricultural rituals tied to the rice harvest. Each individual angklung typically produces only a single note, meaning playing a complete melody requires a coordinated ensemble of many performers, each shaking their instrument at the exact right moment, making it an inherently collective instrument. In the 20th century, educator Daeng Soetigna modernized it by developing diatonic tuning sets that allowed it to play Western melodies, which led the instrument to become widely integrated into Indonesian school music education. Recognized by UNESCO as Intangible Cultural Heritage in 2010, it has also starred in massive performances with thousands of players shaking their instruments at once.",
+      },
+    },
+  },
+  {
+    id: "kawah-ijen",
+    order: 20,
+    placeholderEmoji: "🔥",
+    accentColor: "#1E5AA8",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El volcán con llamas azules que solo se ven de noche",
+        subtitle: "El Kawah Ijen y su fuego azul",
+        imageAlt: "Caricatura de llamas azules brotando de grietas volcánicas en la oscuridad.",
+        description:
+          "El volcán Kawah Ijen, en el este de Java, es famoso por un fenómeno natural extremadamente raro conocido como 'fuego azul': no se trata del resplandor de lava, sino de gases sulfúricos que se incendian al entrar en contacto con el aire a temperaturas cercanas a los 600 grados, ardiendo con una llama azul visible únicamente en la oscuridad total, un espectáculo documentado a esta escala en solo un puñado de lugares del planeta. El volcán también alberga el lago de cráter más ácido y grande del mundo, de un color turquesa intenso y un pH cercano a cero. Desde hace décadas, el cráter es también escenario de una industria minera de azufre extremadamente peligrosa: los mineros cargan a mano canastos con azufre solidificado que pueden pesar entre 60 y 90 kilos, subiendo senderos empinados con equipo de protección mínimo, un trabajo físicamente brutal y mal pagado. Los turistas suben de noche junto a los propios mineros para ver las llamas azules antes del amanecer.",
+      },
+      en: {
+        title: "The Volcano With Blue Flames Only Seen at Night",
+        subtitle: "Kawah Ijen and Its Blue Fire",
+        imageAlt: "Cartoon of blue flames rising from volcanic cracks in the darkness.",
+        description:
+          "Kawah Ijen volcano, in East Java, is famous for an extremely rare natural phenomenon known as 'blue fire': not the glow of lava, but sulfuric gases igniting on contact with air at temperatures near 600 degrees Celsius, burning with a blue flame visible only in complete darkness, a spectacle documented at this scale in only a handful of places on Earth. The volcano is also home to the world's largest and most acidic crater lake, an intense turquoise color with a pH near zero. For decades, the crater has also been the site of an extremely dangerous sulfur mining industry: miners carry baskets of solidified sulfur by hand, weighing between 60 and 90 kilograms, up steep crater trails with minimal protective equipment, physically brutal, poorly paid work. Tourists hike up at night alongside the miners themselves to see the blue flames before sunrise.",
+      },
+    },
+  },
 ];

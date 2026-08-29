@@ -224,6 +224,141 @@ const ElSaltahPlatoNacionalDeYemen: IllustrationComponent = ({ accentColor }) =>
   );
 };
 
+const LasTerrazasAgricolasDeLasMontanasDeYemen: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const stone = "#A89078";
+  const terraces = [
+    { x: 85, y: 210, w: 235, h: 35 },
+    { x: 110, y: 175, w: 185, h: 35 },
+    { x: 140, y: 140, w: 125, h: 35 },
+    { x: 170, y: 110, w: 65, h: 30 },
+  ];
+  return (
+    <g>
+      {terraces.map((t) => (
+        <g key={t.x}>
+          <rect x={t.x} y={t.y} width={t.w} height={t.h} fill={accentColor} opacity="0.85" stroke={dark} strokeWidth="2.5" />
+          <rect x={t.x} y={t.y + t.h} width={t.w} height="6" fill={stone} stroke={dark} strokeWidth="1.5" />
+        </g>
+      ))}
+      {/* crop rows on the lowest terrace */}
+      {[110, 140, 170, 200, 230, 260, 290].map((x) => (
+        <line key={x} x1={x} y1="215" x2={x} y2="240" stroke={shade(accentColor, 0.3)} strokeWidth="3" opacity="0.6" />
+      ))}
+    </g>
+  );
+};
+
+const ElCantoSanaaniPoesiaCantadaDeSanaa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  const copper = "#B5651D";
+  return (
+    <g>
+      {/* singer */}
+      <circle cx="150" cy="140" r="16" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M132 155 Q150 145 168 155 L163 230 L137 230 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* arms reaching down to the tray */}
+      <path d="M140 170 Q120 190 130 215" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M160 170 Q180 190 170 215" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      {/* copper tray */}
+      <ellipse cx="150" cy="225" rx="42" ry="12" fill={copper} stroke={shade(copper, 0.3)} strokeWidth="2.5" />
+      <ellipse cx="150" cy="222" rx="30" ry="7" fill={tint(copper, 0.3)} opacity="0.8" />
+      {/* qanbus lute player */}
+      <circle cx="255" cy="150" r="15" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M240 163 Q255 155 270 163 L265 230 L245 230 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+      <path d="M258 190 Q235 195 235 212 Q235 228 258 230 Q280 228 280 212 Q280 195 258 190 Z" fill="#8B5A2B" stroke={shade("#8B5A2B", 0.3)} strokeWidth="2.5" />
+      <line x1="258" y1="190" x2="285" y2="165" stroke="#8B5A2B" strokeWidth="6" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const ElBaraLaDanzaDeEspadasYDagasDeYemen: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const skin = "#C9946B";
+  const gold = "#C9A227";
+  return (
+    <g>
+      {/* dancer 1 */}
+      <circle cx="150" cy="140" r="15" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M135 153 Q150 145 165 153 L170 230 L130 230 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M160 160 Q185 150 195 120" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M195 120 L205 90 L215 100 L202 128 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+      {/* dancer 2 */}
+      <circle cx="260" cy="140" r="15" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M245 153 Q260 145 275 153 L270 230 L250 230 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+      <path d="M250 160 Q225 150 215 120" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M215 120 L205 90 L195 100 L208 128 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+    </g>
+  );
+};
+
+const ElLeopardoArabigoDeLasMontanasDeYemen: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  return (
+    <g>
+      {/* rocky outcrop */}
+      <path d="M85 245 L140 200 L180 230 L230 190 L280 220 L320 200 L320 250 L85 250 Z" fill="#A89078" opacity="0.6" />
+      {/* tail curling, drawn first so body absorbs the seam */}
+      <path d="M250 205 Q285 200 292 175 Q295 160 282 158" fill="none" stroke={accentColor} strokeWidth="12" strokeLinecap="round" />
+      {/* body */}
+      <path d="M150 225 Q145 195 180 190 Q225 185 250 205 Q262 213 253 222 L248 238 L155 238 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* head */}
+      <circle cx="160" cy="200" r="19" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* ears */}
+      <path d="M148 186 L145 174 L156 183 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <path d="M172 186 L178 174 L167 183 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      {/* spots */}
+      {[
+        [170, 220],
+        [195, 210],
+        [220, 217],
+        [185, 230],
+        [210, 227],
+      ].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="4" fill={dark} opacity="0.5" />
+      ))}
+      {/* legs */}
+      {[165, 190, 215, 235].map((x) => (
+        <line key={x} x1={x} y1="236" x2={x} y2="248" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      ))}
+    </g>
+  );
+};
+
+const ElBintAlSahnElPastelDeMielDeLasBodas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const honey = "#D9A017";
+  return (
+    <g>
+      {/* plate */}
+      <ellipse cx="205" cy="225" rx="90" ry="20" fill={tint(accentColor, 0.4)} stroke={dark} strokeWidth="3" />
+      {/* stacked layers */}
+      {[
+        [215, 80],
+        [198, 70],
+        [182, 58],
+        [168, 44],
+      ].map(([y, w], i) => (
+        <ellipse key={i} cx="205" cy={y} rx={w / 2} ry="10" fill={accentColor} stroke={dark} strokeWidth="2" />
+      ))}
+      {/* honey drips */}
+      {[175, 205, 235].map((x) => (
+        <path key={x} d={`M${x} 175 Q${x - 4} 195 ${x} 215 Q${x + 4} 225 ${x} 235`} fill="none" stroke={honey} strokeWidth="4" opacity="0.85" strokeLinecap="round" />
+      ))}
+      <ellipse cx="205" cy="165" rx="24" ry="8" fill={honey} opacity="0.9" />
+      {/* nigella seeds */}
+      {[
+        [190, 163],
+        [205, 160],
+        [220, 163],
+      ].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="2" fill="#1A1A1A" />
+      ))}
+    </g>
+  );
+};
+
 export const yemenIllustrations: Record<string, IllustrationDefinition> = {
   "el-casco-antiguo-de-sanaa": { component: ElCascoAntiguoDeSanaa },
   "socotra-y-sus-arboles-de-sangre-de-drago": { component: SocotraYSusArbolesDeSangreDeDrago },
@@ -235,4 +370,9 @@ export const yemenIllustrations: Record<string, IllustrationDefinition> = {
   "la-ruta-del-incienso": { component: LaRutaDelIncienso },
   "la-filigrana-de-plata-yemeni": { component: LaFiligranaDePlataYemeni },
   "el-saltah-plato-nacional-de-yemen": { component: ElSaltahPlatoNacionalDeYemen },
+  "las-terrazas-agricolas-de-las-montanas-de-yemen": { component: LasTerrazasAgricolasDeLasMontanasDeYemen },
+  "el-canto-sanaani-poesia-cantada-de-sanaa": { component: ElCantoSanaaniPoesiaCantadaDeSanaa },
+  "el-bara-la-danza-de-espadas-y-dagas-de-yemen": { component: ElBaraLaDanzaDeEspadasYDagasDeYemen },
+  "el-leopardo-arabigo-de-las-montanas-de-yemen": { component: ElLeopardoArabigoDeLasMontanasDeYemen },
+  "el-bint-al-sahn-el-pastel-de-miel-de-las-bodas": { component: ElBintAlSahnElPastelDeMielDeLasBodas },
 };

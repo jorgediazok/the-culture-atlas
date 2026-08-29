@@ -231,4 +231,50 @@ export const tajikistan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "siete-lagos-fann",
+    order: 11,
+    placeholderEmoji: "💧",
+    accentColor: "#00897B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cadena de siete lagos que cambian de color",
+        subtitle: "Los Siete Lagos de Fann",
+        imageAlt: "Caricatura de una cadena de lagos de montaña en distintos tonos de azul y verde a lo largo de un valle.",
+        description:
+          "En las montañas Fann, al oeste de Tayikistán, una cadena de siete lagos glaciares conocida como Haft Kul se escalona a lo largo de un mismo valle, cada uno formado en una época geológica distinta y con una tonalidad de agua propia, desde el turquesa intenso hasta el verde esmeralda, resultado de la composición mineral particular de cada cuenca. Los aldeanos locales, en su mayoría de habla tayika y persa, transmiten leyendas sobre el origen de cada lago, y la zona se convirtió en las últimas décadas en uno de los destinos de trekking más populares del país, con senderos que conectan los siete cuerpos de agua en una caminata de varios días entre picos de más de cinco mil metros. A diferencia del lago Sarez, formado por un desastre natural repentino, los Siete Lagos son el resultado de milenios de actividad glaciar y siguen alimentando pequeñas comunidades agrícolas río abajo.",
+      },
+      en: {
+        title: "The Chain of Seven Lakes That Change Color",
+        subtitle: "The Seven Lakes of Fann",
+        imageAlt: "Cartoon of a chain of mountain lakes in different shades of blue and green along a valley.",
+        description:
+          "In the Fann Mountains of western Tajikistan, a chain of seven glacial lakes known as Haft Kul steps down a single valley, each formed in a different geological era and carrying its own water tone, from intense turquoise to emerald green, the result of each basin's particular mineral makeup. Local villagers, mostly Tajik- and Persian-speaking, pass down legends about each lake's origin, and the area became in recent decades one of the country's most popular trekking destinations, with trails connecting all seven bodies of water in a multi-day hike among peaks over five thousand meters. Unlike Lake Sarez, formed by a sudden natural disaster, the Seven Lakes are the result of millennia of glacial activity and still feed small farming communities downstream.",
+      },
+    },
+  },
+  {
+    id: "buzkashi",
+    order: 12,
+    placeholderEmoji: "🐐",
+    accentColor: "#8D6E63",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El juego ecuestre que se juega con una carcasa de cabra",
+        subtitle: "El buzkashi",
+        imageAlt: "Caricatura de dos jinetes inclinados sobre sus caballos forcejeando por una carcasa de cabra.",
+        description:
+          "El buzkashi, cuyo nombre significa literalmente 'arrastrar la cabra' en persa, es un juego ecuestre practicado desde hace siglos en Tayikistán y el resto de Asia central, en el que decenas de jinetes compiten a caballo por arrebatarse mutuamente la carcasa descabezada de una cabra o ternero y depositarla dentro de un círculo marcado en el campo, en partidos que pueden durar horas y sin un límite fijo de jugadores por bando. El juego, considerado un antecedente directo de deportes ecuestres modernos como el polo, exige una destreza extrema tanto del jinete como del caballo, entrenado durante años para mantenerse firme entre el caos de cuerpos y forcejeos. Aunque más asociado internacionalmente con Afganistán, el buzkashi también es deporte popular en Tayikistán, jugado especialmente durante celebraciones de Nowruz y bodas rurales en el norte del país.",
+      },
+      en: {
+        title: "The Equestrian Game Where Riders Wrestle Over a Goat",
+        subtitle: "Buzkashi",
+        imageAlt: "Cartoon of two horsemen leaning off their saddles wrestling over a goat carcass.",
+        description:
+          "Buzkashi, whose name literally means 'goat dragging' in Persian, is an equestrian game played for centuries in Tajikistan and the rest of Central Asia, in which dozens of horsemen compete to snatch a headless goat or calf carcass from one another and drop it inside a circle marked on the field, in matches that can last hours with no fixed limit on players per side. The game, considered a direct ancestor of modern equestrian sports like polo, demands extreme skill from both rider and horse, the latter trained for years to stay steady amid the chaos of bodies and struggling. Though more internationally associated with Afghanistan, buzkashi is also a popular sport in Tajikistan, played especially during Nowruz celebrations and rural weddings in the north of the country.",
+      },
+    },
+  },
 ];

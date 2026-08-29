@@ -171,6 +171,57 @@ const CulturaNomadaTurcomana: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const AlabaiPerroNacional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.35);
+  return (
+    <g>
+      {/* thick body, side profile */}
+      <ellipse cx="195" cy="185" rx="75" ry="38" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="180" cy="205" rx="42" ry="16" fill={light} opacity="0.7" />
+      {/* neck + head reaching forward, deep overlap into body */}
+      <path d="M160 175 Q120 165 105 150 Q95 135 108 122 Q125 113 145 125 Q155 140 150 165 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* snout, overlapping into head */}
+      <path d="M118 132 Q90 130 80 140 Q83 150 100 150 Q112 148 118 140 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="84" cy="141" r="3.5" fill={dark} />
+      {/* ears, overlapping into head */}
+      <path d="M108 100 L120 132 L98 128 Z" fill={dark} />
+      <path d="M150 98 L146 130 L128 122 Z" fill={dark} />
+      {/* legs, overlapping into body */}
+      {[150, 175, 215, 240].map((x) => (
+        <rect key={x} x={x - 7} y="185" width="14" height="35" rx="6" fill={dark} />
+      ))}
+      {/* curled tail, overlapping into body */}
+      <path d="M255 175 Q288 165 285 142 Q282 125 262 132 Q272 148 260 162 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+    </g>
+  );
+};
+
+const DiaDelMelon: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const stripe = "#6B8E23";
+  const flesh = "#F7C948";
+  return (
+    <g>
+      {/* decorated cart */}
+      <path d="M120 235 L290 235 L280 250 L130 250 Z" fill={dark} />
+      <circle cx="150" cy="252" r="12" fill={dark} />
+      <circle cx="260" cy="252" r="12" fill={dark} />
+      {/* whole striped melon */}
+      <ellipse cx="175" cy="200" rx="55" ry="42" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[-35, -15, 5, 25, 45].map((offset) => (
+        <path key={offset} d={`M${175 + offset} 160 Q${175 + offset * 1.3} 200 ${175 + offset} 240`} fill="none" stroke={stripe} strokeWidth="4" opacity="0.7" />
+      ))}
+      {/* cut slice showing flesh */}
+      <path d="M260 210 Q300 200 320 220 Q315 245 275 240 Q255 230 260 210 Z" fill={flesh} stroke={dark} strokeWidth="3" />
+      <path d="M265 215 Q298 208 312 222" fill="none" stroke={accentColor} strokeWidth="6" strokeLinecap="round" />
+      {[[280, 225], [292, 232], [270, 228]].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="2.5" fill={dark} opacity="0.6" />
+      ))}
+    </g>
+  );
+};
+
 export const turkmenistanIllustrations: Record<string, IllustrationDefinition> = {
   "puerta-al-infierno": { component: PuertaAlInfierno },
   "caballos-akhal-teke": { component: CaballosAkhalTeke },
@@ -182,4 +233,6 @@ export const turkmenistanIllustrations: Record<string, IllustrationDefinition> =
   "reservas-de-gas": { component: ReservasDeGas },
   "culto-a-la-personalidad": { component: CultoALaPersonalidad },
   "cultura-nomada-turcomana": { component: CulturaNomadaTurcomana },
+  "alabai-perro-nacional": { component: AlabaiPerroNacional },
+  "dia-del-melon": { component: DiaDelMelon },
 };

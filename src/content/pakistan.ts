@@ -231,4 +231,234 @@ export const pakistan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-criquet-la-pasion-nacional",
+    order: 11,
+    placeholderEmoji: "🏏",
+    accentColor: "#0F5132",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El deporte que paraliza al país entero",
+        subtitle: "El críquet, la pasión nacional",
+        imageAlt: "Caricatura de un bate de críquet junto a una pelota roja y tres estacas.",
+        description:
+          "El críquet, introducido durante la era colonial británica, se convirtió por lejos en el deporte más popular de Pakistán y en una fuerza de unidad cultural capaz de trascender divisiones étnicas y lingüísticas en un país tan diverso. La victoria en la Copa Mundial de Críquet de 1992, bajo el liderazgo del capitán Imran Khan —quien años después se convertiría en primer ministro—, sigue siendo el momento deportivo más recordado de la historia nacional, celebrada como una de las mayores remontadas del críquet mundial, ya que el equipo estuvo cerca de la eliminación en la fase de grupos antes de encadenar triunfos hasta el título. En cualquier calle, terreno baldío o callejón del país es habitual ver partidos improvisados de 'tape-ball', una variante informal que reemplaza la pelota reglamentaria por una pelota de tenis envuelta en cinta aisladora. Pakistán también se hizo famoso por producir lanzadores rápidos legendarios, pioneros del 'reverse swing' como Wasim Akram y Waqar Younis.",
+      },
+      en: {
+        title: "The Sport That Stops the Entire Country",
+        subtitle: "Cricket, the National Passion",
+        imageAlt: "Cartoon of a cricket bat beside a red ball and three stumps.",
+        description:
+          "Cricket, introduced during the British colonial era, became by far Pakistan's most popular sport and a force of cultural unity able to cut across ethnic and linguistic divides in such a diverse country. The victory at the 1992 Cricket World Cup, under captain Imran Khan — who years later would become prime minister — remains the most remembered sporting moment in the country's history, celebrated as one of cricket's greatest comebacks, since the team came close to elimination in the group stage before stringing together wins all the way to the title. On any street, empty lot, or alley across the country, it's common to see improvised games of 'tape-ball' cricket, an informal variant that swaps the regulation ball for a tennis ball wrapped in electrical tape. Pakistan also became famous for producing legendary fast bowlers, pioneers of the 'reverse swing' technique like Wasim Akram and Waqar Younis.",
+      },
+    },
+  },
+  {
+    id: "hunza-el-valle-de-la-longevidad",
+    order: 12,
+    placeholderEmoji: "🍑",
+    accentColor: "#F9A825",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El valle famoso por la longevidad de sus habitantes",
+        subtitle: "Hunza, el valle de la longevidad",
+        imageAlt: "Caricatura de un valle verde entre montañas nevadas con árboles de albaricoque en flor.",
+        description:
+          "El valle de Hunza, en la región de Gilgit-Baltistán al norte de Pakistán, se hizo famoso a nivel internacional a mediados del siglo XX por relatos, después cuestionados científicamente y en gran parte exagerados por escritores occidentales de la época, sobre una supuesta longevidad excepcional de sus habitantes, atribuida popularmente a una dieta rica en albaricoques y productos cultivados en altura. Más allá del mito, el valle tiene una identidad cultural genuinamente distintiva: su población habla el burushaski, una lengua aislada sin parentesco conocido con ninguna otra familia lingüística del mundo. El paisaje, rodeado de picos como el Rakaposhi y cubierto de terrazas agrícolas y huertos de albaricoqueros que florecen en tonos rosados y blancos cada primavera, atrae a un turismo creciente, al igual que el Fuerte Baltit, antigua sede de los gobernantes locales, restaurado y reconocido como patrimonio cultural. El albaricoque sigue siendo central en la dieta y la economía de la zona.",
+      },
+      en: {
+        title: "The Valley Famous for Its Residents' Longevity",
+        subtitle: "Hunza, the Valley of Longevity",
+        imageAlt: "Cartoon of a green valley between snowy mountains with apricot trees in bloom.",
+        description:
+          "Hunza Valley, in the Gilgit-Baltistan region of northern Pakistan, became internationally famous in the mid-20th century for accounts, later scientifically disputed and largely exaggerated by Western writers of the era, claiming exceptional longevity among its inhabitants, popularly attributed to a diet rich in apricots and high-altitude produce. Beyond the myth, the valley has a genuinely distinctive cultural identity: its population speaks Burushaski, a language isolate with no known relation to any other language family in the world. The landscape, surrounded by peaks like Rakaposhi and covered in terraced fields and apricot orchards that bloom in shades of pink and white each spring, draws growing tourism, as does Baltit Fort, the valley's former seat of local rulers, now restored and recognized as cultural heritage. Apricots remain central to the local diet and economy.",
+      },
+    },
+  },
+  {
+    id: "el-polo-de-shandur-en-el-techo-del-mundo",
+    order: 13,
+    placeholderEmoji: "🏇",
+    accentColor: "#6B4226",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El torneo de polo jugado en el techo del mundo",
+        subtitle: "El polo de Shandur, en el techo del mundo",
+        imageAlt: "Caricatura de dos jinetes a caballo golpeando una pelota de polo en un valle alto.",
+        description:
+          "El paso de Shandur, a unos 3.700 metros de altura entre las regiones de Chitral y Gilgit, en el norte de Pakistán, alberga cada año el Festival de Polo de Shandur, un torneo de polo estilo libre disputado sobre el campo de polo natural más alto del mundo, apodado por eso el 'techo del mundo'. El torneo enfrenta tradicionalmente a los equipos de Chitral y Gilgit en una rivalidad que se remonta a más de un siglo, jugada bajo las reglas del polo estilo libre, una variante mucho más veloz y ruda que el polo moderno estandarizado, con reglas mínimas y sin sustituciones, que conserva prácticas regionales del deporte anteriores a que Gran Bretaña formalizara sus reglas modernas. El festival atrae a multitudes que acampan durante días a esa altura extrema para presenciar los partidos, acompañados de música folclórica, y su realización pese a la enorme dificultad logística de organizar un evento masivo en un lugar tan remoto forma parte de su propio atractivo.",
+      },
+      en: {
+        title: "The Polo Tournament Played on the Roof of the World",
+        subtitle: "Shandur Polo, on the Roof of the World",
+        imageAlt: "Cartoon of two horseback riders striking a polo ball in a high mountain valley.",
+        description:
+          "Shandur Pass, at roughly 3,700 meters between the Chitral and Gilgit regions of northern Pakistan, hosts the annual Shandur Polo Festival, a free-style polo tournament played on the highest natural polo ground in the world, nicknamed for that reason the 'roof of the world.' The tournament traditionally pits the Chitral and Gilgit teams against each other in a rivalry dating back more than a century, played under free-style polo rules, a much faster and rougher variant than standardized modern polo, with minimal rules and no substitutions, preserving regional practices of the sport that predate Britain's formalization of modern polo rules. The festival draws crowds who camp for days at that extreme altitude to watch the matches, accompanied by folk music, and holding it despite the enormous logistical difficulty of organizing a mass gathering in such a remote location is part of its own appeal.",
+      },
+    },
+  },
+  {
+    id: "el-ajrak-el-textil-sindhi",
+    order: 14,
+    placeholderEmoji: "🧵",
+    accentColor: "#26428B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El estampado azul y rojo que identifica a los sindhis",
+        subtitle: "El ajrak, textil tradicional sindhi",
+        imageAlt: "Caricatura de una tela con estampados geométricos en azul índigo y rojo carmesí.",
+        description:
+          "El ajrak es un textil tradicional de la provincia de Sindh, reconocible por sus patrones geométricos y florales en tonos profundos de azul índigo y rojo carmesí, estampados sobre algodón mediante un elaborado proceso artesanal de tinte por reserva y estampado a bloque de madera que puede llevar entre una y dos semanas por pieza, con numerosos ciclos de lavado, teñido y estampado sucesivos, producido tradicionalmente en comunidades artesanas hereditarias de pueblos específicos como Hala, Bhit Shah y Matiari. La tela se usa de múltiples formas —chal, turbante, envoltura, pieza decorativa— tanto por hombres como por mujeres, y está profundamente ligada a la identidad cultural sindhi, ofrecida tradicionalmente como muestra de respeto y hospitalidad al recibir invitados. Aunque el oficio enfrenta la competencia de imitaciones industriales, las comunidades de artesanos tradicionales continúan practicando el método original, y Sindh celebra anualmente un 'Día del Ajrak y la Cultura Sindhi'.",
+      },
+      en: {
+        title: "The Blue and Red Print That Identifies the Sindhis",
+        subtitle: "Ajrak, a Traditional Sindhi Textile",
+        imageAlt: "Cartoon of fabric with geometric patterns printed in indigo blue and crimson red.",
+        description:
+          "Ajrak is a traditional textile from Sindh province, recognizable by its geometric and floral patterns in deep indigo blue and crimson red, block-printed onto cotton through an elaborate artisanal resist-dyeing and wood block-printing process that can take one to two weeks per piece, involving numerous successive cycles of washing, dyeing, and printing, traditionally produced by hereditary artisan communities in specific towns like Hala, Bhit Shah, and Matiari. The cloth is used in multiple ways — as a shawl, turban, wrap, or decorative piece — by both men and women, and is deeply tied to Sindhi cultural identity, traditionally offered as a sign of respect and hospitality when welcoming guests. Although the craft faces competition from cheaper industrial imitations, traditional artisan communities continue practicing the original method, and Sindh celebrates an annual 'Ajrak and Sindhi Culture Day.'",
+      },
+    },
+  },
+  {
+    id: "peshawar-y-el-paso-jaiber",
+    order: 15,
+    placeholderEmoji: "⛰️",
+    accentColor: "#A0522D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La puerta de montaña que conectó Asia por siglos",
+        subtitle: "Peshawar y el paso de Jáiber",
+        imageAlt: "Caricatura de una caravana cruzando un desfiladero montañoso rocoso.",
+        description:
+          "El paso de Jáiber, que conecta la ciudad pakistaní de Peshawar con Afganistán a través de las montañas del Hindu Kush, fue durante milenios uno de los pasos de montaña estratégicamente más importantes de Asia, utilizado por comerciantes, ejércitos y viajeros que se desplazaban entre Asia Central y el subcontinente indio como parte de la red de la antigua Ruta de la Seda, y escenario de numerosas campañas militares e invasiones históricas debido a su geografía de paso angosto y obligado. Peshawar, una de las ciudades más antiguas del sur de Asia con más de 2.000 años de historia, funcionó como un gran centro comercial en el cruce de culturas, con capas de la antigua civilización de Gandhara, herencia budista, el período mogol y la era colonial. Las estrechas calles de bazar de su casco antiguo, como el Qissa Khwani Bazaar o 'Mercado de los Cuentacuentos', funcionaron como punto de encuentro donde comerciantes y viajeros intercambiaban noticias e historias.",
+      },
+      en: {
+        title: "The Mountain Gateway That Connected Asia for Centuries",
+        subtitle: "Peshawar and the Khyber Pass",
+        imageAlt: "Cartoon of a caravan crossing a rocky mountain gorge.",
+        description:
+          "The Khyber Pass, connecting the Pakistani city of Peshawar to Afghanistan through the Hindu Kush mountains, was for millennia one of the strategically most important mountain passes in Asia, used by traders, armies, and travelers moving between Central Asia and the Indian subcontinent as part of the ancient Silk Road network, and the site of numerous historic invasions and military campaigns given its narrow, forced chokepoint geography. Peshawar, one of the oldest continuously inhabited cities in South Asia with more than 2,000 years of history, historically functioned as a major trading hub sitting at the crossroads of cultures, with layers of the ancient Gandhara civilization, Buddhist heritage, the Mughal period, and the British colonial era stacked one atop another. The narrow bazaar streets of its old city, like the Qissa Khwani Bazaar, or 'Storytellers' Market,' historically served as a meeting point where merchants and travelers exchanged news and stories.",
+      },
+    },
+  },
+  {
+    id: "el-mango-la-fruta-nacional",
+    order: 16,
+    placeholderEmoji: "🥭",
+    accentColor: "#F57F17",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que exporta la fruta llamada rey de las frutas",
+        subtitle: "El mango, la fruta nacional",
+        imageAlt: "Caricatura de mangos maduros amarillos y rojos apilados en un canasto.",
+        description:
+          "Pakistán se encuentra entre los principales productores y exportadores de mango del mundo, con variedades célebres como el chaunsa, elogiado por su dulzura excepcional, además del sindhri y el anwar ratol, cada uno con seguidores regionales devotos. La temporada del mango, aproximadamente entre mayo y septiembre, se vive como un acontecimiento cultural en sí mismo, con las llamadas 'fiestas del mango' o aam ki dawat, reuniones donde amigos y familiares prueban y comparan variedades. La región de Multán es especialmente conocida como uno de los principales centros productores, apodada la 'Ciudad de los Mangos'. El gobierno pakistaní mantiene además una tradición diplomática informal conocida como 'diplomacia del mango', enviando cajas del fruto como gesto de buena voluntad a dignatarios extranjeros, y la fruta está tan integrada en la cultura culinaria estacional que da nombre a postres y bebidas populares como el lassi de mango.",
+      },
+      en: {
+        title: "The Country That Exports the King of Fruits",
+        subtitle: "Mango, the National Fruit",
+        imageAlt: "Cartoon of ripe yellow and red mangoes piled in a basket.",
+        description:
+          "Pakistan ranks among the world's leading mango producers and exporters, with particularly renowned varieties like Chaunsa, praised for its exceptional sweetness, along with Sindhri and Anwar Ratol, each with devoted regional followers who debate their comparative merits. Mango season, roughly from May to September, is experienced as a cultural event in its own right, with so-called 'mango parties,' or aam ki dawat, common social gatherings where friends and family come together to sample and compare different varieties. The Multan region is especially known as one of the country's major mango-growing centers, nicknamed the 'City of Mangoes.' The Pakistani government also maintains a longstanding informal diplomatic tradition known as 'mango diplomacy,' sending boxes of the fruit as a goodwill gesture to foreign dignitaries, and the fruit is so embedded in the country's seasonal food culture that it lends its name to popular desserts and drinks like mango lassi.",
+      },
+    },
+  },
+  {
+    id: "la-mezquita-faisal-un-icono-moderno",
+    order: 17,
+    placeholderEmoji: "🕌",
+    accentColor: "#78909C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La mezquita moderna con forma de tienda beduina",
+        subtitle: "La Mezquita Faisal, un ícono moderno",
+        imageAlt: "Caricatura de una mezquita moderna de techo triangular y minaretes esbeltos y angulares.",
+        description:
+          "La Mezquita Faisal, en Islamabad, terminada en 1986 y financiada en gran parte por el rey saudita Faisal, en cuyo honor lleva el nombre, rompe radicalmente con la arquitectura tradicional de mezquita basada en cúpulas: diseñada por el arquitecto turco Vedat Dalokay, ganador de un concurso internacional de diseño, su forma evoca una tienda beduina del desierto, con un techo triangular de hormigón fuertemente inclinado y cuatro minaretes esbeltos y angulares en las esquinas, inspirados en la arquitectura turca en lugar del estilo mogol típico del sur de Asia. Durante un período tras su construcción fue la mezquita más grande del mundo por capacidad, antes de ser superada por construcciones posteriores en otros países; su sala de oración principal alberga a unos 10.000 fieles, mientras que el patio y los terrenos circundantes pueden recibir hasta 300.000 personas en ocasiones importantes. Hoy es un símbolo icónico del perfil moderno de Islamabad.",
+      },
+      en: {
+        title: "The Modern Mosque Shaped Like a Bedouin Tent",
+        subtitle: "Faisal Mosque, a Modern Icon",
+        imageAlt: "Cartoon of a modern mosque with a triangular roof and sleek, angular minarets.",
+        description:
+          "Faisal Mosque, in Islamabad, completed in 1986 and largely funded by Saudi King Faisal, in whose honor it's named, breaks radically from traditional dome-based mosque architecture: designed by Turkish architect Vedat Dalokay, winner of an international design competition, its shape evokes a Bedouin desert tent, with a sharply sloped triangular concrete roof and four slender, angular minarets at its corners, inspired by Turkish architecture rather than the typical Mughal style of South Asia. For a period after its completion it was the largest mosque in the world by capacity, before being surpassed by later constructions elsewhere; its main prayer hall holds around 10,000 worshippers, while the courtyard and surrounding grounds can accommodate up to 300,000 people during major occasions. Today it stands as an iconic symbol of Islamabad's modern skyline.",
+      },
+    },
+  },
+  {
+    id: "el-lago-attabad-turquesa-en-las-montanas",
+    order: 18,
+    placeholderEmoji: "🏞️",
+    accentColor: "#00ACC1",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El lago turquesa que nació de un derrumbe",
+        subtitle: "El lago Attabad, turquesa en las montañas",
+        imageAlt: "Caricatura de un lago de agua turquesa intensa rodeado de montañas escarpadas.",
+        description:
+          "El lago Attabad, en el valle de Hunza, se formó de manera repentina en enero de 2010 cuando un enorme desprendimiento de tierra bloqueó el río Hunza, creando una represa natural que inundó el valle, sumergió aldeas enteras y un tramo de la Carretera del Karakórum, desplazó a miles de personas y causó la muerte de varias personas durante el propio derrumbe. En los meses siguientes, el agua acumulada formó un lago de un intenso color turquesa de unos 21 kilómetros de largo, y durante años el desastre interrumpió el transporte regional: el tráfico de la carretera debió desviarse cruzando el lago en bote hasta que se completaron túneles que bordearon el tramo sumergido, alrededor de 2015. Pese a su origen trágico, el lago se convirtió en una atracción turística notable por su color vívido y su entorno montañoso, y hoy el paseo en bote y el alojamiento junto a sus orillas forman parte habitual del circuito turístico de Hunza.",
+      },
+      en: {
+        title: "The Turquoise Lake Born From a Landslide",
+        subtitle: "Attabad Lake, Turquoise in the Mountains",
+        imageAlt: "Cartoon of an intensely turquoise lake surrounded by steep mountains.",
+        description:
+          "Attabad Lake, in the Hunza Valley, formed suddenly in January 2010 when a massive landslide blocked the Hunza River, creating a natural dam that flooded the valley, submerging entire villages and a stretch of the Karakoram Highway, displacing thousands of people, and killing several during the landslide itself. Over the following months, the rising water formed a lake of intense turquoise color roughly 21 kilometers long, and for years the disaster disrupted regional transport: highway traffic had to detour by boat across the lake until tunnels were completed bypassing the submerged section, around 2015. Despite its tragic origin, the lake became a notable tourist attraction for its vivid color and spectacular mountain scenery, and today boating and lakeside accommodation are a regular part of the Hunza tourism circuit.",
+      },
+    },
+  },
+  {
+    id: "el-basant-festival-de-cometas",
+    order: 19,
+    placeholderEmoji: "🪁",
+    accentColor: "#E64A19",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El festival de primavera que llena el cielo de cometas",
+        subtitle: "El basant, festival de cometas",
+        imageAlt: "Caricatura de coloridas cometas triangulares volando sobre azoteas de una ciudad.",
+        description:
+          "El basant, festival tradicional de primavera celebrado sobre todo en Punjab y en Lahore, marcaba la llegada de la primavera con multitudes volando cometas de colores desde los techos de toda la ciudad, incluyendo competencias de 'combate de cometas' en las que los participantes usaban hilos recubiertos de vidrio molido, el 'manja', para intentar cortar las cometas rivales en pleno vuelo. La celebración incluía tradicionalmente ropa amarilla, en referencia a la primavera y las flores de mostaza, además de música y reuniones en las azoteas. Con el tiempo, esos hilos, a veces reforzados con metal o vidrio para volverlos más filosos, provocaron accidentes graves, incluyendo heridas y muertes de motociclistas alcanzados por hilos sueltos, lo que llevó a las autoridades de Punjab a imponer restricciones estrictas. Hoy la tradición sobrevive en formas más pequeñas, y sobre todo en la memoria cultural de quienes vivieron sus grandes festejos.",
+      },
+      en: {
+        title: "The Spring Festival That Fills the Sky With Kites",
+        subtitle: "Basant, a Kite-Flying Festival",
+        imageAlt: "Cartoon of colorful triangular kites flying over city rooftops.",
+        description:
+          "Basant, a traditional spring festival celebrated especially in Punjab and Lahore, marked the arrival of spring with crowds flying colorful kites from rooftops citywide, including 'kite-fighting' competitions in which participants used strings coated in ground glass, called 'manja,' to try to cut down rivals' kites mid-flight. The celebration traditionally included wearing yellow clothing, referencing spring and mustard flowers, along with music and festive rooftop gatherings. Over time, those manja strings, sometimes reinforced with metal or glass to make them sharper, caused serious accidents, including injuries and deaths among motorcyclists and bystanders struck by stray strings, leading Punjab authorities to impose strict restrictions on kite flying. Today the tradition survives in smaller forms, and above all in the cultural memory of those who experienced its large-scale celebrations.",
+      },
+    },
+  },
+  {
+    id: "muhammad-ali-jinnah-padre-de-la-nacion",
+    order: 20,
+    placeholderEmoji: "📜",
+    accentColor: "#1A3C6E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El abogado que negoció la creación de un país nuevo",
+        subtitle: "Muhammad Ali Jinnah, padre de la nación",
+        imageAlt: "Caricatura de un hombre con traje formal y gorro tradicional junto a una pluma y documentos.",
+        description:
+          "Muhammad Ali Jinnah, abogado formado en Londres, lideró el movimiento político que negoció y logró la creación de Pakistán como nación independiente en agosto de 1947, convirtiéndose en su primer gobernador general. Honrado con el título de 'Quaid-e-Azam', o 'Gran Líder', es considerado el padre fundador de la nación, y su retrato aparece hoy en la moneda pakistaní. Formado como abogado litigante, Jinnah era conocido por su agudeza legal y sus habilidades de negociación, puestas a prueba durante las extensas negociaciones con las autoridades coloniales británicas. Murió poco más de un año después, en septiembre de 1948, a causa de una tuberculosis que había mantenido privada durante la exigente campaña final. Su mausoleo, el Mazar-e-Quaid en Karachi, es hoy un monumento nacional de primer orden, y su discurso del 11 de agosto de 1947 ante la asamblea constituyente, donde enfatizó la libertad religiosa y la ciudadanía igualitaria, sigue siendo ampliamente citado.",
+      },
+      en: {
+        title: "The Lawyer Who Negotiated a Brand-New Country",
+        subtitle: "Muhammad Ali Jinnah, Father of the Nation",
+        imageAlt: "Cartoon of a man in a formal suit and traditional cap beside a pen and documents.",
+        description:
+          "Muhammad Ali Jinnah, a lawyer trained in London, led the political movement that negotiated and achieved the creation of Pakistan as an independent nation in August 1947, becoming its first Governor-General. Honored with the title 'Quaid-e-Azam,' or 'Great Leader,' he's considered the founding father of the nation, and his portrait appears today on Pakistani currency and in official buildings nationwide. Originally trained as a barrister, Jinnah was known for his sharp legal mind and negotiating skill, tested throughout the extensive independence negotiations with British colonial authorities. He died just over a year later, in September 1948, from tuberculosis he had largely kept private during the demanding final campaign. His mausoleum, the Mazar-e-Quaid in Karachi, stands today as a major national monument, and his August 11, 1947 speech to Pakistan's constituent assembly, emphasizing religious freedom and equal citizenship, remains widely cited.",
+      },
+    },
+  },
 ];

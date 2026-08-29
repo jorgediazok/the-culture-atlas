@@ -231,4 +231,234 @@ export const southKorea: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "hanbok",
+    order: 11,
+    placeholderEmoji: "👘",
+    accentColor: "#6A4C93",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El vestido tradicional que volvió a las calles de Seúl",
+        subtitle: "El hanbok, vestimenta tradicional",
+        imageAlt: "Caricatura de una persona con un hanbok de falda amplia y chaqueta corta y colorida.",
+        description:
+          "El hanbok, la vestimenta tradicional coreana, se caracteriza por una falda amplia y de talle alto, la chima, para las mujeres, y pantalones sueltos, el baji, para los hombres, combinados con una chaqueta corta y entallada, la jeogori, típicamente en colores vivos con ribetes contrastantes. Su diseño se remonta siglos atrás, con raíces en el período de los Tres Reinos de Corea y refinado durante la dinastía Joseon, aunque fue en gran medida reemplazado por la vestimenta occidental en la vida cotidiana durante la modernización del siglo XX, reservado principalmente para festividades importantes como el Seollal o el Chuseok, bodas y ceremonias formales. En años recientes vivió un notable resurgimiento: los palacios históricos de Seúl comenzaron a ofrecer entrada gratuita a quien vistiera hanbok, impulsando un boom de tiendas de alquiler alrededor de los palacios donde locales y turistas se visten para sacarse fotos.",
+      },
+      en: {
+        title: "The Traditional Dress That Returned to Seoul's Streets",
+        subtitle: "Hanbok, Traditional Korean Dress",
+        imageAlt: "Cartoon of a person wearing a hanbok with a wide skirt and a short, colorful jacket.",
+        description:
+          "The hanbok, Korea's traditional dress, is characterized by a voluminous, high-waisted skirt, the chima, for women, and loose trousers, the baji, for men, paired with a short, fitted jacket, the jeogori, typically in vivid colors with contrasting trim. Its design dates back centuries, with roots in Korea's Three Kingdoms period and refined through the Joseon dynasty, though it was largely replaced by Western dress in everyday life during 20th-century modernization, retained mainly for major holidays like Seollal or Chuseok, weddings, and formal ceremonies. In recent years it experienced a notable revival: Seoul's historic palaces began offering free admission to anyone wearing hanbok, spurring a boom in rental shops around the palace grounds where both locals and tourists dress up for photos.",
+      },
+    },
+  },
+  {
+    id: "gogigui-parrilla-coreana",
+    order: 12,
+    placeholderEmoji: "🥩",
+    accentColor: "#8B4513",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La parrilla que se comparte en el centro de la mesa",
+        subtitle: "El gogigui, la parrilla coreana",
+        imageAlt: "Caricatura de una parrilla circular con trozos de carne asándose sobre brasas.",
+        description:
+          "El gogigui, que significa literalmente 'asar carne', es la tradición coreana de parrilla centrada en cocinar la carne —panceta de cerdo samgyeopsal, carne de res marinada bulgogi o costillas galbi— directamente en la mesa sobre una parrilla incorporada, un estilo de comida fundamentalmente social. Los comensales cocinan la carne ellos mismos en pequeñas tandas, usando tijeras en lugar de cuchillo, y las envuelven en hojas de lechuga o perilla junto con arroz, ajo, pasta ssamjang y otros acompañamientos para comerlas en un solo bocado, el ssam. La comida se acompaña de numerosos platitos compartidos que se reponen sin costo, y la cultura de tomar soju está entrelazada con el ritual de asar y comer juntos. Considerado un formato definitorio de la comida social coreana, se exportó globalmente como uno de los más reconocidos de la cocina del país en el exterior.",
+      },
+      en: {
+        title: "The Grill Shared at the Center of the Table",
+        subtitle: "Gogigui, Korean Barbecue",
+        imageAlt: "Cartoon of a round grill with pieces of meat cooking over coals.",
+        description:
+          "Gogigui, literally meaning 'meat roasting,' is the Korean barbecue tradition centered on grilling meat — pork belly samgyeopsal, marinated beef bulgogi, or short ribs galbi — directly at the table on a built-in grill, a fundamentally social and communal dining style. Diners cook the meat themselves in small batches, using scissors rather than a knife to cut the finished pieces, and wrap them in lettuce or perilla leaves along with rice, garlic, ssamjang paste, and other side dishes to eat in a single wrapped bite, the ssam. The meal is usually accompanied by numerous shared side dishes refilled at no extra charge, and soju drinking culture is closely intertwined with the social ritual of grilling and eating together. Considered a defining format of Korean social dining, it's common at business dinners and celebrations, and it was exported globally as one of Korean cuisine's most recognized formats abroad.",
+      },
+    },
+  },
+  {
+    id: "suneung",
+    order: 13,
+    placeholderEmoji: "📝",
+    accentColor: "#1565C0",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El examen tan importante que frena a los aviones",
+        subtitle: "El suneung, el examen que detiene al país",
+        imageAlt: "Caricatura de un lápiz apoyado sobre una hoja de examen junto a un reloj.",
+        description:
+          "El suneung, el examen nacional de ingreso a la universidad de Corea del Sur, se realiza cada año en un único día de noviembre y es considerado uno de los exámenes estandarizados de mayor presión del mundo, dado el enorme peso que el ingreso universitario, y por extensión las perspectivas laborales futuras, tiene en la sociedad surcoreana. El día del examen se vive casi como un evento nacional: los mercados bursátiles abren una hora más tarde para aliviar el tráfico, los vuelos se suspenden o desvían durante la sección de comprensión auditiva en inglés para evitar interferencias de ruido, colectivos y taxis ofrecen viajes gratuitos a estudiantes con el horario justo, y la policía escolta a alumnos hasta los centros de examen. La presión académica extrema asociada al examen y a la cultura educativa hipercompetitiva del país también fue vinculada por investigadores con niveles elevados de estrés entre los jóvenes, un tema de debate nacional continuo sobre la reforma educativa.",
+      },
+      en: {
+        title: "The Exam So Important That Planes Are Grounded",
+        subtitle: "Suneung, the Exam That Stops the Country",
+        imageAlt: "Cartoon of a pencil resting on an exam sheet beside a clock.",
+        description:
+          "The suneung, South Korea's national university entrance exam, is held on a single day each November and is widely considered one of the highest-stakes standardized tests in the world, given how heavily university admission, and by extension future career prospects, weighs in South Korean society. Test day plays out almost like a national event: stock markets open an hour later to ease traffic, flights are grounded or rerouted during the English listening section to avoid noise interference, buses and taxis offer free rides to students running late, and police escort students to test centers. The extreme academic pressure tied to the exam and the country's broader hyper-competitive education culture has also been linked by researchers to elevated stress among young people, a serious, ongoing subject of national debate about education reform.",
+      },
+    },
+  },
+  {
+    id: "chimaek",
+    order: 14,
+    placeholderEmoji: "🍗",
+    accentColor: "#F9A825",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Pollo frito y cerveza, el maridaje nacional",
+        subtitle: "El chimaek, pollo frito y cerveza",
+        imageAlt: "Caricatura de un balde de pollo frito junto a un vaso helado de cerveza.",
+        description:
+          "El chimaek, una combinación de las palabras 'chikin' (pollo) y 'maekju' (cerveza), es el maridaje coreano por excelencia entre pollo frito y cerveza, en especial el pollo frito coreano de doble fritura, conocido por su cobertura extra crocante y fina, a menudo glaseado en salsas como soja con ajo o gochujang picante. Se convirtió en un fenómeno cultural masivo especialmente desde los años 90 y 2000, con cadenas especializadas multiplicándose por todo el país, estrechamente ligado a la cultura social y de bebida coreana como comida habitual de after office o de noche entre amigos o colegas. El fenómeno se popularizó internacionalmente en parte gracias a las series coreanas, sobre todo el exitoso drama de 2014 'Mi amor de las estrellas', que disparó una verdadera fiebre por el chimaek en China después de que una protagonista elogiara repetidamente la combinación en pantalla. Corea alberga hoy un Festival del Chimaek anual en Daegu que atrae multitudes.",
+      },
+      en: {
+        title: "Fried Chicken and Beer, the National Pairing",
+        subtitle: "Chimaek, Fried Chicken and Beer",
+        imageAlt: "Cartoon of a bucket of fried chicken beside a frosty glass of beer.",
+        description:
+          "Chimaek, a blend of the words 'chikin' (chicken) and 'maekju' (beer), is Korea's beloved pairing of fried chicken and beer, especially double-fried Korean-style chicken, known for its extra-crispy, thin coating, often glazed in sauces like soy garlic or spicy gochujang. It became a massive cultural phenomenon especially from the 1990s and 2000s onward, with dedicated chains multiplying nationwide, closely tied to Korean drinking and social culture as a go-to late-night or after-work meal shared among friends or coworkers. The phenomenon was popularized internationally in part through Korean dramas, especially the hit 2014 show 'My Love from the Star,' which sparked a genuine chimaek craze in China after a character repeatedly praised the combination on screen. Korea now hosts an annual Chimaek Festival in Daegu that draws large crowds.",
+      },
+    },
+  },
+  {
+    id: "templestay",
+    order: 15,
+    placeholderEmoji: "🛕",
+    accentColor: "#6B7A3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El programa para vivir como monje budista por un día",
+        subtitle: "El templestay, vivir como monje",
+        imageAlt: "Caricatura de una persona meditando sentada frente a un templo con techos curvos.",
+        description:
+          "El templestay es un programa lanzado por la orden budista Jogye de Corea en 2002, inicialmente para ofrecer alojamiento a visitantes internacionales durante el Mundial de fútbol Corea-Japón, que permite a cualquier persona, coreana o extranjera, pasar la noche en un templo budista en funcionamiento y participar de la vida monástica cotidiana. El programa típico incluye despertarse antes del amanecer para sesiones de cantos y meditación, comidas comunitarias formales realizadas casi en silencio siguiendo una etiqueta estricta —el barugongyang, donde los practicantes comen cada grano de arroz y limpian su propio cuenco con agua que luego beben, en símbolo de no desperdiciar nada—, ceremonias del té con monjes y tareas manuales del templo. Se convirtió en una forma consolidada de turismo cultural y espiritual, con decenas de templos participantes en todo el país ofreciendo desde estadías de una noche hasta retiros inmersivos de varios días.",
+      },
+      en: {
+        title: "The Program to Live Like a Buddhist Monk for a Day",
+        subtitle: "Templestay, Living Like a Monk",
+        imageAlt: "Cartoon of a person meditating in front of a temple with curved roofs.",
+        description:
+          "Templestay is a program launched by the Jogye Order of Korean Buddhism in 2002, initially to provide accommodation for international visitors during the Korea-Japan World Cup, letting anyone, Korean or foreign, stay overnight at a functioning Buddhist temple and take part in daily monastic life. The typical program includes waking before dawn for chanting and meditation sessions, formal communal meals eaten in near-silence following strict etiquette — barugongyang, where practitioners eat every grain of rice and clean their own bowl with water they then drink, symbolizing zero waste — tea ceremonies with monks, and manual temple chores. It grew into a well-established form of cultural and spiritual tourism, with dozens of participating temples nationwide offering everything from single overnight stays to multi-day immersive retreats.",
+      },
+    },
+  },
+  {
+    id: "gyeongbokgung",
+    order: 16,
+    placeholderEmoji: "🏯",
+    accentColor: "#B71C1C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El palacio donde la guardia real cambia cada hora",
+        subtitle: "Gyeongbokgung, el gran palacio de Seúl",
+        imageAlt: "Caricatura de un guardia real coreano con uniforme colorido y lanza frente a un portón de palacio.",
+        description:
+          "El palacio de Gyeongbokgung, en Seúl, fue el palacio real principal de la dinastía Joseon, construido originalmente en 1395 poco después de la fundación de la dinastía, y sirvió como residencia real y sede de gobierno durante buena parte de su historia. Fue destruido en gran medida durante las invasiones japonesas de 1592 a 1598, permaneciendo en ruinas por unos 270 años antes de ser reconstruido en la década de 1860, y luego desmantelado y alterado extensamente durante el período colonial japonés, que construyó deliberadamente el edificio del gobernador general colonial justo frente al salón principal del palacio para socavar simbólicamente la soberanía coreana. Un proyecto de restauración en curso desde los años 90 trabajó para reconstruir estructuras demolidas y revertir alteraciones de la era colonial. Hoy es una de las principales atracciones de Seúl, famosa por su elaborada Ceremonia de Cambio de la Guardia Real.",
+      },
+      en: {
+        title: "The Palace Where the Royal Guard Changes Hourly",
+        subtitle: "Gyeongbokgung, Seoul's Great Palace",
+        imageAlt: "Cartoon of a Korean royal guard in a colorful uniform with a spear in front of a palace gate.",
+        description:
+          "Gyeongbokgung Palace, in Seoul, was the principal royal palace of the Joseon dynasty, originally built in 1395 shortly after the dynasty's founding, serving as the main royal residence and seat of government for much of its history. It was largely destroyed during the Japanese invasions of 1592 to 1598, left in ruins for roughly 270 years before being reconstructed in the 1860s, and later dismantled and extensively altered during the Japanese colonial period, which deliberately built the colonial governor-general's building directly in front of the palace's main hall to symbolically undermine Korean sovereignty. An ongoing restoration project since the 1990s has worked to rebuild demolished structures and reverse colonial-era alterations. Today it's one of Seoul's premier attractions, famous for its elaborate Royal Guard Changing Ceremony.",
+      },
+    },
+  },
+  {
+    id: "webtoons",
+    order: 17,
+    placeholderEmoji: "📱",
+    accentColor: "#00BCD4",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El cómic digital que Corea inventó para el celular",
+        subtitle: "Los webtoons, cómics para el celular",
+        imageAlt: "Caricatura de una mano sosteniendo un teléfono con viñetas de cómic en pantalla.",
+        description:
+          "Los webtoons son un formato de cómic digital pionero y popularizado en Corea del Sur desde comienzos de los años 2000, diseñado específicamente para desplazarse verticalmente en la pantalla de un celular en lugar del formato tradicional de página por página o grilla de viñetas del cómic impreso o el manga, generalmente gratuitos con capítulos de acceso anticipado pago o compras dentro de la aplicación como modelo principal de monetización. El formato surgió en parte como respuesta a la altísima penetración de smartphones e internet móvil en Corea, y en parte porque nuevas plataformas de publicación digital, sobre todo el servicio Webtoon de Naver, más tarde convertido en la plataforma global WEBTOON, abrieron el envío a creadores amateurs, bajando drásticamente la barrera de entrada frente a la publicación tradicional impresa. El formato se convirtió en una gran exportación cultural, con numerosos webtoons adaptados a series y películas coreanas de enorme éxito.",
+      },
+      en: {
+        title: "The Digital Comic Korea Invented for the Phone",
+        subtitle: "Webtoons, Comics Made for the Phone",
+        imageAlt: "Cartoon of a hand holding a phone with comic panels on the screen.",
+        description:
+          "Webtoons are a digital comic format pioneered and popularized in South Korea starting in the early 2000s, designed specifically for scrolling vertically on a phone screen rather than the traditional page-by-page or panel-grid format of print comics or manga, typically free to read with optional paid early-access chapters or in-app purchases as the main monetization model. The format emerged partly in response to Korea's extremely high smartphone and mobile internet penetration, and partly because new digital publishing platforms, most notably Naver's Webtoon service, later spun into the global platform WEBTOON, opened submissions to amateur creators, dramatically lowering the barrier to entry compared to traditional print publishing. The format exploded into a major cultural export, with numerous webtoons adapted into hugely successful Korean TV dramas and films.",
+      },
+    },
+  },
+  {
+    id: "jesa",
+    order: 18,
+    placeholderEmoji: "🕯️",
+    accentColor: "#5C4033",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ritual que sirve una cena a los ancestros",
+        subtitle: "El jesa, ritos ancestrales coreanos",
+        imageAlt: "Caricatura de una mesa baja con platos de comida y velas dispuestas para un ritual.",
+        description:
+          "El jesa es el rito conmemorativo ancestral de raíz confuciana practicado en las familias coreanas, celebrado típicamente en el aniversario de la muerte de un antepasado o durante festividades importantes como el Seollal y el Chuseok, que consiste en una comida ceremonial dispuesta sobre una mesa baja siguiendo reglas estrictas sobre la ubicación exacta de cada plato, con posiciones específicas para el arroz, la sopa, la carne, el pescado y las frutas según principios tradicionales de orientación. La ceremonia, liderada por el hijo o descendiente varón mayor, incluye reverencias, ofrendas de comida y vino de arroz, y momentos de silencio como si el espíritu del antepasado estuviera presente para 'compartir' la comida, tras lo cual la familia come junta. La práctica fue declinando ante la urbanización, familias más pequeñas y críticas de género sobre la carga de trabajo impuesta a las mujeres, un tema de debate continuo hoy.",
+      },
+      en: {
+        title: "The Ritual That Serves Dinner to the Ancestors",
+        subtitle: "Jesa, Korean Ancestral Rites",
+        imageAlt: "Cartoon of a low table set with dishes of food and candles for a ritual.",
+        description:
+          "Jesa is the Confucian-rooted ancestral memorial rite practiced by Korean families, typically held on the anniversary of an ancestor's death or during major holidays like Seollal and Chuseok, consisting of a ceremonial meal carefully arranged on a low table following strict rules about the exact placement of each dish, with specific positions for rice, soup, meat, fish, and fruit ordered by type and color according to traditional orientation principles. The ceremony, traditionally led by the eldest son or male descendant, includes bows, offerings of food and rice wine, and periods of respectful silence as if the ancestor's spirit were present to 'share' the meal, after which the family eats the food together. The practice has been declining and adapting amid urbanization, smaller families, and gender-role critiques of the labor burden traditionally placed on women, an ongoing point of debate in contemporary Korea.",
+      },
+    },
+  },
+  {
+    id: "esports-starcraft",
+    order: 19,
+    placeholderEmoji: "🎮",
+    accentColor: "#3949AB",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que convirtió videojuegos en deporte de estadio",
+        subtitle: "Los e-sports y la fiebre del StarCraft",
+        imageAlt: "Caricatura de un jugador con auriculares frente a una pantalla, con luces de escenario detrás.",
+        description:
+          "A Corea del Sur se la considera ampliamente la cuna de los e-sports profesionales modernos, un estatus que se remonta a una inusual convergencia de finales de los años 90: la inversión estatal en infraestructura de banda ancha tras la crisis financiera asiática de 1997 creó la población más conectada del mundo justo cuando los 'PC bang', cibercafés de videojuegos, se multiplicaban por todo el país, en el mismo momento en que el juego de estrategia en tiempo real StarCraft, lanzado en 1998, se convertía en un éxito masivo. La popularidad de StarCraft explotó hasta el punto de generar canales de cable dedicados las 24 horas que transmitían partidas profesionales con comentaristas, llenar estadios reales con fanáticos viendo competir a jugadores en vivo, y convertir a los mejores jugadores en celebridades. Ese ecosistema profesional temprano estableció modelos organizativos que el resto de la industria mundial de e-sports adoptó después con juegos como League of Legends.",
+      },
+      en: {
+        title: "The Country That Turned Gaming Into a Stadium Sport",
+        subtitle: "Esports and the StarCraft Craze",
+        imageAlt: "Cartoon of a player wearing headphones in front of a screen, with stage lights behind.",
+        description:
+          "South Korea is widely credited as the birthplace of modern professional esports, a status traced to an unusual convergence in the late 1990s: government investment in broadband infrastructure following the 1997 Asian financial crisis created the world's most connected population just as PC bang, internet gaming cafes, proliferated nationwide, right as the real-time strategy game StarCraft, released in 1998, became a massive hit. StarCraft's popularity exploded to the point of dedicated 24-hour cable channels broadcasting professional matches with commentary, filling actual stadiums with fans watching players compete live, and turning top players into celebrities. That early professional ecosystem established organizational templates the rest of the world's esports industry later adopted with games like League of Legends.",
+      },
+    },
+  },
+  {
+    id: "fanaticos-de-beisbol",
+    order: 20,
+    placeholderEmoji: "⚾",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El estadio donde la porra tiene coreografía propia",
+        subtitle: "El fanatismo del béisbol coreano",
+        imageAlt: "Caricatura de hinchas agitando pompones en las gradas de un estadio.",
+        description:
+          "El béisbol, introducido en Corea a principios del siglo XX, se convirtió en uno de los deportes más populares del país como espectáculo, con la liga profesional KBO, fundada en 1982, atrayendo multitudes masivas y famosamente enérgicas. La cultura de las hinchadas coreanas de béisbol se distingue por sus porras altamente organizadas y coreografiadas: cada equipo tiene animadores dedicados, hombres y mujeres, que dirigen cánticos sincronizados, gestos de manos y canciones específicas para cada jugador desde lo alto del dugout durante todo el partido, con los hinchas en las gradas siguiéndolos casi al unísono, un contraste marcado con el comportamiento más espontáneo típico de las hinchadas de béisbol en otras partes del mundo. La cultura gastronómica del estadio también es distintiva, centrada en pollo frito, calamar seco y cerveza servida hasta el asiento, y los partidos son conocidos por su ambiente festivo, casi de concierto.",
+      },
+      en: {
+        title: "The Stadium Where the Cheering Has Its Own Choreography",
+        subtitle: "Korean Baseball Fandom",
+        imageAlt: "Cartoon of fans waving pom-poms in the stands of a stadium.",
+        description:
+          "Baseball, introduced to Korea in the early 20th century, became one of the country's most popular spectator sports, with the professional KBO League, founded in 1982, drawing massive, famously energetic crowds. Korean baseball fan culture stands out for its highly organized, choreographed cheering: each team has dedicated cheerleaders, both men and women, leading synchronized chants, hand gestures, and player-specific songs from atop the dugout for the entire game, with fans in the stands following along in near-perfect unison, a sharp contrast to the more spontaneous fan behavior typical of baseball crowds elsewhere. Stadium food culture is also distinctive, centered on fried chicken, dried squid, and beer delivered to your seat, and games are known for a festive, almost concert-like atmosphere.",
+      },
+    },
+  },
 ];

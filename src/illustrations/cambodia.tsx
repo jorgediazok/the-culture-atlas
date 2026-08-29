@@ -180,6 +180,117 @@ const TaProhmElTemploDevoradoPorLaSelva: IllustrationComponent = ({ accentColor 
   );
 };
 
+const ElBokatorElArteMarcialQueRenacioDeLasRuinas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const skin = "#C9946B";
+  return (
+    <g>
+      {/* torso in fighting stance */}
+      <path d="M170 165 Q205 155 240 165 L235 235 L175 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* head */}
+      <circle cx="205" cy="145" r="18" fill={skin} stroke={dark} strokeWidth="2.5" />
+      {/* raised guarding arm */}
+      <path d="M175 175 Q150 165 145 135" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      {/* striking arm extended */}
+      <path d="M235 175 Q270 180 285 160" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      {/* waist sash */}
+      <rect x="175" y="215" width="60" height="16" fill="#C1272D" stroke={shade("#C1272D", 0.3)} strokeWidth="2" />
+      {/* stance legs */}
+      <path d="M188 233 Q170 242 158 248" stroke={dark} strokeWidth="8" strokeLinecap="round" fill="none" />
+      <path d="M222 233 Q245 238 256 248" stroke={dark} strokeWidth="8" strokeLinecap="round" fill="none" />
+    </g>
+  );
+};
+
+const ElPrahokLaPastaDePescadoFermentado: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const paste = "#7A8060";
+  return (
+    <g>
+      {/* clay jar */}
+      <path d="M160 240 Q150 200 165 175 Q175 160 205 158 Q235 160 245 175 Q260 200 250 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="175" rx="42" ry="12" fill={paste} stroke={shade(paste, 0.3)} strokeWidth="2.5" />
+      <ellipse cx="205" cy="172" rx="32" ry="8" fill={shade(paste, 0.15)} opacity="0.9" />
+      {/* fish drying on a line above */}
+      <line x1="270" y1="110" x2="320" y2="110" stroke="#8B5A2B" strokeWidth="3" />
+      {[280, 300, 315].map((x) => (
+        <path key={x} d={`M${x - 14} 110 Q${x} 100 ${x + 14} 110 Q${x} 120 ${x - 14} 110 Z`} fill="#D9A46A" stroke={dark} strokeWidth="1.5" />
+      ))}
+    </g>
+  );
+};
+
+const ElNorryElTrenDeBambuDeBattambang: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const bamboo = "#A0822E";
+  return (
+    <g>
+      {/* rusty rails */}
+      <line x1="85" y1="235" x2="320" y2="235" stroke="#8C8C6E" strokeWidth="5" />
+      <line x1="85" y1="222" x2="320" y2="222" stroke="#8C8C6E" strokeWidth="5" />
+      {[110, 150, 190, 230, 270, 300].map((x) => (
+        <rect key={x} x={x - 4} y="220" width="8" height="18" fill="#6B5B3A" />
+      ))}
+      {/* bamboo platform */}
+      <rect x="150" y="180" width="110" height="30" fill={bamboo} stroke={shade(bamboo, 0.3)} strokeWidth="2.5" />
+      {[160, 178, 196, 214, 232, 250].map((x) => (
+        <line key={x} x1={x} y1="180" x2={x} y2="210" stroke={shade(bamboo, 0.25)} strokeWidth="2" />
+      ))}
+      {/* wheels/axles */}
+      <circle cx="175" cy="215" r="10" fill="#4A4A4A" stroke={dark} strokeWidth="2" />
+      <circle cx="235" cy="215" r="10" fill="#4A4A4A" stroke={dark} strokeWidth="2" />
+      {/* small motor at the back */}
+      <rect x="245" y="165" width="22" height="18" fill="#5B5B5B" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const LaPagodaDePlataDelPalacioReal: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4AF37";
+  const silver = "#C8CDD2";
+  return (
+    <g>
+      {/* silver tiled floor */}
+      <rect x="90" y="215" width="230" height="30" fill={silver} stroke={dark} strokeWidth="2" />
+      {[105, 135, 165, 195, 225, 255, 285].map((x) => (
+        <line key={x} x1={x} y1="215" x2={x} y2="245" stroke={shade(silver, 0.2)} strokeWidth="1.5" opacity="0.6" />
+      ))}
+      {/* temple body */}
+      <rect x="150" y="140" width="110" height="80" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="3" />
+      {/* stepped roof */}
+      <path d="M140 140 L270 140 L250 110 L160 110 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M160 110 L250 110 L235 88 L175 88 Z" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+      <path d="M175 88 L235 88 L205 65 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <line x1="205" y1="65" x2="205" y2="50" stroke={dark} strokeWidth="2.5" />
+    </g>
+  );
+};
+
+const ElKoupreyElBueySalvajeQueNadieHaVistoEnDecadas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const grass = "#8FA05A";
+  return (
+    <g>
+      {/* tall grassland */}
+      {[100, 130, 270, 300].map((x) => (
+        <path key={x} d={`M${x} 250 Q${x - 6} 220 ${x} 195`} fill="none" stroke={grass} strokeWidth="5" opacity="0.6" strokeLinecap="round" />
+      ))}
+      {/* body */}
+      <path d="M150 225 Q145 190 190 185 Q245 180 265 205 Q272 213 262 220 L258 240 L155 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* head */}
+      <circle cx="162" cy="200" r="18" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* long upward-curving horns */}
+      <path d="M155 186 Q140 155 155 125 Q160 112 172 110" fill="none" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <path d="M172 186 Q160 155 175 128 Q182 115 195 113" fill="none" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      {/* legs */}
+      {[175, 200, 225, 245].map((x) => (
+        <line key={x} x1={x} y1="238" x2={x} y2="250" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      ))}
+    </g>
+  );
+};
+
 export const cambodiaIllustrations: Record<string, IllustrationDefinition> = {
   "angkor-wat-el-templo-religioso-mas-grande-del-mundo": { component: AngkorWatElTemploReligiosoMasGrandeDelMundo },
   "el-bayon-el-templo-de-los-rostros-sonrientes": { component: ElBayonElTemploDeLosRostrosSonrientes },
@@ -191,4 +302,9 @@ export const cambodiaIllustrations: Record<string, IllustrationDefinition> = {
   "la-escritura-jemer-heredera-del-brahmi": { component: LaEscrituraJemerHerederaDelBrahmi },
   "el-krama-la-prenda-mas-camboyana": { component: ElKramaLaPrendaMasCamboyana },
   "ta-prohm-el-templo-devorado-por-la-selva": { component: TaProhmElTemploDevoradoPorLaSelva },
+  "el-bokator-el-arte-marcial-que-renacio-de-las-ruinas": { component: ElBokatorElArteMarcialQueRenacioDeLasRuinas },
+  "el-prahok-la-pasta-de-pescado-fermentado": { component: ElPrahokLaPastaDePescadoFermentado },
+  "el-norry-el-tren-de-bambu-de-battambang": { component: ElNorryElTrenDeBambuDeBattambang },
+  "la-pagoda-de-plata-del-palacio-real": { component: LaPagodaDePlataDelPalacioReal },
+  "el-kouprey-el-buey-salvaje-que-nadie-ha-visto-en-decadas": { component: ElKoupreyElBueySalvajeQueNadieHaVistoEnDecadas },
 };

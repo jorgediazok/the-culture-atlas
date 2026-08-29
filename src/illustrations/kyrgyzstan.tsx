@@ -165,6 +165,47 @@ const KalpakSombreroNacional: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const BerkutchiCazadoresAguila: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const eagleBrown = "#6B4226";
+  const eagleDark = shade(eagleBrown, 0.3);
+  const glove = "#C68642";
+  return (
+    <g>
+      <circle cx="145" cy="145" r="17" fill={skin} />
+      <path d="M120 160 Q145 148 170 160 L162 235 L128 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M150 180 Q195 182 235 198" fill="none" stroke={accentColor} strokeWidth="16" strokeLinecap="round" />
+      <ellipse cx="248" cy="205" rx="20" ry="14" fill={glove} stroke={shade(glove, 0.3)} strokeWidth="2.5" transform="rotate(15 248 205)" />
+      <ellipse cx="252" cy="172" rx="27" ry="35" fill={eagleBrown} stroke={eagleDark} strokeWidth="2.5" />
+      <circle cx="252" cy="135" r="15" fill={shade(eagleBrown, 0.1)} stroke={eagleDark} strokeWidth="2" />
+      <path d="M252 135 L237 141 L252 148 Z" fill="#D4A017" />
+      <path d="M230 155 Q205 170 214 202 Q233 193 238 165 Z" fill={eagleDark} />
+      <path d="M274 155 Q299 170 290 202 Q271 193 266 165 Z" fill={eagleDark} />
+      <path d="M240 205 L234 220 M252 208 L252 222 M264 205 L270 220" stroke={eagleDark} strokeWidth="3" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const KomuzInstrumentoNacional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#A0752B";
+  return (
+    <g>
+      <path d="M175 240 Q140 235 138 195 Q136 160 175 150 Q214 160 212 195 Q210 235 175 240 Z" fill={wood} stroke={dark} strokeWidth="3" />
+      <circle cx="175" cy="195" r="14" fill={dark} opacity="0.5" />
+      <rect x="168" y="90" width="14" height="75" fill={wood} stroke={dark} strokeWidth="2.5" />
+      <rect x="160" y="75" width="30" height="20" rx="4" fill={dark} />
+      {[168, 178, 188].map((x) => (
+        <circle key={x} cx={x} cy="80" r="3" fill={accentColor} />
+      ))}
+      {[172, 178, 184].map((x) => (
+        <line key={x} x1={x} y1="90" x2={x} y2="235" stroke="#F5F0E6" strokeWidth="1.5" opacity="0.85" />
+      ))}
+    </g>
+  );
+};
+
 export const kyrgyzstanIllustrations: Record<string, IllustrationDefinition> = {
   "manas-epica-mas-larga": { component: ManasEpicaMasLarga },
   "tunduk-techo-de-yurta": { component: TundukTechoDeYurta },
@@ -176,4 +217,6 @@ export const kyrgyzstanIllustrations: Record<string, IllustrationDefinition> = {
   "tian-shan-montanas-celestiales": { component: TianShanMontanasCelestiales },
   "revolucion-tulipanes": { component: RevolucionTulipanes },
   "kalpak-sombrero-nacional": { component: KalpakSombreroNacional },
+  "berkutchi-cazadores-aguila": { component: BerkutchiCazadoresAguila },
+  "komuz-instrumento-nacional": { component: KomuzInstrumentoNacional },
 };

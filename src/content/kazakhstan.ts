@@ -231,4 +231,119 @@ export const kazakhstan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "la-dombra-y-el-aitys-duelo-de-poetas",
+    order: 11,
+    placeholderEmoji: "🎻",
+    accentColor: "#7B4B94",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El instrumento de dos cuerdas de los duelos poéticos",
+        subtitle: "La dombra y el aitys",
+        imageAlt: "Caricatura de un instrumento de dos cuerdas con forma de pera y mástil largo.",
+        description:
+          "La dombra, un instrumento de cuerda con caja de resonancia en forma de pera y apenas dos cuerdas, es el instrumento nacional de Kazajistán y el acompañamiento tradicional del aitys, una forma de duelo poético improvisado en el que dos cantantes compiten en vivo intercambiando versos ingeniosos, sátira social y humor punzante frente a un público que decide al ganador según el ingenio y la rapidez de sus respuestas. Transmitida oralmente durante generaciones dentro de la cultura nómada kazaja, la dombra se toca sin usar púa, solo con los dedos, en técnicas que varían profundamente entre las regiones occidental y oriental del país, y el aitys, revivido con fuerza tras la independencia de 1991, hoy se transmite por televisión y reúne a multitudes en competencias que pueden extenderse durante horas.",
+      },
+      en: {
+        title: "The Two-Stringed Instrument of Poetic Dueling",
+        subtitle: "The Dombra and Aitys",
+        imageAlt: "Cartoon of a two-stringed pear-shaped instrument with a long neck.",
+        description:
+          "The dombra, a two-stringed instrument with a pear-shaped resonating body, is Kazakhstan's national instrument and the traditional accompaniment to aitys, a form of improvised poetic dueling in which two singers compete live, trading witty verses, social satire, and sharp humor before an audience that decides the winner based on wit and quickness of response. Passed down orally for generations within Kazakh nomadic culture, the dombra is played with bare fingers rather than a pick, using techniques that differ sharply between the country's western and eastern regions, and aitys, strongly revived after 1991 independence, is broadcast on television today and draws crowds to competitions that can run for hours.",
+      },
+    },
+  },
+  {
+    id: "el-shyrdak-alfombras-de-fieltro-bordado",
+    order: 12,
+    placeholderEmoji: "🧶",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las alfombras de fieltro con patrones cosidos a mano",
+        subtitle: "El shyrdak, alfombras de fieltro",
+        imageAlt: "Caricatura de una alfombra de fieltro con espirales de colores cosidas.",
+        description:
+          "El shyrdak, una alfombra de fieltro tradicional kazaja hecha combinando dos capas de lana de colores contrastantes cortadas simultáneamente en patrones espirales y curvos con forma de cuerno, se cose después a mano uniendo las piezas recortadas de cada capa para que ambos lados de la alfombra muestren el diseño en colores invertidos, una técnica llamada mosaico de fieltro perfeccionada casi exclusivamente por mujeres artesanas. Cada motivo, transmitido de generación en generación dentro de una misma familia o región, tiene un significado simbólico vinculado a la naturaleza, la fertilidad o la protección del hogar nómada, y aunque el proceso completo de un solo shyrdak grande puede demorar varias semanas de trabajo manual, la artesanía sigue viva hoy tanto en talleres familiares como en cooperativas que exportan piezas a coleccionistas internacionales.",
+      },
+      en: {
+        title: "The Felt Carpets With Hand-Stitched Patterns",
+        subtitle: "Shyrdak Felt Carpets",
+        imageAlt: "Cartoon of a felt carpet with stitched colorful spirals.",
+        description:
+          "Shyrdak, a traditional Kazakh felt carpet made by combining two layers of contrasting colored wool cut simultaneously into spiraling, horn-shaped curved patterns, is then hand-stitched so the trimmed pieces from each layer are swapped and sewn together, letting both sides of the carpet display the design in inverted colors, a technique called mosaic felting perfected almost exclusively by women artisans. Each motif, passed down within a family or region across generations, carries symbolic meaning tied to nature, fertility, or protecting the nomadic home, and although making a single large shyrdak can take several weeks of manual work, the craft remains alive today in both family workshops and cooperatives that export pieces to collectors abroad.",
+      },
+    },
+  },
+  {
+    id: "baiterek-la-torre-del-huevo-dorado",
+    order: 13,
+    placeholderEmoji: "🗼",
+    accentColor: "#D4AF37",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La torre que representa un huevo dorado sobre un árbol",
+        subtitle: "La Torre Baiterek",
+        imageAlt: "Caricatura de una torre blanca ramificada rematada por una esfera dorada.",
+        description:
+          "La Torre Baiterek, el monumento más emblemático de Astaná, la capital de Kazajistán, se eleva 97 metros representando una leyenda popular túrquica sobre un árbol sagrado gigante en cuya copa el pájaro mítico Samruk ponía un huevo dorado cada año, un huevo que simboliza el sol y que aquí toma la forma de una esfera dorada de vidrio suspendida en la cima de una estructura blanca ramificada. Inaugurada en 2002 como parte del ambicioso plan de trasladar y construir una capital completamente nueva en plena estepa, la torre alberga un mirador panorámico desde donde se observa el trazado geométrico de los edificios futuristas de la nueva ciudad, y se convirtió rápidamente en el símbolo más fotografiado del país, replicado en postales, billetes y souvenirs de todo Kazajistán.",
+      },
+      en: {
+        title: "The Tower That Represents a Golden Egg on a Tree",
+        subtitle: "Baiterek Tower",
+        imageAlt: "Cartoon of a branching white tower topped with a golden sphere.",
+        description:
+          "Baiterek Tower, the most iconic monument in Astana, Kazakhstan's capital, rises 97 meters tall, representing a Turkic folk legend about a giant sacred tree in whose crown the mythical bird Samruk laid a golden egg every year, an egg symbolizing the sun that here takes the form of a golden glass sphere suspended atop a branching white structure. Opened in 2002 as part of the ambitious plan to relocate and build an entirely new capital out on the open steppe, the tower houses an indoor viewing platform overlooking the geometric layout of the new city's futuristic buildings, and it quickly became the country's most photographed symbol, reproduced on postcards, banknotes, and souvenirs across Kazakhstan.",
+      },
+    },
+  },
+  {
+    id: "el-beshbarmak-el-plato-de-los-cinco-dedos",
+    order: 14,
+    placeholderEmoji: "🍲",
+    accentColor: "#BF6E4E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El plato nacional que se come con la mano",
+        subtitle: "El beshbarmak, comida de los cinco dedos",
+        imageAlt: "Caricatura de una fuente con trozos de carne sobre láminas de pasta.",
+        description:
+          "El beshbarmak, cuyo nombre significa literalmente 'cinco dedos' en referencia a la costumbre tradicional de comerlo con la mano, es el plato nacional de Kazajistán, elaborado con trozos de carne hervida, generalmente de caballo o cordero, servidos sobre láminas anchas de pasta que absorben el caldo y cubiertos con cebolla cocida a fuego lento. Reservado tradicionalmente para ocasiones especiales como bodas, funerales y la llegada de huéspedes de honor, el plato sigue reglas de hospitalidad estrictas: al invitado principal suele ofrecérsele la cabeza cocida del animal, y distintas partes se reparten según la jerarquía y edad de cada comensal, una costumbre que convierte cada comida de beshbarmak en un ritual social además de una cena.",
+      },
+      en: {
+        title: "The National Dish Traditionally Eaten by Hand",
+        subtitle: "Beshbarmak, the Five Fingers Dish",
+        imageAlt: "Cartoon of a platter of meat chunks over sheets of pasta.",
+        description:
+          "Beshbarmak, whose name literally means 'five fingers' in reference to the traditional custom of eating it by hand, is Kazakhstan's national dish, made with chunks of boiled meat, usually horse or lamb, served over wide sheets of pasta that soak up the broth and topped with slow-cooked onions. Traditionally reserved for special occasions such as weddings, funerals, and the arrival of honored guests, the dish follows strict hospitality rules: the main guest is often offered the animal's boiled head, and different cuts are distributed according to each diner's rank and age at the table, a custom that turns every beshbarmak meal into a social ritual as much as a dinner.",
+      },
+    },
+  },
+  {
+    id: "los-leopardos-de-las-nieves-del-tian-shan",
+    order: 15,
+    placeholderEmoji: "🐆",
+    accentColor: "#78909C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los leopardos fantasma de las montañas más altas",
+        subtitle: "Los leopardos de las nieves del Tian Shan",
+        imageAlt: "Caricatura de un leopardo de las nieves de pelaje moteado sobre rocas nevadas.",
+        description:
+          "El leopardo de las nieves, un felino solitario de pelaje grisáceo moteado y una cola excepcionalmente larga y gruesa que usa como abrigo y equilibrio, habita los tramos más altos y escarpados de las montañas Tian Shan y Altái en el este de Kazajistán, un hábitat tan remoto y el animal tan esquivo que los pobladores locales lo apodaron 'el fantasma de las montañas' por lo raro que resulta avistarlo incluso para quienes viven en la región. Clasificado como especie vulnerable, con una población total estimada en apenas unos pocos miles de ejemplares distribuidos por toda Asia Central, el leopardo es protegido en Kazajistán mediante reservas naturales y programas de monitoreo con cámaras trampa, mientras investigadores y guardaparques trabajan para reducir los conflictos con pastores cuyo ganado a veces resulta presa del felino.",
+      },
+      en: {
+        title: "The Ghost Leopards of the Highest Mountains",
+        subtitle: "Snow Leopards of the Tian Shan",
+        imageAlt: "Cartoon of a spotted snow leopard on snowy rocks.",
+        description:
+          "The snow leopard, a solitary cat with a mottled grayish coat and an exceptionally long, thick tail used for warmth and balance, lives in the highest, most rugged stretches of the Tian Shan and Altai mountains in eastern Kazakhstan, a habitat so remote and the animal so elusive that locals nicknamed it 'the ghost of the mountains' for how rarely it's spotted even by people who live in the region. Classified as a vulnerable species, with a total estimated population of only a few thousand individuals spread across Central Asia, the snow leopard is protected in Kazakhstan through nature reserves and camera-trap monitoring programs, while researchers and rangers work to reduce conflicts with herders whose livestock sometimes falls prey to the cat.",
+      },
+    },
+  },
 ];

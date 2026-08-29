@@ -908,13 +908,138 @@ countries being expanded, not new registrations). **Europe's 20/15/12
 tiered expansion is now fully complete** — every country/territory in
 the continent is at its assigned tier.
 
-**Next up:** Asia and Africa still need their own tier assignments
-proposed to and approved by the user before the same expansion workflow
-can begin. Per the established cost-management pattern, consider
-starting a fresh chat for that next phase — and per the explicit
-instruction carried through the whole Europe phase, continue doing the
-expansion directly in the main session without background agents unless
-the user says otherwise.
+**Asia — tier assignment approved (2026-08-28), 20-tier batch in
+progress.** All 45 Asia countries/territories were at 10 entries each
+before this batch. Tiers proposed and approved: 20 (China, India, Japan,
+Indonesia, Iran, Saudi Arabia, Pakistan, Vietnam, Thailand, Philippines,
+South Korea, Bangladesh — 12 countries), 15 (Malaysia, Singapore, Sri
+Lanka, Nepal, Myanmar, Mongolia, Kazakhstan, Uzbekistan, Iraq, Syria,
+Yemen, Jordan, Lebanon, Afghanistan, Cambodia, Taiwan, North Korea,
+Azerbaijan — 18 countries), 12 (Turkmenistan, Tajikistan, Kyrgyzstan,
+United Arab Emirates, Qatar, Bahrain, Kuwait, Oman, Brunei, Bhutan,
+Maldives, East Timor, Palestine, Laos, North Korea — wait, see note below
+— 15 countries). Per explicit user instruction ("dale empecemos por los
+de 20"), started with the 20-tier batch, done directly in the main
+session with no background agents, one country at a time (consistent
+with the standing "no background agents for story expansion" rule).
+**20-tier batch complete (2026-08-28) — all 12 countries done and
+verified**: China, India, Japan, Indonesia, Saudi Arabia, Pakistan,
+Vietnam, Thailand, Philippines, South Korea, Bangladesh, Iran — all
+expanded from 10 to 20 entries each, done one country at a time directly
+in the main session, no background agents (per standing instruction).
+Each country's 10 new entries were picked to avoid duplicating existing
+topics (read all 10 existing first), covering history/monuments,
+festivals, food, music, crafts, nature/wildlife, sport, and daily-life
+customs, while steering clear of sensitive recent politics per the
+project's standing policy (no Kashmir/Partition framing for India/
+Pakistan/Bangladesh, no Cultural Revolution political framing beyond the
+mahjong-ban historical fact for China, no succession/religious
+controversy for Saudi Arabia, no 1979-revolution or current-government
+framing for Iran, no lèse-majesté/monarchy-criticism angle for Thailand,
+no Rohingya-crisis framing for Bangladesh/Myanmar border topics, no
+partition-violence detail for Pakistan's founding). Every country passed
+`tsc --noEmit`, `eslint`, the id-matching audit, and a title/description
+length audit (≤55/≤1000 — nearly every batch had several descriptions
+initially 1000–1150 chars needing iterative trims, sometimes 2–3 rounds
+per entry), plus its own full `rm -rf .next && npm run build` (420
+static paths throughout, unchanged since these are all existing
+countries being expanded, not new registrations). All illustrations
+followed the bold-style/no-trig/joint-overlap rules from the top of this
+file — recurring techniques this batch: rotate-transform star/petal
+bursts (no Math.sin/cos), thick-stroke wavy blades to avoid
+self-intersecting fills (Indonesia's kris), and the standard
+head-then-torso-then-limbs draw order for every figure with a
+numeric 2–5px overlap check at each joint. Not committed yet — awaiting
+explicit user request. **15-tier batch in progress (2026-08-28), started same session per
+explicit user "continua"**: 18 countries total (Malaysia, Singapore, Sri
+Lanka, Nepal, Myanmar, Mongolia, Kazakhstan, Uzbekistan, Iraq, Syria,
+Yemen, Jordan, Lebanon, Afghanistan, Cambodia, Taiwan, North Korea,
+Azerbaijan), each expanded from 10 to 15 entries (5 new per country,
+half the lift of the 20-tier batch). Same workflow: one country at a
+time in the main session, no background agents, new entries picked to
+avoid duplicating existing topics and steering clear of sensitive recent
+politics (for this batch specifically: no separatist/ethnic-conflict
+framing anywhere, no Rohingya crisis for Myanmar, no Sri Lankan civil
+war/2019 bombings/2022 economic crisis, no Kazakhstan/Uzbekistan
+authoritarianism critique). **Done and verified so far**: Malaysia
+(added Peranakan culture, silat Melayu, Gunung Mulu caves, teh tarik,
+rafflesia), Singapore (added kopi coffee culture, HDB public housing,
+Pulau Ubin, Sri Mariamman Temple, Chingay Parade — note Singapore
+already had its own Peranakan/baba-nyonya entry from the original 10,
+so that topic was correctly *not* reused here even though it was used
+for Malaysia), Sri Lanka (added Galle Fort, Pinnawala Elephant
+Orphanage, Vesak lantern festival, blue whale watching off Mirissa,
+1996 Cricket World Cup), Nepal (added Dashain festival, Pashupatinath
+temple, Boudhanath stupa, lokta paper craft, Tharu people of the
+lowlands), Myanmar (added U Bein teak bridge, yoke thé marionette
+theater, Bagan lacquerware, mohinga noodle soup, Irrawaddy river
+dolphins' cooperative fishing), Mongolia (added the deel robe, airag
+fermented mare's milk, the Gobi's Flaming Cliffs dinosaur-egg fossils,
+tsam Buddhist masked dance, Bactrian camels), Kazakhstan (added the
+dombra/aitys poetic-duel instrument, shyrdak felt carpets, Baiterek
+Tower, beshbarmak, Tian Shan snow leopards), Uzbekistan (added Itchan
+Kala walled city of Khiva, suzani bridal embroidery, Fergana Valley
+melons, Alisher Navoi, shashmaqam classical music), Iraq (added the
+Hanging Gardens of Babylon, the mheibes ring-hiding game, Basra's
+canals, Baghdad's school of Arabic calligraphy, the Newroz spring
+bonfire festival), Syria (added Krak des Chevaliers, Maalula's
+surviving Western Aramaic, kibbeh, Aleppo's qudud halabiya classical
+songs, Damascus mother-of-pearl inlay furniture), Yemen (added its
+mountain farming terraces, Sanaani sung poetry, the bar'a sword dance,
+the Arabian leopard, bint al-sahn honey pastry), Jordan (added zarb
+desert pit-cooking, the Madaba mosaic map, dabke line dance, the Dana
+reserve's Nubian ibex, Circassian heritage in Amman), Lebanon (added
+Phoenician glassblowing, Jeita Grotto, the Qadisha Valley's cliffside
+monasteries, kebbeh nayyeh, the Lebanese diaspora), Afghanistan (added
+hand-knotted Afghan carpets, the Tillya Tepe Bactrian gold treasure,
+the Afghan hound, Kabuli palaw, the attan circle dance), Cambodia
+(added bokator martial arts, prahok fermented fish paste, the norry
+bamboo train, the Royal Palace's Silver Pagoda, the kouprey wild ox),
+Taiwan (added Yushan/Jade Mountain, Taiwanese baseball, Jiufen's
+lantern streets, Hakka lei cha pounded tea, the Formosan blue magpie),
+North Korea (added the Goguryeo tomb murals, Kaesong ginseng, ssireum
+wrestling, Mount Kumgang, Goryeo celadon — deliberately kept clear of
+any regime/ideology content per this batch's sensitivity policy,
+unlike this country's pre-existing 10 entries which already touch
+Juche/songbun/DMZ as established prior-session content), Azerbaijan
+(added Gobustan rock art, shebeke stained-glass windows, armudu tea
+culture, Azerbaijani plov, mugham classical music) — **18 of 18 done,
+15-tier batch complete** (Malaysia, Singapore, Sri Lanka, Nepal,
+Myanmar, Mongolia, Kazakhstan, Uzbekistan, Iraq, Syria, Yemen, Jordan,
+Lebanon, Afghanistan, Cambodia, Taiwan, North Korea, Azerbaijan — each
+expanded 10→15, each passed `tsc --noEmit`, `eslint`, the id-matching
+audit, a length audit ≤55/≤1000, and its own full
+`rm -rf .next && npm run build` at 420 static paths).
+
+**12-tier batch complete (2026-08-28) — all 14 countries done and
+verified**: Turkmenistan, Tajikistan, Kyrgyzstan, United Arab Emirates,
+Qatar, Bahrain, Kuwait, Oman, Brunei, Bhutan, Maldives, East Timor,
+Palestine, Laos, each expanded 10→12 (2 new entries per country), done
+one country at a time directly in the main session, no background agents
+(per the standing instruction). Each country's 2 new entries were picked
+to avoid duplicating existing topics and to stay clear of the project's
+sensitive-history policy (no partition/conflict framing for the Central
+Asian '-stan' countries beyond what already existed, no political framing
+for Palestine's entries — picked food/culture topics like knafeh and
+ka'ak al-Quds instead — no graphic detail on Kuwait's 1991 oil well fires
+beyond the international firefighting effort itself). Recurring topic
+categories across the batch: a national animal/wildlife spectacle (UAE's
+Al Ain oasis, Kyrgyzstan's berkutchi eagle hunters, Bahrain's Hawar
+Islands flamingos, Maldives' Hanifaru Bay manta rays, East Timor's Wetar
+Strait whales, Bhutan's Phobjikha black-necked cranes), a distinct
+food/drink custom (UAE's gahwa, Qatar's karak tea, East Timor's tua sabu
+palm wine, Palestine's knafeh and ka'ak al-Quds), and a historical/economic
+curiosity (Turkmenistan's Alabai dog and Melon Day, Tajikistan's Seven
+Lakes and buzkashi, Kuwait's dinar and Gulf War oil fires, Oman's khareef
+monsoon and 1970 Renaissance, Bhutan's late arrival of TV, Maldives' 1153
+conversion to Islam, Laos's Vat Phou and Pi Mai water festival). All 14
+passed `tsc --noEmit`, `eslint` (zero errors across all 28 touched files),
+the id-matching audit (12/12 for every country), a title/description
+length audit (≤55/≤1000), and a final full `rm -rf .next && npm run build`
+(420 static paths, unchanged since these are all existing countries being
+expanded). **This completes Asia's entire 20/15/12 tiered expansion** —
+every country/territory on the continent is now at its assigned tier.
+Committed and pushed same session per explicit user request.
 
 **Cost-management pattern established 2026-08-23:** for this multi-country,
 multi-session expansion task, the user asked to start a fresh chat between

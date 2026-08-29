@@ -145,6 +145,50 @@ const InversionesGlobalesFondoSoberano: IllustrationComponent = ({ accentColor }
   );
 };
 
+const ArdhaDanzaEspadas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const steel = "#B0B8BF";
+  const dancers: [number, number][] = [
+    [150, 1],
+    [260, -1],
+  ];
+  return (
+    <g>
+      {dancers.map(([x, dir], i) => (
+        <g key={i}>
+          <circle cx={x} cy="150" r="14" fill={skin} />
+          <path d={`M${x - 20} 160 Q${x} 148 ${x + 20} 160 L${x + 15} 235 L${x - 15} 235 Z`} fill={accentColor} stroke={dark} strokeWidth="2.5" />
+          <path d={`M${x + 12 * dir} 172 Q${x + 30 * dir} 150 ${x + 35 * dir} 120`} fill="none" stroke={accentColor} strokeWidth="9" strokeLinecap="round" />
+          <path d={`M${x + 35 * dir} 120 Q${x + 55 * dir} 100 ${x + 45 * dir} 80`} fill="none" stroke={steel} strokeWidth="5" strokeLinecap="round" />
+        </g>
+      ))}
+      <ellipse cx="205" cy="225" rx="22" ry="10" fill={dark} opacity="0.5" />
+      <rect x="188" y="205" width="34" height="22" fill="#8B5A2B" stroke={dark} strokeWidth="2" />
+      <ellipse cx="205" cy="205" rx="17" ry="7" fill="#E8DCC0" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const KarakTeCallejero: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const metal = "#B0B8BF";
+  const metalDark = shade(metal, 0.3);
+  const tea = "#8B5A2B";
+  return (
+    <g>
+      <rect x="100" y="215" width="220" height="25" fill={dark} opacity="0.35" />
+      <path d="M175 205 Q160 205 160 185 Q158 160 180 155 Q182 145 198 144 Q214 145 216 155 Q232 158 230 175 L226 205 Z" fill={metal} stroke={metalDark} strokeWidth="3" />
+      <path d="M172 185 Q135 178 118 162 Q131 172 152 176 Q162 178 168 188 Z" fill={metal} stroke={metalDark} strokeWidth="2.5" />
+      <ellipse cx="198" cy="142" rx="9" ry="4" fill={metalDark} />
+      <path d="M214 185 Q244 180 244 198 Q244 212 228 212" fill="none" stroke={metalDark} strokeWidth="5" strokeLinecap="round" />
+      <path d="M117 163 Q108 172 102 185" stroke={tea} strokeWidth="3" strokeLinecap="round" fill="none" opacity="0.85" />
+      <path d="M82 190 L106 190 L102 212 L86 212 Z" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+      <rect x="86" y="198" width="16" height="10" fill={accentColor} opacity="0.7" />
+    </g>
+  );
+};
+
 export const qatarIllustrations: Record<string, IllustrationDefinition> = {
   "mundial-2022-primer-arabe": { component: Mundial2022PrimerArabe },
   "al-jazeera-cadena-que-cambio-medios": { component: AlJazeeraCadenaQueCambioMedios },
@@ -156,4 +200,6 @@ export const qatarIllustrations: Record<string, IllustrationDefinition> = {
   "souq-waqif-mercado-tradicional": { component: SouqWaqifMercadoTradicional },
   "dhow-barcos-tradicionales": { component: DhowBarcosTradicionales },
   "inversiones-globales-fondo-soberano": { component: InversionesGlobalesFondoSoberano },
+  "ardha-danza-espadas": { component: ArdhaDanzaEspadas },
+  "karak-te-callejero": { component: KarakTeCallejero },
 };

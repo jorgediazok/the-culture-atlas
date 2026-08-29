@@ -177,6 +177,133 @@ const AFamosaYElSultanatoDeMalaca: IllustrationComponent = ({ accentColor }) => 
   );
 };
 
+const LosPeranakanLaCulturaBabaNyonya: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  const porcelain = "#F5F0E6";
+  return (
+    <g>
+      {/* beaded slipper */}
+      <path d="M110 220 Q100 200 130 190 Q180 180 220 200 Q225 220 200 230 Q150 240 110 220 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {[
+        [135, 205],
+        [160, 198],
+        [185, 202],
+        [150, 215],
+        [175, 212],
+      ].map(([x, y], i) => (
+        <circle key={i} cx={x} cy={y} r="4" fill={gold} opacity="0.9" />
+      ))}
+      {/* porcelain teapot */}
+      <path d="M245 210 Q245 185 275 185 Q305 185 305 210 Q305 228 275 228 Q245 228 245 210 Z" fill={porcelain} stroke={dark} strokeWidth="2.5" />
+      <path d="M305 205 L322 195" stroke={porcelain} strokeWidth="7" strokeLinecap="round" />
+      <path d="M225 200 Q215 200 215 212 Q215 222 228 218" fill="none" stroke={porcelain} strokeWidth="7" strokeLinecap="round" />
+      <ellipse cx="275" cy="182" rx="10" ry="5" fill={dark} opacity="0.5" />
+      <path d="M258 200 Q275 192 292 200" fill="none" stroke={accentColor} strokeWidth="3" opacity="0.7" />
+    </g>
+  );
+};
+
+const ElSilatMelayuArteMarcialTradicional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const skin = "#C9946B";
+  return (
+    <g>
+      {/* fighter 1, low crouching stance */}
+      <circle cx="155" cy="150" r="15" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M140 163 Q155 155 170 163 L175 210 L135 210 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M140 208 L118 235" stroke={accentColor} strokeWidth="12" strokeLinecap="round" />
+      <path d="M170 208 L195 228" stroke={accentColor} strokeWidth="12" strokeLinecap="round" />
+      <path d="M144 170 Q115 178 105 200" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M166 170 Q195 168 210 185" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      {/* fighter 2, mirrored */}
+      <circle cx="255" cy="150" r="15" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M240 163 Q255 155 270 163 L265 210 L235 205 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+      <path d="M240 205 L215 228" stroke={tint(accentColor, 0.3)} strokeWidth="12" strokeLinecap="round" />
+      <path d="M264 208 L286 235" stroke={tint(accentColor, 0.3)} strokeWidth="12" strokeLinecap="round" />
+      <path d="M244 170 Q272 168 288 185" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M266 170 Q295 178 300 200" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const LasCuevasDeGunungMulu: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const sky = "#F4C87A";
+  return (
+    <g>
+      {/* cave rock silhouette */}
+      <path d="M85 250 L85 160 Q130 100 205 110 Q280 100 320 160 L320 250 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* cave mouth opening */}
+      <path d="M150 250 L155 190 Q205 160 255 190 L260 250 Z" fill={sky} opacity="0.7" />
+      {/* spiraling bats */}
+      {[
+        [190, 220],
+        [210, 195],
+        [230, 215],
+        [195, 175],
+        [240, 180],
+        [170, 200],
+        [220, 155],
+      ].map(([x, y], i) => (
+        <path key={i} d={`M${x} ${y} L${x - 6} ${y - 5} M${x} ${y} L${x + 6} ${y - 5}`} stroke={dark} strokeWidth="2" strokeLinecap="round" />
+      ))}
+    </g>
+  );
+};
+
+const ElTehTarikElTeEstirado: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C9946B";
+  const tea = "#8B4513";
+  return (
+    <g>
+      {/* person */}
+      <circle cx="150" cy="140" r="15" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M135 153 Q150 146 165 153 L170 220 L130 220 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* raised arm holding upper cup */}
+      <path d="M162 158 Q195 140 215 110" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M138 158 Q120 175 118 200" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      {/* upper vessel */}
+      <path d="M200 100 L230 100 L226 118 L204 118 Z" fill={tea} stroke={dark} strokeWidth="2" />
+      {/* pouring stream */}
+      <path d="M215 118 Q210 155 205 190" fill="none" stroke={tea} strokeWidth="3" opacity="0.8" />
+      {/* lower vessel with foam */}
+      <path d="M188 195 L222 195 L216 225 L194 225 Z" fill={tea} opacity="0.7" stroke={dark} strokeWidth="2" />
+      <ellipse cx="205" cy="195" rx="17" ry="6" fill="#F5F0E6" opacity="0.85" />
+    </g>
+  );
+};
+
+const LaRafflesiaLaFlorMasGrandeDelMundo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const spot = "#F5F0E6";
+  const ground = "#4A7A52";
+  return (
+    <g>
+      {/* forest floor */}
+      <ellipse cx="205" cy="240" rx="120" ry="15" fill={ground} opacity="0.4" />
+      {/* five petals */}
+      {[0, 72, 144, 216, 288].map((deg) => (
+        <ellipse key={deg} cx="205" cy="165" rx="30" ry="55" fill={accentColor} stroke={dark} strokeWidth="2.5" transform={`rotate(${deg} 205 200)`} />
+      ))}
+      {/* white spots on petals */}
+      {[
+        [175, 170],
+        [230, 175],
+        [205, 145],
+        [190, 210],
+        [220, 205],
+      ].map(([x, y], i) => (
+        <circle key={i} cx={x} cy={y} r="6" fill={spot} opacity="0.8" />
+      ))}
+      {/* central opening */}
+      <circle cx="205" cy="200" r="30" fill={dark} opacity="0.6" />
+      <circle cx="205" cy="200" r="18" fill={shade(accentColor, 0.5)} />
+    </g>
+  );
+};
+
 export const malaysiaIllustrations: Record<string, IllustrationDefinition> = {
   "las-torres-petronas-y-su-puente-aereo": { component: LasTorresPetronasYSuPuenteAereo },
   "las-cuevas-de-batu-y-el-festival-thaipusam": { component: LasCuevasDeBatuYElFestivalThaipusam },
@@ -188,4 +315,9 @@ export const malaysiaIllustrations: Record<string, IllustrationDefinition> = {
   "el-wau-bulan-la-cometa-luna": { component: ElWauBulanLaCometaLuna },
   "el-rey-que-rota-entre-nueve-sultanes": { component: ElReyQueRotaEntreNueveSultanes },
   "a-famosa-y-el-sultanato-de-malaca": { component: AFamosaYElSultanatoDeMalaca },
+  "los-peranakan-la-cultura-baba-nyonya": { component: LosPeranakanLaCulturaBabaNyonya },
+  "el-silat-melayu-arte-marcial-tradicional": { component: ElSilatMelayuArteMarcialTradicional },
+  "las-cuevas-de-gunung-mulu": { component: LasCuevasDeGunungMulu },
+  "el-teh-tarik-el-te-estirado": { component: ElTehTarikElTeEstirado },
+  "la-rafflesia-la-flor-mas-grande-del-mundo": { component: LaRafflesiaLaFlorMasGrandeDelMundo },
 };

@@ -169,6 +169,48 @@ const LaPescaDeCanaYLineaOrgulloMaldivo: IllustrationComponent = ({ accentColor 
   );
 };
 
+const HanifaruBaySantuarioDeMantarrayas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#4FA8E8";
+  const mantas: [number, number, number, number][] = [
+    [160, 165, 1, -20],
+    [230, 150, 0.85, 40],
+    [205, 210, 0.7, 160],
+  ];
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill={water} opacity="0.3" />
+      {mantas.map(([cx, cy, scale, rotate], i) => (
+        <g key={i} transform={`translate(${cx} ${cy}) rotate(${rotate}) scale(${scale})`}>
+          <path d="M0 -30 Q-40 -10 -45 15 Q-20 5 0 10 Q20 5 45 15 Q40 -10 0 -30 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+          <path d="M0 10 Q3 30 -2 48" fill="none" stroke={dark} strokeWidth="2.5" strokeLinecap="round" opacity="0.7" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const ConversionAlIslam1153: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const stone = "#B8A484";
+  return (
+    <g>
+      <rect x="130" y="220" width="60" height="20" fill={stone} stroke={shade(stone, 0.3)} strokeWidth="2.5" />
+      <path d="M135 220 Q135 170 160 155 Q185 170 185 220 Z" fill={stone} stroke={shade(stone, 0.3)} strokeWidth="3" />
+      <rect x="155" y="130" width="10" height="25" fill={shade(stone, 0.2)} />
+      <circle cx="160" cy="125" r="6" fill={shade(stone, 0.2)} />
+      <rect x="230" y="200" width="70" height="40" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
+      <ellipse cx="265" cy="195" rx="26" ry="20" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <line x1="265" y1="178" x2="265" y2="140" stroke={dark} strokeWidth="3" />
+      <path
+        fillRule="evenodd"
+        d="M265 122 a9 9 0 1 0 0 18 a9 9 0 1 0 0 -18 Z M269 124 a7 7 0 1 0 0 14 a7 7 0 1 0 0 -14 Z"
+        fill="#D4AF37"
+      />
+    </g>
+  );
+};
+
 export const maldivesIllustrations: Record<string, IllustrationDefinition> = {
   "maldivas-el-pais-mas-bajo-del-mundo": { component: MaldivasElPaisMasBajoDelMundo },
   "los-atolones-de-coral-de-maldivas": { component: LosAtolonesDeCoralDeMaldivas },
@@ -180,4 +222,6 @@ export const maldivesIllustrations: Record<string, IllustrationDefinition> = {
   "la-mezquita-de-los-viernes-tallada-en-coral": { component: LaMezquitaDeLosViernesTalladaEnCoral },
   "el-bodu-beru-el-tambor-grande-de-maldivas": { component: ElBoduBeruElTamborGrandeDeMaldivas },
   "la-pesca-de-cana-y-linea-orgullo-maldivo": { component: LaPescaDeCanaYLineaOrgulloMaldivo },
+  "hanifaru-bay-santuario-de-mantarrayas": { component: HanifaruBaySantuarioDeMantarrayas },
+  "conversion-al-islam-1153": { component: ConversionAlIslam1153 },
 };

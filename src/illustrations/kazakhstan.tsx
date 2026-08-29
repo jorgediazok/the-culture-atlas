@@ -139,6 +139,140 @@ const MedeuPistaDeHieloMasAlta: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const LaDombraYElAitysDueloDePoetas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      {/* neck drawn first so body absorbs the seam */}
+      <rect x="198" y="80" width="14" height="110" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2" />
+      {/* pear-shaped body */}
+      <path d="M205 160 Q150 165 150 205 Q150 245 205 250 Q260 245 260 205 Q260 165 205 160 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* sound hole */}
+      <circle cx="205" cy="205" r="16" fill={dark} opacity="0.5" />
+      {/* two strings */}
+      <line x1="200" y1="85" x2="200" y2="245" stroke="#F5F0E6" strokeWidth="2" opacity="0.8" />
+      <line x1="210" y1="85" x2="210" y2="245" stroke="#F5F0E6" strokeWidth="2" opacity="0.8" />
+      {/* tuning pegs */}
+      <circle cx="198" cy="85" r="5" fill={wood} />
+      <circle cx="212" cy="85" r="5" fill={wood} />
+    </g>
+  );
+};
+
+const ElShyrdakAlfombrasDeFieltroBordado: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const light = tint(accentColor, 0.5);
+  return (
+    <g>
+      <rect x="100" y="110" width="210" height="140" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <rect x="118" y="128" width="174" height="104" fill="none" stroke={light} strokeWidth="4" />
+      {/* horn-shaped spiral motifs */}
+      {[
+        [155, 155],
+        [255, 155],
+        [155, 205],
+        [255, 205],
+      ].map(([x, y]) => (
+        <path key={x} d={`M${x} ${y} Q${x + 20} ${y - 15} ${x + 10} ${y + 5} Q${x + 2} ${y + 18} ${x + 18} ${y + 15}`} fill="none" stroke={light} strokeWidth="4" strokeLinecap="round" />
+      ))}
+      <circle cx="205" cy="180" r="20" fill="none" stroke={light} strokeWidth="4" />
+    </g>
+  );
+};
+
+const BaiterekLaTorreDelHuevoDorado: IllustrationComponent = () => {
+  const white = "#F5F0E6";
+  const gold = "#D4AF37";
+  const dark = "#6B6B6B";
+  return (
+    <g>
+      {/* trunk */}
+      <path d="M195 250 L200 140 L210 140 L215 250 Z" fill={white} stroke={dark} strokeWidth="2.5" />
+      {/* branching supports */}
+      <path d="M205 150 L165 175 M205 150 L245 175 M205 165 L170 195 M205 165 L240 195" stroke={white} strokeWidth="6" strokeLinecap="round" />
+      {/* golden sphere */}
+      <circle cx="205" cy="115" r="38" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="3" />
+      <ellipse cx="192" cy="102" rx="10" ry="6" fill="#fff" opacity="0.4" />
+      {/* base ring */}
+      <ellipse cx="205" cy="250" rx="45" ry="10" fill={dark} opacity="0.3" />
+    </g>
+  );
+};
+
+const ElBeshbarmakElPlatoDeLosCincoDedos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const pasta = "#F5E6C8";
+  const meat = "#8B4A3D";
+  const onion = "#E8D9B5";
+  return (
+    <g>
+      {/* platter */}
+      <ellipse cx="205" cy="215" rx="100" ry="28" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="210" rx="85" ry="20" fill={pasta} stroke={dark} strokeWidth="2" />
+      {/* pasta sheets */}
+      {[
+        [165, 205, -8],
+        [205, 200, 0],
+        [245, 205, 8],
+      ].map(([x, y, rot]) => (
+        <rect key={x} x={x - 22} y={y - 8} width="44" height="16" fill={pasta} stroke={dark} strokeWidth="1.5" opacity="0.9" transform={`rotate(${rot} ${x} ${y})`} />
+      ))}
+      {/* meat chunks */}
+      {[
+        [175, 190],
+        [210, 185],
+        [240, 192],
+        [195, 198],
+      ].map(([x, y]) => (
+        <ellipse key={x} cx={x} cy={y} rx="16" ry="11" fill={meat} stroke={shade(meat, 0.3)} strokeWidth="2" />
+      ))}
+      {/* onions */}
+      {[
+        [185, 195],
+        [225, 190],
+      ].map(([x, y]) => (
+        <ellipse key={x} cx={x} cy={y} rx="9" ry="5" fill={onion} opacity="0.85" />
+      ))}
+    </g>
+  );
+};
+
+const LosLeopardosDeLasNievesDelTianShan: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const snow = "#E8E4DC";
+  return (
+    <g>
+      {/* snowy rocks */}
+      <path d="M85 245 L130 190 L170 245 Z" fill={snow} opacity="0.7" />
+      <path d="M230 245 L280 175 L320 245 Z" fill={snow} opacity="0.7" />
+      {/* tail curling, drawn first so body absorbs the seam */}
+      <path d="M255 205 Q290 195 295 165 Q297 150 285 148" fill="none" stroke={accentColor} strokeWidth="14" strokeLinecap="round" />
+      {/* body */}
+      <path d="M150 220 Q145 190 180 185 Q225 180 250 200 Q265 210 255 220 L250 235 L155 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* head */}
+      <circle cx="160" cy="195" r="20" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* ears */}
+      <path d="M148 180 L145 168 L155 178 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      <path d="M172 180 L178 168 L168 178 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+      {/* spots */}
+      {[
+        [170, 215],
+        [195, 205],
+        [220, 212],
+        [185, 225],
+        [210, 222],
+      ].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="4" fill={dark} opacity="0.5" />
+      ))}
+      {/* legs */}
+      {[165, 190, 215, 235].map((x) => (
+        <line key={x} x1={x} y1="233" x2={x} y2="248" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      ))}
+    </g>
+  );
+};
+
 export const kazakhstanIllustrations: Record<string, IllustrationDefinition> = {
   "baikonur-cosmodromo-primer-lanzamiento": { component: BaikonurCosmodromoPrimerLanzamiento },
   "berkutchi-cazadores-con-aguilas": { component: BerkutchiCazadoresConAguilas },
@@ -150,4 +284,9 @@ export const kazakhstanIllustrations: Record<string, IllustrationDefinition> = {
   "canon-de-charyn": { component: CanonDeCharyn },
   "pais-sin-mar-mas-grande-del-mundo": { component: PaisSinMarMasGrandeDelMundo },
   "medeu-pista-de-hielo-mas-alta": { component: MedeuPistaDeHieloMasAlta },
+  "la-dombra-y-el-aitys-duelo-de-poetas": { component: LaDombraYElAitysDueloDePoetas },
+  "el-shyrdak-alfombras-de-fieltro-bordado": { component: ElShyrdakAlfombrasDeFieltroBordado },
+  "baiterek-la-torre-del-huevo-dorado": { component: BaiterekLaTorreDelHuevoDorado },
+  "el-beshbarmak-el-plato-de-los-cinco-dedos": { component: ElBeshbarmakElPlatoDeLosCincoDedos },
+  "los-leopardos-de-las-nieves-del-tian-shan": { component: LosLeopardosDeLasNievesDelTianShan },
 };

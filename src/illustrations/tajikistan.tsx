@@ -148,6 +148,61 @@ const GuerraCivilIndependencia: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const SieteLagosFann: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const rock = "#8B7355";
+  const lakes: [number, number, number, number, string][] = [
+    [105, 195, 26, 14, tint(accentColor, 0.3)],
+    [142, 208, 24, 13, accentColor],
+    [176, 200, 22, 12, tint(accentColor, 0.15)],
+    [207, 214, 20, 11, shade(accentColor, 0.1)],
+    [235, 204, 18, 10, tint(accentColor, 0.35)],
+    [260, 216, 16, 9, accentColor],
+    [283, 208, 14, 8, dark],
+  ];
+  return (
+    <g>
+      <polygon points="90,175 180,85 270,175" fill={rock} opacity="0.45" />
+      {lakes.map(([x, y, rx, ry, fill], i) => (
+        <ellipse key={i} cx={x} cy={y} rx={rx} ry={ry} fill={fill} stroke={dark} strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
+const Buzkashi: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const horseColor = "#4A3728";
+  const horseDark = shade(horseColor, 0.3);
+  const rider = accentColor;
+  const goat = "#C9A66B";
+  return (
+    <g>
+      <path d="M95 235 Q205 225 320 235 L320 245 L95 245 Z" fill="#8B9A5B" opacity="0.5" />
+      {/* left horse, facing right */}
+      <ellipse cx="150" cy="190" rx="52" ry="26" fill={horseColor} stroke={horseDark} strokeWidth="2.5" />
+      <path d="M180 178 Q205 165 215 172 Q222 178 214 188 Q205 195 185 192 Z" fill={horseColor} stroke={horseDark} strokeWidth="2.5" />
+      <path d="M118 175 Q98 163 92 174 Q96 182 112 181 Z" fill={horseDark} />
+      {[120, 140, 165, 185].map((x) => (
+        <rect key={`l-${x}`} x={x - 5} y="195" width="10" height="45" rx="4" fill={horseDark} />
+      ))}
+      <circle cx="165" cy="150" r="10" fill={rider} stroke={dark} strokeWidth="2" />
+      <path d="M154 156 Q165 150 179 156 L172 195 L151 195 Z" fill={rider} stroke={dark} strokeWidth="2" />
+      {/* right horse, facing left (mirrored) */}
+      <ellipse cx="260" cy="190" rx="52" ry="26" fill={horseColor} stroke={horseDark} strokeWidth="2.5" />
+      <path d="M230 178 Q205 165 195 172 Q188 178 196 188 Q205 195 225 192 Z" fill={horseColor} stroke={horseDark} strokeWidth="2.5" />
+      <path d="M292 175 Q312 163 318 174 Q314 182 298 181 Z" fill={horseDark} />
+      {[195, 215, 240, 260].map((x) => (
+        <rect key={`r-${x}`} x={x - 5} y="195" width="10" height="45" rx="4" fill={horseDark} />
+      ))}
+      <circle cx="245" cy="150" r="10" fill={rider} stroke={dark} strokeWidth="2" />
+      <path d="M231 156 Q245 150 256 156 L254 195 L233 195 Z" fill={rider} stroke={dark} strokeWidth="2" />
+      {/* goat carcass fought over between the two heads */}
+      <ellipse cx="205" cy="180" rx="20" ry="12" fill={goat} stroke={shade(goat, 0.3)} strokeWidth="2.5" />
+    </g>
+  );
+};
+
 export const tajikistanIllustrations: Record<string, IllustrationDefinition> = {
   "pamir-techo-del-mundo": { component: PamirTechoDelMundo },
   "lago-sarez-represa-natural": { component: LagoSarezRepresaNatural },
@@ -159,4 +214,6 @@ export const tajikistanIllustrations: Record<string, IllustrationDefinition> = {
   "bandera-mas-alta-dushanbe": { component: BanderaMasAltaDushanbe },
   "migrantes-remesas": { component: MigrantesRemesas },
   "guerra-civil-independencia": { component: GuerraCivilIndependencia },
+  "siete-lagos-fann": { component: SieteLagosFann },
+  buzkashi: { component: Buzkashi },
 };

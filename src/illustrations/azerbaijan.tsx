@@ -134,6 +134,108 @@ const BoomPetroleroPrimerPozo: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const GobustanArteRupestreDe40000Anos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* large rock slab */}
+      <path d="M100 240 L110 130 Q205 100 300 130 L310 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* carved human figures with raised arms */}
+      {[150, 205, 260].map((x) => (
+        <g key={x}>
+          <circle cx={x} cy="170" r="9" fill="none" stroke={dark} strokeWidth="2.5" />
+          <path d={`M${x} 179 L${x} 210 M${x - 14} 190 L${x} 179 L${x + 14} 190 M${x - 10} 225 L${x} 210 L${x + 10} 225`} stroke={dark} strokeWidth="2.5" fill="none" />
+        </g>
+      ))}
+      {/* carved boat with curved prow */}
+      <path d="M140 220 Q180 205 230 220 L225 228 L145 228 Z" fill="none" stroke={dark} strokeWidth="2.5" />
+      <path d="M225 224 Q235 210 228 198" fill="none" stroke={dark} strokeWidth="2.5" />
+    </g>
+  );
+};
+
+const ElShebekeVentanasDeVidrioSinClavosNiPegamento: IllustrationComponent = () => {
+  const wood = "#6B4A2F";
+  const colors = ["#C1272D", "#1B5E7A", "#D4AF37", "#4A7A52"];
+  return (
+    <g>
+      {/* wooden frame */}
+      <rect x="105" y="95" width="200" height="150" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="4" />
+      {/* geometric grid of colored glass panes */}
+      {[0, 1, 2, 3].map((row) =>
+        [0, 1, 2, 3].map((col) => (
+          <rect key={`${row}-${col}`} x={120 + col * 44} y={110 + row * 34} width="36" height="26" fill={colors[(row + col) % colors.length]} opacity="0.75" stroke={wood} strokeWidth="3" />
+        ))
+      )}
+      {/* central star motif overlay */}
+      <path d="M205 145 L225 165 L205 185 L185 165 Z" fill="none" stroke="#F5F0E6" strokeWidth="2.5" opacity="0.8" />
+    </g>
+  );
+};
+
+const ElTeEnVasoArmuduRitualCotidiano: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const tea = "#A0522D";
+  return (
+    <g>
+      {/* pear-shaped glass outline */}
+      <path d="M175 235 Q160 210 175 185 Q168 160 190 145 Q205 138 220 145 Q242 160 235 185 Q250 210 235 235 Z" fill="none" stroke={dark} strokeWidth="3" />
+      {/* tea fill */}
+      <path d="M178 232 Q165 210 178 187 Q172 163 190 149 L190 232 Z" fill={tea} opacity="0.85" />
+      <path d="M232 232 Q245 210 232 187 Q238 163 220 149 L220 232 Z" fill={tea} opacity="0.85" />
+      <path d="M190 149 Q205 141 220 149 L220 232 L190 232 Z" fill={tea} opacity="0.9" />
+      {/* plate with jam beside */}
+      <ellipse cx="280" cy="225" rx="30" ry="10" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <circle cx="280" cy="222" r="10" fill="#8B1A2B" opacity="0.85" />
+    </g>
+  );
+};
+
+const ElPlovAzerbaiyanoArrozConCostraDorada: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const crust = "#B5651D";
+  return (
+    <g>
+      {/* overturned pot revealing the golden crust dome */}
+      <path d="M140 210 Q140 150 205 145 Q270 150 270 210 Q270 235 205 240 Q140 235 140 210 Z" fill={crust} stroke={shade(crust, 0.3)} strokeWidth="3" />
+      {/* rice on top */}
+      <ellipse cx="205" cy="175" rx="60" ry="20" fill="#F5EFE0" stroke={dark} strokeWidth="2.5" />
+      {[
+        [170, 168],
+        [190, 172],
+        [210, 166],
+        [230, 172],
+        [245, 178],
+      ].map(([x, y]) => (
+        <ellipse key={x} cx={x} cy={y} rx="6" ry="3" fill="#E8D2A0" opacity="0.85" />
+      ))}
+      {/* dried apricots and raisins */}
+      <circle cx="185" cy="182" r="4" fill="#D9A521" />
+      <circle cx="225" cy="185" r="4" fill="#3E2712" />
+    </g>
+  );
+};
+
+const ElMughamElGeneroMusicalClasicoAzerbaiyano: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      {/* singer */}
+      <circle cx="150" cy="140" r="16" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M132 155 Q150 145 168 155 L163 235 L137 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* tar player */}
+      <circle cx="260" cy="150" r="15" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M245 163 Q260 155 275 163 L270 235 L250 235 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="3" />
+      {/* figure-eight tar body: two overlapping circles */}
+      <circle cx="265" cy="200" r="22" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2.5" />
+      <circle cx="278" cy="228" r="17" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2.5" />
+      <line x1="270" y1="182" x2="298" y2="150" stroke={wood} strokeWidth="6" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const azerbaijanIllustrations: Record<string, IllustrationDefinition> = {
   "baku-bajo-el-nivel-del-mar": { component: BakuBajoElNivelDelMar },
   "yanar-dag-montana-en-llamas": { component: YanarDagMontanaEnLlamas },
@@ -145,4 +247,9 @@ export const azerbaijanIllustrations: Record<string, IllustrationDefinition> = {
   "ashiq-los-bardos-viajeros": { component: AshiqLosBardosViajeros },
   "nowruz-ano-nuevo-persa": { component: NowruzAnoNuevoPersa },
   "boom-petrolero-primer-pozo": { component: BoomPetroleroPrimerPozo },
+  "gobustan-arte-rupestre-de-40000-anos": { component: GobustanArteRupestreDe40000Anos },
+  "el-shebeke-ventanas-de-vidrio-sin-clavos-ni-pegamento": { component: ElShebekeVentanasDeVidrioSinClavosNiPegamento },
+  "el-te-en-vaso-armudu-ritual-cotidiano": { component: ElTeEnVasoArmuduRitualCotidiano },
+  "el-plov-azerbaiyano-arroz-con-costra-dorada": { component: ElPlovAzerbaiyanoArrozConCostraDorada },
+  "el-mugham-el-genero-musical-clasico-azerbaiyano": { component: ElMughamElGeneroMusicalClasicoAzerbaiyano },
 };

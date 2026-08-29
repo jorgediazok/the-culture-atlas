@@ -159,6 +159,116 @@ const ElPaisMenosDensamentePobladoDelMundo: IllustrationComponent = ({ accentCol
   );
 };
 
+const ElDeelLaTunicaTradicionalMongola: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  const sash = "#D4A017";
+  return (
+    <g>
+      <circle cx="205" cy="115" r="20" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M180 148 Q160 155 155 190" stroke={accentColor} strokeWidth="12" strokeLinecap="round" fill="none" />
+      <path d="M230 148 Q250 155 255 190" stroke={accentColor} strokeWidth="12" strokeLinecap="round" fill="none" />
+      <path d="M180 128 Q205 118 230 128 L245 235 L165 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M180 128 Q195 160 175 235" fill="none" stroke={dark} strokeWidth="2" opacity="0.4" />
+      <path d="M230 128 Q215 160 235 235" fill="none" stroke={dark} strokeWidth="2" opacity="0.4" />
+      <rect x="170" y="175" width="70" height="20" fill={sash} stroke={shade(sash, 0.3)} strokeWidth="2" />
+    </g>
+  );
+};
+
+const ElAiragLaLecheDeYeguaFermentada: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  const milk = "#F5F0E6";
+  return (
+    <g>
+      {/* leather sack (khokhuur) */}
+      <path d="M110 235 Q100 180 130 150 Q150 130 175 145 Q195 158 185 190 Q180 220 165 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <line x1="145" y1="135" x2="150" y2="150" stroke={dark} strokeWidth="4" />
+      {/* wooden bowl */}
+      <path d="M215 210 Q215 240 260 242 Q305 240 305 210 Z" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2.5" />
+      <ellipse cx="260" cy="210" rx="45" ry="13" fill={milk} stroke={shade(wood, 0.3)} strokeWidth="2.5" />
+      {[
+        [240, 207],
+        [260, 204],
+        [280, 208],
+      ].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="3" fill="#fff" opacity="0.8" />
+      ))}
+    </g>
+  );
+};
+
+const LosAcantiladosLlameantesYLosPrimerosHuevosDeDinosaurio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const sand = accentColor;
+  return (
+    <g>
+      {/* cliff */}
+      <path d="M85 235 L85 160 L140 130 L200 165 L260 120 L320 155 L320 235 Z" fill={sand} stroke={dark} strokeWidth="3" />
+      <path d="M85 160 L140 130 L200 165 L260 120 L320 155" fill="none" stroke={shade(sand, 0.25)} strokeWidth="2" opacity="0.6" />
+      {/* nest of eggs */}
+      <ellipse cx="205" cy="222" rx="55" ry="14" fill={shade(sand, 0.15)} opacity="0.6" />
+      {[
+        [175, 220, -8],
+        [205, 215, 5],
+        [235, 220, -3],
+        [190, 232, 9],
+        [220, 232, -6],
+      ].map(([x, y, rot]) => (
+        <ellipse key={x} cx={x} cy={y} rx="12" ry="16" fill="#F5EEDD" stroke={dark} strokeWidth="2" transform={`rotate(${rot} ${x} ${y})`} />
+      ))}
+    </g>
+  );
+};
+
+const ElTsamLaDanzaBudistaDeMascaras: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const gold = "#D4A017";
+  return (
+    <g>
+      <path d="M150 235 Q140 160 205 140 Q270 160 260 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* gold crown */}
+      {[
+        [170, 150],
+        [205, 138],
+        [240, 150],
+      ].map(([x, y]) => (
+        <path key={x} d={`M${x - 10} ${y + 15} L${x} ${y} L${x + 10} ${y + 15} Z`} fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+      ))}
+      {/* bulging eyes */}
+      <circle cx="180" cy="180" r="16" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <circle cx="230" cy="180" r="16" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <circle cx="180" cy="180" r="7" fill="#1A1A1A" />
+      <circle cx="230" cy="180" r="7" fill="#1A1A1A" />
+      {/* fangs */}
+      <path d="M190 215 L185 235 L198 218 Z" fill="#F5F0E6" stroke={dark} strokeWidth="1.5" />
+      <path d="M220 215 L225 235 L212 218 Z" fill="#F5F0E6" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const LosCamellosBactrianosDeDosJorobasDelGobi: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const sand = "#E8D2A0";
+  return (
+    <g>
+      {/* dunes */}
+      <path d="M85 235 Q150 210 210 232 Q270 210 320 230 L320 250 L85 250 Z" fill={sand} opacity="0.6" />
+      {/* neck + head drawn first so the body absorbs the seam */}
+      <path d="M145 205 Q120 200 110 175 Q108 165 118 165 Q128 175 148 195 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <circle cx="112" cy="168" r="10" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* body with two humps */}
+      <path d="M140 210 Q145 175 165 178 Q170 155 190 158 Q195 175 210 178 Q215 155 235 158 Q245 175 250 195 Q255 210 240 215 L150 215 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* legs */}
+      {[160, 185, 210, 235].map((x) => (
+        <line key={x} x1={x} y1="213" x2={x - 4} y2="240" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      ))}
+      <circle cx="108" cy="166" r="2" fill="#1A1A1A" />
+    </g>
+  );
+};
+
 export const mongoliaIllustrations: Record<string, IllustrationDefinition> = {
   "el-naadam-los-tres-juegos-viriles": { component: ElNaadamLosTresJuegosViriles },
   "la-estatua-de-genghis-khan-mas-grande-del-mundo": { component: LaEstatuaDeGenghisKhanMasGrandeDelMundo },
@@ -170,4 +280,9 @@ export const mongoliaIllustrations: Record<string, IllustrationDefinition> = {
   "la-tumba-de-genghis-khan-nunca-encontrada": { component: LaTumbaDeGenghisKhanNuncaEncontrada },
   "mas-caballos-que-personas-y-el-ultimo-caballo-salvaje": { component: MasCaballosQuePersonasYElUltimoCaballoSalvaje },
   "el-pais-menos-densamente-poblado-del-mundo": { component: ElPaisMenosDensamentePobladoDelMundo },
+  "el-deel-la-tunica-tradicional-mongola": { component: ElDeelLaTunicaTradicionalMongola },
+  "el-airag-la-leche-de-yegua-fermentada": { component: ElAiragLaLecheDeYeguaFermentada },
+  "los-acantilados-llameantes-y-los-primeros-huevos-de-dinosaurio": { component: LosAcantiladosLlameantesYLosPrimerosHuevosDeDinosaurio },
+  "el-tsam-la-danza-budista-de-mascaras": { component: ElTsamLaDanzaBudistaDeMascaras },
+  "los-camellos-bactrianos-de-dos-jorobas-del-gobi": { component: LosCamellosBactrianosDeDosJorobasDelGobi },
 };

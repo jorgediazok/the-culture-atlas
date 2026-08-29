@@ -177,6 +177,117 @@ const LaProhibicionDelChicleYElOrdenSingapurense: IllustrationComponent = ({ acc
   );
 };
 
+const ElKopiYElCodigoSecretoDelCafe: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const saucer = tint(accentColor, 0.5);
+  const cream = "#F5EFE0";
+  return (
+    <g>
+      {/* stall counter */}
+      <rect x="90" y="220" width="230" height="20" fill="#8B5A2B" stroke={dark} strokeWidth="2" />
+      {/* saucer + cup */}
+      <ellipse cx="205" cy="215" rx="55" ry="14" fill={saucer} stroke={dark} strokeWidth="2" />
+      <path d="M175 210 L235 210 L228 175 Q205 165 182 175 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="175" rx="26" ry="9" fill={cream} />
+      {/* steam */}
+      <path d="M195 165 Q190 150 196 135" fill="none" stroke={dark} strokeWidth="2" opacity="0.35" />
+      <path d="M215 165 Q210 150 216 135" fill="none" stroke={dark} strokeWidth="2" opacity="0.35" />
+      {/* handle */}
+      <path d="M228 185 Q250 185 250 198 Q250 210 230 205" fill="none" stroke={accentColor} strokeWidth="8" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const LosHdbLaViviendaPublicaDeSingapur: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const window = "#F5F0E6";
+  return (
+    <g>
+      {/* main tower */}
+      <rect x="140" y="95" width="130" height="150" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* rows of windows/balconies */}
+      {[0, 1, 2, 3, 4, 5].map((row) => (
+        <g key={row}>
+          {[0, 1, 2].map((col) => (
+            <rect key={col} x={150 + col * 38} y={108 + row * 22} width="28" height="16" fill={window} stroke={dark} strokeWidth="1.5" opacity="0.9" />
+          ))}
+        </g>
+      ))}
+      {/* ground level void deck */}
+      <rect x="140" y="230" width="130" height="15" fill={dark} opacity="0.3" />
+      {[160, 205, 250].map((x) => (
+        <line key={x} x1={x} y1="230" x2={x} y2="245" stroke={dark} strokeWidth="4" />
+      ))}
+    </g>
+  );
+};
+
+const PulauUbinLaUltimaIslaKampong: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  const green = tint(accentColor, 0.1);
+  return (
+    <g>
+      {/* jungle backdrop */}
+      <ellipse cx="270" cy="150" rx="70" ry="60" fill={green} opacity="0.5" />
+      {/* stilt house */}
+      <rect x="130" y="160" width="90" height="55" fill={wood} stroke={dark} strokeWidth="2.5" />
+      <polygon points="120,160 175,130 230,160" fill={shade(wood, 0.2)} stroke={dark} strokeWidth="2.5" />
+      <line x1="140" y1="215" x2="140" y2="240" stroke={dark} strokeWidth="6" />
+      <line x1="210" y1="215" x2="210" y2="240" stroke={dark} strokeWidth="6" />
+      {/* bicycle leaning against the house */}
+      <circle cx="255" cy="225" r="16" fill="none" stroke={dark} strokeWidth="3" />
+      <circle cx="290" cy="225" r="16" fill="none" stroke={dark} strokeWidth="3" />
+      <path d="M255 225 L272 195 L290 225 M272 195 L265 225 M272 195 L280 180 L295 180" fill="none" stroke={dark} strokeWidth="2.5" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const ElTemploSriMariammanEnChinatown: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const gold = "#D4A017";
+  const colors = [accentColor, gold, "#4A7A52", "#2C5F8A"];
+  return (
+    <g>
+      {/* stepped gopuram tower */}
+      {[0, 1, 2, 3, 4].map((i) => {
+        const w = 170 - i * 26;
+        const y = 230 - i * 38;
+        return <rect key={i} x={205 - w / 2} y={y - 30} width={w} height="34" fill={colors[i % colors.length]} stroke={dark} strokeWidth="2" />;
+      })}
+      {/* small sculpted figures on each tier */}
+      {[0, 1, 2, 3].map((i) => (
+        <circle key={i} cx="205" cy={210 - i * 38} r="8" fill={gold} opacity="0.85" />
+      ))}
+      {/* base entrance */}
+      <rect x="175" y="225" width="60" height="25" fill={dark} opacity="0.5" />
+    </g>
+  );
+};
+
+const ElDesfileChingay: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  const colors = [accentColor, "#F4A300", "#8E24AA"];
+  return (
+    <g>
+      {[130, 205, 280].map((x, i) => (
+        <g key={x}>
+          {/* stilts */}
+          <line x1={x - 6} y1="200" x2={x - 10} y2="250" stroke={dark} strokeWidth="4" />
+          <line x1={x + 6} y1="200" x2={x + 10} y2="250" stroke={dark} strokeWidth="4" />
+          {/* performer */}
+          <circle cx={x} cy="150" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+          <path d={`M${x - 13} 162 Q${x} 155 ${x + 13} 162 L${x + 16} 205 L${x - 16} 205 Z`} fill={colors[i]} stroke={dark} strokeWidth="2.5" />
+          {/* banner held up */}
+          <line x1={x} y1="165" x2={x} y2="110" stroke={dark} strokeWidth="2" />
+          <path d={`M${x} 110 L${x + 26} 118 L${x} 128 Z`} fill={colors[(i + 1) % 3]} stroke={dark} strokeWidth="1.5" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
 export const singaporeIllustrations: Record<string, IllustrationDefinition> = {
   "el-merlion-simbolo-de-singapur": { component: ElMerlionSimboloDeSingapur },
   "los-supertrees-de-gardens-by-the-bay": { component: LosSupertreesDeGardensByTheBay },
@@ -188,4 +299,9 @@ export const singaporeIllustrations: Record<string, IllustrationDefinition> = {
   "la-vanda-miss-joaquim-flor-nacional": { component: LaVandaMissJoaquimFlorNacional },
   "el-skypark-de-marina-bay-sands": { component: ElSkyparkDeMarinaBaySands },
   "la-prohibicion-del-chicle-y-el-orden-singapurense": { component: LaProhibicionDelChicleYElOrdenSingapurense },
+  "el-kopi-y-el-codigo-secreto-del-cafe": { component: ElKopiYElCodigoSecretoDelCafe },
+  "los-hdb-la-vivienda-publica-de-singapur": { component: LosHdbLaViviendaPublicaDeSingapur },
+  "pulau-ubin-la-ultima-isla-kampong": { component: PulauUbinLaUltimaIslaKampong },
+  "el-templo-sri-mariamman-en-chinatown": { component: ElTemploSriMariammanEnChinatown },
+  "el-desfile-chingay": { component: ElDesfileChingay },
 };

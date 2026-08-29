@@ -231,4 +231,50 @@ export const bhutan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "grullas-cuello-negro-phobjikha",
+    order: 11,
+    placeholderEmoji: "🦩",
+    accentColor: "#3E5C40",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El valle donde miles esperan la llegada de las grullas",
+        subtitle: "Las grullas de cuello negro de Phobjikha",
+        imageAlt: "Caricatura de grullas de cuello negro aterrizando en un valle amplio con un monasterio a lo lejos.",
+        description:
+          "Cada año, entre octubre y febrero, cientos de grullas de cuello negro migran desde la meseta tibetana hasta el valle de Phobjikha, en el centro de Bután, uno de los pocos sitios de invernada conocidos de esta especie amenazada, atraídas por los humedales y campos de cultivo del valle que ofrecen alimento y refugio durante los meses más fríos. La comunidad local desarrolló una relación de protección activa hacia las aves, consideradas de buen augurio en la tradición budista butanesa, al punto de que el monasterio de Gangtey celebra cada noviembre un festival dedicado enteramente a celebrar su llegada, con danzas de niños de la escuela local disfrazados de grulla. Para proteger el hábitat de las aves, el gobierno prohibió el tendido de cables eléctricos aéreos en buena parte del valle, obligando a enterrar el cableado local para evitar que las grullas choquen contra los cables durante sus vuelos de aterrizaje.",
+      },
+      en: {
+        title: "The Valley Where Thousands Wait for the Cranes",
+        subtitle: "The Black-Necked Cranes of Phobjikha",
+        imageAlt: "Cartoon of black-necked cranes landing in a wide valley with a monastery in the distance.",
+        description:
+          "Every year between October and February, hundreds of black-necked cranes migrate from the Tibetan Plateau to Phobjikha Valley in central Bhutan, one of the few known wintering sites for this endangered species, drawn by the valley's wetlands and farmland, which offer food and shelter through the coldest months. The local community developed an actively protective relationship with the birds, considered a sign of good fortune in Bhutanese Buddhist tradition, to the point that Gangtey Monastery holds a festival every November devoted entirely to celebrating their arrival, featuring local schoolchildren dancing dressed as cranes. To protect the birds' habitat, the government banned overhead power lines across much of the valley, requiring local cabling to be buried underground so the cranes wouldn't collide with wires during their landing flights.",
+      },
+    },
+  },
+  {
+    id: "ultimo-pais-television-internet",
+    order: 12,
+    placeholderEmoji: "📺",
+    accentColor: "#6B7A8B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El último país del mundo en permitir la televisión",
+        subtitle: "Bután y la llegada tardía de la televisión e internet",
+        imageAlt: "Caricatura de un televisor y una antena satelital siendo instalados sobre una casa tradicional de madera.",
+        description:
+          "Bután fue el último país del mundo en introducir la televisión y el acceso a internet de forma legal, recién en 1999, cuando el entonces rey Jigme Singye Wangchuck levantó una prohibición previa por temor a que los medios extranjeros erosionaran la identidad cultural y los valores budistas del país. La llegada repentina de decenas de canales de cable extranjeros, tras décadas sin ninguna programación televisiva local, generó un debate social inmediato sobre sus efectos en la juventud butanesa, con estudios y funcionarios señalando cambios notorios en el consumo de tiempo familiar y hasta un aumento reportado de conductas antes poco comunes en el país. El propio rey reconoció públicamente la ironía de que la televisión, introducida bajo una política nacional obsesionada con la felicidad colectiva, terminara siendo señalada como una posible amenaza a esa misma felicidad.",
+      },
+      en: {
+        title: "The Last Country in the World to Allow Television",
+        subtitle: "Bhutan's Late Arrival of TV and the Internet",
+        imageAlt: "Cartoon of a television and a satellite dish being installed on a traditional wooden house.",
+        description:
+          "Bhutan was the last country in the world to legally introduce television and internet access, only in 1999, when then-king Jigme Singye Wangchuck lifted an earlier ban out of concern that foreign media would erode the country's cultural identity and Buddhist values. The sudden arrival of dozens of foreign cable channels, after decades with no local television programming at all, triggered an immediate social debate over its effects on Bhutanese youth, with studies and officials pointing to noticeable shifts in family time and even a reported rise in behaviors previously uncommon in the country. The king himself publicly acknowledged the irony that television, introduced under a national policy obsessed with collective happiness, ended up flagged as a possible threat to that very happiness.",
+      },
+    },
+  },
 ];

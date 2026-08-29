@@ -158,6 +158,132 @@ const LaDanzaKandianaYSusTambores: IllustrationComponent = ({ accentColor }) => 
   );
 };
 
+const GalleFortLaFortalezaColonialHolandesa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const roof = "#A0332B";
+  return (
+    <g>
+      {/* stone rampart wall */}
+      <rect x="85" y="200" width="235" height="50" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {[110, 150, 190, 230, 270, 300].map((x) => (
+        <rect key={x} x={x} y="200" width="4" height="50" fill={dark} opacity="0.3" />
+      ))}
+      {/* houses with red-tiled roofs behind the wall */}
+      <rect x="130" y="150" width="60" height="50" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+      <polygon points="120,150 160,120 200,150" fill={roof} stroke={shade(roof, 0.3)} strokeWidth="2" />
+      <rect x="220" y="160" width="55" height="40" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2" />
+      <polygon points="212,160 247,135 282,160" fill={roof} stroke={shade(roof, 0.3)} strokeWidth="2" />
+      {/* white lighthouse */}
+      <rect x="290" y="110" width="18" height="90" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <rect x="286" y="100" width="26" height="14" fill={dark} />
+      <rect x="292" y="130" width="14" height="10" fill={dark} opacity="0.6" />
+    </g>
+  );
+};
+
+const ElOrfanatoDeElefantesDePinnawala: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
+  return (
+    <g>
+      {/* river */}
+      <path d="M85 200 Q205 190 320 200 L320 250 L85 250 Z" fill={water} opacity="0.6" />
+      {/* two baby elephants bathing */}
+      {[
+        [160, 215],
+        [260, 220],
+      ].map(([x, y]) => (
+        <g key={x}>
+          <ellipse cx={x} cy={y} rx="38" ry="26" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+          <circle cx={x - 32} cy={y - 8} r="20" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+          <path d={`M${x - 48} ${y - 4} Q${x - 58} ${y + 8} ${x - 50} ${y + 20}`} fill="none" stroke={accentColor} strokeWidth="7" strokeLinecap="round" />
+          <ellipse cx={x - 38} cy={y - 14} rx="8" ry="10" fill={dark} opacity="0.5" />
+          {/* water splash droplets */}
+          <circle cx={x + 10} cy={y - 20} r="3" fill="#F5F0E6" opacity="0.7" />
+          <circle cx={x + 20} cy={y - 14} r="2.5" fill="#F5F0E6" opacity="0.7" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const VesakElFestivalDeLosFaroles: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  const houseColor = tint(accentColor, 0.4);
+  return (
+    <g>
+      {/* house silhouette, lit at night */}
+      <rect x="90" y="170" width="130" height="80" fill={houseColor} stroke={dark} strokeWidth="2.5" />
+      <polygon points="80,170 155,130 230,170" fill={shade(houseColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+      <rect x="130" y="200" width="30" height="50" fill={dark} opacity="0.6" />
+      {/* string of lanterns across */}
+      <path d="M225 130 Q270 110 315 135" fill="none" stroke={dark} strokeWidth="2" opacity="0.5" />
+      {[240, 265, 290, 310].map((x, i) => {
+        const y = 135 + (i % 2) * 10;
+        return (
+          <g key={x}>
+            <line x1={x} y1={y - 10} x2={x} y2={y} stroke={dark} strokeWidth="1.5" opacity="0.5" />
+            <ellipse cx={x} cy={y + 12} rx="11" ry="14" fill={i % 2 === 0 ? accentColor : gold} stroke={dark} strokeWidth="1.5" />
+          </g>
+        );
+      })}
+    </g>
+  );
+};
+
+const ElAvistamientoDeBallenasAzules: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = tint(accentColor, 0.3);
+  const boatColor = "#8B5A2B";
+  return (
+    <g>
+      {/* water */}
+      <rect x="85" y="150" width="235" height="100" fill={water} opacity="0.5" />
+      {/* whale body surfacing */}
+      <path d="M110 200 Q140 175 210 180 Q260 183 280 200 Q250 210 190 208 Q140 208 110 200 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* dorsal fin */}
+      <path d="M225 182 Q235 165 245 182 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      {/* water spout */}
+      <path d="M150 178 Q145 160 150 145 M150 178 Q155 158 160 148" stroke={dark} strokeWidth="3" strokeLinecap="round" opacity="0.5" fill="none" />
+      {/* eye */}
+      <circle cx="120" cy="196" r="3" fill={dark} />
+      {/* small boat */}
+      <path d="M270 220 L310 220 L302 235 L278 235 Z" fill={boatColor} stroke={dark} strokeWidth="2" />
+      <line x1="290" y1="220" x2="290" y2="200" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const ElCriquetLaPasionDe1996: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  const wood = "#C9A876";
+  return (
+    <g>
+      {/* trophy */}
+      <path d="M180 160 Q180 200 205 205 Q230 200 230 160 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2.5" />
+      <path d="M180 165 Q160 165 160 180 Q160 195 182 190" fill="none" stroke={gold} strokeWidth="6" strokeLinecap="round" />
+      <path d="M230 165 Q250 165 250 180 Q250 195 228 190" fill="none" stroke={gold} strokeWidth="6" strokeLinecap="round" />
+      <rect x="195" y="205" width="20" height="15" fill={gold} />
+      <rect x="180" y="220" width="50" height="10" fill={shade(gold, 0.2)} />
+      {/* bat leaning */}
+      <path d="M120 235 L145 140 L158 143 L133 238 Z" fill={wood} stroke={dark} strokeWidth="2" />
+      <rect x="112" y="230" width="20" height="30" rx="6" fill={dark} />
+      {/* confetti */}
+      {[
+        [100, 110, accentColor],
+        [270, 120, gold],
+        [290, 160, accentColor],
+        [110, 170, gold],
+        [260, 90, accentColor],
+      ].map(([x, y, c], i) => (
+        <rect key={i} x={x as number} y={y as number} width="8" height="4" fill={c as string} transform={`rotate(${(i * 37) % 90} ${x} ${y})`} />
+      ))}
+    </g>
+  );
+};
+
 export const sriLankaIllustrations: Record<string, IllustrationDefinition> = {
   "sigiriya-la-roca-del-leon": { component: SigiriyaLaRocaDelLeon },
   "el-te-de-ceilan-y-las-montanas-de-sri-lanka": { component: ElTeDeCeilanYLasMontanasDeSriLanka },
@@ -169,4 +295,9 @@ export const sriLankaIllustrations: Record<string, IllustrationDefinition> = {
   "las-mascaras-kolam-y-la-danza-de-los-demonios": { component: LasMascarasKolamYLaDanzaDeLosDemonios },
   "ratnapura-la-ciudad-de-las-gemas": { component: RatnapuraLaCiudadDeLasGemas },
   "la-danza-kandiana-y-sus-tambores": { component: LaDanzaKandianaYSusTambores },
+  "galle-fort-la-fortaleza-colonial-holandesa": { component: GalleFortLaFortalezaColonialHolandesa },
+  "el-orfanato-de-elefantes-de-pinnawala": { component: ElOrfanatoDeElefantesDePinnawala },
+  "vesak-el-festival-de-los-faroles": { component: VesakElFestivalDeLosFaroles },
+  "el-avistamiento-de-ballenas-azules": { component: ElAvistamientoDeBallenasAzules },
+  "el-criquet-la-pasion-de-1996": { component: ElCriquetLaPasionDe1996 },
 };

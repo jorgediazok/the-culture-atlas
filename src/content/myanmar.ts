@@ -231,4 +231,119 @@ export const myanmar: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "puente-u-bein-de-teca",
+    order: 11,
+    placeholderEmoji: "🌉",
+    accentColor: "#8D6E45",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El puente de madera de teca más largo del mundo",
+        subtitle: "El puente U Bein",
+        imageAlt: "Caricatura de un largo puente de madera sobre un lago al atardecer.",
+        description:
+          "El puente U Bein, cerca de Mandalay, se extiende a lo largo de 1.2 kilómetros sobre el lago Taungthaman y es considerado el puente de madera de teca más largo y antiguo del mundo, construido alrededor de 1850 reutilizando postes de teca rescatados del desmantelado palacio real de Inwa. Miles de monjes, aldeanos y ciclistas lo cruzan a diario como paso peatonal cotidiano entre pueblos vecinos, y al atardecer, cuando el sol se refleja sobre el agua detrás de las siluetas de quienes cruzan, se convirtió en una de las imágenes más fotografiadas de Myanmar, pese a que el puente sigue cumpliendo una función utilitaria y no meramente turística para las comunidades locales que dependen de él.",
+      },
+      en: {
+        title: "The World's Longest Teak Footbridge",
+        subtitle: "U Bein Bridge",
+        imageAlt: "Cartoon of a long wooden bridge over a lake at sunset.",
+        description:
+          "U Bein Bridge, near Mandalay, stretches 1.2 kilometers across Taungthaman Lake and is considered the longest and oldest teak footbridge in the world, built around 1850 using teak posts salvaged from the dismantled royal palace of Inwa. Thousands of monks, villagers, and cyclists cross it daily as an everyday pedestrian route between neighboring towns, and at sunset, when the sun reflects on the water behind the silhouettes of those crossing, it became one of Myanmar's most photographed sights, even though the bridge still serves a purely utilitarian function rather than a merely touristic one for the local communities that depend on it.",
+      },
+    },
+  },
+  {
+    id: "yoke-the-marionetas-tradicionales",
+    order: 12,
+    placeholderEmoji: "🪆",
+    accentColor: "#C1440E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las marionetas que actuaban antes que los humanos",
+        subtitle: "El teatro de marionetas yoke thé",
+        imageAlt: "Caricatura de una marioneta de madera con hilos suspendida en el aire.",
+        description:
+          "El yoke thé, teatro tradicional de marionetas de madera con hasta 60 hilos manejados por un solo titiritero, se desarrolló en la corte real birmana como una de las formas de entretenimiento más prestigiosas del país, tan valorada que durante siglos las obras de marionetas debían representarse antes que cualquier actuación humana en directo pudiera comenzar. Cada compañía tradicional incluye un elenco fijo de personajes como el rey, el bufón, el ogro y el caballo encantado, que representan escenas de leyendas budistas, cuentos populares e historia real acompañados por una orquesta de percusión llamada saing waing, y aunque la televisión y el cine redujeron drásticamente su popularidad, algunas familias de titiriteros siguen transmitiendo el oficio de generación en generación en Mandalay y otras ciudades.",
+      },
+      en: {
+        title: "The Marionettes That Performed Before Any Human Could",
+        subtitle: "Yoke Thé Puppet Theater",
+        imageAlt: "Cartoon of a wooden string marionette suspended in the air.",
+        description:
+          "Yoke thé, traditional wooden marionette theater with up to 60 strings worked by a single puppeteer, developed at the Burmese royal court as one of the country's most prestigious forms of entertainment, so highly regarded that for centuries marionette plays had to be performed before any live human performance could begin. Each traditional troupe features a fixed cast of characters such as the king, the clown, the ogre, and the enchanted horse, acting out scenes from Buddhist legends, folk tales, and real history accompanied by a percussion orchestra called saing waing, and although television and film drastically reduced its popularity, some puppeteer families still pass the craft down generation to generation in Mandalay and other cities.",
+      },
+    },
+  },
+  {
+    id: "laca-birmana-de-bagan",
+    order: 13,
+    placeholderEmoji: "🏺",
+    accentColor: "#7B241C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte de pintar capas de laca sobre bambú trenzado",
+        subtitle: "La laca birmana de Bagan",
+        imageAlt: "Caricatura de un cuenco negro y dorado decorado con líneas grabadas.",
+        description:
+          "La laca birmana, un arte artesanal centrado históricamente en Bagan, se elabora aplicando hasta veinte capas sucesivas de resina extraída de un árbol nativo sobre una base tejida de bambú trenzado o pelo de caballo, cada capa secada durante días en cuevas subterráneas húmedas antes de aplicar la siguiente, y decorada finalmente mediante grabado a mano con punzones finos que revelan pigmentos de colores debajo de la superficie negra. El proceso completo de un solo objeto, desde tazones y bandejas hasta cajas y figuras religiosas, puede demorar entre seis meses y un año de trabajo artesanal ininterrumpido, y los talleres familiares de Bagan siguen produciendo piezas siguiendo técnicas transmitidas oralmente durante generaciones, convirtiendo a la ciudad en el centro indiscutido de esta artesanía dentro de todo el sudeste asiático.",
+      },
+      en: {
+        title: "The Art of Painting Lacquer Over Woven Bamboo",
+        subtitle: "Bagan's Burmese Lacquerware",
+        imageAlt: "Cartoon of a black and gold bowl decorated with engraved lines.",
+        description:
+          "Burmese lacquerware, a craft historically centered in Bagan, is made by applying up to twenty successive coats of resin drawn from a native tree over a base woven from bamboo strips or horsehair, each layer dried for days in humid underground caves before the next is applied, and finally decorated by hand-engraving fine patterns that reveal colored pigments beneath the black surface. Making a single piece, from bowls and trays to boxes and religious figures, can take between six months and a year of uninterrupted craftsmanship, and Bagan's family workshops still produce pieces following techniques passed down orally across generations, making the city the undisputed center of this craft across all of Southeast Asia.",
+      },
+    },
+  },
+  {
+    id: "mohinga-desayuno-nacional",
+    order: 14,
+    placeholderEmoji: "🍜",
+    accentColor: "#E67E22",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La sopa de pescado que Myanmar desayuna cada mañana",
+        subtitle: "El mohinga",
+        imageAlt: "Caricatura de un tazón humeante de sopa con fideos y huevo.",
+        description:
+          "El mohinga, considerado ampliamente el plato nacional de Myanmar, es una sopa de fideos de arroz en un caldo elaborado con pescado de río deshecho, hierba de limón, jengibre y raíz de banano, servida tradicionalmente como desayuno callejero en puestos que abren desde el amanecer en pueblos y ciudades de todo el país. Cada región y cada familia guarda su propia receta con variaciones en el espesor del caldo y los acompañamientos, que suelen incluir huevo duro, hojuelas de pescado frito crocante, cilantro fresco y un chorrito de jugo de lima, y aunque puede comerse a cualquier hora del día, sigue siendo ante todo un ritual matutino tan arraigado que muchos birmanos consideran que el día no puede comenzar sin un tazón de mohinga recién servido.",
+      },
+      en: {
+        title: "The Fish Soup Myanmar Eats for Breakfast",
+        subtitle: "Mohinga",
+        imageAlt: "Cartoon of a steaming bowl of soup with noodles and egg.",
+        description:
+          "Mohinga, widely considered Myanmar's national dish, is a rice noodle soup in a broth made from flaked river fish, lemongrass, ginger, and banana root, traditionally served as street breakfast at stalls open from dawn in towns and cities across the country. Every region and family keeps its own recipe with variations in broth thickness and toppings, which usually include a hard-boiled egg, crispy fried fish flakes, fresh cilantro, and a splash of lime juice, and although it can be eaten at any time of day, it remains above all a morning ritual so deeply rooted that many Burmese consider the day cannot properly begin without a freshly served bowl of mohinga.",
+      },
+    },
+  },
+  {
+    id: "delfines-del-irrawaddy-pesca-cooperativa",
+    order: 15,
+    placeholderEmoji: "🐬",
+    accentColor: "#4A6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los delfines que arrean peces hacia las redes de pesca",
+        subtitle: "Los delfines del Irrawaddy",
+        imageAlt: "Caricatura de un delfín gris asomando junto a una red de pesca.",
+        description:
+          "En un tramo del río Irrawaddy, entre las ciudades de Mandalay y Bagan, pescadores birmanos y delfines del Irrawaddy, una especie de delfín de río gris con hocico corto y frente redondeada, desarrollaron durante generaciones una relación de pesca cooperativa única en el mundo: los pescadores golpean el agua con remos como señal, y los delfines responden arreando cardúmenes de peces directamente hacia las redes lanzadas desde las canoas, a cambio de quedarse con parte de la pesca desorganizada por el arreo. Esta colaboración, documentada desde hace más de un siglo y transmitida entre familias de pescadores específicas a lo largo del río, sobrevive hoy en un puñado de comunidades ribereñas mientras la población salvaje de delfines del Irrawaddy, clasificada en peligro, se redujo drásticamente por la pesca eléctrica y la contaminación fluvial.",
+      },
+      en: {
+        title: "The Dolphins That Herd Fish Toward the Nets",
+        subtitle: "Irrawaddy River Dolphins",
+        imageAlt: "Cartoon of a gray dolphin surfacing beside a fishing net.",
+        description:
+          "Along a stretch of the Irrawaddy River between Mandalay and Bagan, Burmese fishermen and Irrawaddy dolphins, a gray river dolphin species with a short snout and rounded forehead, developed over generations a cooperative fishing relationship found nowhere else in the world: fishermen tap the water with paddles as a signal, and the dolphins respond by herding schools of fish directly toward nets cast from the canoes, in exchange for keeping a share of the fish scattered by the herding. This partnership, documented for more than a century and passed down within specific fishing families along the river, survives today in a handful of riverside communities even as the wild Irrawaddy dolphin population, classified as endangered, has declined sharply due to electric fishing and river pollution.",
+      },
+    },
+  },
 ];

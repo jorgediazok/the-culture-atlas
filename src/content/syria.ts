@@ -231,4 +231,119 @@ export const syria: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-krak-de-los-caballeros",
+    order: 11,
+    placeholderEmoji: "🏰",
+    accentColor: "#6E7B8B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El castillo cruzado que ningún ejército logró tomar",
+        subtitle: "El Krak de los Caballeros",
+        imageAlt: "Caricatura de un castillo de piedra con murallas dobles y torres redondas sobre una colina.",
+        description:
+          "El Krak de los Caballeros, una fortaleza construida y ampliada por los caballeros hospitalarios durante el siglo XII sobre una colina que domina un paso estratégico entre el mar Mediterráneo y el interior de Siria, se considera uno de los castillos medievales mejor conservados del mundo, con un sistema defensivo de doble muralla concéntrica capaz de albergar a una guarnición de hasta dos mil soldados y establos, cisternas y almacenes suficientes para resistir un asedio prolongado de varios años. Descrito por el historiador T. E. Lawrence, más conocido como Lawrence de Arabia, como 'el castillo más admirable del mundo', resistió doce asedios directos a lo largo de su historia y cayó finalmente en 1271, no por asalto militar sino por un engaño: los mamelucos hicieron llegar una carta falsa que convenció a la guarnición de rendirse. Declarado Patrimonio de la Humanidad por la UNESCO en 2006.",
+      },
+      en: {
+        title: "The Crusader Castle No Army Ever Took by Force",
+        subtitle: "Krak des Chevaliers",
+        imageAlt: "Cartoon of a stone castle with double walls and round towers on a hilltop.",
+        description:
+          "Krak des Chevaliers, a fortress built and expanded by the Knights Hospitaller during the 12th century atop a hill overlooking a strategic pass between the Mediterranean Sea and the Syrian interior, is considered one of the best-preserved medieval castles in the world, with a concentric double-wall defense system able to house a garrison of up to two thousand soldiers along with stables, cisterns, and storerooms sufficient to withstand a siege lasting several years. Described by historian T. E. Lawrence, better known as Lawrence of Arabia, as 'the most wholly admirable castle in the world,' it withstood twelve direct sieges over its history and finally fell in 1271, not through military assault but through deception: the Mamluks delivered a forged letter that convinced the garrison to surrender. It was declared a UNESCO World Heritage Site in 2006.",
+      },
+    },
+  },
+  {
+    id: "maalula-el-pueblo-que-todavia-habla-arameo",
+    order: 12,
+    placeholderEmoji: "🗣️",
+    accentColor: "#1E88A8",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo que todavía habla la lengua de Jesús",
+        subtitle: "Maalula y el arameo occidental",
+        imageAlt: "Caricatura de casas pintadas de azul talladas en un acantilado rocoso.",
+        description:
+          "Maalula, un pueblo construido literalmente dentro de las grietas de un acantilado rocoso al norte de Damasco, con casas de fachada azul apiladas unas sobre otras que se comunican por escaleras y pasadizos tallados en la roca, es uno de los últimos tres lugares del mundo donde una comunidad todavía habla arameo occidental a diario, la misma familia lingüística que se cree que habló Jesús de Nazaret hace dos mil años. La lengua sobrevivió gracias al aislamiento geográfico del pueblo, transmitida oralmente de generación en generación sin depender de una escritura estandarizada, y hoy convive con el árabe en la vida cotidiana de sus habitantes cristianos y musulmanes, mientras lingüistas y escuelas locales trabajan activamente para documentarla y enseñarla a las nuevas generaciones antes de que desaparezca por completo.",
+      },
+      en: {
+        title: "The Village That Still Speaks the Language of Jesus",
+        subtitle: "Maalula and Western Aramaic",
+        imageAlt: "Cartoon of blue-painted houses carved into a rocky cliffside.",
+        description:
+          "Maalula, a village built literally into the crevices of a rocky cliff north of Damascus, with blue-fronted houses stacked on top of one another and connected by staircases and passages carved into the rock, is one of the last three places on Earth where a community still speaks Western Aramaic daily, the same language family believed to have been spoken by Jesus of Nazareth two thousand years ago. The language survived thanks to the village's geographic isolation, passed down orally across generations without relying on a standardized script, and today it coexists with Arabic in the daily life of its Christian and Muslim residents alike, while linguists and local schools work actively to document it and teach it to new generations before it disappears entirely.",
+      },
+    },
+  },
+  {
+    id: "el-kibbeh-el-plato-nacional-sirio",
+    order: 13,
+    placeholderEmoji: "🧆",
+    accentColor: "#8D5B3F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El plato de trigo y carne con más de cien variantes",
+        subtitle: "El kibbeh, plato nacional sirio",
+        imageAlt: "Caricatura de croquetas alargadas y doradas apiladas en un plato.",
+        description:
+          "El kibbeh, considerado por muchos el plato nacional de Siria, se elabora combinando carne molida, generalmente de cordero, con trigo bulgur remojado y especias hasta lograr una masa firme que se moldea en croquetas alargadas rellenas de más carne, cebolla y piñones, antes de freírlas hasta dorarlas por fuera mientras el centro queda jugoso. El plato tiene más de un centenar de variantes regionales documentadas en Siria y países vecinos, desde versiones crudas similares a un tartar de carne condimentado hasta preparaciones horneadas en bandejas o cocidas en yogur, y su elaboración tradicional, que exige amasar el bulgur y la carne hasta lograr una textura perfectamente lisa sin ayuda de procesadoras eléctricas, todavía se considera una prueba de habilidad culinaria transmitida de generación en generación dentro de las familias sirias.",
+      },
+      en: {
+        title: "The Wheat-and-Meat Dish With Over a Hundred Variants",
+        subtitle: "Kibbeh, Syria's National Dish",
+        imageAlt: "Cartoon of golden elongated croquettes stacked on a plate.",
+        description:
+          "Kibbeh, considered by many to be Syria's national dish, is made by combining ground meat, usually lamb, with soaked bulgur wheat and spices into a firm dough shaped into elongated croquettes stuffed with more meat, onion, and pine nuts, then fried until golden on the outside while the center stays juicy. The dish has more than a hundred documented regional variants across Syria and neighboring countries, ranging from raw versions similar to a seasoned meat tartare to baked tray preparations or ones cooked in yogurt, and its traditional preparation, which requires kneading the bulgur and meat by hand into a perfectly smooth texture without electric processors, is still considered a test of culinary skill passed down through generations within Syrian families.",
+      },
+    },
+  },
+  {
+    id: "los-qudud-halabiya-canciones-clasicas-de-alepo",
+    order: 14,
+    placeholderEmoji: "🎵",
+    accentColor: "#7B4B94",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las canciones de amor que reciclaron himnos religiosos",
+        subtitle: "Los qudud halabiya, canciones de Alepo",
+        imageAlt: "Caricatura de un cantante junto a un músico tocando un laúd de cuerdas curvo.",
+        description:
+          "Los qudud halabiya, un género de canción clásica originario de Alepo, nació de la práctica de tomar melodías religiosas sufíes o himnos litúrgicos y adaptarles nuevas letras profanas sobre el amor, el vino o la belleza, una reutilización musical que se remonta al menos al siglo XV y que convirtió a Alepo en uno de los grandes centros de música árabe clásica del Levante. Interpretadas tradicionalmente por un cantante solista acompañado de laúd oud, violín y percusión de pandereta riq, estas canciones siguen estructuras melódicas modales llamadas maqamat, compartidas con otras tradiciones musicales de la región, y muchas de las piezas más célebres del repertorio se transmitieron oralmente durante siglos antes de que musicólogos comenzaran a transcribirlas recién en el siglo XX, asegurando su supervivencia en conservatorios y festivales de música árabe.",
+      },
+      en: {
+        title: "The Love Songs That Recycled Religious Melodies",
+        subtitle: "Qudud Halabiya, Aleppo's Classical Songs",
+        imageAlt: "Cartoon of a singer beside a musician playing a curved-necked lute.",
+        description:
+          "Qudud Halabiya, a classical song genre originating in Aleppo, arose from the practice of taking Sufi religious melodies or liturgical hymns and setting new secular lyrics about love, wine, or beauty to them, a musical recycling tradition dating back at least to the 15th century that made Aleppo one of the great centers of classical Arab music in the Levant. Traditionally performed by a solo singer accompanied by oud lute, violin, and riq tambourine percussion, these songs follow modal melodic structures called maqamat, shared with other musical traditions of the region, and many of the repertoire's most celebrated pieces were passed down orally for centuries before musicologists began transcribing them only in the 20th century, helping ensure their survival in conservatories and Arab music festivals.",
+      },
+    },
+  },
+  {
+    id: "los-muebles-de-madera-con-incrustaciones-de-nacar-de-damasco",
+    order: 15,
+    placeholderEmoji: "🪑",
+    accentColor: "#4A3728",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los muebles tallados con incrustaciones de nácar",
+        subtitle: "Los muebles con incrustaciones de nácar de Damasco",
+        imageAlt: "Caricatura de un cofre de madera oscura con incrustaciones brillantes de nácar formando estrellas.",
+        description:
+          "La marquetería de nácar de Damasco, un oficio artesanal con siglos de tradición en los talleres de la ciudad vieja, consiste en incrustar diminutas piezas de concha de nácar cortadas y pulidas a mano sobre superficies de madera oscura de nogal o cedro, formando intrincados patrones geométricos de estrellas de ocho puntas y motivos florales sobre mesas, cofres, sillas y tableros de backgammon. Cada pieza de nácar se corta individualmente con una sierra fina siguiendo una plantilla, se encastra en un hueco tallado con precisión milimétrica en la madera, y se pule hasta quedar perfectamente nivelada con la superficie, un proceso que para un mueble grande puede insumir varios meses de trabajo de un mismo artesano. Los talleres familiares que dominan la técnica, transmitida de generación en generación, siguen exportando estas piezas como uno de los símbolos artesanales más reconocidos de Damasco.",
+      },
+      en: {
+        title: "The Wood Furniture Inlaid With Mother-of-Pearl",
+        subtitle: "Damascus's Mother-of-Pearl Furniture",
+        imageAlt: "Cartoon of a dark wooden chest with shimmering mother-of-pearl star inlays.",
+        description:
+          "Damascus mother-of-pearl marquetry, a craft with centuries of tradition in the workshops of the Old City, involves inlaying tiny pieces of mother-of-pearl shell, hand-cut and polished, into dark walnut or cedar wood surfaces, forming intricate geometric patterns of eight-pointed stars and floral motifs on tables, chests, chairs, and backgammon boards. Each piece of shell is individually cut with a fine saw following a template, fitted into a recess carved with millimeter precision into the wood, and polished until perfectly level with the surface, a process that for a large piece of furniture can take a single craftsman several months of work. The family workshops that master the technique, passed down through generations, continue exporting these pieces as one of Damascus's most recognized artisanal symbols worldwide.",
+      },
+    },
+  },
 ];

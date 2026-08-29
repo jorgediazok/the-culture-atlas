@@ -151,6 +151,44 @@ const ElCatolicismoCasiUniversalEnTimor: IllustrationComponent = ({ accentColor 
   );
 };
 
+const AvistamientoBallenasEstrechoWetar: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#1B4F91";
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill={water} opacity="0.35" />
+      <path d="M140 200 Q170 175 210 185 Q230 190 225 210 Q200 220 165 215 Q145 212 140 200 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M210 200 Q250 190 275 165 Q265 195 280 200 Q255 205 235 218 Q220 215 210 200 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M255 175 Q265 165 258 155 M270 180 Q280 172 275 160" fill="none" stroke="#fff" strokeWidth="3" strokeLinecap="round" opacity="0.6" />
+      <path d="M130 235 L175 235 L168 222 L138 222 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <line x1="153" y1="222" x2="153" y2="200" stroke="#5C3A21" strokeWidth="3" />
+    </g>
+  );
+};
+
+const TuaSabuVinoDePalma: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const trunk = "#8B5A2B";
+  const fronds = [-70, -35, 0, 35, 70];
+  return (
+    <g>
+      <path d="M195 240 Q198 180 205 120 Q210 180 213 240 Z" fill={trunk} stroke={shade(trunk, 0.3)} strokeWidth="2.5" />
+      {fronds.map((deg) => (
+        <g key={deg} transform={`translate(205 118) rotate(${deg})`}>
+          <path d="M0 0 Q-8 -20 -35 -30 Q-10 -14 0 0 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
+      <circle cx="230" cy="170" r="11" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M215 172 Q230 165 245 172 L238 215 L222 215 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M222 190 Q210 195 208 210" fill="none" stroke={accentColor} strokeWidth="7" strokeLinecap="round" />
+      <path d="M238 190 Q250 195 252 210" fill="none" stroke={accentColor} strokeWidth="7" strokeLinecap="round" />
+      <line x1="238" y1="205" x2="245" y2="205" stroke={dark} strokeWidth="2" />
+      <rect x="245" y="195" width="10" height="24" rx="3" fill="#B8A484" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
 export const eastTimorIllustrations: Record<string, IllustrationDefinition> = {
   "timor-oriental-la-nacion-mas-joven-de-asia": { component: TimorOrientalLaNacionMasJovenDeAsia },
   "el-tais-el-tejido-que-identifica-cada-region": { component: ElTaisElTejidoQueIdentificaCadaRegion },
@@ -162,4 +200,6 @@ export const eastTimorIllustrations: Record<string, IllustrationDefinition> = {
   "el-cafe-de-timor-organico-casi-por-accidente": { component: ElCafeDeTimorOrganicoCasiPorAccidente },
   "el-likurai-la-danza-de-bienvenida-guerrera": { component: ElLikuraiLaDanzaDeBienvenidaGuerrera },
   "el-catolicismo-casi-universal-en-timor": { component: ElCatolicismoCasiUniversalEnTimor },
+  "avistamiento-ballenas-estrecho-wetar": { component: AvistamientoBallenasEstrechoWetar },
+  "tua-sabu-vino-de-palma": { component: TuaSabuVinoDePalma },
 };

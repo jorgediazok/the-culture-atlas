@@ -231,4 +231,119 @@ export const sriLanka: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "galle-fort-la-fortaleza-colonial-holandesa",
+    order: 11,
+    placeholderEmoji: "🏰",
+    accentColor: "#5C6B73",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La fortaleza holandesa que sigue habitada hoy",
+        subtitle: "Galle Fort, la fortaleza colonial holandesa",
+        imageAlt: "Caricatura de una muralla de piedra costera con un faro blanco y techos de tejas rojas.",
+        description:
+          "Galle Fort, la ciudad amurallada colonial en la costa sur de Sri Lanka, fue construida originalmente por los portugueses en el siglo XVI y luego ampliada y fortificada masivamente por los holandeses a partir de 1663, uno de los ejemplos mejor conservados de una ciudad fortificada de construcción europea en toda Asia, declarada Patrimonio de la Humanidad por la UNESCO desde 1988. Combina la arquitectura colonial holandesa con tradiciones constructivas del sur de Asia y una influencia colonial británica posterior, con un casco antiguo todavía habitado, no un sitio museo, que conserva calles estrechas, casonas coloniales, iglesias, una mezquita y un faro en funcionamiento. Sus murallas y bastiones sobrevivieron en gran parte intactos al devastador tsunami del océano Índico de 2004, un factor al que se atribuye haber protegido buena parte del interior de la fortaleza del peor daño que arrasó otras zonas de la costa. Hoy es una comunidad viva con hoteles boutique y galerías de arte.",
+      },
+      en: {
+        title: "The Dutch Fortress That's Still Lived In Today",
+        subtitle: "Galle Fort, a Dutch Colonial Fortress",
+        imageAlt: "Cartoon of a coastal stone wall with a white lighthouse and red-tiled roofs.",
+        description:
+          "Galle Fort, the fortified colonial old town on Sri Lanka's southern coast, was originally built by the Portuguese in the 16th century and then massively expanded and fortified by the Dutch starting in 1663, one of the best-preserved examples of a European-built fortified city anywhere in Asia, declared a UNESCO World Heritage Site since 1988. It distinctively blends Dutch colonial architecture with South Asian building traditions and later British colonial influence, with a still-inhabited old town, not a museum-only site, that retains narrow streets, colonial villas, churches, a mosque, and a working lighthouse. Its walls and bastions largely survived the devastating 2004 Indian Ocean tsunami intact, credited with protecting much of the fort's interior from the worst damage that swept other parts of the coast. Today it's a living community with boutique hotels and art galleries.",
+      },
+    },
+  },
+  {
+    id: "el-orfanato-de-elefantes-de-pinnawala",
+    order: 12,
+    placeholderEmoji: "🍼",
+    accentColor: "#8D99AE",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El orfanato donde crecen elefantes huérfanos juntos",
+        subtitle: "El orfanato de elefantes de Pinnawala",
+        imageAlt: "Caricatura de crías de elefante bañándose juntas en un río poco profundo.",
+        description:
+          "El orfanato de elefantes de Pinnawala, fundado en 1975 por el Departamento de Conservación de Vida Silvestre de Sri Lanka, se creó originalmente para cuidar a crías de elefante salvaje encontradas abandonadas o heridas en la selva, y con el tiempo se amplió hacia un programa mayor de cría y conservación. Se convirtió en uno de los rebaños de elefantes en cautiverio más grandes del mundo, con animales que viven en un entorno semi gestionado en lugar de recintos aislados, con libertad para socializar juntos como manada, imitando las estructuras sociales silvestres. Es célebre por el espectáculo diario en que la manada entera es conducida al cercano río Maha Oya para un baño comunitario, que atrae a numerosos visitantes. El sitio también se convirtió en un centro importante de investigación sobre biología de elefantes y educación pública sobre la población de elefantes salvajes en peligro del país, aunque la práctica de cría en cautiverio recibió también críticas de conservacionistas.",
+      },
+      en: {
+        title: "The Orphanage Where Baby Elephants Grow Up Together",
+        subtitle: "Pinnawala Elephant Orphanage",
+        imageAlt: "Cartoon of baby elephants bathing together in a shallow river.",
+        description:
+          "The Pinnawala Elephant Orphanage, founded in 1975 by Sri Lanka's Department of Wildlife Conservation, was originally created to care for wild elephant calves found orphaned or injured in the jungle, later expanding into a larger breeding and conservation program. It became one of the largest captive elephant herds in the world, with animals living in a semi-managed setting rather than isolated enclosures, free to roam and socialize together as a herd, closely mimicking wild social structures. It's famous for the daily spectacle of the entire herd being walked to the nearby Maha Oya river for a communal bathing session, drawing large numbers of visitors to watch. The site also became an important center for elephant biology research and public education about the country's endangered wild elephant population, though its captive breeding and tourism practices have also drawn criticism from conservationists.",
+      },
+    },
+  },
+  {
+    id: "vesak-el-festival-de-los-faroles",
+    order: 13,
+    placeholderEmoji: "🏮",
+    accentColor: "#F4A300",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La noche en que ciudades enteras se cubren de faroles",
+        subtitle: "Vesak, el festival de los faroles",
+        imageAlt: "Caricatura de faroles de papel coloridos colgando en fila frente a una casa iluminada de noche.",
+        description:
+          "El Vesak es la festividad budista más sagrada e importante del año para la mayoría budista de Sri Lanka, celebrada en el día de luna llena del mes de Vesak, generalmente en mayo, conmemorando el nacimiento, la iluminación y la muerte de Buda, hechos que la tradición sitúa en la misma fecha. Calles y casas enteras del país se decoran de manera elaborada con faroles de papel de todos los tamaños, algunos sencillos y hechos a mano, otros estructuras iluminadas enormes que representan escenas de las escrituras budistas, construidas de manera competitiva por vecindarios y organizaciones. Grandes 'pandals' o thoranas, paneles retroiluminados que representan los relatos jataka sobre vidas pasadas de Buda, construidos temporalmente y desmontados después, son una atracción pública mayor, especialmente en Colombo. Voluntarios instalan puestos gratuitos de comida y bebida llamados 'dansal' por toda la ciudad, ofreciendo comidas a cualquier transeúnte como acto de mérito religioso.",
+      },
+      en: {
+        title: "The Night Entire Cities Are Covered in Lanterns",
+        subtitle: "Vesak, the Festival of Lanterns",
+        imageAlt: "Cartoon of colorful paper lanterns hanging in a row in front of a house lit up at night.",
+        description:
+          "Vesak is the most sacred and important Buddhist festival of the year for Sri Lanka's Buddhist majority, held on the full moon day of the Vesak month, usually May, commemorating the birth, enlightenment, and death of the Buddha, all believed to have occurred on the same date. Streets and entire homes across the country are elaborately decorated with paper lanterns of every size, some simple and handmade, others enormous illuminated structures depicting scenes from Buddhist scripture, built competitively by neighborhoods and organizations. Large illuminated 'pandals,' or thoranas, elaborate backlit panels depicting Jataka tales about the Buddha's past lives, built temporarily and taken down afterward, are a major public attraction, especially in Colombo. Volunteers set up free food and drink stalls called 'dansal' throughout cities, offering meals to any passerby as an act of religious merit-making.",
+      },
+    },
+  },
+  {
+    id: "el-avistamiento-de-ballenas-azules",
+    order: 14,
+    placeholderEmoji: "🐋",
+    accentColor: "#0E7C7B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Donde el animal más grande del mundo pasa cerca",
+        subtitle: "El avistamiento de ballenas azules",
+        imageAlt: "Caricatura de una ballena azul emergiendo parcialmente del agua junto a un bote pequeño.",
+        description:
+          "Las aguas frente a la costa sur de Sri Lanka, cerca de la localidad de Mirissa, se consideran uno de los mejores lugares del mundo para avistar con fiabilidad ballenas azules, el animal más grande que se conoce haya existido en la Tierra. La plataforma continental submarina cae muy cerca de la costa en esta zona, lo que permite observar ballenas de aguas profundas en viajes en bote relativamente cortos en lugar de requerir largas travesías de mar abierto. La zona también recibe cachalotes y delfines, y la temporada alta va de noviembre a abril. Se cree que la población de ballenas azules que usa estas aguas es en gran medida no migratoria, a diferencia de otras poblaciones, permaneciendo en aguas de Sri Lanka de una manera distinta al patrón clásico de migración de larga distancia asociado a la especie. La industria del avistamiento creció rápidamente, generando beneficios económicos pero también preocupación por el riesgo de colisiones.",
+      },
+      en: {
+        title: "Where the World's Largest Animal Passes Close By",
+        subtitle: "Blue Whale Watching",
+        imageAlt: "Cartoon of a blue whale partly surfacing beside a small boat.",
+        description:
+          "The waters off Sri Lanka's southern coast, particularly near the town of Mirissa, are considered one of the best places in the world to reliably spot blue whales, the largest animal known to have ever existed on Earth. The area's unusual underwater geography, where the continental shelf drops off very close to shore, means deep-water whales can be observed on relatively short boat trips rather than requiring the long open-ocean journeys typical elsewhere. The area also sees sperm whales and several dolphin species, with peak season generally running November through April. The blue whale population using these waters is believed to be largely non-migratory, unlike populations elsewhere, remaining in Sri Lankan waters somewhat differently from the classic long-distance migration pattern associated with the species globally. The whale-watching industry grew rapidly, bringing economic benefit alongside growing concern over vessel strike risks.",
+      },
+    },
+  },
+  {
+    id: "el-criquet-la-pasion-de-1996",
+    order: 15,
+    placeholderEmoji: "🏏",
+    accentColor: "#1B5E20",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El campeonato mundial que unió a todo un país",
+        subtitle: "El críquet y la gesta de 1996",
+        imageAlt: "Caricatura de un bate de críquet y un trofeo dorado bajo confeti cayendo.",
+        description:
+          "El críquet es el deporte y la pasión nacional dominante en Sri Lanka, siguiendo el patrón más amplio del sur de Asia. El logro deportivo más celebrado del país llegó en la Copa Mundial de Críquet de 1996, cuando la selección nacional, considerada una candidata débil por la mayoría de los analistas internacionales antes del torneo, se consagró campeona derrotando a Australia en la final, un resultado ampliamente descrito como una de las mayores sorpresas en la historia del deporte y un momento emblemático de enorme orgullo nacional unificador. El éxito del equipo se atribuye en parte a una estrategia de bateo de apertura agresiva y poco convencional, atacando con fuerza a los lanzadores desde los primeros minutos en lugar del enfoque cauteloso habitual de la época, una innovación táctica que influyó en cómo se juega el críquet de overs limitados en todo el mundo desde entonces. El capitán Arjuna Ranatunga y jugadores como Sanath Jayasuriya se convirtieron en héroes nacionales duraderos.",
+      },
+      en: {
+        title: "The World Championship That United an Entire Country",
+        subtitle: "Cricket and the 1996 Triumph",
+        imageAlt: "Cartoon of a cricket bat and a golden trophy under falling confetti.",
+        description:
+          "Cricket is the dominant national sport and passion in Sri Lanka, following the broader South Asian pattern. The country's most celebrated sporting achievement came at the 1996 Cricket World Cup, when the national team, considered underdogs by most international pundits going in, won the tournament outright, defeating Australia in the final, a result widely described as one of the greatest upsets in the sport's history and a landmark moment of enormous, unifying national pride. The team's success is partly attributed to an aggressive, unconventional opening batting strategy, attacking bowlers hard from the very first overs rather than the cautious approach standard at the time, a tactical innovation that influenced how limited-overs cricket was played worldwide afterward. Captain Arjuna Ranatunga and players like Sanath Jayasuriya became lasting national heroes.",
+      },
+    },
+  },
 ];

@@ -231,4 +231,234 @@ export const china: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "ciudad-prohibida",
+    order: 11,
+    placeholderEmoji: "🏯",
+    accentColor: "#C9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El palacio prohibido a todos menos al emperador",
+        subtitle: "La Ciudad Prohibida",
+        imageAlt: "Caricatura de los techos dorados y curvos de un palacio imperial chino.",
+        description:
+          "La Ciudad Prohibida, en el corazón de Beijing, fue construida entre 1406 y 1420 durante el reinado del emperador Yongle de la dinastía Ming y sirvió como residencia imperial y centro del poder político chino durante casi 500 años, albergando a 24 emperadores consecutivos de las dinastías Ming y Qing. El complejo reúne más de 980 edificios y, según la tradición popular, 9.999 habitaciones y media —un número elegido para quedar apenas por debajo de las 10.000 que solo un palacio celestial merecería—, todos con techos de tejas amarillas, un color reservado exclusivamente para el emperador y prohibido para cualquier otra construcción del imperio. Durante siglos, ningún plebeyo podía entrar sin autorización expresa, de ahí su nombre. Hoy, convertida en el Museo del Palacio, recibe a más de 14 millones de visitantes al año, ubicándola entre los museos más visitados del mundo.",
+      },
+      en: {
+        title: "The Palace Forbidden to Everyone but the Emperor",
+        subtitle: "The Forbidden City",
+        imageAlt: "Cartoon of the golden, curved roofs of a Chinese imperial palace.",
+        description:
+          "The Forbidden City, at the heart of Beijing, was built between 1406 and 1420 under the Ming dynasty's Yongle Emperor and served as the imperial residence and center of Chinese political power for nearly 500 years, housing 24 consecutive emperors across the Ming and Qing dynasties. The complex holds more than 980 buildings and, according to popular tradition, 9,999 and a half rooms — a number chosen to fall just short of the 10,000 rooms only a celestial palace would deserve — all topped with yellow roof tiles, a color reserved exclusively for the emperor and forbidden on any other building in the empire. For centuries, no commoner could enter without express authorization, hence the name. Today, turned into the Palace Museum, it draws more than 14 million visitors a year, placing it among the most visited museums on Earth.",
+      },
+    },
+  },
+  {
+    id: "opera-de-pekin",
+    order: 12,
+    placeholderEmoji: "🎭",
+    accentColor: "#7A3B5E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Caras pintadas que cuentan quién es cada personaje",
+        subtitle: "La Ópera de Pekín",
+        imageAlt: "Caricatura de un actor de ópera china con la cara pintada de colores vivos.",
+        description:
+          "La Ópera de Pekín, o jingju, surgió a fines del siglo XVIII cuando compañías teatrales de las provincias de Anhui y Hubei se fusionaron en la capital, combinando canto, actuación, mímica, acrobacia y artes marciales en un mismo espectáculo. Uno de sus elementos más reconocibles es el maquillaje facial, o lianpu, donde cada color codifica un rasgo de personalidad: el rojo indica lealtad y valentía, el blanco sugiere traición o astucia, el negro representa integridad y rudeza, y patrones dorados o plateados suelen reservarse para dioses o espíritus. Los actores tradicionalmente comenzaban su entrenamiento desde niños, dedicando años a dominar el canto en falsete, los movimientos acrobáticos y los roles fijos del repertorio, cada uno con su propio estilo de voz y gesto. Declarada Patrimonio Cultural Inmaterial por la UNESCO en 2010, sigue representándose en teatros de toda China.",
+      },
+      en: {
+        title: "Painted Faces That Announce Who Each Character Is",
+        subtitle: "Peking Opera",
+        imageAlt: "Cartoon of a Chinese opera actor with a face painted in vivid colors.",
+        description:
+          "Peking Opera, or jingju, emerged in the late 18th century when theater troupes from the Anhui and Hubei provinces merged in the capital, combining singing, acting, mime, acrobatics, and martial arts into a single performance. One of its most recognizable elements is facial makeup, or lianpu, where each color encodes a personality trait: red signals loyalty and courage, white suggests treachery or cunning, black represents integrity and roughness, and gold or silver patterns are usually reserved for gods or spirits. Actors traditionally began training as children, spending years mastering falsetto singing, acrobatic movement, and the repertoire's fixed role types, each with its own distinct vocal style and gesture. Declared Intangible Cultural Heritage by UNESCO in 2010, it's still performed in theaters across China today.",
+      },
+    },
+  },
+  {
+    id: "festival-bote-del-dragon",
+    order: 13,
+    placeholderEmoji: "🐉",
+    accentColor: "#2F8F5B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Botes en forma de dragón para honrar a un poeta",
+        subtitle: "El Festival del Bote del Dragón",
+        imageAlt: "Caricatura de un bote alargado con cabeza de dragón tallada, remado por varias personas.",
+        description:
+          "El Festival del Bote del Dragón, o Duanwu, se celebra el quinto día del quinto mes del calendario lunar en honor a Qu Yuan, un poeta y funcionario del antiguo estado de Chu que, según la leyenda, se lanzó al río Miluo alrededor del año 278 a.C. en protesta por la corrupción de la corte. Los aldeanos remaron en botes para intentar rescatarlo y golpearon el agua con remos y tambores para espantar a los peces, y arrojaron bolas de arroz glutinoso envueltas en hojas de bambú, los zongzi, para que los peces comieran eso en lugar del cuerpo del poeta. Ambas tradiciones sobreviven hoy: las carreras de botes dragón, con embarcaciones largas y angostas con una cabeza de dragón tallada en la proa, remadas al ritmo de un tambor, se disputan en China y en más de 80 países; y los zongzi, ahora con rellenos dulces o salados, siguen siendo la comida obligada de la fecha. La UNESCO lo declaró Patrimonio Cultural Inmaterial en 2009.",
+      },
+      en: {
+        title: "Dragon-Shaped Boats to Honor a Poet",
+        subtitle: "The Dragon Boat Festival",
+        imageAlt: "Cartoon of a long boat with a carved dragon head, rowed by several people.",
+        description:
+          "The Dragon Boat Festival, or Duanwu, is celebrated on the fifth day of the fifth month of the lunar calendar in honor of Qu Yuan, a poet and official of the ancient state of Chu who, according to legend, threw himself into the Miluo River around 278 BCE in protest of court corruption. Villagers rowed out in boats to try to save him and beat the water with paddles and drums to scare fish away, and threw balls of glutinous rice wrapped in bamboo leaves, zongzi, so the fish would eat those instead of the poet's body. Both traditions survive today: dragon boat races, with long, narrow boats carved with a dragon's head at the bow, rowed to a drumbeat, are contested in China and in more than 80 countries; and zongzi, now filled with sweet or savory ingredients, remain the holiday's essential food. UNESCO declared it Intangible Cultural Heritage in 2009.",
+      },
+    },
+  },
+  {
+    id: "porcelana-azul-y-blanca",
+    order: 14,
+    placeholderEmoji: "🏺",
+    accentColor: "#2F6F9E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La porcelana tan fina que le dio nombre a un país",
+        subtitle: "La porcelana azul y blanca",
+        imageAlt: "Caricatura de un jarrón de porcelana blanca pintado con motivos azules.",
+        description:
+          "La porcelana china, perfeccionada durante siglos en los hornos de Jingdezhen —una ciudad que sigue siendo conocida como la 'capital de la porcelana'—, alcanzó su forma más icónica durante las dinastías Yuan y Ming, cuando los artesanos comenzaron a pintar motivos florales, dragones y escenas narrativas en azul cobalto, un pigmento importado de Persia, sobre una base blanca antes de aplicar un esmalte transparente y cocer la pieza a más de 1.300 grados. La calidad de esta porcelana era tan superior a cualquier cerámica europea de la época que, cuando las primeras piezas llegaron a Europa por rutas marítimas a partir del siglo XIV, se volvieron objetos de lujo extremo entre la realeza, y el propio nombre del país, 'china', terminó convirtiéndose en inglés en sinónimo genérico de porcelana fina. Los hornos imperiales de Jingdezhen producían piezas exclusivamente para la corte, y cualquier pieza defectuosa se destruía para impedir que circulara fuera del palacio.",
+      },
+      en: {
+        title: "Porcelain So Fine It Gave a Country Its Name",
+        subtitle: "Blue-and-White Porcelain",
+        imageAlt: "Cartoon of a white porcelain vase painted with blue motifs.",
+        description:
+          "Chinese porcelain, perfected over centuries in the kilns of Jingdezhen — a city still known today as the 'porcelain capital' — reached its most iconic form during the Yuan and Ming dynasties, when artisans began painting floral motifs, dragons, and narrative scenes in cobalt blue, a pigment imported from Persia, onto a white base before applying a clear glaze and firing at temperatures above 1,300 degrees Celsius. This porcelain's quality so outstripped any European ceramic of the era that, once the first pieces reached Europe by sea starting in the 14th century, they became extreme luxury objects among royalty, and the country's own name, 'china,' ended up becoming, in English, a generic synonym for fine porcelain. Jingdezhen's imperial kilns produced pieces exclusively for the court, and any flawed piece was destroyed so it could never circulate outside the palace.",
+      },
+    },
+  },
+  {
+    id: "ruta-de-la-seda",
+    order: 15,
+    placeholderEmoji: "🐫",
+    accentColor: "#9C6B30",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El secreto que China guardó durante 3.000 años",
+        subtitle: "La seda y la Ruta de la Seda",
+        imageAlt: "Caricatura de una caravana de camellos cargados cruzando un paisaje desértico.",
+        description:
+          "La producción de seda se originó en China alrededor del año 3000 a.C., y según la leyenda fue la emperatriz Leizu quien descubrió el hilo al ver un capullo de gusano de seda caer accidentalmente en su taza de té caliente. Durante casi 3.000 años, China guardó como secreto de estado el proceso completo de criar gusanos de seda y extraer el hilo de sus capullos, con pena de muerte para quien lo revelara fuera del imperio. La seda terminó siendo, de todos modos, la mercancía que dio nombre a la red de rutas comerciales de más de 6.000 kilómetros que conectaba China con Persia, Arabia y el Mediterráneo —bautizada 'Ruta de la Seda' recién en el siglo XIX por un geógrafo alemán—, por la que también circularon especias, papel, pólvora y budismo hacia occidente. El secreto finalmente se filtró: según la tradición, dos monjes bizantinos contrabandearon huevos de gusano de seda escondidos en bastones de bambú hacia Constantinopla en el siglo VI d.C., rompiendo el monopolio chino para siempre.",
+      },
+      en: {
+        title: "The Secret China Kept for 3,000 Years",
+        subtitle: "Silk and the Silk Road",
+        imageAlt: "Cartoon of a loaded camel caravan crossing a desert landscape.",
+        description:
+          "Silk production originated in China around 3000 BCE, and according to legend, it was Empress Leizu who discovered the thread when a silkworm cocoon accidentally fell into her hot cup of tea. For nearly 3,000 years, China guarded the entire process of raising silkworms and extracting thread from their cocoons as a state secret, punishable by death for anyone who revealed it beyond the empire's borders. Silk nevertheless ended up giving its name to the network of trade routes stretching more than 6,000 kilometers that connected China with Persia, Arabia, and the Mediterranean — only christened the 'Silk Road' in the 19th century by a German geographer — along which spices, paper, gunpowder, and Buddhism also traveled west. The secret eventually leaked out: tradition holds that two Byzantine monks smuggled silkworm eggs hidden inside hollow bamboo canes to Constantinople in the 6th century CE, breaking China's monopoly for good.",
+      },
+    },
+  },
+  {
+    id: "festival-medio-otono",
+    order: 16,
+    placeholderEmoji: "🥮",
+    accentColor: "#CC7722",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La noche en que toda una familia mira la misma luna",
+        subtitle: "El Festival del Medio Otoño",
+        imageAlt: "Caricatura de una mesa con pastelillos redondos y un farol iluminado bajo la luna llena.",
+        description:
+          "El Festival del Medio Otoño se celebra el día 15 del octavo mes del calendario lunar, cuando la luna llena se considera la más brillante y redonda del año, y es la segunda festividad más importante de China después del Año Nuevo lunar. La tradición central es reunirse en familia al aire libre para contemplar la luna juntos mientras se comparten pastelillos lunares, o yuebing, densos discos rellenos de pasta de semilla de loto o de frijol rojo, a veces con una yema de huevo salado en el centro que simboliza la luna llena, y que se regalan entre familiares y amigos en cajas decoradas semanas antes de la fecha. El festival está ligado a la leyenda de Chang'e, la diosa lunar que, según distintas versiones del mito, bebió un elixir de inmortalidad y flotó hasta la luna, donde vive desde entonces junto a un conejo que prepara elixires. Niños y adultos por igual salen a caminar por la noche cargando faroles de papel encendidos, una imagen tan asociada a la fecha como los propios pastelillos.",
+      },
+      en: {
+        title: "The Night an Entire Family Watches the Same Moon",
+        subtitle: "The Mid-Autumn Festival",
+        imageAlt: "Cartoon of a table with round pastries and a lit lantern under the full moon.",
+        description:
+          "The Mid-Autumn Festival is celebrated on the 15th day of the eighth lunar month, when the full moon is considered the brightest and roundest of the year, and it's China's second most important holiday after Lunar New Year. The central tradition is gathering as a family outdoors to admire the moon together while sharing mooncakes, or yuebing, dense round pastries filled with lotus seed or red bean paste, sometimes with a salted egg yolk at the center symbolizing the full moon, given as gifts among family and friends in decorated boxes weeks before the date. The festival is tied to the legend of Chang'e, the moon goddess who, in various versions of the myth, drank an elixir of immortality and floated up to the moon, where she has lived ever since alongside a rabbit that prepares more elixirs. Children and adults alike go out walking at night carrying lit paper lanterns, an image as tied to the date as the mooncakes themselves.",
+      },
+    },
+  },
+  {
+    id: "tai-chi",
+    order: 17,
+    placeholderEmoji: "☯️",
+    accentColor: "#4A6670",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Combate convertido en movimiento lento y meditado",
+        subtitle: "El tai chi",
+        imageAlt: "Caricatura de una persona practicando una postura lenta de tai chi en un parque.",
+        description:
+          "El tai chi, o taijiquan, es un arte marcial interno que se originó hace varios siglos, con orígenes que la tradición vincula a la aldea de Chenjiagou y a la filosofía taoísta del equilibrio entre el yin y el yang. A diferencia de artes marciales externas como el kung fu de Shaolin, el tai chi se practica con movimientos lentos, continuos y fluidos, encadenados en secuencias llamadas formas, que originalmente entrenaban al cuerpo para aplicar fuerza de manera eficiente en combate real. Hoy, sin embargo, se practica sobre todo como ejercicio de salud, especialmente entre personas mayores, por sus beneficios comprobados en el equilibrio, la flexibilidad y la reducción del estrés, y es habitual ver grupos numerosos practicándolo juntos al amanecer en parques de toda China. Muchos de sus movimientos llevan nombres poéticos que describen la imagen que evocan, como 'agitar las manos como nubes' o 'atrapar la cola del gorrión'. La UNESCO lo declaró Patrimonio Cultural Inmaterial en 2020.",
+      },
+      en: {
+        title: "Combat Turned Into Slow, Meditative Movement",
+        subtitle: "Tai Chi",
+        imageAlt: "Cartoon of a person practicing a slow tai chi posture in a park.",
+        description:
+          "Tai chi, or taijiquan, is an internal martial art that originated several centuries ago, with origins tradition links to Chenjiagou village and Taoist philosophy's balance between yin and yang. Unlike external martial arts like Shaolin kung fu, tai chi is practiced with slow, continuous, flowing movements, chained together in sequences called forms, which originally trained the body to apply force efficiently in real combat. Today, though, it's practiced mainly as a health exercise, especially among older adults, for its proven benefits to balance, flexibility, and stress reduction, and it's common to see large groups practicing it together at dawn in parks across China. Many of its movements carry poetic names describing the image they evoke, like 'wave hands like clouds' or 'grasp the sparrow's tail.' UNESCO declared it Intangible Cultural Heritage in 2020.",
+      },
+    },
+  },
+  {
+    id: "mahjong",
+    order: 18,
+    placeholderEmoji: "🀄",
+    accentColor: "#3D5A80",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El juego de fichas que suena a lluvia sobre tejas",
+        subtitle: "El mahjong",
+        imageAlt: "Caricatura de manos apilando fichas de mahjong talladas sobre una mesa.",
+        description:
+          "El mahjong es un juego de mesa para cuatro jugadores que se popularizó en China durante el siglo XIX, aunque el mito popular —probablemente falso— atribuye su invención al mismísimo Confucio. Se juega con 144 fichas, talladas antiguamente en hueso, bambú o marfil y hoy generalmente de plástico, divididas en palos de caracteres, bambúes y círculos, más fichas especiales de vientos y dragones. Antes de cada partida, los jugadores mezclan las fichas boca abajo sobre la mesa en un gesto conocido como 'lavar las fichas', que produce un característico sonido de traqueteo comparado con la lluvia cayendo sobre tejas. El juego combina estrategia, memoria y algo de azar, y fue prohibido brevemente durante la Revolución Cultural por considerarse una actividad burguesa, antes de resurgir con fuerza y convertirse, décadas después, en un deporte de mesa con campeonatos internacionales.",
+      },
+      en: {
+        title: "The Tile Game That Sounds Like Rain on Roof Tiles",
+        subtitle: "Mahjong",
+        imageAlt: "Cartoon of hands stacking carved mahjong tiles on a table.",
+        description:
+          "Mahjong is a four-player tile game that became popular in China during the 19th century, although popular myth — likely false — credits its invention to Confucius himself. It's played with 144 tiles, traditionally carved from bone, bamboo, or ivory and today usually made of plastic or resin, divided into suits of characters, bamboo, and circles, plus special wind and dragon tiles. Before each round, players shuffle the tiles face-down on the table in a gesture known as 'washing the tiles,' producing a distinctive clattering sound many compare to rain falling on roof tiles, and which remains, for generations of players, one of the sounds most associated with family gatherings. The game combines strategy, memory, and some luck, and was briefly banned during the Cultural Revolution as a bourgeois activity, before resurging strongly and becoming, decades later, a competitive tile sport with international championships.",
+      },
+    },
+  },
+  {
+    id: "guqin",
+    order: 19,
+    placeholderEmoji: "🎼",
+    accentColor: "#6B4F3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El instrumento de siete cuerdas de los eruditos",
+        subtitle: "El guqin",
+        imageAlt: "Caricatura de una persona tocando un instrumento de cuerda largo apoyado sobre una mesa baja.",
+        description:
+          "El guqin es una cítara de siete cuerdas punteadas, uno de los instrumentos más antiguos de China, con una historia documentada de más de 3.000 años. A diferencia de otros instrumentos pensados para el entretenimiento público, se tocaba tradicionalmente en soledad o ante un círculo muy reducido de amigos, y se consideraba una de las 'Cuatro Artes' que todo erudito confuciano debía cultivar, junto con el go, la caligrafía y la pintura, como ejercicio de refinamiento moral. Su notación tradicional, el jianzipu, no registra notas musicales sino instrucciones sobre qué dedo usar, en qué cuerda y en qué posición exacta del mástil, un método tan específico que permite reconstruir piezas compuestas hace más de mil años con notable precisión. El volumen del instrumento es deliberadamente bajo e íntimo, pensado para la contemplación personal más que para llenar una sala, y la UNESCO lo incluyó entre las primeras obras maestras del Patrimonio Oral e Inmaterial de la Humanidad en 2003.",
+      },
+      en: {
+        title: "The Seven-String Instrument of the Scholars",
+        subtitle: "The Guqin",
+        imageAlt: "Cartoon of a person playing a long string instrument resting on a low table.",
+        description:
+          "The guqin is a seven-string plucked zither, one of China's oldest instruments, with a documented history of more than 3,000 years. Unlike instruments meant for public entertainment, the guqin was traditionally played alone or before a very small circle of friends, and was considered one of the 'Four Arts' every Confucian scholar was expected to cultivate, alongside the game of go, calligraphy, and painting, as an exercise in moral refinement and self-control. Its traditional notation system, jianzipu, doesn't record musical notes but detailed instructions on which finger to use, on which string, and at exactly what position on the neck, a method so specific it allows pieces composed more than a thousand years ago to be reconstructed with remarkable precision. The instrument's volume is deliberately low and intimate, meant for personal contemplation rather than filling a hall, and UNESCO included it among the first masterpieces of the Oral and Intangible Heritage of Humanity in 2003.",
+      },
+    },
+  },
+  {
+    id: "medicina-tradicional-china",
+    order: 20,
+    placeholderEmoji: "🌿",
+    accentColor: "#3B6E4F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Agujas finísimas para reequilibrar el cuerpo entero",
+        subtitle: "La medicina tradicional china",
+        imageAlt: "Caricatura de una espalda con agujas de acupuntura finas insertadas en puntos marcados.",
+        description:
+          "La medicina tradicional china tiene una historia documentada de más de 2.000 años, con su texto fundacional, el 'Clásico de Medicina Interna del Emperador Amarillo', sentando las bases de un sistema que entiende la salud como el flujo equilibrado del qi, una energía vital que circula por canales invisibles llamados meridianos, en armonía entre el yin y el yang. La acupuntura, su técnica más conocida fuera de China, consiste en insertar agujas extremadamente finas en puntos específicos de esos meridianos, un procedimiento prácticamente indoloro en manos de un practicante entrenado. El sistema también incluye la fitoterapia con hierbas medicinales, la moxibustión con hierbas ardientes cerca de la piel, y la ventosaterapia, que deja marcas circulares características. Hoy se practica de forma integrada junto a la medicina occidental en muchos hospitales, y la OMS reconoce la eficacia de la acupuntura para ciertas condiciones.",
+      },
+      en: {
+        title: "Very Fine Needles to Rebalance the Whole Body",
+        subtitle: "Traditional Chinese Medicine",
+        imageAlt: "Cartoon of a back with thin acupuncture needles inserted at marked points.",
+        description:
+          "Traditional Chinese medicine has a documented history of more than 2,000 years, with its foundational text, the 'Yellow Emperor's Classic of Internal Medicine,' laying the groundwork for a system that understands health as the balanced flow of a vital energy, qi, through invisible channels called meridians, and as harmony between yin and yang. Acupuncture, its best-known technique outside China, involves inserting extremely thin needles at specific points along those meridians to unblock the flow of energy and treat everything from chronic pain to digestive disorders, a procedure that's practically painless in a trained practitioner's hands. The system also includes herbal medicine, moxibustion with burning herbs held near the skin, and cupping therapy, which leaves its characteristic circular marks. Today it's practiced in China alongside Western medicine in many public hospitals, and the World Health Organization recognizes acupuncture's effectiveness for certain conditions.",
+      },
+    },
+  },
 ];

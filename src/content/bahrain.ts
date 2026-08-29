@@ -231,4 +231,50 @@ export const bahrain: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "las-islas-hawar",
+    order: 11,
+    placeholderEmoji: "🦩",
+    accentColor: "#E07A9E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El refugio con la mayor colonia de flamencos del golfo",
+        subtitle: "Las islas Hawar",
+        imageAlt: "Caricatura de flamencos rosados parados en aguas poco profundas junto a una isla baja y arenosa.",
+        description:
+          "El archipiélago de Hawar, un grupo de más de una decena de islas bajas y en su mayoría deshabitadas frente a la costa sureste de Bahréin, alberga una de las colonias de flamencos más grandes del mundo, con decenas de miles de aves que llegan cada invierno a alimentarse en sus aguas poco profundas y a anidar lejos de la actividad humana. Las islas, declaradas reserva natural protegida, también sirven de refugio a una de las poblaciones de dugongos más numerosas fuera de Australia, mamíferos marinos herbívoros parecidos a manatíes que pastan sobre extensas praderas submarinas en las aguas circundantes. La soberanía sobre Hawar fue durante décadas motivo de disputa territorial entre Bahréin y Catar, resuelta recién en 2001 por la Corte Internacional de Justicia de La Haya, que adjudicó el archipiélago a Bahréin.",
+      },
+      en: {
+        title: "The Archipelago Protecting the Region's Flamingo Colony",
+        subtitle: "The Hawar Islands",
+        imageAlt: "Cartoon of pink flamingos standing in shallow water beside a low, sandy island.",
+        description:
+          "The Hawar archipelago, a group of more than a dozen mostly uninhabited low-lying islands off Bahrain's southeastern coast, holds one of the largest flamingo colonies in the world, with tens of thousands of birds arriving every winter to feed in its shallow waters and nest far from human activity. The islands, declared a protected nature reserve, also shelter one of the largest dugong populations outside Australia, herbivorous marine mammals related to manatees that graze on extensive underwater seagrass meadows in the surrounding waters. Sovereignty over Hawar was for decades a territorial dispute between Bahrain and Qatar, resolved only in 2001 by the International Court of Justice in The Hague, which awarded the archipelago to Bahrain.",
+      },
+    },
+  },
+  {
+    id: "calzada-rey-fahd",
+    order: 12,
+    placeholderEmoji: "🌉",
+    accentColor: "#1D6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El puente de 25 kilómetros que cruzan miles cada finde",
+        subtitle: "La Calzada Rey Fahd",
+        imageAlt: "Caricatura de un largo puente sobre el mar con autos cruzando entre dos orillas.",
+        description:
+          "La Calzada Rey Fahd, un puente-carretera de casi veinticinco kilómetros inaugurado en 1986 sobre el golfo Pérsico, conecta a Bahréin con Arabia Saudita y se convirtió en una de las fronteras terrestres más transitadas del mundo en relación a la población de los países que une, con millones de vehículos cruzándola cada año, principalmente los fines de semana. Financiada mayormente por Arabia Saudita, la calzada transformó la economía y la vida social bahreiní: miles de jóvenes sauditas cruzan habitualmente los jueves y viernes para disfrutar de un entorno social bastante más abierto que el de su propio país, un flujo que sostiene buena parte del turismo, el entretenimiento y la vida nocturna de Manama. Un puesto de control en una isla artificial a mitad de camino marca la frontera entre ambos países y exige documentación migratoria a quienes la cruzan.",
+      },
+      en: {
+        title: "The 15-Mile Bridge Thousands Cross Every Weekend",
+        subtitle: "The King Fahd Causeway",
+        imageAlt: "Cartoon of a long causeway bridge over the sea with cars crossing between two shores.",
+        description:
+          "The King Fahd Causeway, a nearly 25-kilometer road bridge opened in 1986 across the Persian Gulf, connects Bahrain to Saudi Arabia and became one of the busiest land border crossings in the world relative to the population of the countries it links, with millions of vehicles crossing every year, mostly on weekends. Funded largely by Saudi Arabia, the causeway reshaped Bahrain's economy and social life: thousands of young Saudis cross regularly on Thursdays and Fridays to enjoy a considerably more open social environment than at home, a flow that sustains much of Manama's tourism, entertainment, and nightlife. A checkpoint on an artificial island halfway across marks the border between the two countries and requires migration paperwork from everyone who crosses.",
+      },
+    },
+  },
 ];

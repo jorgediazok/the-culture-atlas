@@ -182,6 +182,266 @@ const LaMayorRedDeAmbulanciasVoluntariasDelMundo: IllustrationComponent = ({ acc
   );
 };
 
+const ElCriquetLaPasionNacional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#C9A876";
+  const ballRed = "#8B1A1A";
+  return (
+    <g>
+      {/* pitch ground */}
+      <rect x="85" y="225" width="235" height="20" fill={accentColor} opacity="0.35" />
+      {/* three stumps */}
+      {[195, 210, 225].map((x) => (
+        <rect key={x} x={x} y="150" width="6" height="80" fill={wood} stroke={dark} strokeWidth="1.5" />
+      ))}
+      <rect x="192" y="146" width="18" height="6" fill={wood} stroke={dark} strokeWidth="1.5" />
+      <rect x="212" y="146" width="18" height="6" fill={wood} stroke={dark} strokeWidth="1.5" />
+      {/* bat leaning */}
+      <path d="M130 230 L155 130 L168 133 L145 233 Z" fill={wood} stroke={dark} strokeWidth="2" />
+      <rect x="122" y="225" width="20" height="35" rx="6" fill={dark} />
+      {/* ball */}
+      <circle cx="270" cy="205" r="16" fill={ballRed} stroke={shade(ballRed, 0.3)} strokeWidth="2" />
+      <path d="M258 195 Q270 205 258 215 M282 195 Q270 205 282 215" fill="none" stroke="#F5F0E6" strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const HunzaElValleDeLaLongevidad: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const snow = "#F5F0E6";
+  const mountain = "#78909C";
+  const blossom = "#F4C6D8";
+  return (
+    <g>
+      {/* mountains */}
+      <polygon points="85,180 150,110 200,180" fill={mountain} stroke={dark} strokeWidth="2" />
+      <polygon points="105,180 150,120 175,180" fill={snow} opacity="0.85" />
+      <polygon points="220,180 280,100 320,180" fill={mountain} stroke={dark} strokeWidth="2" />
+      <polygon points="245,180 280,112 305,180" fill={snow} opacity="0.85" />
+      {/* valley floor */}
+      <rect x="85" y="178" width="235" height="30" fill={accentColor} opacity="0.3" />
+      {/* apricot blossom trees */}
+      {[130, 175, 230, 270].map((x) => (
+        <g key={x}>
+          <line x1={x} y1="208" x2={x} y2="185" stroke="#6B4A2F" strokeWidth="5" />
+          <circle cx={x - 8} cy="180" r="11" fill={blossom} stroke={dark} strokeWidth="1.5" />
+          <circle cx={x + 8} cy="178" r="11" fill={blossom} stroke={dark} strokeWidth="1.5" />
+          <circle cx={x} cy="170" r="11" fill={blossom} stroke={dark} strokeWidth="1.5" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const ElPoloDeShandurEnElTechoDelMundo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const skin = "#C9946B";
+  const horse1 = "#6B4A2F";
+  const horse2 = "#B0A08A";
+  return (
+    <g>
+      {/* ground */}
+      <rect x="85" y="230" width="235" height="18" fill={accentColor} opacity="0.3" />
+      {/* horse + rider 1 */}
+      <path d="M120 210 Q100 195 108 175 Q120 165 140 175 Q160 170 165 195 L160 225 L118 225 Z" fill={horse1} stroke={dark} strokeWidth="2.5" />
+      <line x1="120" y1="220" x2="115" y2="245" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <line x1="150" y1="222" x2="155" y2="245" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <circle cx="138" cy="165" r="10" fill={skin} />
+      <path d="M128 172 Q138 168 148 172 L146 195 L130 195 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <path d="M148 178 L175 160" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+      <line x1="175" y1="160" x2="195" y2="205" stroke="#3E2A1A" strokeWidth="3" strokeLinecap="round" />
+      {/* horse + rider 2 */}
+      <path d="M260 210 Q280 195 272 175 Q260 165 240 175 Q220 170 215 195 L220 225 L262 225 Z" fill={horse2} stroke={dark} strokeWidth="2.5" />
+      <line x1="260" y1="220" x2="265" y2="245" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <line x1="230" y1="222" x2="225" y2="245" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <circle cx="242" cy="165" r="10" fill={skin} />
+      <path d="M232 172 Q242 168 252 172 L250 195 L234 195 Z" fill="#8E24AA" stroke={dark} strokeWidth="2" />
+      <path d="M232 178 L205 160" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+      <line x1="205" y1="160" x2="185" y2="205" stroke="#3E2A1A" strokeWidth="3" strokeLinecap="round" />
+      {/* ball */}
+      <circle cx="190" cy="215" r="6" fill="#F5F0E6" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const ElAjrakElTextilSindhi: IllustrationComponent = () => {
+  const indigo = "#26428B";
+  const crimson = "#A0332B";
+  const cream = "#F0E6D2";
+  const dark = shade(indigo, 0.4);
+  return (
+    <g>
+      {/* fabric */}
+      <rect x="100" y="120" width="210" height="120" fill={cream} stroke={dark} strokeWidth="2.5" />
+      {[0, 1, 2, 3, 4].map((i) => (
+        <rect key={i} x="100" y={128 + i * 22} width="210" height="14" fill={i % 2 === 0 ? indigo : crimson} opacity="0.9" />
+      ))}
+      {/* geometric motif band */}
+      <path d="M100 200 L125 185 L150 200 L175 185 L200 200 L225 185 L250 200 L275 185 L300 200 L310 195" fill="none" stroke={cream} strokeWidth="4" opacity="0.8" />
+      {/* small diamond motifs */}
+      {[130, 175, 220, 265].map((x) => (
+        <polygon key={x} points={`${x},140 ${x + 10},150 ${x},160 ${x - 10},150`} fill={cream} stroke={dark} strokeWidth="1" opacity="0.85" />
+      ))}
+    </g>
+  );
+};
+
+const PeshawarYElPasoJaiber: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const rock = "#8A7B5C";
+  return (
+    <g>
+      {/* rocky gorge walls */}
+      <polygon points="85,250 85,120 140,160 140,250" fill={rock} stroke={dark} strokeWidth="2.5" />
+      <polygon points="320,250 320,110 265,155 265,250" fill={shade(rock, 0.2)} stroke={dark} strokeWidth="2.5" />
+      {/* caravan path */}
+      <path d="M140 235 Q205 225 265 235" fill="none" stroke={dark} strokeWidth="3" opacity="0.4" />
+      {/* camel caravan */}
+      {[170, 205, 240].map((x, i) => (
+        <g key={x} opacity={1 - i * 0.15}>
+          <ellipse cx={x} cy="215" rx="20" ry="12" fill={accentColor} stroke={dark} strokeWidth="2" />
+          <path d={`M${x - 14} 208 Q${x - 24} 195 ${x - 16} 185`} fill="none" stroke={accentColor} strokeWidth="6" strokeLinecap="round" />
+          <line x1={x - 10} y1="225" x2={x - 12} y2="242" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+          <line x1={x + 10} y1="225" x2={x + 12} y2="242" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const ElMangoLaFrutaNacional: IllustrationComponent = () => {
+  const yellow = "#F5C518";
+  const red = "#D9481F";
+  const green = "#4A7A52";
+  const dark = shade(yellow, 0.4);
+  const basket = "#8B5A2B";
+  return (
+    <g>
+      {/* basket */}
+      <path d="M110 235 L300 235 L285 200 L125 200 Z" fill={basket} stroke={shade(basket, 0.3)} strokeWidth="2.5" />
+      {[130, 160, 190, 220, 250, 280].map((x) => (
+        <line key={x} x1={x} y1="200" x2={x - 4} y2="235" stroke={shade(basket, 0.3)} strokeWidth="1.5" opacity="0.6" />
+      ))}
+      {/* mangoes piled */}
+      {[
+        [150, 190, yellow],
+        [190, 180, red],
+        [230, 190, yellow],
+        [170, 165, red],
+        [210, 160, yellow],
+        [250, 175, red],
+      ].map(([x, y, c], i) => (
+        <ellipse
+          key={i}
+          cx={x as number}
+          cy={y as number}
+          rx="22"
+          ry="17"
+          fill={c as string}
+          stroke={dark}
+          strokeWidth="2"
+          transform={`rotate(${((i * 29) % 40) - 20} ${x} ${y})`}
+        />
+      ))}
+      {/* leaf */}
+      <path d="M175 150 Q160 135 175 120 Q190 135 175 150 Z" fill={green} stroke={shade(green, 0.3)} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const LaMezquitaFaisalUnIconoModerno: IllustrationComponent = () => {
+  const concrete = "#B0BEC5";
+  const dark = shade(concrete, 0.4);
+  return (
+    <g>
+      {/* triangular tent-shaped roof */}
+      <polygon points="205,95 130,225 280,225" fill={concrete} stroke={dark} strokeWidth="3" />
+      <polygon points="205,95 165,225 245,225" fill={shade(concrete, 0.15)} opacity="0.6" />
+      {/* four angular minarets */}
+      {[95, 150, 260, 315].map((x) => (
+        <g key={x}>
+          <rect x={x - 6} y="130" width="12" height="105" fill={concrete} stroke={dark} strokeWidth="2" />
+          <polygon points={`${x - 8},130 ${x},108 ${x + 8},130`} fill={dark} />
+        </g>
+      ))}
+      {/* ground */}
+      <rect x="85" y="225" width="235" height="14" fill={dark} opacity="0.5" />
+    </g>
+  );
+};
+
+const ElLagoAttabadTurquesaEnLasMontanas: IllustrationComponent = () => {
+  const water = "#00ACC1";
+  const waterLight = "#5FD3E0";
+  const mountain = "#6B7A6F";
+  const dark = shade(mountain, 0.3);
+  return (
+    <g>
+      {/* mountains framing the lake */}
+      <polygon points="85,200 140,120 195,200" fill={mountain} stroke={dark} strokeWidth="2" />
+      <polygon points="215,200 270,105 320,200" fill={shade(mountain, 0.15)} stroke={dark} strokeWidth="2" />
+      {/* lake */}
+      <path d="M85 200 Q205 185 320 200 L320 250 L85 250 Z" fill={water} stroke={shade(water, 0.3)} strokeWidth="2" />
+      <path d="M100 210 Q205 198 305 210" fill="none" stroke={waterLight} strokeWidth="6" opacity="0.6" />
+      <path d="M100 225 Q205 215 305 225" fill="none" stroke={waterLight} strokeWidth="4" opacity="0.4" />
+    </g>
+  );
+};
+
+const ElBasantFestivalDeCometas: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const colors = [accentColor, "#F4A300", "#00838F", "#8E24AA"];
+  return (
+    <g>
+      {/* rooftops */}
+      <rect x="85" y="220" width="100" height="30" fill="#B0A08A" stroke={dark} strokeWidth="2" />
+      <rect x="220" y="215" width="100" height="35" fill="#8B7355" stroke={dark} strokeWidth="2" />
+      {/* kites */}
+      {[
+        [140, 120, 0],
+        [210, 90, 1],
+        [270, 140, 2],
+        [100, 160, 3],
+      ].map(([x, y, ci]) => (
+        <g key={x as number}>
+          <polygon
+            points={`${x},${(y as number) - 22} ${(x as number) + 16},${y} ${x},${(y as number) + 22} ${(x as number) - 16},${y}`}
+            fill={colors[ci as number]}
+            stroke={dark}
+            strokeWidth="2"
+          />
+          <path d={`M${x} ${(y as number) + 22} Q${(x as number) + 10} ${(y as number) + 50} ${x} ${(y as number) + 80}`} fill="none" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const MuhammadAliJinnahPadreDeLaNacion: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.45);
+  const skin = "#C9946B";
+  const cap = "#1A1A1A";
+  return (
+    <g>
+      {/* head */}
+      <circle cx="200" cy="150" r="26" fill={skin} stroke={dark} strokeWidth="2.5" />
+      {/* traditional cap */}
+      <path d="M176 138 Q200 115 224 138 L224 128 Q200 108 176 128 Z" fill={cap} stroke={dark} strokeWidth="2" />
+      {/* formal suit shoulders */}
+      <path d="M165 174 Q200 161 235 174 L245 240 L155 240 Z" fill="#1A1A1A" stroke={dark} strokeWidth="3" />
+      {/* collar and tie */}
+      <path d="M188 178 L200 195 L212 178" fill="none" stroke="#F5F0E6" strokeWidth="6" />
+      <path d="M197 195 L203 195 L206 225 L200 232 L194 225 Z" fill={accentColor} />
+      {/* document and pen beside him */}
+      <rect x="255" y="205" width="45" height="32" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      {[213, 221, 229].map((y) => (
+        <line key={y} x1="262" y1={y} x2="293" y2={y} stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      ))}
+      <path d="M300 200 L320 175 L326 181 L306 206 Z" fill="#8B5A2B" stroke={dark} strokeWidth="1.5" />
+    </g>
+  );
+};
+
 export const pakistanIllustrations: Record<string, IllustrationDefinition> = {
   "mohenjo-daro-la-ciudad-con-plomeria-milenaria": { component: MohenjoDaroLaCiudadConPlomeriaMilenaria },
   "k2-la-montana-salvaje-mas-dificil-que-el-everest": { component: K2LaMontanaSalvajeMasDificilQueElEverest },
@@ -193,4 +453,14 @@ export const pakistanIllustrations: Record<string, IllustrationDefinition> = {
   "la-carretera-pavimentada-mas-alta-del-mundo": { component: LaCarreteraPavimentadaMasAltaDelMundo },
   "los-jardines-shalimar-un-paraiso-en-terrazas": { component: LosJardinesShalimarUnParaisoEnTerrazas },
   "la-mayor-red-de-ambulancias-voluntarias-del-mundo": { component: LaMayorRedDeAmbulanciasVoluntariasDelMundo },
+  "el-criquet-la-pasion-nacional": { component: ElCriquetLaPasionNacional },
+  "hunza-el-valle-de-la-longevidad": { component: HunzaElValleDeLaLongevidad },
+  "el-polo-de-shandur-en-el-techo-del-mundo": { component: ElPoloDeShandurEnElTechoDelMundo },
+  "el-ajrak-el-textil-sindhi": { component: ElAjrakElTextilSindhi },
+  "peshawar-y-el-paso-jaiber": { component: PeshawarYElPasoJaiber },
+  "el-mango-la-fruta-nacional": { component: ElMangoLaFrutaNacional },
+  "la-mezquita-faisal-un-icono-moderno": { component: LaMezquitaFaisalUnIconoModerno },
+  "el-lago-attabad-turquesa-en-las-montanas": { component: ElLagoAttabadTurquesaEnLasMontanas },
+  "el-basant-festival-de-cometas": { component: ElBasantFestivalDeCometas },
+  "muhammad-ali-jinnah-padre-de-la-nacion": { component: MuhammadAliJinnahPadreDeLaNacion },
 };

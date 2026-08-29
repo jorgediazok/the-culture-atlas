@@ -231,4 +231,119 @@ export const nepal: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "dashain-el-festival-mas-largo-de-nepal",
+    order: 11,
+    placeholderEmoji: "🪁",
+    accentColor: "#C77D22",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El festival de quince días que vacía las ciudades",
+        subtitle: "Dashain, el festival más largo de Nepal",
+        imageAlt: "Caricatura de una cometa triangular volando junto a una marca roja de tika en la frente.",
+        description:
+          "El Dashain es el festival más largo e importante del calendario nepalí, con una duración de quince días, celebrado generalmente en septiembre u octubre, que conmemora la victoria mitológica de la diosa Durga sobre el demonio búfalo Mahishasura, simbolizando el triunfo del bien sobre el mal. La mayor migración anual del país ocurre durante el Dashain, cuando millones de personas que trabajan en las ciudades regresan a sus hogares familiares ancestrales, mientras escuelas y oficinas gubernamentales cierran por períodos extendidos. Los rituales centrales incluyen a los mayores colocando 'tika', una mezcla de arroz, yogur y bermellón, en la frente de los más jóvenes junto con bendiciones y regalos en efectivo, y volar cometas, una tradición que se cree envía mensajes a los dioses pidiendo cielos despejados. También se ofrecen sacrificios de cabras y búfalos en los templos, y se construyen hamacas de bambú especialmente para la festividad.",
+      },
+      en: {
+        title: "The Fifteen-Day Festival That Empties the Cities",
+        subtitle: "Dashain, Nepal's Longest Festival",
+        imageAlt: "Cartoon of a triangular kite flying beside a red tika mark on a forehead.",
+        description:
+          "Dashain is the longest and most important festival on the Nepali calendar, lasting fifteen days, typically falling in September or October, commemorating the goddess Durga's mythological victory over the buffalo demon Mahishasura, symbolizing the triumph of good over evil. The country's largest annual migration happens during Dashain, as millions of people working in cities return to their ancestral family homes, while schools and government offices close for extended periods. Central rituals include elders placing 'tika,' a mixture of rice, yogurt, and vermillion, on the foreheads of younger family members along with blessings and small cash gifts, and flying kites, a tradition believed to send messages to the gods asking for clear skies and to mark the end of the monsoon. Goat and buffalo sacrifices are also traditionally offered at temples, and bamboo swings are built in villages and neighborhoods specifically for the holiday.",
+      },
+    },
+  },
+  {
+    id: "pashupatinath-el-templo-junto-al-rio-sagrado",
+    order: 12,
+    placeholderEmoji: "🔥",
+    accentColor: "#8B1A1A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El templo hindú a orillas del río sagrado",
+        subtitle: "Pashupatinath, junto al río sagrado",
+        imageAlt: "Caricatura de plataformas de piedra escalonadas junto a un río con humo de incienso elevándose.",
+        description:
+          "El templo de Pashupatinath, uno de los templos hindúes más importantes del mundo dedicados a Shiva, se ubica a orillas del río Bagmati en Katmandú y es un destino de peregrinación mayor para hindúes de todo el sur de Asia. La fecha exacta de fundación del complejo es incierta, aunque hay estructuras en el sitio que se remontan al menos al siglo V, con el templo principal de estilo pagoda reconstruido en gran medida en su forma actual durante el siglo XIX. Solo se permite la entrada al edificio principal a personas hindúes, aunque el complejo circundante, incluidas sus plataformas de cremación, está abierto a cualquier visitante. Esas plataformas a lo largo del Bagmati funcionan como uno de los sitios más importantes de Nepal para los ritos de cremación hindú a cielo abierto, una práctica considerada espiritualmente significativa dado el estatus sagrado del río. El sitio también atrae a 'sadhus', ascetas hindúes errantes, y fue declarado Patrimonio de la Humanidad por la UNESCO en 1979.",
+      },
+      en: {
+        title: "The Hindu Temple on the Banks of a Sacred River",
+        subtitle: "Pashupatinath, by the Sacred River",
+        imageAlt: "Cartoon of stepped stone platforms beside a river with incense smoke rising.",
+        description:
+          "Pashupatinath Temple, one of the most significant Hindu temples in the world dedicated to Shiva, sits on the banks of the Bagmati River in Kathmandu and is a major pilgrimage site for Hindus across South Asia. The complex's exact founding date is uncertain, though structures at the site date back at least to the 5th century, with the current main pagoda-style temple largely rebuilt in its present form during the 19th century. Only Hindus are permitted to enter the main temple building itself, though the surrounding riverside complex, including its cremation platforms, is open to visitors of any background. Those platforms along the Bagmati function as one of Nepal's most important sites for traditional open-air Hindu cremation rites, a practice considered spiritually significant given the river's sacred status. The site also attracts sadhus, wandering Hindu ascetics, and was declared a UNESCO World Heritage Site in 1979.",
+      },
+    },
+  },
+  {
+    id: "boudhanath-la-estupa-de-los-mil-ojos",
+    order: 13,
+    placeholderEmoji: "👁️",
+    accentColor: "#2C5F8A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La estupa gigante con ojos que miran los cuatro puntos",
+        subtitle: "Boudhanath, la estupa de los mil ojos",
+        imageAlt: "Caricatura de una gran estupa blanca con ojos pintados y banderas de oración de colores.",
+        description:
+          "La estupa de Boudhanath, una de las estupas budistas más grandes del mundo y uno de los sitios budistas tibetanos más importantes fuera del propio Tíbet, se ubica en Katmandú. Sus orígenes exactos son debatidos, con estimaciones que van del siglo V al XIV, pero el sitio se volvió especialmente significativo como refugio para exiliados budistas tibetanos que se asentaron en el barrio circundante tras el levantamiento de 1959 y el éxodo posterior. Su enorme cúpula blanca está coronada por una estructura dorada pintada en sus cuatro caras con grandes ojos vigilantes de Buda, mirando hacia los cuatro puntos cardinales, representando la sabiduría y compasión omnisciente del Buda. El número que parece un signo de interrogación entre los ojos es en realidad el numeral uno en escritura devanagari, símbolo de unidad. La estupa está rodeada por un anillo de ruedas de oración que los peregrinos giran mientras caminan en círculos, y fue declarada Patrimonio de la Humanidad por la UNESCO en 1979.",
+      },
+      en: {
+        title: "The Giant Stupa With Eyes Watching Every Direction",
+        subtitle: "Boudhanath, the Stupa of a Thousand Eyes",
+        imageAlt: "Cartoon of a large white stupa with painted eyes and colorful prayer flags.",
+        description:
+          "Boudhanath Stupa, one of the largest Buddhist stupas in the world and one of the most important Tibetan Buddhist sites outside Tibet itself, is located in Kathmandu. Its exact origins are debated, with dating estimates ranging from the 5th to the 14th century, but the site became especially significant as a refuge for Tibetan Buddhist exiles who settled in the surrounding neighborhood following the 1959 uprising and subsequent exodus. Its massive white dome is topped by a gilded structure painted on all four sides with large, watchful Buddha eyes, looking toward the cardinal directions, representing the Buddha's all-seeing wisdom and compassion. The number resembling a question mark between the eyes is actually the numeral one in Devanagari script, symbolizing unity. The stupa is surrounded by a ring of prayer wheels that pilgrims spin as they walk circuits around it, and it was declared a UNESCO World Heritage Site in 1979.",
+      },
+    },
+  },
+  {
+    id: "el-papel-lokta-artesania-milenaria",
+    order: 14,
+    placeholderEmoji: "📜",
+    accentColor: "#8A7355",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El papel artesanal hecho de corteza que dura siglos",
+        subtitle: "El papel lokta, artesanía milenaria",
+        imageAlt: "Caricatura de hojas de papel texturado secándose sobre un marco de madera al sol.",
+        description:
+          "El papel lokta es el papel artesanal tradicional de Nepal, hecho con la corteza del arbusto lokta, una planta silvestre del género Daphne nativa de los bosques del Himalaya en altura, un oficio con raíces de más de mil años, usado históricamente para manuscritos religiosos budistas e hindúes, registros gubernamentales y documentos legales, precisamente por la excepcional durabilidad del papel y su resistencia natural a insectos y moho, a diferencia del papel común de pulpa de madera. El proceso es enteramente manual: pelar y hervir las fibras de corteza, batirlas hasta convertirlas en pulpa, formar cada hoja a mano con un marco de bambú sumergido, y secarlas al sol, una técnica transmitida en comunidades rurales de montaña donde el arbusto se cosecha de forma sostenible, tomando solo tiras de corteza y no la planta entera. La textura naturalmente irregular del papel se volvió apreciada internacionalmente para papelería, grabados de arte y envoltorios de regalo.",
+      },
+      en: {
+        title: "The Handmade Bark Paper That Lasts for Centuries",
+        subtitle: "Lokta Paper, an Ancient Craft",
+        imageAlt: "Cartoon of textured sheets of paper drying on a wooden frame in the sun.",
+        description:
+          "Lokta paper is Nepal's traditional handmade paper, made from the bark of the lokta bush, a wild shrub of the Daphne genus native to high-altitude Himalayan forests, a craft with roots going back over a thousand years, historically used for Buddhist and Hindu religious manuscripts, government records, and legal documents specifically because of the paper's exceptional durability and natural resistance to insects and mold, unlike ordinary wood-pulp paper. The production process is entirely manual, involving stripping and boiling bark fibers, beating them into pulp, then forming each sheet by hand using a submerged bamboo screen frame, and sun-drying them outdoors, a technique passed down within specific rural mountain communities where the shrub is sustainably harvested, taking only bark strips rather than the whole plant, allowing it to regrow. The paper's naturally textured, irregular surface became prized internationally for stationery, art prints, and gift wrapping.",
+      },
+    },
+  },
+  {
+    id: "el-pueblo-tharu-de-las-tierras-bajas",
+    order: 15,
+    placeholderEmoji: "🎭",
+    accentColor: "#4A7A52",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo de las tierras bajas inmune a la malaria",
+        subtitle: "El pueblo tharu, de las tierras bajas",
+        imageAlt: "Caricatura de bailarines con palos de bambú cruzados en una danza tradicional.",
+        description:
+          "El pueblo tharu es un grupo étnico indígena nativo de las tierras bajas del Terai, en el sur de Nepal y zonas adyacentes del norte de India, con una historia documentada en la región que, según algunos relatos, antecede al asentamiento de otros grupos étnicos nepalíes en la zona. Se destacan históricamente por una llamativa resistencia natural a la malaria, una enfermedad que volvió las densas y húmedas tierras bajas del Terai prácticamente inhabitables para forasteros durante siglos, una característica que los científicos estudiaron por su posible conexión con la misma variante genética que otorga resistencia a la malaria en otras partes del mundo, y que ayudó a aislar y preservar la cultura tharu hasta que los programas de erradicación de la malaria del siglo XX abrieron la región. Son conocidos por su danza de palos, un baile rítmico en el que cada bailarín golpea bastones de bambú contra los de su pareja, y por casas tradicionales con relieves de barro en las paredes exteriores.",
+      },
+      en: {
+        title: "The Lowland People Naturally Resistant to Malaria",
+        subtitle: "The Tharu People of the Lowlands",
+        imageAlt: "Cartoon of dancers striking crossed bamboo sticks in a traditional dance.",
+        description:
+          "The Tharu people are an indigenous ethnic group native to the Terai lowlands of southern Nepal and adjacent parts of northern India, with a documented history in the region that, according to some accounts, predates other Nepali ethnic groups' settlement of the area. They're historically noted for a striking natural resistance to malaria, a disease that made the densely forested, humid Terai lowlands largely uninhabitable and inaccessible to outsiders for centuries, a trait scientists studied for its possible connection to the same genetic variant that provides malaria resistance elsewhere in the world, which inadvertently helped isolate and preserve Tharu culture until modern malaria-eradication programs in the mid-20th century opened the region to broader settlement. They're known for their stick dance, a rhythmic performance where each dancer strikes bamboo sticks against a partner's, and for traditional houses decorated with mud-relief artwork on their exterior walls.",
+      },
+    },
+  },
 ];

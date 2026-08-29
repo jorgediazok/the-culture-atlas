@@ -238,4 +238,234 @@ export const thailand: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "loy-krathong",
+    order: 11,
+    placeholderEmoji: "🪷",
+    accentColor: "#1B3A5C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La noche en que miles de velas flotan sobre el agua",
+        subtitle: "Loy Krathong, el festival de las luces flotantes",
+        imageAlt: "Caricatura de una cesta decorada con flores y una vela flotando sobre agua oscura.",
+        description:
+          "Loy Krathong se celebra en la noche de luna llena del duodécimo mes del calendario lunar tailandés tradicional, generalmente en noviembre, cuando la gente deja flotar pequeñas cestas decoradas, los krathong, tradicionalmente hechos con secciones de hoja o tronco de banano, flores, incienso y una vela, sobre ríos, canales y estanques, como ofrenda a los espíritus del agua para pedir perdón por contaminarla y dejar ir la mala suerte del año. En el norte de Tailandia, especialmente en Chiang Mai, la festividad suele coincidir con Yi Peng, cuando miles de farolillos de papel, los khom loi, se sueltan al cielo simultáneamente, creando una imagen sobrecogedora con farolillos flotando sobre el agua abajo y elevándose hacia el cielo arriba. La tradición es anterior al budismo, aunque hoy incorpora elementos budistas, y se cree que tiene raíces en una veneración animista y brahmánica más antigua a los espíritus del agua.",
+      },
+      en: {
+        title: "The Night Thousands of Candles Float on the Water",
+        subtitle: "Loy Krathong, the Festival of Floating Lights",
+        imageAlt: "Cartoon of a basket decorated with flowers and a candle floating on dark water.",
+        description:
+          "Loy Krathong is celebrated on the full moon night of the twelfth month of the traditional Thai lunar calendar, usually in November, when people set small decorated baskets, krathong, traditionally made from sections of banana leaf or trunk, flowers, incense, and a candle, afloat on rivers, canals, and ponds, as an offering to the spirits of the water, asking forgiveness for polluting it and letting go of the year's bad luck. In northern Thailand, especially Chiang Mai, the festival often coincides with Yi Peng, when thousands of paper lanterns, khom loi, are released into the sky simultaneously, creating a striking image with lanterns floating on the water below and rising into the sky above. The tradition predates Buddhism, though it incorporates Buddhist elements today, and is believed rooted in older animist and Brahmanic veneration of water spirits.",
+      },
+    },
+  },
+  {
+    id: "seda-tailandesa",
+    order: 12,
+    placeholderEmoji: "🧵",
+    accentColor: "#8B1A4A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La seda que un espía estadounidense convirtió en ícono",
+        subtitle: "La seda tailandesa",
+        imageAlt: "Caricatura de un rollo de tela de seda brillante con reflejos de colores.",
+        description:
+          "La producción de seda tailandesa se remonta varios siglos atrás, tradicionalmente un oficio doméstico en el que los gusanos de seda se criaban con hojas de morera y el hilo se hilaba y teñía a mano con pigmentos naturales, produciendo una textura brillante y cambiante característica debido al grosor irregular del hilo. La industria estuvo a punto de desaparecer a mediados del siglo XX ante la competencia y el cambio de gustos, hasta que el empresario estadounidense Jim Thompson, ex oficial de inteligencia que se radicó en Bangkok tras la Segunda Guerra Mundial, la revivió y comercializó internacionalmente desde fines de los años 40, fundando la Thai Silk Company y proveyendo célebremente el vestuario de la película 'El rey y yo' de 1956, lo que disparó la demanda mundial. Thompson desapareció misteriosamente mientras hacía senderismo en Malasia en 1967, un caso nunca resuelto, y su antigua casa en Bangkok funciona hoy como museo.",
+      },
+      en: {
+        title: "The Silk an American Spy Turned Into an Icon",
+        subtitle: "Thai Silk",
+        imageAlt: "Cartoon of a roll of shimmering silk fabric with colorful reflections.",
+        description:
+          "Thai silk production dates back several centuries, traditionally a household craft in which silkworms were raised on mulberry leaves and the thread hand-spun and dyed with natural pigments, producing a distinctive shimmering, color-shifting texture from the thread's irregular thickness. The industry nearly disappeared in the mid-20th century amid competition and changing tastes, until American businessman Jim Thompson, a former intelligence officer who settled in Bangkok after World War II, revived and marketed it internationally starting in the late 1940s, founding the Thai Silk Company and famously supplying the costumes for the 1956 film 'The King and I,' which dramatically boosted global demand. Thompson mysteriously disappeared while hiking in Malaysia in 1967, a case never solved, and his former Bangkok home is now a museum.",
+      },
+    },
+  },
+  {
+    id: "ayutthaya",
+    order: 13,
+    placeholderEmoji: "🏛️",
+    accentColor: "#8A7355",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La capital cuyas ruinas quedaron atrapadas en un árbol",
+        subtitle: "Ayutthaya, la antigua capital de Siam",
+        imageAlt: "Caricatura de una cabeza de piedra de Buda envuelta entre las raíces de un árbol.",
+        description:
+          "Ayutthaya fue la capital del Reino de Siam entre 1350 y 1767, una de las ciudades más grandes y prósperas del mundo durante buena parte de sus más de 400 años de existencia, y un importante centro de comercio internacional que conectaba Asia con Europa. Fue destruida en 1767 por un ejército invasor birmano que arrasó sus templos y saqueó la ciudad, poniendo fin al reino y obligando a trasladar la capital, eventualmente a Bangkok. Sus ruinas conforman hoy el Parque Histórico de Ayutthaya, declarado Patrimonio de la Humanidad por la UNESCO en 1991, y su imagen más célebre es una cabeza de piedra de Buda en el Wat Mahathat, que quedó envuelta y atrapada entre las raíces de un árbol de higuera que creció a su alrededor en los siglos posteriores a la destrucción de la ciudad. Hoy los visitantes deben agacharse para fotografiarla, ya que nadie debe tener la cabeza a mayor altura que la del Buda.",
+      },
+      en: {
+        title: "The Capital Whose Ruins Got Trapped in a Tree",
+        subtitle: "Ayutthaya, Siam's Ancient Capital",
+        imageAlt: "Cartoon of a stone Buddha head entangled in the roots of a tree.",
+        description:
+          "Ayutthaya was the capital of the Kingdom of Siam from 1350 to 1767, one of the largest and wealthiest cities in the world during much of its 400-plus years of existence, and a major international trading hub connecting Asia and Europe. It was destroyed in 1767 by an invading Burmese army that razed its temples and looted the city, ending the kingdom and forcing the capital to relocate, eventually to Bangkok. Its ruins today form Ayutthaya Historical Park, declared a UNESCO World Heritage Site in 1991, and its most famous single image is a stone Buddha head at Wat Mahathat, which became entangled and trapped within the roots of a fig tree that grew around it in the centuries following the city's destruction. Visitors today are required to crouch down to photograph it, since no one's head should be positioned higher than the Buddha's.",
+      },
+    },
+  },
+  {
+    id: "masaje-tailandes",
+    order: 14,
+    placeholderEmoji: "💆",
+    accentColor: "#4A7A6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El masaje que combina yoga, presión y estiramiento",
+        subtitle: "El masaje tradicional tailandés",
+        imageAlt: "Caricatura de dos personas practicando un estiramiento asistido de masaje tailandés.",
+        description:
+          "El masaje tradicional tailandés, o nuad thai, se distingue de las tradiciones occidentales de masaje al combinar presión sobre líneas de energía llamadas 'sen' —un concepto similar al de los meridianos—, estiramientos asistidos parecidos al yoga y compresiones rítmicas aplicadas con manos, pulgares, codos, rodillas y pies, realizado sobre una colchoneta en el suelo con el receptor completamente vestido, en lugar de una camilla. La tradición atribuye su origen a Jivaka Komarabhacca, presentado como médico personal de Buda, aunque históricamente probablemente combina influencias de la medicina ayurvédica india y la medicina china acumuladas a lo largo de los siglos. Se enseñaba y practicaba tradicionalmente en templos budistas, y el Wat Pho de Bangkok sigue siendo el centro de formación más famoso, con diagramas anatómicos inscriptos en sus paredes reconocidos por la UNESCO, que declaró el masaje Patrimonio Cultural Inmaterial en 2019.",
+      },
+      en: {
+        title: "The Massage That Blends Yoga, Pressure, and Stretching",
+        subtitle: "Traditional Thai Massage",
+        imageAlt: "Cartoon of two people practicing an assisted Thai massage stretch.",
+        description:
+          "Traditional Thai massage, or nuad thai, differs from Western massage traditions by combining pressure along energy lines called 'sen' — a concept similar to meridians — assisted yoga-like stretching, and rhythmic compression applied with hands, thumbs, elbows, knees, and feet, performed on a floor mat with the recipient fully clothed, rather than on a table. Tradition attributes its origin to Jivaka Komarabhacca, described as the Buddha's personal physician, though historically it likely blends Indian Ayurvedic and Chinese medicine influences accumulated over the centuries. It was traditionally taught and practiced at Buddhist temples, and Bangkok's Wat Pho remains the most famous training center, its walls inscribed with anatomical diagrams recognized by UNESCO, which declared the massage Intangible Cultural Heritage in 2019.",
+      },
+    },
+  },
+  {
+    id: "kathoey",
+    order: 15,
+    placeholderEmoji: "🎭",
+    accentColor: "#C2185B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Un tercer género con siglos de presencia cultural",
+        subtitle: "Los kathoey, un tercer género",
+        imageAlt: "Caricatura de una persona con maquillaje elaborado y un vestido brillante de escenario.",
+        description:
+          "Kathoey es el término tailandés que designa, en términos generales, a mujeres transgénero y otras identidades de género no binario, con una presencia documentada en la cultura y el idioma tailandés que se remonta siglos atrás, comprendida tradicionalmente dentro de un marco distinto al de las categorías binarias occidentales de género. Los kathoey tienen una visibilidad en la sociedad tailandesa mayor que en muchos otros países: son protagonistas de espectáculos de cabaret que se convirtieron en grandes atracciones turísticas, participan en deportes como el muay thai y el vóley, y forman parte de la vida pública cotidiana. Pese a esa visibilidad, históricamente enfrentaron barreras sociales y legales importantes, una realidad más compleja de lo que sugieren a veces las narrativas de 'aceptación' vistas desde afuera. Tailandia se convirtió en 2024 en el primer país asiático en legalizar el matrimonio igualitario, y los concursos de belleza kathoey atraen gran atención cada año.",
+      },
+      en: {
+        title: "A Third Gender With Centuries of Cultural Presence",
+        subtitle: "Kathoey, a Third Gender",
+        imageAlt: "Cartoon of a person with elaborate makeup and a sparkling stage dress.",
+        description:
+          "Kathoey is the Thai term broadly referring to transgender women and other gender-nonconforming identities, with a documented presence in Thai culture and language going back centuries, traditionally understood within a framework distinct from Western binary gender categories. Kathoey have greater visibility in Thai society than in many other countries: they star in cabaret shows that became major tourist attractions, compete in sports like Muay Thai and volleyball, and are part of everyday public life. Despite that visibility, they historically faced significant social and legal barriers, a reality more complex than the 'acceptance' narratives sometimes suggested from outside. Thailand became the first Asian country to legalize same-sex marriage in 2024, and kathoey beauty pageants, like Miss Tiffany's Universe, draw major national attention every year.",
+      },
+    },
+  },
+  {
+    id: "bolas-de-fuego-del-mekong",
+    order: 16,
+    placeholderEmoji: "🔥",
+    accentColor: "#D2691E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las bolas de fuego que suben del río cada octubre",
+        subtitle: "Las bolas de fuego del Mekong",
+        imageAlt: "Caricatura de esferas de luz rojiza elevándose sobre la superficie de un río oscuro.",
+        description:
+          "El Bang Fai Phaya Nak, o 'bolas de fuego del naga', es un fenómeno misterioso que ocurre en ciertos tramos del río Mekong en el noreste de Tailandia, especialmente en la provincia de Nong Khai, donde esferas luminosas de tono rojizo, desde pequeñas chispas hasta esferas del tamaño de una pelota de básquet según algunos testigos, se elevan en silencio desde la superficie del río antes de desaparecer en el aire, típicamente hacia el final de la cuaresma budista en octubre, coincidiendo con la luna llena. El folclore local atribuye el fenómeno al naga, una deidad mítica con forma de serpiente-dragón que según la creencia habita el río y exhala fuego para celebrar la fecha. El evento atrae cada año a multitudes de peregrinos y turistas a los pueblos ribereños, y aunque se propusieron explicaciones científicas como la combustión espontánea de gas fosfina liberado por sedimentos del fondo del río, el fenómeno también generó escepticismo y acusaciones de fraude nunca del todo resueltas.",
+      },
+      en: {
+        title: "The Fireballs That Rise From the River Every October",
+        subtitle: "The Naga Fireballs of the Mekong",
+        imageAlt: "Cartoon of reddish glowing orbs rising over the surface of a dark river.",
+        description:
+          "Bang Fai Phaya Nak, or 'Naga fireballs,' is a mysterious phenomenon occurring along certain stretches of the Mekong River in northeastern Thailand, especially Nong Khai province, where reddish glowing orbs, ranging from small sparks to reportedly basketball-sized spheres, are seen rising silently from the river's surface before vanishing into the air, typically near the end of Buddhist Lent in October, coinciding with the full moon. Local folklore attributes the phenomenon to the Naga, a mythical serpent-dragon deity believed to inhabit the river, breathing fire to celebrate the occasion. The event draws crowds of pilgrims and tourists to riverside towns every year to witness it, and although scientists have proposed explanations like the spontaneous combustion of phosphine gas released from river-bottom sediment, the phenomenon has also fueled skepticism and never fully resolved fraud allegations.",
+      },
+    },
+  },
+  {
+    id: "pez-luchador-de-siam",
+    order: 17,
+    placeholderEmoji: "🐠",
+    accentColor: "#1E88E5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pez ornamental que Tailandia domesticó para pelear",
+        subtitle: "El pez luchador de Siam",
+        imageAlt: "Caricatura de un pez de aletas largas y vistosas nadando en actitud de combate.",
+        description:
+          "El pez luchador de Siam, o Betta splendens, fue declarado animal acuático nacional de Tailandia en 2019, nativo de las aguas poco profundas y los arrozales del centro del país. Durante siglos se crió y se usó para peleas organizadas, un deporte de apuestas, antes de convertirse en un pez ornamental popular en todo el mundo por sus aletas fluidas y sus colores vívidos, logrados mediante generaciones de cría selectiva —los ejemplares silvestres son en realidad bastante apagados, y los colores y formas de aleta espectaculares que se conocen hoy son producto de esa selección deliberada—. Los machos son extremadamente territoriales y agresivos entre sí, de ahí su nombre, y por eso se mantienen normalmente en cautiverio de forma individual, ya que dos machos pelean, a menudo hasta la muerte, si se los coloca juntos. Como parte de su comportamiento de apareamiento, construyen nidos de burbujas en la superficie del agua, donde el macho cuida los huevos y las crías.",
+      },
+      en: {
+        title: "The Ornamental Fish Thailand Bred to Fight",
+        subtitle: "The Siamese Fighting Fish",
+        imageAlt: "Cartoon of a fish with long, vivid fins swimming in a combative pose.",
+        description:
+          "The Siamese fighting fish, or Betta splendens, was designated Thailand's national aquatic animal in 2019, native to the shallow waters and rice paddies of central Thailand. For centuries it was bred and used for organized fighting matches, a betting sport, before becoming a globally popular ornamental fish for its flowing fins and vivid colors, achieved through generations of selective breeding — wild specimens are actually fairly drab, and the dazzling colors and fin shapes known today are the product of that deliberate selection. Males are extremely territorial and aggressive toward each other, hence the name, and are typically kept alone in captivity, since two males will fight, often fatally, if placed together. As part of their mating behavior, they build bubble nests at the water's surface, where the male cares for the eggs and fry.",
+      },
+    },
+  },
+  {
+    id: "khon",
+    order: 18,
+    placeholderEmoji: "👺",
+    accentColor: "#6A1B9A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La danza enmascarada que narra una epopeya hindú",
+        subtitle: "El khon, danza teatral enmascarada",
+        imageAlt: "Caricatura de una máscara dorada de demonio con cuernos y expresión feroz.",
+        description:
+          "El khon es una danza teatral clásica y enmascarada de Tailandia, ejecutada tradicionalmente por bailarines de la corte real, que narra episodios del Ramakien, la epopeya nacional tailandesa adaptada del Ramayana indio. Los intérpretes usan máscaras elaboradas y ricamente decoradas, especialmente para los personajes de demonios, monos y gigantes —los personajes humanos, como el héroe Rama, tradicionalmente actúan a rostro descubierto pero con un maquillaje elaborado en su lugar—, junto con vestuarios bordados en oro, combinando gestos altamente estilizados y codificados, donde cada movimiento de manos y cuerpo tiene un significado simbólico específico, con narración y canto a cargo de un coro fuera de escena y música de un conjunto tradicional piphat, ya que los intérpretes enmascarados no pueden hablar. La UNESCO reconoció al khon como Patrimonio Cultural Inmaterial en 2018, y los bailarines se entrenan durante años en escuelas tradicionales estrictas.",
+      },
+      en: {
+        title: "The Masked Dance That Narrates a Hindu Epic",
+        subtitle: "Khon, Masked Dance-Drama",
+        imageAlt: "Cartoon of a golden demon mask with horns and a fierce expression.",
+        description:
+          "Khon is Thailand's classical masked dance-drama, traditionally performed by royal court dancers, narrating episodes from the Ramakien, Thailand's national epic adapted from the Indian Ramayana. Performers wear elaborate, richly decorated masks, especially for demon, monkey, and giant characters — human characters like the hero Rama traditionally perform bare-faced with elaborate makeup instead — along with gold-embroidered costumes, combining highly stylized, codified gestures, where every hand and body movement carries specific symbolic meaning, with narration and singing provided by an offstage chorus and traditional piphat ensemble music, since masked performers cannot speak. UNESCO recognized Khon as Intangible Cultural Heritage in 2018, and dancers train for years at strict traditional schools.",
+      },
+    },
+  },
+  {
+    id: "amuletos",
+    order: 19,
+    placeholderEmoji: "🧿",
+    accentColor: "#8B6F47",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Los amuletos que se compran y venden como acciones",
+        subtitle: "El culto a los amuletos",
+        imageAlt: "Caricatura de varios amuletos pequeños colgando de un cordón junto a un puesto de venta.",
+        description:
+          "Los phra khrueang, pequeños amuletos budistas que suelen representar en miniatura a Buda o a monjes venerados, se usan colgados del cuello —muchas veces varios a la vez— o se exhiben en casas, vehículos y comercios como protección y para atraer buena fortuna, una práctica profundamente arraigada en toda la sociedad tailandesa sin importar el nivel socioeconómico. Existe una enorme economía dedicada a su compraventa: mercados especializados como los que rodean el Wat Mahathat de Bangkok, revistas y guías de precios, y expertos en autenticación, con amuletos raros o históricos —especialmente los bendecidos por monjes fallecidos célebres— vendidos por sumas enormes, a veces cientos de miles de dólares, tratados casi como un mercado de inversión especulativa. Se cree que distintos amuletos otorgan beneficios específicos, desde protección ante accidentes hasta riqueza o carisma, y la práctica combina elementos budistas, brahmánicos y de creencias populares animistas.",
+      },
+      en: {
+        title: "The Amulets Bought and Sold Like Stocks",
+        subtitle: "The Cult of Amulets",
+        imageAlt: "Cartoon of several small amulets hanging from a cord beside a market stall.",
+        description:
+          "Phra khrueang, small Buddhist amulets typically depicting a miniature image of the Buddha or a revered monk, are worn around the neck — often several at once — or displayed at home, in vehicles, and in businesses for protection and good fortune, a practice deeply rooted across Thai society regardless of socioeconomic status. A huge economy exists around buying, selling, and collecting them: specialized markets like those surrounding Bangkok's Wat Mahathat, dedicated magazines and price guides, and authentication experts, with rare or historic amulets — especially those blessed by particularly famous deceased monks — selling for enormous sums, sometimes hundreds of thousands of dollars, treated almost like a speculative investment market. Different amulets are believed to confer specific benefits, from protection against accidents to wealth or charisma, and the practice blends Buddhist, Brahmanic, and animist folk belief elements.",
+      },
+    },
+  },
+  {
+    id: "arroz-jazmin",
+    order: 20,
+    placeholderEmoji: "🍚",
+    accentColor: "#C9A876",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arroz aromático que hizo de Tailandia una potencia",
+        subtitle: "El arroz jazmín, orgullo agrícola",
+        imageAlt: "Caricatura de espigas de arroz doradas junto a un cuenco de granos blancos humeantes.",
+        description:
+          "Tailandia es históricamente uno de los principales exportadores de arroz del mundo, compitiendo por el primer puesto con países como India, y el arroz ocupa un lugar central en la economía y la identidad nacional desde hace siglos: más de la mitad de la superficie agrícola del país se dedica a su cultivo, del que dependen millones de familias campesinas. El arroz jazmín, o khao hom mali, una variedad aromática de grano largo desarrollada y perfeccionada en Tailandia, se volvió el producto de exportación insignia del país, apreciado internacionalmente por su distintiva fragancia floral y su textura suave y ligeramente pegajosa al cocinarse. El cultivo del arroz también tiene una importancia cultural que va más allá de lo económico: la Ceremonia Real del Arado, un antiguo ritual brahmánico que marca el inicio de la temporada de siembra, se celebra cada año en Bangkok con participación de la familia real, y la creencia popular venera además a Phosop, la diosa del arroz.",
+      },
+      en: {
+        title: "The Aromatic Rice That Turned Thailand Into a Power",
+        subtitle: "Jasmine Rice, an Agricultural Point of Pride",
+        imageAlt: "Cartoon of golden rice stalks beside a steaming bowl of white grains.",
+        description:
+          "Thailand is historically one of the world's leading rice exporters, competing for the top spot with countries like India, and rice has held a central place in the economy and national identity for centuries: more than half the country's agricultural land is devoted to its cultivation, with millions of farming families depending on it. Jasmine rice, or khao hom mali, a long-grain aromatic variety developed and refined in Thailand, became the country's signature export product, prized internationally for its distinctive floral fragrance and soft, slightly sticky texture once cooked. Rice farming also carries cultural importance beyond economics: the Royal Ploughing Ceremony, an ancient Brahmanic ritual marking the start of the growing season, is held every year in Bangkok with the participation of the royal family, and traditional folk belief also venerates Phosop, the rice goddess.",
+      },
+    },
+  },
 ];

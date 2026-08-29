@@ -196,6 +196,147 @@ const ChinloneDeporteSinCompetencia: IllustrationComponent = ({ accentColor }) =
   );
 };
 
+const PuenteUBeinDeTeca: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D6EA5";
+  const sun = "#F4A300";
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="90" fill={tint(accentColor, 0.5)} opacity="0.4" />
+      <circle cx="205" cy="130" r="34" fill={sun} opacity="0.85" />
+      <path d="M90 175 Q205 165 320 175 L320 250 L90 250 Z" fill={water} opacity="0.7" />
+      {/* bridge deck */}
+      <path d="M95 195 Q205 180 315 195 L315 205 Q205 190 95 205 Z" fill={dark} stroke={shade(dark, 0.2)} strokeWidth="2" />
+      {/* posts */}
+      {[110, 150, 190, 230, 270, 300].map((x, i) => {
+        const y = 195 - (i % 2 === 0 ? 3 : 0);
+        return <line key={x} x1={x} y1={y} x2={x} y2={y + 45} stroke={dark} strokeWidth="4" />;
+      })}
+      {/* walking silhouettes */}
+      {[
+        [150, 185],
+        [230, 180],
+      ].map(([x, y]) => (
+        <g key={x}>
+          <circle cx={x} cy={y - 14} r="6" fill="#2A2A2A" />
+          <path d={`M${x - 6} ${y - 8} L${x + 6} ${y - 8} L${x + 4} ${y} L${x - 4} ${y} Z`} fill="#2A2A2A" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const YokeTheMarionetasTradicionales: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  const gold = "#D4AF37";
+  return (
+    <g>
+      {/* control bar */}
+      <rect x="170" y="85" width="70" height="6" fill="#6B4A2F" />
+      {/* strings */}
+      {[
+        [178, 91, 160, 150],
+        [205, 91, 205, 140],
+        [232, 91, 250, 150],
+        [190, 91, 175, 190],
+        [220, 91, 235, 190],
+      ].map(([x1, y1, x2, y2], i) => (
+        <line key={i} x1={x1} y1={y1} x2={x2} y2={y2} stroke={dark} strokeWidth="1" opacity="0.6" />
+      ))}
+      {/* torso/robe drawn first so head fill absorbs the neck seam */}
+      <path d="M186 158 Q205 145 224 158 L235 225 L175 225 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* head */}
+      <circle cx="205" cy="150" r="18" fill={skin} stroke={dark} strokeWidth="2.5" />
+      {/* crown */}
+      <path d="M190 140 L200 122 L210 136 L220 122 L222 140 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+      {/* arms hanging with strings */}
+      <path d="M180 175 Q165 185 175 190" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M230 175 Q245 185 235 190" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      {/* legs */}
+      <line x1="195" y1="225" x2="190" y2="245" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+      <line x1="215" y1="225" x2="220" y2="245" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const LacaBirmanaDeBagan: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const black = "#1A1A1A";
+  const gold = "#D4AF37";
+  return (
+    <g>
+      {/* pedestal drawn first so the bowl's fill absorbs the seam */}
+      <path d="M175 220 L235 220 L225 250 L185 250 Z" fill={black} stroke={dark} strokeWidth="2.5" />
+      {/* bowl body */}
+      <path d="M140 175 Q140 230 205 235 Q270 230 270 175 Z" fill={black} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="175" rx="65" ry="16" fill={shade(black, 0.1)} stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="205" cy="172" rx="55" ry="11" fill={accentColor} opacity="0.9" />
+      {/* engraved gold lines */}
+      {[0, 1, 2].map((i) => (
+        <path key={i} d={`M${160 + i * 5} ${195 + i * 8} Q205 ${205 + i * 8} ${250 - i * 5} ${195 + i * 8}`} fill="none" stroke={gold} strokeWidth="2" opacity="0.8" />
+      ))}
+    </g>
+  );
+};
+
+const MohingaDesayunoNacional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const broth = "#C2703D";
+  const noodle = "#F5E6C8";
+  const eggWhite = "#F5F0E6";
+  const eggYolk = "#F4A300";
+  return (
+    <g>
+      {/* bowl */}
+      <path d="M120 190 Q120 240 205 245 Q290 240 290 190 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <ellipse cx="205" cy="190" rx="85" ry="20" fill={broth} stroke={dark} strokeWidth="2.5" />
+      {/* noodles */}
+      {[
+        [160, 185],
+        [190, 190],
+        [220, 185],
+        [250, 190],
+      ].map(([x, y]) => (
+        <path key={x} d={`M${x - 15} ${y} Q${x} ${y - 10} ${x + 15} ${y}`} fill="none" stroke={noodle} strokeWidth="4" strokeLinecap="round" />
+      ))}
+      {/* egg half */}
+      <circle cx="230" cy="180" r="16" fill={eggWhite} stroke={dark} strokeWidth="2" />
+      <circle cx="230" cy="180" r="7" fill={eggYolk} />
+      {/* steam */}
+      {[175, 205, 235].map((x) => (
+        <path key={x} d={`M${x} 160 Q${x - 8} 135 ${x} 110 Q${x + 8} 90 ${x} 70`} fill="none" stroke="#E8E4DC" strokeWidth="4" opacity="0.55" strokeLinecap="round" />
+      ))}
+    </g>
+  );
+};
+
+const DelfinesDelIrrawaddyPescaCooperativa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D6EA5";
+  const grey = "#8A9199";
+  return (
+    <g>
+      <path d="M85 200 Q205 190 320 200 L320 250 L85 250 Z" fill={water} opacity="0.65" />
+      {/* dolphin body */}
+      <path d="M140 195 Q160 165 210 168 Q250 170 260 190 Q220 200 180 198 Q155 197 140 195 Z" fill={grey} stroke={dark} strokeWidth="2.5" />
+      {/* rounded forehead */}
+      <circle cx="155" cy="185" r="16" fill={grey} stroke={dark} strokeWidth="2.5" />
+      {/* short snout */}
+      <path d="M142 190 Q125 192 118 185" fill="none" stroke={grey} strokeWidth="8" strokeLinecap="round" />
+      {/* dorsal fin */}
+      <path d="M210 170 Q215 150 225 170 Z" fill={grey} stroke={dark} strokeWidth="2" />
+      {/* tail */}
+      <path d="M255 188 L280 178 L275 195 L280 205 L255 196 Z" fill={grey} stroke={dark} strokeWidth="2" />
+      {/* eye */}
+      <circle cx="150" cy="182" r="2.5" fill="#1A1A1A" />
+      {/* net */}
+      <path d="M270 200 L300 235 M300 200 L270 235 M280 195 L280 240" stroke={dark} strokeWidth="2" opacity="0.6" />
+      <path d="M260 195 Q285 185 310 200 Q310 225 285 235 Q260 225 260 195 Z" fill="none" stroke={dark} strokeWidth="2.5" opacity="0.7" />
+    </g>
+  );
+};
+
 export const myanmarIllustrations: Record<string, IllustrationDefinition> = {
   "bagan-miles-de-templos": { component: BaganMilesDeTemplos },
   "pagoda-shwedagon-de-oro": { component: PagodaShwedagonDeOro },
@@ -207,4 +348,9 @@ export const myanmarIllustrations: Record<string, IllustrationDefinition> = {
   "gatos-birmanos": { component: GatosBirmanos },
   "shinbyu-novicios-budistas": { component: ShinbyuNoviciosBudistas },
   "chinlone-deporte-sin-competencia": { component: ChinloneDeporteSinCompetencia },
+  "puente-u-bein-de-teca": { component: PuenteUBeinDeTeca },
+  "yoke-the-marionetas-tradicionales": { component: YokeTheMarionetasTradicionales },
+  "laca-birmana-de-bagan": { component: LacaBirmanaDeBagan },
+  "mohinga-desayuno-nacional": { component: MohingaDesayunoNacional },
+  "delfines-del-irrawaddy-pesca-cooperativa": { component: DelfinesDelIrrawaddyPescaCooperativa },
 };

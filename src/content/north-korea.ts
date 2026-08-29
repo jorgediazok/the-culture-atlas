@@ -231,4 +231,119 @@ export const northKorea: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "las-tumbas-de-goguryeo-y-sus-murales-milenarios",
+    order: 11,
+    placeholderEmoji: "🐉",
+    accentColor: "#7A4A2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las tumbas con murales pintados hace 1.500 años",
+        subtitle: "Las tumbas de Goguryeo y sus murales milenarios",
+        imageAlt: "Caricatura de una cámara funeraria de piedra con murales de figuras y un dragón pintados en las paredes.",
+        description:
+          "Cerca de Pyongyang y la ciudad de Nampho se conservan más de setenta tumbas subterráneas del antiguo reino de Goguryeo, uno de los tres reinos que dominaron la península coreana entre los siglos I antes de Cristo y el VII después de Cristo, decoradas por dentro con murales pintados directamente sobre las paredes de piedra que representan escenas de la vida cotidiana de la nobleza, criaturas mitológicas como el dragón azul y el tigre blanco de los cuatro guardianes direccionales, y motivos florales y geométricos que todavía conservan colores vívidos pese a los más de mil quinientos años transcurridos. Estas cámaras funerarias, diseñadas para replicar en miniatura el hogar terrenal del difunto y asegurar así su bienestar en la otra vida, ofrecen una de las fuentes visuales más ricas que existen sobre la vestimenta, la arquitectura y las costumbres de la antigua Corea, y un conjunto de dieciséis de ellas fue declarado Patrimonio de la Humanidad por la UNESCO en 2004.",
+      },
+      en: {
+        title: "The Tombs With Murals Painted 1,500 Years Ago",
+        subtitle: "The Goguryeo Tombs and Their Ancient Murals",
+        imageAlt: "Cartoon of a stone burial chamber with figures and a dragon painted on the walls.",
+        description:
+          "Near Pyongyang and the city of Nampho, more than seventy underground tombs survive from the ancient kingdom of Goguryeo, one of the three kingdoms that dominated the Korean peninsula between the 1st century BC and the 7th century AD, decorated inside with murals painted directly onto the stone walls depicting scenes of everyday noble life, mythological creatures such as the Blue Dragon and White Tiger among the four directional guardians, and floral and geometric motifs that still retain vivid color despite more than fifteen hundred years passing. These burial chambers, designed to replicate in miniature the deceased's earthly home and ensure their well-being in the afterlife, offer one of the richest visual sources that exist on ancient Korean clothing, architecture, and customs, and a group of sixteen of them was declared a UNESCO World Heritage Site in 2004.",
+      },
+    },
+  },
+  {
+    id: "el-ginseng-de-kaesong-cultivado-durante-siglos",
+    order: 12,
+    placeholderEmoji: "🌱",
+    accentColor: "#C9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La raíz medicinal cultivada durante más de mil años",
+        subtitle: "El ginseng de Kaesong",
+        imageAlt: "Caricatura de una raíz de ginseng con forma humana junto a hojas verdes.",
+        description:
+          "La región de Kaesong, antigua capital de la dinastía Goryeo entre los siglos X y XIV, cultiva ginseng desde hace más de mil años, y su suelo arcilloso y el clima templado la convirtieron históricamente en una de las regiones productoras de ginseng más reconocidas de Asia, tan valorada que comerciantes de la dinastía Goryeo la exportaban a China bajo el nombre que dio origen a la palabra internacional 'ginseng'. La raíz, cultivada un mínimo de seis años antes de poder cosecharse, requiere sombra artificial constante y suelos que descansan varios años entre cultivos, un proceso agrícola exigente que explica en parte su alto valor comercial histórico. Usada durante siglos en la medicina tradicional coreana como tónico general de energía, el ginseng de Kaesong, procesado a veces al vapor para obtener el 'ginseng rojo', sigue cultivándose hoy siguiendo técnicas transmitidas de generación en generación entre familias agricultoras.",
+      },
+      en: {
+        title: "The Medicinal Root Grown for Over a Thousand Years",
+        subtitle: "Kaesong Ginseng",
+        imageAlt: "Cartoon of a human-shaped ginseng root beside green leaves.",
+        description:
+          "The Kaesong region, former capital of the Goryeo dynasty between the 10th and 14th centuries, has grown ginseng for more than a thousand years, and its clay-rich soil and temperate climate historically made it one of the most recognized ginseng-producing regions in all of Asia, so prized that Goryeo dynasty merchants exported it to China and elsewhere in Asia under the name that gave rise to the international word 'ginseng.' The root, cultivated for a minimum of six years before it can be harvested, requires constant artificial shade and soil left to rest for several years between plantings, a demanding agricultural process that partly explains its high historical commercial value. Used for centuries in traditional Korean medicine as a general energy tonic, Kaesong ginseng, sometimes steamed to produce the variety known as 'red ginseng,' is still grown today in the region following techniques passed down through generations of farming families.",
+      },
+    },
+  },
+  {
+    id: "el-ssireum-la-lucha-tradicional-coreana",
+    order: 13,
+    placeholderEmoji: "🤼",
+    accentColor: "#B8621B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La lucha tradicional que se gana derribando al rival",
+        subtitle: "El ssireum, lucha tradicional coreana",
+        imageAlt: "Caricatura de dos luchadores agarrados por un cinturón de tela forcejeando sobre arena.",
+        description:
+          "El ssireum, una forma de lucha tradicional practicada en toda la península coreana desde hace más de mil quinientos años, según documentan las propias tumbas muradas de Goguryeo, enfrenta a dos competidores que se sujetan por un cinturón de tela llamado 'satba' anudado alrededor de la cintura y un muslo, compitiendo sobre un círculo de arena para derribar al rival haciendo que cualquier parte de su cuerpo por encima de la rodilla toque el suelo. A diferencia de otras luchas con agarre, el ssireum no permite golpes ni sometimientos dolorosos, apoyándose en técnicas de equilibrio, cadera y palanca para desestabilizar al oponente en combates que suelen durar apenas segundos. Practicado tradicionalmente durante festividades agrícolas como entretenimiento comunitario, el ssireum sigue celebrándose hoy en torneos donde el campeón recibía históricamente un buey como premio, símbolo de prosperidad agrícola en la Corea tradicional.",
+      },
+      en: {
+        title: "The Traditional Wrestling Won by Toppling the Rival",
+        subtitle: "Ssireum, Traditional Korean Wrestling",
+        imageAlt: "Cartoon of two wrestlers gripping a fabric belt struggling on sand.",
+        description:
+          "Ssireum, a form of traditional wrestling practiced across the Korean peninsula for more than fifteen hundred years, as documented in the very Goguryeo tomb murals that survive today, pits two competitors against each other gripping a fabric belt called a 'satba' tied around the waist and one thigh, competing on a sand ring to bring down the rival by making any part of their body above the knee touch the ground. Unlike other grappling styles, ssireum bans strikes and painful submission holds, relying instead on balance, hip, and leverage techniques to unbalance the opponent in bouts that often last only seconds. Traditionally practiced during agricultural festivals and seasonal fairs as a form of community entertainment, ssireum is still celebrated today in organized tournaments where the champion historically received an ox as a prize, a symbol of agricultural prosperity in traditional Korea.",
+      },
+    },
+  },
+  {
+    id: "el-monte-kumgang-la-montana-de-los-diamantes",
+    order: 14,
+    placeholderEmoji: "⛰️",
+    accentColor: "#4A6B8A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La montaña de doce mil picos que inspiró poesía",
+        subtitle: "El monte Kumgang, la montaña de los diamantes",
+        imageAlt: "Caricatura de picos rocosos puntiagudos envueltos en niebla junto a una cascada.",
+        description:
+          "El monte Kumgang, cuyo nombre significa 'montaña de diamante', es una cordillera de picos de granito escarpados en la costa este de la península coreana, célebre desde hace siglos por la belleza extrema de sus formaciones rocosas, sus cascadas y sus lagos de montaña, un paisaje que generaciones de poetas y pintores coreanos retrataron como uno de los grandes símbolos estéticos de toda la cultura coreana tradicional. La cordillera recibe distintos nombres según la estación del año en la tradición local, llamada 'montaña de diamante' en primavera cuando el verdor brota entre la roca desnuda, 'montaña de esmeralda' en verano por sus bosques frondosos, 'montaña de arce' en otoño por el color de sus hojas, y 'montaña de huesos' en invierno cuando la nieve deja al descubierto la silueta pura de sus picos rocosos. Su fama artística e histórica la convirtió en tema recurrente de la pintura de paisajes coreana desde la dinastía Joseon.",
+      },
+      en: {
+        title: "The Twelve-Thousand-Peak Mountain That Inspired Poetry",
+        subtitle: "Mount Kumgang, the Diamond Mountain",
+        imageAlt: "Cartoon of jagged rocky peaks wrapped in mist beside a waterfall.",
+        description:
+          "Mount Kumgang, whose name means 'diamond mountain,' is a range of jagged granite peaks on the eastern coast of the Korean peninsula, celebrated for centuries for the extreme beauty of its rock formations, waterfalls, and mountain lakes, a landscape generations of Korean poets and painters portrayed as one of the great aesthetic symbols of all traditional Korean culture. The range takes on different names depending on the season in local tradition, called 'diamond mountain' in spring when greenery sprouts among the bare rock, 'emerald mountain' in summer for its lush forests, 'maple mountain' in autumn for the color of its leaves, and 'bone mountain' in winter when snow exposes the pure silhouette of its rocky peaks. Its artistic and historical fame made it a recurring subject of Korean landscape painting dating back to the Joseon dynasty.",
+      },
+    },
+  },
+  {
+    id: "el-celadon-de-goryeo-la-ceramica-color-jade",
+    order: 15,
+    placeholderEmoji: "🏺",
+    accentColor: "#6FA88A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La cerámica verde jade que nadie volvió a igualar",
+        subtitle: "El celadón de Goryeo, cerámica color jade",
+        imageAlt: "Caricatura de un jarrón de cerámica verde jade con un patrón floral incrustado.",
+        description:
+          "El celadón de Goryeo, una cerámica de vidriado verde jade desarrollada durante la dinastía Goryeo entre los siglos X y XIV cerca de la antigua capital de Kaesong, alcanzó un nivel de refinamiento técnico y artístico tan alto que las cortes imperiales chinas de la época la consideraban entre las mejores cerámicas de todo el continente asiático. Su color verde característico, logrado mediante un control extremadamente preciso del vidriado y la atmósfera del horno durante la cocción, se combinó desde el siglo XII con una técnica exclusivamente coreana llamada 'sanggam', que consiste en incrustar patrones tallados en la arcilla con pastas de colores contrastantes antes de vidriar, generando diseños florales y de grullas visibles a través de la superficie translúcida. Pese a siglos de intentos posteriores, muchos ceramistas consideran que la calidad exacta del celadón original nunca volvió a igualarse por completo.",
+      },
+      en: {
+        title: "The Jade-Green Ceramic No One Ever Matched Again",
+        subtitle: "Goryeo Celadon, Jade-Colored Ceramics",
+        imageAlt: "Cartoon of a jade-green ceramic vase with an inlaid floral pattern.",
+        description:
+          "Goryeo celadon, a jade-green glazed ceramic developed during the Goryeo dynasty between the 10th and 14th centuries with production centers near the ancient capital of Kaesong, reached such a high level of technical and artistic refinement that the Chinese imperial courts of the era considered it among the finest ceramics anywhere in Asia. Its distinctive green color, achieved through extremely precise control of the glaze composition and kiln atmosphere during firing, was combined starting in the 12th century with an exclusively Korean technique called 'sanggam,' which involves carving decorative patterns into the clay and inlaying them with contrasting colored pastes before applying the glaze, producing floral and crane designs visible through the translucent surface. Despite centuries of later attempts to replicate the technique, many ceramicists consider that the exact quality of original Goryeo celadon has never been fully matched again.",
+      },
+    },
+  },
 ];

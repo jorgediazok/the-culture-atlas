@@ -175,6 +175,152 @@ const LosPalmeralesDeDatilesDeIraq: IllustrationComponent = ({ accentColor }) =>
   );
 };
 
+const LosJardinesColgantesDeBabilonia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const stone = "#B0A48A";
+  const leaf = "#4A7A52";
+  return (
+    <g>
+      {/* bottom terrace */}
+      <rect x="110" y="205" width="190" height="30" fill={stone} stroke={dark} strokeWidth="2.5" />
+      {[130, 175, 220, 265].map((x) => (
+        <rect key={x} x={x} y="235" width="8" height="15" fill={stone} stroke={dark} strokeWidth="1.5" />
+      ))}
+      {/* middle terrace */}
+      <rect x="140" y="170" width="130" height="30" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+      {[155, 195, 235].map((x) => (
+        <rect key={x} x={x} y="200" width="8" height="10" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="1.5" />
+      ))}
+      {/* top terrace */}
+      <rect x="168" y="140" width="74" height="26" fill={stone} stroke={dark} strokeWidth="2.5" />
+      {/* draping plants along each terrace front edge */}
+      {[
+        [120, 235],
+        [160, 235],
+        [200, 235],
+        [240, 235],
+        [280, 235],
+      ].map(([x, y]) => (
+        <path key={x} d={`M${x} ${y - 30} Q${x - 6} ${y - 15} ${x} ${y}`} fill="none" stroke={leaf} strokeWidth="4" strokeLinecap="round" />
+      ))}
+      {[
+        [150, 200],
+        [190, 200],
+        [230, 200],
+      ].map(([x, y]) => (
+        <path key={x} d={`M${x} ${y - 30} Q${x - 5} ${y - 15} ${x} ${y}`} fill="none" stroke={leaf} strokeWidth="3.5" strokeLinecap="round" />
+      ))}
+      {/* small trees on top terrace */}
+      {[190, 205, 220].map((x) => (
+        <circle key={x} cx={x} cy="132" r="12" fill={leaf} stroke={shade(leaf, 0.3)} strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
+const ElMheibesElJuegoDelAnilloEscondido: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C9946B";
+  return (
+    <g>
+      {/* top row: arms first, fists after so fill absorbs the wrist seam */}
+      {[130, 180, 230, 280].map((x) => (
+        <g key={x}>
+          <rect x={x - 6} y="136" width="12" height="36" fill={accentColor} stroke={dark} strokeWidth="2" />
+          <ellipse cx={x} cy="130" rx="16" ry="14" fill={skin} stroke={dark} strokeWidth="2.5" />
+        </g>
+      ))}
+      {/* bottom row: arms first, fists after */}
+      {[155, 205, 255].map((x) => (
+        <g key={x}>
+          <rect x={x - 6} y="206" width="12" height="34" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2" />
+          <ellipse cx={x} cy="200" rx="16" ry="14" fill={skin} stroke={dark} strokeWidth="2.5" />
+        </g>
+      ))}
+      {/* ring glinting inside one fist */}
+      <circle cx="205" cy="200" r="4" fill="#F4C430" opacity="0.9" />
+    </g>
+  );
+};
+
+const BasraLaVeneciaDeOriente: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
+  return (
+    <g>
+      {/* houses on both banks */}
+      {[
+        [100, 150, 0],
+        [150, 140, 1],
+        [260, 145, 0],
+        [305, 150, 1],
+      ].map(([x, y, alt]) => (
+        <g key={x}>
+          <rect x={x - 22} y={y} width="44" height="60" fill={alt === 0 ? accentColor : tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.5" />
+          <rect x={x - 18} y={y + 15} width="36" height="10" fill="#6B4A2F" stroke={shade("#6B4A2F", 0.3)} strokeWidth="1.5" />
+        </g>
+      ))}
+      {/* canal water */}
+      <path d="M85 210 Q205 195 320 210 L320 250 L85 250 Z" fill={water} opacity="0.7" />
+      {/* wooden boat */}
+      <path d="M150 220 Q205 208 260 220 L250 235 L160 235 Z" fill="#8B5A2B" stroke={shade("#8B5A2B", 0.3)} strokeWidth="2.5" />
+      <line x1="205" y1="220" x2="205" y2="195" stroke={dark} strokeWidth="3" />
+    </g>
+  );
+};
+
+const LaEscuelaDeCaligrafiaArabeDeBagdad: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4AF37";
+  return (
+    <g>
+      {/* paper */}
+      <rect x="95" y="110" width="220" height="130" fill="#F5EFE0" stroke={dark} strokeWidth="3" />
+      {/* flowing calligraphy strokes */}
+      <path d="M120 170 Q160 140 190 175 Q210 200 240 165 Q260 140 295 170" fill="none" stroke={gold} strokeWidth="6" strokeLinecap="round" />
+      <path d="M130 200 Q170 185 205 205 Q235 220 280 195" fill="none" stroke={accentColor} strokeWidth="5" strokeLinecap="round" opacity="0.85" />
+      {/* dots */}
+      {[
+        [150, 155],
+        [220, 150],
+        [260, 155],
+      ].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="4" fill={gold} />
+      ))}
+      {/* calligraphy pen/qalam, nib touching the stroke */}
+      <path d="M290 170 L318 142 L326 150 L298 178 Z" fill={dark} stroke={shade(dark, 0.2)} strokeWidth="2" />
+    </g>
+  );
+};
+
+const NewrozLaFiestaDelFuegoDePrimavera: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const night = "#1A2340";
+  return (
+    <g>
+      <rect x="85" y="80" width="235" height="170" fill={night} opacity="0.55" />
+      {/* bonfire */}
+      <path d="M185 240 Q175 200 205 175 Q235 200 225 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M195 235 Q192 210 205 195 Q218 210 215 235 Z" fill="#F4C430" opacity="0.85" />
+      {/* leaping silhouette over the flames */}
+      <circle cx="255" cy="165" r="9" fill="#1A1A1A" />
+      <path d="M250 174 Q260 178 268 172 L262 200 L248 198 Z" fill="#1A1A1A" />
+      <path d="M250 178 L235 190 M266 176 L280 165" stroke="#1A1A1A" strokeWidth="5" strokeLinecap="round" />
+      {/* dancers holding hands near the fire */}
+      {[
+        [130, 225],
+        [155, 220],
+      ].map(([x, y]) => (
+        <g key={x}>
+          <circle cx={x} cy={y - 18} r="7" fill="#1A1A1A" />
+          <path d={`M${x - 6} ${y - 10} L${x + 6} ${y - 10} L${x + 4} ${y} L${x - 4} ${y} Z`} fill="#1A1A1A" />
+        </g>
+      ))}
+      <line x1="137" y1="215" x2="148" y2="215" stroke="#1A1A1A" strokeWidth="3" />
+    </g>
+  );
+};
+
 export const iraqIllustrations: Record<string, IllustrationDefinition> = {
   "la-escritura-cuneiforme-primera-del-mundo": { component: LaEscrituraCuneiformePrimeraDelMundo },
   "el-zigurat-de-ur": { component: ElZiguratDeUr },
@@ -186,4 +332,9 @@ export const iraqIllustrations: Record<string, IllustrationDefinition> = {
   "los-arabes-de-las-marismas-y-sus-casas-mudhif": { component: LosArabesDeLasMarismasYSusCasasMudhif },
   "el-maqam-iraqui": { component: ElMaqamIraqui },
   "los-palmerales-de-datiles-de-iraq": { component: LosPalmeralesDeDatilesDeIraq },
+  "los-jardines-colgantes-de-babilonia": { component: LosJardinesColgantesDeBabilonia },
+  "el-mheibes-el-juego-del-anillo-escondido": { component: ElMheibesElJuegoDelAnilloEscondido },
+  "basra-la-venecia-de-oriente": { component: BasraLaVeneciaDeOriente },
+  "la-escuela-de-caligrafia-arabe-de-bagdad": { component: LaEscuelaDeCaligrafiaArabeDeBagdad },
+  "newroz-la-fiesta-del-fuego-de-primavera": { component: NewrozLaFiestaDelFuegoDePrimavera },
 };

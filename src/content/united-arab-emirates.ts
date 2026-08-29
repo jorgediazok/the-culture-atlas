@@ -231,4 +231,50 @@ export const unitedArabEmirates: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "oasis-al-ain",
+    order: 11,
+    placeholderEmoji: "🌴",
+    accentColor: "#4A8F4E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El oasis milenario que la UNESCO declaró patrimonio",
+        subtitle: "El oasis de Al Ain",
+        imageAlt: "Caricatura de altas palmeras datileras en un oasis atravesado por un angosto canal de agua.",
+        description:
+          "El oasis de Al Ain, en el interior de Abu Dabi cerca de la frontera con Omán, alberga más de 147.000 palmeras datileras irrigadas mediante el 'falaj', un sistema de canales subterráneos y de superficie que aprovecha la gravedad para llevar agua de acuíferos y montañas cercanas hasta los cultivos, una tecnología de ingeniería hidráulica que data de hace más de 3.000 años y que sigue en funcionamiento hoy con mínimas modificaciones. Declarado Patrimonio de la Humanidad por la UNESCO en 2011 junto con otros sitios arqueológicos de la región, el oasis funcionó históricamente como un cruce comercial vital entre el desierto y la costa, y sus jardines sombreados, organizados en parcelas irrigadas por turnos según un calendario tradicional acordado entre familias, contrastan deliberadamente con el perfil ultramoderno de Dubái y Abu Dabi, ofreciendo una imagen de los Emiratos anterior al petróleo.",
+      },
+      en: {
+        title: "The Ancient Oasis Declared a World Heritage Site",
+        subtitle: "The Al Ain Oasis",
+        imageAlt: "Cartoon of tall date palms in an oasis crossed by a narrow water channel.",
+        description:
+          "The Al Ain Oasis, inland from Abu Dhabi near the border with Oman, holds more than 147,000 date palms irrigated through the 'falaj,' a system of underground and surface channels that uses gravity to carry water from aquifers and nearby mountains to the crops, a hydraulic engineering technology dating back more than 3,000 years that still operates today with minimal changes. Declared a UNESCO World Heritage Site in 2011 alongside other archaeological sites in the region, the oasis historically served as a vital trading crossroads between the desert and the coast, and its shaded gardens, organized into plots irrigated in turns according to a traditional schedule agreed among families, deliberately contrast with the ultramodern skylines of Dubai and Abu Dhabi, offering a glimpse of the Emirates before oil.",
+      },
+    },
+  },
+  {
+    id: "gahwa-cafe-hospitalidad",
+    order: 12,
+    placeholderEmoji: "☕",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El café con cardamomo símbolo de la hospitalidad árabe",
+        subtitle: "El gahwa, café de la hospitalidad",
+        imageAlt: "Caricatura de una cafetera de latón de pico largo sirviendo en tazas pequeñas junto a dátiles.",
+        description:
+          "El 'gahwa', un café ligero aromatizado con cardamomo y a veces azafrán o clavo, servido tradicionalmente sin azúcar en tazas pequeñas sin asa llamadas 'finjan', ocupa un lugar central en los códigos de hospitalidad emiratíes, donde ofrecer café recién preparado a cualquier visitante, acompañado casi siempre de dátiles, se considera un gesto obligatorio de bienvenida antes de tratar cualquier otro asunto. La ceremonia sigue reglas precisas: el anfitrión sirve primero a los invitados de mayor edad o estatus, llena la taza solo hasta la mitad para facilitar que se beba de un trago, y el invitado indica que terminó agitando levemente la taza vacía al devolverla. El café se prepara tradicionalmente en una 'dallah', una cafetera de latón o cobre con un característico pico largo y curvo, cuya silueta se convirtió en un símbolo cultural tan reconocible que aparece reproducida en monumentos y logotipos oficiales.",
+      },
+      en: {
+        title: "The Cardamom Coffee That Symbolizes Arab Hospitality",
+        subtitle: "Gahwa, the Coffee of Hospitality",
+        imageAlt: "Cartoon of a long-spouted brass coffee pot pouring into small cups beside dates.",
+        description:
+          "'Gahwa,' a light coffee flavored with cardamom and sometimes saffron or clove, traditionally served unsweetened in small handleless cups called 'finjan,' holds a central place in Emirati codes of hospitality, where offering freshly brewed coffee to any visitor, almost always alongside dates, is considered an obligatory welcoming gesture before discussing any other matter. The ceremony follows precise rules: the host serves the oldest or highest-status guests first, fills the cup only halfway to make it easy to drink in one sip, and the guest signals they're finished by gently shaking the empty cup when returning it. The coffee is traditionally brewed in a 'dallah,' a brass or copper pot with a distinctive long, curved spout, whose silhouette became such a recognizable cultural symbol that it's reproduced on monuments and official logos.",
+      },
+    },
+  },
 ];

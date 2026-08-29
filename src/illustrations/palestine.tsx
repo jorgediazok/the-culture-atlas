@@ -200,6 +200,66 @@ const CeramicaJerusalen: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const KnafehNabulsi: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const cheese = "#F5F0E6";
+  const pistachio = "#7CB342";
+  const crumbs: [number, number][] = [
+    [170, 180],
+    [195, 172],
+    [220, 178],
+    [240, 185],
+    [150, 192],
+  ];
+  return (
+    <g>
+      <ellipse cx="205" cy="220" rx="95" ry="18" fill="#C9A227" stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="205" cy="195" rx="85" ry="30" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M175 190 L235 190 L225 215 L185 215 Z" fill={cheese} stroke={dark} strokeWidth="2" />
+      <path d="M160 175 Q170 185 165 195 M245 178 Q255 188 248 198" fill="none" stroke="#D4941E" strokeWidth="3" strokeLinecap="round" opacity="0.7" />
+      {crumbs.map(([x, y], i) => (
+        <circle key={i} cx={x} cy={y} r="4" fill={pistachio} />
+      ))}
+    </g>
+  );
+};
+
+const KaakAlQuds: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  const bread = "#D9A521";
+  const breads = [150, 180, 205, 230, 260];
+  const sesame: [number, number][] = [
+    [-6, -10],
+    [4, -14],
+    [-10, 0],
+    [8, 4],
+    [0, 14],
+    [-4, -4],
+  ];
+  return (
+    <g>
+      <rect x="110" y="220" width="190" height="20" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2.5" />
+      <circle cx="140" cy="245" r="12" fill="#3A3A3A" stroke={dark} strokeWidth="2" />
+      <circle cx="270" cy="245" r="12" fill="#3A3A3A" stroke={dark} strokeWidth="2" />
+      <line x1="205" y1="220" x2="205" y2="110" stroke={wood} strokeWidth="6" />
+      <line x1="150" y1="120" x2="260" y2="120" stroke={wood} strokeWidth="5" />
+      {breads.map((x, i) => {
+        const cy = 155 + (i % 2) * 8;
+        return (
+          <g key={x}>
+            <line x1={x} y1="120" x2={x} y2={135 + (i % 2) * 8} stroke={dark} strokeWidth="1.5" />
+            <ellipse cx={x} cy={cy} rx="16" ry="22" fill="none" stroke={bread} strokeWidth="7" />
+            {sesame.map(([dx, dy], j) => (
+              <circle key={j} cx={x + dx} cy={cy + dy} r="1.3" fill="#F5F0E6" />
+            ))}
+          </g>
+        );
+      })}
+    </g>
+  );
+};
+
 export const palestineIllustrations: Record<string, IllustrationDefinition> = {
   tatreez: { component: Tatreez },
   "olivos-milenarios": { component: OlivosMilenarios },
@@ -211,4 +271,6 @@ export const palestineIllustrations: Record<string, IllustrationDefinition> = {
   "belen-natividad": { component: BelenNatividad },
   handala: { component: Handala },
   "ceramica-jerusalen": { component: CeramicaJerusalen },
+  "knafeh-nabulsi": { component: KnafehNabulsi },
+  "kaak-al-quds": { component: KaakAlQuds },
 };

@@ -219,6 +219,106 @@ const LosVinedosDelValleDeLaBekaa: IllustrationComponent = ({ accentColor }) => 
   );
 };
 
+const LosFeniciosYLaInvencionDelVidrioSoplado: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9A46A";
+  const glass = "#A8D8E0";
+  return (
+    <g>
+      {/* artisan */}
+      <circle cx="150" cy="140" r="16" fill={skin} stroke={dark} strokeWidth="2.5" />
+      <path d="M132 155 Q150 145 168 155 L163 235 L137 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* arms holding the blowpipe to the mouth */}
+      <path d="M162 160 Q185 165 210 155" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      {/* blowpipe */}
+      <line x1="150" y1="150" x2="260" y2="150" stroke="#5C3A21" strokeWidth="5" strokeLinecap="round" />
+      {/* incandescent glass bubble */}
+      <circle cx="280" cy="165" r="30" fill={glass} stroke={shade(glass, 0.35)} strokeWidth="2.5" opacity="0.9" />
+      <ellipse cx="270" cy="155" rx="8" ry="5" fill="#fff" opacity="0.6" />
+      {/* glow */}
+      <circle cx="280" cy="165" r="38" fill="none" stroke="#F4A300" strokeWidth="2" opacity="0.4" />
+    </g>
+  );
+};
+
+const LaGrutaDeJeitaElRioSubterraneo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
+  return (
+    <g>
+      {/* cave wall */}
+      <path d="M85 90 Q205 70 320 90 L320 250 L85 250 Z" fill={tint(accentColor, 0.15)} opacity="0.5" />
+      {/* stalactites hanging from ceiling */}
+      {[120, 160, 205, 250, 290].map((x, i) => (
+        <path key={x} d={`M${x - 10} 90 L${x} ${120 + (i % 2) * 20} L${x + 10} 90 Z`} fill={accentColor} stroke={dark} strokeWidth="2" />
+      ))}
+      {/* underground river */}
+      <path d="M85 210 Q205 195 320 210 L320 250 L85 250 Z" fill={water} opacity="0.75" />
+      {/* small boat */}
+      <path d="M170 215 Q205 205 240 215 L230 225 L180 225 Z" fill="#8B5A2B" stroke={shade("#8B5A2B", 0.3)} strokeWidth="2.5" />
+    </g>
+  );
+};
+
+const ElValleDeQadishaYSusMonasteriosEnLosAcantilados: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const stone = "#B0A48A";
+  return (
+    <g>
+      {/* canyon walls */}
+      <path d="M85 250 L85 130 L170 90 L200 140 L230 85 L320 130 L320 250 Z" fill={stone} stroke={dark} strokeWidth="2.5" />
+      {/* small chapel wedged into a ledge */}
+      <rect x="150" y="155" width="55" height="45" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M150 155 L177 130 L205 155 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="177" cy="180" r="6" fill={tint(accentColor, 0.4)} stroke={dark} strokeWidth="1.5" />
+      {/* cross on the chapel */}
+      <line x1="177" y1="130" x2="177" y2="118" stroke={dark} strokeWidth="2.5" />
+      <line x1="171" y1="122" x2="183" y2="122" stroke={dark} strokeWidth="2.5" />
+      {/* second smaller hermitage further right */}
+      <rect x="245" y="175" width="30" height="30" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const ElKebbehNayyehElTartarDeCorderoLibanes: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* plate */}
+      <ellipse cx="205" cy="210" rx="95" ry="26" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
+      {/* mound of meat */}
+      <path d="M140 205 Q145 180 205 178 Q265 180 270 205 Q265 220 205 222 Q145 220 140 205 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      {/* finger-drawn lines */}
+      <path d="M160 195 Q205 190 250 195 M160 205 Q205 200 250 205 M160 213 Q205 208 250 213" stroke={dark} strokeWidth="1.5" opacity="0.4" fill="none" />
+      {/* olive oil drizzle */}
+      <path d="M180 188 Q205 182 230 188" stroke="#8FA05A" strokeWidth="3" opacity="0.7" fill="none" />
+      {/* mint leaf and onion beside */}
+      <path d="M290 200 Q300 190 310 200 Q300 210 290 200 Z" fill="#4A7A52" stroke={dark} strokeWidth="1.5" />
+      <ellipse cx="120" cy="215" rx="14" ry="10" fill="#F5EFE0" stroke={dark} strokeWidth="1.5" opacity="0.85" />
+    </g>
+  );
+};
+
+const LaDiasporaLibanesaMasFueraQueDentro: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const leather = "#8B5A2B";
+  return (
+    <g>
+      {/* open suitcase */}
+      <path d="M110 235 L110 175 Q110 165 120 165 L290 165 Q300 165 300 175 L300 235 Z" fill={leather} stroke={shade(leather, 0.3)} strokeWidth="3" />
+      <rect x="100" y="230" width="210" height="14" fill={shade(leather, 0.15)} stroke={dark} strokeWidth="2" />
+      {/* folded clothes inside */}
+      {[135, 190, 245].map((x) => (
+        <rect key={x} x={x - 25} y={x === 190 ? 195 : 190} width="50" height="24" fill="#F5F0E6" stroke={dark} strokeWidth="1.5" opacity="0.9" />
+      ))}
+      {/* cedar tree sprouting from the middle */}
+      <line x1="205" y1="180" x2="205" y2="150" stroke="#5C3A21" strokeWidth="4" />
+      <polygon points="180,150 230,150 215,128 195,128" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <polygon points="190,132 220,132 205,112" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="2.5" />
+    </g>
+  );
+};
+
 export const lebanonIllustrations: Record<string, IllustrationDefinition> = {
   "biblos-la-cuna-del-alfabeto": { component: BiblosLaCunaDelAlfabeto },
   "baalbek-y-el-trilithon": { component: BaalbekYElTrilithon },
@@ -230,4 +330,9 @@ export const lebanonIllustrations: Record<string, IllustrationDefinition> = {
   "fairuz-y-los-hermanos-rahbani": { component: FairuzYLosHermanosRahbani },
   "gibran-khalil-gibran-y-el-profeta": { component: GibranKhalilGibranYElProfeta },
   "los-vinedos-del-valle-de-la-bekaa": { component: LosVinedosDelValleDeLaBekaa },
+  "los-fenicios-y-la-invencion-del-vidrio-soplado": { component: LosFeniciosYLaInvencionDelVidrioSoplado },
+  "la-gruta-de-jeita-el-rio-subterraneo": { component: LaGrutaDeJeitaElRioSubterraneo },
+  "el-valle-de-qadisha-y-sus-monasterios-en-los-acantilados": { component: ElValleDeQadishaYSusMonasteriosEnLosAcantilados },
+  "el-kebbeh-nayyeh-el-tartar-de-cordero-libanes": { component: ElKebbehNayyehElTartarDeCorderoLibanes },
+  "la-diaspora-libanesa-mas-fuera-que-dentro": { component: LaDiasporaLibanesaMasFueraQueDentro },
 };
