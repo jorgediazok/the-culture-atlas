@@ -251,4 +251,119 @@ export const sudan: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "suakin-puerto-de-coral",
+    order: 11,
+    placeholderEmoji: "🏛️",
+    accentColor: "#B5651D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El puerto de coral que dominó el Mar Rojo por siglos",
+        subtitle: "Suakin",
+        imageAlt: "Caricatura de edificios en ruinas hechos de coral junto al mar.",
+        description:
+          "Suakin, un antiguo puerto sobre la costa sudanesa del mar Rojo, funcionó durante siglos, desde la época medieval hasta comienzos del siglo veinte, como la principal puerta de entrada y salida para el comercio y para los peregrinos musulmanes rumbo a La Meca. La ciudad se construyó casi por completo con bloques de piedra coralina extraídos de arrecifes cercanos, y sus casas de comerciantes de varios pisos, con balcones y postigos de madera tallada, comparten un estilo muy similar al del casco histórico de Yeda, del otro lado del mar Rojo. La importancia de Suakin decayó de forma abrupta tras la construcción de Port Sudan como nuevo puerto moderno a comienzos del siglo veinte, y su casco antiguo quedó prácticamente abandonado, con los edificios desmoronándose lentamente hasta formar una silueta fantasmal todavía en pie, que en años recientes despertó renovado interés en su restauración.",
+      },
+      en: {
+        title: "The Coral Port That Ruled the Red Sea for Centuries",
+        subtitle: "Suakin",
+        imageAlt: "Cartoon of ruined coral-stone buildings beside the sea.",
+        description:
+          "Suakin, an ancient port on Sudan's Red Sea coast, served for centuries, from the medieval period through the early twentieth century, as the main gateway for trade and for Muslim pilgrims crossing toward Mecca. The city was built almost entirely from coral stone blocks quarried from the surrounding reefs, and its distinctive multi-story merchant houses, with elaborately carved wooden balconies and shutters, share a style strikingly similar to the historic quarter of Jeddah, across the Red Sea. Suakin's importance declined sharply after nearby Port Sudan was built as the new modern harbor in the early twentieth century, and its old town fell largely abandoned, its coral buildings slowly crumbling into a haunting, still-standing silhouette that in recent years has drawn renewed interest in restoration for its historical and archaeological significance.",
+      },
+    },
+  },
+  {
+    id: "reino-makuria-tratado-baqt",
+    order: 12,
+    placeholderEmoji: "✝️",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tratado de paz que duró más de seiscientos años",
+        subtitle: "El reino cristiano de Makuria y el Baqt",
+        imageAlt: "Caricatura de una iglesia de piedra nubia con una cruz junto a una caravana de camellos.",
+        description:
+          "El reino de Makuria, un reino nubio medieval cristiano que surgió tras la caída del antiguo reino de Kush con capital en Dongola Vieja sobre el Nilo, firmó en el año 651 el llamado 'Baqt' con los nuevos gobernantes árabes musulmanes de Egipto, tras un intento de invasión fallido de estos últimos. Este inusual acuerdo de paz y comercio, que intercambiaba bienes nubios por grano egipcio, mantuvo la frontera prácticamente en paz y a Makuria independiente durante más de seis siglos, uno de los tratados de más larga duración jamás registrados. Ese período de estabilidad permitió que la civilización nubia cristiana floreciera, produciendo arquitectura religiosa propia y una tradición de pintura mural visible hoy en las ruinas de Dongola Vieja y el yacimiento de Faras, hasta que el reino decayó y se convirtió al islam hacia los siglos catorce y quince, cuando el tratado terminó por desmoronarse.",
+      },
+      en: {
+        title: "The Peace Treaty That Lasted More Than 600 Years",
+        subtitle: "The Christian Kingdom of Makuria and the Baqt",
+        imageAlt: "Cartoon of a Nubian stone church with a cross beside a camel caravan.",
+        description:
+          "The Kingdom of Makuria, a medieval Christian Nubian kingdom that emerged after the fall of the ancient Kingdom of Kush, with its capital at Old Dongola along the Nile, signed in the year 651 the so-called 'Baqt' treaty with the newly established Arab-Muslim rulers of Egypt, following a failed invasion attempt by the latter. This unusual peace and trade agreement, exchanging Nubian goods for Egyptian grain and other products, kept the border largely peaceful and Makuria independent for more than six centuries, one of the longest-lasting treaties ever recorded in human history. That period of stability allowed Christian Nubian civilization to flourish for generations, producing its own religious architecture and a distinctive wall-painting tradition still visible today in the ruins of Old Dongola and the Faras archaeological site, until the kingdom eventually declined and converted to Islam by the fourteenth and fifteenth centuries, as the treaty framework itself broke down.",
+      },
+    },
+  },
+  {
+    id: "henna-sudanesa-noche-de-boda",
+    order: 13,
+    placeholderEmoji: "🤎",
+    accentColor: "#8C7B6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El henna oscuro que se prepara para una boda entera",
+        subtitle: "La noche del henna sudanesa",
+        imageAlt: "Caricatura de una mano con patrones de henna oscuros y elaborados.",
+        description:
+          "La tradición sudanesa del henna se distingue por patrones particularmente oscuros, densos y elaborados en comparación con estilos más claros y delicados de otras regiones, aplicados por artistas especializadas durante la 'noche del henna', una celebración previa a la boda dedicada por completo a cubrir las manos, los pies y a veces brazos y piernas de la novia con diseños geométricos y florales intrincados. La preparación tradicional incluye ahumar la piel con incienso antes de aplicar la pasta para oscurecer el tono final que deja la tintura, y la ceremonia suele acompañarse de canciones tradicionales, baile y dulces específicos compartidos entre parientes y amigas mujeres reunidas para la ocasión. Considerada un rito de pasaje esencial separado del día de la boda en sí, la aplicación puede llevar horas completarse, y los diseños están pensados para seguir intensamente visibles el día de la ceremonia principal.",
+      },
+      en: {
+        title: "The Dark Henna Prepared to Last an Entire Wedding",
+        subtitle: "Sudan's Henna Night",
+        imageAlt: "Cartoon of a hand covered in dark, elaborate henna patterns.",
+        description:
+          "The Sudanese henna tradition stands out for especially dark, dense, and elaborate patterns compared to lighter, more delicate styles found elsewhere, applied by specialized artists during 'henna night,' a pre-wedding celebration entirely dedicated to covering the bride's hands, feet, and sometimes arms and legs with intricate geometric and floral designs. Traditional preparation includes smoking the skin with incense before applying the paste to darken the final stain the dye leaves behind, and the ceremony is usually accompanied by traditional songs, dancing, and specific sweets shared among female relatives and friends gathered for the occasion. Considered an essential rite of passage separate from the wedding day itself, the application can take hours to complete, and the designs are meant to remain vividly visible on the day of the main ceremony.",
+      },
+    },
+  },
+  {
+    id: "kisra-pan-de-sorgo",
+    order: 14,
+    placeholderEmoji: "🫓",
+    accentColor: "#C97C3D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pan fermentado tan fino que se puede ver a través",
+        subtitle: "El kisra sudanés",
+        imageAlt: "Caricatura de un pan plano fino enrollado junto a un cuenco de guiso.",
+        description:
+          "El kisra, un pan plano fermentado elaborado principalmente con harina de sorgo, aunque también existen variantes con mijo o maíz, es el pan básico de la dieta sudanesa cotidiana, sobre todo en las regiones central y norte del país. La masa se deja fermentar durante un día entero o más antes de verterse en una capa muy fina sobre una plancha metálica grande y cocinarse brevemente hasta formar una lámina casi translúcida, mucho más delgada que la mayoría de los panes planos de otras partes de la región. El kisra se come tradicionalmente arrancado con la mano y se usa para recoger guisos y salsas en lugar de comerse como acompañamiento aparte, y su preparación diaria recae tradicionalmente en las mujeres de cada hogar. La resistencia del sorgo a la sequía lo convirtió históricamente en un cultivo central de la agricultura sudanesa fuera de la llanura de inundación del Nilo, mientras la fermentación le da al kisra un sabor ligeramente ácido que lo distingue de los panes planos sin leudar.",
+      },
+      en: {
+        title: "The Fermented Bread So Thin You Can See Through It",
+        subtitle: "Sudanese Kisra",
+        imageAlt: "Cartoon of a thin rolled flatbread beside a bowl of stew.",
+        description:
+          "Kisra, a thin fermented flatbread made mainly from sorghum flour, though millet and corn variants also exist, is the staple bread of everyday Sudanese cooking, especially in the country's central and northern regions. The batter is left to ferment for a full day or more before being poured in a very thin layer onto a large flat metal griddle and briefly cooked into an almost translucent sheet, considerably thinner than most flatbreads found elsewhere in the region. Kisra is traditionally eaten torn by hand and used to scoop up stews and sauces rather than eaten as a separate side dish, and its daily preparation traditionally falls to the women of each household. Sorghum's drought resistance historically made it a central crop in Sudanese agriculture outside the Nile floodplain, while fermentation gives kisra a mildly tangy flavor that sets it apart from unleavened flatbreads.",
+      },
+    },
+  },
+  {
+    id: "beja-cultura-del-camello",
+    order: 15,
+    placeholderEmoji: "🐪",
+    accentColor: "#D9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pueblo del desierto que mide su riqueza en camellos",
+        subtitle: "Los beja y la cultura del camello",
+        imageAlt: "Caricatura de un hombre con peinado afro voluminoso montado sobre un camello en el desierto.",
+        description:
+          "El pueblo beja, un grupo étnico nómada y seminómada que habita las montañas del mar Rojo y el desierto oriental de Sudán desde hace milenios, se encuentra entre los pueblos más antiguos documentados de la región, mencionado ya en registros del antiguo Egipto. Históricamente organizaron su vida en torno al pastoreo de camellos en un terreno árido extremo, y son reconocibles por un peinado tradicional voluminoso llamado 'tiffa', un afro característico que suele fijarse con un peine especial usado también como accesorio. El camello ocupa un lugar central en la identidad beja como medida de riqueza y estatus, medio de transporte y protagonista de carreras que siguen siendo un evento comunitario importante hasta hoy. Los beja también son conocidos por portar espadas rectas tradicionales llamadas 'kaskara', y su lengua propia, el bedawi, los distingue claramente del centro de Sudán de habla árabe, sosteniendo una identidad cultural fuertemente diferenciada dentro del país.",
+      },
+      en: {
+        title: "The Desert People Who Measure Wealth in Camels",
+        subtitle: "The Beja and Their Camel Culture",
+        imageAlt: "Cartoon of a man with a voluminous afro hairstyle riding a camel in the desert.",
+        description:
+          "The Beja people, a nomadic and semi-nomadic ethnic group inhabiting Sudan's Red Sea Hills and eastern desert region for millennia, are among the oldest documented peoples of the region, mentioned as far back as ancient Egyptian records. They historically organized life around camel herding across extremely arid terrain, and are recognizable by a distinctive voluminous traditional hairstyle called 'tiffa,' an afro-style look often set with a special comb also worn as a decorative accessory. The camel holds a central place in Beja identity as a measure of wealth and status, a means of transport, and the centerpiece of traditional races that remain an important community and competitive sporting event today. The Beja are also known for carrying traditional straight swords called 'kaskara' as part of their dress, and their own language, Bedawi, clearly sets them apart from Sudan's Arabic-speaking center, sustaining a strongly distinct cultural identity within the country.",
+      },
+    },
+  },
 ];

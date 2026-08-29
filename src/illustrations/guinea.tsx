@@ -145,6 +145,97 @@ const ElArrozGrasoQueReuneATodaLaFamilia: IllustrationComponent = () => (
   </g>
 );
 
+const BauxitaGuineana: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const ore = "#C1440E";
+  return (
+    <g>
+      <rect x="90" y="230" width="230" height="20" fill={ore} opacity="0.3" />
+      <rect x="150" y="235" width="30" height="14" fill="#8C8C74" stroke={dark} strokeWidth="2" />
+      <circle cx="158" cy="249" r="6" fill="#1A1A1A" />
+      <circle cx="172" cy="249" r="6" fill="#1A1A1A" />
+      <path d="M230 200 Q195 195 175 220 Q195 210 220 208" fill={ore} stroke={shade(ore, 0.3)} strokeWidth="2.4" />
+      <circle cx="175" cy="222" r="10" fill={ore} stroke={shade(ore, 0.3)} strokeWidth="2" />
+      <rect x="230" y="190" width="70" height="40" fill="#F5D020" stroke={dark} strokeWidth="2.4" />
+      <rect x="215" y="230" width="18" height="14" fill="#3A3A3A" />
+      <rect x="270" y="230" width="18" height="14" fill="#3A3A3A" />
+    </g>
+  );
+};
+
+const Referendum1958SekouToure: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#5C4433";
+  return (
+    <g>
+      <path d="M188 232 Q170 235 165 220" fill="none" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+      <path d="M175 225 Q195 210 205 225 L200 245 Q195 250 190 245 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <circle cx="192" cy="222" r="10" fill={skin} stroke={dark} strokeWidth="1.8" />
+      <rect x="150" y="130" width="110" height="90" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
+      <circle cx="205" cy="160" r="16" fill="none" stroke="#1A1A1A" strokeWidth="4" />
+      <path d="M195 152 L216 172 M216 152 L195 172" stroke="#C1272D" strokeWidth="4" strokeLinecap="round" />
+      <line x1="165" y1="195" x2="245" y2="195" stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      <line x1="165" y1="205" x2="220" y2="205" stroke={dark} strokeWidth="1.5" opacity="0.4" />
+    </g>
+  );
+};
+
+const MoryKanteYekeYeke: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  const STRINGS = [140, 145, 150, 155];
+  return (
+    <g>
+      <path d="M188 190 Q210 195 220 190" fill="none" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+      <rect x="235" y="165" width="45" height="60" fill="#3A3A3A" stroke={dark} strokeWidth="2.2" />
+      <circle cx="257" cy="190" r="14" fill="#1A1A1A" stroke="#5C5C5C" strokeWidth="1.8" />
+      <line x1="220" y1="190" x2="235" y2="190" stroke="#1A1A1A" strokeWidth="2" />
+      <ellipse cx="150" cy="205" rx="26" ry="34" fill="#D9A227" stroke="#8B5A2B" strokeWidth="2.6" />
+      <rect x="146" y="150" width="6" height="60" fill="#5C3A21" />
+      {STRINGS.map((x) => (
+        <line key={x} x1={x} y1="160" x2={x} y2="230" stroke="#F5F0E6" strokeWidth="1.2" />
+      ))}
+      <circle cx="180" cy="150" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M167 165 Q180 158 193 165 L188 220 Q180 226 172 220 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+    </g>
+  );
+};
+
+const IslasDeLos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#1D6FA5";
+  const leaf = "#3A7A45";
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill={water} opacity="0.5" />
+      <path d="M150 220 Q160 195 210 195 Q260 195 270 220 Q220 235 210 232 Q195 235 150 220 Z" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      <line x1="190" y1="195" x2="185" y2="150" stroke="#5C3A21" strokeWidth="5" />
+      <path d="M185 150 Q165 148 155 165 Q175 160 185 158" fill={leaf} stroke={shade(leaf, 0.3)} strokeWidth="2" />
+      <path d="M185 150 Q205 145 215 160 Q195 158 185 158" fill={leaf} stroke={shade(leaf, 0.3)} strokeWidth="2" />
+      <line x1="230" y1="195" x2="225" y2="160" stroke="#5C3A21" strokeWidth="4" />
+      <path d="M225 160 Q210 158 202 172 Q218 168 225 168" fill={leaf} stroke={shade(leaf, 0.3)} strokeWidth="1.8" />
+      <path d="M225 160 Q240 156 248 170 Q233 166 225 168" fill={leaf} stroke={shade(leaf, 0.3)} strokeWidth="1.8" />
+    </g>
+  );
+};
+
+const CamaraLayeNinoNegro: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#5C4433";
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      <path d="M130 235 Q140 220 155 218 Q150 230 158 235" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2" />
+      <circle cx="230" cy="195" r="10" fill={skin} stroke={dark} strokeWidth="1.8" />
+      <path d="M218 205 Q230 200 242 205 L238 225 Q230 230 222 225 Z" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2" />
+      <line x1="265" y1="215" x2="265" y2="240" stroke="#3A2A1E" strokeWidth="3" />
+      <ellipse cx="265" cy="240" rx="10" ry="4" fill="#3A2A1E" opacity="0.6" />
+      <path d="M110 230 L205 210 L300 230 L300 245 L205 225 L110 245 Z" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      <line x1="205" y1="210" x2="205" y2="225" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
 export const guineaIllustrations: Record<string, IllustrationDefinition> = {
   "las-montanas-que-dan-nacimiento-a-los-grandes-rios": { component: LasMontanasQueDanNacimientoALosGrandesRios },
   "el-tambor-que-hizo-bailar-al-mundo-entero": { component: ElTamborQueHizoBailarAlMundoEntero },
@@ -156,4 +247,9 @@ export const guineaIllustrations: Record<string, IllustrationDefinition> = {
   "el-xilofono-sagrado-que-solo-se-toca-una-vez-al-ano": { component: ElXilofonoSagradoQueSoloSeTocaUnaVezAlAno },
   "el-grano-milenario-que-alimento-a-africa-occidental": { component: ElGranoMilenarioQueAlimentoAAfricaOccidental },
   "el-arroz-graso-que-reune-a-toda-la-familia": { component: ElArrozGrasoQueReuneATodaLaFamilia },
+  "bauxita-guineana": { component: BauxitaGuineana },
+  "referendum-1958-sekou-toure": { component: Referendum1958SekouToure },
+  "mory-kante-yeke-yeke": { component: MoryKanteYekeYeke },
+  "islas-de-los": { component: IslasDeLos },
+  "camara-laye-nino-negro": { component: CamaraLayeNinoNegro },
 };

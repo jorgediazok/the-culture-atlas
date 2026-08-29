@@ -231,4 +231,119 @@ export const ghana: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "highlife-musica-ghanesa",
+    order: 11,
+    placeholderEmoji: "🎺",
+    accentColor: "#6F4E37",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El género que nació de bandas militares coloniales",
+        subtitle: "El highlife ghanés",
+        imageAlt: "Caricatura de una banda con trompeta y guitarra tocando sobre un escenario.",
+        description:
+          "El highlife, uno de los géneros musicales más influyentes de África occidental, nació a comienzos del siglo veinte en la entonces Costa de Oro británica al fusionar melodías y ritmos akan con instrumentos occidentales de banda militar y guitarra introducidos por músicos coloniales y marineros, dando origen tanto a bandas de metales como a conjuntos de guitarra. El nombre 'highlife' surgió, según la tradición popular, porque el género se tocaba primero en clubes exclusivos frecuentados por las élites urbanas, mientras la gente común escuchaba la música desde afuera sin poder pagar la entrada. El trompetista E. T. Mensah, apodado el 'Rey del Highlife', lo popularizó por África occidental en los años cincuenta, y su influencia llegó directamente al nigeriano Fela Kuti, quien tocó junto a músicos ghaneses de highlife antes de fusionarlo con jazz y funk para crear el afrobeat, convirtiendo al highlife en antepasado directo de buena parte de la música popular africana contemporánea.",
+      },
+      en: {
+        title: "The Genre Born From Colonial Military Bands",
+        subtitle: "Ghanaian Highlife",
+        imageAlt: "Cartoon of a band with trumpet and guitar performing on a stage.",
+        description:
+          "Highlife, one of the most influential musical genres in West Africa, emerged in the early twentieth century in what was then the British Gold Coast, fusing traditional Akan melodies and rhythms with Western brass-band and guitar instruments introduced by colonial military musicians and sailors, giving rise to both brass bands and guitar bands. The name 'highlife,' according to popular tradition, arose because the genre was first played at exclusive clubs frequented by the urban elite, while ordinary people listened to the music from outside, unable to afford entry. Trumpeter E. T. Mensah, nicknamed the 'King of Highlife,' popularized the genre across West Africa during the 1950s, and his influence reached directly into Nigerian Fela Kuti, who performed alongside Ghanaian highlife musicians before fusing it with jazz and funk to create Afrobeat, making highlife a direct ancestor of much of contemporary African popular music.",
+      },
+    },
+  },
+  {
+    id: "pesas-de-oro-ashanti",
+    order: 12,
+    placeholderEmoji: "⚖️",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las pequeñas figuras de bronce que pesaban el oro",
+        subtitle: "Las pesas de oro ashanti",
+        imageAlt: "Caricatura de pequeñas figuras de bronce junto a una balanza de oro.",
+        description:
+          "Las pesas de oro akan, conocidas como 'abrammuo', son pequeñas figuras de bronce fundidas mediante la técnica de cera perdida que durante siglos sirvieron como sistema estandarizado para medir el polvo de oro, la principal moneda de la región antes de la imposición de monedas coloniales, calibradas con precisión a unidades de peso reconocidas por comerciantes de toda la zona. Sus formas iban desde figuras geométricas simples hasta escenas detalladas con animales, personas u objetos cotidianos, y muchas de ellas encapsulaban un proverbio o una enseñanza moral, de forma similar a los símbolos adinkra pero fundidas en metal en lugar de estampadas en tela. El oficio, transmitido dentro de gremios de orfebres y comerciantes, perdió su función práctica cuando el dominio colonial impuso monedas oficiales, pero las pesas sobreviven hoy como piezas codiciadas en museos de todo el mundo y siguen inspirando a artistas contemporáneos de toda África occidental.",
+      },
+      en: {
+        title: "The Tiny Brass Figures That Weighed Out Gold",
+        subtitle: "Ashanti Gold Weights",
+        imageAlt: "Cartoon of small brass figurines beside a gold-weighing scale.",
+        description:
+          "Akan gold weights, known as 'abrammuo,' are small brass figurines cast using the lost-wax technique that for centuries served as a standardized system for measuring gold dust, the region's primary currency before colonial coinage was imposed, precisely calibrated to weight units recognized by traders across the area. Their shapes ranged from simple geometric forms to detailed scenes featuring animals, people, or everyday objects, and many encapsulated a proverb or moral lesson, similar in spirit to adinkra symbols but cast in metal rather than stamped on cloth. The craft, passed down within guilds of goldsmiths and traders, lost its practical function once colonial rule imposed official currency, but the weights survive today as prized pieces in museums worldwide and continue to inspire contemporary artists across West Africa.",
+      },
+    },
+  },
+  {
+    id: "festival-aboakyer-winneba",
+    order: 13,
+    placeholderEmoji: "🦌",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El festival donde cazan un antílope vivo a mano limpia",
+        subtitle: "El festival Aboakyer de Winneba",
+        imageAlt: "Caricatura de dos grupos de cazadores persiguiendo a un antílope en la sabana.",
+        description:
+          "El festival Aboakyer, celebrado cada primer sábado de mayo por el pueblo effutu en la ciudad costera de Winneba, enfrenta a dos compañías tradicionales rivales, llamadas asafo, en una competencia por ser los primeros en capturar viva y a mano limpia, sin armas, un antílope silvestre en la sabana cercana, para llevarlo luego en procesión hasta el palacio del jefe como ofrenda a la deidad local Penkye Otu. La tradición usaba originalmente un leopardo como presa, hasta que generaciones atrás la práctica resultó demasiado peligrosa y se reemplazó por antílopes, manteniendo intacto el espíritu de la cacería ritual. El grupo que logra capturar primero al animal gana prestigio comunitario para todo el año siguiente, y la jornada completa combina la persecución física con tambores, un desfile colorido de jefes tradicionales y una energía festiva que convierte al Aboakyer en uno de los eventos públicos más intensos del calendario ghanés.",
+      },
+      en: {
+        title: "The Festival That Hunts a Live Deer Bare-Handed",
+        subtitle: "Winneba's Aboakyer Festival",
+        imageAlt: "Cartoon of two groups of hunters chasing an antelope across the savanna.",
+        description:
+          "The Aboakyer festival, held every first Saturday of May by the Effutu people in the coastal city of Winneba, pits two rival traditional companies, called asafo groups, against each other in a race to be first to catch a wild bush deer alive and bare-handed, without weapons, in the nearby savanna, then carry it in procession to the chief's palace as an offering to the local deity Penkye Otu. The tradition originally used a leopard as the prey, until generations ago the practice proved too dangerous and was replaced with deer, keeping the spirit of the ritual hunt intact. The group that catches the animal first earns community prestige for the entire following year, and the whole day combines the physical chase with drumming, a colorful procession of traditional chiefs, and a festive energy that makes Aboakyer one of the most intense public events on Ghana's calendar.",
+      },
+    },
+  },
+  {
+    id: "black-stars-mundial-2010",
+    order: 14,
+    placeholderEmoji: "⚽",
+    accentColor: "#1A1A1A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El equipo que estuvo a un penal de hacer historia",
+        subtitle: "Los Black Stars en el Mundial 2010",
+        imageAlt: "Caricatura de un futbolista pateando una pelota hacia un arco con una estrella negra.",
+        description:
+          "En el Mundial de Sudáfrica 2010, los Black Stars llegaron a cuartos de final y protagonizaron uno de los momentos más recordados y dolorosos del fútbol africano: en el último minuto de la prórroga contra Uruguay, empatados, el delantero uruguayo Luis Suárez detuvo con la mano sobre la propia línea de gol un remate ghanés que iba directo adentro, una infracción deliberada que le costó la expulsión pero evitó el gol. Ghana recibió el penal correspondiente, pero Asamoah Gyan lo estrelló contra el travesaño, y Uruguay ganó la posterior definición por penales, dejando a Ghana a un solo tiro de convertirse en la primera selección africana en alcanzar una semifinal mundialista, una hazaña que durante más de una década ningún equipo del continente logró repetir tan de cerca. El episodio, recordado con una mezcla de orgullo por el equipo y frustración por la jugada de Suárez, quedó como uno de los grandes 'qué hubiera pasado si' de los Mundiales.",
+      },
+      en: {
+        title: "The Team One Penalty Away From Making History",
+        subtitle: "The Black Stars at the 2010 World Cup",
+        imageAlt: "Cartoon of a soccer player kicking a ball toward a goal with a black star.",
+        description:
+          "At the 2010 World Cup in South Africa, Ghana's national team, known as the Black Stars, reached the quarterfinals and were part of one of the most memorable and painful moments in African football history: in the final minute of extra time against Uruguay, with the score tied, Uruguayan forward Luis Suárez handled the ball on his own goal line to stop a Ghanaian shot heading straight in, a deliberate foul that got him sent off but kept the goal from counting. Ghana was awarded the resulting penalty, but star striker Asamoah Gyan struck it against the crossbar, and Uruguay went on to win the ensuing penalty shootout, leaving Ghana one kick away from becoming the first African team ever to reach a World Cup semifinal, a feat no team from the continent came as close to repeating for more than a decade afterward. The episode, remembered in Ghana with a mix of pride in the team's performance and frustration over Suárez's play, remains one of the great 'what ifs' in World Cup history.",
+      },
+    },
+  },
+  {
+    id: "mezquita-de-larabanga",
+    order: 15,
+    placeholderEmoji: "🕌",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La mezquita de barro más antigua de África occidental",
+        subtitle: "La mezquita de Larabanga",
+        imageAlt: "Caricatura de una pequeña mezquita de barro blanca con torres cónicas puntiagudas.",
+        description:
+          "La mezquita de Larabanga, en un pequeño pueblo del norte de Ghana, es considerada una de las más antiguas de África occidental, construida en el estilo de barro sudanés-saheliano con torres piramidales y estacas de madera que sobresalen de los muros como andamiaje permanente, la misma técnica de mezquitas de Malí y Burkina Faso. La tradición oral sitúa su construcción en 1421, aunque los historiadores estiman una fecha posterior, entre los siglos diecisiete y dieciocho, y la comunidad la conoce con orgullo como la 'Meca de África occidental'. Según una leyenda local, el sitio exacto fue determinado por una piedra sagrada que reaparecía en el mismo lugar cada vez que los habitantes intentaban moverla, y el templo conserva un antiguo Corán escrito a mano que la comunidad cree tiene varios siglos. Cerca del Parque Nacional Mole, la mezquita recibe mantenimiento comunitario anual con barro fresco, la misma tradición colectiva que sostiene a las mezquitas de barro de todo el Sahel.",
+      },
+      en: {
+        title: "West Africa's Oldest Mud Mosque",
+        subtitle: "The Larabanga Mosque",
+        imageAlt: "Cartoon of a small white mud mosque with pointed conical towers.",
+        description:
+          "The Larabanga Mosque, in a small village in northern Ghana, is considered one of the oldest in West Africa, built in the Sudanese-Sahelian mud style with pyramidal towers and wooden support stakes jutting out from the walls as permanent scaffolding, the same technique used in historic mosques in Mali and Burkina Faso. Local oral tradition dates its construction to 1421, though most historians estimate a later date, between the 17th and 18th centuries, and the community proudly calls it the 'Mecca of West Africa.' According to a local legend, the mosque's exact site was determined by a sacred stone that kept reappearing in the same spot whenever residents tried to move it, and the mosque still holds an old handwritten Quran the community believes to be centuries old. Near Mole National Park, the mosque receives annual community maintenance with fresh mud, the same collective tradition that sustains mud mosques across the Sahel.",
+      },
+    },
+  },
 ];

@@ -129,6 +129,83 @@ const ElCafeQueSeSirvePerfumadoConJengibre: IllustrationComponent = () => (
   </g>
 );
 
+const SuakinPuertoDeCoral: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  return (
+    <g>
+      <rect x="90" y="220" width="230" height="30" fill="#1B7A9C" opacity="0.4" />
+      <rect x="120" y="150" width="50" height="80" fill={accentColor} stroke={dark} strokeWidth="2.4" opacity="0.9" />
+      <rect x="180" y="130" width="55" height="100" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="2.4" />
+      <rect x="245" y="165" width="45" height="65" fill={accentColor} stroke={dark} strokeWidth="2.4" opacity="0.8" />
+      <rect x="130" y="165" width="30" height="14" fill="#5C3A21" opacity="0.7" />
+      <rect x="190" y="150" width="35" height="14" fill="#5C3A21" opacity="0.7" />
+      <rect x="255" y="180" width="24" height="12" fill="#5C3A21" opacity="0.7" />
+      <path d="M120 150 L100 145 M170 150 L190 145" stroke={dark} strokeWidth="2" opacity="0.5" />
+    </g>
+  );
+};
+
+const ReinoMakuriaTratadoBaqt: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const sand = "#C9A063";
+  return (
+    <g>
+      <rect x="150" y="180" width="90" height="65" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      <path d="M150 180 L195 140 L240 180 Z" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.4" />
+      <line x1="195" y1="140" x2="195" y2="115" stroke={dark} strokeWidth="4" />
+      <path d="M185 118 L205 118 M195 108 L195 128" stroke={dark} strokeWidth="4" />
+      <rect x="185" y="215" width="20" height="30" fill="#3A2A1E" opacity="0.6" />
+      <path d="M255 230 Q253 205 265 200 Q272 192 280 200 Q290 192 296 202 Q305 205 300 225 Z" fill={sand} stroke={shade(sand, 0.3)} strokeWidth="2.2" />
+      <line x1="262" y1="225" x2="260" y2="245" stroke={sand} strokeWidth="6" strokeLinecap="round" />
+      <line x1="285" y1="225" x2="288" y2="245" stroke={sand} strokeWidth="6" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const HennaSudanesaNocheDeBoda: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68A5A";
+  return (
+    <g>
+      <path d="M175 240 L170 160 Q170 145 180 145 Q190 145 190 160 L190 200 L200 160 Q200 145 210 145 Q220 145 220 160 L220 205 L228 165 Q228 152 238 152 Q246 152 246 165 L246 210 L252 180 Q252 170 260 170 Q267 170 267 180 L262 240 Z" fill={skin} stroke={dark} strokeWidth="2.4" />
+      <path d="M180 200 Q185 190 190 200 M200 195 Q207 185 213 195 M228 195 Q234 187 240 195" stroke={accentColor} strokeWidth="3" fill="none" opacity="0.85" />
+      <circle cx="200" cy="220" r="6" fill={accentColor} opacity="0.8" />
+      <path d="M190 225 Q200 215 210 225" stroke={accentColor} strokeWidth="2.4" fill="none" opacity="0.8" />
+    </g>
+  );
+};
+
+const KisraPanDeSorgo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <ellipse cx="170" cy="215" rx="60" ry="20" fill={tint(accentColor, 0.4)} stroke={dark} strokeWidth="2.4" opacity="0.9" />
+      <path d="M130 208 Q170 198 210 208" fill="none" stroke={dark} strokeWidth="1.4" opacity="0.4" />
+      <ellipse cx="270" cy="210" rx="45" ry="18" fill="#8B5A2B" stroke="#5C3A21" strokeWidth="2.4" />
+      <ellipse cx="270" cy="203" rx="34" ry="10" fill="#3A7A45" opacity="0.85" />
+      <circle cx="255" cy="200" r="5" fill="#C1272D" />
+      <circle cx="280" cy="198" r="5" fill="#C1272D" />
+    </g>
+  );
+};
+
+const BejaCulturaDelCamello: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const camelColor = "#C9A063";
+  return (
+    <g>
+      <line x1="145" y1="230" x2="140" y2="250" stroke={camelColor} strokeWidth="7" strokeLinecap="round" />
+      <line x1="210" y1="230" x2="215" y2="250" stroke={camelColor} strokeWidth="7" strokeLinecap="round" />
+      <path d="M130 235 Q125 195 150 185 Q165 175 178 185 Q195 175 205 190 Q220 185 225 205 Q235 210 225 235 Z" fill={camelColor} stroke={dark} strokeWidth="2.6" />
+      <path d="M188 165 Q195 175 202 172" fill="none" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+      <circle cx="185" cy="165" r="12" fill={camelColor} stroke={dark} strokeWidth="2.2" />
+      <circle cx="200" cy="150" r="15" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M186 138 Q200 118 214 138 Q214 130 200 126 Q186 130 186 138 Z" fill="#3A2A1E" />
+    </g>
+  );
+};
+
 export const sudanIllustrations: Record<string, IllustrationDefinition> = {
   "el-pais-con-mas-piramides-que-egipto": { component: ElPaisConMasPiramidesQueEgipto },
   "el-lugar-donde-dos-rios-azules-y-blancos-se-encuentran": { component: ElLugarDondeDosRiosSeEncuentranSinMezclarse },
@@ -140,4 +217,9 @@ export const sudanIllustrations: Record<string, IllustrationDefinition> = {
   "la-tela-que-una-mujer-envuelve-alrededor-de-todo-el-cuerpo": { component: LaTelaQueEnvuelveElCuerpoEnteroDeUnaMujer },
   "el-plato-de-habas-que-desayuna-todo-un-pais": { component: ElPlatoDeHabasQueDesayunaTodoUnPais },
   "el-cafe-que-se-sirve-perfumado-con-jengibre": { component: ElCafeQueSeSirvePerfumadoConJengibre },
+  "suakin-puerto-de-coral": { component: SuakinPuertoDeCoral },
+  "reino-makuria-tratado-baqt": { component: ReinoMakuriaTratadoBaqt },
+  "henna-sudanesa-noche-de-boda": { component: HennaSudanesaNocheDeBoda },
+  "kisra-pan-de-sorgo": { component: KisraPanDeSorgo },
+  "beja-cultura-del-camello": { component: BejaCulturaDelCamello },
 };

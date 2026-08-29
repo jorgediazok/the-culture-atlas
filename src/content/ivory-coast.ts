@@ -231,4 +231,119 @@ export const ivoryCoast: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "zouglou-magic-system",
+    order: 11,
+    placeholderEmoji: "🎤",
+    accentColor: "#FF8200",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El género que nació en los patios de una residencia",
+        subtitle: "El zouglou",
+        imageAlt: "Caricatura de un grupo de jóvenes bailando y cantando con las manos en alto.",
+        description:
+          "El zouglou nació a fines de los años ochenta y comienzos de los noventa entre estudiantes de la Cité Universitaire de Abiyán, en plena crisis económica y desempleo juvenil, como un canto improvisado y satírico surgido de protestas estudiantiles y reuniones en los patios de las residencias, con estribillos coreados en llamada y respuesta que comentaban con humor las dificultades cotidianas, la corrupción y la frustración de una generación sin oportunidades claras. El género combina percusión con letras habladas más cercanas al spoken word que al canto melódico tradicional, y encontró en el grupo Magic System a su embajador internacional más exitoso, cuyo tema de 1999 'Premier Gaou' fue éxito bailable en toda Europa y consolidó al zouglou como exportación cultural marfileña reconocible fuera del continente. Lejos de perder vigencia, el género sigue siendo hoy vehículo central de la identidad juvenil marfileña y una influencia constante sobre otros géneros populares de África occidental.",
+      },
+      en: {
+        title: "The Genre Born in a Student Housing Courtyard",
+        subtitle: "Zouglou",
+        imageAlt: "Cartoon of a group of young people dancing and singing with hands raised.",
+        description:
+          "Zouglou emerged in the late 1980s and early 1990s among students at Abidjan's Cité Universitaire student housing complex, amid economic crisis and youth unemployment, as a form of improvised, satirical chanting born out of student protests and informal courtyard gatherings, with call-and-response refrains that used sharp humor to comment on everyday hardship, corruption, and a generation's frustration with a lack of clear opportunities. The genre combines percussion with spoken lyrics closer to spoken word than traditional melodic singing, and found in the group Magic System its most successful international ambassador, whose 1999 hit 'Premier Gaou' became a dance-floor success across Europe and cemented zouglou as a recognizable Ivorian cultural export beyond the continent. Far from fading, the genre remains a central vehicle for Ivorian youth identity today and a constant influence on other popular genres across West Africa.",
+      },
+    },
+  },
+  {
+    id: "tela-de-korhogo",
+    order: 12,
+    placeholderEmoji: "🖌️",
+    accentColor: "#8D6E63",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La tela pintada con barro que cuenta mitología senufo",
+        subtitle: "La tela de Korhogo",
+        imageAlt: "Caricatura de una tela beige con figuras de animales pintadas en negro.",
+        description:
+          "La tela de Korhogo, tejida a mano en algodón en la región homónima del norte de Costa de Marfil, se decora con figuras estilizadas de animales, como pintadas, camaleones y cocodrilos, y con escenas de caza o mitología senufo, aplicadas con una técnica de teñido en barro fermentado similar al bogolán maliense, que produce el característico contraste entre el fondo beige de la tela y los diseños en negro intenso. Muchos motivos están directamente conectados con el simbolismo de la sociedad de iniciación senufo conocida como Poro, y su elaboración recayó tradicionalmente en una casta específica de artesanos especializados en esta pintura textil. Originalmente usadas como vestimenta ceremonial o colgantes decorativos en rituales comunitarios, las telas de Korhogo se comercializan hoy ampliamente en mercados turísticos y de exportación, convirtiéndose en uno de los productos artesanales marfileños más reconocibles internacionalmente.",
+      },
+      en: {
+        title: "The Mud-Painted Cloth That Tells Senufo Mythology",
+        subtitle: "Korhogo Cloth",
+        imageAlt: "Cartoon of beige cloth with animal figures painted in black.",
+        description:
+          "Korhogo cloth, hand-woven from cotton in the region of the same name in northern Ivory Coast, is decorated with stylized figures of animals, like guinea fowl, chameleons, and crocodiles, and with hunting or mythological scenes, applied through a fermented mud-dyeing technique similar in principle to Malian bogolan, producing the characteristic contrast between the cloth's beige background and its deep black designs. Many of the motifs are directly tied to the symbolism and cosmology of the Senufo initiation society known as Poro, and the craft was traditionally carried out by a specific caste of artisans specialized in this textile-painting technique. Originally used as ceremonial dress or decorative hangings within community rituals, Korhogo cloth is now widely sold in tourist and export markets, becoming one of Ivory Coast's most internationally recognizable craft products.",
+      },
+    },
+  },
+  {
+    id: "parque-nacional-tai",
+    order: 13,
+    placeholderEmoji: "🦧",
+    accentColor: "#2E7D32",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El último gran bosque primario de África occidental",
+        subtitle: "El Parque Nacional de Taï",
+        imageAlt: "Caricatura de un chimpancé golpeando una nuez con una piedra en la selva.",
+        description:
+          "El Parque Nacional de Taï, en el suroeste de Costa de Marfil, protege una de las últimas grandes extensiones de selva tropical primaria que sobreviven en toda África occidental, una región donde la mayor parte de la cobertura forestal original desapareció por la expansión agrícola y la tala. Declarado Patrimonio de la Humanidad por la Unesco en 1982, el parque alberga una población de chimpancés estudiada durante décadas por el Proyecto Chimpancés de Taï, uno de los estudios de campo más prolongados sobre primates salvajes del mundo, que documentó un uso sofisticado de piedras como herramientas para romper nueces, una técnica transmitida por observación entre generaciones. El bosque también refugia al esquivo hipopótamo pigmeo, mucho más pequeño y raro que el hipopótamo común, y a los monos diana, aunque el parque se volvió cada vez más una isla ecológica rodeada de plantaciones de cacao, lo que hizo de su conservación una prioridad crítica y muy presionada.",
+      },
+      en: {
+        title: "West Africa's Last Great Primary Rainforest",
+        subtitle: "Taï National Park",
+        imageAlt: "Cartoon of a chimpanzee cracking a nut with a stone in the rainforest.",
+        description:
+          "Taï National Park, in southwestern Ivory Coast, protects one of the last large stretches of primary tropical rainforest surviving anywhere in West Africa, a region where most original forest cover has disappeared to agricultural expansion and logging. Declared a UNESCO World Heritage Site in 1982, the park is home to a chimpanzee population studied for decades by the Taï Chimpanzee Project, one of the longest-running field studies of wild primates in the world, which documented sophisticated stone-tool use for cracking nuts, a technique passed down across generations through observation. The forest also shelters the elusive pygmy hippopotamus, a nocturnal species far smaller and rarer than the common hippo, along with Diana monkeys, though the park has increasingly become an isolated ecological island surrounded by cocoa plantations, making its conservation both a critical and heavily pressured priority.",
+      },
+    },
+  },
+  {
+    id: "copa-africana-2015",
+    order: 14,
+    placeholderEmoji: "🏆",
+    accentColor: "#FF8200",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La final que se definió tras 21 penales seguidos",
+        subtitle: "La Copa Africana de 2015",
+        imageAlt: "Caricatura de un jugador de fútbol levantando un trofeo dorado rodeado de confeti.",
+        description:
+          "La final de la Copa Africana de Naciones de 2015, disputada en Guinea Ecuatorial entre Costa de Marfil y Ghana, terminó igualada sin goles tras el tiempo reglamentario y la prórroga, forzando una definición por penales que se extendió durante una maratón de 22 tiros consecutivos, nueve a ocho, después de que ambos equipos convirtieran una racha extraordinaria de penales sin fallar. El arquero marfileño Boubacar Barry, que jugaba lesionado, no solo convirtió el penal decisivo de su propio equipo sino que también atajó el remate final de Ghana que le dio el título a Costa de Marfil, la segunda copa continental del país y la primera desde 1992, poniendo fin a una larga sequía para una generación de 'Elefantes' que, pese a contar con estrellas como Didier Drogba y los hermanos Touré, había fracasado repetidamente en torneos anteriores. La definición quedó como una de las tandas de penales más dramáticas vistas en el fútbol internacional.",
+      },
+      en: {
+        title: "The Final Decided After 21 Straight Penalties",
+        subtitle: "The 2015 Africa Cup of Nations",
+        imageAlt: "Cartoon of a soccer player lifting a golden trophy surrounded by confetti.",
+        description:
+          "The final of the 2015 Africa Cup of Nations, played in Equatorial Guinea between Ivory Coast and Ghana, ended scoreless after regulation time and extra time, forcing a penalty shootout that stretched into a marathon of 22 consecutive kicks, ending nine to eight after both teams converted an extraordinary run of penalties without a miss. Ivorian goalkeeper Boubacar Barry, playing through injury, not only converted his own team's decisive penalty but also saved Ghana's final attempt to secure the title for Ivory Coast, the country's second continental title and its first since 1992, ending a long trophy drought for a generation of 'Elephants' that, despite featuring stars like Didier Drogba and the Touré brothers, had repeatedly fallen short in previous tournaments. The shootout remains remembered as one of the most dramatic ever seen in international football.",
+      },
+    },
+  },
+  {
+    id: "kedjenou-pollo-en-canari",
+    order: 15,
+    placeholderEmoji: "🍲",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pollo que se cocina sellado en su propio vapor",
+        subtitle: "El kedjenou",
+        imageAlt: "Caricatura de una vasija de barro cerrada sobre fuego con vapor escapando.",
+        description:
+          "El kedjenou, uno de los platos más representativos de la cocina marfileña, se prepara cocinando lentamente pollo o gallina de Guinea junto con tomate, cebolla, pimientos y especias dentro de una vasija de barro sellada llamada 'canari', sin agregar nada de agua, de modo que los propios jugos y el vapor generado dentro del recipiente cerrado cocinan el guiso lentamente sobre fuego bajo. El nombre del plato deriva del gesto característico de sacudir la vasija de tanto en tanto para redistribuir los ingredientes en su interior, en lugar de revolver con una cuchara, algo que rompería el sellado hermético necesario para la cocción. Ese método produce un sabor mucho más concentrado que el de un guiso convencional, y el kedjenou se sirve tradicionalmente acompañado de attiéké, un cuscús de mandioca fermentada, o de foutou, consolidándose como uno de los platos nacionales por excelencia de Costa de Marfil.",
+      },
+      en: {
+        title: "The Chicken Cooked Sealed in Its Own Steam",
+        subtitle: "Kedjenou",
+        imageAlt: "Cartoon of a sealed clay pot over a fire with steam escaping.",
+        description:
+          "Kedjenou, one of the most representative dishes of Ivorian cuisine, is made by slow-cooking chicken or guinea fowl together with tomato, onion, peppers, and spices inside a sealed earthenware pot called a 'canari,' without adding any water, so the juices and steam generated inside the closed vessel slowly cook the stew over low heat. The dish's name comes from the characteristic gesture of shaking the pot from time to time to redistribute the ingredients inside, rather than stirring with a spoon, which would break the airtight seal the cooking method depends on. That technique produces a far more concentrated flavor than a conventional stew, and kedjenou is traditionally served alongside attiéké, a fermented cassava couscous, or foutou, cementing its place as one of Ivory Coast's signature national dishes.",
+      },
+    },
+  },
 ];

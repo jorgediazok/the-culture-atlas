@@ -231,4 +231,119 @@ export const benin: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "la-cantante-que-gano-cinco-grammys",
+    order: 11,
+    placeholderEmoji: "🎤",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La voz beninesa que ganó cinco premios Grammy",
+        subtitle: "Angélique Kidjo",
+        imageAlt: "Caricatura de una cantante con turbante colorido sosteniendo un micrófono.",
+        description:
+          "Angélique Kidjo, nacida en 1960 en la ciudad de Uidá y criada en Cotonú, se convirtió en una de las voces más reconocidas de la música africana contemporánea después de huir en los años ochenta del régimen marxista beninés, que censuraba canciones consideradas críticas del gobierno, para instalarse primero en París y luego en Estados Unidos. Su música combina ritmos del oeste africano con jazz, funk, música brasileña y electrónica, una fusión que le valió cinco premios Grammy al mejor álbum de música del mundo y colaboraciones con artistas como Alicia Keys, Philip Glass y Vampire Weekend, además de un lugar recurrente en la lista de las cien personas más influyentes del año según la revista Time. Kidjo también es reconocida por su trabajo como embajadora de buena voluntad de Unicef, enfocada en el acceso de niñas africanas a la educación, y en 2021 fundó una beca para artistas jóvenes del continente que lleva su propio nombre.",
+      },
+      en: {
+        title: "The Beninese Voice That Won Five Grammy Awards",
+        subtitle: "Angélique Kidjo",
+        imageAlt: "Cartoon of a singer with a colorful headwrap holding a microphone.",
+        description:
+          "Angélique Kidjo, born in 1960 in the city of Ouidah and raised in Cotonou, became one of the most recognized voices in contemporary African music after fleeing Benin's Marxist government in the 1980s, which censored songs it deemed critical of the state, settling first in Paris and later in the United States. Her music blends West African rhythms with jazz, funk, Brazilian music, and electronic influences, a fusion that has earned her five Grammy Awards for Best World Music Album and collaborations with artists like Alicia Keys, Philip Glass, and Vampire Weekend, along with a recurring spot on Time magazine's list of the year's hundred most influential people. Kidjo is also known for her work as a UNICEF goodwill ambassador, focused on African girls' access to education, and in 2021 she founded a scholarship fund for young artists across the continent that bears her own name.",
+      },
+    },
+  },
+  {
+    id: "la-fiesta-de-mascaras-que-honra-a-las-madres",
+    order: 12,
+    placeholderEmoji: "🎭",
+    accentColor: "#C9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La fiesta de máscaras que honra a las madres",
+        subtitle: "El gèlèdé yoruba-nagó",
+        imageAlt: "Caricatura de una máscara de madera pintada con tocado elaborado durante un desfile.",
+        description:
+          "El gèlèdé, una tradición ceremonial de las comunidades yoruba-nagó del suroeste de Benín, presente también en zonas vecinas de Nigeria y Togo, consiste en desfiles de bailarines masculinos que portan máscaras de madera tallada y pintada, a menudo coronadas con escenas que representan animales, oficios o vida cotidiana, para honrar el poder espiritual atribuido a las mujeres mayores de la comunidad, conocido como 'ashe', y así asegurar armonía social y protección contra la desgracia. Las presentaciones, que combinan tambores, canto y coreografías precisas, suelen organizarse en momentos de tensión comunitaria o al inicio de la temporada agrícola, bajo la premisa de que reconocer públicamente el poder femenino evita que se use de forma destructiva. En 2001, la Unesco incluyó al gèlèdé entre las primeras expresiones proclamadas Obra Maestra del Patrimonio Oral e Inmaterial de la Humanidad, un reconocimiento pionero para el patrimonio cultural africano.",
+      },
+      en: {
+        title: "The Masquerade Festival That Honors Mothers",
+        subtitle: "Yoruba-Nago Gèlèdé",
+        imageAlt: "Cartoon of a painted wooden mask with an elaborate headdress in a parade.",
+        description:
+          "Gèlèdé, a ceremonial tradition of Yoruba-Nago communities in southwestern Benin, also found in neighboring parts of Nigeria and Togo, involves processions of male dancers wearing carved and painted wooden masks, often topped with elaborate scenes depicting animals, trades, or everyday life, to honor the spiritual power attributed to the community's elder women, known as 'ashe,' and thereby secure social harmony, fertility, and protection from misfortune. The performances, which combine drumming, singing, and precise choreography, are typically staged during moments of community tension or at the start of the agricultural season, based on the premise that publicly honoring feminine power keeps it from being turned destructive. In 2001, UNESCO named gèlèdé among the very first works proclaimed a Masterpiece of the Oral and Intangible Heritage of Humanity, a pioneering recognition for African cultural heritage.",
+      },
+    },
+  },
+  {
+    id: "el-parque-donde-sobreviven-los-ultimos-leones",
+    order: 13,
+    placeholderEmoji: "🦁",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El parque donde sobreviven los últimos leones",
+        subtitle: "El Parque Nacional de la Pendjari",
+        imageAlt: "Caricatura de un león junto a elefantes bajo árboles de sabana.",
+        description:
+          "El Parque Nacional de la Pendjari, en el extremo norte de Benín, forma parte junto con las reservas vecinas W y Arly de un complejo transfronterizo compartido con Burkina Faso y Níger que alberga las poblaciones de leones, elefantes y búfalos más grandes que sobreviven en toda África occidental, una región donde la fauna de sabana fue diezmada en la mayoría de los países vecinos por la caza furtiva y la expansión agrícola. El león de África occidental, una subespecie genéticamente distinta del león del este y sur del continente, está en peligro crítico de extinción con apenas unos pocos cientos de ejemplares en libertad, por lo que la Pendjari es uno de sus últimos refugios viables. Declarada Reserva de la Biosfera por la Unesco, ofrece safaris a lo largo del río homónimo, donde también pueden verse hipopótamos, cocodrilos y más de trescientas especies de aves, sostenidos por guardaparques que combinan patrullaje antifurtivo con participación local.",
+      },
+      en: {
+        title: "The Park Where West Africa's Last Lions Survive",
+        subtitle: "Pendjari National Park",
+        imageAlt: "Cartoon of a lion beside elephants under savanna trees.",
+        description:
+          "Pendjari National Park, in the far north of Benin, forms part of a cross-border complex together with the neighboring W and Arly reserves, shared with Burkina Faso and Niger, that holds the largest surviving populations of lions, elephants, and buffalo left anywhere in West Africa, a region where savanna wildlife has been decimated in most neighboring countries by poaching and agricultural expansion. The West African lion, a genetically distinct subspecies from the lions of eastern and southern Africa, is critically endangered with only a few hundred individuals left in the wild, making Pendjari one of its last viable long-term refuges. Declared a UNESCO Biosphere Reserve, Pendjari offers safaris along the river of the same name, where visitors can also spot hippos, crocodiles, and more than three hundred bird species, sustained by a ranger program combining anti-poaching patrols with local community participation.",
+      },
+    },
+  },
+  {
+    id: "el-queso-que-nacio-entre-pastores-fulani",
+    order: 14,
+    placeholderEmoji: "🧀",
+    accentColor: "#F5F0E6",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El queso que nació entre los pastores fulani",
+        subtitle: "El wagasi",
+        imageAlt: "Caricatura de trozos de queso blanco cuadrados junto a hojas verdes sobre una tabla.",
+        description:
+          "El wagasi, un queso fresco y firme elaborado con leche de vaca por pastores fulani del norte de Benín, es una rareza culinaria dentro de África occidental, una región donde la mayoría de las cocinas tradicionales prescinden casi por completo de productos lácteos sólidos. Su elaboración usa un cuajo enteramente vegetal extraído de las hojas de una planta local en lugar del cuajo animal habitual en la quesería europea, lo que lo vuelve automáticamente apto para dietas halal y vegetarianas sin ninguna adaptación adicional. Tradicionalmente vinculado a las rutas de trashumancia ganadera del norte del país, el wagasi se volvió también un alimento callejero popular en ciudades del sur como Cotonú, donde suele freírse en cubos hasta dorarse y servirse caliente con una salsa picante de pimienta, convirtiéndose en un puente culinario entre la cultura pastoril fulani y la vida urbana beninesa.",
+      },
+      en: {
+        title: "The Cheese Born Among Fulani Herders",
+        subtitle: "Wagasi",
+        imageAlt: "Cartoon of square white cheese cubes beside green leaves on a board.",
+        description:
+          "Wagasi, a fresh, firm cheese made from cow's milk by Fulani herders in northern Benin, is a culinary rarity in West Africa, a region where most traditional cuisines make almost no use of solid dairy products. Its production uses an entirely plant-based coagulant extracted from the leaves of a local plant instead of the animal rennet typical of European cheesemaking, which makes it automatically halal- and vegetarian-friendly without any further adaptation. Traditionally tied to the north's cattle-herding transhumance routes, wagasi has also become a popular street food in southern cities like Cotonou, where it's often fried in cubes until golden and served hot with a spicy pepper sauce, turning it into a culinary bridge between Fulani pastoral culture and Beninese urban life.",
+      },
+    },
+  },
+  {
+    id: "la-conferencia-que-invento-una-transicion-pacifica",
+    order: 15,
+    placeholderEmoji: "🕊️",
+    accentColor: "#1F6F8B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La conferencia que inventó una transición pacífica",
+        subtitle: "La Conferencia Nacional de 1990",
+        imageAlt: "Caricatura de personas sentadas alrededor de una mesa redonda con una bandera.",
+        description:
+          "Benín, gobernado desde 1974 bajo un régimen marxista-leninista de partido único liderado por Mathieu Kérékou, se convirtió en 1990 en escenario de un experimento político inédito en África: ante una crisis económica insostenible, Kérékou convocó una Conferencia Nacional en Cotonú que reunió durante diez días a delegados de sindicatos, iglesias, la oposición y las fuerzas armadas, quienes se declararon soberanos y despojaron al presidente de la mayor parte de su poder efectivo, algo que ningún gobernante africano de partido único había permitido hasta entonces. El proceso derivó en una nueva Constitución aprobada por referéndum y en elecciones multipartidarias en 1991, donde Kérékou aceptó su derrota frente a Nicéphore Soglo y entregó el poder, primer caso africano de un gobernante que pierde una elección y se retira sin resistencia. El 'modelo beninés' inspiró conferencias similares en otros países francófonos, y Kérékou volvería al poder por vía electoral entre 1996 y 2006.",
+      },
+      en: {
+        title: "The Conference That Invented a Peaceful Transition",
+        subtitle: "The 1990 National Conference",
+        imageAlt: "Cartoon of people seated around a round table with a flag.",
+        description:
+          "Benin, governed since 1974 under a Marxist-Leninist one-party regime led by Mathieu Kérékou, became in 1990 the stage for an unprecedented political experiment in Africa: faced with an unsustainable economic crisis, Kérékou convened a National Conference in Cotonou that brought together delegates from unions, churches, the opposition, and the armed forces for ten days, who declared themselves sovereign and stripped the president of most of his effective power, something no African one-party ruler had allowed until then. The process led to a new constitution approved by referendum and multiparty elections in 1991, where Kérékou accepted defeat to Nicéphore Soglo and handed over power peacefully, the first case in Africa of a sitting ruler losing an election and stepping aside without resistance. The 'Benin model' inspired similar conferences elsewhere in Francophone Africa, and Kérékou would return to power through the ballot box between 1996 and 2006.",
+      },
+    },
+  },
 ];

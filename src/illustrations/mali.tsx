@@ -134,6 +134,94 @@ const ElBluesDelDesiertoQueNacioEntreGuitarrasTuareg: IllustrationComponent = ({
   );
 };
 
+const TumbaAskiaGao: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const STAKES = [0, 1, 2, 3];
+  return (
+    <g>
+      <path d="M130 240 L175 130 L235 130 L280 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M155 240 L190 155 L220 155 L255 240 Z" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="2.4" />
+      {STAKES.map((i) => (
+        <g key={i}>
+          <line x1={150 + i * 15} y1={220 - i * 15} x2={165 + i * 15} y2={220 - i * 15} stroke="#5C3A21" strokeWidth="3" />
+          <line x1={260 - i * 15} y1={220 - i * 15} x2={245 - i * 15} y2={220 - i * 15} stroke="#5C3A21" strokeWidth="3" />
+        </g>
+      ))}
+      <rect x="195" y="200" width="20" height="40" fill="#3A2A1E" opacity="0.6" />
+    </g>
+  );
+};
+
+const ChiwaraTocadoAntilope: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      <path d="M187 165 Q165 155 170 130" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M213 165 Q235 175 230 200" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <line x1="194" y1="205" x2="188" y2="240" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <line x1="206" y1="205" x2="215" y2="240" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M187 165 Q200 158 213 165 L206 205 L194 205 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <circle cx="200" cy="150" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M188 140 Q200 100 212 140 Z" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2.2" />
+      <path d="M195 105 Q188 85 195 70 M205 105 Q212 85 205 70" fill="none" stroke={wood} strokeWidth="4" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const SalifKeitaVozDeAfrica: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#D9BE8F";
+  return (
+    <g>
+      <ellipse cx="205" cy="150" rx="70" ry="70" fill={tint(accentColor, 0.3)} opacity="0.5" />
+      <path d="M187 185 Q165 195 168 215" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M213 185 Q235 190 232 165" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M187 178 Q200 168 213 178 L207 220 Q200 226 193 220 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <circle cx="200" cy="163" r="14" fill={skin} stroke={dark} strokeWidth="2" />
+      <ellipse cx="232" cy="160" rx="9" ry="13" fill="#3A3A3A" />
+      <rect x="230" y="172" width="4" height="30" fill="#5C5C5C" />
+    </g>
+  );
+};
+
+const CruceGanadoDiafarabe: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const cow = "#8B5A2B";
+  const COWS: [number, number][] = [
+    [140, 200], [190, 210], [240, 195], [280, 215],
+  ];
+  return (
+    <g>
+      <rect x="90" y="150" width="230" height="100" fill="#1B7A9C" opacity="0.4" />
+      {COWS.map(([x, y]) => (
+        <g key={`${x}-${y}`}>
+          <path d={`M${x - 18} ${y - 10} Q${x - 22} ${y - 16} ${x - 16} ${y - 14} M${x - 10} ${y - 10} Q${x - 6} ${y - 16} ${x - 12} ${y - 14}`} stroke="#F5F0E6" strokeWidth="2" fill="none" />
+          <ellipse cx={x - 14} cy={y - 6} rx="7" ry="6" fill={cow} stroke={dark} strokeWidth="1.6" />
+          <ellipse cx={x} cy={y} rx="16" ry="10" fill={cow} stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
+      <circle cx="115" cy="235" r="11" fill="#3A2A1E" stroke={dark} strokeWidth="2" />
+      <path d="M105 248 Q115 240 125 248 L120 250 L110 250 Z" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+    </g>
+  );
+};
+
+const AttayaCeremoniaDelTe: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M180 130 Q160 128 155 145 Q158 155 172 150" fill="none" stroke={dark} strokeWidth="4" />
+      <path d="M180 130 Q175 110 195 105 L230 108 Q245 112 240 130 L235 160 L190 160 Z" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <rect x="200" y="95" width="8" height="14" fill={dark} />
+      <path d="M212 160 Q210 190 208 215" fill="none" stroke={tint(accentColor, 0.4)} strokeWidth="3" opacity="0.7" />
+      <path d="M195 235 L195 210 Q195 202 205 202 Q215 202 215 210 L215 235 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2.2" />
+      <ellipse cx="205" cy="210" rx="10" ry="4" fill="#3A7A45" opacity="0.7" />
+    </g>
+  );
+};
+
 export const maliIllustrations: Record<string, IllustrationDefinition> = {
   "la-ciudad-legendaria-de-los-manuscritos-dorados": { component: LaCiudadLegendariaDeLosManuscritosDorados },
   "la-mezquita-de-barro-que-se-repara-a-mano-cada-ano": { component: LaMezquitaDeBarroQueSeReparaAManoCadaAno },
@@ -145,4 +233,9 @@ export const maliIllustrations: Record<string, IllustrationDefinition> = {
   "las-caravanas-que-todavia-cruzan-el-desierto-por-sal": { component: LasCaravanasQueTodaviaCruzanElDesiertoPorSal },
   "la-bola-de-mijo-que-alimenta-al-sahel": { component: LaBolaDeMijoQueAlimentaAlSahel },
   "el-blues-del-desierto-que-nacio-entre-guitarras-tuareg": { component: ElBluesDelDesiertoQueNacioEntreGuitarrasTuareg },
+  "tumba-askia-gao": { component: TumbaAskiaGao },
+  "chiwara-tocado-antilope": { component: ChiwaraTocadoAntilope },
+  "salif-keita-voz-de-africa": { component: SalifKeitaVozDeAfrica },
+  "cruce-ganado-diafarabe": { component: CruceGanadoDiafarabe },
+  "attaya-ceremonia-del-te": { component: AttayaCeremoniaDelTe },
 };

@@ -231,4 +231,119 @@ export const zambia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-primer-presidente-y-el-lema-de-la-nueva-nacion",
+    order: 11,
+    placeholderEmoji: "🤝",
+    accentColor: "#4A4E69",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El primer presidente y el lema de la nueva nación",
+        subtitle: "Kenneth Kaunda y el humanismo zambiano",
+        imageAlt: "Caricatura de un hombre con un pañuelo blanco en la mano frente a una bandera.",
+        description:
+          "Kenneth Kaunda condujo a Zambia a la independencia del Reino Unido en 1964, convirtiéndose en el primer presidente del país y manteniéndose en el poder durante veintisiete años hasta que una elección multipartidaria pacífica lo derrotó en 1991, una transición destacada en la región por darse sin violencia. Reconocido por llevar siempre un pañuelo blanco que agitaba al hablar, marca personal reconocida en todo el país, Kaunda promovió una filosofía política propia llamada 'humanismo', que combinaba tradiciones comunitarias africanas con elementos de socialismo cristiano, y acuñó el lema nacional 'Una Zambia, una Nación' para unir a más de setenta grupos étnicos y lenguas bajo una identidad cívica compartida, política que se le atribuye haber ayudado a Zambia a evitar los conflictos étnicos que afectaron a varios vecinos tras la independencia. Murió en 2021 a los noventa y siete años, honrado con un funeral de Estado como padre fundador de la nación.",
+      },
+      en: {
+        title: "The First President and the New Nation's Motto",
+        subtitle: "Kenneth Kaunda and Zambian Humanism",
+        imageAlt: "Cartoon of a man holding a white handkerchief in front of a flag.",
+        description:
+          "Kenneth Kaunda led Zambia to independence from Britain in 1964, becoming the country's first president and remaining in power for twenty-seven years until a peaceful multiparty election defeated him in 1991, a transition notable in the region for happening without violence. Known for always carrying a white handkerchief he waved while speaking, a personal trademark recognized nationwide, Kaunda promoted a political philosophy of his own called 'humanism,' blending African communal traditions with elements of Christian socialism, and coined the national motto 'One Zambia, One Nation' to unite more than seventy ethnic groups and languages under a shared civic identity rather than ethnic politics, a policy credited with helping Zambia avoid the ethnic conflicts that troubled several neighboring countries after independence. He died in 2021 at age ninety-seven, honored with a state funeral as the founding father of the nation.",
+      },
+    },
+  },
+  {
+    id: "la-tela-que-cuenta-la-vida-de-quien-la-usa",
+    order: 12,
+    placeholderEmoji: "🧵",
+    accentColor: "#D6336C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La tela que cuenta la vida de quien la usa",
+        subtitle: "El chitenge",
+        imageAlt: "Caricatura de una tela estampada de colores brillantes envuelta como una falda.",
+        description:
+          "El chitenge, un largo de tela de algodón estampada en colores vivos que se usa envuelto en la cintura como falda, atado sobre el hombro para cargar a un bebé, o confeccionado en vestidos y turbantes, es una prenda cotidiana definitoria en Zambia, con colores, estampados e incluso frases impresas elegidos para marcar ocasiones que van desde bodas y funerales hasta actos políticos y campañas electorales. Las mujeres eligen tradicionalmente un estampado para transmitir un mensaje sutil —celebrar un nacimiento, acompañar un duelo o apoyar una causa— y ciertos diseños se convierten a veces en piezas de colección ligadas a un hecho histórico memorable, reimpresas años después por nostalgia. Los mercados de las ciudades zambianas dedican secciones enteras a la venta de tela por metro, para que cada compradora la lleve a confeccionar a medida, y su versatilidad, de la ropa formal a la de entrecasa, la convierte en uno de los hilos más reconocibles de la cultura visual zambiana.",
+      },
+      en: {
+        title: "The Fabric That Tells the Story of Its Wearer",
+        subtitle: "Chitenge",
+        imageAlt: "Cartoon of a brightly colored printed fabric wrapped like a skirt.",
+        description:
+          "Chitenge, a length of brightly colored wax-print cotton fabric worn wrapped around the waist as a skirt, tied over the shoulder as a baby carrier, or fashioned into dresses and headwraps, is a defining everyday garment across Zambia, with specific colors, patterns, and even printed slogans chosen to mark occasions ranging from weddings and funerals to political rallies and election campaigns. Women traditionally choose a chitenge pattern to send a subtle message — celebrating a new baby, mourning a loss, or supporting a particular cause — and specific designs sometimes become collector's items tied to a memorable historic event, reprinted years later out of nostalgia. Markets across Zambian cities dedicate entire sections to chitenge fabric, sold by the length for a buyer to have tailored into a custom garment, and its versatility, from formal wear to everyday housedress, makes it one of the most recognizable threads of Zambian visual culture.",
+      },
+    },
+  },
+  {
+    id: "las-aves-pico-de-zapato-de-los-humedales-de-bangweulu",
+    order: 13,
+    placeholderEmoji: "🦩",
+    accentColor: "#4F6D4F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ave prehistórica de los humedales de Bangweulu",
+        subtitle: "El pico zapato y el lechwe negro",
+        imageAlt: "Caricatura de un ave grande de pico ancho parada entre juncos de un humedal.",
+        description:
+          "Los humedales de Bangweulu, una vasta llanura inundable estacional del norte de Zambia que se extiende por miles de kilómetros cuadrados alrededor del lago homónimo, son uno de los últimos refugios del pico zapato, un ave pariente de las cigüeñas de aspecto prehistórico llamada así por su enorme pico en forma de zueco, tan singular que los primeros observadores europeos dudaban de los relatos que la describían. Los humedales son también el hogar principal del lechwe negro, una subespecie de antílope que no existe en ningún otro lugar del mundo, reunida en manadas de decenas de miles durante la estación seca para pastar en los pastizales expuestos. Comunidades pesqueras locales, algunas en pueblos accesibles solo en canoa buena parte del año, trabajan junto a programas de conservación como guardaparques, un esquema al que se atribuye haber ayudado a ambas especies a recuperarse del declive poblacional de décadas anteriores.",
+      },
+      en: {
+        title: "The Prehistoric-Looking Bird of the Bangweulu Wetlands",
+        subtitle: "The Shoebill and the Black Lechwe",
+        imageAlt: "Cartoon of a large broad-billed bird standing among wetland reeds.",
+        description:
+          "The Bangweulu Wetlands, a vast seasonal floodplain in northern Zambia spanning thousands of square kilometers around Lake Bangweulu, are one of the last strongholds of the shoebill, an enormous stork relative with a prehistoric-looking appearance, named for its massive, clog-shaped bill, a bird so unusual to look at and so motionless while hunting that early European observers doubted eyewitness accounts of it. The wetlands are also the primary home of the black lechwe, an antelope subspecies found nowhere else in the world, which gathers in herds of tens of thousands during the dry season to graze on the exposed floodplain grasses. Local Bangweulu fishing communities, some living in villages accessible only by canoe for much of the year, work alongside conservation programs as wetland rangers, an arrangement credited with helping both species recover from population declines driven by past decades of hunting and habitat loss.",
+      },
+    },
+  },
+  {
+    id: "las-esmeraldas-que-salen-de-la-tierra-zambiana",
+    order: 14,
+    placeholderEmoji: "💎",
+    accentColor: "#1D6F42",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las esmeraldas que salen de la tierra zambiana",
+        subtitle: "Las minas de esmeraldas de Kagem",
+        imageAlt: "Caricatura de una piedra verde brillante en forma de gema junto a herramientas de minería.",
+        description:
+          "Zambia, aunque asociada globalmente sobre todo con el cobre, es también una de las mayores fuentes mundiales de esmeraldas de calidad gema, con la mina de Kagem, en el distrito rural de Ndola cercano al Cinturón del Cobre, entre las minas de esmeraldas individuales más grandes del planeta por producción, generando piedras de un verde profundo que muchos joyeros consideran comparable o superior al de las esmeraldas colombianas, la referencia histórica de la gema. Las esmeraldas se forman aquí dentro de rocas metamórficas ricas en berilio y cromo, una combinación geológica poco frecuente en el mundo, y la producción zambiana creció tanto desde que la minería a gran escala comenzó en los setenta que el país hoy abastece una porción significativa del mercado mundial, vendida mayormente en subastas internacionales en Singapur antes que en el mercado interno. Mineros artesanales también trabajan sectores de los yacimientos, en condiciones más precarias que las operaciones formales.",
+      },
+      en: {
+        title: "The Emeralds Pulled From Zambian Ground",
+        subtitle: "The Kagem Emerald Mines",
+        imageAlt: "Cartoon of a shiny green gem-cut stone beside mining tools.",
+        description:
+          "Zambia, though globally associated mainly with copper, is also one of the world's leading sources of gem-quality emeralds, with the Kagem mine, in the Ndola rural district near the Copperbelt, ranking among the largest single emerald mines on the planet by output, producing stones prized for a deep green color many jewelers rate as comparable to or finer than emeralds from Colombia, the gem's historic benchmark. Emeralds form here within metamorphic rock rich in beryllium and chromium, a geological combination found in very few places worldwide, and Zambian production has grown enough since large-scale mining began in the 1970s that the country now supplies a significant share of the global emerald market, sold mostly at international auctions in Singapore and elsewhere rather than domestically. Small-scale artisanal miners also work sections of the deposits, though under considerably more precarious conditions than the large formal operations.",
+      },
+    },
+  },
+  {
+    id: "la-copa-ganada-en-el-lugar-de-una-tragedia",
+    order: 15,
+    placeholderEmoji: "🏆",
+    accentColor: "#1E824C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La copa ganada en el lugar de una tragedia",
+        subtitle: "Zambia campeón de la Copa Africana 2012",
+        imageAlt: "Caricatura de un jugador de fútbol levantando un trofeo dorado.",
+        description:
+          "En 1993, un avión que transportaba a la mayor parte de la selección de fútbol de Zambia se estrelló frente a las costas de Gabón, una tragedia que dejó una marca profunda en el deporte zambiano y truncó a un equipo considerado entre los más prometedores de África en ese momento. Diecinueve años después, en 2012, una selección zambiana reconstruida ganó la Copa Africana de Naciones por primera vez en la historia del país, venciendo a Costa de Marfil en una definición dramática por penales en la final, disputada, por una coincidencia sorprendente, en Libreville, Gabón, cerca del sitio mismo del accidente de 1993. Jugadores y aficionados describieron ampliamente la victoria como un homenaje al equipo perdido, y el título, ganado por una selección considerada entre las candidatas menos favoritas del torneo, se convirtió en un símbolo de resiliencia nacional celebrado con días de festejos populares en todo el país.",
+      },
+      en: {
+        title: "The Cup Won at the Site of a Tragedy",
+        subtitle: "Zambia's 2012 Africa Cup of Nations Title",
+        imageAlt: "Cartoon of a soccer player lifting a golden trophy.",
+        description:
+          "In 1993, a plane carrying most of Zambia's national football team crashed off the coast of Gabon, a tragedy that left a lasting mark on Zambian sport and cut short a squad considered among the most promising in Africa at the time. Nineteen years later, in 2012, a rebuilt Zambian national team won the Africa Cup of Nations for the first time in the country's history, defeating Ivory Coast in a dramatic penalty shootout in the final, played, by striking coincidence, in Libreville, Gabon, near the very site of the 1993 crash. Players and fans widely described the victory as a tribute to the lost team, and the title, won by a squad ranked among the tournament's least-favored contenders beforehand, became a symbol of national resilience celebrated with days of public celebration across the country.",
+      },
+    },
+  },
 ];

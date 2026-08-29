@@ -231,4 +231,119 @@ export const namibia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "independencia-namibia-1990",
+    order: 11,
+    placeholderEmoji: "🇳🇦",
+    accentColor: "#1B4F72",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El último país africano en independizarse",
+        subtitle: "La independencia de 1990",
+        imageAlt: "Caricatura de una bandera nueva izándose frente a una multitud festejando.",
+        description:
+          "Namibia fue el último país africano en obtener su independencia del dominio colonial y de la administración blanca minoritaria, recién el 21 de marzo de 1990, tras una larga lucha liderada por la organización SWAPO contra la administración sudafricana, que había gobernado el territorio como 'África Sudoccidental' bajo un mandato de la Liga de las Naciones que la ONU terminó declarando ilegal, seguido de décadas de ocupación bajo el apartheid y un conflicto armado desde 1966. Sam Nujoma se convirtió en el primer presidente tras una transición supervisada por la ONU y elecciones en 1989, un proceso poco habitual de tránsito negociado e internacionalmente monitoreado. La nueva Constitución namibia se destacó por ser una de las primeras del continente en incluir explícitamente la protección ambiental como principio constitucional, mientras el 21 de marzo se celebra cada año como Día de la Independencia.",
+      },
+      en: {
+        title: "The Last African Country to Gain Independence",
+        subtitle: "The 1990 Independence",
+        imageAlt: "Cartoon of a new flag being raised before a celebrating crowd.",
+        description:
+          "Namibia was the last African country to gain independence from colonial rule and white minority administration, not until March 21, 1990, following a long liberation struggle led by the SWAPO organization against South African administration, which had governed the territory as 'South West Africa' under a League of Nations mandate the United Nations later declared illegal, followed by decades of occupation under apartheid-era rule and an armed conflict stretching back to 1966. Sam Nujoma became the country's first president after a UN-supervised transition and elections held in 1989, an unusually negotiated and internationally monitored path to independence. Namibia's new constitution also stood out as one of the first in Africa to explicitly enshrine environmental protection as a constitutional principle, while March 21 is celebrated every year as Independence Day.",
+      },
+    },
+  },
+  {
+    id: "arte-rupestre-twyfelfontein",
+    order: 12,
+    placeholderEmoji: "🦏",
+    accentColor: "#B5651D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las rocas donde los san grabaron seis mil años de caza",
+        subtitle: "El arte rupestre de Twyfelfontein",
+        imageAlt: "Caricatura de grabados de animales tallados sobre roca roja del desierto.",
+        description:
+          "Twyfelfontein, el primer sitio de Namibia declarado Patrimonio de la Humanidad por la Unesco en 2007, es un valle en Damaraland que concentra una de las mayores densidades de grabados rupestres de toda África, con más de dos mil tallas individuales sobre roca de arenisca creadas por comunidades san a lo largo de unos seis mil años. Las imágenes representan sobre todo animales, como rinocerontes, elefantes, jirafas y avestruces, junto a huellas y algunas figuras humanas y geométricas, y los especialistas creen que estaban vinculadas a rituales chamánicos relacionados con cacerías exitosas o con invocar buena suerte para la caza, más que a una función decorativa. El nombre del sitio, 'manantial dudoso' en afrikáans, hace referencia a una fuente de agua poco confiable que dificultó el asentamiento permanente en la zona, un aislamiento que paradójicamente ayudó a mantener los grabados en un estado de conservación excepcional.",
+      },
+      en: {
+        title: "The Rocks Where the San Carved 6,000 Years of Hunting",
+        subtitle: "The Rock Art of Twyfelfontein",
+        imageAlt: "Cartoon of animal engravings carved into red desert rock.",
+        description:
+          "Twyfelfontein, Namibia's first site declared a UNESCO World Heritage Site in 2007, is a valley in the Damaraland region holding one of the densest concentrations of rock engravings anywhere in Africa, with more than two thousand individual carvings on sandstone created by San hunter-gatherer communities over roughly six thousand years. The images mostly depict animals, such as rhinos, elephants, giraffes, and ostriches, along with animal footprints and some human and geometric figures, and specialists believe they were tied to shamanistic rituals related to successful hunts or invoking hunting luck, rather than serving a purely decorative function. The site's name, meaning 'doubtful spring' in Afrikaans, refers to an unreliable natural water source that historically made permanent settlement in the area difficult, an extreme isolation that paradoxically helped keep the engravings in an exceptional state of preservation.",
+      },
+    },
+  },
+  {
+    id: "baster-de-rehoboth",
+    order: 13,
+    placeholderEmoji: "🏴",
+    accentColor: "#8C8C74",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La comunidad que se declaró nación dentro de otra",
+        subtitle: "Los baster de Rehoboth",
+        imageAlt: "Caricatura de una bandera con franjas junto a una carreta de bueyes en el desierto.",
+        description:
+          "Los baster de Rehoboth, una comunidad con identidad propia claramente diferenciada, descienden de uniones entre colonos holandeses del Cabo y mujeres khoikhoi durante los siglos diecisiete y dieciocho, y emigraron hacia el norte en la década de 1870 para establecerse alrededor de Rehoboth, en el centro de Namibia. Allí desarrollaron una identidad bien definida, con un dialecto basado en el afrikáans, una constitución escrita conocida como las 'Leyes Paternales' de 1872, bandera propia y un sistema de autogobierno local que mantuvieron en cierta medida incluso bajo las administraciones coloniales alemana y luego sudafricana. El nombre proviene de un topónimo bíblico que significa 'espacio amplio', y los baster resistieron activamente ser encasillados en las categorías raciales del apartheid, manteniéndose hoy como grupo étnico y cultural reconocido que sigue trabajando por preservar su historia y sus tradiciones de autogobierno.",
+      },
+      en: {
+        title: "The Community That Declared Its Own Nation Within One",
+        subtitle: "The Rehoboth Basters",
+        imageAlt: "Cartoon of a striped flag beside an ox-drawn wagon in the desert.",
+        description:
+          "The Rehoboth Basters, a community with a clearly distinct identity of their own, descend from unions between Cape Dutch settlers and Khoikhoi women during the 17th and 18th centuries, and migrated north in the 1870s to settle around the town of Rehoboth in central Namibia. There they developed a well-defined identity, with an Afrikaans-based dialect, a written constitution known as the 'Paternal Laws' of 1872, their own flag, and a system of local self-governance they managed to maintain to some degree even under German and later South African colonial administration. The community's name comes from a biblical place-name meaning 'wide open space,' and the Basters actively resisted being pigeonholed into the broader racial categories imposed under apartheid, remaining today a recognized distinct ethnic and cultural group within Namibia that continues working to preserve its particular history and self-governance traditions.",
+      },
+    },
+  },
+  {
+    id: "marula-omagongo-ovambo",
+    order: 14,
+    placeholderEmoji: "🍈",
+    accentColor: "#D9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La fruta que produce una fiesta y un licor famoso",
+        subtitle: "El marula y el omagongo ovambo",
+        imageAlt: "Caricatura de racimos de frutas amarillas cayendo de un árbol junto a una vasija.",
+        description:
+          "El árbol de marula, extendido por buena parte del norte de Namibia, produce cada año entre febrero y marzo una abundante cosecha de frutos amarillos que maduran y caen en grandes cantidades, un momento central en la vida cultural del pueblo ovambo gracias al omagongo, una bebida fermentada de marula elaborada colectivamente por mujeres durante la cosecha. Su preparación se organiza como un festival comunitario que marca la temporada, un encuentro que funcionó históricamente como ocasión para fortalecer lazos sociales, narrar historias y reforzar vínculos comunitarios más allá de la bebida en sí. La pulpa del marula también se conoce a través de Amarula, un licor cremoso comercial exportado al mundo, aunque la tradición ovambo del omagongo es anterior y distinta de ese producto, mientras la fruta también se consume fresca o seca y su semilla se usa en cocina y cuidado de la piel.",
+      },
+      en: {
+        title: "The Fruit Behind a Festival and a Famous Liqueur",
+        subtitle: "Marula and Ovambo Omagongo",
+        imageAlt: "Cartoon of clusters of yellow fruit falling from a tree beside a clay vessel.",
+        description:
+          "The marula tree, widespread across much of northern Namibia, produces an abundant yearly harvest of yellow fruit each February and March that ripens and falls in large quantities, a central moment in Ovambo cultural life through omagongo, a traditional fermented marula wine brewed collectively by women during the harvest season. Preparing and sharing omagongo is organized around a broader community harvest festival, a gathering that historically served as an occasion for strengthening social bonds, storytelling, and reinforcing community ties well beyond the drink itself. Marula pulp is also known internationally through Amarula, a commercial cream liqueur exported worldwide, though the Ovambo omagongo tradition predates and differs from that commercial product, while the fruit is also eaten fresh or dried and its kernel used in cooking and skincare.",
+      },
+    },
+  },
+  {
+    id: "frankie-fredericks-velocista",
+    order: 15,
+    placeholderEmoji: "🏃",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El velocista que llevó cuatro medallas a un país joven",
+        subtitle: "Frankie Fredericks",
+        imageAlt: "Caricatura de un corredor cruzando la línea de meta con los brazos extendidos.",
+        description:
+          "Frankie Fredericks, nacido en 1967 en Windhoek, se convirtió en el atleta olímpico más exitoso de la historia de Namibia al ganar medallas de plata en los cien y los doscientos metros llanos en dos Juegos Olímpicos consecutivos, Barcelona 1992 y Atlanta 1996, un logro notable considerando que compitió contra algunos de los velocistas más dominantes de la historia, como Carl Lewis, Linford Christie y Michael Johnson. Fredericks fue además el primer atleta namibio en ganar una medalla olímpica de cualquier tipo, apenas dos años después de que el país lograra su independencia en 1990, convirtiéndose en héroe nacional y símbolo de la emergencia deportiva de una nación muy joven en el escenario mundial. Tras retirarse, ocupó cargos de liderazgo en organismos internacionales del atletismo, y hoy se lo recuerda como uno de los mejores velocistas de la historia que nunca ganó el oro olímpico, una reputación de 'casi campeón' que él mismo comentó con franqueza en entrevistas.",
+      },
+      en: {
+        title: "The Sprinter Who Brought Medals to a Young Country",
+        subtitle: "Frankie Fredericks",
+        imageAlt: "Cartoon of a runner crossing the finish line with arms spread wide.",
+        description:
+          "Frankie Fredericks, born in 1967 in Windhoek, became Namibia's most successful Olympic athlete, winning silver medals in both the 100 and 200 meter sprints at two consecutive Olympic Games, Barcelona 1992 and Atlanta 1996, a remarkable feat given he competed against some of the most dominant sprinters in history, including Carl Lewis, Linford Christie, and Michael Johnson, during that same era. Fredericks was also the first Namibian athlete to win an Olympic medal of any kind, just two years after the country achieved independence in 1990, becoming a national hero and a symbol of a very young nation's sporting emergence on the world stage. After retiring from competition, he held leadership roles in international athletics governing bodies, including the sport's world federation, and is today widely remembered as one of the greatest sprinters in history never to win Olympic gold, a 'nearly man' reputation he has discussed candidly in later interviews.",
+      },
+    },
+  },
 ];

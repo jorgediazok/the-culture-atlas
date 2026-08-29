@@ -251,4 +251,119 @@ export const togo: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "emmanuel-adebayor-mundial-2006",
+    order: 11,
+    placeholderEmoji: "⚽",
+    accentColor: "#C8102E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El delantero que llevó a Togo a su único Mundial",
+        subtitle: "Emmanuel Adebayor y el Mundial de 2006",
+        imageAlt: "Caricatura de un futbolista celebrando un gol con los brazos abiertos.",
+        description:
+          "Emmanuel Adebayor, nacido en 1984 en Lomé, se convirtió en el futbolista togolés más reconocido internacionalmente, jugando en grandes clubes europeos como el Arsenal, el Real Madrid, el Manchester City y el Tottenham a lo largo de una carrera de más de una década en la élite del fútbol continental. Como capitán y delantero estrella, lideró a Togo hasta su clasificación al Mundial de Alemania 2006, el primer y hasta hoy único Mundial disputado por el país, un logro histórico para una selección pequeña que llegó al torneo en medio de una disputa interna por el pago de premios a los jugadores que retrasó su preparación previa al debut. Pese a esas dificultades y a la eliminación en primera ronda, Adebayor sigue siendo recordado como un héroe nacional cuya carrera puso al fútbol togolés en el radar internacional, mientras que fuera de las canchas se hizo conocido también por su personalidad directa y por sus proyectos filantrópicos en su país natal.",
+      },
+      en: {
+        title: "The Striker Who Took Togo to Its Only World Cup",
+        subtitle: "Emmanuel Adebayor and the 2006 World Cup",
+        imageAlt: "Cartoon of a soccer player celebrating a goal with arms spread wide.",
+        description:
+          "Emmanuel Adebayor, born in 1984 in Lomé, became Togo's most internationally recognized footballer, playing for major European clubs including Arsenal, Real Madrid, Manchester City, and Tottenham across a career spanning more than a decade at the top level of continental football. As captain and star forward, he led Togo to qualify for the 2006 World Cup in Germany, the country's first and so far only World Cup appearance, a historic achievement for a small national team that arrived at the tournament amid an internal dispute over player bonuses that delayed its preparations before its opening match. Despite those difficulties and a first-round elimination, Adebayor remains remembered as a national hero whose career put Togolese football on the international map, while off the field he also became known for his outspoken personality and philanthropic projects back in his home country.",
+      },
+    },
+  },
+  {
+    id: "bella-bellow-cantante",
+    order: 12,
+    placeholderEmoji: "🎤",
+    accentColor: "#D9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La voz togolesa que conquistó los escenarios de París",
+        subtitle: "Bella Bellow",
+        imageAlt: "Caricatura de una cantante con vestido colorido sosteniendo un micrófono vintage.",
+        description:
+          "Bella Bellow, nacida en 1945 y fallecida trágicamente en un accidente automovilístico en 1973 a los veintisiete años, se convirtió en una de las primeras cantantes africanas en alcanzar éxito internacional real, descubierta mientras actuaba en Lomé antes de mudarse a París a fines de los años sesenta, donde grabó discos y se presentó ante audiencias europeas con gran aclamación. Su música combinaba ritmos y estilos vocales tradicionales ewe con arreglos orquestales de estilo afro-pop, convirtiéndola en una especie de embajadora pionera de la música togolesa y de África occidental en Europa, en una época en la que muy pocos artistas africanos lograban ese cruce hacia audiencias internacionales masivas. Pese a que su carrera se truncó de forma prematura y trágica, Bella Bellow sigue siendo celebrada en Togo como una figura fundacional y fuente de orgullo nacional en la historia musical del país, citada con frecuencia como inspiración por generaciones posteriores de músicos togoleses.",
+      },
+      en: {
+        title: "The Togolese Voice That Conquered the Stages of Paris",
+        subtitle: "Bella Bellow",
+        imageAlt: "Cartoon of a singer in a colorful dress holding a vintage microphone.",
+        description:
+          "Bella Bellow, born in 1945 and tragically killed in a car accident in 1973 at just twenty-seven, became one of the first African women singers to achieve genuine international success, discovered performing in Lomé before moving to Paris in the late 1960s, where she recorded albums and performed to wide acclaim before European audiences. Her music blended traditional Ewe rhythms and vocal styles with orchestral, Afro-pop-style arrangements, making her something of a pioneering ambassador for Togolese and West African music in Europe, at a time when very few African artists achieved that kind of crossover to mass international audiences. Though her career was cut tragically short, Bella Bellow remains celebrated in Togo as a foundational figure and a source of national pride in the country's musical history, frequently cited as an inspiration by later generations of Togolese musicians.",
+      },
+    },
+  },
+  {
+    id: "parque-fazao-malfakassa",
+    order: 13,
+    placeholderEmoji: "🐒",
+    accentColor: "#3A7A45",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El parque donde la sabana y la selva se dan la mano",
+        subtitle: "El Parque de Fazao-Malfakassa",
+        imageAlt: "Caricatura de colinas verdes onduladas con un chimpancé entre los árboles.",
+        description:
+          "El Parque Nacional de Fazao-Malfakassa, el área protegida más grande y significativa de Togo, se ubica en la región central del país a lo largo de una cadena montañosa y abarca una zona de transición entre ecosistemas de sabana y selva, hogar de chimpancés, una pequeña población remanente de elefantes, búfalos, varias especies de antílopes y una notable diversidad de aves. El parque sufrió una degradación severa de su hábitat y fuerte presión de caza furtiva durante las últimas décadas debido a recursos limitados para su vigilancia, lo que lo convirtió en años recientes en foco de renovadas asociaciones internacionales de conservación que buscan restaurar sus poblaciones de fauna y reforzar su protección. El paisaje en sí, con colinas y acantilados dramáticos, también ofrece un potencial de ecoturismo todavía muy poco explotado en comparación con parques más célebres de África oriental y austral.",
+      },
+      en: {
+        title: "The Park Where Savanna and Rainforest Meet",
+        subtitle: "Fazao-Malfakassa National Park",
+        imageAlt: "Cartoon of rolling green hills with a chimpanzee among the trees.",
+        description:
+          "Fazao-Malfakassa National Park, Togo's largest and most significant protected area, sits in the country's central region along a mountain range and spans a transition zone between savanna and forest ecosystems, home to chimpanzees, a small remaining elephant population, buffalo, several antelope species, and notable bird diversity. The park suffered severe habitat degradation and heavy poaching pressure over recent decades due to limited resources for enforcement, which in recent years made it the focus of renewed international conservation partnerships aiming to restore its wildlife populations and strengthen protection. The landscape itself, with dramatic hills and cliffs, also holds ecotourism potential still largely untapped compared to more famous parks in East and Southern Africa.",
+      },
+    },
+  },
+  {
+    id: "sylvanus-olympio-independencia",
+    order: 14,
+    placeholderEmoji: "🎗️",
+    accentColor: "#1B1B1B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El primer presidente africano derrocado por un golpe",
+        subtitle: "Sylvanus Olympio",
+        imageAlt: "Caricatura de un hombre con traje formal frente a una bandera ondeante.",
+        description:
+          "Sylvanus Olympio lideró a Togo hacia la independencia de la administración francesa en 1960 y se convirtió en el primer presidente del país, un economista que buscó trazar un camino económico propio para Togo, distinto de la influencia que Francia seguía ejerciendo sobre sus antiguas colonias. Fue asesinado en enero de 1963 durante un golpe militar liderado por soldados descontentos, muchos veteranos del ejército colonial francés a quienes se había negado un lugar en el nuevo ejército togolés, convirtiéndose en el primer jefe de Estado de la África poscolonial asesinado en un golpe, un hito sombrío que anticipó décadas de inestabilidad similar en otras partes del continente. Su muerte abrió el camino al ascenso posterior del general Gnassingbé Eyadéma, y Olympio sigue honrado hoy en Togo como padre fundador de la independencia, con monumentos y una plaza pública de Lomé que lleva su nombre.",
+      },
+      en: {
+        title: "The First African President Overthrown in a Coup",
+        subtitle: "Sylvanus Olympio",
+        imageAlt: "Cartoon of a man in formal dress standing before a waving flag.",
+        description:
+          "Sylvanus Olympio led Togo to independence from French administration in 1960 and became the country's first president, an economist by training who sought to chart an independent economic path for Togo, distinct from the influence France continued to hold over its former African colonies. He was assassinated in January 1963 during a military coup led by disgruntled soldiers, many of them veterans of the French colonial army who had been denied positions in the new national Togolese army, making him the first head of state in postcolonial Africa to be killed in a coup, a grim milestone that unfortunately foreshadowed decades of similar instability elsewhere on the continent. His death opened the way for General Gnassingbé Eyadéma's later rise to power, and Olympio is still honored in Togo today as the founding father of independence, with monuments and a major public square in Lomé named in his memory.",
+      },
+    },
+  },
+  {
+    id: "festival-yeke-yeke-glidji",
+    order: 15,
+    placeholderEmoji: "🔮",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El festival donde un oráculo predice el año que viene",
+        subtitle: "El Yeke-Yeke de Glidji",
+        imageAlt: "Caricatura de una multitud reunida frente a un altar ceremonial con banderas de colores.",
+        description:
+          "El Yeke-Yeke, celebrado cada septiembre en la localidad de Glidji, cerca de la costa togolesa, es la festividad religiosa y cultural central del pueblo guin (o mina), y conmemora el aniversario de la llegada de sus antepasados a la región generaciones atrás, tras una migración originada en la actual Ghana. El ritual central de la festividad consiste en que el rey tradicional o sumo sacerdote se interna en un bosque sagrado para consultar a los oráculos ancestrales y emerge luego con una predicción simbólica para el año que comienza, interpretada a través de objetos y colores específicos revelados durante la ceremonia ante la comunidad reunida. El evento convoca a multitudes venidas de todo Togo y de la diáspora guin, e incluye danzas tradicionales, tambores y procesiones además del rito central de adivinación, consolidándose como una de las festividades religiosas tradicionales más importantes que todavía se practican activamente en la costa togolesa.",
+      },
+      en: {
+        title: "The Festival Where an Oracle Predicts the Coming Year",
+        subtitle: "The Yeke-Yeke Festival of Glidji",
+        imageAlt: "Cartoon of a crowd gathered before a ceremonial altar with colorful flags.",
+        description:
+          "Yeke-Yeke, held every September in the town of Glidji near Togo's coast, is the central religious and cultural festival of the Guin (Mina) people, commemorating the anniversary of their ancestors' arrival in the region generations ago following a migration that originated in what is now Ghana. The festival's central ritual involves the traditional king or high priest entering a sacred forest to consult ancestral oracles, emerging with a symbolic prediction for the coming year, interpreted through specific objects and colors revealed during the ceremony before the assembled community. The event draws large crowds from across Togo and the Guin diaspora, and includes traditional dance, drumming, and processions alongside the central divination rite, remaining one of the most significant traditional religious festivals still actively practiced along the Togolese coast.",
+      },
+    },
+  },
 ];

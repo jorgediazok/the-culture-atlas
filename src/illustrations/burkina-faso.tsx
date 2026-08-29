@@ -158,6 +158,99 @@ const LaReservaDondeLosElefantesCruzanElCamino: IllustrationComponent = ({ accen
   );
 };
 
+const FasoDanFaniTelaSankara: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const wood = "#8B5A2B";
+  const STRIPES = [120, 138, 156, 174, 192];
+  return (
+    <g>
+      <rect x="110" y="110" width="10" height="120" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2" />
+      <rect x="290" y="110" width="10" height="120" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2" />
+      <rect x="105" y="105" width="200" height="10" fill={wood} />
+      <rect x="105" y="225" width="200" height="10" fill={wood} />
+      {STRIPES.map((y, i) => (
+        <rect key={y} x="130" y={y} width="150" height="14" fill={i % 2 === 0 ? accentColor : tint(accentColor, 0.3)} stroke={dark} strokeWidth="1.5" />
+      ))}
+      <rect x="200" y="120" width="8" height="100" fill="#F5F0E6" opacity="0.7" />
+    </g>
+  );
+};
+
+const DoloCervezaDeMijo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const clay = "#8B5A2B";
+  return (
+    <g>
+      <path d="M150 235 Q145 175 175 165 Q205 155 235 165 Q265 175 260 235 Z" fill={clay} stroke={shade(clay, 0.3)} strokeWidth="3" />
+      <ellipse cx="205" cy="165" rx="55" ry="14" fill={shade(clay, 0.15)} stroke={shade(clay, 0.3)} strokeWidth="2.4" />
+      <path d="M180 155 Q175 130 190 110 M205 152 Q205 125 205 100 M230 155 Q235 130 220 110" fill="none" stroke="#D9D0C0" strokeWidth="3" strokeLinecap="round" opacity="0.6" />
+      <ellipse cx="120" cy="230" rx="18" ry="10" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <ellipse cx="120" cy="222" rx="14" ry="6" fill={shade(accentColor, 0.2)} />
+      <ellipse cx="290" cy="230" rx="18" ry="10" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <ellipse cx="290" cy="222" rx="14" ry="6" fill={shade(accentColor, 0.2)} />
+    </g>
+  );
+};
+
+const TourDuFasoCiclismo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  return (
+    <g>
+      <path d="M90 245 Q205 235 320 245" stroke={dark} strokeWidth="3" opacity="0.4" fill="none" />
+      <circle cx="150" cy="220" r="26" fill="none" stroke="#3A3A3A" strokeWidth="6" />
+      <circle cx="245" cy="220" r="26" fill="none" stroke="#3A3A3A" strokeWidth="6" />
+      <line x1="150" y1="220" x2="195" y2="180" stroke="#3A3A3A" strokeWidth="5" />
+      <line x1="195" y1="180" x2="245" y2="220" stroke="#3A3A3A" strokeWidth="5" />
+      <line x1="195" y1="180" x2="175" y2="220" stroke="#3A3A3A" strokeWidth="5" />
+      <line x1="150" y1="220" x2="215" y2="205" stroke="#3A3A3A" strokeWidth="5" />
+      <circle cx="200" cy="150" r="14" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M185 168 Q200 158 215 168 L205 195 L188 195 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M188 175 Q170 185 175 205" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <line x1="205" y1="195" x2="215" y2="205" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <line x1="260" y1="140" x2="285" y2="115" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <path d="M280 105 L300 100 L300 130 L280 120 Z" fill={accentColor} stroke={dark} strokeWidth="1.8" />
+    </g>
+  );
+};
+
+const LagoTengrelaHipopotamos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const hippo = "#6B7B7A";
+  return (
+    <g>
+      <rect x="90" y="190" width="230" height="60" fill={accentColor} opacity="0.35" />
+      <path d="M120 225 Q205 205 290 225 L275 240 Q205 225 135 240 Z" fill="#8B5A2B" stroke={dark} strokeWidth="2.6" />
+      <ellipse cx="150" cy="215" rx="10" ry="7" fill={hippo} stroke={shade(hippo, 0.3)} strokeWidth="2" />
+      <circle cx="245" cy="205" r="24" fill={hippo} stroke={shade(hippo, 0.3)} strokeWidth="2.6" />
+      <ellipse cx="234" cy="198" rx="4" ry="3" fill="#1A1A1A" />
+      <ellipse cx="256" cy="198" rx="4" ry="3" fill="#1A1A1A" />
+      <ellipse cx="234" cy="190" rx="3" ry="2.5" fill={hippo} stroke={shade(hippo, 0.3)} strokeWidth="1.5" />
+      <ellipse cx="256" cy="190" rx="3" ry="2.5" fill={hippo} stroke={shade(hippo, 0.3)} strokeWidth="1.5" />
+    </g>
+  );
+};
+
+const AugeDelOroBurkines: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const sand = "#D9BE8F";
+  return (
+    <g>
+      <ellipse cx="150" cy="235" rx="45" ry="12" fill={sand} opacity="0.6" />
+      <ellipse cx="270" cy="240" rx="35" ry="10" fill={sand} opacity="0.6" />
+      <circle cx="205" cy="150" r="14" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M190 168 Q205 155 220 168 L215 200 Q205 208 195 200 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M192 180 Q160 195 155 215" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M218 180 Q245 195 250 215" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <ellipse cx="200" cy="220" rx="45" ry="14" fill="#8B5A2B" stroke={shade("#8B5A2B", 0.3)} strokeWidth="2.4" />
+      <circle cx="185" cy="218" r="4" fill="#D4A017" />
+      <circle cx="205" cy="222" r="4" fill="#D4A017" />
+      <circle cx="220" cy="216" r="4" fill="#D4A017" />
+    </g>
+  );
+};
+
 export const burkinaFasoIllustrations: Record<string, IllustrationDefinition> = {
   "el-festival-de-cine-mas-grande-de-africa": { component: ElFestivalDeCineMasGrandeDeAfrica },
   "las-ruinas-de-piedra-de-una-ruta-del-oro-olvidada": { component: LasRuinasDePiedraDeUnaRutaDelOroOlvidada },
@@ -169,4 +262,9 @@ export const burkinaFasoIllustrations: Record<string, IllustrationDefinition> = 
   "el-pais-que-eligio-un-nombre-propio-en-1984": { component: ElPaisQueEligioUnNombrePropioEn1984 },
   "la-pasta-de-mijo-que-acompana-cada-comida": { component: LaPastaDeMijoQueAcompanaCadaComida },
   "la-reserva-donde-los-elefantes-cruzan-el-camino": { component: LaReservaDondeLosElefantesCruzanElCamino },
+  "faso-dan-fani-tela-sankara": { component: FasoDanFaniTelaSankara },
+  "dolo-cerveza-de-mijo": { component: DoloCervezaDeMijo },
+  "tour-du-faso-ciclismo": { component: TourDuFasoCiclismo },
+  "lago-tengrela-hipopotamos": { component: LagoTengrelaHipopotamos },
+  "auge-del-oro-burkines": { component: AugeDelOroBurkines },
 };

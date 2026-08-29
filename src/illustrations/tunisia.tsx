@@ -138,6 +138,90 @@ const ElPaisArabeDondeVotaronLasMujeres: IllustrationComponent = ({ accentColor 
   );
 };
 
+const LaFortalezaDeMonjesGuerrerosEnSusa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="120" y="170" width="160" height="70" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="2.6" />
+      {[130, 155, 180, 205, 230, 255].map((x) => (
+        <rect key={x} x={x} y="158" width="14" height="14" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="1.8" />
+      ))}
+      <rect x="185" y="90" width="45" height="150" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      {[195, 210].map((x) => (
+        <rect key={x} x={x} y="78" width="10" height="14" fill={accentColor} stroke={dark} strokeWidth="1.8" />
+      ))}
+      <path d="M195 240 Q207 210 220 240 Z" fill="#3A2418" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const ElMuseoConLosMosaicosRomanosMasGrandesDelMundo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="100" width="230" height="140" fill="#D9C9A3" stroke={dark} strokeWidth="2.6" />
+      {[110, 130, 150, 170, 190, 210, 230, 250, 270, 290].map((x) => (
+        <line key={x} x1={x} y1="100" x2={x} y2="240" stroke="#C9C0A8" strokeWidth="1" opacity="0.5" />
+      ))}
+      <path
+        d="M140 170 Q180 145 230 170 Q260 180 272 170 L260 192 Q230 198 180 198 Q150 198 140 170 Z"
+        fill={accentColor}
+        stroke={dark}
+        strokeWidth="2.4"
+      />
+      <polygon points="130,170 145,160 145,180" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <circle cx="220" cy="168" r="4" fill="#F5F0E6" />
+    </g>
+  );
+};
+
+const LaSinagogaMasAntiguaDeAfrica: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="140" y="150" width="120" height="90" fill="#F5F0E6" stroke={dark} strokeWidth="2.6" />
+      <path d="M180 150 Q180 115 200 105 Q220 115 220 150" fill="none" stroke={accentColor} strokeWidth="4" />
+      <rect x="150" y="165" width="18" height="24" fill={accentColor} opacity="0.7" stroke={dark} strokeWidth="1.6" />
+      <rect x="232" y="165" width="18" height="24" fill={accentColor} opacity="0.7" stroke={dark} strokeWidth="1.6" />
+      <path d="M185 240 L185 190 Q200 172 215 190 L215 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+    </g>
+  );
+};
+
+const ElPlatoQueCuatroPaisesDeclararonJuntosAnteLaUnesco: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <ellipse cx="205" cy="210" rx="95" ry="30" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.8" />
+      <ellipse cx="205" cy="195" rx="80" ry="24" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <circle cx="180" cy="188" r="10" fill="#C1272D" stroke={dark} strokeWidth="1.8" />
+      <circle cx="225" cy="185" r="9" fill="#2F6B3A" stroke={dark} strokeWidth="1.8" />
+      <path d="M180 170 Q175 150 182 135" fill="none" stroke="#C9C0A8" strokeWidth="3" opacity="0.6" />
+      <path d="M205 165 Q200 145 208 128" fill="none" stroke="#C9C0A8" strokeWidth="3" opacity="0.6" />
+      <path d="M230 170 Q226 150 233 135" fill="none" stroke="#C9C0A8" strokeWidth="3" opacity="0.6" />
+    </g>
+  );
+};
+
+const LaChispaQueEncendioLaPrimaveraArabe: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {[130, 165, 245, 280].map((x, i) => (
+        <g key={i}>
+          <circle cx={x} cy="110" r="12" fill="#8C8C74" opacity="0.55" />
+          <path d={`M${x - 14} 200 L${x - 10} 130 Q${x} 122 ${x + 10} 130 L${x + 14} 200 Z`} fill="#8C8C74" opacity="0.55" />
+        </g>
+      ))}
+      <rect x="170" y="190" width="70" height="14" fill={accentColor} stroke={dark} strokeWidth="2.4" transform="rotate(-18 205 197)" />
+      {[[185, 175], [200, 165], [215, 178]].map(([x, y], i) => (
+        <circle key={i} cx={x} cy={y} r="9" fill="#C9A227" stroke={dark} strokeWidth="1.8" />
+      ))}
+      <path d="M160 240 L170 200 M250 240 L240 200" stroke="#3A2418" strokeWidth="4" />
+    </g>
+  );
+};
+
 export const tunisiaIllustrations: Record<string, IllustrationDefinition> = {
   "la-ciudad-que-desafio-a-roma-y-perdio": { component: LaCiudadQueDesafioARomaYPerdio },
   "el-anfiteatro-romano-mas-grande-de-africa": { component: ElAnfiteatroRomanoMasGrandeDeAfrica },
@@ -149,4 +233,9 @@ export const tunisiaIllustrations: Record<string, IllustrationDefinition> = {
   "la-flor-que-se-regala-en-la-calle-cada-tarde": { component: LaFlorQueSeRegalaEnLaCalleCadaTarde },
   "la-ciudad-romana-que-nadie-reconstruyo-encima": { component: LaCiudadRomanaQueNadieReconstruyoEncima },
   "el-primer-parlamento-arabe-elegido-por-mujeres": { component: ElPaisArabeDondeVotaronLasMujeres },
+  "la-fortaleza-de-monjes-guerreros-en-susa": { component: LaFortalezaDeMonjesGuerrerosEnSusa },
+  "el-museo-con-los-mosaicos-romanos-mas-grandes-del-mundo": { component: ElMuseoConLosMosaicosRomanosMasGrandesDelMundo },
+  "la-sinagoga-mas-antigua-de-africa": { component: LaSinagogaMasAntiguaDeAfrica },
+  "el-plato-que-cuatro-paises-declararon-juntos-ante-la-unesco": { component: ElPlatoQueCuatroPaisesDeclararonJuntosAnteLaUnesco },
+  "la-chispa-que-encendio-la-primavera-arabe": { component: LaChispaQueEncendioLaPrimaveraArabe },
 };

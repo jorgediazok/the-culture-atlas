@@ -128,6 +128,91 @@ const LaMontanaMasAltaCubiertaDeCafeYCacao: IllustrationComponent = () => (
   </g>
 );
 
+const EmmanuelAdebayorMundial2006: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  return (
+    <g>
+      <path d="M185 175 Q160 165 155 145" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M215 175 Q240 165 245 145" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M188 185 Q200 178 212 185 L206 225 Q200 231 194 225 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <circle cx="200" cy="170" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+      <circle cx="260" cy="215" r="12" fill="#F5F0E6" stroke={dark} strokeWidth="2.2" />
+      <path d="M254 209 L266 221 M266 209 L254 221" stroke={dark} strokeWidth="1.6" opacity="0.5" />
+    </g>
+  );
+};
+
+const BellaBellowCantante: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#5C4433";
+  return (
+    <g>
+      <path d="M187 195 Q170 205 175 225" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M213 190 Q230 178 232 160" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M185 200 Q200 190 215 200 L220 245 Q200 253 180 245 Z" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <circle cx="200" cy="178" r="14" fill={skin} stroke={dark} strokeWidth="2.2" />
+      <ellipse cx="232" cy="155" rx="9" ry="13" fill="#3A3A3A" />
+      <rect x="230" y="167" width="4" height="28" fill="#5C5C5C" />
+    </g>
+  );
+};
+
+const ParqueFazaoMalfakassa: IllustrationComponent = ({ accentColor }) => {
+  const fur = "#2E2418";
+  return (
+    <g>
+      <path d="M90 250 Q140 190 205 200 Q270 210 320 180 L320 250 Z" fill={accentColor} opacity="0.4" />
+      <path d="M170 225 Q150 232 148 250" fill="none" stroke={fur} strokeWidth="10" strokeLinecap="round" />
+      <ellipse cx="200" cy="225" rx="35" ry="26" fill={fur} stroke={shade(fur, 0.4)} strokeWidth="2.6" />
+      <circle cx="200" cy="185" r="22" fill={fur} stroke={shade(fur, 0.4)} strokeWidth="2.6" />
+      <ellipse cx="200" cy="192" rx="12" ry="9" fill="#5C4433" />
+      <circle cx="192" cy="180" r="2.5" fill="#1A1A1A" />
+      <circle cx="208" cy="180" r="2.5" fill="#1A1A1A" />
+    </g>
+  );
+};
+
+const SylvanusOlympioIndependencia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  return (
+    <g>
+      <rect x="255" y="110" width="6" height="130" fill="#5C3A21" />
+      <path d="M261 115 L300 130 L261 145 Z" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <path d="M188 178 Q165 190 170 215" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <line x1="170" y1="215" x2="168" y2="238" stroke="#5C3A21" strokeWidth="4" strokeLinecap="round" />
+      <path d="M212 178 Q235 190 228 210" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M184 172 Q200 163 216 172 L210 235 Q200 242 190 235 Z" fill="#1B1B1B" stroke={dark} strokeWidth="2.6" />
+      <circle cx="200" cy="155" r="14" fill={skin} stroke={dark} strokeWidth="2.2" />
+    </g>
+  );
+};
+
+const FestivalYekeYekeGlidji: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  const CROWD: [number, number][] = [
+    [130, 240], [160, 245], [250, 245], [280, 240],
+  ];
+  return (
+    <g>
+      {CROWD.map(([x, y]) => (
+        <g key={`${x}-${y}`}>
+          <circle cx={x} cy={y - 16} r="9" fill={skin} opacity="0.6" />
+          <path d={`M${x - 8} ${y} Q${x} ${y - 12} ${x + 8} ${y}`} fill={dark} opacity="0.5" />
+        </g>
+      ))}
+      <rect x="185" y="150" width="40" height="70" fill="#8B5A2B" stroke={dark} strokeWidth="2.6" />
+      <path d="M185 150 L205 120 L225 150 Z" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.4" />
+      <line x1="160" y1="150" x2="160" y2="120" stroke="#5C3A21" strokeWidth="3" />
+      <path d="M160 120 L180 128 L160 136 Z" fill={accentColor} />
+      <line x1="250" y1="150" x2="250" y2="120" stroke="#5C3A21" strokeWidth="3" />
+      <path d="M250 120 L230 128 L250 136 Z" fill="#C1272D" />
+    </g>
+  );
+};
+
 export const togoIllustrations: Record<string, IllustrationDefinition> = {
   "el-mercado-mas-grande-del-mundo-de-medicina-vudu": { component: ElMercadoMasGrandeDelMundoDeMedicinaVudu },
   "el-pueblo-lacustre-donde-nacio-un-culto": { component: ElPuebloLacustreDondeNacioUnCulto },
@@ -139,4 +224,9 @@ export const togoIllustrations: Record<string, IllustrationDefinition> = {
   "la-bola-de-maiz-que-acompana-cada-guiso": { component: LaBolaDeMaizQueAcompanaCadaGuiso },
   "el-vino-que-gotea-directamente-de-la-palmera": { component: ElVinoQueGoteaDirectamenteDeLaPalmera },
   "la-montana-mas-alta-cubierta-de-cafe-y-cacao": { component: LaMontanaMasAltaCubiertaDeCafeYCacao },
+  "emmanuel-adebayor-mundial-2006": { component: EmmanuelAdebayorMundial2006 },
+  "bella-bellow-cantante": { component: BellaBellowCantante },
+  "parque-fazao-malfakassa": { component: ParqueFazaoMalfakassa },
+  "sylvanus-olympio-independencia": { component: SylvanusOlympioIndependencia },
+  "festival-yeke-yeke-glidji": { component: FestivalYekeYekeGlidji },
 };

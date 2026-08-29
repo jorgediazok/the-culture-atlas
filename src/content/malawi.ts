@@ -251,4 +251,119 @@ export const malawi: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "vimbuza-danza-sanadora",
+    order: 11,
+    placeholderEmoji: "🥁",
+    accentColor: "#8B1A1A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El baile que cura enfermedades invocando espíritus",
+        subtitle: "El vimbuza tumbuka",
+        imageAlt: "Caricatura de una persona bailando en trance junto a tambores encendidos por el fuego.",
+        description:
+          "El vimbuza, una danza ritual de trance practicada por el pueblo tumbuka del norte de Malaui, se usa tradicionalmente para tratar enfermedades que la cosmovisión local atribuye a la posesión espiritual o a un desequilibrio con el mundo de los espíritus, mediante ceremonias que pueden extenderse toda la noche bajo la guía de un sanador llamado 'nchimi', acompañadas de tambores intensos y cantos que inducen un estado de trance en la persona enferma. Durante ese trance, se cree que los espíritus 'hablan' a través del paciente, permitiendo identificarlos y abordarlos como parte del proceso de sanación, una lógica terapéutica distinta a la medicina biomédica occidental con la que hoy convive, a veces con tensión, en los sistemas de salud rurales de Malaui. Reconocido por la Unesco en 2008 como Patrimonio Cultural Inmaterial, el vimbuza sigue practicándose en comunidades rurales como un enfoque complementario, y a veces alternativo, frente a dolencias físicas y psicológicas.",
+      },
+      en: {
+        title: "The Dance That Heals Illness by Calling on Spirits",
+        subtitle: "Tumbuka Vimbuza",
+        imageAlt: "Cartoon of a person dancing in a trance beside firelit drums.",
+        description:
+          "Vimbuza, a trance healing dance practiced by the Tumbuka people of northern Malawi, is traditionally used to treat illnesses that the local worldview attributes to spirit possession or an imbalance with the spirit world, through ceremonies that can stretch through an entire night under the guidance of a healer called an 'nchimi,' accompanied by intense drumming and singing that induce a trance state in the afflicted person. During that trance, the spirits are believed to 'speak' through the patient, allowing them to be identified and addressed directly as part of the healing process, a therapeutic logic entirely different from the Western biomedical medicine it coexists with today, sometimes uneasily, within Malawi's rural healthcare systems. Recognized by UNESCO in 2008 as Intangible Cultural Heritage of Humanity, vimbuza remains actively practiced in rural communities as a complementary, and sometimes alternative, approach to both physical and psychological ailments.",
+      },
+    },
+  },
+  {
+    id: "festival-lake-of-stars",
+    order: 12,
+    placeholderEmoji: "🎪",
+    accentColor: "#0EA5B8",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El festival que convirtió un lago en escenario global",
+        subtitle: "El festival Lake of Stars",
+        imageAlt: "Caricatura de un escenario de música iluminado junto a la orilla de un lago de noche.",
+        description:
+          "El festival Lake of Stars, lanzado en 2004 en las playas del lago Malaui por un aficionado británico a la música que había visitado el país, combina deliberadamente en un mismo escenario a músicos malauíes y de otros países africanos con artistas internacionales, con el objetivo explícito de impulsar el turismo del país y darle a músicos locales una plataforma para llegar a audiencias mucho más amplias de las que alcanzarían por su cuenta. Celebrado directamente sobre la orilla del lago, con el agua como telón de fondo natural del evento, el festival creció hasta convertirse en uno de los encuentros musicales más reconocidos de la región, funcionando también como un punto tangible de intercambio cultural entre Malaui y el resto del mundo. Su organización mantiene además vínculos con iniciativas de desarrollo comunitario que apoyan proyectos artísticos y sociales locales más allá de los pocos días que dura el evento cada año.",
+      },
+      en: {
+        title: "The Festival That Turned a Lake Into a Global Stage",
+        subtitle: "The Lake of Stars Festival",
+        imageAlt: "Cartoon of a lit-up music stage beside a lakeshore at night.",
+        description:
+          "The Lake of Stars festival, launched in 2004 on the shores of Lake Malawi by a British music enthusiast who had visited the country, deliberately mixes Malawian and other African musicians with international acts on the same stages, with the explicit goal of boosting the country's tourism profile and giving local musicians a platform to reach audiences far wider than they could otherwise reach on their own. Held directly on the lake's beaches, with the water itself serving as the event's natural backdrop, the festival grew into one of the most recognized music gatherings in the region, also functioning as a tangible point of cultural exchange between Malawi and the rest of the world. Its organization maintains ties to community development initiatives that support local arts and social projects beyond the handful of days the event runs each year.",
+      },
+    },
+  },
+  {
+    id: "parque-nacional-nyika",
+    order: 13,
+    placeholderEmoji: "🦓",
+    accentColor: "#3A7A45",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La meseta de pastizales donde galopan cebras salvajes",
+        subtitle: "El Parque Nacional de Nyika",
+        imageAlt: "Caricatura de cebras pastando sobre una meseta verde ondulada bajo un cielo despejado.",
+        description:
+          "El Parque Nacional de Nyika, el área protegida más grande de Malaui, se extiende sobre una meseta elevada del extremo norte del país que en algunos puntos supera los dos mil metros de altitud, con un paisaje de pastizales montañosos ondulados radicalmente distinto de la sabana y el paisaje lacustre típicos del resto de Malaui. El parque alberga la mayor población de cebras del país junto con leopardos, antílopes ruanos y elands, y es célebre entre botánicos por concentrar uno de los hábitats de orquídeas más ricos de toda África, con más de doscientas especies que florecen especialmente durante la temporada de lluvias. El clima templado propio de la altitud permite actividades poco comunes en la región, como safaris a caballo, y aunque el parque, establecido originalmente entre las décadas de 1960 y 1970, sigue siendo mucho menos visitado que la zona del lago Malaui, ofrece uno de los paisajes más sorprendentes y distintos de todo el país.",
+      },
+      en: {
+        title: "The Grassland Plateau Where Wild Zebras Roam",
+        subtitle: "Nyika National Park",
+        imageAlt: "Cartoon of zebras grazing on a rolling green plateau under a clear sky.",
+        description:
+          "Nyika National Park, Malawi's largest protected area, spreads across a high plateau in the country's far north that rises above two thousand meters in places, a landscape of rolling montane grassland radically different from the savanna and lakeside scenery typical elsewhere in Malawi. The park holds the country's largest zebra population along with leopards, roan antelope, and eland, and is renowned among botanists for hosting one of Africa's richest orchid habitats, with more than two hundred species blooming especially during the rainy season. The cooler temperate climate at altitude allows activities uncommon for the region, like horseback safaris, and though the park, originally established between the 1960s and 1970s, remains far less visited than the Lake Malawi area, it offers one of the most striking and distinct landscapes anywhere in the country.",
+      },
+    },
+  },
+  {
+    id: "hastings-banda-independencia-1964",
+    order: 14,
+    placeholderEmoji: "🎗️",
+    accentColor: "#1B1B1B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El médico que gobernó 30 años tras la independencia",
+        subtitle: "Hastings Banda y la independencia de 1964",
+        imageAlt: "Caricatura de un hombre con traje y bastón de pie frente a una bandera nueva.",
+        description:
+          "Hastings Kamuzu Banda, médico formado en Estados Unidos y el Reino Unido que regresó para liderar el movimiento independentista de la entonces Nyasalandia británica, se convirtió en primer ministro y luego presidente cuando el país obtuvo su independencia el 6 de julio de 1964, cambiando su nombre de Nyasalandia a Malaui. Gobernó durante treinta años con un poder cada vez más autoritario dentro de un sistema de partido único, llegando a autoproclamarse presidente vitalicio en 1971, hasta que elecciones multipartidarias pusieron fin a su gobierno en 1994. Banda sigue siendo hoy una figura histórica compleja, recordada a la vez como el padre fundador que logró la independencia del país y como un gobernante autoritario cuyas últimas décadas en el poder restringieron severamente las libertades civiles, un legado todavía debatido activamente en la vida pública malauí mientras el 6 de julio se celebra cada año como Día de la Independencia.",
+      },
+      en: {
+        title: "The Doctor Who Ruled for 30 Years After Independence",
+        subtitle: "Hastings Banda and the 1964 Independence",
+        imageAlt: "Cartoon of a man in a suit holding a cane standing before a new flag.",
+        description:
+          "Hastings Kamuzu Banda, a physician trained in the United States and the United Kingdom who returned to lead the independence movement of what was then British Nyasaland, became prime minister and later president when the country gained independence on July 6, 1964, changing its name from Nyasaland to Malawi. He ruled for thirty years with increasingly authoritarian power within a one-party system, going as far as declaring himself President for Life in 1971, until multiparty elections ended his rule in 1994. Banda remains today a complex historical figure, remembered both as the founding father who achieved the country's independence and as an authoritarian ruler whose later decades in power severely restricted civil liberties, a legacy still actively debated in Malawian public life, while July 6 is celebrated every year as Independence Day.",
+      },
+    },
+  },
+  {
+    id: "william-kamkwamba-molino-viento",
+    order: 15,
+    placeholderEmoji: "🌬️",
+    accentColor: "#1B7A9C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El adolescente que armó un molino de viento con basura",
+        subtitle: "William Kamkwamba y su molino de viento",
+        imageAlt: "Caricatura de un joven junto a un molino de viento improvisado con piezas de bicicleta.",
+        description:
+          "William Kamkwamba, nacido en 1987 en una zona rural de Malaui, tuvo que abandonar la escuela secundaria a los catorce años cuando una hambruna dejó a su familia sin recursos para pagar la matrícula, y en lugar de resignarse, se enseñó a sí mismo física básica y electricidad leyendo libros de una biblioteca local escritos en inglés, un idioma que apenas dominaba en ese momento. Con esos conocimientos autodidactas, construyó un molino de viento funcional usando piezas recicladas de bicicleta, tubos de PVC y otros materiales de desecho, logrando generar electricidad para iluminar la casa de su familia, un logro que al principio le valió las burlas de vecinos que sospechaban que practicaba brujería. Su historia llegó a medios internacionales, lo que le abrió la puerta a charlas TED, una beca para estudiar en Sudáfrica y luego en Dartmouth, y la publicación en 2009 de sus memorias 'El niño que domó el viento', adaptadas después en una película de Netflix en 2019.",
+      },
+      en: {
+        title: "The Teenager Who Built a Windmill Out of Junk",
+        subtitle: "William Kamkwamba's Windmill",
+        imageAlt: "Cartoon of a young man beside a homemade windmill built from bicycle parts.",
+        description:
+          "William Kamkwamba, born in 1987 in rural Malawi, was forced to drop out of secondary school at fourteen when a devastating famine left his family unable to afford tuition, and rather than give up, taught himself basic physics and electrical principles by reading science textbooks at a local library, written in English, a language he barely understood at the time. Using that self-taught knowledge, he built a working wind turbine from scavenged bicycle parts, PVC pipe, and other scrap materials, managing to generate electricity to power lights in his family's home, an achievement that at first earned him mockery from neighbors who suspected he was practicing witchcraft. His story reached international media, opening the door to TED Talk appearances, a scholarship to study in South Africa and later at Dartmouth College, and the 2009 publication of his memoir 'The Boy Who Harnessed the Wind,' later adapted into a Netflix film in 2019.",
+      },
+    },
+  },
 ];

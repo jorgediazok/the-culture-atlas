@@ -128,6 +128,100 @@ const ElPaisQueRecibeACualquieraConLosBrazosAbiertos: IllustrationComponent = ({
   );
 };
 
+const VimbuzaDanzaSanadora: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  return (
+    <g>
+      <ellipse cx="150" cy="235" rx="16" ry="8" fill="#8B1A1A" opacity="0.6" />
+      <path d="M144 235 Q142 210 148 195 M156 235 Q158 210 152 195" stroke="#F4A300" strokeWidth="3" strokeLinecap="round" fill="none" opacity="0.8" />
+      <ellipse cx="255" cy="230" rx="20" ry="12" fill="#8B5A2B" stroke={dark} strokeWidth="2.4" />
+      <rect x="245" y="205" width="20" height="26" fill="#8B5A2B" stroke={dark} strokeWidth="2.2" />
+      <path d="M187 172 Q165 155 170 130" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M213 172 Q235 190 225 215" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <line x1="194" y1="205" x2="188" y2="240" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <line x1="206" y1="205" x2="215" y2="240" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M187 165 Q200 158 213 165 L206 205 L194 205 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <circle cx="200" cy="150" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const FestivalLakeOfStars: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="120" fill="#0A1A3A" />
+      <circle cx="270" cy="110" r="14" fill="#F5F0E6" opacity="0.9" />
+      <path d="M90 200 Q205 190 320 200 L320 250 L90 250 Z" fill="#0EA5B8" opacity="0.4" />
+      <rect x="160" y="150" width="90" height="55" fill="#1B1B1B" stroke={dark} strokeWidth="2.4" />
+      <path d="M175 205 L175 150 M205 205 L205 150 M235 205 L235 150" stroke={accentColor} strokeWidth="4" opacity="0.7" />
+      <circle cx="175" cy="150" r="6" fill={accentColor} />
+      <circle cx="205" cy="150" r="6" fill="#D9A227" />
+      <circle cx="235" cy="150" r="6" fill="#C1272D" />
+      <path d="M160 205 Q205 220 250 205" fill="none" stroke={dark} strokeWidth="2" opacity="0.5" />
+    </g>
+  );
+};
+
+const ParqueNacionalNyika: IllustrationComponent = ({ accentColor }) => {
+  const ZEBRAS: [number, number, number][] = [
+    [150, 220, 1], [220, 210, 0.85],
+  ];
+  return (
+    <g>
+      <path d="M90 250 Q140 190 205 200 Q270 210 320 180 L320 250 Z" fill={accentColor} opacity="0.4" />
+      {ZEBRAS.map(([x, y, s]) => (
+        <g key={`${x}-${y}`} transform={`translate(${x} ${y}) scale(${s})`}>
+          <ellipse cx="0" cy="0" rx="26" ry="15" fill="#F5F0E6" stroke="#1A1A1A" strokeWidth="2.2" />
+          <path d="M-22 -10 Q0 -14 22 -10 Q0 -6 -22 -10 M-15 8 Q0 12 15 8" stroke="#1A1A1A" strokeWidth="2" fill="none" />
+          <path d="M18 -8 Q30 -16 32 -8 L26 -2 Z" fill="#F5F0E6" stroke="#1A1A1A" strokeWidth="2" />
+          <line x1="20" y1="-8" x2="18" y2="-16" stroke="#1A1A1A" strokeWidth="2" />
+          <line x1="24" y1="-8" x2="26" y2="-16" stroke="#1A1A1A" strokeWidth="2" />
+          <line x1="-15" y1="12" x2="-17" y2="24" stroke="#1A1A1A" strokeWidth="4" />
+          <line x1="10" y1="13" x2="12" y2="25" stroke="#1A1A1A" strokeWidth="4" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const HastingsBandaIndependencia1964: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  return (
+    <g>
+      <rect x="255" y="110" width="6" height="130" fill="#5C3A21" />
+      <path d="M261 115 L300 130 L261 145 Z" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <path d="M188 178 Q165 190 170 215" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <line x1="170" y1="215" x2="168" y2="238" stroke="#5C3A21" strokeWidth="4" strokeLinecap="round" />
+      <path d="M212 178 Q235 190 228 210" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M184 172 Q200 163 216 172 L210 235 Q200 242 190 235 Z" fill="#1B1B1B" stroke={dark} strokeWidth="2.6" />
+      <circle cx="200" cy="155" r="14" fill={skin} stroke={dark} strokeWidth="2.2" />
+    </g>
+  );
+};
+
+const WilliamKamkwambaMolinoViento: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#5C4433";
+  return (
+    <g>
+      <rect x="255" y="130" width="8" height="110" fill="#8C8C8C" stroke={dark} strokeWidth="2" />
+      <line x1="259" y1="130" x2="290" y2="115" stroke="#3A3A3A" strokeWidth="5" strokeLinecap="round" />
+      <line x1="259" y1="130" x2="290" y2="145" stroke="#3A3A3A" strokeWidth="5" strokeLinecap="round" />
+      <line x1="259" y1="130" x2="228" y2="130" stroke="#3A3A3A" strokeWidth="5" strokeLinecap="round" />
+      <circle cx="259" cy="130" r="6" fill="#3A3A3A" />
+      <path d="M166 175 Q195 180 220 170" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M154 180 Q135 190 138 215" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <line x1="154" y1="220" x2="150" y2="248" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+      <line x1="166" y1="220" x2="172" y2="248" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+      <path d="M147 165 Q160 158 173 165 L166 220 Q160 226 154 220 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <circle cx="160" cy="150" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
 export const malawiIllustrations: Record<string, IllustrationDefinition> = {
   "el-lago-con-mas-especies-de-peces-que-ningun-otro": { component: ElLagoConMasEspeciesDePecesQueNingunOtro },
   "el-gran-baile-de-mascaras-que-solo-los-iniciados-conocen": { component: ElGranBaileDeMascarasQueSoloLosIniciadosConocen },
@@ -139,4 +233,9 @@ export const malawiIllustrations: Record<string, IllustrationDefinition> = {
   "la-hoja-que-sostiene-la-economia-de-todo-un-pais": { component: LaHojaQueSostieneLaEconomiaDeTodoUnPais },
   "el-predicador-que-desafio-al-imperio-mucho-antes-que-otros": { component: ElPredicadorQueDesafioAlImperioAntesQueNadie },
   "el-pais-que-recibe-a-cualquiera-con-los-brazos-abiertos": { component: ElPaisQueRecibeACualquieraConLosBrazosAbiertos },
+  "vimbuza-danza-sanadora": { component: VimbuzaDanzaSanadora },
+  "festival-lake-of-stars": { component: FestivalLakeOfStars },
+  "parque-nacional-nyika": { component: ParqueNacionalNyika },
+  "hastings-banda-independencia-1964": { component: HastingsBandaIndependencia1964 },
+  "william-kamkwamba-molino-viento": { component: WilliamKamkwambaMolinoViento },
 };

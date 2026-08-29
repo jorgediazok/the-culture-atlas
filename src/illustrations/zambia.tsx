@@ -135,6 +135,84 @@ const LaMasaDeMaizQueEstaEnCadaPlato: IllustrationComponent = ({ accentColor }) 
   );
 };
 
+const ElPrimerPresidenteYElLemaDeLaNuevaNacion: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#6B4B3A";
+  return (
+    <g>
+      <rect x="90" y="90" width="230" height="110" fill={accentColor} opacity="0.25" />
+      <circle cx="200" cy="150" r="16" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M182 165 Q200 158 218 165 L212 235 L188 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M218 175 Q245 165 255 190 Q235 185 220 195" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <line x1="182" y1="175" x2="160" y2="185" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const LaTelaQueCuentaLaVidaDeQuienLaUsa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M150 100 L260 100 L275 240 L135 240 Z" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="2.8" />
+      {[[175, 140, 16], [225, 130, 14], [200, 185, 18], [155, 210, 12], [255, 200, 13]].map(([x, y, r], i) => (
+        <circle key={i} cx={x} cy={y} r={r} fill={i % 2 === 0 ? accentColor : "#F5F0E6"} stroke={dark} strokeWidth="1.8" />
+      ))}
+    </g>
+  );
+};
+
+const LasAvesPicoDeZapatoDeLosHumedalesDeBangweulu: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      {[110, 150, 260, 300].map((x, i) => (
+        <path key={i} d={`M${x} 250 L${x} 190 L${x + 6} 190 L${x + 6} 250 Z`} fill="#7A9D2E" opacity="0.5" />
+      ))}
+      <ellipse cx="205" cy="215" rx="35" ry="26" fill="#B8B8A0" stroke={dark} strokeWidth="2.6" />
+      <path d="M205 200 Q195 175 200 155 Q208 178 214 198" fill="#B8B8A0" stroke={dark} strokeWidth="2.4" />
+      <circle cx="200" cy="150" r="15" fill="#B8B8A0" stroke={dark} strokeWidth="2.4" />
+      <path d="M200 150 Q225 145 235 155 Q225 160 200 158 Z" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <circle cx="197" cy="146" r="2.5" fill="#1A1A1A" />
+      <line x1="195" y1="240" x2="192" y2="250" stroke={dark} strokeWidth="4" />
+      <line x1="215" y1="240" x2="220" y2="250" stroke={dark} strokeWidth="4" />
+    </g>
+  );
+};
+
+const LasEsmeraldasQueSalenDeLaTierraZambiana: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 250 Q205 235 320 250" stroke="#5C5C5C" strokeWidth="14" opacity="0.35" fill="none" />
+      <polygon
+        points="205,110 245,140 235,195 175,195 165,140"
+        fill={accentColor}
+        stroke={dark}
+        strokeWidth="2.8"
+      />
+      <polygon points="205,110 245,140 205,150 165,140" fill={tint(accentColor, 0.35)} opacity="0.8" />
+      <polygon points="175,195 205,150 235,195" fill={shade(accentColor, 0.2)} opacity="0.7" />
+      <rect x="130" y="225" width="14" height="30" fill="#8B5A2B" stroke={dark} strokeWidth="2" transform="rotate(-20 137 240)" />
+    </g>
+  );
+};
+
+const LaCopaGanadaEnElLugarDeUnaTragedia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#6B4B3A";
+  return (
+    <g>
+      <ellipse cx="205" cy="245" rx="90" ry="10" fill="#8C8C74" opacity="0.4" />
+      <circle cx="205" cy="150" r="15" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M188 165 Q205 158 222 165 L216 225 L194 225 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M222 170 Q245 150 245 125 Q225 140 218 165" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M245 100 L238 130 L252 130 Z" fill="#D4AF37" stroke={dark} strokeWidth="2.2" />
+      <rect x="240" y="130" width="10" height="14" fill="#D4AF37" stroke={dark} strokeWidth="1.6" />
+      <line x1="188" y1="170" x2="165" y2="185" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const zambiaIllustrations: Record<string, IllustrationDefinition> = {
   "el-humo-que-truena-y-se-ve-desde-lejos": { component: ElHumoQueTruenaYSeVeDesdeLejos },
   "la-piscina-al-borde-del-abismo": { component: LaPiscinaAlBordeDelAbismo },
@@ -146,4 +224,9 @@ export const zambiaIllustrations: Record<string, IllustrationDefinition> = {
   "el-aguila-pescadora-que-vigila-desde-la-bandera": { component: ElAguilaPescadoraQueVigilaDesdeLaBandera },
   "la-cascada-mas-alta-de-toda-africa": { component: LaCascadaMasAltaDeTodaAfrica },
   "la-masa-de-maiz-que-esta-en-cada-plato": { component: LaMasaDeMaizQueEstaEnCadaPlato },
+  "el-primer-presidente-y-el-lema-de-la-nueva-nacion": { component: ElPrimerPresidenteYElLemaDeLaNuevaNacion },
+  "la-tela-que-cuenta-la-vida-de-quien-la-usa": { component: LaTelaQueCuentaLaVidaDeQuienLaUsa },
+  "las-aves-pico-de-zapato-de-los-humedales-de-bangweulu": { component: LasAvesPicoDeZapatoDeLosHumedalesDeBangweulu },
+  "las-esmeraldas-que-salen-de-la-tierra-zambiana": { component: LasEsmeraldasQueSalenDeLaTierraZambiana },
+  "la-copa-ganada-en-el-lugar-de-una-tragedia": { component: LaCopaGanadaEnElLugarDeUnaTragedia },
 };

@@ -231,4 +231,119 @@ export const tunisia: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "la-fortaleza-de-monjes-guerreros-en-susa",
+    order: 11,
+    placeholderEmoji: "🏰",
+    accentColor: "#6B4A2F",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La fortaleza de monjes guerreros",
+        subtitle: "El Ribat de Susa",
+        imageAlt: "Caricatura de una fortaleza circular de piedra con una torre de vigía.",
+        description:
+          "El Ribat de Susa, construido en el año 821 sobre la costa este de Túnez, es una fortaleza monástico-militar que alojaba a los murabitun, guerreros religiosos que combinaban la vida contemplativa con la defensa armada de las costas magrebíes frente a incursiones bizantinas y normandas. Sus gruesos muros de piedra, su torre de vigía circular de casi treinta metros —usada durante siglos como faro— y su patio central rodeado de celdas austeras donde vivían los combatientes-monjes se conservan prácticamente intactos, convirtiéndolo en uno de los ribats mejor preservados del mundo islámico junto con el de Monastir, algo más al sur. Declarado parte del conjunto Patrimonio de la Humanidad de la medina de Susa por la Unesco en 1988, también sirvió de escenario para varias producciones cinematográficas internacionales filmadas en la región.",
+      },
+      en: {
+        title: "The Fortress Built for Warrior Monks",
+        subtitle: "The Ribat of Sousse",
+        imageAlt: "Cartoon of a circular stone fortress with a watchtower.",
+        description:
+          "The Ribat of Sousse, built in the year 821 on Tunisia's eastern coast, is a monastic-military fortress that housed the murabitun, religious warriors who combined a life of contemplation with the armed defense of Maghreb coastlines against Byzantine and Norman raids. Its thick stone walls, a circular watchtower nearly thirty meters tall used for centuries as a lighthouse, and a central courtyard ringed by the austere cells where the warrior-monks lived remain almost entirely intact, making it one of the best-preserved ribats anywhere in the Islamic world, alongside the similar one at nearby Monastir. Declared part of the Sousse medina's UNESCO World Heritage designation in 1988, the fortress has also served as a filming location for several international productions shot in the region.",
+      },
+    },
+  },
+  {
+    id: "el-museo-con-los-mosaicos-romanos-mas-grandes-del-mundo",
+    order: 12,
+    placeholderEmoji: "🐟",
+    accentColor: "#2D5F7C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El museo con los mosaicos romanos más grandes",
+        subtitle: "El Museo del Bardo",
+        imageAlt: "Caricatura de un mosaico romano de peces coloridos en el piso de un salón.",
+        description:
+          "El Museo Nacional del Bardo, instalado en un antiguo palacio de los beyes husseinitas en un suburbio de Túnez capital, alberga la colección de mosaicos romanos más grande del mundo, miles de metros cuadrados retirados de sitios de toda Túnez —entre ellos Cartago, Dougga y El Jem— reunidos a lo largo de más de un siglo de excavaciones iniciadas bajo el protectorado francés. Entre sus piezas más célebres figura un retrato mosaico del siglo tres del poeta latino Virgilio, sentado entre dos musas con un rollo abierto de la Eneida sobre las rodillas, una de las pocas representaciones antiguas conservadas de un escritor romano identificado por su nombre. La combinación de arquitectura palaciega otomana, con techos de madera tallada y patios de azulejos, junto al arte romano de piso, hace del edificio una atracción tan notable como lo que exhibe.",
+      },
+      en: {
+        title: "The Museum With the World's Largest Mosaics",
+        subtitle: "The Bardo Museum",
+        imageAlt: "Cartoon of a colorful Roman fish mosaic on a hall floor.",
+        description:
+          "The Bardo National Museum, housed in a former palace of the Husseinite beys in a suburb of Tunis, holds the largest collection of Roman mosaics in the world, thousands of square meters lifted from sites across Tunisia — including Carthage, Dougga, and El Jem — brought together over more than a century of excavation that began under the French protectorate. Among its most celebrated pieces is a third-century mosaic portrait of the Latin poet Virgil, seated between two muses with an open scroll of the Aeneid on his lap, one of the few surviving ancient depictions of a named Roman writer. The building's mix of Ottoman-era palace architecture, with carved wooden ceilings and tiled courtyards, alongside Roman floor art on display throughout, makes it, by many visitors' accounts, as remarkable as what it holds.",
+      },
+    },
+  },
+  {
+    id: "la-sinagoga-mas-antigua-de-africa",
+    order: 13,
+    placeholderEmoji: "🕍",
+    accentColor: "#3D6B9E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La sinagoga más antigua de África",
+        subtitle: "La Ghriba de Yerba",
+        imageAlt: "Caricatura de una sinagoga azul y blanca con una puerta arqueada.",
+        description:
+          "La sinagoga de la Ghriba, en la isla de Yerba, es una de las más antiguas de África y del mundo, con una tradición local que sitúa su fundación en el siglo seis antes de Cristo por refugiados judíos que, según la leyenda, trajeron consigo una piedra del Templo de Jerusalén destruido, aunque el edificio actual data de finales del siglo diecinueve. La comunidad judía de Yerba, una de las más antiguas de la diáspora, mantuvo durante siglos una convivencia estable con la mayoría musulmana de la isla, y aunque gran parte de sus miembros emigró a Francia e Israel en las últimas décadas, un pequeño número de familias permanece. Cada año, en la fiesta de Lag Baomer, miles de peregrinos judíos de la diáspora tunecina regresan a la Ghriba, cuyo interior de azulejos azules y huevos de avestruz colgados del techo —símbolo tradicional de buena suerte— sigue recibiendo visitantes de todo el mundo.",
+      },
+      en: {
+        title: "One of Africa's Oldest Synagogues",
+        subtitle: "El Ghriba, Djerba",
+        imageAlt: "Cartoon of a blue and white synagogue with an arched door.",
+        description:
+          "The El Ghriba synagogue, on the island of Djerba, is one of the oldest in Africa and in the world, with local tradition placing its founding in the sixth century BCE by Jewish refugees who, according to legend, carried with them a stone from the destroyed Temple of Jerusalem, though the current building dates to the late nineteenth century. Djerba's Jewish community, one of the oldest in the diaspora, maintained centuries of stable coexistence with the island's Muslim majority, and although most of its members emigrated to France and Israel in recent decades, a small number of families still remain. Each year, during the festival of Lag BaOmer, thousands of Jewish pilgrims from the Tunisian diaspora return to El Ghriba, whose interior of blue tiles and ostrich eggs hung from the ceiling — a traditional symbol of good luck — still welcomes visitors from around the world.",
+      },
+    },
+  },
+  {
+    id: "el-plato-que-cuatro-paises-declararon-juntos-ante-la-unesco",
+    order: 14,
+    placeholderEmoji: "🍚",
+    accentColor: "#D9A441",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El plato que cuatro países declararon juntos",
+        subtitle: "El cuscús magrebí",
+        imageAlt: "Caricatura de un plato de cuscús con verduras y vapor subiendo.",
+        description:
+          "El cuscús, sémola de trigo cocida al vapor en un recipiente doble llamado cuscusera, es un plato tan compartido en todo el Magreb que en 2020 Argelia, Mauritania, Marruecos y Túnez presentaron ante la Unesco, de forma conjunta y poco habitual entre países con relaciones diplomáticas a veces tensas, una candidatura común que logró declararlo Patrimonio Cultural Inmaterial de la Humanidad. En Túnez se prepara tradicionalmente los viernes, acompañado de pescado o cordero condimentado con harissa, y su elaboración exige varias pasadas de vapor y trabajo manual para separar los granos y lograr una textura ligera, una tarea que durante generaciones reunió a las mujeres de una familia alrededor de una misma mesa antes de festividades y bodas. Cada región tunecina conserva variantes propias, desde el cuscús dulce con dátiles y frutos secos hasta versiones marineras de la costa.",
+      },
+      en: {
+        title: "The Dish Four Countries Declared Together",
+        subtitle: "Maghreb Couscous",
+        imageAlt: "Cartoon of a plate of couscous with vegetables and rising steam.",
+        description:
+          "Couscous, wheat semolina steamed in a double vessel called a couscoussier, is shared so widely across the Maghreb that in 2020 Algeria, Mauritania, Morocco, and Tunisia jointly submitted an unusual shared nomination to UNESCO — unusual given the countries' sometimes tense diplomatic relations — that succeeded in having it declared Intangible Cultural Heritage of Humanity. In Tunisia it's traditionally prepared on Fridays, served with fish or lamb seasoned with harissa, and its preparation demands several rounds of steaming and hand-rolling to separate the grains and achieve a light texture, a task that for generations brought a family's women together around one table before holidays and weddings. Each Tunisian region keeps its own variants, from a sweet version with dates and dried fruit to seafood versions along the coast.",
+      },
+    },
+  },
+  {
+    id: "la-chispa-que-encendio-la-primavera-arabe",
+    order: 15,
+    placeholderEmoji: "🔥",
+    accentColor: "#A61C1C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La chispa que encendió la Primavera Árabe",
+        subtitle: "Mohamed Buazizi y la revolución de 2011",
+        imageAlt: "Caricatura de un carrito de frutas volcado junto a una multitud al fondo.",
+        description:
+          "En diciembre de 2010, Mohamed Buazizi, un vendedor ambulante de frutas de la ciudad de Sidi Buzid, se prendió fuego en protesta después de que funcionarios municipales le confiscaran su carrito y su mercancía, un gesto de desesperación que encendió semanas de protestas masivas contra el desempleo, la corrupción y la represión política en todo el país. La presión popular obligó al presidente Zin el Abidín Ben Alí, en el poder durante veintitrés años, a huir del país en enero de 2011 tras apenas un mes de disturbios, convirtiendo a Túnez en el primer gobierno derrocado de lo que se conoció internacionalmente como la Primavera Árabe, una ola de protestas que luego se extendió a Egipto, Libia y otros países. A diferencia de la mayoría de esos procesos, Túnez es citado habitualmente como el único caso donde las protestas derivaron en una transición duradera hacia la democracia multipartidista, con una nueva constitución adoptada en 2014.",
+      },
+      en: {
+        title: "The Spark That Lit the Arab Spring",
+        subtitle: "Mohamed Bouazizi and the 2011 Revolution",
+        imageAlt: "Cartoon of an overturned fruit cart beside a crowd in the background.",
+        description:
+          "In December 2010, Mohamed Bouazizi, a street fruit vendor in the city of Sidi Bouzid, set himself on fire in protest after municipal officials confiscated his cart and his produce, an act of desperation that ignited weeks of mass protests against unemployment, corruption, and political repression across the country. Popular pressure forced president Zine el-Abidine Ben Ali, in power for twenty-three years, to flee the country in January 2011 after barely a month of unrest, making Tunisia the first government toppled in what became known internationally as the Arab Spring, a wave of protest that later spread to Egypt, Libya, and other countries. Unlike most of those other processes, Tunisia is regularly cited as the one case where the protests led to a lasting transition toward multi-party democracy, with a new constitution adopted in 2014.",
+      },
+    },
+  },
 ];

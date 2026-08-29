@@ -169,6 +169,86 @@ const ElParqueDondeReintrodujeronAnimalesTrasLaGuerra: IllustrationComponent = (
   );
 };
 
+const LaReinaQueResistioTreintaAnosAPortugal: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const gold = "#C9A227";
+  return (
+    <g>
+      {/* robe, drawn with a tall apex so the head circle overlaps it well */}
+      <path d="M175 240 Q170 195 200 165 Q230 195 225 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      <circle cx="200" cy="160" r="20" fill={skin} stroke={dark} strokeWidth="2.2" />
+      <path d="M178 152 Q200 105 222 152 Q210 140 200 138 Q190 140 178 152 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2.4" />
+      <path d="M222 195 Q248 185 258 155" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <line x1="258" y1="155" x2="272" y2="95" stroke="#8C6A3E" strokeWidth="5" strokeLinecap="round" />
+      <path d="M268 100 L280 90 L272 112 Z" fill="#B0B0B0" stroke={dark} strokeWidth="1.5" />
+      <path d="M178 195 Q160 210 165 235" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const LaPlantaQuePuedeVivirMilAnos: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const sand = "#D9C9A3";
+  return (
+    <g>
+      <ellipse cx="205" cy="245" rx="110" ry="14" fill={sand} opacity="0.6" />
+      <path d="M195 220 Q140 200 110 150 Q150 195 175 215 Q130 175 100 110 Q160 185 190 218" fill="none" stroke={accentColor} strokeWidth="6" strokeLinecap="round" />
+      <path d="M215 220 Q270 200 300 150 Q260 195 235 215 Q280 175 310 110 Q250 185 220 218" fill="none" stroke={tint(accentColor, 0.2)} strokeWidth="6" strokeLinecap="round" />
+      <ellipse cx="205" cy="225" rx="26" ry="14" fill={dark} stroke={shade(dark, 0.3)} strokeWidth="2.4" />
+    </g>
+  );
+};
+
+const LaMascaraQueRepresentaALaMujerIdeal: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const wood = "#3A2A1E";
+  return (
+    <g>
+      <path d="M180 122 Q205 95 230 122" fill="none" stroke={dark} strokeWidth="8" strokeLinecap="round" />
+      <path d="M205 120 Q250 125 250 175 Q250 220 205 235 Q160 220 160 175 Q160 125 205 120 Z" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="3" />
+      <path d="M185 145 L195 155 L185 165 M225 145 L215 155 L225 165" fill="none" stroke={accentColor} strokeWidth="2.5" />
+      <path d="M180 175 Q190 168 200 175" fill="none" stroke={accentColor} strokeWidth="3" strokeLinecap="round" />
+      <path d="M210 175 Q220 168 230 175" fill="none" stroke={accentColor} strokeWidth="3" strokeLinecap="round" />
+      <line x1="205" y1="178" x2="205" y2="198" stroke={accentColor} strokeWidth="2.5" />
+      <path d="M190 210 Q205 218 220 210" fill="none" stroke={accentColor} strokeWidth="3" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const LasRocasNegrasDondeNjingaDejoSuHuella: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  return (
+    <g>
+      <rect x="90" y="230" width="230" height="20" fill="#B8A67A" opacity="0.4" />
+      <path d="M110 240 Q100 160 150 130 Q190 110 195 160 Q200 210 160 240 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M190 240 Q180 130 240 100 Q290 90 285 160 Q280 220 230 240 Z" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="3" />
+      <path d="M270 240 Q265 190 300 175 Q320 170 320 210 Q320 235 295 240 Z" fill={tint(accentColor, 0.1)} stroke={dark} strokeWidth="2.6" />
+      <ellipse cx="255" cy="150" rx="6" ry="10" fill={dark} opacity="0.6" />
+      <ellipse cx="270" cy="145" rx="6" ry="10" fill={dark} opacity="0.6" />
+    </g>
+  );
+};
+
+const ElArteMarcialBrasilenoQueLlevaElNombreDeAngola: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin1 = "#8B5A2B";
+  const skin2 = "#C68A5A";
+  return (
+    <g>
+      <ellipse cx="205" cy="240" rx="100" ry="10" fill={dark} opacity="0.3" />
+      <circle cx="165" cy="215" r="12" fill={skin1} stroke={dark} strokeWidth="2" />
+      <path d="M165 220 Q160 200 180 190" fill="none" stroke={accentColor} strokeWidth="9" strokeLinecap="round" />
+      <line x1="180" y1="190" x2="180" y2="150" stroke={skin1} strokeWidth="8" strokeLinecap="round" />
+      <path d="M172 200 Q150 210 145 235" fill="none" stroke={skin1} strokeWidth="8" strokeLinecap="round" />
+      <circle cx="255" cy="150" r="12" fill={skin2} stroke={dark} strokeWidth="2" />
+      <path d="M255 158 Q260 190 240 205" fill="none" stroke={tint(accentColor, 0.2)} strokeWidth="9" strokeLinecap="round" />
+      <line x1="240" y1="205" x2="285" y2="215" stroke={skin2} strokeWidth="8" strokeLinecap="round" />
+      <path d="M248 175 Q225 165 215 148" fill="none" stroke={skin2} strokeWidth="8" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const angolaIllustrations: Record<string, IllustrationDefinition> = {
   "la-cascada-que-se-escucha-antes-de-verse": { component: LaCascadaQueSeEscuchaAntesDeVerse },
   "el-antilope-que-se-creyo-extinto-y-no-lo-estaba": { component: ElAntilopeQueSeCreyoExtintoYNoLoEstaba },
@@ -180,4 +260,9 @@ export const angolaIllustrations: Record<string, IllustrationDefinition> = {
   "el-ferrocarril-que-cruzo-el-continente-de-costa-a-costa": { component: ElFerrocarrilQueCruzoElContinenteDeCostaACosta },
   "el-guiso-de-pollo-que-se-cocina-en-todo-hogar": { component: ElGuisoDePolloQueSeCocinaEnTodoHogar },
   "el-parque-donde-reintrodujeron-animales-tras-la-guerra": { component: ElParqueDondeReintrodujeronAnimalesTrasLaGuerra },
+  "la-reina-que-resistio-treinta-anos-a-portugal": { component: LaReinaQueResistioTreintaAnosAPortugal },
+  "la-planta-que-puede-vivir-mil-anos": { component: LaPlantaQuePuedeVivirMilAnos },
+  "la-mascara-que-representa-a-la-mujer-ideal": { component: LaMascaraQueRepresentaALaMujerIdeal },
+  "las-rocas-negras-donde-njinga-dejo-su-huella": { component: LasRocasNegrasDondeNjingaDejoSuHuella },
+  "el-arte-marcial-brasileno-que-lleva-el-nombre-de-angola": { component: ElArteMarcialBrasilenoQueLlevaElNombreDeAngola },
 };

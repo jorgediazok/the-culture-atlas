@@ -284,6 +284,98 @@ const LaCervezaDeBananaQueCorreEnCadaCelebracion: IllustrationComponent = ({ acc
   );
 };
 
+// 11. El primer parlamento del mundo con mayoría de mujeres — speaker figure
+// (the proven `person` helper) before a legislative bench.
+const MujeresParlamentoRuanda: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const SEATS = [0, 1, 2, 3, 4];
+  return (
+    <g>
+      <rect x="100" y="170" width="210" height="60" fill="#8B5A2B" stroke="#4A2E14" strokeWidth="2.4" />
+      {SEATS.map((i) => (
+        <circle key={i} cx={120 + i * 40} cy={195} r="8" fill="#3A2A1E" opacity="0.5" />
+      ))}
+      {person(205, 235, 1.15, dark, accentColor)}
+      <path d="M218 195 Q235 188 240 172" stroke={dark} strokeWidth="6" fill="none" strokeLinecap="round" />
+    </g>
+  );
+};
+
+// 12. El renacimiento del Parque de Akagera — lion and rhino on savanna,
+// using the same overlap margins proven safe elsewhere in this style.
+const RenacimientoParqueAkagera: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="200" width="230" height="50" fill="#D9BE8F" opacity="0.5" />
+      <line x1="270" y1="245" x2="272" y2="170" stroke="#5C3A21" strokeWidth="6" />
+      <ellipse cx="272" cy="155" rx="42" ry="20" fill="#3A7A45" opacity="0.6" />
+      <ellipse cx="150" cy="215" rx="14" ry="16" fill="#8B5A2B" stroke={dark} strokeWidth="2.2" />
+      <ellipse cx="175" cy="222" rx="30" ry="16" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <line x1="160" y1="228" x2="158" y2="248" stroke={accentColor} strokeWidth="6" strokeLinecap="round" />
+      <line x1="192" y1="228" x2="196" y2="248" stroke={accentColor} strokeWidth="6" strokeLinecap="round" />
+      <ellipse cx="255" cy="215" rx="30" ry="18" fill="#8C8C8C" stroke={dark} strokeWidth="2.4" />
+      <path d="M225 212 Q210 215 208 232" fill="none" stroke="#8C8C8C" strokeWidth="9" strokeLinecap="round" />
+      <path d="M212 212 L200 205" stroke="#8C8C8C" strokeWidth="6" strokeLinecap="round" />
+      <line x1="238" y1="230" x2="236" y2="248" stroke="#8C8C8C" strokeWidth="6" strokeLinecap="round" />
+      <line x1="268" y1="230" x2="270" y2="248" stroke="#8C8C8C" strokeWidth="6" strokeLinecap="round" />
+    </g>
+  );
+};
+
+// 13. El Palacio del Rey en Nyanza y las vacas inyambo — dome-shaped hut plus
+// a cow with extravagantly long, sweeping horns.
+const PalacioNyanzaVacasInyambo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const cow = "#C68642";
+  return (
+    <g>
+      <path d="M110 240 Q108 195 130 185 Q150 178 165 190 L165 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <path d="M110 195 Q100 185 105 175 Q112 182 115 192 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <ellipse cx="250" cy="200" rx="45" ry="28" fill={cow} stroke="#6B4423" strokeWidth="2.6" />
+      <line x1="225" y1="222" x2="220" y2="245" stroke={cow} strokeWidth="8" strokeLinecap="round" />
+      <line x1="270" y1="222" x2="278" y2="245" stroke={cow} strokeWidth="8" strokeLinecap="round" />
+      <circle cx="220" cy="175" r="16" fill={cow} stroke="#6B4423" strokeWidth="2.4" />
+      <path d="M215 165 Q170 140 155 105 M212 168 Q160 175 130 165" fill="none" stroke="#F5F0E6" strokeWidth="4" strokeLinecap="round" />
+      <path d="M225 165 Q260 135 285 100 M228 168 Q275 168 305 152" fill="none" stroke="#F5F0E6" strokeWidth="4" strokeLinecap="round" />
+    </g>
+  );
+};
+
+// 14. El Mundial de Ciclismo de la UCI 2025 — cyclist climbing a hilly road.
+const MundialCiclismoUci2025: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#5C4433";
+  return (
+    <g>
+      <path d="M90 250 Q150 200 205 190 Q260 180 320 130" fill="none" stroke="#8C8C8C" strokeWidth="10" opacity="0.5" />
+      <circle cx="175" cy="205" r="18" fill="none" stroke="#3A3A3A" strokeWidth="4" />
+      <circle cx="225" cy="185" r="16" fill="none" stroke="#3A3A3A" strokeWidth="4" />
+      <path d="M175 205 L200 195 L225 185 L210 190 L200 195" stroke="#3A3A3A" strokeWidth="3" fill="none" />
+      <path d="M195 190 Q198 170 210 165" stroke={skin} strokeWidth="6" fill="none" strokeLinecap="round" />
+      <path d="M195 190 Q188 178 178 178" stroke={skin} strokeWidth="6" fill="none" strokeLinecap="round" />
+      <path d="M188 175 Q200 168 212 175 L206 195 L194 195 Z" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <circle cx="200" cy="163" r="10" fill={skin} stroke={dark} strokeWidth="1.8" />
+    </g>
+  );
+};
+
+// 15. El umushanana — draped dress with a diagonal sash across one shoulder.
+const UmushananaVestidoTradicional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#5C4433";
+  const gold = "#D9A227";
+  return (
+    <g>
+      <path d="M183 190 Q165 200 168 240" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M213 190 Q232 198 228 235" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M185 195 Q200 185 215 195 L222 240 Q200 250 178 240 Z" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.4" />
+      <path d="M178 195 Q160 200 165 240 Q195 250 200 240 L188 198 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2.2" />
+      <circle cx="200" cy="178" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
 export const rwandaIllustrations: Record<string, IllustrationDefinition> = {
   "el-ultimo-refugio-de-los-gorilas-de-montana": { component: ElUltimoRefugioDeLosGorilasDeMontana },
   "el-sabado-en-que-todo-el-pais-trabaja-junto": { component: ElSabadoEnQueTodoElPaisTrabajaJunto },
@@ -295,4 +387,9 @@ export const rwandaIllustrations: Record<string, IllustrationDefinition> = {
   "la-capital-que-prohibio-las-bolsas-de-plastico": { component: LaCapitalQueProhibioLasBolsasDePlastico },
   "los-tambores-reales-que-anunciaban-al-rey": { component: LosTamboresRealesQueAnunciabanAlRey },
   "la-cerveza-de-banana-que-corre-en-cada-celebracion": { component: LaCervezaDeBananaQueCorreEnCadaCelebracion },
+  "mujeres-parlamento-ruanda": { component: MujeresParlamentoRuanda },
+  "renacimiento-parque-akagera": { component: RenacimientoParqueAkagera },
+  "palacio-nyanza-vacas-inyambo": { component: PalacioNyanzaVacasInyambo },
+  "mundial-ciclismo-uci-2025": { component: MundialCiclismoUci2025 },
+  "umushanana-vestido-tradicional": { component: UmushananaVestidoTradicional },
 };

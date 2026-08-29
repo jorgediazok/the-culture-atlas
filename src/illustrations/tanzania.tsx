@@ -1,3 +1,4 @@
+import { shade } from "./palette";
 import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 function person(x: number, y: number, scale: number, dark: string, robe: string, skin = "#3A2A1E") {
@@ -124,6 +125,87 @@ const LaPastaDeMaizQueAcompanaCadaComidaTanzana: IllustrationComponent = () => (
   </g>
 );
 
+const JuliusNyerereUnionTanzania: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin1 = "#3A2A1E";
+  const skin2 = "#8B5A2B";
+  return (
+    <g>
+      <rect x="110" y="150" width="200" height="90" fill="#D9C08A" opacity="0.3" stroke={dark} strokeWidth="2" />
+      <path d="M150 210 Q170 190 190 205 L185 220 Q165 215 152 222 Z" fill={skin1} stroke={dark} strokeWidth="2" />
+      <path d="M260 210 Q240 190 220 205 L225 220 Q245 215 258 222 Z" fill={skin2} stroke={dark} strokeWidth="2" />
+      <rect x="130" y="160" width="30" height="20" fill={accentColor} stroke={dark} strokeWidth="1.6" />
+      <rect x="250" y="160" width="30" height="20" fill="#C1272D" stroke={dark} strokeWidth="1.6" />
+    </g>
+  );
+};
+
+const BongoFlavaMusica: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#5C4433";
+  const BEAMS: [number, number][] = [
+    [150, 140], [260, 140],
+  ];
+  return (
+    <g>
+      {BEAMS.map(([x, y]) => (
+        <line key={`${x}-${y}`} x1={x} y1={y} x2={x} y2={y - 25} stroke={accentColor} strokeWidth="3" opacity="0.6" />
+      ))}
+      <path d="M182 158 Q175 165 180 175 M228 158 Q235 165 230 175" stroke="#1A1A1A" strokeWidth="4" fill="none" strokeLinecap="round" />
+      <path d="M188 178 Q205 170 222 178 L216 225 Q205 231 194 225 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <circle cx="205" cy="190" r="9" fill="#1A1A1A" />
+      <rect x="199" y="195" width="12" height="30" fill="#3A3A3A" />
+      <circle cx="205" cy="160" r="16" fill={skin} stroke={dark} strokeWidth="2.2" />
+      <path d="M189 148 Q205 132 221 148 Q221 158 205 155 Q189 158 189 148 Z" fill="#1A1A1A" />
+    </g>
+  );
+};
+
+const TaarabMusicaZanzibar: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#C68A5A";
+  return (
+    <g>
+      <path d="M188 190 Q215 195 230 200" fill="none" stroke={skin} strokeWidth="6" strokeLinecap="round" />
+      <rect x="240" y="165" width="6" height="40" fill="#5C3A21" />
+      <ellipse cx="245" cy="195" rx="26" ry="20" fill="#D9A227" stroke="#8B5A2B" strokeWidth="2.4" />
+      <path d="M167 165 Q180 158 193 165 L188 220 L172 220 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <circle cx="180" cy="150" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const PinturaTingatinga: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="110" y="110" width="190" height="140" fill="#F4C430" stroke={dark} strokeWidth="4" />
+      <line x1="185" y1="222" x2="180" y2="240" stroke="#1A1A1A" strokeWidth="5" strokeLinecap="round" />
+      <line x1="220" y1="222" x2="225" y2="240" stroke="#1A1A1A" strokeWidth="5" strokeLinecap="round" />
+      <ellipse cx="205" cy="200" rx="45" ry="26" fill={accentColor} stroke="#1A1A1A" strokeWidth="3" />
+      <circle cx="248" cy="175" r="20" fill={accentColor} stroke="#1A1A1A" strokeWidth="3" />
+      <path d="M240 160 L235 145 M256 160 L262 145" stroke="#1A1A1A" strokeWidth="4" strokeLinecap="round" />
+      <circle cx="255" cy="170" r="2.5" fill="#1A1A1A" />
+      <circle cx="140" cy="140" r="10" fill="#C1272D" opacity="0.8" />
+      <circle cx="270" cy="230" r="8" fill="#3A7A45" opacity="0.8" />
+    </g>
+  );
+};
+
+const RuinasKilwaKisiwani: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  return (
+    <g>
+      <rect x="90" y="220" width="230" height="30" fill="#1B7A9C" opacity="0.4" />
+      <rect x="140" y="160" width="120" height="70" fill={accentColor} stroke={dark} strokeWidth="2.6" opacity="0.85" />
+      <path d="M160 160 Q160 130 185 130 Q210 130 210 160" fill="none" stroke={dark} strokeWidth="3" />
+      <rect x="225" y="150" width="18" height="80" fill={accentColor} stroke={dark} strokeWidth="2.4" opacity="0.7" />
+      <rect x="150" y="200" width="16" height="30" fill="#3A2A1E" opacity="0.6" />
+      <path d="M140 160 L130 150 M260 160 L270 150" stroke={dark} strokeWidth="2" opacity="0.5" />
+    </g>
+  );
+};
+
 export const tanzaniaIllustrations: Record<string, IllustrationDefinition> = {
   "el-techo-nevado-de-toda-africa": { component: ElTechoNevadoDeTodaAfrica },
   "la-migracion-de-dos-millones-de-animales": { component: LaMigracionDeDosMillonesDeAnimales },
@@ -135,4 +217,9 @@ export const tanzaniaIllustrations: Record<string, IllustrationDefinition> = {
   "la-isla-que-huele-a-clavo-de-olor": { component: LaIslaQueHueleAClavoDeOlor },
   "las-pinturas-en-roca-de-hace-miles-de-anos": { component: LasPinturasEnRocaDeHaceMilesDeAnos },
   "la-pasta-de-maiz-que-acompana-cada-comida-tanzana": { component: LaPastaDeMaizQueAcompanaCadaComidaTanzana },
+  "julius-nyerere-union-tanzania": { component: JuliusNyerereUnionTanzania },
+  "bongo-flava-musica": { component: BongoFlavaMusica },
+  "taarab-musica-zanzibar": { component: TaarabMusicaZanzibar },
+  "pintura-tingatinga": { component: PinturaTingatinga },
+  "ruinas-kilwa-kisiwani": { component: RuinasKilwaKisiwani },
 };

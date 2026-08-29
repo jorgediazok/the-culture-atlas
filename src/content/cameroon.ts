@@ -251,4 +251,119 @@ export const cameroon: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "ngondo-festival-sawa",
+    order: 11,
+    placeholderEmoji: "🛶",
+    accentColor: "#1B4F72",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El festival donde un mensajero habla con los ancestros",
+        subtitle: "El Ngondo del pueblo sawa",
+        imageAlt: "Caricatura de canoas de madera decoradas compitiendo sobre un río ancho.",
+        description:
+          "El Ngondo, festival anual del pueblo sawa que habita la costa y el estuario del río Wouri alrededor de Duala, combina competencias de canoas de madera decoradas, música y danzas tradicionales con un ritual central considerado el momento más esperado del evento: un hombre elegido como mensajero se sumerge en las aguas del río durante varios minutos, un tiempo que la tradición atribuye a un encuentro con los espíritus acuáticos ancestrales llamados 'miengu' o 'jengu', y al emerger transmite mensajes y presagios interpretados como guía espiritual para la comunidad. Suprimido en gran medida durante el período colonial, el festival fue revivido formalmente en 1981 y hoy se celebra cada diciembre en Duala, atrayendo a miles de espectadores de la región y de la diáspora sawa que regresa especialmente para la ocasión. Más allá de su dimensión espiritual, el Ngondo funciona también como un espacio de afirmación de la identidad cultural sawa dentro de la enorme diversidad étnica camerunesa.",
+      },
+      en: {
+        title: "The Festival Where a Messenger Talks to the Ancestors",
+        subtitle: "The Sawa People's Ngondo",
+        imageAlt: "Cartoon of decorated wooden canoes racing across a wide river.",
+        description:
+          "The Ngondo, an annual festival of the Sawa people who live along the coast and estuary of the Wouri River around Douala, combines races of decorated wooden canoes with traditional music and dance around a central ritual considered the most anticipated moment of the event: a man chosen as messenger submerges into the river's waters for several minutes, a span tradition attributes to an encounter with ancestral water spirits called 'miengu' or 'jengu,' and upon resurfacing delivers messages and omens interpreted as spiritual guidance for the community. Largely suppressed during the colonial period, the festival was formally revived in 1981 and is now held every December in Douala, drawing thousands of spectators from the region as well as members of the Sawa diaspora who return for the occasion. Beyond its spiritual dimension, the Ngondo also functions as a space for affirming Sawa cultural identity within Cameroon's enormous ethnic diversity.",
+      },
+    },
+  },
+  {
+    id: "escritura-bamun-njoya",
+    order: 12,
+    placeholderEmoji: "✍️",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El rey que inventó un alfabeto tras soñarlo",
+        subtitle: "La escritura bamún de Njoya",
+        imageAlt: "Caricatura de una tablilla con símbolos de escritura tallados junto a una pluma.",
+        description:
+          "El rey Njoya, undécimo soberano del reino bamún en la región de las Grassfields, ideó alrededor de 1896 un sistema de escritura completamente original para su lengua, que según la tradición oral se le reveló en un sueño, y que refinó a lo largo de varias versiones hasta convertirlo en un silabario conocido como 'a-ka-u-ku', nombrado así por sus primeros seis caracteres. Njoya usó esta escritura para registrar la historia del reino, sus leyes y su farmacopea en archivos reales, fundó escuelas para enseñarla y llegó a instalar un taller de imprenta propio, un logro excepcional para un sistema de escritura africano creado desde cero y no derivado de ningún alfabeto extranjero. La escritura bamún entró en declive después de que las autoridades coloniales francesas exiliaran a Njoya en 1931 y desalentaran su uso, pero manuscritos originales sobreviven hoy en el palacio real de Fumbán, hoy museo, y un pequeño grupo de entusiastas trabaja en revivir su enseñanza.",
+      },
+      en: {
+        title: "The King Who Invented an Alphabet From a Dream",
+        subtitle: "Njoya's Bamum Script",
+        imageAlt: "Cartoon of a tablet carved with writing symbols beside a quill.",
+        description:
+          "King Njoya, the eleventh sovereign of the Bamum kingdom in the Grassfields region, devised around 1896 a completely original writing system for his language, which oral tradition says came to him in a dream, refining it over several versions into a syllabary known as 'a-ka-u-ku,' named after its first six characters. Njoya used this script to have the kingdom's history, laws, and traditional pharmacopoeia recorded in royal archives, founded schools to teach it to his subjects, and even set up his own printing workshop, an exceptional intellectual achievement for an African writing system created entirely from scratch rather than derived from any foreign alphabet. Bamum script declined after French colonial authorities exiled Njoya in 1931 and actively discouraged its use, but original manuscripts survive today at the royal palace in Foumban, now a museum, and a small group of enthusiasts is currently working to revive its teaching.",
+      },
+    },
+  },
+  {
+    id: "reserva-fauna-dja",
+    order: 13,
+    placeholderEmoji: "🦍",
+    accentColor: "#2F6B3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La selva casi intacta que protege a los últimos gorilas",
+        subtitle: "La Reserva de Fauna del Dja",
+        imageAlt: "Caricatura de un gorila entre árboles densos de una selva tropical.",
+        description:
+          "La Reserva de Fauna del Dja, en el sureste de Camerún, protege una de las extensiones de selva tropical mejor conservadas de toda África, rodeada en más del noventa por ciento de su perímetro por el río Dja, una barrera natural que históricamente limitó el acceso humano y ayudó a preservar el ecosistema casi intacto. Declarada Patrimonio de la Humanidad por la Unesco en 1987, la reserva alberga gorilas de llanura occidental, chimpancés, elefantes de bosque y más de cien especies de mamíferos, además de comunidades indígenas baka que habitan dentro y alrededor de sus límites con un estilo de vida tradicional de bajo impacto basado en la caza, la recolección y un conocimiento profundo de la selva transmitido oralmente. Pese a su estatus protegido, el Dja enfrenta hoy presiones crecientes de la tala ilegal y la caza furtiva que amenazan uno de los últimos grandes refugios de biodiversidad de África central.",
+      },
+      en: {
+        title: "The Near-Intact Rainforest Protecting the Last Gorillas",
+        subtitle: "The Dja Faunal Reserve",
+        imageAlt: "Cartoon of a gorilla among the dense trees of a tropical rainforest.",
+        description:
+          "The Dja Faunal Reserve, in southeastern Cameroon, protects one of the best-preserved stretches of rainforest anywhere in Africa, surrounded along more than ninety percent of its perimeter by the Dja River, a natural barrier that historically limited human access and helped keep the ecosystem nearly intact. Declared a UNESCO World Heritage Site in 1987, the reserve is home to western lowland gorillas, chimpanzees, forest elephants, and more than a hundred mammal species, along with indigenous Baka communities living in and around its boundaries with a traditional, low-impact way of life based on hunting, gathering, and deep forest knowledge passed down orally. Despite its protected status, the Dja today faces growing pressure from illegal logging and poaching that threaten one of Central Africa's last great biodiversity refuges.",
+      },
+    },
+  },
+  {
+    id: "toghu-terciopelo-grassfields",
+    order: 14,
+    placeholderEmoji: "🧵",
+    accentColor: "#1A1A1A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El terciopelo bordado que solo podían usar los nobles",
+        subtitle: "El toghu de las Grassfields",
+        imageAlt: "Caricatura de una túnica negra de terciopelo con bordados dorados coloridos.",
+        description:
+          "El toghu, la vestimenta ceremonial tradicional de los reinos grassfields del oeste de Camerún, consiste en una túnica de terciopelo generalmente oscuro bordada a mano con patrones geométricos de colores vivos, sobre todo dorado, rojo y amarillo, cuyo diseño podía indicar históricamente el rango, el linaje o los logros sociales de quien la portaba dentro de sociedades de títulos jerarquizadas. Reservado originalmente a jefes 'fon', nobles y miembros de sociedades secretas de prestigio, el bordado de cada pieza podía demandar semanas de trabajo manual, un oficio que se transmite todavía dentro de talleres familiares de la región. Con el tiempo, el toghu se difundió más allá de la nobleza tradicional hasta convertirse en una prenda de gala reconocida en todo Camerún, usada hoy en bodas, graduaciones y ceremonias oficiales como una de las formas de vestimenta más identificadas con la identidad nacional del país.",
+      },
+      en: {
+        title: "The Embroidered Velvet Once Reserved for Nobles",
+        subtitle: "Grassfields Toghu",
+        imageAlt: "Cartoon of a black velvet tunic with colorful gold embroidery.",
+        description:
+          "Toghu, the traditional ceremonial dress of the Grassfields kingdoms in western Cameroon, consists of a velvet tunic, usually dark-toned, entirely hand-embroidered with brightly colored geometric patterns, mostly in gold, red, and yellow thread, whose specific design could historically signal the rank, lineage, or social achievements of the wearer within hierarchical title societies. Originally reserved for chiefs known as 'fon,' nobles, and members of prestigious secret societies, embroidering a single piece could take weeks of hand labor by specialized artisans, a craft still passed down within family workshops across the Grassfields region. Over time, toghu spread beyond traditional nobility to become recognized formal wear across all of Cameroon, worn today at weddings, graduations, and official state ceremonies as one of the forms of dress most closely identified with the country's national identity.",
+      },
+    },
+  },
+  {
+    id: "basquetbolistas-camerun-nba",
+    order: 15,
+    placeholderEmoji: "🏀",
+    accentColor: "#CE1126",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que exporta gigantes a la NBA",
+        subtitle: "Los basquetbolistas cameruneses",
+        imageAlt: "Caricatura de un jugador de baloncesto encestando una pelota en un aro.",
+        description:
+          "Camerún se convirtió en las últimas dos décadas en una fuente inesperadamente prolífica de talento para la NBA, la liga de baloncesto más importante del mundo, encabezada por Joel Embiid, nacido en Yaundé, quien en 2023 se convirtió en el primer camerunés en ganar el premio al Jugador Más Valioso, y por Pascal Siakam, campeón de la NBA en 2019 con los Toronto Raptors. Antes de ellos, jugadores pioneros como Luc Mbah a Moute abrieron camino y ayudaron a consolidar programas de detección de talento como el campamento Basketball Without Borders África, que identificó y entrenó a jóvenes prospectos cameruneses de gran estatura antes de que llegaran a ligas universitarias estadounidenses. El éxito de estas figuras disparó la popularidad del baloncesto dentro de Camerún, donde cada vez más jóvenes ven en el deporte una vía de proyección comparable a la que el fútbol le dio a Roger Milla décadas atrás.",
+      },
+      en: {
+        title: "The Country Exporting Giants to the NBA",
+        subtitle: "Cameroon's Basketball Stars",
+        imageAlt: "Cartoon of a basketball player dunking a ball into a hoop.",
+        description:
+          "Cameroon became, over the last two decades, an unexpectedly prolific source of talent for the NBA, the world's top professional basketball league, led by Joel Embiid, born in Yaoundé, who in 2023 became the first Cameroonian to win the league's Most Valuable Player award, and by Pascal Siakam, a 2019 NBA champion with the Toronto Raptors. Before them, pioneering players like Luc Mbah a Moute helped pave the way and build up talent-scouting programs like the Basketball Without Borders Africa camp, which for years identified and trained young Cameroonian prospects with exceptional height and athleticism before they reached American college leagues. The success of these figures has driven basketball's growing popularity within Cameroon itself, where more and more young people see the sport as a path to international recognition on a scale increasingly comparable to what football gave Roger Milla decades earlier.",
+      },
+    },
+  },
 ];

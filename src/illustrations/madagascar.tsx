@@ -134,6 +134,88 @@ const ElPalacioRealQueDominaLaCapitalDesdeLaColina: IllustrationComponent = () =
   </g>
 );
 
+const PiratasIslaSantaMaria: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="150" fill="#1D6FA5" opacity="0.35" />
+      <path d="M130 235 Q205 225 280 235 Q270 220 205 218 Q140 220 130 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      <rect x="200" y="120" width="6" height="95" fill="#5C3A21" />
+      <path d="M206 130 L260 145 L206 165 Z" fill="#1A1A1A" stroke={dark} strokeWidth="2" />
+      <circle cx="223" cy="145" r="4" fill="#F5F0E6" />
+      <path d="M215 141 L219 145 L215 149 M231 141 L227 145 L231 149" stroke="#F5F0E6" strokeWidth="1.6" />
+      <ellipse cx="270" cy="230" rx="18" ry="8" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="1.8" />
+      <path d="M255 225 L260 210 M285 225 L280 210" stroke="#3A2A1E" strokeWidth="3" />
+    </g>
+  );
+};
+
+const SistemaDeFady: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const green = "#3A7A45";
+  return (
+    <g>
+      <ellipse cx="255" cy="230" rx="40" ry="16" fill={accentColor} opacity="0.3" />
+      <line x1="255" y1="235" x2="255" y2="150" stroke="#5C3A21" strokeWidth="8" />
+      <path d="M255 150 Q225 155 220 130 Q245 130 255 150 Q265 125 290 130 Q285 155 255 150 Z" fill={green} stroke={shade(green, 0.3)} strokeWidth="2.4" />
+      <line x1="130" y1="205" x2="180" y2="200" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M130 220 Q130 190 160 185 L160 235 Q145 240 130 220 Z" fill={skin} stroke={dark} strokeWidth="2.4" />
+      <circle cx="118" cy="210" r="12" fill={skin} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const CamaleonesMalgaches: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M150 240 L120 250 M170 245 L155 260" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <path d="M150 235 Q160 200 200 195 Q205 175 220 178 Q225 190 215 200 Q245 195 255 215 Q235 225 210 220 Q190 235 165 232 Z" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      <path d="M250 220 Q260 235 250 250" fill="none" stroke={accentColor} strokeWidth="8" strokeLinecap="round" />
+      <path d="M225 195 Q245 185 255 200" fill="none" stroke={accentColor} strokeWidth="6" strokeLinecap="round" />
+      <circle cx="256" cy="201" r="4" fill="#8B1A1A" />
+      <circle cx="205" cy="195" r="20" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <circle cx="197" cy="188" r="9" fill="#F5F0E6" stroke={dark} strokeWidth="1.8" />
+      <circle cx="197" cy="188" r="3.5" fill="#1A1A1A" />
+    </g>
+  );
+};
+
+const SedaLandibeLambaMena: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4A017";
+  const STRIPES = [0, 1, 2, 3];
+  return (
+    <g>
+      <ellipse cx="110" cy="200" rx="20" ry="28" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.4" />
+      <path d="M95 185 Q110 175 125 185 M95 215 Q110 225 125 215" fill="none" stroke={dark} strokeWidth="1.6" opacity="0.5" />
+      <rect x="140" y="120" width="150" height="110" fill="#8B1A1A" stroke={shade("#8B1A1A", 0.3)} strokeWidth="3" />
+      {STRIPES.map((i) => (
+        <rect key={i} x="140" y={132 + i * 24} width="150" height="12" fill={gold} opacity="0.85" />
+      ))}
+    </g>
+  );
+};
+
+const RomazavaPlatoNacional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const MEAT = [
+    [240, 202], [262, 198], [280, 206],
+  ];
+  return (
+    <g>
+      <ellipse cx="160" cy="215" rx="55" ry="18" fill="#F5F0E6" stroke={dark} strokeWidth="2.6" />
+      <ellipse cx="160" cy="208" rx="42" ry="12" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <ellipse cx="260" cy="215" rx="55" ry="20" fill="#1B4B1E" stroke={shade("#1B4B1E", 0.2)} strokeWidth="2.6" />
+      <ellipse cx="260" cy="207" rx="42" ry="12" fill={accentColor} opacity="0.85" />
+      {MEAT.map(([x, y]) => (
+        <ellipse key={`${x}-${y}`} cx={x} cy={y} rx="10" ry="7" fill="#8B5A2B" stroke={dark} strokeWidth="1.6" />
+      ))}
+    </g>
+  );
+};
+
 export const madagascarIllustrations: Record<string, IllustrationDefinition> = {
   "la-avenida-de-gigantes-que-tocan-el-cielo": { component: LaAvenidaDeGigantesQueTocanElCielo },
   "los-primates-que-no-existen-en-ningun-otro-lugar": { component: LosPrimatesQueNoExistenEnNingunOtroLugar },
@@ -145,4 +227,9 @@ export const madagascarIllustrations: Record<string, IllustrationDefinition> = {
   "la-vaina-negra-que-perfuma-al-mundo-entero": { component: LaVainaNegraQuePerfumaAlMundoEntero },
   "el-instrumento-de-bambu-que-canta-como-un-arpa": { component: ElInstrumentoDeBambuQueCantaComoUnArpa },
   "el-palacio-real-que-domina-la-capital-desde-la-colina": { component: ElPalacioRealQueDominaLaCapitalDesdeLaColina },
+  "piratas-isla-santa-maria": { component: PiratasIslaSantaMaria },
+  "sistema-de-fady": { component: SistemaDeFady },
+  "camaleones-malgaches": { component: CamaleonesMalgaches },
+  "seda-landibe-lamba-mena": { component: SedaLandibeLambaMena },
+  "romazava-plato-nacional": { component: RomazavaPlatoNacional },
 };

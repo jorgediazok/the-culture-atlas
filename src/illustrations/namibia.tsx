@@ -134,6 +134,96 @@ const LaCiudadAlemanaQueQuedoVaradaEnElDesierto: IllustrationComponent = ({ acce
   );
 };
 
+const IndependenciaNamibia1990: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  const CROWD: [number, number][] = [
+    [130, 240], [160, 245], [250, 245], [280, 240],
+  ];
+  return (
+    <g>
+      {CROWD.map(([x, y]) => (
+        <g key={`${x}-${y}`}>
+          <circle cx={x} cy={y - 16} r="9" fill={skin} opacity="0.6" />
+          <path d={`M${x - 8} ${y} Q${x} ${y - 12} ${x + 8} ${y}`} fill={dark} opacity="0.5" />
+        </g>
+      ))}
+      <line x1="205" y1="110" x2="205" y2="240" stroke="#5C3A21" strokeWidth="5" />
+      <rect x="205" y="115" width="70" height="45" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M205 115 L275 160" stroke={dark} strokeWidth="2" opacity="0.4" />
+      <circle cx="240" cy="137" r="12" fill="#F4C430" stroke={shade("#F4C430", 0.3)} strokeWidth="1.8" />
+    </g>
+  );
+};
+
+const ArteRupestreTwyfelfontein: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="90" width="230" height="160" fill={accentColor} opacity="0.3" />
+      <path d="M140 220 Q135 195 155 190 Q160 175 180 178 Q200 180 205 195 L200 220 Z" fill="none" stroke={dark} strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M155 190 L148 178 M160 188 L156 176" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <line x1="150" y1="218" x2="148" y2="235" stroke={dark} strokeWidth="5" />
+      <line x1="192" y1="218" x2="195" y2="235" stroke={dark} strokeWidth="5" />
+      <path d="M230 210 Q225 185 245 180 Q260 175 275 190 Q285 205 275 220 Z" fill="none" stroke={dark} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+      <line x1="235" y1="218" x2="232" y2="235" stroke={dark} strokeWidth="4" />
+      <line x1="265" y1="218" x2="268" y2="235" stroke={dark} strokeWidth="4" />
+    </g>
+  );
+};
+
+const BasterDeRehoboth: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="230" width="230" height="20" fill="#D9C08A" opacity="0.5" />
+      <rect x="130" y="200" width="90" height="30" fill="#8B5A2B" stroke={dark} strokeWidth="2.4" />
+      <circle cx="145" cy="235" r="14" fill="none" stroke="#3A2A1E" strokeWidth="4" />
+      <circle cx="205" cy="235" r="14" fill="none" stroke="#3A2A1E" strokeWidth="4" />
+      <path d="M220 215 Q245 210 260 220" fill="none" stroke="#3A2A1E" strokeWidth="4" />
+      <rect x="255" y="100" width="6" height="90" fill="#5C3A21" />
+      <rect x="261" y="105" width="45" height="30" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <rect x="261" y="115" width="45" height="10" fill={tint(accentColor, 0.4)} />
+    </g>
+  );
+};
+
+const MarulaOmagongoOvambo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const green = "#3A7A45";
+  const FRUIT: [number, number][] = [
+    [175, 140], [205, 150], [235, 140], [190, 165], [220, 165],
+  ];
+  return (
+    <g>
+      <line x1="205" y1="240" x2="205" y2="130" stroke="#5C3A21" strokeWidth="7" />
+      <ellipse cx="205" cy="115" rx="55" ry="24" fill={green} opacity="0.7" />
+      {FRUIT.map(([x, y]) => (
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="8" fill={accentColor} stroke={dark} strokeWidth="1.8" />
+      ))}
+      <ellipse cx="205" cy="235" rx="35" ry="14" fill="#8B5A2B" stroke={dark} strokeWidth="2.4" />
+      <ellipse cx="205" cy="228" rx="26" ry="8" fill={tint(accentColor, 0.3)} />
+    </g>
+  );
+};
+
+const FrankieFredericksVelocista: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#5C4433";
+  return (
+    <g>
+      <line x1="260" y1="100" x2="260" y2="240" stroke="#fff" strokeWidth="6" opacity="0.8" />
+      <line x1="260" y1="100" x2="320" y2="100" stroke="#fff" strokeWidth="4" opacity="0.6" />
+      <path d="M175 175 Q160 190 165 215" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M195 175 Q225 165 245 150" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M188 220 Q170 235 175 250" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M202 220 Q225 210 235 225" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M182 190 Q195 182 208 190 L202 225 Q195 231 188 225 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <circle cx="195" cy="170" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
 export const namibiaIllustrations: Record<string, IllustrationDefinition> = {
   "el-desierto-mas-antiguo-del-planeta": { component: ElDesiertoMasAntiguoDelPlaneta },
   "el-cementerio-de-arboles-negros-en-arena-blanca": { component: ElCementerioDeArbolesNegrosEnArenaBlanca },
@@ -145,4 +235,9 @@ export const namibiaIllustrations: Record<string, IllustrationDefinition> = {
   "la-planta-que-puede-vivir-mil-anos-con-dos-hojas": { component: LaPlantaQuePuedeVivirMilAnosConDosHojas },
   "la-mayor-poblacion-de-guepardos-en-libertad": { component: LaMayorPoblacionDeGuepardosEnLibertad },
   "la-ciudad-alemana-que-quedo-varada-en-el-desierto": { component: LaCiudadAlemanaQueQuedoVaradaEnElDesierto },
+  "independencia-namibia-1990": { component: IndependenciaNamibia1990 },
+  "arte-rupestre-twyfelfontein": { component: ArteRupestreTwyfelfontein },
+  "baster-de-rehoboth": { component: BasterDeRehoboth },
+  "marula-omagongo-ovambo": { component: MarulaOmagongoOvambo },
+  "frankie-fredericks-velocista": { component: FrankieFredericksVelocista },
 };

@@ -231,4 +231,119 @@ export const libya: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "omar-al-mujtar-resistencia",
+    order: 11,
+    placeholderEmoji: "🐎",
+    accentColor: "#6B4B3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El maestro que resistió veinte años a un imperio",
+        subtitle: "Omar al-Mujtar",
+        imageAlt: "Caricatura de un hombre mayor con turbante montado a caballo en el desierto.",
+        description:
+          "Omar al-Mujtar, un beduino de la región de Cirenaica que había trabajado como maestro coránico antes de tomar las armas, lideró durante casi veinte años, desde la invasión italiana de Libia en 1911 hasta su captura en 1931, una guerra de guerrillas contra las fuerzas coloniales italianas, aprovechando un conocimiento profundo del terreno desértico para tácticas de golpear y retirarse que desgastaron durante años a un ejército mucho más numeroso y mejor equipado. Apodado el 'León del Desierto', fue capturado en 1931 tras resultar herido y perder su caballo en combate, y las autoridades italianas lo ahorcaron públicamente frente a miles de prisioneros libios reunidos a la fuerza como advertencia, un intento de disuasión que en cambio lo convirtió en símbolo perdurable de resistencia anticolonial en el mundo árabe y africano. Su rostro figura hoy en los billetes libios, y su historia llegó al cine en 1981 con 'El león del desierto', protagonizada por Anthony Quinn.",
+      },
+      en: {
+        title: "The Teacher Who Resisted an Empire for 20 Years",
+        subtitle: "Omar Mukhtar",
+        imageAlt: "Cartoon of an older man in a turban riding a horse through the desert.",
+        description:
+          "Omar Mukhtar, a Bedouin from the Cyrenaica region who had worked as a Quran teacher before taking up arms, led a guerrilla war against Italian colonial forces for nearly twenty years, from Italy's 1911 invasion of Libya until his capture in 1931, drawing on deep knowledge of the desert terrain for hit-and-run tactics that wore down a far larger and better-equipped army over years of fighting. Nicknamed the 'Lion of the Desert,' he was finally captured in 1931 after being wounded and losing his horse in battle, and Italian authorities publicly hanged him in front of thousands of Libyan prisoners forcibly gathered as a warning, an attempt at deterrence that instead turned him into a lasting symbol of anti-colonial resistance across the Arab world and Africa. His face appears today on Libyan banknotes and postage stamps, and his story reached international cinema in 1981 with the film 'Lion of the Desert,' starring Anthony Quinn.",
+      },
+    },
+  },
+  {
+    id: "qasr-al-hach-granero",
+    order: 12,
+    placeholderEmoji: "🏰",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El granero circular donde cada familia tenía su celda",
+        subtitle: "Qasr al-Hach",
+        imageAlt: "Caricatura de un edificio circular de barro con múltiples celdas de almacenamiento.",
+        description:
+          "Qasr al-Hach, un granero fortificado comunitario en las montañas de Nafusa, en el noroeste de Libia, fue construido por la comunidad amazigh bereber hace aproximadamente ocho siglos como una estructura circular de barro y piedra de varios niveles, con más de cien celdas de almacenamiento individuales dispuestas alrededor de un patio central. Cada familia de la comunidad poseía y usaba una celda específica para guardar de forma segura grano, aceite de oliva y otros bienes valiosos, un diseño que combinaba la función práctica de almacenamiento con protección defensiva ante posibles incursiones. La forma circular y el patrón repetitivo de celdas idénticas hacen de Qasr al-Hach una estructura visualmente sorprendente y estructuralmente distinta de otras tradiciones de graneros comunitarios del Sahara y el Sahel, y el edificio se mantiene hoy en un estado de conservación notable, abierto a visitantes interesados en la arquitectura tradicional amazigh.",
+      },
+      en: {
+        title: "The Circular Granary Where Every Family Had a Cell",
+        subtitle: "Qasr al-Haj",
+        imageAlt: "Cartoon of a circular mud building with many storage cells.",
+        description:
+          "Qasr al-Haj, a fortified communal granary in the Nafusa Mountains of northwestern Libya, was built by the Amazigh Berber community roughly eight centuries ago as a circular, multi-story structure of mud and stone, with more than a hundred individual storage cells arranged around a central courtyard. Each family in the community owned and used a specific cell to safely store grain, olive oil, and other valuables, a design that combined practical storage with defensive protection against potential raids. The circular shape and repeating pattern of identical cells make Qasr al-Haj a visually striking structure, structurally distinct from other communal granary traditions across the Sahara and Sahel, and the building remains today in a notable state of preservation, open to visitors interested in traditional Amazigh architecture.",
+      },
+    },
+  },
+  {
+    id: "malouf-musica-andalusi",
+    order: 13,
+    placeholderEmoji: "🎻",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La música que sobrevivió al exilio de Al-Ándalus",
+        subtitle: "El ma'luf libio",
+        imageAlt: "Caricatura de músicos tocando laúd y percusión frente a un público sentado.",
+        description:
+          "El ma'luf, una tradición de música clásica andalusí, llegó al norte de África, incluida Libia, junto con los refugiados musulmanes y judíos expulsados de Al-Ándalus tras la caída de Granada en 1492, y se estructuró en torno a suites musicales llamadas 'nuba' que combinan poesía, canto y instrumentos como el laúd árabe, el rabel y el qanún. Cada región del norte de África desarrolló con el tiempo su propia interpretación distintiva del género compartiendo raíces andalusíes comunes, y en Libia la tradición quedó especialmente asociada a la ciudad de Trípoli, donde se fue mezclando gradualmente con influencias locales amazigh y beduinas propias del territorio. La tradición sigue interpretándose hoy en bodas y festivales culturales libios, funcionando como un vínculo musical vivo con un legado que sobrevivió más de quinientos años al mundo político que lo originó en la península ibérica.",
+      },
+      en: {
+        title: "The Andalusian Music That Outlived Al-Andalus",
+        subtitle: "Libyan Ma'luf",
+        imageAlt: "Cartoon of musicians playing lute and percussion before a seated audience.",
+        description:
+          "Ma'luf, a classical Andalusian musical tradition, arrived in North Africa, including Libya, along with Muslim and Jewish refugees expelled from Al-Andalus after the fall of Granada in 1492, structured around musical suites called 'nuba' that combine poetry, vocal performance, and instruments like the oud, the rebab, and the qanun. Each region of North Africa developed its own distinctive interpretation of the genre over time while sharing common Andalusian roots, and in Libya the tradition became especially associated with the city of Tripoli, where it gradually blended with local Amazigh and Bedouin influences from the territory. The tradition is still performed today at weddings and Libyan cultural festivals, functioning as a living musical link to a heritage that outlasted, by more than five hundred years, the political world in the Iberian Peninsula that originally created it.",
+      },
+    },
+  },
+  {
+    id: "tortugas-boba-costa-libia",
+    order: 14,
+    placeholderEmoji: "🐢",
+    accentColor: "#2E6B8C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las playas donde nacen miles de tortugas cada verano",
+        subtitle: "Las tortugas boba de la costa libia",
+        imageAlt: "Caricatura de crías de tortuga marina avanzando hacia el mar sobre arena.",
+        description:
+          "La costa mediterránea de Libia, en particular tramos alrededor de Misrata y más hacia el este, alberga algunas de las playas de anidación más importantes de todo el Mediterráneo para la tortuga boba, una especie en peligro cuyas hembras regresan cada verano a poner huevos en la misma playa donde ellas mismas nacieron décadas atrás. El desarrollo costero relativamente limitado en tramos extensos del litoral libio, en contraste con las costas europeas mucho más urbanizadas, preservó de forma casi involuntaria hábitats de anidación poco perturbados. El monitoreo se volvió más difícil durante los años de inestabilidad posteriores a 2011, aunque organizaciones locales e internacionales siguieron rastreando nidos donde fue posible, y las crías siguen emergiendo de noche guiándose por el reflejo de la luna sobre el mar, un sistema de orientación que la iluminación artificial costera puede alterar con facilidad.",
+      },
+      en: {
+        title: "The Beaches Where Thousands of Turtles Hatch Yearly",
+        subtitle: "The Loggerhead Turtles of the Libyan Coast",
+        imageAlt: "Cartoon of sea turtle hatchlings crawling toward the sea across sand.",
+        description:
+          "Libya's Mediterranean coastline, particularly stretches around Misrata and further east, holds some of the most important nesting beaches in the entire Mediterranean for the loggerhead sea turtle, an endangered species whose females return every summer to lay eggs on the exact same beach where they themselves hatched decades earlier. Relatively limited coastal development along long stretches of the Libyan shore, in contrast to the far more built-up European Mediterranean coastlines, almost inadvertently preserved nesting habitat undisturbed by human activity. Conservation monitoring became harder during the years of political instability after 2011, though local and international organizations continued tracking nests where possible, and hatchlings still emerge at night, guided by moonlight reflected on the sea to find their way to the water, a natural navigation system easily disrupted by artificial coastal lighting.",
+      },
+    },
+  },
+  {
+    id: "aceite-de-oliva-libio",
+    order: 15,
+    placeholderEmoji: "🫒",
+    accentColor: "#4A8F4E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El aceite de oliva que perfumó a Roma entera",
+        subtitle: "El aceite de oliva libio",
+        imageAlt: "Caricatura de aceitunas y ramas de olivo junto a una jarra de aceite.",
+        description:
+          "El olivo se cultiva en el territorio libio, sobre todo en Tripolitania, desde la época fenicia y romana, y el aceite de oliva fue uno de los productos de exportación que enriquecieron a ciudades romanas como Leptis Magna y Sabrata, donde todavía pueden verse entre las ruinas enormes prensas de piedra usadas hace casi dos mil años. El cultivo sobrevivió sin interrupción a todas las etapas políticas posteriores del territorio, desde el dominio bizantino y árabe hasta el otomano, la colonización italiana y la independencia, convirtiéndose en una de las tradiciones agrícolas más antiguas del país. Hoy Libia sigue siendo un productor relevante, en parte gracias a olivares centenarios del noroeste, donde algunas comunidades todavía combinan el prensado tradicional en piedra con métodos modernos, y el aceite se mantiene como ingrediente central de la cocina cotidiana libia y de usos rituales en ocasiones religiosas.",
+      },
+      en: {
+        title: "The Olive Oil That Once Scented All of Rome",
+        subtitle: "Libyan Olive Oil",
+        imageAlt: "Cartoon of olives and olive branches beside a jug of oil.",
+        description:
+          "Olives have been cultivated in Libyan territory, especially in the Tripolitania region, since Phoenician and Roman times, and olive oil was one of the major export goods that enriched Roman cities like Leptis Magna and Sabratha, where enormous stone presses used for producing it nearly two thousand years ago can still be seen among the ruins. Olive cultivation survived uninterrupted through every subsequent political era in the territory, from Byzantine and Arab rule through Ottoman control, Italian colonization, and independence, becoming one of the country's oldest continuously maintained agricultural traditions. Libya remains today a significant olive oil producer, partly thanks to centuries-old groves in the northwest, where some communities still combine traditional stone-pressing techniques with modern methods, and the oil remains a central ingredient in everyday Libyan cooking as well as in ritual uses during religious occasions.",
+      },
+    },
+  },
 ];

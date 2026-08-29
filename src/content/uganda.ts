@@ -231,4 +231,119 @@ export const uganda: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "santuario-martires-namugongo",
+    order: 11,
+    placeholderEmoji: "⛪",
+    accentColor: "#C9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El santuario que honra a los mártires cristianos",
+        subtitle: "El Santuario de los Mártires de Namugongo",
+        imageAlt: "Caricatura de un santuario circular con una cúpula dorada y columnas.",
+        description:
+          "Entre 1885 y 1887, el rey Mwanga II de Buganda ordenó la ejecución de decenas de jóvenes, incluidos pajes de la corte real, principalmente quemados vivos, después de que se negaran a renunciar a su fe cristiana recién adoptada, tanto católica como anglicana, y siguieran rechazando las exigencias del monarca. Veintidós de las víctimas católicas fueron canonizadas como santos por el papa Pablo VI en 1964, convirtiéndose en los primeros santos canonizados del África subsahariana. Hoy, el Santuario de los Mártires de Uganda en Namugongo, construido en el sitio con su característica basílica circular y cúpula revestida en cobre, recibe cada 3 de junio a más de un millón de peregrinos de toda África oriental en un feriado nacional que conmemora a los mártires, una de las mayores reuniones religiosas anuales del continente. El complejo incluye también un memorial anglicano cercano dedicado a las víctimas protestantes.",
+      },
+      en: {
+        title: "The Shrine That Honors Uganda's Christian Martyrs",
+        subtitle: "The Uganda Martyrs Shrine at Namugongo",
+        imageAlt: "Cartoon of a circular shrine with a golden dome and columns.",
+        description:
+          "Between 1885 and 1887, King Mwanga II of Buganda ordered the execution of dozens of young men, including pages of the royal court, primarily by burning, after they refused to renounce their newly adopted Christian faith, both Catholic and Anglican, and continued rejecting the king's demands. Twenty-two of the Catholic victims were canonized as saints by Pope Paul VI in 1964, becoming the first canonized saints from sub-Saharan Africa. Today, the Uganda Martyrs Shrine at Namugongo, built on the site with its distinctive circular basilica and copper-clad dome, draws more than a million pilgrims from across East Africa every June 3rd for a national holiday commemorating the martyrs, one of the largest annual religious gatherings on the continent. The shrine complex also includes a separate nearby Anglican memorial honoring the Protestant victims of the same events.",
+      },
+    },
+  },
+  {
+    id: "las-montanas-de-la-luna",
+    order: 12,
+    placeholderEmoji: "🏔️",
+    accentColor: "#A9C4D9",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las montañas nevadas que Ptolomeo imaginó",
+        subtitle: "Los Rwenzori, las Montañas de la Luna",
+        imageAlt: "Caricatura de picos nevados triangulares sobre nubes bajas.",
+        description:
+          "La cordillera Rwenzori, a caballo entre Uganda y la República Democrática del Congo, alberga el tercer pico más alto de África, el pico Margherita, con más de 5.100 metros, y se mantiene nevada y glaciar pese a ubicarse casi exactamente sobre el ecuador, una combinación tan inusual que el geógrafo grecoegipcio Ptolomeo la habría descrito hacia el año 150 como las 'Montañas de la Luna', fuente del Nilo, basándose en relatos de comerciantes siglos antes de que ningún europeo confirmara su existencia. El explorador británico Henry Morton Stanley fue el primer europeo en avistar la cordillera en 1889, resolviendo por fin un misterio geográfico debatido desde la Antigüedad. Declarada Patrimonio de la Humanidad por la Unesco en 1994, los glaciares ecuatoriales de los Rwenzori se redujeron drásticamente en el último siglo y podrían desaparecer por completo en pocas décadas por el cambio climático.",
+      },
+      en: {
+        title: "The Snow-Capped Range Ptolemy Once Imagined",
+        subtitle: "The Rwenzori, the Mountains of the Moon",
+        imageAlt: "Cartoon of triangular snow-capped peaks above low clouds.",
+        description:
+          "The Rwenzori range, straddling the border between Uganda and the Democratic Republic of Congo, holds Africa's third-highest peak, Margherita Peak, at over 5,100 meters, and remains snow-capped and glaciated despite sitting almost exactly on the equator, a combination so unusual that the Greco-Egyptian geographer Ptolemy is believed to have described the range around the year 150 as the 'Mountains of the Moon,' source of the Nile, based on secondhand traders' accounts centuries before any European confirmed their existence. British explorer Henry Morton Stanley became the first European to sight the range in 1889, finally resolving a geographic mystery debated since antiquity. Declared a UNESCO World Heritage site in 1994, the Rwenzoris' equatorial glaciers have shrunk dramatically over the past century and are projected to vanish entirely within a few decades due to climate change.",
+      },
+    },
+  },
+  {
+    id: "islas-sese",
+    order: 13,
+    placeholderEmoji: "🏝️",
+    accentColor: "#1B8A72",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El archipiélago de playas dentro de un lago",
+        subtitle: "Las islas Sese",
+        imageAlt: "Caricatura de una isla con palmeras y una playa junto al agua.",
+        description:
+          "Las islas Sese, un archipiélago de más de ochenta islas dispersas en las aguas ugandesas del lago Victoria, ofrecen playas de arena blanca, selva tropical densa y un ritmo de vida más lento que se siente desconectado del resto del país pese a estar a pocas horas en bote de Kampala o Entebbe. Habitadas históricamente sobre todo por comunidades pesqueras, las islas también sirvieron como lugar de destierro para personas que el reino de Buganda deseaba exiliar, y su aislamiento ayudó a que varias especies de primates y aves sobrevivieran allí en mayor número que en tierra firme. Desde los años 90 se convirtieron en un destino de fin de semana popular entre residentes de Kampala y turistas internacionales, combinando albergues sencillos con pequeños pueblos pesqueros, aunque la escasa infraestructura vial obliga a moverse a pie, en bicicleta o en bote. Las plantaciones de aceite de palma, introducidas más recientemente, también son parte importante de la economía de las islas.",
+      },
+      en: {
+        title: "The Archipelago of Beaches Inside a Lake",
+        subtitle: "The Ssese Islands",
+        imageAlt: "Cartoon of an island with palm trees and a beach by the water.",
+        description:
+          "The Ssese Islands, an archipelago of more than eighty islands scattered across the Ugandan waters of Lake Victoria, offer white sand beaches, dense rainforest, and a slower pace of life that feels disconnected from the rest of the country despite being just a few hours by boat from Kampala or Entebbe. Long inhabited mainly by fishing communities, the islands also historically served as a place of banishment for people the Buganda kingdom wished to exile, and their relative isolation helped several species of primates and birds survive there in greater numbers than on the mainland. Since the 1990s the islands have grown into a popular weekend retreat for Kampala residents and international tourists alike, combining simple lodges with small fishing villages, though limited road infrastructure still means getting around is often on foot, bicycle, or boat. Palm oil plantations, introduced more recently, have also become an important part of the islands' economy.",
+      },
+    },
+  },
+  {
+    id: "el-ganado-de-cuernos-gigantes",
+    order: 14,
+    placeholderEmoji: "🐂",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ganado de cuernos gigantes",
+        subtitle: "El ganado ankole",
+        imageAlt: "Caricatura de una vaca de cuernos largos y curvos frente a una choza.",
+        description:
+          "El ganado ankole, una raza distinguida por cuernos enormes y curvos que pueden abarcar casi dos metros de punta a punta, fue criado durante siglos por los pueblos pastores bahima y banyankole del suroeste de Uganda, valorado menos por su rendimiento de carne o leche que como medida de riqueza, estatus social e identidad cultural, central en negociaciones de dote, ceremonias y poemas que alaban por nombre a animales individuales. Los hogares ganaderos organizaban toda su estructura social alrededor del manejo del rebaño, con cantos de alabanza elaborados (ebyevugo) compuestos para celebrar los cuernos, el color y el andar de un animal favorito. Aunque el tamaño de sus cuernos hace a la raza menos eficiente para la lechería comercial moderna frente a razas importadas, el ganado ankole sigue siendo un símbolo visual poderoso de la región, presente en emblemas turísticos, mientras programas de cruza buscan hoy preservar el cuerno tradicional mejorando la producción de leche.",
+      },
+      en: {
+        title: "The Cattle With Giant Horns",
+        subtitle: "Ankole Cattle",
+        imageAlt: "Cartoon of a cow with long curved horns in front of a hut.",
+        description:
+          "Ankole cattle, a breed distinguished by enormous curved horns that can span nearly two meters tip to tip, have been raised by the Bahima and Banyankole pastoralist peoples of southwestern Uganda for centuries, valued less for meat or milk yield than as a measure of wealth, social status, and cultural identity, historically central to bridewealth negotiations, ceremonies, and poetry praising specific individual animals by name. Cattle-keeping households traditionally organized their entire social structure around herd management, with elaborate praise songs (ebyevugo) composed to celebrate a favorite animal's horns, color, and gait. Though the breed's oversized horns make it less efficient for modern commercial dairy farming compared to imported breeds, Ankole cattle remain a powerful visual symbol of the region, appearing on tourist emblems and cultural ceremonies, while crossbreeding programs now aim to preserve the traditional horn while improving milk output.",
+      },
+    },
+  },
+  {
+    id: "la-grulla-coronada-que-esta-en-la-bandera",
+    order: 15,
+    placeholderEmoji: "🦢",
+    accentColor: "#3E4C59",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El ave que corona la bandera del país",
+        subtitle: "La grulla coronada gris",
+        imageAlt: "Caricatura de una grulla gris con una corona dorada de plumas y pata levantada.",
+        description:
+          "La grulla coronada gris, reconocible por el halo dorado de plumas rígidas que corona su cabeza y una vistosa bolsa roja en la garganta, es el ave nacional de Uganda y aparece, en su postura característica sobre una sola pata, en el centro de la bandera y el escudo del país, elegida por la administración colonial británica a comienzos del siglo veinte en parte por el movimiento tranquilo del ave, que los funcionarios coloniales describieron como reflejo del carácter que deseaban proyectar para el territorio. Presente en humedales y sabanas de todo el país, la grulla ejecuta una elaborada danza de apareamiento con reverencias, saltos y aleteos que fascina a los observadores y aparece en el folclore local como símbolo de longevidad y buena fortuna. Pese a su fuerte simbolismo nacional, la especie está en peligro, reducida por el drenaje de humedales, lo que llevó a Uganda a lanzar programas de conservación centrados en proteger al ave que figura en su moneda y sus emblemas oficiales.",
+      },
+      en: {
+        title: "The Bird That Crowns the National Flag",
+        subtitle: "The Grey Crowned Crane",
+        imageAlt: "Cartoon of a grey crane with a golden feather crown and a raised leg.",
+        description:
+          "The grey crowned crane, recognizable by the golden halo of stiff feathers crowning its head and a bright red throat pouch, is Uganda's national bird and stands, in its characteristic one-legged pose, at the center of the country's flag and coat of arms, chosen by the British colonial administration in the early twentieth century partly for the bird's gentle, measured movement, which colonial officials described as reflecting the character they wished to project for the territory. Found in wetlands and savannas across the country, the crane performs an elaborate mating dance involving bowing, jumping, and wing-flapping that has long fascinated observers and appears in local folklore as a symbol of longevity and good fortune. Despite its strong national symbolism, the species is classified as endangered, its numbers reduced by wetland drainage, prompting Uganda to launch conservation programs built around protecting the very bird that appears on its currency and official emblems.",
+      },
+    },
+  },
 ];

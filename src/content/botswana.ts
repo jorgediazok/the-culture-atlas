@@ -231,4 +231,119 @@ export const botswana: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "tejedores-sociables-kalahari",
+    order: 11,
+    placeholderEmoji: "🐦",
+    accentColor: "#8B7355",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El pájaro que construye el nido más grande del mundo",
+        subtitle: "Los tejedores sociables del Kalahari",
+        imageAlt: "Caricatura de un enorme nido de paja sobre un árbol con pájaros entrando y saliendo.",
+        description:
+          "El tejedor sociable, un pequeño pájaro pardo del Kalahari, construye las estructuras de nido más grandes jamás edificadas por cualquier ave del mundo: colonias comunales de ramitas y pasto seco que pueden pesar más de una tonelada, alcanzar varios metros de ancho y albergar a cientos de aves a la vez, cada una en su propia cámara individual con entrada separada desde abajo. Estos nidos gigantes, construidos sobre árboles solitarios o postes de electricidad, se amplían de forma continua durante generaciones y pueden seguir en uso más de un siglo, funcionando como refugio térmico eficaz frente a las temperaturas extremas del desierto, entre calores abrasadores de día y heladas nocturnas. La estructura resulta tan atractiva que otras especies, como el pequeño halcón pigmeo africano, suelen ocupar cámaras abandonadas dentro del mismo nido, convirtiendo a estas colonias en auténticos edificios compartidos entre distintas especies de aves.",
+      },
+      en: {
+        title: "The Bird That Builds the World's Largest Nest",
+        subtitle: "The Sociable Weavers of the Kalahari",
+        imageAlt: "Cartoon of a huge straw nest on a tree with birds flying in and out.",
+        description:
+          "The sociable weaver, a small brown bird of the Kalahari, builds the largest nest structures ever constructed by any bird species on Earth: communal colonies of twigs and dry grass that can weigh over a ton, stretch several meters wide, and simultaneously house hundreds of birds, each in its own individual chamber with a separate entrance from below. These giant nests, usually built on solitary trees or utility poles, are continuously expanded over generations and can remain in use for more than a century, acting as an effective thermal shelter against the desert's extreme temperature swings between scorching daytime heat and freezing nights. The structure proves so appealing that other species, like the tiny African pygmy falcon, often move into abandoned chambers within the same nest, turning these colonies into true shared apartment buildings for multiple bird species.",
+      },
+    },
+  },
+  {
+    id: "cestas-ngamiland",
+    order: 12,
+    placeholderEmoji: "🧺",
+    accentColor: "#C4A66B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las canastas que tejen historias con hojas de palma",
+        subtitle: "El tejido de cestas de Ngamiland",
+        imageAlt: "Caricatura de una canasta tejida con patrones geométricos de colores.",
+        description:
+          "Las mujeres de la región de Ngamiland, alrededor del delta del Okavango, tejen desde generaciones canastas con tiras de hoja de la palma mokolwane, un material flexible y resistente que se tiñe con raíces, cortezas y otros tintes naturales para lograr los tonos ocres, negros y blancos característicos del estilo. Cada patrón geométrico tejido en la canasta tiene un nombre y un significado específico transmitido oralmente, con motivos como 'lágrimas de jirafa', 'avestruz corriendo' o 'frente de cebra', de modo que una cesta terminada puede leerse casi como un relato visual codificado. Las cestas con tapa, tradicionalmente usadas como regalo de boda y para almacenar granos o pertenencias valiosas, se tejen hoy también para la exportación y el turismo, convirtiendo esta artesanía transmitida de madres a hijas en una fuente de ingresos importante para comunidades rurales del norte de Botswana.",
+      },
+      en: {
+        title: "The Baskets That Weave Stories From Palm Leaves",
+        subtitle: "Ngamiland Basket Weaving",
+        imageAlt: "Cartoon of a basket woven with colorful geometric patterns.",
+        description:
+          "Women of the Ngamiland region, around the Okavango Delta, have for generations woven baskets from strips of mokolwane palm leaf, a flexible, durable material dyed with roots, bark, and other natural dyes to achieve the style's characteristic ochre, black, and white tones. Every geometric pattern woven into a basket carries a specific name and meaning passed down orally, with motifs like 'tears of the giraffe,' 'running ostrich,' or 'forehead of the zebra,' so a finished basket can almost be read as a coded visual story. Lidded baskets, traditionally given as wedding gifts and used to store grain or valuables, are now also woven for export and tourism, turning this craft passed from mothers to daughters into an important source of income for rural communities in northern Botswana.",
+      },
+    },
+  },
+  {
+    id: "ruinas-domboshaba",
+    order: 13,
+    placeholderEmoji: "🪨",
+    accentColor: "#8C7B6B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las ruinas de piedra que preceden a la Botswana moderna",
+        subtitle: "Las ruinas de Domboshaba",
+        imageAlt: "Caricatura de un muro de piedra en ruinas sobre una colina.",
+        description:
+          "Las ruinas de Domboshaba, cerca de la ciudad de Francistown en el noreste de Botswana, son los restos de un asentamiento amurallado en piedra construido por los ancestros del pueblo kalanga entre los siglos catorce y diecisiete, parte de la misma tradición arquitectónica que produjo el Gran Zimbabue, caracterizada por muros de piedra seca ensamblados sin ningún tipo de mortero. El sitio funcionó probablemente como centro administrativo y religioso de una jefatura regional, y hoy es escenario del festival cultural anual de Domboshaba, un evento que celebra la lengua, la música y las tradiciones del pueblo kalanga ante miles de visitantes. Pese a su importancia arqueológica, Domboshaba sigue siendo mucho menos conocido internacionalmente que el Gran Zimbabue, en parte porque gran parte del sitio permanece sin excavar por completo, dejando abierta la posibilidad de nuevos hallazgos sobre esta cultura constructora de piedra en el sur de África.",
+      },
+      en: {
+        title: "The Stone Ruins That Predate Modern Botswana",
+        subtitle: "The Ruins of Domboshaba",
+        imageAlt: "Cartoon of a ruined stone wall on a hilltop.",
+        description:
+          "The ruins of Domboshaba, near the city of Francistown in northeastern Botswana, are the remains of a stone-walled settlement built by the ancestors of the Kalanga people between the 14th and 17th centuries, part of the same architectural tradition that produced Great Zimbabwe, marked by dry-stone walls assembled without any mortar. The site likely served as the administrative and religious center of a regional chieftaincy, and today hosts the annual Domboshaba Cultural Festival, an event celebrating Kalanga language, music, and tradition before thousands of visitors. Despite its archaeological significance, Domboshaba remains far less known internationally than Great Zimbabwe, partly because much of the site remains fully unexcavated, leaving open the possibility of new discoveries about this stone-building culture of southern Africa.",
+      },
+    },
+  },
+  {
+    id: "seswaa-plato-nacional",
+    order: 14,
+    placeholderEmoji: "🍖",
+    accentColor: "#6B4B3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El plato de carne machacada que corona toda celebración",
+        subtitle: "El seswaa",
+        imageAlt: "Caricatura de un plato de carne desmenuzada junto a bollos de maíz blanco.",
+        description:
+          "El seswaa, considerado el plato nacional de Botswana, se prepara hirviendo a fuego lento carne de vaca o de cabra durante horas en agua apenas salada hasta que queda tan tierna que se deshace, para luego machacarla a mano, tradicionalmente con un mazo de madera, hasta lograr una textura desmenuzada y fibrosa. La receta evita casi cualquier condimento más allá de sal y cebolla, una simplicidad deliberada pensada para que el sabor de la carne quede como protagonista absoluto del plato. Cocinado tradicionalmente por hombres en grandes ollas de tres patas sobre fuego abierto, el seswaa es un plato central en bodas, funerales y ceremonias oficiales de Estado, y se sirve casi siempre acompañado de 'bogobe', un puré espeso de sorgo o maíz, además de verduras. Su presencia en prácticamente toda celebración importante del país lo convirtió en un símbolo culinario de la identidad nacional botsuana.",
+      },
+      en: {
+        title: "The Pounded Meat Dish at Every Celebration",
+        subtitle: "Seswaa",
+        imageAlt: "Cartoon of a plate of shredded meat beside white cornmeal rolls.",
+        description:
+          "Seswaa, considered Botswana's national dish, is made by slow-boiling beef or goat for hours in lightly salted water until it becomes so tender it falls apart, then pounding it by hand, traditionally with a wooden mallet, into a shredded, stringy texture. The recipe avoids almost any seasoning beyond salt and onion, a deliberate simplicity meant to let the meat's own flavor take center stage. Traditionally cooked by men in large three-legged pots over an open fire, seswaa is a centerpiece dish at weddings, funerals, and official state ceremonies, almost always served alongside 'bogobe,' a thick sorghum or maize porridge, plus vegetables. Its presence at nearly every major celebration in the country has made it a culinary symbol of Botswana's national identity.",
+      },
+    },
+  },
+  {
+    id: "pula-moneda-lluvia",
+    order: 15,
+    placeholderEmoji: "💧",
+    accentColor: "#1D6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país cuya moneda se llama literalmente 'lluvia'",
+        subtitle: "El pula, moneda y lema nacional",
+        imageAlt: "Caricatura de gotas de lluvia cayendo sobre tierra seca y agrietada.",
+        description:
+          "Botswana es uno de los pocos países del mundo cuya moneda nacional lleva el nombre de un fenómeno meteorológico: el 'pula', introducido en 1976 en reemplazo del rand sudafricano, significa literalmente 'lluvia' en setswana. La palabra es también el lema nacional oficial, inscripto en el escudo de armas junto al nombre 'Botswana', y se usa como saludo cotidiano y como brindis, gritado con entusiasmo al final de discursos o reuniones igual que otros pueblos dirían '¡salud!'. Esta centralidad simbólica de la lluvia refleja una realidad ineludible: con cerca del setenta por ciento del territorio cubierto por el Kalahari y una agricultura dependiente de lluvias erráticas, la sequía fue durante siglos la amenaza más constante para las comunidades ganaderas del país, mucho antes de que los diamantes transformaran su economía. Elegir 'lluvia' como lema en 1966 fue una forma deliberada de expresar una aspiración compartida que no dependía de símbolos coloniales.",
+      },
+      en: {
+        title: "The Country Whose Currency Is Literally Named 'Rain'",
+        subtitle: "Pula, Currency and National Motto",
+        imageAlt: "Cartoon of raindrops falling onto dry, cracked earth.",
+        description:
+          "Botswana is one of the few countries in the world whose national currency is named after a weather phenomenon: the 'pula,' introduced in 1976 to replace the South African rand, literally means 'rain' in Setswana. The word also serves as the country's official national motto, inscribed on its coat of arms alongside the name 'Botswana,' and is used as an everyday greeting and toast, shouted enthusiastically at the end of speeches or gatherings the way other cultures might say 'cheers.' This symbolic centrality of rain reflects an inescapable reality: with roughly seventy percent of the territory covered by the Kalahari Desert and agriculture dependent on erratic rainfall, drought was for centuries the most constant threat to the country's herding communities, long before diamonds transformed its economy. Choosing 'rain' as the motto at independence in 1966 was a deliberate way to express a shared aspiration that didn't depend on colonial symbols.",
+      },
+    },
+  },
 ];

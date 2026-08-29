@@ -251,4 +251,119 @@ export const tanzania: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "julius-nyerere-union-tanzania",
+    order: 11,
+    placeholderEmoji: "🤝",
+    accentColor: "#2F6B3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El presidente que unió dos países sin disparar un tiro",
+        subtitle: "Julius Nyerere y la unión de Tanzania",
+        imageAlt: "Caricatura de dos manos estrechándose sobre un mapa con dos banderas.",
+        description:
+          "Julius Nyerere lideró a Tanganica hacia la independencia en 1961 y se convirtió en su primer presidente, y tres años después, en 1964, negoció la unión pacífica de Tanganica con la vecina Zanzíbar mediante un tratado formal en lugar de una conquista, dando origen a la actual República Unida de Tanzania, cuyo propio nombre combina 'Tanganica' y 'Zanzíbar'. Nyerere impulsó además el 'ujamaa', una versión propia de socialismo africano centrada en aldeas rurales comunales, la autosuficiencia económica y el suajili como lengua nacional unificadora entre más de ciento veinte grupos étnicos, una estrategia que ayudó a Tanzania a evitar buena parte de la política de divisiones étnicas que complicó a otros países vecinos. Aunque los resultados del ujamaa siguen debatidos, el legado de unidad que dejó Nyerere, recordado como 'Mwalimu' o maestro, es ampliamente reconocido, y su retiro voluntario del poder en 1985 fue una de las primeras transiciones presidenciales pacíficas del continente.",
+      },
+      en: {
+        title: "The President Who United Two Countries Without a Shot",
+        subtitle: "Julius Nyerere and Tanzania's Union",
+        imageAlt: "Cartoon of two hands shaking over a map with two flags.",
+        description:
+          "Julius Nyerere led Tanganyika to independence in 1961 and became its first president, and three years later, in 1964, negotiated the peaceful union of Tanganyika with neighboring Zanzibar through a formal treaty rather than conquest, giving rise to today's United Republic of Tanzania, whose very name blends 'Tanganyika' and 'Zanzibar.' Nyerere also championed 'ujamaa,' his own version of African socialism centered on communal rural villages, economic self-reliance, and promoting Swahili as a unifying national language across more than a hundred twenty ethnic groups, a strategy that helped Tanzania avoid much of the ethnic-based politics that complicated other neighboring countries. Though the economic results of ujamaa remain debated by historians, the legacy of unity Nyerere left behind, remembered as 'Mwalimu,' or teacher, is broadly recognized, and his voluntary retirement from power in 1985 became one of the earliest peaceful presidential transitions on the continent.",
+      },
+    },
+  },
+  {
+    id: "bongo-flava-musica",
+    order: 12,
+    placeholderEmoji: "🎧",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El género que convirtió a Dar es Salaam en potencia pop",
+        subtitle: "El bongo flava",
+        imageAlt: "Caricatura de un cantante con auriculares frente a un micrófono y luces de estudio.",
+        description:
+          "El bongo flava surgió en Dar es Salaam durante los años noventa, tomando su nombre de 'Bongo', apodo coloquial para la ciudad y el país que significa literalmente 'cerebro' y sugiere que hace falta astucia callejera para salir adelante allí, combinado con la palabra inglesa 'flavor'. El género mezcla la producción del hip-hop y el R&B estadounidenses con letras en suajili y ritmos de África oriental como el taarab y el dansi, y pasó de un circuito underground de casetes caseros a convertirse en el género pop dominante de Tanzania y una exportación cultural a toda la región. Artistas como Diamond Platnumz se convirtieron en algunos de los músicos africanos más escuchados en plataformas digitales, y el ascenso del género coincidió con el crecimiento de una industria musical moderna y una nueva generación de estrellas surgidas de las redes sociales, con letras que van del amor y la fiesta a comentarios sociales en el suajili urbano de la calle.",
+      },
+      en: {
+        title: "The Genre That Turned Dar es Salaam Into a Pop Power",
+        subtitle: "Bongo Flava",
+        imageAlt: "Cartoon of a singer wearing headphones in front of a microphone and studio lights.",
+        description:
+          "Bongo Flava emerged in Dar es Salaam during the 1990s, taking its name from 'Bongo,' a colloquial nickname for the city and country literally meaning 'brain,' implying it takes street smarts to get by there, combined with the English word 'flavor.' The genre blends American hip-hop and R&B production with Swahili lyrics and East African rhythms like taarab and dansi, and grew from an underground scene of homemade cassettes into Tanzania's dominant mainstream pop genre and a major cultural export across the region. Artists like Diamond Platnumz became some of the most streamed African musicians globally, and the genre's rise paralleled the growth of a modern music industry and a new generation of stars built through social media, with lyrics ranging from love and partying to social commentary in urban street Swahili.",
+      },
+    },
+  },
+  {
+    id: "taarab-musica-zanzibar",
+    order: 13,
+    placeholderEmoji: "🎻",
+    accentColor: "#5C3A21",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La poesía cantada que llegó a Zanzíbar por el mar",
+        subtitle: "La música taarab",
+        imageAlt: "Caricatura de una cantante con orquesta de instrumentos de cuerda y percusión.",
+        description:
+          "El taarab, una tradición de poesía cantada arraigada en Zanzíbar y la costa suajili, se desarrolló entre los siglos diecinueve y veinte combinando influencias árabes, indias y suajilis locales, reflejo directo de las conexiones comerciales del océano Índico que atravesaron la región. Interpretado por una orquesta con laúd árabe, violín, acordeón y tambores de mano, sus letras usan metáforas y lenguaje indirecto para transmitir mensajes personales, desde temas románticos hasta comentarios sociales o insultos velados hacia rivales, comprensibles para el público destinatario pero oscuros para cualquier otro oyente. Ligado a la corte real de Zanzíbar antes de difundirse por orquestas populares, el género tuvo en la cantante Siti binti Saad, a comienzos del siglo veinte, a una pionera, una de las primeras mujeres africanas en grabar comercialmente y romper normas de clase y género cantando en suajili para el pueblo llano, y el taarab sigue interpretándose hoy en bodas por toda la costa.",
+      },
+      en: {
+        title: "The Sung Poetry That Reached Zanzibar by Sea",
+        subtitle: "Taarab Music",
+        imageAlt: "Cartoon of a singer with an orchestra of string and percussion instruments.",
+        description:
+          "Taarab, a sung-poetry musical tradition rooted in Zanzibar and the Swahili coast, developed over the 19th and 20th centuries by blending Arab, Indian, and local Swahili influences, a direct reflection of the Indian Ocean trade connections running through the region for centuries. Performed by an orchestra combining the oud, violin, accordion, and hand drums, its lyrics use metaphor and indirect language to convey personal messages, from romantic themes to social commentary or even veiled insults toward rivals, understood by the intended audience but obscure to anyone else listening. Tied historically to Zanzibar's royal court before spreading through popular orchestras, the genre found in singer Siti binti Saad, in the early twentieth century, a pioneer, one of the first African women to record commercially and break class and gender norms by singing in Swahili for ordinary people, and taarab is still performed today at weddings across the Swahili coast.",
+      },
+    },
+  },
+  {
+    id: "pintura-tingatinga",
+    order: 14,
+    placeholderEmoji: "🎨",
+    accentColor: "#D9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El estilo que nació vendiendo cuadros en la calle",
+        subtitle: "La pintura tingatinga",
+        imageAlt: "Caricatura de un cuadro colorido con animales estilizados sobre fondo brillante.",
+        description:
+          "El estilo tingatinga, una corriente pictórica popular tanzana, fue fundado por Edward Saidi Tingatinga en Dar es Salaam a fines de los años sesenta, cuando este artista autodidacta comenzó a pintar animales y escenas de aldea de trazos vívidos, planos y de contornos gruesos sobre materiales baratos, como pintura esmalte para bicicletas aplicada sobre madera prensada, con la intención de venderlos a turistas. El estilo se caracteriza por colores saturados, patrones decorativos y figuras estilizadas en lugar de representaciones realistas, y tras la muerte de Tingatinga en 1972, sus alumnos formalizaron la técnica en un movimiento cooperativo con escuela y taller propios que la transmite a nuevas generaciones. Hoy los cuadros tingatinga se venden en mercados y galerías de toda Tanzania y se exportan internacionalmente, consolidándose como uno de los movimientos de arte popular africano más reconocibles nacido del trabajo de un único fundador autodidacta.",
+      },
+      en: {
+        title: "The Painting Style Born Selling Canvases on the Street",
+        subtitle: "Tingatinga Painting",
+        imageAlt: "Cartoon of a colorful painting with stylized animals on a bright background.",
+        description:
+          "Tingatinga, a popular Tanzanian painting style, was founded by Edward Saidi Tingatinga in Dar es Salaam in the late 1960s, when this self-taught artist began painting animals and village scenes in vivid, flat, bold-outlined strokes on cheap materials, like bicycle enamel paint applied to pressed hardboard, intending to sell them to tourists. The style is defined by saturated, bright colors, decorative patterns, and stylized, simplified figures rather than realistic representations, and after Tingatinga's death in 1972, his students and followers formalized the technique into a cooperative movement with its own school and workshop system passing the craft on to new generations of painters. Today Tingatinga paintings are sold in markets and galleries across Tanzania and exported internationally, cementing it as one of the most recognizable African folk-art movements to trace back to a single self-taught founder.",
+      },
+    },
+  },
+  {
+    id: "ruinas-kilwa-kisiwani",
+    order: 15,
+    placeholderEmoji: "🕌",
+    accentColor: "#1B7A9C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad-isla que dominó el comercio de oro y marfil",
+        subtitle: "Las ruinas de Kilwa Kisiwani",
+        imageAlt: "Caricatura de las ruinas de una mezquita de piedra junto al mar.",
+        description:
+          "Kilwa Kisiwani, una pequeña isla frente a la costa sur de Tanzania, fue una de las ciudades-estado suajilis medievales más poderosas, floreciente entre los siglos once y dieciséis por su control sobre el comercio de oro del interior de África austral, cerca del Gran Zimbabue, además de marfil y otros bienes de la red comercial del océano Índico. El viajero marroquí Ibn Battuta la describió como una de las ciudades más hermosas que había visto, y sus habitantes construyeron allí una de las mezquitas más grandes y antiguas de África oriental que se conservan hasta hoy, la Gran Mezquita de Kilwa, junto al palacio de Husuni Kubwa. La ciudad decayó tras la conquista portuguesa de comienzos del siglo dieciséis, que interrumpió su red comercial, y sus ruinas, declaradas Patrimonio de la Humanidad junto a las cercanas de Songo Mnara, son hoy uno de los sitios arqueológicos medievales más importantes del África subsahariana, aunque reciben muchos menos visitantes que Zanzíbar.",
+      },
+      en: {
+        title: "The Island City That Ruled the Gold and Ivory Trade",
+        subtitle: "The Ruins of Kilwa Kisiwani",
+        imageAlt: "Cartoon of the ruins of a stone mosque beside the sea.",
+        description:
+          "Kilwa Kisiwani, a small island off Tanzania's southern coast, was one of the most powerful medieval Swahili trading city-states, flourishing between the eleventh and sixteenth centuries thanks to its control over the gold trade from the interior of southern Africa, near the Great Zimbabwe region, along with ivory and other goods flowing through the Indian Ocean network. Moroccan traveler Ibn Battuta described it in the fourteenth century as one of the most beautiful cities he had ever seen, and its inhabitants built there one of East Africa's largest and oldest surviving mosques, the Great Mosque of Kilwa, along with the palace of Husuni Kubwa. The city declined after the Portuguese conquest of the early sixteenth century disrupted its trade network, and its ruins, declared a UNESCO World Heritage Site alongside nearby Songo Mnara, stand today as one of Sub-Saharan Africa's most significant medieval archaeological sites, though they receive far fewer visitors than Zanzibar.",
+      },
+    },
+  },
 ];

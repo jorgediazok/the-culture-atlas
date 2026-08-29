@@ -231,4 +231,119 @@ export const zimbabwe: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "el-imperio-del-oro-que-sucedio-al-gran-zimbabwe",
+    order: 11,
+    placeholderEmoji: "👑",
+    accentColor: "#A67C3D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El imperio del oro que sucedió al Gran Zimbabwe",
+        subtitle: "El Imperio de Mutapa",
+        imageAlt: "Caricatura de un rey africano con un cetro dorado junto a barras de metal.",
+        description:
+          "Hacia el siglo XV, cuando el Gran Zimbabwe entró en declive, probablemente por el agotamiento de sus tierras, buena parte de su población y poder político se trasladó al norte para fundar el Imperio de Mutapa, un reino shona que dominó el comercio de oro, marfil y cobre entre el interior africano y la costa suajili del océano Índico durante más de dos siglos. Comerciantes árabes y, desde el siglo XVI, mercaderes portugueses establecieron rutas comerciales regulares con la corte de Mutapa, cuyo gobernante llevaba el título de 'mwene mutapa', origen del nombre europeo del imperio. El oro de Mutapa llegó a alimentar buena parte del comercio de metales preciosos del océano Índico medieval, y aunque el imperio se fragmentó gradualmente por conflictos internos y presión portuguesa hacia el siglo XVII, dejó una influencia política y comercial que moldeó gran parte del actual Zimbabwe y Mozambique.",
+      },
+      en: {
+        title: "The Gold Empire That Followed Great Zimbabwe",
+        subtitle: "The Mutapa Empire",
+        imageAlt: "Cartoon of an African king with a golden scepter beside metal bars.",
+        description:
+          "By the 15th century, as Great Zimbabwe went into decline, likely from exhausted land and pasture, much of its population and political power shifted north to found the Mutapa Empire, a Shona kingdom that dominated the trade of gold, ivory, and copper between the African interior and the Swahili coast of the Indian Ocean for more than two centuries. Arab traders and, from the 16th century, Portuguese merchants established regular trade routes with the Mutapa court, whose ruler carried the title 'mwene mutapa,' the origin of the empire's European name. Mutapa gold came to fuel a significant share of the medieval Indian Ocean precious metals trade, and although the empire gradually fragmented from internal conflict and Portuguese pressure by the 17th century, it left a political and commercial influence that shaped much of present-day Zimbabwe and Mozambique.",
+      },
+    },
+  },
+  {
+    id: "las-rocas-balanceadas-con-arte-rupestre-milenario",
+    order: 12,
+    placeholderEmoji: "🪨",
+    accentColor: "#6E6259",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las rocas balanceadas con arte rupestre milenario",
+        subtitle: "Las colinas de Matobo",
+        imageAlt: "Caricatura de grandes rocas de granito apiladas en equilibrio sobre una colina.",
+        description:
+          "Las colinas de Matobo, un paisaje de enormes rocas de granito balanceadas en formaciones improbables al sur de Bulawayo, albergan una de las mayores concentraciones de arte rupestre del mundo, miles de pinturas hechas por comunidades san cazadoras-recolectoras a lo largo de más de trece mil años, con animales, escenas de caza y ceremonias espirituales en pigmentos ocres, blancos y negros todavía vívidos hoy en cuevas y refugios rocosos de toda la zona. Más allá de su valor arqueológico, las colinas siguen siendo un sitio espiritual activo: Njelele, una de las formaciones graníticas, todavía funciona como santuario para pedir lluvia, donde líderes tradicionales y peregrinos se reúnen en temporadas de sequía, una práctica religiosa continua con raíces muy anteriores a la colonización. Declaradas Patrimonio de la Humanidad por la Unesco en 2003 por su valor natural y cultural, Matobo alberga también una de las mayores poblaciones de rinocerontes negros y blancos del país.",
+      },
+      en: {
+        title: "The Balancing Rocks With Ancient Rock Art",
+        subtitle: "The Matobo Hills",
+        imageAlt: "Cartoon of large granite boulders stacked in balance atop a hill.",
+        description:
+          "The Matobo Hills, a landscape of massive granite boulders balanced in improbable formations south of Bulawayo, hold one of the highest concentrations of rock art anywhere in the world, thousands of paintings made by San hunter-gatherer communities over more than thirteen thousand years, depicting animals, hunting scenes, and spiritual ceremonies in ochre, white, and black pigments still vivid today across caves and rock shelters in the hills. Beyond their archaeological value, the hills remain an active spiritual site: Njelele, one of the granite formations, still functions as a rainmaking shrine where traditional leaders and pilgrims gather during dry seasons, a continuous religious practice with roots long predating colonization. Declared a UNESCO World Heritage site in 2003 for both natural and cultural significance, Matobo also shelters one of the country's densest populations of black and white rhinoceros within a national park.",
+      },
+    },
+  },
+  {
+    id: "el-baile-que-la-unesco-declaro-primero-del-mundo",
+    order: 13,
+    placeholderEmoji: "💃",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El baile que la Unesco declaró primero del mundo",
+        subtitle: "La danza jerusarema",
+        imageAlt: "Caricatura de una pareja bailando con movimientos de cadera pronunciados.",
+        description:
+          "El jerusarema, una danza tradicional del pueblo zezuru shona del centro de Zimbabwe, ejecutada con movimientos rápidos de cadera y cintura acompañados de tambores, palmas y cantos de llamada y respuesta, se convirtió en 2005 en una de las primeras expresiones culturales del mundo inscriptas en la lista de Patrimonio Cultural Inmaterial de la Unesco. Interpretada originalmente en celebraciones de cosecha, bodas y ceremonias de preparación de cerveza como muestra de vitalidad y cortejo, sus movimientos enérgicos y sugerentes de cadera generaron en su momento el rechazo de misioneros cristianos que intentaron reprimirla durante el período colonial, algo que paradójicamente ayudó a consolidarla como símbolo de orgullo y resistencia cultural. También conocida como mbende, en referencia a una danza de fertilidad emparentada que imita los movimientos de un topo, el jerusarema se enseña hoy en escuelas y se interpreta en celebraciones nacionales como símbolo de identidad zimbabuense.",
+      },
+      en: {
+        title: "The Dance UNESCO Declared First in the World",
+        subtitle: "Jerusarema",
+        imageAlt: "Cartoon of a couple dancing with pronounced hip movements.",
+        description:
+          "Jerusarema, a traditional dance of the Zezuru Shona people from central Zimbabwe, performed with rapid hip and waist movements accompanied by drums, hand-clapping, and call-and-response singing, became in 2005 one of the very first cultural expressions in the world inscribed on UNESCO's list of Intangible Cultural Heritage, among the initial batch selected when the program began. Originally performed at harvest celebrations, weddings, and beer-brewing ceremonies as a display of vitality and courtship, the dance's energetic, suggestive hip movements once drew disapproval from Christian missionaries who tried to suppress it during the colonial period, which paradoxically helped cement it as a marker of cultural pride and resistance. Also known as mbende, referencing a related fertility dance imitating the movements of a mole, jerusarema is now taught in schools and performed at national celebrations as a symbol of Zimbabwean identity.",
+      },
+    },
+  },
+  {
+    id: "el-rey-que-fundo-un-reino-tras-huir-de-zululandia",
+    order: 14,
+    placeholderEmoji: "🛡️",
+    accentColor: "#8B3A3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El rey que fundó un reino tras huir de Zululandia",
+        subtitle: "Mzilikazi y el reino ndebele",
+        imageAlt: "Caricatura de un guerrero con un escudo de piel y una lanza corta.",
+        description:
+          "Mzilikazi, un antiguo general del rey zulú Shaka, rompió con sus seguidores en la década de 1820 y lideró una larga migración hacia el norte a través de lo que hoy es Sudáfrica, huyendo del conflicto con Shaka, hasta establecerse en la década de 1830 en las llanuras del actual suroeste de Zimbabwe, donde fundó el reino ndebele, incorporando en el camino a comunidades sotho, tswana y shona dentro de un estado militar centralizado organizado en regimientos de guerreros por edad, según el modelo zulú. Su hijo Lobengula heredó el trono en 1870 y gobernó desde Bulawayo, que significa 'lugar de matanza' en ndebele, hasta que fuerzas coloniales británicas derrotaron al reino en 1893, poniendo fin a casi seis décadas de independencia ndebele. La lengua ndebele, emparentada con el zulú, sigue siendo hoy la segunda más hablada de Zimbabwe, y tradiciones culturales ndebele, entre ellas su cuentería en abalorios y su cultura ganadera, se mantienen fuertes en Matabelelandia.",
+      },
+      en: {
+        title: "The King Who Founded a Kingdom Fleeing Zululand",
+        subtitle: "Mzilikazi and the Ndebele Kingdom",
+        imageAlt: "Cartoon of a warrior with a hide shield and a short spear.",
+        description:
+          "Mzilikazi, a former general under Zulu king Shaka, broke away with his followers in the 1820s and led a long migration north across what is today South Africa, fleeing conflict with Shaka, eventually settling in the 1830s in the grasslands of present-day southwestern Zimbabwe, where he founded the Ndebele Kingdom, absorbing Sotho, Tswana, and Shona communities along the way into a centralized military state organized around age-based fighting regiments modeled on Zulu tradition. His son Lobengula inherited the throne in 1870 and ruled from Bulawayo, meaning 'place of slaughter' in Ndebele, until British colonial forces defeated the kingdom in 1893, ending nearly six decades of Ndebele independence. The Ndebele language, closely related to Zulu, remains Zimbabwe's second most widely spoken language today, and Ndebele cultural traditions, including distinctive beadwork and cattle culture, remain strong across Matabeleland.",
+      },
+    },
+  },
+  {
+    id: "las-tierras-altas-con-neblina-y-terrazas-de-piedra",
+    order: 15,
+    placeholderEmoji: "⛰️",
+    accentColor: "#3D6B54",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las tierras altas con neblina y terrazas de piedra",
+        subtitle: "Las montañas de Nyanga",
+        imageAlt: "Caricatura de colinas verdes en terrazas cubiertas de neblina.",
+        description:
+          "Las tierras altas de Nyanga, en el este de Zimbabwe sobre la frontera con Mozambique, albergan el pico más alto del país, el monte Nyangani con 2.592 metros, un paisaje fresco y neblinoso de colinas verdes tan distinto del resto del terreno seco zimbabuense que a veces se lo compara con las tierras altas escocesas, hoy cubierto en gran parte por plantaciones de té, café y pino sembradas en la época colonial. Mucho antes, entre los siglos XV y XVIII, comunidades agrícolas construyeron un extenso sistema de terrazas de piedra, estructuras de pozo y canales de riego en estas laderas, restos que los arqueólogos reconocen hoy como uno de los sistemas agrícolas precoloniales más sofisticados del sur de África, distinto de la arquitectura ceremonial del Gran Zimbabwe. La leyenda local sostiene que el monte Nyangani ha hecho desaparecer sin explicación a excursionistas a lo largo de las décadas, historia que todavía disuade a algunos de escalarlo en solitario.",
+      },
+      en: {
+        title: "The Misty Highlands With Ancient Stone Terraces",
+        subtitle: "The Nyanga Mountains",
+        imageAlt: "Cartoon of green terraced hills covered in mist.",
+        description:
+          "The Nyanga Highlands, in eastern Zimbabwe along the border with Mozambique, hold the country's highest peak, Mount Nyangani at 2,592 meters, a cool, misty landscape of rolling green hills so different from the rest of Zimbabwe's drier terrain that it's sometimes compared to the Scottish highlands, now covered largely in tea, coffee, and pine plantations planted during the colonial era. Long before that, between roughly the 15th and 18th centuries, farming communities built an extensive system of stone-walled terraces, pit structures, and irrigation furrows across these slopes, remains archaeologists now recognize as one of the most sophisticated pre-colonial farming systems in southern Africa, distinct from Great Zimbabwe's ceremonial stonework. Local legend holds that Mount Nyangani has caused hikers to vanish without explanation over the decades, a story that still deters some visitors from climbing it alone.",
+      },
+    },
+  },
 ];

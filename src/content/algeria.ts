@@ -209,6 +209,121 @@ export const algeria: CultureEntry[] = [
     },
   },
   {
+    id: "constantina-puentes",
+    order: 11,
+    placeholderEmoji: "🌉",
+    accentColor: "#5B6770",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La ciudad partida en dos por un cañón profundo",
+        subtitle: "Constantina, ciudad de los puentes",
+        imageAlt: "Caricatura de un puente colgante sobre un cañón profundo entre acantilados.",
+        description:
+          "Constantina, la tercera ciudad más grande de Argelia, está construida sobre un macizo rocoso partido por el profundo cañón del río Rhumel, una garganta de hasta 200 metros que separa la ciudad en dos mitades unidas por una serie de puentes colgantes y viaductos vertiginosos. El más famoso, el puente Sidi M'Cid, inaugurado en 1912, fue durante años uno de los puentes suspendidos más altos del mundo y sigue ofreciendo vistas directas al abismo bajo los pies de quienes lo cruzan. La ciudad, fundada en la antigüedad como Cirta y rebautizada en honor al emperador romano Constantino tras su reconstrucción en el siglo IV, conserva un casco antiguo de casas otomanas apiñadas al borde del precipicio, y cada puente nuevo construido a lo largo del siglo XX fue una nueva respuesta práctica al mismo desafío geográfico: cómo conectar una ciudad que la naturaleza dividió en dos.",
+      },
+      en: {
+        title: "The City Split in Two by a Deep Canyon",
+        subtitle: "Constantine, City of Bridges",
+        imageAlt: "Cartoon of a suspension bridge over a deep canyon between cliffs.",
+        description:
+          "Constantine, Algeria's third-largest city, is built on a rocky plateau split by the deep gorge of the Rhumel River, a canyon up to 200 meters deep that divides the city into two halves joined by a series of suspension bridges and vertigo-inducing viaducts. The most famous, the Sidi M'Cid Bridge, opened in 1912, was for years one of the highest suspension bridges in the world and still offers sheer views into the abyss beneath anyone crossing it. The city, founded in antiquity as Cirta and renamed in honor of Roman emperor Constantine after its 4th-century reconstruction, retains an old town of Ottoman houses clustered at the cliff's edge, and every new bridge added throughout the 20th century was one more practical answer to the same geographic challenge: how to connect a city nature split in two.",
+      },
+    },
+  },
+  {
+    id: "timgad-romana",
+    order: 12,
+    placeholderEmoji: "🏛️",
+    accentColor: "#C08552",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La 'Pompeya de África' en pleno desierto",
+        subtitle: "Las ruinas romanas de Timgad",
+        imageAlt: "Caricatura de un arco de triunfo romano entre columnas en ruinas.",
+        description:
+          "Timgad, en las estribaciones del Aurès al este de Argelia, fue fundada por el emperador romano Trajano hacia el año 100 d.C. como colonia militar para veteranos legionarios, trazada según un rígido plano en cuadrícula romano que se conservó casi intacto bajo la arena durante siglos hasta ser redescubierta y excavada a partir de 1881. El yacimiento, tan completo que se lo apoda la 'Pompeya de África', conserva un arco de triunfo monumental, un teatro para 3.500 espectadores, una biblioteca pública, termas y calles pavimentadas con las marcas originales de los carros romanos todavía visibles en la piedra. Declarada Patrimonio de la Humanidad por la UNESCO en 1982, Timgad recibe hoy relativamente pocos visitantes pese a ser uno de los conjuntos arqueológicos romanos mejor conservados de todo el Mediterráneo.",
+      },
+      en: {
+        title: "The 'Pompeii of Africa' in the Desert",
+        subtitle: "The Roman Ruins of Timgad",
+        imageAlt: "Cartoon of a Roman triumphal arch among ruined columns.",
+        description:
+          "Timgad, in the foothills of the Aurès mountains in eastern Algeria, was founded by Roman emperor Trajan around 100 CE as a military colony for legionary veterans, laid out on a rigid Roman grid plan that survived almost intact beneath the sand for centuries until being rediscovered and excavated starting in 1881. The site, so complete it's nicknamed the 'Pompeii of Africa,' preserves a monumental triumphal arch, a theater seating 3,500 spectators, a public library, bathhouses, and paved streets where the original grooves worn by Roman cart wheels are still visible in the stone. Declared a UNESCO World Heritage Site in 1982, Timgad today draws relatively few visitors despite being one of the best-preserved Roman archaeological complexes anywhere in the Mediterranean.",
+      },
+    },
+  },
+  {
+    id: "emir-abdelkader",
+    order: 13,
+    placeholderEmoji: "⚔️",
+    accentColor: "#2F4538",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El guerrero que Francia terminó condecorando",
+        subtitle: "El emir Abdelkader",
+        imageAlt: "Caricatura de un jinete con turbante y espada en alto sobre un caballo.",
+        description:
+          "El emir Abdelkader ibn Muhieddine lideró desde 1832 hasta su rendición en 1847 la resistencia argelina contra la conquista francesa, combinando estrategia militar con una profunda formación religiosa sufí que lo convirtió tanto en jefe de guerra como en erudito respetado, capaz de organizar un incipiente Estado argelino con su propia administración, ejército y bandera durante los años en que resistió a Francia. Tras su rendición y exilio, se instaló en Damasco, donde en 1860, durante disturbios sectarios, arriesgó su vida para proteger a miles de cristianos maronitas y europeos perseguidos, un acto de humanidad que le valió la Legión de Honor francesa y reconocimiento internacional, pese a haber sido el enemigo más temido de Francia en el norte de África. Su legado de tolerancia inspiró incluso el nombre de la ciudad estadounidense de Elkader, en Iowa, fundada en su honor en 1846.",
+      },
+      en: {
+        title: "The Warrior France Ended Up Decorating",
+        subtitle: "Emir Abdelkader",
+        imageAlt: "Cartoon of a turbaned horseman with a sword raised.",
+        description:
+          "Emir Abdelkader ibn Muhieddine led Algerian resistance against the French conquest from 1832 until his surrender in 1847, combining military strategy with deep Sufi religious training that made him both a war leader and a widely respected scholar, capable of organizing an early Algerian state with its own administration, army, and flag during the years he held off France. After his surrender and exile, he settled in Damascus, where in 1860, during sectarian riots, he risked his life to shelter thousands of persecuted Maronite Christians and Europeans, an act of humanity that earned him France's Legion of Honor and international recognition, despite having been France's most feared enemy in North Africa. His legacy of tolerance even inspired the name of the American town of Elkader, Iowa, founded in his honor in 1846.",
+      },
+    },
+  },
+  {
+    id: "joyeria-ath-yenni",
+    order: 14,
+    placeholderEmoji: "💍",
+    accentColor: "#9AA5B1",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La plata cabilia que llevan las novias",
+        subtitle: "La joyería de Ath Yenni",
+        imageAlt: "Caricatura de un broche circular de plata con esmalte y cuentas de coral.",
+        description:
+          "Ath Yenni, un grupo de aldeas en las montañas de Cabilia, es desde hace generaciones el centro de la joyería de plata más reconocida de Argelia, elaborada por plateros que combinan la técnica del filigrana con esmalte vidriado en verde, amarillo y azul, y coral rojo engastado en motivos geométricos transmitidos de padres a hijos dentro de familias artesanas específicas. Estas piezas, entre las que destacan grandes fíbulas circulares llamadas 'tazerzit' usadas para sujetar vestidos tradicionales, forman parte central del ajuar nupcial cabilio, donde una novia puede lucir varios kilos de plata el día de su boda como símbolo de protección y estatus familiar. El oficio, reconocido como parte del patrimonio cultural argelino, enfrenta hoy el desafío de atraer a nuevas generaciones de artesanos frente a la competencia de la joyería industrial.",
+      },
+      en: {
+        title: "The Kabyle Silver Brides Wear",
+        subtitle: "The Jewelry of Ath Yenni",
+        imageAlt: "Cartoon of a circular silver brooch with enamel and coral beads.",
+        description:
+          "Ath Yenni, a cluster of villages in the Kabylia mountains, has for generations been the center of Algeria's most recognized silver jewelry, made by silversmiths who combine filigree technique with glazed enamel in green, yellow, and blue alongside red coral set into geometric patterns passed down through specific artisan families from father to son. These pieces, including large circular brooches called 'tazerzit' used to fasten traditional dress, form a central part of the Kabyle bridal trousseau, where a bride may wear several kilograms of silver on her wedding day as a symbol of protection and family status. The craft, recognized as part of Algeria's cultural heritage, today faces the challenge of drawing in new generations of artisans against competition from mass-produced jewelry.",
+      },
+    },
+  },
+  {
+    id: "datiles-deglet-nour",
+    order: 15,
+    placeholderEmoji: "🌴",
+    accentColor: "#A9431E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El dátil dorado que ilumina los oasis del Sahara",
+        subtitle: "Los dátiles Deglet Nour",
+        imageAlt: "Caricatura de un racimo de dátiles dorados colgando de una palmera.",
+        description:
+          "El dátil Deglet Nour, cuyo nombre significa 'dátil de luz' por su pulpa translúcida ambarina que deja pasar el sol al trasluz, se cultiva desde hace siglos en los oasis saharianos de Argelia, especialmente alrededor de Biskra y Tolga, donde las palmeras crecen bajo un sistema tradicional de cultivo en tres niveles que combina palmeras, árboles frutales y hortalizas para aprovechar cada gota de agua del oasis. Argelia es uno de los mayores productores mundiales de esta variedad, considerada la 'reina de los dátiles' por su textura firme y dulzura equilibrada, y la cosecha de otoño sigue siendo un evento comunitario en los pueblos oasianos, donde familias enteras suben a las palmeras para recolectar los racimos a mano como se hacía generaciones atrás. La UNESCO reconoció en 2019 los oasis argelinos de palmeras como parte de un sistema agrícola de patrimonio mundial compartido con otros países del Magreb.",
+      },
+      en: {
+        title: "The Golden Date That Lights Up Saharan Oases",
+        subtitle: "Deglet Nour Dates",
+        imageAlt: "Cartoon of a cluster of golden dates hanging from a palm tree.",
+        description:
+          "The Deglet Nour date, whose name means 'date of light' for its translucent amber flesh that glows when held up to the sun, has been grown for centuries in Algeria's Saharan oases, especially around Biskra and Tolga, where date palms grow under a traditional three-tiered cultivation system combining palms, fruit trees, and vegetables to make use of every drop of the oasis's water. Algeria is one of the world's largest producers of this variety, considered the 'queen of dates' for its firm texture and balanced sweetness, and the autumn harvest remains a communal event in oasis towns, where entire families climb the palms to hand-pick the clusters just as generations did before them. UNESCO recognized Algeria's palm oases in 2019 as part of a shared World Heritage agricultural system spanning several Maghreb countries.",
+      },
+    },
+  },
+  {
     id: "kabilia-amazigh",
     order: 10,
     placeholderEmoji: "🏔️",

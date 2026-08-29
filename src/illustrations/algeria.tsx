@@ -161,6 +161,136 @@ const KabiliaAmazigh: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const ConstantinaPuentes: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gorge = "#3A3A42";
+  const light = tint(accentColor, 0.4);
+  return (
+    <g>
+      {/* left cliff */}
+      <path d="M90 250 L90 160 L150 130 L175 165 L170 250 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* right cliff */}
+      <path d="M235 250 L230 160 L270 120 L320 150 L320 250 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* gorge between the two halves */}
+      <path d="M170 250 L175 165 L230 160 L235 250 Z" fill={gorge} />
+      {/* houses on left cliff */}
+      <rect x="100" y="150" width="20" height="26" fill={light} stroke={dark} strokeWidth="2" />
+      <rect x="125" y="140" width="18" height="30" fill={light} stroke={dark} strokeWidth="2" />
+      {/* houses on right cliff */}
+      <rect x="245" y="135" width="20" height="28" fill={light} stroke={dark} strokeWidth="2" />
+      <rect x="275" y="115" width="20" height="30" fill={light} stroke={dark} strokeWidth="2" />
+      {/* suspension bridge deck + pylon + cables */}
+      <line x1="172" y1="195" x2="233" y2="185" stroke={dark} strokeWidth="5" />
+      <line x1="202" y1="130" x2="202" y2="195" stroke={dark} strokeWidth="4" />
+      <line x1="172" y1="195" x2="202" y2="140" stroke={dark} strokeWidth="2" />
+      <line x1="233" y1="185" x2="202" y2="140" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const TimgadRomana: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  return (
+    <g>
+      <rect x="90" y="230" width="230" height="18" fill={dark} opacity="0.25" />
+      {/* triumphal arch */}
+      <rect x="172" y="120" width="18" height="110" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="242" y="120" width="18" height="110" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M172 120 Q206 92 260 120 L260 138 Q206 112 172 138 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <rect x="196" y="150" width="22" height="80" fill="none" stroke={dark} strokeWidth="2.5" />
+      {/* broken columns flanking the arch */}
+      <rect x="109" y="150" width="12" height="80" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <rect x="134" y="170" width="12" height="60" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <rect x="289" y="140" width="12" height="90" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <rect x="309" y="165" width="12" height="65" fill={accentColor} stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const EmirAbdelkader: IllustrationComponent = ({ accentColor }) => {
+  const horseColor = "#5C4433";
+  const dark = shade(horseColor, 0.3);
+  const skin = "#C68A5A";
+  const trim = shade(accentColor, 0.4);
+  return (
+    <g>
+      {/* neck+head, tail, and legs drawn first so the body absorbs the seams */}
+      <path d="M245 195 Q275 175 285 150 Q292 145 288 155 Q278 180 255 200 Z" fill={horseColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M155 200 Q125 210 120 235" fill="none" stroke={dark} strokeWidth="9" strokeLinecap="round" />
+      <line x1="165" y1="210" x2="158" y2="252" stroke={horseColor} strokeWidth="8" strokeLinecap="round" />
+      <line x1="188" y1="212" x2="196" y2="254" stroke={horseColor} strokeWidth="8" strokeLinecap="round" />
+      <line x1="212" y1="212" x2="204" y2="254" stroke={horseColor} strokeWidth="8" strokeLinecap="round" />
+      <line x1="235" y1="210" x2="244" y2="252" stroke={horseColor} strokeWidth="8" strokeLinecap="round" />
+      {/* body, painted over the neck/tail/leg attachment points */}
+      <ellipse cx="200" cy="205" rx="55" ry="26" fill={horseColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M250 180 Q262 163 256 148" fill="none" stroke={dark} strokeWidth="3" strokeLinecap="round" />
+      {/* rider torso + robe */}
+      <path d="M183 195 Q200 135 219 195 L214 212 Q200 204 188 212 Z" fill={accentColor} stroke={trim} strokeWidth="2.5" />
+      {/* rider head + turban */}
+      <circle cx="201" cy="160" r="13" fill={skin} />
+      <path d="M187 158 Q201 138 215 158 Q215 147 201 144 Q187 147 187 158 Z" fill="#fff" stroke={trim} strokeWidth="2" />
+      {/* raised arm + sword */}
+      <path d="M216 190 Q236 168 246 142" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <line x1="246" y1="142" x2="262" y2="104" stroke="#D8D8D8" strokeWidth="4" strokeLinecap="round" />
+      <line x1="241" y1="137" x2="251" y2="147" stroke={trim} strokeWidth="4" />
+    </g>
+  );
+};
+
+const JoyeriaAthYenni: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const coral = "#C1440E";
+  const enamel = "#2E7D5B";
+  // 8 points precomputed offline on a radius-55 circle centered at (205,175), 45° apart.
+  const CORAL_BEADS: [number, number][] = [
+    [205, 120], [260, 175], [205, 230], [150, 175],
+    [244, 136], [244, 214], [166, 136], [166, 214],
+  ];
+  return (
+    <g>
+      <circle cx="205" cy="175" r="55" fill={accentColor} stroke={dark} strokeWidth="4" />
+      <circle cx="205" cy="175" r="38" fill="none" stroke={dark} strokeWidth="3" />
+      <line x1="205" y1="175" x2="205" y2="120" stroke={dark} strokeWidth="2.5" transform="rotate(0 205 175)" />
+      <line x1="205" y1="175" x2="205" y2="120" stroke={dark} strokeWidth="2.5" transform="rotate(45 205 175)" />
+      <line x1="205" y1="175" x2="205" y2="120" stroke={dark} strokeWidth="2.5" transform="rotate(90 205 175)" />
+      <line x1="205" y1="175" x2="205" y2="120" stroke={dark} strokeWidth="2.5" transform="rotate(135 205 175)" />
+      {CORAL_BEADS.map(([x, y]) => (
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="7" fill={coral} stroke={shade(coral, 0.3)} strokeWidth="1.5" />
+      ))}
+      <circle cx="205" cy="175" r="16" fill={enamel} stroke={dark} strokeWidth="2.5" />
+      <path d="M195 226 L205 250 L215 226" fill="none" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const DatilesDegletNour: IllustrationComponent = ({ accentColor }) => {
+  const trunk = "#8B6B4A";
+  const dark = shade(trunk, 0.35);
+  const leaf = shade(accentColor, 0.15);
+  // Frond tip offsets from the crown point, precomputed by hand (not trig at render time).
+  const FRONDS: [number, number][] = [
+    [-70, -10], [-40, -35], [0, -45], [40, -35], [70, -10],
+  ];
+  return (
+    <g>
+      <path d="M195 250 Q198 180 205 120 Q212 180 215 250 Z" fill={trunk} stroke={dark} strokeWidth="2.5" />
+      <line x1="197" y1="160" x2="213" y2="160" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      <line x1="197" y1="190" x2="213" y2="190" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      <line x1="197" y1="220" x2="213" y2="220" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      {FRONDS.map(([dx, dy]) => (
+        <path key={`${dx}-${dy}`} d={`M205 115 Q${205 + dx * 0.6} ${115 + dy * 0.6} ${205 + dx} ${115 + dy}`} fill="none" stroke={leaf} strokeWidth="7" strokeLinecap="round" />
+      ))}
+      <path d="M205 150 Q225 165 220 190" fill="none" stroke={dark} strokeWidth="3" />
+      <circle cx="212" cy="165" r="8" fill={accentColor} stroke={shade(accentColor, 0.35)} strokeWidth="1.5" />
+      <circle cx="222" cy="172" r="8" fill={accentColor} stroke={shade(accentColor, 0.35)} strokeWidth="1.5" />
+      <circle cx="214" cy="180" r="8" fill={accentColor} stroke={shade(accentColor, 0.35)} strokeWidth="1.5" />
+      <circle cx="224" cy="186" r="8" fill={accentColor} stroke={shade(accentColor, 0.35)} strokeWidth="1.5" />
+      <circle cx="210" cy="192" r="8" fill={accentColor} stroke={shade(accentColor, 0.35)} strokeWidth="1.5" />
+      <ellipse cx="205" cy="252" rx="90" ry="10" fill={tint(accentColor, 0.6)} opacity="0.5" />
+    </g>
+  );
+};
+
 export const algeriaIllustrations: Record<string, IllustrationDefinition> = {
   "mayor-pais-africa": { component: MayorPaisAfrica },
   "casbah-argel": { component: CasbahArgel },
@@ -172,4 +302,9 @@ export const algeriaIllustrations: Record<string, IllustrationDefinition> = {
   "gas-argelia": { component: GasArgelia },
   "couscous-argelia": { component: CouscousArgelia },
   "kabilia-amazigh": { component: KabiliaAmazigh },
+  "constantina-puentes": { component: ConstantinaPuentes },
+  "timgad-romana": { component: TimgadRomana },
+  "emir-abdelkader": { component: EmirAbdelkader },
+  "joyeria-ath-yenni": { component: JoyeriaAthYenni },
+  "datiles-deglet-nour": { component: DatilesDegletNour },
 };

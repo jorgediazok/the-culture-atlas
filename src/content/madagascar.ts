@@ -251,4 +251,119 @@ export const madagascar: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "piratas-isla-santa-maria",
+    order: 11,
+    placeholderEmoji: "🏴‍☠️",
+    accentColor: "#1B1B1B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La isla donde los piratas fundaron su propia utopía",
+        subtitle: "Los piratas de la Isla de Santa María",
+        imageAlt: "Caricatura de un barco pirata con bandera negra anclado junto a una isla tropical.",
+        description:
+          "La Isla de Santa María (Nosy Boraha), una pequeña isla frente a la costa este de Madagascar, se convirtió a fines del siglo diecisiete y comienzos del dieciocho en uno de los principales refugios piratas del mundo durante la 'edad de oro de la piratería', gracias a una bahía natural protegida que albergó a cientos de piratas, algunos vinculados al célebre capitán Kidd, que asaltaban barcos mercantes cargados de especias y sedas en ruta entre Asia y Europa. Según relatos de la época cuya veracidad los especialistas todavía debaten, algunos piratas habrían fundado allí una colonia semi legendaria de gobierno igualitario llamada Libertalia, un mito que persiste pese a la falta de evidencia concluyente. Lo que sí sobrevive de forma tangible es un cementerio pirata con tumbas centenarias y lápidas talladas con calaveras y tibias cruzadas, hoy un modesto atractivo turístico que combina el folclore pirata con el avistamiento de ballenas jorobadas que migran frente a sus costas cada año.",
+      },
+      en: {
+        title: "The Island Where Pirates Founded Their Own Utopia",
+        subtitle: "The Pirates of Île Sainte-Marie",
+        imageAlt: "Cartoon of a pirate ship with a black flag anchored beside a tropical island.",
+        description:
+          "Île Sainte-Marie (Nosy Boraha), a small island off Madagascar's east coast, became one of the world's major pirate havens in the late 17th and early 18th centuries during the so-called 'Golden Age of Piracy,' thanks to a sheltered natural harbor that hosted hundreds of pirates, some historically linked to the notorious Captain Kidd, who preyed on merchant ships loaded with spices and silk sailing between Asia and Europe. According to accounts from the period whose historical accuracy specialists still debate, some pirates may have founded a semi-legendary egalitarian colony on the island called Libertalia, a myth that persists in popular culture despite the lack of conclusive archaeological evidence. What does survive tangibly is a genuine pirate cemetery with centuries-old graves and headstones carved with skulls and crossed bones, today a modest tourist draw that blends pirate lore with the humpback whales that migrate past its shores every year.",
+      },
+    },
+  },
+  {
+    id: "sistema-de-fady",
+    order: 12,
+    placeholderEmoji: "🚫",
+    accentColor: "#5C3A21",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las reglas invisibles que cambian de pueblo en pueblo",
+        subtitle: "El sistema de fady",
+        imageAlt: "Caricatura de una señal de mano deteniendo el paso frente a un árbol sagrado.",
+        description:
+          "El fady, un sistema extendido de tabúes propio de la cultura malgache, se caracteriza por ser extremadamente local y específico, variando de una aldea, clan o familia a otra, de modo que un alimento, animal, día de la semana o gesto prohibido en una comunidad puede resultar indiferente apenas unos kilómetros más allá. Sus raíces se hunden en el respeto hacia los antepasados, conocidos como razana, y en la necesidad de mantener la armonía con el mundo espiritual, ya que romper un fady se considera capaz de atraer desgracias no solo sobre quien lo transgrede sino sobre toda su comunidad. Los ejemplos incluyen desde prohibiciones sobre comer ciertas carnes o silbar de noche hasta reglas sobre la orientación de una vivienda, y tanto visitantes extranjeros como malgaches que viajan a regiones desconocidas suelen preguntar primero a los locales qué fady rigen en la zona, ya que no existe ninguna autoridad religiosa central que imponga las mismas reglas en toda la isla.",
+      },
+      en: {
+        title: "The Invisible Rules That Change From Village to Village",
+        subtitle: "The System of Fady",
+        imageAlt: "Cartoon of a hand signaling stop before a sacred tree.",
+        description:
+          "Fady, a widespread system of taboos unique to Malagasy culture, is marked by being extremely local and specific, varying dramatically from one village, clan, or family to another, so a food, animal, day of the week, or gesture forbidden in one community can be completely unremarkable just a few kilometers away. Its roots lie in respect for ancestors, known as razana, and in the need to maintain harmony with the spiritual world, since breaking a fady is believed capable of bringing misfortune not just on whoever transgresses it but on their entire community. Examples range from prohibitions on eating certain meats or whistling at night to rules about which direction a house should face, and both foreign visitors and Malagasy people traveling to unfamiliar regions of their own country typically ask locals first which fady apply in the area, since no central religious authority enforces the same rules uniformly across the island.",
+      },
+    },
+  },
+  {
+    id: "camaleones-malgaches",
+    order: 13,
+    placeholderEmoji: "🦎",
+    accentColor: "#3A7A45",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La isla con la mitad de los camaleones del mundo",
+        subtitle: "Los camaleones malgaches",
+        imageAlt: "Caricatura de un camaleón de colores vivos sobre una rama con ojos giratorios.",
+        description:
+          "Madagascar alberga casi la mitad de las aproximadamente doscientas especies de camaleón conocidas en el mundo, incluidos los diminutos camaleones hoja del género Brookesia, entre los reptiles más pequeños del planeta y capaces en algunos casos de posarse sobre la cabeza de un fósforo, en contraste con el camaleón de Parson, que puede superar los sesenta centímetros y figura entre los más grandes. Los camaleones son célebres por sus ojos que giran de forma independiente, ofreciéndoles un campo de visión cercano a los 360 grados, por su lengua proyectil capaz de superar su propio cuerpo para atrapar insectos, y por una piel que cambia de color impulsada sobre todo por el ánimo, la temperatura y la comunicación social, más que por simple camuflaje como suele creerse. El aislamiento extremo de la isla impulsó esta diversificación sin parangón, aunque muchas especies quedaron restringidas a fragmentos diminutos de bosque, lo que vuelve la pérdida de hábitat una amenaza urgente.",
+      },
+      en: {
+        title: "The Island Home to Half the World's Chameleons",
+        subtitle: "Madagascar's Chameleons",
+        imageAlt: "Cartoon of a brightly colored chameleon on a branch with rotating eyes.",
+        description:
+          "Madagascar is home to nearly half of the roughly two hundred chameleon species known worldwide, including the tiny leaf chameleons of the genus Brookesia, among the smallest reptiles on the planet and, in some cases, small enough to perch on the head of a matchstick, in sharp contrast with Parson's chameleon, which can exceed two feet in length and ranks among the largest known chameleons. Chameleons are famous for eyes that rotate independently of each other, giving them nearly 360-degree vision, for a projectile tongue that can extend farther than their own body length to catch insects, and for skin that changes color driven mainly by mood, temperature, and social communication rather than simple camouflage, as popularly assumed. The island's extreme isolation over tens of millions of years drove this diversification unmatched anywhere else on the planet, though many species remain restricted to tiny fragments of forest, making habitat loss an urgent conservation concern.",
+      },
+    },
+  },
+  {
+    id: "seda-landibe-lamba-mena",
+    order: 14,
+    placeholderEmoji: "🧵",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La seda salvaje que envuelve a los muertos con honor",
+        subtitle: "El lamba mena de seda landibe",
+        imageAlt: "Caricatura de una tela roja y dorada tejida colgando junto a un capullo de gusano de seda.",
+        description:
+          "El landibe, una seda silvestre producida por orugas de polillas nativas de Madagascar que se alimentan de los árboles tapia en lugar de la morera cultivada de la sericultura convencional, se recolecta de capullos silvestres en el bosque y se hila y teje a mano tradicionalmente para confeccionar el preciado 'lamba mena', la tela roja usada como sudario funerario y vuelta a envolver alrededor de los restos durante las ceremonias de famadihana. Los tonos rojos y dorados y los patrones tejidos en el lamba mena cargan un significado ceremonial profundo, muy distinto del de una tela para uso cotidiano, y la técnica se transmite dentro de familias de artesanos especializados de las tierras altas malgaches. La recolección de seda silvestre se volvió menos común a lo largo del siglo veinte a medida que el hábitat forestal de los árboles tapia se redujo, por lo que hoy proyectos de conservación trabajan para sostener juntos el bosque de tapia y el conocimiento tradicional del tejido.",
+      },
+      en: {
+        title: "The Wild Silk That Wraps the Dead With Honor",
+        subtitle: "Landibe Silk and the Lamba Mena",
+        imageAlt: "Cartoon of a woven red and gold cloth hanging beside a silkworm cocoon.",
+        description:
+          "Landibe, a wild silk produced by native Malagasy moth caterpillars that feed on tapia trees rather than the cultivated mulberry used in conventional silk farming, is gathered from wild forest cocoons rather than farmed, and is traditionally hand-spun and woven into the prized 'lamba mena,' the red cloth used as a funerary shroud and rewrapped around the remains during famadihana ceremonies. The red and gold tones and specific patterns woven into lamba mena carry deep ceremonial significance, quite distinct from cloth woven for everyday use, and the technique is passed down within families of specialized artisans concentrated mainly in the Malagasy highlands. Wild silk gathering became less common over the twentieth century as forest habitat for tapia trees shrank, so today several conservation and craft-revival projects work to sustain both the tapia woodland ecosystem and the traditional weaving knowledge together.",
+      },
+    },
+  },
+  {
+    id: "romazava-plato-nacional",
+    order: 15,
+    placeholderEmoji: "🍲",
+    accentColor: "#3A7A45",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El guiso nacional que combina carne y hojas amargas",
+        subtitle: "El romazava",
+        imageAlt: "Caricatura de un cuenco de guiso verde oscuro con trozos de carne junto a arroz blanco.",
+        description:
+          "El romazava, considerado el plato nacional de Madagascar, se prepara cociendo a fuego lento carne de vaca, tradicionalmente cebú, junto con una mezcla de hojas verdes que incluye el 'anamalaho', una hierba local de sabor amargo central para lograr el sabor auténtico del plato, además de tomate, cebolla y jengibre. El nombre deriva de palabras malgaches que significan aproximadamente 'muchas hojas mezcladas', y el guiso se sirve siempre junto a una porción generosa de arroz blanco simple, reflejo del lugar central que ocupa el arroz en toda comida malgache. Originalmente asociado a la cocina de la corte real merina, el romazava se extendió con el tiempo hasta convertirse en un plato cotidiano en toda la isla, con variaciones regionales que cambian el tipo de hoja o de carne usada según la temporada, aunque la estructura básica de caldo de carne con verduras se mantiene constante, consolidándolo como lo más cercano que tiene Madagascar a un plato oficial representativo de todo el país.",
+      },
+      en: {
+        title: "The National Stew Pairing Beef With Bitter Greens",
+        subtitle: "Romazava",
+        imageAlt: "Cartoon of a bowl of dark green stew with meat chunks beside white rice.",
+        description:
+          "Romazava, considered Madagascar's national dish, is made by slow-simmering beef, traditionally zebu, together with a mix of leafy greens that includes 'anamalaho,' a bitter local herb central to the dish's authentic flavor, along with tomato, onion, and ginger. The name comes from Malagasy words meaning roughly 'many mixed leaves,' and the stew is always served alongside a generous mound of plain white rice, reflecting rice's central place in every Malagasy meal. Originally associated with the royal Merina court's cuisine, romazava spread over time to become an everyday dish across the island, with regional variations swapping in different greens or meats depending on the season, though the basic structure of a meat-and-greens broth stays constant, making it the closest thing Madagascar has to an official signature dish representing the entire country.",
+      },
+    },
+  },
 ];

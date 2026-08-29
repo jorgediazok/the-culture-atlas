@@ -174,6 +174,94 @@ const UnPaisConDoscientasCincuentaLenguasPropias: IllustrationComponent = ({ acc
   );
 };
 
+const NgondoFestivalSawa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#1B4F72";
+  return (
+    <g>
+      <rect x="90" y="190" width="230" height="60" fill={water} opacity="0.5" />
+      <path d="M110 220 Q140 205 175 220 L170 235 Q140 225 115 235 Z" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <path d="M195 210 Q230 192 270 210 L263 228 Q230 215 200 228 Z" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.6" />
+      <circle cx="140" cy="215" r="6" fill="#3A2A1E" />
+      <circle cx="230" cy="205" r="6" fill="#3A2A1E" />
+      <path d="M120 235 Q150 245 180 235 M210 232 Q240 242 270 230" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.4" />
+      <path d="M100 175 Q100 155 90 145" fill="none" stroke="#8CA9B5" strokeWidth="4" strokeLinecap="round" opacity="0.5" />
+    </g>
+  );
+};
+
+const EscrituraBamunNjoya: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      <rect x="130" y="110" width="150" height="120" rx="6" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path
+        d="M150 135 L165 135 L165 150 L150 150 Z M180 135 L195 145 L180 155 Z M210 132 Q222 132 222 145 Q222 155 210 155 M150 175 L165 190 M165 175 L150 190 M185 175 Q200 170 205 185 Q200 200 185 195 M155 210 L155 222 M170 210 L170 222 M185 210 L185 222"
+        fill="none"
+        stroke="#F5F0E6"
+        strokeWidth="3.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path d="M290 100 L305 90 L300 115 L280 130 Z" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2" />
+    </g>
+  );
+};
+
+const ReservaFaunaDja: IllustrationComponent = ({ accentColor }) => {
+  const fur = "#2E2418";
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill={accentColor} opacity="0.25" />
+      <ellipse cx="270" cy="230" rx="8" ry="60" fill="#1F5C3A" opacity="0.5" />
+      <ellipse cx="130" cy="220" rx="8" ry="70" fill="#1F5C3A" opacity="0.5" />
+      <path d="M170 210 Q150 220 148 245" fill="none" stroke={fur} strokeWidth="12" strokeLinecap="round" />
+      <path d="M240 210 Q260 220 262 245" fill="none" stroke={fur} strokeWidth="12" strokeLinecap="round" />
+      <ellipse cx="205" cy="220" rx="45" ry="35" fill={fur} stroke={shade(fur, 0.4)} strokeWidth="2.6" />
+      <circle cx="205" cy="165" r="30" fill={fur} stroke={shade(fur, 0.4)} strokeWidth="2.6" />
+      <ellipse cx="205" cy="175" rx="16" ry="12" fill="#5C4433" />
+      <circle cx="195" cy="168" r="3" fill="#1A1A1A" />
+      <circle cx="215" cy="168" r="3" fill="#1A1A1A" />
+    </g>
+  );
+};
+
+const ToghuTercipeloGrassfields: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.3);
+  const gold = "#D9A227";
+  return (
+    <g>
+      <path d="M170 240 L165 130 Q165 115 205 110 Q245 115 245 130 L240 240 Z" fill="#1A1A1A" stroke={dark} strokeWidth="3" />
+      <path d="M180 150 Q205 140 230 150" fill="none" stroke={gold} strokeWidth="4" />
+      <path d="M178 170 Q205 158 232 170" fill="none" stroke={gold} strokeWidth="4" />
+      <path d="M176 190 Q205 176 234 190" fill="none" stroke={gold} strokeWidth="4" />
+      <path d="M174 210 Q205 194 236 210" fill="none" stroke={gold} strokeWidth="4" />
+      <circle cx="205" cy="122" r="8" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="1.8" />
+      <path d="M190 122 L220 122 M205 107 L205 137" stroke={gold} strokeWidth="2" opacity="0.6" />
+    </g>
+  );
+};
+
+const BasquetbolistasCamerunNba: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  const orange = "#E05A2B";
+  return (
+    <g>
+      <line x1="290" y1="90" x2="290" y2="230" stroke="#5C3A21" strokeWidth="6" />
+      <rect x="255" y="70" width="35" height="35" fill="none" stroke="#B0B0B0" strokeWidth="2.5" opacity="0.7" />
+      <ellipse cx="255" cy="100" rx="30" ry="7" fill="none" stroke={orange} strokeWidth="4" />
+      <circle cx="200" cy="140" r="14" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M186 158 Q200 140 214 158 L208 200 Q200 208 192 200 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M192 165 Q220 145 245 108" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <circle cx="248" cy="100" r="10" fill={orange} stroke={shade(orange, 0.3)} strokeWidth="1.8" />
+      <path d="M186 190 Q170 210 175 235" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M210 195 Q225 215 218 240" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+    </g>
+  );
+};
+
 export const cameroonIllustrations: Record<string, IllustrationDefinition> = {
   "africa-en-miniatura-todos-los-climas-en-un-pais": { component: AfricaEnMiniaturaTodosLosClimasEnUnPais },
   "el-volcan-que-los-marineros-llamaron-carro-de-los-dioses": { component: ElVolcanQueLosMarinerosLlamaronCarroDeDioses },
@@ -185,4 +273,9 @@ export const cameroonIllustrations: Record<string, IllustrationDefinition> = {
   "la-pimienta-que-nace-de-tierra-de-volcan": { component: LaPimientaQueNaceDeTierraDeVolcan },
   "el-parque-donde-se-cruzan-elefantes-y-jirafas": { component: ElParqueDondeSeCruzanElefantesYJirafas },
   "un-pais-con-doscientas-cincuenta-lenguas-propias": { component: UnPaisConDoscientasCincuentaLenguasPropias },
+  "ngondo-festival-sawa": { component: NgondoFestivalSawa },
+  "escritura-bamun-njoya": { component: EscrituraBamunNjoya },
+  "reserva-fauna-dja": { component: ReservaFaunaDja },
+  "toghu-terciopelo-grassfields": { component: ToghuTercipeloGrassfields },
+  "basquetbolistas-camerun-nba": { component: BasquetbolistasCamerunNba },
 };

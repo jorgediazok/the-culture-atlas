@@ -251,4 +251,119 @@ export const rwanda: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "mujeres-parlamento-ruanda",
+    order: 11,
+    placeholderEmoji: "🗳️",
+    accentColor: "#C1272D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El primer parlamento del mundo con mayoría de mujeres",
+        subtitle: "Las mujeres en el parlamento ruandés",
+        imageAlt: "Caricatura de una mujer de pie hablando frente a un salón legislativo.",
+        description:
+          "Ruanda se convirtió en el primer país del mundo en tener una mayoría absoluta de mujeres en su parlamento, un resultado que superó ampliamente el piso mínimo del treinta por ciento de bancas reservadas a mujeres establecido en su Constitución de 2003, llegando a superar el sesenta por ciento de los escaños en varios períodos legislativos consecutivos. La política combinó cuotas constitucionales obligatorias con estructuras de gobierno local, como los consejos comunitarios, diseñadas específicamente para asegurar la participación política femenina desde las bases hasta el parlamento nacional. Ruanda sostiene esta distinción global desde hace más tiempo que cualquier otro país del mundo, y suele citarse internacionalmente como caso de estudio en políticas de representación de género, aunque analistas señalan que esa representación parlamentaria no se traduce automáticamente en igualdad de género plena en el resto de la sociedad ruandesa.",
+      },
+      en: {
+        title: "The World's First Parliament With a Female Majority",
+        subtitle: "Women in Rwanda's Parliament",
+        imageAlt: "Cartoon of a woman standing and speaking before a legislative chamber.",
+        description:
+          "Rwanda became the first country in the world to have an outright majority of women in its parliament, a result that far exceeded the minimum thirty percent quota of seats reserved for women set out in its 2003 constitution, at times surpassing sixty percent of legislative seats across several consecutive terms. The policy combined mandatory constitutional quotas with local governance structures, such as community councils, specifically designed to secure women's political participation from the grassroots level up to the national parliament. Rwanda has held this global distinction longer than any other country in the world, and is frequently cited internationally as a case study in gender-representation policy, though analysts note that parliamentary representation doesn't automatically translate into full gender equality across the rest of Rwandan society.",
+      },
+    },
+  },
+  {
+    id: "renacimiento-parque-akagera",
+    order: 12,
+    placeholderEmoji: "🦁",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El parque que recuperó a sus cinco grandes en 20 años",
+        subtitle: "El renacimiento del Parque de Akagera",
+        imageAlt: "Caricatura de un león y un rinoceronte junto a una llanura africana con acacias.",
+        description:
+          "El Parque Nacional de Akagera, en el este de Ruanda junto a la frontera con Tanzania, protege un ecosistema de sabana y humedales radicalmente distinto de los bosques de niebla que habitan los gorilas de montaña o la selva de Nyungwe, pero que hacia comienzos de los años dos mil había perdido casi toda su fauna por la caza furtiva, con los leones extintos desde los noventa y los rinocerontes negros también desaparecidos. A partir de una nueva asociación de manejo conservacionista establecida alrededor de 2010, Akagera reintrodujo siete leones en 2015, los primeros en el parque en quince años, y rinocerontes negros orientales en 2017, recuperándose de forma notable en apenas dos décadas. Hoy el parque volvió a albergar a los 'cinco grandes' de África, junto a elefantes, búfalos y leopardos que nunca desaparecieron del todo, consolidándose como uno de los casos de recuperación de fauna más completos del continente y fuente directa de ingresos turísticos para las comunidades vecinas.",
+      },
+      en: {
+        title: "The Park That Rebuilt Its Big Five in 20 Years",
+        subtitle: "The Rebirth of Akagera National Park",
+        imageAlt: "Cartoon of a lion and a rhino beside an African plain with acacia trees.",
+        description:
+          "Akagera National Park, in eastern Rwanda along the border with Tanzania, protects a savanna and wetland ecosystem radically different from the cloud forests home to mountain gorillas or the tropical rainforest of Nyungwe, but one that by the early 2000s had lost nearly all its flagship wildlife to poaching and land pressure, with lions locally extinct since the 1990s and black rhinos also gone from the park entirely. Starting with a new conservation management partnership established around 2010, Akagera reintroduced seven lions in 2015, the first in the park in fifteen years, and eastern black rhinos in 2017, achieving a remarkable recovery of its wildlife populations in barely two decades. Today the park is once again home to Africa's full 'Big Five,' alongside elephants, buffalo, and leopards that never fully disappeared, cementing it as one of the most complete wildlife recovery stories anywhere on the continent and a direct source of tourism revenue for neighboring communities.",
+      },
+    },
+  },
+  {
+    id: "palacio-nyanza-vacas-inyambo",
+    order: 13,
+    placeholderEmoji: "🐄",
+    accentColor: "#8B5A2B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El palacio real con vacas de cuernos larguísimos",
+        subtitle: "El Palacio del Rey en Nyanza y las vacas inyambo",
+        imageAlt: "Caricatura de una vaca con cuernos extremadamente largos y curvados junto a una choza redonda.",
+        description:
+          "El Palacio del Rey en Nyanza, hoy reconstruido como museo, reproduce la residencia real tradicional ruandesa con su característica forma de cúpula, construida enteramente con juncos y pasto tejido sobre una estructura de madera sin usar un solo clavo, siguiendo el estilo precolonial de la monarquía y funcionando como sede histórica del gobierno real antes de los cambios introducidos en la época colonial. Junto al palacio viven ejemplares de inyambo, una raza distintiva de ganado de cuernos extraordinariamente largos y curvados criada en exclusiva para fines ceremoniales de la corte, entrenada para responder a poemas de alabanza compuestos en su honor y para desfilar con andar solemne en procesiones. La raza y esta tradición poética se conservan hoy como exhibición viva en el museo, reflejo directo de la centralidad que tuvo el ganado en la identidad de la realeza ruandesa.",
+      },
+      en: {
+        title: "The Royal Palace With Extraordinary Long-Horned Cattle",
+        subtitle: "The King's Palace in Nyanza and the Inyambo Cattle",
+        imageAlt: "Cartoon of a cow with extremely long, curved horns beside a round hut.",
+        description:
+          "The King's Palace in Nyanza, today rebuilt as a museum, reproduces the traditional Rwandan royal residence with its characteristic dome shape, built entirely from woven reeds and grass over a wooden frame without using a single nail, following the precolonial architectural style of the monarchy and serving as the historic seat of Rwandan royal government before changes introduced during the colonial era. Living beside the palace are inyambo, a distinctive cattle breed with extraordinarily long, curved horns traditionally raised exclusively for royal ceremonial purposes, trained to respond to praise poetry composed specifically in their honor and to walk with a stately gait in ceremonial processions. The breed and this unique poetic tradition are preserved today as a living exhibit at the museum, a direct reflection of how central cattle historically were to Rwandan royal identity and status.",
+      },
+    },
+  },
+  {
+    id: "mundial-ciclismo-uci-2025",
+    order: 14,
+    placeholderEmoji: "🚴",
+    accentColor: "#00A1DE",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El primer Mundial de ciclismo disputado en África",
+        subtitle: "El Mundial de Ciclismo de la UCI 2025",
+        imageAlt: "Caricatura de ciclistas subiendo una colina empinada frente a multitudes.",
+        description:
+          "El Mundial de Ciclismo en Ruta de la UCI de 2025, celebrado en Kigali, marcó la primera vez en la historia de esta competencia que se disputó en suelo africano, con un recorrido diseñado alrededor del terreno célebremente montañoso de la capital ruandesa, conocida como la 'ciudad de las mil colinas'. El evento se interpretó como un hito simbólico dado el profundo arraigo local del ciclismo, ya que la bicicleta sigue siendo un medio de transporte cotidiano extendido en gran parte de Ruanda, y llegó tras años en que el país ya venía desarrollando talento ciclista propio a través del Tour de Ruanda, una carrera por etapas anual que había puesto al país en el radar internacional del deporte antes de conseguir la sede del Mundial. La organización del evento se interpretó como la culminación de una estrategia sostenida de Ruanda para posicionarse como sede de grandes eventos deportivos internacionales.",
+      },
+      en: {
+        title: "The First Road Cycling World Championships in Africa",
+        subtitle: "The 2025 UCI Road World Championships",
+        imageAlt: "Cartoon of cyclists climbing a steep hill before crowds.",
+        description:
+          "The 2025 UCI Road World Championships, held in Kigali, marked the first time in the event's history it was hosted anywhere on African soil, with a course specifically designed around the Rwandan capital's famously hilly terrain, popularly known as the 'city of a thousand hills.' The event was widely seen as a symbolically significant milestone given cycling's deep local roots, since the bicycle remains a common everyday mode of transport across much of Rwanda, and came after years during which the country had already been developing homegrown cycling talent through the Tour du Rwanda, a well-regarded annual stage race that had put the country on the sport's international radar before it landed the World Championships bid. Hosting the event was widely seen as the culmination of a deliberate, sustained Rwandan strategy to position itself as a host for major international sporting and tourism events.",
+      },
+    },
+  },
+  {
+    id: "umushanana-vestido-tradicional",
+    order: 15,
+    placeholderEmoji: "👗",
+    accentColor: "#D9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El vestido con banda que se usa para lucir con orgullo",
+        subtitle: "El umushanana",
+        imageAlt: "Caricatura de una mujer con un vestido drapeado y una banda cruzada sobre el hombro.",
+        description:
+          "El umushanana es un atuendo tradicional femenino ruandés compuesto por una falda envolvente ajustada y una banda distintiva que se drapea en diagonal sobre un hombro y se recoge en la cintura, históricamente usado por mujeres de mayor estatus social, cuyo color y calidad de tela podían señalar directamente su posición dentro de la comunidad. La técnica de drapeado, que exige destreza para colocarse correctamente sin ayuda, se aprende tradicionalmente de generación en generación entre mujeres de la familia, y la prenda se usa hoy en bodas, ceremonias culturales, actos religiosos y ocasiones nacionales formales de todo tipo. En las últimas décadas el umushanana vivió un resurgimiento y una modernización dentro de la moda ruandesa contemporánea, con diseñadores que reinterpretan su silueta usando telas y colores nuevos sin abandonar el drapeado tradicional característico, consolidándolo como un símbolo de elegancia femenina y orgullo cultural comparable a prendas icónicas de otros países.",
+      },
+      en: {
+        title: "The Sashed Dress Worn to Stand Tall With Pride",
+        subtitle: "Umushanana",
+        imageAlt: "Cartoon of a woman in a draped dress with a sash crossing over one shoulder.",
+        description:
+          "Umushanana is a traditional Rwandan women's outfit made up of a fitted wrap skirt and a distinctive sash draped diagonally across one shoulder and gathered at the waist, historically worn by women of higher social standing, whose color and fabric quality could directly signal their position within the community. The draping technique, which requires real skill to wrap correctly without assistance, is traditionally learned across generations among women in the family, and the garment is worn today at weddings, cultural ceremonies, religious events, and formal national occasions of every kind. Over recent decades umushanana has seen a revival and modernization within contemporary Rwandan fashion, with designers reinterpreting its silhouette using new fabrics and colors while preserving the traditional signature drape, cementing it as a symbol of feminine elegance and cultural pride comparable to iconic garments found in other countries.",
+      },
+    },
+  },
 ];

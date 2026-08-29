@@ -251,4 +251,119 @@ export const mali: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "tumba-askia-gao",
+    order: 11,
+    placeholderEmoji: "🏛️",
+    accentColor: "#C97C3D",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La pirámide de barro que guarda a un emperador",
+        subtitle: "La tumba de Askia en Gao",
+        imageAlt: "Caricatura de una estructura piramidal escalonada de barro con estacas de madera.",
+        description:
+          "Askia Mohammed, fundador de la dinastía askia, gobernó desde 1493 el Imperio Songhai, sucesor y más extenso en su momento que el propio Imperio de Malí, expandiendo su territorio y fortaleciendo los centros de estudios islámicos de la región, incluida Tombuctú. Tras su propia peregrinación a La Meca, mandó construir hacia 1495 en Gao una tumba piramidal escalonada de barro de unos diecisiete metros, reforzada con vigas de madera que sobresalen como andamiaje permanente, la misma técnica sudanosaheliana que después haría famosa a la Gran Mezquita de Djenné. Declarada Patrimonio de la Humanidad por la Unesco en 2004, la tumba sigue funcionando como mezquita activa y sitio de peregrinación, mientras el propio Imperio Songhai, el más grande de la historia de África occidental, cayó en 1591 ante una invasión marroquí armada con mosquetes, un desequilibrio tecnológico que puso fin al último de los grandes imperios precoloniales del río Níger.",
+      },
+      en: {
+        title: "The Mud Pyramid That Holds an Emperor",
+        subtitle: "The Tomb of Askia in Gao",
+        imageAlt: "Cartoon of a stepped mud pyramid structure with wooden stakes.",
+        description:
+          "Askia Mohammed, founder of the Askia dynasty, ruled the Songhai Empire from 1493, a state that succeeded and at its peak grew even larger than the Mali Empire itself, expanding its territory and strengthening the region's Islamic scholarship centers, including Timbuktu. After his own pilgrimage to Mecca, he had a stepped pyramid tomb built around 1495 in Gao, standing roughly seventeen meters tall and made of mud brick reinforced with wooden beams jutting out as permanent scaffolding, the same Sudano-Sahelian technique that would later make the Great Mosque of Djenné famous. Declared a UNESCO World Heritage Site in 2004, the tomb still functions as an active mosque and pilgrimage site, while the Songhai Empire itself, the largest in West African history, fell in 1591 to a Moroccan invasion armed with early firearms, a technological imbalance that ended the last of the great precolonial empires of the Niger River.",
+      },
+    },
+  },
+  {
+    id: "chiwara-tocado-antilope",
+    order: 12,
+    placeholderEmoji: "🦌",
+    accentColor: "#5C3A21",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El tocado de antílope que enseñó a cultivar",
+        subtitle: "El tocado chiwara bambara",
+        imageAlt: "Caricatura de un bailarín con un tocado de madera en forma de antílope sobre la cabeza.",
+        description:
+          "El chiwara, un tocado de madera tallada con forma de antílope usado sobre la cabeza durante ceremonias de iniciación agrícola del pueblo bambara, se vincula a un mito en el que un ser mitad humano y mitad antílope llamado Chiwara enseñó a los primeros seres humanos las técnicas del cultivo antes de regresar a la naturaleza salvaje. Los tocados suelen tallarse en parejas, representando formas masculina y femenina del antílope, a menudo con cuernos alargados inspirados en el antílope ruano, y son usados por jóvenes bailarines que imitan los saltos del animal en danzas acompañadas de tambores y cantos que celebran la destreza agrícola y honran a los mejores agricultores. Los tocados chiwara se convirtieron con el tiempo en uno de los ejemplos más reconocidos de la escultura africana, presentes hoy en colecciones de museos de arte de todo el mundo, mientras algunas comunidades rurales de Malí siguen tallándolos y usándolos hasta la actualidad.",
+      },
+      en: {
+        title: "The Antelope Headdress That Taught Humans to Farm",
+        subtitle: "The Bamana Chiwara Headdress",
+        imageAlt: "Cartoon of a dancer wearing a wooden antelope-shaped headdress.",
+        description:
+          "Chiwara (or ci wara), a carved wooden antelope headdress worn atop the head during agricultural initiation ceremonies of the Bamana (Bambara) people, is tied to a founding myth in which a half-human, half-antelope being named Chiwara taught early humans the techniques of farming before returning to the wild. The headdresses are usually carved in pairs, representing male and female forms of the antelope, often with elongated, stylized horns inspired by the roan antelope, and are worn by young dancers who imitate the animal's leaping movements in performances accompanied by drumming and songs praising agricultural skill and honoring the community's best farmers. Chiwara headdresses became over time one of the most internationally recognized examples of African sculptural art, now held in the collections of major art museums worldwide, while some rural Malian communities still carve and use them ceremonially today.",
+      },
+    },
+  },
+  {
+    id: "salif-keita-voz-de-africa",
+    order: 13,
+    placeholderEmoji: "🎤",
+    accentColor: "#D9A227",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El príncipe albino que se convirtió en la voz de África",
+        subtitle: "Salif Keita",
+        imageAlt: "Caricatura de un cantante de piel clara con un micrófono frente a un fondo dorado.",
+        description:
+          "Salif Keita, nacido en 1949 en una familia que afirma descender directamente de Sundiata Keita, fundador del Imperio de Malí, fue rechazado de niño como heredero por su propia familia específicamente por su albinismo, una condición vista entonces con temor y superstición en ciertos sectores de la sociedad maliense. Abandonó su hogar para dedicarse a la música pese a la desaprobación familiar, ya que cantar se consideraba tradicionalmente un oficio de la casta de los griots y no de la nobleza, un segundo rechazo sumado al primero. Desde los años setenta y ochenta alcanzó reconocimiento internacional con un estilo vocal poderoso que combinó melodías mandinga con influencias cubanas, jazz y luego sonidos electrónicos, convirtiéndose en una de las voces africanas más celebradas del mundo. Keita se volvió además una figura pública destacada en la defensa de las personas con albinismo, fundando una organización para combatir la discriminación que esa comunidad todavía enfrenta en África.",
+      },
+      en: {
+        title: "The Albino Prince Who Became the Voice of Africa",
+        subtitle: "Salif Keita",
+        imageAlt: "Cartoon of a light-skinned singer with a microphone against a golden background.",
+        description:
+          "Salif Keita, born in 1949 into a family claiming direct descent from Sundiata Keita, founder of the Mali Empire, was rejected as a child as heir within his own family specifically because of his albinism, a condition then viewed with fear and superstition in parts of Malian society. He left home to pursue music despite family disapproval, since singing was traditionally considered a trade reserved for the griot caste rather than nobility, a second layer of rejection stacked on top of the first. From the 1970s and 80s onward he achieved international acclaim through a powerful vocal style blending Mandinka melodies with Cuban and jazz influences and, later, electronic sounds, becoming one of Africa's most globally celebrated singers. Keita also became a prominent public advocate for people with albinism, founding his own organization to fight the discrimination and violence that community still faces in parts of Africa.",
+      },
+    },
+  },
+  {
+    id: "cruce-ganado-diafarabe",
+    order: 14,
+    placeholderEmoji: "🐄",
+    accentColor: "#1B7A9C",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El día en que miles de vacas cruzan el río a nado",
+        subtitle: "El cruce del ganado en Diafarabé",
+        imageAlt: "Caricatura de ganado cruzando un río ancho junto a pastores en las orillas.",
+        description:
+          "Diafarabé, un pueblo en la confluencia de los ríos Níger y Diaka dentro del delta interior de Malí, es escenario cada año de uno de los eventos ganaderos más espectaculares de África occidental: el regreso masivo de cientos de miles de cabezas de ganado fulani que cruzan el río a nado hacia los pastizales del pueblo al finalizar el ciclo estacional de trashumancia, un momento determinado por generaciones de conocimiento acumulado sobre los ciclos del agua más que por una fecha fija. Los rebaños atraviesan el río en grupos guiados por pastores a pie y en piragua, y la llegada de cada manada a la orilla opuesta se recibe con una inspección formal de los animales, reconocimiento a los rebaños mejor cuidados y una celebración con baile y música que reúne multitudes de toda la región. El evento refleja siglos de coordinación entre comunidades ganaderas, pesqueras y agrícolas que comparten los recursos del delta interior del Níger.",
+      },
+      en: {
+        title: "The Day Thousands of Cattle Swim Across the River",
+        subtitle: "The Diafarabé Cattle Crossing",
+        imageAlt: "Cartoon of cattle crossing a wide river beside herders on the banks.",
+        description:
+          "Diafarabé, a town at the confluence of the Niger and Diaka rivers within Mali's Inland Delta, hosts one of West Africa's most spectacular annual livestock events every year: the mass return of hundreds of thousands of Fulani cattle swimming back across the river to the town's pastures at the end of the seasonal transhumance cycle, a moment determined by generations of accumulated knowledge about the river's flood-and-recede cycles rather than a fixed calendar date. The herds cross the river in massive groups guided by herders on foot and by canoe, and each herd's arrival on the far bank is met with a formal inspection of the animals, symbolic recognition for the best-kept herds, and a celebration with dancing and music that draws crowds from across the region. The event reflects centuries of careful coordination between herding, fishing, and farming communities that share the same limited resources of the Niger Inland Delta.",
+      },
+    },
+  },
+  {
+    id: "attaya-ceremonia-del-te",
+    order: 15,
+    placeholderEmoji: "🍵",
+    accentColor: "#3A7A45",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El té de tres rondas que no se puede rechazar",
+        subtitle: "El attaya, ceremonia del té",
+        imageAlt: "Caricatura de un vaso pequeño de té siendo servido desde una tetera en alto.",
+        description:
+          "El attaya, una ceremonia de té verde fuertemente concentrado y muy azucarado que se sirve vertiéndolo desde cierta altura entre pequeños vasos para generar una capa de espuma en la superficie, es una tradición social extendida en Malí y buena parte de la región saheliana y saharaui. La ceremonia se estructura tradicionalmente en tres rondas sucesivas, cada una con su propio nombre y significado simbólico que suele traducirse como 'amargo como la muerte', 'suave como la vida' y 'dulce como el amor', reflejando el sabor cada vez más suave a medida que las mismas hojas se reutilizan en infusiones sucesivas. Prepararlo y servirlo es un ritual social pausado y sin apuro central en las reuniones entre amigos y familia, al punto de que rechazar un vaso ofrecido se considera una falta social, y la práctica, asociada sobre todo a hombres jóvenes reunidos al anochecer, se valora tanto por el acto paciente de prepararlo como por el sabor final.",
+      },
+      en: {
+        title: "The Three-Round Tea You Can't Turn Down",
+        subtitle: "Attaya, the Tea Ceremony",
+        imageAlt: "Cartoon of a small tea glass being poured from a teapot held high.",
+        description:
+          "Attaya, a ceremony centered on strongly brewed, heavily sweetened green tea poured from a height between small glasses to build up a foamy top layer, is a widespread social tradition across Mali and much of the Sahel and Sahara region. The ceremony is traditionally structured into three successive rounds, each with its own name and symbolic meaning roughly translating to 'bitter as death,' 'mild as life,' and 'sweet as love,' reflecting how the flavor grows progressively milder as the same leaves are reused across successive infusions. Preparing and serving attaya is an unhurried social ritual central to gatherings among friends and family, to the point that refusing an offered glass is considered a significant social breach, and the practice, especially associated with groups of young men gathering in the evening, is valued as much for the patient act of brewing it as for the drink's final taste.",
+      },
+    },
+  },
 ];

@@ -138,6 +138,100 @@ const ElCuscusQueSeCocinaDistintoEnCadaCasa: IllustrationComponent = ({ accentCo
   );
 };
 
+const OmarAlMujtarResistencia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const horse = "#5C4433";
+  return (
+    <g>
+      <path d="M245 195 Q275 175 285 150 Q292 145 288 155 Q278 180 255 200 Z" fill={horse} stroke={shade(horse, 0.3)} strokeWidth="2.5" />
+      <path d="M155 200 Q125 210 120 235" fill="none" stroke={shade(horse, 0.3)} strokeWidth="9" strokeLinecap="round" />
+      <line x1="165" y1="210" x2="158" y2="252" stroke={horse} strokeWidth="8" strokeLinecap="round" />
+      <line x1="235" y1="210" x2="244" y2="252" stroke={horse} strokeWidth="8" strokeLinecap="round" />
+      <ellipse cx="200" cy="205" rx="55" ry="26" fill={horse} stroke={shade(horse, 0.3)} strokeWidth="2.5" />
+      <path d="M183 195 Q200 135 219 195 L214 212 Q200 204 188 212 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <circle cx="201" cy="160" r="13" fill={skin} stroke={dark} strokeWidth="2.2" />
+      <path d="M187 158 Q201 138 215 158 Q215 147 201 144 Q187 147 187 158 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+    </g>
+  );
+};
+
+const QasrAlHachGranero: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const CELLS = [
+    [140, 155], [175, 140], [215, 135], [255, 145], [285, 170],
+  ];
+  return (
+    <g>
+      <ellipse cx="205" cy="215" rx="115" ry="30" fill={accentColor} opacity="0.3" />
+      <path d="M110 210 Q100 150 205 130 Q310 150 300 210 Q300 240 205 245 Q110 240 110 210 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {CELLS.map(([x, y]) => (
+        <rect key={`${x}-${y}`} x={x - 14} y={y} width="28" height="34" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="1.8" />
+      ))}
+      <rect x="190" y="195" width="30" height="45" fill="#3A2A1E" opacity="0.6" />
+    </g>
+  );
+};
+
+const MaloufMusicaAndalusi: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const STRINGS = [173, 178, 183];
+  return (
+    <g>
+      <circle cx="170" cy="150" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M157 165 Q170 158 183 165 L178 215 Q170 221 162 215 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M178 185 Q205 190 215 175" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <ellipse cx="240" cy="195" rx="30" ry="22" fill="#D9A227" stroke="#8B5A2B" strokeWidth="2.6" />
+      <rect x="212" y="165" width="6" height="45" fill="#5C3A21" />
+      {STRINGS.map((y) => (
+        <line key={y} x1="215" y1={y} x2="270" y2={y + 5} stroke="#3A2A1E" strokeWidth="1.2" />
+      ))}
+      <circle cx="255" cy="150" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M242 165 Q255 158 268 165 L263 215 Q255 221 247 215 Z" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.4" />
+      <path d="M247 185 Q225 195 218 210" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const TortugasBobaCostaLibia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const shell = "#6B4B3A";
+  const HATCHLINGS: [number, number, number][] = [
+    [140, 220, 0.7], [180, 230, 0.85], [230, 225, 0.75], [270, 235, 0.9],
+  ];
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="160" fill="#1D6FA5" opacity="0.4" />
+      <path d="M90 240 Q205 225 320 240 L320 250 L90 250 Z" fill="#D9BE8F" />
+      {HATCHLINGS.map(([x, y, s]) => (
+        <g key={`${x}-${y}`} transform={`translate(${x} ${y}) scale(${s})`}>
+          <ellipse cx="0" cy="0" rx="14" ry="10" fill={shell} stroke={dark} strokeWidth="1.8" />
+          <path d="M-12 -4 L-20 -8 M-12 4 L-20 8 M12 -4 L20 -8 M12 4 L20 8" stroke={shell} strokeWidth="3" strokeLinecap="round" />
+          <circle cx="14" cy="0" r="4" fill={shell} stroke={dark} strokeWidth="1.4" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const AceiteDeOlivaLibio: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const oil = "#B8860B";
+  return (
+    <g>
+      <path d="M175 240 L172 175 Q172 165 182 165 L228 165 Q238 165 238 175 L235 240 Z" fill={tint(accentColor, 0.5)} stroke={dark} strokeWidth="2.8" />
+      <path d="M182 205 L228 205 L225 235 L185 235 Z" fill={oil} opacity="0.85" />
+      <rect x="198" y="150" width="14" height="18" fill={tint(accentColor, 0.5)} stroke={dark} strokeWidth="2.2" />
+      <path d="M120 200 Q100 190 105 170 Q125 175 130 195 Z" fill="#4A8F4E" stroke={shade("#4A8F4E", 0.3)} strokeWidth="2" />
+      <circle cx="115" cy="210" r="9" fill={accentColor} stroke={dark} strokeWidth="1.8" />
+      <circle cx="135" cy="220" r="9" fill={accentColor} stroke={dark} strokeWidth="1.8" />
+      <line x1="115" y1="201" x2="130" y2="195" stroke="#4A8F4E" strokeWidth="3" />
+      <line x1="135" y1="211" x2="130" y2="195" stroke="#4A8F4E" strokeWidth="3" />
+    </g>
+  );
+};
+
 export const libyaIllustrations: Record<string, IllustrationDefinition> = {
   "la-ciudad-romana-que-el-desierto-conservo-intacta": { component: LaCiudadRomanaQueElDesiertoConservoIntacta },
   "la-ciudad-blanca-construida-para-esconderse-del-sol": { component: LaCiudadBlancaConstruidaParaEsconderseDelSol },
@@ -149,4 +243,9 @@ export const libyaIllustrations: Record<string, IllustrationDefinition> = {
   "los-lagos-que-se-esconden-entre-dunas-gigantes": { component: LosLagosQueSeEsconenEntreDunasGigantes },
   "la-ciudad-griega-que-rivalizo-con-atenas": { component: LaCiudadGriegaQueRivalizoConAtenas },
   "el-cuscus-que-se-cocina-distinto-en-cada-casa": { component: ElCuscusQueSeCocinaDistintoEnCadaCasa },
+  "omar-al-mujtar-resistencia": { component: OmarAlMujtarResistencia },
+  "qasr-al-hach-granero": { component: QasrAlHachGranero },
+  "malouf-musica-andalusi": { component: MaloufMusicaAndalusi },
+  "tortugas-boba-costa-libia": { component: TortugasBobaCostaLibia },
+  "aceite-de-oliva-libio": { component: AceiteDeOlivaLibio },
 };

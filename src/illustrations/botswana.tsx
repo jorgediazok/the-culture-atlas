@@ -169,6 +169,95 @@ const GanadoRiqueza: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const TejedoresSociablesKalahari: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const straw = "#C9A227";
+  const BIRDS: [number, number, number][] = [
+    [165, 115, 0], [235, 120, 1], [205, 105, 0],
+  ];
+  return (
+    <g>
+      <line x1="205" y1="250" x2="205" y2="140" stroke="#5C3A21" strokeWidth="8" />
+      <path d="M150 145 Q140 100 205 90 Q270 100 260 145 Q270 170 205 175 Q140 170 150 145 Z" fill={straw} stroke={dark} strokeWidth="3" />
+      <ellipse cx="175" cy="135" rx="7" ry="5" fill={shade(straw, 0.25)} />
+      <ellipse cx="205" cy="125" rx="7" ry="5" fill={shade(straw, 0.25)} />
+      <ellipse cx="235" cy="138" rx="7" ry="5" fill={shade(straw, 0.25)} />
+      <ellipse cx="190" cy="155" rx="7" ry="5" fill={shade(straw, 0.25)} />
+      <ellipse cx="220" cy="158" rx="7" ry="5" fill={shade(straw, 0.25)} />
+      {BIRDS.map(([x, y, flip]) => (
+        <g key={`${x}-${y}`}>
+          <circle cx={x} cy={y} r="6" fill={accentColor} stroke={dark} strokeWidth="1.5" />
+          <path d={`M${x - 8} ${y + 4} L${x + (flip ? 10 : -10)} ${y - 2}`} stroke={accentColor} strokeWidth="3" strokeLinecap="round" />
+        </g>
+      ))}
+    </g>
+  );
+};
+
+const CestasNgamiland: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const black = "#2A2118";
+  const cream = "#F5F0E6";
+  return (
+    <g>
+      <path d="M130 150 Q205 130 280 150 L265 235 Q205 250 145 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      <path d="M138 160 Q205 148 272 160" fill="none" stroke={black} strokeWidth="6" opacity="0.85" />
+      <path d="M138 175 Q205 163 272 175" fill="none" stroke={cream} strokeWidth="6" opacity="0.85" />
+      <path d="M142 190 Q205 180 268 190" fill="none" stroke={cream} strokeWidth="6" opacity="0.85" />
+      <path d="M142 205 Q205 195 268 205" fill="none" stroke={black} strokeWidth="6" opacity="0.85" />
+      <path d="M150 155 L145 232 M175 152 L172 238 M205 150 L205 240 M235 152 L238 238 M260 155 L265 232" stroke={dark} strokeWidth="1.5" opacity="0.35" />
+      <ellipse cx="205" cy="150" rx="75" ry="14" fill={tint(accentColor, 0.25)} stroke={dark} strokeWidth="2.5" />
+    </g>
+  );
+};
+
+const RuinasDomboshaba: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  return (
+    <g>
+      <path d="M90 250 Q150 200 205 220 Q260 195 320 250 Z" fill={tint(accentColor, 0.5)} opacity="0.4" />
+      <rect x="100" y="235" width="22" height="15" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <rect x="140" y="200" width="22" height="50" fill={accentColor} stroke={dark} strokeWidth="2.4" opacity="0.85" />
+      <rect x="180" y="175" width="22" height="75" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <rect x="225" y="195" width="22" height="55" fill={accentColor} stroke={dark} strokeWidth="2.4" opacity="0.85" />
+      <rect x="265" y="230" width="22" height="20" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <rect x="140" y="205" width="60" height="16" fill={accentColor} stroke={dark} strokeWidth="2.4" opacity="0.9" />
+      <rect x="205" y="185" width="40" height="14" fill={accentColor} stroke={dark} strokeWidth="2.2" opacity="0.8" />
+    </g>
+  );
+};
+
+const SeswaaPlatoNacional: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const meat = "#8B4A2E";
+  return (
+    <g>
+      <ellipse cx="175" cy="205" rx="70" ry="22" fill="#D9D0C0" stroke={dark} strokeWidth="2.6" />
+      <path d="M120 200 Q140 185 160 198 Q175 188 190 200 Q210 190 225 202 Q215 215 195 210 Q180 218 165 210 Q145 216 130 208 Z" fill={meat} stroke={shade(meat, 0.3)} strokeWidth="2.2" />
+      <ellipse cx="265" cy="195" rx="22" ry="16" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <ellipse cx="290" cy="210" rx="20" ry="15" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <ellipse cx="270" cy="225" rx="20" ry="15" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+    </g>
+  );
+};
+
+const PulaMonedaLluvia: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const ground = "#8C7355";
+  const DROPS: [number, number][] = [
+    [140, 140], [200, 120], [260, 145], [175, 165], [235, 175],
+  ];
+  return (
+    <g>
+      <rect x="90" y="200" width="230" height="50" fill={ground} stroke={dark} strokeWidth="2.6" />
+      <path d="M110 220 L150 200 M170 235 L210 210 M230 220 L270 200 M100 245 L140 225" stroke={shade(ground, 0.3)} strokeWidth="2" opacity="0.5" />
+      {DROPS.map(([x, y]) => (
+        <path key={`${x}-${y}`} d={`M${x} ${y} Q${x - 6} ${y + 16} ${x} ${y + 26} Q${x + 6} ${y + 16} ${x} ${y} Z`} fill={accentColor} stroke={dark} strokeWidth="2" />
+      ))}
+    </g>
+  );
+};
+
 export const botswanaIllustrations: Record<string, IllustrationDefinition> = {
   "delta-okavango": { component: DeltaOkavango },
   "diamantes-botswana": { component: DiamantesBotswana },
@@ -180,4 +269,9 @@ export const botswanaIllustrations: Record<string, IllustrationDefinition> = {
   "basarwa-arte": { component: BasarwaArte },
   makgadikgadi: { component: Makgadikgadi },
   "ganado-riqueza": { component: GanadoRiqueza },
+  "tejedores-sociables-kalahari": { component: TejedoresSociablesKalahari },
+  "cestas-ngamiland": { component: CestasNgamiland },
+  "ruinas-domboshaba": { component: RuinasDomboshaba },
+  "seswaa-plato-nacional": { component: SeswaaPlatoNacional },
+  "pula-moneda-lluvia": { component: PulaMonedaLluvia },
 };

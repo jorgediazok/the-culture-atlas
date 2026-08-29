@@ -251,4 +251,119 @@ export const guinea: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "bauxita-guineana",
+    order: 11,
+    placeholderEmoji: "⛏️",
+    accentColor: "#C1440E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El país que guarda un cuarto del aluminio del planeta",
+        subtitle: "La bauxita guineana",
+        imageAlt: "Caricatura de una excavadora cargando mineral rojizo en un camión.",
+        description:
+          "Guinea alberga las mayores reservas de bauxita del mundo, el mineral rojizo del que se extrae el aluminio a través de un proceso de refinado en alúmina y posterior fundición, concentradas sobre todo en la región noroccidental de Boké. La producción minera se disparó especialmente desde mediados de la década de 2010, cuando fabricantes chinos de aluminio diversificaron sus fuentes de abastecimiento tras restricciones a la exportación impuestas por Indonesia y Malasia, convirtiendo a la bauxita en uno de los motores centrales del crecimiento económico guineano reciente. La primera gran mina del país, la planta de Fria, abrió apenas dos años después de la independencia en 1958, sentando las bases de una industria que hoy sostiene una porción considerable de los ingresos por exportación del país, aunque las comunidades cercanas a las minas también plantean preocupaciones activas sobre polvo, contaminación del agua y pérdida de tierras agrícolas.",
+      },
+      en: {
+        title: "The Country Holding a Quarter of the World's Aluminum",
+        subtitle: "Guinean Bauxite",
+        imageAlt: "Cartoon of an excavator loading reddish ore onto a truck.",
+        description:
+          "Guinea holds the world's largest bauxite reserves, the reddish ore from which aluminum is extracted through a refining process into alumina and subsequent smelting, concentrated mainly in the northwestern region of Boké. Mining output surged especially from the mid-2010s onward, when Chinese aluminum manufacturers diversified their sourcing after export restrictions imposed by Indonesia and Malaysia, turning bauxite into one of the central drivers of Guinea's recent economic growth. The country's first major mine, the Fria plant, opened just two years after independence in 1958, laying the groundwork for an industry that today sustains a considerable share of the country's export revenue, though communities near the mines also raise active concerns over dust, water contamination, and the loss of farmland.",
+      },
+    },
+  },
+  {
+    id: "referendum-1958-sekou-toure",
+    order: 12,
+    placeholderEmoji: "🗳️",
+    accentColor: "#CE1126",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El único país que le dijo no a Francia y ganó",
+        subtitle: "El referéndum de 1958 y Sékou Touré",
+        imageAlt: "Caricatura de una mano marcando 'no' en una boleta con una bandera al fondo.",
+        description:
+          "En 1958, el presidente francés Charles de Gaulle propuso a las colonias africanas de Francia un referéndum con una elección binaria: aceptar autonomía limitada dentro de una nueva 'Comunidad Francesa' o votar por la independencia inmediata y total, con el riesgo explícito de perder todo apoyo económico y técnico francés. Guinea, bajo el liderazgo de Sékou Touré, fue el único territorio que votó mayoritariamente por el 'no', con más del noventa y cinco por ciento de los votos, respaldando la célebre frase de Touré de que preferían 'la pobreza en libertad a la riqueza en la esclavitud'. Francia respondió retirando de golpe a sus administradores y técnicos, y según testimonios de la época, buena parte de la infraestructura fue destruida o removida antes de partir, dejando a la Guinea recién independizada, oficial desde el 2 de octubre de 1958, en un aislamiento económico severo que sin embargo la convirtió en faro simbólico para otros movimientos independentistas africanos.",
+      },
+      en: {
+        title: "The Only Country That Said No to France and Won",
+        subtitle: "The 1958 Referendum and Sékou Touré",
+        imageAlt: "Cartoon of a hand marking 'no' on a ballot with a flag in the background.",
+        description:
+          "In 1958, French president Charles de Gaulle offered France's African colonies a referendum with a binary choice: accept limited autonomy within a new 'French Community' or vote for immediate, total independence, with the explicit risk of losing all French economic and technical support. Guinea, under the leadership of Sékou Touré, was the only territory to vote overwhelmingly 'no,' with more than ninety-five percent of the vote, backing Touré's famous declaration that they preferred 'poverty in freedom to riches in slavery.' France responded by abruptly withdrawing its administrators and technicians, and according to numerous accounts from the time, much of the infrastructure and administrative documentation was destroyed or removed before departure, leaving newly independent Guinea, official as of October 2, 1958, in a state of severe economic isolation that nonetheless made it a symbolic beacon for other African independence movements.",
+      },
+    },
+  },
+  {
+    id: "mory-kante-yeke-yeke",
+    order: 13,
+    placeholderEmoji: "🎵",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El primer gran éxito africano con una kora eléctrica",
+        subtitle: "Mory Kanté y 'Yé ké yé ké'",
+        imageAlt: "Caricatura de un músico tocando una kora conectada a un amplificador.",
+        description:
+          "Mory Kanté, nacido en el seno de una familia de griots y formado desde niño en la ejecución tradicional de la kora, el instrumento de cuerdas con calabaza resonadora central en la tradición mandinga, se convirtió en pionero al adaptar el instrumento con amplificación eléctrica y combinarlo con producción electrónica de baile propia de los años ochenta. Su canción de 1987 'Yé ké yé ké' se transformó en uno de los primeros temas cantados en una lengua africana en alcanzar éxito masivo internacional, con reportes que la señalan como el primer sencillo africano en vender más de un millón de copias, escalando los rankings de música bailable en toda Europa. El tema tendió un puente inédito entre la tradición sonora de los griots mandingas y las pistas de baile occidentales, abriendo camino a generaciones posteriores de músicos africanos que combinaron instrumentos tradicionales con producción electrónica moderna.",
+      },
+      en: {
+        title: "The First Big African Hit Made With an Electric Kora",
+        subtitle: "Mory Kanté and 'Yé ké yé ké'",
+        imageAlt: "Cartoon of a musician playing a kora plugged into an amplifier.",
+        description:
+          "Mory Kanté, born into a griot family and trained from childhood in the traditional playing of the kora, the gourd-resonated stringed instrument central to Mandinka tradition, became a pioneer by adapting the instrument with electric amplification and combining it with 1980s dance-music production. His 1987 song 'Yé ké yé ké' became one of the first songs sung in an African language to reach massive international success, with reports naming it the first African single ever to sell over a million copies, climbing dance charts across Europe. The track built an unprecedented bridge between the traditional sound of Mandinka griots and Western dance floors, paving the way for later generations of African musicians who blended traditional instruments with modern electronic production.",
+      },
+    },
+  },
+  {
+    id: "islas-de-los",
+    order: 14,
+    placeholderEmoji: "🏝️",
+    accentColor: "#1D6FA5",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las islas frente a Conakri con un pasado de cárcel",
+        subtitle: "Las islas de Los",
+        imageAlt: "Caricatura de una pequeña isla tropical con palmeras vista desde el mar.",
+        description:
+          "Las islas de Los, un pequeño archipiélago frente a la costa de Conakry, la capital guineana, cambiaron de manos entre distintas potencias coloniales europeas, portuguesas, británicas y francesas, a lo largo de los siglos, funcionando en distintos períodos como punto de escala y retención dentro del comercio transatlántico de personas esclavizadas. La isla principal, conocida como Isla Room, albergó más tarde una prisión de la época colonial francesa, un uso que contrasta fuertemente con la función que las islas cumplen hoy como destino de playa cercano y accesible para escapadas cortas desde la capital. Algunas de las islas más pequeñas son hoy de propiedad privada y funcionan como retiros de fin de semana, mientras la erosión costera y la deforestación amenazan cada vez más a este frágil ecosistema insular ubicado a apenas unos minutos en barco de una de las ciudades más congestionadas de África occidental.",
+      },
+      en: {
+        title: "The Islands Off Conakry With a Prison-Camp Past",
+        subtitle: "The Loos Islands",
+        imageAlt: "Cartoon of a small tropical island with palm trees seen from the sea.",
+        description:
+          "The Loos Islands, a small archipelago just off the coast of Conakry, Guinea's capital, changed hands among various European colonial powers, Portuguese, British, and French, over the centuries, serving at different points as a stopover and holding point within the transatlantic slave trade. The main island, known as Room Island, later housed a French colonial-era prison, a use that sharply contrasts with the role the islands play today as an accessible beach destination for short getaways from the capital. Some of the smaller islands are now privately owned and function as weekend retreats, while coastal erosion and deforestation increasingly threaten this fragile island ecosystem, located just minutes by boat from one of West Africa's most congested cities.",
+      },
+    },
+  },
+  {
+    id: "camara-laye-nino-negro",
+    order: 15,
+    placeholderEmoji: "📖",
+    accentColor: "#5C3A21",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La novela que abrió la literatura africana al mundo",
+        subtitle: "Camara Laye y 'El niño negro'",
+        imageAlt: "Caricatura de un libro abierto con figuras de una aldea africana saliendo de sus páginas.",
+        description:
+          "Camara Laye, escritor guineano nacido en 1928 en Kouroussa, publicó en 1953 la novela autobiográfica 'El niño negro', un relato lírico sobre su infancia en una familia malinké y el taller de su padre, herrero y orfebre inmerso en prácticas espirituales tradicionales, una de las primeras grandes obras de la literatura africana francófona con difusión masiva fuera del continente. El libro se destacó, en un momento en que buena parte de la literatura sobre África seguía filtrada por miradas coloniales, por ofrecer un retrato íntimo y no polémico de la vida africana narrado en primera persona por un autor africano, un enfoque que generó tanto elogios internacionales como críticas de otros intelectuales africanos que lo consideraron demasiado conciliador con Francia. Convertida en lectura obligatoria en escuelas de buena parte del África francófona, la novela consolidó a Camara Laye, junto con su posterior 'La mirada del rey', como figura fundacional de la literatura africana moderna.",
+      },
+      en: {
+        title: "The Novel That Opened African Literature to the World",
+        subtitle: "Camara Laye and 'The Dark Child'",
+        imageAlt: "Cartoon of an open book with figures from an African village emerging from its pages.",
+        description:
+          "Camara Laye, a Guinean writer born in 1928 in Kouroussa, published in 1953 the autobiographical novel 'The Dark Child,' a lyrical account of his childhood in a Malinké family and his father's workshop as a blacksmith and goldsmith steeped in traditional spiritual practices, which became one of the first major works of Francophone African literature to reach wide readership outside the continent. The book stood out, at a time when much writing about Africa remained filtered through European colonial perspectives, for offering an intimate, non-polemical portrait of African life narrated in the first person by an African author, an approach that drew both praise and criticism from other African intellectuals who saw it as too conciliatory toward France. Now required reading in schools across much of Francophone Africa, the novel established Camara Laye, alongside his later 'The Radiance of the King,' as a foundational figure of modern African literature.",
+      },
+    },
+  },
 ];

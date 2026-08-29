@@ -158,6 +158,82 @@ const RaftingNilo: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const SantuarioMartiresNamugongo: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="140" y="180" width="130" height="60" fill="#F5EFE0" stroke={dark} strokeWidth="2.6" />
+      {[155, 185, 215, 245].map((x) => (
+        <rect key={x} x={x} y="188" width="10" height="45" fill="#D9C9A3" stroke={dark} strokeWidth="1.6" />
+      ))}
+      <ellipse cx="205" cy="180" rx="65" ry="16" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M155 178 Q205 120 255 178 Q230 158 205 155 Q180 158 155 178 Z" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <rect x="200" y="105" width="10" height="20" fill={dark} />
+      <circle cx="205" cy="100" r="6" fill={accentColor} stroke={dark} strokeWidth="1.8" />
+    </g>
+  );
+};
+
+const LasMontanasDeLaLuna: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <ellipse cx="205" cy="230" rx="120" ry="14" fill="#C9C0A8" opacity="0.5" />
+      <polygon points="120,220 175,120 220,220" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <polygon points="180,220 240,95 300,220" fill={shade(accentColor, 0.15)} stroke={dark} strokeWidth="2.6" />
+      <polygon points="160,155 175,120 195,158" fill="#FFFFFF" opacity="0.9" />
+      <polygon points="215,140 240,95 268,148" fill="#FFFFFF" opacity="0.9" />
+      <path d="M100 190 Q150 175 200 195 M220 200 Q260 180 320 200" fill="none" stroke="#FFFFFF" strokeWidth="10" opacity="0.4" />
+    </g>
+  );
+};
+
+const IslasSese: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill={water} opacity="0.5" />
+      <ellipse cx="205" cy="222" rx="80" ry="24" fill="#E9D8A6" stroke={dark} strokeWidth="2.4" />
+      <ellipse cx="205" cy="208" rx="60" ry="16" fill={accentColor} opacity="0.5" />
+      <path d="M195 205 L195 145 Q195 135 205 132 Q200 145 200 205 Z" fill="#5C3A21" stroke={dark} strokeWidth="2.2" />
+      {[[-30, -10], [28, -6], [-8, -28], [16, -30]].map(([dx, dy], i) => (
+        <path key={i} d={`M198 150 Q${198 + dx} ${150 + dy} ${198 + dx * 1.6} ${150 + dy * 1.2}`} fill="none" stroke="#2E8B57" strokeWidth="6" strokeLinecap="round" />
+      ))}
+    </g>
+  );
+};
+
+const ElGanadoDeCuernosGigantes: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <path d="M90 250 L320 250" stroke="#8C8C74" strokeWidth="16" opacity="0.3" />
+      <ellipse cx="215" cy="200" rx="70" ry="34" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      <path d="M155 190 L130 200 M155 200 L128 218 M270 200 L295 195" stroke={dark} strokeWidth="6" strokeLinecap="round" fill="none" />
+      <ellipse cx="150" cy="185" rx="26" ry="22" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <path d="M140 170 Q100 155 85 175 Q115 172 138 182" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.4" />
+      <path d="M160 170 Q205 148 225 172 Q195 168 162 180" fill={tint(accentColor, 0.3)} stroke={dark} strokeWidth="2.4" />
+      <circle cx="140" cy="182" r="3" fill="#1A1A1A" />
+    </g>
+  );
+};
+
+const LaGrullaCoronadaQueEstaEnLaBandera: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <ellipse cx="205" cy="215" rx="45" ry="30" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <path d="M205 195 Q195 175 200 150 Q206 172 214 190" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <circle cx="203" cy="145" r="16" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M195 138 Q191 125 198 118 M199 135 Q198 120 205 112 M205 135 Q207 120 214 115 M210 138 Q214 125 220 120" fill="none" stroke="#D4AF37" strokeWidth="3" strokeLinecap="round" />
+      <ellipse cx="196" cy="152" rx="5" ry="7" fill="#C1272D" />
+      <path d="M187 145 L165 148" stroke="#3A2418" strokeWidth="3" />
+      <path d="M205 245 L205 215 M225 240 L232 210" stroke={dark} strokeWidth="4" />
+    </g>
+  );
+};
+
 export const ugandaIllustrations: Record<string, IllustrationDefinition> = {
   "fuentes-nilo": { component: FuentesNilo },
   "gorilas-montana": { component: GorilasMontana },
@@ -169,4 +245,9 @@ export const ugandaIllustrations: Record<string, IllustrationDefinition> = {
   "boda-boda": { component: BodaBoda },
   rolex: { component: Rolex },
   "rafting-nilo": { component: RaftingNilo },
+  "santuario-martires-namugongo": { component: SantuarioMartiresNamugongo },
+  "las-montanas-de-la-luna": { component: LasMontanasDeLaLuna },
+  "islas-sese": { component: IslasSese },
+  "el-ganado-de-cuernos-gigantes": { component: ElGanadoDeCuernosGigantes },
+  "la-grulla-coronada-que-esta-en-la-bandera": { component: LaGrullaCoronadaQueEstaEnLaBandera },
 };

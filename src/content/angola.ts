@@ -231,4 +231,119 @@ export const angola: CultureEntry[] = [
       },
     },
   },
+  {
+    id: "la-reina-que-resistio-treinta-anos-a-portugal",
+    order: 11,
+    placeholderEmoji: "👑",
+    accentColor: "#7A2E2E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La reina guerrera que resistió 30 años a Portugal",
+        subtitle: "La reina Njinga Mbandi",
+        imageAlt: "Caricatura de una reina africana con lanza y tocado real.",
+        description:
+          "Njinga Mbandi, reina de los reinos de Ndongo y Matamba en el actual territorio angoleño, lideró durante más de tres décadas, desde la década de 1620 hasta su muerte en 1663, una resistencia diplomática y militar sostenida contra la expansión colonial portuguesa, combinando alianzas cambiantes con potencias europeas rivales y un liderazgo militar directo poco común para una gobernante de su época en cualquier parte del mundo. Se convirtió al catolicismo por razones estratégicas en un momento clave de las negociaciones con Portugal, sin abandonar el control real de su territorio, y llegó a vestir ropas masculinas y rodearse de un séquito de hombres vestidos como sus 'esposas' para reforzar su autoridad frente a las tradiciones de género de la época. Hoy es una de las figuras históricas más veneradas de Angola: una estatua monumental erigida en Luanda en 2002, para el aniversario 25 de la independencia, la muestra con el brazo extendido señalando el futuro del país.",
+      },
+      en: {
+        title: "The Warrior Queen Who Resisted Portugal for 30 Years",
+        subtitle: "Queen Njinga Mbandi",
+        imageAlt: "Cartoon of an African queen with a spear and a royal headdress.",
+        description:
+          "Njinga Mbandi, queen of the Ndongo and Matamba kingdoms in what is now Angola, led a sustained diplomatic and military resistance against Portuguese colonial expansion for more than three decades, from the 1620s until her death in 1663, combining shifting alliances with rival European powers, remarkable diplomatic skill, and direct military leadership unusual for a ruler of her era anywhere in the world. She converted to Catholicism for strategic reasons at a key point in negotiations with Portugal, without giving up real control of her territory, and would dress in men's clothing and surround herself with a retinue of men dressed as her 'wives' to reinforce her authority against the gender norms of the time. Today she is one of Angola's most revered historical figures: a monumental statue erected in Luanda in 2002, for the 25th anniversary of independence, shows her with her arm outstretched, pointing toward the country's future.",
+      },
+    },
+  },
+  {
+    id: "la-planta-que-puede-vivir-mil-anos",
+    order: 12,
+    placeholderEmoji: "🌱",
+    accentColor: "#8C7B3A",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La planta que puede vivir más de mil años",
+        subtitle: "La welwitschia del desierto de Namibe",
+        imageAlt: "Caricatura de una planta de hojas largas y retorcidas sobre arena desértica.",
+        description:
+          "La welwitschia mirabilis, una planta que crece únicamente en la estrecha franja costera del desierto de Namibe, en el sur de Angola, y en el vecino desierto de Namibia, produce apenas dos hojas durante toda su vida, que jamás caen ni se renuevan sino que crecen de forma continua desde el centro de la planta y terminan desgarradas por el viento en largas tiras que le dan un aspecto desordenado y prehistórico. Emparentada más de cerca con las coníferas que con las plantas de flor comunes, sobrevive en uno de los desiertos más secos del planeta absorbiendo la humedad de la niebla matutina que llega desde el Atlántico a través de raíces profundas y pequeños poros en sus propias hojas, un mecanismo que le permite resistir años sin lluvia directa. Algunos ejemplares documentados tienen una edad estimada de más de mil años, lo que convierte a esta planta discreta en uno de los organismos vivos más longevos de todo el continente africano.",
+      },
+      en: {
+        title: "The Plant That Can Live More Than a Thousand Years",
+        subtitle: "The Welwitschia of the Namibe Desert",
+        imageAlt: "Cartoon of a plant with long, twisted leaves on desert sand.",
+        description:
+          "Welwitschia mirabilis, a plant that grows only along the narrow coastal strip of Angola's Namibe Desert in the south and the neighboring Namibian desert, produces just two leaves in its entire lifetime, which never fall or renew but instead grow continuously from the plant's center and end up shredded by the wind into long ribbons, giving it a disheveled, prehistoric look. More closely related to conifers than to common flowering plants, it survives in one of the driest deserts on Earth by absorbing moisture from the morning fog rolling in off the Atlantic through deep roots and tiny pores on its own leaves, a mechanism that lets it go years without direct rainfall. Some documented specimens in the region are estimated to be over a thousand years old, making this unassuming, unglamorous plant one of the longest-living and most singular organisms found anywhere on the African continent.",
+      },
+    },
+  },
+  {
+    id: "la-mascara-que-representa-a-la-mujer-ideal",
+    order: 13,
+    placeholderEmoji: "🎭",
+    accentColor: "#3A2A1E",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "La máscara que representa a la mujer ideal",
+        subtitle: "Las máscaras chokwe mwana pwo",
+        imageAlt: "Caricatura de una máscara de madera oscura con rasgos faciales estilizados.",
+        description:
+          "Las máscaras mwana pwo del pueblo chokwe, talladas en madera oscura con rasgos faciales estilizados, cicatrices decorativas y elaborados peinados que representan a una mujer ancestral ideal, son usadas exclusivamente por bailarines varones durante la iniciación masculina llamada mukanda, en la que encarnan a través del baile cualidades consideradas femeninas como la gracia, la fertilidad y la belleza ante los jóvenes que atraviesan el rito de paso. Cada máscara es tallada individualmente siguiendo convenciones estéticas transmitidas de generación en generación, y ninguna se considera terminada hasta que el bailarín que la usará ajusta su proporción y expresión final. Ejemplares históricos se encuentran hoy en las colecciones de arte africano más importantes del mundo, desde el Quai Branly de París hasta el Metropolitan de Nueva York, y su estética influyó en artistas europeos que buscaban nuevas formas de representar el rostro humano.",
+      },
+      en: {
+        title: "The Mask That Represents the Ideal Woman",
+        subtitle: "The Chokwe Mwana Pwo Masks",
+        imageAlt: "Cartoon of a dark wooden mask with stylized facial features.",
+        description:
+          "Mwana pwo masks of the Chokwe people, carved from dark wood with stylized facial features, decorative scarification, and elaborate hairstyles representing an idealized female ancestor, are worn exclusively by male dancers during mukanda, the male initiation ceremonies, where they embody through dance qualities considered feminine, like grace, fertility, and beauty, before the young initiates undergoing the rite of passage. Each mask is individually carved by specialized artisans following aesthetic conventions passed down through generations, and none is considered finished until the dancer who will wear it takes part in final adjustments to its proportions and expression. Historic examples of these masks are now held in some of the world's leading African art collections, from the Musée du Quai Branly in Paris to the Metropolitan Museum in New York, and their aesthetic directly influenced early 20th-century European artists searching for new ways to represent the human face.",
+      },
+    },
+  },
+  {
+    id: "las-rocas-negras-donde-njinga-dejo-su-huella",
+    order: 14,
+    placeholderEmoji: "🪨",
+    accentColor: "#2E2A28",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "Las rocas negras donde se dice que Njinga saltó",
+        subtitle: "Las Pedras Negras de Pungo Andongo",
+        imageAlt: "Caricatura de enormes rocas negras redondeadas sobre una llanura.",
+        description:
+          "Las Pedras Negras de Pungo Andongo, un conjunto de enormes moles de roca oscura que emergen abruptamente de la llanura cerca de la ciudad de Malanje, con algunas formaciones que superan los doscientos metros de altura, fueron durante siglos un punto de referencia natural usado como fortaleza defensiva por los gobernantes del antiguo reino de Ndongo gracias a sus laderas casi verticales, prácticamente inexpugnables sin acceso moderno. La tradición oral local sostiene que sobre una de estas rocas quedaron marcadas las huellas de los pies y las manos de la propia reina Njinga, dejadas allí durante un salto legendario para escapar de sus perseguidores, un relato que sigue transmitiéndose entre guías y habitantes de la zona pese a no tener respaldo histórico documentado. Hoy declaradas monumento nacional, las Pedras Negras atraen tanto a geólogos interesados en su formación como a visitantes que suben a explorar las marcas atribuidas a la legendaria soberana.",
+      },
+      en: {
+        title: "The Black Rocks Where Njinga Is Said to Have Leapt",
+        subtitle: "The Black Rocks of Pungo Andongo",
+        imageAlt: "Cartoon of enormous rounded black boulders rising from a plain.",
+        description:
+          "The Black Rocks of Pungo Andongo, a cluster of massive dark boulders rising abruptly from the plain near the city of Malanje, some formations topping two hundred meters, served for centuries as a natural landmark used as a defensive stronghold by rulers of the ancient Ndongo kingdom thanks to its near-vertical slopes, practically impregnable without modern climbing gear. Local oral tradition holds that the footprints and handprints of Queen Njinga herself are marked on one of these rocks, left behind during a legendary leap to escape her pursuers, a story still passed down by guides and residents of the area despite lacking documented historical backing. Now declared a national monument, the Black Rocks draw both geologists interested in their formation and visitors who climb up to see the marks attributed to the legendary queen.",
+      },
+    },
+  },
+  {
+    id: "el-arte-marcial-brasileno-que-lleva-el-nombre-de-angola",
+    order: 15,
+    placeholderEmoji: "🤸",
+    accentColor: "#B8860B",
+    imageUrl: null,
+    translations: {
+      es: {
+        title: "El arte marcial brasileño que lleva el nombre de Angola",
+        subtitle: "La capoeira Angola",
+        imageAlt: "Caricatura de dos personas en una rueda de capoeira con una patada girada.",
+        description:
+          "La capoeira, el arte marcial afrobrasileño que combina lucha, danza, música y ritual en una rueda de practicantes que cantan y tocan instrumentos como el berimbau mientras dos personas se enfrentan con movimientos acrobáticos, surgió entre personas esclavizadas en Brasil disfrazada de danza para eludir la represión de las prácticas de combate entre esclavizados, y buena parte de sus raíces se atribuye a los pueblos bantúes traídos por la fuerza desde la región que hoy es Angola. La rama más antigua del arte, llamada 'capoeira Angola' para distinguirla del estilo 'regional' más deportivo del siglo veinte, fue preservada sobre todo por el maestro brasileño Mestre Pastinha en Salvador de Bahía, quien mantuvo sus cantos, su ritmo lento y su carácter comunitario frente a las versiones más veloces que ganaban popularidad. El propio nombre de la disciplina honra así a los angoleños esclavizados considerados los portadores originales de esta tradición hoy practicada en decenas de países.",
+      },
+      en: {
+        title: "The Brazilian Martial Art Named After Angola",
+        subtitle: "Capoeira Angola",
+        imageAlt: "Cartoon of two people in a capoeira circle mid spinning kick.",
+        description:
+          "Capoeira, the Afro-Brazilian art form blending combat, dance, music, and ritual within a circle of practitioners who sing and play instruments like the berimbau while two people spar acrobatically at its center, emerged among enslaved people in Brazil disguised as dance to dodge the repression of combat practices among the enslaved, and much of its ritual and musical roots are attributed to Bantu-speaking peoples forcibly brought from what is now Angola. The oldest branch of the art, called precisely 'capoeira Angola' to distinguish it from the faster, more sport-oriented 'regional' style of the 20th century, was preserved above all by Brazilian master Mestre Pastinha in Salvador de Bahia, who insisted on keeping its songs, slow rhythm, and communal character against faster, more competitive versions gaining popularity. The discipline's very name thus honors the enslaved Angolans considered the original bearers of this tradition, now practiced in dozens of countries.",
+      },
+    },
+  },
 ];

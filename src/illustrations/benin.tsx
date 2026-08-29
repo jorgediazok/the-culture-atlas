@@ -154,6 +154,102 @@ const ElTemploDeSerpientesFrenteAUnaCatedral: IllustrationComponent = ({ accentC
   );
 };
 
+const LaCantanteQueGanoCincoGrammys: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const red = "#C1272D";
+  return (
+    <g>
+      <path d="M175 240 Q170 195 205 185 Q240 195 235 240 Z" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      <circle cx="205" cy="165" r="22" fill={skin} stroke={dark} strokeWidth="2.2" />
+      <path d="M180 158 Q205 120 230 158 Q222 145 205 142 Q188 145 180 158 Z" fill={red} stroke={shade(red, 0.3)} strokeWidth="2.2" />
+      <path d="M182 195 Q160 205 165 225" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <path d="M228 195 Q250 205 245 225" fill="none" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <ellipse cx="205" cy="195" rx="9" ry="13" fill="#3A3A3A" />
+      <rect x="202" y="205" width="6" height="30" fill="#5C5C5C" />
+    </g>
+  );
+};
+
+const LaFiestaDeMascarasQueHonraALasMadres: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const wood = "#8B5A2B";
+  return (
+    <g>
+      <ellipse cx="205" cy="105" rx="45" ry="16" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <circle cx="185" cy="100" r="8" fill={dark} />
+      <circle cx="225" cy="100" r="8" fill={dark} />
+      <path d="M205 115 Q250 120 250 170 Q250 215 205 230 Q160 215 160 170 Q160 120 205 115 Z" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="3" />
+      <ellipse cx="183" cy="165" rx="10" ry="14" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <ellipse cx="227" cy="165" rx="10" ry="14" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <circle cx="183" cy="165" r="4" fill="#1A1A1A" />
+      <circle cx="227" cy="165" r="4" fill="#1A1A1A" />
+      <path d="M190 200 Q205 210 220 200" fill="none" stroke="#F5F0E6" strokeWidth="4" strokeLinecap="round" />
+      <path d="M175 140 L195 150 M235 140 L215 150" stroke={accentColor} strokeWidth="2.5" />
+    </g>
+  );
+};
+
+const ElParqueDondeSobrevivenLosUltimosLeones: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  return (
+    <g>
+      <rect x="90" y="80" width="230" height="170" fill={tint(accentColor, 0.7)} opacity="0.3" />
+      <ellipse cx="205" cy="245" rx="115" ry="8" fill={dark} opacity="0.25" />
+      <line x1="270" y1="245" x2="272" y2="170" stroke="#5C3A21" strokeWidth="6" />
+      <ellipse cx="272" cy="155" rx="42" ry="20" fill="#3A7A45" opacity="0.6" />
+      <ellipse cx="150" cy="215" rx="14" ry="16" fill="#8B5A2B" stroke={dark} strokeWidth="2.2" />
+      <ellipse cx="175" cy="222" rx="30" ry="16" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M195 218 Q205 222 200 235" fill="none" stroke={accentColor} strokeWidth="7" strokeLinecap="round" />
+      <line x1="160" y1="228" x2="158" y2="248" stroke={accentColor} strokeWidth="6" strokeLinecap="round" />
+      <line x1="192" y1="228" x2="196" y2="248" stroke={accentColor} strokeWidth="6" strokeLinecap="round" />
+      <ellipse cx="255" cy="210" rx="34" ry="24" fill="#8C8C8C" stroke={dark} strokeWidth="2.4" />
+      <path d="M225 205 Q210 210 208 230" fill="none" stroke="#8C8C8C" strokeWidth="9" strokeLinecap="round" />
+      <ellipse cx="222" cy="198" rx="10" ry="12" fill="#8C8C8C" stroke={dark} strokeWidth="2" />
+      <path d="M222 205 Q228 220 222 232" fill="none" stroke="#7A7A7A" strokeWidth="4" strokeLinecap="round" />
+      <line x1="240" y1="224" x2="238" y2="248" stroke="#8C8C8C" strokeWidth="7" strokeLinecap="round" />
+      <line x1="270" y1="224" x2="272" y2="248" stroke="#8C8C8C" strokeWidth="7" strokeLinecap="round" />
+    </g>
+  );
+};
+
+const ElQuesoQueNacioEntrePastoresFulani: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const leaf = "#3A7A45";
+  return (
+    <g>
+      <rect x="110" y="200" width="190" height="14" fill="#8B5A2B" stroke={dark} strokeWidth="2.4" />
+      <rect x="122" y="145" width="36" height="30" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <rect x="167" y="140" width="36" height="30" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="2.2" />
+      <rect x="212" y="148" width="36" height="30" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <rect x="252" y="142" width="36" height="30" fill={tint(accentColor, 0.15)} stroke={dark} strokeWidth="2.2" />
+      <path d="M120 175 Q110 155 125 140 Q120 160 130 172 Z" fill={leaf} stroke={shade(leaf, 0.3)} strokeWidth="2" />
+      <path d="M290 170 Q302 150 290 135 Q295 155 282 168 Z" fill={leaf} stroke={shade(leaf, 0.3)} strokeWidth="2" />
+    </g>
+  );
+};
+
+const LaConferenciaQueInventoUnaTransicionPacifica: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const SEATS: [number, number][] = [
+    [140, 175], [205, 160], [270, 175], [140, 225], [205, 240], [270, 225],
+  ];
+  return (
+    <g>
+      <ellipse cx="205" cy="200" rx="80" ry="30" fill="#8B5A2B" stroke={dark} strokeWidth="2.8" />
+      {SEATS.map(([x, y], i) => (
+        <g key={`${x}-${y}`}>
+          <circle cx={x} cy={y - 14} r="10" fill={skin} stroke={dark} strokeWidth="1.8" />
+          <path d={`M${x - 10} ${y} Q${x} ${y - 20} ${x + 10} ${y}`} fill={i % 2 === 0 ? accentColor : tint(accentColor, 0.2)} stroke={dark} strokeWidth="2" />
+        </g>
+      ))}
+      <rect x="195" y="110" width="20" height="30" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <path d="M215 112 L245 122 L215 132 Z" fill="#F5F0E6" stroke={dark} strokeWidth="1.8" />
+    </g>
+  );
+};
+
 export const beninIllustrations: Record<string, IllustrationDefinition> = {
   "el-pais-que-vio-nacer-al-vudu": { component: ElPaisQueVioNacerAlVudu },
   "los-palacios-reales-de-un-reino-que-goberno-el-golfo": { component: LosPalaciosRealesDeUnReinoQueGoberno },
@@ -165,4 +261,9 @@ export const beninIllustrations: Record<string, IllustrationDefinition> = {
   "la-concha-que-fue-dinero-antes-que-el-oro": { component: LaConchaQueFueDineroAntesQueElOro },
   "los-guardianes-nocturnos-vestidos-de-paja": { component: LosGuardianesNocturnosVestidosDePaja },
   "el-templo-de-serpientes-frente-a-una-catedral": { component: ElTemploDeSerpientesFrenteAUnaCatedral },
+  "la-cantante-que-gano-cinco-grammys": { component: LaCantanteQueGanoCincoGrammys },
+  "la-fiesta-de-mascaras-que-honra-a-las-madres": { component: LaFiestaDeMascarasQueHonraALasMadres },
+  "el-parque-donde-sobreviven-los-ultimos-leones": { component: ElParqueDondeSobrevivenLosUltimosLeones },
+  "el-queso-que-nacio-entre-pastores-fulani": { component: ElQuesoQueNacioEntrePastoresFulani },
+  "la-conferencia-que-invento-una-transicion-pacifica": { component: LaConferenciaQueInventoUnaTransicionPacifica },
 };

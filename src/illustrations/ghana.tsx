@@ -158,6 +158,109 @@ const TamboresParlantes: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const HighlifeMusicaGhanesa: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const gold = "#D4A017";
+  return (
+    <g>
+      <rect x="90" y="235" width="230" height="8" fill={dark} opacity="0.3" />
+      <path d="M168 185 Q195 178 215 175" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M215 175 Q235 170 250 160" fill="none" stroke={gold} strokeWidth="5" strokeLinecap="round" />
+      <ellipse cx="255" cy="156" rx="10" ry="6" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="1.6" />
+      <circle cx="160" cy="160" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M147 175 Q160 168 173 175 L168 220 Q160 226 152 220 Z" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+      <path d="M232 190 Q210 200 205 220" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M258 190 Q270 205 265 225" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <circle cx="245" cy="165" r="13" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M232 180 Q245 173 258 180 L253 225 Q245 231 237 225 Z" fill={tint(accentColor, 0.2)} stroke={dark} strokeWidth="2.2" />
+      <rect x="195" y="200" width="16" height="35" fill="#5C3A21" stroke={dark} strokeWidth="1.8" transform="rotate(-15 203 217)" />
+    </g>
+  );
+};
+
+const PesasDeOroAshanti: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const gold = "#D4AF37";
+  return (
+    <g>
+      <line x1="205" y1="120" x2="205" y2="150" stroke={dark} strokeWidth="4" />
+      <line x1="160" y1="150" x2="250" y2="150" stroke={dark} strokeWidth="4" />
+      <line x1="160" y1="150" x2="150" y2="175" stroke={dark} strokeWidth="2.5" />
+      <line x1="160" y1="150" x2="170" y2="175" stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="160" cy="180" rx="24" ry="8" fill="none" stroke={dark} strokeWidth="3" />
+      <line x1="250" y1="150" x2="240" y2="175" stroke={dark} strokeWidth="2.5" />
+      <line x1="250" y1="150" x2="260" y2="175" stroke={dark} strokeWidth="2.5" />
+      <ellipse cx="250" cy="180" rx="24" ry="8" fill="none" stroke={dark} strokeWidth="3" />
+      <circle cx="155" cy="176" r="7" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="1.6" />
+      <circle cx="168" cy="176" r="5" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="1.4" />
+      <rect x="243" y="170" width="14" height="12" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="1.6" />
+      <path d="M175 220 Q190 205 205 215 Q220 205 230 220" fill="none" stroke={accentColor} strokeWidth="5" strokeLinecap="round" />
+      <circle cx="205" cy="222" r="6" fill={accentColor} stroke={dark} strokeWidth="1.6" />
+    </g>
+  );
+};
+
+const FestivalAboakyerWinneba: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#8B5A2B";
+  const deer = "#C68A5A";
+  return (
+    <g>
+      <rect x="90" y="220" width="230" height="30" fill={accentColor} opacity="0.3" />
+      <path d="M255 220 Q260 195 280 190 Q300 195 295 215 Q290 225 275 222" fill="none" stroke={deer} strokeWidth="8" strokeLinecap="round" />
+      <line x1="255" y1="220" x2="250" y2="240" stroke={dark} strokeWidth="4" />
+      <line x1="285" y1="220" x2="290" y2="240" stroke={dark} strokeWidth="4" />
+      <ellipse cx="270" cy="205" rx="16" ry="10" fill={deer} stroke={shade(deer, 0.3)} strokeWidth="2.2" />
+      <path d="M262 197 L256 185 M266 195 L263 182" stroke={deer} strokeWidth="3" strokeLinecap="round" />
+      <path d="M158 205 Q190 200 220 208" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <path d="M142 205 Q125 215 130 235" fill="none" stroke={skin} strokeWidth="7" strokeLinecap="round" />
+      <circle cx="150" cy="185" r="12" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M138 198 Q150 191 162 198 L158 230 Q150 236 142 230 Z" fill={accentColor} stroke={dark} strokeWidth="2.2" />
+    </g>
+  );
+};
+
+const BlackStarsMundial2010: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.4);
+  const skin = "#3A2A1E";
+  return (
+    <g>
+      <rect x="260" y="120" width="8" height="90" fill="#fff" stroke={dark} strokeWidth="2" />
+      <rect x="310" y="120" width="8" height="90" fill="#fff" stroke={dark} strokeWidth="2" />
+      <line x1="264" y1="120" x2="314" y2="120" stroke="#fff" strokeWidth="4" />
+      <path d="M264 125 L314 125 L314 160 L264 160 Z" fill="none" stroke="#fff" strokeWidth="1.5" opacity="0.5" />
+      <path d="M158 222 Q180 215 195 205" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <path d="M142 222 Q120 230 118 250" fill="none" stroke={skin} strokeWidth="8" strokeLinecap="round" />
+      <line x1="158" y1="245" x2="185" y2="255" stroke={skin} strokeWidth="9" strokeLinecap="round" />
+      <circle cx="150" cy="200" r="14" fill={skin} stroke={dark} strokeWidth="2" />
+      <path d="M136 215 Q150 207 164 215 L158 245 Q150 251 142 245 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <circle cx="205" cy="180" r="12" fill="#F5F0E6" stroke={dark} strokeWidth="2.2" />
+      <polygon points="205,172 210,178 205,184 200,178" fill="#1A1A1A" />
+    </g>
+  );
+};
+
+const MezquitaDeLarabanga: IllustrationComponent = ({ accentColor }) => {
+  const dark = shade(accentColor, 0.35);
+  const TOWER_STAKES = [145, 200, 260];
+  return (
+    <g>
+      <rect x="130" y="180" width="150" height="60" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      <path d="M140 180 Q145 130 158 130 Q165 155 160 180 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M255 180 Q260 130 272 130 Q280 155 275 180 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
+      <path d="M190 180 Q195 110 205 108 Q215 110 220 180 Z" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      {TOWER_STAKES.map((x) => (
+        <g key={x}>
+          <line x1={x - 6} y1="150" x2={x + 6} y2="150" stroke="#5C3A21" strokeWidth="2.5" />
+          <line x1={x - 6} y1="165" x2={x + 6} y2="165" stroke="#5C3A21" strokeWidth="2.5" />
+        </g>
+      ))}
+      <rect x="195" y="205" width="20" height="35" fill="#3A2A1E" opacity="0.6" />
+    </g>
+  );
+};
+
 export const ghanaIllustrations: Record<string, IllustrationDefinition> = {
   "ataudes-de-fantasia": { component: AtaudesDeFantasia },
   "kente-tejido-de-reyes": { component: KenteTejidoDeReyes },
@@ -169,4 +272,9 @@ export const ghanaIllustrations: Record<string, IllustrationDefinition> = {
   "puente-de-copas-de-kakum": { component: PuenteDeCopasDeKakum },
   "festival-homowo": { component: FestivalHomowo },
   "tambores-parlantes": { component: TamboresParlantes },
+  "highlife-musica-ghanesa": { component: HighlifeMusicaGhanesa },
+  "pesas-de-oro-ashanti": { component: PesasDeOroAshanti },
+  "festival-aboakyer-winneba": { component: FestivalAboakyerWinneba },
+  "black-stars-mundial-2010": { component: BlackStarsMundial2010 },
+  "mezquita-de-larabanga": { component: MezquitaDeLarabanga },
 };
