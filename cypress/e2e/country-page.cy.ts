@@ -27,4 +27,11 @@ describe("Country page 404s", () => {
     cy.contains("a", "Volver al índice").click();
     cy.location("pathname").should("eq", "/es");
   });
+
+  it("redirects a dotted bot-style path to a locale and shows the custom 404, not Next's generic one", () => {
+    cy.visit("/foo.php", { failOnStatusCode: false });
+    cy.location("pathname").should("match", /^\/(es|en)\/foo\.php$/);
+    cy.contains("Página no encontrada").should("be.visible");
+    cy.contains("This page could not be found").should("not.exist");
+  });
 });

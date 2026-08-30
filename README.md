@@ -300,7 +300,8 @@ In addition:
 **Error handling:** since the root layout lives at `app/[lang]/layout.tsx` (a dynamic segment, not a fixed layout), two levels of error pages are needed:
 
 - `app/[lang]/not-found.tsx` and `app/[lang]/error.tsx` — a nonexistent country or a render error under a valid language; rendered inside the site's normal header/footer, detecting the locale via `usePathname` (Next's special files don't receive `params`).
-- `app/global-not-found.tsx` and `app/global-error.tsx` — cover the case where the URL's first segment isn't even a valid language at all (e.g. a bot requesting `/something.php`), where the `[lang]` layout never mounts; they define their own bilingual `<html>`/`<body>`. Requires the `experimental.globalNotFound` flag in `next.config.ts`.
+- `app/global-not-found.tsx` and `app/global-error.tsx` — cover URLs that don't match any route shape at all (e.g. `/a/b/c`), where there's no segment tree to render a layout from; they define their own bilingual `<html>`/`<body>`. Requires the `experimental.globalNotFound` flag in `next.config.ts`.
+- `src/proxy.ts` only excludes `_next` and the two real dotted routes at the app root (`robots.txt`, `sitemap.xml`) from the locale redirect — everything else, including a bot-style extensioned path like `/foo.php`, still gets a locale prefix first. That matters: `app/[lang]/layout.tsx` is the site's root layout (there's no `app/layout.tsx` above it) and itself calls `notFound()` for an invalid `lang`, so if a request like `/foo.php` reached it directly with no locale, the layout would fail to render before any custom not-found UI has anywhere to mount, and Next falls back to its own generic 404 instead of ours. Redirecting first keeps `lang` always valid by the time the layout runs, so an unknown segment after it (`/es/foo.php`) fails at the page level instead, where the custom 404 renders normally.
 
 ## 🔀 Git workflow and deployment
 

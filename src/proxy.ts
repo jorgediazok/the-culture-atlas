@@ -23,5 +23,13 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next|.*\\..*).*)"],
+  // Excludes _next assets and the two real dotted routes at the true root
+  // (robots.txt, sitemap.xml — no other static file lives outside /public,
+  // which Next serves before middleware anyway). Everything else — including
+  // a bot probing an extensioned path like /foo.php — gets the locale prefix
+  // like any other path, so it lands on the working [country]-level 404
+  // instead of [lang]/layout.tsx throwing notFound() with no locale to
+  // render a custom not-found.tsx against (that combination falls back to
+  // Next's generic built-in 404 instead of our global-not-found.tsx).
+  matcher: ["/((?!_next|robots\\.txt|sitemap\\.xml).*)"],
 };
