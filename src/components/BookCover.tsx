@@ -164,6 +164,9 @@ export default function BookCover({
             >
               {Emblem ? (
                 <Box sx={{ width: "100%", height: "100%" }}>
+                  {/* getEmblem pulls from a static, module-level lookup table keyed by
+                      slug — the same component reference every render, not created fresh. */}
+                  {/* eslint-disable-next-line react-hooks/static-components */}
                   <Emblem accentColor={country.accentColor} />
                 </Box>
               ) : (

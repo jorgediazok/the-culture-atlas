@@ -129,6 +129,9 @@ export default function CoverPage({
               }}
             />
             <Box sx={{ width: 102, height: 102 }}>
+              {/* getEmblem pulls from a static, module-level lookup table keyed by slug —
+                  the same component reference every render, not created fresh. */}
+              {/* eslint-disable-next-line react-hooks/static-components */}
               <Emblem accentColor={country.accentColor} />
             </Box>
           </Box>
@@ -304,6 +307,9 @@ export default function CoverPage({
                 }}
               />
               <Box sx={{ width: 140, height: 140 }}>
+                {/* getEmblem pulls from a static, module-level lookup table keyed by slug —
+                    the same component reference every render, not created fresh. */}
+                {/* eslint-disable-next-line react-hooks/static-components */}
                 <Emblem accentColor={country.accentColor} />
               </Box>
             </Box>

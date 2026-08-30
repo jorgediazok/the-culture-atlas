@@ -62,7 +62,6 @@ const TrineosDePerros: IllustrationComponent = ({ accentColor }) => {
 };
 
 const IdiomaGroenlandes: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.4);
   const light = tint(accentColor, 0.6);
   return (
     <g>

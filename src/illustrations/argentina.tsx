@@ -390,7 +390,6 @@ const CineOscar: IllustrationComponent = ({ accentColor }) => {
 };
 
 const Iguazu: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.4);
   const light = tint(accentColor, 0.7);
   const jungle = shade(accentColor, 0.15);
   return (

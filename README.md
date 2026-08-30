@@ -232,7 +232,7 @@ export type Country = {
 - **Todo o nada**: `CoverPage` solo renderiza la grilla si el país tiene los cuatro campos (`capital`, `language`, `population`, `currency`) — nunca una ficha a medias.
 - **Ancho fijo, tipografía dinámica**: la grilla usa un ancho constante (no se achica ni se estira según el contenido) y el tamaño de fuente del valor baja automáticamente en textos largos (más de 16 o 26 caracteres), para que ningún dato pase de dos líneas — mismo patrón que ya usa `PageSpread.tsx` con descripciones largas.
 - La población se formatea con separador de miles por locale vía `src/i18n/format.ts` (`formatNumber`), reusado también en el `Footer`.
-- Estado actual: **los 205 países/territorios cargados ya tienen su ficha completa.**
+- Estado actual: **los 206 países/territorios cargados ya tienen su ficha completa.**
 
 ## 🌐 Internacionalización
 
@@ -273,9 +273,9 @@ npm run dev       # http://localhost:3000
 
 ## 📊 Estado del proyecto
 
-El objetivo es cubrir los **~195 países** del mundo. Estado actual (el conteo de países/historias del pie del sitio se calcula en vivo desde el contenido, así que siempre está al día — los números de abajo son una foto del momento):
+El objetivo es cubrir los **~206 países** del mundo. Estado actual (el conteo de países/historias del pie del sitio se calcula en vivo desde el contenido, así que siempre está al día — los números de abajo son una foto del momento):
 
-- **205** países/territorios cargados, repartidos en 6 continentes (Europa, África, Asia, Norteamérica, Sudamérica, Oceanía) — los 205 tienen también su ficha de datos rápidos completa (capital, idioma, población, moneda).
+- **206** países/territorios cargados, repartidos en 6 continentes (Europa, África, Asia, Norteamérica, Sudamérica, Oceanía) — los 206 tienen también su ficha de datos rápidos completa (capital, idioma, población, moneda).
 - Cada país tiene un **tier asignado** (12, 15 o 20 historias) según su relevancia; la expansión de historias avanza por lotes, continente por continente, hasta que cada país llega a su tier.
 
 ---

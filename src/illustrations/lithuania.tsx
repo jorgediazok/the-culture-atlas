@@ -3,12 +3,27 @@ import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const ElEstadoMasGrandeDeLaEuropaMedieval: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
+  const water = "#3D8FB0";
   return (
     <g>
-      <path d="M110 150 Q160 130 220 140 Q270 150 300 190 Q290 220 260 235 Q200 250 150 230 Q110 210 110 150 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
-      <path d="M150 170 Q200 160 250 180" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.5" />
-      <circle cx="170" cy="180" r="4" fill="#F5F0E6" />
-      <circle cx="260" cy="200" r="4" fill="#F5F0E6" />
+      {/* Baltic coast on the left and Black Sea coast on the right, so the shaded
+          shape between them reads as a landmass, not a floating blob */}
+      <path d="M90 130 Q100 170 90 210" fill="none" stroke={water} strokeWidth="10" opacity="0.5" strokeLinecap="round" />
+      <path d="M320 140 Q308 175 320 220" fill="none" stroke={water} strokeWidth="10" opacity="0.5" strokeLinecap="round" />
+
+      {/* territory outline, an irregular polygon rather than a smooth lens so it reads as a map */}
+      <path
+        d="M120 145 L155 112 L200 108 L225 128 L255 105 L288 130 L300 165 L295 195 L275 225 L235 245 L190 240 L155 220 L130 195 L112 170 Z"
+        fill={accentColor}
+        stroke={dark}
+        strokeWidth="3"
+      />
+      <path d="M140 180 Q195 168 250 185" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.4" strokeDasharray="3 4" />
+
+      {/* three cities marked as dots */}
+      <circle cx="150" cy="165" r="4" fill="#F5F0E6" stroke={dark} strokeWidth="1" />
+      <circle cx="210" cy="175" r="4" fill="#F5F0E6" stroke={dark} strokeWidth="1" />
+      <circle cx="265" cy="195" r="4" fill="#F5F0E6" stroke={dark} strokeWidth="1" />
     </g>
   );
 };
@@ -101,10 +116,25 @@ const UzupisLaRepublicaDeUnBarrio: IllustrationComponent = ({ accentColor }) => 
   const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <path d="M90 240 Q205 250 320 240 L320 250 L90 250 Z" fill="#3D8FB0" opacity="0.5" />
-      <rect x="180" y="200" width="50" height="40" fill={dark} opacity="0.4" />
-      <line x1="205" y1="200" x2="205" y2="160" stroke="#8B7355" strokeWidth="4" />
-      <rect x="185" y="145" width="40" height="18" rx="3" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+      <path d="M90 235 Q205 250 320 235 L320 255 L90 255 Z" fill="#3D8FB0" opacity="0.5" />
+
+      {/* small stone bridge arching over the river */}
+      <path
+        d="M140 220 Q205 190 270 220 L270 232 Q205 208 140 232 Z"
+        fill="#8B8378"
+        stroke={dark}
+        strokeWidth="2.5"
+      />
+      <line x1="150" y1="223" x2="150" y2="212" stroke={dark} strokeWidth="3" />
+      <line x1="180" y1="205" x2="180" y2="196" stroke={dark} strokeWidth="3" />
+      <line x1="230" y1="205" x2="230" y2="196" stroke={dark} strokeWidth="3" />
+      <line x1="260" y1="223" x2="260" y2="212" stroke={dark} strokeWidth="3" />
+
+      {/* welcome sign standing beside the bridge — the post's bottom (y=210) reaches a few
+          units past the deck's own top surface at x=205 (y=205, from the deck's Bezier
+          curve), so it plants into the bridge instead of floating above it */}
+      <line x1="205" y1="161" x2="205" y2="210" stroke="#8B7355" strokeWidth="4" />
+      <rect x="185" y="143" width="40" height="18" rx="3" fill={accentColor} stroke={dark} strokeWidth="2.5" />
     </g>
   );
 };
@@ -115,8 +145,20 @@ const DunasDeCurlandiaElSaharaBaltico: IllustrationComponent = ({ accentColor })
     <g>
       <path d="M90 250 Q140 170 205 210 Q260 165 320 250 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
       <path d="M90 250 Q205 230 320 250" fill="none" stroke={dark} strokeWidth="1.5" opacity="0.4" />
-      <line x1="200" y1="205" x2="200" y2="185" stroke="#2E4A3E" strokeWidth="5" />
-      <line x1="255" y1="160" x2="255" y2="140" stroke="#2E4A3E" strokeWidth="5" />
+      {/* small pines scattered along the ridge — a triangle canopy plus a trunk, not a bare line */}
+      {[
+        [198, 205, 22],
+        [225, 190, 26],
+        [252, 168, 20],
+      ].map(([x, y, h]) => (
+        <g key={x as number}>
+          <rect x={(x as number) - 2} y={y} width="4" height={(h as number) * 0.4} fill="#5C4A3A" />
+          <polygon
+            points={`${x},${(y as number) - h} ${(x as number) + (h as number) * 0.4},${y} ${(x as number) - (h as number) * 0.4},${y}`}
+            fill="#2E4A3E"
+          />
+        </g>
+      ))}
     </g>
   );
 };
@@ -180,8 +222,25 @@ const KaziukoMugeLaFeriaDeLasVerbasDecoradas: IllustrationComponent = ({ accentC
   return (
     <g>
       <line x1="205" y1="240" x2="205" y2="160" stroke="#B7752E" strokeWidth="6" />
+      {/* each bloom is a 5-petal paper flower (rotate-transform, not Math.sin/cos, per the
+          project's no-trig-at-render rule) instead of a flat dot, so it reads as a flower */}
       {blooms.map(([x, y, color], i) => (
-        <circle key={i} cx={x} cy={y} r="12" fill={color} stroke={dark} strokeWidth="2" />
+        <g key={i}>
+          {[0, 72, 144, 216, 288].map((deg) => (
+            <ellipse
+              key={deg}
+              cx={x}
+              cy={(y as number) - 9}
+              rx="5"
+              ry="8"
+              fill={color}
+              stroke={dark}
+              strokeWidth="1.2"
+              transform={`rotate(${deg} ${x} ${y})`}
+            />
+          ))}
+          <circle cx={x} cy={y} r="4" fill={dark} opacity="0.7" />
+        </g>
       ))}
     </g>
   );

@@ -20,7 +20,7 @@ const ElTatuajeQueTomaSemanasDeDolorCompartido: IllustrationComponent = ({ accen
   return (
     <g>
       <path d="M175 100 L175 240 Q205 250 235 240 L235 100 Z" fill="#D9A97A" stroke={dark} strokeWidth="3" />
-      {[120, 150, 180, 210].map((y, i) => (
+      {[120, 150, 180, 210].map((y) => (
         <g key={y}>
           <rect x="182" y={y} width="36" height="10" fill={accentColor} opacity="0.9" />
           {[0, 1, 2, 3].map((j) => (

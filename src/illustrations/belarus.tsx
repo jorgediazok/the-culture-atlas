@@ -18,19 +18,58 @@ const BelovezhskayaPushchaBosquePrimigenio: IllustrationComponent = ({ accentCol
 
 const BisonteEuropeoSalvadoDeLaExtincion: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
+  const forest = shade(accentColor, 0.55);
   return (
     <g>
-      <path d="M120 250 L120 210 Q120 165 165 150 Q220 135 270 155 Q300 165 295 195 L290 250 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
-      <path d="M135 175 Q95 168 82 195 Q76 218 100 222 Q122 218 132 195 Z" fill={dark} opacity="0.85" />
-      <path d="M100 205 Q88 225 93 245 Q104 250 112 240 Q108 220 100 205 Z" fill={dark} opacity="0.6" />
-      <path d="M115 175 Q95 165 80 172" fill="none" stroke={dark} strokeWidth="8" strokeLinecap="round" />
-      <path d="M122 180 Q108 172 96 180" fill="none" stroke={dark} strokeWidth="7" strokeLinecap="round" />
-      <circle cx="100" cy="197" r="4" fill="#1A1A1A" />
-      <rect x="140" y="215" width="16" height="35" fill={dark} />
-      <rect x="180" y="200" width="16" height="50" fill={dark} />
-      <rect x="250" y="195" width="14" height="40" fill={dark} opacity="0.85" />
-      <rect x="278" y="205" width="14" height="35" fill={dark} opacity="0.85" />
-      <path d="M292 195 Q305 205 298 220" fill="none" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      {/* forest backdrop, pushed behind and to the sides so the bison stays the clear subject */}
+      <g opacity="0.35">
+        <polygon points="100,150 122,150 111,100" fill={forest} />
+        <rect x="106" y="150" width="10" height="26" fill="#5C4A3A" />
+        <polygon points="288,158 310,158 299,112" fill={forest} />
+        <rect x="294" y="158" width="10" height="24" fill="#5C4A3A" />
+      </g>
+
+      {/* legs first — the body's fill covers each leg's top so there's no visible seam.
+          Same accentColor as the body (not a separate dark tone) so the animal reads as
+          one continuous silhouette rather than mismatched pieces. */}
+      <rect x="165" y="188" width="16" height="50" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <rect x="205" y="185" width="16" height="55" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <rect x="245" y="188" width="15" height="50" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <rect x="270" y="190" width="15" height="46" fill={accentColor} stroke={dark} strokeWidth="2" />
+
+      {/* humped shoulder + back, side profile facing left */}
+      <path
+        d="M155 220 Q160 155 225 128 Q270 115 292 145 Q302 175 292 205 Q270 222 220 222 Z"
+        fill={accentColor}
+        stroke={dark}
+        strokeWidth="3"
+      />
+
+      {/* lowered head, same accentColor as the body so it reads as one animal — only the
+          outline stroke defines where the head's contour separates from the shoulder.
+          Neck end (195,168)-(185,195) reaches 20-25 units past the shoulder's own left
+          boundary at those heights (computed from the shoulder path's Bezier curve), so it
+          overlaps rather than just touching it. */}
+      <path
+        d="M195 168 Q150 145 128 158 Q95 162 82 188 Q78 208 98 228 Q118 234 140 222 Q155 208 185 195 Z"
+        fill={accentColor}
+        stroke={dark}
+        strokeWidth="3"
+      />
+
+      {/* shaggy mane texture over the head/shoulder join, a few short dark strokes rather
+          than a solid color block */}
+      <path d="M165 172 Q172 182 168 194" fill="none" stroke={dark} strokeWidth="3" strokeLinecap="round" opacity="0.5" />
+      <path d="M148 165 Q156 176 152 190" fill="none" stroke={dark} strokeWidth="3" strokeLinecap="round" opacity="0.5" />
+      <path d="M130 170 Q138 180 135 194" fill="none" stroke={dark} strokeWidth="3" strokeLinecap="round" opacity="0.5" />
+
+      {/* short horns swept sideways from the head, not vertical */}
+      <path d="M112 178 Q88 168 70 174" fill="none" stroke={dark} strokeWidth="7" strokeLinecap="round" />
+      <path d="M120 183 Q100 170 86 162" fill="none" stroke={dark} strokeWidth="6" strokeLinecap="round" />
+
+      <circle cx="102" cy="210" r="4" fill="#1A1A1A" />
+
+      <path d="M290 205 Q306 214 298 232" fill="none" stroke={dark} strokeWidth="5" strokeLinecap="round" />
     </g>
   );
 };
@@ -123,13 +162,42 @@ const MinskReconstruidaDesdeLosEscombros: IllustrationComponent = ({ accentColor
 
 const GranDucadoDeLituaniaCorazonBelaruso: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
+  const metal = "#AEB6BD";
   return (
     <g>
-      <path d="M190 240 L190 130 L220 130 L220 240 Z" fill="#B0B8BF" stroke={dark} strokeWidth="2.5" />
-      <polygon points="175,145 205,110 235,145" fill={accentColor} stroke={dark} strokeWidth="2.5" />
-      <rect x="175" y="145" width="15" height="55" fill={tint(accentColor, 0.25)} stroke={dark} strokeWidth="2" />
-      <path d="M140 220 Q170 205 195 220 L190 240 L145 240 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
-      <line x1="150" y1="222" x2="182" y2="222" stroke={dark} strokeWidth="1.5" opacity="0.5" />
+      {/* legs, drawn first so the tunic's hem (bottom edge at y=212) covers their tops */}
+      <rect x="195" y="188" width="22" height="57" fill={metal} stroke={dark} strokeWidth="2" />
+      <rect x="223" y="188" width="22" height="57" fill={metal} stroke={dark} strokeWidth="2" />
+
+      {/* shield arm sleeve, rooted inside the tunic's shoulder before the shield covers its end */}
+      <path d="M202 149 Q172 158 168 188" fill="none" stroke={metal} strokeWidth="11" strokeLinecap="round" />
+      {/* scroll arm sleeve, same pattern on the other shoulder */}
+      <path d="M238 149 Q262 160 267 183" fill="none" stroke={metal} strokeWidth="11" strokeLinecap="round" />
+
+      {/* tunic / torso, shoulders wide tapering to the hem */}
+      <path d="M188 145 L252 145 L242 212 L198 212 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" />
+
+      {/* kite shield, its right edge overlapping the sleeve's end point so the hand reads as gripping it */}
+      <path
+        d="M132 155 Q172 148 176 188 Q173 220 150 233 Q127 220 124 190 Q125 168 132 155 Z"
+        fill={tint(accentColor, 0.2)}
+        stroke={dark}
+        strokeWidth="2.5"
+      />
+      <line x1="150" y1="160" x2="150" y2="222" stroke={dark} strokeWidth="2" opacity="0.6" />
+      <line x1="128" y1="192" x2="172" y2="192" stroke={dark} strokeWidth="2" opacity="0.6" />
+
+      {/* unrolled scroll, its near roll centered on the sleeve's end point */}
+      <circle cx="266" cy="186" r="10" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <rect x="266" y="177" width="42" height="18" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <line x1="272" y1="183" x2="302" y2="183" stroke={dark} strokeWidth="1.2" opacity="0.5" />
+      <line x1="272" y1="189" x2="298" y2="189" stroke={dark} strokeWidth="1.2" opacity="0.5" />
+      <circle cx="308" cy="186" r="10" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+
+      {/* helmet, its base overlapping the tunic's top edge so head and body read as one figure */}
+      <circle cx="220" cy="135" r="28" fill={metal} stroke={dark} strokeWidth="2.5" />
+      <polygon points="220,100 236,135 204,135" fill={metal} stroke={dark} strokeWidth="2" />
+      <rect x="216" y="125" width="8" height="30" fill={dark} opacity="0.5" />
     </g>
   );
 };

@@ -117,7 +117,6 @@ const ElInstrumentoDeMaderaQueSuenaComoLluvia: IllustrationComponent = ({ accent
 };
 
 const ElPaisQueEligioUnNombrePropioEn1984: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.4);
   return (
     <g>
       <circle cx="170" cy="205" r="26" fill="none" stroke="#3A3A3A" strokeWidth="6" />

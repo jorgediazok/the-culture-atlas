@@ -6,7 +6,7 @@ const LaCiudadRomanaQueElDesiertoConservoIntacta: IllustrationComponent = ({ acc
   return (
     <g>
       <rect x="90" y="240" width="230" height="8" fill="#C9A227" opacity="0.4" />
-      {[130, 175, 220, 265].map((x, i) => (
+      {[130, 175, 220, 265].map((x) => (
         <g key={x}>
           <rect x={x} y="140" width="18" height="100" fill={accentColor} stroke={dark} strokeWidth="2.4" />
           <rect x={x - 4} y="132" width="26" height="10" fill={tint(accentColor, 0.1)} stroke={dark} strokeWidth="1.8" />
@@ -30,8 +30,7 @@ const LaCiudadBlancaConstruidaParaEsconderseDelSol: IllustrationComponent = ({ a
   );
 };
 
-const ElArteRupestreDeUnSaharaQueFueVerde: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.4);
+const ElArteRupestreDeUnSaharaQueFueVerde: IllustrationComponent = () => {
   return (
     <g>
       <path d="M90 90 L320 90 L320 250 L90 250 Z" fill="#D9A97A" opacity="0.35" />

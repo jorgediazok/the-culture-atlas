@@ -109,7 +109,6 @@ const ElPrimerPatrimonioMundialDelCaribeOriental: IllustrationComponent = ({ acc
 };
 
 const LaIslaConUnRioParaCadaDiaDelAno: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.4);
   return (
     <g>
       <path d="M90 90 L220 90 L150 250 L90 250 Z" fill="#3A5F3A" opacity="0.5" />

@@ -72,7 +72,6 @@ const LaCapitalMasAltaDeEuropa: IllustrationComponent = ({ accentColor }) => {
 };
 
 const UnicoPaisConElCatalanComoIdiomaOficial: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.4);
   const light = tint(accentColor, 0.6);
   return (
     <g>

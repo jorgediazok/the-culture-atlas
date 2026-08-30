@@ -77,7 +77,7 @@ const CascoViejoSkyline: IllustrationComponent = ({ accentColor }) => {
   return (
     <g>
       {/* modern skyscrapers behind */}
-      {[[240, 100, 26], [270, 80, 30], [300, 120, 22]].map(([x, y, h], i) => (
+      {[[240, 100], [270, 80], [300, 120]].map(([x, y], i) => (
         <rect key={x} x={x} y={y} width="24" height={240 - Number(y)} fill={i % 2 === 0 ? dark : light} />
       ))}
       {/* low colonial building in front */}
@@ -92,7 +92,6 @@ const CascoViejoSkyline: IllustrationComponent = ({ accentColor }) => {
 };
 
 const RanaDorada: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.35);
   return (
     <g>
       <path d="M95 240 Q210 225 320 240 L320 250 L95 250 Z" fill={shade(accentColor, 0.1)} opacity="0.3" />

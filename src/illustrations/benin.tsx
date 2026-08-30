@@ -111,8 +111,7 @@ const LosTapicesQueNarranLaHistoriaDeLosReyes: IllustrationComponent = ({ accent
   );
 };
 
-const LaConchaQueFueDineroAntesQueElOro: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.4);
+const LaConchaQueFueDineroAntesQueElOro: IllustrationComponent = () => {
   return (
     <g>
       <ellipse cx="205" cy="225" rx="90" ry="14" fill="#D9C9A3" opacity="0.5" />

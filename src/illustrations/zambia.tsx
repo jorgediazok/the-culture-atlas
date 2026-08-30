@@ -45,8 +45,7 @@ const ElSafarioAPieQueNacioEnEsteValle: IllustrationComponent = ({ accentColor }
   );
 };
 
-const ElMetalRojoQueLeDioNombreAUnaRegion: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.4);
+const ElMetalRojoQueLeDioNombreAUnaRegion: IllustrationComponent = () => {
   return (
     <g>
       <path d="M90 250 Q150 230 205 245 Q260 255 320 235 L320 130 L90 130 Z" fill="#5C5C5C" opacity="0.4" />
