@@ -3,18 +3,22 @@ import { tint } from "./palette";
 type Props = {
   accentColor: string;
   variant?: "ground" | "medallion";
+  alt: string;
   children: React.ReactNode;
 };
 
 export default function IllustrationFrame({
   accentColor,
   variant = "ground",
+  alt,
   children,
 }: Props) {
   return (
     <svg
       viewBox="0 0 400 275"
       preserveAspectRatio="xMidYMid slice"
+      role="img"
+      aria-label={alt}
       style={{
         display: "block",
         position: "absolute",

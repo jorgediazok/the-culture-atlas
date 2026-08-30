@@ -82,6 +82,7 @@ export default function PageSpread({
               <IllustrationFrame
                 accentColor={entry.accentColor}
                 variant={illustration.variant}
+                alt={entry.imageAlt}
               >
                 <illustration.component accentColor={entry.accentColor} />
               </IllustrationFrame>

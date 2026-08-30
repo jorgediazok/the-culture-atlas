@@ -29,6 +29,7 @@ Un libro ilustrado interactivo donde cada país del mundo tiene su propia "estan
 - [Internacionalización](#-internacionalización)
 - [Cómo agregar un país nuevo](#-cómo-agregar-un-país-nuevo)
 - [Empezar a desarrollar](#-empezar-a-desarrollar)
+- [Auditorías, CI, errores y accesibilidad](#-auditorías-ci-errores-y-accesibilidad)
 - [Estado del proyecto](#-estado-del-proyecto)
 
 ---
@@ -268,8 +269,29 @@ npm run dev       # http://localhost:3000
 | `npm run build` | Build de producción (Webpack) |
 | `npm run start` | Sirve el build de producción |
 | `npm run lint` | ESLint sobre todo el proyecto |
+| `npm run audit` | Corre los 4 audits de contenido/ilustraciones (ver abajo) |
 
 > Este proyecto usa una versión de Next.js con cambios de API respecto a lo habitual — antes de tocar código, `AGENTS.md` indica revisar `node_modules/next/dist/docs/` para las convenciones vigentes.
+
+## 🔍 Auditorías, CI, errores y accesibilidad
+
+Con 206 países y ~3100 historias escritas y editadas en lotes, varios bugs se repetían de forma mecánica (un `id` de historia que no matchea su ilustración, una key de React duplicada por un `.map` mal indexado, texto blanco sobre un `accentColor` claro). En vez de revisarlos a mano, cada patrón se convirtió en un script de auditoría que corre en cada push:
+
+| Script | Qué valida |
+|---|---|
+| `npm run audit:ids` | Cada `id` de `content/{país}.ts` tiene su ilustración registrada en `illustrations/index.ts`, y viceversa |
+| `npm run audit:lengths` | Títulos ≤55 y descripciones ≤1000 caracteres, en las 3096 entradas |
+| `npm run audit:duplicate-keys` | Ninguna ilustración renderiza dos elementos con la misma `key` de React (bug real encontrado 12 veces, siempre por un `.map` keyeado con una sola coordenada/color que se repite) |
+| `npm run audit:contrast` | El texto de los chips de subtítulo es legible (`readableTextColor`) contra cualquier `accentColor` en uso |
+
+`.github/workflows/ci.yml` corre typecheck → lint → `npm run audit` → build en cada push y PR a `main`.
+
+**Accesibilidad:** las 208 ilustraciones SVG (una por historia, dibujadas a mano) tienen `role="img"` + `aria-label` tomado del `imageAlt` de cada historia — antes ese campo solo se usaba para fotos reales (`imageUrl`), nunca para el SVG. Los emblemas de portada/lomo son puramente decorativos junto al nombre del país (que ya es un `<h1>`), así que van con `aria-hidden`.
+
+**Manejo de errores:** como el layout raíz vive en `app/[lang]/layout.tsx` (un segmento dinámico, no un layout fijo), hacen falta dos niveles de páginas de error:
+
+- `app/[lang]/not-found.tsx` y `app/[lang]/error.tsx` — país inexistente o error de render con un idioma válido; se ven con el header/footer normales del sitio y detectan el idioma vía `usePathname` (los archivos especiales de Next no reciben `params`).
+- `app/global-not-found.tsx` y `app/global-error.tsx` — cubren el caso en que el primer segmento de la URL ni siquiera es un idioma válido (p. ej. un bot pidiendo `/algo.php`), donde el layout de `[lang]` nunca llega a montarse; definen su propio `<html>`/`<body>` bilingüe. Requiere el flag `experimental.globalNotFound` en `next.config.ts`.
 
 ## 📊 Estado del proyecto
 

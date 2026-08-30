@@ -22,6 +22,12 @@ const dictionaries = {
     madeBy: "Hecho por",
     disclaimer:
       "El contenido de este sitio fue generado con asistencia de IA y puede contener imprecisiones. No reemplaza fuentes verificadas.",
+    notFoundTitle: "Página no encontrada",
+    notFoundBody: "No encontramos lo que buscabas — puede que el país no exista todavía o que el enlace esté mal escrito.",
+    notFoundCta: "Volver al índice",
+    errorTitle: "Algo salió mal",
+    errorBody: "Ocurrió un error inesperado al cargar esta página.",
+    errorRetry: "Reintentar",
     continents: {
       europe: "Europa",
       "south-america": "Sudamérica",
@@ -52,6 +58,12 @@ const dictionaries = {
     madeBy: "Made by",
     disclaimer:
       "This site's content was generated with AI assistance and may contain inaccuracies. It is not a substitute for verified sources.",
+    notFoundTitle: "Page not found",
+    notFoundBody: "We couldn't find what you were looking for — the country may not exist yet, or the link may be mistyped.",
+    notFoundCta: "Back to index",
+    errorTitle: "Something went wrong",
+    errorBody: "An unexpected error occurred while loading this page.",
+    errorRetry: "Try again",
     continents: {
       europe: "Europe",
       "south-america": "South America",

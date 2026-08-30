@@ -128,7 +128,7 @@ export default function CoverPage({
                 opacity: 0.4,
               }}
             />
-            <Box sx={{ width: 102, height: 102 }}>
+            <Box aria-hidden="true" sx={{ width: 102, height: 102 }}>
               {/* getEmblem pulls from a static, module-level lookup table keyed by slug —
                   the same component reference every render, not created fresh. */}
               {/* eslint-disable-next-line react-hooks/static-components */}
@@ -306,7 +306,7 @@ export default function CoverPage({
                   opacity: 0.4,
                 }}
               />
-              <Box sx={{ width: 140, height: 140 }}>
+              <Box aria-hidden="true" sx={{ width: 140, height: 140 }}>
                 {/* getEmblem pulls from a static, module-level lookup table keyed by slug —
                     the same component reference every render, not created fresh. */}
                 {/* eslint-disable-next-line react-hooks/static-components */}
