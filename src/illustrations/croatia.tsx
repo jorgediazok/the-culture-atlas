@@ -231,12 +231,25 @@ const ArteNaifHlebine: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+// A plain ellipse reads as a blob, not a cello — real string instruments need the waisted
+// hourglass body (upper bout / concave waist / lower bout), an f-hole on each side, a neck
+// with a scroll, and an endpin. All coordinates are local to the shared (200,150) origin,
+// rotated per-instrument via the wrapping <g>, so the neck (ending exactly at 0,-45) and
+// endpin (starting exactly at 0,48) meet the body path's own top/bottom points with no gap.
 const celloBody = (rotate: number, fill: string, dark: string) => (
-  <g key={rotate} transform={`rotate(${rotate} 200 150)`}>
-    <line x1="200" y1="150" x2="200" y2="75" stroke={dark} strokeWidth="5" strokeLinecap="round" />
-    <ellipse cx="200" cy="150" rx="26" ry="45" fill={fill} stroke={dark} strokeWidth="2.6" />
-    <line x1="192" y1="135" x2="188" y2="155" stroke={dark} strokeWidth="1.8" />
-    <line x1="208" y1="135" x2="212" y2="155" stroke={dark} strokeWidth="1.8" />
+  <g key={rotate} transform={`translate(200 150) rotate(${rotate})`}>
+    <line x1="0" y1="-45" x2="0" y2="-88" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+    <circle cx="0" cy="-90" r="6" fill={dark} />
+    <path
+      d="M0,-45 C14,-45 22,-38 22,-30 C22,-20 14,-8 13,0 C13,10 26,20 26,32 C26,42 14,48 0,48
+         C-14,48 -26,42 -26,32 C-26,20 -13,10 -13,0 C-13,-8 -22,-20 -22,-30 C-22,-38 -14,-45 0,-45 Z"
+      fill={fill}
+      stroke={dark}
+      strokeWidth="2.6"
+    />
+    <path d="M-9,-14 Q-13,-2 -9,10" fill="none" stroke={dark} strokeWidth="1.6" />
+    <path d="M9,-14 Q13,-2 9,10" fill="none" stroke={dark} strokeWidth="1.6" />
+    <line x1="0" y1="48" x2="0" y2="60" stroke={dark} strokeWidth="2.5" />
   </g>
 );
 
@@ -245,8 +258,13 @@ const TwoCellos: IllustrationComponent = ({ accentColor }) => {
   const light = tint(accentColor, 0.5);
   return (
     <g>
-      {celloBody(-30, accentColor, dark)}
-      {celloBody(30, light, dark)}
+      {/* stage with lights, per the imageAlt */}
+      <rect x="120" y="225" width="160" height="18" fill={dark} opacity="0.8" />
+      {[130, 165, 200, 235, 270].map((x) => (
+        <circle key={x} cx={x} cy="230" r="3" fill="#F4A300" opacity="0.9" />
+      ))}
+      {celloBody(-25, accentColor, dark)}
+      {celloBody(25, light, dark)}
     </g>
   );
 };

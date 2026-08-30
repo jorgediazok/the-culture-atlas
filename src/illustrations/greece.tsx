@@ -125,17 +125,24 @@ const LaBanderaConNueveFranjasQueCuentanUnaFrase: IllustrationComponent = ({ acc
 
 const ElAlfabetoQueLeDioLetrasAMedioMundo: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
+  // Greek uppercase Alpha, Latin A, and Cyrillic А all render as the exact same glyph — a
+  // board showing "Α A А" reads as the same letter shown three times, not a transformation.
+  // Lambda actually looks different across the three scripts (Λ / L / Л), so the arrows
+  // between them read as a real visible change, matching the imageAlt's "letters
+  // transforming into other letters."
   return (
     <g>
       <rect x="100" y="130" width="220" height="120" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
-      <text x="125" y="220" fontSize="60" fontWeight="700" fill={accentColor}>
-        Α
+      <text x="115" y="220" fontSize="58" fontWeight="700" fill={accentColor} fontFamily="serif">
+        Λ
       </text>
-      <text x="195" y="220" fontSize="60" fontWeight="700" fill={dark}>
-        A
+      <path d="M162 190 L178 190 M172 182 L178 190 L172 198" fill="none" stroke={dark} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+      <text x="185" y="220" fontSize="58" fontWeight="700" fill={dark} fontFamily="serif">
+        L
       </text>
-      <text x="255" y="220" fontSize="60" fontWeight="700" fill={accentColor}>
-        А
+      <path d="M232 190 L248 190 M242 182 L248 190 L242 198" fill="none" stroke={dark} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+      <text x="255" y="220" fontSize="58" fontWeight="700" fill={accentColor} fontFamily="serif">
+        Л
       </text>
     </g>
   );

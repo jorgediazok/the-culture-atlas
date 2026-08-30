@@ -64,13 +64,47 @@ const Queso: IllustrationComponent = ({ accentColor }) => {
 
 const Monumentos: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.35);
+  const gold = "#F4A300";
   return (
-    <g stroke={dark} strokeWidth="5" fill="none" strokeLinecap="round">
-      <line x1="200" y1="90" x2="160" y2="210" />
-      <line x1="200" y1="90" x2="240" y2="210" />
-      <line x1="178" y1="150" x2="222" y2="150" />
-      <line x1="170" y1="180" x2="230" y2="180" />
-      <line x1="150" y1="210" x2="250" y2="210" strokeWidth="7" />
+    <g>
+      {/* night sky */}
+      {[
+        [130, 95],
+        [270, 90],
+        [110, 130],
+        [290, 140],
+      ].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="2" fill={gold} opacity="0.7" />
+      ))}
+
+      {/* Eiffel Tower */}
+      <g stroke={dark} strokeWidth="5" fill="none" strokeLinecap="round">
+        <line x1="200" y1="90" x2="160" y2="210" />
+        <line x1="200" y1="90" x2="240" y2="210" />
+        <line x1="178" y1="150" x2="222" y2="150" />
+        <line x1="170" y1="180" x2="230" y2="180" />
+        <line x1="150" y1="210" x2="250" y2="210" strokeWidth="7" />
+      </g>
+      {/* the tower's own lights, lit up at night per the imageAlt */}
+      {[
+        [185, 120],
+        [215, 120],
+        [180, 165],
+        [220, 165],
+      ].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="3" fill={gold} />
+      ))}
+
+      {/* people picnicking on the Champ de Mars — a skin-toned head clearly separated from
+          an accentColor body reads as a seated person; same-tone head+body blended into one
+          blob in an earlier version of this fix */}
+      <ellipse cx="200" cy="228" rx="55" ry="10" fill={accentColor} opacity="0.5" />
+      {[175, 222].map((x) => (
+        <g key={x}>
+          <circle cx={x} cy="208" r="6" fill="#C68642" />
+          <path d={`M${x - 10} 230 Q${x - 10} 210 ${x} 210 Q${x + 10} 210 ${x + 10} 230 Z`} fill={accentColor} stroke={dark} strokeWidth="1.5" />
+        </g>
+      ))}
     </g>
   );
 };
@@ -159,12 +193,28 @@ const Daguerrotipo: IllustrationComponent = ({ accentColor }) => {
 
 const Napoleon: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
-  const light = tint(accentColor, 0.7);
+  const gold = "#D4AF37";
   return (
     <g>
-      <path d="M150 145 Q200 110 250 145 Q220 130 200 132 Q180 130 150 145 Z" fill={dark} />
-      <rect x="192" y="150" width="16" height="45" fill={accentColor} />
-      <circle cx="200" cy="145" r="6" fill={light} />
+      {/* bicorne hat on the left, kept clear of the sash so the two-cornered
+          silhouette (its whole reason for reading as a bicorne) isn't cut across */}
+      <path
+        d="M100 165 Q122 118 158 138 Q180 148 202 138 Q238 118 260 165 Q222 148 180 150 Q138 148 100 165 Z"
+        fill={dark}
+        stroke={shade(dark, 0.3)}
+        strokeWidth="2.5"
+      />
+      <circle cx="180" cy="143" r="9" fill={gold} stroke={dark} strokeWidth="1.5" />
+
+      {/* sash with medals, to the right of the hat */}
+      <path d="M270 110 L288 116 L250 232 L232 226 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
+      {[
+        [262, 143],
+        [251, 178],
+        [240, 213],
+      ].map(([x, y]) => (
+        <circle key={x as number} cx={x} cy={y} r="9" fill={gold} stroke={dark} strokeWidth="1.5" />
+      ))}
     </g>
   );
 };

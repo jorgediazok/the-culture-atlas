@@ -140,11 +140,15 @@ const NavajaSuiza: IllustrationComponent = ({ accentColor }) => {
 };
 
 const CruzRoja: IllustrationComponent = ({ accentColor }) => {
-  const light = tint(accentColor, 0.85);
+  // The cross was previously filled with tint(accentColor, 0.85) — the exact same value
+  // IllustrationFrame uses for its own background, so it was invisible. A cream fill with a
+  // dark stroke keeps it readable against any accentColor, and reads as the Red Cross's own
+  // white-on-red mark against this entry's dark red accentColor.
+  const dark = shade(accentColor, 0.4);
   return (
     <g>
-      <rect x="188" y="112" width="24" height="66" fill={light} />
-      <rect x="167" y="133" width="66" height="24" fill={light} />
+      <rect x="188" y="112" width="24" height="66" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
+      <rect x="167" y="133" width="66" height="24" fill="#F5F0E6" stroke={dark} strokeWidth="2" />
     </g>
   );
 };

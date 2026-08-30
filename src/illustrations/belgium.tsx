@@ -319,13 +319,34 @@ const DiamantesAmberes: IllustrationComponent = ({ accentColor }) => {
 
 const Tomorrowland: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const light = tint(accentColor, 0.35);
+  const lightColors = ["#F4A300", "#C1272D", "#3D8FB0", light, "#7AA24D"];
   return (
     <g>
-      <rect x="160" y="150" width="80" height="40" fill={accentColor} />
-      <polygon points="160,150 175,120 190,150" fill={dark} />
-      <polygon points="210,150 225,120 240,150" fill={dark} />
-      <rect x="192" y="120" width="16" height="30" fill={light} />
+      {/* stage platform */}
+      <rect x="105" y="205" width="210" height="30" fill={dark} />
+      {/* fantasy-castle towers of varying heights, forming the festival mainstage skyline —
+          each tower's rect and spire polygon share the exact same top y, so they meet with
+          no gap regardless of tower height */}
+      {[
+        { x: 112, w: 26, top: 158, apex: 128 },
+        { x: 150, w: 30, top: 122, apex: 92 },
+        { x: 188, w: 38, top: 100, apex: 82 },
+        { x: 234, w: 30, top: 122, apex: 92 },
+        { x: 278, w: 26, top: 158, apex: 128 },
+      ].map((t, i) => (
+        <g key={t.x}>
+          <rect x={t.x} y={t.top} width={t.w} height={205 - t.top} fill={i % 2 === 0 ? accentColor : dark} stroke={dark} strokeWidth="2" />
+          <polygon
+            points={`${t.x},${t.top} ${t.x + t.w / 2},${t.apex} ${t.x + t.w},${t.top}`}
+            fill={i % 2 === 0 ? dark : accentColor}
+          />
+        </g>
+      ))}
+      {/* string of colored festival lights along the stage front */}
+      {[125, 155, 185, 215, 245, 275, 300].map((x, i) => (
+        <circle key={x} cx={x} cy="200" r="4" fill={lightColors[i % lightColors.length]} />
+      ))}
     </g>
   );
 };
