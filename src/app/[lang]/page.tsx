@@ -61,12 +61,12 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
     <Container maxWidth="lg" sx={{ py: { xs: 6, md: 10 } }}>
       <Box
         sx={{
-          maxWidth: 560,
+          maxWidth: 720,
           mx: "auto",
           mb: { xs: 5, md: 6 },
           textAlign: "center",
-          px: { xs: 4, md: 5 },
-          py: { xs: 4, md: 5 },
+          px: { xs: 4, md: 7 },
+          py: { xs: 4, md: 6 },
           border: "1px solid",
           borderColor: "divider",
           position: "relative",
@@ -95,7 +95,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         <Typography
           variant="h2"
           component="h1"
-          sx={{ fontSize: { xs: 34, md: 44 }, letterSpacing: "0.01em" }}
+          sx={{ fontSize: { xs: 34, md: 56 }, letterSpacing: "0.01em" }}
         >
           {dict.brand}
         </Typography>
