@@ -117,7 +117,9 @@ function boundingBox(markup: string): BBox | null {
 
 async function main() {
   const continents = slugToContinent();
-  const files = readdirSync(ILLUS_DIR).filter((f) => f.endsWith(".tsx") && !SKIP.has(f));
+  const files = readdirSync(ILLUS_DIR).filter(
+    (f) => f.endsWith(".tsx") && !f.endsWith(".test.tsx") && !SKIP.has(f)
+  );
   const targetWidth = TARGET_X[1] - TARGET_X[0];
   const targetHeight = TARGET_Y[1] - TARGET_Y[0];
 

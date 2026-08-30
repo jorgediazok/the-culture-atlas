@@ -13,7 +13,7 @@ const DESCRIPTION_MAX = 1000;
 
 function slugs() {
   return readdirSync(CONTENT_DIR)
-    .filter((f) => f.endsWith(".ts") && !SKIP.has(f))
+    .filter((f) => f.endsWith(".ts") && !f.endsWith(".test.ts") && !SKIP.has(f))
     .map((f) => basename(f, ".ts"));
 }
 

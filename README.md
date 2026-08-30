@@ -304,20 +304,16 @@ In addition:
 
 ## 🔀 Git workflow and deployment
 
-GitHub Actions and Vercel are two independent systems reacting to the same git events — Vercel doesn't wait on CI by default. To make sure nothing broken reaches production, changes go through a branch + PR instead of a direct push to `main`:
+This is a solo project, developed with direct pushes to `main` rather than a branch-per-task/PR workflow — deliberately, to keep iteration speed high on a one-person repo.
+
+GitHub Actions and Vercel are two independent systems that both react to a push to `main`, in parallel — Vercel doesn't wait on CI:
 
 ```
-push a branch → open a PR → CI runs + Vercel creates a Preview Deployment
-                                  │
-                     CI red  → merge button stays disabled, fix and push again
-                     CI green → merge is allowed
-                                  │
-                        merge → that's the actual push to main
-                                  │
-                          Vercel deploys main to production
+push to main ──┬─→ GitHub Actions runs the CI job (typecheck, lint, audits, tests, build, E2E)
+               └─→ Vercel builds and deploys to production
 ```
 
-`main` is a protected branch: a PR can't be merged until the `verify` check (the CI job above) passes. Vercel itself never "waits" for CI — it just never sees a broken commit on `main`, because the merge gate stops it from getting there. Every PR also gets its own Vercel Preview URL for reviewing the actual deployed app before merging, independent of the CI result.
+CI here is a **safety net, not a gate**: it surfaces a red ✗ on the commit if something's broken, but it doesn't block or roll back a Vercel deploy that happened in parallel. That trade-off is intentional for a single-maintainer repo — the overhead of branch protection and required PR reviews pays off on a team, where it stops one person's mistake from reaching main unreviewed; here, the same person writes and would review the code, so the friction isn't worth it. On a team project, the natural next step would be branch protection requiring the `verify` check before merging, so CI failures block production instead of just flagging it after the fact.
 
 ---
 

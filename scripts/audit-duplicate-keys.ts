@@ -13,7 +13,9 @@ const ILLUS_DIR = new URL("../src/illustrations/", import.meta.url);
 const SKIP = new Set(["index.ts", "types.ts", "IllustrationFrame.tsx", "emblems.tsx", "palette.ts"]);
 
 function files(): string[] {
-  return readdirSync(ILLUS_DIR).filter((f) => f.endsWith(".tsx") && !SKIP.has(f));
+  return readdirSync(ILLUS_DIR).filter(
+    (f) => f.endsWith(".tsx") && !f.endsWith(".test.tsx") && !SKIP.has(f)
+  );
 }
 
 async function main() {
