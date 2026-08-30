@@ -3,15 +3,24 @@ import type { IllustrationComponent, IllustrationDefinition } from "./types";
 
 const CataratasVictoria: IllustrationComponent = ({ accentColor }) => {
   const mist = "#E8E4DC";
+  const rock = "#5C4A3A";
+  const water = tint(accentColor, 0.35);
+  const streamWidths = [10, 14, 9, 16, 11, 15, 10, 13];
+  const streamHeights = [110, 130, 95, 140, 105, 135, 100, 120];
   return (
     <g>
-      <rect x="150" y="110" width="110" height="130" fill={accentColor} opacity="0.85" />
-      {[160, 180, 200, 220, 240].map((x) => (
-        <line key={x} x1={x} y1="115" x2={x} y2="235" stroke={tint(accentColor, 0.5)} strokeWidth="4" opacity="0.7" />
+      {/* basalt gorge wall behind the falls, jagged top edge */}
+      <path d="M90 250 L90 130 L105 110 L100 90 L118 100 L125 82 L140 95 L145 250 Z" fill={rock} stroke={shade(rock, 0.3)} strokeWidth="2" />
+      {/* the falls, uneven curtains of water dropping from the cliff edge */}
+      {streamWidths.map((w, i) => (
+        <rect key={i} x={150 + i * 20} y="95" width={w} height={streamHeights[i]} fill={water} opacity="0.85" />
       ))}
-      <ellipse cx="205" cy="240" rx="90" ry="14" fill="#fff" opacity="0.6" />
-      <ellipse cx="180" cy="100" rx="70" ry="30" fill={mist} opacity="0.85" />
-      <ellipse cx="240" cy="90" rx="40" ry="20" fill={mist} opacity="0.7" />
+      {/* pool and spray at the base */}
+      <ellipse cx="230" cy="232" rx="130" ry="18" fill={water} opacity="0.55" />
+      <ellipse cx="230" cy="230" rx="110" ry="12" fill="#fff" opacity="0.5" />
+      {/* mist rising above the falls */}
+      <ellipse cx="210" cy="95" rx="80" ry="34" fill={mist} opacity="0.85" />
+      <ellipse cx="270" cy="80" rx="45" ry="22" fill={mist} opacity="0.7" />
     </g>
   );
 };
@@ -35,11 +44,21 @@ const AveZimbabwe: IllustrationComponent = ({ accentColor }) => {
   const stone = "#8B7355";
   return (
     <g>
-      <rect x="190" y="200" width="30" height="40" fill={stone} stroke={shade(stone, 0.3)} strokeWidth="2.5" />
-      <ellipse cx="205" cy="160" rx="24" ry="30" fill={accentColor} stroke={dark} strokeWidth="2.5" />
-      <path d="M195 145 L175 138 L192 155 Z" fill={dark} />
-      <path d="M205 130 Q198 118 205 108 Q212 118 205 130 Z" fill={accentColor} stroke={dark} strokeWidth="2" />
-      <path d="M195 190 Q185 210 190 200 M215 190 Q225 210 220 200" fill="none" stroke={dark} strokeWidth="3" />
+      {/* stone pillar */}
+      <rect x="188" y="205" width="34" height="45" fill={stone} stroke={shade(stone, 0.3)} strokeWidth="2.5" />
+      {/* legs, drawn first and extended up into the body so its fill covers the seam */}
+      <rect x="192" y="185" width="8" height="30" fill={dark} />
+      <rect x="210" y="185" width="8" height="30" fill={dark} />
+      {/* body */}
+      <ellipse cx="205" cy="155" rx="30" ry="42" fill={accentColor} stroke={dark} strokeWidth="2.8" />
+      {/* tail, fanning out behind */}
+      <path d="M205 190 L175 225 L200 205 L205 218 L212 203 L235 223 Z" fill={dark} />
+      {/* wing, folded along the body */}
+      <path d="M188 130 Q165 145 172 175 Q185 178 195 165 Q198 145 188 130 Z" fill={dark} opacity="0.85" />
+      {/* head + beak */}
+      <circle cx="205" cy="108" r="17" fill={accentColor} stroke={dark} strokeWidth="2.6" />
+      <path d="M200 100 L185 95 L200 112 Z" fill={dark} />
+      <circle cx="211" cy="103" r="2.6" fill={dark} />
     </g>
   );
 };
@@ -73,10 +92,16 @@ const Mbira: IllustrationComponent = ({ accentColor }) => {
 
 const EsculturaShona: IllustrationComponent = ({ accentColor }) => {
   const stone = "#2E2E2E";
+  const stone2 = shade(accentColor, 0.55);
   return (
     <g>
-      <path d="M205 235 L200 190 Q195 170 205 155 Q195 145 200 125 Q205 110 215 125 Q222 140 212 155 Q222 170 218 190 L215 235 Z" fill={stone} stroke={shade(stone, 0.2)} strokeWidth="2.5" />
-      <ellipse cx="205" cy="235" rx="30" ry="8" fill={accentColor} opacity="0.4" />
+      <ellipse cx="205" cy="245" rx="110" ry="10" fill={shade(accentColor, 0.2)} opacity="0.5" />
+      {/* three abstract carved figures of varying height, a common Shona sculpture grouping */}
+      <path d="M150 240 L145 200 Q140 180 150 165 Q142 155 147 138 Q152 126 160 138 Q166 150 158 165 Q168 180 163 200 L158 240 Z" fill={stone2} stroke={shade(stone2, 0.3)} strokeWidth="2.4" />
+      <path d="M215 240 L208 175 Q202 155 215 140 Q206 128 213 105 Q219 90 229 105 Q236 120 226 140 Q239 155 232 175 L226 240 Z" fill={stone} stroke={shade(stone, 0.2)} strokeWidth="2.6" />
+      <path d="M270 240 L266 210 Q262 195 270 183 Q264 175 268 162 Q272 154 278 162 Q282 172 276 183 Q284 195 280 210 L276 240 Z" fill={stone2} stroke={shade(stone2, 0.3)} strokeWidth="2.2" />
+      {/* a carved line suggesting a facial feature on the tallest figure */}
+      <path d="M219 108 Q219 118 219 128" stroke={accentColor} strokeWidth="2" opacity="0.5" fill="none" />
     </g>
   );
 };
@@ -91,9 +116,28 @@ const ThomasMapfumo: IllustrationComponent = ({ accentColor }) => {
       {[0, 1, 2].map((i) => (
         <line key={i} x1={163 + i * 3} y1="140" x2={163 + i * 3} y2="220" stroke={dark} strokeWidth="0.8" opacity="0.5" />
       ))}
-      <ellipse cx="270" cy="200" rx="26" ry="18" fill="#B8860B" stroke={dark} strokeWidth="2.5" />
-      <path d="M245 200 Q235 195 232 180 Q240 178 250 190 Z" fill="#B8860B" stroke={dark} strokeWidth="1.5" />
-      <path d="M232 180 L222 175 L228 188 Z" fill={dark} />
+      {/* "the lion of Zimbabwe", Mapfumo's nickname, as a front-facing maned head */}
+      {[0, 40, 80, 120, 160, 200, 240, 280, 320].map((deg) => (
+        <path
+          key={deg}
+          d="M270 200 L270 168"
+          stroke="#B8860B"
+          strokeWidth="7"
+          strokeLinecap="round"
+          transform={`rotate(${deg} 270 200)`}
+        />
+      ))}
+      <circle cx="270" cy="200" r="20" fill="#C99A3B" stroke={dark} strokeWidth="2.4" />
+      {/* ears poking above the mane */}
+      <path d="M256 184 L251 170 L264 180 Z" fill="#C99A3B" stroke={dark} strokeWidth="1.8" />
+      <path d="M284 184 L289 170 L276 180 Z" fill="#C99A3B" stroke={dark} strokeWidth="1.8" />
+      {/* narrow feline eyes, not round dots */}
+      <ellipse cx="262" cy="197" rx="3" ry="1.8" fill={dark} />
+      <ellipse cx="278" cy="197" rx="3" ry="1.8" fill={dark} />
+      {/* nose + muzzle, neutral rather than a smile */}
+      <path d="M266 206 L274 206 L270 211 Z" fill={dark} />
+      <path d="M270 211 L270 214" stroke={dark} strokeWidth="1.6" />
+      <path d="M262 216 Q270 219 278 216" stroke={dark} strokeWidth="1.6" fill="none" />
     </g>
   );
 };

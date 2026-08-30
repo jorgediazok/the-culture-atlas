@@ -273,7 +273,7 @@ const Zimbabwe: EmblemComponent = () => (
     <rect x="46" y="55" width="8" height="32" fill="#4A5D53" />
     <ellipse cx="50" cy="46" rx="20" ry="15" fill="#5C7266" />
     <polygon points="68,42 86,38 68,50" fill="#5C7266" />
-    <circle cx="58" cy="40" r="3" fill="#C1272D" />
+    <circle cx="58" cy="40" r="2.4" fill="#2A3530" />
     <rect x="32" y="87" width="36" height="7" fill="#3A4A42" />
   </svg>
 );
@@ -370,9 +370,25 @@ const Germany: EmblemComponent = () => (
 
 const Venezuela: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <path d="M25 54 L35 20 L65 20 L75 54 Z" fill="#7A6350" />
-    <path d="M46 54 L44 90 M54 54 L56 92" stroke="#fff" strokeWidth="2.5" opacity="0.8" strokeLinecap="round" fill="none" />
-    <path d="M50 54 L50 96" stroke="#fff" strokeWidth="5" strokeLinecap="round" />
+    {/* a crossed pair of maracas */}
+    <g transform="rotate(-28 50 60)">
+      <rect x="46" y="58" width="8" height="38" rx="3" fill="#6B4226" stroke="#3A2410" strokeWidth="1.6" />
+      <circle cx="50" cy="42" r="18" fill="#D9A521" stroke="#8A6414" strokeWidth="2.4" />
+      <circle cx="43" cy="36" r="2" fill="#8A6414" />
+      <circle cx="57" cy="38" r="2" fill="#8A6414" />
+      <circle cx="50" cy="48" r="2" fill="#8A6414" />
+      <circle cx="41" cy="48" r="2" fill="#8A6414" />
+      <circle cx="59" cy="48" r="2" fill="#8A6414" />
+    </g>
+    <g transform="rotate(28 50 60)">
+      <rect x="46" y="58" width="8" height="38" rx="3" fill="#6B4226" stroke="#3A2410" strokeWidth="1.6" />
+      <circle cx="50" cy="42" r="18" fill="#C8102E" stroke="#7A0A1C" strokeWidth="2.4" />
+      <circle cx="43" cy="36" r="2" fill="#7A0A1C" />
+      <circle cx="57" cy="38" r="2" fill="#7A0A1C" />
+      <circle cx="50" cy="48" r="2" fill="#7A0A1C" />
+      <circle cx="41" cy="48" r="2" fill="#7A0A1C" />
+      <circle cx="59" cy="48" r="2" fill="#7A0A1C" />
+    </g>
   </svg>
 );
 
@@ -583,14 +599,16 @@ const Laos: EmblemComponent = () => (
 
 const Botswana: EmblemComponent = () => (
   <svg viewBox="-5 15 100 110" width="100%" height="100%">
+    {/* legs drawn first and extended well up into the body ellipse, so its
+        fill paints over the seam instead of leaving a gap below the belly */}
+    <rect x="44" y="60" width="7" height="38" fill="#6E6E6E" />
+    <rect x="58" y="62" width="7" height="38" fill="#6E6E6E" />
+    <rect x="72" y="58" width="7" height="38" fill="#6E6E6E" />
     <ellipse cx="58" cy="64" rx="26" ry="18" fill="#8B8B8B" />
     <circle cx="30" cy="52" r="13" fill="#8B8B8B" />
     <path d="M20 42 Q6 44 8 58 Q10 68 22 66 Q16 56 20 42 Z" fill="#787878" />
     <path d="M22 58 Q16 68 18 82 Q20 92 26 90 Q22 76 24 62 Z" fill="#8B8B8B" />
     <path d="M23 60 L15 68" stroke="#F5F0E6" strokeWidth="2.5" strokeLinecap="round" />
-    <rect x="44" y="80" width="7" height="18" fill="#6E6E6E" />
-    <rect x="58" y="82" width="7" height="18" fill="#6E6E6E" />
-    <rect x="72" y="78" width="7" height="18" fill="#6E6E6E" />
   </svg>
 );
 
@@ -741,9 +759,16 @@ const Panama: EmblemComponent = () => (
 
 const Haiti: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
-    <rect x="22" y="42" width="16" height="26" rx="8" fill="none" stroke="#B0B8BF" strokeWidth="5" transform="rotate(10 30 55)" />
-    <rect x="36" y="42" width="16" height="26" rx="8" fill="none" stroke="#B0B8BF" strokeWidth="5" transform="rotate(-10 44 55)" />
-    <rect x="62" y="46" width="14" height="22" rx="7" fill="none" stroke="#B0B8BF" strokeWidth="5" transform="rotate(25 69 57)" />
+    {/* mountain, the Citadelle Laferriere's ridge */}
+    <path d="M10 100 L50 20 L90 100 Z" fill="#5C7A52" stroke="#33452D" strokeWidth="2.6" />
+    {/* fortress wall, flared like the Citadelle's ship-prow bastion */}
+    <path d="M32 62 L68 62 L64 34 L36 34 Z" fill="#9C8B72" stroke="#4A3F33" strokeWidth="2.6" />
+    {/* crenellations */}
+    <rect x="36" y="26" width="8" height="8" fill="#9C8B72" stroke="#4A3F33" strokeWidth="2" />
+    <rect x="46" y="24" width="8" height="10" fill="#9C8B72" stroke="#4A3F33" strokeWidth="2" />
+    <rect x="56" y="26" width="8" height="8" fill="#9C8B72" stroke="#4A3F33" strokeWidth="2" />
+    {/* cannon slot */}
+    <rect x="46" y="46" width="8" height="10" fill="#4A3F33" />
   </svg>
 );
 
@@ -931,16 +956,27 @@ const Eritrea: EmblemComponent = () => (
   </svg>
 );
 
+// Langa Langa shell-money necklace, beads hand-placed along a hanging loop
+// (no Math trig at render, per the project's no-trig rule).
+const SHELL_MONEY_BEADS: [number, number, string][] = [
+  [46, 30, "#7A2E1D"], [40, 41, "#EFE4C8"], [34, 52, "#7A2E1D"], [29, 63, "#EFE4C8"], [27, 74, "#7A2E1D"],
+  [54, 30, "#EFE4C8"], [60, 41, "#7A2E1D"], [66, 52, "#EFE4C8"], [71, 63, "#7A2E1D"], [73, 74, "#EFE4C8"],
+  [36, 84, "#7A2E1D"], [50, 90, "#EFE4C8"], [64, 84, "#7A2E1D"],
+];
+
 const SolomonIslands: EmblemComponent = () => (
-  <svg viewBox="-4 2 100 110" width="100%" height="100%">
+  <svg viewBox="0 0 100 110" width="100%" height="100%">
     <path
-      d="M28 70 Q22 56 32 44 Q38 36 48 38 Q58 40 58 50 Q66 48 70 56 Q62 58 58 64 Q60 74 50 80 Q40 84 28 70 Z"
-      fill="#3E2723"
+      d="M50 18 Q26 40 27 74 Q38 92 50 92 Q62 92 73 74 Q74 40 50 18 Z"
+      fill="none"
+      stroke="#5C4A3A"
+      strokeWidth="2"
+      opacity="0.5"
     />
-    <path d="M34 46 Q30 38 36 30 Q40 36 38 44 Z" fill="#3E2723" />
-    <circle cx="44" cy="52" r="2.2" fill="#F0E8D8" />
-    <circle cx="52" cy="58" r="1.8" fill="#F0E8D8" />
-    <circle cx="38" cy="62" r="1.6" fill="#F0E8D8" />
+    <circle cx="50" cy="16" r="3" fill="#5C4A3A" />
+    {SHELL_MONEY_BEADS.map(([x, y, c], i) => (
+      <circle key={i} cx={x} cy={y} r={5} fill={c} stroke="#3A2A1E" strokeWidth="1.4" />
+    ))}
   </svg>
 );
 
@@ -2024,12 +2060,14 @@ const Samoa: EmblemComponent = () => (
 
 const Angola: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {/* legs drawn first and extended up into the body, so the body path
+        (drawn after, opaque) covers the extension and hides the seam */}
+    <line x1="25" y1="60" x2="22" y2="92" stroke="#1A1A1A" strokeWidth="4" />
+    <line x1="65" y1="60" x2="68" y2="92" stroke="#1A1A1A" strokeWidth="4" />
     <path d="M15 70 Q20 50 40 45 Q60 40 75 50 Q85 55 80 62 Q70 58 60 60 Q65 68 55 75 Q35 85 20 78 Q13 75 15 70 Z" fill="#1A1A1A" stroke="#000000" strokeWidth="2.2" />
     <circle cx="68" cy="48" r="9" fill="#1A1A1A" stroke="#000000" strokeWidth="2" />
     <path d="M70 40 Q78 22 72 10 Q68 24 62 34" fill="none" stroke="#C9A227" strokeWidth="5" strokeLinecap="round" />
     <path d="M76 42 Q88 26 84 12 Q76 28 66 38" fill="none" stroke="#C9A227" strokeWidth="5" strokeLinecap="round" />
-    <line x1="25" y1="78" x2="22" y2="92" stroke="#1A1A1A" strokeWidth="4" />
-    <line x1="65" y1="78" x2="68" y2="92" stroke="#1A1A1A" strokeWidth="4" />
   </svg>
 );
 
@@ -2038,11 +2076,18 @@ const Benin: EmblemComponent = () => (
     <path d="M24 56 Q12 51 14 38 Q16 28 26 30" fill="none" stroke="#7A2E0E" strokeWidth="6" strokeLinecap="round" />
     <ellipse cx="48" cy="58" rx="25" ry="15" fill="#C1440E" stroke="#7A2E0E" strokeWidth="2.6" />
     <circle cx="76" cy="46" r="12" fill="#C1440E" stroke="#7A2E0E" strokeWidth="2.4" />
+    <polygon points="64,36 68,24 72,36" fill="#C1440E" stroke="#7A2E0E" strokeWidth="2" />
     <polygon points="70,36 74,24 78,36" fill="#C1440E" stroke="#7A2E0E" strokeWidth="2" />
     <rect x="30" y="70" width="6" height="14" rx="2" fill="#C1440E" stroke="#7A2E0E" strokeWidth="1.8" />
     <rect x="40" y="74" width="6" height="14" rx="2" fill="#C1440E" stroke="#7A2E0E" strokeWidth="1.8" />
     <rect x="56" y="74" width="6" height="14" rx="2" fill="#C1440E" stroke="#7A2E0E" strokeWidth="1.8" />
     <rect x="66" y="70" width="6" height="14" rx="2" fill="#C1440E" stroke="#7A2E0E" strokeWidth="1.8" />
+    {/* unstroked fillers bridging the leg-to-body seam, same fill as both
+        so they blend invisibly instead of leaving a gap or a stray stroke */}
+    <rect x="30" y="60" width="6" height="16" fill="#C1440E" />
+    <rect x="40" y="60" width="6" height="16" fill="#C1440E" />
+    <rect x="56" y="60" width="6" height="16" fill="#C1440E" />
+    <rect x="66" y="60" width="6" height="16" fill="#C1440E" />
     <circle cx="82" cy="43" r="2" fill="#1A1A1A" />
     {[[38, 54], [53, 64], [63, 51], [73, 38], [46, 46]].map(([cx, cy], i) => (
       <circle key={i} cx={cx} cy={cy} r="3" fill="#1A1A1A" opacity="0.75" />
@@ -2140,11 +2185,20 @@ const CentralAfricanRepublic: EmblemComponent = () => (
 
 const Chad: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {/* dune line */}
     <path d="M8 95 Q28 82 48 95 Q68 82 92 95" fill="none" stroke="#C9A227" strokeWidth="6" opacity="0.5" />
-    <ellipse cx="48" cy="65" rx="24" ry="13" fill="#B8860B" stroke="#6B4A10" strokeWidth="2.4" />
-    <path d="M36 58 Q31 44 40 38 Q49 44 43 58 Z" fill="#B8860B" stroke="#6B4A10" strokeWidth="2.2" />
-    <path d="M68 60 Q80 48 78 32 Q71 34 67 48 Q64 56 68 60 Z" fill="#B8860B" stroke="#6B4A10" strokeWidth="2.2" />
-    <path d="M38 76 L36 95 M48 76 L46 95 M58 76 L56 95 M66 74 L64 93" stroke="#6B4A10" strokeWidth="3" strokeLinecap="round" />
+    {/* an addax, the Sahara's horned antelope, in side profile. Legs are
+        drawn first and extended up into the body so its fill covers the
+        seam instead of leaving a gap below the belly. */}
+    <rect x="38" y="59" width="5" height="24" fill="#6B4A10" />
+    <rect x="48" y="59" width="5" height="24" fill="#6B4A10" />
+    <rect x="58" y="59" width="5" height="24" fill="#6B4A10" />
+    <rect x="64" y="59" width="5" height="24" fill="#6B4A10" />
+    <ellipse cx="48" cy="62" rx="22" ry="10" fill="#B8860B" stroke="#6B4A10" strokeWidth="2.4" />
+    <circle cx="68" cy="56" r="9" fill="#B8860B" stroke="#6B4A10" strokeWidth="2.2" />
+    <path d="M70 50 Q80 34 66 24" fill="none" stroke="#6B4A10" strokeWidth="3.5" strokeLinecap="round" />
+    <path d="M74 52 Q86 37 72 26" fill="none" stroke="#6B4A10" strokeWidth="3.5" strokeLinecap="round" />
+    <circle cx="72" cy="54" r="1.4" fill="#2A1C08" />
   </svg>
 );
 
@@ -2448,6 +2502,7 @@ const Nigeria: EmblemComponent = () => (
 
 const Rwanda: EmblemComponent = () => (
   <svg viewBox="0 0 100 110" width="100%" height="100%">
+    {/* fur silhouette, head + brow crest */}
     <path
       d="M55 8 Q38 12 32 24 Q22 28 18 42 Q10 52 16 62 Q12 72 22 76 Q26 84 36 84 Q42 92 54 90 Q66 92 72 100 Q88 85 84 60 Q86 38 72 24 Q64 10 55 8 Z"
       fill="#2E2E2E"
@@ -2455,11 +2510,19 @@ const Rwanda: EmblemComponent = () => (
       strokeWidth="2.6"
     />
     <ellipse cx="76" cy="37" rx="9" ry="12" fill="#2E2E2E" stroke="#141414" strokeWidth="2.2" />
-    <path d="M30 26 Q22 34 20 44" stroke="#141414" strokeWidth="2" fill="none" opacity="0.6" />
-    <circle cx="26" cy="36" r="3.6" fill="#141414" />
-    <circle cx="26" cy="36" r="1.4" fill="#8C8C8C" />
-    <ellipse cx="18" cy="60" rx="4" ry="5" fill="#141414" />
-    <path d="M24 70 Q30 74 38 72" stroke="#141414" strokeWidth="2" fill="none" opacity="0.5" />
+    {/* bare-skin face plate, lighter than the fur so the features actually read */}
+    <path d="M24 46 Q22 62 34 72 Q46 80 58 72 Q66 64 62 48 Q54 38 42 38 Q30 38 24 46 Z" fill="#5C5C5C" />
+    {/* brow ridge */}
+    <path d="M26 46 Q34 40 44 44" stroke="#141414" strokeWidth="2.4" fill="none" strokeLinecap="round" />
+    <path d="M44 44 Q52 40 60 46" stroke="#141414" strokeWidth="2.4" fill="none" strokeLinecap="round" />
+    {/* eyes, dark with a light catchlight so they pop against the grey face */}
+    <circle cx="34" cy="52" r="4.2" fill="#141414" />
+    <circle cx="35.5" cy="50.5" r="1.3" fill="#D8D8D8" />
+    <circle cx="52" cy="52" r="4.2" fill="#141414" />
+    <circle cx="53.5" cy="50.5" r="1.3" fill="#D8D8D8" />
+    {/* nose + mouth */}
+    <ellipse cx="43" cy="62" rx="6" ry="4" fill="#141414" />
+    <path d="M32 70 Q43 76 54 70" stroke="#141414" strokeWidth="2.2" fill="none" strokeLinecap="round" />
   </svg>
 );
 

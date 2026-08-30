@@ -76,7 +76,14 @@ export default function Footer({
       </Typography>
 
       <Typography sx={{ fontSize: 11, color: "text.disabled", mt: 1.5 }}>
-        {madeByLabel} Jorge Dev
+        {madeByLabel}{" "}
+        <Box
+          component="a"
+          href="mailto:jorgediazok@gmail.com"
+          sx={{ color: "inherit", textDecoration: "none", "&:hover": { textDecoration: "underline" } }}
+        >
+          Jorge Dev
+        </Box>
       </Typography>
 
       <Typography
