@@ -136,7 +136,7 @@ const MosaicoNacionalidades: IllustrationComponent = ({ accentColor }) => {
   return (
     <g>
       {colors.map((c, i) => (
-        <g key={c}>
+        <g key={i}>
           <line x1={115 + i * 34} y1="235" x2={115 + i * 34} y2="120" stroke={dark} strokeWidth="4" strokeLinecap="round" />
           <polygon points={`${115 + i * 34},120 ${145 + i * 34},128 ${115 + i * 34},136`} fill={c} />
         </g>

@@ -149,7 +149,7 @@ const LosCovoareLasAlfombrasTejidasAManoDeMoldavia: IllustrationComponent = ({ a
       <path d="M205 185 Q190 175 185 190 M205 185 Q220 175 225 190 M205 195 Q192 190 188 200 M205 195 Q218 190 222 200" stroke={dark} strokeWidth="2.5" fill="none" />
       {/* corner motifs */}
       {[[172, 172], [238, 172], [172, 218], [238, 218]].map(([x, y]) => (
-        <circle key={x as number} cx={x} cy={y} r="6" fill={accentColor} />
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="6" fill={accentColor} />
       ))}
     </g>
   );

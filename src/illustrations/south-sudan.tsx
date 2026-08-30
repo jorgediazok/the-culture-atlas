@@ -72,8 +72,16 @@ const LosPastoresQueSeCubrenDeCenizaDeEstiercol: IllustrationComponent = () => (
 const LaMigracionSalvajeQueCasiNadieConoce: IllustrationComponent = () => (
   <g>
     <rect x="90" y="150" width="230" height="100" fill="#D9C08A" opacity="0.3" />
-    {[[110, 210], [140, 200], [170, 215], [200, 195], [230, 210], [260, 200], [290, 215]].map(([x, y], i) => (
-      <g key={i} transform={`translate(${x} ${y}) scale(0.55)`}>
+    {/* a smaller, further-back row for a sense of a much larger herd */}
+    {[[120, 175], [160, 168], [200, 178], [240, 168], [280, 176]].map(([x, y], i) => (
+      <g key={`back${i}`} transform={`translate(${x} ${y}) scale(0.5)`} opacity="0.6">
+        <path d="M-20 10 Q-22 -6 -10 -10 Q0 -16 10 -10 Q20 -6 18 10 Z" fill="#B5651D" stroke="#7A4010" strokeWidth="2" />
+        <path d="M8 -12 Q14 -22 20 -18" stroke="#7A4010" strokeWidth="2.4" fill="none" strokeLinecap="round" />
+        <path d="M-20 8 L-22 22 M0 10 L0 22 M16 8 L18 22" stroke="#7A4010" strokeWidth="3" strokeLinecap="round" />
+      </g>
+    ))}
+    {[[110, 215], [145, 205], [180, 220], [215, 200], [250, 218], [285, 208]].map(([x, y], i) => (
+      <g key={i} transform={`translate(${x} ${y}) scale(0.9)`}>
         <path d="M-20 10 Q-22 -6 -10 -10 Q0 -16 10 -10 Q20 -6 18 10 Z" fill="#B5651D" stroke="#7A4010" strokeWidth="2" />
         <path d="M8 -12 Q14 -22 20 -18" stroke="#7A4010" strokeWidth="2.4" fill="none" strokeLinecap="round" />
         <path d="M-20 8 L-22 22 M0 10 L0 22 M16 8 L18 22" stroke="#7A4010" strokeWidth="3" strokeLinecap="round" />

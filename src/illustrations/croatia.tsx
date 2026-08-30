@@ -25,13 +25,26 @@ const Adriatico: IllustrationComponent = ({ accentColor }) => {
 
 const Dubrovnik: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.35);
+  const roof = "#C1440E";
+  const sea = "#3D8FB0";
+  const stone = "#D9C9A0";
   return (
-    <g fill={dark}>
-      <rect x="140" y="160" width="120" height="50" />
-      {[140, 164, 188, 212, 236, 252].map((x) => (
-        <rect key={x} x={x} y="148" width="12" height="14" />
+    <g>
+      {/* sea */}
+      <rect x="90" y="215" width="230" height="35" fill={sea} opacity="0.6" />
+      {/* terracotta roofs peeking above the wall */}
+      {[125, 155, 185, 215, 245, 275].map((x) => (
+        <polygon key={x} points={`${x - 14},175 ${x},158 ${x + 14},175`} fill={roof} stroke={shade(roof, 0.3)} strokeWidth="1.5" />
       ))}
-      <polygon points="140,160 260,160 260,148 140,148" fill={accentColor} />
+      {/* the wall */}
+      <rect x="110" y="175" width="190" height="45" fill={stone} stroke={dark} strokeWidth="3" />
+      {/* alternating crenellations along the top edge */}
+      {[110, 128, 146, 164, 182, 200, 218, 236, 254, 272, 290].map((x, i) =>
+        i % 2 === 0 ? <rect key={x} x={x} y="166" width="9" height="9" fill={stone} stroke={dark} strokeWidth="2" /> : null
+      )}
+      {/* corner tower */}
+      <rect x="104" y="150" width="24" height="70" fill={stone} stroke={dark} strokeWidth="3" />
+      <polygon points="104,150 116,132 128,150" fill={roof} stroke={shade(roof, 0.3)} strokeWidth="1.5" />
     </g>
   );
 };
@@ -94,13 +107,21 @@ const Rakija: IllustrationComponent = ({ accentColor }) => {
 };
 
 const Plitvice: IllustrationComponent = ({ accentColor }) => {
-  const dark = shade(accentColor, 0.25);
-  const light = tint(accentColor, 0.4);
+  const dark = shade(accentColor, 0.35);
+  const water = "#4FD1C5";
   return (
     <g>
-      <rect x="140" y="110" width="120" height="26" fill={light} />
-      <rect x="155" y="140" width="105" height="26" fill={accentColor} />
-      <rect x="170" y="170" width="95" height="26" fill={dark} />
+      {/* three cascading turquoise pools with small waterfalls between them */}
+      <rect x="140" y="110" width="120" height="24" rx="6" fill={water} stroke={dark} strokeWidth="2.5" />
+      <rect x="192" y="134" width="16" height="10" fill="#fff" opacity="0.85" />
+      <rect x="150" y="144" width="110" height="24" rx="6" fill={water} stroke={dark} strokeWidth="2.5" />
+      <rect x="197" y="168" width="16" height="10" fill="#fff" opacity="0.85" />
+      <rect x="160" y="178" width="100" height="24" rx="6" fill={water} stroke={dark} strokeWidth="2.5" />
+      {/* wooden walkway crossing the pools */}
+      <line x1="120" y1="205" x2="290" y2="192" stroke="#8B5A2B" strokeWidth="4" strokeLinecap="round" />
+      {[0, 1, 2, 3, 4, 5].map((i) => (
+        <line key={i} x1={130 + i * 28} y1={203 - i * 2.2} x2={130 + i * 28} y2={211 - i * 2.2} stroke="#6B4423" strokeWidth="3" />
+      ))}
     </g>
   );
 };
@@ -181,11 +202,18 @@ const NikolaTesla: IllustrationComponent = ({ accentColor }) => {
 const MarcoPolo: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
   const light = tint(accentColor, 0.75);
+  const paper = "#E8DCC0";
   return (
     <g>
-      <circle cx="200" cy="145" r="42" fill={light} stroke={accentColor} strokeWidth="4" />
-      <path d="M200 145 L225 130 M200 145 L200 112" stroke={dark} strokeWidth="4" strokeLinecap="round" />
-      <circle cx="200" cy="145" r="5" fill={dark} />
+      {/* rolled map */}
+      <rect x="150" y="175" width="100" height="20" rx="10" fill={paper} stroke={shade(paper, 0.3)} strokeWidth="2.5" />
+      <ellipse cx="150" cy="185" rx="10" ry="10" fill={shade(paper, 0.15)} stroke={shade(paper, 0.3)} strokeWidth="2" />
+      <ellipse cx="250" cy="185" rx="10" ry="10" fill={shade(paper, 0.15)} stroke={shade(paper, 0.3)} strokeWidth="2" />
+      {/* compass */}
+      <circle cx="200" cy="128" r="38" fill={light} stroke={accentColor} strokeWidth="4" />
+      <polygon points="200,96 208,128 200,160 192,128" fill={dark} />
+      <polygon points="168,128 200,120 232,128 200,136" fill={dark} opacity="0.6" />
+      <circle cx="200" cy="128" r="5" fill={dark} />
     </g>
   );
 };
@@ -203,14 +231,22 @@ const ArteNaifHlebine: IllustrationComponent = ({ accentColor }) => {
   );
 };
 
+const celloBody = (rotate: number, fill: string, dark: string) => (
+  <g key={rotate} transform={`rotate(${rotate} 200 150)`}>
+    <line x1="200" y1="150" x2="200" y2="75" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+    <ellipse cx="200" cy="150" rx="26" ry="45" fill={fill} stroke={dark} strokeWidth="2.6" />
+    <line x1="192" y1="135" x2="188" y2="155" stroke={dark} strokeWidth="1.8" />
+    <line x1="208" y1="135" x2="212" y2="155" stroke={dark} strokeWidth="1.8" />
+  </g>
+);
+
 const TwoCellos: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.35);
-  const light = tint(accentColor, 0.6);
+  const light = tint(accentColor, 0.5);
   return (
     <g>
-      <path d="M185 120 a15 18 0 1 0 0.1 0 M185 165 a15 18 0 1 0 0.1 0" fill={accentColor} transform="rotate(-15 190 150)" />
-      <line x1="188" y1="105" x2="196" y2="188" stroke={dark} strokeWidth="4" transform="rotate(-15 190 150)" />
-      <path d="M215 120 a15 18 0 1 0 0.1 0 M215 165 a15 18 0 1 0 0.1 0" fill={light} transform="rotate(15 210 150)" />
+      {celloBody(-30, accentColor, dark)}
+      {celloBody(30, light, dark)}
     </g>
   );
 };

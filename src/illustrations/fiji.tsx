@@ -20,9 +20,12 @@ const RugbyOroOlimpico: IllustrationComponent = ({ accentColor }) => {
   const gold = "#D4AF37";
   return (
     <g>
+      {/* ribbon */}
+      <path d="M165 130 L180 172 L195 130 L188 130 L180 152 L172 130 Z" fill={dark} />
+      {/* medal */}
       <circle cx="180" cy="180" r="38" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="4" />
       <circle cx="180" cy="180" r="26" fill="none" stroke={shade(gold, 0.3)} strokeWidth="1.5" />
-      <path d="M175 190 L185 190 L182 172 Q186 168 182 165 Q178 162 174 165 Q170 168 174 172 Z" fill={shade(gold, 0.35)} />
+      <polygon points="180,164 186,176 199,178 189,187 192,200 180,193 168,200 171,187 161,178 174,176" fill={shade(gold, 0.35)} />
       <ellipse cx="270" cy="200" rx="34" ry="18" fill={accentColor} stroke={dark} strokeWidth="2.5" transform="rotate(-20 270 200)" />
       <line x1="252" y1="205" x2="288" y2="195" stroke={dark} strokeWidth="1.5" opacity="0.5" />
     </g>
@@ -32,10 +35,14 @@ const RugbyOroOlimpico: IllustrationComponent = ({ accentColor }) => {
 const AguaEmbotelladaFiji: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
   const water = "#4A90D9";
+  const palm = "#4A8F4E";
   return (
     <g>
-      <path d="M255 235 Q245 215 250 190 Q262 178 285 178 Q305 178 305 200 Q305 220 295 235 Z" fill="#4A8F4E" stroke={dark} strokeWidth="2.5" />
-      <path d="M263 230 Q258 215 270 205" fill="none" stroke="#4A8F4E" strokeWidth="6" strokeLinecap="round" />
+      {/* palm tree, trunk and fronds fanning out from the top */}
+      <path d="M272 235 Q268 200 275 180" fill="none" stroke="#8B5A2B" strokeWidth="6" strokeLinecap="round" />
+      {[[-40, -8], [-24, -22], [-4, -28], [16, -22], [34, -8]].map(([dx, dy]) => (
+        <path key={dx} d={`M275 180 Q${275 + dx * 0.5} ${180 + dy * 0.6} ${275 + dx} ${180 + dy}`} fill="none" stroke={palm} strokeWidth="6" strokeLinecap="round" />
+      ))}
       <rect x="150" y="150" width="60" height="90" fill={water} opacity="0.55" stroke={dark} strokeWidth="2.5" />
       <rect x="160" y="135" width="40" height="18" fill={dark} opacity="0.5" />
       <rect x="155" y="180" width="50" height="35" fill="#fff" opacity="0.5" />
@@ -50,7 +57,7 @@ const Archipielago330Islas: IllustrationComponent = ({ accentColor }) => {
     <g>
       <rect x="90" y="80" width="230" height="170" fill={water} opacity="0.5" />
       {[[130, 160, 22], [175, 195, 28], [220, 150, 18], [260, 190, 24], [290, 140, 14], [150, 220, 16]].map(([x, y, r]) => (
-        <path key={x as number} d={`M${(x as number) - (r as number)} ${y} Q${x} ${(y as number) - (r as number) * 1.3} ${(x as number) + (r as number)} ${y} Q${x} ${(y as number) + (r as number) * 0.4} ${(x as number) - (r as number)} ${y} Z`} fill={accentColor} stroke={dark} strokeWidth="1.5" />
+        <ellipse key={x as number} cx={x} cy={y} rx={r} ry={(r as number) * 0.68} fill={accentColor} stroke={dark} strokeWidth="1.5" />
       ))}
     </g>
   );
@@ -62,14 +69,18 @@ const IndoFiyianos: IllustrationComponent = ({ accentColor }) => {
   const skin2 = "#D9A46A";
   return (
     <g>
-      <path d="M140 220 Q135 195 160 190 L200 195 L200 205 L165 205 Q158 208 155 220 Z" fill={skin1} stroke={dark} strokeWidth="2.5" />
-      <path d="M270 220 Q275 195 250 190 L210 195 L210 205 L245 205 Q252 208 255 220 Z" fill={skin2} stroke={dark} strokeWidth="2.5" />
+      {/* two forearms in patterned sleeves, reaching toward each other */}
+      <path d="M130 225 Q128 200 150 195 L192 200 L192 214 L155 214 Q140 216 138 225 Z" fill={skin1} stroke={dark} strokeWidth="2.5" />
+      <path d="M280 225 Q282 200 260 195 L218 200 L218 214 L255 214 Q270 216 272 225 Z" fill={skin2} stroke={dark} strokeWidth="2.5" />
       {[0, 1, 2].map((i) => (
-        <rect key={i} x={165 + i * 12} y="198" width="10" height="8" fill={accentColor} opacity="0.7" />
+        <rect key={i} x={152 + i * 13} y="197" width="11" height="16" fill={accentColor} opacity="0.7" />
       ))}
       {[0, 1, 2].map((i) => (
-        <rect key={`r${i}`} x={225 + i * 12} y="198" width="10" height="8" fill="#C1272D" opacity="0.6" />
+        <rect key={`r${i}`} x={222 + i * 13} y="197" width="11" height="16" fill="#C1272D" opacity="0.6" />
       ))}
+      {/* clasped fists */}
+      <circle cx="197" cy="207" r="13" fill={skin1} stroke={dark} strokeWidth="2.2" />
+      <circle cx="211" cy="207" r="13" fill={skin2} stroke={dark} strokeWidth="2.2" />
     </g>
   );
 };
@@ -132,9 +143,11 @@ const IslasCanibalesHistoria: IllustrationComponent = ({ accentColor }) => {
       <rect x="115" y="110" width="180" height="130" fill={map} stroke={shade(map, 0.3)} strokeWidth="3" />
       <path d="M150 165 Q200 145 250 170" fill="none" stroke={shade(map, 0.5)} strokeWidth="1.5" opacity="0.5" />
       <path d="M140 200 Q190 220 260 195" fill="none" stroke={shade(map, 0.5)} strokeWidth="1.5" opacity="0.5" />
-      <rect x="195" y="130" width="10" height="80" fill="#5C3A1E" />
+      {/* a large carved fork: long tines, a connecting base, and a handle */}
+      <rect x="197" y="158" width="6" height="68" fill="#5C3A1E" />
+      <path d="M183 160 Q200 172 217 160 L217 148 L183 148 Z" fill={accentColor} stroke={dark} strokeWidth="1.5" />
       {[0, 1, 2, 3].map((i) => (
-        <path key={i} d={`M${185 + i * 7} 130 L${185 + i * 7} 150 L${188 + i * 7} 155 L${182 + i * 7} 155 Z`} fill={accentColor} stroke={dark} strokeWidth="1.5" />
+        <rect key={i} x={186 + i * 7} y="116" width="5" height="42" fill={accentColor} stroke={dark} strokeWidth="1.5" />
       ))}
     </g>
   );
@@ -147,12 +160,25 @@ const MekeDanza: IllustrationComponent = ({ accentColor }) => {
     <g>
       {[[155, 220], [255, 220]].map(([x, y], i) => (
         <g key={x as number}>
-          <circle cx={x} cy={(y as number) - 62} r="10" fill={skin} />
+          {/* spear, planted beside the dancer instead of behind the head */}
+          <line
+            x1={(x as number) + (i === 0 ? -22 : 22)}
+            y1={y}
+            x2={(x as number) + (i === 0 ? -30 : 30)}
+            y2={(y as number) - 95}
+            stroke="#6B4423"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+          {/* grass skirt */}
           <path d={`M${(x as number) - 16} ${(y as number) - 25} Q${x} ${(y as number) - 40} ${(x as number) + 16} ${(y as number) - 25} L${(x as number) + 12} ${y} L${(x as number) - 12} ${y} Z`} fill={accentColor} stroke={dark} strokeWidth="2" />
           {[0, 1, 2, 3, 4].map((s) => (
             <line key={s} x1={(x as number) - 10 + s * 5} y1={(y as number) - 12} x2={(x as number) - 10 + s * 5} y2={y} stroke={dark} strokeWidth="1.2" opacity="0.5" />
           ))}
-          <line x1={x} y1={(y as number) - 40} x2={x} y2={(y as number) - 90} stroke="#6B4423" strokeWidth="4" strokeLinecap="round" transform={`rotate(${i === 0 ? -10 : 10} ${x} ${(y as number) - 40})`} />
+          {/* arms raised mid-dance */}
+          <path d={`M${x} ${(y as number) - 42} L${(x as number) + (i === 0 ? -20 : 20)} ${(y as number) - 55}`} stroke={skin} strokeWidth="6" strokeLinecap="round" />
+          <path d={`M${x} ${(y as number) - 42} L${(x as number) + (i === 0 ? 14 : -14)} ${(y as number) - 60}`} stroke={skin} strokeWidth="6" strokeLinecap="round" />
+          <circle cx={x} cy={(y as number) - 62} r="11" fill={skin} />
         </g>
       ))}
     </g>

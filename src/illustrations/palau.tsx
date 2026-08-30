@@ -44,7 +44,6 @@ const LasCasasComunalesBaiPintadas: IllustrationComponent = ({ accentColor }) =>
       {[[170, 217], [205, 217], [235, 217]].map(([x, y], i) => (
         <circle key={x as number} cx={x} cy={y} r="9" fill={colors[i]} stroke={shade(colors[i], 0.3)} strokeWidth="1.5" />
       ))}
-      <line x1="205" y1="130" x2="205" y2="112" stroke="#5C3A1E" strokeWidth="4" />
     </g>
   );
 };
@@ -84,12 +83,14 @@ const LaSociedadMatrilinealQueEligeJefes: IllustrationComponent = ({ accentColor
   const gold = "#D4AF37";
   return (
     <g>
-      <circle cx="160" cy="185" r="52" fill="none" stroke={accentColor} strokeWidth="6" />
-      {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
-        <circle key={deg} cx="160" cy="133" r="6" fill={accentColor} stroke={dark} strokeWidth="1.5" transform={`rotate(${deg} 160 185)`} />
+      {/* a hanging beaded necklace */}
+      <path d="M130 130 Q160 175 190 130" fill="none" stroke={dark} strokeWidth="2" opacity="0.6" />
+      {[[130, 130], [143, 155], [160, 168], [177, 155], [190, 130]].map(([cx, cy]) => (
+        <circle key={cx} cx={cx} cy={cy} r="9" fill={accentColor} stroke={dark} strokeWidth="1.5" />
       ))}
-      <path d="M240 220 Q235 190 260 180 Q285 190 280 220 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2.5" />
-      <path d="M235 220 L285 220 L280 235 L240 235 Z" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
+      {/* a simple crown */}
+      <polygon points="225,210 235,180 250,200 265,180 275,210" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2.5" />
+      <rect x="222" y="210" width="56" height="14" fill={gold} stroke={shade(gold, 0.3)} strokeWidth="2" />
     </g>
   );
 };
@@ -130,8 +131,14 @@ const ElMitoDeLaGiganteQueFormoLasIslas: IllustrationComponent = ({ accentColor 
   return (
     <g>
       <rect x="90" y="200" width="230" height="50" fill={water} opacity="0.4" />
-      <path d="M110 200 Q140 190 170 202 Q195 210 220 200 Q250 188 285 205 Q290 210 285 218 Q250 200 220 212 Q195 222 170 214 Q140 202 112 212 Z" fill={accentColor} stroke={dark} strokeWidth="2.5" opacity="0.85" />
-      <circle cx="110" cy="205" r="14" fill={accentColor} stroke={dark} strokeWidth="2" opacity="0.85" />
+      {/* the reclining giant, built from overlapping body parts so it reads
+          as a figure rather than a single wavy tube */}
+      <circle cx="108" cy="205" r="14" fill={accentColor} stroke={dark} strokeWidth="2" opacity="0.9" />
+      <ellipse cx="135" cy="195" rx="14" ry="7" fill={accentColor} stroke={dark} strokeWidth="1.8" opacity="0.85" transform="rotate(-20 135 195)" />
+      <ellipse cx="150" cy="210" rx="26" ry="14" fill={accentColor} stroke={dark} strokeWidth="2" opacity="0.9" />
+      <ellipse cx="200" cy="212" rx="30" ry="15" fill={accentColor} stroke={dark} strokeWidth="2" opacity="0.9" />
+      <ellipse cx="250" cy="210" rx="24" ry="13" fill={accentColor} stroke={dark} strokeWidth="2" opacity="0.9" />
+      <ellipse cx="285" cy="205" rx="16" ry="9" fill={accentColor} stroke={dark} strokeWidth="1.8" opacity="0.85" />
     </g>
   );
 };

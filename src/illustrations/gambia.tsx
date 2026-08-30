@@ -51,7 +51,7 @@ const ElKankurangElEspirituCubiertoDeHojas: IllustrationComponent = ({ accentCol
     <g>
       <path d="M180 235 L175 155 Q175 130 205 125 Q235 130 235 155 L230 235 Z" fill={green} stroke={shade(green, 0.3)} strokeWidth="2.5" />
       {[[185, 150], [200, 140], [215, 148], [190, 175], [220, 172], [180, 200], [230, 198], [195, 220], [215, 218]].map(([x, y], i) => (
-        <ellipse key={x as number} cx={x} cy={y} rx="9" ry="6" fill={i % 2 === 0 ? accentColor : shade(green, 0.15)} transform={`rotate(${(i * 37) % 60} ${x} ${y})`} />
+        <ellipse key={`${x}-${y}`} cx={x} cy={y} rx="9" ry="6" fill={i % 2 === 0 ? accentColor : shade(green, 0.15)} transform={`rotate(${(i * 37) % 60} ${x} ${y})`} />
       ))}
       <path d="M240 200 L265 175 L260 210 Z" fill={dark} />
       <line x1="240" y1="200" x2="260" y2="185" stroke={dark} strokeWidth="3" />

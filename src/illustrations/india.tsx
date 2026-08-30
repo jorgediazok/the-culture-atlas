@@ -26,7 +26,7 @@ const ElCeroElRegaloMatematicoDeLaIndia: IllustrationComponent = ({ accentColor 
       <circle cx="150" cy="160" r="34" fill="none" stroke={accentColor} strokeWidth="9" />
       <rect x="215" y="130" width="90" height="105" fill={stone} stroke={shade(stone, 0.3)} strokeWidth="2.5" />
       {[[240, 165], [278, 165], [240, 200], [278, 200]].map(([x, y], i) => (
-        <text key={x as number} x={x} y={y} fontSize="26" fontWeight="700" fill={dark} textAnchor="middle" fontFamily="serif">{["1", "2", "3", "0"][i]}</text>
+        <text key={`${x}-${y}`} x={x} y={y} fontSize="26" fontWeight="700" fill={dark} textAnchor="middle" fontFamily="serif">{["1", "2", "3", "0"][i]}</text>
       ))}
       <path d="M100 235 Q205 220 320 235" stroke={dark} strokeWidth="2" opacity="0.3" fill="none" />
     </g>

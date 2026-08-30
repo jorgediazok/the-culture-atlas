@@ -92,11 +92,11 @@ const MosaicoMulticultural: IllustrationComponent = ({ accentColor }) => {
   return (
     <g>
       {pieces.map(([x, y], i) => (
-        <rect key={x} x={x - 32} y={y - 32} width="64" height="64" rx="8" fill={colors[i % colors.length]} />
+        <rect key={`${x}-${y}`} x={x - 32} y={y - 32} width="64" height="64" rx="8" fill={colors[i % colors.length]} />
       ))}
       {pieces.map(([x, y, tab], i) => (
         <circle
-          key={`tab-${x}`}
+          key={`tab-${x}-${y}`}
           cx={tab === "right" ? x + 32 : x}
           cy={tab === "right" ? y : y + 32}
           r="12"

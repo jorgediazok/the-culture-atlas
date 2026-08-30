@@ -174,7 +174,7 @@ const ElShyrdakAlfombrasDeFieltroBordado: IllustrationComponent = ({ accentColor
         [155, 205],
         [255, 205],
       ].map(([x, y]) => (
-        <path key={x} d={`M${x} ${y} Q${x + 20} ${y - 15} ${x + 10} ${y + 5} Q${x + 2} ${y + 18} ${x + 18} ${y + 15}`} fill="none" stroke={light} strokeWidth="4" strokeLinecap="round" />
+        <path key={`${x}-${y}`} d={`M${x} ${y} Q${x + 20} ${y - 15} ${x + 10} ${y + 5} Q${x + 2} ${y + 18} ${x + 18} ${y + 15}`} fill="none" stroke={light} strokeWidth="4" strokeLinecap="round" />
       ))}
       <circle cx="205" cy="180" r="20" fill="none" stroke={light} strokeWidth="4" />
     </g>

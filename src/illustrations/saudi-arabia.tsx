@@ -223,7 +223,7 @@ const ElMajlisElSalonDeLaHospitalidad: IllustrationComponent = ({ accentColor })
         [290, 170],
         [205, 155],
       ].map(([x, y], i) => (
-        <rect key={x} x={x - 20} y={y - 12} width="40" height="24" rx="8" fill={i % 2 === 0 ? accentColor : light} stroke={dark} strokeWidth="2" />
+        <rect key={`${x}-${y}`} x={x - 20} y={y - 12} width="40" height="24" rx="8" fill={i % 2 === 0 ? accentColor : light} stroke={dark} strokeWidth="2" />
       ))}
     </g>
   );

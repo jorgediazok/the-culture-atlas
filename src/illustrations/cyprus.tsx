@@ -204,7 +204,7 @@ const ElEncajeDeLefkaraQueComproLeonardoDaVinci: IllustrationComponent = ({ acce
     <g>
       <rect x="140" y="140" width="130" height="100" fill="#F5F0E6" stroke={dark} strokeWidth="3" />
       {motifs.map(([x, y]) => (
-        <g key={x}>
+        <g key={`${x}-${y}`}>
           <line x1={x - 12} y1={y} x2={x + 12} y2={y} stroke={accentColor} strokeWidth="2" />
           <line x1={x} y1={y - 12} x2={x} y2={y + 12} stroke={accentColor} strokeWidth="2" />
         </g>

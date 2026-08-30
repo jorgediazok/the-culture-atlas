@@ -211,29 +211,32 @@ const LosWenzelLaDinastiaDelEsquiAlpino: IllustrationComponent = ({ accentColor 
 const LaHofkellereiLaBodegaDeLaFamiliaPrincipesca: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
   const leaf = "#3C7A4B";
+  const stone = "#8B8378";
   return (
     <g>
       {/* hillside */}
       <path d="M90 250 Q205 195 320 250 Z" fill={dark} opacity="0.2" />
-      {/* small castle silhouette on the ridge */}
-      <rect x="255" y="165" width="16" height="30" fill={dark} opacity="0.6" />
-      <polygon points="252,165 263,150 274,165" fill={dark} opacity="0.6" />
-      {/* rows of vines receding up the slope */}
+      {/* castle silhouette on the ridge, in its own stone tone for contrast */}
+      <rect x="250" y="158" width="20" height="37" fill={stone} stroke={shade(stone, 0.3)} strokeWidth="2" />
+      <polygon points="246,158 260,140 274,158" fill={shade(stone, 0.15)} stroke={shade(stone, 0.3)} strokeWidth="2" />
+      {/* rows of vines receding up the slope, each dotted with leaves */}
       {[
         [110, 245, 300, 245],
         [125, 225, 285, 225],
         [140, 208, 270, 208],
         [155, 193, 255, 193],
       ].map(([x1, y1, x2, y2]) => (
-        <line key={x1} x1={x1} y1={y1} x2={x2} y2={y2} stroke={dark} strokeWidth="2" opacity="0.5" />
+        <g key={x1}>
+          <line x1={x1} y1={y1} x2={x2} y2={y2} stroke={dark} strokeWidth="2.5" opacity="0.6" />
+          {[0, 0.25, 0.5, 0.75, 1].map((t) => (
+            <circle key={t} cx={x1 + (x2 - x1) * t} cy={y1 + (y2 - y1) * t - 4} r="3" fill={leaf} opacity="0.8" />
+          ))}
+        </g>
       ))}
-      {/* grape clusters dotting the front row */}
+      {/* grape clusters on the front row */}
       {[130, 160, 190, 220, 250, 280].map((x) => (
-        <circle key={x} cx={x} cy="244" r="6" fill={accentColor} stroke={dark} strokeWidth="1.2" />
+        <circle key={x} cx={x} cy="248" r="6" fill={accentColor} stroke={dark} strokeWidth="1.2" />
       ))}
-      <circle cx="145" cy="240" r="4" fill={leaf} />
-      <circle cx="205" cy="238" r="4" fill={leaf} />
-      <circle cx="265" cy="240" r="4" fill={leaf} />
     </g>
   );
 };

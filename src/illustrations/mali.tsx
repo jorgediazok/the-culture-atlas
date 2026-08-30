@@ -165,7 +165,8 @@ const ChiwaraTocadoAntilope: IllustrationComponent = ({ accentColor }) => {
       <path d="M187 165 Q200 158 213 165 L206 205 L194 205 Z" fill={accentColor} stroke={dark} strokeWidth="2.4" />
       <circle cx="200" cy="150" r="13" fill={skin} stroke={dark} strokeWidth="2" />
       <path d="M188 140 Q200 100 212 140 Z" fill={wood} stroke={shade(wood, 0.3)} strokeWidth="2.2" />
-      <path d="M195 105 Q188 85 195 70 M205 105 Q212 85 205 70" fill="none" stroke={wood} strokeWidth="4" strokeLinecap="round" />
+      <path d="M197 108 Q175 95 180 65 Q188 85 200 95" fill="none" stroke={wood} strokeWidth="5" strokeLinecap="round" />
+      <path d="M203 108 Q225 95 220 65 Q212 85 200 95" fill="none" stroke={wood} strokeWidth="5" strokeLinecap="round" />
     </g>
   );
 };

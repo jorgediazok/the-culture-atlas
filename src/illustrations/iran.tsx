@@ -57,7 +57,7 @@ const AlfombrasPersas: IllustrationComponent = ({ accentColor }) => {
       <path d="M205 145 L225 175 L205 205 L185 175 Z" fill={gold} />
       <circle cx="205" cy="175" r="10" fill={accentColor} />
       {[[140, 140], [270, 140], [140, 210], [270, 210]].map(([x, y]) => (
-        <circle key={x} cx={x} cy={y} r="10" fill={gold} opacity="0.8" />
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="10" fill={gold} opacity="0.8" />
       ))}
     </g>
   );
@@ -111,7 +111,7 @@ const JardinesPersas: IllustrationComponent = ({ accentColor }) => {
       <rect x="195" y="105" width="20" height="140" fill={water} />
       <rect x="105" y="165" width="200" height="20" fill={water} />
       {[[150, 130], [255, 130], [150, 220], [255, 220]].map(([x, y]) => (
-        <circle key={x} cx={x} cy={y} r="18" fill={dark} opacity="0.6" />
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="18" fill={dark} opacity="0.6" />
       ))}
     </g>
   );

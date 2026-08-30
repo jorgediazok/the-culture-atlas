@@ -202,6 +202,8 @@ const TarasShevchenkoElPoetaNacional: IllustrationComponent = ({ accentColor }) 
       {[178, 190].map((y) => (
         <line key={y} x1="130" y1={y} x2="192" y2={y - 8} stroke={dark} strokeWidth="1" opacity="0.4" />
       ))}
+      {/* a face to anchor the mustache and cap together */}
+      <ellipse cx="245" cy="122" rx="22" ry="26" fill="#D9A46A" stroke={dark} strokeWidth="2" />
       {/* long mustache */}
       <path d="M235 130 Q255 118 275 130 Q260 122 250 128 Q240 122 225 132 Q215 120 195 130 Q210 122 220 128" fill={dark} />
       {/* fur cap */}

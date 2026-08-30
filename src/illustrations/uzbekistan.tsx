@@ -207,7 +207,7 @@ const ElSuzaniBordadoNupcialUzbeko: IllustrationComponent = ({ accentColor }) =>
         [150, 220],
         [260, 220],
       ].map(([cx, cy]) => (
-        <g key={cx}>
+        <g key={`${cx}-${cy}`}>
           <circle cx={cx} cy={cy} r="26" fill="none" stroke={accentColor} strokeWidth="5" />
           {[0, 45, 90, 135].map((deg) => (
             <line key={deg} x1={cx} y1={cy - 26} x2={cx} y2={cy + 26} stroke={accentColor} strokeWidth="4" transform={`rotate(${deg} ${cx} ${cy})`} opacity="0.7" />

@@ -27,7 +27,7 @@ const CeremoniaDelCafeBuna: IllustrationComponent = ({ accentColor }) => {
       {[[125, 235], [155, 240], [265, 235]].map(([x, y]) => (
         <g key={x as number}>
           <path d={`M${(x as number) - 10} ${y} L${(x as number) - 10} ${(y as number) - 14} L${(x as number) + 10} ${(y as number) - 14} L${(x as number) + 10} ${y} Z`} fill={accentColor} stroke={dark} strokeWidth="1.5" />
-          <path d={`M${(x as number) + 10} ${(y as number) - 10} Q${(x as number) + 18} ${(y as number) - 10} ${(x as number) + 18} ${(y as number) - 5} Q${(x as number) + 18} 0 ${(x as number) + 10} 0`} fill="none" stroke={dark} strokeWidth="1.5" />
+          <path d={`M${(x as number) + 10} ${(y as number) - 11} Q${(x as number) + 19} ${(y as number) - 11} ${(x as number) + 19} ${(y as number) - 7} Q${(x as number) + 19} ${(y as number) - 3} ${(x as number) + 10} ${(y as number) - 3}`} fill="none" stroke={dark} strokeWidth="1.5" />
         </g>
       ))}
     </g>
@@ -53,9 +53,8 @@ const GuerraDeIndependenciaDe30Anos: IllustrationComponent = ({ accentColor }) =
     <g>
       <polygon points="90,240 160,150 220,240" fill={dark} opacity="0.6" />
       <polygon points="180,240 250,130 320,240" fill={dark} opacity="0.4" />
-      <path d="M175 145 Q190 130 210 135 Q205 143 215 148 Q198 156 182 148 Q173 145 175 145 Z" fill="#fff" stroke={dark} strokeWidth="2" />
-      <path d="M175 145 L162 140" stroke={dark} strokeWidth="2" />
-      <circle cx="200" cy="140" r="2" fill={dark} />
+      {/* a dove in flight over the mountains */}
+      <path d="M155 128 Q178 108 200 122 Q222 108 245 128 Q222 120 200 130 Q178 120 155 128 Z" fill="#fff" stroke={dark} strokeWidth="2" />
     </g>
   );
 };
@@ -77,13 +76,15 @@ const VestidoBlancoZuria: IllustrationComponent = ({ accentColor }) => {
   const colors = [accentColor, "#F4A300", "#C1272D"];
   return (
     <g>
-      <path d="M180 235 L175 145 Q175 130 205 128 Q235 130 235 145 L230 235 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
-      <path d="M175 145 Q205 135 235 145" fill="none" stroke={dark} strokeWidth="2" />
+      {/* the zuria's draped shoulders and neckline, not a straight-sided column */}
+      <path d="M165 235 L172 155 Q172 132 205 128 Q238 132 238 155 L245 235 Z" fill="#F5F0E6" stroke={dark} strokeWidth="2.5" />
+      <path d="M172 155 Q205 172 238 155" fill="none" stroke={dark} strokeWidth="2" />
+      <path d="M188 130 Q205 145 222 130" fill="none" stroke={dark} strokeWidth="2" />
       {colors.map((c, i) => (
-        <path key={c} d={`M${180 + i} ${228 - i * 3} L${230 - i} ${228 - i * 3}`} stroke={c} strokeWidth="4" opacity="0.9" />
+        <path key={c} d={`M${178 + i} ${228 - i * 3} L${232 - i} ${228 - i * 3}`} stroke={c} strokeWidth="4" opacity="0.9" />
       ))}
       {[0, 1, 2, 3, 4].map((i) => (
-        <line key={i} x1={182 + i * 12} y1="222" x2={182 + i * 12} y2="234" stroke={colors[i % colors.length]} strokeWidth="3" />
+        <line key={i} x1={180 + i * 13} y1="222" x2={180 + i * 13} y2="234" stroke={colors[i % colors.length]} strokeWidth="3" />
       ))}
     </g>
   );
@@ -147,12 +148,16 @@ const MercadoDeCamellosDeKeren: IllustrationComponent = ({ accentColor }) => {
   return (
     <g>
       <path d="M90 245 Q205 235 320 245 L320 250 L90 250 Z" fill={dust} />
-      <path d="M150 235 Q145 200 165 190 Q178 178 190 190 Q195 178 205 188 Q220 178 225 195 Q235 200 230 220 L225 235 L215 235 L212 222 L165 222 L162 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
-      <path d="M150 210 Q140 200 135 185" fill="none" stroke={accentColor} strokeWidth="7" strokeLinecap="round" />
-      <path d="M135 185 L128 175 L133 190 Z" fill={dark} />
-      {[0, 1, 2, 3].map((i) => (
-        <line key={i} x1={165 + i * 18} y1="222" x2={162 + i * 18} y2="238" stroke={dark} strokeWidth="4" />
+      {/* legs, drawn first and extended up into the body so its fill covers the seam */}
+      {[165, 183, 201, 219].map((x) => (
+        <rect key={x} x={x} y="208" width="7" height="30" fill={dark} />
       ))}
+      {/* body with two humps */}
+      <path d="M150 235 Q145 200 165 190 Q178 178 190 190 Q195 178 205 188 Q220 178 225 195 Q235 200 230 220 L225 235 L215 235 L212 222 L165 222 L162 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
+      {/* neck reaching forward, and a proper head instead of a bare triangle */}
+      <path d="M155 205 Q142 195 138 178" fill="none" stroke={accentColor} strokeWidth="9" strokeLinecap="round" />
+      <ellipse cx="132" cy="172" rx="10" ry="8" fill={accentColor} stroke={dark} strokeWidth="2" />
+      <circle cx="128" cy="170" r="1.6" fill={dark} />
     </g>
   );
 };

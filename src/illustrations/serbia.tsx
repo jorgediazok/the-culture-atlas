@@ -168,7 +168,7 @@ const ElMayorExportadorDeFrambuesasDelMundo: IllustrationComponent = ({ accentCo
     <g>
       <path d="M120 130 Q180 150 200 200 Q220 150 280 130" fill="none" stroke="#3E5C3A" strokeWidth="5" strokeLinecap="round" />
       {clusters.map(([x, y]) => (
-        <g key={x}>
+        <g key={`${x}-${y}`}>
           {drupelets.map(([dx, dy]) => (
             <circle key={`${dx}-${dy}`} cx={x + dx} cy={y + dy} r="7" fill={accentColor} stroke={dark} strokeWidth="1.5" />
           ))}

@@ -156,7 +156,7 @@ const AlphagoBaduk: IllustrationComponent = ({ accentColor }) => {
         <line key={`h${i}`} x1="140" y1={140 + i * 24} x2="270" y2={140 + i * 24} stroke={dark} strokeWidth="1.2" opacity="0.6" />
       ))}
       {[[166, 140], [192, 164], [140, 188], [218, 188], [166, 212], [244, 140]].map(([x, y], i) => (
-        <circle key={x as number} cx={x} cy={y} r="9" fill={i % 2 === 0 ? "#1A1A1A" : "#F5F0E6"} stroke={dark} strokeWidth="1" />
+        <circle key={`${x}-${y}`} cx={x} cy={y} r="9" fill={i % 2 === 0 ? "#1A1A1A" : "#F5F0E6"} stroke={dark} strokeWidth="1" />
       ))}
       {[[192, 140], [218, 164], [166, 164], [140, 212]].map(([x, y], i) => (
         <circle key={`w${x}`} cx={x} cy={y} r="9" fill={i % 2 === 0 ? "#F5F0E6" : "#1A1A1A"} stroke={dark} strokeWidth="1" />

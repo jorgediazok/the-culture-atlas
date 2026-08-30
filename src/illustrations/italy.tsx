@@ -410,11 +410,11 @@ const Vaticano: IllustrationComponent = ({ accentColor }) => {
       <path d="M150 220 L150 175 Q150 130 200 122 Q250 130 250 175 L250 220 Z" fill={light} stroke={dark} strokeWidth="3" />
       <line x1="200" y1="122" x2="200" y2="100" stroke={dark} strokeWidth="3" />
       <line x1="192" y1="108" x2="208" y2="108" stroke={dark} strokeWidth="3" />
-      {/* two crossed keys */}
-      <line x1="160" y1="235" x2="200" y2="195" stroke={accentColor} strokeWidth="5" strokeLinecap="round" />
-      <line x1="240" y1="235" x2="200" y2="195" stroke={dark} strokeWidth="5" strokeLinecap="round" />
-      <circle cx="160" cy="235" r="8" fill="none" stroke={accentColor} strokeWidth="4" />
-      <circle cx="240" cy="235" r="8" fill="none" stroke={dark} strokeWidth="4" />
+      {/* two crossed keys, above the dome near the cross */}
+      <line x1="172" y1="148" x2="200" y2="112" stroke={accentColor} strokeWidth="4" strokeLinecap="round" />
+      <line x1="228" y1="148" x2="200" y2="112" stroke={dark} strokeWidth="4" strokeLinecap="round" />
+      <circle cx="172" cy="148" r="6" fill="none" stroke={accentColor} strokeWidth="3" />
+      <circle cx="228" cy="148" r="6" fill="none" stroke={dark} strokeWidth="3" />
     </g>
   );
 };
