@@ -2,312 +2,327 @@
 
 # 📖 The Culture Atlas
 
-**Un atlas cultural digital, país por país, página por página.**
+**A digital culture atlas, country by country, page by page.**
 
-Un libro ilustrado interactivo donde cada país del mundo tiene su propia "estantería": una portada, un lomo con su emblema, y páginas con historias breves sobre su cultura — comida, tradiciones, música, lugares, curiosidades — acompañadas de ilustraciones SVG generadas para cada entrada.
+An interactive illustrated book where every country in the world has its own "shelf": a cover, a spine with its emblem, and pages with short stories about its culture — food, traditions, music, places, curiosities — each paired with a hand-drawn SVG illustration.
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![MUI](https://img.shields.io/badge/MUI-9-007FFF?logo=mui&logoColor=white)](https://mui.com)
-[![i18n](https://img.shields.io/badge/i18n-ES%20%2F%20EN-informational)](#-internacionalización)
+[![i18n](https://img.shields.io/badge/i18n-ES%20%2F%20EN-informational)](#-internationalization)
 
 </div>
 
 ---
 
-## 🧭 Índice
+## 🧭 Table of contents
 
-- [¿Qué es esto?](#-qué-es-esto)
-- [Cómo se ve la experiencia](#-cómo-se-ve-la-experiencia)
-- [Stack técnico](#-stack-técnico)
-- [Arquitectura](#-arquitectura)
-- [Estructura del proyecto](#-estructura-del-proyecto)
-- [Modelo de contenido](#-modelo-de-contenido)
-- [Sistema de ilustraciones](#-sistema-de-ilustraciones)
-- [Ficha de datos rápidos](#-ficha-de-datos-rápidos)
-- [Internacionalización](#-internacionalización)
-- [Cómo agregar un país nuevo](#-cómo-agregar-un-país-nuevo)
-- [Empezar a desarrollar](#-empezar-a-desarrollar)
-- [Auditorías, CI, errores y accesibilidad](#-auditorías-ci-errores-y-accesibilidad)
-- [Estado del proyecto](#-estado-del-proyecto)
+- [What is this?](#-what-is-this)
+- [What the experience looks like](#-what-the-experience-looks-like)
+- [Tech stack](#-tech-stack)
+- [Architecture](#-architecture)
+- [Project structure](#-project-structure)
+- [Content model](#-content-model)
+- [Illustration system](#-illustration-system)
+- [Quick-facts card](#-quick-facts-card)
+- [Internationalization](#-internationalization)
+- [How to add a new country](#-how-to-add-a-new-country)
+- [Getting started](#-getting-started)
+- [Audits, CI, error handling, and accessibility](#-audits-ci-error-handling-and-accessibility)
+- [Git workflow and deployment](#-git-workflow-and-deployment)
 
 ---
 
-## 📚 ¿Qué es esto?
+## 📚 What is this?
 
-**The Culture Atlas** (*Atlas de la Cultura*) es un sitio web que presenta el mundo como una biblioteca: cada país es un libro en una estantería, agrupado por continente. Al abrir un país, se navega como un libro real —portada, luego páginas— donde cada página cuenta una historia corta sobre algún aspecto de su cultura, con una ilustración a página completa.
+**The Culture Atlas** is a website that presents the world as a library: every country is a book on a shelf, grouped by continent. Opening a country feels like paging through a real book — a cover, then pages — where each page tells a short story about some facet of its culture, paired with a full-page illustration.
 
-El objetivo final del proyecto es cubrir **los ~195 países y territorios del mundo**, cada uno con un número de historias asignado por **tier (12, 15 o 20)** según su relevancia/disponibilidad de material, todo bilingüe (ES/EN) y con ilustraciones propias.
+The atlas covers all **206 countries and territories** in the world, each with a number of stories assigned by **tier (12, 15, or 20)** based on relevance and available material, fully bilingual (ES/EN) with original illustrations throughout.
 
-> ⚠️ El contenido se genera con asistencia de IA y puede contener imprecisiones — no reemplaza fuentes verificadas. Este aviso también se muestra en el pie del sitio.
+> ⚠️ Content is generated with AI assistance and may contain inaccuracies — it doesn't replace verified sources. This notice is also shown in the site footer.
 
-## 🖼️ Cómo se ve la experiencia
+## 🖼️ What the experience looks like
 
 ```
 ┌─────────────────────────────┐        ┌──────────────────────────────────────────┐
-│        Página de inicio      │        │              Página de país                │
-│                               │  clic  │                                            │
-│   ✦ Estanterías por          │ ─────▶ │  ┌───────────┐  ┌────────────────────┐    │
-│     continente                │        │  │           │  │  Chip · Título      │    │
-│   🇦🇷 🇧🇷 🇫🇷 🇯🇵 🇰🇪 ...        │        │  │  SVG      │  │  Descripción breve  │    │
-│   Buscador de países          │        │  │  ilustrada │  │  # de página         │    │
-│                               │        │  └───────────┘  └────────────────────┘    │
-└─────────────────────────────┘        │        ◀  carrusel tipo libro  ▶            │
+│           Home page          │        │              Country page                  │
+│                               │  click │                                            │
+│   ✦ Shelves by continent      │ ─────▶ │  ┌───────────┐  ┌────────────────────┐    │
+│   🇦🇷 🇧🇷 🇫🇷 🇯🇵 🇰🇪 ...        │        │  │           │  │  Chip · Title       │    │
+│   Country search              │        │  │  SVG      │  │  Short description  │    │
+│                               │        │  │  scene    │  │  Page #             │    │
+└─────────────────────────────┘        │  └───────────┘  └────────────────────┘    │
+                                         │        ◀  book-style carousel  ▶           │
                                          └──────────────────────────────────────────┘
 ```
 
-- **Inicio (`/[lang]`)** — estanterías (`ShelfRow`) agrupadas por continente, con buscador (`CountrySearch`) y chips de navegación rápida (`ContinentChips`). Cada país se ve como un lomo de libro 3D (`BookCover`) con su color de acento y emblema.
-- **Página de país (`/[lang]/[país]`)** — un carrusel (`BookCarousel`, sobre [Embla Carousel](https://www.embla-carousel.com/)) que simula pasar páginas de un libro: primero la portada (`CoverPage`), luego una página por cada historia (`PageSpread`), con ilustración a la izquierda y texto a la derecha.
+- **Home (`/[lang]`)** — shelves (`ShelfRow`) grouped by continent, with a search box (`CountrySearch`) and quick-navigation chips (`ContinentChips`). Each country renders as a 3D book spine (`BookCover`) with its own accent color and emblem.
+- **Country page (`/[lang]/[country]`)** — a carousel (`BookCarousel`, built on [Embla Carousel](https://www.embla-carousel.com/)) that simulates turning the pages of a book: first the cover (`CoverPage`), then one page per story (`PageSpread`), illustration on the left, text on the right.
 
-## 🛠️ Stack técnico
+## 🛠️ Tech stack
 
-| Categoría | Tecnología | Uso en el proyecto |
+| Category | Technology | Used for |
 |---|---|---|
-| Framework | [Next.js 16](https://nextjs.org) (App Router) | Rutas dinámicas `[lang]/[country]`, generación estática (`generateStaticParams`), metadata dinámica |
-| UI | [React 19](https://react.dev) | Componentes de servidor y cliente |
-| Lenguaje | [TypeScript 5](https://www.typescriptlang.org) | Tipado estricto de contenido, ilustraciones e i18n |
-| Diseño | [MUI 9](https://mui.com) + Emotion | Sistema de componentes, theming, `sx` prop |
-| Tipografía | `next/font` — Geist, Geist Mono, Fraunces | Fuente serif (Fraunces) para títulos, sans para cuerpo |
-| Carrusel | [Embla Carousel](https://www.embla-carousel.com/) | Efecto de "pasar páginas" en la vista de país |
-| Ilustraciones | SVG hechos a mano en React (sin librerías externas) | Una escena única por historia + un emblema por país |
-| i18n | Implementación propia (sin librería) | Diccionarios estáticos ES/EN + middleware de detección de idioma |
+| Framework | [Next.js 16](https://nextjs.org) (App Router) | Dynamic routes `[lang]/[country]`, static generation (`generateStaticParams`), dynamic metadata |
+| UI | [React 19](https://react.dev) | Server and client components |
+| Language | [TypeScript 5](https://www.typescriptlang.org) | Strict typing for content, illustrations, and i18n |
+| Design | [MUI 9](https://mui.com) + Emotion | Component system, theming, `sx` prop |
+| Typography | `next/font` — Geist, Geist Mono, Fraunces | Serif (Fraunces) for headings, sans for body copy |
+| Carousel | [Embla Carousel](https://www.embla-carousel.com/) | The "page turn" effect on country pages |
+| Illustrations | Hand-drawn SVG in React (no external libraries) | One unique scene per story, plus one emblem per country |
+| i18n | Custom implementation (no library) | Static ES/EN dictionaries + language-detection middleware |
+| Testing | Jest + React Testing Library, Cypress | Component tests and end-to-end browser tests (see [Audits, CI, error handling, and accessibility](#-audits-ci-error-handling-and-accessibility)) |
 | Lint | ESLint 9 (`eslint-config-next`) | — |
-| Deploy | [Vercel](https://vercel.com) | `metadataBase` apunta a `the-culture-atlas.vercel.app` |
+| Deploy | [Vercel](https://vercel.com) | `metadataBase` points at `the-culture-atlas.vercel.app` |
 
-No hay base de datos ni CMS: **todo el contenido vive en el repo como código TypeScript tipado**, lo que hace que agregar un país sea una operación de "agregar archivos", no de administrar infraestructura.
+There's no database or CMS: **all content lives in the repo as typed TypeScript code**, which turns adding a country into an "add some files" operation rather than an infrastructure-management one.
 
-## 🏗️ Arquitectura
+## 🏗️ Architecture
 
-El proyecto sigue una arquitectura de **contenido estático tipado + capas independientes** que se combinan solo en el momento de renderizar:
+The project follows a **typed static content + independent layers** architecture, where the layers only combine at render time:
 
 ```mermaid
 flowchart TD
-    subgraph Contenido["Capa de contenido (src/content/)"]
-        A["{país}.ts<br/>historias del país"]
-        B["countries.ts<br/>metadata + continente"]
-        C["index.ts<br/>helpers de localización"]
+    subgraph Content["Content layer (src/content/)"]
+        A["{country}.ts<br/>country stories"]
+        B["countries.ts<br/>metadata + continent"]
+        C["index.ts<br/>localization helpers"]
     end
 
-    subgraph Ilustraciones["Capa visual (src/illustrations/)"]
-        D["{país}.tsx<br/>una escena SVG por historia"]
-        E["emblems.tsx<br/>un emblema por país"]
-        F["palette.ts<br/>tinte/sombra/contraste de color"]
+    subgraph Illustrations["Visual layer (src/illustrations/)"]
+        D["{country}.tsx<br/>one SVG scene per story"]
+        E["emblems.tsx<br/>one emblem per country"]
+        F["palette.ts<br/>tint/shade/contrast"]
     end
 
-    subgraph i18nL["Capa de idioma (src/i18n/)"]
-        G["dictionaries.ts<br/>textos de UI ES/EN"]
-        H["config.ts<br/>locales válidos"]
+    subgraph i18nL["Language layer (src/i18n/)"]
+        G["dictionaries.ts<br/>ES/EN UI copy"]
+        H["config.ts<br/>valid locales"]
     end
 
-    subgraph Rutas["App Router (src/app/[lang]/)"]
-        I["page.tsx<br/>Inicio: estanterías"]
-        J["[country]/page.tsx<br/>Carrusel del libro"]
+    subgraph Routes["App Router (src/app/[lang]/)"]
+        I["page.tsx<br/>Home: shelves"]
+        J["[country]/page.tsx<br/>Book carousel"]
     end
 
     A & B --> C --> I & J
     D & E & F --> J
     D & E --> I
     G & H --> I & J
-    J -->|"proxy.ts"| K["Redirección automática<br/>según Accept-Language"]
+    J -->|"proxy.ts"| K["Automatic redirect<br/>based on Accept-Language"]
 
-    style Contenido fill:#e7e2d3,stroke:#1f3a5f,color:#1a1a1a
-    style Ilustraciones fill:#e7e2d3,stroke:#1f3a5f,color:#1a1a1a
+    style Content fill:#e7e2d3,stroke:#1f3a5f,color:#1a1a1a
+    style Illustrations fill:#e7e2d3,stroke:#1f3a5f,color:#1a1a1a
     style i18nL fill:#e7e2d3,stroke:#1f3a5f,color:#1a1a1a
-    style Rutas fill:#e7e2d3,stroke:#1f3a5f,color:#1a1a1a
+    style Routes fill:#e7e2d3,stroke:#1f3a5f,color:#1a1a1a
 ```
 
-**Principios clave:**
+**Key principles:**
 
-1. **Contenido e ilustración están desacoplados por convención de nombres**, no por referencia directa. `PageSpread` busca la ilustración de una historia con `getIllustration(countrySlug, entryId)` — si no existe, cae a un emoji placeholder. Esto permite escribir el contenido de un país sin bloquear la publicación por falta de ilustraciones.
-2. **Todo es server-side y estático por defecto.** Las páginas usan `generateStaticParams` para pre-renderizar cada combinación de idioma × país en build time; solo los componentes interactivos (carrusel, buscador, selector de idioma) son `"use client"`.
-3. **El color es el hilo conductor del diseño.** Cada historia tiene un `accentColor` propio; `src/illustrations/palette.ts` deriva tintes, sombras y color de texto legible (WCAG-ish, vía brillo YIQ) a partir de ese único color, sin paletas hardcodeadas por componente.
-4. **El idioma nunca se detecta en el cliente.** `src/proxy.ts` intercepta cada request, lee el header `Accept-Language` y redirige a `/es` o `/en` antes de que se renderice nada.
+1. **Content and illustrations are decoupled by naming convention**, not direct reference. `PageSpread` looks up a story's illustration via `getIllustration(countrySlug, entryId)` — if it doesn't exist, it falls back to a placeholder emoji. This lets content ship without being blocked on art.
+2. **Everything is server-side and static by default.** Pages use `generateStaticParams` to pre-render every language × country combination at build time; only the interactive components (carousel, search, language switcher) are `"use client"`.
+3. **Color is the design's connective thread.** Every story has its own `accentColor`; `src/illustrations/palette.ts` derives tints, shades, and readable text color (WCAG-ish, via YIQ brightness) from that single color, with no per-component hardcoded palettes.
+4. **Language is never detected client-side.** `src/proxy.ts` intercepts every request, reads the `Accept-Language` header, and redirects to `/es` or `/en` before anything renders.
 
-## 🗂️ Estructura del proyecto
+## 🗂️ Project structure
 
 ```
 src/
 ├── app/
-│   ├── sitemap.ts                # sitemap.xml (todas las páginas × locale, con hreflang)
-│   ├── robots.ts                 # robots.txt, apunta al sitemap
+│   ├── sitemap.ts                # sitemap.xml (every page × locale, with hreflang)
+│   ├── robots.ts                 # robots.txt, points at the sitemap
 │   └── [lang]/
-│       ├── layout.tsx           # Shell: fuentes, header, footer, tema MUI
-│       ├── page.tsx             # Inicio: estanterías por continente
-│       ├── [country]/page.tsx   # Carrusel del libro de un país
-│       ├── opengraph-image.tsx  # OG image dinámica
+│       ├── layout.tsx           # Shell: fonts, header, footer, MUI theme
+│       ├── page.tsx             # Home: shelves by continent
+│       ├── [country]/page.tsx   # A country's book carousel
+│       ├── opengraph-image.tsx  # Dynamic OG image
 │       └── icon.tsx / apple-icon.tsx
 │
-├── components/                  # Componentes de UI (MUI)
-│   ├── BookCarousel.tsx         # Carrusel "pasar página" (Embla)
-│   ├── BookCover.tsx            # Lomo de libro 3D en la estantería
-│   ├── BookPageFrame.tsx        # Marco compartido de una página
-│   ├── CoverPage.tsx            # Portada del libro de un país
-│   ├── PageSpread.tsx           # Una historia (ilustración + texto)
-│   ├── ShelfRow.tsx             # Estantería con scroll horizontal
-│   ├── ContinentChips.tsx       # Navegación rápida por continente
-│   ├── CountrySearch.tsx        # Buscador de países
-│   ├── LanguageSwitcher.tsx     # Selector ES/EN
-│   ├── Footer.tsx               # Progreso del proyecto (países/historias)
-│   └── ThemeRegistry.tsx        # Setup de MUI + Emotion cache
+├── components/                  # UI components (MUI)
+│   ├── BookCarousel.tsx         # "Page turn" carousel (Embla)
+│   ├── BookCover.tsx            # 3D book spine on the shelf
+│   ├── BookPageFrame.tsx        # Shared page frame
+│   ├── CoverPage.tsx            # A country's book cover
+│   ├── PageSpread.tsx           # One story (illustration + text)
+│   ├── ShelfRow.tsx             # Horizontally-scrolling shelf
+│   ├── ContinentChips.tsx       # Quick navigation by continent
+│   ├── CountrySearch.tsx        # Country search box
+│   ├── LanguageSwitcher.tsx     # ES/EN switcher
+│   ├── Footer.tsx               # Project progress (countries/stories)
+│   └── ThemeRegistry.tsx        # MUI + Emotion cache setup
 │
-├── content/                     # 🌍 Una fuente de la verdad por país
+├── content/                     # 🌍 One source of truth per country
 │   ├── types.ts                 # CultureEntry, Country, Locale, Continent
-│   ├── countries.ts             # Metadata de cada país (slug, continente, bandera)
-│   ├── index.ts                 # Mapa país→historias + helpers de localización
-│   └── {país}.ts                # Array de CultureEntry (10 historias, ES+EN)
+│   ├── countries.ts             # Per-country metadata (slug, continent, flag)
+│   ├── index.ts                 # Country→stories map + localization helpers
+│   └── {country}.ts             # Array of CultureEntry (10 stories, ES+EN)
 │
 ├── illustrations/
-│   ├── types.ts                 # IllustrationDefinition (component + variante)
-│   ├── index.ts                 # Mapa país→ilustraciones por id de historia
-│   ├── IllustrationFrame.tsx    # Fondo SVG compartido (variante ground/medallion)
-│   ├── emblems.tsx              # Emblema SVG único por país (para portada/lomo)
+│   ├── types.ts                 # IllustrationDefinition (component + variant)
+│   ├── index.ts                 # Country→illustrations map, keyed by story id
+│   ├── IllustrationFrame.tsx    # Shared SVG background (ground/medallion variant)
+│   ├── emblems.tsx              # One SVG emblem per country (cover/spine)
 │   ├── palette.ts                # tint / shade / averageColor / readableTextColor
-│   └── {país}.tsx                # Escenas SVG, una por historia del país
+│   └── {country}.tsx             # SVG scenes, one per story for that country
 │
 ├── i18n/
-│   ├── config.ts                 # locales válidos + locale por defecto
-│   └── dictionaries.ts           # Textos de UI en ES/EN
+│   ├── config.ts                 # Valid locales + default locale
+│   └── dictionaries.ts           # ES/EN UI copy
 │
-├── proxy.ts                      # Middleware: detecta idioma y redirige
-└── theme.ts                       # Tema MUI (tipografía, paleta base)
+├── proxy.ts                      # Middleware: detects language and redirects
+└── theme.ts                       # MUI theme (typography, base palette)
 ```
 
-## 📦 Modelo de contenido
+## 📦 Content model
 
-Cada país es un archivo `src/content/{slug}.ts` que exporta un array de `CultureEntry` (10 historias como piso inicial, ampliándose por lotes hasta su **tier asignado — 12, 15 o 20**), cada una con traducción completa a ambos idiomas:
+Every country is a `src/content/{slug}.ts` file exporting an array of `CultureEntry` (10 stories as a starting floor, expanded in batches up to the country's **assigned tier — 12, 15, or 20**), each fully translated into both languages:
 
 ```ts
 export const netherlands: CultureEntry[] = [
   {
-    id: "fiets",                 // vincula con la ilustración del mismo id
-    order: 1,                    // orden dentro del libro
-    accentColor: "#FF6B00",      // define todo el theming de la página
-    imageUrl: null,              // foto real opcional; si es null, se usa la ilustración SVG
-    placeholderEmoji: "🚲",       // fallback si tampoco hay ilustración
+    id: "fiets",                 // links to the illustration sharing this id
+    order: 1,                    // order within the book
+    accentColor: "#FF6B00",      // drives all of that page's theming
+    imageUrl: null,              // optional real photo; falls back to the SVG illustration if null
+    placeholderEmoji: "🚲",       // fallback if there's no illustration either
     translations: {
       es: { title, subtitle, description, imageAlt },
       en: { title, subtitle, description, imageAlt },
     },
   },
-  // ...resto de historias, hasta el tier asignado al país
+  // ...remaining stories, up to the country's assigned tier
 ];
 ```
 
-Ese país después se registra en dos lugares más:
+That country is then registered in two more places:
 
-- **`src/content/countries.ts`** — metadata liviana (slug, `flagEmoji`, `accentColor`, `continent`, nombre e intro traducidos).
-- **`src/content/index.ts`** — se importa y se agrega al mapa `contentByCountry`.
+- **`src/content/countries.ts`** — lightweight metadata (slug, `flagEmoji`, `accentColor`, `continent`, translated name and intro).
+- **`src/content/index.ts`** — imported and added to the `contentByCountry` map.
 
-> 📏 **Restricciones de contenido** (para que las páginas —de altura fija— no se rompan visualmente): títulos ≤55 caracteres, descripciones idealmente <850 caracteres (tope duro 1000). Ver el skill `illustrations` del repo para el detalle y el script de auditoría.
+> 📏 **Content constraints** (so the fixed-height pages never break visually): titles ≤55 characters, descriptions ideally under 850 characters (hard cap 1000). See the repo's `illustrations` skill for details and the audit script.
 
-## 🎨 Sistema de ilustraciones
+## 🎨 Illustration system
 
-No se usan imágenes ni librerías de íconos externas para las escenas: **cada historia tiene su propia ilustración SVG escrita a mano como componente React** en `src/illustrations/{país}.tsx`, con el mismo `id` que su historia en `content/`.
+Scenes use no images or external icon libraries: **every story has its own hand-written SVG illustration** as a React component in `src/illustrations/{country}.tsx`, sharing an `id` with its story in `content/`.
 
-- `IllustrationFrame` dibuja el fondo compartido (dos variantes: `ground` — suelo/horizonte, o `medallion` — círculo central) usando tintes derivados del `accentColor` de la historia.
-- `palette.ts` centraliza toda la lógica de color: `tint`/`shade` (mezclar con blanco/negro en espacio HSL), `readableTextColor` (blanco o negro legible según brillo YIQ) y `averageColor` (para el color de cada estantería de continente).
-- `emblems.tsx` tiene, además, **un emblema por país** (no por historia) usado en el lomo del libro y la portada.
+- `IllustrationFrame` draws the shared background (two variants: `ground` — floor/horizon, or `medallion` — centered circle) using tints derived from that story's `accentColor`.
+- `palette.ts` centralizes all color logic: `tint`/`shade` (blend toward white/black in HSL space), `readableTextColor` (readable white or black based on YIQ brightness), and `averageColor` (used for each continent shelf's color).
+- `emblems.tsx` also holds **one emblem per country** (not per story), used on the book spine and cover.
 
-Si una historia no tiene ilustración todavía, `PageSpread` cae automáticamente al `placeholderEmoji` de esa entrada — el contenido nunca queda bloqueado esperando arte.
+If a story doesn't have an illustration yet, `PageSpread` automatically falls back to that entry's `placeholderEmoji` — content is never blocked waiting on art.
 
-## 📇 Ficha de datos rápidos
+## 📇 Quick-facts card
 
-La portada de cada país (`CoverPage.tsx`) puede mostrar una pequeña grilla 2×2 con **capital, idioma, población y moneda**, debajo del emblema en escritorio y en formato lista en mobile. Es un campo opcional pensado para completarse por lotes, igual que las ilustraciones:
+Every country's cover (`CoverPage.tsx`) can show a small 2×2 grid with **capital, language, population, and currency**, below the emblem on desktop and as a list on mobile. It's an optional field meant to be filled in batches, same as the illustrations:
 
 ```ts
 export type CountryTranslation = {
   name: string;
   intro: string;
-  capital?: string;   // traducible: "Ámsterdam" / "Amsterdam"
-  language?: string;  // traducible: "Neerlandés" / "Dutch"
-  currency?: string;  // traducible: "Euro (€)" / "Euro (€)"
+  capital?: string;   // translatable: "Ámsterdam" / "Amsterdam"
+  language?: string;  // translatable: "Neerlandés" / "Dutch"
+  currency?: string;  // translatable: "Euro (€)" / "Euro (€)"
 };
 
 export type Country = {
   // ...
-  population?: number; // no traducible; se formatea por locale al renderizar
+  population?: number; // not translatable; formatted per locale at render time
 };
 ```
 
-- **Todo o nada**: `CoverPage` solo renderiza la grilla si el país tiene los cuatro campos (`capital`, `language`, `population`, `currency`) — nunca una ficha a medias.
-- **Ancho fijo, tipografía dinámica**: la grilla usa un ancho constante (no se achica ni se estira según el contenido) y el tamaño de fuente del valor baja automáticamente en textos largos (más de 16 o 26 caracteres), para que ningún dato pase de dos líneas — mismo patrón que ya usa `PageSpread.tsx` con descripciones largas.
-- La población se formatea con separador de miles por locale vía `src/i18n/format.ts` (`formatNumber`), reusado también en el `Footer`.
-- Estado actual: **los 206 países/territorios cargados ya tienen su ficha completa.**
+- **All or nothing**: `CoverPage` only renders the grid if the country has all four fields (`capital`, `language`, `population`, `currency`) — never a partial card.
+- **Fixed width, dynamic type size**: the grid uses a constant width (it never shrinks or grows with content), and a value's font size automatically steps down for longer text (over 16 or 26 characters) so nothing ever wraps past two lines — the same pattern `PageSpread.tsx` already uses for long descriptions.
+- Population is formatted with a locale-aware thousands separator via `src/i18n/format.ts` (`formatNumber`), also reused in the `Footer`.
+- All **206 loaded countries/territories already have a complete quick-facts card.**
 
-## 🌐 Internacionalización
+## 🌐 Internationalization
 
-El sitio es bilingüe (**es** por defecto, **en**) sin librerías de i18n:
+The site is bilingual (**es** by default, **en**) with no i18n library:
 
-- Todas las rutas están bajo `/[lang]/...`, validadas contra `src/i18n/config.ts`.
-- `src/proxy.ts` (middleware de Next.js) redirige `/` según el header `Accept-Language` del navegador.
-- Los textos de UI viven en `src/i18n/dictionaries.ts`; el contenido de cada país/historia lleva su propia traducción embebida (`translations.es` / `translations.en`) en su archivo de `content/`.
-- `localizeCountry` / `localizeEntry` (en `content/index.ts`) aplanan esas traducciones al idioma activo antes de llegar a los componentes.
+- Every route lives under `/[lang]/...`, validated against `src/i18n/config.ts`.
+- `src/proxy.ts` (Next.js middleware) redirects `/` based on the browser's `Accept-Language` header.
+- UI copy lives in `src/i18n/dictionaries.ts`; each country/story's content carries its own embedded translation (`translations.es` / `translations.en`) in its `content/` file.
+- `localizeCountry` / `localizeEntry` (in `content/index.ts`) flatten those translations into the active locale before they reach any component.
 
-## ➕ Cómo agregar un país nuevo
+## ➕ How to add a new country
 
-1. Crear `src/content/{slug}.ts` con **exactamente 10** `CultureEntry`, en ES y EN, respetando los límites de longitud.
-2. Registrar el país en `src/content/countries.ts` (slug, bandera, continente, color, traducciones de nombre/intro, **y la ficha de datos rápidos**: `population` a nivel país, más `capital`/`language`/`currency` dentro de cada traducción — ver [Ficha de datos rápidos](#-ficha-de-datos-rápidos)).
-3. Importarlo en `src/content/index.ts` y sumarlo al mapa `contentByCountry`.
-4. Crear `src/illustrations/{slug}.tsx` con una escena SVG por historia (mismo `id`), y sumar un emblema nuevo y visualmente distinto en `emblems.tsx`.
-5. Registrar las ilustraciones en `src/illustrations/index.ts`.
+1. Create `src/content/{slug}.ts` with **exactly 10** `CultureEntry` objects, in ES and EN, respecting the length limits.
+2. Register the country in `src/content/countries.ts` (slug, flag, continent, color, translated name/intro, **and the quick-facts card**: `population` at the country level, plus `capital`/`language`/`currency` inside each translation — see [Quick-facts card](#-quick-facts-card)).
+3. Import it in `src/content/index.ts` and add it to the `contentByCountry` map.
+4. Create `src/illustrations/{slug}.tsx` with one SVG scene per story (matching `id`s), and add a new, visually distinct emblem in `emblems.tsx`.
+5. Register the illustrations in `src/illustrations/index.ts`.
 
-Todo lo demás (rutas, `generateStaticParams`, estanterías del inicio, contador del footer) se deriva automáticamente de esos archivos — no hay que tocar rutas ni componentes de UI.
+Everything else (routes, `generateStaticParams`, home-page shelves, the footer counter) derives automatically from those files — no routes or UI components need to change.
 
-> 💡 Hay un skill de Claude Code (`.claude/skills/illustrations/SKILL.md`) con el estándar completo, gotchas conocidos y el tracker de progreso para este flujo.
+> 💡 There's a Claude Code skill (`.claude/skills/illustrations/SKILL.md`) with the full standard, known gotchas, and the progress tracker for this workflow.
 
-## 🚀 Empezar a desarrollar
+## 🚀 Getting started
 
 ```bash
 npm install
 npm run dev       # http://localhost:3000
 ```
 
-| Script | Qué hace |
+| Script | What it does |
 |---|---|
-| `npm run dev` | Servidor de desarrollo (Turbopack) |
-| `npm run build` | Build de producción (Webpack) |
-| `npm run start` | Sirve el build de producción |
-| `npm run lint` | ESLint sobre todo el proyecto |
-| `npm run audit` | Corre los 4 audits de contenido/ilustraciones (ver abajo) |
-| `npm run cy:open` | Abre Cypress en modo interactivo (requiere `npm run dev` corriendo) |
-| `npm run e2e` | Levanta el build de producción y corre los tests E2E de Cypress en headless (ver abajo) |
+| `npm run dev` | Development server (Turbopack) |
+| `npm run build` | Production build (Webpack) |
+| `npm run start` | Serves the production build |
+| `npm run lint` | ESLint across the whole project |
+| `npm run audit` | Runs the 4 content/illustration audits (see below) |
+| `npm run cy:open` | Opens Cypress interactively (requires `npm run dev` running) |
+| `npm run e2e` | Builds and serves the production app, then runs the Cypress E2E suite headlessly (see below) |
+| `npm run test` | Runs component tests with Jest + React Testing Library |
+| `npm run test:watch` | Same, in watch mode |
 
-> Este proyecto usa una versión de Next.js con cambios de API respecto a lo habitual — antes de tocar código, `AGENTS.md` indica revisar `node_modules/next/dist/docs/` para las convenciones vigentes.
+> This project runs a version of Next.js with API changes relative to what you may know — before touching code, `AGENTS.md` points to `node_modules/next/dist/docs/` for the conventions currently in effect.
 
-## 🔍 Auditorías, CI, errores y accesibilidad
+## 🔍 Audits, CI, error handling, and accessibility
 
-Con 206 países y ~3100 historias escritas y editadas en lotes, varios bugs se repetían de forma mecánica (un `id` de historia que no matchea su ilustración, una key de React duplicada por un `.map` mal indexado, texto blanco sobre un `accentColor` claro). En vez de revisarlos a mano, cada patrón se convirtió en un script de auditoría que corre en cada push:
+With 206 countries and ~3100 stories written and edited in batches, a handful of bugs kept recurring mechanically (a story `id` that doesn't match its illustration, a duplicate React key from a mis-indexed `.map`, white text on a pale `accentColor`). Instead of catching them by hand, each pattern became an audit script that runs on every push:
 
-| Script | Qué valida |
+| Script | What it checks |
 |---|---|
-| `npm run audit:ids` | Cada `id` de `content/{país}.ts` tiene su ilustración registrada en `illustrations/index.ts`, y viceversa |
-| `npm run audit:lengths` | Títulos ≤55 y descripciones ≤1000 caracteres, en las 3096 entradas |
-| `npm run audit:duplicate-keys` | Ninguna ilustración renderiza dos elementos con la misma `key` de React (bug real encontrado 12 veces, siempre por un `.map` keyeado con una sola coordenada/color que se repite) |
-| `npm run audit:contrast` | El texto de los chips de subtítulo es legible (`readableTextColor`) contra cualquier `accentColor` en uso |
+| `npm run audit:ids` | Every `id` in `content/{country}.ts` has a matching illustration registered in `illustrations/index.ts`, and vice versa |
+| `npm run audit:lengths` | Titles ≤55 and descriptions ≤1000 characters, across all 3096 entries |
+| `npm run audit:duplicate-keys` | No illustration renders two elements with the same React `key` (a real bug found 12 times, always a `.map` keyed on a single repeating coordinate or color) |
+| `npm run audit:contrast` | Subtitle-chip text stays readable (`readableTextColor`) against every `accentColor` in use |
 
-Además, `cypress/e2e/*.cy.ts` cubre el comportamiento en el navegador: redirección/cambio de idioma, búsqueda de país, navegación del carrusel de páginas y las páginas de error 404 (localizada y global).
+In addition:
+- `cypress/e2e/*.cy.ts` covers end-to-end browser behavior: locale redirect/switching, country search, book-carousel navigation, and the 404 pages (localized and global).
+- Component tests with Jest + React Testing Library (`src/**/*.test.{ts,tsx}`, colocated next to the code they test) cover reusable pure logic — `palette.ts` (tint/shade/contrast), `format.ts`, the localization helpers in `content/index.ts` — and the interactive client components (`CountrySearch`, `ContinentChips`, `LanguageSwitcher`). Jest doesn't yet run the async Server Components (the pages themselves) — that's exactly what the Cypress suite above covers.
 
-`.github/workflows/ci.yml` corre typecheck → lint → `npm run audit` → build → tests E2E (Cypress) en cada push y PR a `main`.
+`.github/workflows/ci.yml` runs: generate route types (`next typegen` — Next's `PageProps`/`LayoutProps` helpers don't exist on a fresh checkout otherwise) → typecheck (app and Cypress separately, each with its own `tsconfig.json`, since Cypress's and Jest's global types collide if they share one program) → lint → `npm run audit` → component tests (Jest) → build → E2E tests (Cypress), on every push and PR to `main`.
 
-**Accesibilidad:** las 208 ilustraciones SVG (una por historia, dibujadas a mano) tienen `role="img"` + `aria-label` tomado del `imageAlt` de cada historia — antes ese campo solo se usaba para fotos reales (`imageUrl`), nunca para el SVG. Los emblemas de portada/lomo son puramente decorativos junto al nombre del país (que ya es un `<h1>`), así que van con `aria-hidden`.
+**Accessibility:** all 208 hand-drawn SVG illustrations (one per story) get `role="img"` + `aria-label` sourced from each entry's `imageAlt` field, which previously was only wired up for the real-photo (`imageUrl`) fallback path, never the SVG. The three cover/spine `<Emblem>` render sites get `aria-hidden="true"`, since they're purely decorative next to the country name, which is already an `<h1>`.
 
-**Manejo de errores:** como el layout raíz vive en `app/[lang]/layout.tsx` (un segmento dinámico, no un layout fijo), hacen falta dos niveles de páginas de error:
+**Error handling:** since the root layout lives at `app/[lang]/layout.tsx` (a dynamic segment, not a fixed layout), two levels of error pages are needed:
 
-- `app/[lang]/not-found.tsx` y `app/[lang]/error.tsx` — país inexistente o error de render con un idioma válido; se ven con el header/footer normales del sitio y detectan el idioma vía `usePathname` (los archivos especiales de Next no reciben `params`).
-- `app/global-not-found.tsx` y `app/global-error.tsx` — cubren el caso en que el primer segmento de la URL ni siquiera es un idioma válido (p. ej. un bot pidiendo `/algo.php`), donde el layout de `[lang]` nunca llega a montarse; definen su propio `<html>`/`<body>` bilingüe. Requiere el flag `experimental.globalNotFound` en `next.config.ts`.
+- `app/[lang]/not-found.tsx` and `app/[lang]/error.tsx` — a nonexistent country or a render error under a valid language; rendered inside the site's normal header/footer, detecting the locale via `usePathname` (Next's special files don't receive `params`).
+- `app/global-not-found.tsx` and `app/global-error.tsx` — cover the case where the URL's first segment isn't even a valid language at all (e.g. a bot requesting `/something.php`), where the `[lang]` layout never mounts; they define their own bilingual `<html>`/`<body>`. Requires the `experimental.globalNotFound` flag in `next.config.ts`.
 
-## 📊 Estado del proyecto
+## 🔀 Git workflow and deployment
 
-El objetivo es cubrir los **~206 países** del mundo. Estado actual (el conteo de países/historias del pie del sitio se calcula en vivo desde el contenido, así que siempre está al día — los números de abajo son una foto del momento):
+GitHub Actions and Vercel are two independent systems reacting to the same git events — Vercel doesn't wait on CI by default. To make sure nothing broken reaches production, changes go through a branch + PR instead of a direct push to `main`:
 
-- **206** países/territorios cargados, repartidos en 6 continentes (Europa, África, Asia, Norteamérica, Sudamérica, Oceanía) — los 206 tienen también su ficha de datos rápidos completa (capital, idioma, población, moneda).
-- Cada país tiene un **tier asignado** (12, 15 o 20 historias) según su relevancia; la expansión de historias avanza por lotes, continente por continente, hasta que cada país llega a su tier.
+```
+push a branch → open a PR → CI runs + Vercel creates a Preview Deployment
+                                  │
+                     CI red  → merge button stays disabled, fix and push again
+                     CI green → merge is allowed
+                                  │
+                        merge → that's the actual push to main
+                                  │
+                          Vercel deploys main to production
+```
+
+`main` is a protected branch: a PR can't be merged until the `verify` check (the CI job above) passes. Vercel itself never "waits" for CI — it just never sees a broken commit on `main`, because the merge gate stops it from getting there. Every PR also gets its own Vercel Preview URL for reviewing the actual deployed app before merging, independent of the CI result.
 
 ---
 
 <div align="center">
 
-Hecho en Buenos Aires, Argentina 🇦🇷
+Made in Buenos Aires, Argentina 🇦🇷
 
 </div>

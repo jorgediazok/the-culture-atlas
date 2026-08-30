@@ -18,14 +18,23 @@ jobs:
 
       - run: npm ci
 
+      - name: Generate route types
+        run: npx next typegen
+
       - name: Type check
         run: npx tsc --noEmit
+
+      - name: Type check (Cypress)
+        run: npx tsc --noEmit -p cypress/tsconfig.json
 
       - name: Lint
         run: npm run lint
 
       - name: Content/illustration audits
         run: npm run audit
+
+      - name: Component tests (Jest)
+        run: npm run test
 
       - name: Build
         run: npm run build
