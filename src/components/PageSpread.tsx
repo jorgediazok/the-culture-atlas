@@ -8,6 +8,7 @@ import Image from "next/image";
 import type { LocalizedCultureEntry } from "@/content/types";
 import { getIllustration } from "@/illustrations";
 import IllustrationFrame from "@/illustrations/IllustrationFrame";
+import { readableTextColor } from "@/illustrations/palette";
 import BookPageFrame from "./BookPageFrame";
 import { useContainScroll } from "./useContainScroll";
 
@@ -150,7 +151,7 @@ export default function PageSpread({
               sx={{
                 alignSelf: "flex-start",
                 backgroundColor: entry.accentColor,
-                color: "#fff",
+                color: readableTextColor(entry.accentColor),
                 fontWeight: 600,
               }}
             />

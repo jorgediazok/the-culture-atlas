@@ -82,7 +82,9 @@ export default async function LangLayout({
               justifyContent: "space-between",
               alignItems: "center",
               px: { xs: 2, md: 4 },
-              py: 2,
+              py: 2.25,
+              borderBottom: "1px solid",
+              borderColor: "divider",
             }}
           >
             <Link href={`/${lang}`} style={{ textDecoration: "none", color: "inherit" }}>
@@ -90,6 +92,8 @@ export default async function LangLayout({
                 sx={{
                   fontFamily: "var(--font-fraunces), serif",
                   fontWeight: 600,
+                  fontSize: "1.15rem",
+                  letterSpacing: "0.01em",
                 }}
               >
                 {dict.brand}
