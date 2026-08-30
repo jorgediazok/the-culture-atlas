@@ -44,16 +44,25 @@ const GasNaturalRiquezaPerCapita: IllustrationComponent = ({ accentColor }) => {
 
 const BloqueoVacasVoladoras: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
+  const metal = "#B0B8BF";
   return (
     <g>
-      <path d="M140 200 L270 200 L260 175 L150 175 Z" fill="#B0B8BF" stroke={dark} strokeWidth="3" />
-      <path d="M270 200 L290 190 L285 175 L260 175 Z" fill="#78909C" stroke={dark} strokeWidth="2" />
-      <ellipse cx="205" cy="230" rx="35" ry="18" fill="#fff" stroke={dark} strokeWidth="2.5" />
-      {[[185, 222], [220, 226]].map(([x, y]) => (
-        <ellipse key={x as number} cx={x} cy={y} rx="8" ry="6" fill="#1A1A1A" />
-      ))}
-      <path d="M170 235 L170 245 M240 235 L240 245" stroke={dark} strokeWidth="4" />
-      <path d="M100 180 Q120 175 140 180" fill="none" stroke="#E8E4DC" strokeWidth="5" strokeLinecap="round" opacity="0.7" />
+      {/* cargo plane fuselage, side view */}
+      <rect x="120" y="175" width="160" height="35" rx="16" fill={metal} stroke={dark} strokeWidth="3" />
+      <path d="M280 178 Q302 192 280 208 Z" fill={metal} stroke={dark} strokeWidth="2.5" />
+      <path d="M122 175 L102 148 L134 175 Z" fill={metal} stroke={dark} strokeWidth="2.5" />
+      <path d="M180 210 L150 236 L222 212 Z" fill={dark} opacity="0.5" />
+
+      {/* open cargo door, with the cow visible inside it — not floating below the plane */}
+      <rect x="158" y="181" width="64" height="26" fill={dark} opacity="0.85" />
+      <ellipse cx="190" cy="204" rx="21" ry="11" fill="#fff" stroke={dark} strokeWidth="2" />
+      <circle cx="180" cy="198" r="3.5" fill="#1A1A1A" />
+      <circle cx="200" cy="200" r="3.5" fill="#1A1A1A" />
+      <path d="M176 213 L176 220 M204 213 L204 220" stroke={dark} strokeWidth="3" />
+
+      {/* clouds */}
+      <path d="M95 165 Q115 158 135 165" fill="none" stroke="#E8E4DC" strokeWidth="5" strokeLinecap="round" opacity="0.7" />
+      <path d="M270 150 Q288 144 305 150" fill="none" stroke="#E8E4DC" strokeWidth="4" strokeLinecap="round" opacity="0.6" />
     </g>
   );
 };

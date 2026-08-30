@@ -72,10 +72,14 @@ const OnsenCulturaTermal: IllustrationComponent = ({ accentColor }) => {
 const KintsugiArteDeReparar: IllustrationComponent = ({ accentColor }) => {
   const dark = shade(accentColor, 0.4);
   const gold = "#D4A017";
+  const cracks = "M170 150 Q190 175 180 210 M230 155 Q210 180 220 220 M205 118 Q205 160 205 235";
   return (
     <g>
       <path d="M155 235 Q140 200 150 160 Q160 125 205 118 Q250 125 260 160 Q270 200 255 235 Z" fill={accentColor} stroke={dark} strokeWidth="3" />
-      <path d="M170 150 Q190 175 180 210 M230 155 Q210 180 220 220 M205 118 Q205 160 205 235" stroke={gold} strokeWidth="4" strokeLinecap="round" fill="none" />
+      {/* a dark halo under the gold crack lines keeps them visible even when an entry's own
+          accentColor happens to be the same gold as the crack color (as it is here) */}
+      <path d={cracks} stroke={dark} strokeWidth="7" strokeLinecap="round" fill="none" opacity="0.6" />
+      <path d={cracks} stroke={gold} strokeWidth="3.5" strokeLinecap="round" fill="none" />
     </g>
   );
 };

@@ -323,17 +323,26 @@ const Borges: IllustrationComponent = ({ accentColor }) => {
           precomputed — Math.cos/sin at render time isn't guaranteed
           bit-identical across server and client CPUs, which broke India's
           emblem the same way earlier this project. */}
-      {BORGES_SPIRAL.map(([ring, x, y]) => (
-        <rect
-          key={`${ring}-${x}-${y}`}
-          x={x - 3}
-          y={y - 9}
-          width="6"
-          height="18"
-          fill={ring % 2 === 0 ? accentColor : dark}
-          opacity={0.4 + ring * 0.15}
-        />
-      ))}
+      {BORGES_SPIRAL.map(([ring, x, y]) => {
+        // Ring 0 is the widest, outermost arc (closest to the viewer); ring 3 is the
+        // tightest, innermost one (deepest into the spiral). Shrinking size and fading
+        // opacity as ring increases is what actually reads as "receding into the
+        // distance" — same-sized, evenly-opaque bars at every ring just look like noise.
+        const scale = 1 - ring * 0.16;
+        const w = 7 * scale;
+        const h = 20 * scale;
+        return (
+          <rect
+            key={`${ring}-${x}-${y}`}
+            x={x - w / 2}
+            y={y - h / 2}
+            width={w}
+            height={h}
+            fill={ring % 2 === 0 ? accentColor : dark}
+            opacity={0.9 - ring * 0.18}
+          />
+        );
+      })}
       <circle cx="200" cy="168" r="9" fill={light} />
     </g>
   );

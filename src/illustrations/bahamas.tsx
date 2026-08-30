@@ -97,6 +97,18 @@ const ElCaracolElAlimentoYSimboloNacional: IllustrationComponent = ({ accentColo
         strokeWidth="2.6"
       />
       <ellipse cx="205" cy="200" rx="20" ry="30" fill="#F5D6DE" opacity="0.9" />
+
+      {/* plate of fresh conch salad, next to the shell per the imageAlt */}
+      <ellipse cx="118" cy="215" rx="35" ry="14" fill="#F5F0E6" stroke="#7A1818" strokeWidth="2" />
+      {[
+        [102, 211, "#F5D6DE"],
+        [118, 207, "#C1272D"],
+        [134, 212, "#7AA24D"],
+        [110, 218, "#F4A300"],
+        [128, 219, "#F5D6DE"],
+      ].map(([x, y, color]) => (
+        <circle key={x as number} cx={x} cy={y} r="4" fill={color as string} />
+      ))}
     </g>
   );
 };
