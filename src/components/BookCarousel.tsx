@@ -88,9 +88,6 @@ export default function BookCarousel({
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [flip, setFlip] = useState<Flip | null>(null);
   const slideNodes = useRef<HTMLElement[]>([]);
-  const [mobileHeight, setMobileHeight] = useState<number | undefined>(
-    undefined
-  );
   const theme = useTheme();
   // Desktop (mouse) users only page-turn via click or the arrow buttons —
   // Embla's own drag/swipe is switched off there below. Mobile keeps plain
@@ -161,22 +158,6 @@ export default function BookCarousel({
       emblaApi.off("select", onSelect);
     };
   }, [emblaApi]);
-
-  // Mobile has no fixed slide height (see the comment below), so a plain
-  // flex row sizes itself to the *tallest* slide in the whole book — every
-  // page, including the cover, was inheriting scroll height from whichever
-  // entry has the longest description, even while showing a much shorter
-  // page. Pin the row to the current slide's own measured height instead.
-  useEffect(() => {
-    if (isDesktop) return;
-    const node = slideNodes.current[selectedIndex];
-    if (!node) return;
-    const update = () => setMobileHeight(node.getBoundingClientRect().height);
-    update();
-    const observer = new ResizeObserver(update);
-    observer.observe(node);
-    return () => observer.disconnect();
-  }, [isDesktop, selectedIndex, slides.length]);
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -271,26 +252,14 @@ export default function BookCarousel({
         </Typography>
       </Stack>
 
-      {/* Fixed height on desktop so every page renders at the same size
-          regardless of how much text an entry has — otherwise a long
-          description stretches the whole row (including the illustration
-          side) to match it. Mobile pins to the current slide's own
-          measured height (see the effect above) instead of a plain
-          flexbox auto-height, which would size to the tallest slide in
-          the book even while showing a much shorter one. */}
-      <Box sx={{ position: "relative", height: { xs: mobileHeight, md: 680 } }}>
+      {/* Same fixed height at every breakpoint so every page — cover
+          included — renders at the same size regardless of how much text
+          an entry has. CoverPage/PageSpread fit their content into it and
+          fall back to internal scrolling for the rare outlier that's still
+          long after trimming the copy itself. */}
+      <Box sx={{ position: "relative", height: 680 }}>
         <Box ref={emblaRef} sx={{ overflow: "hidden", height: "100%" }}>
-          {/* alignItems stretch is the flex default — fine on desktop where
-              every slide already has a fixed height, but on mobile it would
-              stretch every slide (including the cover) to match whichever
-              sibling page has the longest text, leaving huge empty gaps. */}
-          <Box
-            sx={{
-              display: "flex",
-              height: { md: "100%" },
-              alignItems: { xs: "flex-start", md: "stretch" },
-            }}
-          >
+          <Box sx={{ display: "flex", height: "100%", alignItems: "stretch" }}>
             {slides.map((slide, index) => (
               <Box
                 key={index}
@@ -310,7 +279,13 @@ export default function BookCarousel({
                 sx={{
                   flex: "0 0 100%",
                   minWidth: 0,
-                  height: { md: "100%" },
+                  height: "100%",
+                  // A small inset on mobile keeps neighboring pages from
+                  // touching edge-to-edge while dragging, so the carousel
+                  // reads as distinct page cards instead of one continuous
+                  // strip. Desktop pages already touch by design — the
+                  // click-to-flip frame fills the slide exactly.
+                  px: { xs: 1.25, md: 0 },
                   cursor: { md: "pointer" },
                   transformOrigin: "center left",
                 }}
@@ -323,9 +298,9 @@ export default function BookCarousel({
 
         {/* Page-turn overlay for discrete moves — only ever covers the one
             half that's actually turning, hinged at the book's own spine.
-            Desktop only: needs the fixed-height frame above to have
-            something definite to fill, which mobile's stacked,
-            content-driven height doesn't give it. */}
+            Desktop only: mobile keeps plain swipe/drag (see isDesktop
+            above) instead of a discrete click-triggered turn, so there's
+            no flip to play there. */}
         {flip && (
           <Box
             sx={{

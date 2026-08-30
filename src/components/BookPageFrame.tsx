@@ -52,6 +52,10 @@ export default function BookPageFrame({
           borderColor: "divider",
           width: "100%",
           height: "100%",
+          // On mobile there's no stacked-page-edge illusion (the decorative
+          // layers above are desktop-only), so a real shadow is what sells
+          // each slide as its own page card while swiping between them.
+          boxShadow: { xs: "0 14px 30px -10px rgba(20,14,6,0.35)", md: "none" },
         }}
       >
         {children}

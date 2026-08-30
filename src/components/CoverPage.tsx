@@ -1,3 +1,5 @@
+"use client";
+
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
@@ -6,6 +8,7 @@ import { getEmblem } from "@/illustrations/emblems";
 import { readableTextColor } from "@/illustrations/palette";
 import { formatNumber } from "@/i18n/format";
 import BookPageFrame from "./BookPageFrame";
+import { useContainScroll } from "./useContainScroll";
 
 export default function CoverPage({
   country,
@@ -28,6 +31,7 @@ export default function CoverPage({
 }) {
   const Emblem = getEmblem(country.slug);
   const textColor = readableTextColor(country.accentColor);
+  const scrollRef = useContainScroll<HTMLDivElement>();
 
   // A country either has all four quick facts or none — no partial grids.
   const hasFacts =
@@ -57,17 +61,24 @@ export default function CoverPage({
           text side) doesn't translate to a stacked layout — it just reads
           as two disconnected slabs with dead space between them. */}
       <Box
+        ref={scrollRef}
         sx={{
           display: { xs: "flex", md: "none" },
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "space-evenly",
           textAlign: "center",
-          gap: 3,
-          pt: 7,
-          pb: 6,
+          gap: 2,
+          pt: 4,
+          pb: 3,
           px: 4,
-          minHeight: { xs: 1000 },
+          // Same fixed height as every other page (set in BookCarousel) —
+          // this scrolls internally instead of forcing its own taller
+          // frame, so the cover never stretches the whole carousel row.
+          // useContainScroll (see the ref above) stops that inner scroll
+          // from chaining into the outer page at its top/bottom edge.
+          height: "100%",
+          overflowY: "auto",
           backgroundColor: country.accentColor,
           color: textColor,
         }}
@@ -75,8 +86,9 @@ export default function CoverPage({
         {Emblem ? (
           <Box
             sx={{
-              width: 220,
-              height: 220,
+              width: 150,
+              height: 150,
+              flexShrink: 0,
               borderRadius: "50%",
               display: "flex",
               alignItems: "center",
@@ -87,18 +99,18 @@ export default function CoverPage({
               "&::before": {
                 content: '""',
                 position: "absolute",
-                inset: "11px",
+                inset: "9px",
                 borderRadius: "50%",
                 border: "1px solid rgba(0,0,0,0.22)",
               },
               "&::after": {
                 content: '""',
                 position: "absolute",
-                bottom: -6,
+                bottom: -5,
                 left: "50%",
                 transform: "translateX(-50%)",
-                width: "2.2px",
-                height: "13px",
+                width: "2px",
+                height: "11px",
                 backgroundColor: textColor,
                 opacity: 0.4,
               },
@@ -107,16 +119,16 @@ export default function CoverPage({
             <Box
               sx={{
                 position: "absolute",
-                top: -6,
+                top: -5,
                 left: "50%",
                 transform: "translateX(-50%)",
-                width: "2.2px",
-                height: "13px",
+                width: "2px",
+                height: "11px",
                 backgroundColor: textColor,
                 opacity: 0.4,
               }}
             />
-            <Box sx={{ width: 150, height: 150 }}>
+            <Box sx={{ width: 102, height: 102 }}>
               <Emblem accentColor={country.accentColor} />
             </Box>
           </Box>
@@ -127,22 +139,23 @@ export default function CoverPage({
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: 2.5,
+            gap: 1.5,
+            flexShrink: 0,
           }}
         >
-          <Box sx={{ width: 48, height: "2px", backgroundColor: textColor, opacity: 0.35 }} />
+          <Box sx={{ width: 40, height: "2px", backgroundColor: textColor, opacity: 0.35 }} />
 
-          <Typography variant="h3" component="h1" sx={{ fontWeight: 700 }}>
+          <Typography variant="h4" component="h1" sx={{ fontWeight: 700 }}>
             {country.name}
           </Typography>
 
-          <Typography sx={{ lineHeight: 1.7, opacity: 0.92, maxWidth: 340 }}>
+          <Typography sx={{ fontSize: 14.5, lineHeight: 1.6, opacity: 0.92, maxWidth: 340 }}>
             {country.intro}
           </Typography>
         </Box>
 
         {hasFacts ? (
-          <Box sx={{ width: "100%", maxWidth: 300, mb: 1 }}>
+          <Box sx={{ width: "100%", maxWidth: 300, flexShrink: 0 }}>
             <Box
               sx={{
                 width: 40,
@@ -150,7 +163,7 @@ export default function CoverPage({
                 backgroundColor: textColor,
                 opacity: 0.35,
                 mx: "auto",
-                mb: 2.5,
+                mb: 1.5,
               }}
             />
             <Box
@@ -203,6 +216,7 @@ export default function CoverPage({
           sx={{
             display: "inline-flex",
             alignItems: "center",
+            flexShrink: 0,
             border: "1px solid",
             borderColor: textColor,
             borderRadius: 999,
