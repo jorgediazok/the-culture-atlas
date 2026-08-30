@@ -270,6 +270,8 @@ npm run dev       # http://localhost:3000
 | `npm run start` | Sirve el build de producción |
 | `npm run lint` | ESLint sobre todo el proyecto |
 | `npm run audit` | Corre los 4 audits de contenido/ilustraciones (ver abajo) |
+| `npm run cy:open` | Abre Cypress en modo interactivo (requiere `npm run dev` corriendo) |
+| `npm run e2e` | Levanta el build de producción y corre los tests E2E de Cypress en headless (ver abajo) |
 
 > Este proyecto usa una versión de Next.js con cambios de API respecto a lo habitual — antes de tocar código, `AGENTS.md` indica revisar `node_modules/next/dist/docs/` para las convenciones vigentes.
 
@@ -284,7 +286,9 @@ Con 206 países y ~3100 historias escritas y editadas en lotes, varios bugs se r
 | `npm run audit:duplicate-keys` | Ninguna ilustración renderiza dos elementos con la misma `key` de React (bug real encontrado 12 veces, siempre por un `.map` keyeado con una sola coordenada/color que se repite) |
 | `npm run audit:contrast` | El texto de los chips de subtítulo es legible (`readableTextColor`) contra cualquier `accentColor` en uso |
 
-`.github/workflows/ci.yml` corre typecheck → lint → `npm run audit` → build en cada push y PR a `main`.
+Además, `cypress/e2e/*.cy.ts` cubre el comportamiento en el navegador: redirección/cambio de idioma, búsqueda de país, navegación del carrusel de páginas y las páginas de error 404 (localizada y global).
+
+`.github/workflows/ci.yml` corre typecheck → lint → `npm run audit` → build → tests E2E (Cypress) en cada push y PR a `main`.
 
 **Accesibilidad:** las 208 ilustraciones SVG (una por historia, dibujadas a mano) tienen `role="img"` + `aria-label` tomado del `imageAlt` de cada historia — antes ese campo solo se usaba para fotos reales (`imageUrl`), nunca para el SVG. Los emblemas de portada/lomo son puramente decorativos junto al nombre del país (que ya es un `<h1>`), así que van con `aria-hidden`.
 

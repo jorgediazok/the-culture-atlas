@@ -53,6 +53,7 @@ export default function CountrySearch({
 
       {results.length > 0 && (
         <Box
+          data-testid="country-search-results"
           sx={{
             position: "absolute",
             top: "100%",

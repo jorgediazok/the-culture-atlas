@@ -29,3 +29,10 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: E2E tests (Cypress)
+        uses: cypress-io/github-action@v6
+        with:
+          install: false
+          start: npm start
+          wait-on: "http://localhost:3000"
