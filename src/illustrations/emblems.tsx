@@ -2551,6 +2551,41 @@ const SintMaarten: EmblemComponent = () => (
   </svg>
 );
 
+const Israel: EmblemComponent = () => {
+  const metal = "#B8912F";
+  const dark = "#6B5220";
+  const flame = "#F0C040";
+  const flameDark = "#C97A1E";
+  const xs = [20, 32, 42, 50, 58, 68, 80];
+  return (
+    <svg viewBox="0 0 100 110" width="100%" height="100%">
+      {/* flared foot */}
+      <path d="M30 98 L70 98 L58 86 L42 86 Z" fill={metal} stroke={dark} strokeWidth="2.5" />
+      {/* central stem, the seventh light */}
+      <rect x="47" y="30" width="6" height="58" fill={metal} stroke={dark} strokeWidth="2" />
+      {/* six branches, symmetric pairs curving out and up to the same height */}
+      <path d="M50 80 Q80 80 80 30" fill="none" stroke={metal} strokeWidth="6" strokeLinecap="round" />
+      <path d="M50 80 Q20 80 20 30" fill="none" stroke={metal} strokeWidth="6" strokeLinecap="round" />
+      <path d="M50 65 Q68 65 68 30" fill="none" stroke={metal} strokeWidth="6" strokeLinecap="round" />
+      <path d="M50 65 Q32 65 32 30" fill="none" stroke={metal} strokeWidth="6" strokeLinecap="round" />
+      <path d="M50 50 Q58 50 58 30" fill="none" stroke={metal} strokeWidth="6" strokeLinecap="round" />
+      <path d="M50 50 Q42 50 42 30" fill="none" stroke={metal} strokeWidth="6" strokeLinecap="round" />
+      {/* seven candle cups, each with its own flame */}
+      {xs.map((x) => (
+        <g key={x}>
+          <path d={`M${x - 5} 30 L${x + 5} 30 L${x + 3} 22 L${x - 3} 22 Z`} fill={dark} />
+          <path
+            d={`M${x} 21 Q${x + 5} 12 ${x} 4 Q${x - 5} 12 ${x} 21 Z`}
+            fill={flame}
+            stroke={flameDark}
+            strokeWidth="1.2"
+          />
+        </g>
+      ))}
+    </svg>
+  );
+};
+
 export const emblems: Record<string, EmblemComponent> = {
   netherlands: Netherlands,
   belgium: Belgium,
@@ -2576,6 +2611,7 @@ export const emblems: Record<string, EmblemComponent> = {
   zimbabwe: Zimbabwe,
   china: China,
   iran: Iran,
+  israel: Israel,
   palestine: Palestine,
   "papua-new-guinea": PapuaNewGuinea,
   peru: Peru,

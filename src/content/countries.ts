@@ -602,6 +602,31 @@ export const countries: Country[] = [
     },
   },
   {
+    slug: "israel",
+    flagEmoji: "🇮🇱",
+    accentColor: "#1D6FA5",
+    continent: "asia",
+    population: 9800000,
+    translations: {
+      es: {
+        name: "Israel",
+        intro:
+          "Un país donde el desierto florece gota a gota, un idioma volvió a hablarse después de casi dos mil años de silencio, y un mar tan salado que es imposible hundirse en él. Estas páginas son para descubrir un Israel de ciudades blancas construidas por arquitectos exiliados, cabras montesas trepando acantilados y una cocina que se come compartida, directamente del plato central.",
+        capital: "Tel Aviv (de facto)",
+        language: "Hebreo y árabe",
+        currency: "Shekel israelí (ILS)",
+      },
+      en: {
+        name: "Israel",
+        intro:
+          "A country where the desert blooms drop by drop, a language returned to daily speech after nearly two thousand years of silence, and a sea so salty that sinking in it is impossible. These pages are here to discover an Israel of white cities built by exiled architects, ibex climbing desert cliffs, and a cuisine eaten shared, straight from the central plate.",
+        capital: "Tel Aviv (de facto)",
+        language: "Hebrew and Arabic",
+        currency: "Israeli Shekel (ILS)",
+      },
+    },
+  },
+  {
     slug: "palestine",
     flagEmoji: "🇵🇸",
     accentColor: "#6B7A3A",

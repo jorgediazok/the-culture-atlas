@@ -606,6 +606,56 @@ labeling its capital (Jerusalem vs. Tel Aviv is genuinely disputed, unlike
 any other country in the atlas) — don't revisit this unless the user
 raises it again themselves.
 
+**Update (2026-08-29): the user raised it again themselves, so Israel was
+added**, bringing the atlas to 206 countries/territories, done directly in
+the main session with no background agents. The capital-labeling question
+was put back to the user explicitly rather than decided unilaterally; they
+chose **"Tel Aviv (de facto)"** — matching the exact `"(de facto)"`
+qualifier style Palestine's own entry already uses for Ramallah, so the
+two entries are now internally consistent with each other. Content (12
+entries, small tier): the Dead Sea's buoyancy and the Dead Sea Scrolls,
+Masada, hummus, Tel Aviv's Bauhaus "White City" (UNESCO), the hora circle
+dance, the revival of spoken Hebrew (Eliezer Ben-Yehuda), the Baháʼí
+Gardens in Haifa, drip irrigation's invention, shakshuka, klezmer music,
+Nubian ibex at Ein Gedi, and the Sea of Galilee — deliberately all
+archaeology/nature/food/culture, with Jerusalem itself, the West Bank/Gaza,
+and any conflict framing left out entirely, per the same
+sensitive-topics policy used for every other difficult-history country in
+the atlas (explicit user instruction this round: "no toques temas muy
+polemicos"). Two illustration bugs caught by the user after the first pass
+and fixed by rebuilding (not just eyeballing) the affected pieces: (1) the
+first-draft ibex emblem/illustration had a short stubby horn and a head
+that blended into the body — redrawn with a proper long tapered
+scimitar-curve horn as its own path (drawn first, rooted into the head
+circle per the joint-overlap pattern) and the head as a clearly separate
+circle with its own snout/eye/ear; (2) the Tel Aviv illustration's first
+accentColor (`#E8E3D3`, a very pale cream) was nearly the same tone as
+`IllustrationFrame`'s own pastel-tinted background, so the whole scene
+read as washed-out/low-contrast — this is the "low-contrast fill on light
+accentColor" failure mode from the top of this file, just triggered by
+the *entry's own* accentColor being too pale rather than by reusing a
+literal palette color; fixed by picking a properly saturated accentColor
+(`#C97A3D`, warm terracotta) instead. Separately, after the emblem fix
+still didn't land, the user asked for a completely different concept
+instead of another animal — offered a choice (pomegranate / menorah /
+Tel Aviv building silhouette) and the user picked the **menorah**,
+rebuilt as a symmetric seven-branched candelabra (paired curved branches
+mirrored left/right by simple coordinate negation, not trig — consistent
+with the no-Math.sin/cos rule) with all seven flames aligned at the same
+height; confirmed clearly readable at emblem scale on the first try. Also
+caught and fixed in the same pass: the Mar Muerto (Dead Sea) illustration's
+floating figure originally had no stroke/outline on its head or torso, so
+the two same-color shapes blended into one blob wherever they were close
+together, even though they didn't geometrically overlap — same-color
+adjacent shapes need their own outlines to read as separate parts, not
+just correct positioning. All 12 entries passed `tsc --noEmit`, `eslint`,
+the id-matching audit, a length audit (all descriptions 731–880 chars,
+comfortably inside the ≤1000 cap), and a full `rm -rf .next && npm run build`
+(206 countries × 2 langs). The footer's country/story counts are computed
+live from the content files (an earlier session made this dynamic instead
+of a hardcoded target), so they picked up 206/3,096 automatically with no
+manual edit needed.
+
 **Somalia, Faroe Islands, Aruba, and Sint Maarten added from scratch
 (2026-08-23)**, bringing the atlas to 205 countries/territories, completing
 Somalia as Africa's last missing country. Same parallel-background-agent

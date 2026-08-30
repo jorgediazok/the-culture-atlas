@@ -22,6 +22,7 @@ import { ugandaIllustrations } from "./uganda";
 import { zimbabweIllustrations } from "./zimbabwe";
 import { chinaIllustrations } from "./china";
 import { iranIllustrations } from "./iran";
+import { israelIllustrations } from "./israel";
 import { palestineIllustrations } from "./palestine";
 import { papuaNewGuineaIllustrations } from "./papua-new-guinea";
 import { peruIllustrations } from "./peru";
@@ -230,6 +231,7 @@ const illustrationsByCountry: Record<string, Record<string, IllustrationDefiniti
   zimbabwe: zimbabweIllustrations,
   china: chinaIllustrations,
   iran: iranIllustrations,
+  israel: israelIllustrations,
   palestine: palestineIllustrations,
   "papua-new-guinea": papuaNewGuineaIllustrations,
   peru: peruIllustrations,

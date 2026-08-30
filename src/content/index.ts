@@ -29,6 +29,7 @@ import { uganda } from "./uganda";
 import { zimbabwe } from "./zimbabwe";
 import { china } from "./china";
 import { iran } from "./iran";
+import { israel } from "./israel";
 import { palestine } from "./palestine";
 import { papuaNewGuinea } from "./papua-new-guinea";
 import { peru } from "./peru";
@@ -236,6 +237,7 @@ export const contentByCountry: Record<string, CultureEntry[]> = {
   zimbabwe,
   china,
   iran,
+  israel,
   palestine,
   "papua-new-guinea": papuaNewGuinea,
   peru,
